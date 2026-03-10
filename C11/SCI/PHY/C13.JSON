@@ -1,0 +1,719 @@
+{
+"deckId": "69ab16bbfc9152e2eef8d355",
+"cards": [
+{
+"cardId": "69ab3f39fc9152e2eef8d4a3",
+"originalOrder": 1,
+"originalHeading": "Periodic vs. Oscillatory Motion",
+"action": "MODIFIED",
+"modificationsSummary": ["Structured reasoning", "Clarified logical relationship"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["science", "physics", "oscillations", "neet", "jee", "class-11"],
+"order": 1,
+"heading": "Periodic vs. Oscillatory Motion",
+"question": "Every oscillatory motion is periodic, but is every periodic motion oscillatory? Give an example to justify.",
+"back": "### The Distinction\n- **Periodic Motion:** A motion that repeats itself identically at regular intervals of time (e.g., uniform circular motion of planets around the Sun).\n- **Oscillatory Motion:** A special case of periodic motion involving a **to-and-fro** (back and forth) movement about a central equilibrium position (e.g., a swinging pendulum or a mass on a spring).\n\n### Conclusion\n- Every oscillatory motion is inherently periodic.\n- However, **not** every periodic motion is oscillatory (like uniform circular motion, which has no to-and-fro aspect)."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a5",
+"originalOrder": 3,
+"originalHeading": "Simple Harmonic Motion (SHM)",
+"action": "MODIFIED",
+"modificationsSummary": ["Elevated classification", "Added explicit mathematical relation"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "shm", "neet", "jee", "class-11"],
+"order": 2,
+"heading": "Simple Harmonic Motion (SHM)",
+"question": "What is the defining physical condition for a periodic to-and-fro motion to be strictly classified as Simple Harmonic Motion (SHM)?",
+"back": "### The Defining Condition\n- SHM is the simplest form of oscillatory motion where the internal **restoring force ($F$)** is strictly and **directly proportional** to the displacement ($x$) from the equilibrium mean position.\n- This restoring force must always act **towards** the equilibrium position.\n- Mathematically: **$F \propto -x$** (or $a \propto -x$).\n- The resulting displacement over time is perfectly represented by a single sinusoidal function (sine or cosine)."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4c7",
+"originalOrder": 26,
+"originalHeading": "SHM as Projection of UCM",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to build foundational geometry", "Expanded mappings"],
+"vettingNotes": "Moved up to establish the visual reference circle concept before introducing heavy math.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "kinematics", "neet", "jee", "class-11"],
+"order": 3,
+"heading": "SHM as Projection of Uniform Circular Motion",
+"question": "How is Simple Harmonic Motion mathematically and geometrically related to Uniform Circular Motion (UCM)?",
+"back": "### The Geometric Relation\n- **Simple Harmonic Motion (SHM)** is the exact mathematical projection of **Uniform Circular Motion (UCM)** onto any diameter of the reference circle.\n- If a particle moves in a reference circle of radius $A$ with a constant angular velocity $\omega$, the foot of the perpendicular dropped from the particle to the x-axis (or y-axis) executes perfect SHM.\n- The radius of the circle directly corresponds to the **Amplitude ($A$)** of the SHM, and the angular velocity corresponds to the **Angular Frequency ($\omega$)**."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a9",
+"originalOrder": 7,
+"originalHeading": "Phase Relationships in SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Added precise radian measures", "Reordered to precede equations"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "phase", "neet", "jee", "class-11"],
+"order": 4,
+"heading": "Phase Relationships in SHM",
+"question": "In Simple Harmonic Motion, what are the exact phase differences between Displacement, Velocity, and Acceleration?",
+"back": "### Phase Differences\n- **Velocity leads Displacement** by a phase angle of $\frac{\pi}{2}$ rad ($90^\circ$). When displacement is maximum, velocity is strictly zero.\n- **Acceleration leads Velocity** by a phase angle of $\frac{\pi}{2}$ rad ($90^\circ$).\n- **Acceleration and Displacement** are perfectly out of phase by strictly **$\pi$** rad ($180^\circ$). When displacement is maximum positive, acceleration is maximum negative.",
+"mnemonic": "Displacement -> +90° -> Velocity -> +90° -> Acceleration"
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a4",
+"originalOrder": 2,
+"originalHeading": "Angular Frequency ($\omega$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "frequency", "oscillations", "neet", "jee", "class-11"],
+"order": 5,
+"heading": "Angular Frequency ($\omega$)",
+"formula": "\omega = \frac{2\pi}{T} = 2\pi f",
+"description": "Relate Angular Frequency mathematically to Time Period and linear Frequency.",
+"derivation": "**Variables & Units:**\n- **$\omega$**: Angular Frequency (rad/s)\n- **$T$**: Time Period (s)\n- **$f$** (or $\nu$): Linear Frequency (Hz or s⁻¹)\n\n**Conditions:**\n- The time period $T$ is the smallest continuous interval of time after which the state of motion strictly repeats itself.\n- Frequency $f$ is the total number of complete oscillations executed per unit time."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a6",
+"originalOrder": 4,
+"originalHeading": "SHM Displacement Equation",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Expanded notes on sin vs cos"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "kinematics", "neet", "jee", "class-11"],
+"order": 6,
+"heading": "SHM Displacement Equation",
+"formula": "x(t) = A \cos(\omega t + \phi)",
+"description": "State the general mathematical expression for displacement in Simple Harmonic Motion.",
+"derivation": "**Variables & Units:**\n- **$x(t)$**: Displacement at time $t$ from the mean equilibrium position (m)\n- **$A$**: Amplitude / Maximum displacement (m)\n- **$\omega$**: Angular frequency (rad/s)\n- **$\omega t + \phi$**: Instantaneous Phase (rad)\n- **$\phi$**: Phase constant or Initial phase angle at $t=0$ (rad)\n\n**Notes:** A sine function ($A \sin(\omega t + \phi)$) is equally valid. The choice simply depends on the initial boundary conditions. If the particle starts at the extreme positive position at $t=0$, $\cos$ naturally gives $\phi=0$. If it starts at the mean position moving positively, $\sin$ gives $\phi=0$."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a7",
+"originalOrder": 5,
+"originalHeading": "Velocity in SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Merged time and displacement functions"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "kinematics", "neet", "jee", "class-11"],
+"order": 7,
+"heading": "Velocity in SHM",
+"formula": "v(t) = -\omega A \sin(\omega t + \phi) \quad \text{and} \quad v(x) = \pm \omega \sqrt{A^2 - x^2}",
+"description": "Formulas for the instantaneous velocity of a particle in SHM as a function of time ($t$) and as a function of displacement ($x$).",
+"derivation": "**Derivation:**\nDifferentiating displacement $x(t) = A\cos(\omega t + \phi)$ with respect to time yields $v(t)$. Substituting $\cos(\theta) = \sqrt{1 - \sin^2(\theta)}$ mathematically converts it to the spatial form $v(x)$.\n\n**Key Positions:**\n- **Maximum Velocity ($v_{max}$):** Occurs exactly at the mean position ($x = 0$) with a magnitude of **$\omega A$**.\n- **Minimum Velocity:** Occurs exactly at the extreme positions ($x = \pm A$) and equals **$0$**."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4a8",
+"originalOrder": 6,
+"originalHeading": "Acceleration in SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "kinematics", "neet", "jee", "class-11"],
+"order": 8,
+"heading": "Acceleration in SHM",
+"formula": "a(t) = -\omega^2 A \cos(\omega t + \phi) = -\omega^2 x",
+"description": "Formulas for the acceleration of a particle in SHM as a function of time ($t$) and displacement ($x$).",
+"derivation": "**Derivation:**\nDifferentiating velocity $v(t)$ with respect to time yields $a(t)$. Recognizing that $A \cos(\omega t + \phi)$ is simply $x$ gives $a = -\omega^2 x$.\n\n**Key Positions:**\n- **Restoring Nature:** The negative sign mathematically mandates that acceleration is always directed towards the mean position, acting exactly opposite to the displacement.\n- **Maximum Acceleration ($a_{max}$):** Occurs at the extreme positions ($x = \pm A$) with a magnitude of **$\omega^2 A$**.\n- **Minimum Acceleration:** Occurs at the mean position ($x = 0$) and equals **$0$**."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4aa",
+"originalOrder": 8,
+"originalHeading": "Force Law for SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Integrated Newton's second law logic"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "dynamics", "neet", "jee", "class-11"],
+"order": 9,
+"heading": "Force Law for Linear SHM",
+"formula": "F = -kx \quad \text{and} \quad \omega = \sqrt{\frac{k}{m}}",
+"description": "State the restoring Force Law for a linear harmonic oscillator and mathematically relate the force constant ($k$) to the angular frequency ($\omega$).",
+"derivation": "**Variables:**\n- **$F$**: Restoring force (N)\n- **$k$**: Force constant / Spring constant (N/m or kg/s²)\n- **$m$**: Mass of the oscillator (kg)\n- **$x$**: Displacement (m)\n\n**Derivation Insight:**\nBy Newton's Second Law, $F = ma$. Substituting $a = -\omega^2 x$ from kinematics, we get $F = -m\omega^2 x$. Comparing this with the restoring law $F = -kx$ mathematically dictates that **$k = m\omega^2$**. This leads directly to the standard time period formula $T = 2\pi \sqrt{\frac{m}{k}}$."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4ac",
+"originalOrder": 10,
+"originalHeading": "Potential Energy in SHM ($U$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Added m omega squared variant"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "energy", "neet", "jee", "class-11"],
+"order": 10,
+"heading": "Potential Energy in SHM ($U$)",
+"formula": "U = \frac{1}{2} k x^2 = \frac{1}{2} m \omega^2 x^2",
+"description": "State the mathematical formula for the Potential Energy of a linear harmonic oscillator as a function of its displacement ($x$).",
+"derivation": "**Energy Characteristics:**\n- Assumes potential energy is taken as zero exactly at the mean equilibrium position ($x=0$). This requires the restoring force to be conservative.\n- **Maximum Potential Energy:** Occurs strictly at the extreme positions ($x=\pm A$) and evaluates to $\frac{1}{2}kA^2$.\n- **Minimum Potential Energy:** Occurs at the mean position ($x=0$) and equals $0$."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4ab",
+"originalOrder": 9,
+"originalHeading": "Kinetic Energy in SHM ($K$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "energy", "neet", "jee", "class-11"],
+"order": 11,
+"heading": "Kinetic Energy in SHM ($K$)",
+"formula": "K = \frac{1}{2} m v^2 = \frac{1}{2} k (A^2 - x^2)",
+"description": "State the formula for the Kinetic Energy of a particle in SHM as a function of its displacement ($x$).",
+"derivation": "**Derivation:**\nSubstitute the velocity-displacement relation $v^2 = \omega^2 (A^2 - x^2)$ and the force constant relation $m\omega^2 = k$ into the standard kinetic energy equation $K = \frac{1}{2}mv^2$.\n\n**Energy Characteristics:**\n- **Maximum Kinetic Energy:** Occurs exactly at the mean position ($x=0$) when velocity is highest, evaluating to $\frac{1}{2}kA^2$.\n- **Minimum Kinetic Energy:** Occurs exactly at the extreme positions ($x=\pm A$) when the particle momentarily stops, evaluating to $0$."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4ad",
+"originalOrder": 11,
+"originalHeading": "Total Mechanical Energy in SHM ($E$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Emphasized constant nature"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "energy", "neet", "jee", "class-11"],
+"order": 12,
+"heading": "Total Mechanical Energy in SHM ($E$)",
+"formula": "E = K + U = \frac{1}{2} k A^2 = \frac{1}{2} m \omega^2 A^2",
+"description": "State the formula for the Total Mechanical Energy of a particle executing simple harmonic motion.",
+"derivation": "**Derivation:**\nAdd Kinetic Energy $K = \frac{1}{2}k(A^2 - x^2)$ and Potential Energy $U = \frac{1}{2}kx^2$. The $x^2$ terms cancel out perfectly, proving mathematically that the total energy is completely independent of the displacement $x$.\n\n**Significance:**\n- The total energy remains strictly **constant** at all times and at all positions, verifying the conservation of mechanical energy (provided there are no dissipative/damping forces).\n- Total energy is directly proportional to the **square of the amplitude** ($A^2$)."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4ae",
+"originalOrder": 12,
+"originalHeading": "Frequency of Energy Oscillation",
+"action": "MODIFIED",
+"modificationsSummary": ["Added half time period explicit mention"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["science", "physics", "shm", "energy", "frequency", "neet", "jee", "class-11"],
+"order": 13,
+"heading": "Frequency of Energy Oscillation",
+"question": "If a particle executing SHM oscillates with a spatial frequency $f$, what is the exact mathematical frequency of oscillation of its Kinetic Energy and Potential Energy?",
+"back": "### Energy Frequency = $2f$\n- While the displacement, velocity, and acceleration vectors oscillate with frequency $f$ (and time period $T$), the scalar energy functions do not go negative.\n- The Kinetic and Potential energies both reach their absolute maximum values **twice** during each complete spatial cycle of SHM (once during the positive excursion, once during the negative excursion).\n- Therefore, the frequency of KE and PE oscillation is exactly **$2f$** (meaning their time period is **$T/2$**)."
+}
+},
+{
+"cardId": "NEW_SHM_ENERGY_GRAPH",
+"originalOrder": 12,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from Phase 1 Gap Analysis", "Added Diagram Trigger"],
+"vettingNotes": "Highly tested graphical question in competitive exams.",
+"cardData": {
+"type": "STANDARD",
+"classification": "IMAGE",
+"tags": ["science", "physics", "shm", "energy", "graphs", "neet", "jee", "class-11"],
+"order": 14,
+"heading": "Graphical Representation of SHM Energy",
+"question": "How do Kinetic Energy ($K$), Potential Energy ($U$), and Total Energy ($E$) mathematically graph against displacement ($x$) in an ideal Simple Harmonic Oscillator?",
+"back": "### Energy vs. Displacement Graphs\n\n\n- **Total Energy ($E$):** Plotted as a completely flat, horizontal straight line at $E = \frac{1}{2}kA^2$. It is universally constant across all displacements.\n- **Potential Energy ($U$):** An upward-opening parabola centered at the origin ($x=0, U=0$). It reaches its peak at $x = \pm A$.\n- **Kinetic Energy ($K$):** A downward-opening parabola. It peaks at the origin ($x=0$) and drops to strictly zero at the extremes ($x = \pm A$).\n- **Intersection Points:** $K$ and $U$ visually intersect at $x = \pm \frac{A}{\sqrt{2}}$, the unique points where the energy is equally split ($K = U = \frac{E}{2}$)."
+}
+},
+{
+"cardId": "NEW_PHASOR_DIAGRAM",
+"originalOrder": 12,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from Phase 1 Gap Analysis", "Added Diagram Trigger"],
+"vettingNotes": "Crucial problem-solving technique for JEE/NEET timing questions.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["science", "physics", "shm", "phasors", "neet", "jee", "class-11"],
+"order": 15,
+"heading": "Phasor (Reference Circle) Technique",
+"question": "Explain the Phasor (Reference Circle) technique used to rapidly solve SHM problems involving the time taken between two specific displacement points.",
+"back": "### The Reference Circle Method\n\n\nInstead of solving complex trigonometric equations, one-dimensional SHM can be mapped to a phantom particle moving in a uniform circle of radius $A$ with angular velocity $\omega$.\n\n1. **Map the Position:** Draw the reference circle. A displacement $x$ corresponds to an angle $\theta$ where $\cos \theta = \frac{x}{A}$ (if mapping to the x-axis) or $\sin \theta = \frac{x}{A}$ (if mapping to the y-axis).\n2. **Find the Angle Traversed:** Determine the exact angular sweep $\Delta \theta$ between the initial position vector and the final position vector.\n3. **Calculate Time:** Because the reference particle moves at a constant angular velocity $\omega = \frac{2\pi}{T}$, the time taken is simply calculated as **$t = \frac{\Delta \theta}{\omega}$**."
+}
+},
+{
+"cardId": "NEW_AVG_ENERGY",
+"originalOrder": 12,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
+"vettingNotes": "Advanced fundamental concept.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "energy", "neet", "jee", "class-11"],
+"order": 16,
+"heading": "Average Energy over One Cycle",
+"formula": "\langle K \rangle = \langle U \rangle = \frac{1}{4} k A^2 = \frac{1}{2} E",
+"description": "State the theoretical average values of Kinetic Energy and Potential Energy over one complete cycle of Simple Harmonic Motion.",
+"derivation": "**Mathematical Averages:**\n- Time-Average Kinetic Energy: $\langle K \rangle = \frac{1}{T} \int_0^T \frac{1}{2} m \omega^2 A^2 \cos^2(\omega t) dt$\n- Time-Average Potential Energy: $\langle U \rangle = \frac{1}{T} \int_0^T \frac{1}{2} k A^2 \sin^2(\omega t) dt$\n\nBecause the mathematical average value of both $\sin^2(\omega t)$ and $\cos^2(\omega t)$ evaluated over one full periodic cycle is exactly **$\frac{1}{2}$**, the time-averaged Kinetic and Potential energies are identically equal to **half the total mechanical energy**."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b2",
+"originalOrder": 16,
+"originalHeading": "Time Period of a Spring-Mass System",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Emphasized horizontal vs vertical irrelevance"],
+"vettingNotes": "Reordered to be the first physical application system.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "springs", "neet", "jee", "class-11"],
+"order": 17,
+"heading": "Time Period of a Spring-Mass System",
+"formula": "T = 2\pi \sqrt{\frac{m}{k}}",
+"description": "State the formula for the time period of a block of mass $m$ attached to an ideal massless spring of constant $k$.",
+"derivation": "**Variables & Conditions:**\n- **$T$**: Time period (s)\n- **$m$**: Mass of the oscillating block (kg)\n- **$k$**: Spring constant (N/m)\n\n**Vertical vs. Horizontal:**\nThis formula holds identically for both **horizontal** and **vertical** spring oscillations. In vertical oscillations, constant gravity simply shifts the mean position downward by a fixed amount $\Delta x = \frac{mg}{k}$. It **does not alter the restoring force gradient**, so the time period and frequency remain completely unchanged."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b3",
+"originalOrder": 17,
+"originalHeading": "Equivalent Spring Constant (Series)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Detailed physical mechanism"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "springs", "neet", "jee", "class-11"],
+"order": 18,
+"heading": "Equivalent Spring Constant (Series)",
+"formula": "\frac{1}{k_{eq}} = \frac{1}{k_1} + \frac{1}{k_2} \implies k_{eq} = \frac{k_1 k_2}{k_1 + k_2}",
+"description": "State the formula for the equivalent spring constant when two springs of constants $k_1$ and $k_2$ are connected end-to-end in series.",
+"derivation": "**Physical Mechanism:**\n- In series, the restoring tension force ($F$) acting through both springs is strictly identical ($F_1 = F_2 = F$).\n- However, their individual extensions ($x_1, x_2$) add up to the total extension: $x_{total} = x_1 + x_2$.\n- Substituting $x = F/k$, we get $\frac{F}{k_{eq}} = \frac{F}{k_1} + \frac{F}{k_2}$. Canceling $F$ yields the formula.\n- **Result:** The equivalent spring constant is always **smaller** than the smallest individual spring constant in the chain."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b4",
+"originalOrder": 18,
+"originalHeading": "Equivalent Spring Constant (Parallel)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Added the 'mass between two walls' edge case"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "springs", "neet", "jee", "class-11"],
+"order": 19,
+"heading": "Equivalent Spring Constant (Parallel)",
+"formula": "k_{eq} = k_1 + k_2",
+"description": "State the formula for the equivalent spring constant when two springs of constants $k_1$ and $k_2$ are connected side-by-side in parallel.",
+"derivation": "**Physical Mechanism:**\n- In parallel, the physical displacement ($x$) for both springs is forced to be identically the same ($x_1 = x_2 = x$).\n- However, the total restoring force is the sum of the individual forces exerted by each spring: $F_{total} = F_1 + F_2$.\n- Substituting $F = kx$, we get $k_{eq} x = k_1 x + k_2 x$. Canceling $x$ yields the formula.\n\n**Crucial Case:**\nThis formula also perfectly applies to the case when a single mass is placed *between* two opposing springs attached to rigid walls. Moving the mass stretches one spring and simultaneously compresses the other by the exact same displacement $x$, both naturally pushing/pulling the mass in the same restoring direction."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4af",
+"originalOrder": 13,
+"originalHeading": "Time Period of a Simple Pendulum",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Expanded rotational derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "pendulum", "neet", "jee", "class-11"],
+"order": 20,
+"heading": "Time Period of a Simple Pendulum",
+"formula": "T = 2\pi \sqrt{\frac{L}{g}}",
+"description": "State the formula for the time period of a simple pendulum executing SHM.",
+"derivation": "**Derivation:**\n1. Restoring torque $\tau = -L (mg \sin\theta)$. \n2. For small angles, $\sin\theta \approx \theta$, so $\tau = -mgL \theta$.\n3. Using rotational dynamics $\tau = I\alpha = (mL^2)\alpha$, we get $\alpha = -\frac{g}{L}\theta$.\n4. Comparing with $\alpha = -\omega^2\theta$, we find $\omega = \sqrt{\frac{g}{L}}$, yielding $T = 2\pi \sqrt{\frac{L}{g}}$.\n\n**Properties:**\n- The time period is perfectly **independent of the mass ($m$)** of the bob.\n- $L$ is the effective length, measured from the pivot point strictly to the center of mass of the bob."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b0",
+"originalOrder": 14,
+"originalHeading": "Boundary Condition for Pendulum SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Formalized the Maclaurin series link"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "pendulum", "neet", "jee", "class-11"],
+"order": 21,
+"heading": "Boundary Condition for Pendulum SHM",
+"question": "Why is the real-world motion of a swinging simple pendulum only an *approximation* of true Simple Harmonic Motion? What specific boundary condition makes the standard SHM equations valid?",
+"back": "### The Small Angle Approximation\n- The actual tangential restoring force for a pendulum is $F = -mg \sin\theta$.\n- For a system to execute true SHM, the restoring force must be linearly proportional to the displacement ($\theta$), not the sine of the displacement.\n- This is mathematically acceptable only if the angular displacement $\theta$ is **very small** (typically less than $10^\circ$).\n- Under this strict condition, we can use the first term of the Maclaurin series expansion: **$\sin\theta \approx \theta$** (when measured in radians).\n- At larger angles, the motion remains periodic but becomes **non-linear**, and the simple $T = 2\pi\sqrt{L/g}$ formula fails."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b1",
+"originalOrder": 15,
+"originalHeading": "Seconds Pendulum",
+"action": "MODIFIED",
+"modificationsSummary": ["Clarified beat mechanics"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "shm", "pendulum", "neet", "jee", "class-11"],
+"order": 22,
+"heading": "Seconds Pendulum",
+"question": "What defines a 'Seconds Pendulum', and what is its approximate effective length on the surface of the Earth?",
+"back": "### Definition\nA seconds pendulum is a simple pendulum whose total **time period is exactly 2 seconds**. This means it takes precisely 1 second for each swing from one extreme to the opposite extreme (one 'beat' or half-oscillation).\n\n### Approximate Length\n- Using the standard formula $T = 2\pi \sqrt{\frac{L}{g}}$, substitute $T = 2$ s and $g \approx 9.8$ m/s².\n- $L = \frac{g T^2}{4\pi^2} = \frac{9.8 \times 4}{4\pi^2} \approx 0.994 \text{ m}$.\n- Therefore, it is approximately **$1$ meter** long."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4c8",
+"originalOrder": 27,
+"originalHeading": "Effective Gravity on a Simple Pendulum",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Structured accelerating frames clearly"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "pendulum", "kinematics", "neet", "jee", "class-11"],
+"order": 23,
+"heading": "Effective Gravity on a Simple Pendulum",
+"formula": "T = 2\pi \sqrt{\frac{L}{g_{\text{eff}}}}",
+"description": "State the formula for the time period of a simple pendulum placed inside a uniformly accelerating frame of reference (e.g., an elevator or a moving car).",
+"derivation": "**Boundary Conditions / Scenarios:**\n- **Elevator accelerating upwards ($a$):** Pseudo-force acts downwards. $g_{\text{eff}} = g + a$. (Time period decreases, it swings faster).\n- **Elevator accelerating downwards ($a$):** Pseudo-force acts upwards. $g_{\text{eff}} = g - a$. (Time period increases, it swings slower).\n- **Free fall ($a = g$):** $g_{\text{eff}} = 0 \implies T = \infty$. (It experiences weightlessness and will not oscillate).\n- **Car accelerating horizontally ($a$):** Gravity acts down, pseudo-force acts horizontally. They add as vectors: $g_{\text{eff}} = \sqrt{g^2 + a^2}$."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4cc",
+"originalOrder": 31,
+"originalHeading": "Compound (Physical) Pendulum",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "rigid-body", "neet", "jee", "class-11"],
+"order": 24,
+"heading": "Compound (Physical) Pendulum",
+"formula": "T = 2\pi \sqrt{\frac{I}{m g d}}",
+"description": "State the formula for the time period of a Compound (Physical) Pendulum, which applies to any extended rigid body oscillating about a pivot.",
+"derivation": "**Variables & Units:**\n- **$T$**: Time period (s)\n- **$I$**: Moment of Inertia of the rigid body about the specific axis of rotation/suspension (kg·m²)\n- **$m$**: Total mass of the rigid body (kg)\n- **$g$**: Acceleration due to gravity (m/s²)\n- **$d$**: Distance from the pivot point strictly to the Center of Mass (m)\n\n**Significance:**\nThis is the generalized geometric formula. A simple pendulum is just a special case where $I = ml^2$ and $d = l$."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4cd",
+"originalOrder": 32,
+"originalHeading": "Torsional Pendulum",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Emphasized angular spring analogy"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "rotation", "neet", "jee", "class-11"],
+"order": 25,
+"heading": "Torsional Pendulum",
+"formula": "T = 2\pi \sqrt{\frac{I}{C}}",
+"description": "State the formula for the time period of a Torsional Pendulum (a rigid body suspended by a wire, undergoing angular twisting in the horizontal plane).",
+"derivation": "**Variables:**\n- **$T$**: Time period (s)\n- **$I$**: Moment of Inertia of the oscillating body about the suspension axis (kg·m²)\n- **$C$** (or $\kappa$): Torsional constant of the wire (Restoring torque developed per unit angle of twist) (N·m/rad)\n\n**Dynamics:**\n- The restoring torque is directly proportional to the angle of twist: $\tau = -C \theta$.\n- This provides an exact angular analogy to the linear spring-mass system ($T = 2\pi \sqrt{\frac{m}{k}}$), where mass ($m$) translates to Inertia ($I$) and the spring constant ($k$) translates to the Torsional constant ($C$)."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4c9",
+"originalOrder": 28,
+"originalHeading": "Oscillation of Liquid in a U-Tube",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Simplified step-by-step derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "fluids", "neet", "jee", "class-11"],
+"order": 26,
+"heading": "Oscillation of Liquid in a U-Tube",
+"formula": "T = 2\pi \sqrt{\frac{h}{g}} = 2\pi \sqrt{\frac{L}{2g}}",
+"description": "State the formula for the time period of oscillation of a frictionless liquid column of total length $L$ oscillating in a uniform U-tube.",
+"derivation": "**Derivation:**\n1. Restoring force for a displacement $y$: $F = - (2y \cdot A \cdot \rho) g$\n2. Mass of entire liquid column: $m = (A \cdot L \cdot \rho)$\n3. Acceleration $a = \frac{F}{m} = - \frac{2 A \rho g}{A L \rho} y = - \frac{2g}{L} y$\n4. Since $a = -\omega^2 y$, we find $\omega = \sqrt{\frac{2g}{L}}$, giving $T = 2\pi \sqrt{\frac{L}{2g}}$.\n\n**Key Insight:**\nThe time period is completely **independent of the density ($\rho$)** of the liquid and the cross-sectional area ($A$) of the tube."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4ca",
+"originalOrder": 29,
+"originalHeading": "Oscillation of a Floating Cylinder",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Emphasized extra upthrust"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "buoyancy", "neet", "jee", "class-11"],
+"order": 27,
+"heading": "Oscillation of a Floating Cylinder",
+"formula": "T = 2\pi \sqrt{\frac{m}{A \rho g}} = 2\pi \sqrt{\frac{h}{g}}",
+"description": "State the formula for the time period of vertical SHM for a uniform cylinder of mass $m$ and cross-sectional area $A$ floating in a liquid of density $\rho$.",
+"derivation": "**Derivation:**\n1. Restoring force $F = -(\text{Extra Upthrust}) = - (A \cdot y \cdot \rho) g$\n2. $a = \frac{F}{m} = - \left(\frac{A \rho g}{m}\right) y$\n3. $\omega^2 = \frac{A \rho g}{m}$, hence $T = 2\pi \sqrt{\frac{m}{A \rho g}}$.\n4. At initial equilibrium, weight equals buoyancy: $mg = A h \rho g \implies m = A h \rho$.\n5. Substituting this mass yields the simpler form $T = 2\pi \sqrt{\frac{h}{g}}$.\n*(Where $h$ is the equilibrium submerged depth).*"
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4cb",
+"originalOrder": 30,
+"originalHeading": "Oscillation in an Earth Tunnel",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "shm", "gravitation", "neet", "jee", "class-11"],
+"order": 28,
+"heading": "Oscillation in an Earth Tunnel",
+"formula": "T = 2\pi \sqrt{\frac{R}{g}} \approx 84.6 \text{ minutes}",
+"description": "State the formula for the time period of oscillation of a mass dropped into a straight, frictionless tunnel dug completely through the Earth.",
+"derivation": "**Derivation:**\n1. Gravity at a distance $y$ from the Earth's center is $g' = g \frac{y}{R}$.\n2. Restoring force $F = -mg' = -m \frac{g}{R} y$\n3. $a = -\frac{g}{R} y$.\n4. Comparing with $a = -\omega^2 y$, we find $\omega = \sqrt{\frac{g}{R}}$.\n\n**Universal Property:**\nThis remarkable formula holds true whether the tunnel passes exactly through the center of the Earth or along **any other random chord**. The time period remains exactly 84.6 minutes."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4d1",
+"originalOrder": 36,
+"originalHeading": "Superposition of Collinear SHMs",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "superposition", "neet", "jee", "class-11"],
+"order": 29,
+"heading": "Superposition of Collinear SHMs",
+"formula": "A = \sqrt{A_1^2 + A_2^2 + 2 A_1 A_2 \cos \phi}",
+"description": "State the formula for the resultant amplitude $A$ when two collinear SHMs of amplitudes $A_1$ and $A_2$ having a phase difference $\phi$ are superposed.",
+"derivation": "**Variables & Boundary Conditions:**\n- **$A$**: Resultant Amplitude\n- **$A_1, A_2$**: Amplitudes of individual parallel SHMs\n- **$\phi$**: Phase difference between the two waves\n\n**Special Cases:**\n- If $\phi = 0$ (Perfectly In phase): $A = A_1 + A_2$ (Constructive Interference / Maximum)\n- If $\phi = \pi$ (Perfectly Out of phase): $A = |A_1 - A_2|$ (Destructive Interference / Minimum)"
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4d2",
+"originalOrder": 37,
+"originalHeading": "Lissajous Figures: Perpendicular Superposition",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification", "Added Image Trigger"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["science", "physics", "shm", "superposition", "neet", "jee", "class-11"],
+"order": 30,
+"heading": "Lissajous Figures: Perpendicular Superposition",
+"question": "When two mutually perpendicular SHMs of equal amplitude and equal frequency superpose, what specific phase differences ($\phi$) result in a straight line, and which result in a perfect circle?",
+"back": "### Resultant Trajectories (Lissajous Figures)\n\n\n- **Straight Line:** Occurs when the phase difference is exactly $\phi = 0$ or $\phi = \pi$.\n  - If $\phi = 0$, the line has a positive slope ($y = x$).\n  - If $\phi = \pi$, the line has a negative slope ($y = -x$).\n- **Perfect Circle:** Occurs when the phase difference is exactly $\phi = \pi/2$ (or $90^\circ$). One SHM mathematically acts as a sine wave while the other acts as a cosine wave, satisfying the circle equation $x^2 + y^2 = A^2$.\n- **Ellipse:** Results from any other arbitrary phase difference."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b5",
+"originalOrder": 19,
+"originalHeading": "Damped Simple Harmonic Motion",
+"action": "MODIFIED",
+"modificationsSummary": ["Polished definition of damping force"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "neet", "jee", "class-11"],
+"order": 31,
+"heading": "Damped Simple Harmonic Motion",
+"question": "In real-world oscillating systems, why do oscillations eventually stop? Describe the mathematical nature of the typical fluid damping force.",
+"back": "### Energy Dissipation\nReal oscillations naturally decay and stop due to **dissipative forces** like air resistance, viscous drag, or internal mechanical friction, which continuously drain mechanical energy from the system, converting it irreversibly into thermal energy.\n\n### Damping Force ($F_d$)\nFor reasonably small velocities, the opposing damping force is strictly proportional to the instantaneous velocity of the oscillator but acts in the exact opposite direction.\n**$F_d = -b v$**\n(where $b$ is the damping constant in kg/s, indicating the resistive strength of the surrounding medium)."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b6",
+"originalOrder": 20,
+"originalHeading": "Equation of Damped SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "differential-equations", "neet", "jee", "class-11"],
+"order": 32,
+"heading": "Equation of Damped SHM",
+"formula": "m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = 0",
+"description": "State the second-order linear differential equation governing a weakly damped harmonic oscillator.",
+"derivation": "**Variables:**\n- **$m$**: Mass of the oscillator (kg)\n- **$b$**: Damping constant (kg/s)\n- **$k$**: Spring constant (N/m)\n- **$x$**: Displacement (m)\n\n**Derivation Construction:**\nFormulated strictly by summing the restoring force ($-kx$) and the viscous damping force ($-bv$) using Newton's Second Law ($F_{net} = ma$):\n$-kx - bv = ma \implies m a + b v + k x = 0$. Substituting $v = \frac{dx}{dt}$ and $a = \frac{d^2 x}{dt^2}$ yields the final differential equation."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b7",
+"originalOrder": 21,
+"originalHeading": "Displacement in Damped SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "kinematics", "neet", "jee", "class-11"],
+"order": 33,
+"heading": "Displacement in Damped SHM",
+"formula": "x(t) = A e^{-\frac{bt}{2m}} \cos(\omega' t + \phi)",
+"description": "State the mathematical solution for displacement $x(t)$ in a weakly damped harmonic oscillator. How does its amplitude behave?",
+"derivation": "**Variables:**\n- **$\omega'$**: Damped angular frequency (rad/s)\n- **$b$**: Damping constant (kg/s)\n- **$m$**: Mass (kg)\n\n**Amplitude Behavior:**\nThe term $A e^{-\frac{bt}{2m}}$ represents the **time-dependent amplitude**. Unlike ideal continuous SHM, this amplitude is not constant; it shrinks exponentially over time, bounded by an exponential decay envelope. The oscillations continue until the amplitude becomes completely negligible."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b8",
+"originalOrder": 22,
+"originalHeading": "Angular Frequency of Damped Oscillator",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "frequency", "neet", "jee", "class-11"],
+"order": 34,
+"heading": "Angular Frequency of Damped Oscillator",
+"formula": "\omega' = \sqrt{\frac{k}{m} - \frac{b^2}{4m^2}} = \sqrt{\omega_0^2 - \left(\frac{b}{2m}\right)^2}",
+"description": "State the formula for the modified angular frequency ($\omega'$) of a weakly damped harmonic oscillator.",
+"derivation": "**Variables:**\n- **$\omega_0$**: Natural (undamped) angular frequency ($\sqrt{k/m}$) (rad/s)\n- **$b$**: Damping constant (kg/s)\n- **$m$**: Mass (kg)\n\n**Physical Consequence:**\nThe presence of damping mathematically **decreases** the frequency of oscillation (thereby increasing the time period) compared to the ideal undamped scenario. However, if the damping $b$ is extremely small, $\omega' \approx \omega_0$."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4b9",
+"originalOrder": 23,
+"originalHeading": "Energy Decay in Damped SHM",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "energy", "neet", "jee", "class-11"],
+"order": 35,
+"heading": "Energy Decay in Damped SHM",
+"formula": "E(t) = \frac{1}{2} k A^2 e^{-\frac{bt}{m}}",
+"description": "State the formula for the Total Mechanical Energy of a weakly damped harmonic oscillator as a strictly decreasing function of time.",
+"derivation": "**Variables:**\n- **$E(t)$**: Mechanical energy at time $t$ (J)\n- **$A$**: Initial undamped maximum amplitude at $t=0$ (m)\n- **$b$**: Damping constant (kg/s)\n- **$m$**: Mass (kg)\n\n**Decay Rate Insight:**\nNotice the exponential energy decay factor is $e^{-bt/m}$, whereas for the amplitude displacement it was $e^{-bt/2m}$. Because Energy is proportional to Amplitude squared ($E \propto A^2$), squaring the amplitude's exponential term removes the denominator's $2$. Thus, the total energy decays **exactly twice as fast** as the amplitude."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4d0",
+"originalOrder": 35,
+"originalHeading": "Logarithmic Decrement ($\lambda$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "neet", "jee", "class-11"],
+"order": 36,
+"heading": "Logarithmic Decrement ($\lambda$)",
+"formula": "\lambda = \ln\left(\frac{a_n}{a_{n+1}}\right) = \frac{b T}{2m}",
+"description": "State the formula for the Logarithmic Decrement ($\lambda$) which characterizes the extent of weak damping via successive peak amplitudes.",
+"derivation": "**Variables:**\n- **$\lambda$**: Logarithmic decrement (Dimensionless)\n- **$a_n$**: Amplitude of the $n$-th oscillation peak\n- **$a_{n+1}$**: Amplitude of the immediate next consecutive oscillation peak\n- **$b$**: Damping constant\n- **$T$**: Time period of the damped oscillation\n\n**Experimental Utility:**\nIt is the natural logarithm of the ratio of two successive amplitudes on the same side of the equilibrium position. It provides a direct, measurable experimental method to calculate the otherwise elusive damping constant $b$."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4cf",
+"originalOrder": 34,
+"originalHeading": "Quality Factor ($Q$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type", "Fixed physics text"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "damping", "neet", "jee", "class-11"],
+"order": 37,
+"heading": "Quality Factor ($Q$)",
+"formula": "Q = 2\pi \frac{E}{\Delta E} = \frac{\omega_0 m}{b}",
+"description": "State the definition and formula for the Quality Factor ($Q$) of a weakly damped harmonic oscillator.",
+"derivation": "**Variables:**\n- **$Q$**: Quality Factor (Dimensionless)\n- **$E$**: Total energy stored in the oscillator (J)\n- **$\Delta E$**: Energy dissipated per single oscillation period (J)\n- **$\omega_0$**: Natural angular frequency (rad/s)\n- **$b$**: Damping constant (kg/s)\n\n**Significance:**\nA high $Q$ means the oscillator is **weakly damped** (it will ring for a long time). It fundamentally signifies the number of complete oscillations the system undergoes before its energy decays drastically."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4ba",
+"originalOrder": 24,
+"originalHeading": "Forced Oscillations & Resonance",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized definition structure"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "resonance", "neet", "jee", "class-11"],
+"order": 38,
+"heading": "Forced Oscillations & Resonance",
+"question": "What happens when a continuous external periodic driving force is applied to a damped harmonic oscillator? Define the phenomenon of 'Resonance'.",
+"back": "### Forced Oscillations\n- When an external periodic force is initially applied, the system exhibits erratic motion (transient state) but soon settles into a **steady state**.\n- In this steady state, the system oscillates exclusively at the **frequency of the external driving force** ($\omega_d$), completely ignoring its own natural free frequency ($\omega_0$).\n\n### Resonance\n- The phenomenon where the amplitude of the forced oscillator becomes **maximum**.\n- This energetic peak occurs exactly when the external driving frequency identically matches the system's inherent natural frequency: **$\omega_d = \omega_0$**."
+}
+},
+{
+"cardId": "69ab3f39fc9152e2eef8d4bb",
+"originalOrder": 25,
+"originalHeading": "Amplitude of a Forced Oscillator",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA type"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "shm", "resonance", "neet", "jee", "class-11"],
+"order": 39,
+"heading": "Amplitude of a Forced Oscillator",
+"formula": "A = \frac{F_0}{\sqrt{m^2(\omega^2 - \omega_d^2)^2 + \omega_d^2 b^2}}",
+"description": "State the formula for the steady-state amplitude ($A$) of a driven harmonic oscillator subjected to a periodic force $F(t) = F_0 \cos(\omega_d t)$.",
+"derivation": "**Variables:**\n- **$F_0$**: Peak amplitude of the driving force (N)\n- **$\omega$**: Natural inherent frequency ($\sqrt{k/m}$) (rad/s)\n- **$\omega_d$**: Applied driving frequency (rad/s)\n- **$b$**: Damping constant (kg/s)\n\n**Damping Influence on Resonance:**\nAt perfect resonance ($\omega_d = \omega$), the first term in the square root vanishes, and the amplitude peaks at $A_{max} = \frac{F_0}{\omega_d b}$. If the damping $b$ is extremely small, the resonance peak is incredibly sharp and high. If $b$ is large, the peak is broad, flat, and much lower."
+}
+},
+{
+"cardId": "69ab3f81fc9152e2eef8d4ce",
+"originalOrder": 33,
+"originalHeading": "Mechanical-Electrical Oscillator Analogy",
+"action": "MODIFIED",
+"modificationsSummary": ["Added mnemonic", "Formatted list"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["science", "physics", "shm", "analogy", "neet", "jee", "class-11"],
+"order": 40,
+"heading": "Mechanical-Electrical Oscillator Analogy",
+"question": "In the study of differential oscillations, what are the exact mechanical equivalents of Inductance ($L$), Capacitance ($C$), and Resistance ($R$) from an L-C-R electrical circuit?",
+"back": "### The Analogy\n- **Inductance ($L$) $\\iff$ Mass ($m$):** Both provide 'inertia' to the system (resisting an instantaneous change in current vs. resisting an instantaneous change in velocity).\n- **Resistance ($R$) $\\iff$ Damping Constant ($b$):** Both are responsible for the non-conservative dissipation of energy as heat.\n- **Inverse Capacitance ($1/C$) $\\iff$ Spring Constant ($k$):** Both represent the restoring 'stiffness' of the system (attempting to pull charge/displacement back to zero).\n- *Bonus:* Charge ($q$) strictly corresponds to Displacement ($x$), and Current ($I = dq/dt$) strictly corresponds to Velocity ($v = dx/dt$).",
+"mnemonic": "L = Mass (Luggage), R = Brakes (b), 1/C = Spring (k)"
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
