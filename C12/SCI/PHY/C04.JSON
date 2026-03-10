@@ -1,0 +1,784 @@
+{
+"deckId": "69aba5fdfc9152e2eef8d541",
+"cards": [
+{
+"cardId": "69abaf21fc9152e2eef8d653",
+"originalOrder": 1,
+"originalHeading": "Oersted's Discovery",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag for clarity"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism"],
+"order": 1,
+"heading": "Oersted's Discovery",
+"question": "What was the fundamental conclusion of Hans Christian Oersted's 1820 experiment regarding straight current-carrying wires and compass needles?",
+"back": "## Explanation:\n- Oersted concluded that **moving charges or electric currents produce a magnetic field** in the surrounding space.\n- The alignment of the compass needle is **tangential** to an imaginary circle which has the straight wire as its centre and its plane perpendicular to the wire. "
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d656",
+"originalOrder": 4,
+"originalHeading": "The Tesla (Unit of Magnetic Field)",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Reordered to precede force formulas"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "units"],
+"order": 2,
+"heading": "The Tesla (Unit of Magnetic Field)",
+"question": "How is the SI unit of the magnetic field (1 Tesla) formally defined in terms of force, charge, and velocity?",
+"back": "## Explanation:\n- The magnitude of the magnetic field is **1 Tesla (T)** when the force acting on a unit charge (**1 C**), moving purely perpendicular to the field with a speed of **1 m/s**, is exactly **1 Newton**.\n- *Note:* A smaller, non-SI unit is the Gauss (G), where $1 \text{ Gauss} = 10^{-4} \text{ Tesla}$."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d654",
+"originalOrder": 2,
+"originalHeading": "Lorentz Force",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping", "Refined description"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "formula", "lorentz-force"],
+"order": 3,
+"heading": "Lorentz Force",
+"formula": "\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})",
+"description": "State the mathematical formula for the total electromagnetic force (Lorentz force) experienced by a point charge moving in the presence of both electric and magnetic fields.",
+"derivation": "## Variables & Units:\n- **$\mathbf{F}$** = Total Lorentz Force (Newtons, N)\n- **$q$** = Charge of the particle (Coulombs, C)\n- **$\mathbf{E}$** = Electric field vector (V/m)\n- **$\mathbf{v}$** = Velocity vector of the charge (m/s)\n- **$\mathbf{B}$** = Magnetic field vector (Tesla, T)\n\n## Conditions/Notes:\n- The magnetic force component ($q(\mathbf{v} \times \mathbf{B})$) is strictly **perpendicular** to both the velocity and the magnetic field."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d655",
+"originalOrder": 3,
+"originalHeading": "Conditions for Zero Magnetic Force",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "lorentz-force"],
+"order": 4,
+"heading": "Conditions for Zero Magnetic Force",
+"question": "Under what two specific kinematic conditions does the magnetic force on a charged particle strictly evaluate to zero?",
+"back": "## Conditions:\n1. **The particle is at rest:** If velocity $v = 0$, the magnetic force vanishes completely.\n2. **Velocity is parallel or anti-parallel to the field:** If the angle $\theta$ between $\mathbf{v}$ and $\mathbf{B}$ is $0^\circ$ or $180^\circ$, the cross product $\mathbf{v} \times \mathbf{B} = 0$, meaning no magnetic force acts on the particle."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d658",
+"originalOrder": 6,
+"originalHeading": "Work Done by Magnetic Force",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "work", "kinetic-energy"],
+"order": 5,
+"heading": "Work Done by Magnetic Force",
+"question": "How much work is done by a static magnetic field on a moving charge, and how does this affect the particle's kinetic energy?",
+"back": "## Explanation:\n- The work done is **strictly zero**.\n- **Why?** The magnetic force is a cross product, meaning it is always purely perpendicular to the particle's velocity (and thus its displacement). Since $\mathbf{F} \cdot d\mathbf{s} = 0$, no work is done.\n- Consequently, a static magnetic field can alter the **direction** of a particle's momentum, but it **cannot change its speed or kinetic energy**."
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d694",
+"originalOrder": 44,
+"originalHeading": "Frame Dependence of Magnetic Force",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to follow Lorentz force concepts"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "relativity"],
+"order": 6,
+"heading": "Frame Dependence of Magnetic Force",
+"question": "If you observe a moving charge from a reference frame moving at the exact same velocity $\mathbf{v}$, the magnetic force $q(\mathbf{v} \times \mathbf{B})$ vanishes. How is the particle's motion explained in this new frame?",
+"back": "## Explanation:\n- In the rest frame of the particle, its velocity is zero, so the magnetic force is strictly zero.\n- However, the overall physical acceleration of the particle must remain real.\n- The motion is explained by the fact that changing reference frames transforms the fields: an **appropriate electric field appears in the new frame** to provide the exact same force.\n- *Significance:* This paradox highlights that electricity and magnetism are deeply linked (Electromagnetism) and that the Lorentz force does not imply a universal preferred frame of reference."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d659",
+"originalOrder": 7,
+"originalHeading": "Radius of Circular Path in Magnetic Field",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "circular-motion", "formula"],
+"order": 7,
+"heading": "Radius of Circular Path in Magnetic Field",
+"formula": "r = \frac{mv}{qB}",
+"description": "State the formula for the radius of the circular path described by a charged particle injected perpendicularly into a uniform magnetic field. ",
+"derivation": "## Derivation:\n1. For circular motion, Magnetic Force provides Centripetal Force.\n2. $qvB = \frac{mv^2}{r}$.\n3. Rearranging for $r$ gives $r = \frac{mv}{qB}$.\n\n## Variables & Units:\n- **$r$** = Radius of the circular path (m)\n- **$m$** = Mass of the particle (kg)\n- **$v$** = Speed of the particle (m/s)\n- **$q$** = Magnitude of charge (C)\n- **$B$** = Magnetic field strength (T)\n\n## Conditions/Notes:\n- The radius is directly proportional to the particle's momentum ($mv$)."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65a",
+"originalOrder": 8,
+"originalHeading": "Cyclotron Frequency",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "Kept angular and linear frequency together as they are directly proportional and conceptually bound.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "cyclotron", "formula"],
+"order": 8,
+"heading": "Cyclotron Frequency",
+"formula": "\omega = \frac{qB}{m} \quad ; \quad \nu = \frac{qB}{2\pi m}",
+"description": "State the formulas for the angular frequency ($\omega$) and the linear frequency ($\nu$) of a charged particle in uniform circular motion within a magnetic field.",
+"derivation": "## Variables & Units:\n- **$\omega$** = Angular frequency (rad/s)\n- **$\nu$** = Cyclotron frequency (Hertz, Hz)\n- **$q$** = Charge (C)\n- **$B$** = Magnetic field (T)\n- **$m$** = Mass (kg)\n\n## Conditions/Notes:\n- **Crucial Feature:** The frequency of revolution is fundamentally **independent of the particle's velocity and the orbit's radius**. This is the core principle behind the Cyclotron."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65d",
+"originalOrder": 11,
+"originalHeading": "Cyclotron Principle & Electron Limitation",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to directly follow Cyclotron frequency"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "cyclotron"],
+"order": 9,
+"heading": "Cyclotron Principle & Electron Limitation",
+"question": "What is the primary resonance condition of a Cyclotron, and why cannot electrons be accelerated by it?",
+"back": "## Explanation:\n- **Resonance Condition:** A cyclotron works only when the frequency of the applied alternating electric field (oscillator frequency) **exactly matches** the natural cyclotron frequency of the particle ($\nu_a = \nu_c = \frac{qB}{2\pi m}$). \n- **Electron Limitation:** Electrons have an extremely small mass. They reach relativistic speeds very quickly, causing their mass to vary significantly ($m = \frac{m_0}{\sqrt{1 - v^2/c^2}}$). This rapid mass variation **upsets the resonance condition**, throwing them out of sync with the oscillator."
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d690",
+"originalOrder": 40,
+"originalHeading": "Maximum Kinetic Energy in a Cyclotron",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to complete Cyclotron chunk", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "cyclotron", "energy", "formula"],
+"order": 10,
+"heading": "Maximum Kinetic Energy in a Cyclotron",
+"formula": "K_{max} = \frac{q^2 B^2 R^2}{2m}",
+"description": "State the formula for the maximum kinetic energy acquired by a charged particle just before it exits the cyclotron dees.",
+"derivation": "## Derivation:\n1. Maximum velocity $v_{max}$ occurs at the maximum radius $R$.\n2. From circular motion, $R = \frac{m v_{max}}{qB} \implies v_{max} = \frac{qBR}{m}$.\n3. Kinetic Energy $K = \frac{1}{2} m v_{max}^2$.\n4. Substitute $v_{max}$ to get $K_{max} = \frac{1}{2} m \left(\frac{qBR}{m}\right)^2 = \frac{q^2 B^2 R^2}{2m}$.\n\n## Variables & Units:\n- **$K_{max}$** = Maximum kinetic energy (Joules, J)\n- **$q$** = Charge of the particle (C)\n- **$B$** = Magnetic field strength (T)\n- **$R$** = Radius of the cyclotron 'dees' (maximum orbital radius) (m)\n- **$m$** = Mass of the particle (kg)\n\n## Conditions/Notes:\n- This energy is entirely independent of the potential difference of the oscillating electric field (the voltage only determines *how many revolutions* it takes to reach this energy, not the final limit)."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65b",
+"originalOrder": 9,
+"originalHeading": "Pitch of a Helical Path",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "helical-motion"],
+"order": 11,
+"heading": "Pitch of a Helical Path",
+"question": "When a charged particle enters a magnetic field at an arbitrary angle (not $90^\circ$), it follows a helical path. How is the 'pitch' of this helix defined?",
+"back": "## Explanation:\n- The **pitch** is defined as the linear distance moved by the particle **parallel to the magnetic field** during one complete rotation (one time period). \n- It relies entirely on the component of velocity that is parallel to the magnetic field ($v_\parallel = v \cos\theta$)."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65c",
+"originalOrder": 10,
+"originalHeading": "Pitch Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "helical-motion", "formula"],
+"order": 12,
+"heading": "Pitch Formula",
+"formula": "p = v_{\parallel} T = \frac{2\pi m v \cos\theta}{qB}",
+"description": "State the formula for the pitch of a charged particle's helical path in a uniform magnetic field.",
+"derivation": "## Variables & Units:\n- **$p$** = Pitch of the helix (m)\n- **$v_\parallel$** = Component of velocity parallel to the B-field (m/s)\n- **$T$** = Time period of one revolution (s)\n- **$\theta$** = Angle between velocity vector and magnetic field\n\n## Conditions/Notes:\n- The radius of this helix is governed strictly by the perpendicular component of velocity ($v_\perp = v \sin\theta$), so $r = \frac{m v \sin\theta}{qB}$."
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d68f",
+"originalOrder": 39,
+"originalHeading": "Velocity Selector",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to complete kinematic motion chunk", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "velocity-selector", "formula"],
+"order": 13,
+"heading": "Velocity Selector",
+"formula": "v = \frac{E}{B}",
+"description": "State the formula for the velocity of a charged particle that passes completely undeflected through crossed (mutually perpendicular) electric and magnetic fields.",
+"derivation": "## Derivation:\n1. For no deflection, net Lorentz force $\mathbf{F} = 0$.\n2. $q\mathbf{E} + q(\mathbf{v} \times \mathbf{B}) = 0$.\n3. Since fields are perpendicular, magnitudes must be equal: $qE = qvB$.\n4. Canceling $q$ gives $v = \frac{E}{B}$.\n\n## Variables & Units:\n- **$v$** = Speed of the undeflected particle (m/s)\n- **$E$** = Magnitude of the uniform electric field (V/m)\n- **$B$** = Magnitude of the uniform magnetic field (T)\n\n## Conditions/Notes:\n- The electric field $\mathbf{E}$, magnetic field $\mathbf{B}$, and velocity $\mathbf{v}$ must all be mutually perpendicular. \n- The electric force ($qE$) and magnetic force ($qvB$) act in exactly opposite directions and cancel out.\n- This principle is used in **Mass Spectrometers** and was used by J.J. Thomson to measure the specific charge ($e/m$) of an electron."
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d693",
+"originalOrder": 43,
+"originalHeading": "Magnetic Bottles (Plasma Confinement)",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to group with helical motion concepts"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "magnetic-confinement"],
+"order": 14,
+"heading": "Magnetic Bottles (Plasma Confinement)",
+"question": "How does a 'magnetic bottle' arrangement trap extremely hot plasma, and what happens to the radius of a charged particle's helical path as it approaches the ends of the bottle?",
+"back": "## Explanation:\n- **Mechanism:** It uses two solenoids spaced apart to create a non-uniform magnetic field that is weaker in the middle and much stronger at the ends (acting as magnetic mirrors). \n- **Helical Path Radius:** As the charged particle moves into the stronger magnetic field at the ends, the **radius of its helical path decreases**.\n- **Confinement:** The geometry creates a repelling force component against the forward motion, causing the particles to turn back before hitting the walls, successfully confining plasma (used in Tokamaks/ITER)."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65e",
+"originalOrder": 12,
+"originalHeading": "Biot-Savart Law",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "biot-savart", "formula"],
+"order": 15,
+"heading": "Biot-Savart Law",
+"formula": "d\mathbf{B} = \frac{\mu_0}{4\pi} \frac{I d\mathbf{l} \times \mathbf{r}}{r^3}",
+"description": "State the vector equation of the Biot-Savart law for the infinitesimal magnetic field produced by a small current element.",
+"derivation": "## Variables & Units:\n- **$d\mathbf{B}$** = Infinitesimal magnetic field (Tesla, T)\n- **$I$** = Current (A)\n- **$d\mathbf{l}$** = Vector length of the current element (m)\n- **$\mathbf{r}$** = Position vector from the element to the observation point\n- **$\mu_0$** = Permeability of free space ($4\pi \times 10^{-7} \\; T\cdot m/A$)\n\n## Conditions/Notes:\n- The direction of $d\mathbf{B}$ is strictly perpendicular to the plane containing both $d\mathbf{l}$ and $\mathbf{r}$."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d65f",
+"originalOrder": 13,
+"originalHeading": "Biot-Savart vs. Coulomb's Law",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "biot-savart"],
+"order": 16,
+"heading": "Biot-Savart vs. Coulomb's Law",
+"question": "What are two fundamental differences between the electrostatic field produced by a charge and the magnetic field produced by a current element?",
+"back": "## Distinctions:\n1. **Nature of Source:** The electrostatic field is produced by a **scalar source** (charge $q$), whereas the magnetic field is produced by a **vector source** (current element $I d\mathbf{l}$).\n2. **Angle Dependence:** The Biot-Savart law features an angle dependence ($\sin\theta$ between $d\mathbf{l}$ and $\mathbf{r}$), meaning the magnetic field is strictly zero along the axis of the current element. Coulomb's law has absolutely no angle dependence."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d660",
+"originalOrder": 14,
+"originalHeading": "Relation: $\epsilon_0$, $\mu_0$, and c",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "constants", "formula"],
+"order": 17,
+"heading": "Relation: $\epsilon_0$, $\mu_0$, and c",
+"formula": "c = \frac{1}{\sqrt{\mu_0 \epsilon_0}}",
+"description": "State the profound mathematical relation connecting the permittivity of free space, permeability of free space, and the speed of light in vacuum.",
+"derivation": "## Variables & Units:\n- **$c$** = Speed of light in a vacuum ($\approx 3 \times 10^8$ m/s)\n- **$\mu_0$** = Permeability of free space ($4\pi \times 10^{-7} \\; T\cdot m/A$)\n- **$\epsilon_0$** = Permittivity of free space ($8.854 \times 10^{-12} \\; C^2/N\cdot m^2$)\n\n## Conditions/Notes:\n- This equation is foundational to Maxwell's unification of electromagnetism and optics, proving that light is an electromagnetic wave."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d661",
+"originalOrder": 15,
+"originalHeading": "Magnetic Field on Axis of Circular Loop",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "circular-loop", "formula"],
+"order": 18,
+"heading": "Magnetic Field on Axis of Circular Loop",
+"formula": "B = \frac{\mu_0 I R^2}{2(x^2 + R^2)^{3/2}}",
+"description": "State the formula for the magnitude of the magnetic field at a distance x along the axis of a circular current loop of radius R. ",
+"derivation": "## Derivation:\n1. Consider an element $dl$ on the loop. $dB = \frac{\mu_0}{4\pi} \frac{I dl}{x^2+R^2}$ (since angle is $90^\circ$).\n2. The perpendicular components $dB_\perp$ cancel out from diametrically opposite elements.\n3. Integrate the axial component $dB_x = dB \cos\theta = dB \frac{R}{\sqrt{x^2+R^2}}$.\n4. $\int dl = 2\pi R$.\n5. Simplifying yields the final formula.\n\n## Variables & Units:\n- **$B$** = Magnetic field on the axis (T)\n- **$I$** = Steady current in the loop (A)\n- **$R$** = Radius of the circular loop (m)\n- **$x$** = Distance from the centre of the loop to the observation point (m)\n\n## Conditions/Notes:\n- The direction of the field is purely along the axis of the loop. All perpendicular components cancel out due to symmetry."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d662",
+"originalOrder": 16,
+"originalHeading": "Field at Centre of Circular Loop",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "circular-loop", "formula"],
+"order": 19,
+"heading": "Field at Centre of Circular Loop",
+"formula": "B = \frac{\mu_0 N I}{2R}",
+"description": "State the formula for the magnetic field exactly at the centre of a flat circular current loop having N closely wound turns.",
+"derivation": "## Variables & Units:\n- **$B$** = Magnetic field at the centre (T)\n- **$N$** = Number of turns in the coil\n- **$I$** = Current (A)\n- **$R$** = Radius of the loop (m)\n\n## Conditions/Notes:\n- Derived by setting $x = 0$ in the general axial formula and multiplying by $N$ for multiple turns."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d663",
+"originalOrder": 17,
+"originalHeading": "Right-Hand Thumb Rule (Circular Loop)",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "right-hand-rule"],
+"order": 20,
+"heading": "Right-Hand Thumb Rule (Circular Loop)",
+"question": "How is the Right-Hand Thumb Rule applied to determine the direction of the magnetic field produced by a circular current-carrying loop?",
+"back": "## Application:\n- **Curl your fingers** of the right hand around the circular wire, matching the exact direction of the current flow.\n- **The extended thumb** will automatically point in the direction of the magnetic field lines passing through the centre of the loop. "
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d691",
+"originalOrder": 41,
+"originalHeading": "Helmholtz Coils",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Reordered to complete circular loop fields"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CASE_STUDY",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "helmholtz-coils"],
+"order": 21,
+"heading": "Helmholtz Coils",
+"question": "What specific geometrical arrangement of two circular coils constitutes 'Helmholtz coils', and what is the primary objective of this arrangement?",
+"back": "## Explanation:\n- **Arrangement:** Two identical, co-axial circular coils of radius $R$, carrying identical currents in the same direction, separated by a distance exactly equal to their radius ($x = R$). \n- **Objective:** This setup is specifically designed to produce a highly **uniform magnetic field** over a small region around their mid-point.\n- *Note:* The magnetic field at the midpoint is approximately $B = \frac{0.72 \mu_0 N I}{R}$."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d664",
+"originalOrder": 18,
+"originalHeading": "Ampere's Circuital Law",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "amperes-law", "formula"],
+"order": 22,
+"heading": "Ampere's Circuital Law",
+"formula": "\oint_{C} \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{enclosed}",
+"description": "State the integral equation for Ampere's Circuital Law in a vacuum.",
+"derivation": "## Variables & Units:\n- **$\oint_C \mathbf{B} \cdot d\mathbf{l}$** = Line integral of the magnetic field around a closed loop C\n- **$I_{enclosed}$** = Total net steady current passing strictly through the surface bounded by the loop (A)\n- **$\mu_0$** = Permeability of free space\n\n## Conditions/Notes:\n- It is highly useful for calculating magnetic fields in configurations with high symmetry (like infinite straight wires, solenoids, and toroids)."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d665",
+"originalOrder": 19,
+"originalHeading": "Field of an Infinite Straight Wire",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "infinite-wire", "formula"],
+"order": 23,
+"heading": "Field of an Infinite Straight Wire",
+"formula": "B = \frac{\mu_0 I}{2\pi r}",
+"description": "State the formula for the magnetic field at a perpendicular distance r from an infinitely long straight wire carrying current I.",
+"derivation": "## Derivation:\n1. Choose a circular Amperian loop of radius r centered on the wire.\n2. By symmetry, B is tangential and constant. Thus, $\oint \mathbf{B} \cdot d\mathbf{l} = B(2\pi r)$.\n3. The current enclosed is strictly I.\n4. By Ampere's Law: $B(2\pi r) = \mu_0 I \implies B = \frac{\mu_0 I}{2\pi r}$.\n\n## Variables & Units:\n- **$B$** = Magnetic field magnitude (T)\n- **$I$** = Steady current (A)\n- **$r$** = Perpendicular distance from the wire (m)\n\n## Conditions/Notes:\n- The field lines form perfectly concentric circles around the wire."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d666",
+"originalOrder": 20,
+"originalHeading": "Field Inside a Solid Cylinder",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "cylinder", "formula"],
+"order": 24,
+"heading": "Field Inside a Solid Cylinder",
+"formula": "B = \left( \frac{\mu_0 I}{2\pi a^2} \right) r",
+"description": "State the formula for the magnetic field strictly inside a solid infinitely long cylindrical wire of radius a, carrying a uniform steady current I.",
+"derivation": "## Derivation:\n1. Current density is uniform: $J = \frac{I}{\pi a^2}$.\n2. For an Amperian loop of radius r ($r < a$), enclosed current $I_e = J \times \pi r^2 = I \frac{r^2}{a^2}$.\n3. Applying Ampere's Law: $B(2\pi r) = \mu_0 I \frac{r^2}{a^2}$.\n4. Simplifying gives $B = \frac{\mu_0 I r}{2\pi a^2}$.\n\n## Variables & Units:\n- **$B$** = Magnetic field magnitude inside the wire (T)\n- **$a$** = Total radius of the cylindrical wire (m)\n- **$r$** = Distance from the central axis ($r < a$) (m)\n\n## Conditions/Notes:\n- The magnetic field strictly **increases linearly** from zero at the center to a maximum at the surface ($r = a$). Outside the wire, it drops off as $1/r$."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d667",
+"originalOrder": 21,
+"originalHeading": "Magnetic Field of an Ideal Solenoid",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "solenoid", "formula"],
+"order": 25,
+"heading": "Magnetic Field of an Ideal Solenoid",
+"formula": "B = \mu_0 n I",
+"description": "State the formula for the uniform magnetic field strictly inside an ideal long solenoid. ",
+"derivation": "## Derivation:\n1. Draw a rectangular Amperian loop $abcd$ partially inside and outside.\n2. $\oint \mathbf{B} \cdot d\mathbf{l} = \int_a^b B \\, dl + \int_b^c B \\, dl + \int_c^d B \\, dl + \int_d^a B \\, dl$.\n3. Field outside is 0. Transverse sides are $\perp$ to B, so dot product is 0. Only the interior axial length $h$ contributes: $Bh$.\n4. Enclosed current is $(nh)I$.\n5. By Ampere's Law: $Bh = \mu_0 (nh)I \implies B = \mu_0 n I$.\n\n## Variables & Units:\n- **$B$** = Magnetic field inside the solenoid (T)\n- **$n$** = Number of turns per unit length ($N/L$) ($m^{-1}$)\n- **$I$** = Steady current (A)\n\n## Conditions/Notes:\n- For an ideal (infinitely long) solenoid, the field inside is strong and uniform, while the field strictly outside is assumed to be **zero**."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d668",
+"originalOrder": 22,
+"originalHeading": "Magnetic Field of a Toroid",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "toroid", "formula"],
+"order": 26,
+"heading": "Magnetic Field of a Toroid",
+"formula": "B = \frac{\mu_0 N I}{2\pi r} = \mu_0 n I",
+"description": "State the formula for the magnetic field strictly inside the core of an ideal toroid. ",
+"derivation": "## Variables & Units:\n- **$B$** = Magnetic field within the turns of the toroid (T)\n- **$N$** = Total number of turns\n- **$r$** = Average radius of the toroid (m)\n- **$n$** = Turns per unit length ($\frac{N}{2\pi r}$)\n\n## Conditions/Notes:\n- The magnetic field in the empty space completely inside the toroid ring (hole) and completely outside the toroid is strictly **zero**."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d657",
+"originalOrder": 5,
+"originalHeading": "Magnetic Force on a Current-Carrying Conductor",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "magnetic-force", "formula"],
+"order": 27,
+"heading": "Magnetic Force on a Current-Carrying Conductor",
+"formula": "\mathbf{F} = I (\mathbf{l} \times \mathbf{B})",
+"description": "State the vector formula for the magnetic force experienced by a straight rod carrying a steady current in a uniform external magnetic field.",
+"derivation": "## Derivation:\n1. Consider a rod of cross-section $A$ and length $l$. Number of charge carriers = $nlA$.\n2. Force on each carrier is $\mathbf{f} = q(\mathbf{v}_d \times \mathbf{B})$.\n3. Total Force $\mathbf{F} = (nlA)q(\mathbf{v}_d \times \mathbf{B})$.\n4. Current density is $\mathbf{j} = nq\mathbf{v}_d$, and total current is $I = jA$.\n5. Rearranging gives $\mathbf{F} = I(\mathbf{l} \times \mathbf{B})$.\n\n## Variables & Units:\n- **$\mathbf{F}$** = Magnetic Force (N)\n- **$I$** = Steady current (A)\n- **$\mathbf{l}$** = Length vector of the rod (m)\n- **$\mathbf{B}$** = External magnetic field vector (T)\n\n## Conditions/Notes:\n- The direction of the length vector $\mathbf{l}$ is taken strictly as the **direction of the current flow**.",
+"mnemonic": "F = ILB (Force Is Length x B-field)"
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d669",
+"originalOrder": 23,
+"originalHeading": "Forces Between Parallel Currents",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "parallel-currents"],
+"order": 28,
+"heading": "Forces Between Parallel Currents",
+"question": "Do parallel currents flowing in the same direction attract or repel each other? How does this contrast with fundamental electrostatics?",
+"back": "## Explanation:\n- **Parallel currents attract** each other. \n- **Anti-parallel currents repel** each other.\n- **Contrast:** This is the exact mathematical opposite of what occurs in electrostatics, where like (same sign) charges repel each other, while here, like (parallel) currents attract.",
+"mnemonic": "Parallel Pulls (PP)"
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d66a",
+"originalOrder": 24,
+"originalHeading": "Force Between Parallel Conductors",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "parallel-currents", "formula"],
+"order": 29,
+"heading": "Force Between Parallel Conductors",
+"formula": "f = \frac{F}{L} = \frac{\mu_0 I_a I_b}{2\pi d}",
+"description": "State the formula for the magnetic force per unit length acting between two infinitely long parallel straight wires separated by distance d.",
+"derivation": "## Variables & Units:\n- **$f$** = Force per unit length (N/m)\n- **$I_a, I_b$** = Steady currents in the two respective wires (A)\n- **$d$** = Separation distance between the wires (m)\n\n## Conditions/Notes:\n- Derived by placing wire $b$ inside the magnetic field generated by wire $a$ ($B_a = \frac{\mu_0 I_a}{2\pi d}$) and applying $F = I_b L B_a$."
+}
+},
+{
+"cardId": "69abaf21fc9152e2eef8d66b",
+"originalOrder": 25,
+"originalHeading": "Standard Definition of the Ampere",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "ampere-definition"],
+"order": 30,
+"heading": "Standard Definition of the Ampere",
+"question": "How was the fundamental SI unit of current (1 Ampere) officially defined in 1946 using the magnetic force between parallel conductors?",
+"back": "## Explanation:\n- One Ampere is the value of that steady current which, when maintained in each of two infinitely long, straight, parallel conductors of negligible cross-section, and placed exactly **1 metre apart** in a vacuum, would produce on each of these conductors a force equal to exactly **$2 \times 10^{-7}$ Newtons per metre** of length."
+}
+},
+{
+"cardId": "69abaf97fc9152e2eef8d692",
+"originalOrder": 42,
+"originalHeading": "Newton's 3rd Law in Electromagnetism",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "newtons-third-law"],
+"order": 31,
+"heading": "Newton's 3rd Law in Electromagnetism",
+"question": "Under what specific condition might Newton's Third Law (action-reaction) strictly fail for forces between moving charges, and how is the principle of momentum conservation preserved?",
+"back": "## Explanation:\n- **The Failure:** Newton's third law may not hold for forces between charges or conductors when we have **time-dependent currents and/or charges in rapid motion**.\n- **The Resolution:** The apparent violation vanishes and total momentum is strictly conserved only when the **momentum carried by the electromagnetic fields themselves** is taken into account as part of the isolated system."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d677",
+"originalOrder": 26,
+"originalHeading": "Torque on a Current Loop",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "torque", "formula"],
+"order": 32,
+"heading": "Torque on a Current Loop",
+"formula": "\mathbf{\tau} = \mathbf{m} \times \mathbf{B}",
+"description": "State the vector formula for the magnetic torque experienced by a planar current-carrying loop placed in a uniform magnetic field.",
+"derivation": "## Variables & Units:\n- **$\mathbf{\tau}$** = Magnetic torque ($N \cdot m$)\n- **$\mathbf{m}$** = Magnetic dipole moment of the loop ($A \cdot m^2$)\n- **$\mathbf{B}$** = Uniform external magnetic field (Tesla, T)\n\n## Conditions/Notes:\n- **Magnitude:** $\tau = m B \sin\theta$, where $\theta$ is the angle between the area vector and the magnetic field.\n- The net translational force on a closed current loop in a *uniform* magnetic field is always **strictly zero**, even when the torque is non-zero."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d678",
+"originalOrder": 27,
+"originalHeading": "Magnetic Dipole Moment",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "dipole-moment", "formula"],
+"order": 33,
+"heading": "Magnetic Dipole Moment",
+"formula": "\mathbf{m} = N I \mathbf{A}",
+"description": "State the formula defining the magnetic dipole moment of a tightly wound planar coil.",
+"derivation": "## Variables & Units:\n- **$\mathbf{m}$** = Magnetic dipole moment vector ($A \cdot m^2$ or $J/T$)\n- **$N$** = Number of turns in the coil\n- **$I$** = Steady current flowing through the coil (A)\n- **$\mathbf{A}$** = Area vector of the loop ($m^2$)\n\n## Conditions/Notes:\n- The direction of the area vector $\mathbf{A}$ (and thus $\mathbf{m}$) is determined by the **Right-Hand Thumb Rule**: Curl the fingers of your right hand in the direction of the current, and your extended thumb points in the direction of $\mathbf{m}$."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d679",
+"originalOrder": 28,
+"originalHeading": "Electrostatic vs. Magnetic Dipole Analogy",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "dipole-analogy"],
+"order": 34,
+"heading": "Electrostatic vs. Magnetic Dipole Analogy",
+"question": "When comparing the far-field equations of an electric dipole to a current loop, what are the exact magnetic equivalents of the electrostatic constants $\mathbf{p}$, $\mathbf{E}$, and $1/\epsilon_0$?",
+"back": "## The Analogy Mapping:\n- The electric dipole moment **$\mathbf{p}$** maps to the magnetic dipole moment **$\mathbf{m}$**.\n- The electrostatic field **$\mathbf{E}$** maps to the magnetic field **$\mathbf{B}$**.\n- The inverse permittivity constant **$1/\epsilon_0$** maps to the permeability constant **$\mu_0$**. [Image showing side-by-side electric and magnetic dipole field lines]\n- *Example:* The electric field on the axis of a dipole ($E = \frac{1}{4\pi\epsilon_0} \frac{2p}{x^3}$) translates perfectly to the magnetic field on the axis of a loop ($B = \frac{\mu_0}{4\pi} \frac{2m}{x^3}$)."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67a",
+"originalOrder": 29,
+"originalHeading": "Magnetic Moment of a Revolving Electron",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "atom", "formula"],
+"order": 35,
+"heading": "Magnetic Moment of a Revolving Electron",
+"formula": "\mathbf{\mu}*l = -\frac{e}{2m_e} \mathbf{l}",
+"description": "State the vector formula relating the orbital magnetic moment of a revolving electron to its orbital angular momentum.",
+"derivation": "## Derivation:\n1. Current $I = e/T$. Since $v = \frac{2\pi r}{T}$, $I = \frac{ev}{2\pi r}$.\n2. Magnetic moment magnitude $\mu_l = I \times \pi r^2 = \left(\frac{ev}{2\pi r}\right)(\pi r^2) = \frac{evr}{2}$.\n3. Angular momentum is $l = m_e v r$.\n4. Substituting $vr = \frac{l}{m_e}$ into the $\mu_l$ equation gives $\mu_l = \frac{e l}{2m_e}$.\n\n## Variables & Units:\n- **$\mathbf{\mu}_l$** = Orbital magnetic dipole moment ($A \cdot m^2$)\n- **$e$** = Elementary charge ($1.6 \times 10^{-19}$ C)\n- **$m_e$** = Mass of the electron ($9.11 \times 10^{-31}$ kg)\n- **$\mathbf{l}$** = Orbital angular momentum vector ($kg \cdot m^2/s$)\n\n## Conditions/Notes:\n- The **negative sign** indicates that the magnetic moment vector is strictly **opposite** in direction to the angular momentum vector, which is a direct consequence of the electron's negative charge."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67b",
+"originalOrder": 30,
+"originalHeading": "Gyromagnetic Ratio",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "gyromagnetic-ratio"],
+"order": 36,
+"heading": "Gyromagnetic Ratio",
+"question": "Define the 'gyromagnetic ratio' for an electron and state its approximate constant value.",
+"back": "## Explanation:\n- **Definition:** The gyromagnetic ratio is the ratio of the magnitude of the orbital magnetic moment ($\mu_l$) to the magnitude of the orbital angular momentum ($l$) of a revolving electron.\n- **Formula:** $\frac{\mu_l}{l} = \frac{e}{2m_e}$.\n- **Value:** It is a universal constant for an electron, approximately equal to **$8.8 \times 10^{10} \\; C/kg$**."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67c",
+"originalOrder": 31,
+"originalHeading": "The Bohr Magneton",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "bohr-magneton"],
+"order": 37,
+"heading": "The Bohr Magneton",
+"question": "What does the 'Bohr Magneton' ($\mu_B$) represent physically, and how is it derived using Bohr's quantisation condition?",
+"back": "## Explanation:\n- **Physical Meaning:** The Bohr Magneton represents the **minimum possible elementary magnetic dipole moment** associated with an electron revolving in an atom.\n- **Derivation Idea:** Bohr hypothesized that angular momentum is quantized: $l = \frac{nh}{2\pi}$.\n- Substituting this into the magnetic moment equation $\mu_l = \frac{e}{2m_e} l$ and taking the lowest ground state $n=1$ yields the Bohr Magneton: $\mu_B = \frac{eh}{4\pi m_e} \approx 9.27 \times 10^{-24} \\; A \cdot m^2$."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67d",
+"originalOrder": 32,
+"originalHeading": "Moving Coil Galvanometer Principle",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "galvanometer"],
+"order": 38,
+"heading": "Moving Coil Galvanometer Principle",
+"question": "What is the fundamental working principle of a moving coil galvanometer, and why is a 'radial' magnetic field crucial to its design?",
+"back": "## Explanation:\n- **Principle:** When a current-carrying coil is placed in an external magnetic field, it experiences a magnetic torque ($\tau = NIAB \sin\theta$) that tends to rotate it against a restoring spring.\n- **Radial Magnetic Field:** A soft iron core and concave cylindrical pole pieces are used to produce a radial field. \n- This ensures the plane of the coil is **always parallel** to the magnetic field lines regardless of its orientation ($\theta = 90^\circ, \sin\theta = 1$).\n- **Benefit:** This makes the torque strictly dependent on current ($\tau = NIAB$), leading to a completely **linear scale** ($I \propto \phi$)."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67e",
+"originalOrder": 33,
+"originalHeading": "Galvanometer Equilibrium Equation",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "galvanometer", "formula"],
+"order": 39,
+"heading": "Galvanometer Equilibrium Equation",
+"formula": "k\phi = N I A B",
+"description": "State the equilibrium equation relating the deflecting magnetic torque to the restoring spring torque in a moving coil galvanometer.",
+"derivation": "## Variables & Units:\n- **$k$** = Torsional constant of the suspension spring ($N \cdot m / rad$)\n- **$\phi$** = Angle of twist or steady deflection (radians)\n- **$N$** = Number of turns in the coil\n- **$I$** = Current flowing through the coil (A)\n- **$A$** = Area of the coil ($m^2$)\n- **$B$** = Uniform radial magnetic field (T)\n\n## Conditions/Notes:\n- The term $\frac{k}{NAB}$ is known as the **galvanometer constant**."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d67f",
+"originalOrder": 34,
+"originalHeading": "Galvanometer Sensitivities",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "galvanometer", "sensitivity", "formula"],
+"order": 40,
+"heading": "Galvanometer Sensitivities",
+"formula": "I_s = \frac{\phi}{I} = \frac{NAB}{k} \quad ; \quad V_s = \frac{\phi}{V} = \frac{NAB}{kR}",
+"description": "State the formulas for both the current sensitivity and voltage sensitivity of a moving coil galvanometer.",
+"derivation": "## Variables & Units:\n- **$I_s$** = Current sensitivity (divisions/A or rad/A)\n- **$V_s$** = Voltage sensitivity (divisions/V or rad/V)\n- **$R$** = Electrical resistance of the galvanometer coil ($\Omega$)\n\n## Conditions/Notes:\n- **Crucial Exception:** Increasing the current sensitivity (e.g., by doubling the number of turns, $N$) does **not** necessarily increase the voltage sensitivity. Because doubling $N$ doubles the length of the wire, the resistance $R$ also doubles, leaving $V_s$ unchanged."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d680",
+"originalOrder": 35,
+"originalHeading": "Conversion: Galvanometer to Ammeter",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "ammeter"],
+"order": 41,
+"heading": "Conversion: Galvanometer to Ammeter",
+"question": "How is a moving coil galvanometer practically converted into an ammeter, and what happens to the overall resistance of the instrument?",
+"back": "## Explanation:\n- **Circuit Modification:** A very small resistance, known as a **shunt resistance ($r_s$)**, is connected strictly in **parallel** with the galvanometer coil. \n- Most of the main circuit current bypasses through this low-resistance shunt.\n- **Overall Resistance:** Because it is a parallel combination with a tiny resistor, the equivalent resistance of the ammeter becomes **extremely small** ($R*{eq} = \frac{R_G r_s}{R_G + r_s} \approx r_s$).\n- **Why?** An ideal ammeter should have zero resistance so that inserting it into a circuit does not change the original current it is meant to measure."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d681",
+"originalOrder": 36,
+"originalHeading": "Ammeter Shunt Resistance Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "ammeter", "formula"],
+"order": 42,
+"heading": "Ammeter Shunt Resistance Formula",
+"formula": "r_s = \frac{I_g R_G}{I - I_g}",
+"description": "State the formula to calculate the required shunt resistance to convert a galvanometer into an ammeter reading up to a maximum current I.",
+"derivation": "## Variables & Units:\n- **$r_s$** = Required shunt resistance connected in parallel ($\Omega$)\n- **$I_g$** = Current required for full-scale deflection of the galvanometer (A)\n- **$R_G$** = Internal resistance of the galvanometer coil ($\Omega$)\n- **$I$** = Maximum range of the new ammeter (A)\n\n## Conditions/Notes:\n- The potential difference across the galvanometer and the shunt must be equal: $I_g R_G = (I - I_g) r_s$."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d682",
+"originalOrder": 37,
+"originalHeading": "Conversion: Galvanometer to Voltmeter",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Standardized tags", "Added image tag"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "voltmeter"],
+"order": 43,
+"heading": "Conversion: Galvanometer to Voltmeter",
+"question": "How is a moving coil galvanometer converted into a voltmeter, and why is this specific structural modification necessary?",
+"back": "## Explanation:\n- **Circuit Modification:** A **very high resistance (R)** is connected strictly in **series** with the galvanometer coil. \n- **Why it is necessary:** A voltmeter must be connected in parallel across a circuit component to measure the potential drop. If its resistance were low, it would draw a significant portion of the current, dropping the overall voltage.\n- The high series resistance ensures the voltmeter draws **negligible current**, giving an accurate reading.\n- The ideal voltmeter has **infinite resistance**."
+}
+},
+{
+"cardId": "69abaf5dfc9152e2eef8d683",
+"originalOrder": 38,
+"originalHeading": "Voltmeter Series Resistance Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed source citations", "Ensured strict LaTeX escaping"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["science", "physics", "class-12", "neet", "jee", "magnetism", "voltmeter", "formula"],
+"order": 44,
+"heading": "Voltmeter Series Resistance Formula",
+"formula": "R = \frac{V}{I_g} - R_G",
+"description": "State the formula to find the necessary series resistance to convert a galvanometer into a voltmeter reading up to a maximum voltage V.",
+"derivation": "## Variables & Units:\n- **$R$** = Required high resistance connected in series ($\Omega$)\n- **$V$** = Maximum voltage range of the new voltmeter (V)\n- **$I_g$** = Current required for full-scale deflection of the galvanometer (A)\n- **$R_G$** = Internal resistance of the galvanometer coil ($\Omega$)\n\n## Conditions/Notes:\n- The total potential drop $V$ is the sum of the drop across the galvanometer and the series resistor: $V = I_g(R_G + R)$."
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
