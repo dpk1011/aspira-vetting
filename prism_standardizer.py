@@ -1,6 +1,16 @@
 # Commands to run
 # python3 prism_standardizer.py
 # python3 prism_standardizer.py --live
+# the quick terminal command to instantly verify that all 174 files made it safely into the new directory.
+# 
+# echo "Total standardized files:" && find aspira-vetting-standardized -type f -name "*.[jJ][sS][oO][nN]" | wc -l 
+# 
+# (This should output exactly total files scanned).
+# 
+#overwrite the old files with these new, clean ones
+# rsync -a aspira-vetting-standardized/ ./
+
+
 
 import os
 import json
