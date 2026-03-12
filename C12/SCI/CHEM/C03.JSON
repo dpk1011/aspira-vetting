@@ -24,7 +24,7 @@
 "order": 1,
 "heading": "Chemical Kinetics vs. Thermodynamics",
 "question": "What is the fundamental difference between what Thermodynamics and Chemical Kinetics predict about a chemical reaction?",
-"back": "**Thermodynamics:** Predicts the **feasibility** or spontaneity of a reaction (whether it *can* happen) based on $\Delta_r G < 0$. It also predicts the extent of the reaction (Equilibrium).\n\n**Chemical Kinetics:** Predicts the **rate** or speed of the reaction (how *fast* it happens) and the **mechanism** by which it proceeds.\n\n*Note:* A reaction can be thermodynamically highly feasible but kinetically so slow that it is imperceptible (e.g., diamond converting to graphite).",
+"back": "**Thermodynamics:** Predicts the **feasibility** or spontaneity of a reaction (whether it *can* happen) based on $\\Delta_r G < 0$. It also predicts the extent of the reaction (Equilibrium).\n\n**Chemical Kinetics:** Predicts the **rate** or speed of the reaction (how *fast* it happens) and the **mechanism** by which it proceeds.\n\n*Note:* A reaction can be thermodynamically highly feasible but kinetically so slow that it is imperceptible (e.g., diamond converting to graphite).",
 "mnemonic": "Thermo tells the Truth (if it happens), Kinetics tells the Klock (how fast)."
 }
 },
@@ -102,9 +102,9 @@
 ],
 "order": 4,
 "heading": "Average Rate of Reaction ($r_{av}$)",
-"formula": "r_{av} = -\frac{\Delta[R]}{\Delta t} = +\frac{\Delta[P]}{\Delta t}",
-"description": "Calculates the average rate of a reaction $R \rightarrow P$ over a specific time interval $\Delta t$.",
-"derivation": "**Variables & Units:**\n- **$r_{av}$**: Average rate of reaction ($mol \\, L^{-1} \\, s^{-1}$)\n- **$\Delta[R]$**: Change in concentration of reactant ($mol \\, L^{-1}$)\n- **$\Delta[P]$**: Change in concentration of product ($mol \\, L^{-1}$)\n- **$\Delta t$**: Time interval ($s$ or $min$)\n\n**Notes:**\nThe negative sign ($-$) is strictly placed before $\Delta[R]$ to ensure the overall rate value is **positive**, because reactant concentration strictly decreases over time."
+"formula": "r_{av} = -\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}",
+"description": "Calculates the average rate of a reaction $R \\rightarrow P$ over a specific time interval $\\Delta t$.",
+"derivation": "**Variables & Units:**\n- **$r_{av}$**: Average rate of reaction ($mol \\, L^{-1} \\, s^{-1}$)\n- **$\\Delta[R]$**: Change in concentration of reactant ($mol \\, L^{-1}$)\n- **$\\Delta[P]$**: Change in concentration of product ($mol \\, L^{-1}$)\n- **$\\Delta t$**: Time interval ($s$ or $min$)\n\n**Notes:**\nThe negative sign ($-$) is strictly placed before $\\Delta[R]$ to ensure the overall rate value is **positive**, because reactant concentration strictly decreases over time."
 }
 },
 {
@@ -129,9 +129,9 @@
 ],
 "order": 5,
 "heading": "Instantaneous Rate of Reaction ($r_{inst}$)",
-"formula": "r_{inst} = -\frac{d[R]}{dt} = +\frac{d[P]}{dt}",
-"description": "Calculates the instantaneous rate of a reaction $R \rightarrow P$ at a specific, infinitesimally small moment in time.",
-"derivation": "**Variables & Units:**\n- **$r_{inst}$**: Instantaneous rate of reaction ($mol \\, L^{-1} \\, s^{-1}$)\n- **$d[R]$ / $d[P]$**: Infinitesimally small change in concentration\n- **$dt$**: Infinitesimally small time interval ($dt \rightarrow 0$)\n\n**Notes:**\nGraphically, it is determined by calculating the **slope of the tangent** drawn at a specific point $t$ on the concentration versus time curve."
+"formula": "r_{inst} = -\\frac{d[R]}{dt} = +\\frac{d[P]}{dt}",
+"description": "Calculates the instantaneous rate of a reaction $R \\rightarrow P$ at a specific, infinitesimally small moment in time.",
+"derivation": "**Variables & Units:**\n- **$r_{inst}$**: Instantaneous rate of reaction ($mol \\, L^{-1} \\, s^{-1}$)\n- **$d[R]$ / $d[P]$**: Infinitesimally small change in concentration\n- **$dt$**: Infinitesimally small time interval ($dt \\rightarrow 0$)\n\n**Notes:**\nGraphically, it is determined by calculating the **slope of the tangent** drawn at a specific point $t$ on the concentration versus time curve."
 }
 },
 {
@@ -156,9 +156,9 @@
 ],
 "order": 6,
 "heading": "Stoichiometric Rate Expression",
-"formula": "\text{Rate} = -\frac{1}{a}\frac{\Delta[A]}{\Delta t} = -\frac{1}{b}\frac{\Delta[B]}{\Delta t} = +\frac{1}{c}\frac{\Delta[C]}{\Delta t} = +\frac{1}{d}\frac{\Delta[D]}{\Delta t}",
-"description": "Generalizes the rate of reaction formula for a balanced equation with unequal stoichiometric coefficients: $aA + bB \rightarrow cC + dD$.",
-"derivation": "**Notes:**\nTo express a unique, single rate for the overall reaction, the rate of disappearance/appearance of any species must be **divided by its respective stoichiometric coefficient**.\n\n*Example:* For $2HI \rightarrow H_2 + I_2$, Rate = $-\frac{1}{2}\frac{\Delta[HI]}{\Delta t} = \frac{\Delta[H_2]}{\Delta t}$.",
+"formula": "\\text{Rate} = -\\frac{1}{a}\\frac{\\Delta[A]}{\\Delta t} = -\\frac{1}{b}\\frac{\\Delta[B]}{\\Delta t} = +\\frac{1}{c}\\frac{\\Delta[C]}{\\Delta t} = +\\frac{1}{d}\\frac{\\Delta[D]}{\\Delta t}",
+"description": "Generalizes the rate of reaction formula for a balanced equation with unequal stoichiometric coefficients: $aA + bB \\rightarrow cC + dD$.",
+"derivation": "**Notes:**\nTo express a unique, single rate for the overall reaction, the rate of disappearance/appearance of any species must be **divided by its respective stoichiometric coefficient**.\n\n*Example:* For $2HI \\rightarrow H_2 + I_2$, Rate = $-\\frac{1}{2}\\frac{\\Delta[HI]}{\\Delta t} = \\frac{\\Delta[H_2]}{\\Delta t}$.",
 "mnemonic": "Divide by the coefficient to keep the rate consistent."
 }
 },
@@ -184,8 +184,8 @@
 ],
 "order": 7,
 "heading": "Rate Law & Rate Constant",
-"formula": "\text{Rate} = k [A]^x [B]^y",
-"description": "Defines the generalized rate law expression for the reaction $aA + bB \rightarrow cC + dD$.",
+"formula": "\\text{Rate} = k [A]^x [B]^y",
+"description": "Defines the generalized rate law expression for the reaction $aA + bB \\rightarrow cC + dD$.",
 "derivation": "**Variables:**\n- **$k$**: Rate Constant (units depend on overall order)\n- **$[A], [B]$**: Molar concentrations of reactants ($mol \\, L^{-1}$)\n- **$x, y$**: Experimental exponents (Order with respect to A and B)\n\n**Notes:**\n- The exponents $x$ and $y$ **may or may not be equal** to the stoichiometric coefficients ($a$ and $b$).\n- The rate law CANNOT be predicted theoretically from the balanced equation; it must be determined **experimentally**."
 }
 },
@@ -211,9 +211,9 @@
 ],
 "order": 8,
 "heading": "General Units of Rate Constant ($k$)",
-"formula": "\text{Units of } k = (mol \, L^{-1})^{1-n} s^{-1}",
+"formula": "\\text{Units of } k = (mol \\, L^{-1})^{1-n} s^{-1}",
 "description": "Determines the SI units of the rate constant ($k$) for a reaction of overall order '$n$'.",
-"derivation": "**Derivation:**\n$k = \frac{\text{Rate}}{[\text{Concentration}]^n} = \frac{mol \\, L^{-1} \\, s^{-1}}{(mol \\, L^{-1})^n} = (mol \\, L^{-1})^{1-n} s^{-1}\n\n**Derived Examples:**\n- **Zero Order ($n=0$):** $mol \\, L^{-1} \\, s^{-1}$\n- **First Order ($n=1$):** $s^{-1}$\n- **Second Order ($n=2$):** $mol^{-1} \\, L \\, s^{-1}$"
+"derivation": "**Derivation:**\n$k = \\frac{\\text{Rate}}{[\\text{Concentration}]^n} = \\frac{mol \\, L^{-1} \\, s^{-1}}{(mol \\, L^{-1})^n} = (mol \\, L^{-1})^{1-n} s^{-1}\n\n**Derived Examples:**\n- **Zero Order ($n=0$):** $mol \\, L^{-1} \\, s^{-1}$\n- **First Order ($n=1$):** $s^{-1}$\n- **Second Order ($n=2$):** $mol^{-1} \\, L \\, s^{-1}$"
 }
 },
 {
@@ -264,9 +264,9 @@
 ],
 "order": 10,
 "heading": "Fractional Order Reaction Example",
-"formula": "\text{Rate} = k [CHCl_3] [Cl_2]^{1/2}",
-"description": "States the experimentally determined rate law for the chlorination of chloroform ($CHCl_3 + Cl_2 \rightarrow CCl_4 + HCl$) to illustrate a fractional order reaction.",
-"derivation": "**Reaction Profile:**\n- **Overall Order:** $1 + 0.5 = \mathbf{1.5}$ (Fractional Order).\n- **Significance:** This perfectly illustrates that the order of a reaction cannot be predicted from the stoichiometric coefficients of a balanced chemical equation (which are 1 and 1 here) and must be found experimentally."
+"formula": "\\text{Rate} = k [CHCl_3] [Cl_2]^{1/2}",
+"description": "States the experimentally determined rate law for the chlorination of chloroform ($CHCl_3 + Cl_2 \\rightarrow CCl_4 + HCl$) to illustrate a fractional order reaction.",
+"derivation": "**Reaction Profile:**\n- **Overall Order:** $1 + 0.5 = \\mathbf{1.5}$ (Fractional Order).\n- **Significance:** This perfectly illustrates that the order of a reaction cannot be predicted from the stoichiometric coefficients of a balanced chemical equation (which are 1 and 1 here) and must be found experimentally."
 }
 },
 {
@@ -345,7 +345,7 @@
 "heading": "Zero Order Integrated Rate Equation",
 "formula": "[R] = -kt + [R]_0",
 "description": "Calculates the integrated rate equation for a Zero Order reaction relating concentration to time.",
-"derivation": "**Derivation:**\n$Rate = -\frac{d[R]}{dt} = k[R]^0 = k$\n$d[R] = -k \\, dt$\nIntegrate: $[R] = -kt + I$. At $t=0$, $[R]=[R]_0$, so $I=[R]_0$.\n\n**Variables & Units:**\n- **$[R]$**: Concentration of reactant at time $t$ ($mol \\, L^{-1}$)\n- **$[R]_0$**: Initial concentration of reactant at $t=0$ ($mol \\, L^{-1}$)\n- **$k$**: Zero order rate constant ($mol \\, L^{-1} \\, s^{-1}$)\n\n**Graphical Note:**\nA plot of $[R]$ versus $t$ yields a **straight line** with a negative slope equal to **$-k$** and a y-intercept of **$[R]_0$**."
+"derivation": "**Derivation:**\n$Rate = -\\frac{d[R]}{dt} = k[R]^0 = k$\n$d[R] = -k \\, dt$\nIntegrate: $[R] = -kt + I$. At $t=0$, $[R]=[R]_0$, so $I=[R]_0$.\n\n**Variables & Units:**\n- **$[R]$**: Concentration of reactant at time $t$ ($mol \\, L^{-1}$)\n- **$[R]_0$**: Initial concentration of reactant at $t=0$ ($mol \\, L^{-1}$)\n- **$k$**: Zero order rate constant ($mol \\, L^{-1} \\, s^{-1}$)\n\n**Graphical Note:**\nA plot of $[R]$ versus $t$ yields a **straight line** with a negative slope equal to **$-k$** and a y-intercept of **$[R]_0$**."
 }
 },
 {
@@ -370,9 +370,9 @@
 ],
 "order": 14,
 "heading": "Half-Life of Zero Order Reaction",
-"formula": "t_{1/2} = \frac{[R]*0}{2k}",
+"formula": "t_{1/2} = \\frac{[R]*0}{2k}",
 "description": "Calculates the half-life ($t*{1/2}$) of a zero-order reaction.",
-"derivation": "**Derivation:**\nFrom $[R] = -kt + [R]_0$\nAt $t = t_{1/2}$, $[R] = \frac{[R]_0}{2}$.\n$\frac{[R]*0}{2} = -k t*{1/2} + [R]*0 \implies k t*{1/2} = \frac{[R]*0}{2}$\n\n**Core Dependency:**\nFor a zero-order reaction, the half-life is **directly proportional** to the initial concentration of the reactants ($t*{1/2} \propto [R]*0$)."
+"derivation": "**Derivation:**\nFrom $[R] = -kt + [R]_0$\nAt $t = t_{1/2}$, $[R] = \\frac{[R]_0}{2}$.\n$\\frac{[R]*0}{2} = -k t*{1/2} + [R]*0 \\implies k t*{1/2} = \\frac{[R]*0}{2}$\n\n**Core Dependency:**\nFor a zero-order reaction, the half-life is **directly proportional** to the initial concentration of the reactants ($t*{1/2} \\propto [R]*0$)."
 }
 },
 {
@@ -423,9 +423,9 @@
 ],
 "order": 16,
 "heading": "First Order Integrated Rate Equation",
-"formula": "\ln[R] = -kt + \ln[R]*0",
+"formula": "\\ln[R] = -kt + \\ln[R]*0",
 "description": "States the integrated rate equation for a First Order reaction.",
-"derivation": "**Alternative (Base 10) Form:**\n$k = \frac{2.303}{t} \log*{10} \frac{[R]*0}{[R]}$\n\n**Graphical Notes:**\n- A plot of $\ln[R]$ vs $t$ gives a straight line with slope **$-k$**.\n- A plot of $\log \frac{[R]_0}{[R]}$ vs $t$ gives a straight line strictly passing through the origin with slope **$\frac{k}{2.303}$**."
+"derivation": "**Alternative (Base 10) Form:**\n$k = \\frac{2.303}{t} \\log*{10} \\frac{[R]*0}{[R]}$\n\n**Graphical Notes:**\n- A plot of $\\ln[R]$ vs $t$ gives a straight line with slope **$-k$**.\n- A plot of $\\log \\frac{[R]_0}{[R]}$ vs $t$ gives a straight line strictly passing through the origin with slope **$\\frac{k}{2.303}$**."
 }
 },
 {
@@ -450,9 +450,9 @@
 ],
 "order": 17,
 "heading": "First Order Gas Phase Reaction",
-"formula": "k = \frac{2.303}{t} \log \frac{p_i}{2p_i - p_t}",
-"description": "Calculates the rate constant for a first-order gas phase reaction $A(g) \rightarrow B(g) + C(g)$ using initial pressure ($p_i$) and total pressure ($p_t$).",
-"derivation": "**Derivation:**\nAt $t=0$: $P_A = p_i$, $P_B=0, P_C=0$\nAt $t$: $P_A = p_i - x$, $P_B=x, P_C=x$\n$p_t = (p_i - x) + x + x = p_i + x \implies x = p_t - p_i$\n$P_A = p_i - (p_t - p_i) = 2p_i - p_t$\nSubstitute $P_A$ into the first-order log equation.\n\n**Conditions/Notes:**\nThe formula strictly assumes 1 mole of gas A decomposes into exactly 2 moles of gaseous products. If stoichiometry changes (e.g., $2A \rightarrow B + C$), the denominator expression ($2p_i - p_t$) will change accordingly."
+"formula": "k = \\frac{2.303}{t} \\log \\frac{p_i}{2p_i - p_t}",
+"description": "Calculates the rate constant for a first-order gas phase reaction $A(g) \\rightarrow B(g) + C(g)$ using initial pressure ($p_i$) and total pressure ($p_t$).",
+"derivation": "**Derivation:**\nAt $t=0$: $P_A = p_i$, $P_B=0, P_C=0$\nAt $t$: $P_A = p_i - x$, $P_B=x, P_C=x$\n$p_t = (p_i - x) + x + x = p_i + x \\implies x = p_t - p_i$\n$P_A = p_i - (p_t - p_i) = 2p_i - p_t$\nSubstitute $P_A$ into the first-order log equation.\n\n**Conditions/Notes:**\nThe formula strictly assumes 1 mole of gas A decomposes into exactly 2 moles of gaseous products. If stoichiometry changes (e.g., $2A \\rightarrow B + C$), the denominator expression ($2p_i - p_t$) will change accordingly."
 }
 },
 {
@@ -477,9 +477,9 @@
 ],
 "order": 18,
 "heading": "Half-Life of First Order Reaction",
-"formula": "t*{1/2} = \frac{0.693}{k} = \frac{\ln 2}{k}",
+"formula": "t*{1/2} = \\frac{0.693}{k} = \\frac{\\ln 2}{k}",
 "description": "Calculates the half-life ($t*{1/2}$) of a first-order reaction.",
-"derivation": "**Derivation:**\nFrom $k = \frac{2.303}{t} \log \frac{[R]_0}{[R]}$\nAt $t = t_{1/2}$, $[R] = \frac{[R]_0}{2}$.\n$k = \frac{2.303}{t_{1/2}} \log 2 = \frac{2.303 \times 0.3010}{t_{1/2}} = \frac{0.693}{t_{1/2}}$\n\n**Core Dependency:**\nFor a first-order reaction, the half-life is **strictly constant** and is **independent** of the initial concentration of the reacting species."
+"derivation": "**Derivation:**\nFrom $k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}$\nAt $t = t_{1/2}$, $[R] = \\frac{[R]_0}{2}$.\n$k = \\frac{2.303}{t_{1/2}} \\log 2 = \\frac{2.303 \\times 0.3010}{t_{1/2}} = \\frac{0.693}{t_{1/2}}$\n\n**Core Dependency:**\nFor a first-order reaction, the half-life is **strictly constant** and is **independent** of the initial concentration of the reacting species."
 }
 },
 {
@@ -504,9 +504,9 @@
 ],
 "order": 19,
 "heading": "99.9% Completion of First Order Reaction",
-"formula": "t_{99.9\\%} \approx 10 \times t_{1/2}",
+"formula": "t_{99.9\\%} \\approx 10 \\times t_{1/2}",
 "description": "States the mathematical relationship between the time required for 99.9% completion ($t_{99.9\\%}$) and the half-life ($t_{1/2}$) of a first-order reaction.",
-"derivation": "**Derivation:**\nFrom first-order equation: $t = \frac{2.303}{k} \log \frac{[R]_0}{[R]}$\nAt 99.9% completion, $[R] = [R]_0 - 0.999[R]_0 = 0.001[R]_0 = 10^{-3}[R]_0$\n$t_{99.9\%} = \frac{2.303}{k} \log(10^3) = \frac{2.303 \times 3}{k} = \frac{6.909}{k}$\nSubstitute $k = \frac{0.693}{t_{1/2}}$:\n$t_{99.9\%} = \frac{6.909}{0.693/t_{1/2}} \approx 10 t_{1/2}$\n\n**Notes:**\nThis rule is a highly tested benchmark for radioactive decay and first-order chemical kinetics."
+"derivation": "**Derivation:**\nFrom first-order equation: $t = \\frac{2.303}{k} \\log \\frac{[R]_0}{[R]}$\nAt 99.9% completion, $[R] = [R]_0 - 0.999[R]_0 = 0.001[R]_0 = 10^{-3}[R]_0$\n$t_{99.9\\%} = \\frac{2.303}{k} \\log(10^3) = \\frac{2.303 \\times 3}{k} = \\frac{6.909}{k}$\nSubstitute $k = \\frac{0.693}{t_{1/2}}$:\n$t_{99.9\\%} = \\frac{6.909}{0.693/t_{1/2}} \\approx 10 t_{1/2}$\n\n**Notes:**\nThis rule is a highly tested benchmark for radioactive decay and first-order chemical kinetics."
 }
 },
 {
@@ -532,7 +532,7 @@
 "order": 20,
 "heading": "Examples of First Order Reactions",
 "question": "What are some common chemical and physical phenomena that strictly follow first-order kinetics?",
-"back": "**Classic First Order Examples:**\n- **Radioactive Decay:** All natural and artificial radioactive decays of unstable nuclei behave strictly as first-order kinetics (Rate = $k[Ra]$).\n- **Hydrogenation of Ethene:** $C_2H_4(g) + H_2(g) \rightarrow C_2H_6(g)$\n- **Decomposition of Gases:** Thermal decomposition of $N_2O_5$ and $N_2O$ in the gas phase."
+"back": "**Classic First Order Examples:**\n- **Radioactive Decay:** All natural and artificial radioactive decays of unstable nuclei behave strictly as first-order kinetics (Rate = $k[Ra]$).\n- **Hydrogenation of Ethene:** $C_2H_4(g) + H_2(g) \\rightarrow C_2H_6(g)$\n- **Decomposition of Gases:** Thermal decomposition of $N_2O_5$ and $N_2O$ in the gas phase."
 }
 },
 {
@@ -557,7 +557,7 @@
 "order": 21,
 "heading": "Pseudo First Order Reactions",
 "question": "What is a pseudo first-order reaction, and under what specific experimental conditions does a higher-order reaction behave as first-order?",
-"back": "**Definition & Conditions:**\nA reaction that is essentially of a higher order (usually bimolecular) but follows first-order kinetics is called a **pseudo first-order reaction**. It occurs when one of the reactants is present in **large excess** (usually the solvent, like water). Because its concentration barely changes during the reaction, it remains essentially constant and is absorbed into the rate constant.\n\n**Classic Examples:**\n1. **Hydrolysis of Ethyl Acetate:** $CH_3COOC_2H_5 + H_2O (excess) \rightarrow CH_3COOH + C_2H_5OH$. (Rate = $k' [Ester]$)\n2. **Inversion of Cane Sugar:** $C_{12}H_{22}O_{11} + H_2O (excess) \rightarrow Glucose + Fructose$."
+"back": "**Definition & Conditions:**\nA reaction that is essentially of a higher order (usually bimolecular) but follows first-order kinetics is called a **pseudo first-order reaction**. It occurs when one of the reactants is present in **large excess** (usually the solvent, like water). Because its concentration barely changes during the reaction, it remains essentially constant and is absorbed into the rate constant.\n\n**Classic Examples:**\n1. **Hydrolysis of Ethyl Acetate:** $CH_3COOC_2H_5 + H_2O (excess) \\rightarrow CH_3COOH + C_2H_5OH$. (Rate = $k' [Ester]$)\n2. **Inversion of Cane Sugar:** $C_{12}H_{22}O_{11} + H_2O (excess) \\rightarrow Glucose + Fructose$."
 }
 },
 {
@@ -607,7 +607,7 @@
 "order": 23,
 "heading": "Apparent High Order Reactions",
 "question": "Why does the redox reaction between Potassium chlorate ($KClO_3$), Ferrous sulphate ($FeSO_4$), and Sulphuric acid ($H_2SO_4$) apparently seem to be of the 10th order from its stoichiometry, but is actually kinetically of the 2nd order?",
-"back": "**The Deceptive Stoichiometry:**\n- **Balanced Equation:** $KClO_3 + 6FeSO_4 + 3H_2SO_4 \rightarrow KCl + 3Fe_2(SO_4)_3 + 3H_2O$\n- The sum of the stoichiometric coefficients of the reactants is strictly **10**.\n\n**The Kinetic Reality:**\n- It is a **Complex Reaction** taking place in multiple sequential steps.\n- The overall order is determined exclusively by the **slowest step (Rate-Determining Step)**.\n- In this mechanism, the slowest step involves the collision of only **two** reacting species, making it a 2nd order reaction overall."
+"back": "**The Deceptive Stoichiometry:**\n- **Balanced Equation:** $KClO_3 + 6FeSO_4 + 3H_2SO_4 \\rightarrow KCl + 3Fe_2(SO_4)_3 + 3H_2O$\n- The sum of the stoichiometric coefficients of the reactants is strictly **10**.\n\n**The Kinetic Reality:**\n- It is a **Complex Reaction** taking place in multiple sequential steps.\n- The overall order is determined exclusively by the **slowest step (Rate-Determining Step)**.\n- In this mechanism, the slowest step involves the collision of only **two** reacting species, making it a 2nd order reaction overall."
 }
 },
 {
@@ -632,7 +632,7 @@
 "order": 24,
 "heading": "Mechanism of $H_2O_2$ Decomposition",
 "question": "In the iodide-catalysed decomposition of Hydrogen Peroxide ($H_2O_2$) in an alkaline medium, what is the specific rate-determining step and the intermediate species formed?",
-"back": "**Reaction Mechanism:**\nThe overall reaction ($2H_2O_2 \rightarrow 2H_2O + O_2$) appears to be bimolecular, but it strictly proceeds in two elementary steps:\n1. **Step 1 (Slow & Rate-Determining):** $H_2O_2 + I^{-} \rightarrow H_2O + IO^{-}$\n2. **Step 2 (Fast):** $H_2O_2 + IO^{-} \rightarrow H_2O + I^{-} + O_2$\n\n**The Intermediate:**\nThe species **$IO^{-}$ (hypoiodite ion)** is the intermediate. It is formed during the reaction but does not appear in the overall balanced equation."
+"back": "**Reaction Mechanism:**\nThe overall reaction ($2H_2O_2 \\rightarrow 2H_2O + O_2$) appears to be bimolecular, but it strictly proceeds in two elementary steps:\n1. **Step 1 (Slow & Rate-Determining):** $H_2O_2 + I^{-} \\rightarrow H_2O + IO^{-}$\n2. **Step 2 (Fast):** $H_2O_2 + IO^{-} \\rightarrow H_2O + I^{-} + O_2$\n\n**The Intermediate:**\nThe species **$IO^{-}$ (hypoiodite ion)** is the intermediate. It is formed during the reaction but does not appear in the overall balanced equation."
 }
 },
 {
@@ -656,8 +656,8 @@
 ],
 "order": 25,
 "heading": "Temperature Dependence of Reaction Rate",
-"question": "As a general empirical rule, how does a $10 \\, K$ (or $10^{\circ} C$) rise in temperature specifically affect the rate constant of a chemical reaction?",
-"back": "**The $10^{\circ}$ Rule (Temperature Coefficient):**\nFor a chemical reaction, it has been found that with a rise in temperature by **$10 \\, K$ (or $10^{\circ} C$)**, the rate constant (and consequently the reaction rate) is **nearly doubled** (and sometimes tripled).\n\nThis extreme temperature dependence is accurately quantified by the **Arrhenius Equation**.",
+"question": "As a general empirical rule, how does a $10 \\, K$ (or $10^{\\circ} C$) rise in temperature specifically affect the rate constant of a chemical reaction?",
+"back": "**The $10^{\\circ}$ Rule (Temperature Coefficient):**\nFor a chemical reaction, it has been found that with a rise in temperature by **$10 \\, K$ (or $10^{\\circ} C$)**, the rate constant (and consequently the reaction rate) is **nearly doubled** (and sometimes tripled).\n\nThis extreme temperature dependence is accurately quantified by the **Arrhenius Equation**.",
 "mnemonic": "Ten up, twice as fast."
 }
 },
@@ -710,8 +710,8 @@
 ],
 "order": 27,
 "heading": "Graphical Analysis of Arrhenius Equation",
-"question": "If you plot $\ln k$ versus $1/T$ according to the Arrhenius equation, what do the slope and y-intercept of the resulting straight line represent?",
-"back": "**The Linear Equation:**\nTaking the natural log of $k = Ae^{-E_a/RT}$ yields the straight-line equation ($y = mx + c$):\n**$\ln k = -\frac{E_a}{R} \frac{1}{T} + \ln A$**\n\n**Graph Components:**\n- **y-axis:** $\ln k$\n- **x-axis:** $1/T$\n- **Slope:** **$-\frac{E_a}{R}$** (A negative slope indicating that $k$ increases as $1/T$ decreases, i.e., as $T$ increases).\n- **y-intercept:** **$\ln A$**"
+"question": "If you plot $\\ln k$ versus $1/T$ according to the Arrhenius equation, what do the slope and y-intercept of the resulting straight line represent?",
+"back": "**The Linear Equation:**\nTaking the natural log of $k = Ae^{-E_a/RT}$ yields the straight-line equation ($y = mx + c$):\n**$\\ln k = -\\frac{E_a}{R} \\frac{1}{T} + \\ln A$**\n\n**Graph Components:**\n- **y-axis:** $\\ln k$\n- **x-axis:** $1/T$\n- **Slope:** **$-\\frac{E_a}{R}$** (A negative slope indicating that $k$ increases as $1/T$ decreases, i.e., as $T$ increases).\n- **y-intercept:** **$\\ln A$**"
 }
 },
 {
@@ -736,9 +736,9 @@
 ],
 "order": 28,
 "heading": "Arrhenius Equation (Two Temperatures)",
-"formula": "\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left( \frac{T_2 - T_1}{T_1 T_2} \right)",
+"formula": "\\log \\frac{k_2}{k_1} = \\frac{E_a}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)",
 "description": "Calculates the Activation Energy ($E_a$) when rate constants ($k_1, k_2$) at two different temperatures ($T_1, T_2$) are known.",
-"derivation": "**Derivation:**\nFrom $\ln k = \ln A - \frac{E_a}{RT}$\n$\ln k_2 - \ln k_1 = (\ln A - \frac{E_a}{RT_2}) - (\ln A - \frac{E_a}{RT_1})$\n$\ln \frac{k_2}{k_1} = \frac{E_a}{R} \left(\frac{1}{T_1} - \frac{1}{T_2}\right)$\nConvert $\ln$ to $\log_{10}$ by dividing by $2.303$.\n\n**Variables & Units:**\n- **$k_1, k_2$**: Rate constants at temperatures $T_1$ and $T_2$\n- **$E_a$**: Activation energy ($J \\, mol^{-1}$)\n- **$R$**: Gas constant ($8.314 \\, J \\, K^{-1} \\, mol^{-1}$)\n- **$T_1, T_2$**: Absolute temperatures ($K$)\n\n**Notes:**\nBe very careful to use $R$ in Joules ($8.314$) to ensure $E_a$ is calculated in Joules per mole, not kilojoules."
+"derivation": "**Derivation:**\nFrom $\\ln k = \\ln A - \\frac{E_a}{RT}$\n$\\ln k_2 - \\ln k_1 = (\\ln A - \\frac{E_a}{RT_2}) - (\\ln A - \\frac{E_a}{RT_1})$\n$\\ln \\frac{k_2}{k_1} = \\frac{E_a}{R} \\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$\nConvert $\\ln$ to $\\log_{10}$ by dividing by $2.303$.\n\n**Variables & Units:**\n- **$k_1, k_2$**: Rate constants at temperatures $T_1$ and $T_2$\n- **$E_a$**: Activation energy ($J \\, mol^{-1}$)\n- **$R$**: Gas constant ($8.314 \\, J \\, K^{-1} \\, mol^{-1}$)\n- **$T_1, T_2$**: Absolute temperatures ($K$)\n\n**Notes:**\nBe very careful to use $R$ in Joules ($8.314$) to ensure $E_a$ is calculated in Joules per mole, not kilojoules."
 }
 },
 {
@@ -790,8 +790,8 @@
 ],
 "order": 30,
 "heading": "Kinetic Stability vs Thermodynamic Feasibility",
-"question": "The formation of water from $H_2$ and $O_2$, and the combustion of fuels, are thermodynamically highly feasible ($\Delta_r G < 0$). Why don't these reactions occur spontaneously at room temperature?",
-"back": "**The Kinetic Barrier:**\n- While thermodynamic feasibility ($\Delta_r G < 0$) dictates that the reaction *can* occur and the products are more stable, it does not account for the **Activation Energy ($E_a$)**.\n- At room temperature, the average kinetic energy of $H_2$, $O_2$, or fuel molecules is vastly **lower than the required threshold energy**.\n- Because the $E_a$ is so high, the reaction is kinetically locked (has an imperceptible rate) until external energy (like a spark or flame) is provided to overcome the barrier."
+"question": "The formation of water from $H_2$ and $O_2$, and the combustion of fuels, are thermodynamically highly feasible ($\\Delta_r G < 0$). Why don't these reactions occur spontaneously at room temperature?",
+"back": "**The Kinetic Barrier:**\n- While thermodynamic feasibility ($\\Delta_r G < 0$) dictates that the reaction *can* occur and the products are more stable, it does not account for the **Activation Energy ($E_a$)**.\n- At room temperature, the average kinetic energy of $H_2$, $O_2$, or fuel molecules is vastly **lower than the required threshold energy**.\n- Because the $E_a$ is so high, the reaction is kinetically locked (has an imperceptible rate) until external energy (like a spark or flame) is provided to overcome the barrier."
 }
 },
 {
@@ -895,9 +895,9 @@
 ],
 "order": 34,
 "heading": "Collision Theory Rate Equation",
-"formula": "\text{Rate} = P Z_{AB} e^{-E_a/RT}",
-"description": "States the modified rate equation according to Collision Theory for a bimolecular reaction $A + B \rightarrow \text{Products}$, which incorporates both collision frequency and the orientation factor.",
-"derivation": "**Variables & Conceptual Meaning:**\n- **$\text{Rate}$**: Reaction rate\n- **$P$**: **Probability or Steric Factor**; takes into account that molecules must be properly oriented during a collision.\n- **$Z_{AB}$**: **Collision frequency** of reactants A and B (number of collisions per second per unit volume).\n- **$e^{-E_a/RT}$**: The **fraction of molecules** with kinetic energy equal to or greater than the activation energy ($E_a$).",
+"formula": "\\text{Rate} = P Z_{AB} e^{-E_a/RT}",
+"description": "States the modified rate equation according to Collision Theory for a bimolecular reaction $A + B \\rightarrow \\text{Products}$, which incorporates both collision frequency and the orientation factor.",
+"derivation": "**Variables & Conceptual Meaning:**\n- **$\\text{Rate}$**: Reaction rate\n- **$P$**: **Probability or Steric Factor**; takes into account that molecules must be properly oriented during a collision.\n- **$Z_{AB}$**: **Collision frequency** of reactants A and B (number of collisions per second per unit volume).\n- **$e^{-E_a/RT}$**: The **fraction of molecules** with kinetic energy equal to or greater than the activation energy ($E_a$).",
 "mnemonic": "Rate is Properly Zooming electrons over the energy hill."
 }
 },
@@ -979,9 +979,9 @@
 ],
 "order": 37,
 "heading": "Thermodynamic Limits of a Catalyst",
-"question": "What are the absolute thermodynamic boundary conditions of a catalyst regarding Gibbs Free Energy ($\Delta_r G$) and the Equilibrium Constant ($K_c$)?",
-"back": "**Thermodynamic Limitations:**\n- **Gibbs Free Energy ($\Delta_r G$):** A catalyst strictly **does not alter** the $\Delta_r G$ of a reaction. It can only catalyse a *spontaneous* reaction; it cannot make a *non-spontaneous* reaction occur.\n- **Equilibrium Constant ($K_c$):** A catalyst **does not change** the equilibrium constant. It simply helps the system attain equilibrium *faster* by accelerating both the forward and backward reactions to the exact same extent.",
-"mnemonic": "Catalysts change the Pace, not the Place (Equilibrium) or the Possibility ($\Delta G$)."
+"question": "What are the absolute thermodynamic boundary conditions of a catalyst regarding Gibbs Free Energy ($\\Delta_r G$) and the Equilibrium Constant ($K_c$)?",
+"back": "**Thermodynamic Limitations:**\n- **Gibbs Free Energy ($\\Delta_r G$):** A catalyst strictly **does not alter** the $\\Delta_r G$ of a reaction. It can only catalyse a *spontaneous* reaction; it cannot make a *non-spontaneous* reaction occur.\n- **Equilibrium Constant ($K_c$):** A catalyst **does not change** the equilibrium constant. It simply helps the system attain equilibrium *faster* by accelerating both the forward and backward reactions to the exact same extent.",
+"mnemonic": "Catalysts change the Pace, not the Place (Equilibrium) or the Possibility ($\\Delta G$)."
 }
 },
 {

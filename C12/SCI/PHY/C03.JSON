@@ -15,7 +15,7 @@
 "order": 1,
 "heading": "Electric Current Definition",
 "question": "How is 'Electric Current' defined in a conductor when the flow of charge is not steady?",
-"back": "## Explanation:\n- When the rate of flow of charge varies with time, we define the current at a specific instant.\n- The current at time $t$ is the limit of the ratio of net charge $\Delta Q$ flowing across a cross-section to the time interval $\Delta t$, as $\Delta t$ approaches zero.\n- **SI Unit:** Ampere (A)."
+"back": "## Explanation:\n- When the rate of flow of charge varies with time, we define the current at a specific instant.\n- The current at time $t$ is the limit of the ratio of net charge $\\Delta Q$ flowing across a cross-section to the time interval $\\Delta t$, as $\\Delta t$ approaches zero.\n- **SI Unit:** Ampere (A)."
 }
 },
 {
@@ -32,7 +32,7 @@
 "order": 2,
 "heading": "Scalar Nature of Current",
 "question": "Although electric current has a specified physical direction of flow in a wire, why is it strictly classified as a scalar quantity rather than a vector?",
-"back": "## Explanation:\n- Electric current does **not obey the laws of vector addition** (like the parallelogram or triangle laws).\n- When two currents meet at a junction, they simply add algebraically ($I = I_1 + I_2$) according to Kirchhoff's Junction Rule (Conservation of Charge), regardless of the geometric angle between the joining wires.\n- Mathematically, current is the **dot product** of two vectors (Current Density and Area Vector), yielding a scalar: $I = \mathbf{j} \cdot \Delta \mathbf{S}$."
+"back": "## Explanation:\n- Electric current does **not obey the laws of vector addition** (like the parallelogram or triangle laws).\n- When two currents meet at a junction, they simply add algebraically ($I = I_1 + I_2$) according to Kirchhoff's Junction Rule (Conservation of Charge), regardless of the geometric angle between the joining wires.\n- Mathematically, current is the **dot product** of two vectors (Current Density and Area Vector), yielding a scalar: $I = \\mathbf{j} \\cdot \\Delta \\mathbf{S}$."
 }
 },
 {
@@ -48,9 +48,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 3,
 "heading": "Instantaneous Electric Current",
-"formula": "I = \lim_{\Delta t \to 0} \frac{\Delta Q}{\Delta t} = \frac{dQ}{dt}",
+"formula": "I = \\lim_{\\Delta t \\to 0} \\frac{\\Delta Q}{\\Delta t} = \\frac{dQ}{dt}",
 "description": "State the mathematical formula for instantaneous electric current using limits.",
-"derivation": "## Variables & Units:\n- **$I$** = Instantaneous electric current (Amperes, A)\n- **$\Delta Q$** = Net charge flowing across the cross-section (Coulombs, C)\n- **$\Delta t$** = Time interval (seconds, s)\n\n## Conditions/Notes:\n- The conventional direction of electric current is the direction of motion of positive charge."
+"derivation": "## Variables & Units:\n- **$I$** = Instantaneous electric current (Amperes, A)\n- **$\\Delta Q$** = Net charge flowing across the cross-section (Coulombs, C)\n- **$\\Delta t$** = Time interval (seconds, s)\n\n## Conditions/Notes:\n- The conventional direction of electric current is the direction of motion of positive charge."
 }
 },
 {
@@ -84,7 +84,7 @@
 "order": 5,
 "heading": "Thermal Velocity vs. Drift Velocity",
 "question": "Why is the average thermal velocity of electrons in a metal strictly zero, while their average drift velocity under an applied electric field is non-zero?",
-"back": "## Distinctions:\n- **Thermal Velocity:** In the absence of an electric field, electrons move randomly at high speeds ($\sim 10^5 m/s$) due to thermal energy. Their directions are completely random, so the **vector average is exactly zero**. \n- **Drift Velocity:** When an electric field is applied, electrons experience a steady force. Despite random collisions, they acquire a **slow, net directional drift** opposite to the field, resulting in a non-zero average drift velocity ($\sim 10^{-3} m/s$). "
+"back": "## Distinctions:\n- **Thermal Velocity:** In the absence of an electric field, electrons move randomly at high speeds ($\\sim 10^5 m/s$) due to thermal energy. Their directions are completely random, so the **vector average is exactly zero**. \n- **Drift Velocity:** When an electric field is applied, electrons experience a steady force. Despite random collisions, they acquire a **slow, net directional drift** opposite to the field, resulting in a non-zero average drift velocity ($\\sim 10^{-3} m/s$). "
 }
 },
 {
@@ -100,9 +100,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "drift-velocity", "formula"],
 "order": 6,
 "heading": "Drift Velocity Formula",
-"formula": "\mathbf{v}*d = -\frac{e\mathbf{E}}{m}\tau",
+"formula": "\\mathbf{v}*d = -\\frac{e\\mathbf{E}}{m}\\tau",
 "description": "State the formula for the drift velocity of free electrons in terms of relaxation time.",
-"derivation": "## Derivation:\n1. Acceleration of electron: $\mathbf{a} = -\frac{e\mathbf{E}}{m}$.\n2. Velocity after collision: $\mathbf{v}_i = \mathbf{u}_i + \mathbf{a} t_i$.\n3. Taking the average over all electrons: $\mathbf{v}_d = \langle \mathbf{u}_i \rangle + \mathbf{a} \langle t_i \rangle$.\n4. Since $\langle \mathbf{u}_i \rangle = 0$ and $\langle t_i \rangle = \tau$, $\mathbf{v}_d = \mathbf{a}\tau = -\frac{e\mathbf{E}}{m}\tau$.\n\n## Variables & Units:\n- **$\mathbf{v}_d$** = Drift velocity vector ($m/s$)\n- **$e$** = Magnitude of electron charge ($1.6 \times 10^{-19}$ C)\n- **$\mathbf{E}$** = Applied electric field vector ($V/m$)\n- **$m$** = Mass of an electron (kg)\n- **$\tau$** = Relaxation time (average time between successive collisions) (s)\n\n## Conditions/Notes:\n- The negative sign strictly indicates that the electrons drift in a direction precisely **opposite** to the applied electric field."
+"derivation": "## Derivation:\n1. Acceleration of electron: $\\mathbf{a} = -\\frac{e\\mathbf{E}}{m}$.\n2. Velocity after collision: $\\mathbf{v}_i = \\mathbf{u}_i + \\mathbf{a} t_i$.\n3. Taking the average over all electrons: $\\mathbf{v}_d = \\langle \\mathbf{u}_i \\rangle + \\mathbf{a} \\langle t_i \\rangle$.\n4. Since $\\langle \\mathbf{u}_i \\rangle = 0$ and $\\langle t_i \\rangle = \\tau$, $\\mathbf{v}_d = \\mathbf{a}\\tau = -\\frac{e\\mathbf{E}}{m}\\tau$.\n\n## Variables & Units:\n- **$\\mathbf{v}_d$** = Drift velocity vector ($m/s$)\n- **$e$** = Magnitude of electron charge ($1.6 \\times 10^{-19}$ C)\n- **$\\mathbf{E}$** = Applied electric field vector ($V/m$)\n- **$m$** = Mass of an electron (kg)\n- **$\\tau$** = Relaxation time (average time between successive collisions) (s)\n\n## Conditions/Notes:\n- The negative sign strictly indicates that the electrons drift in a direction precisely **opposite** to the applied electric field."
 }
 },
 {
@@ -118,9 +118,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 7,
 "heading": "Current and Drift Velocity Relation",
-"formula": "I = neA|\mathbf{v}*d|",
+"formula": "I = neA|\\mathbf{v}*d|",
 "description": "State the formula connecting macroscopic electric current to microscopic drift velocity.",
-"derivation": "## Derivation:\n1. Distance drifted in time $\Delta t$ is $v_d \Delta t$.\n2. Volume swept is $A v_d \Delta t$.\n3. Number of electrons in this volume is $n A v_d \Delta t$.\n4. Total charge $\Delta Q = e (n A v_d \Delta t)$.\n5. Current $I = \frac{\Delta Q}{\Delta t} = n e A v_d$.\n\n## Variables & Units:\n- **$I$** = Electric current (A)\n- **$n$** = Number density of free electrons (electrons/$m^3$)\n- **$e$** = Elementary charge ($1.6 \times 10^{-19}$ C)\n- **$A$** = Cross-sectional area ($m^2$)\n- **$|\mathbf{v}_d|$** = Magnitude of drift velocity ($m/s$)\n\n## Conditions/Notes:\n- This shows that despite the tiny magnitude of drift velocity, a large current can exist purely because the electron number density ($n$) in metals is enormous ($\sim 10^{29} m^{-3}$).",
+"derivation": "## Derivation:\n1. Distance drifted in time $\\Delta t$ is $v_d \\Delta t$.\n2. Volume swept is $A v_d \\Delta t$.\n3. Number of electrons in this volume is $n A v_d \\Delta t$.\n4. Total charge $\\Delta Q = e (n A v_d \\Delta t)$.\n5. Current $I = \\frac{\\Delta Q}{\\Delta t} = n e A v_d$.\n\n## Variables & Units:\n- **$I$** = Electric current (A)\n- **$n$** = Number density of free electrons (electrons/$m^3$)\n- **$e$** = Elementary charge ($1.6 \\times 10^{-19}$ C)\n- **$A$** = Cross-sectional area ($m^2$)\n- **$|\\mathbf{v}_d|$** = Magnitude of drift velocity ($m/s$)\n\n## Conditions/Notes:\n- This shows that despite the tiny magnitude of drift velocity, a large current can exist purely because the electron number density ($n$) in metals is enormous ($\\sim 10^{29} m^{-3}$).",
 "mnemonic": "I = neAv (I need a Vd)"
 }
 },
@@ -137,9 +137,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 8,
 "heading": "Electron Mobility",
-"formula": "\mu = \frac{|\mathbf{v}*d|}{E} = \frac{e\tau}{m}",
+"formula": "\\mu = \\frac{|\\mathbf{v}*d|}{E} = \\frac{e\\tau}{m}",
 "description": "State the definition and mathematical formula for the mobility of a charge carrier.",
-"derivation": "## Variables & Units:\n- **$\mu$** = Mobility ($m^2 V^{-1} s^{-1}$)\n- **$|\mathbf{v}_d|$** = Magnitude of drift velocity ($m/s$)\n- **$E$** = Magnitude of applied electric field ($V/m$)\n- **$\tau$** = Relaxation time (s)\n\n## Conditions/Notes:\n- Mobility is always a strictly **positive quantity**.\n- It represents how fast an electron can drift per unit of applied electric field."
+"derivation": "## Variables & Units:\n- **$\\mu$** = Mobility ($m^2 V^{-1} s^{-1}$)\n- **$|\\mathbf{v}_d|$** = Magnitude of drift velocity ($m/s$)\n- **$E$** = Magnitude of applied electric field ($V/m$)\n- **$\\tau$** = Relaxation time (s)\n\n## Conditions/Notes:\n- Mobility is always a strictly **positive quantity**.\n- It represents how fast an electron can drift per unit of applied electric field."
 }
 },
 {
@@ -155,9 +155,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 9,
 "heading": "Current Density",
-"formula": "j = \frac{I}{A}",
+"formula": "j = \\frac{I}{A}",
 "description": "State the formula defining the magnitude of current density for a conductor.",
-"derivation": "## Variables & Units:\n- **$j$** = Magnitude of current density ($A/m^2$)\n- **$I$** = Electric current (A)\n- **$A$** = Cross-sectional area purely normal to the current flow ($m^2$)\n\n## Conditions/Notes:\n- Current ($I$) is a scalar quantity, but current density ($\mathbf{j}$) is a **vector quantity** directed along the motion of positive charges (the direction of the electric field)."
+"derivation": "## Variables & Units:\n- **$j$** = Magnitude of current density ($A/m^2$)\n- **$I$** = Electric current (A)\n- **$A$** = Cross-sectional area purely normal to the current flow ($m^2$)\n\n## Conditions/Notes:\n- Current ($I$) is a scalar quantity, but current density ($\\mathbf{j}$) is a **vector quantity** directed along the motion of positive charges (the direction of the electric field)."
 }
 },
 {
@@ -173,8 +173,8 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity"],
 "order": 10,
 "heading": "Current Density in Neutral Conductors",
-"question": "In a neutral conducting wire containing both fixed positive ions and mobile negative electrons, why doesn't the simple relation $\mathbf{j} = \rho \mathbf{v}$ apply directly to the total volume charge density?",
-"back": "## Explanation:\n- Current density must be evaluated for **each type of charge carrier separately**: $\mathbf{j} = \rho*+ \mathbf{v}*+ + \rho*- \mathbf{v}*-$.\n- In a neutral wire, the total volume charge density is strictly zero ($\rho = \rho*+ + \rho_- = 0$). Applying $\mathbf{j} = \rho \mathbf{v}$ directly would incorrectly imply zero current.\n- Since the positive lattice ions are practically stationary ($\mathbf{v}_+ \approx 0$), the macroscopic current density is driven entirely by the drift of the negative electrons ($\mathbf{j} = \rho_- \mathbf{v}_-$)."
+"question": "In a neutral conducting wire containing both fixed positive ions and mobile negative electrons, why doesn't the simple relation $\\mathbf{j} = \\rho \\mathbf{v}$ apply directly to the total volume charge density?",
+"back": "## Explanation:\n- Current density must be evaluated for **each type of charge carrier separately**: $\\mathbf{j} = \\rho*+ \\mathbf{v}*+ + \\rho*- \\mathbf{v}*-$.\n- In a neutral wire, the total volume charge density is strictly zero ($\\rho = \\rho*+ + \rho_- = 0$). Applying $\\mathbf{j} = \\rho \\mathbf{v}$ directly would incorrectly imply zero current.\n- Since the positive lattice ions are practically stationary ($\\mathbf{v}_+ \\approx 0$), the macroscopic current density is driven entirely by the drift of the negative electrons ($\\mathbf{j} = \rho_- \\mathbf{v}_-$)."
 }
 },
 {
@@ -192,7 +192,7 @@
 "heading": "Ohm's Law (Scalar Form)",
 "formula": "V = IR",
 "description": "State the fundamental scalar equation for Ohm's Law.",
-"derivation": "## Variables & Units:\n- **$V$** = Potential difference across the conductor (Volts, V)\n- **$I$** = Electric current flowing through it (Amperes, A)\n- **$R$** = Electrical resistance of the conductor (Ohms, $\Omega$)\n\n## Conditions/Notes:\n- Strictly valid only when the physical conditions (like temperature and mechanical strain) of the conductor remain completely unchanged.",
+"derivation": "## Variables & Units:\n- **$V$** = Potential difference across the conductor (Volts, V)\n- **$I$** = Electric current flowing through it (Amperes, A)\n- **$R$** = Electrical resistance of the conductor (Ohms, $\\Omega$)\n\n## Conditions/Notes:\n- Strictly valid only when the physical conditions (like temperature and mechanical strain) of the conductor remain completely unchanged.",
 "mnemonic": "VIR (Voltage Is Resistance * Current)"
 }
 },
@@ -209,9 +209,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 12,
 "heading": "Resistance and Resistivity",
-"formula": "R = \rho \frac{l}{A}",
+"formula": "R = \\rho \\frac{l}{A}",
 "description": "State the formula relating the electrical resistance of a conductor to its physical dimensions and material property.",
-"derivation": "## Derivation:\n1. Resistance is directly proportional to length: $R \propto l$ (placing two identical slabs in series doubles $V$ for same $I$).\n2. Resistance is inversely proportional to area: $R \propto \frac{1}{A}$ (cutting a slab lengthwise halves the current for same $V$).\n3. Combining them yields $R \propto \frac{l}{A}$, introducing the proportionality constant $\rho$.\n\n## Variables & Units:\n- **$R$** = Electrical resistance ($\Omega$)\n- **$\rho$** = Resistivity of the material ($\Omega \cdot m$)\n- **$l$** = Length of the conductor (m)\n- **$A$** = Cross-sectional area of the conductor ($m^2$)\n\n## Conditions/Notes:\n- Resistance depends heavily on the geometry of the conductor, while resistivity ($\rho$) depends *only* on the nature of the material and temperature."
+"derivation": "## Derivation:\n1. Resistance is directly proportional to length: $R \\propto l$ (placing two identical slabs in series doubles $V$ for same $I$).\n2. Resistance is inversely proportional to area: $R \\propto \\frac{1}{A}$ (cutting a slab lengthwise halves the current for same $V$).\n3. Combining them yields $R \\propto \\frac{l}{A}$, introducing the proportionality constant $\\rho$.\n\n## Variables & Units:\n- **$R$** = Electrical resistance ($\\Omega$)\n- **$\\rho$** = Resistivity of the material ($\\Omega \\cdot m$)\n- **$l$** = Length of the conductor (m)\n- **$A$** = Cross-sectional area of the conductor ($m^2$)\n\n## Conditions/Notes:\n- Resistance depends heavily on the geometry of the conductor, while resistivity ($\\rho$) depends *only* on the nature of the material and temperature."
 }
 },
 {
@@ -228,7 +228,7 @@
 "order": 13,
 "heading": "Resistivity Orders of Magnitude",
 "question": "What are the typical expected orders of magnitude for the electrical resistivity of metals compared to perfect insulators?",
-"back": "## Explanation:\n- **Metals/Conductors:** Extremely low resistivity, typically ranging from **$10^{-8} \\; \Omega \cdot m$ to $10^{-6} \\; \Omega \cdot m$**.\n- **Insulators:** Enormously high resistivity, typically **$10^{18}$ to $10^{24}$ times greater** than metals (e.g., $10^{14}$ to $10^{16} \\; \Omega \cdot m$).\n- **Semiconductors:** Sit logarithmically in the middle of these two extremes."
+"back": "## Explanation:\n- **Metals/Conductors:** Extremely low resistivity, typically ranging from **$10^{-8} \\; \\Omega \\cdot m$ to $10^{-6} \\; \\Omega \\cdot m$**.\n- **Insulators:** Enormously high resistivity, typically **$10^{18}$ to $10^{24}$ times greater** than metals (e.g., $10^{14}$ to $10^{16} \\; \\Omega \\cdot m$).\n- **Semiconductors:** Sit logarithmically in the middle of these two extremes."
 }
 },
 {
@@ -244,9 +244,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 14,
 "heading": "Ohm's Law (Vector Form)",
-"formula": "\mathbf{j} = \sigma \mathbf{E}",
+"formula": "\\mathbf{j} = \\sigma \\mathbf{E}",
 "description": "Express Ohm's Law in its vector form, relating current density, conductivity, and electric field.",
-"derivation": "## Derivation:\n1. From $V = IR$, substitute $V = El$ and $R = \rho \frac{l}{A}$.\n2. $El = I\left(\rho \frac{l}{A}\right) \implies E = \left(\frac{I}{A}\right)\rho$.\n3. Since $j = \frac{I}{A}$, we get $E = j\rho$.\n4. In vector form, $\mathbf{E} = \rho \mathbf{j} \implies \mathbf{j} = \sigma \mathbf{E}$.\n\n## Variables & Units:\n- **$\mathbf{j}$** = Current density vector ($A/m^2$)\n- **$\sigma$** = Electrical conductivity ($S/m$ or $\Omega^{-1} m^{-1}$)\n- **$\mathbf{E}$** = Electric field vector ($V/m$)\n\n## Conditions/Notes:\n- Conductivity $\sigma$ is the exact reciprocal of resistivity ($\sigma = \frac{1}{\rho}$).\n- Alternatively written as $\mathbf{E} = \rho \mathbf{j}$."
+"derivation": "## Derivation:\n1. From $V = IR$, substitute $V = El$ and $R = \\rho \\frac{l}{A}$.\n2. $El = I\\left(\\rho \\frac{l}{A}\\right) \\implies E = \\left(\\frac{I}{A}\\right)\\rho$.\n3. Since $j = \\frac{I}{A}$, we get $E = j\\rho$.\n4. In vector form, $\\mathbf{E} = \\rho \\mathbf{j} \\implies \\mathbf{j} = \\sigma \\mathbf{E}$.\n\n## Variables & Units:\n- **$\\mathbf{j}$** = Current density vector ($A/m^2$)\n- **$\\sigma$** = Electrical conductivity ($S/m$ or $\\Omega^{-1} m^{-1}$)\n- **$\\mathbf{E}$** = Electric field vector ($V/m$)\n\n## Conditions/Notes:\n- Conductivity $\\sigma$ is the exact reciprocal of resistivity ($\\sigma = \\frac{1}{\\rho}$).\n- Alternatively written as $\\mathbf{E} = \\rho \\mathbf{j}$."
 }
 },
 {
@@ -262,9 +262,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 15,
 "heading": "Electrical Conductivity Formula",
-"formula": "\sigma = \frac{1}{\rho} = \frac{n e^2 \tau}{m}",
+"formula": "\\sigma = \\frac{1}{\\rho} = \\frac{n e^2 \\tau}{m}",
 "description": "State the formula for electrical conductivity in terms of fundamental microscopic parameters like electron density and relaxation time.",
-"derivation": "## Derivation:\n1. Ohm's law in vector form: $\mathbf{j} = \sigma \mathbf{E}$.\n2. Current density equation: $\mathbf{j} = ne\mathbf{v}_d$.\n3. Substitute drift velocity: $\mathbf{v}_d = \frac{e\mathbf{E}\tau}{m}$.\n4. $\mathbf{j} = ne \left(\frac{e\mathbf{E}\tau}{m}\right) = \left(\frac{ne^2\tau}{m}\right)\mathbf{E}$.\n5. Comparing with $\mathbf{j} = \sigma \mathbf{E}$, we extract $\sigma = \frac{ne^2\tau}{m}$.\n\n## Variables & Units:\n- **$\sigma$** = Electrical Conductivity (Siemens/m or $\Omega^{-1} m^{-1}$)\n- **$\rho$** = Electrical Resistivity ($\Omega \cdot m$)\n- **$n$** = Number density of free electrons ($m^{-3}$)\n- **$e$** = Elementary charge ($1.6 \times 10^{-19}$ C)\n- **$\tau$** = Relaxation time (s)\n- **$m$** = Mass of electron (kg)\n\n## Conditions/Notes:\n- Conductivity is an intrinsic property of the material and does not depend on the physical dimensions of the conductor."
+"derivation": "## Derivation:\n1. Ohm's law in vector form: $\\mathbf{j} = \\sigma \\mathbf{E}$.\n2. Current density equation: $\\mathbf{j} = ne\\mathbf{v}_d$.\n3. Substitute drift velocity: $\\mathbf{v}_d = \\frac{e\\mathbf{E}\\tau}{m}$.\n4. $\\mathbf{j} = ne \\left(\\frac{e\\mathbf{E}\\tau}{m}\\right) = \\left(\\frac{ne^2\\tau}{m}\\right)\\mathbf{E}$.\n5. Comparing with $\\mathbf{j} = \\sigma \\mathbf{E}$, we extract $\\sigma = \\frac{ne^2\\tau}{m}$.\n\n## Variables & Units:\n- **$\\sigma$** = Electrical Conductivity (Siemens/m or $\\Omega^{-1} m^{-1}$)\n- **$\\rho$** = Electrical Resistivity ($\\Omega \\cdot m$)\n- **$n$** = Number density of free electrons ($m^{-3}$)\n- **$e$** = Elementary charge ($1.6 \\times 10^{-19}$ C)\n- **$\\tau$** = Relaxation time (s)\n- **$m$** = Mass of electron (kg)\n\n## Conditions/Notes:\n- Conductivity is an intrinsic property of the material and does not depend on the physical dimensions of the conductor."
 }
 },
 {
@@ -280,9 +280,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 16,
 "heading": "Microscopic Form of Resistivity",
-"formula": "\rho = \frac{m}{ne^2 \tau}",
+"formula": "\\rho = \\frac{m}{ne^2 \\tau}",
 "description": "State the formula for electrical resistivity in terms of fundamental microscopic quantities like electron density and relaxation time.",
-"derivation": "## Derivation:\n1. We know $I = neAv_d$ and $v_d = \frac{eE\tau}{m}$.\n2. Substitute $v_d$: $I = neA\left(\frac{eE\tau}{m}\right) = \frac{ne^2A\tau}{m}E$.\n3. We also know $E = j\rho = \left(\frac{I}{A}\right)\rho$.\n4. Substituting $E$: $I = \frac{ne^2A\tau}{m} \left(\frac{I}{A}\right)\rho$.\n5. Canceling $I$ and $A$ yields $1 = \frac{ne^2\tau}{m}\rho \implies \rho = \frac{m}{ne^2\tau}$.\n\n## Variables & Units:\n- **$\rho$** = Resistivity ($\Omega \cdot m$)\n- **$m$** = Mass of electron (kg)\n- **$n$** = Number density of free charge carriers ($m^{-3}$)\n- **$e$** = Electron charge (C)\n- **$\tau$** = Relaxation time (s)\n\n## Conditions/Notes:\n- Identifies conductivity as $\sigma = \frac{ne^2 \tau}{m}$.\n- Resistivity increases if collision frequency increases ($\tau$ decreases)."
+"derivation": "## Derivation:\n1. We know $I = neAv_d$ and $v_d = \\frac{eE\\tau}{m}$.\n2. Substitute $v_d$: $I = neA\\left(\\frac{eE\\tau}{m}\\right) = \\frac{ne^2A\\tau}{m}E$.\n3. We also know $E = j\\rho = \\left(\\frac{I}{A}\\right)\\rho$.\n4. Substituting $E$: $I = \\frac{ne^2A\\tau}{m} \\left(\\frac{I}{A}\\right)\\rho$.\n5. Canceling $I$ and $A$ yields $1 = \\frac{ne^2\\tau}{m}\\rho \\implies \\rho = \\frac{m}{ne^2\\tau}$.\n\n## Variables & Units:\n- **$\\rho$** = Resistivity ($\\Omega \\cdot m$)\n- **$m$** = Mass of electron (kg)\n- **$n$** = Number density of free charge carriers ($m^{-3}$)\n- **$e$** = Electron charge (C)\n- **$\\tau$** = Relaxation time (s)\n\n## Conditions/Notes:\n- Identifies conductivity as $\\sigma = \\frac{ne^2 \\tau}{m}$.\n- Resistivity increases if collision frequency increases ($\\tau$ decreases)."
 }
 },
 {
@@ -298,9 +298,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 17,
 "heading": "Conductivity and Mobility Relation",
-"formula": "\sigma = n e \mu_e",
+"formula": "\\sigma = n e \\mu_e",
 "description": "State the mathematical relationship linking the electrical conductivity of a material to the mobility of its charge carriers.",
-"derivation": "## Derivation:\n1. Conductivity $\sigma = \frac{ne^2\tau}{m}$.\n2. Mobility $\mu_e = \frac{e\tau}{m}$.\n3. Substituting $\mu_e$ into the conductivity formula yields $\sigma = ne\mu_e$.\n\n## Variables & Units:\n- **$\sigma$** = Conductivity ($S/m$ or $\Omega^{-1} m^{-1}$)\n- **$n$** = Charge carrier number density ($m^{-3}$)\n- **$e$** = Elementary charge (C)\n- **$\mu_e$** = Mobility of the charge carriers ($m^2 V^{-1} s^{-1}$)\n\n## Conditions/Notes:\n- If a semiconductor has both electrons and holes contributing to current, the formula expands strictly to $\sigma = e(n_e \mu_e + n_h \mu_h)$."
+"derivation": "## Derivation:\n1. Conductivity $\\sigma = \\frac{ne^2\\tau}{m}$.\n2. Mobility $\\mu_e = \\frac{e\\tau}{m}$.\n3. Substituting $\\mu_e$ into the conductivity formula yields $\\sigma = ne\\mu_e$.\n\n## Variables & Units:\n- **$\\sigma$** = Conductivity ($S/m$ or $\\Omega^{-1} m^{-1}$)\n- **$n$** = Charge carrier number density ($m^{-3}$)\n- **$e$** = Elementary charge (C)\n- **$\\mu_e$** = Mobility of the charge carriers ($m^2 V^{-1} s^{-1}$)\n\n## Conditions/Notes:\n- If a semiconductor has both electrons and holes contributing to current, the formula expands strictly to $\\sigma = e(n_e \\mu_e + n_h \\mu_h)$."
 }
 },
 {
@@ -333,9 +333,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 19,
 "heading": "Temperature Dependence of Resistance",
-"formula": "R_T = R_0 [1 + \alpha (T - T_0)]",
+"formula": "R_T = R_0 [1 + \\alpha (T - T_0)]",
 "description": "State the empirical formula defining the resistance of a conductor at a given temperature in terms of its initial resistance and temperature coefficient.",
-"derivation": "## Variables & Units:\n- **$R_T$** = Resistance at temperature $T$ ($\Omega$)\n- **$R_0$** = Resistance at reference temperature $T_0$ ($\Omega$)\n- **$\alpha$** = Temperature coefficient of resistance ($^\circ C^{-1}$ or $K^{-1}$)\n- **$T - T_0$** = Change in temperature ($^\circ C$ or $K$)\n\n## Conditions/Notes:\n- Valid only for temperature ranges where the change in resistance is strictly linear.\n- $\alpha$ is **positive** for metals and **negative** for semiconductors and insulators."
+"derivation": "## Variables & Units:\n- **$R_T$** = Resistance at temperature $T$ ($\\Omega$)\n- **$R_0$** = Resistance at reference temperature $T_0$ ($\\Omega$)\n- **$\\alpha$** = Temperature coefficient of resistance ($^\\circ C^{-1}$ or $K^{-1}$)\n- **$T - T_0$** = Change in temperature ($^\\circ C$ or $K$)\n\n## Conditions/Notes:\n- Valid only for temperature ranges where the change in resistance is strictly linear.\n- $\\alpha$ is **positive** for metals and **negative** for semiconductors and insulators."
 }
 },
 {
@@ -351,9 +351,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "formula"],
 "order": 20,
 "heading": "Temperature Dependence of Resistivity",
-"formula": "\rho_T = \rho_0 [1 + \alpha (T - T_0)]",
+"formula": "\rho_T = \rho_0 [1 + \\alpha (T - T_0)]",
 "description": "State the empirical formula approximating the resistivity of a metallic conductor over a limited temperature range.",
-"derivation": "## Variables & Units:\n- **$\rho_T$** = Resistivity at temperature $T$ ($\Omega \cdot m$)\n- **$\rho_0$** = Resistivity at reference temperature $T_0$ ($\Omega \cdot m$)\n- **$\alpha$** = Temperature coefficient of resistivity ($^\circ C^{-1}$ or $K^{-1}$)\n- **$T - T_0$** = Change in temperature ($^\circ C$ or $K$)\n\n## Conditions/Notes:\n- This linear approximation is strictly valid only over a **limited range** of temperatures.\n- At temperatures much lower than $0^\circ C$, the actual $\rho$-$T$ graph for metals deviates considerably from a straight line."
+"derivation": "## Variables & Units:\n- **$\rho_T$** = Resistivity at temperature $T$ ($\\Omega \\cdot m$)\n- **$\rho_0$** = Resistivity at reference temperature $T_0$ ($\\Omega \\cdot m$)\n- **$\\alpha$** = Temperature coefficient of resistivity ($^\\circ C^{-1}$ or $K^{-1}$)\n- **$T - T_0$** = Change in temperature ($^\\circ C$ or $K$)\n\n## Conditions/Notes:\n- This linear approximation is strictly valid only over a **limited range** of temperatures.\n- At temperatures much lower than $0^\\circ C$, the actual $\\rho$-$T$ graph for metals deviates considerably from a straight line."
 }
 },
 {
@@ -369,7 +369,7 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity"],
 "order": 21,
 "heading": "Relaxation Time Dependencies",
-"question": "How does the relaxation time ($\tau$) of free electrons in a metallic conductor react to changes in the applied electric field and the macroscopic temperature?",
+"question": "How does the relaxation time ($\\tau$) of free electrons in a metallic conductor react to changes in the applied electric field and the macroscopic temperature?",
 "back": "## Explanation:\n- **Electric Field:** Relaxation time is **nearly independent** of the applied electric field. This independence is fundamentally what makes Ohm's Law valid for metallic conductors.\n- **Temperature:** It **decreases significantly** as temperature increases. Higher temperatures cause more vigorous thermal vibrations of the fixed lattice ions, leading to more frequent electron-ion collisions and a shorter average time between collisions."
 }
 },
@@ -386,8 +386,8 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity"],
 "order": 22,
 "heading": "Resistivity: Metals vs. Semiconductors",
-"question": "Using the microscopic formula for resistivity ($\rho = \frac{m}{ne^2\tau}$), explain why the resistivity of metals increases with temperature, while it decreases for semiconductors.",
-"back": "## Distinctions:\n- **Metals:** The number density of free electrons ($n$) is essentially constant. As temperature increases, the ions vibrate more vigorously, causing electrons to collide more frequently. The relaxation time ($\tau$) **decreases**, driving the resistivity $\rho$ **up**.\n- **Semiconductors & Insulators:** As temperature increases, more electrons acquire enough thermal energy to break free. The number density ($n$) **increases exponentially**, which more than compensates for any decrease in $\tau$. Thus, the overall resistivity $\rho$ **decreases**. "
+"question": "Using the microscopic formula for resistivity ($\\rho = \\frac{m}{ne^2\\tau}$), explain why the resistivity of metals increases with temperature, while it decreases for semiconductors.",
+"back": "## Distinctions:\n- **Metals:** The number density of free electrons ($n$) is essentially constant. As temperature increases, the ions vibrate more vigorously, causing electrons to collide more frequently. The relaxation time ($\\tau$) **decreases**, driving the resistivity $\\rho$ **up**.\n- **Semiconductors & Insulators:** As temperature increases, more electrons acquire enough thermal energy to break free. The number density ($n$) **increases exponentially**, which more than compensates for any decrease in $\\tau$. Thus, the overall resistivity $\\rho$ **decreases**. "
 }
 },
 {
@@ -439,7 +439,7 @@
 "order": 25,
 "heading": "Standard Resistance Coils",
 "question": "Why are alloys like constantan, manganin, and nichrome widely chosen over pure metals for making standard wire-bound resistors?",
-"back": "## Explanation:\n- **High Resistivity:** They have a significantly higher resistivity than pure metals, allowing for compact resistor coils.\n- **Low Temperature Coefficient ($\alpha$):** Their resistance changes negligibly with temperature fluctuations, ensuring precision across various conditions.\n- **Environmental Stability:** They are robust and least affected by atmospheric variables like moisture and oxidation.\n- **Low Contact Potential:** Their contact potential with copper (used in connecting wires) is very small, minimizing thermoelectric EMF errors."
+"back": "## Explanation:\n- **High Resistivity:** They have a significantly higher resistivity than pure metals, allowing for compact resistor coils.\n- **Low Temperature Coefficient ($\\alpha$):** Their resistance changes negligibly with temperature fluctuations, ensuring precision across various conditions.\n- **Environmental Stability:** They are robust and least affected by atmospheric variables like moisture and oxidation.\n- **Low Contact Potential:** Their contact potential with copper (used in connecting wires) is very small, minimizing thermoelectric EMF errors."
 }
 },
 {
@@ -455,9 +455,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "resistors", "formula"],
 "order": 26,
 "heading": "Equivalent Resistance (Series & Parallel)",
-"formula": "R_{series} = R_1 + R_2 + \dots + R_n \quad ; \quad \frac{1}{R_{parallel}} = \frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}",
+"formula": "R_{series} = R_1 + R_2 + \\dots + R_n \\quad ; \\quad \\frac{1}{R_{parallel}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots + \\frac{1}{R_n}",
 "description": "State the formulas for the equivalent resistance of n resistors connected in strictly series and strictly parallel configurations.",
-"derivation": "## Variables & Units:\n- **$R_{series}, R_{parallel}$** = Equivalent resistances ($\Omega$)\n- **$R_1, R_2, \dots, R_n$** = Individual resistances ($\Omega$)\n\n## Conditions/Notes:\n- **Series:** Current remains constant. Equivalent resistance is always **greater than the largest** individual resistance ($R_{eq} > R_{max}$).\n- **Parallel:** Potential difference remains constant. Equivalent resistance is always **strictly smaller than the smallest** individual resistance ($R_{eq} < R_{min}$)."
+"derivation": "## Variables & Units:\n- **$R_{series}, R_{parallel}$** = Equivalent resistances ($\\Omega$)\n- **$R_1, R_2, \\dots, R_n$** = Individual resistances ($\\Omega$)\n\n## Conditions/Notes:\n- **Series:** Current remains constant. Equivalent resistance is always **greater than the largest** individual resistance ($R_{eq} > R_{max}$).\n- **Parallel:** Potential difference remains constant. Equivalent resistance is always **strictly smaller than the smallest** individual resistance ($R_{eq} < R_{min}$)."
 }
 },
 {
@@ -473,9 +473,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "power", "formula"],
 "order": 27,
 "heading": "Electrical Power Dissipation",
-"formula": "P = I^2 R = \frac{V^2}{R} = IV",
+"formula": "P = I^2 R = \\frac{V^2}{R} = IV",
 "description": "State the formula for the electrical power dissipated as Joule heating in a conductor of resistance R.",
-"derivation": "## Derivation:\n1. Energy dissipated $\Delta W = I V \Delta t$.\n2. Power $P = \frac{\Delta W}{\Delta t} = IV$.\n3. From Ohm's law, substituting $V=IR$ gives $P = I^2 R$.\n4. Substituting $I=\frac{V}{R}$ gives $P = \frac{V^2}{R}$.\n\n## Variables & Units:\n- **$P$** = Electrical power dissipated (Watts, W)\n- **$I$** = Current flowing through the resistor (A)\n- **$R$** = Resistance of the conductor ($\Omega$)\n- **$V$** = Potential difference across the conductor (V)\n\n## Conditions/Notes:\n- The energy dissipated comes from the chemical energy of the cell/battery maintaining the steady electric field."
+"derivation": "## Derivation:\n1. Energy dissipated $\\Delta W = I V \\Delta t$.\n2. Power $P = \\frac{\\Delta W}{\\Delta t} = IV$.\n3. From Ohm's law, substituting $V=IR$ gives $P = I^2 R$.\n4. Substituting $I=\\frac{V}{R}$ gives $P = \\frac{V^2}{R}$.\n\n## Variables & Units:\n- **$P$** = Electrical power dissipated (Watts, W)\n- **$I$** = Current flowing through the resistor (A)\n- **$R$** = Resistance of the conductor ($\\Omega$)\n- **$V$** = Potential difference across the conductor (V)\n\n## Conditions/Notes:\n- The energy dissipated comes from the chemical energy of the cell/battery maintaining the steady electric field."
 }
 },
 {
@@ -492,7 +492,7 @@
 "order": 28,
 "heading": "High Voltage Power Transmission",
 "question": "To deliver a specific power $P$ to a remote factory, why do power stations transmit electricity through cables at enormously high voltages?",
-"back": "## Explanation:\n- The power wasted in the transmission cables is given by $P_c = I^2 R_c$.\n- Since the total power to be delivered is $P = VI$, the current required is $I = \frac{P}{V}$.\n- Substituting this into the waste equation: **$P_c = \frac{P^2 R_c}{V^2}$**.\n- Therefore, the power wasted as heat is **inversely proportional to the square of the transmission voltage ($V^2$)**. Transmitting at extremely high voltages drastically reduces the current $I$, thereby minimizing the $I^2R_c$ ohmic losses."
+"back": "## Explanation:\n- The power wasted in the transmission cables is given by $P_c = I^2 R_c$.\n- Since the total power to be delivered is $P = VI$, the current required is $I = \\frac{P}{V}$.\n- Substituting this into the waste equation: **$P_c = \\frac{P^2 R_c}{V^2}$**.\n- Therefore, the power wasted as heat is **inversely proportional to the square of the transmission voltage ($V^2$)**. Transmitting at extremely high voltages drastically reduces the current $I$, thereby minimizing the $I^2R_c$ ohmic losses."
 }
 },
 {
@@ -508,7 +508,7 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "emf"],
 "order": 29,
 "heading": "Electromotive Force (EMF)",
-"question": "What is the physical significance of the Electromotive Force (EMF, $\varepsilon$) of a cell, and why is its name historically misleading?",
+"question": "What is the physical significance of the Electromotive Force (EMF, $\\varepsilon$) of a cell, and why is its name historically misleading?",
 "back": "## Explanation:\n- **Significance:** The EMF is strictly the **potential difference** between the positive and negative electrodes of a cell in an **open circuit** (when exactly zero current is drawn from the cell).\n- **Misleading Name:** It is technically a *potential difference* (measured in Volts) representing the work done per unit charge, **not an actual physical force** (measured in Newtons)."
 }
 },
@@ -525,9 +525,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "emf", "formula"],
 "order": 30,
 "heading": "Terminal Voltage of a Cell",
-"formula": "V = \varepsilon - Ir",
+"formula": "V = \\varepsilon - Ir",
 "description": "State the formula for the terminal voltage (V) of a discharging cell that has a finite internal resistance.",
-"derivation": "## Derivation:\n1. Total potential difference $V$ is the sum of potentials across electrodes and electrolyte.\n2. In open circuit, $V = V_+ + V_- = \varepsilon$.\n3. When current $I$ flows, it drops by $Ir$ across the internal resistance.\n4. Therefore, $V = \varepsilon - Ir$.\n\n## Variables & Units:\n- **$V$** = Terminal potential difference (Volts, V)\n- **$\varepsilon$** = Electromotive force (EMF) of the cell (V)\n- **$I$** = Current drawn from the cell (A)\n- **$r$** = Internal resistance of the cell electrolyte ($\Omega$)\n\n## Conditions/Notes:\n- The terminal voltage is strictly **less than** the EMF when the cell is discharging.\n- Maximum current from the cell occurs if $R_{ext} = 0$, giving $I_{max} = \frac{\varepsilon}{r}$."
+"derivation": "## Derivation:\n1. Total potential difference $V$ is the sum of potentials across electrodes and electrolyte.\n2. In open circuit, $V = V_+ + V_- = \\varepsilon$.\n3. When current $I$ flows, it drops by $Ir$ across the internal resistance.\n4. Therefore, $V = \\varepsilon - Ir$.\n\n## Variables & Units:\n- **$V$** = Terminal potential difference (Volts, V)\n- **$\\varepsilon$** = Electromotive force (EMF) of the cell (V)\n- **$I$** = Current drawn from the cell (A)\n- **$r$** = Internal resistance of the cell electrolyte ($\\Omega$)\n\n## Conditions/Notes:\n- The terminal voltage is strictly **less than** the EMF when the cell is discharging.\n- Maximum current from the cell occurs if $R_{ext} = 0$, giving $I_{max} = \\frac{\\varepsilon}{r}$."
 }
 },
 {
@@ -543,9 +543,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "cells", "series", "formula"],
 "order": 31,
 "heading": "Equivalent EMF: Cells in Series",
-"formula": "\varepsilon_{eq} = \varepsilon_1 + \varepsilon_2 + \dots + \varepsilon_n \quad ; \quad r_{eq} = r_1 + r_2 + \dots + r_n",
+"formula": "\\varepsilon_{eq} = \\varepsilon_1 + \\varepsilon_2 + \\dots + \\varepsilon_n \\quad ; \\quad r_{eq} = r_1 + r_2 + \\dots + r_n",
 "description": "State the equivalent EMF and equivalent internal resistance for n cells connected in series.",
-"derivation": "## Variables & Units:\n- **$\varepsilon_{eq}$** = Equivalent EMF (V)\n- **$r_{eq}$** = Equivalent internal resistance ($\Omega$)\n\n## Conditions/Notes:\n- Valid strictly when the current leaves each cell from the **positive electrode**.\n- If a cell is connected in reverse (negative terminal to negative terminal), its EMF enters the equation with a **negative sign**."
+"derivation": "## Variables & Units:\n- **$\\varepsilon_{eq}$** = Equivalent EMF (V)\n- **$r_{eq}$** = Equivalent internal resistance ($\\Omega$)\n\n## Conditions/Notes:\n- Valid strictly when the current leaves each cell from the **positive electrode**.\n- If a cell is connected in reverse (negative terminal to negative terminal), its EMF enters the equation with a **negative sign**."
 }
 },
 {
@@ -561,9 +561,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "cells", "parallel", "formula"],
 "order": 32,
 "heading": "Equivalent EMF: Cells in Parallel",
-"formula": "\varepsilon_{eq} = \frac{\varepsilon_1 r_2 + \varepsilon_2 r_1}{r_1 + r_2} \quad ; \quad \frac{1}{r_{eq}} = \frac{1}{r_1} + \frac{1}{r_2}",
+"formula": "\\varepsilon_{eq} = \\frac{\\varepsilon_1 r_2 + \\varepsilon_2 r_1}{r_1 + r_2} \\quad ; \\quad \\frac{1}{r_{eq}} = \\frac{1}{r_1} + \\frac{1}{r_2}",
 "description": "State the formula for the equivalent EMF of two dissimilar cells connected in parallel.",
-"derivation": "## Variables & Units:\n- **$\varepsilon_{eq}$** = Equivalent EMF (V)\n- **$\varepsilon_1, \varepsilon_2$** = Individual EMFs (V)\n- **$r_1, r_2$** = Individual internal resistances ($\Omega$)\n\n## Conditions/Notes:\n- Derived assuming positive terminals are joined together. If negative is joined to positive, replace $\varepsilon_2$ with $-\varepsilon_2$."
+"derivation": "## Variables & Units:\n- **$\\varepsilon_{eq}$** = Equivalent EMF (V)\n- **$\\varepsilon_1, \\varepsilon_2$** = Individual EMFs (V)\n- **$r_1, r_2$** = Individual internal resistances ($\\Omega$)\n\n## Conditions/Notes:\n- Derived assuming positive terminals are joined together. If negative is joined to positive, replace $\\varepsilon_2$ with $-\\varepsilon_2$."
 }
 },
 {
@@ -579,9 +579,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "cells", "formula"],
 "order": 33,
 "heading": "Mixed Grouping of Identical Cells",
-"formula": "I = \frac{mn\varepsilon}{mR + nr}",
+"formula": "I = \\frac{mn\\varepsilon}{mR + nr}",
 "description": "State the formula for the current drawn from a mixed grouping array of cells consisting of m parallel rows, with each row having n identical cells in series.",
-"derivation": "## Derivation:\n1. Equivalent EMF of one row = $n\varepsilon$. Since rows are in parallel, total EMF = $n\varepsilon$.\n2. Equivalent internal resistance of one row = $nr$. Since $m$ rows are in parallel, total internal resistance $r_{eq} = \frac{nr}{m}$.\n3. Current $I = \frac{\text{Total EMF}}{\text{Total Resistance}} = \frac{n\varepsilon}{R + \frac{nr}{m}} = \frac{mn\varepsilon}{mR + nr}$.\n\n## Variables & Units:\n- **$I$** = Current in the external circuit (A)\n- **$m$** = Number of parallel rows\n- **$n$** = Number of cells in each series row\n- **$\varepsilon$** = EMF of each individual cell (V)\n- **$R$** = External resistance ($\Omega$)\n- **$r$** = Internal resistance of each cell ($\Omega$)\n\n## Conditions/Notes:\n- **Maximum Current Theorem:** The current drawn from this array is maximum when the external resistance strictly equals the total equivalent internal resistance of the array ($R = \frac{nr}{m}$)."
+"derivation": "## Derivation:\n1. Equivalent EMF of one row = $n\\varepsilon$. Since rows are in parallel, total EMF = $n\\varepsilon$.\n2. Equivalent internal resistance of one row = $nr$. Since $m$ rows are in parallel, total internal resistance $r_{eq} = \\frac{nr}{m}$.\n3. Current $I = \\frac{\\text{Total EMF}}{\\text{Total Resistance}} = \\frac{n\\varepsilon}{R + \\frac{nr}{m}} = \\frac{mn\\varepsilon}{mR + nr}$.\n\n## Variables & Units:\n- **$I$** = Current in the external circuit (A)\n- **$m$** = Number of parallel rows\n- **$n$** = Number of cells in each series row\n- **$\\varepsilon$** = EMF of each individual cell (V)\n- **$R$** = External resistance ($\\Omega$)\n- **$r$** = Internal resistance of each cell ($\\Omega$)\n\n## Conditions/Notes:\n- **Maximum Current Theorem:** The current drawn from this array is maximum when the external resistance strictly equals the total equivalent internal resistance of the array ($R = \\frac{nr}{m}$)."
 }
 },
 {
@@ -598,7 +598,7 @@
 "order": 34,
 "heading": "Kirchhoff's Junction Rule (KCL)",
 "question": "What is Kirchhoff's First Rule (Junction Rule), and on which fundamental conservation principle is it strictly based?",
-"back": "## Explanation:\n- **Rule:** At any junction in a circuit, the sum of the currents entering the junction is strictly equal to the sum of currents leaving the junction ($\Sigma I = 0$).\n- **Conservation Principle:** It is based directly on the **Law of Conservation of Charge**. When currents are steady, there is no accumulation or depletion of charges at any point or junction in the line."
+"back": "## Explanation:\n- **Rule:** At any junction in a circuit, the sum of the currents entering the junction is strictly equal to the sum of currents leaving the junction ($\\Sigma I = 0$).\n- **Conservation Principle:** It is based directly on the **Law of Conservation of Charge**. When currents are steady, there is no accumulation or depletion of charges at any point or junction in the line."
 }
 },
 {
@@ -615,7 +615,7 @@
 "order": 35,
 "heading": "Kirchhoff's Loop Rule (KVL)",
 "question": "What is Kirchhoff's Second Rule (Loop Rule), and on which fundamental conservation principle does it rely?",
-"back": "## Explanation:\n- **Rule:** The algebraic sum of changes in potential around any closed circuit loop involving resistors and cells is strictly zero ($\Sigma \Delta V = 0$).\n- **Conservation Principle:** It is based directly on the **Law of Conservation of Energy**. Since electrostatic potential depends strictly on location, starting at a point and returning to it ensures the total potential energy change for a charge is perfectly zero."
+"back": "## Explanation:\n- **Rule:** The algebraic sum of changes in potential around any closed circuit loop involving resistors and cells is strictly zero ($\\Sigma \\Delta V = 0$).\n- **Conservation Principle:** It is based directly on the **Law of Conservation of Energy**. Since electrostatic potential depends strictly on location, starting at a point and returning to it ensures the total potential energy change for a charge is perfectly zero."
 }
 },
 {
@@ -631,9 +631,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "wheatstone-bridge", "formula"],
 "order": 36,
 "heading": "Wheatstone Bridge Balance Condition",
-"formula": "\frac{R_1}{R_2} = \frac{R_3}{R_4}",
+"formula": "\\frac{R_1}{R_2} = \\frac{R_3}{R_4}",
 "description": "State the mathematical condition required for a Wheatstone bridge to be considered 'balanced'.",
-"derivation": "## Derivation:\n1. Apply Kirchhoff's loop rule to loops with $I_g = 0$.\n2. Loop 1 gives $I_1 R_1 = I_2 R_2$.\n3. Loop 2 gives $I_1 R_3 = I_2 R_4$ (since $I_1 = I_3$ and $I_2 = I_4$ when $I_g=0$).\n4. Dividing the two equations yields $\frac{R_1}{R_2} = \frac{R_3}{R_4}$.\n\n## Variables & Units:\n- **$R_1, R_2, R_3, R_4$** = The four branch resistances in the bridge circuit ($\Omega$)\n\n## Conditions/Notes:\n- When balanced, the potential difference across the galvanometer nodes is zero.\n- Consequently, **strictly zero current** flows through the galvanometer ($I_g = 0$).\n- The meter bridge relies on this exact principle to determine an unknown resistance."
+"derivation": "## Derivation:\n1. Apply Kirchhoff's loop rule to loops with $I_g = 0$.\n2. Loop 1 gives $I_1 R_1 = I_2 R_2$.\n3. Loop 2 gives $I_1 R_3 = I_2 R_4$ (since $I_1 = I_3$ and $I_2 = I_4$ when $I_g=0$).\n4. Dividing the two equations yields $\\frac{R_1}{R_2} = \\frac{R_3}{R_4}$.\n\n## Variables & Units:\n- **$R_1, R_2, R_3, R_4$** = The four branch resistances in the bridge circuit ($\\Omega$)\n\n## Conditions/Notes:\n- When balanced, the potential difference across the galvanometer nodes is zero.\n- Consequently, **strictly zero current** flows through the galvanometer ($I_g = 0$).\n- The meter bridge relies on this exact principle to determine an unknown resistance."
 }
 },
 {
@@ -683,9 +683,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "meter-bridge", "formula"],
 "order": 39,
 "heading": "Unknown Resistance via Meter Bridge",
-"formula": "R = S \frac{l_1}{100 - l_1}",
+"formula": "R = S \\frac{l_1}{100 - l_1}",
 "description": "State the formula used to calculate an unknown resistance R using a standard resistance S and a balancing length l1 on a meter bridge.",
-"derivation": "## Derivation:\n1. At the null point, the bridge is balanced: $\frac{R}{S} = \frac{P}{Q}$.\n2. $P$ is the resistance of wire length $l_1$, and $Q$ is the resistance of length $(100 - l_1)$.\n3. Since the wire is uniform, resistance is proportional to length: $P \propto l_1$ and $Q \propto (100 - l_1)$.\n4. Therefore, $\frac{R}{S} = \frac{l_1}{100 - l_1}$.\n\n## Variables & Units:\n- **$R$** = Unknown resistance ($\Omega$)\n- **$S$** = Standard/known resistance box value ($\Omega$)\n- **$l_1$** = Balancing length from one end of the wire (cm)\n\n## Conditions/Notes:\n- The total length of the wire is exactly 100 cm (1 meter).\n- For maximum accuracy and to minimize percentage errors, the standard resistance $S$ should be chosen such that the null point $l_1$ is obtained as close to **50 cm** (the middle of the wire) as possible."
+"derivation": "## Derivation:\n1. At the null point, the bridge is balanced: $\\frac{R}{S} = \\frac{P}{Q}$.\n2. $P$ is the resistance of wire length $l_1$, and $Q$ is the resistance of length $(100 - l_1)$.\n3. Since the wire is uniform, resistance is proportional to length: $P \\propto l_1$ and $Q \\propto (100 - l_1)$.\n4. Therefore, $\\frac{R}{S} = \\frac{l_1}{100 - l_1}$.\n\n## Variables & Units:\n- **$R$** = Unknown resistance ($\\Omega$)\n- **$S$** = Standard/known resistance box value ($\\Omega$)\n- **$l_1$** = Balancing length from one end of the wire (cm)\n\n## Conditions/Notes:\n- The total length of the wire is exactly 100 cm (1 meter).\n- For maximum accuracy and to minimize percentage errors, the standard resistance $S$ should be chosen such that the null point $l_1$ is obtained as close to **50 cm** (the middle of the wire) as possible."
 }
 },
 {
@@ -702,7 +702,7 @@
 "order": 40,
 "heading": "Potentiometer Principle",
 "question": "What is the fundamental working principle of a Potentiometer when a constant current flows through its uniform wire?",
-"back": "## Explanation:\n- **Principle:** When a steady, constant direct current flows through a wire of uniform cross-sectional area and uniform composition, the **potential drop across any length of the wire is directly proportional to that length** ($V \propto l$).\n- The constant of proportionality is known as the **Potential Gradient ($k$ or $\phi$)**."
+"back": "## Explanation:\n- **Principle:** When a steady, constant direct current flows through a wire of uniform cross-sectional area and uniform composition, the **potential drop across any length of the wire is directly proportional to that length** ($V \\propto l$).\n- The constant of proportionality is known as the **Potential Gradient ($k$ or $\\phi$)**."
 }
 },
 {
@@ -718,9 +718,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "potentiometer", "formula"],
 "order": 41,
 "heading": "Potential Gradient",
-"formula": "k = \frac{V}{L} = \frac{I R}{L} = \frac{\varepsilon_0 R}{(R_0 + R)L}",
+"formula": "k = \\frac{V}{L} = \\frac{I R}{L} = \\frac{\\varepsilon_0 R}{(R_0 + R)L}",
 "description": "State the formula for the potential gradient of a potentiometer wire in terms of the driver cell and circuit resistances.",
-"derivation": "## Variables & Units:\n- **$k$ (or $\phi$)** = Potential gradient (Volts/meter, $V/m$)\n- **$V$** = Total potential difference across the potentiometer wire (V)\n- **$L$** = Total length of the potentiometer wire (m)\n- **$\varepsilon_0$** = EMF of the driver battery (V)\n- **$R$** = Total resistance of the potentiometer wire ($\Omega$)\n- **$R_0$** = Resistance inserted by the series rheostat ($\Omega$)\n\n## Conditions/Notes:\n- The sensitivity of a potentiometer can be increased by **decreasing the potential gradient**, which is usually done by increasing the length of the wire."
+"derivation": "## Variables & Units:\n- **$k$ (or $\\phi$)** = Potential gradient (Volts/meter, $V/m$)\n- **$V$** = Total potential difference across the potentiometer wire (V)\n- **$L$** = Total length of the potentiometer wire (m)\n- **$\\varepsilon_0$** = EMF of the driver battery (V)\n- **$R$** = Total resistance of the potentiometer wire ($\\Omega$)\n- **$R_0$** = Resistance inserted by the series rheostat ($\\Omega$)\n\n## Conditions/Notes:\n- The sensitivity of a potentiometer can be increased by **decreasing the potential gradient**, which is usually done by increasing the length of the wire."
 }
 },
 {
@@ -736,9 +736,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "potentiometer", "formula"],
 "order": 42,
 "heading": "Comparing EMFs using Potentiometer",
-"formula": "\frac{\varepsilon_1}{\varepsilon_2} = \frac{l_1}{l_2}",
+"formula": "\\frac{\\varepsilon_1}{\\varepsilon_2} = \\frac{l_1}{l_2}",
 "description": "State the formula to compare the EMFs of two primary cells using a potentiometer, given their respective balancing lengths.",
-"derivation": "## Derivation:\n1. At the first null point, no current flows from cell 1: $\varepsilon_1 = k l_1$.\n2. At the second null point, no current flows from cell 2: $\varepsilon_2 = k l_2$.\n3. Dividing the two equations yields $\frac{\varepsilon_1}{\varepsilon_2} = \frac{l_1}{l_2}$.\n\n## Variables & Units:\n- **$\varepsilon_1, \varepsilon_2$** = EMFs of the two respective primary cells (V)\n- **$l_1, l_2$** = Corresponding balancing lengths on the potentiometer wire where the galvanometer shows zero deflection (m or cm)\n\n## Conditions/Notes:\n- **Crucial Boundary Condition:** The EMF of the main driver battery must be **strictly greater** than both $\varepsilon_1$ and $\varepsilon_2$, otherwise a balance point will not be found on the wire.\n- All positive terminals (driver cell and experimental cells) must be connected to the same initial zero-end of the wire."
+"derivation": "## Derivation:\n1. At the first null point, no current flows from cell 1: $\\varepsilon_1 = k l_1$.\n2. At the second null point, no current flows from cell 2: $\\varepsilon_2 = k l_2$.\n3. Dividing the two equations yields $\\frac{\\varepsilon_1}{\\varepsilon_2} = \\frac{l_1}{l_2}$.\n\n## Variables & Units:\n- **$\\varepsilon_1, \\varepsilon_2$** = EMFs of the two respective primary cells (V)\n- **$l_1, l_2$** = Corresponding balancing lengths on the potentiometer wire where the galvanometer shows zero deflection (m or cm)\n\n## Conditions/Notes:\n- **Crucial Boundary Condition:** The EMF of the main driver battery must be **strictly greater** than both $\\varepsilon_1$ and $\\varepsilon_2$, otherwise a balance point will not be found on the wire.\n- All positive terminals (driver cell and experimental cells) must be connected to the same initial zero-end of the wire."
 }
 },
 {
@@ -754,9 +754,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "current-electricity", "potentiometer", "formula"],
 "order": 43,
 "heading": "Internal Resistance via Potentiometer",
-"formula": "r = R \left( \frac{l_1}{l_2} - 1 \right)",
+"formula": "r = R \\left( \\frac{l_1}{l_2} - 1 \\right)",
 "description": "State the formula to calculate the internal resistance of a primary cell using a potentiometer.",
-"derivation": "## Derivation:\n1. For open circuit: $\varepsilon = k l_1$.\n2. For closed circuit across R: $V = k l_2$.\n3. Therefore, $\frac{\varepsilon}{V} = \frac{l_1}{l_2}$.\n4. We know $\varepsilon = I(R+r)$ and $V = IR$, so $\frac{\varepsilon}{V} = \frac{R+r}{R} = 1 + \frac{r}{R}$.\n5. Equating the two gives $1 + \frac{r}{R} = \frac{l_1}{l_2} \implies r = R\left(\frac{l_1}{l_2} - 1\right)$.\n\n## Variables & Units:\n- **$r$** = Internal resistance of the primary cell ($\Omega$)\n- **$R$** = Known external resistance introduced from the resistance box ($\Omega$)\n- **$l_1$** = Balancing length when the cell is in an **open circuit** (yielding exact EMF, $\varepsilon$) (m)\n- **$l_2$** = Balancing length when the cell is in a **closed circuit** across R (yielding terminal voltage, V) (m)\n\n## Conditions/Notes:\n- The balancing length $l_1$ will always be greater than $l_2$ because the EMF ($\varepsilon$) is always greater than the terminal voltage (V) during discharge."
+"derivation": "## Derivation:\n1. For open circuit: $\\varepsilon = k l_1$.\n2. For closed circuit across R: $V = k l_2$.\n3. Therefore, $\\frac{\\varepsilon}{V} = \\frac{l_1}{l_2}$.\n4. We know $\\varepsilon = I(R+r)$ and $V = IR$, so $\\frac{\\varepsilon}{V} = \\frac{R+r}{R} = 1 + \\frac{r}{R}$.\n5. Equating the two gives $1 + \\frac{r}{R} = \\frac{l_1}{l_2} \\implies r = R\\left(\\frac{l_1}{l_2} - 1\\right)$.\n\n## Variables & Units:\n- **$r$** = Internal resistance of the primary cell ($\\Omega$)\n- **$R$** = Known external resistance introduced from the resistance box ($\\Omega$)\n- **$l_1$** = Balancing length when the cell is in an **open circuit** (yielding exact EMF, $\\varepsilon$) (m)\n- **$l_2$** = Balancing length when the cell is in a **closed circuit** across R (yielding terminal voltage, V) (m)\n\n## Conditions/Notes:\n- The balancing length $l_1$ will always be greater than $l_2$ because the EMF ($\\varepsilon$) is always greater than the terminal voltage (V) during discharge."
 }
 },
 {
@@ -773,7 +773,7 @@
 "order": 44,
 "heading": "Potentiometer vs. Voltmeter",
 "question": "Why is a potentiometer fundamentally preferred over a standard voltmeter for measuring the exact EMF of a cell?",
-"back": "## Distinctions:\n- **Voltmeter:** To deflect its pointer, a voltmeter must draw a small but finite current from the cell. Therefore, it measures the **terminal voltage** ($V = \varepsilon - Ir$), which is always slightly less than the true EMF.\n- **Potentiometer:** Operates strictly on the **null-point method**. At the exact balance point, it draws **absolutely zero current** from the cell. Therefore, it measures the true, undisturbed EMF, essentially acting as an ideal voltmeter with infinite resistance."
+"back": "## Distinctions:\n- **Voltmeter:** To deflect its pointer, a voltmeter must draw a small but finite current from the cell. Therefore, it measures the **terminal voltage** ($V = \\varepsilon - Ir$), which is always slightly less than the true EMF.\n- **Potentiometer:** Operates strictly on the **null-point method**. At the exact balance point, it draws **absolutely zero current** from the cell. Therefore, it measures the true, undisturbed EMF, essentially acting as an ideal voltmeter with infinite resistance."
 }
 },
 {

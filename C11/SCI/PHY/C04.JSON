@@ -157,9 +157,9 @@
 ],
 "order": 6,
 "heading": "Pseudo Force",
-"formula": "\vec{F}*{pseudo} = -m\vec{a}*0",
+"formula": "\\vec{F}*{pseudo} = -m\\vec{a}*0",
 "description": "States the vector formula for the pseudo force required to apply Newton's Laws in an accelerating (non-inertial) frame of reference.",
-"derivation": "**Variables & Units:**\n- **$\vec{F}*{pseudo}$** = Fictitious pseudo force (N)\n- **m** = Mass of the object being observed (kg)\n- **$\vec{a}*0$** = Acceleration of the non-inertial observer/frame (m/s²)\n\n**Conditions/Notes:**\n- Pseudo force is not a real physical interaction. It is a mathematical correction term added to real forces ($\vec{F}*{real} + \vec{F}*{pseudo} = m\vec{a}*{rel}$).\n- It always points precisely **opposite** to the acceleration of the observer's reference frame."
+"derivation": "**Variables & Units:**\n- **$\\vec{F}*{pseudo}$** = Fictitious pseudo force (N)\n- **m** = Mass of the object being observed (kg)\n- **$\\vec{a}*0$** = Acceleration of the non-inertial observer/frame (m/s²)\n\n**Conditions/Notes:**\n- Pseudo force is not a real physical interaction. It is a mathematical correction term added to real forces ($\\vec{F}*{real} + \\vec{F}*{pseudo} = m\\vec{a}*{rel}$).\n- It always points precisely **opposite** to the acceleration of the observer's reference frame."
 }
 },
 {
@@ -185,9 +185,9 @@
 ],
 "order": 7,
 "heading": "Linear Momentum",
-"formula": "\vec{p} = m\vec{v}",
+"formula": "\\vec{p} = m\\vec{v}",
 "description": "Calculates the linear momentum of a moving body.",
-"derivation": "**Variables & Units:**\n- **$\vec{p}$** = Linear momentum (kg·m/s or N·s)\n- **m** = Mass of the body (kg)\n- **$\vec{v}$** = Velocity vector (m/s)\n\n**Conditions/Notes:**\n- Momentum is a **vector** quantity having the exact same direction as velocity.\n- It incorporates both the mass and speed of a body, making it the fundamental quantity for determining the physical effect of force."
+"derivation": "**Variables & Units:**\n- **$\\vec{p}$** = Linear momentum (kg·m/s or N·s)\n- **m** = Mass of the body (kg)\n- **$\\vec{v}$** = Velocity vector (m/s)\n\n**Conditions/Notes:**\n- Momentum is a **vector** quantity having the exact same direction as velocity.\n- It incorporates both the mass and speed of a body, making it the fundamental quantity for determining the physical effect of force."
 }
 },
 {
@@ -212,9 +212,9 @@
 ],
 "order": 8,
 "heading": "Newton's Second Law (Differential Form)",
-"formula": "\vec{F} = \frac{d\vec{p}}{dt}",
+"formula": "\\vec{F} = \\frac{d\\vec{p}}{dt}",
 "description": "The fundamental calculus-based formula for Newton's Second Law of Motion.",
-"derivation": "**Variables & Units:**\n- **$\vec{F}$** = Net external applied force (N)\n- **$\frac{d\vec{p}}{dt}$** = Rate of change of linear momentum (kg·m/s²)\n\n**Conditions/Notes:**\n- Force is directly proportional to the **rate** of change of momentum, taking place strictly in the direction of the applied force.\n- This is the most general form of the second law, valid even if the mass of the system is actively changing (like a rocket emitting gas)."
+"derivation": "**Variables & Units:**\n- **$\\vec{F}$** = Net external applied force (N)\n- **$\\frac{d\\vec{p}}{dt}$** = Rate of change of linear momentum (kg·m/s²)\n\n**Conditions/Notes:**\n- Force is directly proportional to the **rate** of change of momentum, taking place strictly in the direction of the applied force.\n- This is the most general form of the second law, valid even if the mass of the system is actively changing (like a rocket emitting gas)."
 }
 },
 {
@@ -239,9 +239,9 @@
 ],
 "order": 9,
 "heading": "Newton's Second Law (Constant Mass)",
-"formula": "\vec{F} = m\vec{a}",
+"formula": "\\vec{F} = m\\vec{a}",
 "description": "The simplified algebraic formula for Newton's Second Law when the mass of the body remains perfectly constant.",
-"derivation": "**Derivation:**\n$\vec{F} = \frac{d\vec{p}}{dt} = \frac{d(m\vec{v})}{dt}$\nIf $m$ is strictly constant, pull it out of the derivative: $\vec{F} = m \frac{d\vec{v}}{dt}$\nSince $\frac{d\vec{v}}{dt} = \vec{a}$, we get $\vec{F} = m\vec{a}$.\n\n**Conditions/Notes:**\n- 1 Newton is defined as the force that causes an acceleration of $1 \text{ m/s}^2$ to a mass of $1 \text{ kg}$.\n- This equation is a true vector equation, meaning it can be resolved independently as $F_x = ma_x$, $F_y = ma_y$, and $F_z = ma_z$.",
+"derivation": "**Derivation:**\n$\\vec{F} = \\frac{d\\vec{p}}{dt} = \\frac{d(m\\vec{v})}{dt}$\nIf $m$ is strictly constant, pull it out of the derivative: $\\vec{F} = m \\frac{d\\vec{v}}{dt}$\nSince $\\frac{d\\vec{v}}{dt} = \\vec{a}$, we get $\\vec{F} = m\\vec{a}$.\n\n**Conditions/Notes:**\n- 1 Newton is defined as the force that causes an acceleration of $1 \\text{ m/s}^2$ to a mass of $1 \\text{ kg}$.\n- This equation is a true vector equation, meaning it can be resolved independently as $F_x = ma_x$, $F_y = ma_y$, and $F_z = ma_z$.",
 "mnemonic": "Force equals Mass times Acceleration (F = ma)"
 }
 },
@@ -268,7 +268,7 @@
 "order": 10,
 "heading": "Local Nature of the Second Law",
 "question": "What does it fundamentally mean to state that Newton's Second Law is a 'local' relation?",
-"back": "It means the net force $\vec{F}$ at a point in space at a specific instant of time determines the acceleration $\vec{a}$ at that **exact same point and instant**.\n\n*Implication:* Acceleration is determined by the force *here and now*; it carries absolutely **no memory** of the object's history of motion. (e.g., A stone dropped from a moving train immediately loses all horizontal acceleration the exact instant it leaves the hand)."
+"back": "It means the net force $\\vec{F}$ at a point in space at a specific instant of time determines the acceleration $\\vec{a}$ at that **exact same point and instant**.\n\n*Implication:* Acceleration is determined by the force *here and now*; it carries absolutely **no memory** of the object's history of motion. (e.g., A stone dropped from a moving train immediately loses all horizontal acceleration the exact instant it leaves the hand)."
 }
 },
 {
@@ -294,9 +294,9 @@
 ],
 "order": 11,
 "heading": "Impulse & Impulse-Momentum Theorem",
-"formula": "\vec{I} = \vec{F}*{avg} \Delta t = \Delta \vec{p} = \vec{p}*f - \vec{p}*i",
+"formula": "\\vec{I} = \\vec{F}*{avg} \\Delta t = \\Delta \\vec{p} = \\vec{p}*f - \\vec{p}*i",
 "description": "Calculates Impulse and mathematically relates it to the change in linear momentum over a time interval.",
-"derivation": "**Derivation:**\nFrom the 2nd Law: $\vec{F} = \frac{d\vec{p}}{dt} \implies d\vec{p} = \vec{F} dt$\nIntegrating over the impact time: $\int d\vec{p} = \int \vec{F} dt \implies \Delta \vec{p} = \vec{I}$\n\n**Variables & Units:**\n- **$\vec{I}$** = Impulse (N·s or kg·m/s)\n- **$\vec{F}*{avg}$** = Average force during impact (N)\n- **$\Delta t$** = Time duration of impact (s)\n\n**Conditions/Notes:**\n- Used for large, variable forces acting over a very short duration (like a bat hitting a ball).\n- Graphically, Impulse is the **Area under the Force-Time (F-t) curve**."
+"derivation": "**Derivation:**\nFrom the 2nd Law: $\\vec{F} = \\frac{d\\vec{p}}{dt} \\implies d\\vec{p} = \\vec{F} dt$\nIntegrating over the impact time: $\\int d\\vec{p} = \\int \\vec{F} dt \\implies \\Delta \\vec{p} = \\vec{I}$\n\n**Variables & Units:**\n- **$\\vec{I}$** = Impulse (N·s or kg·m/s)\n- **$\\vec{F}*{avg}$** = Average force during impact (N)\n- **$\\Delta t$** = Time duration of impact (s)\n\n**Conditions/Notes:**\n- Used for large, variable forces acting over a very short duration (like a bat hitting a ball).\n- Graphically, Impulse is the **Area under the Force-Time (F-t) curve**."
 }
 },
 {
@@ -322,9 +322,9 @@
 ],
 "order": 12,
 "heading": "Impulse of Elastic Rebound (2D)",
-"formula": "|\Delta \vec{p}| = 2 m v \cos \theta",
-"description": "Calculates the magnitude of impulse imparted when a body of mass $m$ strikes a rigid wall at velocity $v$ and an angle $\theta$ with the strictly NORMAL, and rebounds elastically.",
-"derivation": "**Derivation:**\n- Initial momentum perpendicular to wall: $p*{ix} = m v \cos \theta$\n- Final momentum perpendicular to wall: $p_{fx} = -m v \cos \theta$ (opposite direction)\n- Total change in momentum: $\Delta p = p_{fx} - p_{ix} = -2mv \cos \theta$\n- The absolute magnitude is strictly $2mv \cos \theta$.\n\n**Conditions/Notes:**\n- The component of momentum strictly parallel to the wall ($mv \sin \theta$) remains completely unaffected during the collision.\n- If the ball strikes perpendicularly head-on ($\theta = 0^\circ$), the impulse is maximized at $2mv$."
+"formula": "|\\Delta \\vec{p}| = 2 m v \\cos \\theta",
+"description": "Calculates the magnitude of impulse imparted when a body of mass $m$ strikes a rigid wall at velocity $v$ and an angle $\\theta$ with the strictly NORMAL, and rebounds elastically.",
+"derivation": "**Derivation:**\n- Initial momentum perpendicular to wall: $p*{ix} = m v \\cos \\theta$\n- Final momentum perpendicular to wall: $p_{fx} = -m v \\cos \\theta$ (opposite direction)\n- Total change in momentum: $\\Delta p = p_{fx} - p_{ix} = -2mv \\cos \\theta$\n- The absolute magnitude is strictly $2mv \\cos \\theta$.\n\n**Conditions/Notes:**\n- The component of momentum strictly parallel to the wall ($mv \\sin \\theta$) remains completely unaffected during the collision.\n- If the ball strikes perpendicularly head-on ($\\theta = 0^\\circ$), the impulse is maximized at $2mv$."
 }
 },
 {
@@ -351,7 +351,7 @@
 "order": 13,
 "heading": "Real-World Application of Impulse",
 "question": "Why does a seasoned cricketer continuously draw their hands backward while catching a fast-moving ball?",
-"back": "To safely stop the ball, its momentum must be reduced to zero ($\Delta p = \text{constant}$).\n\nBy drawing their hands backward, the cricketer **increases the time interval ($\Delta t$)** over which the ball comes to rest. Since $F = \frac{\Delta p}{\Delta t}$, increasing $\Delta t$ drastically **reduces the force ($F$)** exerted on the hands, preventing severe injury."
+"back": "To safely stop the ball, its momentum must be reduced to zero ($\\Delta p = \\text{constant}$).\n\nBy drawing their hands backward, the cricketer **increases the time interval ($\\Delta t$)** over which the ball comes to rest. Since $F = \\frac{\\Delta p}{\\Delta t}$, increasing $\\Delta t$ drastically **reduces the force ($F$)** exerted on the hands, preventing severe injury."
 }
 },
 {
@@ -456,9 +456,9 @@
 ],
 "order": 17,
 "heading": "Law of Conservation of Linear Momentum",
-"formula": "\vec{p}_A + \vec{p}_B = \vec{p}'*A + \vec{p}'*B",
+"formula": "\\vec{p}_A + \\vec{p}_B = \\vec{p}'*A + \\vec{p}'*B",
 "description": "The mathematical equation stating that total momentum is conserved during a collision between two bodies A and B.",
-"derivation": "**Derivation:**\nFrom 2nd & 3rd Laws: $\vec{F}*{AB} = -\vec{F}*{BA}$\n$\frac{\Delta \vec{p}_A}{\Delta t} = -\frac{\Delta \vec{p}_B}{\Delta t}$\n$(\vec{p}'_A - \vec{p}_A) = -(\vec{p}'_B - \vec{p}*B)$\n$\vec{p}'*A + \vec{p}'*B = \vec{p}*A + \vec{p}*B$\n\n**Conditions/Notes:**\n- Strictly requires the system to be macroscopically **isolated** (Net External Force = 0).\n- Internal mutual collision forces (action/reaction) cancel out perfectly in pairs."
+"derivation": "**Derivation:**\nFrom 2nd & 3rd Laws: $\\vec{F}*{AB} = -\\vec{F}*{BA}$\n$\\frac{\\Delta \\vec{p}_A}{\\Delta t} = -\\frac{\\Delta \\vec{p}_B}{\\Delta t}$\n$(\\vec{p}'_A - \\vec{p}_A) = -(\\vec{p}'_B - \\vec{p}*B)$\n$\\vec{p}'*A + \\vec{p}'*B = \\vec{p}*A + \\vec{p}*B$\n\n**Conditions/Notes:**\n- Strictly requires the system to be macroscopically **isolated** (Net External Force = 0).\n- Internal mutual collision forces (action/reaction) cancel out perfectly in pairs."
 }
 },
 {
@@ -485,7 +485,7 @@
 "order": 18,
 "heading": "Two-Body Explosion from Rest",
 "question": "If a strictly stationary object (like a nucleus) suddenly disintegrates into exactly two smaller fragments, what must physically be true about their subsequent directions of motion?",
-"back": "The two fragments must move in strictly **opposite directions**.\n\n*Proof:* Since the initial momentum of the isolated system is exactly zero, the law of conservation of momentum mandates that the final total vector momentum must also be zero ($\vec{p}_1 + \vec{p}_2 = 0$). This mathematically requires **$\vec{p}_1 = -\vec{p}_2$**, meaning their velocity vectors are perfectly anti-parallel."
+"back": "The two fragments must move in strictly **opposite directions**.\n\n*Proof:* Since the initial momentum of the isolated system is exactly zero, the law of conservation of momentum mandates that the final total vector momentum must also be zero ($\\vec{p}_1 + \\vec{p}_2 = 0$). This mathematically requires **$\\vec{p}_1 = -\\vec{p}_2$**, meaning their velocity vectors are perfectly anti-parallel."
 }
 },
 {
@@ -594,7 +594,7 @@
 "order": 22,
 "heading": "Translational Equilibrium of a Particle",
 "question": "What is the strictly defined condition for a particle to be in translational equilibrium?",
-"back": "A particle is in translational equilibrium if the **vector sum of all external concurrent forces acting on it is strictly zero**.\n\n$\sum \vec{F} = \vec{F}_1 + \vec{F}_2 + ... + \vec{F}_n = 0$\n\n*Implication:* According to Newton's First Law, this mathematically ensures the particle is either absolutely at rest or moving with a uniform, constant velocity vector."
+"back": "A particle is in translational equilibrium if the **vector sum of all external concurrent forces acting on it is strictly zero**.\n\n$\\sum \\vec{F} = \\vec{F}_1 + \\vec{F}_2 + ... + \\vec{F}_n = 0$\n\n*Implication:* According to Newton's First Law, this mathematically ensures the particle is either absolutely at rest or moving with a uniform, constant velocity vector."
 }
 },
 {
@@ -621,7 +621,7 @@
 "order": 23,
 "heading": "Superposition Principle of Forces",
 "question": "When multiple forces act simultaneously on a single body, how is the net effective force mathematically determined?",
-"back": "The net force is determined by the **vector addition** of all individual forces acting on the body.\n\n$\sum \vec{F} = \vec{F}_1 + \vec{F}_2 + \dots + \vec{F}_n$\n\n*Key Insight:* Each individual force acts completely independently of the presence or absence of the other forces."
+"back": "The net force is determined by the **vector addition** of all individual forces acting on the body.\n\n$\\sum \\vec{F} = \\vec{F}_1 + \\vec{F}_2 + \\dots + \\vec{F}_n$\n\n*Key Insight:* Each individual force acts completely independently of the presence or absence of the other forces."
 }
 },
 {
@@ -647,9 +647,9 @@
 ],
 "order": 24,
 "heading": "Lami's Theorem",
-"formula": "\frac{F_1}{\sin \alpha} = \frac{F_2}{\sin \beta} = \frac{F_3}{\sin \gamma}",
+"formula": "\\frac{F_1}{\\sin \\alpha} = \\frac{F_2}{\\sin \\beta} = \\frac{F_3}{\\sin \\gamma}",
 "description": "A shortcut relation for a particle in static equilibrium under exactly three concurrent forces.",
-"derivation": "**Variables & Units:**\n- **$F_1, F_2, F_3$** = Magnitudes of the three concurrent forces (N)\n- **$\alpha$** = Angle strictly between forces $F_2$ and $F_3$\n- **$\beta$** = Angle strictly between forces $F_1$ and $F_3$\n- **$\gamma$** = Angle strictly between forces $F_1$ and $F_2$\n\n**Conditions/Notes:**\n- The system must be in perfect equilibrium (net force vector = 0).\n- Only applies mathematically to systems with exactly three coplanar forces."
+"derivation": "**Variables & Units:**\n- **$F_1, F_2, F_3$** = Magnitudes of the three concurrent forces (N)\n- **$\\alpha$** = Angle strictly between forces $F_2$ and $F_3$\n- **$\\beta$** = Angle strictly between forces $F_1$ and $F_3$\n- **$\\gamma$** = Angle strictly between forces $F_1$ and $F_2$\n\n**Conditions/Notes:**\n- The system must be in perfect equilibrium (net force vector = 0).\n- Only applies mathematically to systems with exactly three coplanar forces."
 }
 },
 {
@@ -676,7 +676,7 @@
 "order": 25,
 "heading": "Procedural Steps for Mechanics & Free-Body Diagrams (FBD)",
 "question": "What is the rigorous procedural method for solving Newtonian mechanics problems, and what are the strict rules for drawing Free-Body Diagrams?",
-"back": "**Solving Mechanics Problems:**\n1. **Sketch:** Draw a clear macroscopic sketch of the assembly.\n2. **Choose System:** Define a specific part (or the whole) of the assembly as your precisely isolated 'system'.\n3. **Isolate External Forces:** Identify all physical forces exerted strictly *on* the system by the rest of the universe.\n4. **FBD:** Draw the Free-Body Diagram.\n5. **Resolve & Apply:** Resolve forces along convenient perpendicular axes and apply Newton's Second Law ($\sum F = ma$) to each axis independently.\n\n**Strict Rules for the FBD:**\n- Represent the chosen body strictly as a point mass.\n- Draw all external forces (Gravity, Normal, Tension, Applied) acting **ON** the body as vectors originating from the point.\n- **Never** include forces exerted **BY** the body on other objects.\n- **Never** include internal action-reaction forces if dealing with a multi-part system as a single unit."
+"back": "**Solving Mechanics Problems:**\n1. **Sketch:** Draw a clear macroscopic sketch of the assembly.\n2. **Choose System:** Define a specific part (or the whole) of the assembly as your precisely isolated 'system'.\n3. **Isolate External Forces:** Identify all physical forces exerted strictly *on* the system by the rest of the universe.\n4. **FBD:** Draw the Free-Body Diagram.\n5. **Resolve & Apply:** Resolve forces along convenient perpendicular axes and apply Newton's Second Law ($\\sum F = ma$) to each axis independently.\n\n**Strict Rules for the FBD:**\n- Represent the chosen body strictly as a point mass.\n- Draw all external forces (Gravity, Normal, Tension, Applied) acting **ON** the body as vectors originating from the point.\n- **Never** include forces exerted **BY** the body on other objects.\n- **Never** include internal action-reaction forces if dealing with a multi-part system as a single unit."
 }
 },
 {
@@ -731,7 +731,7 @@
 "heading": "Apparent Weight: Accelerating Upwards",
 "formula": "W_{app} = R = m(g + a)",
 "description": "Calculates the apparent weight (Normal reaction) of a mass in an elevator accelerating vertically upwards.",
-"derivation": "**Derivation:**\n- Free-Body Diagram of man: Normal $R$ is Up, Gravity $mg$ is Down.\n- Net force = $ma$ (directed upward)\n- $R - mg = ma \implies R = m(g + a)$\n\n**Conditions/Notes:**\n- The person physically feels mathematically **heavier** than their true weight.\n- Applies equally if the lift is moving downward but decelerating (braking), as the acceleration vector still points upward."
+"derivation": "**Derivation:**\n- Free-Body Diagram of man: Normal $R$ is Up, Gravity $mg$ is Down.\n- Net force = $ma$ (directed upward)\n- $R - mg = ma \\implies R = m(g + a)$\n\n**Conditions/Notes:**\n- The person physically feels mathematically **heavier** than their true weight.\n- Applies equally if the lift is moving downward but decelerating (braking), as the acceleration vector still points upward."
 }
 },
 {
@@ -759,7 +759,7 @@
 "heading": "Apparent Weight: Accelerating Downwards & Free Fall",
 "formula": "W_{app} = R = m(g - a)",
 "description": "Calculates the apparent weight of a mass in an elevator accelerating vertically downwards.",
-"derivation": "**Derivation:**\n- Free-Body Diagram of man: $mg$ (down) and $R$ (up).\n- Net force = $ma$ (directed downward)\n- $mg - R = ma \implies R = m(g - a)$\n\n**Conditions/Notes:**\n- The person feels mathematically **lighter**.\n- **Free Fall Boundary Condition:** If the cable snaps, $a = g$. Therefore, $R = m(g - g) = 0$, resulting in a state of complete **weightlessness**."
+"derivation": "**Derivation:**\n- Free-Body Diagram of man: $mg$ (down) and $R$ (up).\n- Net force = $ma$ (directed downward)\n- $mg - R = ma \\implies R = m(g - a)$\n\n**Conditions/Notes:**\n- The person feels mathematically **lighter**.\n- **Free Fall Boundary Condition:** If the cable snaps, $a = g$. Therefore, $R = m(g - g) = 0$, resulting in a state of complete **weightlessness**."
 }
 },
 {
@@ -785,9 +785,9 @@
 ],
 "order": 29,
 "heading": "Atwood Machine: Acceleration",
-"formula": "a = \left( \frac{m_1 - m_2}{m_1 + m_2} \right) g",
+"formula": "a = \\left( \\frac{m_1 - m_2}{m_1 + m_2} \\right) g",
 "description": "Calculates the common uniform acceleration of two unequal masses ($m_1 > m_2$) suspended vertically over a frictionless, massless pulley.",
-"derivation": "**Derivation:**\n- FBD of $m_1$ (moving down): $m_1g - T = m_1a$\n- FBD of $m_2$ (moving up): $T - m_2g = m_2a$\n- Add equations: $(m_1 - m_2)g = (m_1 + m_2)a \implies a = \frac{m_1 - m_2}{m_1 + m_2}g$\n\n**Conditions/Notes:**\n- The heavier mass accelerates strictly downwards while the lighter mass accelerates strictly upwards at the exact same rate.\n- The net driving force is strictly the difference in weights; the total mass moved is their sum.",
+"derivation": "**Derivation:**\n- FBD of $m_1$ (moving down): $m_1g - T = m_1a$\n- FBD of $m_2$ (moving up): $T - m_2g = m_2a$\n- Add equations: $(m_1 - m_2)g = (m_1 + m_2)a \\implies a = \\frac{m_1 - m_2}{m_1 + m_2}g$\n\n**Conditions/Notes:**\n- The heavier mass accelerates strictly downwards while the lighter mass accelerates strictly upwards at the exact same rate.\n- The net driving force is strictly the difference in weights; the total mass moved is their sum.",
 "mnemonic": "Acceleration = (Net Pulling Weight) / (Total Mass)"
 }
 },
@@ -814,9 +814,9 @@
 ],
 "order": 30,
 "heading": "Atwood Machine: Tension",
-"formula": "T = \frac{2 m_1 m_2}{m_1 + m_2} g",
+"formula": "T = \\frac{2 m_1 m_2}{m_1 + m_2} g",
 "description": "Calculates the uniform tension within the connecting string of a simple Atwood machine.",
-"derivation": "**Derivation:**\n- Substitute $a = \frac{m_1 - m_2}{m_1 + m_2}g$ into the equation $T - m_2g = m_2a$.\n- $T = m_2(g + a) = m_2g \left( 1 + \frac{m_1 - m_2}{m_1 + m_2} \right)$\n- Simplify to yield $T = \frac{2m_1 m_2}{m_1 + m_2}g$.\n\n**Conditions/Notes:**\n- The tension stringently remains constant throughout the entirety of the massless, inextensible string.\n- Note that this tension value is precisely the Harmonic Mean of the two respective weights ($m_1g$ and $m_2g$)."
+"derivation": "**Derivation:**\n- Substitute $a = \\frac{m_1 - m_2}{m_1 + m_2}g$ into the equation $T - m_2g = m_2a$.\n- $T = m_2(g + a) = m_2g \\left( 1 + \\frac{m_1 - m_2}{m_1 + m_2} \\right)$\n- Simplify to yield $T = \\frac{2m_1 m_2}{m_1 + m_2}g$.\n\n**Conditions/Notes:**\n- The tension stringently remains constant throughout the entirety of the massless, inextensible string.\n- Note that this tension value is precisely the Harmonic Mean of the two respective weights ($m_1g$ and $m_2g$)."
 }
 },
 {
@@ -869,9 +869,9 @@
 ],
 "order": 32,
 "heading": "Limiting Static Friction",
-"formula": "f_{s,max} = \mu_s N",
+"formula": "f_{s,max} = \\mu_s N",
 "description": "Calculates the maximum possible limiting value of static friction before sliding begins.",
-"derivation": "**Variables & Units:**\n- **$f_{s,max}$** = Limiting static friction (N)\n- **$\mu_s$** = Coefficient of static friction (Dimensionless)\n- **$N$** = Normal reaction force (N)\n\n**Conditions/Notes:**\n- Until this maximum limit is breached, the actual static friction is exactly equal to the applied tangential force ($f_s \le \mu_s N$). Do NOT blindly plug in $\mu_s N$ unless impending motion is explicitly stated.\n- It is strictly independent of the macroscopic area of contact."
+"derivation": "**Variables & Units:**\n- **$f_{s,max}$** = Limiting static friction (N)\n- **$\\mu_s$** = Coefficient of static friction (Dimensionless)\n- **$N$** = Normal reaction force (N)\n\n**Conditions/Notes:**\n- Until this maximum limit is breached, the actual static friction is exactly equal to the applied tangential force ($f_s \\le \\mu_s N$). Do NOT blindly plug in $\\mu_s N$ unless impending motion is explicitly stated.\n- It is strictly independent of the macroscopic area of contact."
 }
 },
 {
@@ -897,9 +897,9 @@
 ],
 "order": 33,
 "heading": "Kinetic Friction",
-"formula": "f_k = \mu_k N",
+"formula": "f_k = \\mu_k N",
 "description": "Calculates the kinetic (sliding) friction between two surfaces in relative motion.",
-"derivation": "**Variables & Units:**\n- **$f_k$** = Kinetic friction force (N)\n- **$\mu_k$** = Coefficient of kinetic friction (Dimensionless)\n- **$N$** = Normal reaction force (N)\n\n**Conditions/Notes:**\n- Experimentally, $\mu_k$ is always strictly less than $\mu_s$ ($\mu_k < \mu_s$), meaning it requires mathematically less force to keep an object moving than it does to initiate its movement.\n- Kinetic friction is virtually independent of the sliding velocity."
+"derivation": "**Variables & Units:**\n- **$f_k$** = Kinetic friction force (N)\n- **$\\mu_k$** = Coefficient of kinetic friction (Dimensionless)\n- **$N$** = Normal reaction force (N)\n\n**Conditions/Notes:**\n- Experimentally, $\\mu_k$ is always strictly less than $\\mu_s$ ($\\mu_k < \\mu_s$), meaning it requires mathematically less force to keep an object moving than it does to initiate its movement.\n- Kinetic friction is virtually independent of the sliding velocity."
 }
 },
 {
@@ -953,9 +953,9 @@
 ],
 "order": 35,
 "heading": "Angle of Friction",
-"formula": "\tan \theta_f = \mu_s",
+"formula": "\\tan \theta_f = \\mu_s",
 "description": "Relates the geometric angle of friction to the coefficient of static friction.",
-"derivation": "**Derivation:**\n- Let $R'$ be the resultant vector of Normal Reaction ($N$) and Limiting Static Friction ($f_{s,max}$).\n- $\tan \theta_f = \frac{f_{s,max}}{N}$\n- Since $f_{s,max} = \mu_s N$, we get $\tan \theta_f = \frac{\mu_s N}{N} = \mu_s$.\n\n**Conditions/Notes:**\n- The angle of friction ($\theta_f$) is strictly defined as the angle that the resultant of the limiting static friction and the normal reaction makes with the normal reaction vector."
+"derivation": "**Derivation:**\n- Let $R'$ be the resultant vector of Normal Reaction ($N$) and Limiting Static Friction ($f_{s,max}$).\n- $\\tan \theta_f = \\frac{f_{s,max}}{N}$\n- Since $f_{s,max} = \\mu_s N$, we get $\\tan \theta_f = \\frac{\\mu_s N}{N} = \\mu_s$.\n\n**Conditions/Notes:**\n- The angle of friction ($\theta_f$) is strictly defined as the angle that the resultant of the limiting static friction and the normal reaction makes with the normal reaction vector."
 }
 },
 {
@@ -982,7 +982,7 @@
 "order": 36,
 "heading": "Angle of Repose",
 "question": "What is the 'Angle of Repose' for an inclined plane, and how does it mathematically relate to the angle of friction?",
-"back": "The **Angle of Repose ($\alpha$)** is the minimum angle of inclination of a plane with the horizontal at which a body placed on it just begins to freely slide down.\n\n- **Relationship:** It is strictly mathematically equal to the **Angle of Friction**.\n- **Formula:** $\tan \alpha = \mu_s$\n- *Boundary Condition:* If the incline angle $\theta < \alpha$, the body stays at rest. If $\theta > \alpha$, the block overcomes static friction and accelerates downwards."
+"back": "The **Angle of Repose ($\\alpha$)** is the minimum angle of inclination of a plane with the horizontal at which a body placed on it just begins to freely slide down.\n\n- **Relationship:** It is strictly mathematically equal to the **Angle of Friction**.\n- **Formula:** $\\tan \\alpha = \\mu_s$\n- *Boundary Condition:* If the incline angle $\\theta < \\alpha$, the body stays at rest. If $\\theta > \\alpha$, the block overcomes static friction and accelerates downwards."
 }
 },
 {
@@ -1009,9 +1009,9 @@
 ],
 "order": 37,
 "heading": "Acceleration Down a Rough Incline",
-"formula": "a = g(\sin \theta - \mu_k \cos \theta)",
-"description": "Calculates the acceleration of a block sliding freely down a rough inclined plane of angle $\theta$.",
-"derivation": "**Derivation:**\n- Driving force down incline: $mg \sin \theta$\n- Opposing kinetic friction: $f_k = \mu_k N = \mu_k (mg \cos \theta)$\n- Net force $F_{net} = mg \sin \theta - \mu_k mg \cos \theta$\n- $ma = mg(\sin \theta - \mu_k \cos \theta) \implies a = g(\sin \theta - \mu_k \cos \theta)$\n\n**Conditions/Notes:**\n- If the plane is perfectly smooth ($\mu_k = 0$), the formula beautifully simplifies to the ideal case: $a = g \sin \theta$."
+"formula": "a = g(\\sin \\theta - \\mu_k \\cos \\theta)",
+"description": "Calculates the acceleration of a block sliding freely down a rough inclined plane of angle $\\theta$.",
+"derivation": "**Derivation:**\n- Driving force down incline: $mg \\sin \\theta$\n- Opposing kinetic friction: $f_k = \\mu_k N = \\mu_k (mg \\cos \\theta)$\n- Net force $F_{net} = mg \\sin \\theta - \\mu_k mg \\cos \\theta$\n- $ma = mg(\\sin \\theta - \\mu_k \\cos \\theta) \\implies a = g(\\sin \\theta - \\mu_k \\cos \\theta)$\n\n**Conditions/Notes:**\n- If the plane is perfectly smooth ($\\mu_k = 0$), the formula beautifully simplifies to the ideal case: $a = g \\sin \\theta$."
 }
 },
 {
@@ -1039,7 +1039,7 @@
 "order": 38,
 "heading": "Pulling vs. Pushing a Roller",
 "question": "In Newtonian mechanics, why is it strictly easier to pull a heavy lawn roller than to push it?",
-"back": "- **Pushing:** The applied force has a **downward** vertical component. This heavily *increases* the Normal reaction ($N = mg + F\sin\theta$), which directly increases the opposing limiting friction ($f_s = \mu_s N$).\n- **Pulling:** The applied force has an **upward** vertical component. This effectively *decreases* the Normal reaction ($N = mg - F\sin\theta$), which significantly reduces the opposing friction.",
+"back": "- **Pushing:** The applied force has a **downward** vertical component. This heavily *increases* the Normal reaction ($N = mg + F\\sin\\theta$), which directly increases the opposing limiting friction ($f_s = \\mu_s N$).\n- **Pulling:** The applied force has an **upward** vertical component. This effectively *decreases* the Normal reaction ($N = mg - F\\sin\\theta$), which significantly reduces the opposing friction.",
 "mnemonic": "Pushing Adds to weight, Pulling Plucks it away."
 }
 },
@@ -1120,9 +1120,9 @@
 ],
 "order": 41,
 "heading": "Maximum Speed on a Flat Circular Road",
-"formula": "v_{max} = \sqrt{\mu_s R g}",
+"formula": "v_{max} = \\sqrt{\\mu_s R g}",
 "description": "Calculates the maximum safe speed of a vehicle taking a turn on a flat, horizontal rough road.",
-"derivation": "**Derivation:**\n- Centripetal force strictly required: $F_c = \frac{mv^2}{R}$\n- Maximum available static friction acting radially inward: $f_{s,max} = \mu_s N = \mu_s mg$\n- Equating them for the absolute limit: $\frac{mv_{max}^2}{R} = \mu_s mg \implies v_{max} = \sqrt{\mu_s Rg}$\n\n**Conditions/Notes:**\n- The maximum safe speed is **totally independent of the vehicle's mass** (a heavy truck and a light car strictly share the exact same maximum safe speed on the same road)."
+"derivation": "**Derivation:**\n- Centripetal force strictly required: $F_c = \\frac{mv^2}{R}$\n- Maximum available static friction acting radially inward: $f_{s,max} = \\mu_s N = \\mu_s mg$\n- Equating them for the absolute limit: $\\frac{mv_{max}^2}{R} = \\mu_s mg \\implies v_{max} = \\sqrt{\\mu_s Rg}$\n\n**Conditions/Notes:**\n- The maximum safe speed is **totally independent of the vehicle's mass** (a heavy truck and a light car strictly share the exact same maximum safe speed on the same road)."
 }
 },
 {
@@ -1149,7 +1149,7 @@
 "order": 42,
 "heading": "Banking of Curved Roads",
 "question": "Why are curved highway roads frequently 'banked' (raised at the outer edge) instead of remaining perfectly flat?",
-"back": "Curved roads are banked to drastically **reduce the reliance on static friction** to safely negotiate the turn.\n\nBy banking the road at an angle $\theta$, the **horizontal component of the Normal reaction ($N \sin \theta$)** naturally provides the primary centripetal force. This prevents dangerous outward skidding and massively reduces the wear and tear on the vehicle's tires."
+"back": "Curved roads are banked to drastically **reduce the reliance on static friction** to safely negotiate the turn.\n\nBy banking the road at an angle $\\theta$, the **horizontal component of the Normal reaction ($N \\sin \\theta$)** naturally provides the primary centripetal force. This prevents dangerous outward skidding and massively reduces the wear and tear on the vehicle's tires."
 }
 },
 {
@@ -1176,9 +1176,9 @@
 ],
 "order": 43,
 "heading": "Optimum Speed on a Banked Road",
-"formula": "v_0 = \sqrt{R g \tan \theta}",
+"formula": "v_0 = \\sqrt{R g \\tan \\theta}",
 "description": "Calculates the optimum speed ($v_0$) on a banked road where absolutely zero frictional force is required.",
-"derivation": "**Derivation:**\n- Vertical equilibrium: $N \cos \theta = mg$\n- Horizontal centripetal: $N \sin \theta = \frac{mv^2}{R}$\n- Divide the two equations: $\tan \theta = \frac{v^2}{Rg} \implies v = \sqrt{Rg \tan \theta}$\n\n**Conditions/Notes:**\n- Driving exactly at this specific speed results in absolutely zero lateral wear on the tires.\n- If $v < v_0$, the car tends to slide down, so static friction must act strictly *up* the slope.\n- If $v > v_0$, the car tends to skid out, so static friction must act strictly *down* the slope."
+"derivation": "**Derivation:**\n- Vertical equilibrium: $N \\cos \\theta = mg$\n- Horizontal centripetal: $N \\sin \\theta = \\frac{mv^2}{R}$\n- Divide the two equations: $\\tan \\theta = \\frac{v^2}{Rg} \\implies v = \\sqrt{Rg \\tan \\theta}$\n\n**Conditions/Notes:**\n- Driving exactly at this specific speed results in absolutely zero lateral wear on the tires.\n- If $v < v_0$, the car tends to slide down, so static friction must act strictly *up* the slope.\n- If $v > v_0$, the car tends to skid out, so static friction must act strictly *down* the slope."
 }
 },
 {
@@ -1205,9 +1205,9 @@
 ],
 "order": 44,
 "heading": "Maximum Speed on a Banked Rough Road",
-"formula": "v_{max} = \sqrt{R g \left( \frac{\mu_s + \tan \theta}{1 - \mu_s \tan \theta} \right)}",
+"formula": "v_{max} = \\sqrt{R g \\left( \\frac{\\mu_s + \\tan \\theta}{1 - \\mu_s \\tan \\theta} \\right)}",
 "description": "Calculates the absolute maximum safe speed on a banked road, accounting for both the banking angle and limiting static friction.",
-"derivation": "**Variables & Units:**\n- **$v_{max}$** = Maximum safe speed (m/s)\n- **$R$** = Radius of turn (m)\n- **$\theta$** = Angle of banking\n- **$\mu_s$** = Coefficient of static friction\n\n**Conditions/Notes:**\n- At this max speed, the vehicle is on the absolute verge of skidding completely off the outer edge, so limiting static friction acts strictly down the incline.\n- If $\mu_s = 0$ (smooth road), the formula gracefully reverts to the optimum speed formula: $v_0 = \sqrt{Rg \tan \theta}$."
+"derivation": "**Variables & Units:**\n- **$v_{max}$** = Maximum safe speed (m/s)\n- **$R$** = Radius of turn (m)\n- **$\\theta$** = Angle of banking\n- **$\\mu_s$** = Coefficient of static friction\n\n**Conditions/Notes:**\n- At this max speed, the vehicle is on the absolute verge of skidding completely off the outer edge, so limiting static friction acts strictly down the incline.\n- If $\\mu_s = 0$ (smooth road), the formula gracefully reverts to the optimum speed formula: $v_0 = \\sqrt{Rg \\tan \\theta}$."
 }
 },
 {

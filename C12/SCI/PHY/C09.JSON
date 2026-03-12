@@ -24,7 +24,7 @@
 "order": 1,
 "heading": "Nature and Speed of Light",
 "question": "What defines the visible light spectrum, and what is its fundamental speed in a vacuum?",
-"back": "**Visible Light:** Electromagnetic radiation with a wavelength range of roughly 400 nm to 750 nm.\n\n**Speed in Vacuum:** The highest attainable speed in nature, exactly $c = 2.99792458 \times 10^8 \text{ m/s}$, typically approximated as $3 \times 10^8 \text{ m/s}$.\n\nBecause the wavelength of light is extremely small compared to everyday objects, it can be treated as a ray traveling in a straight line. A bundle of such rays forms a beam.",
+"back": "**Visible Light:** Electromagnetic radiation with a wavelength range of roughly 400 nm to 750 nm.\n\n**Speed in Vacuum:** The highest attainable speed in nature, exactly $c = 2.99792458 \\times 10^8 \\text{ m/s}$, typically approximated as $3 \\times 10^8 \\text{ m/s}$.\n\nBecause the wavelength of light is extremely small compared to everyday objects, it can be treated as a ray traveling in a straight line. A bundle of such rays forms a beam.",
 "mnemonic": "Vacuum Velocity is Three times Ten to the Eighth."
 }
 },
@@ -204,7 +204,7 @@
 "order": 8,
 "heading": "Linear vs. Angular Magnification",
 "question": "In the context of optical instruments like microscopes, what is the crucial distinction between Linear Magnification and Angular Magnification (Magnifying Power)?",
-"back": "**Linear Magnification ($m$):** The ratio of the physical size of the image to the physical size of the object ($h'/h$).\n\n**Angular Magnification:** The ratio of the angle subtended by the image at the eye ($\beta$) to the angle subtended by the object at the unaided eye when placed at the near point ($\alpha$).\n\n**Importance:** A simple microscope doesn't actually make the physical image drastically larger on the retina. Instead, it provides angular magnification by allowing the object to be brought much closer to the eye than the normal 25 cm near point, greatly increasing the visual angle."
+"back": "**Linear Magnification ($m$):** The ratio of the physical size of the image to the physical size of the object ($h'/h$).\n\n**Angular Magnification:** The ratio of the angle subtended by the image at the eye ($\\beta$) to the angle subtended by the object at the unaided eye when placed at the near point ($\\alpha$).\n\n**Importance:** A simple microscope doesn't actually make the physical image drastically larger on the retina. Instead, it provides angular magnification by allowing the object to be brought much closer to the eye than the normal 25 cm near point, greatly increasing the visual angle."
 }
 },
 {
@@ -229,7 +229,7 @@
 "order": 9,
 "heading": "Dispersion of Light",
 "question": "Define the phenomenon of dispersion and explain its underlying optical cause.",
-"back": "**Definition:** Dispersion is the splitting of a beam of white light into its constituent colors (the visible spectrum) upon passing through a transparent medium (like a prism).\n\n**Underlying Cause:** The refractive index ($n$) of a medium is not constant; it depends on the wavelength ($\lambda$) of the incident light. Because $n$ is different for different colors, each color bends by a different angle (as governed by $D_m = (n-1)A$), causing them to physically separate."
+"back": "**Definition:** Dispersion is the splitting of a beam of white light into its constituent colors (the visible spectrum) upon passing through a transparent medium (like a prism).\n\n**Underlying Cause:** The refractive index ($n$) of a medium is not constant; it depends on the wavelength ($\\lambda$) of the incident light. Because $n$ is different for different colors, each color bends by a different angle (as governed by $D_m = (n-1)A$), causing them to physically separate."
 }
 },
 {
@@ -331,7 +331,7 @@
 "order": 13,
 "heading": "Simple Microscope Principles",
 "question": "How does a simple microscope (magnifying glass) optically achieve magnification, and what type of image does it produce?",
-"back": "**Setup:** A converging (convex) lens of short focal length is held such that the object is placed within its focal length ($u < f$).\n\n**Image Nature:** It forms an erect, virtual, and magnified image.\n\n**Mechanism:** It achieves angular magnification by allowing the object to be brought much closer to the eye than the normal near point ($D = 25 \text{ cm}$), thereby subtending a much larger angle at the eye for comfortable viewing."
+"back": "**Setup:** A converging (convex) lens of short focal length is held such that the object is placed within its focal length ($u < f$).\n\n**Image Nature:** It forms an erect, virtual, and magnified image.\n\n**Mechanism:** It achieves angular magnification by allowing the object to be brought much closer to the eye than the normal near point ($D = 25 \\text{ cm}$), thereby subtending a much larger angle at the eye for comfortable viewing."
 }
 },
 {
@@ -456,7 +456,7 @@
 ],
 "order": 18,
 "heading": "Focal Length of Spherical Mirrors",
-"formula": "f = \frac{R}{2}",
+"formula": "f = \\frac{R}{2}",
 "description": "Calculates the focal length ($f$) of a spherical mirror from its radius of curvature ($R$).",
 "derivation": "This relation is an approximation strictly valid only for paraxial rays (rays incident close to the pole, making small angles with the principal axis). Sign Convention: $f$ is negative for concave mirrors and positive for convex mirrors."
 }
@@ -483,7 +483,7 @@
 ],
 "order": 19,
 "heading": "The Mirror Equation",
-"formula": "\frac{1}{v} + \frac{1}{u} = \frac{1}{f}",
+"formula": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
 "description": "Relates object distance ($u$), image distance ($v$), and focal length ($f$) for spherical mirrors.",
 "derivation": "Valid for both concave and convex mirrors, and for both real and virtual images. The New Cartesian Sign Convention MUST be applied when substituting numerical values into this equation."
 }
@@ -510,7 +510,7 @@
 ],
 "order": 20,
 "heading": "Linear Magnification of Spherical Mirrors",
-"formula": "m = \frac{h'}{h} = -\frac{v}{u}",
+"formula": "m = \\frac{h'}{h} = -\\frac{v}{u}",
 "description": "Calculates the linear magnification ($m$) produced by a spherical mirror.",
 "derivation": "If $m$ is negative, the image is real and inverted. If $m$ is positive, the image is virtual and erect.",
 "mnemonic": "Mirrors Make Minuses: Magnification m = -v/u."
@@ -538,9 +538,9 @@
 ],
 "order": 21,
 "heading": "Velocity of Image in a Spherical Mirror",
-"formula": "v_i = - m^2 v_o = - \left(\frac{v}{u}\right)^2 v_o",
+"formula": "v_i = - m^2 v_o = - \\left(\\frac{v}{u}\\right)^2 v_o",
 "description": "Calculates the longitudinal velocity of an image ($v_i$) formed by a spherical mirror when the object moves with velocity ($v_o$) along the principal axis.",
-"derivation": "Differentiating the mirror equation $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ with respect to time $t$ yields $\frac{dv}{dt} = -\left(\frac{v}{u}\right)^2 \frac{du}{dt}$. The negative sign indicates that for real objects, the image always moves in the opposite direction to the object with respect to the mirror."
+"derivation": "Differentiating the mirror equation $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$ with respect to time $t$ yields $\\frac{dv}{dt} = -\\left(\\frac{v}{u}\\right)^2 \\frac{du}{dt}$. The negative sign indicates that for real objects, the image always moves in the opposite direction to the object with respect to the mirror."
 }
 },
 {
@@ -565,7 +565,7 @@
 ],
 "order": 22,
 "heading": "Absolute Refractive Index",
-"formula": "n = \frac{c}{v}",
+"formula": "n = \\frac{c}{v}",
 "description": "Relates the absolute refractive index ($n$) of a medium to the speed of light in a vacuum ($c$) and the speed in the medium ($v$).",
 "derivation": "Since the velocity of light in any material medium ($v$) is always less than the speed of light in a vacuum ($c$), the absolute refractive index $n$ is always strictly greater than 1."
 }
@@ -592,7 +592,7 @@
 ],
 "order": 23,
 "heading": "Snell's Law & Refractive Index",
-"formula": "\frac{\sin i}{\sin r} = n_{21}",
+"formula": "\\frac{\\sin i}{\\sin r} = n_{21}",
 "description": "States Snell's Law mathematically, evaluating the constant relative refractive index ($n_{21}$).",
 "derivation": "If $n_{21} > 1$, then $r < i$, and the refracted ray bends towards the normal (Medium 2 is optically denser). $n_{21}$ depends on the pair of media and the wavelength of light, but is independent of the angle of incidence.",
 "mnemonic": "Destination over Source: Sine i over Sine r equals n21."
@@ -620,9 +620,9 @@
 ],
 "order": 24,
 "heading": "Relative Refractive Index Identities",
-"formula": "n_{12} = \frac{1}{n_{21}} \quad \text{and} \quad n_{32} = n_{31} \times n_{12}",
+"formula": "n_{12} = \\frac{1}{n_{21}} \\quad \\text{and} \\quad n_{32} = n_{31} \\times n_{12}",
 "description": "Defines the reversibility of refractive indices between two media and the chain rule for three media.",
-"derivation": "These relations originate directly from the definition of the relative refractive index as the ratio of velocities: $n_{21} = \frac{v_1}{v_2}$. They are highly useful for converting air-to-water and air-to-glass indices into a water-to-glass index."
+"derivation": "These relations originate directly from the definition of the relative refractive index as the ratio of velocities: $n_{21} = \\frac{v_1}{v_2}$. They are highly useful for converting air-to-water and air-to-glass indices into a water-to-glass index."
 }
 },
 {
@@ -647,7 +647,7 @@
 "order": 25,
 "heading": "Fermat's Principle & Snell's Law",
 "question": "What fundamental physical principle governs Snell's Law, as illustrated by the analogy of a lifeguard rescuing a drowning child?",
-"back": "**Principle of Least Time (Fermat's Principle):** Light always takes the path between two points that requires the minimum time to traverse.\n\n**The Lifeguard Analogy:** A lifeguard runs faster on the beach than they swim in the water. To reach a drowning child in the shortest time, they don't take a straight line; they run further on land to minimize time spent in the slower medium (water).\n\n**Conclusion:** This mathematical optimization of time naturally yields the condition $\frac{\sin i}{\sin r} = \frac{v_1}{v_2}$, which is Snell's Law."
+"back": "**Principle of Least Time (Fermat's Principle):** Light always takes the path between two points that requires the minimum time to traverse.\n\n**The Lifeguard Analogy:** A lifeguard runs faster on the beach than they swim in the water. To reach a drowning child in the shortest time, they don't take a straight line; they run further on land to minimize time spent in the slower medium (water).\n\n**Conclusion:** This mathematical optimization of time naturally yields the condition $\\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2}$, which is Snell's Law."
 }
 },
 {
@@ -672,7 +672,7 @@
 ],
 "order": 26,
 "heading": "Apparent Depth (Single & Multiple Media)",
-"formula": "h_{\text{apparent}} = \frac{h_{\text{real}}}{n} \quad \text{and} \quad h_{\text{total}} = \sum \frac{h_k}{n_k}",
+"formula": "h_{\\text{apparent}} = \\frac{h_{\\text{real}}}{n} \\quad \\text{and} \\quad h_{\\text{total}} = \\sum \\frac{h_k}{n_k}",
 "description": "Calculates the apparent depth of an object viewed normally through one or more optically denser media.",
 "derivation": "This formula is strictly valid only for near-normal viewing. For multiple immiscible liquid layers, the total apparent depth is simply the algebraic sum of the apparent depths of each individual layer."
 }
@@ -699,9 +699,9 @@
 ],
 "order": 27,
 "heading": "Critical Angle",
-"formula": "\sin i_c = n_{21} = \frac{1}{n_{12}}",
+"formula": "\\sin i_c = n_{21} = \\frac{1}{n_{12}}",
 "description": "Calculates the critical angle ($i_c$) for a given pair of optical media.",
-"derivation": "The critical angle is defined as the specific angle of incidence in the denser medium for which the angle of refraction in the rarer medium is exactly 90 degrees. Applying Snell's Law: $n_1 \sin i_c = n_2 \sin 90^\circ \Rightarrow \sin i_c = \frac{n_2}{n_1}$."
+"derivation": "The critical angle is defined as the specific angle of incidence in the denser medium for which the angle of refraction in the rarer medium is exactly 90 degrees. Applying Snell's Law: $n_1 \\sin i_c = n_2 \\sin 90^\\circ \\Rightarrow \\sin i_c = \\frac{n_2}{n_1}$."
 }
 },
 {
@@ -726,7 +726,7 @@
 ],
 "order": 28,
 "heading": "Refraction at a Spherical Surface",
-"formula": "\frac{n_2}{v} - \frac{n_1}{u} = \frac{n_2 - n_1}{R}",
+"formula": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}",
 "description": "Connects object distance ($u$), image distance ($v$), and the radius of curvature ($R$) for light refracting across a single spherical interface.",
 "derivation": "This derivation strictly relies on small-angle approximations for paraxial rays. The Cartesian sign convention must be rigorously applied to $v$, $u$, and $R$ when solving numericals."
 }
@@ -753,7 +753,7 @@
 ],
 "order": 29,
 "heading": "Lens Maker's Formula",
-"formula": "\frac{1}{f} = (n_{21} - 1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)",
+"formula": "\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)",
 "description": "Determines the focal length ($f$) of a lens based on its material's relative refractive index ($n_{21}$) and its surface radii ($R_1, R_2$).",
 "derivation": "Derived by applying the single spherical refraction formula twice, assuming a 'thin lens' where thickness is negligible. Standard sign conventions must be applied. For a double convex lens, $R_1$ is positive and $R_2$ is negative."
 }
@@ -780,7 +780,7 @@
 ],
 "order": 30,
 "heading": "Thin Lens Formula",
-"formula": "\frac{1}{v} - \frac{1}{u} = \frac{1}{f}",
+"formula": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}",
 "description": "Standard algebraic relationship connecting object distance ($u$), image distance ($v$), and focal length ($f$) for a thin lens.",
 "derivation": "Though traditionally derived for a real image formed by a convex lens, this equation is universally valid for both convex and concave lenses, and for both real and virtual images, provided Cartesian sign conventions are strictly followed.",
 "mnemonic": "Lenses Lose (Negative sign for u): 1/v - 1/u = 1/f."
@@ -808,7 +808,7 @@
 ],
 "order": 31,
 "heading": "Linear Magnification of Thin Lenses",
-"formula": "m = \frac{h'}{h} = \frac{v}{u}",
+"formula": "m = \\frac{h'}{h} = \\frac{v}{u}",
 "description": "Calculates the linear magnification ($m$) produced by a thin lens.",
 "derivation": "Notice the positive relation ($+v/u$) compared to the negative relation in spherical mirrors. A positive $m$ implies an erect and virtual image, whereas a negative $m$ implies an inverted and real image.",
 "mnemonic": "Lens Magnification is Lacking minus: m = +v/u."
@@ -836,9 +836,9 @@
 ],
 "order": 32,
 "heading": "Power of a Lens",
-"formula": "P = \frac{1}{f}",
+"formula": "P = \\frac{1}{f}",
 "description": "Defines the optical power ($P$) of a lens, a measure of the convergence or divergence it introduces to incident light.",
-"derivation": "Power is mathematically defined as the tangent of the angle of convergence. For paraxial rays, $\tan \delta \approx \delta = \frac{1}{f}$. SI Unit: Dioptre (D), where $1 \text{ D} = 1 \text{ m}^{-1}$. The focal length must be in metres. Convex lenses have positive power; concave lenses have negative power."
+"derivation": "Power is mathematically defined as the tangent of the angle of convergence. For paraxial rays, $\\tan \\delta \\approx \\delta = \\frac{1}{f}$. SI Unit: Dioptre (D), where $1 \\text{ D} = 1 \\text{ m}^{-1}$. The focal length must be in metres. Convex lenses have positive power; concave lenses have negative power."
 }
 },
 {
@@ -862,7 +862,7 @@
 ],
 "order": 33,
 "heading": "Combination of Thin Lenses in Contact",
-"formula": "\frac{1}{f} = \frac{1}{f_1} + \frac{1}{f_2} + \dots \quad \text{and} \quad P = P_1 + P_2 + \dots",
+"formula": "\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2} + \\dots \\quad \\text{and} \\quad P = P_1 + P_2 + \\dots",
 "description": "Calculates the effective focal length ($f$) and effective power ($P$) of a system of thin lenses placed in direct contact.",
 "derivation": "The image formed by the first lens acts as a virtual object for the second lens. The algebraic sum strictly requires applying the correct sign convention to each individual focal length or power."
 }
@@ -888,7 +888,7 @@
 ],
 "order": 34,
 "heading": "Total Magnification of Lens Combinations",
-"formula": "m = m_1 \times m_2 \times m_3 \times \dots",
+"formula": "m = m_1 \\times m_2 \\times m_3 \\times \\dots",
 "description": "Calculates the total linear magnification ($m$) produced by a system of multiple lenses.",
 "derivation": "Unlike optical power which is additive, total magnification is the mathematical product of individual magnifications. This principle is widely used in designing multi-lens instruments like microscopes to achieve extremely high magnification without excessive single-lens curvature.",
 "mnemonic": "Powers Add, Magnifications Multiply."
@@ -915,9 +915,9 @@
 ],
 "order": 35,
 "heading": "Angles in a Triangular Prism",
-"formula": "r_1 + r_2 = A \quad \text{and} \quad \delta = i + e - A",
-"description": "Links the prism apex angle ($A$) to internal refraction angles ($r_1, r_2$), and calculates the total angle of deviation ($\delta$).",
-"derivation": "Derived using quadrilateral geometry where the total deviation is the sum of deviations at each refracting face: $\delta = (i - r_1) + (e - r_2)$. A plot of $\delta$ vs. $i$ yields a parabolic curve demonstrating a unique minimum deviation."
+"formula": "r_1 + r_2 = A \\quad \\text{and} \\quad \\delta = i + e - A",
+"description": "Links the prism apex angle ($A$) to internal refraction angles ($r_1, r_2$), and calculates the total angle of deviation ($\\delta$).",
+"derivation": "Derived using quadrilateral geometry where the total deviation is the sum of deviations at each refracting face: $\\delta = (i - r_1) + (e - r_2)$. A plot of $\\delta$ vs. $i$ yields a parabolic curve demonstrating a unique minimum deviation."
 }
 },
 {
@@ -941,7 +941,7 @@
 ],
 "order": 36,
 "heading": "Prism Formula (Refractive Index)",
-"formula": "n_{21} = \frac{\sin\left(\frac{A + D_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}",
+"formula": "n_{21} = \\frac{\\sin\\left(\\frac{A + D_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}",
 "description": "Determines the relative refractive index ($n_{21}$) of a prism's material using its angle of minimum deviation ($D_m$).",
 "derivation": "At minimum deviation, light passes symmetrically ($r_1 = r_2 = A/2$ and $i = e = (A + D_m)/2$). Substituting these into Snell's Law yields the formula. It is the standard experimental method for determining refractive indices of transparent solids."
 }
@@ -969,7 +969,7 @@
 "heading": "Deviation by a Thin Prism",
 "formula": "D_m = (n_{21} - 1)A",
 "description": "Approximate formula for the angle of minimum deviation produced by a thin prism.",
-"derivation": "Strictly valid only for small-angle prisms (typically $A < 10^\circ$) where the small-angle approximation $\sin \theta \approx \theta$ holds true. It highlights that thin prisms do not deviate light significantly and are independent of the angle of incidence within small limits."
+"derivation": "Strictly valid only for small-angle prisms (typically $A < 10^\\circ$) where the small-angle approximation $\\sin \\theta \\approx \\theta$ holds true. It highlights that thin prisms do not deviate light significantly and are independent of the angle of incidence within small limits."
 }
 },
 {
@@ -993,9 +993,9 @@
 ],
 "order": 38,
 "heading": "Magnifying Power of a Simple Microscope",
-"formula": "m = 1 + \frac{D}{f} \quad \text{(Near Point)} \quad \text{and} \quad m = \frac{D}{f} \quad \text{(Infinity)}",
+"formula": "m = 1 + \\frac{D}{f} \\quad \\text{(Near Point)} \\quad \\text{and} \\quad m = \\frac{D}{f} \\quad \\text{(Infinity)}",
 "description": "Calculates the angular magnification ($m$) of a simple microscope based on final image placement.",
-"derivation": "Maximum magnification ($1 + D/f$) occurs when the image is precisely at the near point of distinct vision ($D = 25 \text{ cm}$). However, viewing the image at infinity ($D/f$) is clinically preferred to avoid ciliary muscle strain, even though the magnification is slightly lower."
+"derivation": "Maximum magnification ($1 + D/f$) occurs when the image is precisely at the near point of distinct vision ($D = 25 \\text{ cm}$). However, viewing the image at infinity ($D/f$) is clinically preferred to avoid ciliary muscle strain, even though the magnification is slightly lower."
 }
 },
 {
@@ -1019,7 +1019,7 @@
 ],
 "order": 39,
 "heading": "Magnifying Power of a Compound Microscope",
-"formula": "m \approx \left(\frac{L}{f_o}\right) \left(\frac{D}{f_e}\right)",
+"formula": "m \\approx \\left(\\frac{L}{f_o}\\right) \\left(\\frac{D}{f_e}\\right)",
 "description": "Approximate formula for the total magnifying power ($m$) of a compound microscope in normal adjustment (final image at infinity).",
 "derivation": "This combines the linear magnification of the objective ($L/f_o$, where $L$ is tube length) and the angular magnification of the eyepiece ($D/f_e$). The math clearly dictates that to achieve high magnification, both $f_o$ and $f_e$ must be extremely small."
 }
@@ -1045,7 +1045,7 @@
 ],
 "order": 40,
 "heading": "Magnifying Power of a Refracting Telescope",
-"formula": "m = \frac{f_o}{f_e} \quad \text{and} \quad L = f_o + f_e",
+"formula": "m = \\frac{f_o}{f_e} \\quad \\text{and} \\quad L = f_o + f_e",
 "description": "Calculates the magnifying power ($m$) and tube length ($L$) of an astronomical telescope in normal adjustment.",
 "derivation": "Valid when the final image is formed at infinity for relaxed viewing. $f_o$ is the objective focal length and $f_e$ is the eyepiece focal length.",
 "mnemonic": "Telescopes look Far Out over Far Earth: fo / fe."
@@ -1098,7 +1098,7 @@
 "order": 42,
 "heading": "Brilliance of Diamonds",
 "question": "Why do diamonds exhibit spectacular brilliance compared to glass cut into identical shapes?",
-"back": "**High Refractive Index:** Diamond has an exceptionally high refractive index ($n \approx 2.42$).\n\n**Small Critical Angle:** Because $\sin i_c = 1/n$, this extreme density gives diamond an extraordinarily small critical angle ($i_c \approx 24.4^\circ$) for the diamond-air interface.\n\n**Internal Trapping:** Skilled diamond cutters facet the stone so that light entering it almost inevitably strikes internal faces at angles $> 24.4^\circ$. This guarantees multiple Total Internal Reflections before the light finds a geometry allowing it to exit, generating massive sparkle."
+"back": "**High Refractive Index:** Diamond has an exceptionally high refractive index ($n \\approx 2.42$).\n\n**Small Critical Angle:** Because $\\sin i_c = 1/n$, this extreme density gives diamond an extraordinarily small critical angle ($i_c \\approx 24.4^\\circ$) for the diamond-air interface.\n\n**Internal Trapping:** Skilled diamond cutters facet the stone so that light entering it almost inevitably strikes internal faces at angles $> 24.4^\\circ$. This guarantees multiple Total Internal Reflections before the light finds a geometry allowing it to exit, generating massive sparkle."
 }
 },
 {
@@ -1123,7 +1123,7 @@
 "order": 43,
 "heading": "Totally Reflecting Prisms",
 "question": "How do right-angled prisms in periscopes and binoculars achieve 90-degree or 180-degree beam deviation without using silvered mirrors?",
-"back": "**Material Properties:** They use isosceles right-angled prisms made of crown or flint glass, which have critical angles around $41^\circ \text{ to } 42^\circ$.\n\n**Geometry:** Light is directed perpendicularly into a face so that it strikes the hypotenuse interface from the inside at exactly $45^\circ$.\n\n**The TIR Effect:** Because $45^\circ > i_c$, the beam undergoes Total Internal Reflection with 100% efficiency. This allows sharp $90^\circ$ or $180^\circ$ turns without the intensity loss or tarnishing issues inherent to conventional silvered mirrors."
+"back": "**Material Properties:** They use isosceles right-angled prisms made of crown or flint glass, which have critical angles around $41^\\circ \\text{ to } 42^\\circ$.\n\n**Geometry:** Light is directed perpendicularly into a face so that it strikes the hypotenuse interface from the inside at exactly $45^\\circ$.\n\n**The TIR Effect:** Because $45^\\circ > i_c$, the beam undergoes Total Internal Reflection with 100% efficiency. This allows sharp $90^\\circ$ or $180^\\circ$ turns without the intensity loss or tarnishing issues inherent to conventional silvered mirrors."
 }
 },
 {
@@ -1148,7 +1148,7 @@
 "order": 44,
 "heading": "Optical Fibres: Structure and Principle",
 "question": "Explain the core-cladding architecture of an optical fibre and the primary condition required for it to guide light.",
-"back": "**Principle:** Light is guided over vast distances via continuous Total Internal Reflection (TIR) with negligible absorption.\n\n**Architecture:** Made of high-quality quartz or glass, it consists of a central core completely surrounded by a protective cladding layer.\n\n**Critical Requirement:** The refractive index of the core must be strictly higher than that of the cladding ($n_{\text{core}} > n_{\text{cladding}}$). Light launched at an appropriate acceptance angle strikes the core-cladding boundary at an angle greater than $i_c$ and propagates endlessly."
+"back": "**Principle:** Light is guided over vast distances via continuous Total Internal Reflection (TIR) with negligible absorption.\n\n**Architecture:** Made of high-quality quartz or glass, it consists of a central core completely surrounded by a protective cladding layer.\n\n**Critical Requirement:** The refractive index of the core must be strictly higher than that of the cladding ($n_{\\text{core}} > n_{\\text{cladding}}$). Light launched at an appropriate acceptance angle strikes the core-cladding boundary at an angle greater than $i_c$ and propagates endlessly."
 }
 },
 {
@@ -1198,7 +1198,7 @@
 "order": 46,
 "heading": "The 'Disappearing' Lens",
 "question": "Under what specific optical condition does a transparent glass lens become completely invisible when immersed in a liquid trough?",
-"back": "**Condition:** The refractive index of the liquid must exactly match the refractive index of the lens material ($n_1 = n_2$).\n\n**Physics behind it:** According to the Lens Maker's Formula, if $n_1 = n_2$, the relative refractive index $n_{21} = 1$. The term $(n_{21} - 1)$ thus becomes zero, making $\frac{1}{f} = 0$.\n\n**Result:** The focal length becomes infinity ($f = \infty$). The lens behaves exactly like a flat pane of glass, neither converging nor diverging light, effectively rendering its optical boundaries invisible."
+"back": "**Condition:** The refractive index of the liquid must exactly match the refractive index of the lens material ($n_1 = n_2$).\n\n**Physics behind it:** According to the Lens Maker's Formula, if $n_1 = n_2$, the relative refractive index $n_{21} = 1$. The term $(n_{21} - 1)$ thus becomes zero, making $\\frac{1}{f} = 0$.\n\n**Result:** The focal length becomes infinity ($f = \\infty$). The lens behaves exactly like a flat pane of glass, neither converging nor diverging light, effectively rendering its optical boundaries invisible."
 }
 },
 {
@@ -1223,7 +1223,7 @@
 "order": 47,
 "heading": "Wavelength Dependence: Red vs. Blue Light",
 "question": "How do the focal length of a lens and the critical angle of a medium differ for Red light compared to Blue light?",
-"back": "**Refractive Index:** Red light has a longer wavelength than blue light. Therefore, the refractive index is lower for red light than for blue light ($n_{\text{red}} < n_{\text{blue}}$).\n\n**Focal Length:** Because a lens bends blue light more sharply (higher $n$), the focal length for red light is greater than for blue light ($f_{\text{red}} > f_{\text{blue}}$).\n\n**Critical Angle:** Since $\sin i_c = 1/n$, a lower refractive index for red light implies that the critical angle for red light is greater than for blue light (${i_c}_{\text{red}} > {i_c}_{\text{blue}}$).",
+"back": "**Refractive Index:** Red light has a longer wavelength than blue light. Therefore, the refractive index is lower for red light than for blue light ($n_{\\text{red}} < n_{\\text{blue}}$).\n\n**Focal Length:** Because a lens bends blue light more sharply (higher $n$), the focal length for red light is greater than for blue light ($f_{\\text{red}} > f_{\\text{blue}}$).\n\n**Critical Angle:** Since $\\sin i_c = 1/n$, a lower refractive index for red light implies that the critical angle for red light is greater than for blue light (${i_c}_{\\text{red}} > {i_c}_{\\text{blue}}$).",
 "mnemonic": "Red Relaxes (bends less, longer focus, larger critical angle). Blue Bends violently."
 }
 },
@@ -1249,7 +1249,7 @@
 "order": 48,
 "heading": "Resolving and Light-Gathering Power of a Telescope",
 "question": "What physical parameter of an astronomical telescope primarily dictates its light-gathering capability and its resolving power?",
-"back": "**The Parameter:** The diameter (or aperture) of the objective lens or primary mirror.\n\n**Light Gathering Power:** A larger area ($A = \pi r^2$) captures significantly more photons, allowing astronomers to see faint, distant galaxies.\n\n**Resolving Power:** A larger diameter reduces optical diffraction limits, directly increasing the telescope's angular resolution (its ability to observe two extremely close objects, like binary stars, as distinct, separate entities)."
+"back": "**The Parameter:** The diameter (or aperture) of the objective lens or primary mirror.\n\n**Light Gathering Power:** A larger area ($A = \\pi r^2$) captures significantly more photons, allowing astronomers to see faint, distant galaxies.\n\n**Resolving Power:** A larger diameter reduces optical diffraction limits, directly increasing the telescope's angular resolution (its ability to observe two extremely close objects, like binary stars, as distinct, separate entities)."
 }
 },
 {
@@ -1274,7 +1274,7 @@
 "order": 49,
 "heading": "Alexander's Dark Band",
 "question": "What is Alexander's Dark Band, and where is it observed in atmospheric optics?",
-"back": "**Observation:** It is a visibly dark region of the sky located strictly between the primary rainbow and the secondary rainbow.\n\n**Cause:** It occurs because light entering water droplets is scattered such that the angle made at the observer's eye lies roughly between $42^\circ$ and $50^\circ$.\n\nEssentially, no light is scattered by the raindrops into this specific angular viewing region, leaving it starkly unilluminated compared to the inherently brightened sky above and below the respective bows."
+"back": "**Observation:** It is a visibly dark region of the sky located strictly between the primary rainbow and the secondary rainbow.\n\n**Cause:** It occurs because light entering water droplets is scattered such that the angle made at the observer's eye lies roughly between $42^\\circ$ and $50^\\circ$.\n\nEssentially, no light is scattered by the raindrops into this specific angular viewing region, leaving it starkly unilluminated compared to the inherently brightened sky above and below the respective bows."
 }
 },
 {

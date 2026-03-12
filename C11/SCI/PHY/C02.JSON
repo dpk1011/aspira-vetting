@@ -76,7 +76,7 @@
 "order": 3,
 "heading": "Distance vs. Displacement",
 "question": "What is the fundamental scientific distinction between Distance and Displacement?",
-"back": "- **Distance (Path Length):** The total length of the actual path traversed by an object. It is a **Scalar** quantity and is always $\ge 0$ .\n- **Displacement:** The shortest straight-line distance between the initial and final positions. It is a **Vector** quantity and can be positive, negative, or zero .\n\n*Condition:* Magnitude of displacement is always **less than or equal to** the total distance."
+"back": "- **Distance (Path Length):** The total length of the actual path traversed by an object. It is a **Scalar** quantity and is always $\\ge 0$ .\n- **Displacement:** The shortest straight-line distance between the initial and final positions. It is a **Vector** quantity and can be positive, negative, or zero .\n\n*Condition:* Magnitude of displacement is always **less than or equal to** the total distance."
 }
 },
 {
@@ -101,7 +101,7 @@
 ],
 "order": 4,
 "heading": "Average Speed",
-"formula": "v_{avg} = \frac{\text{Total Path Length}}{\text{Total Time Interval}}",
+"formula": "v_{avg} = \\frac{\\text{Total Path Length}}{\\text{Total Time Interval}}",
 "description": "Calculates the average speed over a given time interval.",
 "derivation": "Average speed is a **scalar** quantity. It is always greater than or equal to the magnitude of average velocity."
 }
@@ -128,7 +128,7 @@
 ],
 "order": 5,
 "heading": "Average Velocity",
-"formula": "\bar{v} = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}",
+"formula": "\\bar{v} = \\frac{\\Delta x}{\\Delta t} = \\frac{x_2 - x_1}{t_2 - t_1}",
 "description": "Calculates the average velocity in one-dimensional motion.",
 "derivation": "Average velocity is a **vector** quantity. If an object returns to its starting point, displacement is zero, and thus average velocity is **zero**."
 }
@@ -181,9 +181,9 @@
 ],
 "order": 7,
 "heading": "Average Speed: Equal Distances",
-"formula": "v_{avg} = \frac{2 v_1 v_2}{v_1 + v_2}",
+"formula": "v_{avg} = \\frac{2 v_1 v_2}{v_1 + v_2}",
 "description": "Shortcut formula for average speed when a particle travels TWO EQUAL DISTANCES with different speeds $v_1$ and $v_2$.",
-"derivation": "**Derivation:**\nTotal Distance = $s + s = 2s$\nTotal Time = $t_1 + t_2 = \frac{s}{v_1} + \frac{s}{v_2}$\n$v_{avg} = \frac{2s}{s(\frac{1}{v_1} + \frac{1}{v_2})} = \frac{2 v_1 v_2}{v_1 + v_2}$\n\nThis formula represents the **Harmonic Mean** of the two speeds."
+"derivation": "**Derivation:**\nTotal Distance = $s + s = 2s$\nTotal Time = $t_1 + t_2 = \\frac{s}{v_1} + \\frac{s}{v_2}$\n$v_{avg} = \\frac{2s}{s(\\frac{1}{v_1} + \\frac{1}{v_2})} = \\frac{2 v_1 v_2}{v_1 + v_2}$\n\nThis formula represents the **Harmonic Mean** of the two speeds."
 }
 },
 {
@@ -208,9 +208,9 @@
 ],
 "order": 8,
 "heading": "Average Speed: Equal Time Intervals",
-"formula": "v_{avg} = \frac{v_1 + v_2}{2}",
+"formula": "v_{avg} = \\frac{v_1 + v_2}{2}",
 "description": "Shortcut formula for average speed when a particle travels with different speeds $v_1$ and $v_2$ for TWO EQUAL TIME INTERVALS.",
-"derivation": "**Derivation:**\nTotal Distance = $v_1 t + v_2 t$\nTotal Time = $t + t = 2t$\n$v_{avg} = \frac{t(v_1 + v_2)}{2t} = \frac{v_1 + v_2}{2}$\n\nThis formula represents the **Arithmetic Mean** of the two speeds."
+"derivation": "**Derivation:**\nTotal Distance = $v_1 t + v_2 t$\nTotal Time = $t + t = 2t$\n$v_{avg} = \\frac{t(v_1 + v_2)}{2t} = \\frac{v_1 + v_2}{2}$\n\nThis formula represents the **Arithmetic Mean** of the two speeds."
 }
 },
 {
@@ -235,7 +235,7 @@
 ],
 "order": 9,
 "heading": "Instantaneous Velocity",
-"formula": "v = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}",
+"formula": "v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta x}{\\Delta t} = \\frac{dx}{dt}",
 "description": "The differential calculus formula for Instantaneous Velocity.",
 "derivation": "This represents the velocity of an object at a **specific instant** of time. Graphically, it is the **slope of the tangent** to the position-time (x-t) graph at that instant."
 }
@@ -288,9 +288,9 @@
 ],
 "order": 11,
 "heading": "Average Acceleration",
-"formula": "\bar{a} = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}",
+"formula": "\\bar{a} = \\frac{\\Delta v}{\\Delta t} = \\frac{v_2 - v_1}{t_2 - t_1}",
 "description": "Calculates the average acceleration over a time interval.",
-"derivation": "Acceleration can result from a change in **speed**, a change in **direction**, or both. It is a vector quantity with SI unit $\text{m/s}^2$."
+"derivation": "Acceleration can result from a change in **speed**, a change in **direction**, or both. It is a vector quantity with SI unit $\\text{m/s}^2$."
 }
 },
 {
@@ -315,9 +315,9 @@
 ],
 "order": 12,
 "heading": "Instantaneous Acceleration",
-"formula": "a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{dv}{dt} = \frac{d^2x}{dt^2}",
+"formula": "a = \\lim_{\\Delta t \\to 0} \\frac{\\Delta v}{\\Delta t} = \\frac{dv}{dt} = \\frac{d^2x}{dt^2}",
 "description": "The differential calculus formula for Instantaneous Acceleration.",
-"derivation": "**Chain Rule Format (Crucial for JEE/NEET):**\n$a = \frac{dv}{dt}$\nMultiply and divide by $dx$: $a = \frac{dv}{dx} \cdot \frac{dx}{dt}$\nSince $\frac{dx}{dt} = v$, we get **$a = v \frac{dv}{dx}$**."
+"derivation": "**Chain Rule Format (Crucial for JEE/NEET):**\n$a = \\frac{dv}{dt}$\nMultiply and divide by $dx$: $a = \\frac{dv}{dx} \\cdot \\frac{dx}{dt}$\nSince $\\frac{dx}{dt} = v$, we get **$a = v \\frac{dv}{dx}$**."
 }
 },
 {
@@ -343,7 +343,7 @@
 "order": 13,
 "heading": "Zero Velocity vs. Zero Acceleration",
 "question": "Does a particle having zero velocity at a specific instant necessarily mean it has zero acceleration at that instant? Provide an example.",
-"back": "**No.** A particle may be momentarily at rest but still possess a non-zero acceleration .\n\n*Example:* When a ball is thrown vertically upwards, at its absolute uppermost highest point, its velocity becomes strictly zero ($v=0$). However, the acceleration at that exact instant continues to be the acceleration due to gravity ($a = -9.8 \text{ m/s}^2$)."
+"back": "**No.** A particle may be momentarily at rest but still possess a non-zero acceleration .\n\n*Example:* When a ball is thrown vertically upwards, at its absolute uppermost highest point, its velocity becomes strictly zero ($v=0$). However, the acceleration at that exact instant continues to be the acceleration due to gravity ($a = -9.8 \\text{ m/s}^2$)."
 }
 },
 {
@@ -395,7 +395,7 @@
 "order": 15,
 "heading": "Slopes of Motion Graphs",
 "question": "What physical quantities are given by the slopes of the Position-Time (x-t) and Velocity-Time (v-t) graphs?",
-"back": "- **Slope of Position-Time (x-t) Graph:** Gives the **Velocity** ($v = \frac{dx}{dt}$) .\n- **Slope of Velocity-Time (v-t) Graph:** Gives the **Acceleration** ($a = \frac{dv}{dt}$) .\n\n*Note:* If the x-t graph is a curve, the slope of the *tangent* gives instantaneous velocity. If it's a secant line, it gives average velocity."
+"back": "- **Slope of Position-Time (x-t) Graph:** Gives the **Velocity** ($v = \\frac{dx}{dt}$) .\n- **Slope of Velocity-Time (v-t) Graph:** Gives the **Acceleration** ($a = \\frac{dv}{dt}$) .\n\n*Note:* If the x-t graph is a curve, the slope of the *tangent* gives instantaneous velocity. If it's a secant line, it gives average velocity."
 }
 },
 {
@@ -421,7 +421,7 @@
 "order": 16,
 "heading": "Areas of Motion Graphs",
 "question": "What physical quantities are given by the areas under the Velocity-Time (v-t) and Acceleration-Time (a-t) graphs?",
-"back": "- **Area under Velocity-Time (v-t) Graph:** Gives the **Displacement** ($x = \int v \\, dt$) .\n- **Area under Acceleration-Time (a-t) Graph:** Gives the **Change in Velocity** ($\Delta v = \int a \\, dt$) .\n\n*Boundary Condition:* The x-t graph area has no significant physical meaning in basic kinematics."
+"back": "- **Area under Velocity-Time (v-t) Graph:** Gives the **Displacement** ($x = \\int v \\, dt$) .\n- **Area under Acceleration-Time (a-t) Graph:** Gives the **Change in Velocity** ($\\Delta v = \\int a \\, dt$) .\n\n*Boundary Condition:* The x-t graph area has no significant physical meaning in basic kinematics."
 }
 },
 {
@@ -473,7 +473,7 @@
 "order": 18,
 "heading": "Impossible Kinematic Graphs",
 "question": "What are the three strict rules that determine if a kinematic graph (like position-time or speed-time) is physically impossible for 1D motion?",
-"back": "1. **Multiple Values:** A particle cannot have two positions or two velocities at the exact same instant of time (i.e., the graph cannot have vertical lines, overlap itself, or form a closed loop).\n2. **Negative Scalars:** **Speed** and **Total Path Length (Distance)** are scalar quantities that can *never* be negative.\n3. **Decreasing Distance:** Total path length (distance) can *never* decrease with time; it must always be $\ge 0$ and continuously increasing or constant."
+"back": "1. **Multiple Values:** A particle cannot have two positions or two velocities at the exact same instant of time (i.e., the graph cannot have vertical lines, overlap itself, or form a closed loop).\n2. **Negative Scalars:** **Speed** and **Total Path Length (Distance)** are scalar quantities that can *never* be negative.\n3. **Decreasing Distance:** Total path length (distance) can *never* decrease with time; it must always be $\\ge 0$ and continuously increasing or constant."
 }
 },
 {
@@ -500,7 +500,7 @@
 "heading": "1st Equation of Motion",
 "formula": "v = u + at",
 "description": "The first kinematic equation relating velocity and time.",
-"derivation": "**Derivation (Calculus Method):**\n$a = \frac{dv}{dt} \implies dv = a \\, dt$\n$\int_u^v dv = a \int_0^t dt$\n$v - u = at \implies v = u + at$\n\n**CRITICAL:** This equation is ONLY valid if the acceleration ($a$) is perfectly **constant/uniform**."
+"derivation": "**Derivation (Calculus Method):**\n$a = \\frac{dv}{dt} \\implies dv = a \\, dt$\n$\\int_u^v dv = a \\int_0^t dt$\n$v - u = at \\implies v = u + at$\n\n**CRITICAL:** This equation is ONLY valid if the acceleration ($a$) is perfectly **constant/uniform**."
 }
 },
 {
@@ -525,9 +525,9 @@
 ],
 "order": 20,
 "heading": "2nd Equation of Motion (with Initial Position)",
-"formula": "x = x_0 + ut + \frac{1}{2}at^2",
+"formula": "x = x_0 + ut + \\frac{1}{2}at^2",
 "description": "The second kinematic equation relating position and time, explicitly including the initial position $x_0$.",
-"derivation": "**Derivation:**\nWe know velocity $v = \frac{dx}{dt} \implies dx = v \\, dt$\nSubstitute $v = u + at$: $dx = (u + at) dt$\n$\int_{x_0}^x dx = \int_0^t (u + at) dt$\n$x - x_0 = ut + \frac{1}{2}at^2$\n\n*Note:* The displacement is $s = x - x_0$. This geometric equivalent is the area under a uniformly accelerating v-t graph."
+"derivation": "**Derivation:**\nWe know velocity $v = \\frac{dx}{dt} \\implies dx = v \\, dt$\nSubstitute $v = u + at$: $dx = (u + at) dt$\n$\\int_{x_0}^x dx = \\int_0^t (u + at) dt$\n$x - x_0 = ut + \\frac{1}{2}at^2$\n\n*Note:* The displacement is $s = x - x_0$. This geometric equivalent is the area under a uniformly accelerating v-t graph."
 }
 },
 {
@@ -554,7 +554,7 @@
 "heading": "3rd Equation of Motion",
 "formula": "v^2 = u^2 + 2as",
 "description": "The third kinematic equation relating velocity and displacement (independent of time).",
-"derivation": "**Derivation:**\n$a = v \frac{dv}{ds} \implies v \\, dv = a \\, ds$\n$\int_u^v v \, dv = a \int_0^s ds$\n$\frac{v^2}{2} - \frac{u^2}{2} = as \implies v^2 = u^2 + 2as$\n\nHighly useful when the time variable ($t$) is neither given nor required."
+"derivation": "**Derivation:**\n$a = v \\frac{dv}{ds} \\implies v \\, dv = a \\, ds$\n$\\int_u^v v \\, dv = a \\int_0^s ds$\n$\\frac{v^2}{2} - \\frac{u^2}{2} = as \\implies v^2 = u^2 + 2as$\n\nHighly useful when the time variable ($t$) is neither given nor required."
 }
 },
 {
@@ -579,9 +579,9 @@
 ],
 "order": 22,
 "heading": "Displacement in the nth Second",
-"formula": "S_{n} = u + \frac{a}{2}(2n - 1)",
+"formula": "S_{n} = u + \\frac{a}{2}(2n - 1)",
 "description": "Calculates the displacement of an accelerating body specifically during the $n^{th}$ second of its motion.",
-"derivation": "**Derivation:**\n$S_n = S(n) - S(n-1)$\nSubstitute the 2nd equation of motion and simplify to yield $u + \frac{a}{2}(2n - 1)$.\n\n*Dimensional Note:* Despite evaluating to meters, dimensionally, $S_n$ represents velocity because it is distance traveled per 1 second."
+"derivation": "**Derivation:**\n$S_n = S(n) - S(n-1)$\nSubstitute the 2nd equation of motion and simplify to yield $u + \\frac{a}{2}(2n - 1)$.\n\n*Dimensional Note:* Despite evaluating to meters, dimensionally, $S_n$ represents velocity because it is distance traveled per 1 second."
 }
 },
 {
@@ -606,9 +606,9 @@
 ],
 "order": 23,
 "heading": "Velocity at the Geometric Midpoint",
-"formula": "v_{mid} = \sqrt{\frac{u^2 + v^2}{2}}",
+"formula": "v_{mid} = \\sqrt{\\frac{u^2 + v^2}{2}}",
 "description": "Shortcut formula for the velocity of a particle at the exact geometric midpoint of its path, given uniform acceleration from $u$ to $v$.",
-"derivation": "This represents the Root Mean Square (RMS) of the initial and final velocities, NOT the arithmetic mean.\n\n*Proof:* Let the total distance be $2s$. At the midpoint (distance $s$), $v_{mid}^2 = u^2 + 2as$. Since $2as = \frac{v^2 - u^2}{2}$ for the full path, substituting yields $v_{mid}^2 = u^2 + \frac{v^2 - u^2}{2} = \frac{u^2 + v^2}{2}$."
+"derivation": "This represents the Root Mean Square (RMS) of the initial and final velocities, NOT the arithmetic mean.\n\n*Proof:* Let the total distance be $2s$. At the midpoint (distance $s$), $v_{mid}^2 = u^2 + 2as$. Since $2as = \\frac{v^2 - u^2}{2}$ for the full path, substituting yields $v_{mid}^2 = u^2 + \\frac{v^2 - u^2}{2} = \\frac{u^2 + v^2}{2}$."
 }
 },
 {
@@ -633,9 +633,9 @@
 ],
 "order": 24,
 "heading": "Average Velocity under Constant Acceleration",
-"formula": "\bar{v} = \frac{u + v}{2}",
+"formula": "\\bar{v} = \\frac{u + v}{2}",
 "description": "Calculates the average velocity of a particle moving with strictly uniform acceleration.",
-"derivation": "For uniform acceleration, the average velocity is simply the **arithmetic mean** of the initial and final velocities .\n\n*Application:* You can rapidly find displacement without knowing acceleration using: $s = \left(\frac{u + v}{2}\right) \cdot t$."
+"derivation": "For uniform acceleration, the average velocity is simply the **arithmetic mean** of the initial and final velocities .\n\n*Application:* You can rapidly find displacement without knowing acceleration using: $s = \\left(\\frac{u + v}{2}\\right) \\cdot t$."
 }
 },
 {
@@ -662,7 +662,7 @@
 "order": 25,
 "heading": "Condition for Free Fall",
 "question": "What defines a 'Free Fall' motion, and what is the standard sign convention applied to its acceleration?",
-"back": "An object is in free fall if it moves solely under the influence of gravity, with **air resistance neglected**. If we take the upward direction as the positive y-axis, gravity always acts downwards. Therefore, acceleration is strictly constant and negative:\n**$a = -g = -9.8 \text{ m/s}^2$."
+"back": "An object is in free fall if it moves solely under the influence of gravity, with **air resistance neglected**. If we take the upward direction as the positive y-axis, gravity always acts downwards. Therefore, acceleration is strictly constant and negative:\n**$a = -g = -9.8 \\text{ m/s}^2$."
 }
 },
 {
@@ -688,7 +688,7 @@
 ],
 "order": 26,
 "heading": "Free Fall Equations (Dropped from Rest)",
-"formula": "v = gt, \quad h = \frac{1}{2}gt^2, \quad v = \sqrt{2gh}",
+"formula": "v = gt, \\quad h = \\frac{1}{2}gt^2, \\quad v = \\sqrt{2gh}",
 "description": "States the three modified kinematic equations for a body dropped from rest ($u=0$) near the earth's surface.",
 "derivation": "Here, downward is taken as positive for convenience since the object is strictly falling. These equations are invalid if the object is thrown downwards with an initial velocity."
 }
@@ -717,7 +717,7 @@
 "order": 27,
 "heading": "Graphical Shapes of Free Fall",
 "question": "What are the specific geometric shapes of the acceleration-time, velocity-time, and position-time graphs for an object dropped in free fall? (Assuming downward is the negative y-direction) .",
-"back": "- **Acceleration-Time (a-t) Graph:** A straight **horizontal line** below the time axis (at $a = -g = -9.8 \text{ m/s}^2$) .\n- **Velocity-Time (v-t) Graph:** A **straight line** passing through the origin with a constant negative slope .\n- **Position-Time (x-t) Graph:** A **downward-opening parabola** (quadratic curve) passing through the origin."
+"back": "- **Acceleration-Time (a-t) Graph:** A straight **horizontal line** below the time axis (at $a = -g = -9.8 \\text{ m/s}^2$) .\n- **Velocity-Time (v-t) Graph:** A **straight line** passing through the origin with a constant negative slope .\n- **Position-Time (x-t) Graph:** A **downward-opening parabola** (quadratic curve) passing through the origin."
 }
 },
 {
@@ -743,7 +743,7 @@
 "order": 28,
 "heading": "Galileo's Law of Odd Numbers",
 "question": "State Galileo's Law of Odd Numbers regarding freely falling bodies.",
-"back": "The distances traversed during **equal intervals of time** by a body falling from rest, stand to one another in the same ratio as the odd numbers beginning with unity .\n\nRatio:** $1 : 3 : 5 : 7 : 9 : 11...$\n\n*Proof hint:* Using $s = \frac{1}{2}gt^2$, distances from start are $y_0, 4y_0, 9y_0$. Distances in *successive* intervals are $y_0, (4y_0-y_0), (9y_0-4y_0) \rightarrow 1:3:5$."
+"back": "The distances traversed during **equal intervals of time** by a body falling from rest, stand to one another in the same ratio as the odd numbers beginning with unity .\n\nRatio:** $1 : 3 : 5 : 7 : 9 : 11...$\n\n*Proof hint:* Using $s = \\frac{1}{2}gt^2$, distances from start are $y_0, 4y_0, 9y_0$. Distances in *successive* intervals are $y_0, (4y_0-y_0), (9y_0-4y_0) \\rightarrow 1:3:5$."
 }
 },
 {
@@ -769,9 +769,9 @@
 ],
 "order": 29,
 "heading": "Stopping Distance",
-"formula": "d_s = \frac{-v_0^2}{2a}",
+"formula": "d_s = \\frac{-v_0^2}{2a}",
 "description": "State the formula for the stopping distance of a vehicle moving with initial velocity $v_0$ and uniform braking deceleration $-a$.",
-"derivation": "**Derivation:**\n- Use $v^2 = u^2 + 2as$\n- Set final velocity $v = 0$ .\n- $0 = v_0^2 + 2as \implies s = \frac{-v_0^2}{2a}$\n\nStopping distance is strictly proportional to the **square of the initial velocity**. If you double your speed, your braking distance becomes **four times** longer.",
+"derivation": "**Derivation:**\n- Use $v^2 = u^2 + 2as$\n- Set final velocity $v = 0$ .\n- $0 = v_0^2 + 2as \\implies s = \\frac{-v_0^2}{2a}$\n\nStopping distance is strictly proportional to the **square of the initial velocity**. If you double your speed, your braking distance becomes **four times** longer.",
 "mnemonic": "Double the speed, quadruple the need (to stop)."
 }
 },
@@ -799,7 +799,7 @@
 "order": 30,
 "heading": "Reaction Time",
 "question": "What is 'Reaction Time' in real-world kinematics, and how does it impact total stopping distance? ",
-"back": "- **Definition:** The time a person takes to observe a hazard, think, and take action (slam the brakes) .\n- **Impact:** During the reaction time ($t_r$), the vehicle continues to move at a *constant* initial velocity ($v_0$) .\n- **Total Stopping Distance** = Distance traveled during reaction time + Braking Distance = $(v_0 \times t_r) + d_s$."
+"back": "- **Definition:** The time a person takes to observe a hazard, think, and take action (slam the brakes) .\n- **Impact:** During the reaction time ($t_r$), the vehicle continues to move at a *constant* initial velocity ($v_0$) .\n- **Total Stopping Distance** = Distance traveled during reaction time + Braking Distance = $(v_0 \\times t_r) + d_s$."
 }
 },
 {

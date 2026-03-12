@@ -32,9 +32,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "formula"],
 "order": 2,
 "heading": "General Equation of Alternating Current",
-"formula": "I = I_0 \sin(\omega t)",
+"formula": "I = I_0 \\sin(\\omega t)",
 "description": "State the formula that mathematically represents an alternating current oscillating sinusoidally over time.",
-"derivation": "## Variables & Units:\n- **$I$** = Instantaneous current (A)\n- **$I_0$** = Peak current or amplitude (A)\n- **$\omega$** = Angular frequency (rad/s)\n- **$t$** = Time (s)\n\n## Conditions/Notes:\n- The current can also be equivalently represented as a cosine function depending on initial phase: $I = I_0 \cos(\omega t)$.\n- The angular frequency is mathematically related to the time period by **$\omega = \frac{2\pi}{T}$** and linear frequency by **$\omega = 2\pi f$**."
+"derivation": "## Variables & Units:\n- **$I$** = Instantaneous current (A)\n- **$I_0$** = Peak current or amplitude (A)\n- **$\\omega$** = Angular frequency (rad/s)\n- **$t$** = Time (s)\n\n## Conditions/Notes:\n- The current can also be equivalently represented as a cosine function depending on initial phase: $I = I_0 \\cos(\\omega t)$.\n- The angular frequency is mathematically related to the time period by **$\\omega = \\frac{2\\pi}{T}$** and linear frequency by **$\\omega = 2\\pi f$**."
 }
 },
 {
@@ -67,9 +67,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "formula", "ac-mean"],
 "order": 4,
 "heading": "Mean Value of AC (Half Cycle)",
-"formula": "I_m = \frac{2 I_0}{\pi} \approx 0.637 I_0",
+"formula": "I_m = \\frac{2 I_0}{\\pi} \\approx 0.637 I_0",
 "description": "State the formula for the mean or average value of an alternating current over a positive half-cycle.",
-"derivation": "## Derivation:\n1. Charge sent in infinitesimal time $dt$: $dq = I_0 \sin(\omega t) dt$\n2. Integrate from $0$ to $T/2$: $q = \int_0^{T/2} I_0 \sin(\omega t) dt$\n3. Resulting evaluated charge $q = \frac{2 I_0}{\omega}$\n4. Equate to the charge transferred by an equivalent steady current $I_m$: $I_m \times \frac{T}{2} = \frac{2 I_0}{\omega}$\n5. Substitute $\omega = \frac{2\pi}{T}$ to get $I_m = \frac{2 I_0}{\pi}$\n\n## Variables & Units:\n- **$I_m$** = Mean or average current (A)\n- **$I_0$** = Peak value of alternating current (A)\n\n## Conditions/Notes:\n- This represents the equivalent steady Direct Current (DC) that would send the **exact same amount of net charge** through a circuit in a half-cycle time ($T/2$) as the AC does."
+"derivation": "## Derivation:\n1. Charge sent in infinitesimal time $dt$: $dq = I_0 \\sin(\\omega t) dt$\n2. Integrate from $0$ to $T/2$: $q = \\int_0^{T/2} I_0 \\sin(\\omega t) dt$\n3. Resulting evaluated charge $q = \\frac{2 I_0}{\\omega}$\n4. Equate to the charge transferred by an equivalent steady current $I_m$: $I_m \\times \\frac{T}{2} = \\frac{2 I_0}{\\omega}$\n5. Substitute $\\omega = \\frac{2\\pi}{T}$ to get $I_m = \\frac{2 I_0}{\\pi}$\n\n## Variables & Units:\n- **$I_m$** = Mean or average current (A)\n- **$I_0$** = Peak value of alternating current (A)\n\n## Conditions/Notes:\n- This represents the equivalent steady Direct Current (DC) that would send the **exact same amount of net charge** through a circuit in a half-cycle time ($T/2$) as the AC does."
 }
 },
 {
@@ -103,9 +103,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "formula", "ac-rms"],
 "order": 6,
 "heading": "RMS Current & Voltage",
-"formula": "I_{rms} = \frac{I_0}{\sqrt{2}} \approx 0.707 I_0",
+"formula": "I_{rms} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0",
 "description": "State the mathematical relationship between the peak amplitude of a sinusoidal Alternating Current and its Root Mean Square (RMS) value.",
-"derivation": "## Derivation:\n1. Instantaneous heat produced: $dH = (I_0 \sin\omega t)^2 R dt$\n2. Integrate over a complete cycle: $H = \int_0^T I_0^2 R \sin^2(\omega t) dt$\n3. Solving this integral gives $H = \frac{I_0^2 R T}{2}$\n4. Equate to the heat produced by steady DC: $I_{rms}^2 R T = \frac{I_0^2 R T}{2}$\n5. Simplify algebraically to get $I_{rms} = \frac{I_0}{\sqrt{2}}$\n\n## Variables & Units:\n- **$I_{rms}$** = Root mean square current (A)\n- **$I_0$** = Peak current amplitude (A)\n\n## Conditions/Notes:\n- The exact same mathematical relation applies strictly to alternating voltage: **$V_{rms} = \frac{V_0}{\sqrt{2}}$**.\n- Standard household AC ratings (e.g., the 220V mains supply in India) are **always** given as RMS values unless explicitly stated otherwise."
+"derivation": "## Derivation:\n1. Instantaneous heat produced: $dH = (I_0 \\sin\\omega t)^2 R dt$\n2. Integrate over a complete cycle: $H = \\int_0^T I_0^2 R \\sin^2(\\omega t) dt$\n3. Solving this integral gives $H = \\frac{I_0^2 R T}{2}$\n4. Equate to the heat produced by steady DC: $I_{rms}^2 R T = \\frac{I_0^2 R T}{2}$\n5. Simplify algebraically to get $I_{rms} = \\frac{I_0}{\\sqrt{2}}$\n\n## Variables & Units:\n- **$I_{rms}$** = Root mean square current (A)\n- **$I_0$** = Peak current amplitude (A)\n\n## Conditions/Notes:\n- The exact same mathematical relation applies strictly to alternating voltage: **$V_{rms} = \\frac{V_0}{\\sqrt{2}}$**.\n- Standard household AC ratings (e.g., the 220V mains supply in India) are **always** given as RMS values unless explicitly stated otherwise."
 }
 },
 {
@@ -157,7 +157,7 @@
 "order": 9,
 "heading": "Phasors and Phasor Diagrams",
 "question": "What is a 'phasor' in the mathematical context of AC circuits, and what specifically do its spatial magnitude and vertical projection represent?",
-"back": "## Explanation:\n- A **phasor** is an imaginary rotating vector that revolves about the origin in a 2D plane with a constant angular speed $\omega$. \n- **Magnitude (Length):** Represents the strict peak value (amplitude) of the oscillating electrical quantity (e.g., maximum voltage $V_0$ or maximum current $I_0$).\n- **Vertical Projection (Y-axis):** Represents the specific instantaneous value of the quantity at time $t$ (e.g., $V_0 \sin\omega t$).\n- Phasor diagrams provide a simple geometric way to analyze, visualize, and vectorially add phase differences between voltage and current in complex AC circuits."
+"back": "## Explanation:\n- A **phasor** is an imaginary rotating vector that revolves about the origin in a 2D plane with a constant angular speed $\\omega$. \n- **Magnitude (Length):** Represents the strict peak value (amplitude) of the oscillating electrical quantity (e.g., maximum voltage $V_0$ or maximum current $I_0$).\n- **Vertical Projection (Y-axis):** Represents the specific instantaneous value of the quantity at time $t$ (e.g., $V_0 \\sin\\omega t$).\n- Phasor diagrams provide a simple geometric way to analyze, visualize, and vectorially add phase differences between voltage and current in complex AC circuits."
 }
 },
 {
@@ -174,7 +174,7 @@
 "order": 10,
 "heading": "AC Circuit with Pure Resistance",
 "question": "When an AC voltage source is applied across a purely resistive circuit, what is the exact phase relationship strictly between the current and the voltage?",
-"back": "## Explanation:\n- The alternating voltage and alternating current are strictly **in the same phase** (Phase angle $\phi = 0^\circ$). \n- They mathematically reach their zero, minimum, and maximum (peak) values at the **exact same instantaneous time**.\n- The ideal resistor behaves physically identically for both AC and DC sources, restricting current flow strictly according to Ohm's Law.",
+"back": "## Explanation:\n- The alternating voltage and alternating current are strictly **in the same phase** (Phase angle $\\phi = 0^\\circ$). \n- They mathematically reach their zero, minimum, and maximum (peak) values at the **exact same instantaneous time**.\n- The ideal resistor behaves physically identically for both AC and DC sources, restricting current flow strictly according to Ohm's Law.",
 "mnemonic": "Resistors Resist Randomness - they stay IN PHASE."
 }
 },
@@ -192,7 +192,7 @@
 "order": 11,
 "heading": "AC Circuit with Pure Inductance",
 "question": "How does the phase of the alternating current analytically relate to the alternating voltage across a purely inductive circuit?",
-"back": "## Explanation:\n- The alternating current strictly **lags** behind the alternating voltage by a phase angle of exactly **$90^\circ$ ($\pi/2$ rad)**. \n- Conversely, it can be stated that the voltage across the inductor *leads* the current by $90^\circ$.\n- This phenomenon occurs physically because the inductor's back-EMF strongly opposes any change in current (Lenz's Law), causing a strict time delay for the current to reach its peak value compared to the driving voltage.",
+"back": "## Explanation:\n- The alternating current strictly **lags** behind the alternating voltage by a phase angle of exactly **$90^\\circ$ ($\\pi/2$ rad)**. \n- Conversely, it can be stated that the voltage across the inductor *leads* the current by $90^\\circ$.\n- This phenomenon occurs physically because the inductor's back-EMF strongly opposes any change in current (Lenz's Law), causing a strict time delay for the current to reach its peak value compared to the driving voltage.",
 "mnemonic": "ELI the ICE man: In an Inductor (L), Voltage (E) leads Current (I)."
 }
 },
@@ -209,9 +209,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "inductor", "formula"],
 "order": 12,
 "heading": "Inductive Reactance Formula",
-"formula": "X_L = \omega L = 2\pi f L",
+"formula": "X_L = \\omega L = 2\\pi f L",
 "description": "State the formula calculating the effective resistance (reactance) offered by a pure inductor in an AC circuit.",
-"derivation": "## Variables & Units:\n- **$X_L$** = Inductive reactance (Ohms, $\Omega$)\n- **$\omega$** = Angular frequency of the source (rad/s)\n- **$f$** = Linear frequency of the AC supply (Hz)\n- **$L$** = Self-inductance of the coil (Henry, H)\n\n## Conditions/Notes:\n- A pure ideal inductor offers **strictly zero resistance** to a steady Direct Current (DC) since its frequency $f = 0$.\n- $X_L$ is directly proportional to both the frequency of the AC source and the physical inductance."
+"derivation": "## Variables & Units:\n- **$X_L$** = Inductive reactance (Ohms, $\\Omega$)\n- **$\\omega$** = Angular frequency of the source (rad/s)\n- **$f$** = Linear frequency of the AC supply (Hz)\n- **$L$** = Self-inductance of the coil (Henry, H)\n\n## Conditions/Notes:\n- A pure ideal inductor offers **strictly zero resistance** to a steady Direct Current (DC) since its frequency $f = 0$.\n- $X_L$ is directly proportional to both the frequency of the AC source and the physical inductance."
 }
 },
 {
@@ -228,7 +228,7 @@
 "order": 13,
 "heading": "AC Circuit with Pure Capacitance",
 "question": "Describe the precise phase relationship between the alternating voltage and the alternating current in a purely capacitive circuit.",
-"back": "## Explanation:\n- The alternating current strictly **leads** the alternating voltage by a phase angle of exactly **$90^\circ$ ($\pi/2$ rad)**. \n- A capacitor is physically alternately charged and discharged; the displacement current is at its absolute maximum precisely when the voltage crosses zero (where the voltage is changing most rapidly over time).\n- It completely and fully blocks DC flow once fully charged, but smoothly allows continuous AC to pass through the circuit.",
+"back": "## Explanation:\n- The alternating current strictly **leads** the alternating voltage by a phase angle of exactly **$90^\\circ$ ($\\pi/2$ rad)**. \n- A capacitor is physically alternately charged and discharged; the displacement current is at its absolute maximum precisely when the voltage crosses zero (where the voltage is changing most rapidly over time).\n- It completely and fully blocks DC flow once fully charged, but smoothly allows continuous AC to pass through the circuit.",
 "mnemonic": "ELI the ICE man: In a Capacitor (C), Current (I) leads Voltage (E)."
 }
 },
@@ -245,9 +245,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "capacitor", "formula"],
 "order": 14,
 "heading": "Capacitive Reactance Formula",
-"formula": "X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C}",
+"formula": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}",
 "description": "State the mathematical formula for the effective electrical resistance (reactance) offered by a pure capacitor to alternating current.",
-"derivation": "## Variables & Units:\n- **$X_C$** = Capacitive reactance (Ohms, $\Omega$)\n- **$\omega$** = Angular frequency of the source (rad/s)\n- **$f$** = AC linear frequency (Hz)\n- **$C$** = Capacitance (Farads, F)\n\n## Conditions/Notes:\n- Capacitive reactance is strictly **inversely proportional** to both the supply frequency and the capacitance.\n- For steady DC ($f = 0$), $X_C = \infty$, meaning it acts physically as an open circuit blocking block."
+"derivation": "## Variables & Units:\n- **$X_C$** = Capacitive reactance (Ohms, $\\Omega$)\n- **$\\omega$** = Angular frequency of the source (rad/s)\n- **$f$** = AC linear frequency (Hz)\n- **$C$** = Capacitance (Farads, F)\n\n## Conditions/Notes:\n- Capacitive reactance is strictly **inversely proportional** to both the supply frequency and the capacitance.\n- For steady DC ($f = 0$), $X_C = \\infty$, meaning it acts physically as an open circuit blocking block."
 }
 },
 {
@@ -263,8 +263,8 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "frequency-behavior"],
 "order": 15,
 "heading": "Extreme Frequency Behavior of L and C",
-"question": "How do ideal Inductors and ideal Capacitors practically behave at the extreme frequency limits of steady DC ($\omega = 0$) versus extremely high-frequency AC ($\omega \to \infty$)?",
-"back": "## Inductor ($X_L = \omega L$):\n- **At DC ($\omega = 0$):** Reactance $X_L = 0$. It acts as a **perfect conductor** (a short circuit).\n- **At High AC ($\omega \to \infty$):** Reactance $X_L \to \infty$. It acts as an **open circuit** (completely blocks current).\n\n## Capacitor ($X_C = \frac{1}{\omega C}$):\n- **At DC ($\omega = 0$):** Reactance $X_C = \infty$. It acts as an **open circuit** (completely blocks steady DC).\n- **At High AC ($\omega \to \infty$):** Reactance $X_C \to 0$. It acts as a **perfect conductor** (a short circuit).",
+"question": "How do ideal Inductors and ideal Capacitors practically behave at the extreme frequency limits of steady DC ($\\omega = 0$) versus extremely high-frequency AC ($\\omega \\to \\infty$)?",
+"back": "## Inductor ($X_L = \\omega L$):\n- **At DC ($\\omega = 0$):** Reactance $X_L = 0$. It acts as a **perfect conductor** (a short circuit).\n- **At High AC ($\\omega \\to \\infty$):** Reactance $X_L \\to \\infty$. It acts as an **open circuit** (completely blocks current).\n\n## Capacitor ($X_C = \\frac{1}{\\omega C}$):\n- **At DC ($\\omega = 0$):** Reactance $X_C = \\infty$. It acts as an **open circuit** (completely blocks steady DC).\n- **At High AC ($\\omega \\to \\infty$):** Reactance $X_C \\to 0$. It acts as a **perfect conductor** (a short circuit).",
 "mnemonic": "Capacitor blocks DC, Inductor blocks High AC."
 }
 },
@@ -282,7 +282,7 @@
 "order": 16,
 "heading": "Power Dissipation in Pure L and C",
 "question": "What is the net average power supplied over one complete cycle to a purely inductive or purely capacitive circuit, and physically why?",
-"back": "## Explanation:\n- The average power supplied over a full cycle is exactly **Zero**.\n- **Reason:** In both pure L and pure C circuits, the exact phase difference between the oscillating voltage and current is strictly $90^\circ$ ($\pi/2$ rad).\n- Since True Average Power is mathematically $P_{avg} = V_{rms} I_{rms} \cos\phi$, and $\cos(90^\circ) = 0$, absolutely no net power is consumed from the source.\n- Energy is merely shuttled rhythmically back and forth between the power source and the respective magnetic or electric fields of the components.",
+"back": "## Explanation:\n- The average power supplied over a full cycle is exactly **Zero**.\n- **Reason:** In both pure L and pure C circuits, the exact phase difference between the oscillating voltage and current is strictly $90^\\circ$ ($\\pi/2$ rad).\n- Since True Average Power is mathematically $P_{avg} = V_{rms} I_{rms} \\cos\\phi$, and $\\cos(90^\\circ) = 0$, absolutely no net power is consumed from the source.\n- Energy is merely shuttled rhythmically back and forth between the power source and the respective magnetic or electric fields of the components.",
 "mnemonic": "90 degrees means Zero fees (no power loss)"
 }
 },
@@ -300,7 +300,7 @@
 "order": 17,
 "heading": "Phasor Analysis of Series LCR Circuit",
 "question": "In a series LCR circuit, how do the individual voltage phasors across the Resistor, Inductor, and Capacitor strictly align vectorially relative to the common current phasor?",
-"back": "## Explanation:\n- Because all three elements are connected in series, the **Current ($I$)** is identical throughout the entire branch and is typically taken as the horizontal reference phasor. \n- **$V_R$** (Voltage across Resistor): Lies perfectly **in phase** with $I$ (angle $0^\circ$).\n- **$V_L$** (Voltage across Inductor): Strictly **leads** $I$ by $90^\circ$ (points vertically up).\n- **$V_C$** (Voltage across Capacitor): Strictly **lags** $I$ by $90^\circ$ (points vertically down).\n- Since $V_L$ and $V_C$ are exactly $180^\circ$ directly opposite to each other, they are vectorially subtracted to find the net reactive vertical voltage, typically evaluated as $(V_L - V_C)$ or $(V_C - V_L)$."
+"back": "## Explanation:\n- Because all three elements are connected in series, the **Current ($I$)** is identical throughout the entire branch and is typically taken as the horizontal reference phasor. \n- **$V_R$** (Voltage across Resistor): Lies perfectly **in phase** with $I$ (angle $0^\\circ$).\n- **$V_L$** (Voltage across Inductor): Strictly **leads** $I$ by $90^\\circ$ (points vertically up).\n- **$V_C$** (Voltage across Capacitor): Strictly **lags** $I$ by $90^\\circ$ (points vertically down).\n- Since $V_L$ and $V_C$ are exactly $180^\\circ$ directly opposite to each other, they are vectorially subtracted to find the net reactive vertical voltage, typically evaluated as $(V_L - V_C)$ or $(V_C - V_L)$."
 }
 },
 {
@@ -316,8 +316,8 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "lcr-circuit"],
 "order": 18,
 "heading": "Algebraic vs. Vector Addition of AC Voltages",
-"question": "In a series LCR circuit, why does the simple algebraic scalar sum of the individual RMS voltages across the resistor, inductor, and capacitor NOT equal the total RMS source voltage ($V \neq V_R + V_L + V_C$)?",
-"back": "## Explanation:\n- Unlike in pure DC circuits, the alternating instantaneous voltages across $R$, $L$, and $C$ are **not in the same phase** at any given snapshot in time.\n- Specifically, $V_R$ is in phase with the current, $V_L$ leads by $90^\circ$, and $V_C$ lags by $90^\circ$.\n- Because they reach their peak values at entirely different times during the cycle, they cannot be added like simple scalars.\n- They must be added **vectorially using phasors**.\n- The correct mathematical relationship is the Pythagorean vector sum: **$V = \sqrt{V_R^2 + (V_L - V_C)^2}$**."
+"question": "In a series LCR circuit, why does the simple algebraic scalar sum of the individual RMS voltages across the resistor, inductor, and capacitor NOT equal the total RMS source voltage ($V \\neq V_R + V_L + V_C$)?",
+"back": "## Explanation:\n- Unlike in pure DC circuits, the alternating instantaneous voltages across $R$, $L$, and $C$ are **not in the same phase** at any given snapshot in time.\n- Specifically, $V_R$ is in phase with the current, $V_L$ leads by $90^\\circ$, and $V_C$ lags by $90^\\circ$.\n- Because they reach their peak values at entirely different times during the cycle, they cannot be added like simple scalars.\n- They must be added **vectorially using phasors**.\n- The correct mathematical relationship is the Pythagorean vector sum: **$V = \\sqrt{V_R^2 + (V_L - V_C)^2}$**."
 }
 },
 {
@@ -333,9 +333,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "lcr-circuit", "formula"],
 "order": 19,
 "heading": "Impedance of Series LCR Circuit",
-"formula": "Z = \sqrt{R^2 + (X_L - X_C)^2}",
+"formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
 "description": "State the formula calculating the total effective resistance (Impedance, Z) in a standard series LCR circuit.",
-"derivation": "## Derivation:\n1. Using Pythagoras on the phasor voltage triangle: $V^2 = V_R^2 + (V_L - V_C)^2$\n2. Substitute Ohm's law equivalents $V = IZ$, $V_R = IR$, etc.: $(IZ)^2 = (IR)^2 + (IX_L - IX_C)^2$\n3. Divide the entire algebraic equation by $I^2$ to get $Z^2 = R^2 + (X_L - X_C)^2$\n4. Take the principal square root to isolate $Z$.\n\n## Variables & Units:\n- **$Z$** = Total circuit impedance (Ohms, $\Omega$)\n- **$R$** = Resistance ($\Omega$)\n- **$X_L$** = Inductive Reactance ($\Omega$)\n- **$X_C$** = Capacitive Reactance ($\Omega$)\n\n## Conditions/Notes:\n- $Z$ represents the physical hypotenuse of the right-angled **Impedance Triangle**.\n- If $X_L > X_C$, the circuit is net inductively dominant. If $X_C > X_L$, the circuit is net capacitively dominant."
+"derivation": "## Derivation:\n1. Using Pythagoras on the phasor voltage triangle: $V^2 = V_R^2 + (V_L - V_C)^2$\n2. Substitute Ohm's law equivalents $V = IZ$, $V_R = IR$, etc.: $(IZ)^2 = (IR)^2 + (IX_L - IX_C)^2$\n3. Divide the entire algebraic equation by $I^2$ to get $Z^2 = R^2 + (X_L - X_C)^2$\n4. Take the principal square root to isolate $Z$.\n\n## Variables & Units:\n- **$Z$** = Total circuit impedance (Ohms, $\\Omega$)\n- **$R$** = Resistance ($\\Omega$)\n- **$X_L$** = Inductive Reactance ($\\Omega$)\n- **$X_C$** = Capacitive Reactance ($\\Omega$)\n\n## Conditions/Notes:\n- $Z$ represents the physical hypotenuse of the right-angled **Impedance Triangle**.\n- If $X_L > X_C$, the circuit is net inductively dominant. If $X_C > X_L$, the circuit is net capacitively dominant."
 }
 },
 {
@@ -351,9 +351,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "lcr-circuit", "formula"],
 "order": 20,
 "heading": "Phase Angle in Series LCR Circuit",
-"formula": "\tan \phi = \frac{X_L - X_C}{R}",
+"formula": "\\tan \\phi = \\frac{X_L - X_C}{R}",
 "description": "State the mathematical formula used to find the specific phase difference angle strictly between the net total voltage and the total current in a series LCR circuit.",
-"derivation": "## Variables & Units:\n- **$\phi$** = Phase angle between total source voltage and circuit current (rad or degrees)\n- **$X_L$** = Inductive Reactance ($\Omega$)\n- **$X_C$** = Capacitive Reactance ($\Omega$)\n- **$R$** = Ohmic Resistance ($\Omega$)\n\n## Conditions/Notes:\n- If $\phi$ evaluates as positive ($X_L > X_C$), the net Voltage vector leads the Current vector.\n- If $\phi$ evaluates as negative ($X_C > X_L$), the Current vector leads the net Voltage vector.\n- From the geometry of the impedance triangle, this phase angle can equivalently be expressed as **$\cos\phi = \frac{R}{Z}$**."
+"derivation": "## Variables & Units:\n- **$\\phi$** = Phase angle between total source voltage and circuit current (rad or degrees)\n- **$X_L$** = Inductive Reactance ($\\Omega$)\n- **$X_C$** = Capacitive Reactance ($\\Omega$)\n- **$R$** = Ohmic Resistance ($\\Omega$)\n\n## Conditions/Notes:\n- If $\\phi$ evaluates as positive ($X_L > X_C$), the net Voltage vector leads the Current vector.\n- If $\\phi$ evaluates as negative ($X_C > X_L$), the Current vector leads the net Voltage vector.\n- From the geometry of the impedance triangle, this phase angle can equivalently be expressed as **$\\cos\\phi = \\frac{R}{Z}$**."
 }
 },
 {
@@ -369,9 +369,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "lcr-circuit", "formula"],
 "order": 21,
 "heading": "Differential Equation of Series LCR Circuit",
-"formula": "L \frac{d^2q}{dt^2} + R \frac{dq}{dt} + \frac{q}{C} = v_m \sin(\omega t)",
+"formula": "L \\frac{d^2q}{dt^2} + R \\frac{dq}{dt} + \\frac{q}{C} = v_m \\sin(\\omega t)",
 "description": "State the second-order linear differential equation governing the instantaneous charge traversing a series LCR circuit driven by an AC voltage source.",
-"derivation": "## Derivation:\n1. By strictly applying Kirchhoff's Loop Rule at any instant: $V_L + V_R + V_C = V_{source}$\n2. Substitute the component voltage expressions: $L\frac{dI}{dt} + IR + \frac{q}{C} = v_m \sin(\omega t)$\n3. Given current is the rate of charge flow, substitute $I = \frac{dq}{dt}$ and $\frac{dI}{dt} = \frac{d^2q}{dt^2}$ to yield the final differential equation.\n\n## Variables & Units:\n- **$L$** = Self-Inductance (H)\n- **$R$** = Ohmic Resistance ($\Omega$)\n- **$C$** = Capacitance (F)\n- **$q$** = Instantaneous charge on the capacitor (C)\n- **$v_m$** = Peak amplitude of the source voltage (V)\n- **$\omega$** = Driving angular frequency of the source (rad/s)\n\n## Conditions/Notes:\n- Analytically, this equation is physically and mathematically identical to the differential equation of a **forced, damped harmonic oscillator** in classical mechanics."
+"derivation": "## Derivation:\n1. By strictly applying Kirchhoff's Loop Rule at any instant: $V_L + V_R + V_C = V_{source}$\n2. Substitute the component voltage expressions: $L\\frac{dI}{dt} + IR + \\frac{q}{C} = v_m \\sin(\\omega t)$\n3. Given current is the rate of charge flow, substitute $I = \\frac{dq}{dt}$ and $\\frac{dI}{dt} = \\frac{d^2q}{dt^2}$ to yield the final differential equation.\n\n## Variables & Units:\n- **$L$** = Self-Inductance (H)\n- **$R$** = Ohmic Resistance ($\\Omega$)\n- **$C$** = Capacitance (F)\n- **$q$** = Instantaneous charge on the capacitor (C)\n- **$v_m$** = Peak amplitude of the source voltage (V)\n- **$\\omega$** = Driving angular frequency of the source (rad/s)\n\n## Conditions/Notes:\n- Analytically, this equation is physically and mathematically identical to the differential equation of a **forced, damped harmonic oscillator** in classical mechanics."
 }
 },
 {
@@ -388,7 +388,7 @@
 "order": 22,
 "heading": "Series Electrical Resonance",
 "question": "What specific frequency condition triggers 'electrical resonance' in a series LCR circuit, and what phenomenologically happens to the circuit's net impedance and current amplitude as a direct result?",
-"back": "## Explanation:\n- **Condition:** Resonance occurs strictly when the driving frequency makes the inductive reactance exactly equal to the capacitive reactance (**$X_L = X_C$**).\n- **Impedance:** The opposing reactive components cancel each other out entirely ($X_L - X_C = 0$), making the total Impedance **absolute minimum** and strictly equal solely to the ohmic resistance ($Z = R$).\n- **Current:** Because the net impedance is at its absolute lowest point, the resulting current amplitude violently peaks to its **absolute maximum** value ($I_0 = \frac{V_0}{R}$). ",
+"back": "## Explanation:\n- **Condition:** Resonance occurs strictly when the driving frequency makes the inductive reactance exactly equal to the capacitive reactance (**$X_L = X_C$**).\n- **Impedance:** The opposing reactive components cancel each other out entirely ($X_L - X_C = 0$), making the total Impedance **absolute minimum** and strictly equal solely to the ohmic resistance ($Z = R$).\n- **Current:** Because the net impedance is at its absolute lowest point, the resulting current amplitude violently peaks to its **absolute maximum** value ($I_0 = \\frac{V_0}{R}$). ",
 "mnemonic": "Resonance: Reactances Reject each other, Resistance Remains."
 }
 },
@@ -405,9 +405,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "resonance", "formula"],
 "order": 23,
 "heading": "Resonant Frequency Formula",
-"formula": "\omega_r = \frac{1}{\sqrt{LC}} \quad ; \quad f_r = \frac{1}{2\pi \sqrt{LC}}",
+"formula": "\\omega_r = \\frac{1}{\\sqrt{LC}} \\quad ; \\quad f_r = \\frac{1}{2\\pi \\sqrt{LC}}",
 "description": "State the exact mathematical expressions for the resonant angular frequency and linear frequency of an LCR circuit.",
-"derivation": "## Derivation:\n1. At the point of resonance, the reactances exactly equate: $X_L = X_C$\n2. Substitute their physical formulas: $\omega_r L = \frac{1}{\omega_r C}$\n3. Cross multiply to isolate frequency: $\omega_r^2 = \frac{1}{LC}$\n4. Take the principal square root: $\omega_r = \frac{1}{\sqrt{LC}}$\n\n## Variables & Units:\n- **$\omega_r$** = Resonant angular frequency (rad/s)\n- **$f_r$** = Resonant linear frequency (Hz)\n- **$L$** = Total Inductance (H)\n- **$C$** = Total Capacitance (F)\n\n## Conditions/Notes:\n- Both $L$ and $C$ must be physically present in the series circuit for resonance to occur (it mathematically cannot happen in purely RL or strictly RC AC circuits)."
+"derivation": "## Derivation:\n1. At the point of resonance, the reactances exactly equate: $X_L = X_C$\n2. Substitute their physical formulas: $\\omega_r L = \\frac{1}{\\omega_r C}$\n3. Cross multiply to isolate frequency: $\\omega_r^2 = \\frac{1}{LC}$\n4. Take the principal square root: $\\omega_r = \\frac{1}{\\sqrt{LC}}$\n\n## Variables & Units:\n- **$\\omega_r$** = Resonant angular frequency (rad/s)\n- **$f_r$** = Resonant linear frequency (Hz)\n- **$L$** = Total Inductance (H)\n- **$C$** = Total Capacitance (F)\n\n## Conditions/Notes:\n- Both $L$ and $C$ must be physically present in the series circuit for resonance to occur (it mathematically cannot happen in purely RL or strictly RC AC circuits)."
 }
 },
 {
@@ -424,7 +424,7 @@
 "order": 24,
 "heading": "Quality Factor (Q-Factor)",
 "question": "What specifically does the Q-factor of a resonant AC circuit physically measure, and how does it directly relate to the circuit's frequency bandwidth?",
-"back": "## Explanation:\n- The **Q-factor** physically measures the **sharpness of resonance** of an LCR circuit.\n- It is formally defined as the ratio of the voltage developed across the pure inductance (or pure capacitance) precisely at resonance to the applied voltage across the resistor ($Q = \frac{V_L}{V_R}$).\n- **Bandwidth relation:** A higher numerical Q-factor directly indicates a narrower bandwidth (a much sharper resonance peak), indicating exceptionally better tuning selectivity (which is crucial for precise radio frequency tuning).",
+"back": "## Explanation:\n- The **Q-factor** physically measures the **sharpness of resonance** of an LCR circuit.\n- It is formally defined as the ratio of the voltage developed across the pure inductance (or pure capacitance) precisely at resonance to the applied voltage across the resistor ($Q = \\frac{V_L}{V_R}$).\n- **Bandwidth relation:** A higher numerical Q-factor directly indicates a narrower bandwidth (a much sharper resonance peak), indicating exceptionally better tuning selectivity (which is crucial for precise radio frequency tuning).",
 "mnemonic": "High Q = High Quality tuning (sharp peak)."
 }
 },
@@ -441,9 +441,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "resonance", "formula"],
 "order": 25,
 "heading": "Quality Factor Formula",
-"formula": "Q = \frac{1}{R} \sqrt{\frac{L}{C}}",
+"formula": "Q = \\frac{1}{R} \\sqrt{\\frac{L}{C}}",
 "description": "State the standard formula for the Quality Factor (Q) of a series LCR resonant circuit expressed entirely in terms of its component values R, L, and C.",
-"derivation": "## Variables & Units:\n- **$Q$** = Quality Factor (Dimensionless ratio)\n- **$R$** = Ohmic Resistance ($\Omega$)\n- **$L$** = Self-Inductance (H)\n- **$C$** = Capacitance (F)\n\n## Conditions/Notes:\n- Q can alternatively be written using resonant frequency as $Q = \frac{\omega_r L}{R}$ or $Q = \frac{1}{\omega_r C R}$.\n- To artificially increase the sharpness of resonance (achieve a high Q value), the physical resistance $R$ must be kept as extremely low as physically possible."
+"derivation": "## Variables & Units:\n- **$Q$** = Quality Factor (Dimensionless ratio)\n- **$R$** = Ohmic Resistance ($\\Omega$)\n- **$L$** = Self-Inductance (H)\n- **$C$** = Capacitance (F)\n\n## Conditions/Notes:\n- Q can alternatively be written using resonant frequency as $Q = \\frac{\\omega_r L}{R}$ or $Q = \\frac{1}{\\omega_r C R}$.\n- To artificially increase the sharpness of resonance (achieve a high Q value), the physical resistance $R$ must be kept as extremely low as physically possible."
 }
 },
 {
@@ -460,7 +460,7 @@
 "order": 26,
 "heading": "Real Power vs. Apparent Power",
 "question": "What is the fundamental physical difference between Real Power and Apparent Power in an AC circuit?",
-"back": "## Explanation:\n- **Real Power (True Power):** The actual power physically consumed by the circuit, measured in Watts (W). It correctly and fully accounts for the phase difference between voltage and current.\n- **Apparent Power (Virtual Power):** The raw mathematical product of the RMS voltage and RMS current ($V_{rms} \times I_{rms}$), measured in Volt-Amperes (VA). It strictly ignores the phase difference.\n- The crucial mathematical ratio of Real Power to Apparent Power defines the circuit's **Power Factor**."
+"back": "## Explanation:\n- **Real Power (True Power):** The actual power physically consumed by the circuit, measured in Watts (W). It correctly and fully accounts for the phase difference between voltage and current.\n- **Apparent Power (Virtual Power):** The raw mathematical product of the RMS voltage and RMS current ($V_{rms} \\times I_{rms}$), measured in Volt-Amperes (VA). It strictly ignores the phase difference.\n- The crucial mathematical ratio of Real Power to Apparent Power defines the circuit's **Power Factor**."
 }
 },
 {
@@ -476,9 +476,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "power", "formula"],
 "order": 27,
 "heading": "Average Power and Power Factor",
-"formula": "P_{avg} = V_{rms} I_{rms} \cos\phi",
+"formula": "P_{avg} = V_{rms} I_{rms} \\cos\\phi",
 "description": "State the formula for the true average power consumed in an AC circuit and formally define its power factor.",
-"derivation": "## Variables & Units:\n- **$P_{avg}$** = True Average Power (W)\n- **$V_{rms}$** = RMS Voltage (V)\n- **$I_{rms}$** = RMS Current (A)\n- **$\cos\phi$** = Power Factor (Dimensionless)\n\n## Conditions/Notes:\n- **Power Factor ($\cos\phi$)** = $\frac{R}{Z}$.\n- For a pure resistor, $\cos\phi = 1$ (Maximum power dissipated).\n- For an ideal pure inductor or capacitor, $\cos\phi = 0$ (Zero average power dissipated)."
+"derivation": "## Variables & Units:\n- **$P_{avg}$** = True Average Power (W)\n- **$V_{rms}$** = RMS Voltage (V)\n- **$I_{rms}$** = RMS Current (A)\n- **$\\cos\\phi$** = Power Factor (Dimensionless)\n\n## Conditions/Notes:\n- **Power Factor ($\\cos\\phi$)** = $\\frac{R}{Z}$.\n- For a pure resistor, $\\cos\\phi = 1$ (Maximum power dissipated).\n- For an ideal pure inductor or capacitor, $\\cos\\phi = 0$ (Zero average power dissipated)."
 }
 },
 {
@@ -495,7 +495,7 @@
 "order": 28,
 "heading": "Wattless Current",
 "question": "What is 'Wattless Current', and in which ideal electrical components does it prominently and naturally feature?",
-"back": "## Explanation:\n- **Wattless Current** is the specific component of alternating current that **does not consume any real power** for its continuous maintenance in the circuit.\n- Mathematically, it is the $I_{rms} \sin\phi$ component of the current, which is exactly $90^\circ$ out of phase with the voltage.\n- It is highly prominent in **ideal inductors and ideal capacitors**, where the phase angle is strictly $90^\circ$, rendering the average power fully zero.",
+"back": "## Explanation:\n- **Wattless Current** is the specific component of alternating current that **does not consume any real power** for its continuous maintenance in the circuit.\n- Mathematically, it is the $I_{rms} \\sin\\phi$ component of the current, which is exactly $90^\\circ$ out of phase with the voltage.\n- It is highly prominent in **ideal inductors and ideal capacitors**, where the phase angle is strictly $90^\\circ$, rendering the average power fully zero.",
 "mnemonic": "Wattless equals Powerless (No Watts used)"
 }
 },
@@ -513,7 +513,7 @@
 "order": 29,
 "heading": "Choke Coil Application",
 "question": "Why is a choke coil technologically preferred over an ordinary resistor to regulate current in an AC circuit (like a standard fluorescent tube)?",
-"back": "## Explanation:\n- A **choke coil** is simply a physical inductor intentionally designed with high inductance and negligible ohmic resistance.\n- It effectively reduces and regulates the alternating current by providing high inductive reactance ($X_L = \omega L$).\n- Because the phase angle $\phi$ closely approaches $90^\circ$ in an ideal inductor, the **average power dissipated is nearly zero** ($P = V_{rms}I_{rms} \cos 90^\circ = 0$).\n- In stark contrast, an ordinary resistor regulates current but inevitably **wastes large amounts of valuable electrical energy** as heat ($I^2R$).",
+"back": "## Explanation:\n- A **choke coil** is simply a physical inductor intentionally designed with high inductance and negligible ohmic resistance.\n- It effectively reduces and regulates the alternating current by providing high inductive reactance ($X_L = \\omega L$).\n- Because the phase angle $\\phi$ closely approaches $90^\\circ$ in an ideal inductor, the **average power dissipated is nearly zero** ($P = V_{rms}I_{rms} \\cos 90^\\circ = 0$).\n- In stark contrast, an ordinary resistor regulates current but inevitably **wastes large amounts of valuable electrical energy** as heat ($I^2R$).",
 "mnemonic": "A Choke strangles the current without sweating (losing heat)."
 }
 },
@@ -530,9 +530,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "inductor", "formula"],
 "order": 30,
 "heading": "Magnetic Energy Stored in an Inductor",
-"formula": "U_B = \frac{1}{2} L I^2",
+"formula": "U_B = \\frac{1}{2} L I^2",
 "description": "State the mathematical formula for the magnetic potential energy stored strictly inside an inductor when a steady current has been established.",
-"derivation": "## Derivation:\n1. Rate of doing work against the internal back EMF: $\frac{dW}{dt} = E \cdot I$\n2. Since the induced EMF magnitude is $E = L \frac{dI}{dt}$, we get $dW = L \cdot I \cdot dI$\n3. Integrating strictly from $0$ to full current $I$: $W = \int_0^I L I dI = \frac{1}{2} L I^2$\n4. This exact work is physically stored as Magnetic Potential Energy $U_B$.\n\n## Variables & Units:\n- **$U_B$** = Magnetic Energy stored (Joules, J)\n- **$L$** = Self-inductance (Henries, H)\n- **$I$** = Current (Amperes, A)\n\n## Conditions/Notes:\n- This energy is perfectly analogous to the kinetic energy of a moving physical mass ($\frac{1}{2} m v^2$) in classical mechanics, highlighting the inductor's fundamental role as providing 'electrical inertia'."
+"derivation": "## Derivation:\n1. Rate of doing work against the internal back EMF: $\\frac{dW}{dt} = E \\cdot I$\n2. Since the induced EMF magnitude is $E = L \\frac{dI}{dt}$, we get $dW = L \\cdot I \\cdot dI$\n3. Integrating strictly from $0$ to full current $I$: $W = \\int_0^I L I dI = \\frac{1}{2} L I^2$\n4. This exact work is physically stored as Magnetic Potential Energy $U_B$.\n\n## Variables & Units:\n- **$U_B$** = Magnetic Energy stored (Joules, J)\n- **$L$** = Self-inductance (Henries, H)\n- **$I$** = Current (Amperes, A)\n\n## Conditions/Notes:\n- This energy is perfectly analogous to the kinetic energy of a moving physical mass ($\\frac{1}{2} m v^2$) in classical mechanics, highlighting the inductor's fundamental role as providing 'electrical inertia'."
 }
 },
 {
@@ -567,7 +567,7 @@
 "order": 32,
 "heading": "LC Circuit vs. Spring-Mass Analogy",
 "question": "In the rigorous mechanical analogy of LC electrical oscillations to a harmonically oscillating spring-block system, which precise electrical quantities map to mass, spring constant, kinetic energy, and potential energy?",
-"back": "## The Analogy Mapping:\n- **Charge ($q$)** physically maps to **Displacement ($x$)**\n- **Current ($I = dq/dt$)** physically maps to **Velocity ($v = dx/dt$)**\n- **Inductance ($L$)** physically maps to **Mass ($m$)** (Both fundamentally represent inertia)\n- **Inverse Capacitance ($1/C$)** physically maps to **Spring Constant ($k$)**\n- **Magnetic Energy ($\frac{1}{2}LI^2$)** physically maps to **Kinetic Energy ($\frac{1}{2}mv^2$)**\n- **Electrostatic Energy ($\frac{q^2}{2C}$)** physically maps to **Potential Energy ($\frac{1}{2}kx^2$)**",
+"back": "## The Analogy Mapping:\n- **Charge ($q$)** physically maps to **Displacement ($x$)**\n- **Current ($I = dq/dt$)** physically maps to **Velocity ($v = dx/dt$)**\n- **Inductance ($L$)** physically maps to **Mass ($m$)** (Both fundamentally represent inertia)\n- **Inverse Capacitance ($1/C$)** physically maps to **Spring Constant ($k$)**\n- **Magnetic Energy ($\\frac{1}{2}LI^2$)** physically maps to **Kinetic Energy ($\\frac{1}{2}mv^2$)**\n- **Electrostatic Energy ($\\frac{q^2}{2C}$)** physically maps to **Potential Energy ($\\frac{1}{2}kx^2$)**",
 "mnemonic": "L is Mass (Electrical Inertia), C is the Spring."
 }
 },
@@ -620,9 +620,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "transformer", "formula"],
 "order": 35,
 "heading": "Transformer Voltage and Turns Ratio",
-"formula": "\frac{V_s}{V_p} = \frac{N_s}{N_p}",
+"formula": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
 "description": "State the mathematical relationship between the induced voltages and the number of turns in the primary and secondary coils of a standard transformer.",
-"derivation": "## Derivation:\n1. By Faraday's Law, induced EMF strictly in the primary: $E_p = -N_p \frac{d\phi}{dt}$\n2. Induced EMF strictly in the secondary: $E_s = -N_s \frac{d\phi}{dt}$\n3. Assuming negligibly small primary resistance and an open-circuited secondary, $V_p \approx E_p$ and $V_s \approx E_s$.\n4. Dividing the two resulting equations cleanly yields: $\frac{V_s}{V_p} = \frac{N_s}{N_p}$.\n\n## Variables & Units:\n- **$V_s$** = Voltage across secondary coil (V)\n- **$V_p$** = Voltage across primary coil (V)\n- **$N_s$** = Number of turns in the secondary coil\n- **$N_p$** = Number of turns in the primary coil\n\n## Conditions/Notes:\n- The physical ratio $\frac{N_s}{N_p}$ is formally called the **Turns Ratio**.\n- The derived relationship strictly assumes that there is absolutely **no flux leakage** (i.e., 100% of the magnetic flux generated by the primary successfully links fully with the secondary)."
+"derivation": "## Derivation:\n1. By Faraday's Law, induced EMF strictly in the primary: $E_p = -N_p \\frac{d\\phi}{dt}$\n2. Induced EMF strictly in the secondary: $E_s = -N_s \\frac{d\\phi}{dt}$\n3. Assuming negligibly small primary resistance and an open-circuited secondary, $V_p \\approx E_p$ and $V_s \\approx E_s$.\n4. Dividing the two resulting equations cleanly yields: $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$.\n\n## Variables & Units:\n- **$V_s$** = Voltage across secondary coil (V)\n- **$V_p$** = Voltage across primary coil (V)\n- **$N_s$** = Number of turns in the secondary coil\n- **$N_p$** = Number of turns in the primary coil\n\n## Conditions/Notes:\n- The physical ratio $\\frac{N_s}{N_p}$ is formally called the **Turns Ratio**.\n- The derived relationship strictly assumes that there is absolutely **no flux leakage** (i.e., 100% of the magnetic flux generated by the primary successfully links fully with the secondary)."
 }
 },
 {
@@ -638,9 +638,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "transformer", "formula"],
 "order": 36,
 "heading": "Transformer Current Ratio (Ideal)",
-"formula": "\frac{I_p}{I_s} = \frac{V_s}{V_p} = \frac{N_s}{N_p}",
+"formula": "\\frac{I_p}{I_s} = \\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
 "description": "State the governing relationship between the currents and voltages in the primary and secondary coils of an ideal, 100% efficient transformer.",
-"derivation": "## Derivation:\n1. For a strictly ideal transformer, Input Power strictly equals Output Power.\n2. Therefore, $P_p = P_s$.\n3. Substitute the standard power formula: $V_p I_p = V_s I_s$.\n4. Rearranging the algebraic terms yields: $\frac{I_p}{I_s} = \frac{V_s}{V_p}$.\n\n## Variables & Units:\n- **$I_p$** = Current in primary coil (A)\n- **$I_s$** = Current in secondary coil (A)\n- **$V_s, V_p$** = Secondary and primary voltages (V)\n- **$N_s, N_p$** = Secondary and primary turns\n\n## Conditions/Notes:\n- This formula strictly assumes an **Ideal Transformer** with zero energy losses (Efficiency = 100%).\n- It brilliantly demonstrates that if a transformer steps up the voltage, it must proportionately and simultaneously **step down the current** to actively conserve energy."
+"derivation": "## Derivation:\n1. For a strictly ideal transformer, Input Power strictly equals Output Power.\n2. Therefore, $P_p = P_s$.\n3. Substitute the standard power formula: $V_p I_p = V_s I_s$.\n4. Rearranging the algebraic terms yields: $\\frac{I_p}{I_s} = \\frac{V_s}{V_p}$.\n\n## Variables & Units:\n- **$I_p$** = Current in primary coil (A)\n- **$I_s$** = Current in secondary coil (A)\n- **$V_s, V_p$** = Secondary and primary voltages (V)\n- **$N_s, N_p$** = Secondary and primary turns\n\n## Conditions/Notes:\n- This formula strictly assumes an **Ideal Transformer** with zero energy losses (Efficiency = 100%).\n- It brilliantly demonstrates that if a transformer steps up the voltage, it must proportionately and simultaneously **step down the current** to actively conserve energy."
 }
 },
 {
@@ -674,9 +674,9 @@
 "tags": ["science", "physics", "class-12", "neet", "jee", "alternating-current", "transformer", "formula", "efficiency"],
 "order": 38,
 "heading": "Transformer Efficiency Formula",
-"formula": "\eta = \frac{P_{out}}{P_{in}} \times 100 = \frac{V_s I_s \cos\phi_s}{V_p I_p \cos\phi_p} \times 100",
+"formula": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100 = \\frac{V_s I_s \\cos\\phi_s}{V_p I_p \\cos\\phi_p} \\times 100",
 "description": "State the standard formula used to safely calculate the percentage electrical efficiency of a practical transformer.",
-"derivation": "## Variables & Units:\n- **$\eta$** = Efficiency (Percentage %)\n- **$P_{out}, P_{in}$** = Output and Input Real Power (W)\n- **$V_s, V_p$** = Secondary and Primary Voltages (V)\n- **$I_s, I_p$** = Secondary and Primary Currents (A)\n- **$\cos\phi$** = Power factor of the respective circuits\n\n## Conditions/Notes:\n- For an **Ideal Transformer**, $\eta = 100\\%$ ($P_{out} = P_{in}$).\n- In practical transformers, operational efficiency is usually exceptionally high (often $>90\\%$), but never reaches exactly $100\\%$ due directly to unavoidable Copper, Iron, Leakage, and Hysteresis losses."
+"derivation": "## Variables & Units:\n- **$\\eta$** = Efficiency (Percentage %)\n- **$P_{out}, P_{in}$** = Output and Input Real Power (W)\n- **$V_s, V_p$** = Secondary and Primary Voltages (V)\n- **$I_s, I_p$** = Secondary and Primary Currents (A)\n- **$\\cos\\phi$** = Power factor of the respective circuits\n\n## Conditions/Notes:\n- For an **Ideal Transformer**, $\\eta = 100\\%$ ($P_{out} = P_{in}$).\n- In practical transformers, operational efficiency is usually exceptionally high (often $>90\\%$), but never reaches exactly $100\\%$ due directly to unavoidable Copper, Iron, Leakage, and Hysteresis losses."
 }
 },
 {

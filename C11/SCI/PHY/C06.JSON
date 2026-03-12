@@ -25,7 +25,7 @@
 "order": 1,
 "heading": "Pure Translation vs. Pure Rotation",
 "question": "How do you precisely distinguish between pure translational motion and pure rotational motion of a rigid body in terms of particle velocities?",
-"back": "**Pure Translation:**\n- Every single particle of the rigid body moves with the **exact same linear velocity ($v$)** at any given instant of time.\n\n**Pure Rotation:**\n- Every particle moves in a **circle**, which lies in a plane perpendicular to the axis of rotation.\n- All particles share the **same angular velocity ($\omega$)**, but their linear velocities differ based on their perpendicular distance from the fixed axis."
+"back": "**Pure Translation:**\n- Every single particle of the rigid body moves with the **exact same linear velocity ($v$)** at any given instant of time.\n\n**Pure Rotation:**\n- Every particle moves in a **circle**, which lies in a plane perpendicular to the axis of rotation.\n- All particles share the **same angular velocity ($\\omega$)**, but their linear velocities differ based on their perpendicular distance from the fixed axis."
 }
 },
 {
@@ -104,9 +104,9 @@
 ],
 "order": 4,
 "heading": "Centre of Mass (Two-Particle System)",
-"formula": "X = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}",
+"formula": "X = \\frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}",
 "description": "Calculates the position of the Centre of Mass (X) for a two-particle system aligned on the x-axis.",
-"derivation": "**Variables & Units:**\n- **X** = Position of the centre of mass (m)\n- **$m_1, m_2$** = Masses of the individual particles (kg)\n- **$x_1, x_2$** = Positions of the particles from the origin (m)\n\n**Conditions/Notes:**\n- The centre of mass acts as a mass-weighted mean of positions.\n- If the masses are exactly equal ($m_1 = m_2$), the centre of mass lies exactly midway between them: $X = \frac{x_1 + x_2}{2}$."
+"derivation": "**Variables & Units:**\n- **X** = Position of the centre of mass (m)\n- **$m_1, m_2$** = Masses of the individual particles (kg)\n- **$x_1, x_2$** = Positions of the particles from the origin (m)\n\n**Conditions/Notes:**\n- The centre of mass acts as a mass-weighted mean of positions.\n- If the masses are exactly equal ($m_1 = m_2$), the centre of mass lies exactly midway between them: $X = \\frac{x_1 + x_2}{2}$."
 }
 },
 {
@@ -132,9 +132,9 @@
 ],
 "order": 5,
 "heading": "Centre of Mass (Vector Form for n-Particles)",
-"formula": "\vec{R}*{CM} = \frac{1}{M} \sum*{i=1}^{n} m_i \vec{r}*i",
+"formula": "\\vec{R}*{CM} = \\frac{1}{M} \\sum*{i=1}^{n} m_i \\vec{r}*i",
 "description": "Calculates the generalized vector position of the Centre of Mass for a system composed of n discrete particles.",
-"derivation": "**Variables & Units:**\n- **$\vec{R}*{CM}$** = Position vector of the overall centre of mass (m)\n- **M** = Total mass of the system (kg), where $M = \sum m_i$\n- **$m_i$** = Mass of the $i^{th}$ particle (kg)\n- **$\vec{r}*i$** = Position vector of the $i^{th}$ particle from the origin (m)\n\n**Conditions/Notes:**\n- This single vector equation elegantly encapsulates the three scalar equations for the X, Y, and Z axes."
+"derivation": "**Variables & Units:**\n- **$\\vec{R}*{CM}$** = Position vector of the overall centre of mass (m)\n- **M** = Total mass of the system (kg), where $M = \\sum m_i$\n- **$m_i$** = Mass of the $i^{th}$ particle (kg)\n- **$\\vec{r}*i$** = Position vector of the $i^{th}$ particle from the origin (m)\n\n**Conditions/Notes:**\n- This single vector equation elegantly encapsulates the three scalar equations for the X, Y, and Z axes."
 }
 },
 {
@@ -161,9 +161,9 @@
 ],
 "order": 6,
 "heading": "Centre of Mass (Continuous Distribution)",
-"formula": "\vec{R}*{CM} = \frac{1}{M} \int \vec{r} \, dm",
+"formula": "\\vec{R}*{CM} = \\frac{1}{M} \\int \\vec{r} \\, dm",
 "description": "Calculates the position vector of the Centre of Mass for a continuous solid body using integration.",
-"derivation": "**Derivation:**\nAs the number of mass elements $n$ becomes infinitely large and each element $\Delta m_i$ becomes infinitesimally small ($dm$), the discrete summation $\sum$ gracefully transforms into a continuous integral $\int$.\n\n**Variables & Units:**\n- **$\vec{R}_{CM}$** = Position vector of the centre of mass (m)\n- **M** = Total mass of the continuous body (kg)\n- **$\vec{r}$** = Position vector of the infinitesimal mass element (m)\n- **dm** = Infinitesimal mass element (kg)\n\n**Conditions/Notes:**\n- If the origin is deliberately chosen to be the centre of mass itself, the integral $\int \vec{r} dm$ evaluates strictly to zero.",
+"derivation": "**Derivation:**\nAs the number of mass elements $n$ becomes infinitely large and each element $\\Delta m_i$ becomes infinitesimally small ($dm$), the discrete summation $\\sum$ gracefully transforms into a continuous integral $\\int$.\n\n**Variables & Units:**\n- **$\\vec{R}_{CM}$** = Position vector of the centre of mass (m)\n- **M** = Total mass of the continuous body (kg)\n- **$\\vec{r}$** = Position vector of the infinitesimal mass element (m)\n- **dm** = Infinitesimal mass element (kg)\n\n**Conditions/Notes:**\n- If the origin is deliberately chosen to be the centre of mass itself, the integral $\\int \\vec{r} dm$ evaluates strictly to zero.",
 "mnemonic": "Integrate to Aggregate!"
 }
 },
@@ -192,7 +192,7 @@
 "order": 7,
 "heading": "Centre of Mass of Symmetric Bodies",
 "question": "For homogeneous bodies of regular shapes (like uniform rings, discs, or spheres), where exactly does the centre of mass logically lie and why?",
-"back": "The centre of mass of a homogeneous, regular-shaped rigid body completely **coincides with its geometric centre**.\n\n**The 'Why':**\n- It is due to **reflection symmetry**.\n- For every infinitesimal mass element $dm$ located at coordinates $(x, y, z)$, there exists an identical mass element at $(-x, -y, -z)$.\n- Consequently, when the origin is placed at the geometric centre, the positive and negative position vectors perfectly cancel out, yielding $\int \vec{r} dm = 0$."
+"back": "The centre of mass of a homogeneous, regular-shaped rigid body completely **coincides with its geometric centre**.\n\n**The 'Why':**\n- It is due to **reflection symmetry**.\n- For every infinitesimal mass element $dm$ located at coordinates $(x, y, z)$, there exists an identical mass element at $(-x, -y, -z)$.\n- Consequently, when the origin is placed at the geometric centre, the positive and negative position vectors perfectly cancel out, yielding $\\int \\vec{r} dm = 0$."
 }
 },
 {
@@ -219,9 +219,9 @@
 ],
 "order": 8,
 "heading": "Velocity of Centre of Mass",
-"formula": "\vec{P} = M \vec{V}*{CM}",
+"formula": "\\vec{P} = M \\vec{V}*{CM}",
 "description": "Equates the total linear momentum of a system of particles to the velocity of its Centre of Mass.",
-"derivation": "**Derivation:**\nFrom $\vec{R}*{CM} = \frac{\sum m_i \vec{r}*i}{M}$.\nDifferentiating both sides with respect to time yields $\vec{V}*{CM} = \frac{\sum m_i \vec{v}*i}{M}$.\nSince $\sum m_i \vec{v}_i = \vec{P}$ (total momentum), rearranging gives $\vec{P} = M \vec{V}*{CM}$.\n\n**Conditions/Notes:**\n- This proves that the total momentum of a complex system of particles behaves exactly as if the entire mass was moving as a single point mass located at the centre of mass."
+"derivation": "**Derivation:**\nFrom $\\vec{R}*{CM} = \\frac{\\sum m_i \\vec{r}*i}{M}$.\nDifferentiating both sides with respect to time yields $\\vec{V}*{CM} = \\frac{\\sum m_i \\vec{v}*i}{M}$.\nSince $\\sum m_i \\vec{v}_i = \\vec{P}$ (total momentum), rearranging gives $\\vec{P} = M \\vec{V}*{CM}$.\n\n**Conditions/Notes:**\n- This proves that the total momentum of a complex system of particles behaves exactly as if the entire mass was moving as a single point mass located at the centre of mass."
 }
 },
 {
@@ -247,9 +247,9 @@
 ],
 "order": 9,
 "heading": "Newton's 2nd Law for a System of Particles",
-"formula": "\vec{F}_{ext} = M \vec{A}_{CM} = \frac{d\vec{P}}{dt}",
+"formula": "\\vec{F}_{ext} = M \\vec{A}_{CM} = \\frac{d\\vec{P}}{dt}",
 "description": "Connects the net external forces acting on a system to the acceleration of its Centre of Mass.",
-"derivation": "**Variables & Units:**\n- **$\vec{F}*{ext}$** = Vector sum of all external forces on the system (N)\n- **M** = Total mass of the system (kg)\n- **$\vec{A}*{CM}$** = Acceleration of the centre of mass (m/s$^2$)\n- **$\vec{P}$** = Total linear momentum (kg$\cdot$m/s)\n\n**Conditions/Notes:**\n- **Internal forces** (forces particles exert on each other) entirely cancel out in equal/opposite pairs due to Newton's Third Law.\n- Therefore, internal forces do NOT contribute to the acceleration of the centre of mass."
+"derivation": "**Variables & Units:**\n- **$\\vec{F}*{ext}$** = Vector sum of all external forces on the system (N)\n- **M** = Total mass of the system (kg)\n- **$\\vec{A}*{CM}$** = Acceleration of the centre of mass (m/s$^2$)\n- **$\\vec{P}$** = Total linear momentum (kg$\\cdot$m/s)\n\n**Conditions/Notes:**\n- **Internal forces** (forces particles exert on each other) entirely cancel out in equal/opposite pairs due to Newton's Third Law.\n- Therefore, internal forces do NOT contribute to the acceleration of the centre of mass."
 }
 },
 {
@@ -276,7 +276,7 @@
 "order": 10,
 "heading": "Conservation of Linear Momentum (System of Particles)",
 "question": "Under what strict boundary condition is the total linear momentum of a multi-particle system completely conserved?",
-"back": "**The Strict Condition:**\n- The total linear momentum of a system is strictly conserved if and only if the **net external force acting on the system is zero** ($\vec{F}*{ext} = 0$).\n\n**The Direct Consequence:**\n- Based on the equation $\vec{F}*{ext} = M \frac{d\vec{V}*{CM}}{dt}$, if the force is zero, the acceleration is zero.\n- Therefore, the velocity of the centre of mass ($\vec{V}*{CM}$) remains absolutely **constant** (it either remains perpetually at rest or moves uniformly in a straight line)."
+"back": "**The Strict Condition:**\n- The total linear momentum of a system is strictly conserved if and only if the **net external force acting on the system is zero** ($\\vec{F}*{ext} = 0$).\n\n**The Direct Consequence:**\n- Based on the equation $\\vec{F}*{ext} = M \\frac{d\\vec{V}*{CM}}{dt}$, if the force is zero, the acceleration is zero.\n- Therefore, the velocity of the centre of mass ($\\vec{V}*{CM}$) remains absolutely **constant** (it either remains perpetually at rest or moves uniformly in a straight line)."
 }
 },
 {
@@ -329,9 +329,9 @@
 ],
 "order": 12,
 "heading": "Vector (Cross) Product",
-"formula": "\vec{A} \times \vec{B} = A B \sin \theta \\, \hat{n}",
+"formula": "\\vec{A} \\times \\vec{B} = A B \\sin \\theta \\, \\hat{n}",
 "description": "Calculates the vector cross product of two vectors, including its direction component.",
-"derivation": "**Variables & Units:**\n- **$\vec{A}, \vec{B}$** = The two multiplying vectors\n- **A, B** = Magnitudes of the respective vectors\n- **$\theta$** = Angle between the vectors ($0 \le \theta \le \pi$)\n- **$\hat{n}$** = Unit vector perfectly perpendicular to the plane containing both A and B\n\n**Conditions/Notes:**\n- The cross product yields a true vector quantity.\n- It is inherently **anti-commutative**: $\vec{A} \times \vec{B} = - (\vec{B} \times \vec{A})$."
+"derivation": "**Variables & Units:**\n- **$\\vec{A}, \\vec{B}$** = The two multiplying vectors\n- **A, B** = Magnitudes of the respective vectors\n- **$\\theta$** = Angle between the vectors ($0 \\le \\theta \\le \\pi$)\n- **$\\hat{n}$** = Unit vector perfectly perpendicular to the plane containing both A and B\n\n**Conditions/Notes:**\n- The cross product yields a true vector quantity.\n- It is inherently **anti-commutative**: $\\vec{A} \\times \\vec{B} = - (\\vec{B} \\times \\vec{A})$."
 }
 },
 {
@@ -357,8 +357,8 @@
 ],
 "order": 13,
 "heading": "Right-Hand Screw Rule",
-"question": "What is the physical procedure to determine the direction of the unit vector $\hat{n}$ resulting from a vector cross product $\vec{A} \times \vec{B}$?",
-"back": "1. Place the two vectors $\vec{A}$ and $\vec{B}$ tail-to-tail.\n2. Imagine a right-handed screw placed at the origin, perfectly perpendicular to the plane formed by the vectors.\n3. Turn the screw from the **first vector (A)** toward the **second vector (B)** through the smaller angle between them.\n4. The direction the screw advances (or the direction your thumb naturally points when curling your right fingers from A to B) is the resultant direction of $\hat{n}$."
+"question": "What is the physical procedure to determine the direction of the unit vector $\\hat{n}$ resulting from a vector cross product $\\vec{A} \\times \\vec{B}$?",
+"back": "1. Place the two vectors $\\vec{A}$ and $\\vec{B}$ tail-to-tail.\n2. Imagine a right-handed screw placed at the origin, perfectly perpendicular to the plane formed by the vectors.\n3. Turn the screw from the **first vector (A)** toward the **second vector (B)** through the smaller angle between them.\n4. The direction the screw advances (or the direction your thumb naturally points when curling your right fingers from A to B) is the resultant direction of $\\hat{n}$."
 }
 },
 {
@@ -384,9 +384,9 @@
 ],
 "order": 14,
 "heading": "Cross Product & Area of a Triangle",
-"formula": "\text{Area} = \frac{1}{2} |\vec{a} \times \vec{b}|",
-"description": "Calculates the geometrical area of a triangle formed by two vectors $\vec{a}$ and $\vec{b}$ acting as adjacent sides.",
-"derivation": "**Variables & Units:**\n- **$|\vec{a} \times \vec{b}|$** = Magnitude of the cross product of the two vectors forming the sides of the triangle.\n\n**Conditions/Notes:**\n- The full magnitude $|\vec{a} \times \vec{b}|$ represents the geometric area of a **parallelogram** formed by those vectors.\n- Halving that cross-product magnitude mathematically yields the area of the inscribed triangle."
+"formula": "\\text{Area} = \\frac{1}{2} |\\vec{a} \\times \\vec{b}|",
+"description": "Calculates the geometrical area of a triangle formed by two vectors $\\vec{a}$ and $\\vec{b}$ acting as adjacent sides.",
+"derivation": "**Variables & Units:**\n- **$|\\vec{a} \\times \\vec{b}|$** = Magnitude of the cross product of the two vectors forming the sides of the triangle.\n\n**Conditions/Notes:**\n- The full magnitude $|\\vec{a} \\times \\vec{b}|$ represents the geometric area of a **parallelogram** formed by those vectors.\n- Halving that cross-product magnitude mathematically yields the area of the inscribed triangle."
 }
 },
 {
@@ -412,9 +412,9 @@
 ],
 "order": 15,
 "heading": "Linear and Angular Velocity Relation",
-"formula": "\vec{v} = \vec{\omega} \times \vec{r}",
+"formula": "\\vec{v} = \\vec{\\omega} \\times \\vec{r}",
 "description": "Connects the linear velocity of a particle in a rotating rigid body to its angular velocity via the vector cross-product.",
-"derivation": "**Variables & Units:**\n- **$\vec{v}$** = Linear velocity of the particle (m/s)\n- **$\vec{\omega}$** = Angular velocity of the rigid body (rad/s)\n- **$\vec{r}$** = Position vector of the particle relative to the axis origin (m)\n\n**Conditions/Notes:**\n- The order matters immensely: It is strictly $\vec{\omega} \times \vec{r}$, NOT $\vec{r} \times \vec{\omega}$.\n- For rotation about a fixed axis, the magnitude simplifies algebraically to $v = \omega r_{\perp}$, where $r_{\perp}$ is the perpendicular distance from the axis of rotation."
+"derivation": "**Variables & Units:**\n- **$\\vec{v}$** = Linear velocity of the particle (m/s)\n- **$\\vec{\\omega}$** = Angular velocity of the rigid body (rad/s)\n- **$\\vec{r}$** = Position vector of the particle relative to the axis origin (m)\n\n**Conditions/Notes:**\n- The order matters immensely: It is strictly $\\vec{\\omega} \\times \\vec{r}$, NOT $\\vec{r} \\times \\vec{\\omega}$.\n- For rotation about a fixed axis, the magnitude simplifies algebraically to $v = \\omega r_{\\perp}$, where $r_{\\perp}$ is the perpendicular distance from the axis of rotation."
 }
 },
 {
@@ -440,9 +440,9 @@
 ],
 "order": 16,
 "heading": "Angular Acceleration",
-"formula": "\vec{\alpha} = \frac{d\vec{\omega}}{dt}",
+"formula": "\\vec{\\alpha} = \\frac{d\\vec{\\omega}}{dt}",
 "description": "Defines angular acceleration in its fundamental calculus form.",
-"derivation": "**Variables & Units:**\n- **$\vec{\alpha}$** = Angular acceleration (rad/s$^2$)\n- **$d\vec{\omega}$** = Infinitesimal change in angular velocity (rad/s)\n- **dt** = Infinitesimal time interval (s)\n\n**Conditions/Notes:**\n- If the axis of rotation is rigidly fixed, the direction of both $\vec{\omega}$ and $\vec{\alpha}$ remains strictly locked along the axis.\n- In this fixed-axis scenario, the vector equation safely reduces to a standard scalar equation $\alpha = d\omega / dt$."
+"derivation": "**Variables & Units:**\n- **$\\vec{\\alpha}$** = Angular acceleration (rad/s$^2$)\n- **$d\\vec{\\omega}$** = Infinitesimal change in angular velocity (rad/s)\n- **dt** = Infinitesimal time interval (s)\n\n**Conditions/Notes:**\n- If the axis of rotation is rigidly fixed, the direction of both $\\vec{\\omega}$ and $\\vec{\\alpha}$ remains strictly locked along the axis.\n- In this fixed-axis scenario, the vector equation safely reduces to a standard scalar equation $\\alpha = d\\omega / dt$."
 }
 },
 {
@@ -468,9 +468,9 @@
 ],
 "order": 17,
 "heading": "1st Equation of Rotational Kinematics",
-"formula": "\omega = \omega_0 + \alpha t",
+"formula": "\\omega = \\omega_0 + \\alpha t",
 "description": "The first kinematical equation of rotational motion relating final angular velocity, initial angular velocity, angular acceleration, and time.",
-"derivation": "**Derivation:**\nFrom $\alpha = d\omega / dt$, integrate both sides: $\int_{\omega_0}^{\omega} d\omega = \int_0^t \alpha dt$.\nSince $\alpha$ is constant, $\omega - \omega_0 = \alpha t$.\n\n**Variables & Units:**\n- **$\omega$** = Final angular velocity (rad/s)\n- **$\omega_0$** = Initial angular velocity (rad/s)\n- **$\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time interval (s)\n\n**Conditions/Notes:**\n- **Strict Condition:** This equation is absolutely valid *only* if the angular acceleration $\alpha$ is completely uniform (constant).\n- It is the exact rotational analogue of $v = u + at$."
+"derivation": "**Derivation:**\nFrom $\\alpha = d\\omega / dt$, integrate both sides: $\\int_{\\omega_0}^{\\omega} d\\omega = \\int_0^t \\alpha dt$.\nSince $\\alpha$ is constant, $\\omega - \\omega_0 = \\alpha t$.\n\n**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time interval (s)\n\n**Conditions/Notes:**\n- **Strict Condition:** This equation is absolutely valid *only* if the angular acceleration $\\alpha$ is completely uniform (constant).\n- It is the exact rotational analogue of $v = u + at$."
 }
 },
 {
@@ -496,9 +496,9 @@
 ],
 "order": 18,
 "heading": "2nd Equation of Rotational Kinematics",
-"formula": "\theta = \omega_0 t + \frac{1}{2} \alpha t^2",
+"formula": "\\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2",
 "description": "The second kinematical equation of rotational motion determining angular displacement.",
-"derivation": "**Variables & Units:**\n- **$\theta$** = Angular displacement (radians, rad)\n- **$\omega_0$** = Initial angular velocity (rad/s)\n- **$\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time (s)\n\n**Conditions/Notes:**\n- Valid strictly only for uniform (constant) angular acceleration.\n- It is the exact rotational analogue to the linear equation $s = ut + \frac{1}{2}at^2$."
+"derivation": "**Variables & Units:**\n- **$\\theta$** = Angular displacement (radians, rad)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time (s)\n\n**Conditions/Notes:**\n- Valid strictly only for uniform (constant) angular acceleration.\n- It is the exact rotational analogue to the linear equation $s = ut + \\frac{1}{2}at^2$."
 }
 },
 {
@@ -524,9 +524,9 @@
 ],
 "order": 19,
 "heading": "3rd Equation of Rotational Kinematics",
-"formula": "\omega^2 = \omega_0^2 + 2 \alpha \theta",
+"formula": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta",
 "description": "The third time-independent kinematical equation of rotational motion.",
-"derivation": "**Variables & Units:**\n- **$\omega$** = Final angular velocity (rad/s)\n- **$\omega_0$** = Initial angular velocity (rad/s)\n- **$\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **$\theta$** = Angular displacement (rad)\n\n**Conditions/Notes:**\n- Highly useful when the time variable ($t$) is unknown or not required for the calculation.\n- It is the exact rotational analogue to the linear equation $v^2 = u^2 + 2as$."
+"derivation": "**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **$\\theta$** = Angular displacement (rad)\n\n**Conditions/Notes:**\n- Highly useful when the time variable ($t$) is unknown or not required for the calculation.\n- It is the exact rotational analogue to the linear equation $v^2 = u^2 + 2as$."
 }
 },
 {
@@ -552,9 +552,9 @@
 ],
 "order": 20,
 "heading": "Torque (Moment of Force)",
-"formula": "\vec{\tau} = \vec{r} \times \vec{F}",
+"formula": "\\vec{\\tau} = \\vec{r} \\times \\vec{F}",
 "description": "Calculates the torque (moment of force) acting on a single particle.",
-"derivation": "**Variables & Units:**\n- **$\vec{\tau}$** = Torque / Moment of Force (Newton-meter, N$\cdot$m)\n- **$\vec{r}$** = Position vector of the point of force application relative to the origin (m)\n- **$\vec{F}$** = Force applied on the particle (N)\n\n**Conditions/Notes:**\n- Torque acts as the exact rotational analogue of linear force.\n- The magnitude evaluates to $\tau = r F \sin\theta = F r_{\perp}$, where $r_{\perp}$ is known as the **lever arm**."
+"derivation": "**Variables & Units:**\n- **$\\vec{\\tau}$** = Torque / Moment of Force (Newton-meter, N$\\cdot$m)\n- **$\\vec{r}$** = Position vector of the point of force application relative to the origin (m)\n- **$\\vec{F}$** = Force applied on the particle (N)\n\n**Conditions/Notes:**\n- Torque acts as the exact rotational analogue of linear force.\n- The magnitude evaluates to $\\tau = r F \\sin\\theta = F r_{\\perp}$, where $r_{\\perp}$ is known as the **lever arm**."
 }
 },
 {
@@ -581,7 +581,7 @@
 "order": 21,
 "heading": "Force Couple",
 "question": "What specifically constitutes a 'Couple' in rotational mechanics, and what unique type of motion does it generate?",
-"back": "**Explanation:**\nA **Couple** consists of two separate forces of **equal magnitude** but **opposite direction**, acting along *different* non-coincident lines of action.\n\n**Resulting Motion:**\n- Since the forces are perfectly equal and opposite, the net linear force is absolutely zero ($\sum \vec{F} = 0$). Thus, a couple generates **no translational motion**.\n- However, because their lines of action differ, they create a net torque, strictly producing **pure rotational motion**.\n- *Example:* Twisting open a jar lid or turning a car steering wheel with both hands."
+"back": "**Explanation:**\nA **Couple** consists of two separate forces of **equal magnitude** but **opposite direction**, acting along *different* non-coincident lines of action.\n\n**Resulting Motion:**\n- Since the forces are perfectly equal and opposite, the net linear force is absolutely zero ($\\sum \\vec{F} = 0$). Thus, a couple generates **no translational motion**.\n- However, because their lines of action differ, they create a net torque, strictly producing **pure rotational motion**.\n- *Example:* Twisting open a jar lid or turning a car steering wheel with both hands."
 }
 },
 {
@@ -608,7 +608,7 @@
 "order": 22,
 "heading": "Mechanical Equilibrium of a Rigid Body",
 "question": "What two independent vector conditions must be strictly satisfied simultaneously for a rigid body to be in total mechanical equilibrium?",
-"back": "**1. Translational Equilibrium:**\n- The vector sum of all external **forces** must be precisely zero.\n- $\sum \vec{F}_i = 0$ (This ensures linear momentum $\vec{P}$ remains constant).\n\n**2. Rotational Equilibrium:**\n- The vector sum of all external **torques** must be precisely zero.\n- $\sum \vec{\tau}_i = 0$ (This ensures angular momentum $\vec{L}$ remains constant)."
+"back": "**1. Translational Equilibrium:**\n- The vector sum of all external **forces** must be precisely zero.\n- $\\sum \\vec{F}_i = 0$ (This ensures linear momentum $\\vec{P}$ remains constant).\n\n**2. Rotational Equilibrium:**\n- The vector sum of all external **torques** must be precisely zero.\n- $\\sum \\vec{\\tau}_i = 0$ (This ensures angular momentum $\\vec{L}$ remains constant)."
 }
 },
 {
@@ -634,9 +634,9 @@
 ],
 "order": 23,
 "heading": "Moment of Inertia (Discrete System)",
-"formula": "I = \sum_{i=1}^{n} m_i r_i^2",
+"formula": "I = \\sum_{i=1}^{n} m_i r_i^2",
 "description": "Calculates the total moment of inertia of a discrete system of particles rotating about a specified axis.",
-"derivation": "**Variables & Units:**\n- **I** = Moment of Inertia (kg$\cdot$m$^2$)\n- **$m_i$** = Mass of the $i^{th}$ discrete particle (kg)\n- **$r_i$** = Exact perpendicular distance of the $i^{th}$ particle from the axis of rotation (m)\n\n**Conditions/Notes:**\n- $I$ acts as the exact rotational analogue to mass, effectively measuring 'rotational inertia'.\n- Unlike mass, it is not a fixed intrinsic quantity; it dynamically depends on the shape, mass distribution, and the **specific position and orientation of the axis of rotation**."
+"derivation": "**Variables & Units:**\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **$m_i$** = Mass of the $i^{th}$ discrete particle (kg)\n- **$r_i$** = Exact perpendicular distance of the $i^{th}$ particle from the axis of rotation (m)\n\n**Conditions/Notes:**\n- $I$ acts as the exact rotational analogue to mass, effectively measuring 'rotational inertia'.\n- Unlike mass, it is not a fixed intrinsic quantity; it dynamically depends on the shape, mass distribution, and the **specific position and orientation of the axis of rotation**."
 }
 },
 {
@@ -662,9 +662,9 @@
 ],
 "order": 24,
 "heading": "Radius of Gyration",
-"formula": "I = M k^2 \implies k = \sqrt{\frac{I}{M}}",
+"formula": "I = M k^2 \\implies k = \\sqrt{\\frac{I}{M}}",
 "description": "Maps the Radius of Gyration ($k$) to the Moment of Inertia and the Total Mass of a body.",
-"derivation": "**Variables & Units:**\n- **k** = Radius of Gyration (m)\n- **I** = Moment of Inertia (kg$\cdot$m$^2$)\n- **M** = Total mass of the body (kg)\n\n**Conditions/Notes:**\n- Physically represents the **root-mean-square distance** of the constituent particles from the axis of rotation.\n- Conceptually, it is the theoretical perpendicular distance from the axis where, if the entire mass of the body were crushed into a single point, the moment of inertia would remain absolutely unchanged."
+"derivation": "**Variables & Units:**\n- **k** = Radius of Gyration (m)\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **M** = Total mass of the body (kg)\n\n**Conditions/Notes:**\n- Physically represents the **root-mean-square distance** of the constituent particles from the axis of rotation.\n- Conceptually, it is the theoretical perpendicular distance from the axis where, if the entire mass of the body were crushed into a single point, the moment of inertia would remain absolutely unchanged."
 }
 },
 {
@@ -692,7 +692,7 @@
 "heading": "Theorem of Perpendicular Axes",
 "formula": "I_z = I_x + I_y",
 "description": "Relates the moment of inertia of a planar body about a perpendicular axis to two in-plane axes.",
-"derivation": "**Variables & Units:**\n- **$I_z$** = Moment of inertia about the axis perfectly perpendicular to the plane (kg$\cdot$m$^2$)\n- **$I_x, I_y$** = Moments of inertia about two mutually perpendicular axes lying *in the plane* of the body (kg$\cdot$m$^2$)\n\n**Conditions/Notes:**\n- **Strict Boundary Condition:** This theorem is **only applicable to 2D planar bodies (laminas)** whose thickness is negligible.\n- The three axes (x, y, and z) must be mutually perpendicular and perfectly concurrent (intersecting at a single point O)."
+"derivation": "**Variables & Units:**\n- **$I_z$** = Moment of inertia about the axis perfectly perpendicular to the plane (kg$\\cdot$m$^2$)\n- **$I_x, I_y$** = Moments of inertia about two mutually perpendicular axes lying *in the plane* of the body (kg$\\cdot$m$^2$)\n\n**Conditions/Notes:**\n- **Strict Boundary Condition:** This theorem is **only applicable to 2D planar bodies (laminas)** whose thickness is negligible.\n- The three axes (x, y, and z) must be mutually perpendicular and perfectly concurrent (intersecting at a single point O)."
 }
 },
     {

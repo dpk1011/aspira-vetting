@@ -25,7 +25,7 @@
 "order": 1,
 "heading": "Dimensional Formulas & CGS Conversions for Energy",
 "question": "What are the dimensional formulas for Work, Energy, and Power, and what is the exact conversion factor between Joules and the CGS unit of work?",
-"back": "**Dimensional Formulas:**\n- **Work & Energy:** $[M^1 L^2 T^{-2}]$\n- **Power:** $[M^1 L^2 T^{-3}]$\n\n**CGS Conversion:**\n- The CGS unit of work and energy is the **Erg**.\n- **$1 \text{ Joule} = 10^7 \text{ ergs}$**\n\n*Derivation Note:* Since $1 \text{ N} = 10^5 \text{ dynes}$ and $1 \text{ m} = 10^2 \text{ cm}$, multiplying them yields $10^7$."
+"back": "**Dimensional Formulas:**\n- **Work & Energy:** $[M^1 L^2 T^{-2}]$\n- **Power:** $[M^1 L^2 T^{-3}]$\n\n**CGS Conversion:**\n- The CGS unit of work and energy is the **Erg**.\n- **$1 \\text{ Joule} = 10^7 \\text{ ergs}$**\n\n*Derivation Note:* Since $1 \\text{ N} = 10^5 \\text{ dynes}$ and $1 \\text{ m} = 10^2 \\text{ cm}$, multiplying them yields $10^7$."
 }
 },
 {
@@ -52,7 +52,7 @@
 "order": 2,
 "heading": "Scalar (Dot) Product",
 "question": "What is the physical and geometrical significance of the scalar product of two vectors?",
-"back": "The scalar (dot) product yields a **scalar quantity** from two vectors.\n\n- **Geometrically:** It represents the product of the magnitude of one vector and the projection of the second vector strictly along the first.\n- **Mathematically:** It follows both the commutative law ($\vec{A} \cdot \vec{B} = \vec{B} \cdot \vec{A}$) and the distributive law ($\vec{A} \cdot (\vec{B} + \vec{C}) = \vec{A} \cdot \vec{B} + \vec{A} \cdot \vec{C}$).\n- **Orthogonality:** If two non-zero vectors are strictly perpendicular, their dot product is exactly zero.",
+"back": "The scalar (dot) product yields a **scalar quantity** from two vectors.\n\n- **Geometrically:** It represents the product of the magnitude of one vector and the projection of the second vector strictly along the first.\n- **Mathematically:** It follows both the commutative law ($\\vec{A} \\cdot \\vec{B} = \\vec{B} \\cdot \\vec{A}$) and the distributive law ($\\vec{A} \\cdot (\\vec{B} + \\vec{C}) = \\vec{A} \\cdot \\vec{B} + \\vec{A} \\cdot \\vec{C}$).\n- **Orthogonality:** If two non-zero vectors are strictly perpendicular, their dot product is exactly zero.",
 "mnemonic": "Dot drops the direction and keeps only the scalar amount."
 }
 },
@@ -79,9 +79,9 @@
 ],
 "order": 3,
 "heading": "Dot Product in Cartesian Form",
-"formula": "\vec{A} \cdot \vec{B} = A_x B_x + A_y B_y + A_z B_z",
+"formula": "\\vec{A} \\cdot \\vec{B} = A_x B_x + A_y B_y + A_z B_z",
 "description": "Calculates the scalar dot product of two vectors using their 3D Cartesian components.",
-"derivation": "**Variables & Units:**\n- **$\vec{A}, \vec{B}$** = Given vector quantities\n- **$A_x, A_y, A_z$** = x, y, and z scalar components of Vector A\n- **$B_x, B_y, B_z$** = x, y, and z scalar components of Vector B\n\n**Conditions/Notes:**\n- Based strictly on the orthogonal unit vector rules: $\hat{i} \cdot \hat{i} = 1$ and $\hat{i} \cdot \hat{j} = 0$.",
+"derivation": "**Variables & Units:**\n- **$\\vec{A}, \\vec{B}$** = Given vector quantities\n- **$A_x, A_y, A_z$** = x, y, and z scalar components of Vector A\n- **$B_x, B_y, B_z$** = x, y, and z scalar components of Vector B\n\n**Conditions/Notes:**\n- Based strictly on the orthogonal unit vector rules: $\\hat{i} \\cdot \\hat{i} = 1$ and $\\hat{i} \\cdot \\hat{j} = 0$.",
 "mnemonic": "Match the axes: x with x, y with y, z with z, then add them up!"
 }
 },
@@ -108,9 +108,9 @@
 ],
 "order": 4,
 "heading": "Work Done by a Constant Force",
-"formula": "W = \vec{F} \cdot \vec{d} = F d \cos \theta",
+"formula": "W = \\vec{F} \\cdot \\vec{d} = F d \\cos \\theta",
 "description": "Calculates the total work done by a constant force over a linear displacement.",
-"derivation": "**Variables & Units:**\n- **W** = Work done (Joule, J)\n- **F** = Applied Force magnitude (Newton, N)\n- **d** = Displacement magnitude (Meter, m)\n- **$\theta$** = Angle strictly between the Force and Displacement vectors\n\n**Conditions/Notes:**\n- **Positive Work:** $\theta < 90^\circ$ (Force component aids motion).\n- **Negative Work:** $90^\circ < \theta \le 180^\circ$ (Force component opposes motion, e.g., kinetic friction)."
+"derivation": "**Variables & Units:**\n- **W** = Work done (Joule, J)\n- **F** = Applied Force magnitude (Newton, N)\n- **d** = Displacement magnitude (Meter, m)\n- **$\\theta$** = Angle strictly between the Force and Displacement vectors\n\n**Conditions/Notes:**\n- **Positive Work:** $\\theta < 90^\\circ$ (Force component aids motion).\n- **Negative Work:** $90^\\circ < \\theta \\le 180^\\circ$ (Force component opposes motion, e.g., kinetic friction)."
 }
 },
 {
@@ -137,7 +137,7 @@
 "order": 5,
 "heading": "Conditions for Zero Work",
 "question": "Despite heavy exertion, a weightlifter holding a 150 kg mass steadily does 'zero work' in physics. What are the three strict mathematical conditions where work done is zero?",
-"back": "Since Work is the dot product of force and displacement ($W = F d \cos \theta$), it is strictly zero if any of its multiplicative components are zero:\n\n1. **Displacement is zero ($d = 0$):** Pushing a rigid wall, or holding a heavy weight stationary.\n2. **Force is zero ($F = 0$):** An object moving at a constant velocity on a perfectly frictionless surface in deep space.\n3. **Force and Displacement are perpendicular ($\theta = 90^\circ$, $\cos 90^\circ = 0$):** For example, the tension in the string of a swinging pendulum, or gravity acting on a horizontally sliding block.",
+"back": "Since Work is the dot product of force and displacement ($W = F d \\cos \\theta$), it is strictly zero if any of its multiplicative components are zero:\n\n1. **Displacement is zero ($d = 0$):** Pushing a rigid wall, or holding a heavy weight stationary.\n2. **Force is zero ($F = 0$):** An object moving at a constant velocity on a perfectly frictionless surface in deep space.\n3. **Force and Displacement are perpendicular ($\\theta = 90^\\circ$, $\\cos 90^\\circ = 0$):** For example, the tension in the string of a swinging pendulum, or gravity acting on a horizontally sliding block.",
 "mnemonic": "Zero W: No Move, No Push, or 90 Degrees."
 }
 },
@@ -165,7 +165,7 @@
 ],
 "order": 6,
 "heading": "Work Done by a Variable Force",
-"formula": "W = \int_{x_i}^{x_f} F(x) \, dx",
+"formula": "W = \\int_{x_i}^{x_f} F(x) \\, dx",
 "description": "Calculates the total work done by a force that varies continuously with position in 1D.",
 "derivation": "**Derivation:**\nFor an infinitesimally small displacement $dx$, the force $F$ is assumed temporarily constant. The small work done is $dW = F(x) dx$. Total work is the integration (summation) from the initial to final position limits.\n\n**Conditions/Notes:**\n- Geometrically, this integral represents the **Area under the Force-Displacement (F-x) curve**.\n- Area above the x-axis represents positive work; area below represents negative work.",
 "mnemonic": "Integrate to Aggregate!"
@@ -195,9 +195,9 @@
 ],
 "order": 7,
 "heading": "Kinetic Energy & Linear Momentum",
-"formula": "K = \frac{1}{2}mv^2 = \frac{p^2}{2m}",
+"formula": "K = \\frac{1}{2}mv^2 = \\frac{p^2}{2m}",
 "description": "Relates Kinetic Energy ($K$) to linear velocity ($v$), and directly to linear momentum ($p$).",
-"derivation": "**Derivation:**\nSince $p = mv$, we can isolate velocity as $v = \frac{p}{m}$. Substituting this into the kinetic energy formula $K = \frac{1}{2}mv^2$, we get $K = \frac{1}{2}m\left(\frac{p}{m}\right)^2 = \frac{p^2}{2m}$.\n\n**Conditions/Notes:**\n- Kinetic energy is a scalar quantity and is strictly $\ge 0$.\n- *Crucial Conceptual Test:* If a heavy body and a light body possess the *exact same momentum*, the lighter body will possess *higher* Kinetic Energy (since $K \propto 1/m$ when $p$ is constant)."
+"derivation": "**Derivation:**\nSince $p = mv$, we can isolate velocity as $v = \\frac{p}{m}$. Substituting this into the kinetic energy formula $K = \\frac{1}{2}mv^2$, we get $K = \\frac{1}{2}m\\left(\\frac{p}{m}\\right)^2 = \\frac{p^2}{2m}$.\n\n**Conditions/Notes:**\n- Kinetic energy is a scalar quantity and is strictly $\\ge 0$.\n- *Crucial Conceptual Test:* If a heavy body and a light body possess the *exact same momentum*, the lighter body will possess *higher* Kinetic Energy (since $K \\propto 1/m$ when $p$ is constant)."
 }
 },
 {
@@ -223,7 +223,7 @@
 ],
 "order": 8,
 "heading": "The Work-Energy Theorem",
-"formula": "W_{net} = \Delta K = K_f - K_i",
+"formula": "W_{net} = \\Delta K = K_f - K_i",
 "description": "States that the net work done by ALL forces acting on a particle is exactly equal to the change in its kinetic energy.",
 "derivation": "**Explanation:**\n- **Statement:** This includes conservative, non-conservative, internal, and external forces.\n- **Significance:** It serves as an integral (scalar) form of Newton's Second Law. While $F = ma$ relates instantaneous force to acceleration, this theorem integrates force over a spatial displacement, bypassing time dependence.\n- **Result:** If net work is positive, K.E. increases (acceleration). If negative, K.E. decreases (retardation).\n- Valid in all inertial frames. In non-inertial frames, the work done by pseudo-forces MUST be included in $W_{net}$.",
 "mnemonic": "Work is just a Change of Pace (Energy)."
@@ -306,9 +306,9 @@
 ],
 "order": 11,
 "heading": "Curl Test for Conservative Forces",
-"formula": "\vec{\nabla} \times \vec{F} = 0",
+"formula": "\\vec{\\nabla} \\times \\vec{F} = 0",
 "description": "States the vector calculus condition (the Curl Test) that must mathematically evaluate to zero for a 3D force field to be proven perfectly conservative.",
-"derivation": "**Variables & Units:**\n- **$\vec{\nabla} \times \vec{F}$** = The mathematical curl of the force field vector.\n\n**Conditions/Notes:**\n- If the cross product of the del operator ($\vec{\nabla}$) and the Force vector ($\vec{F}$) is strictly zero everywhere, the force is definitively conservative, meaning work done is strictly path-independent.\n- This is an advanced boundary condition frequently tested in JEE Advanced to check if a complex vector force equation can form a valid potential energy field."
+"derivation": "**Variables & Units:**\n- **$\\vec{\\nabla} \\times \\vec{F}$** = The mathematical curl of the force field vector.\n\n**Conditions/Notes:**\n- If the cross product of the del operator ($\\vec{\\nabla}$) and the Force vector ($\\vec{F}$) is strictly zero everywhere, the force is definitively conservative, meaning work done is strictly path-independent.\n- This is an advanced boundary condition frequently tested in JEE Advanced to check if a complex vector force equation can form a valid potential energy field."
 }
 },
 {
@@ -335,9 +335,9 @@
 ],
 "order": 12,
 "heading": "Force & Potential Energy Gradient",
-"formula": "F(x) = - \frac{dV(x)}{dx}",
+"formula": "F(x) = - \\frac{dV(x)}{dx}",
 "description": "Relates a 1D conservative force to the negative derivative (gradient) of its associated potential energy function.",
-"derivation": "**Derivation:**\nBy definition, work done by a conservative force is $\Delta W = F(x) \Delta x$.\nAlso, the change in potential energy is defined intrinsically as $\Delta V = -\Delta W$.\nThus $\Delta V = -F(x)\Delta x$, which yields the differential equation $F(x) = -\frac{dV}{dx}$.\n\n**Conditions/Notes:**\n- The critical negative sign indicates that a conservative force always acts naturally in the direction of **decreasing potential energy** (e.g., gravity pulls masses downward toward lower PE).\n- In 3D, this expands to $\vec{F} = -\vec{\nabla} V$ (negative vector gradient)."
+"derivation": "**Derivation:**\nBy definition, work done by a conservative force is $\\Delta W = F(x) \\Delta x$.\nAlso, the change in potential energy is defined intrinsically as $\\Delta V = -\\Delta W$.\nThus $\\Delta V = -F(x)\\Delta x$, which yields the differential equation $F(x) = -\\frac{dV}{dx}$.\n\n**Conditions/Notes:**\n- The critical negative sign indicates that a conservative force always acts naturally in the direction of **decreasing potential energy** (e.g., gravity pulls masses downward toward lower PE).\n- In 3D, this expands to $\\vec{F} = -\\vec{\\nabla} V$ (negative vector gradient)."
 }
 },
 {
@@ -364,7 +364,7 @@
 "order": 13,
 "heading": "Types of Equilibrium (Potential Energy Curve)",
 "question": "How can you mathematically determine if a particle is in stable, unstable, or neutral equilibrium strictly using its Potential Energy function $V(x)$?",
-"back": "A particle is in an equilibrium state when the net force is exactly zero ($F = -\frac{dV}{dx} = 0$). The specific type of equilibrium is determined by the second derivative (the curvature of the PE graph):\n\n- **Stable Equilibrium:** Potential Energy is at a *local minimum*. $\frac{d^2V}{dx^2} > 0$. If displaced, restoring forces push the particle back toward the mean position.\n- **Unstable Equilibrium:** Potential Energy is at a *local maximum*. $\frac{d^2V}{dx^2} < 0$. If displaced, the force pushes the particle further away from equilibrium.\n- **Neutral Equilibrium:** Potential Energy is *constant*. $\frac{d^2V}{dx^2} = 0$. The particle happily remains in its new displaced position.",
+"back": "A particle is in an equilibrium state when the net force is exactly zero ($F = -\\frac{dV}{dx} = 0$). The specific type of equilibrium is determined by the second derivative (the curvature of the PE graph):\n\n- **Stable Equilibrium:** Potential Energy is at a *local minimum*. $\\frac{d^2V}{dx^2} > 0$. If displaced, restoring forces push the particle back toward the mean position.\n- **Unstable Equilibrium:** Potential Energy is at a *local maximum*. $\\frac{d^2V}{dx^2} < 0$. If displaced, the force pushes the particle further away from equilibrium.\n- **Neutral Equilibrium:** Potential Energy is *constant*. $\\frac{d^2V}{dx^2} = 0$. The particle happily remains in its new displaced position.",
 "mnemonic": "Positive second derivative implies a 'U' shape (like a smile), which means Stable equilibrium."
 }
 },
@@ -393,7 +393,7 @@
 "heading": "Gravitational Potential Energy (Near Earth)",
 "formula": "V(h) = mgh",
 "description": "Calculates the macroscopic gravitational potential energy of an object near the Earth's surface.",
-"derivation": "**Variables & Units:**\n- **V(h)** = Potential Energy at height h (J)\n- **m** = Mass of the object (kg)\n- **g** = Acceleration due to gravity ($\approx 9.8 \text{ m/s}^2$)\n- **h** = Vertical height above the chosen reference level (m)\n\n**Conditions/Notes:**\n- This specific linear formula strictly assumes $h$ is very small compared to the Earth's radius ($h \ll R_E$), meaning $g$ remains constant.\n- The zero level of potential energy is arbitrary (a datum line) and is usually taken at the Earth's surface for convenience."
+"derivation": "**Variables & Units:**\n- **V(h)** = Potential Energy at height h (J)\n- **m** = Mass of the object (kg)\n- **g** = Acceleration due to gravity ($\\approx 9.8 \\text{ m/s}^2$)\n- **h** = Vertical height above the chosen reference level (m)\n\n**Conditions/Notes:**\n- This specific linear formula strictly assumes $h$ is very small compared to the Earth's radius ($h \\ll R_E$), meaning $g$ remains constant.\n- The zero level of potential energy is arbitrary (a datum line) and is usually taken at the Earth's surface for convenience."
 }
 },
 {
@@ -447,9 +447,9 @@
 ],
 "order": 16,
 "heading": "Elastic Potential Energy of a Spring",
-"formula": "V(x) = \frac{1}{2}kx^2",
+"formula": "V(x) = \\frac{1}{2}kx^2",
 "description": "Calculates the total elastic potential energy stored in an ideal, stretched or compressed spring.",
-"derivation": "**Derivation:**\nThe work done by an external force moving slowly against the spring equals the negative of the work done by the spring force.\n$W_{ext} = \int_0^x (kx) \\, dx = \frac{1}{2}kx^2$.\nSince Potential Energy $V = W_{ext}$, we get $V(x) = \frac{1}{2}kx^2$.\n\n**Conditions/Notes:**\n- The potential energy is geometrically a parabola and is **always positive**, regardless of whether the spring is stretched ($+x$) or compressed ($-x$).\n- The work done *by* the spring force itself during this process is exactly $-V(x)$."
+"derivation": "**Derivation:**\nThe work done by an external force moving slowly against the spring equals the negative of the work done by the spring force.\n$W_{ext} = \\int_0^x (kx) \\, dx = \\frac{1}{2}kx^2$.\nSince Potential Energy $V = W_{ext}$, we get $V(x) = \\frac{1}{2}kx^2$.\n\n**Conditions/Notes:**\n- The potential energy is geometrically a parabola and is **always positive**, regardless of whether the spring is stretched ($+x$) or compressed ($-x$).\n- The work done *by* the spring force itself during this process is exactly $-V(x)$."
 }
 },
 {
@@ -475,9 +475,9 @@
 ],
 "order": 17,
 "heading": "Work Done Changing Spring Extension",
-"formula": "W_{ext} = \frac{1}{2}k(x_f^2 - x_i^2)",
+"formula": "W_{ext} = \\frac{1}{2}k(x_f^2 - x_i^2)",
 "description": "Calculates the strict work done by an external agent to stretch or compress an ideal spring from an initial non-zero position to a final position.",
-"derivation": "**Derivation:**\n$W_{ext} = \int_{x_i}^{x_f} (kx) \\, dx = k \left[ \frac{x^2}{2} \right]_{x_i}^{x_f} = \frac{1}{2}k(x_f^2 - x_i^2)$\n\n**Conditions/Notes:**\n- **$x_f$** = Final elongation/compression distance (m)\n- **$x_i$** = Initial elongation/compression distance (m)\n- The work done strictly *by the spring's internal restoring force* during this exact displacement is the negative of this value: $W_s = \frac{1}{2}k(x_i^2 - x_f^2)$."
+"derivation": "**Derivation:**\n$W_{ext} = \\int_{x_i}^{x_f} (kx) \\, dx = k \\left[ \\frac{x^2}{2} \\right]_{x_i}^{x_f} = \\frac{1}{2}k(x_f^2 - x_i^2)$\n\n**Conditions/Notes:**\n- **$x_f$** = Final elongation/compression distance (m)\n- **$x_i$** = Initial elongation/compression distance (m)\n- The work done strictly *by the spring's internal restoring force* during this exact displacement is the negative of this value: $W_s = \\frac{1}{2}k(x_i^2 - x_f^2)$."
 }
 },
 {
@@ -504,7 +504,7 @@
 "order": 18,
 "heading": "Conservation of Mechanical Energy",
 "question": "What is the Principle of Conservation of Mechanical Energy, and how does the energy equation change if non-conservative friction forces are introduced?",
-"back": "**The Principle (Ideal System):**\nIf strictly **only conservative forces** are doing work on an isolated system, the total mechanical energy ($E = K + V$) remains absolutely constant throughout the motion.\n- **$\Delta K + \Delta V = 0$** \quad or \quad **$K_i + V_i = K_f + V_f$**\n\n**With Non-Conservative Forces (Real System):**\nMechanical energy is *not* conserved. The work done by non-conservative forces ($W_{nc}$, like friction) permanently alters the total mechanical energy.\n- The modified general equation is: **$E_f - E_i = W_{nc}$**"
+"back": "**The Principle (Ideal System):**\nIf strictly **only conservative forces** are doing work on an isolated system, the total mechanical energy ($E = K + V$) remains absolutely constant throughout the motion.\n- **$\\Delta K + \\Delta V = 0$** \\quad or \\quad **$K_i + V_i = K_f + V_f$**\n\n**With Non-Conservative Forces (Real System):**\nMechanical energy is *not* conserved. The work done by non-conservative forces ($W_{nc}$, like friction) permanently alters the total mechanical energy.\n- The modified general equation is: **$E_f - E_i = W_{nc}$**"
 }
 },
 {
@@ -530,9 +530,9 @@
 ],
 "order": 19,
 "heading": "Critical Velocities in a Vertical Circle",
-"formula": "v_{lowest} = \sqrt{5gL}, \quad v_{highest} = \sqrt{gL}",
+"formula": "v_{lowest} = \\sqrt{5gL}, \\quad v_{highest} = \\sqrt{gL}",
 "description": "Calculates the strict minimum absolute velocities required at the lowest and highest points of a vertical circle (for a mass on a string of length L) to successfully complete the loop without the string slackening.",
-"derivation": "**Derivation (Top):** At the highest point, tension and gravity provide centripetal force: $T + mg = \frac{mv^2}{L}$. For the absolute minimum velocity before slackening, $T=0 \implies v_{highest} = \sqrt{gL}$.\n**Derivation (Bottom):** Using Conservation of Mechanical Energy from bottom to top:\n$\frac{1}{2}m(v_{lowest})^2 = \frac{1}{2}m(v_{highest})^2 + mg(2L)$\n$\frac{1}{2}v_{lowest}^2 = \frac{1}{2}gL + 2gL = \frac{5}{2}gL \implies v_{lowest} = \sqrt{5gL}$.",
+"derivation": "**Derivation (Top):** At the highest point, tension and gravity provide centripetal force: $T + mg = \\frac{mv^2}{L}$. For the absolute minimum velocity before slackening, $T=0 \\implies v_{highest} = \\sqrt{gL}$.\n**Derivation (Bottom):** Using Conservation of Mechanical Energy from bottom to top:\n$\\frac{1}{2}m(v_{lowest})^2 = \\frac{1}{2}m(v_{highest})^2 + mg(2L)$\n$\\frac{1}{2}v_{lowest}^2 = \\frac{1}{2}gL + 2gL = \\frac{5}{2}gL \\implies v_{lowest} = \\sqrt{5gL}$.",
 "mnemonic": "Bottom requires a 5, Top requires a 1 (Both under the root of gL)."
 }
 },
@@ -560,7 +560,7 @@
 "order": 20,
 "heading": "Concept of Power",
 "question": "How is Power strictly defined in physics, and what are its standard SI and commercial macroscopic units?",
-"back": "- **Definition:** Power is the time rate at which work is done or energy is transferred by a force.\n- **Nature:** It is a scalar quantity.\n- **SI Unit:** Watt (W), which is equivalent to exactly 1 Joule of work per second ($1\text{ J/s}$).\n- **Other Common Units:** \n  - **Horsepower (hp):** Commonly used in automobiles and motors, **$1\text{ hp} = 746\text{ W}$**.\n  - **Kilowatt-hour (kWh):** This is a commercial unit of *energy* (not power)."
+"back": "- **Definition:** Power is the time rate at which work is done or energy is transferred by a force.\n- **Nature:** It is a scalar quantity.\n- **SI Unit:** Watt (W), which is equivalent to exactly 1 Joule of work per second ($1\\text{ J/s}$).\n- **Other Common Units:** \n  - **Horsepower (hp):** Commonly used in automobiles and motors, **$1\\text{ hp} = 746\\text{ W}$**.\n  - **Kilowatt-hour (kWh):** This is a commercial unit of *energy* (not power)."
 }
 },
 {
@@ -587,9 +587,9 @@
 ],
 "order": 21,
 "heading": "Instantaneous Power",
-"formula": "P = \vec{F} \cdot \vec{v} = Fv \cos \theta",
+"formula": "P = \\vec{F} \\cdot \\vec{v} = Fv \\cos \\theta",
 "description": "Calculates the instantaneous power output using the dot product of the applied force vector and the instantaneous velocity vector.",
-"derivation": "**Derivation:**\nInstantaneous Power is defined by the calculus derivative $P = \frac{dW}{dt}$.\nSince small work $dW = \vec{F} \cdot d\vec{r}$, we can substitute this to get $P = \vec{F} \cdot \frac{d\vec{r}}{dt}$.\nAs velocity $\vec{v} = \frac{d\vec{r}}{dt}$, this elegantly simplifies to $P = \vec{F} \cdot \vec{v}$.\n\n**Conditions/Notes:**\n- Average power is algebraically calculated as $\frac{\text{Total Work}}{\text{Total Time}}$. Instantaneous power strictly requires evaluating the velocity at that specific instant."
+"derivation": "**Derivation:**\nInstantaneous Power is defined by the calculus derivative $P = \\frac{dW}{dt}$.\nSince small work $dW = \\vec{F} \\cdot d\\vec{r}$, we can substitute this to get $P = \\vec{F} \\cdot \\frac{d\\vec{r}}{dt}$.\nAs velocity $\\vec{v} = \\frac{d\\vec{r}}{dt}$, this elegantly simplifies to $P = \\vec{F} \\cdot \\vec{v}$.\n\n**Conditions/Notes:**\n- Average power is algebraically calculated as $\\frac{\\text{Total Work}}{\\text{Total Time}}$. Instantaneous power strictly requires evaluating the velocity at that specific instant."
 }
 },
 {
@@ -615,9 +615,9 @@
 ],
 "order": 22,
 "heading": "Commercial Unit of Energy (kWh)",
-"formula": "1 \text{ kWh} = 3.6 \times 10^6 \text{ J}",
+"formula": "1 \\text{ kWh} = 3.6 \\times 10^6 \\text{ J}",
 "description": "Provides the exact mathematical conversion value of 1 Kilowatt-hour (kWh) into Standard SI Joules.",
-"derivation": "**Derivation:**\n$1 \text{ kWh} = 1000 \text{ W} \times 1 \text{ hr}$\n$1 \text{ kWh} = 1000 \text{ J/s} \times 3600 \text{ s} = 3.6 \times 10^6 \text{ J}$.\n\n**Conditions/Notes:**\n- *Crucial Exam Trap:* Despite having \"Watt\" in the name, kWh measures strictly **Energy**, NOT Power. It is defined as the total continuous energy consumed by a 1000 W appliance running non-stop for exactly 1 hour."
+"derivation": "**Derivation:**\n$1 \\text{ kWh} = 1000 \\text{ W} \\times 1 \\text{ hr}$\n$1 \\text{ kWh} = 1000 \\text{ J/s} \\times 3600 \\text{ s} = 3.6 \\times 10^6 \\text{ J}$.\n\n**Conditions/Notes:**\n- *Crucial Exam Trap:* Despite having \"Watt\" in the name, kWh measures strictly **Energy**, NOT Power. It is defined as the total continuous energy consumed by a 1000 W appliance running non-stop for exactly 1 hour."
 }
 },
 {
@@ -671,7 +671,7 @@
 ],
 "order": 24,
 "heading": "Coefficient of Restitution (e)",
-"formula": "e = \frac{v_2 - v_1}{u_1 - u_2} = \frac{\text{Relative Velocity of Separation}}{\text{Relative Velocity of Approach}}",
+"formula": "e = \\frac{v_2 - v_1}{u_1 - u_2} = \\frac{\\text{Relative Velocity of Separation}}{\\text{Relative Velocity of Approach}}",
 "description": "Calculates the coefficient of restitution (e), which mathematically dictates the elasticity of a collision.",
 "derivation": "**Variables & Units:**\n- **e** = Coefficient of Restitution (Strictly Dimensionless)\n- **$v_1, v_2$** = Final velocities of body 1 and 2 after collision\n- **$u_1, u_2$** = Initial velocities of body 1 and 2 before collision\n\n**Conditions/Notes:**\n- **e = 1**: Perfectly Elastic Collision (No K.E. lost).\n- **0 < e < 1**: Standard Inelastic Collision (Partial K.E. lost).\n- **e = 0**: Perfectly Inelastic Collision (Objects stick together, meaning velocity of separation $v_2 - v_1 = 0$)."
 }
@@ -699,7 +699,7 @@
 ],
 "order": 25,
 "heading": "Perfectly Inelastic Collision (1D)",
-"formula": "v_f = \frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}",
+"formula": "v_f = \\frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}",
 "description": "Calculates the final shared common velocity when two objects undergo a 1D perfectly inelastic collision and stick together.",
 "derivation": "**Derivation:**\nBy the universal Conservation of Linear Momentum: $P_{initial} = P_{final}$\n$m_1 u_1 + m_2 u_2 = m_1 v_f + m_2 v_f = (m_1 + m_2) v_f$.\nAlgebraically rearranging for $v_f$ yields the formula.\n\n**Conditions/Notes:**\n- Because the bodies stick together, they share a single final velocity state ($v_1 = v_2 = v_f$).\n- Macroscopic kinetic energy is highly dissipated during this event, mostly lost to permanent structural deformation and heat."
 }
@@ -727,9 +727,9 @@
 ],
 "order": 26,
 "heading": "Elastic Collision 1D (Final Velocity of Body 1)",
-"formula": "v_1 = \left( \frac{m_1 - m_2}{m_1 + m_2} \right) u_1 + \left( \frac{2m_2}{m_1 + m_2} \right) u_2",
+"formula": "v_1 = \\left( \\frac{m_1 - m_2}{m_1 + m_2} \\right) u_1 + \\left( \\frac{2m_2}{m_1 + m_2} \\right) u_2",
 "description": "Calculates the final velocity of the first mass ($v_1$) strictly after a head-on perfectly elastic collision.",
-"derivation": "**Derivation:**\nDerived analytically by solving simultaneous equations from the Conservation of Linear Momentum ($m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$) and the Conservation of Kinetic Energy ($\frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2$).\n\n**Variables & Units:**\n- **$v_1$** = Final velocity of mass 1 (m/s)\n- **$m_1, m_2$** = Masses of body 1 and 2 (kg)\n- **$u_1, u_2$** = Initial velocities (m/s)\n\n**Conditions/Notes:**\n- Ensure you maintain strict sign conventions for $u_1$ and $u_2$ if the bodies are moving in opposite directions."
+"derivation": "**Derivation:**\nDerived analytically by solving simultaneous equations from the Conservation of Linear Momentum ($m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$) and the Conservation of Kinetic Energy ($\\frac{1}{2} m_1 u_1^2 + \\frac{1}{2} m_2 u_2^2 = \\frac{1}{2} m_1 v_1^2 + \\frac{1}{2} m_2 v_2^2$).\n\n**Variables & Units:**\n- **$v_1$** = Final velocity of mass 1 (m/s)\n- **$m_1, m_2$** = Masses of body 1 and 2 (kg)\n- **$u_1, u_2$** = Initial velocities (m/s)\n\n**Conditions/Notes:**\n- Ensure you maintain strict sign conventions for $u_1$ and $u_2$ if the bodies are moving in opposite directions."
 }
 },
 {
@@ -755,7 +755,7 @@
 ],
 "order": 27,
 "heading": "Elastic Collision 1D (Final Velocity of Body 2)",
-"formula": "v_2 = \left( \frac{2m_1}{m_1 + m_2} \right) u_1 + \left( \frac{m_2 - m_1}{m_1 + m_2} \right) u_2",
+"formula": "v_2 = \\left( \\frac{2m_1}{m_1 + m_2} \\right) u_1 + \\left( \\frac{m_2 - m_1}{m_1 + m_2} \\right) u_2",
 "description": "Calculates the final velocity of the second mass ($v_2$) strictly after a head-on perfectly elastic collision.",
 "derivation": "**Derivation:**\nThe formula is perfectly symmetrical to $v_1$. It is derived by simply swapping the indices 1 and 2 in the $v_1$ equation.\n\n**Variables & Units:**\n- **$v_2$** = Final velocity of mass 2 (m/s)\n- **$m_1, m_2$** = Masses of body 1 and 2 (kg)\n- **$u_1, u_2$** = Initial velocities (m/s)\n\n**Conditions/Notes:**\n- Valid strictly for perfectly elastic head-on (1D) collisions ($e=1$). As always, apply vector sign conventions to the initial velocities."
 }
@@ -813,9 +813,9 @@
 ],
 "order": 29,
 "heading": "Fractional Kinetic Energy Transfer in 1D Elastic Collision",
-"formula": "\frac{\Delta K}{K_i} = \frac{4m_1 m_2}{(m_1 + m_2)^2}",
+"formula": "\\frac{\\Delta K}{K_i} = \\frac{4m_1 m_2}{(m_1 + m_2)^2}",
 "description": "Calculates the exact fraction of Kinetic Energy transferred (or lost) by a moving mass ($m_1$) when it elastically collides head-on with a strictly stationary target mass ($m_2$).",
-"derivation": "**Derivation:**\nInitial $K_i = \frac{1}{2}m_1 u_1^2$. Since $u_2 = 0$, final $v_1 = u_1\left(\frac{m_1-m_2}{m_1+m_2}\right)$. Transferred energy $\Delta K = K_i - K_{1f}$.\nFraction = $1 - \left(\frac{v_1}{u_1}\right)^2 = 1 - \left(\frac{m_1-m_2}{m_1+m_2}\right)^2 = \frac{4m_1m_2}{(m_1+m_2)^2}$.\n\n**Conditions/Notes:**\n- This mathematical fraction becomes exactly 1 (100% kinetic energy transfer) only when the masses are completely identical ($m_1 = m_2$).\n- The fractional kinetic energy *retained* by the original projectile $m_1$ is $\left(\frac{m_1 - m_2}{m_1 + m_2}\right)^2$."
+"derivation": "**Derivation:**\nInitial $K_i = \\frac{1}{2}m_1 u_1^2$. Since $u_2 = 0$, final $v_1 = u_1\\left(\\frac{m_1-m_2}{m_1+m_2}\\right)$. Transferred energy $\\Delta K = K_i - K_{1f}$.\nFraction = $1 - \\left(\\frac{v_1}{u_1}\\right)^2 = 1 - \\left(\\frac{m_1-m_2}{m_1+m_2}\\right)^2 = \\frac{4m_1m_2}{(m_1+m_2)^2}$.\n\n**Conditions/Notes:**\n- This mathematical fraction becomes exactly 1 (100% kinetic energy transfer) only when the masses are completely identical ($m_1 = m_2$).\n- The fractional kinetic energy *retained* by the original projectile $m_1$ is $\\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right)^2$."
 }
 },
 {
@@ -871,7 +871,7 @@
 "order": 31,
 "heading": "2D Glancing Elastic Collision (Equal Masses)",
 "question": "What is the specific geometric outcome when a moving object undergoes an oblique (glancing) perfectly elastic collision with a stationary object of the *exact same mass*?",
-"back": "If $m_1 = m_2$ and the collision is completely elastic, the two masses will always diverge and move off at **exactly right angles ($90^\circ$)** to each other post-collision.\n\n**Mathematical Condition:**\n- **$\theta_1 + \theta_2 = 90^\circ$** (where $\theta_1$ and $\theta_2$ are their respective scattering angles relative to the original axis of motion).\n- This is a high-yield constraint heavily tested in 2D momentum conservation problems (e.g., billiards or carrom board kinematics)."
+"back": "If $m_1 = m_2$ and the collision is completely elastic, the two masses will always diverge and move off at **exactly right angles ($90^\\circ$)** to each other post-collision.\n\n**Mathematical Condition:**\n- **$\theta_1 + \theta_2 = 90^\\circ$** (where $\theta_1$ and $\theta_2$ are their respective scattering angles relative to the original axis of motion).\n- This is a high-yield constraint heavily tested in 2D momentum conservation problems (e.g., billiards or carrom board kinematics)."
 }
 },
 {
@@ -897,9 +897,9 @@
 ],
 "order": 32,
 "heading": "Einstein's Mass-Energy Equivalence",
-"formula": "E = \Delta m c^2",
+"formula": "E = \\Delta m c^2",
 "description": "States Einstein's equivalence principle mathematically equating mass and energy, establishing them as interchangeable physical entities.",
-"derivation": "**Variables & Units:**\n- **E** = Equivalent macroscopic energy released or absorbed (J)\n- **$\Delta m$** = Mass defect or physical mass converted (kg)\n- **c** = Speed of light in a perfect vacuum ($\approx 3 \times 10^8 \text{ m/s}$)\n\n**Conditions/Notes:**\n- This equation formally proves that mass and energy are interchangeable manifestations of the exact same physical reality.\n- **Standard Atomic Unit Conversion:** $1 \text{ eV} = 1.6 \times 10^{-19} \text{ J}$."
+"derivation": "**Variables & Units:**\n- **E** = Equivalent macroscopic energy released or absorbed (J)\n- **$\\Delta m$** = Mass defect or physical mass converted (kg)\n- **c** = Speed of light in a perfect vacuum ($\\approx 3 \\times 10^8 \\text{ m/s}$)\n\n**Conditions/Notes:**\n- This equation formally proves that mass and energy are interchangeable manifestations of the exact same physical reality.\n- **Standard Atomic Unit Conversion:** $1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J}$."
 }
 },
 {

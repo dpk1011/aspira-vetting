@@ -740,7 +740,7 @@
 "order": 26,
 "heading": "Enthalpies of Phase Transitions",
 "question": "What specific thermodynamic processes are described by the standard enthalpies of Fusion, Vaporization, and Sublimation, and what mathematical sign do they universally share?",
-"back": "**Fusion ($\Delta_{fus}H^\ominus$):** Melting of $1\\ mole$ of a solid into a liquid at constant temperature and standard pressure.\n\n**Vaporization ($\Delta_{vap}H^\ominus$):** Boiling $1\\ mole$ of a liquid into a gas at constant temperature and standard pressure.\n\n**Sublimation ($\Delta_{sub}H^\ominus$):** Conversion of $1\\ mole$ of a solid directly into a gas.\n\n**Universal Sign:** All three involve breaking or weakening intermolecular forces, which requires energy input. Thus, they are strictly **endothermic ($\Delta H > 0$)**.",
+"back": "**Fusion ($\\Delta_{fus}H^\\ominus$):** Melting of $1\\ mole$ of a solid into a liquid at constant temperature and standard pressure.\n\n**Vaporization ($\\Delta_{vap}H^\\ominus$):** Boiling $1\\ mole$ of a liquid into a gas at constant temperature and standard pressure.\n\n**Sublimation ($\\Delta_{sub}H^\\ominus$):** Conversion of $1\\ mole$ of a solid directly into a gas.\n\n**Universal Sign:** All three involve breaking or weakening intermolecular forces, which requires energy input. Thus, they are strictly **endothermic ($\\Delta H > 0$)**.",
 "mnemonic": "FVS: Fusing, Vaporizing, Subliming all suck up heat (+)."
 }
 },
@@ -767,8 +767,8 @@
 "atomization"
 ],
 "order": 27,
-"heading": "Enthalpy of Atomization ($\Delta_a H^\ominus$)",
-"question": "How does the Enthalpy of Atomization ($\Delta_a H^\ominus$) mechanically differ between a diatomic gas like $H_2$ and a solid metal like Sodium ($Na$)?",
+"heading": "Enthalpy of Atomization ($\\Delta_a H^\\ominus$)",
+"question": "How does the Enthalpy of Atomization ($\\Delta_a H^\\ominus$) mechanically differ between a diatomic gas like $H_2$ and a solid metal like Sodium ($Na$)?",
 "back": "**Core Definition:** The enthalpy change when $1\\ mole$ of bonds are broken completely to obtain **gaseous atoms**.\n\n**For Diatomic Gases ($H_2$):** It is mathematically identical to the **Bond Dissociation Enthalpy**, representing the energy to break the single $H-H$ bond.\n\n**For Metallic Solids ($Na$):** It is mathematically identical to the **Enthalpy of Sublimation**, representing the energy to break metallic lattices and turn the solid directly into isolated gaseous atoms.",
 "mnemonic": "Atomization turns everything into Gaseous Atoms."
 }
@@ -826,9 +826,9 @@
 ],
 "order": 29,
 "heading": "Reaction Enthalpy from Bond Enthalpies",
-"formula": "\Delta_r H^\ominus = \sum \text{Bond Enthalpies}*{\text{(reactants)}} - \sum \text{Bond Enthalpies}*{\text{(products)}}",
+"formula": "\\Delta_r H^\\ominus = \\sum \\text{Bond Enthalpies}*{\\text{(reactants)}} - \\sum \\text{Bond Enthalpies}*{\\text{(products)}}",
 "description": "Calculate the standard enthalpy of a gas-phase reaction using the bond enthalpies of the reactants and products.",
-"derivation": "Breaking chemical bonds (Reactants) is an endothermic process (requires positive energy input).\nForming new chemical bonds (Products) is an exothermic process (releases negative energy).\nTherefore, Total Reaction Enthalpy = Energy input to break bonds - Energy released forming bonds.\n\n**Variables & Units**:\n- **$\Delta_r H^\ominus$** = Standard enthalpy of reaction ($kJ\\ mol^{-1}$)\n- **Bond Enthalpies** = Energy required to break one mole of specific bonds ($kJ\\ mol^{-1}$)\n\n**Conditions/Notes**:\n- **Crucial Boundary Condition:** Unlike formation enthalpies (which is Products minus Reactants), calculating via bond enthalpies is strictly **Reactants minus Products**.\n- This formula applies *only* to reactions where all species are in the **gaseous state**.",
+"derivation": "Breaking chemical bonds (Reactants) is an endothermic process (requires positive energy input).\nForming new chemical bonds (Products) is an exothermic process (releases negative energy).\nTherefore, Total Reaction Enthalpy = Energy input to break bonds - Energy released forming bonds.\n\n**Variables & Units**:\n- **$\\Delta_r H^\\ominus$** = Standard enthalpy of reaction ($kJ\\ mol^{-1}$)\n- **Bond Enthalpies** = Energy required to break one mole of specific bonds ($kJ\\ mol^{-1}$)\n\n**Conditions/Notes**:\n- **Crucial Boundary Condition:** Unlike formation enthalpies (which is Products minus Reactants), calculating via bond enthalpies is strictly **Reactants minus Products**.\n- This formula applies *only* to reactions where all species are in the **gaseous state**.",
 "mnemonic": "Bonds: Reactants Rupture, Products Produce (Reactants - Products)."
 }
 },
@@ -857,7 +857,7 @@
 "order": 30,
 "heading": "Born-Haber Cycle",
 "question": "Why do we use the Born-Haber cycle to calculate Lattice Enthalpy instead of measuring it directly?",
-"back": "**Direct Measurement is Impossible:** We cannot directly measure the enthalpy change for the dissociation of $1\\ mole$ of an ionic solid into isolated gaseous ions.\n\n**Hess's Law Application:** The Born-Haber cycle uses Hess's Law of constant heat summation. It constructs a closed thermodynamic cycle of measurable steps (sublimation, ionization, bond dissociation, electron gain) to indirectly calculate the unknown Lattice Enthalpy.\n\n\n**Significance:** The sum of enthalpy changes in the complete cycle is zero, allowing for the algebraic isolation of $\Delta_{lattice}H^\ominus$.",
+"back": "**Direct Measurement is Impossible:** We cannot directly measure the enthalpy change for the dissociation of $1\\ mole$ of an ionic solid into isolated gaseous ions.\n\n**Hess's Law Application:** The Born-Haber cycle uses Hess's Law of constant heat summation. It constructs a closed thermodynamic cycle of measurable steps (sublimation, ionization, bond dissociation, electron gain) to indirectly calculate the unknown Lattice Enthalpy.\n\n\n**Significance:** The sum of enthalpy changes in the complete cycle is zero, allowing for the algebraic isolation of $\\Delta_{lattice}H^\\ominus$.",
 "mnemonic": "Born-Haber builds a BRIDGE when the direct road is blocked."
 }
 },
@@ -884,9 +884,9 @@
 ],
 "order": 31,
 "heading": "Enthalpy of Solution",
-"formula": "\Delta_{sol}H^\ominus = \Delta_{lattice}H^\ominus + \Delta_{hyd}H^\ominus",
+"formula": "\\Delta_{sol}H^\\ominus = \\Delta_{lattice}H^\\ominus + \\Delta_{hyd}H^\\ominus",
 "description": "Relate the Enthalpy of Solution to Lattice Enthalpy and Hydration Enthalpy for an ionic compound dissolving in water.",
-"derivation": "Dissolution is a two-step theoretical process:\n1. Breaking the solid lattice into gaseous ions (requires $\Delta_{lattice}H$).\n2. Hydration of these gaseous ions by solvent molecules (releases $\Delta_{hyd}H$).\n\n**Variables & Units**:\n- **$\Delta_{sol}H^\ominus$** = Standard enthalpy of solution ($kJ\\ mol^{-1}$)\n- **$\Delta_{lattice}H^\ominus$** = Lattice enthalpy (Energy to break lattice, always positive) ($kJ\\ mol^{-1}$)\n- **$\Delta_{hyd}H^\ominus$** = Hydration enthalpy (Energy released when ions are surrounded by water, always negative) ($kJ\\ mol^{-1}$)\n\n**Conditions/Notes**:\n- For most ionic compounds, $\Delta_{sol}H$ is positive (endothermic), meaning solubility increases with temperature.\n- If lattice enthalpy is significantly higher than hydration enthalpy, the compound will be **insoluble**.",
+"derivation": "Dissolution is a two-step theoretical process:\n1. Breaking the solid lattice into gaseous ions (requires $\\Delta_{lattice}H$).\n2. Hydration of these gaseous ions by solvent molecules (releases $\\Delta_{hyd}H$).\n\n**Variables & Units**:\n- **$\\Delta_{sol}H^\\ominus$** = Standard enthalpy of solution ($kJ\\ mol^{-1}$)\n- **$\\Delta_{lattice}H^\\ominus$** = Lattice enthalpy (Energy to break lattice, always positive) ($kJ\\ mol^{-1}$)\n- **$\\Delta_{hyd}H^\\ominus$** = Hydration enthalpy (Energy released when ions are surrounded by water, always negative) ($kJ\\ mol^{-1}$)\n\n**Conditions/Notes**:\n- For most ionic compounds, $\\Delta_{sol}H$ is positive (endothermic), meaning solubility increases with temperature.\n- If lattice enthalpy is significantly higher than hydration enthalpy, the compound will be **insoluble**.",
 "mnemonic": "Solution = Break it (Lattice) + Soak it (Hydration)."
 }
 },
@@ -940,9 +940,9 @@
 ],
 "order": 33,
 "heading": "Kirchhoff's Equation",
-"formula": "\Delta H_2 - \Delta H_1 = \Delta C_p (T_2 - T_1)",
-"description": "Calculate the change in the enthalpy of a chemical reaction (\Delta H) across two different temperatures using heat capacity.",
-"derivation": "Derived from differentiating enthalpy with respect to temperature at constant pressure: $\left( \frac{\partial \Delta H}{\partial T} \right)_p = \Delta C_p$.\nIntegrating this differential equation from $T_1$ to $T_2$ yields the final Kirchhoff formula.\n\n**Variables & Units**:\n- **$\Delta H_1, \Delta H_2$** = Reaction enthalpies at absolute temperatures $T_1$ and $T_2$ ($J\\ mol^{-1}$ or $kJ\\ mol^{-1}$)\n- **$\Delta C_p$** = Change in molar heat capacity at constant pressure ($\sum C_{p(\text{products})} - \sum C_{p(\text{reactants})}$) ($J\\ K^{-1}\\ mol^{-1}$)\n- **$T_1, T_2$** = Absolute temperatures ($K$)\n\n**Conditions/Notes**:\n- Strictly assumes that the heat capacities ($C_p$) of the reactants and products remain constant over the specified temperature range ($T_1$ to $T_2$).\n- A parallel equation exists for constant volume using internal energy: $\Delta U_2 - \Delta U_1 = \Delta C_v (T_2 - T_1)$."
+"formula": "\\Delta H_2 - \\Delta H_1 = \\Delta C_p (T_2 - T_1)",
+"description": "Calculate the change in the enthalpy of a chemical reaction (\\Delta H) across two different temperatures using heat capacity.",
+"derivation": "Derived from differentiating enthalpy with respect to temperature at constant pressure: $\\left( \\frac{\\partial \\Delta H}{\\partial T} \\right)_p = \\Delta C_p$.\nIntegrating this differential equation from $T_1$ to $T_2$ yields the final Kirchhoff formula.\n\n**Variables & Units**:\n- **$\\Delta H_1, \\Delta H_2$** = Reaction enthalpies at absolute temperatures $T_1$ and $T_2$ ($J\\ mol^{-1}$ or $kJ\\ mol^{-1}$)\n- **$\\Delta C_p$** = Change in molar heat capacity at constant pressure ($\\sum C_{p(\\text{products})} - \\sum C_{p(\\text{reactants})}$) ($J\\ K^{-1}\\ mol^{-1}$)\n- **$T_1, T_2$** = Absolute temperatures ($K$)\n\n**Conditions/Notes**:\n- Strictly assumes that the heat capacities ($C_p$) of the reactants and products remain constant over the specified temperature range ($T_1$ to $T_2$).\n- A parallel equation exists for constant volume using internal energy: $\\Delta U_2 - \\Delta U_1 = \\Delta C_v (T_2 - T_1)$."
 }
 },
 {
@@ -970,7 +970,7 @@
 "order": 34,
 "heading": "Spontaneity vs. Enthalpy",
 "question": "Why is a negative enthalpy change (exothermic reaction) an insufficient criterion to strictly predict whether a chemical reaction will be spontaneous?",
-"back": "**Not the Only Driving Force:** While a decrease in enthalpy (releasing heat) contributes to spontaneity, it is not the sole driving force.\n\n**Endothermic Spontaneity:** Many endothermic processes (where $\Delta H > 0$), such as the evaporation of water or dissolving $NH_4Cl$ in water, occur spontaneously in nature.\n\n**The Missing Factor:** Spontaneity also heavily relies on the change in randomness or disorder of the system, governed by **Entropy ($S$)**.",
+"back": "**Not the Only Driving Force:** While a decrease in enthalpy (releasing heat) contributes to spontaneity, it is not the sole driving force.\n\n**Endothermic Spontaneity:** Many endothermic processes (where $\\Delta H > 0$), such as the evaporation of water or dissolving $NH_4Cl$ in water, occur spontaneously in nature.\n\n**The Missing Factor:** Spontaneity also heavily relies on the change in randomness or disorder of the system, governed by **Entropy ($S$)**.",
 "mnemonic": "Enthalpy is a clue, but Entropy finishes the puzzle."
 }
 },
@@ -1025,9 +1025,9 @@
 ],
 "order": 36,
 "heading": "Entropy Change Formula",
-"formula": "\Delta S = \frac{q_{rev}}{T}",
-"description": "State the mathematical equation defining the change in entropy (\Delta S) for a reversible process at a constant temperature.",
-"derivation": "**Variables & Units**:\n- **$\Delta S$** = Change in entropy ($Joules\\ per\\ Kelvin$, $J\\ K^{-1}$)\n- **$q_{rev}$** = Heat transferred reversibly ($J$)\n- **$T$** = Absolute temperature ($K$)\n\n**Conditions/Notes**:\n- Entropy change is inversely proportional to temperature: the same amount of heat added at a lower temperature creates a larger entropy change than at a higher temperature."
+"formula": "\\Delta S = \\frac{q_{rev}}{T}",
+"description": "State the mathematical equation defining the change in entropy (\\Delta S) for a reversible process at a constant temperature.",
+"derivation": "**Variables & Units**:\n- **$\\Delta S$** = Change in entropy ($Joules\\ per\\ Kelvin$, $J\\ K^{-1}$)\n- **$q_{rev}$** = Heat transferred reversibly ($J$)\n- **$T$** = Absolute temperature ($K$)\n\n**Conditions/Notes**:\n- Entropy change is inversely proportional to temperature: the same amount of heat added at a lower temperature creates a larger entropy change than at a higher temperature."
 }
 },
 {
@@ -1054,9 +1054,9 @@
 ],
 "order": 37,
 "heading": "Entropy of Phase Transitions",
-"formula": "\Delta_{trans} S = \frac{\Delta_{trans} H}{T_{trans}}",
+"formula": "\\Delta_{trans} S = \\frac{\\Delta_{trans} H}{T_{trans}}",
 "description": "Calculate the entropy change during a phase transition (such as melting or boiling) at a constant transition temperature.",
-"derivation": "From the Gibbs equation: $\Delta G = \Delta H - T\Delta S$.\nAt phase equilibrium (e.g., exactly at the boiling point), $\Delta G = 0$.\nSubstituting zero gives $0 = \Delta_{trans} H - T_{trans}\Delta_{trans} S$. Rearranging algebraically yields $\Delta_{trans} S = \Delta_{trans} H / T_{trans}$.\n\n**Variables & Units**:\n- **$\Delta_{trans} S$** = Entropy of transition ($J\\ K^{-1}\\ mol^{-1}$)\n- **$\Delta_{trans} H$** = Enthalpy of transition (e.g., Fusion, Vaporization) ($J\\ mol^{-1}$)\n- **$T_{trans}$** = Absolute transition temperature (e.g., Melting point $T_f$ or Boiling point $T_b$) ($K$)\n\n**Conditions/Notes**:\n- This formula relies on the fact that during a phase transition at constant temperature and pressure, the two phases are in **equilibrium**.\n- Because they are in equilibrium, the change in Gibbs Free Energy ($\Delta G$) is exactly **zero**."
+"derivation": "From the Gibbs equation: $\\Delta G = \\Delta H - T\\Delta S$.\nAt phase equilibrium (e.g., exactly at the boiling point), $\\Delta G = 0$.\nSubstituting zero gives $0 = \\Delta_{trans} H - T_{trans}\\Delta_{trans} S$. Rearranging algebraically yields $\\Delta_{trans} S = \\Delta_{trans} H / T_{trans}$.\n\n**Variables & Units**:\n- **$\\Delta_{trans} S$** = Entropy of transition ($J\\ K^{-1}\\ mol^{-1}$)\n- **$\\Delta_{trans} H$** = Enthalpy of transition (e.g., Fusion, Vaporization) ($J\\ mol^{-1}$)\n- **$T_{trans}$** = Absolute transition temperature (e.g., Melting point $T_f$ or Boiling point $T_b$) ($K$)\n\n**Conditions/Notes**:\n- This formula relies on the fact that during a phase transition at constant temperature and pressure, the two phases are in **equilibrium**.\n- Because they are in equilibrium, the change in Gibbs Free Energy ($\\Delta G$) is exactly **zero**."
 }
 },
 {
@@ -1083,7 +1083,7 @@
 "order": 38,
 "heading": "Second Law of Thermodynamics",
 "question": "According to the Second Law of Thermodynamics, what is the ultimate criterion for predicting the spontaneity of a process in an isolated system (or the Universe)?",
-"back": "**The Core Principle:** For any process to be spontaneous, the total entropy of the universe (System + Surroundings) must **increase**.\n\n**Mathematical Expression:** $\Delta S_{total} = \Delta S_{sys} + \Delta S_{surr} > 0$.\n\n**At Equilibrium:** When a system reaches equilibrium, the entropy is at its maximum, and $\Delta S_{total} = 0$.\n\n**Conclusion:** Processes inherently tend to move in a direction that maximizes the total disorder of the universe.",
+"back": "**The Core Principle:** For any process to be spontaneous, the total entropy of the universe (System + Surroundings) must **increase**.\n\n**Mathematical Expression:** $\\Delta S_{total} = \\Delta S_{sys} + \\Delta S_{surr} > 0$.\n\n**At Equilibrium:** When a system reaches equilibrium, the entropy is at its maximum, and $\\Delta S_{total} = 0$.\n\n**Conclusion:** Processes inherently tend to move in a direction that maximizes the total disorder of the universe.",
 "mnemonic": "The Universe always leans towards CHAOS."
 }
 },
@@ -1139,7 +1139,7 @@
 "order": 40,
 "heading": "Gibbs Free Energy (G)",
 "question": "Why was the state function 'Gibbs Free Energy (G)' introduced, and what specific type of energy does it represent?",
-"back": "**The Problem:** Using total entropy ($\Delta S_{total}$) to predict spontaneity requires calculating the entropy change of the *surroundings*, which is often difficult.\n\n**The Solution:** Gibbs Free Energy ($G = H - TS$) relies entirely on the properties of the **system** itself.\n\n**Physical Meaning:** A decrease in Gibbs Free Energy ($-\Delta G$) represents the **maximum useful (non-expansion) work** that can be extracted from a closed system at constant temperature and pressure.",
+"back": "**The Problem:** Using total entropy ($\\Delta S_{total}$) to predict spontaneity requires calculating the entropy change of the *surroundings*, which is often difficult.\n\n**The Solution:** Gibbs Free Energy ($G = H - TS$) relies entirely on the properties of the **system** itself.\n\n**Physical Meaning:** A decrease in Gibbs Free Energy ($-\\Delta G$) represents the **maximum useful (non-expansion) work** that can be extracted from a closed system at constant temperature and pressure.",
 "mnemonic": "Gibbs gives you the 'Free' Energy available to do work."
 }
 },
@@ -1166,9 +1166,9 @@
 ],
 "order": 41,
 "heading": "Gibbs Equation",
-"formula": "\Delta G = \Delta H - T \Delta S",
-"description": "Relate the change in Gibbs Free Energy (\Delta G) to changes in enthalpy and entropy at constant temperature.",
-"derivation": "From 2nd Law: $\Delta S_{total} = \Delta S_{sys} + \Delta S_{surr}$.\nAt constant $T$ and $p$, heat lost by system is gained by surroundings: $q_{surr} = -\Delta H_{sys}$.\nThus, $\Delta S_{surr} = -\Delta H_{sys}/T$. Substituting: $\Delta S_{total} = \Delta S_{sys} - \Delta H_{sys}/T$.\nMultiplying by $-T$ yields: $-T\Delta S_{total} = \Delta H_{sys} - T\Delta S_{sys}$.\nSince $\Delta G = -T\Delta S_{total}$, we get $\Delta G = \Delta H - T\Delta S$.\n\n**Variables & Units**:\n- **$\Delta G$** = Change in Gibbs Free Energy ($J$)\n- **$\Delta H$** = Change in Enthalpy ($J$)\n- **$T$** = Absolute temperature ($K$)\n- **$\Delta S$** = Change in Entropy ($J\\ K^{-1}$)\n\n**Conditions/Notes**:\n- Valid at **constant temperature and pressure**.\n- This is the master equation for predicting chemical spontaneity.",
+"formula": "\\Delta G = \\Delta H - T \\Delta S",
+"description": "Relate the change in Gibbs Free Energy (\\Delta G) to changes in enthalpy and entropy at constant temperature.",
+"derivation": "From 2nd Law: $\\Delta S_{total} = \\Delta S_{sys} + \\Delta S_{surr}$.\nAt constant $T$ and $p$, heat lost by system is gained by surroundings: $q_{surr} = -\\Delta H_{sys}$.\nThus, $\\Delta S_{surr} = -\\Delta H_{sys}/T$. Substituting: $\\Delta S_{total} = \\Delta S_{sys} - \\Delta H_{sys}/T$.\nMultiplying by $-T$ yields: $-T\\Delta S_{total} = \\Delta H_{sys} - T\\Delta S_{sys}$.\nSince $\\Delta G = -T\\Delta S_{total}$, we get $\\Delta G = \\Delta H - T\\Delta S$.\n\n**Variables & Units**:\n- **$\\Delta G$** = Change in Gibbs Free Energy ($J$)\n- **$\\Delta H$** = Change in Enthalpy ($J$)\n- **$T$** = Absolute temperature ($K$)\n- **$\\Delta S$** = Change in Entropy ($J\\ K^{-1}$)\n\n**Conditions/Notes**:\n- Valid at **constant temperature and pressure**.\n- This is the master equation for predicting chemical spontaneity.",
 "mnemonic": "Good Honey Takes Sweat (G = H - TS)"
 }
 },
@@ -1195,9 +1195,9 @@
 "gibbs"
 ],
 "order": 42,
-"heading": "Spontaneity Criteria via $\Delta G$",
-"question": "How do the mathematical signs of the change in Gibbs Free Energy ($\Delta G$) definitively dictate whether a reaction is spontaneous, non-spontaneous, or at equilibrium?",
-"back": "**$\Delta G < 0$ (Negative):** The process is **Spontaneous** in the forward direction.\n\n**$\Delta G > 0$ (Positive):** The process is **Non-spontaneous** in the forward direction (but spontaneous in the reverse direction).\n\n**$\Delta G = 0$:** The system has reached **Equilibrium**, and no net change occurs.",
+"heading": "Spontaneity Criteria via $\\Delta G$",
+"question": "How do the mathematical signs of the change in Gibbs Free Energy ($\\Delta G$) definitively dictate whether a reaction is spontaneous, non-spontaneous, or at equilibrium?",
+"back": "**$\\Delta G < 0$ (Negative):** The process is **Spontaneous** in the forward direction.\n\n**$\\Delta G > 0$ (Positive):** The process is **Non-spontaneous** in the forward direction (but spontaneous in the reverse direction).\n\n**$\\Delta G = 0$:** The system has reached **Equilibrium**, and no net change occurs.",
 "mnemonic": "Negative is a GO, Positive is a NO."
 }
 },
@@ -1225,8 +1225,8 @@
 ],
 "order": 43,
 "heading": "Temperature Dependence of Spontaneity",
-"question": "Based on $\Delta G = \Delta H - T\Delta S$, how do the mathematical signs of $\Delta H$ and $\Delta S$ dictate the temperature dependence of a reaction's spontaneity?",
-"back": "**1. Always Spontaneous ($\Delta G < 0$ at all T):**\n- Exothermic ($\Delta H < 0$) AND Disorder increases ($\Delta S > 0$).\n\n**2. Never Spontaneous ($\Delta G > 0$ at all T):**\n- Endothermic ($\Delta H > 0$) AND Order increases ($\Delta S < 0$).\n\n**3. Spontaneous only at HIGH T:**\n- Endothermic ($\Delta H > 0$) AND Disorder increases ($\Delta S > 0$). High $T$ makes the favorable entropy term dominate.\n\n**4. Spontaneous only at LOW T:**\n- Exothermic ($\Delta H < 0$) AND Order increases ($\Delta S < 0$). Low $T$ prevents the unfavorable entropy term from dominating.",
+"question": "Based on $\\Delta G = \\Delta H - T\\Delta S$, how do the mathematical signs of $\\Delta H$ and $\\Delta S$ dictate the temperature dependence of a reaction's spontaneity?",
+"back": "**1. Always Spontaneous ($\\Delta G < 0$ at all T):**\n- Exothermic ($\\Delta H < 0$) AND Disorder increases ($\\Delta S > 0$).\n\n**2. Never Spontaneous ($\\Delta G > 0$ at all T):**\n- Endothermic ($\\Delta H > 0$) AND Order increases ($\\Delta S < 0$).\n\n**3. Spontaneous only at HIGH T:**\n- Endothermic ($\\Delta H > 0$) AND Disorder increases ($\\Delta S > 0$). High $T$ makes the favorable entropy term dominate.\n\n**4. Spontaneous only at LOW T:**\n- Exothermic ($\\Delta H < 0$) AND Order increases ($\\Delta S < 0$). Low $T$ prevents the unfavorable entropy term from dominating.",
 "mnemonic": "Exothermic + Chaos = Unstoppable. Endothermic + Order = Impossible."
 }
 },
@@ -1254,9 +1254,9 @@
 ],
 "order": 44,
 "heading": "Gibbs Energy and Equilibrium Constant",
-"formula": "\Delta_r G^\ominus = -RT \ln K = -2.303 RT \log_{10} K",
-"description": "Relate the Standard Gibbs Free Energy change (\Delta_r G^\ominus) to the equilibrium constant (K).",
-"derivation": "General equation: $\Delta G = \Delta G^\ominus + RT \ln Q$.\nAt equilibrium, $\Delta G = 0$ and the reaction quotient $Q = K$.\nSubstituting these gives $0 = \Delta G^\ominus + RT \ln K$, which rearranges to $\Delta G^\ominus = -RT \ln K$.\n\n**Variables & Units**:\n- **$\Delta_r G^\ominus$** = Standard Gibbs Free Energy change ($J\\ mol^{-1}$)\n- **$R$** = Universal Gas Constant ($8.314\\ J\\ K^{-1}\\ mol^{-1}$)\n- **$T$** = Absolute temperature ($K$)\n- **$K$** = Equilibrium constant (dimensionless)\n\n**Conditions/Notes**:\n- If $\Delta G^\ominus < 0$, then $K > 1$ (Products are favored over reactants at equilibrium).\n- If $\Delta G^\ominus > 0$, then $K < 1$ (Reactants are favored over products at equilibrium)."
+"formula": "\\Delta_r G^\\ominus = -RT \\ln K = -2.303 RT \\log_{10} K",
+"description": "Relate the Standard Gibbs Free Energy change (\\Delta_r G^\\ominus) to the equilibrium constant (K).",
+"derivation": "General equation: $\\Delta G = \\Delta G^\\ominus + RT \\ln Q$.\nAt equilibrium, $\\Delta G = 0$ and the reaction quotient $Q = K$.\nSubstituting these gives $0 = \\Delta G^\\ominus + RT \\ln K$, which rearranges to $\\Delta G^\\ominus = -RT \\ln K$.\n\n**Variables & Units**:\n- **$\\Delta_r G^\\ominus$** = Standard Gibbs Free Energy change ($J\\ mol^{-1}$)\n- **$R$** = Universal Gas Constant ($8.314\\ J\\ K^{-1}\\ mol^{-1}$)\n- **$T$** = Absolute temperature ($K$)\n- **$K$** = Equilibrium constant (dimensionless)\n\n**Conditions/Notes**:\n- If $\\Delta G^\\ominus < 0$, then $K > 1$ (Products are favored over reactants at equilibrium).\n- If $\\Delta G^\\ominus > 0$, then $K < 1$ (Reactants are favored over products at equilibrium)."
 }
 },
 {
