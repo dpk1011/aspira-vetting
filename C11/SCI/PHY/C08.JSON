@@ -1,593 +1,911 @@
 {
-"deckId": "69ab16b6fc9152e2eef8d341",
-"cards": [
-{
-"cardId": "69ab3777fc9152e2eef8d36d",
-"originalOrder": 1,
-"originalHeading": "Elasticity vs. Plasticity",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized markdown", "Added citations inline"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "elasticity", "neet", "jee", "class-11"],
-"order": 1,
-"heading": "Elasticity vs. Plasticity",
-"question": "What defines the fundamental difference between elastic and plastic bodies when a deforming force is removed, and what are ideal examples of each? ",
-"back": "### Fundamental Difference\n- **Elasticity**: The property by which a body tends to completely regain its original size and shape when the applied force is removed .\n- **Plasticity**: The property where a body has no gross tendency to regain its previous shape, resulting in permanent deformation .\n\n### Ideal Examples\n- **Perfectly Elastic**: Quartz and phosphor bronze .\n- **Perfectly Plastic**: Putty, mud, or paraffin wax."
-}
-},
-{
-"cardId": "NEW_RIGID_BODY",
-"originalOrder": 1,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Fills the pedagogical gap for the ideal opposite of a perfectly elastic/plastic body.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": ["science", "physics", "elasticity", "neet", "jee", "class-11"],
-"order": 2,
-"heading": "Perfectly Rigid Body",
-"question": "What is a 'perfectly rigid body' in the context of solid mechanics, and does it exist in reality?",
-"back": "A **perfectly rigid body** is an idealized solid object in which the distance between any two internal points remains absolutely constant, regardless of the magnitude of the external deforming force applied.\n\nIn reality, no material is perfectly rigid; all solid bodies undergo some degree of elastic or plastic deformation when a sufficient force is applied."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d36e",
-"originalOrder": 2,
-"originalHeading": "Stress Formula & Dimensions",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Added strict LaTeX", "Included tensor justification"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "stress", "neet", "jee", "class-11"],
-"order": 3,
-"heading": "Stress Formula & Dimensions",
-"formula": "\\sigma = \\frac{F}{A}",
-"description": "Mathematical formulation of Stress, representing the internal restoring force developed per unit cross-sectional area.",
-"derivation": "**Variables & Units:**\n- **$\\sigma$**: Stress (N/m² or Pascal)\n- **$F$**: Internal restoring force (N)\n- **$A$**: Cross-sectional area (m²)\n\n**Dimensional Formula:** [ML⁻¹T⁻²]\n\n**Key Concept:** Stress is a **Tensor** quantity. Unlike force (a vector), stress cannot be assigned a single specific direction because it acts over a specific plane area."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d36f",
-"originalOrder": 3,
-"originalHeading": "Types of Stress and Corresponding Strains",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved structural chunking", "Clarified strain results"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CLASSIFICATION",
-"tags": ["science", "physics", "stress", "strain", "neet", "jee", "class-11"],
-"order": 4,
-"heading": "Types of Stress & Corresponding Strains",
-"question": "What are the three fundamental types of stress a solid can experience, and what specific type of strain does each produce? ",
-"back": "### 1. Longitudinal Stress (Tensile/Compressive)\n- **Cause:** Force applied normal (perpendicular) to the cross-sectional area .\n- **Produces:** **Longitudinal Strain** (change in length) .\n\n### 2. Tangential/Shearing Stress\n- **Cause:** Force applied parallel to the cross-sectional area .\n- **Produces:** **Shearing Strain** (relative displacement of opposite faces, altering the geometric shape) .\n\n### 3. Hydraulic (Volume) Stress\n- **Cause:** Uniform pressure applied normal to the surface at every point (e.g., submerged in a fluid) .\n- **Produces:** **Volume Strain** (change in volume without altering the fundamental geometrical shape)."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d370",
-"originalOrder": 4,
-"originalHeading": "Longitudinal Strain",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Fixed LaTeX formatting"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "strain", "neet", "jee", "class-11"],
-"order": 5,
-"heading": "Longitudinal Strain",
-"formula": "\\varepsilon_l = \\frac{\\Delta L}{L}",
-"description": "Mathematical expression for Longitudinal Strain, quantifying deformation along the length of an object.",
-"derivation": "**Variables & Units:**\n- **$\\varepsilon_l$**: Longitudinal Strain (Dimensionless)\n- **$\\Delta L$**: Change in length (m)\n- **$L$**: Original length (m)\n\n**Conditions:** This formula is equally applicable to tensile strain (elongation) and compressive strain (shortening)."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d371",
-"originalOrder": 5,
-"originalHeading": "Shearing Strain",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Added precise angle approximation condition"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "strain", "neet", "jee", "class-11"],
-"order": 6,
-"heading": "Shearing Strain",
-"formula": "\\varepsilon_s = \\frac{\\Delta x}{L} = \\tan \\theta \\approx \\theta",
-"description": "Formula for Shearing Strain produced by a tangential force, measured as an angular displacement.",
-"derivation": "**Variables & Units:**\n- **$\\varepsilon_s$**: Shearing Strain (Dimensionless)\n- **$\\Delta x$**: Relative displacement of the upper face with respect to the lower stationary face (m)\n- **$L$**: Vertical height or perpendicular distance between the faces (m)\n- **$\\theta$**: Angular displacement from the vertical (in radians)\n\n**Key Condition:** The approximation $\\tan \\theta \\approx \\theta$ is strictly valid only for very small elastic deformations."
-}
-},
-{
-"cardId": "NEW_VOLUME_STRAIN",
-"originalOrder": 5,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Essential to complete the triad of strain formulas.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "strain", "neet", "jee", "class-11"],
-"order": 7,
-"heading": "Volume Strain",
-"formula": "\\varepsilon_v = \\frac{\\Delta V}{V}",
-"description": "Mathematical expression for Volume Strain, measuring the fractional change in volume under hydraulic stress.",
-"derivation": "**Variables & Units:**\n- **$\\varepsilon_v$**: Volume Strain (Dimensionless)\n- **$\\Delta V$**: Change in volume (m³)\n- **$V$**: Original volume (m³)\n\n**Note:** Volume strain occurs without any change in the geometric shape of the body."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d372",
-"originalOrder": 6,
-"originalHeading": "Hooke's Law",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Emphasized empirical nature"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "elasticity", "neet", "jee", "class-11"],
-"order": 8,
-"heading": "Hooke's Law",
-"formula": "\\text{Stress} = k \\cdot \\text{Strain}",
-"description": "Mathematical statement of Hooke's Law relating stress and strain.",
-"derivation": "**Variables & Units:**\n- **$k$**: Modulus of Elasticity (N/m² or Pa)\n\n**Validity Conditions:**\n- Hooke's Law is valid **strictly for small deformations** (representing the linear, proportional region of a stress-strain curve) .\n- It is an empirical observation, not a universal fundamental law, and is completely disobeyed by materials like elastomers."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d373",
-"originalOrder": 7,
-"originalHeading": "Proportional Limit vs. Elastic Limit",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified region boundaries", "Added mnemonic"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "stress-strain", "neet", "jee", "class-11"],
-"order": 9,
-"heading": "Proportional Limit vs. Elastic Limit",
-"question": "On a typical metal stress-strain curve, what is the critical difference between the Proportional Limit and the Elastic Limit (Yield Point)? ",
-"back": "### Proportional Limit\n- The region where stress is strictly, linearly proportional to strain .\n- **Hooke's law is perfectly obeyed** in this region.\n\n### Elastic Limit (Yield Point)\n- The maximum absolute stress a material can withstand and still fully regain its original dimensions when the external load is removed .\n\n**Crucial Distinction:** In the narrow zone *between* the Proportional Limit and the Elastic Limit, the curve is **not linear** (Hooke's law fails), but the material remains **fully elastic** and will not suffer permanent deformation.",
-"mnemonic": "Proportional = Perfect Hooke; Elastic = Bends but Bounces Back."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d374",
-"originalOrder": 8,
-"originalHeading": "Permanent Set & Plastic Deformation",
-"action": "MODIFIED",
-"modificationsSummary": ["Structured bullet points", "Clarified graphical trace"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "plasticity", "neet", "jee", "class-11"],
-"order": 10,
-"heading": "Permanent Set & Plastic Deformation",
-"question": "What happens if a material is loaded past its yield point and the load is subsequently removed? ",
-"back": "When a material is loaded beyond the yield point, it enters the plastic region:\n1. Strain begins to increase rapidly even for minute increments in stress.\n2. If the load is removed, the body **fails to regain its original dimensions**.\n3. Graphically, the unloading curve traces a path parallel to the initial linear region but intersects the X-axis (Strain axis) at a non-zero value.\n4. This residual, irreversible strain at zero stress is defined as the **Permanent Set**, marking permanent **Plastic Deformation**."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d375",
-"originalOrder": 9,
-"originalHeading": "Ductile vs. Brittle Materials",
-"action": "MODIFIED",
-"modificationsSummary": ["Bolded key distinguishing metrics"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "materials", "neet", "jee", "class-11"],
-"order": 11,
-"heading": "Ductile vs. Brittle Stress-Strain Curves",
-"question": "How do you distinguish a ductile material from a brittle material solely by observing the distance between the Ultimate Tensile Strength (UTS) and the Fracture Point on a stress-strain curve? ",
-"back": "### Brittle Materials\n- The Ultimate Tensile Strength (peak of the curve) and the Fracture Point are **very close together**. \n- The material cannot absorb much plastic deformation and snaps almost immediately after reaching its maximum strength. *(Examples: Glass, High-Carbon Cast Iron)*\n\n### Ductile Materials\n- These two points are **far apart**, indicating a broad plastic region.\n- The material can undergo extensive, sustained plastic deformation before breaking. *(Examples: Copper, Silver, Aluminum)* "
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d376",
-"originalOrder": 10,
-"originalHeading": "Elastomers: The Exceptions",
-"action": "MODIFIED",
-"modificationsSummary": ["Refined explanation of elastomeric bounds"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CASE_STUDY",
-"tags": ["science", "physics", "elastomers", "neet", "jee", "class-11"],
-"order": 12,
-"heading": "Elastomers: Non-Hookean Elasticity",
-"question": "What makes the stress-strain behavior of elastomers (like vulcanized rubber or aortic tissue) fundamentally different from typical metals? ",
-"back": "Elastomers possess three unique mechanical properties:\n1. **Massive Elastic Limit:** They can be stretched to several times their original, unstressed length and still completely revert to their original shape.\n2. **Non-Hookean:** Their stress-strain curve is highly non-linear. They **do not obey Hooke's Law** for the vast majority of their elastic stretching region.\n3. **No Plastic Region:** Unlike metals, elastomers have no well-defined yield point leading to a plastic zone. They stretch purely elastically until they fracture and snap."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d377",
-"originalOrder": 11,
-"originalHeading": "Young's Modulus ($Y$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Standardized LaTeX"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "modulus", "neet", "jee", "class-11"],
-"order": 13,
-"heading": "Young's Modulus ($Y$)",
-"formula": "Y = \\frac{\\sigma}{\\varepsilon_l} = \\frac{F \\cdot L}{A \\cdot \\Delta L}",
-"description": "Formula for Young's Modulus, measuring the resistance of a solid to longitudinal deformation.",
-"derivation": "**Variables & Units:**\n- **$Y$**: Young's Modulus (N/m² or Pa)\n- **$F$**: Applied longitudinal force (N)\n- **$L$**: Original length (m)\n- **$A$**: Cross-sectional area (m²)\n- **$\\Delta L$**: Change in length (m)\n\n**Significance:** Valid **only for solid materials**. It directly indicates longitudinal stiffness; a material with a high $Y$ requires immense force to achieve a tiny elongation.",
-"mnemonic": "Y = FL / A(Delta L)"
-}
-},
-{
-"cardId": "NEW_SEARLES_APPARATUS",
-"originalOrder": 11,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Highly tested experimental setup in JEE/NEET missing from the original deck.",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": ["science", "physics", "experiment", "neet", "jee", "class-11"],
-"order": 14,
-"heading": "Searle's Apparatus Experiment",
-"question": "What is the primary purpose of Searle's apparatus in a physics laboratory, and how does it account for temperature-induced errors?",
-"back": "### Purpose\nSearle's apparatus is experimentally used to determine the **Young's Modulus ($Y$)** of a material in the form of a wire.\n\n### Mechanism & Error Correction\n- The apparatus uses two identical long wires suspended from the same rigid support: a **Reference wire** and an **Experimental wire**.\n- **Thermal Correction:** Because both wires are made of the exact same material and suspended in the same environment, any thermal expansion due to temperature changes affects both equally. The micrometer spirit level only measures *relative* elongation caused by the suspended weights, thereby naturally canceling out thermal expansion errors."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d378",
-"originalOrder": 12,
-"originalHeading": "Steel vs. Rubber Elasticity",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified pedagogical definition of elasticity"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "elasticity", "neet", "jee", "class-11"],
-"order": 15,
-"heading": "Steel vs. Rubber Elasticity",
-"question": "From a strict physics perspective, which material is more 'elastic': steel or rubber? Justify using Young's Modulus.",
-"back": "**Steel is MORE elastic than Rubber.** \n\n### Scientific Reasoning:\n1. In physics, 'elasticity' measures a material's capacity to **resist deformation** and quickly regain its original state, not simply how easily it stretches.\n2. If you apply the exact same deforming force ($F$) to a steel wire and a rubber string of identical dimensions, **steel undergoes a drastically smaller strain (elongation)**.\n3. Since Young's Modulus is defined as $Y = \\frac{\\text{Stress}}{\\text{Strain}}$, a smaller strain denominator yields a **much higher Young's Modulus ($Y$)** for steel.",
-"mnemonic": "Sakhth = Steel = Superior Elasticity "
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d379",
-"originalOrder": 13,
-"originalHeading": "Shear Modulus / Modulus of Rigidity ($G$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Fixed mathematical variables"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "modulus", "neet", "jee", "class-11"],
-"order": 16,
-"heading": "Shear Modulus / Modulus of Rigidity ($G$)",
-"formula": "G = \\frac{\\sigma_s}{\\varepsilon_s} = \\frac{F}{A \\cdot \\theta} = \\frac{F \\cdot L}{A \\cdot \\Delta x}",
-"description": "Formula for Shear Modulus ($G$), representing a material's resistance to shape-changing shear forces.",
-"derivation": "**Variables & Units:**\n- **$G$** (often $\\eta$): Modulus of Rigidity (N/m² or Pa)\n- **$F$**: Tangential deforming force (N)\n- **$A$**: Area of the face parallel to the applied force (m²)\n- **$\\theta$**: Shearing strain (radians)\n\n**Note:** Valid strictly for **solids**. Generally, $G$ is smaller than Young's Modulus, often mathematically approximated as $G \\approx \\frac{Y}{3}$ for many isotropic materials."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d37a",
-"originalOrder": 14,
-"originalHeading": "Bulk Modulus ($B$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Clarified significance of the negative sign"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "modulus", "neet", "jee", "class-11"],
-"order": 17,
-"heading": "Bulk Modulus ($B$)",
-"formula": "B = - \\frac{p}{\\frac{\\Delta V}{V}}",
-"description": "Equation for Bulk Modulus, representing a material's resistance to uniform volumetric compression.",
-"derivation": "**Variables & Units:**\n- **$B$**: Bulk Modulus (N/m² or Pa)\n- **$p$**: Applied hydraulic stress or change in pressure (Pa)\n- **$\\Delta V$**: Change in volume (m³)\n- **$V$**: Original volume (m³)\n\n**The Negative Sign:** An increase in external pressure ($+p$) inherently causes a *decrease* in volume ($-\\Delta V$). The negative sign is manually inserted to ensure the Bulk Modulus $B$ evaluates to a positive absolute quantity. Applies to Solids, Liquids, and Gases."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d37b",
-"originalOrder": 15,
-"originalHeading": "Compressibility ($k$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Combined concepts"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "compressibility", "neet", "jee", "class-11"],
-"order": 18,
-"heading": "Compressibility ($k$)",
-"formula": "k = \\frac{1}{B} = - \\frac{1}{p} \\cdot \\frac{\\Delta V}{V}",
-"description": "Compressibility is defined mathematically as the reciprocal of the Bulk Modulus.",
-"derivation": "**Variables & Units:**\n- **$k$**: Compressibility (Pa⁻¹ or m²/N)\n- **$B$**: Bulk Modulus (Pa)\n\n**States of Matter:**\n- **Gases** possess the highest compressibility (roughly 10⁶ times more compressible than solids) due to weak intermolecular forces and large intermolecular spacing .\n- **Solids** are the least compressible due to rigid inter-atomic coupling."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d37c",
-"originalOrder": 16,
-"originalHeading": "Poisson's Ratio ($\\sigma$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Clearly listed theoretical vs practical limits"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "poisson", "neet", "jee", "class-11"],
-"order": 19,
-"heading": "Poisson's Ratio ($\\sigma$)",
-"formula": "\\sigma = \\frac{\\text{Lateral Strain}}{\\text{Longitudinal Strain}} = - \\frac{\\Delta d / d}{\\Delta L / L}",
-"description": "Formula for Poisson's ratio, quantifying the tendency of a material to contract laterally when stretched longitudinally.",
-"derivation": "**Variables & Units:**\n- **$\\sigma$**: Poisson's Ratio (**Dimensionless / Unitless**)\n- **$\\Delta d$**: Change in diameter (lateral strain component)\n- **$\\Delta L$**: Change in length (longitudinal strain component)\n\nThe negative sign accounts for the physical reality that elongation ($+\\Delta L$) results in contraction ($-\\Delta d$).\n\n**Limits:**\n- **Theoretical range:** -1.0 to 0.5\n- **Practical range (most materials):** 0.0 to 0.5"
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d394",
-"originalOrder": 21,
-"originalHeading": "Relations Between Elastic Constants",
-"action": "MERGED",
-"modificationsSummary": ["Merged original cards 21, 29, 30 into a single high-yield master card"],
-"vettingNotes": "Consolidated inter-relationships of Y, K, G, and sigma to prevent flashcard bloat and improve pattern recognition for JEE/NEET numericals.",
-"cardData": {
-"type": "FORMULA",
-"classification": "MEMORY",
-"tags": ["science", "physics", "constants", "neet", "jee", "class-11"],
-"order": 20,
-"heading": "Master Relations: Elastic Constants ($Y, K, G, \\sigma$)",
-"formula": "Y = 3K(1 - 2\\sigma) \\quad \\text{and} \\quad Y = 2G(1 + \\sigma)",
-"description": "The fundamental mathematical inter-relationships between Young's ($Y$), Bulk ($K$), Shear ($G$) Moduli, and Poisson's Ratio ($\\sigma$).",
-"derivation": "By eliminating $\\sigma$ from the two primary equations above, we obtain the vital direct relation between the three moduli :\n$$Y = \\frac{9KG}{3K + G} \\quad \\text{or} \\quad \\frac{9}{Y} = \\frac{1}{K} + \\frac{3}{G}$$\n\n**Theoretical Limits Insight:** The equation $Y = 3K(1 - 2\\sigma)$ proves that $\\sigma$ cannot exceed $0.5$, because if $\\sigma > 0.5$, $Y$ would become negative, an impossibility for stable isotropic solid materials."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d37d",
-"originalOrder": 17,
-"originalHeading": "Elastic Potential Energy ($U$)",
-"action": "MERGED",
-"modificationsSummary": ["Merged original cards 17 and 18", "Combined Total Energy and Energy Density"],
-"vettingNotes": "Combining total energy and energy density reduces cognitive disconnect.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "energy", "neet", "jee", "class-11"],
-"order": 21,
-"heading": "Elastic Potential Energy & Energy Density",
-"formula": "U = \\frac{1}{2} \\cdot \\text{Stress} \\cdot \\text{Strain} \\cdot \\text{Volume} = \\frac{1}{2} F \\Delta L",
-"description": "Formulas for the total elastic potential energy ($U$) stored in a stretched wire, and the energy density ($u$) per unit volume.",
-"derivation": "Work is done against internal inter-atomic restoring forces during deformation, storing energy .\n\n**Total Elastic Potential Energy ($U$):**\n$U = \\int_0^{\\Delta L} F \\, dl = \\frac{1}{2} F \\Delta L$\n\n**Elastic Energy Density ($u$):**\nEnergy stored per unit volume ($U/V$):\n$u = \\frac{1}{2} \\cdot \\text{Stress} \\cdot \\text{Strain} = \\frac{1}{2} Y \\varepsilon^2$ "
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d392_SPLIT_1",
-"originalOrder": 27,
-"originalHeading": "Elastic Fatigue & Elastic After-Effect",
-"action": "SPLIT",
-"modificationsSummary": ["Split distinct phenomena into separate cards"],
-"vettingNotes": "Card contained two distinctly different temporal effects. Split into Fatigue and After-Effect.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "fatigue", "neet", "jee", "class-11"],
-"order": 22,
-"heading": "Elastic Fatigue",
-"question": "What is 'Elastic Fatigue', and why does it explain the need to declare bridges unsafe after decades of use? ",
-"back": "**Elastic Fatigue** is the property by virtue of which the behavior of an elastic body becomes progressively **less elastic** under the action of repeated, alternating deforming forces.\n\nOver long periods, materials subjected to cyclic stresses (like suspension bridges bearing daily alternating traffic loads) lose their structural elastic strength. This cumulative degradation increases the risk of sudden catastrophic yielding or collapse."
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d392_SPLIT_2",
-"originalOrder": 27,
-"originalHeading": "Elastic Fatigue & Elastic After-Effect",
-"action": "SPLIT",
-"modificationsSummary": ["Created dedicated card for After-Effect"],
-"vettingNotes": "Second half of the split card.",
-"cardData": {
-"type": "STANDARD",
-"classification": "OBSERVATION",
-"tags": ["science", "physics", "after-effect", "neet", "jee", "class-11"],
-"order": 23,
-"heading": "Elastic After-Effect",
-"question": "What is the 'Elastic After-Effect', and how does it influence the choice of materials used in sensitive galvanometers? ",
-"back": "The **Elastic After-Effect** (or Elastic Relaxation) is the **temporary time delay** experienced by a material in fully returning to its original unstressed configuration after a deforming force is suddenly removed.\n\n**Application:** Sensitive instruments like moving-coil galvanometers require suspensions that rapidly return to the zero mark. Materials like quartz and phosphor bronze are chosen because they exhibit an almost negligible elastic after-effect."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d37f",
-"originalOrder": 19,
-"originalHeading": "Thermal Stress",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "thermodynamics", "stress", "neet", "jee", "class-11"],
-"order": 24,
-"heading": "Thermal Stress",
-"formula": "\\sigma_{thermal} = \\frac{F}{A} = Y \\alpha \\Delta T",
-"description": "Calculates the Thermal Stress developed in a constrained rigid metal rod subjected to a change in temperature.",
-"derivation": "1. Natural thermal expansion if unconstrained: $\\Delta L = L \\alpha \\Delta T$\n2. The supports forcibly prevent this, causing a Thermal Strain: $\\varepsilon = \\frac{\\Delta L}{L} = \\alpha \\Delta T$\n3. Multiplying by Young's Modulus yields Thermal Stress: $\\sigma = Y \\cdot \\varepsilon = Y \\alpha \\Delta T$\n\n**Key Condition:** Stress develops **only** because rigid supports prevent natural expansion/contraction. If the rod were free to expand, the thermal stress would remain exactly zero."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d380",
-"originalOrder": 20,
-"originalHeading": "Equivalent Spring Constant of a Wire",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Explicitly stated Hooke's comparison"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "springs", "neet", "jee", "class-11"],
-"order": 25,
-"heading": "Equivalent Spring Constant of an Elastic Wire",
-"formula": "k = \\frac{Y A}{L}",
-"description": "Formula deriving the equivalent spring constant ($k$) for an elastic solid wire that obeys Hooke's Law.",
-"derivation": "**Comparison Derivation:**\n1. Hooke's Law for a mechanical spring: $F = k \\cdot \\Delta L$\n2. Hooke's Law rearranged for an elastic solid: $F = \\left(\\frac{Y A}{L}\\right) \\cdot \\Delta L$\n3. By direct mathematical comparison, the equivalent constant is $k = \\frac{Y A}{L}$.\n\n*(Where $Y$ is Young's Modulus, $A$ is cross-sectional area, and $L$ is unstretched length).*"
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d393",
-"originalOrder": 28,
-"originalHeading": "Elongation Due to Self-Weight",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Fixed LaTeX syntax"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "elongation", "neet", "jee", "class-11"],
-"order": 26,
-"heading": "Elongation Due to Self-Weight",
-"formula": "\\Delta L = \\frac{M g L}{2 A Y} = \\frac{\\rho g L^2}{2 Y}",
-"description": "Formula for the elongation of a uniform heavy wire suspended vertically, stretching entirely under its own weight.",
-"derivation": "**Variables & Units:**\n- **$\\Delta L$**: Change in length (m)\n- **$M$**: Total mass of the wire (kg)\n- **$L$**: Original length (m)\n- **$A$**: Cross-sectional area (m²)\n- **$Y$**: Young's Modulus (Pa)\n- **$\\rho$**: Density of the material (kg/m³)\n\n**Key Insight:** A uniform wire stretches under its own weight by exactly **half the amount** it would stretch if an equivalent external mass $M$ were hung from the bottom of a massless wire."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d383",
-"originalOrder": 23,
-"originalHeading": "Depression of a Beam (Bending)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "engineering", "neet", "jee", "class-11"],
-"order": 27,
-"heading": "Depression of a Beam (Bending)",
-"formula": "\\delta = \\frac{W l^3}{4 b d^3 Y}",
-"description": "Calculates the depression ($\\delta$) at the center of a rectangular beam loaded at its midpoint.",
-"derivation": "**Variables & Units:**\n- **$\\delta$**: Depression or Sag at the center (m)\n- **$W$**: Load applied (N)\n- **$l$**: Length of span (m)\n- **$b$**: Breadth of beam (m)\n- **$d$**: Depth or Thickness of beam (m)\n- **$Y$**: Young's Modulus (N/m²)\n\n**Engineering Implication:** Depression $\\delta$ is inversely proportional to $d^3$. Thus, to minimize bending, **increasing the depth ($d$) is far more effective** than increasing the breadth ($b$)."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d384",
-"originalOrder": 24,
-"originalHeading": "The 'I-Shape' Beam Advantage",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved pedagogical phrasing"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "engineering", "neet", "jee", "class-11"],
-"order": 28,
-"heading": "The 'I-Shape' Beam Advantage",
-"question": "In civil engineering, why are girders and support beams given an 'I' shaped cross-section instead of a simple deep rectangular cross-section?",
-"back": "### The 'I-Beam' Strategy\n- **Depth Requirement:** To prevent vertical sagging under heavy loads, a beam needs significant depth ($d$).\n- **The Buckling Problem:** However, a profoundly deep but thin rectangular bar is highly prone to **buckling** (bending sideways and twisting under moving loads).\n- **The Solution:** An **I-shape** provides a broad top and bottom surface (flanges) for stability against buckling. It maintains the required vertical depth to prevent sagging while significantly **reducing the material weight and cost**."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d382",
-"originalOrder": 22,
-"originalHeading": "Design of Crane Ropes",
-"action": "MODIFIED",
-"modificationsSummary": ["Structured reasoning into clear points"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "engineering", "neet", "jee", "class-11"],
-"order": 29,
-"heading": "Design of Crane Ropes",
-"question": "Why are the heavy-duty ropes used in cranes made of multiple thin steel wires braided together rather than a single thick solid steel rod?",
-"back": "### Engineering Reasoning\n1. **Flexibility:** A single thick rod of the required radius would act as a rigid pole, lacking the flexibility needed to smoothly bend over crane pulleys.\n2. **Strength & Reliability:** Braiding thin wires distributes the massive load. If one micro-wire suffers a fracture, the entire rope doesn't immediately snap, preventing catastrophic failure.\n3. **Yield Limit:** The total combined cross-sectional area is kept high enough to ensure the internal stress ($W/A$) never exceeds the material's Yield Strength, typically incorporating a massive safety margin (e.g., a factor of 10)."
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d391",
-"originalOrder": 26,
-"originalHeading": "Breaking Stress vs. Breaking Force",
-"action": "MODIFIED",
-"modificationsSummary": ["Added explicit formula for Breaking Force"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "stress", "neet", "jee", "class-11"],
-"order": 30,
-"heading": "Breaking Stress vs. Breaking Force",
-"question": "What is the fundamental difference between Breaking Stress and Breaking Force, and how is the 'Safety Factor' defined?",
-"back": "### The Distinction\n- **Breaking Stress (Ultimate Strength):** This is an intrinsic **material property** (e.g., steel has a fixed breaking stress). It remains entirely **constant** regardless of the wire's length or cross-sectional area.\n- **Breaking Force:** This is the actual physical load (in Newtons) required to snap the wire. It depends directly on the thickness of the wire: \n  *Breaking Force = Breaking Stress × Cross-sectional Area*\n  It is completely independent of the wire's length.\n\n### Safety Factor\n**Safety Factor = Breaking Stress / Working Stress**\nIt is an engineering design metric ensuring structures operate well below the limit where they might fail."
-}
-},
-{
-"cardId": "69ab3777fc9152e2eef8d385",
-"originalOrder": 25,
-"originalHeading": "Maximum Height of Mountains",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "geophysics", "neet", "jee", "class-11"],
-"order": 31,
-"heading": "Maximum Height of Mountains",
-"formula": "h \\rho g \\le \\text{Critical Shearing Stress}",
-"description": "The mathematical condition that limits the maximum vertical height of a mountain on Earth based on the critical shearing stress of base rocks.",
-"derivation": "**Variables & Units:**\n- **$h$**: Maximum height of the mountain (m)\n- **$\\rho$**: Density of the rock (kg/m³)\n- **$g$**: Acceleration due to gravity (m/s²)\n\n**Physical Constraint:** The base of a mountain is not uniformly compressed; its sides are free. This structural geometry generates a massive **shear component** at the base approximately equal to $h \\rho g$. If $h \\rho g$ exceeds the elastic limit of rocks (approx $30 \\times 10^7$ N/m²), the rocks will undergo plastic flow, collapsing the mountain structure. This limits Earth's mountains to roughly ~10 km."
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d396",
-"originalOrder": 31,
-"originalHeading": "Isothermal vs. Adiabatic Bulk Modulus",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Fixed mathematical variables"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "thermodynamics", "modulus", "neet", "jee", "class-11"],
-"order": 32,
-"heading": "Isothermal vs. Adiabatic Bulk Modulus",
-"formula": "E_T = P \\quad \\text{and} \\quad E_S = \\gamma P",
-"description": "Formulas denoting the Isothermal Bulk Modulus ($E_T$) and Adiabatic Bulk Modulus ($E_S$) of an ideal gas.",
-"derivation": "**Variables & Units:**\n- **$E_T$**: Isothermal Bulk Modulus (Pa)\n- **$E_S$**: Adiabatic Bulk Modulus (Pa)\n- **$P$**: Pressure of the gas (Pa)\n- **$\\gamma$**: Ratio of specific heats ($C_p / C_v$)\n\n**Key Insight:** Solids and liquids possess a single Bulk modulus because their volume doesn't change significantly with temperature during compression. However, gases have two distinct moduli depending on the thermodynamic process. The **adiabatic elasticity is $\\gamma$ times the isothermal elasticity** ($E_S = \\gamma E_T$)."
-}
-},
-{
-"cardId": "69ab379ffc9152e2eef8d397",
-"originalOrder": 32,
-"originalHeading": "Change in Density Under Bulk Compression",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "density", "neet", "jee", "class-11"],
-"order": 33,
-"heading": "Change in Density Under Bulk Compression",
-"formula": "\\rho' = \\frac{\\rho}{1 - \\frac{\\Delta P}{B}} \\approx \\rho \\left(1 + \\frac{\\Delta P}{B}\\right)",
-"description": "Calculates a fluid's new density when subjected to an increase in depth or pressure.",
-"derivation": "**Variables & Units:**\n- **$\\rho'$**: New density at depth (kg/m³)\n- **$\\rho$**: Original density at surface (kg/m³)\n- **$\\Delta P$**: Increase in pressure / Hydraulic stress (Pa)\n- **$B$**: Bulk Modulus (Pa)\n\n**Mechanism:** As an object is taken deep into the ocean, hydraulic pressure increases, causing volume to decrease. Since mass remains constant ($M = \\rho V$), the **density increases**. The approximation formulation is valid when $\\Delta P \\ll B$, using binomial expansion."
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"action": "SYSTEM",
-"cardData": null
-}
-]
+  "deckId": "858554b6-e59e-40d9-852d-3a05f4dc52d3",
+  "cards": [
+    {
+      "cardId": "dfa02b93-6324-4907-9c59-b5ebc45b8d85",
+      "originalOrder": 1,
+      "originalHeading": "Elasticity vs. Plasticity",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized markdown",
+        "Added citations inline"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "elasticity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 1,
+        "heading": "Elasticity vs. Plasticity",
+        "question": "What defines the fundamental difference between elastic and plastic bodies when a deforming force is removed, and what are ideal examples of each? ",
+        "back": "### Fundamental Difference\n- **Elasticity**: The property by which a body tends to completely regain its original size and shape when the applied force is removed .\n- **Plasticity**: The property where a body has no gross tendency to regain its previous shape, resulting in permanent deformation .\n\n### Ideal Examples\n- **Perfectly Elastic**: Quartz and phosphor bronze .\n- **Perfectly Plastic**: Putty, mud, or paraffin wax."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 1,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Fills the pedagogical gap for the ideal opposite of a perfectly elastic/plastic body.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "elasticity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 2,
+        "heading": "Perfectly Rigid Body",
+        "question": "What is a 'perfectly rigid body' in the context of solid mechanics, and does it exist in reality?",
+        "back": "A **perfectly rigid body** is an idealized solid object in which the distance between any two internal points remains absolutely constant, regardless of the magnitude of the external deforming force applied.\n\nIn reality, no material is perfectly rigid; all solid bodies undergo some degree of elastic or plastic deformation when a sufficient force is applied."
+      }
+    },
+    {
+      "cardId": "ee9932d0-8080-485d-83ec-f1b4b7f68a4a",
+      "originalOrder": 2,
+      "originalHeading": "Stress Formula & Dimensions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Added strict LaTeX",
+        "Included tensor justification"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "stress",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 3,
+        "heading": "Stress Formula & Dimensions",
+        "formula": "\\sigma = \\frac{F}{A}",
+        "description": "Mathematical formulation of Stress, representing the internal restoring force developed per unit cross-sectional area.",
+        "derivation": "**Variables & Units:**\n- **$\\sigma$**: Stress (N/m² or Pascal)\n- **$F$**: Internal restoring force (N)\n- **$A$**: Cross-sectional area (m²)\n\n**Dimensional Formula:** [ML⁻¹T⁻²]\n\n**Key Concept:** Stress is a **Tensor** quantity. Unlike force (a vector), stress cannot be assigned a single specific direction because it acts over a specific plane area."
+      }
+    },
+    {
+      "cardId": "73e307fe-51be-4a98-ab14-b02fcbe8ee0c",
+      "originalOrder": 3,
+      "originalHeading": "Types of Stress and Corresponding Strains",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved structural chunking",
+        "Clarified strain results"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CLASSIFICATION",
+        "tags": [
+          "science",
+          "physics",
+          "stress",
+          "strain",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 4,
+        "heading": "Types of Stress & Corresponding Strains",
+        "question": "What are the three fundamental types of stress a solid can experience, and what specific type of strain does each produce? ",
+        "back": "### 1. Longitudinal Stress (Tensile/Compressive)\n- **Cause:** Force applied normal (perpendicular) to the cross-sectional area .\n- **Produces:** **Longitudinal Strain** (change in length) .\n\n### 2. Tangential/Shearing Stress\n- **Cause:** Force applied parallel to the cross-sectional area .\n- **Produces:** **Shearing Strain** (relative displacement of opposite faces, altering the geometric shape) .\n\n### 3. Hydraulic (Volume) Stress\n- **Cause:** Uniform pressure applied normal to the surface at every point (e.g., submerged in a fluid) .\n- **Produces:** **Volume Strain** (change in volume without altering the fundamental geometrical shape)."
+      }
+    },
+    {
+      "cardId": "13af7668-7807-4af8-9fc9-ab94172b39a8",
+      "originalOrder": 4,
+      "originalHeading": "Longitudinal Strain",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Fixed LaTeX formatting"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "strain",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 5,
+        "heading": "Longitudinal Strain",
+        "formula": "\\varepsilon_l = \\frac{\\Delta L}{L}",
+        "description": "Mathematical expression for Longitudinal Strain, quantifying deformation along the length of an object.",
+        "derivation": "**Variables & Units:**\n- **$\\varepsilon_l$**: Longitudinal Strain (Dimensionless)\n- **$\\Delta L$**: Change in length (m)\n- **$L$**: Original length (m)\n\n**Conditions:** This formula is equally applicable to tensile strain (elongation) and compressive strain (shortening)."
+      }
+    },
+    {
+      "cardId": "98f0e496-9e61-47ad-b96b-78cd5397a20e",
+      "originalOrder": 5,
+      "originalHeading": "Shearing Strain",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Added precise angle approximation condition"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "strain",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 6,
+        "heading": "Shearing Strain",
+        "formula": "\\varepsilon_s = \\frac{\\Delta x}{L} = \\tan \\theta \\approx \\theta",
+        "description": "Formula for Shearing Strain produced by a tangential force, measured as an angular displacement.",
+        "derivation": "**Variables & Units:**\n- **$\\varepsilon_s$**: Shearing Strain (Dimensionless)\n- **$\\Delta x$**: Relative displacement of the upper face with respect to the lower stationary face (m)\n- **$L$**: Vertical height or perpendicular distance between the faces (m)\n- **$\\theta$**: Angular displacement from the vertical (in radians)\n\n**Key Condition:** The approximation $\\tan \\theta \\approx \\theta$ is strictly valid only for very small elastic deformations."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 5,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Essential to complete the triad of strain formulas.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "strain",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 7,
+        "heading": "Volume Strain",
+        "formula": "\\varepsilon_v = \\frac{\\Delta V}{V}",
+        "description": "Mathematical expression for Volume Strain, measuring the fractional change in volume under hydraulic stress.",
+        "derivation": "**Variables & Units:**\n- **$\\varepsilon_v$**: Volume Strain (Dimensionless)\n- **$\\Delta V$**: Change in volume (m³)\n- **$V$**: Original volume (m³)\n\n**Note:** Volume strain occurs without any change in the geometric shape of the body."
+      }
+    },
+    {
+      "cardId": "e46fc175-1d72-469a-b9f4-a4923ffb3b6e",
+      "originalOrder": 6,
+      "originalHeading": "Hooke's Law",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Emphasized empirical nature"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "elasticity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 8,
+        "heading": "Hooke's Law",
+        "formula": "\\text{Stress} = k \\cdot \\text{Strain}",
+        "description": "Mathematical statement of Hooke's Law relating stress and strain.",
+        "derivation": "**Variables & Units:**\n- **$k$**: Modulus of Elasticity (N/m² or Pa)\n\n**Validity Conditions:**\n- Hooke's Law is valid **strictly for small deformations** (representing the linear, proportional region of a stress-strain curve) .\n- It is an empirical observation, not a universal fundamental law, and is completely disobeyed by materials like elastomers."
+      }
+    },
+    {
+      "cardId": "73fc6b39-539e-4440-9deb-f4de1a08f9ae",
+      "originalOrder": 7,
+      "originalHeading": "Proportional Limit vs. Elastic Limit",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified region boundaries",
+        "Added mnemonic"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "stress-strain",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 9,
+        "heading": "Proportional Limit vs. Elastic Limit",
+        "question": "On a typical metal stress-strain curve, what is the critical difference between the Proportional Limit and the Elastic Limit (Yield Point)? ",
+        "back": "### Proportional Limit\n- The region where stress is strictly, linearly proportional to strain .\n- **Hooke's law is perfectly obeyed** in this region.\n\n### Elastic Limit (Yield Point)\n- The maximum absolute stress a material can withstand and still fully regain its original dimensions when the external load is removed .\n\n**Crucial Distinction:** In the narrow zone *between* the Proportional Limit and the Elastic Limit, the curve is **not linear** (Hooke's law fails), but the material remains **fully elastic** and will not suffer permanent deformation.",
+        "mnemonic": "Proportional = Perfect Hooke; Elastic = Bends but Bounces Back."
+      }
+    },
+    {
+      "cardId": "267a4c1e-db10-48c1-811a-30f8440e1bd7",
+      "originalOrder": 8,
+      "originalHeading": "Permanent Set & Plastic Deformation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Structured bullet points",
+        "Clarified graphical trace"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "plasticity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 10,
+        "heading": "Permanent Set & Plastic Deformation",
+        "question": "What happens if a material is loaded past its yield point and the load is subsequently removed? ",
+        "back": "When a material is loaded beyond the yield point, it enters the plastic region:\n1. Strain begins to increase rapidly even for minute increments in stress.\n2. If the load is removed, the body **fails to regain its original dimensions**.\n3. Graphically, the unloading curve traces a path parallel to the initial linear region but intersects the X-axis (Strain axis) at a non-zero value.\n4. This residual, irreversible strain at zero stress is defined as the **Permanent Set**, marking permanent **Plastic Deformation**."
+      }
+    },
+    {
+      "cardId": "b864736e-4d3e-464c-a45b-1a0b61d654d6",
+      "originalOrder": 9,
+      "originalHeading": "Ductile vs. Brittle Materials",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Bolded key distinguishing metrics"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "materials",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 11,
+        "heading": "Ductile vs. Brittle Stress-Strain Curves",
+        "question": "How do you distinguish a ductile material from a brittle material solely by observing the distance between the Ultimate Tensile Strength (UTS) and the Fracture Point on a stress-strain curve? ",
+        "back": "### Brittle Materials\n- The Ultimate Tensile Strength (peak of the curve) and the Fracture Point are **very close together**. \n- The material cannot absorb much plastic deformation and snaps almost immediately after reaching its maximum strength. *(Examples: Glass, High-Carbon Cast Iron)*\n\n### Ductile Materials\n- These two points are **far apart**, indicating a broad plastic region.\n- The material can undergo extensive, sustained plastic deformation before breaking. *(Examples: Copper, Silver, Aluminum)* "
+      }
+    },
+    {
+      "cardId": "f25f6854-095f-49c3-8100-36cfab7273c6",
+      "originalOrder": 10,
+      "originalHeading": "Elastomers: The Exceptions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined explanation of elastomeric bounds"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CASE_STUDY",
+        "tags": [
+          "science",
+          "physics",
+          "elastomers",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 12,
+        "heading": "Elastomers: Non-Hookean Elasticity",
+        "question": "What makes the stress-strain behavior of elastomers (like vulcanized rubber or aortic tissue) fundamentally different from typical metals? ",
+        "back": "Elastomers possess three unique mechanical properties:\n1. **Massive Elastic Limit:** They can be stretched to several times their original, unstressed length and still completely revert to their original shape.\n2. **Non-Hookean:** Their stress-strain curve is highly non-linear. They **do not obey Hooke's Law** for the vast majority of their elastic stretching region.\n3. **No Plastic Region:** Unlike metals, elastomers have no well-defined yield point leading to a plastic zone. They stretch purely elastically until they fracture and snap."
+      }
+    },
+    {
+      "cardId": "0b8bf9a3-bba8-4977-9c4d-356534e4a406",
+      "originalOrder": 11,
+      "originalHeading": "Young's Modulus ($Y$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Standardized LaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "modulus",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 13,
+        "heading": "Young's Modulus ($Y$)",
+        "formula": "Y = \\frac{\\sigma}{\\varepsilon_l} = \\frac{F \\cdot L}{A \\cdot \\Delta L}",
+        "description": "Formula for Young's Modulus, measuring the resistance of a solid to longitudinal deformation.",
+        "derivation": "**Variables & Units:**\n- **$Y$**: Young's Modulus (N/m² or Pa)\n- **$F$**: Applied longitudinal force (N)\n- **$L$**: Original length (m)\n- **$A$**: Cross-sectional area (m²)\n- **$\\Delta L$**: Change in length (m)\n\n**Significance:** Valid **only for solid materials**. It directly indicates longitudinal stiffness; a material with a high $Y$ requires immense force to achieve a tiny elongation.",
+        "mnemonic": "Y = FL / A(Delta L)"
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 11,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Highly tested experimental setup in JEE/NEET missing from the original deck.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "science",
+          "physics",
+          "experiment",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 14,
+        "heading": "Searle's Apparatus Experiment",
+        "question": "What is the primary purpose of Searle's apparatus in a physics laboratory, and how does it account for temperature-induced errors?",
+        "back": "### Purpose\nSearle's apparatus is experimentally used to determine the **Young's Modulus ($Y$)** of a material in the form of a wire.\n\n### Mechanism & Error Correction\n- The apparatus uses two identical long wires suspended from the same rigid support: a **Reference wire** and an **Experimental wire**.\n- **Thermal Correction:** Because both wires are made of the exact same material and suspended in the same environment, any thermal expansion due to temperature changes affects both equally. The micrometer spirit level only measures *relative* elongation caused by the suspended weights, thereby naturally canceling out thermal expansion errors."
+      }
+    },
+    {
+      "cardId": "c99ca10c-150b-4fe5-a7b0-d39b8277a9f6",
+      "originalOrder": 12,
+      "originalHeading": "Steel vs. Rubber Elasticity",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified pedagogical definition of elasticity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "elasticity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 15,
+        "heading": "Steel vs. Rubber Elasticity",
+        "question": "From a strict physics perspective, which material is more 'elastic': steel or rubber? Justify using Young's Modulus.",
+        "back": "**Steel is MORE elastic than Rubber.** \n\n### Scientific Reasoning:\n1. In physics, 'elasticity' measures a material's capacity to **resist deformation** and quickly regain its original state, not simply how easily it stretches.\n2. If you apply the exact same deforming force ($F$) to a steel wire and a rubber string of identical dimensions, **steel undergoes a drastically smaller strain (elongation)**.\n3. Since Young's Modulus is defined as $Y = \\frac{\\text{Stress}}{\\text{Strain}}$, a smaller strain denominator yields a **much higher Young's Modulus ($Y$)** for steel.",
+        "mnemonic": "Sakhth = Steel = Superior Elasticity "
+      }
+    },
+    {
+      "cardId": "5834c4e9-2059-4e71-8fe5-a6814753fade",
+      "originalOrder": 13,
+      "originalHeading": "Shear Modulus / Modulus of Rigidity ($G$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Fixed mathematical variables"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "modulus",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 16,
+        "heading": "Shear Modulus / Modulus of Rigidity ($G$)",
+        "formula": "G = \\frac{\\sigma_s}{\\varepsilon_s} = \\frac{F}{A \\cdot \\theta} = \\frac{F \\cdot L}{A \\cdot \\Delta x}",
+        "description": "Formula for Shear Modulus ($G$), representing a material's resistance to shape-changing shear forces.",
+        "derivation": "**Variables & Units:**\n- **$G$** (often $\\eta$): Modulus of Rigidity (N/m² or Pa)\n- **$F$**: Tangential deforming force (N)\n- **$A$**: Area of the face parallel to the applied force (m²)\n- **$\\theta$**: Shearing strain (radians)\n\n**Note:** Valid strictly for **solids**. Generally, $G$ is smaller than Young's Modulus, often mathematically approximated as $G \\approx \\frac{Y}{3}$ for many isotropic materials."
+      }
+    },
+    {
+      "cardId": "8dae810e-7a7e-47a2-badc-4cc8d0699423",
+      "originalOrder": 14,
+      "originalHeading": "Bulk Modulus ($B$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Clarified significance of the negative sign"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "modulus",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 17,
+        "heading": "Bulk Modulus ($B$)",
+        "formula": "B = - \\frac{p}{\\frac{\\Delta V}{V}}",
+        "description": "Equation for Bulk Modulus, representing a material's resistance to uniform volumetric compression.",
+        "derivation": "**Variables & Units:**\n- **$B$**: Bulk Modulus (N/m² or Pa)\n- **$p$**: Applied hydraulic stress or change in pressure (Pa)\n- **$\\Delta V$**: Change in volume (m³)\n- **$V$**: Original volume (m³)\n\n**The Negative Sign:** An increase in external pressure ($+p$) inherently causes a *decrease* in volume ($-\\Delta V$). The negative sign is manually inserted to ensure the Bulk Modulus $B$ evaluates to a positive absolute quantity. Applies to Solids, Liquids, and Gases."
+      }
+    },
+    {
+      "cardId": "905e6175-152e-415c-ad71-5974e940b776",
+      "originalOrder": 15,
+      "originalHeading": "Compressibility ($k$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Combined concepts"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "compressibility",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 18,
+        "heading": "Compressibility ($k$)",
+        "formula": "k = \\frac{1}{B} = - \\frac{1}{p} \\cdot \\frac{\\Delta V}{V}",
+        "description": "Compressibility is defined mathematically as the reciprocal of the Bulk Modulus.",
+        "derivation": "**Variables & Units:**\n- **$k$**: Compressibility (Pa⁻¹ or m²/N)\n- **$B$**: Bulk Modulus (Pa)\n\n**States of Matter:**\n- **Gases** possess the highest compressibility (roughly 10⁶ times more compressible than solids) due to weak intermolecular forces and large intermolecular spacing .\n- **Solids** are the least compressible due to rigid inter-atomic coupling."
+      }
+    },
+    {
+      "cardId": "49a3b951-932e-41a3-891f-50430cc8b688",
+      "originalOrder": 16,
+      "originalHeading": "Poisson's Ratio ($\\sigma$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Clearly listed theoretical vs practical limits"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "poisson",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 19,
+        "heading": "Poisson's Ratio ($\\sigma$)",
+        "formula": "\\sigma = \\frac{\\text{Lateral Strain}}{\\text{Longitudinal Strain}} = - \\frac{\\Delta d / d}{\\Delta L / L}",
+        "description": "Formula for Poisson's ratio, quantifying the tendency of a material to contract laterally when stretched longitudinally.",
+        "derivation": "**Variables & Units:**\n- **$\\sigma$**: Poisson's Ratio (**Dimensionless / Unitless**)\n- **$\\Delta d$**: Change in diameter (lateral strain component)\n- **$\\Delta L$**: Change in length (longitudinal strain component)\n\nThe negative sign accounts for the physical reality that elongation ($+\\Delta L$) results in contraction ($-\\Delta d$).\n\n**Limits:**\n- **Theoretical range:** -1.0 to 0.5\n- **Practical range (most materials):** 0.0 to 0.5"
+      }
+    },
+    {
+      "cardId": "8526e323-19c2-4cdb-bd07-b32ec2115c28",
+      "originalOrder": 21,
+      "originalHeading": "Relations Between Elastic Constants",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged original cards 21, 29, 30 into a single high-yield master card"
+      ],
+      "vettingNotes": "Consolidated inter-relationships of Y, K, G, and sigma to prevent flashcard bloat and improve pattern recognition for JEE/NEET numericals.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "MEMORY",
+        "tags": [
+          "science",
+          "physics",
+          "constants",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 20,
+        "heading": "Master Relations: Elastic Constants ($Y, K, G, \\sigma$)",
+        "formula": "Y = 3K(1 - 2\\sigma) \\quad \\text{and} \\quad Y = 2G(1 + \\sigma)",
+        "description": "The fundamental mathematical inter-relationships between Young's ($Y$), Bulk ($K$), Shear ($G$) Moduli, and Poisson's Ratio ($\\sigma$).",
+        "derivation": "By eliminating $\\sigma$ from the two primary equations above, we obtain the vital direct relation between the three moduli :\n$$Y = \\frac{9KG}{3K + G} \\quad \\text{or} \\quad \\frac{9}{Y} = \\frac{1}{K} + \\frac{3}{G}$$\n\n**Theoretical Limits Insight:** The equation $Y = 3K(1 - 2\\sigma)$ proves that $\\sigma$ cannot exceed $0.5$, because if $\\sigma > 0.5$, $Y$ would become negative, an impossibility for stable isotropic solid materials."
+      }
+    },
+    {
+      "cardId": "6ed08eab-e82c-4b1a-950d-12fba3e11157",
+      "originalOrder": 17,
+      "originalHeading": "Elastic Potential Energy ($U$)",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged original cards 17 and 18",
+        "Combined Total Energy and Energy Density"
+      ],
+      "vettingNotes": "Combining total energy and energy density reduces cognitive disconnect.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "energy",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 21,
+        "heading": "Elastic Potential Energy & Energy Density",
+        "formula": "U = \\frac{1}{2} \\cdot \\text{Stress} \\cdot \\text{Strain} \\cdot \\text{Volume} = \\frac{1}{2} F \\Delta L",
+        "description": "Formulas for the total elastic potential energy ($U$) stored in a stretched wire, and the energy density ($u$) per unit volume.",
+        "derivation": "Work is done against internal inter-atomic restoring forces during deformation, storing energy .\n\n**Total Elastic Potential Energy ($U$):**\n$U = \\int_0^{\\Delta L} F \\, dl = \\frac{1}{2} F \\Delta L$\n\n**Elastic Energy Density ($u$):**\nEnergy stored per unit volume ($U/V$):\n$u = \\frac{1}{2} \\cdot \\text{Stress} \\cdot \\text{Strain} = \\frac{1}{2} Y \\varepsilon^2$ "
+      }
+    },
+    {
+      "cardId": "154974f7-027e-4ea2-928a-d7a2ca146e18",
+      "originalOrder": 27,
+      "originalHeading": "Elastic Fatigue & Elastic After-Effect",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Split distinct phenomena into separate cards"
+      ],
+      "vettingNotes": "Card contained two distinctly different temporal effects. Split into Fatigue and After-Effect.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "fatigue",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 22,
+        "heading": "Elastic Fatigue",
+        "question": "What is 'Elastic Fatigue', and why does it explain the need to declare bridges unsafe after decades of use? ",
+        "back": "**Elastic Fatigue** is the property by virtue of which the behavior of an elastic body becomes progressively **less elastic** under the action of repeated, alternating deforming forces.\n\nOver long periods, materials subjected to cyclic stresses (like suspension bridges bearing daily alternating traffic loads) lose their structural elastic strength. This cumulative degradation increases the risk of sudden catastrophic yielding or collapse."
+      }
+    },
+    {
+      "cardId": "154974f7-027e-4ea2-928a-d7a2ca146e18",
+      "originalOrder": 27,
+      "originalHeading": "Elastic Fatigue & Elastic After-Effect",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Created dedicated card for After-Effect"
+      ],
+      "vettingNotes": "Second half of the split card.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "OBSERVATION",
+        "tags": [
+          "science",
+          "physics",
+          "after-effect",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 23,
+        "heading": "Elastic After-Effect",
+        "question": "What is the 'Elastic After-Effect', and how does it influence the choice of materials used in sensitive galvanometers? ",
+        "back": "The **Elastic After-Effect** (or Elastic Relaxation) is the **temporary time delay** experienced by a material in fully returning to its original unstressed configuration after a deforming force is suddenly removed.\n\n**Application:** Sensitive instruments like moving-coil galvanometers require suspensions that rapidly return to the zero mark. Materials like quartz and phosphor bronze are chosen because they exhibit an almost negligible elastic after-effect."
+      }
+    },
+    {
+      "cardId": "990cc5ba-c64f-4732-ac70-d956e9d522ca",
+      "originalOrder": 19,
+      "originalHeading": "Thermal Stress",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "thermodynamics",
+          "stress",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 24,
+        "heading": "Thermal Stress",
+        "formula": "\\sigma_{thermal} = \\frac{F}{A} = Y \\alpha \\Delta T",
+        "description": "Calculates the Thermal Stress developed in a constrained rigid metal rod subjected to a change in temperature.",
+        "derivation": "1. Natural thermal expansion if unconstrained: $\\Delta L = L \\alpha \\Delta T$\n2. The supports forcibly prevent this, causing a Thermal Strain: $\\varepsilon = \\frac{\\Delta L}{L} = \\alpha \\Delta T$\n3. Multiplying by Young's Modulus yields Thermal Stress: $\\sigma = Y \\cdot \\varepsilon = Y \\alpha \\Delta T$\n\n**Key Condition:** Stress develops **only** because rigid supports prevent natural expansion/contraction. If the rod were free to expand, the thermal stress would remain exactly zero."
+      }
+    },
+    {
+      "cardId": "54192c39-2c92-482c-b46c-14e7e80a99ba",
+      "originalOrder": 20,
+      "originalHeading": "Equivalent Spring Constant of a Wire",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Explicitly stated Hooke's comparison"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "springs",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 25,
+        "heading": "Equivalent Spring Constant of an Elastic Wire",
+        "formula": "k = \\frac{Y A}{L}",
+        "description": "Formula deriving the equivalent spring constant ($k$) for an elastic solid wire that obeys Hooke's Law.",
+        "derivation": "**Comparison Derivation:**\n1. Hooke's Law for a mechanical spring: $F = k \\cdot \\Delta L$\n2. Hooke's Law rearranged for an elastic solid: $F = \\left(\\frac{Y A}{L}\\right) \\cdot \\Delta L$\n3. By direct mathematical comparison, the equivalent constant is $k = \\frac{Y A}{L}$.\n\n*(Where $Y$ is Young's Modulus, $A$ is cross-sectional area, and $L$ is unstretched length).*"
+      }
+    },
+    {
+      "cardId": "1a26f8ac-e6c2-43a1-88e7-cae93b97a2f1",
+      "originalOrder": 28,
+      "originalHeading": "Elongation Due to Self-Weight",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Fixed LaTeX syntax"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "elongation",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 26,
+        "heading": "Elongation Due to Self-Weight",
+        "formula": "\\Delta L = \\frac{M g L}{2 A Y} = \\frac{\\rho g L^2}{2 Y}",
+        "description": "Formula for the elongation of a uniform heavy wire suspended vertically, stretching entirely under its own weight.",
+        "derivation": "**Variables & Units:**\n- **$\\Delta L$**: Change in length (m)\n- **$M$**: Total mass of the wire (kg)\n- **$L$**: Original length (m)\n- **$A$**: Cross-sectional area (m²)\n- **$Y$**: Young's Modulus (Pa)\n- **$\\rho$**: Density of the material (kg/m³)\n\n**Key Insight:** A uniform wire stretches under its own weight by exactly **half the amount** it would stretch if an equivalent external mass $M$ were hung from the bottom of a massless wire."
+      }
+    },
+    {
+      "cardId": "9b6db639-d5d8-47e4-8836-6b11a607b585",
+      "originalOrder": 23,
+      "originalHeading": "Depression of a Beam (Bending)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "engineering",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 27,
+        "heading": "Depression of a Beam (Bending)",
+        "formula": "\\delta = \\frac{W l^3}{4 b d^3 Y}",
+        "description": "Calculates the depression ($\\delta$) at the center of a rectangular beam loaded at its midpoint.",
+        "derivation": "**Variables & Units:**\n- **$\\delta$**: Depression or Sag at the center (m)\n- **$W$**: Load applied (N)\n- **$l$**: Length of span (m)\n- **$b$**: Breadth of beam (m)\n- **$d$**: Depth or Thickness of beam (m)\n- **$Y$**: Young's Modulus (N/m²)\n\n**Engineering Implication:** Depression $\\delta$ is inversely proportional to $d^3$. Thus, to minimize bending, **increasing the depth ($d$) is far more effective** than increasing the breadth ($b$)."
+      }
+    },
+    {
+      "cardId": "b003477c-3410-439a-9c8e-afbf03d38cc7",
+      "originalOrder": 24,
+      "originalHeading": "The 'I-Shape' Beam Advantage",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved pedagogical phrasing"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "engineering",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 28,
+        "heading": "The 'I-Shape' Beam Advantage",
+        "question": "In civil engineering, why are girders and support beams given an 'I' shaped cross-section instead of a simple deep rectangular cross-section?",
+        "back": "### The 'I-Beam' Strategy\n- **Depth Requirement:** To prevent vertical sagging under heavy loads, a beam needs significant depth ($d$).\n- **The Buckling Problem:** However, a profoundly deep but thin rectangular bar is highly prone to **buckling** (bending sideways and twisting under moving loads).\n- **The Solution:** An **I-shape** provides a broad top and bottom surface (flanges) for stability against buckling. It maintains the required vertical depth to prevent sagging while significantly **reducing the material weight and cost**."
+      }
+    },
+    {
+      "cardId": "5acefd11-167e-46f3-b51f-20e3fdc08ca9",
+      "originalOrder": 22,
+      "originalHeading": "Design of Crane Ropes",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Structured reasoning into clear points"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "engineering",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 29,
+        "heading": "Design of Crane Ropes",
+        "question": "Why are the heavy-duty ropes used in cranes made of multiple thin steel wires braided together rather than a single thick solid steel rod?",
+        "back": "### Engineering Reasoning\n1. **Flexibility:** A single thick rod of the required radius would act as a rigid pole, lacking the flexibility needed to smoothly bend over crane pulleys.\n2. **Strength & Reliability:** Braiding thin wires distributes the massive load. If one micro-wire suffers a fracture, the entire rope doesn't immediately snap, preventing catastrophic failure.\n3. **Yield Limit:** The total combined cross-sectional area is kept high enough to ensure the internal stress ($W/A$) never exceeds the material's Yield Strength, typically incorporating a massive safety margin (e.g., a factor of 10)."
+      }
+    },
+    {
+      "cardId": "19249411-6c23-4afa-86c1-f7851470f43e",
+      "originalOrder": 26,
+      "originalHeading": "Breaking Stress vs. Breaking Force",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added explicit formula for Breaking Force"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "stress",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 30,
+        "heading": "Breaking Stress vs. Breaking Force",
+        "question": "What is the fundamental difference between Breaking Stress and Breaking Force, and how is the 'Safety Factor' defined?",
+        "back": "### The Distinction\n- **Breaking Stress (Ultimate Strength):** This is an intrinsic **material property** (e.g., steel has a fixed breaking stress). It remains entirely **constant** regardless of the wire's length or cross-sectional area.\n- **Breaking Force:** This is the actual physical load (in Newtons) required to snap the wire. It depends directly on the thickness of the wire: \n  *Breaking Force = Breaking Stress × Cross-sectional Area*\n  It is completely independent of the wire's length.\n\n### Safety Factor\n**Safety Factor = Breaking Stress / Working Stress**\nIt is an engineering design metric ensuring structures operate well below the limit where they might fail."
+      }
+    },
+    {
+      "cardId": "84121906-4c02-45f4-8934-a4a5ec1a1bab",
+      "originalOrder": 25,
+      "originalHeading": "Maximum Height of Mountains",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "geophysics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 31,
+        "heading": "Maximum Height of Mountains",
+        "formula": "h \\rho g \\le \\text{Critical Shearing Stress}",
+        "description": "The mathematical condition that limits the maximum vertical height of a mountain on Earth based on the critical shearing stress of base rocks.",
+        "derivation": "**Variables & Units:**\n- **$h$**: Maximum height of the mountain (m)\n- **$\\rho$**: Density of the rock (kg/m³)\n- **$g$**: Acceleration due to gravity (m/s²)\n\n**Physical Constraint:** The base of a mountain is not uniformly compressed; its sides are free. This structural geometry generates a massive **shear component** at the base approximately equal to $h \\rho g$. If $h \\rho g$ exceeds the elastic limit of rocks (approx $30 \\times 10^7$ N/m²), the rocks will undergo plastic flow, collapsing the mountain structure. This limits Earth's mountains to roughly ~10 km."
+      }
+    },
+    {
+      "cardId": "728a171b-6988-4414-9238-5a275e0d4e9b",
+      "originalOrder": 31,
+      "originalHeading": "Isothermal vs. Adiabatic Bulk Modulus",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Fixed mathematical variables"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "thermodynamics",
+          "modulus",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 32,
+        "heading": "Isothermal vs. Adiabatic Bulk Modulus",
+        "formula": "E_T = P \\quad \\text{and} \\quad E_S = \\gamma P",
+        "description": "Formulas denoting the Isothermal Bulk Modulus ($E_T$) and Adiabatic Bulk Modulus ($E_S$) of an ideal gas.",
+        "derivation": "**Variables & Units:**\n- **$E_T$**: Isothermal Bulk Modulus (Pa)\n- **$E_S$**: Adiabatic Bulk Modulus (Pa)\n- **$P$**: Pressure of the gas (Pa)\n- **$\\gamma$**: Ratio of specific heats ($C_p / C_v$)\n\n**Key Insight:** Solids and liquids possess a single Bulk modulus because their volume doesn't change significantly with temperature during compression. However, gases have two distinct moduli depending on the thermodynamic process. The **adiabatic elasticity is $\\gamma$ times the isothermal elasticity** ($E_S = \\gamma E_T$)."
+      }
+    },
+    {
+      "cardId": "5186aaf3-fe16-4c2e-8f1f-92eb246c18d5",
+      "originalOrder": 32,
+      "originalHeading": "Change in Density Under Bulk Compression",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "density",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 33,
+        "heading": "Change in Density Under Bulk Compression",
+        "formula": "\\rho' = \\frac{\\rho}{1 - \\frac{\\Delta P}{B}} \\approx \\rho \\left(1 + \\frac{\\Delta P}{B}\\right)",
+        "description": "Calculates a fluid's new density when subjected to an increase in depth or pressure.",
+        "derivation": "**Variables & Units:**\n- **$\\rho'$**: New density at depth (kg/m³)\n- **$\\rho$**: Original density at surface (kg/m³)\n- **$\\Delta P$**: Increase in pressure / Hydraulic stress (Pa)\n- **$B$**: Bulk Modulus (Pa)\n\n**Mechanism:** As an object is taken deep into the ocean, hydraulic pressure increases, causing volume to decrease. Since mass remains constant ($M = \\rho V$), the **density increases**. The approximation formulation is valid when $\\Delta P \\ll B$, using binomial expansion."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "action": "SYSTEM",
+      "cardData": null
+    }
+  ]
 }

@@ -1,702 +1,702 @@
 {
-"deckId": "69aae18cfc9152e2eef8d0c2",
-"cards": [
-{
-"cardId": "69aaf9e1fc9152e2eef8d238",
-"originalOrder": 1,
-"originalHeading": "Pure Translation vs. Pure Rotation",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized tags",
-"Refined formatting for readability"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"rigid-body",
-"neet",
-"jee"
-],
-"order": 1,
-"heading": "Pure Translation vs. Pure Rotation",
-"question": "How do you precisely distinguish between pure translational motion and pure rotational motion of a rigid body in terms of particle velocities?",
-"back": "**Pure Translation:**\n- Every single particle of the rigid body moves with the **exact same linear velocity ($v$)** at any given instant of time.\n\n**Pure Rotation:**\n- Every particle moves in a **circle**, which lies in a plane perpendicular to the axis of rotation.\n- All particles share the **same angular velocity ($\\omega$)**, but their linear velocities differ based on their perpendicular distance from the fixed axis."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d24d",
-"originalOrder": 22,
-"originalHeading": "Centre of Gravity vs. Centre of Mass",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Moved up to establish the distinction between mass distribution and gravitational influence early on.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"neet",
-"jee"
-],
-"order": 2,
-"heading": "Centre of Gravity vs. Centre of Mass",
-"question": "How does the Centre of Gravity (CG) fundamentally differ conceptually from the Centre of Mass (CM) of a body?",
-"back": "**Centre of Mass (CM):**\n- Represents the point where the entire mass of the body seems concentrated. It depends solely and entirely on the **mass distribution** of the body. It has nothing to do with gravity.\n\n**Centre of Gravity (CG):**\n- Represents the point where the **total gravitational torque** on the body evaluates to zero.\n- *Boundary Exception:* The CG precisely coincides with the CM *only* if the gravitational field ($g$) is uniform across the entire body. For extremely massive extended bodies (like a mountain), $g$ varies, causing the CG to shift slightly away from the CM."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d239",
-"originalOrder": 2,
-"originalHeading": "Precession in Rotational Motion",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"neet",
-"jee"
-],
-"order": 3,
-"heading": "Precession in Rotational Motion",
-"question": "In the context of a spinning top or an oscillating table fan, what does the term 'precession' physically mean?",
-"back": "Precession occurs when the **axis of rotation itself is not fixed** in space but instead moves around a pivot point.\n\n- For a spinning top, the point of contact with the ground is fixed, but the axis of rotation continuously sweeps out a **cone** around the vertical.\n- While normal rotation involves spinning around an axis, precession is the *movement of that axis* itself."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23a",
-"originalOrder": 3,
-"originalHeading": "Centre of Mass (Two-Particle System)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"neet",
-"jee"
-],
-"order": 4,
-"heading": "Centre of Mass (Two-Particle System)",
-"formula": "X = \\frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}",
-"description": "Calculates the position of the Centre of Mass (X) for a two-particle system aligned on the x-axis.",
-"derivation": "**Variables & Units:**\n- **X** = Position of the centre of mass (m)\n- **$m_1, m_2$** = Masses of the individual particles (kg)\n- **$x_1, x_2$** = Positions of the particles from the origin (m)\n\n**Conditions/Notes:**\n- The centre of mass acts as a mass-weighted mean of positions.\n- If the masses are exactly equal ($m_1 = m_2$), the centre of mass lies exactly midway between them: $X = \\frac{x_1 + x_2}{2}$."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23b",
-"originalOrder": 4,
-"originalHeading": "Centre of Mass (Vector Form for n-Particles)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"neet",
-"jee"
-],
-"order": 5,
-"heading": "Centre of Mass (Vector Form for n-Particles)",
-"formula": "\\vec{R}*{CM} = \\frac{1}{M} \\sum*{i=1}^{n} m_i \\vec{r}*i",
-"description": "Calculates the generalized vector position of the Centre of Mass for a system composed of n discrete particles.",
-"derivation": "**Variables & Units:**\n- **$\\vec{R}*{CM}$** = Position vector of the overall centre of mass (m)\n- **M** = Total mass of the system (kg), where $M = \\sum m_i$\n- **$m_i$** = Mass of the $i^{th}$ particle (kg)\n- **$\\vec{r}*i$** = Position vector of the $i^{th}$ particle from the origin (m)\n\n**Conditions/Notes:**\n- This single vector equation elegantly encapsulates the three scalar equations for the X, Y, and Z axes."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23c",
-"originalOrder": 5,
-"originalHeading": "Centre of Mass (Continuous Distribution)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"calculus",
-"neet",
-"jee"
-],
-"order": 6,
-"heading": "Centre of Mass (Continuous Distribution)",
-"formula": "\\vec{R}*{CM} = \\frac{1}{M} \\int \\vec{r} \\, dm",
-"description": "Calculates the position vector of the Centre of Mass for a continuous solid body using integration.",
-"derivation": "**Derivation:**\nAs the number of mass elements $n$ becomes infinitely large and each element $\\Delta m_i$ becomes infinitesimally small ($dm$), the discrete summation $\\sum$ gracefully transforms into a continuous integral $\\int$.\n\n**Variables & Units:**\n- **$\\vec{R}_{CM}$** = Position vector of the centre of mass (m)\n- **M** = Total mass of the continuous body (kg)\n- **$\\vec{r}$** = Position vector of the infinitesimal mass element (m)\n- **dm** = Infinitesimal mass element (kg)\n\n**Conditions/Notes:**\n- If the origin is deliberately chosen to be the centre of mass itself, the integral $\\int \\vec{r} dm$ evaluates strictly to zero.",
-"mnemonic": "Integrate to Aggregate!"
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23d",
-"originalOrder": 6,
-"originalHeading": "Centre of Mass of Symmetric Bodies",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"symmetry",
-"neet",
-"jee"
-],
-"order": 7,
-"heading": "Centre of Mass of Symmetric Bodies",
-"question": "For homogeneous bodies of regular shapes (like uniform rings, discs, or spheres), where exactly does the centre of mass logically lie and why?",
-"back": "The centre of mass of a homogeneous, regular-shaped rigid body completely **coincides with its geometric centre**.\n\n**The 'Why':**\n- It is due to **reflection symmetry**.\n- For every infinitesimal mass element $dm$ located at coordinates $(x, y, z)$, there exists an identical mass element at $(-x, -y, -z)$.\n- Consequently, when the origin is placed at the geometric centre, the positive and negative position vectors perfectly cancel out, yielding $\\int \\vec{r} dm = 0$."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23e",
-"originalOrder": 7,
-"originalHeading": "Velocity of Centre of Mass",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"momentum",
-"neet",
-"jee"
-],
-"order": 8,
-"heading": "Velocity of Centre of Mass",
-"formula": "\\vec{P} = M \\vec{V}*{CM}",
-"description": "Equates the total linear momentum of a system of particles to the velocity of its Centre of Mass.",
-"derivation": "**Derivation:**\nFrom $\\vec{R}*{CM} = \\frac{\\sum m_i \\vec{r}*i}{M}$.\nDifferentiating both sides with respect to time yields $\\vec{V}*{CM} = \\frac{\\sum m_i \\vec{v}*i}{M}$.\nSince $\\sum m_i \\vec{v}_i = \\vec{P}$ (total momentum), rearranging gives $\\vec{P} = M \\vec{V}*{CM}$.\n\n**Conditions/Notes:**\n- This proves that the total momentum of a complex system of particles behaves exactly as if the entire mass was moving as a single point mass located at the centre of mass."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d23f",
-"originalOrder": 8,
-"originalHeading": "Newton's 2nd Law for a System of Particles",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"dynamics",
-"neet",
-"jee"
-],
-"order": 9,
-"heading": "Newton's 2nd Law for a System of Particles",
-"formula": "\\vec{F}_{ext} = M \\vec{A}_{CM} = \\frac{d\\vec{P}}{dt}",
-"description": "Connects the net external forces acting on a system to the acceleration of its Centre of Mass.",
-"derivation": "**Variables & Units:**\n- **$\\vec{F}*{ext}$** = Vector sum of all external forces on the system (N)\n- **M** = Total mass of the system (kg)\n- **$\\vec{A}*{CM}$** = Acceleration of the centre of mass (m/s$^2$)\n- **$\\vec{P}$** = Total linear momentum (kg$\\cdot$m/s)\n\n**Conditions/Notes:**\n- **Internal forces** (forces particles exert on each other) entirely cancel out in equal/opposite pairs due to Newton's Third Law.\n- Therefore, internal forces do NOT contribute to the acceleration of the centre of mass."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d241",
-"originalOrder": 10,
-"originalHeading": "Conservation of Linear Momentum",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"momentum",
-"neet",
-"jee"
-],
-"order": 10,
-"heading": "Conservation of Linear Momentum (System of Particles)",
-"question": "Under what strict boundary condition is the total linear momentum of a multi-particle system completely conserved?",
-"back": "**The Strict Condition:**\n- The total linear momentum of a system is strictly conserved if and only if the **net external force acting on the system is zero** ($\\vec{F}*{ext} = 0$).\n\n**The Direct Consequence:**\n- Based on the equation $\\vec{F}*{ext} = M \\frac{d\\vec{V}*{CM}}{dt}$, if the force is zero, the acceleration is zero.\n- Therefore, the velocity of the centre of mass ($\\vec{V}*{CM}$) remains absolutely **constant** (it either remains perpetually at rest or moves uniformly in a straight line)."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d240",
-"originalOrder": 9,
-"originalHeading": "Exploding Projectile Trajectory",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "A perfect, high-yield conceptual application of CM motion and internal vs external forces.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CASE_STUDY",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"centre-of-mass",
-"neet",
-"jee"
-],
-"order": 11,
-"heading": "Exploding Projectile Trajectory",
-"question": "If an artillery shell explodes into multiple fragments midway through its flight in the air, what happens to the trajectory of its Centre of Mass?",
-"back": "**Outcome:**\n- The Centre of Mass **continues along the exact same parabolic trajectory** it would have followed if no explosion had occurred.\n\n**Reasoning:**\n- The explosion is caused solely by **internal forces** (chemical reactions expanding outward).\n- Internal forces cannot alter the motion of the Centre of Mass. \n- The only **external force** acting on the overall system is gravity, which remains constant both before and after the explosion."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d242",
-"originalOrder": 11,
-"originalHeading": "Vector (Cross) Product",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Required mathematical prerequisite before defining rotational quantities.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"vectors",
-"neet",
-"jee"
-],
-"order": 12,
-"heading": "Vector (Cross) Product",
-"formula": "\\vec{A} \\times \\vec{B} = A B \\sin \\theta \\, \\hat{n}",
-"description": "Calculates the vector cross product of two vectors, including its direction component.",
-"derivation": "**Variables & Units:**\n- **$\\vec{A}, \\vec{B}$** = The two multiplying vectors\n- **A, B** = Magnitudes of the respective vectors\n- **$\\theta$** = Angle between the vectors ($0 \\le \\theta \\le \\pi$)\n- **$\\hat{n}$** = Unit vector perfectly perpendicular to the plane containing both A and B\n\n**Conditions/Notes:**\n- The cross product yields a true vector quantity.\n- It is inherently **anti-commutative**: $\\vec{A} \\times \\vec{B} = - (\\vec{B} \\times \\vec{A})$."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d243",
-"originalOrder": 12,
-"originalHeading": "Right-Hand Screw Rule",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"vectors",
-"neet",
-"jee"
-],
-"order": 13,
-"heading": "Right-Hand Screw Rule",
-"question": "What is the physical procedure to determine the direction of the unit vector $\\hat{n}$ resulting from a vector cross product $\\vec{A} \\times \\vec{B}$?",
-"back": "1. Place the two vectors $\\vec{A}$ and $\\vec{B}$ tail-to-tail.\n2. Imagine a right-handed screw placed at the origin, perfectly perpendicular to the plane formed by the vectors.\n3. Turn the screw from the **first vector (A)** toward the **second vector (B)** through the smaller angle between them.\n4. The direction the screw advances (or the direction your thumb naturally points when curling your right fingers from A to B) is the resultant direction of $\\hat{n}$."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d244",
-"originalOrder": 13,
-"originalHeading": "Cross Product & Area of a Triangle",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Geometric application of the cross product.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"vectors",
-"neet",
-"jee"
-],
-"order": 14,
-"heading": "Cross Product & Area of a Triangle",
-"formula": "\\text{Area} = \\frac{1}{2} |\\vec{a} \\times \\vec{b}|",
-"description": "Calculates the geometrical area of a triangle formed by two vectors $\\vec{a}$ and $\\vec{b}$ acting as adjacent sides.",
-"derivation": "**Variables & Units:**\n- **$|\\vec{a} \\times \\vec{b}|$** = Magnitude of the cross product of the two vectors forming the sides of the triangle.\n\n**Conditions/Notes:**\n- The full magnitude $|\\vec{a} \\times \\vec{b}|$ represents the geometric area of a **parallelogram** formed by those vectors.\n- Halving that cross-product magnitude mathematically yields the area of the inscribed triangle."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d245",
-"originalOrder": 14,
-"originalHeading": "Linear and Angular Velocity Relation",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "First physics application of the cross product, defining rotational kinematics.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"kinematics",
-"neet",
-"jee"
-],
-"order": 15,
-"heading": "Linear and Angular Velocity Relation",
-"formula": "\\vec{v} = \\vec{\\omega} \\times \\vec{r}",
-"description": "Connects the linear velocity of a particle in a rotating rigid body to its angular velocity via the vector cross-product.",
-"derivation": "**Variables & Units:**\n- **$\\vec{v}$** = Linear velocity of the particle (m/s)\n- **$\\vec{\\omega}$** = Angular velocity of the rigid body (rad/s)\n- **$\\vec{r}$** = Position vector of the particle relative to the axis origin (m)\n\n**Conditions/Notes:**\n- The order matters immensely: It is strictly $\\vec{\\omega} \\times \\vec{r}$, NOT $\\vec{r} \\times \\vec{\\omega}$.\n- For rotation about a fixed axis, the magnitude simplifies algebraically to $v = \\omega r_{\\perp}$, where $r_{\\perp}$ is the perpendicular distance from the axis of rotation."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d246",
-"originalOrder": 15,
-"originalHeading": "Angular Acceleration",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"kinematics",
-"neet",
-"jee"
-],
-"order": 16,
-"heading": "Angular Acceleration",
-"formula": "\\vec{\\alpha} = \\frac{d\\vec{\\omega}}{dt}",
-"description": "Defines angular acceleration in its fundamental calculus form.",
-"derivation": "**Variables & Units:**\n- **$\\vec{\\alpha}$** = Angular acceleration (rad/s$^2$)\n- **$d\\vec{\\omega}$** = Infinitesimal change in angular velocity (rad/s)\n- **dt** = Infinitesimal time interval (s)\n\n**Conditions/Notes:**\n- If the axis of rotation is rigidly fixed, the direction of both $\\vec{\\omega}$ and $\\vec{\\alpha}$ remains strictly locked along the axis.\n- In this fixed-axis scenario, the vector equation safely reduces to a standard scalar equation $\\alpha = d\\omega / dt$."
-}
-},
-{
-"cardId": "69aafa76fc9152e2eef8d262",
-"originalOrder": 32,
-"originalHeading": "1st Equation of Rotational Kinematics",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Moved up to immediately follow the definitions of angular velocity and acceleration.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"kinematics",
-"neet",
-"jee"
-],
-"order": 17,
-"heading": "1st Equation of Rotational Kinematics",
-"formula": "\\omega = \\omega_0 + \\alpha t",
-"description": "The first kinematical equation of rotational motion relating final angular velocity, initial angular velocity, angular acceleration, and time.",
-"derivation": "**Derivation:**\nFrom $\\alpha = d\\omega / dt$, integrate both sides: $\\int_{\\omega_0}^{\\omega} d\\omega = \\int_0^t \\alpha dt$.\nSince $\\alpha$ is constant, $\\omega - \\omega_0 = \\alpha t$.\n\n**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time interval (s)\n\n**Conditions/Notes:**\n- **Strict Condition:** This equation is absolutely valid *only* if the angular acceleration $\\alpha$ is completely uniform (constant).\n- It is the exact rotational analogue of $v = u + at$."
-}
-},
-{
-"cardId": "69aafa76fc9152e2eef8d263",
-"originalOrder": 33,
-"originalHeading": "2nd Equation of Rotational Kinematics",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Rotational analogue to displacement equation.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"kinematics",
-"neet",
-"jee"
-],
-"order": 18,
-"heading": "2nd Equation of Rotational Kinematics",
-"formula": "\\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2",
-"description": "The second kinematical equation of rotational motion determining angular displacement.",
-"derivation": "**Variables & Units:**\n- **$\\theta$** = Angular displacement (radians, rad)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time (s)\n\n**Conditions/Notes:**\n- Valid strictly only for uniform (constant) angular acceleration.\n- It is the exact rotational analogue to the linear equation $s = ut + \\frac{1}{2}at^2$."
-}
-},
-{
-"cardId": "69aafa76fc9152e2eef8d264",
-"originalOrder": 34,
-"originalHeading": "3rd Equation of Rotational Kinematics",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Rotational analogue to the time-independent kinematic equation.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"kinematics",
-"neet",
-"jee"
-],
-"order": 19,
-"heading": "3rd Equation of Rotational Kinematics",
-"formula": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta",
-"description": "The third time-independent kinematical equation of rotational motion.",
-"derivation": "**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **$\\theta$** = Angular displacement (rad)\n\n**Conditions/Notes:**\n- Highly useful when the time variable ($t$) is unknown or not required for the calculation.\n- It is the exact rotational analogue to the linear equation $v^2 = u^2 + 2as$."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d247",
-"originalOrder": 16,
-"originalHeading": "Torque (Moment of Force)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Transitions from rotational kinematics to rotational dynamics.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"torque",
-"neet",
-"jee"
-],
-"order": 20,
-"heading": "Torque (Moment of Force)",
-"formula": "\\vec{\\tau} = \\vec{r} \\times \\vec{F}",
-"description": "Calculates the torque (moment of force) acting on a single particle.",
-"derivation": "**Variables & Units:**\n- **$\\vec{\\tau}$** = Torque / Moment of Force (Newton-meter, N$\\cdot$m)\n- **$\\vec{r}$** = Position vector of the point of force application relative to the origin (m)\n- **$\\vec{F}$** = Force applied on the particle (N)\n\n**Conditions/Notes:**\n- Torque acts as the exact rotational analogue of linear force.\n- The magnitude evaluates to $\\tau = r F \\sin\\theta = F r_{\\perp}$, where $r_{\\perp}$ is known as the **lever arm**."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d24c",
-"originalOrder": 21,
-"originalHeading": "Force Couple",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Moved up to follow Torque, demonstrating a pure torque application without translational force.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"torque",
-"neet",
-"jee"
-],
-"order": 21,
-"heading": "Force Couple",
-"question": "What specifically constitutes a 'Couple' in rotational mechanics, and what unique type of motion does it generate?",
-"back": "**Explanation:**\nA **Couple** consists of two separate forces of **equal magnitude** but **opposite direction**, acting along *different* non-coincident lines of action.\n\n**Resulting Motion:**\n- Since the forces are perfectly equal and opposite, the net linear force is absolutely zero ($\\sum \\vec{F} = 0$). Thus, a couple generates **no translational motion**.\n- However, because their lines of action differ, they create a net torque, strictly producing **pure rotational motion**.\n- *Example:* Twisting open a jar lid or turning a car steering wheel with both hands."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d24b",
-"originalOrder": 20,
-"originalHeading": "Mechanical Equilibrium of a Rigid Body",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Combines net force = 0 and net torque = 0 to establish the equilibrium conditions.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"equilibrium",
-"neet",
-"jee"
-],
-"order": 22,
-"heading": "Mechanical Equilibrium of a Rigid Body",
-"question": "What two independent vector conditions must be strictly satisfied simultaneously for a rigid body to be in total mechanical equilibrium?",
-"back": "**1. Translational Equilibrium:**\n- The vector sum of all external **forces** must be precisely zero.\n- $\\sum \\vec{F}_i = 0$ (This ensures linear momentum $\\vec{P}$ remains constant).\n\n**2. Rotational Equilibrium:**\n- The vector sum of all external **torques** must be precisely zero.\n- $\\sum \\vec{\\tau}_i = 0$ (This ensures angular momentum $\\vec{L}$ remains constant)."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d24e",
-"originalOrder": 23,
-"originalHeading": "Moment of Inertia",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Introduces the rotational analogue of mass.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"moment-of-inertia",
-"neet",
-"jee"
-],
-"order": 23,
-"heading": "Moment of Inertia (Discrete System)",
-"formula": "I = \\sum_{i=1}^{n} m_i r_i^2",
-"description": "Calculates the total moment of inertia of a discrete system of particles rotating about a specified axis.",
-"derivation": "**Variables & Units:**\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **$m_i$** = Mass of the $i^{th}$ discrete particle (kg)\n- **$r_i$** = Exact perpendicular distance of the $i^{th}$ particle from the axis of rotation (m)\n\n**Conditions/Notes:**\n- $I$ acts as the exact rotational analogue to mass, effectively measuring 'rotational inertia'.\n- Unlike mass, it is not a fixed intrinsic quantity; it dynamically depends on the shape, mass distribution, and the **specific position and orientation of the axis of rotation**."
-}
-},
-{
-"cardId": "69aaf9e1fc9152e2eef8d250",
-"originalOrder": 25,
-"originalHeading": "Radius of Gyration",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Logically pairs with the generic moment of inertia formula.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"moment-of-inertia",
-"neet",
-"jee"
-],
-"order": 24,
-"heading": "Radius of Gyration",
-"formula": "I = M k^2 \\implies k = \\sqrt{\\frac{I}{M}}",
-"description": "Maps the Radius of Gyration ($k$) to the Moment of Inertia and the Total Mass of a body.",
-"derivation": "**Variables & Units:**\n- **k** = Radius of Gyration (m)\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **M** = Total mass of the body (kg)\n\n**Conditions/Notes:**\n- Physically represents the **root-mean-square distance** of the constituent particles from the axis of rotation.\n- Conceptually, it is the theoretical perpendicular distance from the axis where, if the entire mass of the body were crushed into a single point, the moment of inertia would remain absolutely unchanged."
-}
-},
-{
-"cardId": "69aafa76fc9152e2eef8d25c",
-"originalOrder": 26,
-"originalHeading": "Theorem of Perpendicular Axes",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Provides the tools needed to derive MOI for standard shapes.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"rotational-motion",
-"moment-of-inertia",
-"neet",
-"jee"
-],
-"order": 25,
-"heading": "Theorem of Perpendicular Axes",
-"formula": "I_z = I_x + I_y",
-"description": "Relates the moment of inertia of a planar body about a perpendicular axis to two in-plane axes.",
-"derivation": "**Variables & Units:**\n- **$I_z$** = Moment of inertia about the axis perfectly perpendicular to the plane (kg$\\cdot$m$^2$)\n- **$I_x, I_y$** = Moments of inertia about two mutually perpendicular axes lying *in the plane* of the body (kg$\\cdot$m$^2$)\n\n**Conditions/Notes:**\n- **Strict Boundary Condition:** This theorem is **only applicable to 2D planar bodies (laminas)** whose thickness is negligible.\n- The three axes (x, y, and z) must be mutually perpendicular and perfectly concurrent (intersecting at a single point O)."
-}
-},
+  "deckId": "88ad63b5-49d8-429a-a490-57f4e7aa9d30",
+  "cards": [
     {
-      "cardId": "69aafa76fc9152e2eef8d25d",
+      "cardId": "568c3146-b38b-4014-b6e5-860e3cc671a6",
+      "originalOrder": 1,
+      "originalHeading": "Pure Translation vs. Pure Rotation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized tags",
+        "Refined formatting for readability"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "rigid-body",
+          "neet",
+          "jee"
+        ],
+        "order": 1,
+        "heading": "Pure Translation vs. Pure Rotation",
+        "question": "How do you precisely distinguish between pure translational motion and pure rotational motion of a rigid body in terms of particle velocities?",
+        "back": "**Pure Translation:**\n- Every single particle of the rigid body moves with the **exact same linear velocity ($v$)** at any given instant of time.\n\n**Pure Rotation:**\n- Every particle moves in a **circle**, which lies in a plane perpendicular to the axis of rotation.\n- All particles share the **same angular velocity ($\\omega$)**, but their linear velocities differ based on their perpendicular distance from the fixed axis."
+      }
+    },
+    {
+      "cardId": "c6378780-bfaf-4005-8a46-a9a616ee5faf",
+      "originalOrder": 22,
+      "originalHeading": "Centre of Gravity vs. Centre of Mass",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Moved up to establish the distinction between mass distribution and gravitational influence early on.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "neet",
+          "jee"
+        ],
+        "order": 2,
+        "heading": "Centre of Gravity vs. Centre of Mass",
+        "question": "How does the Centre of Gravity (CG) fundamentally differ conceptually from the Centre of Mass (CM) of a body?",
+        "back": "**Centre of Mass (CM):**\n- Represents the point where the entire mass of the body seems concentrated. It depends solely and entirely on the **mass distribution** of the body. It has nothing to do with gravity.\n\n**Centre of Gravity (CG):**\n- Represents the point where the **total gravitational torque** on the body evaluates to zero.\n- *Boundary Exception:* The CG precisely coincides with the CM *only* if the gravitational field ($g$) is uniform across the entire body. For extremely massive extended bodies (like a mountain), $g$ varies, causing the CG to shift slightly away from the CM."
+      }
+    },
+    {
+      "cardId": "003f3032-641a-4ab4-a9df-fa82911d6f0c",
+      "originalOrder": 2,
+      "originalHeading": "Precession in Rotational Motion",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "neet",
+          "jee"
+        ],
+        "order": 3,
+        "heading": "Precession in Rotational Motion",
+        "question": "In the context of a spinning top or an oscillating table fan, what does the term 'precession' physically mean?",
+        "back": "Precession occurs when the **axis of rotation itself is not fixed** in space but instead moves around a pivot point.\n\n- For a spinning top, the point of contact with the ground is fixed, but the axis of rotation continuously sweeps out a **cone** around the vertical.\n- While normal rotation involves spinning around an axis, precession is the *movement of that axis* itself."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 3,
+      "originalHeading": "Centre of Mass (Two-Particle System)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "neet",
+          "jee"
+        ],
+        "order": 4,
+        "heading": "Centre of Mass (Two-Particle System)",
+        "formula": "X = \\frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}",
+        "description": "Calculates the position of the Centre of Mass (X) for a two-particle system aligned on the x-axis.",
+        "derivation": "**Variables & Units:**\n- **X** = Position of the centre of mass (m)\n- **$m_1, m_2$** = Masses of the individual particles (kg)\n- **$x_1, x_2$** = Positions of the particles from the origin (m)\n\n**Conditions/Notes:**\n- The centre of mass acts as a mass-weighted mean of positions.\n- If the masses are exactly equal ($m_1 = m_2$), the centre of mass lies exactly midway between them: $X = \\frac{x_1 + x_2}{2}$."
+      }
+    },
+    {
+      "cardId": "94957070-607e-4ace-869c-dba791c46557",
+      "originalOrder": 4,
+      "originalHeading": "Centre of Mass (Vector Form for n-Particles)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "neet",
+          "jee"
+        ],
+        "order": 5,
+        "heading": "Centre of Mass (Vector Form for n-Particles)",
+        "formula": "\\vec{R}*{CM} = \\frac{1}{M} \\sum*{i=1}^{n} m_i \\vec{r}*i",
+        "description": "Calculates the generalized vector position of the Centre of Mass for a system composed of n discrete particles.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{R}*{CM}$** = Position vector of the overall centre of mass (m)\n- **M** = Total mass of the system (kg), where $M = \\sum m_i$\n- **$m_i$** = Mass of the $i^{th}$ particle (kg)\n- **$\\vec{r}*i$** = Position vector of the $i^{th}$ particle from the origin (m)\n\n**Conditions/Notes:**\n- This single vector equation elegantly encapsulates the three scalar equations for the X, Y, and Z axes."
+      }
+    },
+    {
+      "cardId": "3976e802-3e45-4746-bab0-663e6ad9c430",
+      "originalOrder": 5,
+      "originalHeading": "Centre of Mass (Continuous Distribution)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "calculus",
+          "neet",
+          "jee"
+        ],
+        "order": 6,
+        "heading": "Centre of Mass (Continuous Distribution)",
+        "formula": "\\vec{R}*{CM} = \\frac{1}{M} \\int \\vec{r} \\, dm",
+        "description": "Calculates the position vector of the Centre of Mass for a continuous solid body using integration.",
+        "derivation": "**Derivation:**\nAs the number of mass elements $n$ becomes infinitely large and each element $\\Delta m_i$ becomes infinitesimally small ($dm$), the discrete summation $\\sum$ gracefully transforms into a continuous integral $\\int$.\n\n**Variables & Units:**\n- **$\\vec{R}_{CM}$** = Position vector of the centre of mass (m)\n- **M** = Total mass of the continuous body (kg)\n- **$\\vec{r}$** = Position vector of the infinitesimal mass element (m)\n- **dm** = Infinitesimal mass element (kg)\n\n**Conditions/Notes:**\n- If the origin is deliberately chosen to be the centre of mass itself, the integral $\\int \\vec{r} dm$ evaluates strictly to zero.",
+        "mnemonic": "Integrate to Aggregate!"
+      }
+    },
+    {
+      "cardId": "e4b63c2d-9d90-4cd7-bcfe-959b8fbebd9e",
+      "originalOrder": 6,
+      "originalHeading": "Centre of Mass of Symmetric Bodies",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "symmetry",
+          "neet",
+          "jee"
+        ],
+        "order": 7,
+        "heading": "Centre of Mass of Symmetric Bodies",
+        "question": "For homogeneous bodies of regular shapes (like uniform rings, discs, or spheres), where exactly does the centre of mass logically lie and why?",
+        "back": "The centre of mass of a homogeneous, regular-shaped rigid body completely **coincides with its geometric centre**.\n\n**The 'Why':**\n- It is due to **reflection symmetry**.\n- For every infinitesimal mass element $dm$ located at coordinates $(x, y, z)$, there exists an identical mass element at $(-x, -y, -z)$.\n- Consequently, when the origin is placed at the geometric centre, the positive and negative position vectors perfectly cancel out, yielding $\\int \\vec{r} dm = 0$."
+      }
+    },
+    {
+      "cardId": "48e4367d-d6f6-443a-b6ef-de860b6862f1",
+      "originalOrder": 7,
+      "originalHeading": "Velocity of Centre of Mass",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "momentum",
+          "neet",
+          "jee"
+        ],
+        "order": 8,
+        "heading": "Velocity of Centre of Mass",
+        "formula": "\\vec{P} = M \\vec{V}*{CM}",
+        "description": "Equates the total linear momentum of a system of particles to the velocity of its Centre of Mass.",
+        "derivation": "**Derivation:**\nFrom $\\vec{R}*{CM} = \\frac{\\sum m_i \\vec{r}*i}{M}$.\nDifferentiating both sides with respect to time yields $\\vec{V}*{CM} = \\frac{\\sum m_i \\vec{v}*i}{M}$.\nSince $\\sum m_i \\vec{v}_i = \\vec{P}$ (total momentum), rearranging gives $\\vec{P} = M \\vec{V}*{CM}$.\n\n**Conditions/Notes:**\n- This proves that the total momentum of a complex system of particles behaves exactly as if the entire mass was moving as a single point mass located at the centre of mass."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 8,
+      "originalHeading": "Newton's 2nd Law for a System of Particles",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "dynamics",
+          "neet",
+          "jee"
+        ],
+        "order": 9,
+        "heading": "Newton's 2nd Law for a System of Particles",
+        "formula": "\\vec{F}_{ext} = M \\vec{A}_{CM} = \\frac{d\\vec{P}}{dt}",
+        "description": "Connects the net external forces acting on a system to the acceleration of its Centre of Mass.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{F}*{ext}$** = Vector sum of all external forces on the system (N)\n- **M** = Total mass of the system (kg)\n- **$\\vec{A}*{CM}$** = Acceleration of the centre of mass (m/s$^2$)\n- **$\\vec{P}$** = Total linear momentum (kg$\\cdot$m/s)\n\n**Conditions/Notes:**\n- **Internal forces** (forces particles exert on each other) entirely cancel out in equal/opposite pairs due to Newton's Third Law.\n- Therefore, internal forces do NOT contribute to the acceleration of the centre of mass."
+      }
+    },
+    {
+      "cardId": "ef26888b-0f6c-4fb8-af7b-86facd8ae966",
+      "originalOrder": 10,
+      "originalHeading": "Conservation of Linear Momentum",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "momentum",
+          "neet",
+          "jee"
+        ],
+        "order": 10,
+        "heading": "Conservation of Linear Momentum (System of Particles)",
+        "question": "Under what strict boundary condition is the total linear momentum of a multi-particle system completely conserved?",
+        "back": "**The Strict Condition:**\n- The total linear momentum of a system is strictly conserved if and only if the **net external force acting on the system is zero** ($\\vec{F}*{ext} = 0$).\n\n**The Direct Consequence:**\n- Based on the equation $\\vec{F}*{ext} = M \\frac{d\\vec{V}*{CM}}{dt}$, if the force is zero, the acceleration is zero.\n- Therefore, the velocity of the centre of mass ($\\vec{V}*{CM}$) remains absolutely **constant** (it either remains perpetually at rest or moves uniformly in a straight line)."
+      }
+    },
+    {
+      "cardId": "bd6440ba-4f19-453c-bb67-f5469a8e2be1",
+      "originalOrder": 9,
+      "originalHeading": "Exploding Projectile Trajectory",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "A perfect, high-yield conceptual application of CM motion and internal vs external forces.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CASE_STUDY",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "centre-of-mass",
+          "neet",
+          "jee"
+        ],
+        "order": 11,
+        "heading": "Exploding Projectile Trajectory",
+        "question": "If an artillery shell explodes into multiple fragments midway through its flight in the air, what happens to the trajectory of its Centre of Mass?",
+        "back": "**Outcome:**\n- The Centre of Mass **continues along the exact same parabolic trajectory** it would have followed if no explosion had occurred.\n\n**Reasoning:**\n- The explosion is caused solely by **internal forces** (chemical reactions expanding outward).\n- Internal forces cannot alter the motion of the Centre of Mass. \n- The only **external force** acting on the overall system is gravity, which remains constant both before and after the explosion."
+      }
+    },
+    {
+      "cardId": "0912e82f-a5be-4ab9-9822-a6e6aa0c7a61",
+      "originalOrder": 11,
+      "originalHeading": "Vector (Cross) Product",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Required mathematical prerequisite before defining rotational quantities.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "vectors",
+          "neet",
+          "jee"
+        ],
+        "order": 12,
+        "heading": "Vector (Cross) Product",
+        "formula": "\\vec{A} \\times \\vec{B} = A B \\sin \\theta \\, \\hat{n}",
+        "description": "Calculates the vector cross product of two vectors, including its direction component.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{A}, \\vec{B}$** = The two multiplying vectors\n- **A, B** = Magnitudes of the respective vectors\n- **$\\theta$** = Angle between the vectors ($0 \\le \\theta \\le \\pi$)\n- **$\\hat{n}$** = Unit vector perfectly perpendicular to the plane containing both A and B\n\n**Conditions/Notes:**\n- The cross product yields a true vector quantity.\n- It is inherently **anti-commutative**: $\\vec{A} \\times \\vec{B} = - (\\vec{B} \\times \\vec{A})$."
+      }
+    },
+    {
+      "cardId": "14f34e07-aaba-46b2-8de4-777b5c3f686d",
+      "originalOrder": 12,
+      "originalHeading": "Right-Hand Screw Rule",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "vectors",
+          "neet",
+          "jee"
+        ],
+        "order": 13,
+        "heading": "Right-Hand Screw Rule",
+        "question": "What is the physical procedure to determine the direction of the unit vector $\\hat{n}$ resulting from a vector cross product $\\vec{A} \\times \\vec{B}$?",
+        "back": "1. Place the two vectors $\\vec{A}$ and $\\vec{B}$ tail-to-tail.\n2. Imagine a right-handed screw placed at the origin, perfectly perpendicular to the plane formed by the vectors.\n3. Turn the screw from the **first vector (A)** toward the **second vector (B)** through the smaller angle between them.\n4. The direction the screw advances (or the direction your thumb naturally points when curling your right fingers from A to B) is the resultant direction of $\\hat{n}$."
+      }
+    },
+    {
+      "cardId": "b85c9975-cc8b-4902-b67b-fae4042ab1b3",
+      "originalOrder": 13,
+      "originalHeading": "Cross Product & Area of a Triangle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Geometric application of the cross product.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "vectors",
+          "neet",
+          "jee"
+        ],
+        "order": 14,
+        "heading": "Cross Product & Area of a Triangle",
+        "formula": "\\text{Area} = \\frac{1}{2} |\\vec{a} \\times \\vec{b}|",
+        "description": "Calculates the geometrical area of a triangle formed by two vectors $\\vec{a}$ and $\\vec{b}$ acting as adjacent sides.",
+        "derivation": "**Variables & Units:**\n- **$|\\vec{a} \\times \\vec{b}|$** = Magnitude of the cross product of the two vectors forming the sides of the triangle.\n\n**Conditions/Notes:**\n- The full magnitude $|\\vec{a} \\times \\vec{b}|$ represents the geometric area of a **parallelogram** formed by those vectors.\n- Halving that cross-product magnitude mathematically yields the area of the inscribed triangle."
+      }
+    },
+    {
+      "cardId": "cca6fa77-29bb-4d20-96a3-7f6b22934802",
+      "originalOrder": 14,
+      "originalHeading": "Linear and Angular Velocity Relation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "First physics application of the cross product, defining rotational kinematics.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "kinematics",
+          "neet",
+          "jee"
+        ],
+        "order": 15,
+        "heading": "Linear and Angular Velocity Relation",
+        "formula": "\\vec{v} = \\vec{\\omega} \\times \\vec{r}",
+        "description": "Connects the linear velocity of a particle in a rotating rigid body to its angular velocity via the vector cross-product.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{v}$** = Linear velocity of the particle (m/s)\n- **$\\vec{\\omega}$** = Angular velocity of the rigid body (rad/s)\n- **$\\vec{r}$** = Position vector of the particle relative to the axis origin (m)\n\n**Conditions/Notes:**\n- The order matters immensely: It is strictly $\\vec{\\omega} \\times \\vec{r}$, NOT $\\vec{r} \\times \\vec{\\omega}$.\n- For rotation about a fixed axis, the magnitude simplifies algebraically to $v = \\omega r_{\\perp}$, where $r_{\\perp}$ is the perpendicular distance from the axis of rotation."
+      }
+    },
+    {
+      "cardId": "2702386c-97d1-48d1-a186-bc108f16619a",
+      "originalOrder": 15,
+      "originalHeading": "Angular Acceleration",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "kinematics",
+          "neet",
+          "jee"
+        ],
+        "order": 16,
+        "heading": "Angular Acceleration",
+        "formula": "\\vec{\\alpha} = \\frac{d\\vec{\\omega}}{dt}",
+        "description": "Defines angular acceleration in its fundamental calculus form.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{\\alpha}$** = Angular acceleration (rad/s$^2$)\n- **$d\\vec{\\omega}$** = Infinitesimal change in angular velocity (rad/s)\n- **dt** = Infinitesimal time interval (s)\n\n**Conditions/Notes:**\n- If the axis of rotation is rigidly fixed, the direction of both $\\vec{\\omega}$ and $\\vec{\\alpha}$ remains strictly locked along the axis.\n- In this fixed-axis scenario, the vector equation safely reduces to a standard scalar equation $\\alpha = d\\omega / dt$."
+      }
+    },
+    {
+      "cardId": "806fbe4e-2b8e-4164-a845-4ab363cdcb30",
+      "originalOrder": 32,
+      "originalHeading": "1st Equation of Rotational Kinematics",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Moved up to immediately follow the definitions of angular velocity and acceleration.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "kinematics",
+          "neet",
+          "jee"
+        ],
+        "order": 17,
+        "heading": "1st Equation of Rotational Kinematics",
+        "formula": "\\omega = \\omega_0 + \\alpha t",
+        "description": "The first kinematical equation of rotational motion relating final angular velocity, initial angular velocity, angular acceleration, and time.",
+        "derivation": "**Derivation:**\nFrom $\\alpha = d\\omega / dt$, integrate both sides: $\\int_{\\omega_0}^{\\omega} d\\omega = \\int_0^t \\alpha dt$.\nSince $\\alpha$ is constant, $\\omega - \\omega_0 = \\alpha t$.\n\n**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time interval (s)\n\n**Conditions/Notes:**\n- **Strict Condition:** This equation is absolutely valid *only* if the angular acceleration $\\alpha$ is completely uniform (constant).\n- It is the exact rotational analogue of $v = u + at$."
+      }
+    },
+    {
+      "cardId": "840e54d8-60e6-4b5a-af88-1c034b253930",
+      "originalOrder": 33,
+      "originalHeading": "2nd Equation of Rotational Kinematics",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Rotational analogue to displacement equation.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "kinematics",
+          "neet",
+          "jee"
+        ],
+        "order": 18,
+        "heading": "2nd Equation of Rotational Kinematics",
+        "formula": "\\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2",
+        "description": "The second kinematical equation of rotational motion determining angular displacement.",
+        "derivation": "**Variables & Units:**\n- **$\\theta$** = Angular displacement (radians, rad)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **t** = Time (s)\n\n**Conditions/Notes:**\n- Valid strictly only for uniform (constant) angular acceleration.\n- It is the exact rotational analogue to the linear equation $s = ut + \\frac{1}{2}at^2$."
+      }
+    },
+    {
+      "cardId": "757c22c4-8456-495a-8368-36fb40d7fb7f",
+      "originalOrder": 34,
+      "originalHeading": "3rd Equation of Rotational Kinematics",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Rotational analogue to the time-independent kinematic equation.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "kinematics",
+          "neet",
+          "jee"
+        ],
+        "order": 19,
+        "heading": "3rd Equation of Rotational Kinematics",
+        "formula": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta",
+        "description": "The third time-independent kinematical equation of rotational motion.",
+        "derivation": "**Variables & Units:**\n- **$\\omega$** = Final angular velocity (rad/s)\n- **$\\omega_0$** = Initial angular velocity (rad/s)\n- **$\\alpha$** = Constant angular acceleration (rad/s$^2$)\n- **$\\theta$** = Angular displacement (rad)\n\n**Conditions/Notes:**\n- Highly useful when the time variable ($t$) is unknown or not required for the calculation.\n- It is the exact rotational analogue to the linear equation $v^2 = u^2 + 2as$."
+      }
+    },
+    {
+      "cardId": "3f9b4ff7-81c5-4ef7-a3c4-f499b322d45c",
+      "originalOrder": 16,
+      "originalHeading": "Torque (Moment of Force)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Transitions from rotational kinematics to rotational dynamics.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "torque",
+          "neet",
+          "jee"
+        ],
+        "order": 20,
+        "heading": "Torque (Moment of Force)",
+        "formula": "\\vec{\\tau} = \\vec{r} \\times \\vec{F}",
+        "description": "Calculates the torque (moment of force) acting on a single particle.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{\\tau}$** = Torque / Moment of Force (Newton-meter, N$\\cdot$m)\n- **$\\vec{r}$** = Position vector of the point of force application relative to the origin (m)\n- **$\\vec{F}$** = Force applied on the particle (N)\n\n**Conditions/Notes:**\n- Torque acts as the exact rotational analogue of linear force.\n- The magnitude evaluates to $\\tau = r F \\sin\\theta = F r_{\\perp}$, where $r_{\\perp}$ is known as the **lever arm**."
+      }
+    },
+    {
+      "cardId": "6c2776a7-abc8-4e1f-b35e-a7a586c375bf",
+      "originalOrder": 21,
+      "originalHeading": "Force Couple",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Moved up to follow Torque, demonstrating a pure torque application without translational force.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "torque",
+          "neet",
+          "jee"
+        ],
+        "order": 21,
+        "heading": "Force Couple",
+        "question": "What specifically constitutes a 'Couple' in rotational mechanics, and what unique type of motion does it generate?",
+        "back": "**Explanation:**\nA **Couple** consists of two separate forces of **equal magnitude** but **opposite direction**, acting along *different* non-coincident lines of action.\n\n**Resulting Motion:**\n- Since the forces are perfectly equal and opposite, the net linear force is absolutely zero ($\\sum \\vec{F} = 0$). Thus, a couple generates **no translational motion**.\n- However, because their lines of action differ, they create a net torque, strictly producing **pure rotational motion**.\n- *Example:* Twisting open a jar lid or turning a car steering wheel with both hands."
+      }
+    },
+    {
+      "cardId": "1a9f7d44-a831-4f88-b372-2d3962779516",
+      "originalOrder": 20,
+      "originalHeading": "Mechanical Equilibrium of a Rigid Body",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Combines net force = 0 and net torque = 0 to establish the equilibrium conditions.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "equilibrium",
+          "neet",
+          "jee"
+        ],
+        "order": 22,
+        "heading": "Mechanical Equilibrium of a Rigid Body",
+        "question": "What two independent vector conditions must be strictly satisfied simultaneously for a rigid body to be in total mechanical equilibrium?",
+        "back": "**1. Translational Equilibrium:**\n- The vector sum of all external **forces** must be precisely zero.\n- $\\sum \\vec{F}_i = 0$ (This ensures linear momentum $\\vec{P}$ remains constant).\n\n**2. Rotational Equilibrium:**\n- The vector sum of all external **torques** must be precisely zero.\n- $\\sum \\vec{\\tau}_i = 0$ (This ensures angular momentum $\\vec{L}$ remains constant)."
+      }
+    },
+    {
+      "cardId": "500263f9-4408-4f0e-8838-90b49ea560ce",
+      "originalOrder": 23,
+      "originalHeading": "Moment of Inertia",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Introduces the rotational analogue of mass.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "moment-of-inertia",
+          "neet",
+          "jee"
+        ],
+        "order": 23,
+        "heading": "Moment of Inertia (Discrete System)",
+        "formula": "I = \\sum_{i=1}^{n} m_i r_i^2",
+        "description": "Calculates the total moment of inertia of a discrete system of particles rotating about a specified axis.",
+        "derivation": "**Variables & Units:**\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **$m_i$** = Mass of the $i^{th}$ discrete particle (kg)\n- **$r_i$** = Exact perpendicular distance of the $i^{th}$ particle from the axis of rotation (m)\n\n**Conditions/Notes:**\n- $I$ acts as the exact rotational analogue to mass, effectively measuring 'rotational inertia'.\n- Unlike mass, it is not a fixed intrinsic quantity; it dynamically depends on the shape, mass distribution, and the **specific position and orientation of the axis of rotation**."
+      }
+    },
+    {
+      "cardId": "d6703966-04f0-4745-9d09-6cf7e4b5507d",
+      "originalOrder": 25,
+      "originalHeading": "Radius of Gyration",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Logically pairs with the generic moment of inertia formula.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "moment-of-inertia",
+          "neet",
+          "jee"
+        ],
+        "order": 24,
+        "heading": "Radius of Gyration",
+        "formula": "I = M k^2 \\implies k = \\sqrt{\\frac{I}{M}}",
+        "description": "Maps the Radius of Gyration ($k$) to the Moment of Inertia and the Total Mass of a body.",
+        "derivation": "**Variables & Units:**\n- **k** = Radius of Gyration (m)\n- **I** = Moment of Inertia (kg$\\cdot$m$^2$)\n- **M** = Total mass of the body (kg)\n\n**Conditions/Notes:**\n- Physically represents the **root-mean-square distance** of the constituent particles from the axis of rotation.\n- Conceptually, it is the theoretical perpendicular distance from the axis where, if the entire mass of the body were crushed into a single point, the moment of inertia would remain absolutely unchanged."
+      }
+    },
+    {
+      "cardId": "e81a63fb-ee42-48fe-9e69-a99586b8278e",
+      "originalOrder": 26,
+      "originalHeading": "Theorem of Perpendicular Axes",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Provides the tools needed to derive MOI for standard shapes.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "rotational-motion",
+          "moment-of-inertia",
+          "neet",
+          "jee"
+        ],
+        "order": 25,
+        "heading": "Theorem of Perpendicular Axes",
+        "formula": "I_z = I_x + I_y",
+        "description": "Relates the moment of inertia of a planar body about a perpendicular axis to two in-plane axes.",
+        "derivation": "**Variables & Units:**\n- **$I_z$** = Moment of inertia about the axis perfectly perpendicular to the plane (kg$\\cdot$m$^2$)\n- **$I_x, I_y$** = Moments of inertia about two mutually perpendicular axes lying *in the plane* of the body (kg$\\cdot$m$^2$)\n\n**Conditions/Notes:**\n- **Strict Boundary Condition:** This theorem is **only applicable to 2D planar bodies (laminas)** whose thickness is negligible.\n- The three axes (x, y, and z) must be mutually perpendicular and perfectly concurrent (intersecting at a single point O)."
+      }
+    },
+    {
+      "cardId": "891d5d01-6723-41ee-b71d-6084f27cdddd",
       "originalOrder": 27,
       "originalHeading": "Theorem of Parallel Axes",
       "action": "MODIFIED",
@@ -724,7 +724,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d25e",
+      "cardId": "530d48e4-723e-4129-a551-1c994fa7ba87",
       "originalOrder": 28,
       "originalHeading": "Moment of Inertia: Thin Ring",
       "action": "MODIFIED",
@@ -752,7 +752,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d25f",
+      "cardId": "ee221a38-6bbf-435a-b5e1-efda667a0cb0",
       "originalOrder": 29,
       "originalHeading": "Moment of Inertia: Uniform Disc / Solid Cylinder",
       "action": "MODIFIED",
@@ -780,7 +780,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d260",
+      "cardId": "4cef9db5-a778-42ce-81fe-2fa2f5127d6e",
       "originalOrder": 30,
       "originalHeading": "Moment of Inertia: Thin Rod",
       "action": "MODIFIED",
@@ -808,7 +808,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d261",
+      "cardId": "c36a660a-9dbd-4468-a79c-4113895c9017",
       "originalOrder": 31,
       "originalHeading": "Moment of Inertia: Solid Sphere",
       "action": "MODIFIED",
@@ -836,7 +836,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d278",
+      "cardId": "ee59fffa-2499-48e1-a06b-b7f6a7aba8a4",
       "originalOrder": 43,
       "originalHeading": "Moment of Inertia: Thin Spherical Shell",
       "action": "MODIFIED",
@@ -865,7 +865,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d279",
+      "cardId": "8a3185ef-9998-468e-8ab9-29e8e636d7fe",
       "originalOrder": 44,
       "originalHeading": "Moment of Inertia: Rectangular Plate",
       "action": "MODIFIED",
@@ -893,7 +893,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d267",
+      "cardId": "4dd76bb1-1640-436a-9456-4bd233cea303",
       "originalOrder": 37,
       "originalHeading": "Newton's 2nd Law for Rotational Motion",
       "action": "MODIFIED",
@@ -921,7 +921,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d265",
+      "cardId": "7e53579d-f2f0-4f7e-9b5b-5cfa7534ac95",
       "originalOrder": 35,
       "originalHeading": "Work Done by a Torque",
       "action": "MODIFIED",
@@ -949,7 +949,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d266",
+      "cardId": "0813e153-3874-4fe1-b14a-5f5e73789966",
       "originalOrder": 36,
       "originalHeading": "Instantaneous Rotational Power",
       "action": "MODIFIED",
@@ -977,7 +977,7 @@
       }
     },
     {
-      "cardId": "69aaf9e1fc9152e2eef8d24f",
+      "cardId": "044a5e63-d837-4493-a1c5-11f899a761fc",
       "originalOrder": 24,
       "originalHeading": "Kinetic Energy of Rotation",
       "action": "MODIFIED",
@@ -1005,7 +1005,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d27a",
+      "cardId": "c66fe623-ece8-463d-a492-ae56d1b78e2b",
       "originalOrder": 45,
       "originalHeading": "Separation of Kinetic Energy",
       "action": "MODIFIED",
@@ -1034,7 +1034,7 @@
       }
     },
     {
-      "cardId": "69aaf9e1fc9152e2eef8d248",
+      "cardId": "91020a99-eac9-4e70-a273-ffc8b3752182",
       "originalOrder": 17,
       "originalHeading": "Angular Momentum of a Particle",
       "action": "MODIFIED",
@@ -1062,7 +1062,7 @@
       }
     },
     {
-      "cardId": "69aaf9e1fc9152e2eef8d249",
+      "cardId": "da5f0bf1-b043-4534-9497-a210b076b43c",
       "originalOrder": 18,
       "originalHeading": "Relation Between Torque & Angular Momentum",
       "action": "MODIFIED",
@@ -1090,7 +1090,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d27c",
+      "cardId": "48bc9ed5-45f6-4a1b-81c9-96c402fee9ac",
       "originalOrder": 47,
       "originalHeading": "Angular Impulse",
       "action": "MODIFIED",
@@ -1118,7 +1118,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d27b",
+      "cardId": "2cff28e1-b387-4e00-b223-fe8f21435345",
       "originalOrder": 46,
       "originalHeading": "Separation of Angular Momentum",
       "action": "MODIFIED",
@@ -1147,7 +1147,7 @@
       }
     },
     {
-      "cardId": "69aaf9e1fc9152e2eef8d24a",
+      "cardId": "128d75ca-b197-4022-bc4a-05bc621d2ffd",
       "originalOrder": 19,
       "originalHeading": "Conservation of Angular Momentum",
       "action": "MODIFIED",
@@ -1174,7 +1174,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d268",
+      "cardId": "fc223ab3-f4ac-48ce-8028-295178350e15",
       "originalOrder": 38,
       "originalHeading": "Angular Momentum Components (Fixed Axis)",
       "action": "MODIFIED",
@@ -1201,7 +1201,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d269",
+      "cardId": "8a09136f-d11f-4146-97e3-e1c60c36f15d",
       "originalOrder": 39,
       "originalHeading": "Kinematics of Pure Rolling",
       "action": "MODIFIED",
@@ -1228,7 +1228,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d27d",
+      "cardId": "6774165c-05c9-4432-b4cc-926b0be39d6b",
       "originalOrder": 48,
       "originalHeading": "Instantaneous Axis of Rotation",
       "action": "MODIFIED",
@@ -1255,7 +1255,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d26a",
+      "cardId": "43f9451c-4273-4723-a8e3-94808b6870d2",
       "originalOrder": 40,
       "originalHeading": "Kinetic Energy of a Rolling Body",
       "action": "MODIFIED",
@@ -1284,7 +1284,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d26c",
+      "cardId": "b2996026-dc91-4d8a-9af0-a04e9df9f2a9",
       "originalOrder": 42,
       "originalHeading": "Work Done by Friction in Pure Rolling",
       "action": "MODIFIED",
@@ -1312,7 +1312,7 @@
       }
     },
     {
-      "cardId": "69aafabcfc9152e2eef8d27e",
+      "cardId": "5080da47-e52e-4289-b96e-533a5e504bad",
       "originalOrder": 49,
       "originalHeading": "Acceleration in Rolling Down an Incline",
       "action": "MODIFIED",
@@ -1340,7 +1340,7 @@
       }
     },
     {
-      "cardId": "69aafa76fc9152e2eef8d26b",
+      "cardId": "f86944a5-524b-482b-8e5d-20784c03aac9",
       "originalOrder": 41,
       "originalHeading": "Rolling down an Inclined Plane (Velocity)",
       "action": "MODIFIED",
@@ -1369,7 +1369,7 @@
       }
     },
     {
-      "cardId": "END_OF_CHAPTER",
+      "cardId": "NEW",
       "action": "SYSTEM",
       "cardData": null
     }

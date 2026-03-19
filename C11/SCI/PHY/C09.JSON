@@ -1,605 +1,931 @@
 {
-"deckId": "69ab16b7fc9152e2eef8d345",
-"cards": [
-{
-"cardId": "69ab38b1fc9152e2eef8d3aa",
-"originalOrder": 1,
-"originalHeading": "Fluids vs. Solids",
-"action": "MODIFIED",
-"modificationsSummary": ["Structured reasoning into clear points", "Added explicit citation"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "fluids", "neet", "jee", "class-11"],
-"order": 1,
-"heading": "Fluids vs. Solids",
-"question": "What is the key mechanical property that distinguishes fluids (liquids and gases) from solids regarding their response to stress? ",
-"back": "### The Fundamental Distinction\n- **Solids** can resist significant shear stress and maintain a fixed shape. \n- **Fluids** offer *very little resistance* to shear stress. Their shape changes continuously upon the application of even a very small shear stress (about a million times smaller than that of solids). \n- This inherent inability to resist shear stress is the primary reason why fluids flow and assume the shape of their containers. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3ab",
-"originalOrder": 2,
-"originalHeading": "Fluid Pressure",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Fixed LaTeX syntax"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "pressure", "neet", "jee", "class-11"],
-"order": 2,
-"heading": "Fluid Pressure",
-"formula": "P = \\frac{F}{A}",
-"description": "State the formula for Fluid Pressure, its SI unit, and its dimensional formula. ",
-"derivation": "**Variables & Units:**\n- **$P$**: Pressure (N/m² or Pascal, Pa)\n- **$F$**: Normal force exerted by the fluid (N)\n- **$A$**: Area of contact (m²)\n\n**Key Characteristics:**\n- **Dimensional Formula:** [ML⁻¹T⁻²]\n- **Nature:** Pressure is a **Scalar quantity**. Even though force is a vector, pressure strictly relates to the *component* of force normal to the area, acting equally in all directions within a fluid at rest. "
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3cf",
-"originalOrder": 27,
-"originalHeading": "Units of Fluid Pressure",
-"action": "MODIFIED",
-"modificationsSummary": ["Reordered for cognitive sequencing", "Formatted conversions"],
-"vettingNotes": "Moved closer to the definition of fluid pressure.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DATA",
-"tags": ["science", "physics", "units", "neet", "jee", "class-11"],
-"order": 3,
-"heading": "Units of Fluid Pressure",
-"question": "What are the exact mathematical relationships between the standard SI unit of pressure (Pascal) and other common practical units like atm, bar, and torr? ",
-"back": "### Pressure Conversions\n- **1 atm** = Standard atmospheric pressure at sea level = $1.013 \\times 10^5$ Pa.\n- **1 bar** = $10^5$ Pa (often used in meteorology; closely approximates 1 atm). \n- **1 torr** = Pressure equivalent to exactly 1 mm of an Hg column = $133$ Pa.\n- **1 atm** = $760$ mm of Hg = $760$ torr. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3ae",
-"originalOrder": 5,
-"originalHeading": "Absolute vs. Gauge Pressure",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified equations and definitions"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "pressure", "neet", "jee", "class-11"],
-"order": 4,
-"heading": "Absolute vs. Gauge Pressure",
-"question": "What is the difference between Absolute Pressure and Gauge Pressure, and how does atmospheric pressure bridge the two? ",
-"back": "### The Distinction\n- **Absolute Pressure ($P$):** The total, actual pressure measured at a given depth. \n  *Formula:* $P = P_a + \\rho gh$\n- **Gauge Pressure ($P_g$):** The *excess* pressure above the local atmospheric pressure. It is the value typically measured by common pressure gauges (like tyre pressure or blood pressure cuffs). \n  *Formula:* $P_g = P - P_a = \\rho gh$"
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3ad",
-"originalOrder": 4,
-"originalHeading": "Variation of Pressure with Depth",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Added explicit bounds"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "hydrostatics", "neet", "jee", "class-11"],
-"order": 5,
-"heading": "Variation of Pressure with Depth",
-"formula": "P_2 - P_1 = \\rho g h",
-"description": "Mathematical formula relating the pressure at two different vertical depths within a static, incompressible fluid. ",
-"derivation": "**Derivation:**\n1. Consider a fluid cylinder of height $h$ and area $A$. \n2. Downward forces: $P_1 A$ (fluid above) + $mg$ (weight of cylinder).\n3. Upward force: $P_2 A$ (fluid below). \n4. In equilibrium: $P_2 A = P_1 A + mg$\n5. Substitute $m = \\rho V = \\rho A h$: $P_2 A = P_1 A + \\rho A h g \\implies P_2 - P_1 = \\rho g h$. \n\n**Variables:**\n- **$P_2, P_1$**: Pressures at lower and upper depths respectively (Pa)\n- **$\\rho$**: Density of the fluid (kg/m³)\n- **$h$**: Vertical height difference (m)\n\n**Condition:** Valid strictly for fluids where density ($\\rho$) remains uniform (incompressible liquids). "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3ac",
-"originalOrder": 3,
-"originalHeading": "Pascal's Law",
-"action": "MODIFIED",
-"modificationsSummary": ["Segmented the two primary clauses of the law"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "pascals-law", "neet", "jee", "class-11"],
-"order": 6,
-"heading": "Pascal's Law",
-"question": "State Pascal's Law regarding the pressure in a static fluid and the transmission of applied external pressure. ",
-"back": "### Pascal's Law Comprises Two Aspects:\n1. **Static Fluid Equilibrium:** The pressure in a fluid at rest is exactly the same at all points if they are at the same horizontal level. \n2. **Pressure Transmission:** Whenever external pressure is applied to any part of a fluid contained in a closed vessel, it is **transmitted undiminished and equally** in all directions to every point of the fluid and the walls of the container. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b0",
-"originalOrder": 7,
-"originalHeading": "Hydraulic Lift (Mechanical Advantage)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "hydraulic", "neet", "jee", "class-11"],
-"order": 7,
-"heading": "Hydraulic Lift (Mechanical Advantage)",
-"formula": "F_2 = F_1 \\left( \\frac{A_2}{A_1} \\right)",
-"description": "Based on Pascal's Law, formula relating the force exerted on the large piston to the force applied on the small piston in a hydraulic lift. ",
-"derivation": "**Variables:**\n- **$F_2$**: Upward force generated on the large piston (N)\n- **$F_1$**: Downward force applied to the small piston (N)\n- **$A_2, A_1$**: Cross-sectional areas of the large and small pistons respectively (m²)\n\n**Mechanism:**\nSince pressure is transmitted undiminished ($P = \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$), a small force over a small area creates a massive lifting force over a large area. The ratio $(A_2 / A_1)$ is known as the **Mechanical Advantage**. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3af",
-"originalOrder": 6,
-"originalHeading": "Hydrostatic Paradox",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified equilibrium conditions"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "hydrostatics", "neet", "jee", "class-11"],
-"order": 8,
-"heading": "Hydrostatic Paradox",
-"question": "If three vessels of completely different shapes and base areas are interconnected and filled with a liquid, what determines the final liquid level in each vessel? ",
-"back": "### The Hydrostatic Paradox\n- The liquid level will be **exactly the same** in all interconnected vessels, regardless of their shape, volume capacity, or base area. \n- **Reasoning:** Liquid pressure depends *only* on the vertical depth ($h$) and density ($\\rho$), and is completely independent of the total weight of the liquid or the container's geometry. For the system to achieve static equilibrium, the pressure at the common bottom interconnecting pipe must be identical throughout, meaning $h$ must be identical across all vessels. "
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3ce",
-"originalOrder": 26,
-"originalHeading": "Mercury Barometer",
-"action": "MODIFIED",
-"modificationsSummary": ["Formatted bullet points"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "barometer", "neet", "jee", "class-11"],
-"order": 9,
-"heading": "Mercury Barometer",
-"question": "Why is Mercury (Hg) specifically chosen as the manometric liquid in Torricelli's barometer instead of water? ",
-"back": "### Engineering Advantages of Mercury\n1. **High Density:** Hg has a massive density ($13.6 \\times 10^3 \\text{ kg/m}^3$), which keeps the barometer height manageable (approx 76 cm at sea level). Water would require an unwieldy glass tube over 10 meters tall! \n2. **Low Vapour Pressure:** The space above the mercury column is nearly a perfect vacuum. Mercury's vapor pressure is negligible at room temperature, making the atmospheric reading highly accurate. \n3. **Non-Wetting:** It does not wet the glass walls, ensuring a clear, convex meniscus that moves freely without sticking to the tube. \n4. **Visibility:** Its opaque, shiny metallic surface makes it easily observable. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b1",
-"originalOrder": 8,
-"originalHeading": "Archimedes' Principle & Buoyancy",
-"action": "MODIFIED",
-"modificationsSummary": ["Added LaTeX equations for clarity"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "buoyancy", "neet", "jee", "class-11"],
-"order": 10,
-"heading": "Archimedes' Principle & Buoyancy",
-"question": "State Archimedes' Principle. What specifically determines whether a completely submerged object will ultimately sink or float? ",
-"back": "### Archimedes' Principle\n- The **buoyant force** (upward thrust) acting on a body totally or partially immersed in a fluid is exactly equal in magnitude to the **weight of the fluid displaced** by the body. \n- $F_B = V_{immersed} \\cdot \rho_{fluid} \\cdot g$\n\n### Sink or Float Condition\n- **Sinks:** If the object's overall density is strictly greater than the fluid's density ($\rho_{object} > \rho_{fluid}$), the downward weight exceeds the maximum upthrust. \n- **Floats:** If the object's density is less than or equal to the fluid's density ($\rho_{object} \\le \rho_{fluid}$), it will float either partially or fully submerged. "
-}
-},
-{
-"cardId": "NEW_RELATIVE_DENSITY",
-"originalOrder": 8,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Fills the pedagogical gap between density and buoyancy.",
-"cardData": {
-"type": "FORMULA",
-"classification": "DEFINITION",
-"tags": ["science", "physics", "density", "neet", "jee", "class-11"],
-"order": 11,
-"heading": "Relative Density / Specific Gravity",
-"formula": "\\text{Relative Density} = \\frac{\rho_{\\text{substance}}}{\rho_{\\text{water at } 4^\\circ C}}",
-"description": "Definition of Relative Density (also known as Specific Gravity) for a substance.",
-"derivation": "**Concept:**\n- Relative density is the ratio of the density of a substance to the density of water at $4^\\circ C$ (which is exactly $1000 \\text{ kg/m}^3$).\n- Because it is a ratio of two identical physical quantities, it is a **dimensionless, unitless number**.\n- For example, if a solid has a relative density of $2.5$, its actual density is $2500 \\text{ kg/m}^3$, and it will sink in water."
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d1",
-"originalOrder": 29,
-"originalHeading": "Pressure in a Vertically Accelerating Fluid",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "kinematics", "pressure", "neet", "jee", "class-11"],
-"order": 12,
-"heading": "Pressure in a Vertically Accelerating Fluid",
-"formula": "P_g = \\rho h (g \\pm a)",
-"description": "Formula for the gauge pressure at a depth $h$ in a fluid container accelerating vertically. ",
-"derivation": "**Variables:**\n- **$P_g$**: Gauge pressure (Pa)\n- **$\\rho$**: Density of the fluid (kg/m³)\n- **$h$**: Depth below the free surface (m)\n- **$g$**: Acceleration due to gravity (m/s²)\n- **$a$**: Vertical acceleration of the container (m/s²)\n\n**Sign Convention:**\n- If the container accelerates **upwards**, effective gravity increases ($g_{eff} = g + a$). \n- If the container accelerates **downwards**, effective gravity decreases ($g_{eff} = g - a$). \n- For a freely falling container ($a = g$), the gauge pressure everywhere in the fluid drops to **zero** (weightlessness condition). "
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d0",
-"originalOrder": 28,
-"originalHeading": "Free Surface of a Horizontally Accelerating Fluid",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Improved vector mechanics derivation"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "kinematics", "neet", "jee", "class-11"],
-"order": 13,
-"heading": "Free Surface of a Horizontally Accelerating Fluid",
-"formula": "\\tan \\theta = \\frac{a}{g}",
-"description": "Formula for the angle made by the free surface of a liquid in an open container accelerating horizontally. ",
-"derivation": "**Derivation via Pseudo Force:**\n1. Consider a particle of mass $m$ on the free surface.\n2. Pseudo force acts strictly backward horizontally = $ma$. \n3. Real weight acts strictly downward = $mg$.\n4. For the surface to remain in static equilibrium relative to the container, the tangential components must balance: $mg \\sin \\theta = ma \\cos \\theta$. \n5. Rearranging yields $\\tan \\theta = \\frac{a}{g}$. \n\n**Key Insight:** The fluid element attains equilibrium under the combined action of gravity and the pseudo force ($-ma$). The free surface of the liquid always orients itself strictly **perpendicular to the direction of the net effective gravity vector**. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b2",
-"originalOrder": 9,
-"originalHeading": "Streamline vs. Turbulent Flow",
-"action": "MODIFIED",
-"modificationsSummary": ["Structured terms", "Bolded critical definitions"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "fluid-flow", "neet", "jee", "class-11"],
-"order": 14,
-"heading": "Streamline vs. Turbulent Flow",
-"question": "What is the physical distinction between Streamline (Laminar) flow and Turbulent flow, and what role does 'Critical Velocity' play? ",
-"back": "### The Flow Distinction\n- **Streamline Flow:** The velocity of each passing fluid particle at a given point remains completely constant in time.  Fluid layers slide smoothly parallel to each other. By definition, no two streamlines ever intersect or cross. \n- **Turbulent Flow:** Fluid velocity varies rapidly and randomly with time. It produces chaotic eddies and vortices, dissipating significant kinetic energy as heat. \n\n### Critical Velocity\n- The absolute maximum velocity of a fluid up to which its flow remains strictly streamlined. Beyond this threshold speed, the flow loses steadiness and transitions into turbulent flow. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b3",
-"originalOrder": 10,
-"originalHeading": "Equation of Continuity",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "continuity", "neet", "jee", "class-11"],
-"order": 15,
-"heading": "Equation of Continuity",
-"formula": "A_1 v_1 = A_2 v_2 = \\text{Constant}",
-"description": "Equation of Continuity for the steady flow of an incompressible fluid. ",
-"derivation": "**Variables:**\n- **$A$**: Cross-sectional area of the pipe/tube (m²)\n- **$v$**: Speed of the fluid passing through that section (m/s)\n\n**Physical Meaning:**\n- The product $Av$ represents the **Volume Flux** or flow rate ($m^3/s$). \n- This equation is a direct consequence of the **Conservation of Mass**.\n- It dictates that fluid speeds up mathematically in narrower regions (where streamlines are tightly packed) and slows down in wider regions. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b4",
-"originalOrder": 11,
-"originalHeading": "Bernoulli's Equation",
-"action": "MERGED",
-"modificationsSummary": ["Merged with Card 34 to incorporate energy density meanings"],
-"vettingNotes": "Combined the equation with the explanation of its constituent terms.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "bernoulli", "neet", "jee", "class-11"],
-"order": 16,
-"heading": "Bernoulli's Equation & Energy Densities",
-"formula": "P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{Constant}",
-"description": "Bernoulli's Equation represents the **Conservation of Energy** applied to fluid dynamics. ",
-"derivation": "**The Three Energy Densities:**\n1. **$P$ (Static Pressure):** Represents the **Pressure Energy** per unit volume. It is the work done by fluid pressure to move a fluid element into a region. \n2. **$\\frac{1}{2}\\rho v^2$:** Represents the **Kinetic Energy** per unit volume (also known as dynamic pressure). \n3. **$\\rho g h$:** Represents the **Gravitational Potential Energy** per unit volume. \n\n**Implication:** In an ideal, streamline flow, an increase in fluid velocity ($v$) mathematically necessitates a simultaneous decrease in pressure ($P$) or potential energy to maintain the constant total. "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b5",
-"originalOrder": 12,
-"originalHeading": "Limitations of Bernoulli's Theorem",
-"action": "MODIFIED",
-"modificationsSummary": ["Polished readability"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "bernoulli", "neet", "jee", "class-11"],
-"order": 17,
-"heading": "Limitations of Bernoulli's Theorem",
-"question": "Bernoulli's principle is an idealization. Under what three primary boundary conditions does the equation actually fail in the real world? ",
-"back": "### Boundary Conditions & Failures\n1. **Viscosity:** Bernoulli assumes the fluid is completely non-viscous (zero internal friction). In reality, viscous drag dissipates kinetic energy into heat, violating the pure conservation of mechanical energy. \n2. **Compressibility:** It assumes the fluid is completely incompressible. It fails for gases undergoing significant pressure/volume changes where elastic potential energy plays a role. \n3. **Turbulence:** It holds *strictly* for steady, streamline flow. It completely breaks down in turbulent or non-steady flows where velocity and pressure constantly fluctuate. "
-}
-},
-{
-"cardId": "NEW_VENTURIMETER",
-"originalOrder": 12,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Crucial application of Bernoulli's theorem tested heavily in JEE/NEET.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "bernoulli", "instrument", "neet", "jee", "class-11"],
-"order": 18,
-"heading": "Venturimeter Flow Rate",
-"formula": "v_1 = \\sqrt{\\frac{2 \rho_m g h}{\\rho \\left[ \\left(\\frac{A}{a}\\right)^2 - 1 \\right]}}",
-"description": "Formula for the fluid velocity in the wider tube of a Venturimeter, an instrument used to measure the flow speed of incompressible liquids.",
-"derivation": "**Mechanism:**\n- A venturimeter consists of a wider tube (area $A$) tapering into a narrow throat (area $a$).\n- By the Equation of Continuity, fluid speed increases at the throat.\n- By Bernoulli's Equation, this increase in speed creates a pressure drop ($\\Delta P$).\n- A U-tube manometer containing a heavier liquid (density $\rho_m$) connects the wide tube and the throat. The pressure drop causes a height difference $h$ in the manometer.\n- $\\Delta P = \rho_m g h$. Combining this with Bernoulli's yields the initial fluid velocity $v_1$."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b6",
-"originalOrder": 13,
-"originalHeading": "Speed of Efflux (Torricelli's Law)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "torricelli", "neet", "jee", "class-11"],
-"order": 19,
-"heading": "Speed of Efflux (Torricelli's Law)",
-"formula": "v = \\sqrt{2gh}",
-"description": "Torricelli's Law for the velocity of efflux of a liquid flowing out of a small hole in an open tank. ",
-"derivation": "**Derivation via Bernoulli:**\nApply Bernoulli at the top surface and the hole:\n$P_a + \\rho g h + 0 = P_a + 0 + \\frac{1}{2}\\rho v^2$\n$\\implies \\rho g h = \\frac{1}{2}\\rho v^2 \\implies v = \\sqrt{2gh}$\n\n**Insights:**\n- The speed of the emerging liquid is mathematically identical to the velocity a solid body would acquire if falling freely under gravity from the same height $h$. [cite: 168]\n- **Assumption:** Valid only when the tank is completely open to the atmosphere and the tank's surface area is vastly larger than the hole ($A_{tank} \\gg A_{hole}$), meaning the top fluid surface's downward velocity is practically zero."
-}
-},
-{
-"cardId": "NEW_BLOOD_FLOW",
-"originalOrder": 13,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from Phase 1 Gap Analysis"],
-"vettingNotes": "Biological application of Bernoulli's principle explicitly detailed in NCERT.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CASE_STUDY",
-"tags": ["science", "physics", "bernoulli", "biology", "neet", "class-11"],
-"order": 20,
-"heading": "Bernoulli's Principle: Blood Flow & Heart Attacks",
-"question": "Using Bernoulli's principle and the Equation of Continuity, explain the biophysics behind a heart attack caused by plaque accumulation in an artery.",
-"back": "### The Mechanism of Artery Collapse\n1. **Plaque Buildup:** Cholesterol plaque narrows the cross-sectional area of an artery.\n2. **Continuity Equation ($Av = \\text{const}$):** To maintain blood flow, the blood's velocity $v$ must drastically increase as it forces its way through the narrow constriction.\n3. **Bernoulli's Principle:** The high kinetic energy inside the constriction results in a massive **drop in internal static pressure**.\n4. **Collapse:** The external pressure from surrounding tissues now exceeds the internal blood pressure, causing the artery to physically collapse.\n5. The heart pushes harder to open the artery, but the rushing blood just drops the pressure again, leading to a repeated cycle that eventually results in a heart attack."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b7",
-"originalOrder": 14,
-"originalHeading": "Dynamic Lift: The Magnus Effect",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified vector velocities", "Bolded pressure relationships"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "bernoulli", "neet", "jee", "class-11"],
-"order": 21,
-"heading": "Dynamic Lift: The Magnus Effect",
-"question": "Using Bernoulli's Principle, explain why a spinning cricket ball or tennis ball deviates from its normal parabolic trajectory in the air (The Magnus Effect). [cite: 169]",
-"back": "### The Magnus Effect\n- A spinning ball drags adjacent layers of viscous air along with its surface. [cite: 170][cite_start]\n- **High Velocity Side:** On the side where the ball's spin aligns *with* the oncoming air stream, the relative velocity of the air is **higher**. [cite: 171][cite_start]\n- **Low Velocity Side:** On the opposite side, the spin opposes the oncoming air, making the relative velocity **lower**. [cite: 172][cite_start]\n- According to **Bernoulli's principle**, higher air velocity corresponds to **lower pressure**. [cite: 173] [cite_start]This induced pressure difference across the ball generates a net lateral force (dynamic lift), curving its flight path through the air. [cite: 174]"
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b8",
-"originalOrder": 15,
-"originalHeading": "Aerofoil & Aircraft Lift",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized terminology"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "aerodynamics", "neet", "jee", "class-11"],
-"order": 22,
-"heading": "Aerofoil & Aircraft Lift",
-"question": "How does the specific cross-sectional shape of an aircraft wing (aerofoil) generate upward dynamic lift during flight? [cite: 175]",
-"back": "### Aerofoil Mechanics\n- The wing is engineered so its upper surface is highly curved while the bottom surface is relatively flat. [cite: 176][cite_start]\n- As the plane propels forward, this specific geometry forces the air streamlines to crowd together **above the wing**, resulting in a **higher flow speed** on top compared to the bottom. [cite: 177][cite_start]\n- By **Bernoulli's Principle**, the higher fluid speed above the wing creates a **lower pressure** zone. [cite: 178] [cite_start]The relatively higher normal pressure below pushes the wing upward, generating the net **Dynamic Lift** required to overcome the aircraft's weight. [cite: 179]"
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3b9",
-"originalOrder": 16,
-"originalHeading": "Viscosity & Temperature Dependence",
-"action": "MODIFIED",
-"modificationsSummary": ["Structured bullet points for states of matter"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "viscosity", "thermodynamics", "neet", "jee", "class-11"],
-"order": 23,
-"heading": "Viscosity & Temperature Dependence",
-"question": "What is viscosity, and fundamentally, how does the viscosity of liquids and gases react differently to an increase in temperature? [cite: 180, 181]",
-"back": "### Viscosity Definition\nViscosity is the internal friction or resistance to relative motion (shear stress) between adjacent layers of a fluid. [cite: 182][cite_start]\n\n### Temperature Dependence\n- **Liquids:** Viscosity **DECREASES** with an increase in temperature. [cite: 183][cite_start]\n  *(Reasoning: Added heat gives liquid molecules enough kinetic energy to overcome cohesive intermolecular bonds, allowing layers to slide easily).*\n- **Gases:** Viscosity **INCREASES** with an increase in temperature. [cite: 184][cite_start]\n  *(Reasoning: Higher temperature increases the random thermal motion and collision frequency of gas molecules, creating chaotic momentum-transfer friction between adjacent flowing layers). [cite: 185]*"
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3ba",
-"originalOrder": 17,
-"originalHeading": "Coefficient of Viscosity ($\\eta$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "viscosity", "neet", "jee", "class-11"],
-"order": 24,
-"heading": "Coefficient of Viscosity ($\\eta$)",
-"formula": "\\eta = \\frac{F / A}{v / l}",
-"description": "Mathematical definition for the Coefficient of Viscosity. ",
-"derivation": "**Variables:**\n- **$\\eta$**: Coefficient of Viscosity (Pa·s or N·s/m² or Poiseuille, Pl)\n- **$F/A$**: Shearing Stress applied parallel to the fluid layers (N/m²)\n- **$v/l$**: Strain rate or Velocity Gradient perpendicular to the flow (s⁻¹)\n- **$F$**: Viscous drag force between layers (N)\n\n**Significance:**\n- Dimensional formula: [ML⁻¹T⁻¹]. \n- It mathematically quantifies how thick or resistant a fluid is to shear stress over time. High $\\eta$ means high resistance to flow (e.g., honey). "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3bb",
-"originalOrder": 18,
-"originalHeading": "Stokes' Law",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "stokes-law", "neet", "jee", "class-11"],
-"order": 25,
-"heading": "Stokes' Law",
-"formula": "F_v = 6 \\pi \\eta a v",
-"description": "Stokes' Law calculates the viscous drag force acting on a small spherical body falling through a uniform viscous medium. ",
-"derivation": "**Variables:**\n- **$F_v$**: Viscous retarding drag force (N)\n- **$\\eta$**: Coefficient of viscosity of the fluid medium (Pa·s)\n- **$a$**: Radius of the spherical object (m)\n- **$v$**: Instantaneous velocity of the object (m/s)\n\n**Physical Consequence:**\n- The opposing drag force is directly proportional to velocity ($F_v \\propto v$). As a freely falling object speeds up due to gravity, the upward viscous drag drastically increases until it eventually balances the downward forces. "
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d2",
-"originalOrder": 30,
-"originalHeading": "Poiseuille's Equation",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Added context for radius sensitivity"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "fluid-flow", "neet", "jee", "class-11"],
-"order": 26,
-"heading": "Poiseuille's Equation",
-"formula": "Q = \\frac{\\pi P r^4}{8 \\eta l}",
-"description": "Poiseuille's formula for the volume flow rate of a viscous fluid undergoing steady laminar flow through a cylindrical capillary tube.",
-"derivation": "**Variables:**\n- **$Q$**: Volume flow rate or Volume flux (m³/s)\n- **$P$**: Pressure difference across the two ends of the tube (Pa)\n- **$r$**: Internal radius of the tube (m)\n- **$\\eta$**: Coefficient of viscosity of the fluid (Pa·s)\n- **$l$**: Length of the tube (m)\n\n**Biological Insight:**\nThe flow rate is highly sensitive to the radius ($Q \\propto r^4$). A small decrease in an artery's radius (e.g., due to cholesterol plaque) drastically restricts blood flow, forcing the heart to exponentially increase the pumping pressure $P$ to maintain the required volume flow $Q$."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3be",
-"originalOrder": 21,
-"originalHeading": "Origin of Surface Energy",
-"action": "MODIFIED",
-"modificationsSummary": ["Added missing question prompt", "Structured explanation"],
-"vettingNotes": "Original card lacked a testing question; added one to fit the STANDARD format.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "surface-tension", "energy", "neet", "jee", "class-11"],
-"order": 27,
-"heading": "Molecular Origin of Surface Energy",
-"question": "Explain the molecular origin of surface energy and why liquids naturally tend to minimize their total surface area.",
-"back": "### The Origin of Surface Energy\n- **Molecules in the Bulk:** A molecule deep inside the liquid is pulled equally in all directions by intermolecular cohesive forces, resulting in a net force of zero and a highly negative (stable) potential energy.\n- **Molecules on the Surface:** A molecule on the surface has neighbors below and beside it, but none above. It experiences a **net downward inward pull**.\n- **Energy Storage:** To bring a molecule from the bulk to the surface, mechanical work must be done against this inward cohesive pull. This work is stored as **extra potential energy** (Surface Energy).\n\nBecause mechanical systems naturally seek the lowest possible energy state, liquids spontaneously try to minimize this excess surface energy by minimizing their total surface area (forming spherical drops)."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3bf",
-"originalOrder": 22,
-"originalHeading": "Surface Tension ($S$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "DEFINITION",
-"tags": ["science", "physics", "surface-tension", "neet", "jee", "class-11"],
-"order": 28,
-"heading": "Surface Tension ($S$)",
-"formula": "S = \\frac{F}{l} = \\frac{U}{A}",
-"description": "Mathematical definition of Surface Tension expressed in terms of both force and surface energy.",
-"derivation": "**Variables & Units:**\n- **$S$**: Surface Tension (N/m or J/m²)\n- **$F$**: Total tangential force acting perpendicular to an imaginary line drawn on the liquid surface (N)\n- **$l$**: Length of the imaginary line (m)\n- **$U$**: Total Surface Energy (J)\n- **$A$**: Total Surface Area (m²)\n\n**Note:** Surface tension is strictly a property of the *interface* between two media (e.g., liquid-air or liquid-liquid), not just a property of the liquid in isolation."
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d5",
-"originalOrder": 33,
-"originalHeading": "Factors Affecting Surface Tension",
-"action": "MODIFIED",
-"modificationsSummary": ["Formatted distinct factors"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "surface-tension", "neet", "jee", "class-11"],
-"order": 29,
-"heading": "Factors Affecting Surface Tension",
-"question": "How do changes in temperature and the addition of different types of impurities fundamentally alter the surface tension of a liquid?",
-"back": "### 1. Temperature\n- Surface tension **decreases** with an increase in temperature.\n- It completely **vanishes at the boiling point** (or critical temperature) because the intermolecular cohesive forces are entirely overcome by the high thermal kinetic energy of the molecules.\n\n### 2. Impurities\n- **Highly Soluble Impurities** (e.g., sodium chloride/salt in water) generally **increase** the surface tension.\n- **Slightly Soluble or Insoluble Impurities** (e.g., soap, detergent, or phenol in water) selectively accumulate at the surface and significantly **decrease** the surface tension."
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d3",
-"originalOrder": 31,
-"originalHeading": "Work Done in Splitting / Merging Drops",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Explicitly derived volume conservation"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "surface-energy", "thermodynamics", "neet", "jee", "class-11"],
-"order": 30,
-"heading": "Work Done in Splitting / Merging Drops",
-"formula": "\\Delta U = W = T \\cdot \\Delta A = 4\\pi T (N r^2 - R^2)",
-"description": "Calculates the change in surface energy (or external work done) when a single large liquid drop of radius $R$ breaks into $N$ identical smaller droplets of radius $r$.",
-"derivation": "**Volume Conservation Constraint:**\nBefore calculating area, radius $r$ is found using volume conservation: \n$\\frac{4}{3}\\pi R^3 = N \\cdot \\frac{4}{3}\\pi r^3 \\implies R = N^{1/3} r$\n\n**Thermodynamic Effects:**\n- **Splitting into droplets:** Increases the total surface area ($\\Delta A > 0$). Energy is *absorbed* from the liquid to create new surface area, leading to a **drop in internal temperature** (cooling effect).\n- **Merging into a single drop:** Decreases the total surface area ($\\Delta A < 0$). Excess surface energy is *released* as heat, leading to a **rise in temperature** (heating effect)."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3c1",
-"originalOrder": 24,
-"originalHeading": "Excess Pressure (Drops vs. Bubbles)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Clarified number of interfaces"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "pressure", "surface-tension", "neet", "jee", "class-11"],
-"order": 31,
-"heading": "Excess Pressure (Drops vs. Bubbles)",
-"formula": "\\Delta P_{\\text{drop}} = \\frac{2S}{r} \\quad \\text{and} \\quad \\Delta P_{\\text{bubble}} = \\frac{4S}{r}",
-"description": "Formulas for the excess internal pressure inside a spherical liquid drop and a hollow soap bubble.",
-"derivation": "**Variables:**\n- **$\\Delta P$**: Excess pressure ($P_{\\text{inside}} - P_{\\text{outside}}$) (Pa)\n- **$S$**: Surface tension of the liquid (N/m)\n- **$r$**: Radius of the drop or bubble (m)\n\n**The Interface Rule:**\n- **Liquid Drop / Air bubble inside a liquid:** Possesses only **ONE** liquid-gas interface (the outer or inner boundary). Thus, the excess pressure is purely $\\frac{2S}{r}$.\n- **Soap Bubble in air:** Possesses **TWO** distinct interfaces (an inner liquid-air surface and an outer liquid-air surface). Surface tension acts twice, doubling the required excess pressure to $\\frac{4S}{r}$."
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3c0",
-"originalOrder": 23,
-"originalHeading": "Angle of Contact ($\\theta$)",
-"action": "MODIFIED",
-"modificationsSummary": ["Expanded definition", "Contrasted adhesive vs cohesive forces"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "capillarity", "neet", "jee", "class-11"],
-"order": 32,
-"heading": "Angle of Contact ($\\theta$)",
-"question": "What physically dictates whether the angle of contact between a liquid and a solid will be Acute or Obtuse, and what are the visual results of each?",
-"back": "### Angle of Contact Definition\nThe angle formed between the tangent to the liquid surface at the point of contact and the solid surface, measured strictly *inside* the liquid.\n\n### The Intermolecular Battle\n- **Acute Angle ($\\theta < 90^\\circ$):** Occurs when **Adhesion** (liquid-solid attraction) is stronger than **Cohesion** (liquid-liquid attraction). The liquid **wets** the surface, spreading out. The resulting meniscus in a tube is **concave**. *(Example: Water on clean glass).* \n- **Obtuse Angle ($\\theta > 90^\\circ$):** Occurs when **Cohesion** is stronger than **Adhesion**. The liquid **does not wet** the surface, tending to bead up into spherical droplets. The resulting meniscus is **convex**. *(Example: Mercury on glass, or water droplets on a waxy lotus leaf).* "
-}
-},
-{
-"cardId": "69ab38b1fc9152e2eef8d3c2",
-"originalOrder": 25,
-"originalHeading": "Capillary Rise (Jurin's Law)",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA type", "Linked to contact angle"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "capillarity", "neet", "jee", "class-11"],
-"order": 33,
-"heading": "Capillary Rise (Jurin's Law)",
-"formula": "h = \\frac{2S \\cos \\theta}{r \\rho g}",
-"description": "Jurin's Law calculates the height to which a liquid naturally rises (or falls) inside a narrow capillary tube.",
-"derivation": "**Variables:**\n- **$h$**: Height of capillary rise/fall (m)\n- **$S$**: Surface tension (N/m)\n- **$\\theta$**: Angle of contact\n- **$r$**: Internal radius of the capillary tube (m)\n- **$\\rho$**: Density of the liquid (kg/m³)\n\n**Boundary Conditions based on $\\theta$:**\n- If $\\theta < 90^\\circ$ (Acute), $\\cos \\theta$ is positive. The liquid naturally **rises** up the tube against gravity (capillary ascent, e.g., water in a glass tube).\n- If $\\theta > 90^\\circ$ (Obtuse), $\\cos \\theta$ is negative. The liquid actually **depresses/falls** below the outside liquid level (capillary descent, e.g., mercury in a glass tube)."
-}
-},
-{
-"cardId": "69ab3909fc9152e2eef8d3d4",
-"originalOrder": 32,
-"originalHeading": "Effect of Wetting & Waterproofing Agents",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified real-world chemical applications"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "chemistry", "capillarity", "neet", "jee", "class-11"],
-"order": 34,
-"heading": "Effect of Wetting & Waterproofing Agents",
-"question": "How do industrial detergents (wetting agents) and waterproofing agents mechanically alter the angle of contact of water to achieve their purpose?",
-"back": "### Manipulating the Contact Angle\n- **Detergents & Soaps (Wetting Agents):** They dramatically **decrease** the angle of contact (making it highly acute). By lowering surface tension, water is allowed to easily spread out, wet the surface entirely, and penetrate the microscopic pores of fabrics to remove trapped dirt.\n- **Waterproofing Agents (e.g., Waxes, Teflon):** They actively **increase** the angle of contact, forcing it to become obtuse ($\\theta > 90^\\circ$). Because the cohesion of the water becomes much stronger than its adhesion to the treated surface, the water beads up into tight spherical droplets and rolls off, completely failing to wet the fabric."
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"action": "SYSTEM",
-"cardData": null
-}
-]
+  "deckId": "e06a4f21-e35d-458a-a5e3-0147a8703671",
+  "cards": [
+    {
+      "cardId": "2351339d-afbe-4d84-91b5-1bd509c64eb5",
+      "originalOrder": 1,
+      "originalHeading": "Fluids vs. Solids",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Structured reasoning into clear points",
+        "Added explicit citation"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "fluids",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 1,
+        "heading": "Fluids vs. Solids",
+        "question": "What is the key mechanical property that distinguishes fluids (liquids and gases) from solids regarding their response to stress? ",
+        "back": "### The Fundamental Distinction\n- **Solids** can resist significant shear stress and maintain a fixed shape. \n- **Fluids** offer *very little resistance* to shear stress. Their shape changes continuously upon the application of even a very small shear stress (about a million times smaller than that of solids). \n- This inherent inability to resist shear stress is the primary reason why fluids flow and assume the shape of their containers. "
+      }
+    },
+    {
+      "cardId": "38f0febd-1022-4983-86a2-b4a520526f68",
+      "originalOrder": 2,
+      "originalHeading": "Fluid Pressure",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Fixed LaTeX syntax"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "pressure",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 2,
+        "heading": "Fluid Pressure",
+        "formula": "P = \\frac{F}{A}",
+        "description": "State the formula for Fluid Pressure, its SI unit, and its dimensional formula. ",
+        "derivation": "**Variables & Units:**\n- **$P$**: Pressure (N/m² or Pascal, Pa)\n- **$F$**: Normal force exerted by the fluid (N)\n- **$A$**: Area of contact (m²)\n\n**Key Characteristics:**\n- **Dimensional Formula:** [ML⁻¹T⁻²]\n- **Nature:** Pressure is a **Scalar quantity**. Even though force is a vector, pressure strictly relates to the *component* of force normal to the area, acting equally in all directions within a fluid at rest. "
+      }
+    },
+    {
+      "cardId": "ec777a5c-8876-42d3-9b10-f801561baa7d",
+      "originalOrder": 27,
+      "originalHeading": "Units of Fluid Pressure",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered for cognitive sequencing",
+        "Formatted conversions"
+      ],
+      "vettingNotes": "Moved closer to the definition of fluid pressure.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "units",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 3,
+        "heading": "Units of Fluid Pressure",
+        "question": "What are the exact mathematical relationships between the standard SI unit of pressure (Pascal) and other common practical units like atm, bar, and torr? ",
+        "back": "### Pressure Conversions\n- **1 atm** = Standard atmospheric pressure at sea level = $1.013 \\times 10^5$ Pa.\n- **1 bar** = $10^5$ Pa (often used in meteorology; closely approximates 1 atm). \n- **1 torr** = Pressure equivalent to exactly 1 mm of an Hg column = $133$ Pa.\n- **1 atm** = $760$ mm of Hg = $760$ torr. "
+      }
+    },
+    {
+      "cardId": "b70efebb-7238-46dd-8ee6-46751155e5d8",
+      "originalOrder": 5,
+      "originalHeading": "Absolute vs. Gauge Pressure",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified equations and definitions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "pressure",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 4,
+        "heading": "Absolute vs. Gauge Pressure",
+        "question": "What is the difference between Absolute Pressure and Gauge Pressure, and how does atmospheric pressure bridge the two? ",
+        "back": "### The Distinction\n- **Absolute Pressure ($P$):** The total, actual pressure measured at a given depth. \n  *Formula:* $P = P_a + \\rho gh$\n- **Gauge Pressure ($P_g$):** The *excess* pressure above the local atmospheric pressure. It is the value typically measured by common pressure gauges (like tyre pressure or blood pressure cuffs). \n  *Formula:* $P_g = P - P_a = \\rho gh$"
+      }
+    },
+    {
+      "cardId": "fdba2077-041a-4d73-b9db-da459c8af877",
+      "originalOrder": 4,
+      "originalHeading": "Variation of Pressure with Depth",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Added explicit bounds"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "hydrostatics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 5,
+        "heading": "Variation of Pressure with Depth",
+        "formula": "P_2 - P_1 = \\rho g h",
+        "description": "Mathematical formula relating the pressure at two different vertical depths within a static, incompressible fluid. ",
+        "derivation": "**Derivation:**\n1. Consider a fluid cylinder of height $h$ and area $A$. \n2. Downward forces: $P_1 A$ (fluid above) + $mg$ (weight of cylinder).\n3. Upward force: $P_2 A$ (fluid below). \n4. In equilibrium: $P_2 A = P_1 A + mg$\n5. Substitute $m = \\rho V = \\rho A h$: $P_2 A = P_1 A + \\rho A h g \\implies P_2 - P_1 = \\rho g h$. \n\n**Variables:**\n- **$P_2, P_1$**: Pressures at lower and upper depths respectively (Pa)\n- **$\\rho$**: Density of the fluid (kg/m³)\n- **$h$**: Vertical height difference (m)\n\n**Condition:** Valid strictly for fluids where density ($\\rho$) remains uniform (incompressible liquids). "
+      }
+    },
+    {
+      "cardId": "2f44e6ea-1099-4115-86a5-5832e798b54b",
+      "originalOrder": 3,
+      "originalHeading": "Pascal's Law",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Segmented the two primary clauses of the law"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "pascals-law",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 6,
+        "heading": "Pascal's Law",
+        "question": "State Pascal's Law regarding the pressure in a static fluid and the transmission of applied external pressure. ",
+        "back": "### Pascal's Law Comprises Two Aspects:\n1. **Static Fluid Equilibrium:** The pressure in a fluid at rest is exactly the same at all points if they are at the same horizontal level. \n2. **Pressure Transmission:** Whenever external pressure is applied to any part of a fluid contained in a closed vessel, it is **transmitted undiminished and equally** in all directions to every point of the fluid and the walls of the container. "
+      }
+    },
+    {
+      "cardId": "3504dc12-079d-4c97-bc94-cb541ee27818",
+      "originalOrder": 7,
+      "originalHeading": "Hydraulic Lift (Mechanical Advantage)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "hydraulic",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 7,
+        "heading": "Hydraulic Lift (Mechanical Advantage)",
+        "formula": "F_2 = F_1 \\left( \\frac{A_2}{A_1} \\right)",
+        "description": "Based on Pascal's Law, formula relating the force exerted on the large piston to the force applied on the small piston in a hydraulic lift. ",
+        "derivation": "**Variables:**\n- **$F_2$**: Upward force generated on the large piston (N)\n- **$F_1$**: Downward force applied to the small piston (N)\n- **$A_2, A_1$**: Cross-sectional areas of the large and small pistons respectively (m²)\n\n**Mechanism:**\nSince pressure is transmitted undiminished ($P = \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$), a small force over a small area creates a massive lifting force over a large area. The ratio $(A_2 / A_1)$ is known as the **Mechanical Advantage**. "
+      }
+    },
+    {
+      "cardId": "a604bf3f-fc57-4029-94e5-86269dcd8c6a",
+      "originalOrder": 6,
+      "originalHeading": "Hydrostatic Paradox",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified equilibrium conditions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "hydrostatics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 8,
+        "heading": "Hydrostatic Paradox",
+        "question": "If three vessels of completely different shapes and base areas are interconnected and filled with a liquid, what determines the final liquid level in each vessel? ",
+        "back": "### The Hydrostatic Paradox\n- The liquid level will be **exactly the same** in all interconnected vessels, regardless of their shape, volume capacity, or base area. \n- **Reasoning:** Liquid pressure depends *only* on the vertical depth ($h$) and density ($\\rho$), and is completely independent of the total weight of the liquid or the container's geometry. For the system to achieve static equilibrium, the pressure at the common bottom interconnecting pipe must be identical throughout, meaning $h$ must be identical across all vessels. "
+      }
+    },
+    {
+      "cardId": "21c51a8c-c154-4e5f-9526-419c9c1fcf96",
+      "originalOrder": 26,
+      "originalHeading": "Mercury Barometer",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Formatted bullet points"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "barometer",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 9,
+        "heading": "Mercury Barometer",
+        "question": "Why is Mercury (Hg) specifically chosen as the manometric liquid in Torricelli's barometer instead of water? ",
+        "back": "### Engineering Advantages of Mercury\n1. **High Density:** Hg has a massive density ($13.6 \\times 10^3 \\text{ kg/m}^3$), which keeps the barometer height manageable (approx 76 cm at sea level). Water would require an unwieldy glass tube over 10 meters tall! \n2. **Low Vapour Pressure:** The space above the mercury column is nearly a perfect vacuum. Mercury's vapor pressure is negligible at room temperature, making the atmospheric reading highly accurate. \n3. **Non-Wetting:** It does not wet the glass walls, ensuring a clear, convex meniscus that moves freely without sticking to the tube. \n4. **Visibility:** Its opaque, shiny metallic surface makes it easily observable. "
+      }
+    },
+    {
+      "cardId": "861bf744-06a1-4d31-8838-f20ed10cfa4a",
+      "originalOrder": 8,
+      "originalHeading": "Archimedes' Principle & Buoyancy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added LaTeX equations for clarity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "buoyancy",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 10,
+        "heading": "Archimedes' Principle & Buoyancy",
+        "question": "State Archimedes' Principle. What specifically determines whether a completely submerged object will ultimately sink or float? ",
+        "back": "### Archimedes' Principle\n- The **buoyant force** (upward thrust) acting on a body totally or partially immersed in a fluid is exactly equal in magnitude to the **weight of the fluid displaced** by the body. \n- $F_B = V_{immersed} \\cdot \rho_{fluid} \\cdot g$\n\n### Sink or Float Condition\n- **Sinks:** If the object's overall density is strictly greater than the fluid's density ($\rho_{object} > \rho_{fluid}$), the downward weight exceeds the maximum upthrust. \n- **Floats:** If the object's density is less than or equal to the fluid's density ($\rho_{object} \\le \rho_{fluid}$), it will float either partially or fully submerged. "
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 8,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Fills the pedagogical gap between density and buoyancy.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "density",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 11,
+        "heading": "Relative Density / Specific Gravity",
+        "formula": "\\text{Relative Density} = \\frac{\rho_{\\text{substance}}}{\rho_{\\text{water at } 4^\\circ C}}",
+        "description": "Definition of Relative Density (also known as Specific Gravity) for a substance.",
+        "derivation": "**Concept:**\n- Relative density is the ratio of the density of a substance to the density of water at $4^\\circ C$ (which is exactly $1000 \\text{ kg/m}^3$).\n- Because it is a ratio of two identical physical quantities, it is a **dimensionless, unitless number**.\n- For example, if a solid has a relative density of $2.5$, its actual density is $2500 \\text{ kg/m}^3$, and it will sink in water."
+      }
+    },
+    {
+      "cardId": "c440e273-1221-4ab6-90aa-2f67168dc6c3",
+      "originalOrder": 29,
+      "originalHeading": "Pressure in a Vertically Accelerating Fluid",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "kinematics",
+          "pressure",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 12,
+        "heading": "Pressure in a Vertically Accelerating Fluid",
+        "formula": "P_g = \\rho h (g \\pm a)",
+        "description": "Formula for the gauge pressure at a depth $h$ in a fluid container accelerating vertically. ",
+        "derivation": "**Variables:**\n- **$P_g$**: Gauge pressure (Pa)\n- **$\\rho$**: Density of the fluid (kg/m³)\n- **$h$**: Depth below the free surface (m)\n- **$g$**: Acceleration due to gravity (m/s²)\n- **$a$**: Vertical acceleration of the container (m/s²)\n\n**Sign Convention:**\n- If the container accelerates **upwards**, effective gravity increases ($g_{eff} = g + a$). \n- If the container accelerates **downwards**, effective gravity decreases ($g_{eff} = g - a$). \n- For a freely falling container ($a = g$), the gauge pressure everywhere in the fluid drops to **zero** (weightlessness condition). "
+      }
+    },
+    {
+      "cardId": "a2855386-9510-44a8-8c07-7c20660c4582",
+      "originalOrder": 28,
+      "originalHeading": "Free Surface of a Horizontally Accelerating Fluid",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Improved vector mechanics derivation"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "kinematics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 13,
+        "heading": "Free Surface of a Horizontally Accelerating Fluid",
+        "formula": "\\tan \\theta = \\frac{a}{g}",
+        "description": "Formula for the angle made by the free surface of a liquid in an open container accelerating horizontally. ",
+        "derivation": "**Derivation via Pseudo Force:**\n1. Consider a particle of mass $m$ on the free surface.\n2. Pseudo force acts strictly backward horizontally = $ma$. \n3. Real weight acts strictly downward = $mg$.\n4. For the surface to remain in static equilibrium relative to the container, the tangential components must balance: $mg \\sin \\theta = ma \\cos \\theta$. \n5. Rearranging yields $\\tan \\theta = \\frac{a}{g}$. \n\n**Key Insight:** The fluid element attains equilibrium under the combined action of gravity and the pseudo force ($-ma$). The free surface of the liquid always orients itself strictly **perpendicular to the direction of the net effective gravity vector**. "
+      }
+    },
+    {
+      "cardId": "3c162452-df40-4a80-9127-68357f1a32eb",
+      "originalOrder": 9,
+      "originalHeading": "Streamline vs. Turbulent Flow",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Structured terms",
+        "Bolded critical definitions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "fluid-flow",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 14,
+        "heading": "Streamline vs. Turbulent Flow",
+        "question": "What is the physical distinction between Streamline (Laminar) flow and Turbulent flow, and what role does 'Critical Velocity' play? ",
+        "back": "### The Flow Distinction\n- **Streamline Flow:** The velocity of each passing fluid particle at a given point remains completely constant in time.  Fluid layers slide smoothly parallel to each other. By definition, no two streamlines ever intersect or cross. \n- **Turbulent Flow:** Fluid velocity varies rapidly and randomly with time. It produces chaotic eddies and vortices, dissipating significant kinetic energy as heat. \n\n### Critical Velocity\n- The absolute maximum velocity of a fluid up to which its flow remains strictly streamlined. Beyond this threshold speed, the flow loses steadiness and transitions into turbulent flow. "
+      }
+    },
+    {
+      "cardId": "3cf143da-7b5c-4574-8dde-f6f16ccf7867",
+      "originalOrder": 10,
+      "originalHeading": "Equation of Continuity",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "continuity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 15,
+        "heading": "Equation of Continuity",
+        "formula": "A_1 v_1 = A_2 v_2 = \\text{Constant}",
+        "description": "Equation of Continuity for the steady flow of an incompressible fluid. ",
+        "derivation": "**Variables:**\n- **$A$**: Cross-sectional area of the pipe/tube (m²)\n- **$v$**: Speed of the fluid passing through that section (m/s)\n\n**Physical Meaning:**\n- The product $Av$ represents the **Volume Flux** or flow rate ($m^3/s$). \n- This equation is a direct consequence of the **Conservation of Mass**.\n- It dictates that fluid speeds up mathematically in narrower regions (where streamlines are tightly packed) and slows down in wider regions. "
+      }
+    },
+    {
+      "cardId": "2ef9c86b-8cc4-48f8-a9ee-539810e06c63",
+      "originalOrder": 11,
+      "originalHeading": "Bernoulli's Equation",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged with Card 34 to incorporate energy density meanings"
+      ],
+      "vettingNotes": "Combined the equation with the explanation of its constituent terms.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "bernoulli",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 16,
+        "heading": "Bernoulli's Equation & Energy Densities",
+        "formula": "P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{Constant}",
+        "description": "Bernoulli's Equation represents the **Conservation of Energy** applied to fluid dynamics. ",
+        "derivation": "**The Three Energy Densities:**\n1. **$P$ (Static Pressure):** Represents the **Pressure Energy** per unit volume. It is the work done by fluid pressure to move a fluid element into a region. \n2. **$\\frac{1}{2}\\rho v^2$:** Represents the **Kinetic Energy** per unit volume (also known as dynamic pressure). \n3. **$\\rho g h$:** Represents the **Gravitational Potential Energy** per unit volume. \n\n**Implication:** In an ideal, streamline flow, an increase in fluid velocity ($v$) mathematically necessitates a simultaneous decrease in pressure ($P$) or potential energy to maintain the constant total. "
+      }
+    },
+    {
+      "cardId": "182994b5-8daa-4af6-bc0a-cf6448e4595a",
+      "originalOrder": 12,
+      "originalHeading": "Limitations of Bernoulli's Theorem",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Polished readability"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "bernoulli",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 17,
+        "heading": "Limitations of Bernoulli's Theorem",
+        "question": "Bernoulli's principle is an idealization. Under what three primary boundary conditions does the equation actually fail in the real world? ",
+        "back": "### Boundary Conditions & Failures\n1. **Viscosity:** Bernoulli assumes the fluid is completely non-viscous (zero internal friction). In reality, viscous drag dissipates kinetic energy into heat, violating the pure conservation of mechanical energy. \n2. **Compressibility:** It assumes the fluid is completely incompressible. It fails for gases undergoing significant pressure/volume changes where elastic potential energy plays a role. \n3. **Turbulence:** It holds *strictly* for steady, streamline flow. It completely breaks down in turbulent or non-steady flows where velocity and pressure constantly fluctuate. "
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 12,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Crucial application of Bernoulli's theorem tested heavily in JEE/NEET.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "bernoulli",
+          "instrument",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 18,
+        "heading": "Venturimeter Flow Rate",
+        "formula": "v_1 = \\sqrt{\\frac{2 \rho_m g h}{\\rho \\left[ \\left(\\frac{A}{a}\\right)^2 - 1 \\right]}}",
+        "description": "Formula for the fluid velocity in the wider tube of a Venturimeter, an instrument used to measure the flow speed of incompressible liquids.",
+        "derivation": "**Mechanism:**\n- A venturimeter consists of a wider tube (area $A$) tapering into a narrow throat (area $a$).\n- By the Equation of Continuity, fluid speed increases at the throat.\n- By Bernoulli's Equation, this increase in speed creates a pressure drop ($\\Delta P$).\n- A U-tube manometer containing a heavier liquid (density $\rho_m$) connects the wide tube and the throat. The pressure drop causes a height difference $h$ in the manometer.\n- $\\Delta P = \rho_m g h$. Combining this with Bernoulli's yields the initial fluid velocity $v_1$."
+      }
+    },
+    {
+      "cardId": "31a0ca65-929a-4e79-8e0d-c33275d90a9b",
+      "originalOrder": 13,
+      "originalHeading": "Speed of Efflux (Torricelli's Law)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "torricelli",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 19,
+        "heading": "Speed of Efflux (Torricelli's Law)",
+        "formula": "v = \\sqrt{2gh}",
+        "description": "Torricelli's Law for the velocity of efflux of a liquid flowing out of a small hole in an open tank. ",
+        "derivation": "**Derivation via Bernoulli:**\nApply Bernoulli at the top surface and the hole:\n$P_a + \\rho g h + 0 = P_a + 0 + \\frac{1}{2}\\rho v^2$\n$\\implies \\rho g h = \\frac{1}{2}\\rho v^2 \\implies v = \\sqrt{2gh}$\n\n**Insights:**\n- The speed of the emerging liquid is mathematically identical to the velocity a solid body would acquire if falling freely under gravity from the same height $h$. [cite: 168]\n- **Assumption:** Valid only when the tank is completely open to the atmosphere and the tank's surface area is vastly larger than the hole ($A_{tank} \\gg A_{hole}$), meaning the top fluid surface's downward velocity is practically zero."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 13,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from Phase 1 Gap Analysis"
+      ],
+      "vettingNotes": "Biological application of Bernoulli's principle explicitly detailed in NCERT.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CASE_STUDY",
+        "tags": [
+          "science",
+          "physics",
+          "bernoulli",
+          "biology",
+          "neet",
+          "class-11"
+        ],
+        "order": 20,
+        "heading": "Bernoulli's Principle: Blood Flow & Heart Attacks",
+        "question": "Using Bernoulli's principle and the Equation of Continuity, explain the biophysics behind a heart attack caused by plaque accumulation in an artery.",
+        "back": "### The Mechanism of Artery Collapse\n1. **Plaque Buildup:** Cholesterol plaque narrows the cross-sectional area of an artery.\n2. **Continuity Equation ($Av = \\text{const}$):** To maintain blood flow, the blood's velocity $v$ must drastically increase as it forces its way through the narrow constriction.\n3. **Bernoulli's Principle:** The high kinetic energy inside the constriction results in a massive **drop in internal static pressure**.\n4. **Collapse:** The external pressure from surrounding tissues now exceeds the internal blood pressure, causing the artery to physically collapse.\n5. The heart pushes harder to open the artery, but the rushing blood just drops the pressure again, leading to a repeated cycle that eventually results in a heart attack."
+      }
+    },
+    {
+      "cardId": "556d2d72-a551-417d-b810-bfb0ab692f0a",
+      "originalOrder": 14,
+      "originalHeading": "Dynamic Lift: The Magnus Effect",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified vector velocities",
+        "Bolded pressure relationships"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "bernoulli",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 21,
+        "heading": "Dynamic Lift: The Magnus Effect",
+        "question": "Using Bernoulli's Principle, explain why a spinning cricket ball or tennis ball deviates from its normal parabolic trajectory in the air (The Magnus Effect). [cite: 169]",
+        "back": "### The Magnus Effect\n- A spinning ball drags adjacent layers of viscous air along with its surface. [cite: 170][cite_start]\n- **High Velocity Side:** On the side where the ball's spin aligns *with* the oncoming air stream, the relative velocity of the air is **higher**. [cite: 171][cite_start]\n- **Low Velocity Side:** On the opposite side, the spin opposes the oncoming air, making the relative velocity **lower**. [cite: 172][cite_start]\n- According to **Bernoulli's principle**, higher air velocity corresponds to **lower pressure**. [cite: 173] [cite_start]This induced pressure difference across the ball generates a net lateral force (dynamic lift), curving its flight path through the air. [cite: 174]"
+      }
+    },
+    {
+      "cardId": "ee76450c-7e99-4f46-8c80-1f22dabe7d15",
+      "originalOrder": 15,
+      "originalHeading": "Aerofoil & Aircraft Lift",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized terminology"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "aerodynamics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 22,
+        "heading": "Aerofoil & Aircraft Lift",
+        "question": "How does the specific cross-sectional shape of an aircraft wing (aerofoil) generate upward dynamic lift during flight? [cite: 175]",
+        "back": "### Aerofoil Mechanics\n- The wing is engineered so its upper surface is highly curved while the bottom surface is relatively flat. [cite: 176][cite_start]\n- As the plane propels forward, this specific geometry forces the air streamlines to crowd together **above the wing**, resulting in a **higher flow speed** on top compared to the bottom. [cite: 177][cite_start]\n- By **Bernoulli's Principle**, the higher fluid speed above the wing creates a **lower pressure** zone. [cite: 178] [cite_start]The relatively higher normal pressure below pushes the wing upward, generating the net **Dynamic Lift** required to overcome the aircraft's weight. [cite: 179]"
+      }
+    },
+    {
+      "cardId": "a5d5290e-0ed2-4b00-8a34-6eecd922e37a",
+      "originalOrder": 16,
+      "originalHeading": "Viscosity & Temperature Dependence",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Structured bullet points for states of matter"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "viscosity",
+          "thermodynamics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 23,
+        "heading": "Viscosity & Temperature Dependence",
+        "question": "What is viscosity, and fundamentally, how does the viscosity of liquids and gases react differently to an increase in temperature? [cite: 180, 181]",
+        "back": "### Viscosity Definition\nViscosity is the internal friction or resistance to relative motion (shear stress) between adjacent layers of a fluid. [cite: 182][cite_start]\n\n### Temperature Dependence\n- **Liquids:** Viscosity **DECREASES** with an increase in temperature. [cite: 183][cite_start]\n  *(Reasoning: Added heat gives liquid molecules enough kinetic energy to overcome cohesive intermolecular bonds, allowing layers to slide easily).*\n- **Gases:** Viscosity **INCREASES** with an increase in temperature. [cite: 184][cite_start]\n  *(Reasoning: Higher temperature increases the random thermal motion and collision frequency of gas molecules, creating chaotic momentum-transfer friction between adjacent flowing layers). [cite: 185]*"
+      }
+    },
+    {
+      "cardId": "a54375f2-1ece-4d52-8991-5716f9585537",
+      "originalOrder": 17,
+      "originalHeading": "Coefficient of Viscosity ($\\eta$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "viscosity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 24,
+        "heading": "Coefficient of Viscosity ($\\eta$)",
+        "formula": "\\eta = \\frac{F / A}{v / l}",
+        "description": "Mathematical definition for the Coefficient of Viscosity. ",
+        "derivation": "**Variables:**\n- **$\\eta$**: Coefficient of Viscosity (Pa·s or N·s/m² or Poiseuille, Pl)\n- **$F/A$**: Shearing Stress applied parallel to the fluid layers (N/m²)\n- **$v/l$**: Strain rate or Velocity Gradient perpendicular to the flow (s⁻¹)\n- **$F$**: Viscous drag force between layers (N)\n\n**Significance:**\n- Dimensional formula: [ML⁻¹T⁻¹]. \n- It mathematically quantifies how thick or resistant a fluid is to shear stress over time. High $\\eta$ means high resistance to flow (e.g., honey). "
+      }
+    },
+    {
+      "cardId": "7081d57b-6eb1-460f-bfe7-cd4817293e8e",
+      "originalOrder": 18,
+      "originalHeading": "Stokes' Law",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "stokes-law",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 25,
+        "heading": "Stokes' Law",
+        "formula": "F_v = 6 \\pi \\eta a v",
+        "description": "Stokes' Law calculates the viscous drag force acting on a small spherical body falling through a uniform viscous medium. ",
+        "derivation": "**Variables:**\n- **$F_v$**: Viscous retarding drag force (N)\n- **$\\eta$**: Coefficient of viscosity of the fluid medium (Pa·s)\n- **$a$**: Radius of the spherical object (m)\n- **$v$**: Instantaneous velocity of the object (m/s)\n\n**Physical Consequence:**\n- The opposing drag force is directly proportional to velocity ($F_v \\propto v$). As a freely falling object speeds up due to gravity, the upward viscous drag drastically increases until it eventually balances the downward forces. "
+      }
+    },
+    {
+      "cardId": "5c8deb38-1759-4679-9772-286e17f370ca",
+      "originalOrder": 30,
+      "originalHeading": "Poiseuille's Equation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Added context for radius sensitivity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "fluid-flow",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 26,
+        "heading": "Poiseuille's Equation",
+        "formula": "Q = \\frac{\\pi P r^4}{8 \\eta l}",
+        "description": "Poiseuille's formula for the volume flow rate of a viscous fluid undergoing steady laminar flow through a cylindrical capillary tube.",
+        "derivation": "**Variables:**\n- **$Q$**: Volume flow rate or Volume flux (m³/s)\n- **$P$**: Pressure difference across the two ends of the tube (Pa)\n- **$r$**: Internal radius of the tube (m)\n- **$\\eta$**: Coefficient of viscosity of the fluid (Pa·s)\n- **$l$**: Length of the tube (m)\n\n**Biological Insight:**\nThe flow rate is highly sensitive to the radius ($Q \\propto r^4$). A small decrease in an artery's radius (e.g., due to cholesterol plaque) drastically restricts blood flow, forcing the heart to exponentially increase the pumping pressure $P$ to maintain the required volume flow $Q$."
+      }
+    },
+    {
+      "cardId": "c80451df-9125-47f8-ba4e-bc766735761f",
+      "originalOrder": 21,
+      "originalHeading": "Origin of Surface Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added missing question prompt",
+        "Structured explanation"
+      ],
+      "vettingNotes": "Original card lacked a testing question; added one to fit the STANDARD format.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "surface-tension",
+          "energy",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 27,
+        "heading": "Molecular Origin of Surface Energy",
+        "question": "Explain the molecular origin of surface energy and why liquids naturally tend to minimize their total surface area.",
+        "back": "### The Origin of Surface Energy\n- **Molecules in the Bulk:** A molecule deep inside the liquid is pulled equally in all directions by intermolecular cohesive forces, resulting in a net force of zero and a highly negative (stable) potential energy.\n- **Molecules on the Surface:** A molecule on the surface has neighbors below and beside it, but none above. It experiences a **net downward inward pull**.\n- **Energy Storage:** To bring a molecule from the bulk to the surface, mechanical work must be done against this inward cohesive pull. This work is stored as **extra potential energy** (Surface Energy).\n\nBecause mechanical systems naturally seek the lowest possible energy state, liquids spontaneously try to minimize this excess surface energy by minimizing their total surface area (forming spherical drops)."
+      }
+    },
+    {
+      "cardId": "87c29ace-c363-44ae-a106-a0e74d88caf8",
+      "originalOrder": 22,
+      "originalHeading": "Surface Tension ($S$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "surface-tension",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 28,
+        "heading": "Surface Tension ($S$)",
+        "formula": "S = \\frac{F}{l} = \\frac{U}{A}",
+        "description": "Mathematical definition of Surface Tension expressed in terms of both force and surface energy.",
+        "derivation": "**Variables & Units:**\n- **$S$**: Surface Tension (N/m or J/m²)\n- **$F$**: Total tangential force acting perpendicular to an imaginary line drawn on the liquid surface (N)\n- **$l$**: Length of the imaginary line (m)\n- **$U$**: Total Surface Energy (J)\n- **$A$**: Total Surface Area (m²)\n\n**Note:** Surface tension is strictly a property of the *interface* between two media (e.g., liquid-air or liquid-liquid), not just a property of the liquid in isolation."
+      }
+    },
+    {
+      "cardId": "83a4a14f-6a82-43a8-9e28-cd025df982ab",
+      "originalOrder": 33,
+      "originalHeading": "Factors Affecting Surface Tension",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Formatted distinct factors"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "surface-tension",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 29,
+        "heading": "Factors Affecting Surface Tension",
+        "question": "How do changes in temperature and the addition of different types of impurities fundamentally alter the surface tension of a liquid?",
+        "back": "### 1. Temperature\n- Surface tension **decreases** with an increase in temperature.\n- It completely **vanishes at the boiling point** (or critical temperature) because the intermolecular cohesive forces are entirely overcome by the high thermal kinetic energy of the molecules.\n\n### 2. Impurities\n- **Highly Soluble Impurities** (e.g., sodium chloride/salt in water) generally **increase** the surface tension.\n- **Slightly Soluble or Insoluble Impurities** (e.g., soap, detergent, or phenol in water) selectively accumulate at the surface and significantly **decrease** the surface tension."
+      }
+    },
+    {
+      "cardId": "53c70b42-9fa5-45e6-b625-32d1a3de66d8",
+      "originalOrder": 31,
+      "originalHeading": "Work Done in Splitting / Merging Drops",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Explicitly derived volume conservation"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "surface-energy",
+          "thermodynamics",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 30,
+        "heading": "Work Done in Splitting / Merging Drops",
+        "formula": "\\Delta U = W = T \\cdot \\Delta A = 4\\pi T (N r^2 - R^2)",
+        "description": "Calculates the change in surface energy (or external work done) when a single large liquid drop of radius $R$ breaks into $N$ identical smaller droplets of radius $r$.",
+        "derivation": "**Volume Conservation Constraint:**\nBefore calculating area, radius $r$ is found using volume conservation: \n$\\frac{4}{3}\\pi R^3 = N \\cdot \\frac{4}{3}\\pi r^3 \\implies R = N^{1/3} r$\n\n**Thermodynamic Effects:**\n- **Splitting into droplets:** Increases the total surface area ($\\Delta A > 0$). Energy is *absorbed* from the liquid to create new surface area, leading to a **drop in internal temperature** (cooling effect).\n- **Merging into a single drop:** Decreases the total surface area ($\\Delta A < 0$). Excess surface energy is *released* as heat, leading to a **rise in temperature** (heating effect)."
+      }
+    },
+    {
+      "cardId": "e58730b3-ecaf-49da-83d4-612c60ad3a60",
+      "originalOrder": 24,
+      "originalHeading": "Excess Pressure (Drops vs. Bubbles)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Clarified number of interfaces"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "pressure",
+          "surface-tension",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 31,
+        "heading": "Excess Pressure (Drops vs. Bubbles)",
+        "formula": "\\Delta P_{\\text{drop}} = \\frac{2S}{r} \\quad \\text{and} \\quad \\Delta P_{\\text{bubble}} = \\frac{4S}{r}",
+        "description": "Formulas for the excess internal pressure inside a spherical liquid drop and a hollow soap bubble.",
+        "derivation": "**Variables:**\n- **$\\Delta P$**: Excess pressure ($P_{\\text{inside}} - P_{\\text{outside}}$) (Pa)\n- **$S$**: Surface tension of the liquid (N/m)\n- **$r$**: Radius of the drop or bubble (m)\n\n**The Interface Rule:**\n- **Liquid Drop / Air bubble inside a liquid:** Possesses only **ONE** liquid-gas interface (the outer or inner boundary). Thus, the excess pressure is purely $\\frac{2S}{r}$.\n- **Soap Bubble in air:** Possesses **TWO** distinct interfaces (an inner liquid-air surface and an outer liquid-air surface). Surface tension acts twice, doubling the required excess pressure to $\\frac{4S}{r}$."
+      }
+    },
+    {
+      "cardId": "bd777018-8cf0-4434-8bce-cecbc1483b61",
+      "originalOrder": 23,
+      "originalHeading": "Angle of Contact ($\\theta$)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Expanded definition",
+        "Contrasted adhesive vs cohesive forces"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "capillarity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 32,
+        "heading": "Angle of Contact ($\\theta$)",
+        "question": "What physically dictates whether the angle of contact between a liquid and a solid will be Acute or Obtuse, and what are the visual results of each?",
+        "back": "### Angle of Contact Definition\nThe angle formed between the tangent to the liquid surface at the point of contact and the solid surface, measured strictly *inside* the liquid.\n\n### The Intermolecular Battle\n- **Acute Angle ($\\theta < 90^\\circ$):** Occurs when **Adhesion** (liquid-solid attraction) is stronger than **Cohesion** (liquid-liquid attraction). The liquid **wets** the surface, spreading out. The resulting meniscus in a tube is **concave**. *(Example: Water on clean glass).* \n- **Obtuse Angle ($\\theta > 90^\\circ$):** Occurs when **Cohesion** is stronger than **Adhesion**. The liquid **does not wet** the surface, tending to bead up into spherical droplets. The resulting meniscus is **convex**. *(Example: Mercury on glass, or water droplets on a waxy lotus leaf).* "
+      }
+    },
+    {
+      "cardId": "a571a6b4-2fbb-456e-a5aa-d5284a5a85a5",
+      "originalOrder": 25,
+      "originalHeading": "Capillary Rise (Jurin's Law)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA type",
+        "Linked to contact angle"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "capillarity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 33,
+        "heading": "Capillary Rise (Jurin's Law)",
+        "formula": "h = \\frac{2S \\cos \\theta}{r \\rho g}",
+        "description": "Jurin's Law calculates the height to which a liquid naturally rises (or falls) inside a narrow capillary tube.",
+        "derivation": "**Variables:**\n- **$h$**: Height of capillary rise/fall (m)\n- **$S$**: Surface tension (N/m)\n- **$\\theta$**: Angle of contact\n- **$r$**: Internal radius of the capillary tube (m)\n- **$\\rho$**: Density of the liquid (kg/m³)\n\n**Boundary Conditions based on $\\theta$:**\n- If $\\theta < 90^\\circ$ (Acute), $\\cos \\theta$ is positive. The liquid naturally **rises** up the tube against gravity (capillary ascent, e.g., water in a glass tube).\n- If $\\theta > 90^\\circ$ (Obtuse), $\\cos \\theta$ is negative. The liquid actually **depresses/falls** below the outside liquid level (capillary descent, e.g., mercury in a glass tube)."
+      }
+    },
+    {
+      "cardId": "a53c3ede-79d7-4bd1-a4c0-7a1d1d6f4f28",
+      "originalOrder": 32,
+      "originalHeading": "Effect of Wetting & Waterproofing Agents",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified real-world chemical applications"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "chemistry",
+          "capillarity",
+          "neet",
+          "jee",
+          "class-11"
+        ],
+        "order": 34,
+        "heading": "Effect of Wetting & Waterproofing Agents",
+        "question": "How do industrial detergents (wetting agents) and waterproofing agents mechanically alter the angle of contact of water to achieve their purpose?",
+        "back": "### Manipulating the Contact Angle\n- **Detergents & Soaps (Wetting Agents):** They dramatically **decrease** the angle of contact (making it highly acute). By lowering surface tension, water is allowed to easily spread out, wet the surface entirely, and penetrate the microscopic pores of fabrics to remove trapped dirt.\n- **Waterproofing Agents (e.g., Waxes, Teflon):** They actively **increase** the angle of contact, forcing it to become obtuse ($\\theta > 90^\\circ$). Because the cohesion of the water becomes much stronger than its adhesion to the treated surface, the water beads up into tight spherical droplets and rolls off, completely failing to wet the fabric."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "action": "SYSTEM",
+      "cardData": null
+    }
+  ]
 }

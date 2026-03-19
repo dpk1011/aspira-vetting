@@ -1,797 +1,1338 @@
 {
-"deckId": "69aba601fc9152e2eef8d551",
-"cards": [
-{
-"cardId": "69abb81efc9152e2eef8d7a2",
-"originalOrder": 2,
-"originalHeading": "Displacement Current (Concept)",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Standardized tags", "Enhanced explanation clarity"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "displacement-current"],
-"order": 1,
-"heading": "Displacement Current: Core Concept",
-"question": "What specific physical phenomenon gives rise to the 'Displacement Current' inside the otherwise empty gap of a charging capacitor?",
-"back": "\n\nBetween the plates of a charging capacitor, the accumulated charge **$Q$** changes over time. Consequently, the **Electric Field ($E$)** and **Electric Flux ($\\Phi_E$)** across the gap are continuously changing with time.\n\nMaxwell postulated a profound symmetry in nature: just as a changing magnetic field produces an electric field (Faraday's Law), a **time-varying electric field produces a magnetic field**.\n\nThis equivalent, non-physical current produced by the changing electric flux in a vacuum or dielectric is defined as **Displacement Current ($I_d$)**. It behaves exactly like a physical conduction current in its ability to produce a magnetic field.",
-"mnemonic": "Changing Flux Fixes the Gap: A changing electric field acts just like a current."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a1",
-"originalOrder": 1,
-"originalHeading": "Inconsistency in Ampere's Circuital Law",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Improved analytical flow", "Standardized tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "amperes-law"],
-"order": 2,
-"heading": "Inconsistency in Ampere's Circuital Law",
-"question": "Why did James Clerk Maxwell find Ampere's Circuital Law to be logically inconsistent when evaluated for a charging capacitor?",
-"back": "Ampere's Law states that the magnetic field line integral around a closed loop is strictly proportional to the **conduction current ($I_c$)** passing through the enclosed surface.\n\nMaxwell identified a fatal logical flaw when considering a charging capacitor. \n\n1. If a flat surface is drawn intersecting the wire outside the capacitor, conduction current **$I_c$** passes through it, correctly predicting a magnetic field.\n2. However, if a 'pot-shaped' bulging surface is drawn sharing the same boundary loop but passing *between* the capacitor plates (where there are no flowing charges), **$I_c = 0$**.\n\nThis created a **logical contradiction**: Ampere's law predicted a magnetic field for one surface, but exactly zero magnetic field for another surface sharing the identical boundary loop, violating the physical continuity of the magnetic field."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a8",
-"originalOrder": 8,
-"originalHeading": "Source of Electromagnetic Waves",
-"action": "MODIFIED",
-"modificationsSummary": ["Reformatted for chunking", "Standardized tags", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "em-waves", "acceleration"],
-"order": 3,
-"heading": "The Origin of Electromagnetic Waves",
-"question": "Why can neither stationary charges nor charges moving with uniform velocity produce electromagnetic waves?",
-"back": "The generation of an electromagnetic wave requires mutual regeneration of electric and magnetic fields. \n\n* **Stationary charges:** Produce only a static electric field. They generate no magnetic field and possess no time variation.\n* **Charges in uniform motion (steady currents):** Produce a static electric field and a static magnetic field. Because there is no change with respect to time, the fields cannot regenerate each other.\n* **Accelerating/Oscillating Charges:** An oscillating charge produces a time-varying electric field, which generates a time-varying magnetic field, which in turn generates another time-varying electric field.\n\nThis continuous mutual regeneration propagates outwards through space as an **Electromagnetic Wave**.",
-"mnemonic": "Acceleration is the Engine of EM Waves."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7aa",
-"originalOrder": 10,
-"originalHeading": "Transverse Nature & Phase of EM Waves",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Standardized tags", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "em-waves", "transverse-waves"],
-"order": 4,
-"heading": "Transverse Nature & Phase Relationship",
-"question": "Describe the spatial alignment and temporal phase relationship between the Electric and Magnetic fields in a propagating electromagnetic wave.",
-"back": "\n\n* **Transverse Nature:** Both the Electric Field ($E$) and Magnetic Field ($B$) vectors are mutually **perpendicular to each other**. Furthermore, both are perpendicular to the **direction of wave propagation**.\n* **Phase Relationship:** The $E$ and $B$ fields oscillate perfectly **in phase** (Phase difference = 0). They reach their zero, minimum, and maximum values at the exact same time and exact same spatial coordinate.",
-"mnemonic": "Perpendicular in Space, In-Phase in Time."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7dd",
-"originalOrder": 39,
-"originalHeading": "Proof of Transverse Nature",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified question", "Standardized classification and tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "OBSERVATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "polarisation"],
-"order": 5,
-"heading": "Experimental Proof of Transverse Nature",
-"question": "Which specific optical phenomenon provides the definitive experimental proof that light and all other electromagnetic waves are strictly transverse in nature?",
-"back": "The phenomenon is **Polarisation**.\n\nOnly transverse waves (where the physical disturbance is perpendicular to the direction of wave propagation) can be polarised, meaning their vibrations are restricted to a single geometrical plane.\n\nLongitudinal waves (such as sound waves in air) cannot undergo polarisation. The successful polarisation of EM waves conclusively proves their transverse architecture."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b3",
-"originalOrder": 19,
-"originalHeading": "Electromagnetic Spectrum Order",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Mnemonic retained and cleaned"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "MEMORY",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "em-spectrum"],
-"order": 6,
-"heading": "The Electromagnetic Spectrum Sequence",
-"question": "What is the correct order of the entire electromagnetic spectrum arranged from maximum wavelength (lowest frequency) to minimum wavelength (highest frequency)?",
-"back": "\n\n1. **R**adio waves (Lowest Frequency, Longest Wavelength)\n2. **M**icrowaves\n3. **I**nfrared\n4. **V**isible light\n5. **U**ltraviolet (UV)\n6. **X**-rays\n7. **G**amma rays (Highest Frequency, Shortest Wavelength)\n\n*Note: There are no sharply defined boundaries between these regions; they gently overlap based on the physical methods used to produce or detect them.*",
-"mnemonic": "Red Man In Violet Uniform X Gun"
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a9",
-"originalOrder": 9,
-"originalHeading": "Hertz's Experiment (1887)",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Refined wording for procedural clarity"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "hertz-experiment", "history"],
-"order": 7,
-"heading": "Hertz's Experimental Confirmation",
-"question": "How did Heinrich Hertz experimentally confirm James Clerk Maxwell's theoretical prediction regarding the existence of electromagnetic waves?",
-"back": "\n\nHertz utilized a high-voltage induction coil to force an oscillating electric charge (a visible spark) to jump across a small air gap between two metallic spheres.\n\nThis massive, high-frequency accelerating charge radiated invisible electromagnetic waves (specifically radio frequencies at approximately $5 \\times 10^7 \\text{ Hz}$).\n\nThese radiated waves propagated through the laboratory air and physically induced a secondary, similar spark in an unconnected receiver loop located several meters away. This successfully demonstrated that **oscillating charges radiate EM waves** capable of carrying energy through empty space."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7ca",
-"originalOrder": 31,
-"originalHeading": "Laboratory Generation of Visible Light",
-"action": "MODIFIED",
-"modificationsSummary": ["Enhanced analytical depth", "Clarified numerical bounds"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "visible-light", "production"],
-"order": 8,
-"heading": "Limitations of AC Circuit EM Generation",
-"question": "Why is it physically impossible to directly produce visible light EM waves using standard macroscopic alternating current (AC) electronic circuits in a laboratory?",
-"back": "The frequency of visible light is extraordinarily high, existing in the range of approximately **$4 \\times 10^{14}$ Hz to $7 \\times 10^{14}$ Hz**.\n\nEven the most advanced modern macroscopic electronic oscillators and resonant LC circuits can only physically drive charges to achieve oscillation frequencies up to about **$10^{11}$ Hz** (which falls strictly into the microwave or short radio wave regions).\n\nBecause we cannot force macroscopic circuit currents to alternate fast enough, visible light cannot be generated via circuit-based accelerating charges. It must instead be produced naturally by microscopic, atomic-level quantum electron transitions."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7d0",
-"originalOrder": 37,
-"originalHeading": "Boundary Conditions for Radiating EM Waves",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved bullet formatting", "Standardized tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "acceleration", "em-waves"],
-"order": 9,
-"heading": "Kinematic Conditions for EM Radiation",
-"question": "Besides a standard oscillating harmonic charge (like in an antenna), what other specific kinematic states of a charge will definitively result in the production of electromagnetic waves?",
-"back": "The fundamental universal rule is that **any form of accelerated motion** of a charged particle will radiate EM waves. Examples include:\n\n* **Moving in a circular orbit:** Even at a constant speed, the velocity's direction is continuously changing. This means the charge is constantly accelerating (centripetal acceleration), radiating energy (synchrotron radiation).\n* **Falling in an electric or magnetic field:** The external force physically accelerates or decelerates the charge (Bremsstrahlung or braking radiation).\n\n*Crucial Distinction:* A charge moving at a strictly constant velocity vector in a perfectly straight line experiences zero acceleration and will *never* produce an EM wave."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a3",
-"originalOrder": 3,
-"originalHeading": "Displacement Current Formula",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "displacement-current"],
-"order": 10,
-"heading": "Displacement Current Formula",
-"formula": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
-"description": "Calculates the magnitude of Maxwell's displacement current generated by a time-varying electric flux.",
-"derivation": "1. The electric flux between parallel capacitor plates is: $\\Phi_E = E \\cdot A = \\left(\\frac{Q}{A\\epsilon_0}\\right) A = \\frac{Q}{\\epsilon_0}$\n2. Differentiating both sides with respect to time ($t$) yields: $\\frac{d\\Phi_E}{dt} = \\frac{1}{\\epsilon_0} \\frac{dQ}{dt}$\n3. Since physical conduction current arriving at the plate is $I_c = \\frac{dQ}{dt}$, we substitute this to get $I_c = \\epsilon_0 \\frac{d\\Phi_E}{dt}$\n4. To maintain mathematical continuity through the vacuum gap, Maxwell defined this equivalent term as the displacement current: $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a4",
-"originalOrder": 4,
-"originalHeading": "Ampere-Maxwell Law",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "ampere-maxwell"],
-"order": 11,
-"heading": "The Ampere-Maxwell Law",
-"formula": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}",
-"description": "Maxwell's modification to Ampere's Law, ensuring mathematical consistency by incorporating displacement current alongside conduction current as a valid source of magnetic fields.",
-"derivation": "Where $\\oint \\vec{B} \\cdot d\\vec{l}$ is the line integral of the magnetic field (circulation), $\\mu_0$ is the permeability of free space ($4\\pi \\times 10^{-7} \\text{ T}\\cdot\\text{m/A}$), $I_c$ is standard conduction current, and $I_d$ is the displacement current. This ensures total current ($I_c + I_d$) is perfectly continuous across any complex circuit topology."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a5",
-"originalOrder": 5,
-"originalHeading": "Maxwell's Equations: 1. Gauss's Law for Electricity",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "maxwell-equations"],
-"order": 12,
-"heading": "Maxwell's Equations: Gauss's Law for Electrostatics",
-"formula": "\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q_{enclosed}}{\\epsilon_0}",
-"description": "The first of Maxwell's four fundamental equations, calculating the total electric flux emerging from a closed three-dimensional Gaussian surface.",
-"derivation": "Where $\\vec{E}$ is the electric field vector, $d\\vec{A}$ is the differential area vector (pointing outwards), and $Q_{enclosed}$ is the net electric charge trapped inside the volume. Physically, it dictates that electric charges act as discrete sources (positive) and sinks (negative) of the electric field, proving that isolated electric charges (monopoles) naturally exist."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a6",
-"originalOrder": 6,
-"originalHeading": "Maxwell's Equations: 2. Gauss's Law for Magnetism",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "maxwell-equations"],
-"order": 13,
-"heading": "Maxwell's Equations: Gauss's Law for Magnetism",
-"formula": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
-"description": "The second of Maxwell's fundamental equations, proving mathematically that the net magnetic flux passing through any closed 3D surface is universally identically zero.",
-"derivation": "Physically, this asserts that isolated magnetic poles (magnetic monopoles) do not exist in nature. Every north pole is paired with a south pole, ensuring that magnetic field lines strictly form continuous, unbroken loops. The number of field lines entering any volume precisely equals the number exiting.",
-"mnemonic": "Zero Flux equals Zero Monopoles."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7a7",
-"originalOrder": 7,
-"originalHeading": "Maxwell's Equations: 3. Faraday's Law of Induction",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "maxwell-equations"],
-"order": 14,
-"heading": "Maxwell's Equations: Faraday's Law of Induction",
-"formula": "\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}",
-"description": "The third of Maxwell's fundamental equations, representing electromagnetic induction where a changing magnetic flux induces an electromotive force (EMF).",
-"derivation": "Where $\\oint \\vec{E} \\cdot d\\vec{l}$ represents the induced EMF (in Volts) around a closed loop, and $\\frac{d\\Phi_B}{dt}$ is the rate of change of magnetic flux passing through the loop surface. The negative sign represents **Lenz's Law**, indicating that the induced electric field will drive a current to structurally oppose the underlying change in magnetic flux."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7ab",
-"originalOrder": 11,
-"originalHeading": "Speed of EM Waves in Vacuum",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement", "Improved description depth"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "DATA",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "speed-of-light", "vacuum"],
-"order": 15,
-"heading": "Velocity of EM Waves in a Vacuum",
-"formula": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}}",
-"description": "The theoretical formula strictly derived from Maxwell's wave equations calculating the absolute speed of all electromagnetic waves traveling through a pure vacuum.",
-"derivation": "Where $c \\approx 3 \\times 10^8 \\text{ m/s}$ is the speed of light, $\\mu_0$ is the permeability of free space ($4\\pi \\times 10^{-7} \\text{ T}\\cdot\\text{m/A}$), and $\\epsilon_0$ is the permittivity of free space ($8.854 \\times 10^{-12} \\text{ F/m}$). This derivation was historically revolutionary because the calculated value precisely matched the known measured speed of light, proving theoretically that light is an electromagnetic wave."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7ac",
-"originalOrder": 12,
-"originalHeading": "Speed of EM Waves in a Medium",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "speed-of-light", "medium"],
-"order": 16,
-"heading": "Velocity of EM Waves within a Material Medium",
-"formula": "v = \\frac{1}{\\sqrt{\\mu \\epsilon}}",
-"description": "Calculates the reduced propagation velocity of an electromagnetic wave when passing through a physical material medium.",
-"derivation": "Where $v$ is the phase velocity in the medium, $\\mu$ is the absolute magnetic permeability of the specific medium, and $\\epsilon$ is the absolute electric permittivity of the medium. The velocity $v$ will always be less than $c$. This equation directly links electromagnetism to physical optics, serving as the foundational basis for calculating the optical refractive index: $n = \\frac{c}{v}$."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7ad",
-"originalOrder": 13,
-"originalHeading": "Relation Between E and B Field Amplitudes",
-"action": "MODIFIED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "em-waves", "amplitudes"],
-"order": 17,
-"heading": "Ratio of Electric to Magnetic Field Amplitudes",
-"formula": "c = \\frac{E_0}{B_0} \\quad \\text{or} \\quad c = \\frac{E}{B}",
-"description": "Defines the strictly fixed mathematical ratio between the magnitude of the electric field ($E$) and the magnetic field ($B$) within an electromagnetic wave propagating in a vacuum.",
-"derivation": "This fixed ratio dictates that because $c$ is so incredibly large ($3 \\times 10^8 \\text{ m/s}$), the numerical amplitude of the electric field component ($E_0$) is astronomically larger than the amplitude of the magnetic field component ($B_0$) in standard SI units. Note: this holds true for both instantaneous values ($E/B$) and RMS values ($E_{rms}/B_{rms}$).",
-"mnemonic": "E over B equals c (Electricity numerically dominates Magnetism by a factor of c)"
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7ae",
-"originalOrder": 14,
-"originalHeading": "Wave Equations for EM Waves",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "wave-equation"],
-"order": 18,
-"heading": "Standard Kinematic Wave Equations for EM Waves",
-"formula": "E_x = E_0 \\sin(kz - \\omega t) \\quad \\text{and} \\quad B_y = B_0 \\sin(kz - \\omega t)",
-"description": "The instantaneous sinusoidal wave equations for a linearly polarized electromagnetic wave propagating specifically along the positive z-axis.",
-"derivation": "Where $k$ is the angular wave number ($k = \\frac{2\\pi}{\\lambda}$), $\\omega$ is the angular frequency ($\\omega = 2\\pi \\nu$), $z$ represents the spatial propagation axis, and $t$ is time. The wave speed is given by the ratio of these constants: $c = \\frac{\\omega}{k} = \\nu \\lambda$. Notice the $E$ and $B$ equations share the identical phase argument $(kz - \\omega t)$, mathematically proving they oscillate perfectly in phase."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b0",
-"originalOrder": 16,
-"originalHeading": "Energy Density of Electromagnetic Waves",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "DATA",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "energy-density"],
-"order": 19,
-"heading": "Instantaneous Energy Density of EM Waves",
-"formula": "u = \\frac{1}{2} \\epsilon_0 E^2 + \\frac{1}{2} \\frac{B^2}{\\mu_0}",
-"description": "Calculates the total instantaneous electromagnetic energy stored per unit volume ($u$) within the propagating wave field.",
-"derivation": "The first term $\\frac{1}{2} \\epsilon_0 E^2$ represents the energy density stored purely in the electric field, while the second term $\\frac{1}{2} \\frac{B^2}{\\mu_0}$ represents the energy density in the magnetic field. In a vacuum, these two specific energy components are dynamically equal. The average total energy density over one complete cycle is defined using RMS values: $u_{avg} = \\epsilon_0 E_{rms}^2 = \\frac{B_{rms}^2}{\\mu_0}$."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b2",
-"originalOrder": 18,
-"originalHeading": "Poynting Vector",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "poynting-vector"],
-"order": 20,
-"heading": "The Poynting Vector",
-"formula": "\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})",
-"description": "Represents the directional rate of energy transfer per unit cross-sectional area (power density) of an electromagnetic wave.",
-"derivation": "Where $\\vec{S}$ is measured in Watts per square meter ($\\text{W/m}^2$). The fundamental properties of the vector cross product ensure that $\\vec{S}$ always points exactly in the geometrical direction of wave propagation. Furthermore, the time-averaged magnitude of the Poynting vector mathematically defines the overall macroscopic **Intensity ($I$)** of the radiation."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7c6",
-"originalOrder": 27,
-"originalHeading": "Momentum of a Photon / EM Wave",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "DATA",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "momentum", "photon"],
-"order": 21,
-"heading": "Momentum Transfer of an EM Wave",
-"formula": "p = \\frac{E}{c}",
-"description": "Calculates the total physical momentum ($p$) transferred by a packet of electromagnetic energy (or a single photon) to a completely absorbing target surface.",
-"derivation": "Utilizing Einstein's relativistic mass-energy equivalence $E = mc^2$, we can elegantly rewrite it as $E = (mc)c$. Recognizing that the classical momentum of a photon is $p = mc$, substituting this directly yields $E = pc$, which rearranges to $p = \\frac{E}{c}$. Because $c$ is astronomically large, the momentum (and the subsequent radiation pressure) exerted by ordinary terrestrial light sources is practically negligible."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7c7",
-"originalOrder": 28,
-"originalHeading": "Wien's Displacement Relation",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "wiens-law", "spectrum"],
-"order": 22,
-"heading": "Wien's Displacement Law",
-"formula": "\\lambda_m T = 2.9 \\times 10^{-3} \\text{ m}\\cdot\\text{K}",
-"description": "An empirical formula relating the peak emission wavelength of a blackbody source inversely to its absolute thermodynamic temperature.",
-"derivation": "Where $\\lambda_m$ is the specific wavelength corresponding to maximum spectral emission intensity, and $T$ is the absolute temperature in Kelvin. This relationship is crucial for astrophysics and spectroscopy, allowing scientists to determine the characteristic surface temperatures of distant stars based simply on the peak color (wavelength) of the electromagnetic spectrum they emit."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7e4",
-"originalOrder": 46,
-"originalHeading": "Hertz's Experiment: Resonant Frequency",
-"action": "UNCHANGED",
-"modificationsSummary": ["Converted to FORMULA standard structure", "Strict LaTeX enforcement"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "formula", "hertz-experiment", "resonance"],
-"order": 23,
-"heading": "Resonant Frequency of an LC Oscillator",
-"formula": "\\nu = \\frac{1}{2\\pi \\sqrt{LC}}",
-"description": "Calculates the natural resonant frequency of the oscillating circuit used to generate electromagnetic waves, as famously utilized in Hertz's 1887 spark-gap transmitter.",
-"derivation": "Where $\\nu$ is the frequency in Hertz, $L$ is the inherent inductance of the connecting wires, and $C$ is the capacitance of the metallic plates. By carefully adjusting the geometry of the plates and wires, Hertz precisely tuned $L$ and $C$ to successfully generate radio frequency EM waves at roughly $5 \\times 10^7 \\text{ Hz}$."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7af",
-"originalOrder": 15,
-"originalHeading": "Direction of EM Wave Propagation",
-"action": "MODIFIED",
-"modificationsSummary": ["Enhanced analytical clarity", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "em-waves", "vectors"],
-"order": 24,
-"heading": "Determining the Direction of Propagation",
-"question": "How do you mathematically compute the exact direction of propagation of an electromagnetic wave strictly using vector algebra involving the field vectors?",
-"back": "The geometric direction of wave propagation is strictly given by the mathematical **cross product** of the Electric Field vector and the Magnetic Field vector: **$\\vec{E} \\times \\vec{B}$**.\n\nFor example, if the oscillating $\\vec{E}$ field is oriented along the positive x-axis ($\\hat{i}$) and the $\\vec{B}$ field is along the positive y-axis ($\\hat{j}$), the wave definitively propagates along the positive z-axis ($\\hat{k}$) because $\\hat{i} \\times \\hat{j} = \\hat{k}$.\n\nThis fundamental relationship originates directly from the derivation of the Poynting Vector, which indicates the geometric direction of energetic flow.",
-"mnemonic": "E cross B (ExB) points the way."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b1",
-"originalOrder": 17,
-"originalHeading": "Momentum and Radiation Pressure",
-"action": "MODIFIED",
-"modificationsSummary": ["Added concrete question", "Standardized tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "momentum", "radiation-pressure"],
-"order": 25,
-"heading": "Momentum Transfer and Radiation Pressure",
-"question": "How does the transferred momentum of an electromagnetic wave lead to the macroscopic phenomenon known as radiation pressure?",
-"back": "Electromagnetic waves transport not only pure energy but also kinetic **momentum** through the vacuum of space.\n\nWhen these waves strike a physical surface (like a solar sail or human skin), they transfer this momentum ($p = \\frac{U}{c}$) to the object. According to Newton's Second Law, a change in momentum over time exerts a physical force. This force distributed over the surface area results in macroscopic **Radiation Pressure**.\n\n*Analytical Note:* Because the universal speed of light $c$ is astronomically large in the denominator, the total momentum and resulting pressure exerted by everyday light sources is incredibly minuscule and completely unnoticeable to human senses."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7c5",
-"originalOrder": 26,
-"originalHeading": "Continuity of Current (AC vs DC)",
-"action": "MODIFIED",
-"modificationsSummary": ["Enhanced analytical clarity", "Refined tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "displacement-current", "ac-dc"],
-"order": 26,
-"heading": "Continuity of Current across a Capacitor",
-"question": "Under what specific condition is the physical conduction current equal to the displacement current, ensuring mathematical current continuity across a capacitor?",
-"back": "In a circuit with a capacitor driven by an **Alternating Current (AC)** source, the continuous charging and discharging of the plates creates a constantly oscillating, time-varying electric field.\n\nUnder this specific dynamic condition, the **Conduction Current ($I_c$)** flowing through the physical copper wires is mathematically and physically equivalent to the **Displacement Current ($I_d$)** flowing through the vacuum/dielectric between the plates, perfectly preserving circuit continuity.\n\nConversely, for a steady DC source, once the capacitor reaches full charge (steady state), the electric field becomes entirely static, rendering $I_d = 0$ and $I_c = 0$, breaking the continuity of current."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7c8",
-"originalOrder": 29,
-"originalHeading": "Energy & Intensity Contribution Ratio",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized terminology", "Mnemonic optimized"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "energy", "em-waves"],
-"order": 27,
-"heading": "Energy Contribution Ratio in EM Waves",
-"question": "What is the precise ratio of the contributions made by the electric field compared to the magnetic field towards the total intensity and energy density of an EM wave?",
-"back": "The ratio is strictly **1:1**.\n\nIn a propagating electromagnetic wave in a vacuum, the average energy density stored within the electric field ($U_E = \\frac{1}{2}\\epsilon_0 E^2$) is mathematically and physically identical to the average energy density stored within the magnetic field ($U_B = \\frac{B^2}{2\\mu_0}$).\n\nTherefore, the total energy, momentum, and intensity of the wave are distributed **equally (50-50)** between its electric and magnetic components.",
-"mnemonic": "E and B split the bill exactly 50-50."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7c9",
-"originalOrder": 30,
-"originalHeading": "The Standard of Length",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified fundamental constant application"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "speed-of-light", "units"],
-"order": 28,
-"heading": "The Absolute Standard of Length",
-"question": "Why is the speed of electromagnetic waves in a vacuum uniquely utilized to define the international SI standard of length (the meter)?",
-"back": "The propagation velocity of all electromagnetic waves in a strict vacuum ($c = 299,792,458 \\text{ m/s}$) is an absolute, immutable **fundamental constant of nature**.\n\nExhaustive experiments have proven that this speed is perfectly constant and **absolutely independent of the wavelength or frequency** of the wave, as well as the relative motion of the observer or source.\n\nDue to this extraordinary reliability and precision, the standard meter is officially defined dynamically by the exact distance light travels in a vacuum during a specific fraction of a second ($1 / 299,792,458 \\text{ s}$)."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b4",
-"originalOrder": 20,
-"originalHeading": "Radio Waves",
-"action": "MERGED",
-"modificationsSummary": ["Merged with Specific Radio Wave Frequency Bands card", "Formatted into cohesive bullet points"],
-"vettingNotes": "Merged card 69abb862fc9152e2eef8d7cf into this card for unified chunking.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "radio-waves"],
-"order": 29,
-"heading": "Radio Waves & Communication Bands",
-"question": "How are Radio Waves physically produced, and what are their primary telecommunication applications categorized by specific frequency bands?",
-"back": "**Production:** Radio waves (having the largest wavelengths in the spectrum, $\\lambda > 0.1 \\text{ m}$) are produced by the rapid, **accelerated motion of charges** in conducting macroscopic wires, such as LC resonant oscillators and broadcast aerials.\n\n**Primary Frequency Bands & Applications:**\n* **AM (Amplitude Modulated) Radio:** $530 \\text{ kHz}$ to $1710 \\text{ kHz}$.\n* **Short Wave Band:** Up to $54 \\text{ MHz}$.\n* **TV Waves:** $54 \\text{ MHz}$ to $890 \\text{ MHz}$.\n* **FM (Frequency Modulated) Radio:** $88 \\text{ MHz}$ to $108 \\text{ MHz}$.\n* **UHF (Ultra-High Frequency) Band:** Utilized heavily for Cellular phones and mobile voice communication."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7de",
-"originalOrder": 40,
-"originalHeading": "Radio Waves vs. TV Signals Transmission",
-"action": "MODIFIED",
-"modificationsSummary": ["Refined the question for competitive exams"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "communication", "ionosphere"],
-"order": 30,
-"heading": "Radio vs. TV Signal Transmission",
-"question": "Why do long-distance AM radio broadcasts heavily rely on short-wave bands, while Television (TV) transmissions strictly require artificial satellites?",
-"back": "\n\n* **Short-Wave Radio:** These lower-energy frequencies are easily **reflected back to Earth by the charged ionosphere**, allowing them to travel vast distances entirely over the horizon via 'skywave propagation'.\n* **TV Signals:** Television broadcasts and cellular signals operate at much higher frequencies and energies (VHF/UHF bands). Instead of reflecting, they **penetrate straight through the ionosphere** into deep space. Therefore, artificial satellites are strictly required to intercept and re-transmit these line-of-sight signals back down to Earth."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b5",
-"originalOrder": 21,
-"originalHeading": "Microwaves & RADAR",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger", "Emphasized diffraction property"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "microwaves"],
-"order": 31,
-"heading": "Microwaves and RADAR Technology",
-"question": "Which specific electronic devices produce microwaves, and what wave property makes them uniquely suited for military and aviation RADAR technology?",
-"back": "**Production:** Microwaves are produced by specialized vacuum tubes, specifically **Klystrons, Magnetrons, and Gunn diodes**.\n\n**Application in RADAR:**\nMicrowaves have very **short wavelengths** ($0.1 \\text{ m}$ to $1 \\text{ mm}$).\nAccording to wave optics, shorter wavelengths do not diffract (bend) around macroscopic obstacles easily. This physical property allows them to travel as a highly focused, straight-line beam without dissipating.\n\nThis lack of diffraction makes them exceptionally precise for **aircraft navigation, air traffic control, and police speed detection guns** (RADAR)."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b6",
-"originalOrder": 22,
-"originalHeading": "Microwave Oven Working Principle",
-"action": "MODIFIED",
-"modificationsSummary": ["Enhanced scientific terminology"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "microwave-oven", "resonance"],
-"order": 32,
-"heading": "Physics of the Microwave Oven",
-"question": "Explain the underlying physics principle regarding how a domestic microwave oven uniformly heats food containing water molecules.",
-"back": "Food structures inherently contain water, sugar, and fat molecules.\n\nThe specific frequency of the microwaves generated by the oven (typically around $2.45 \\text{ GHz}$) is deliberately chosen to precisely **match the natural resonant frequency of water molecules**.\n\nWhen exposed, this resonance causes maximum kinetic energy transfer to the water molecules, forcing them to vibrate and rotate vigorously. This resulting massive increase in internal kinetic energy manifests macroscopically as heat, warming the food **uniformly from the inside out**, rather than relying on slow thermal conduction from the surface."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b7",
-"originalOrder": 23,
-"originalHeading": "Infrared Waves & The Greenhouse Effect",
-"action": "MERGED",
-"modificationsSummary": ["Merged with Microscopic Mechanism card", "Enhanced analytical explanation"],
-"vettingNotes": "Merged card 69abb862fc9152e2eef8d7d1 into this card.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "infrared", "greenhouse-effect"],
-"order": 33,
-"heading": "Infrared Waves: Microscopic Heating & The Greenhouse Effect",
-"question": "Explain the microscopic mechanism of how Infrared (IR) waves uniquely act as 'heat waves', and describe their macro-level role in the Earth's Greenhouse Effect.",
-"back": "**Microscopic Heating Mechanism:**\nUnlike high-frequency UV light which excites outer electrons, low-frequency Infrared waves closely match the physical resonant frequencies of **entire atoms and molecules** (like $H_2O$, $CO_2$, $NH_3$). They set the entire molecular structure into vigorous vibration, which directly manifests as increased internal thermal energy (heat).\n\n**The Greenhouse Effect:**\n1. Incoming high-energy visible light from the sun easily penetrates the atmosphere and heats the Earth's solid surface.\n2. The Earth re-radiates this absorbed energy back outwards as **lower-energy, longer-wavelength Infrared waves**.\n3. Greenhouse gases ($CO_2$, $CH_4$, water vapor) in the atmosphere violently absorb these outgoing IR waves, trapping the thermal energy and keeping the planet warm enough to sustain biological life."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7cd",
-"originalOrder": 34,
-"originalHeading": "Earth's Temperature Without an Atmosphere",
-"action": "MODIFIED",
-"modificationsSummary": ["Added visual trigger"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "environment", "greenhouse"],
-"order": 34,
-"heading": "Thermodynamics Without an Atmosphere",
-"question": "If the Earth possessed absolutely no atmosphere, how would its average surface temperature dynamically change, and why?",
-"back": "\n\nThe average global temperature would plunge, becoming significantly **lower** and deeply inhospitable to life.\n\nWithout an atmosphere, there would be absolutely no greenhouse gases (such as $CO_2$, $CH_4$, and water vapor) to intercept and trap the outgoing, long-wavelength **infrared radiation** constantly emitted by the Earth's warm surface.\n\nThis total absence of the **Greenhouse Effect** would cause all thermal heat to escape directly into the vacuum of space, effectively freezing the planet."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7cc",
-"originalOrder": 33,
-"originalHeading": "The 'Nuclear Winter' Prediction",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved logical flow"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CASE_STUDY",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "environment", "nuclear-winter"],
-"order": 35,
-"heading": "The Physics of a 'Nuclear Winter'",
-"question": "What is the scientific basis regarding electromagnetic radiation behind the prediction that a global nuclear war would result in a devastating 'nuclear winter'?",
-"back": "A massive, coordinated global nuclear war would throw immense, thick clouds of pulverized debris, smoke, and dust high into the Earth's stratosphere.\n\nThese highly dense particulate clouds would act as a massive optical shield, **completely blocking incoming visible light and solar radiation** from penetrating down to the Earth's surface.\n\nDeprived of the Sun's life-sustaining incoming electromagnetic energy, photosynthesis would collapse, and the planet would undergo severe, devastating global cooling, triggering a catastrophic artificial 'winter' effect."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b8",
-"originalOrder": 24,
-"originalHeading": "Visible Light & Ultraviolet (UV) Rays",
-"action": "SPLIT",
-"modificationsSummary": ["Split into two separate cards for chunking: Visible Light", "Refined numerical ranges"],
-"vettingNotes": "Split due to violation of chunking rule (combining two distinct bands).",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "visible-light"],
-"order": 36,
-"heading": "Visible Light Spectrum",
-"question": "Detail the physical production mechanism and primary effects of the Visible Light region of the electromagnetic spectrum.",
-"back": "**Wavelength Range:** $400 \\text{ nm}$ (violet) to $700 \\text{ nm}$ (red).\n\n**Production:** Visible light is strictly emitted when excited electrons within atoms dynamically jump from higher energy quantum levels down to lower energy levels, releasing photons.\n\n**Primary Effects:** This specific band is uniquely detectable by the human retina, providing all visual information about the macroscopic world. It is also the primary driver for biological photosynthesis in plants."
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 24,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from split", "Merged obscure UV uses from card 69abb8c1fc9152e2eef8d7e0"],
-"vettingNotes": "Second half of the split, augmented with UV applications.",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "uv-rays"],
-"order": 37,
-"heading": "Ultraviolet (UV) Rays & Applications",
-"question": "Detail the physical production mechanism, biological effects, and specific scientific/industrial applications of Ultraviolet (UV) Rays.",
-"back": "**Wavelength Range:** $1 \\text{ nm}$ to $400 \\text{ nm}$.\n\n**Production:** Produced by special vacuum lamps and extremely hot celestial bodies (like the Sun) strictly through inner-shell electron transitions.\n\n**Biological Effects:** Highly harmful to living tissues; induces melanin production (tanning). Fortunately, the stratospheric **Ozone Layer** absorbs the majority of solar UV.\n\n**Key Applications:**\n* **Medical/Sanitation:** Used heavily in water purifiers to definitively destroy bacterial DNA and kill germs.\n* **Surgery:** High-precision LASIK eye surgery.\n* **Forensics/Geology:** Checking mineral samples, forged documents, and invisible ink by utilizing UV's ability to trigger **fluorescence** in certain materials."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7ce",
-"originalOrder": 35,
-"originalHeading": "Evolution of Human Vision",
-"action": "MODIFIED",
-"modificationsSummary": ["Enhanced analytical connection"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "visible-light", "evolution"],
-"order": 38,
-"heading": "Evolutionary Physics of Human Vision",
-"question": "From a strict physics and evolutionary perspective, why is the human eye uniquely sensitive specifically to the narrow 'visible' region ($400\\text{-}700 \\text{ nm}$) of the vast electromagnetic spectrum?",
-"back": "The center of visual sensitivity for human eyes specifically and perfectly coincides with the **center of the emission wavelength distribution of the Sun** (peaking around $500 \\text{ nm}$, yellow-green).\n\nHumans dynamically evolved on Earth under the constant, overwhelming illumination of the Sun. Consequently, biological organisms physiologically adapted their retinal chemistry to most efficiently process the specific wavelengths of electromagnetic radiation that the Sun emits most strongly and abundantly."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7e1",
-"originalOrder": 43,
-"originalHeading": "Human Skin & UV Glass Protection",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved formatting"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "biology", "uv"],
-"order": 39,
-"heading": "Human Skin vs. UV Radiation",
-"question": "How does human skin biologically react to Ultraviolet (UV) exposure, and thermodynamically, why can't a person get tanned through standard glass windows?",
-"back": "**Biological Reaction:**\nExposure to high-energy UV radiation damages cellular DNA, inducing the skin cells to rapidly produce **melanin**, a dark absorbing pigment. This causes tanning, which is the body's natural defense mechanism to protect deeper, vital tissues.\n\n**Glass Protection:**\nOrdinary silicate window glass heavily **absorbs UV radiation**, preventing it from transmitting through. Because the specific tanning and burning wavelengths are trapped by the glass lattice, you are effectively shielded from sunburns while sitting indoors or inside a car."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7e2",
-"originalOrder": 44,
-"originalHeading": "Animal Vision across the EM Spectrum",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "biology", "vision"],
-"order": 40,
-"heading": "Animal Vision Beyond the Visible Spectrum",
-"question": "Which specific animal families have naturally evolved to detect the invisible Infrared (IR) and Ultraviolet (UV) regions of the EM spectrum, and how does it aid them?",
-"back": "**Infrared (IR) Vision:**\n**Snakes** (particularly pit vipers and pythons) possess specialized, highly sensitive heat-sensing pits on their faces that can detect **Infrared thermal radiation**. This allows them to 'see' and accurately strike warm-blooded mammalian prey in absolute darkness.\n\n**Ultraviolet (UV) Vision:**\nMany **insects** (like bees and butterflies) possess complex compound eyes with an extended visual range reaching well into the **Ultraviolet region**. This uniquely aids them in navigation and locating hidden, UV-reflective nectar patterns on flower petals that are completely invisible to humans."
-}
-},
-{
-"cardId": "69abb81efc9152e2eef8d7b9",
-"originalOrder": 25,
-"originalHeading": "X-Rays & Gamma Rays",
-"action": "SPLIT",
-"modificationsSummary": ["Split into two separate cards for chunking: X-Rays"],
-"vettingNotes": "Split due to violation of chunking rule.",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "x-rays"],
-"order": 41,
-"heading": "X-Rays: Production & Safety",
-"question": "What is the specific physical production method for X-Rays, and why must human exposure to them be strictly monitored and limited?",
-"back": "**Wavelength Range:** $1 \\text{ nm}$ to $10^{-3} \\text{ nm}$.\n\n**Production:** X-Rays are strictly generated by violently bombarding a heavy metal target (like Tungsten) with highly accelerated, high-energy electrons inside an evacuated X-ray tube.\n\n**Safety Warning:** X-Rays possess incredibly high frequencies and massive photon energies. They can violently ionize matter, causing genetic mutations and **destroying living tissues/organisms**. Consequently, their application in medical diagnostics (where they penetrate low-density skin but are absorbed by high-density bone) is heavily regulated."
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 25,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": ["Created from split", "Merged obscure Gamma uses from card 69abb8c1fc9152e2eef8d7e0"],
-"vettingNotes": "Second half of the split, augmented with Gamma applications.",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "spectrum", "gamma-rays"],
-"order": 42,
-"heading": "Gamma Rays: Production & Applications",
-"question": "What is the exclusive physical origin of Gamma ($\\gamma$) Rays, and what are their primary medical and industrial applications?",
-"back": "**Wavelength Range:** $< 10^{-3} \\text{ nm}$ (Highest frequency, most energetic).\n\n**Production:** Unlike lower bands originating from electron transitions, Gamma rays are emitted exclusively during **nuclear reactions** and the radioactive decay of heavy, unstable atomic nuclei.\n\n**Applications:**\n* **Medicine:** Because they fiercely destroy living tissue, they are tightly focused in radiotherapy to deliberately target and obliterate malignant cancer cells.\n* **Industry:** Highly utilized in the heavy-duty **preservation of food**. Exposing food items to gamma radiation instantly kills destructive microorganisms, bacteria, and insects without leaving the food radioactive."
-}
-},
-{
-"cardId": "69abb862fc9152e2eef8d7cb",
-"originalOrder": 32,
-"originalHeading": "Optical vs. X-Ray Astronomy",
-"action": "MODIFIED",
-"modificationsSummary": ["Improved analytical clarity"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "telescopes", "astronomy"],
-"order": 43,
-"heading": "Observational Astronomy Restrictions",
-"question": "Why can optical and radio telescopes be effectively constructed on the ground, whereas X-ray astronomy strictly requires telescopes mounted on orbiting space satellites?",
-"back": "The Earth's atmosphere is mostly **transparent to visible light and radio waves** (the optical and radio 'windows'), allowing these specific wavelengths from distant stars to reach the ground without significant attenuation.\n\nHowever, the atmosphere efficiently and heavily **absorbs high-energy, short-wavelength X-rays** before they can reach the surface. Therefore, to successfully detect X-rays emitted from distant celestial bodies, sophisticated telescopes must be physically placed on satellites orbiting safely *above* the Earth's absorptive atmosphere."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7df",
-"originalOrder": 41,
-"originalHeading": "Advanced Applications of X-Rays",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized tags"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "x-rays", "crystals", "metallurgy"],
-"order": 44,
-"heading": "Scientific & Industrial Applications of X-Rays",
-"question": "Apart from standard medical imaging, what are the primary scientific and industrial applications of X-rays in solid-state physics and metallurgy?",
-"back": "**Solid-State Physics:**\nX-rays are the primary tool used to investigate the **internal crystal structure of solids** (X-ray crystallography). This works perfectly because the extremely short wavelength of X-rays ($\\approx 1 \\text{ \\AA}$) precisely matches the physical interatomic spacing in crystalline lattices, allowing for measurable diffraction.\n\n**Metallurgy & Industry:**\nDue to their penetrating power, they are heavily used to detect hidden internal faults, micro-cracks, and structural flaws deep inside thick metal products, welds, and industrial castings."
-}
-},
-{
-"cardId": "69abb8c1fc9152e2eef8d7e3",
-"originalOrder": 45,
-"originalHeading": "Physical Origin of Photon Energies",
-"action": "MODIFIED",
-"modificationsSummary": ["Strict LaTeX formatting", "Enhanced analytical depth"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["science", "physics", "class-12", "neet", "jee", "ncert", "photon", "energy-levels"],
-"order": 45,
-"heading": "Physical Origin of Photon Energies",
-"question": "When calculating the individual photon energy ($E = h\\nu$) for different bands of the EM spectrum, what fundamental atomic property do these vastly different energy scales reveal about their physical source?",
-"back": "The vastly different emitted photon energies strictly correspond to the **spacing of the relevant energy levels** dynamically shifting within the source's atomic, molecular, or nuclear structure.\n\n* **Gamma rays (Highest E):** Originate from massive energy gaps deep within the **nucleus**.\n* **X-rays (High E):** Originate from large gaps between **inner-shell electrons** tightly bound to the nucleus.\n* **Visible/UV (Medium E):** Originate from smaller energy gaps involving the excitation of **outer-shell (valence) electrons**.\n* **Infrared (Low E):** Originate from very low-energy transitions regarding **molecular vibrations and rotations**."
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"action": "SYSTEM",
-"cardData": null
-}
-]
+  "deckId": "6de5f5e0-012f-4fd4-9fd8-2eaa7c1d1488",
+  "cards": [
+    {
+      "cardId": "df041690-7771-4932-b93c-e94229ef4de2",
+      "originalOrder": 2,
+      "originalHeading": "Displacement Current (Concept)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Standardized tags",
+        "Enhanced explanation clarity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "displacement-current"
+        ],
+        "order": 1,
+        "heading": "Displacement Current: Core Concept",
+        "question": "What specific physical phenomenon gives rise to the 'Displacement Current' inside the otherwise empty gap of a charging capacitor?",
+        "back": "\n\nBetween the plates of a charging capacitor, the accumulated charge **$Q$** changes over time. Consequently, the **Electric Field ($E$)** and **Electric Flux ($\\Phi_E$)** across the gap are continuously changing with time.\n\nMaxwell postulated a profound symmetry in nature: just as a changing magnetic field produces an electric field (Faraday's Law), a **time-varying electric field produces a magnetic field**.\n\nThis equivalent, non-physical current produced by the changing electric flux in a vacuum or dielectric is defined as **Displacement Current ($I_d$)**. It behaves exactly like a physical conduction current in its ability to produce a magnetic field.",
+        "mnemonic": "Changing Flux Fixes the Gap: A changing electric field acts just like a current."
+      }
+    },
+    {
+      "cardId": "cd528090-925d-4c34-906a-604b0c2f2cc2",
+      "originalOrder": 1,
+      "originalHeading": "Inconsistency in Ampere's Circuital Law",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Improved analytical flow",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "amperes-law"
+        ],
+        "order": 2,
+        "heading": "Inconsistency in Ampere's Circuital Law",
+        "question": "Why did James Clerk Maxwell find Ampere's Circuital Law to be logically inconsistent when evaluated for a charging capacitor?",
+        "back": "Ampere's Law states that the magnetic field line integral around a closed loop is strictly proportional to the **conduction current ($I_c$)** passing through the enclosed surface.\n\nMaxwell identified a fatal logical flaw when considering a charging capacitor. \n\n1. If a flat surface is drawn intersecting the wire outside the capacitor, conduction current **$I_c$** passes through it, correctly predicting a magnetic field.\n2. However, if a 'pot-shaped' bulging surface is drawn sharing the same boundary loop but passing *between* the capacitor plates (where there are no flowing charges), **$I_c = 0$**.\n\nThis created a **logical contradiction**: Ampere's law predicted a magnetic field for one surface, but exactly zero magnetic field for another surface sharing the identical boundary loop, violating the physical continuity of the magnetic field."
+      }
+    },
+    {
+      "cardId": "fb440724-8b2f-4df0-b261-0f282b003788",
+      "originalOrder": 8,
+      "originalHeading": "Source of Electromagnetic Waves",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reformatted for chunking",
+        "Standardized tags",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "em-waves",
+          "acceleration"
+        ],
+        "order": 3,
+        "heading": "The Origin of Electromagnetic Waves",
+        "question": "Why can neither stationary charges nor charges moving with uniform velocity produce electromagnetic waves?",
+        "back": "The generation of an electromagnetic wave requires mutual regeneration of electric and magnetic fields. \n\n* **Stationary charges:** Produce only a static electric field. They generate no magnetic field and possess no time variation.\n* **Charges in uniform motion (steady currents):** Produce a static electric field and a static magnetic field. Because there is no change with respect to time, the fields cannot regenerate each other.\n* **Accelerating/Oscillating Charges:** An oscillating charge produces a time-varying electric field, which generates a time-varying magnetic field, which in turn generates another time-varying electric field.\n\nThis continuous mutual regeneration propagates outwards through space as an **Electromagnetic Wave**.",
+        "mnemonic": "Acceleration is the Engine of EM Waves."
+      }
+    },
+    {
+      "cardId": "669db035-6de3-418e-b677-65cecc3b833a",
+      "originalOrder": 10,
+      "originalHeading": "Transverse Nature & Phase of EM Waves",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Standardized tags",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "em-waves",
+          "transverse-waves"
+        ],
+        "order": 4,
+        "heading": "Transverse Nature & Phase Relationship",
+        "question": "Describe the spatial alignment and temporal phase relationship between the Electric and Magnetic fields in a propagating electromagnetic wave.",
+        "back": "\n\n* **Transverse Nature:** Both the Electric Field ($E$) and Magnetic Field ($B$) vectors are mutually **perpendicular to each other**. Furthermore, both are perpendicular to the **direction of wave propagation**.\n* **Phase Relationship:** The $E$ and $B$ fields oscillate perfectly **in phase** (Phase difference = 0). They reach their zero, minimum, and maximum values at the exact same time and exact same spatial coordinate.",
+        "mnemonic": "Perpendicular in Space, In-Phase in Time."
+      }
+    },
+    {
+      "cardId": "755a64eb-fd6d-4276-9de2-874e6fdc1635",
+      "originalOrder": 39,
+      "originalHeading": "Proof of Transverse Nature",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified question",
+        "Standardized classification and tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "OBSERVATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "polarisation"
+        ],
+        "order": 5,
+        "heading": "Experimental Proof of Transverse Nature",
+        "question": "Which specific optical phenomenon provides the definitive experimental proof that light and all other electromagnetic waves are strictly transverse in nature?",
+        "back": "The phenomenon is **Polarisation**.\n\nOnly transverse waves (where the physical disturbance is perpendicular to the direction of wave propagation) can be polarised, meaning their vibrations are restricted to a single geometrical plane.\n\nLongitudinal waves (such as sound waves in air) cannot undergo polarisation. The successful polarisation of EM waves conclusively proves their transverse architecture."
+      }
+    },
+    {
+      "cardId": "1a383269-610f-4eb8-aaa1-0fa5424e9e9c",
+      "originalOrder": 19,
+      "originalHeading": "Electromagnetic Spectrum Order",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Mnemonic retained and cleaned"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "MEMORY",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "em-spectrum"
+        ],
+        "order": 6,
+        "heading": "The Electromagnetic Spectrum Sequence",
+        "question": "What is the correct order of the entire electromagnetic spectrum arranged from maximum wavelength (lowest frequency) to minimum wavelength (highest frequency)?",
+        "back": "\n\n1. **R**adio waves (Lowest Frequency, Longest Wavelength)\n2. **M**icrowaves\n3. **I**nfrared\n4. **V**isible light\n5. **U**ltraviolet (UV)\n6. **X**-rays\n7. **G**amma rays (Highest Frequency, Shortest Wavelength)\n\n*Note: There are no sharply defined boundaries between these regions; they gently overlap based on the physical methods used to produce or detect them.*",
+        "mnemonic": "Red Man In Violet Uniform X Gun"
+      }
+    },
+    {
+      "cardId": "d61f1888-0b32-46e7-a219-3ab15760f41d",
+      "originalOrder": 9,
+      "originalHeading": "Hertz's Experiment (1887)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Refined wording for procedural clarity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "hertz-experiment",
+          "history"
+        ],
+        "order": 7,
+        "heading": "Hertz's Experimental Confirmation",
+        "question": "How did Heinrich Hertz experimentally confirm James Clerk Maxwell's theoretical prediction regarding the existence of electromagnetic waves?",
+        "back": "\n\nHertz utilized a high-voltage induction coil to force an oscillating electric charge (a visible spark) to jump across a small air gap between two metallic spheres.\n\nThis massive, high-frequency accelerating charge radiated invisible electromagnetic waves (specifically radio frequencies at approximately $5 \\times 10^7 \\text{ Hz}$).\n\nThese radiated waves propagated through the laboratory air and physically induced a secondary, similar spark in an unconnected receiver loop located several meters away. This successfully demonstrated that **oscillating charges radiate EM waves** capable of carrying energy through empty space."
+      }
+    },
+    {
+      "cardId": "e00e5dde-2fbc-42ff-872d-b06cd6192d6f",
+      "originalOrder": 31,
+      "originalHeading": "Laboratory Generation of Visible Light",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Enhanced analytical depth",
+        "Clarified numerical bounds"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "visible-light",
+          "production"
+        ],
+        "order": 8,
+        "heading": "Limitations of AC Circuit EM Generation",
+        "question": "Why is it physically impossible to directly produce visible light EM waves using standard macroscopic alternating current (AC) electronic circuits in a laboratory?",
+        "back": "The frequency of visible light is extraordinarily high, existing in the range of approximately **$4 \\times 10^{14}$ Hz to $7 \\times 10^{14}$ Hz**.\n\nEven the most advanced modern macroscopic electronic oscillators and resonant LC circuits can only physically drive charges to achieve oscillation frequencies up to about **$10^{11}$ Hz** (which falls strictly into the microwave or short radio wave regions).\n\nBecause we cannot force macroscopic circuit currents to alternate fast enough, visible light cannot be generated via circuit-based accelerating charges. It must instead be produced naturally by microscopic, atomic-level quantum electron transitions."
+      }
+    },
+    {
+      "cardId": "bf42573c-42fb-4cbd-baee-97b95f5c7c0c",
+      "originalOrder": 37,
+      "originalHeading": "Boundary Conditions for Radiating EM Waves",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved bullet formatting",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "acceleration",
+          "em-waves"
+        ],
+        "order": 9,
+        "heading": "Kinematic Conditions for EM Radiation",
+        "question": "Besides a standard oscillating harmonic charge (like in an antenna), what other specific kinematic states of a charge will definitively result in the production of electromagnetic waves?",
+        "back": "The fundamental universal rule is that **any form of accelerated motion** of a charged particle will radiate EM waves. Examples include:\n\n* **Moving in a circular orbit:** Even at a constant speed, the velocity's direction is continuously changing. This means the charge is constantly accelerating (centripetal acceleration), radiating energy (synchrotron radiation).\n* **Falling in an electric or magnetic field:** The external force physically accelerates or decelerates the charge (Bremsstrahlung or braking radiation).\n\n*Crucial Distinction:* A charge moving at a strictly constant velocity vector in a perfectly straight line experiences zero acceleration and will *never* produce an EM wave."
+      }
+    },
+    {
+      "cardId": "2c0c7880-4719-4cd8-8b86-f7367520be07",
+      "originalOrder": 3,
+      "originalHeading": "Displacement Current Formula",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "displacement-current"
+        ],
+        "order": 10,
+        "heading": "Displacement Current Formula",
+        "formula": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+        "description": "Calculates the magnitude of Maxwell's displacement current generated by a time-varying electric flux.",
+        "derivation": "1. The electric flux between parallel capacitor plates is: $\\Phi_E = E \\cdot A = \\left(\\frac{Q}{A\\epsilon_0}\\right) A = \\frac{Q}{\\epsilon_0}$\n2. Differentiating both sides with respect to time ($t$) yields: $\\frac{d\\Phi_E}{dt} = \\frac{1}{\\epsilon_0} \\frac{dQ}{dt}$\n3. Since physical conduction current arriving at the plate is $I_c = \\frac{dQ}{dt}$, we substitute this to get $I_c = \\epsilon_0 \\frac{d\\Phi_E}{dt}$\n4. To maintain mathematical continuity through the vacuum gap, Maxwell defined this equivalent term as the displacement current: $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$."
+      }
+    },
+    {
+      "cardId": "7adc39d5-1aaa-4bff-8ce4-507884c6846a",
+      "originalOrder": 4,
+      "originalHeading": "Ampere-Maxwell Law",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "ampere-maxwell"
+        ],
+        "order": 11,
+        "heading": "The Ampere-Maxwell Law",
+        "formula": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+        "description": "Maxwell's modification to Ampere's Law, ensuring mathematical consistency by incorporating displacement current alongside conduction current as a valid source of magnetic fields.",
+        "derivation": "Where $\\oint \\vec{B} \\cdot d\\vec{l}$ is the line integral of the magnetic field (circulation), $\\mu_0$ is the permeability of free space ($4\\pi \\times 10^{-7} \\text{ T}\\cdot\\text{m/A}$), $I_c$ is standard conduction current, and $I_d$ is the displacement current. This ensures total current ($I_c + I_d$) is perfectly continuous across any complex circuit topology."
+      }
+    },
+    {
+      "cardId": "12208ba3-1c86-479c-855d-983fc7c28cd5",
+      "originalOrder": 5,
+      "originalHeading": "Maxwell's Equations: 1. Gauss's Law for Electricity",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "maxwell-equations"
+        ],
+        "order": 12,
+        "heading": "Maxwell's Equations: Gauss's Law for Electrostatics",
+        "formula": "\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q_{enclosed}}{\\epsilon_0}",
+        "description": "The first of Maxwell's four fundamental equations, calculating the total electric flux emerging from a closed three-dimensional Gaussian surface.",
+        "derivation": "Where $\\vec{E}$ is the electric field vector, $d\\vec{A}$ is the differential area vector (pointing outwards), and $Q_{enclosed}$ is the net electric charge trapped inside the volume. Physically, it dictates that electric charges act as discrete sources (positive) and sinks (negative) of the electric field, proving that isolated electric charges (monopoles) naturally exist."
+      }
+    },
+    {
+      "cardId": "daf49d6f-8f2b-4316-b627-bc2c850d9ff9",
+      "originalOrder": 6,
+      "originalHeading": "Maxwell's Equations: 2. Gauss's Law for Magnetism",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "maxwell-equations"
+        ],
+        "order": 13,
+        "heading": "Maxwell's Equations: Gauss's Law for Magnetism",
+        "formula": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "description": "The second of Maxwell's fundamental equations, proving mathematically that the net magnetic flux passing through any closed 3D surface is universally identically zero.",
+        "derivation": "Physically, this asserts that isolated magnetic poles (magnetic monopoles) do not exist in nature. Every north pole is paired with a south pole, ensuring that magnetic field lines strictly form continuous, unbroken loops. The number of field lines entering any volume precisely equals the number exiting.",
+        "mnemonic": "Zero Flux equals Zero Monopoles."
+      }
+    },
+    {
+      "cardId": "7eef7894-1bcd-4b02-8938-432e243d168a",
+      "originalOrder": 7,
+      "originalHeading": "Maxwell's Equations: 3. Faraday's Law of Induction",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "maxwell-equations"
+        ],
+        "order": 14,
+        "heading": "Maxwell's Equations: Faraday's Law of Induction",
+        "formula": "\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}",
+        "description": "The third of Maxwell's fundamental equations, representing electromagnetic induction where a changing magnetic flux induces an electromotive force (EMF).",
+        "derivation": "Where $\\oint \\vec{E} \\cdot d\\vec{l}$ represents the induced EMF (in Volts) around a closed loop, and $\\frac{d\\Phi_B}{dt}$ is the rate of change of magnetic flux passing through the loop surface. The negative sign represents **Lenz's Law**, indicating that the induced electric field will drive a current to structurally oppose the underlying change in magnetic flux."
+      }
+    },
+    {
+      "cardId": "7d1c5655-faf8-4550-9180-8717d91b80eb",
+      "originalOrder": 11,
+      "originalHeading": "Speed of EM Waves in Vacuum",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement",
+        "Improved description depth"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "speed-of-light",
+          "vacuum"
+        ],
+        "order": 15,
+        "heading": "Velocity of EM Waves in a Vacuum",
+        "formula": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}}",
+        "description": "The theoretical formula strictly derived from Maxwell's wave equations calculating the absolute speed of all electromagnetic waves traveling through a pure vacuum.",
+        "derivation": "Where $c \\approx 3 \\times 10^8 \\text{ m/s}$ is the speed of light, $\\mu_0$ is the permeability of free space ($4\\pi \\times 10^{-7} \\text{ T}\\cdot\\text{m/A}$), and $\\epsilon_0$ is the permittivity of free space ($8.854 \\times 10^{-12} \\text{ F/m}$). This derivation was historically revolutionary because the calculated value precisely matched the known measured speed of light, proving theoretically that light is an electromagnetic wave."
+      }
+    },
+    {
+      "cardId": "29e3f1f2-911e-4351-b48c-76fe653cf380",
+      "originalOrder": 12,
+      "originalHeading": "Speed of EM Waves in a Medium",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "speed-of-light",
+          "medium"
+        ],
+        "order": 16,
+        "heading": "Velocity of EM Waves within a Material Medium",
+        "formula": "v = \\frac{1}{\\sqrt{\\mu \\epsilon}}",
+        "description": "Calculates the reduced propagation velocity of an electromagnetic wave when passing through a physical material medium.",
+        "derivation": "Where $v$ is the phase velocity in the medium, $\\mu$ is the absolute magnetic permeability of the specific medium, and $\\epsilon$ is the absolute electric permittivity of the medium. The velocity $v$ will always be less than $c$. This equation directly links electromagnetism to physical optics, serving as the foundational basis for calculating the optical refractive index: $n = \\frac{c}{v}$."
+      }
+    },
+    {
+      "cardId": "1c7f8460-fb55-4007-a2a9-ee32b7c19d77",
+      "originalOrder": 13,
+      "originalHeading": "Relation Between E and B Field Amplitudes",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "em-waves",
+          "amplitudes"
+        ],
+        "order": 17,
+        "heading": "Ratio of Electric to Magnetic Field Amplitudes",
+        "formula": "c = \\frac{E_0}{B_0} \\quad \\text{or} \\quad c = \\frac{E}{B}",
+        "description": "Defines the strictly fixed mathematical ratio between the magnitude of the electric field ($E$) and the magnetic field ($B$) within an electromagnetic wave propagating in a vacuum.",
+        "derivation": "This fixed ratio dictates that because $c$ is so incredibly large ($3 \\times 10^8 \\text{ m/s}$), the numerical amplitude of the electric field component ($E_0$) is astronomically larger than the amplitude of the magnetic field component ($B_0$) in standard SI units. Note: this holds true for both instantaneous values ($E/B$) and RMS values ($E_{rms}/B_{rms}$).",
+        "mnemonic": "E over B equals c (Electricity numerically dominates Magnetism by a factor of c)"
+      }
+    },
+    {
+      "cardId": "00b31082-4609-47df-9ce8-1665de6721ca",
+      "originalOrder": 14,
+      "originalHeading": "Wave Equations for EM Waves",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "wave-equation"
+        ],
+        "order": 18,
+        "heading": "Standard Kinematic Wave Equations for EM Waves",
+        "formula": "E_x = E_0 \\sin(kz - \\omega t) \\quad \\text{and} \\quad B_y = B_0 \\sin(kz - \\omega t)",
+        "description": "The instantaneous sinusoidal wave equations for a linearly polarized electromagnetic wave propagating specifically along the positive z-axis.",
+        "derivation": "Where $k$ is the angular wave number ($k = \\frac{2\\pi}{\\lambda}$), $\\omega$ is the angular frequency ($\\omega = 2\\pi \\nu$), $z$ represents the spatial propagation axis, and $t$ is time. The wave speed is given by the ratio of these constants: $c = \\frac{\\omega}{k} = \\nu \\lambda$. Notice the $E$ and $B$ equations share the identical phase argument $(kz - \\omega t)$, mathematically proving they oscillate perfectly in phase."
+      }
+    },
+    {
+      "cardId": "c2d70420-1f8e-47b7-b8fa-ee83b8caa2dd",
+      "originalOrder": 16,
+      "originalHeading": "Energy Density of Electromagnetic Waves",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "energy-density"
+        ],
+        "order": 19,
+        "heading": "Instantaneous Energy Density of EM Waves",
+        "formula": "u = \\frac{1}{2} \\epsilon_0 E^2 + \\frac{1}{2} \\frac{B^2}{\\mu_0}",
+        "description": "Calculates the total instantaneous electromagnetic energy stored per unit volume ($u$) within the propagating wave field.",
+        "derivation": "The first term $\\frac{1}{2} \\epsilon_0 E^2$ represents the energy density stored purely in the electric field, while the second term $\\frac{1}{2} \\frac{B^2}{\\mu_0}$ represents the energy density in the magnetic field. In a vacuum, these two specific energy components are dynamically equal. The average total energy density over one complete cycle is defined using RMS values: $u_{avg} = \\epsilon_0 E_{rms}^2 = \\frac{B_{rms}^2}{\\mu_0}$."
+      }
+    },
+    {
+      "cardId": "2e5e9e56-ca61-45c1-81d6-94a5e61e47e8",
+      "originalOrder": 18,
+      "originalHeading": "Poynting Vector",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "poynting-vector"
+        ],
+        "order": 20,
+        "heading": "The Poynting Vector",
+        "formula": "\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})",
+        "description": "Represents the directional rate of energy transfer per unit cross-sectional area (power density) of an electromagnetic wave.",
+        "derivation": "Where $\\vec{S}$ is measured in Watts per square meter ($\\text{W/m}^2$). The fundamental properties of the vector cross product ensure that $\\vec{S}$ always points exactly in the geometrical direction of wave propagation. Furthermore, the time-averaged magnitude of the Poynting vector mathematically defines the overall macroscopic **Intensity ($I$)** of the radiation."
+      }
+    },
+    {
+      "cardId": "3b12ff71-6462-4af0-84db-02d33708c03e",
+      "originalOrder": 27,
+      "originalHeading": "Momentum of a Photon / EM Wave",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "momentum",
+          "photon"
+        ],
+        "order": 21,
+        "heading": "Momentum Transfer of an EM Wave",
+        "formula": "p = \\frac{E}{c}",
+        "description": "Calculates the total physical momentum ($p$) transferred by a packet of electromagnetic energy (or a single photon) to a completely absorbing target surface.",
+        "derivation": "Utilizing Einstein's relativistic mass-energy equivalence $E = mc^2$, we can elegantly rewrite it as $E = (mc)c$. Recognizing that the classical momentum of a photon is $p = mc$, substituting this directly yields $E = pc$, which rearranges to $p = \\frac{E}{c}$. Because $c$ is astronomically large, the momentum (and the subsequent radiation pressure) exerted by ordinary terrestrial light sources is practically negligible."
+      }
+    },
+    {
+      "cardId": "8020342e-98b7-4850-b4cb-23e3068dabcc",
+      "originalOrder": 28,
+      "originalHeading": "Wien's Displacement Relation",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "wiens-law",
+          "spectrum"
+        ],
+        "order": 22,
+        "heading": "Wien's Displacement Law",
+        "formula": "\\lambda_m T = 2.9 \\times 10^{-3} \\text{ m}\\cdot\\text{K}",
+        "description": "An empirical formula relating the peak emission wavelength of a blackbody source inversely to its absolute thermodynamic temperature.",
+        "derivation": "Where $\\lambda_m$ is the specific wavelength corresponding to maximum spectral emission intensity, and $T$ is the absolute temperature in Kelvin. This relationship is crucial for astrophysics and spectroscopy, allowing scientists to determine the characteristic surface temperatures of distant stars based simply on the peak color (wavelength) of the electromagnetic spectrum they emit."
+      }
+    },
+    {
+      "cardId": "c4911af9-2c51-402b-8ddd-7687a999762a",
+      "originalOrder": 46,
+      "originalHeading": "Hertz's Experiment: Resonant Frequency",
+      "action": "UNCHANGED",
+      "modificationsSummary": [
+        "Converted to FORMULA standard structure",
+        "Strict LaTeX enforcement"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "formula",
+          "hertz-experiment",
+          "resonance"
+        ],
+        "order": 23,
+        "heading": "Resonant Frequency of an LC Oscillator",
+        "formula": "\\nu = \\frac{1}{2\\pi \\sqrt{LC}}",
+        "description": "Calculates the natural resonant frequency of the oscillating circuit used to generate electromagnetic waves, as famously utilized in Hertz's 1887 spark-gap transmitter.",
+        "derivation": "Where $\\nu$ is the frequency in Hertz, $L$ is the inherent inductance of the connecting wires, and $C$ is the capacitance of the metallic plates. By carefully adjusting the geometry of the plates and wires, Hertz precisely tuned $L$ and $C$ to successfully generate radio frequency EM waves at roughly $5 \\times 10^7 \\text{ Hz}$."
+      }
+    },
+    {
+      "cardId": "d1b1b454-0680-4dce-8002-bb97ef0bbfc8",
+      "originalOrder": 15,
+      "originalHeading": "Direction of EM Wave Propagation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Enhanced analytical clarity",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "em-waves",
+          "vectors"
+        ],
+        "order": 24,
+        "heading": "Determining the Direction of Propagation",
+        "question": "How do you mathematically compute the exact direction of propagation of an electromagnetic wave strictly using vector algebra involving the field vectors?",
+        "back": "The geometric direction of wave propagation is strictly given by the mathematical **cross product** of the Electric Field vector and the Magnetic Field vector: **$\\vec{E} \\times \\vec{B}$**.\n\nFor example, if the oscillating $\\vec{E}$ field is oriented along the positive x-axis ($\\hat{i}$) and the $\\vec{B}$ field is along the positive y-axis ($\\hat{j}$), the wave definitively propagates along the positive z-axis ($\\hat{k}$) because $\\hat{i} \\times \\hat{j} = \\hat{k}$.\n\nThis fundamental relationship originates directly from the derivation of the Poynting Vector, which indicates the geometric direction of energetic flow.",
+        "mnemonic": "E cross B (ExB) points the way."
+      }
+    },
+    {
+      "cardId": "f8914cb5-206e-4dfb-9453-16ff8bc822fd",
+      "originalOrder": 17,
+      "originalHeading": "Momentum and Radiation Pressure",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added concrete question",
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "momentum",
+          "radiation-pressure"
+        ],
+        "order": 25,
+        "heading": "Momentum Transfer and Radiation Pressure",
+        "question": "How does the transferred momentum of an electromagnetic wave lead to the macroscopic phenomenon known as radiation pressure?",
+        "back": "Electromagnetic waves transport not only pure energy but also kinetic **momentum** through the vacuum of space.\n\nWhen these waves strike a physical surface (like a solar sail or human skin), they transfer this momentum ($p = \\frac{U}{c}$) to the object. According to Newton's Second Law, a change in momentum over time exerts a physical force. This force distributed over the surface area results in macroscopic **Radiation Pressure**.\n\n*Analytical Note:* Because the universal speed of light $c$ is astronomically large in the denominator, the total momentum and resulting pressure exerted by everyday light sources is incredibly minuscule and completely unnoticeable to human senses."
+      }
+    },
+    {
+      "cardId": "ab35febf-7776-481b-a571-84ded243e365",
+      "originalOrder": 26,
+      "originalHeading": "Continuity of Current (AC vs DC)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Enhanced analytical clarity",
+        "Refined tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "displacement-current",
+          "ac-dc"
+        ],
+        "order": 26,
+        "heading": "Continuity of Current across a Capacitor",
+        "question": "Under what specific condition is the physical conduction current equal to the displacement current, ensuring mathematical current continuity across a capacitor?",
+        "back": "In a circuit with a capacitor driven by an **Alternating Current (AC)** source, the continuous charging and discharging of the plates creates a constantly oscillating, time-varying electric field.\n\nUnder this specific dynamic condition, the **Conduction Current ($I_c$)** flowing through the physical copper wires is mathematically and physically equivalent to the **Displacement Current ($I_d$)** flowing through the vacuum/dielectric between the plates, perfectly preserving circuit continuity.\n\nConversely, for a steady DC source, once the capacitor reaches full charge (steady state), the electric field becomes entirely static, rendering $I_d = 0$ and $I_c = 0$, breaking the continuity of current."
+      }
+    },
+    {
+      "cardId": "f716a346-96cc-45f1-a207-57c90d7d73c2",
+      "originalOrder": 29,
+      "originalHeading": "Energy & Intensity Contribution Ratio",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized terminology",
+        "Mnemonic optimized"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "energy",
+          "em-waves"
+        ],
+        "order": 27,
+        "heading": "Energy Contribution Ratio in EM Waves",
+        "question": "What is the precise ratio of the contributions made by the electric field compared to the magnetic field towards the total intensity and energy density of an EM wave?",
+        "back": "The ratio is strictly **1:1**.\n\nIn a propagating electromagnetic wave in a vacuum, the average energy density stored within the electric field ($U_E = \\frac{1}{2}\\epsilon_0 E^2$) is mathematically and physically identical to the average energy density stored within the magnetic field ($U_B = \\frac{B^2}{2\\mu_0}$).\n\nTherefore, the total energy, momentum, and intensity of the wave are distributed **equally (50-50)** between its electric and magnetic components.",
+        "mnemonic": "E and B split the bill exactly 50-50."
+      }
+    },
+    {
+      "cardId": "1a114723-8792-4287-90d9-60218145d90e",
+      "originalOrder": 30,
+      "originalHeading": "The Standard of Length",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified fundamental constant application"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "speed-of-light",
+          "units"
+        ],
+        "order": 28,
+        "heading": "The Absolute Standard of Length",
+        "question": "Why is the speed of electromagnetic waves in a vacuum uniquely utilized to define the international SI standard of length (the meter)?",
+        "back": "The propagation velocity of all electromagnetic waves in a strict vacuum ($c = 299,792,458 \\text{ m/s}$) is an absolute, immutable **fundamental constant of nature**.\n\nExhaustive experiments have proven that this speed is perfectly constant and **absolutely independent of the wavelength or frequency** of the wave, as well as the relative motion of the observer or source.\n\nDue to this extraordinary reliability and precision, the standard meter is officially defined dynamically by the exact distance light travels in a vacuum during a specific fraction of a second ($1 / 299,792,458 \\text{ s}$)."
+      }
+    },
+    {
+      "cardId": "28062278-a5d5-4123-b8f1-5ce4e2924168",
+      "originalOrder": 20,
+      "originalHeading": "Radio Waves",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged with Specific Radio Wave Frequency Bands card",
+        "Formatted into cohesive bullet points"
+      ],
+      "vettingNotes": "Merged card 69abb862fc9152e2eef8d7cf into this card for unified chunking.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "radio-waves"
+        ],
+        "order": 29,
+        "heading": "Radio Waves & Communication Bands",
+        "question": "How are Radio Waves physically produced, and what are their primary telecommunication applications categorized by specific frequency bands?",
+        "back": "**Production:** Radio waves (having the largest wavelengths in the spectrum, $\\lambda > 0.1 \\text{ m}$) are produced by the rapid, **accelerated motion of charges** in conducting macroscopic wires, such as LC resonant oscillators and broadcast aerials.\n\n**Primary Frequency Bands & Applications:**\n* **AM (Amplitude Modulated) Radio:** $530 \\text{ kHz}$ to $1710 \\text{ kHz}$.\n* **Short Wave Band:** Up to $54 \\text{ MHz}$.\n* **TV Waves:** $54 \\text{ MHz}$ to $890 \\text{ MHz}$.\n* **FM (Frequency Modulated) Radio:** $88 \\text{ MHz}$ to $108 \\text{ MHz}$.\n* **UHF (Ultra-High Frequency) Band:** Utilized heavily for Cellular phones and mobile voice communication."
+      }
+    },
+    {
+      "cardId": "3a96a20a-c25d-4ffd-a864-38c454ee9da7",
+      "originalOrder": 40,
+      "originalHeading": "Radio Waves vs. TV Signals Transmission",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined the question for competitive exams"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "communication",
+          "ionosphere"
+        ],
+        "order": 30,
+        "heading": "Radio vs. TV Signal Transmission",
+        "question": "Why do long-distance AM radio broadcasts heavily rely on short-wave bands, while Television (TV) transmissions strictly require artificial satellites?",
+        "back": "\n\n* **Short-Wave Radio:** These lower-energy frequencies are easily **reflected back to Earth by the charged ionosphere**, allowing them to travel vast distances entirely over the horizon via 'skywave propagation'.\n* **TV Signals:** Television broadcasts and cellular signals operate at much higher frequencies and energies (VHF/UHF bands). Instead of reflecting, they **penetrate straight through the ionosphere** into deep space. Therefore, artificial satellites are strictly required to intercept and re-transmit these line-of-sight signals back down to Earth."
+      }
+    },
+    {
+      "cardId": "c570c616-2ad8-4b3a-97cf-d1ca2bf54fde",
+      "originalOrder": 21,
+      "originalHeading": "Microwaves & RADAR",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger",
+        "Emphasized diffraction property"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "microwaves"
+        ],
+        "order": 31,
+        "heading": "Microwaves and RADAR Technology",
+        "question": "Which specific electronic devices produce microwaves, and what wave property makes them uniquely suited for military and aviation RADAR technology?",
+        "back": "**Production:** Microwaves are produced by specialized vacuum tubes, specifically **Klystrons, Magnetrons, and Gunn diodes**.\n\n**Application in RADAR:**\nMicrowaves have very **short wavelengths** ($0.1 \\text{ m}$ to $1 \\text{ mm}$).\nAccording to wave optics, shorter wavelengths do not diffract (bend) around macroscopic obstacles easily. This physical property allows them to travel as a highly focused, straight-line beam without dissipating.\n\nThis lack of diffraction makes them exceptionally precise for **aircraft navigation, air traffic control, and police speed detection guns** (RADAR)."
+      }
+    },
+    {
+      "cardId": "2a84d211-7ae7-460a-b428-0880e424235b",
+      "originalOrder": 22,
+      "originalHeading": "Microwave Oven Working Principle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Enhanced scientific terminology"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "microwave-oven",
+          "resonance"
+        ],
+        "order": 32,
+        "heading": "Physics of the Microwave Oven",
+        "question": "Explain the underlying physics principle regarding how a domestic microwave oven uniformly heats food containing water molecules.",
+        "back": "Food structures inherently contain water, sugar, and fat molecules.\n\nThe specific frequency of the microwaves generated by the oven (typically around $2.45 \\text{ GHz}$) is deliberately chosen to precisely **match the natural resonant frequency of water molecules**.\n\nWhen exposed, this resonance causes maximum kinetic energy transfer to the water molecules, forcing them to vibrate and rotate vigorously. This resulting massive increase in internal kinetic energy manifests macroscopically as heat, warming the food **uniformly from the inside out**, rather than relying on slow thermal conduction from the surface."
+      }
+    },
+    {
+      "cardId": "8a04ad44-cf42-4828-ad1e-32ab2fd4ccd9",
+      "originalOrder": 23,
+      "originalHeading": "Infrared Waves & The Greenhouse Effect",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged with Microscopic Mechanism card",
+        "Enhanced analytical explanation"
+      ],
+      "vettingNotes": "Merged card 69abb862fc9152e2eef8d7d1 into this card.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "infrared",
+          "greenhouse-effect"
+        ],
+        "order": 33,
+        "heading": "Infrared Waves: Microscopic Heating & The Greenhouse Effect",
+        "question": "Explain the microscopic mechanism of how Infrared (IR) waves uniquely act as 'heat waves', and describe their macro-level role in the Earth's Greenhouse Effect.",
+        "back": "**Microscopic Heating Mechanism:**\nUnlike high-frequency UV light which excites outer electrons, low-frequency Infrared waves closely match the physical resonant frequencies of **entire atoms and molecules** (like $H_2O$, $CO_2$, $NH_3$). They set the entire molecular structure into vigorous vibration, which directly manifests as increased internal thermal energy (heat).\n\n**The Greenhouse Effect:**\n1. Incoming high-energy visible light from the sun easily penetrates the atmosphere and heats the Earth's solid surface.\n2. The Earth re-radiates this absorbed energy back outwards as **lower-energy, longer-wavelength Infrared waves**.\n3. Greenhouse gases ($CO_2$, $CH_4$, water vapor) in the atmosphere violently absorb these outgoing IR waves, trapping the thermal energy and keeping the planet warm enough to sustain biological life."
+      }
+    },
+    {
+      "cardId": "a0e8d98d-1676-4e3b-a557-fea9d6c90ba5",
+      "originalOrder": 34,
+      "originalHeading": "Earth's Temperature Without an Atmosphere",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added visual trigger"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "environment",
+          "greenhouse"
+        ],
+        "order": 34,
+        "heading": "Thermodynamics Without an Atmosphere",
+        "question": "If the Earth possessed absolutely no atmosphere, how would its average surface temperature dynamically change, and why?",
+        "back": "\n\nThe average global temperature would plunge, becoming significantly **lower** and deeply inhospitable to life.\n\nWithout an atmosphere, there would be absolutely no greenhouse gases (such as $CO_2$, $CH_4$, and water vapor) to intercept and trap the outgoing, long-wavelength **infrared radiation** constantly emitted by the Earth's warm surface.\n\nThis total absence of the **Greenhouse Effect** would cause all thermal heat to escape directly into the vacuum of space, effectively freezing the planet."
+      }
+    },
+    {
+      "cardId": "c8c96c48-9fa9-48aa-ab8d-2756878c50f5",
+      "originalOrder": 33,
+      "originalHeading": "The 'Nuclear Winter' Prediction",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved logical flow"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CASE_STUDY",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "environment",
+          "nuclear-winter"
+        ],
+        "order": 35,
+        "heading": "The Physics of a 'Nuclear Winter'",
+        "question": "What is the scientific basis regarding electromagnetic radiation behind the prediction that a global nuclear war would result in a devastating 'nuclear winter'?",
+        "back": "A massive, coordinated global nuclear war would throw immense, thick clouds of pulverized debris, smoke, and dust high into the Earth's stratosphere.\n\nThese highly dense particulate clouds would act as a massive optical shield, **completely blocking incoming visible light and solar radiation** from penetrating down to the Earth's surface.\n\nDeprived of the Sun's life-sustaining incoming electromagnetic energy, photosynthesis would collapse, and the planet would undergo severe, devastating global cooling, triggering a catastrophic artificial 'winter' effect."
+      }
+    },
+    {
+      "cardId": "af1b83cb-2c69-4a28-b0ef-e8ebfa816dd7",
+      "originalOrder": 24,
+      "originalHeading": "Visible Light & Ultraviolet (UV) Rays",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Split into two separate cards for chunking: Visible Light",
+        "Refined numerical ranges"
+      ],
+      "vettingNotes": "Split due to violation of chunking rule (combining two distinct bands).",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "visible-light"
+        ],
+        "order": 36,
+        "heading": "Visible Light Spectrum",
+        "question": "Detail the physical production mechanism and primary effects of the Visible Light region of the electromagnetic spectrum.",
+        "back": "**Wavelength Range:** $400 \\text{ nm}$ (violet) to $700 \\text{ nm}$ (red).\n\n**Production:** Visible light is strictly emitted when excited electrons within atoms dynamically jump from higher energy quantum levels down to lower energy levels, releasing photons.\n\n**Primary Effects:** This specific band is uniquely detectable by the human retina, providing all visual information about the macroscopic world. It is also the primary driver for biological photosynthesis in plants."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 24,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from split",
+        "Merged obscure UV uses from card 69abb8c1fc9152e2eef8d7e0"
+      ],
+      "vettingNotes": "Second half of the split, augmented with UV applications.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "uv-rays"
+        ],
+        "order": 37,
+        "heading": "Ultraviolet (UV) Rays & Applications",
+        "question": "Detail the physical production mechanism, biological effects, and specific scientific/industrial applications of Ultraviolet (UV) Rays.",
+        "back": "**Wavelength Range:** $1 \\text{ nm}$ to $400 \\text{ nm}$.\n\n**Production:** Produced by special vacuum lamps and extremely hot celestial bodies (like the Sun) strictly through inner-shell electron transitions.\n\n**Biological Effects:** Highly harmful to living tissues; induces melanin production (tanning). Fortunately, the stratospheric **Ozone Layer** absorbs the majority of solar UV.\n\n**Key Applications:**\n* **Medical/Sanitation:** Used heavily in water purifiers to definitively destroy bacterial DNA and kill germs.\n* **Surgery:** High-precision LASIK eye surgery.\n* **Forensics/Geology:** Checking mineral samples, forged documents, and invisible ink by utilizing UV's ability to trigger **fluorescence** in certain materials."
+      }
+    },
+    {
+      "cardId": "cefc22aa-b7e9-432e-8daa-242aa6c89fa6",
+      "originalOrder": 35,
+      "originalHeading": "Evolution of Human Vision",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Enhanced analytical connection"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "visible-light",
+          "evolution"
+        ],
+        "order": 38,
+        "heading": "Evolutionary Physics of Human Vision",
+        "question": "From a strict physics and evolutionary perspective, why is the human eye uniquely sensitive specifically to the narrow 'visible' region ($400\\text{-}700 \\text{ nm}$) of the vast electromagnetic spectrum?",
+        "back": "The center of visual sensitivity for human eyes specifically and perfectly coincides with the **center of the emission wavelength distribution of the Sun** (peaking around $500 \\text{ nm}$, yellow-green).\n\nHumans dynamically evolved on Earth under the constant, overwhelming illumination of the Sun. Consequently, biological organisms physiologically adapted their retinal chemistry to most efficiently process the specific wavelengths of electromagnetic radiation that the Sun emits most strongly and abundantly."
+      }
+    },
+    {
+      "cardId": "9ff55baf-55ee-45d1-a066-45d4523c1220",
+      "originalOrder": 43,
+      "originalHeading": "Human Skin & UV Glass Protection",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved formatting"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "biology",
+          "uv"
+        ],
+        "order": 39,
+        "heading": "Human Skin vs. UV Radiation",
+        "question": "How does human skin biologically react to Ultraviolet (UV) exposure, and thermodynamically, why can't a person get tanned through standard glass windows?",
+        "back": "**Biological Reaction:**\nExposure to high-energy UV radiation damages cellular DNA, inducing the skin cells to rapidly produce **melanin**, a dark absorbing pigment. This causes tanning, which is the body's natural defense mechanism to protect deeper, vital tissues.\n\n**Glass Protection:**\nOrdinary silicate window glass heavily **absorbs UV radiation**, preventing it from transmitting through. Because the specific tanning and burning wavelengths are trapped by the glass lattice, you are effectively shielded from sunburns while sitting indoors or inside a car."
+      }
+    },
+    {
+      "cardId": "c299ffd4-5904-4594-99fb-6a7ecffcfc4e",
+      "originalOrder": 44,
+      "originalHeading": "Animal Vision across the EM Spectrum",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "biology",
+          "vision"
+        ],
+        "order": 40,
+        "heading": "Animal Vision Beyond the Visible Spectrum",
+        "question": "Which specific animal families have naturally evolved to detect the invisible Infrared (IR) and Ultraviolet (UV) regions of the EM spectrum, and how does it aid them?",
+        "back": "**Infrared (IR) Vision:**\n**Snakes** (particularly pit vipers and pythons) possess specialized, highly sensitive heat-sensing pits on their faces that can detect **Infrared thermal radiation**. This allows them to 'see' and accurately strike warm-blooded mammalian prey in absolute darkness.\n\n**Ultraviolet (UV) Vision:**\nMany **insects** (like bees and butterflies) possess complex compound eyes with an extended visual range reaching well into the **Ultraviolet region**. This uniquely aids them in navigation and locating hidden, UV-reflective nectar patterns on flower petals that are completely invisible to humans."
+      }
+    },
+    {
+      "cardId": "fe387741-51ee-453a-adf6-01165c3fdd65",
+      "originalOrder": 25,
+      "originalHeading": "X-Rays & Gamma Rays",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Split into two separate cards for chunking: X-Rays"
+      ],
+      "vettingNotes": "Split due to violation of chunking rule.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "x-rays"
+        ],
+        "order": 41,
+        "heading": "X-Rays: Production & Safety",
+        "question": "What is the specific physical production method for X-Rays, and why must human exposure to them be strictly monitored and limited?",
+        "back": "**Wavelength Range:** $1 \\text{ nm}$ to $10^{-3} \\text{ nm}$.\n\n**Production:** X-Rays are strictly generated by violently bombarding a heavy metal target (like Tungsten) with highly accelerated, high-energy electrons inside an evacuated X-ray tube.\n\n**Safety Warning:** X-Rays possess incredibly high frequencies and massive photon energies. They can violently ionize matter, causing genetic mutations and **destroying living tissues/organisms**. Consequently, their application in medical diagnostics (where they penetrate low-density skin but are absorbed by high-density bone) is heavily regulated."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 25,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created from split",
+        "Merged obscure Gamma uses from card 69abb8c1fc9152e2eef8d7e0"
+      ],
+      "vettingNotes": "Second half of the split, augmented with Gamma applications.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "spectrum",
+          "gamma-rays"
+        ],
+        "order": 42,
+        "heading": "Gamma Rays: Production & Applications",
+        "question": "What is the exclusive physical origin of Gamma ($\\gamma$) Rays, and what are their primary medical and industrial applications?",
+        "back": "**Wavelength Range:** $< 10^{-3} \\text{ nm}$ (Highest frequency, most energetic).\n\n**Production:** Unlike lower bands originating from electron transitions, Gamma rays are emitted exclusively during **nuclear reactions** and the radioactive decay of heavy, unstable atomic nuclei.\n\n**Applications:**\n* **Medicine:** Because they fiercely destroy living tissue, they are tightly focused in radiotherapy to deliberately target and obliterate malignant cancer cells.\n* **Industry:** Highly utilized in the heavy-duty **preservation of food**. Exposing food items to gamma radiation instantly kills destructive microorganisms, bacteria, and insects without leaving the food radioactive."
+      }
+    },
+    {
+      "cardId": "b24f3150-c86f-4739-b6af-5469cdec9347",
+      "originalOrder": 32,
+      "originalHeading": "Optical vs. X-Ray Astronomy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Improved analytical clarity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "telescopes",
+          "astronomy"
+        ],
+        "order": 43,
+        "heading": "Observational Astronomy Restrictions",
+        "question": "Why can optical and radio telescopes be effectively constructed on the ground, whereas X-ray astronomy strictly requires telescopes mounted on orbiting space satellites?",
+        "back": "The Earth's atmosphere is mostly **transparent to visible light and radio waves** (the optical and radio 'windows'), allowing these specific wavelengths from distant stars to reach the ground without significant attenuation.\n\nHowever, the atmosphere efficiently and heavily **absorbs high-energy, short-wavelength X-rays** before they can reach the surface. Therefore, to successfully detect X-rays emitted from distant celestial bodies, sophisticated telescopes must be physically placed on satellites orbiting safely *above* the Earth's absorptive atmosphere."
+      }
+    },
+    {
+      "cardId": "2949783b-50d7-4dfd-ba26-ee1dcb209247",
+      "originalOrder": 41,
+      "originalHeading": "Advanced Applications of X-Rays",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized tags"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "x-rays",
+          "crystals",
+          "metallurgy"
+        ],
+        "order": 44,
+        "heading": "Scientific & Industrial Applications of X-Rays",
+        "question": "Apart from standard medical imaging, what are the primary scientific and industrial applications of X-rays in solid-state physics and metallurgy?",
+        "back": "**Solid-State Physics:**\nX-rays are the primary tool used to investigate the **internal crystal structure of solids** (X-ray crystallography). This works perfectly because the extremely short wavelength of X-rays ($\\approx 1 \\text{ \\AA}$) precisely matches the physical interatomic spacing in crystalline lattices, allowing for measurable diffraction.\n\n**Metallurgy & Industry:**\nDue to their penetrating power, they are heavily used to detect hidden internal faults, micro-cracks, and structural flaws deep inside thick metal products, welds, and industrial castings."
+      }
+    },
+    {
+      "cardId": "e286effb-5f3b-43e6-9b56-b5fddc00c13a",
+      "originalOrder": 45,
+      "originalHeading": "Physical Origin of Photon Energies",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Strict LaTeX formatting",
+        "Enhanced analytical depth"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "class-12",
+          "neet",
+          "jee",
+          "ncert",
+          "photon",
+          "energy-levels"
+        ],
+        "order": 45,
+        "heading": "Physical Origin of Photon Energies",
+        "question": "When calculating the individual photon energy ($E = h\\nu$) for different bands of the EM spectrum, what fundamental atomic property do these vastly different energy scales reveal about their physical source?",
+        "back": "The vastly different emitted photon energies strictly correspond to the **spacing of the relevant energy levels** dynamically shifting within the source's atomic, molecular, or nuclear structure.\n\n* **Gamma rays (Highest E):** Originate from massive energy gaps deep within the **nucleus**.\n* **X-rays (High E):** Originate from large gaps between **inner-shell electrons** tightly bound to the nucleus.\n* **Visible/UV (Medium E):** Originate from smaller energy gaps involving the excitation of **outer-shell (valence) electrons**.\n* **Infrared (Low E):** Originate from very low-energy transitions regarding **molecular vibrations and rotations**."
+      }
+    },
+    {
+      "cardId": "NEW",
+      "action": "SYSTEM",
+      "cardData": null
+    }
+  ]
 }

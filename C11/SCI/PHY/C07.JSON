@@ -1,704 +1,704 @@
 {
-"deckId": "69aae18dfc9152e2eef8d0c6",
-"cards": [
-{
-"cardId": "69ab1539fc9152e2eef8d2fa",
-"originalOrder": 5,
-"originalHeading": "Characteristics of Gravitational Force",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized tags",
-"Cleaned formatting",
-"Assigned proper classification"
-],
-"vettingNotes": "Establishes the qualitative, foundational properties of the gravitational force.",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"neet",
-"jee"
-],
-"order": 1,
-"heading": "Characteristics of Gravitational Force",
-"question": "What are the four primary defining characteristics of Newton's Universal Gravitational Force?",
-"back": "**Key Characteristics:**\n1. **Always Attractive:** It is a strictly attractive force; it never repels.\n2. **Central Force:** It acts strictly along the line joining the centers of the two interacting bodies.\n3. **Conservative Force:** The work done by gravity is totally independent of the path taken.\n4. **Medium Independent:** It is completely unaffected by the presence or nature of the intervening medium between the two masses.\n\n*Note:* It is the *weakest* of the four fundamental forces in nature."
-}
-},
-{
-"cardId": "69ab155dfc9152e2eef8d321",
-"originalOrder": 33,
-"originalHeading": "Inertial vs. Gravitational Mass",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Moved up to establish the distinction/equivalence of mass types before heavily using 'm' in equations.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"mass",
-"neet",
-"jee"
-],
-"order": 2,
-"heading": "Inertial vs. Gravitational Mass",
-"question": "What is the physical difference between Inertial Mass and Gravitational Mass, and how do their magnitudes compare?",
-"back": "**Inertial Mass ($m_i$):**\n- Defined by Newton's Second Law ($F = m_i a$).\n- It measures the body's resistance to being accelerated by an external force and is entirely **independent** of the presence of other bodies.\n\n**Gravitational Mass ($m_g$):**\n- Defined by Newton's Law of Gravitation ($W = m_g g$).\n- It measures the gravitational pull experienced by the body due to another massive body (like Earth).\n\n**Equivalence:**\n- Experimentally, inertial mass and gravitational mass are found to be **exactly equal in magnitude**. This principle of equivalence is a cornerstone of General Relativity."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2fb",
-"originalOrder": 6,
-"originalHeading": "Newton's Law of Gravitation (Vector Form)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "The core mathematical definition of the entire chapter.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"neet",
-"jee"
-],
-"order": 3,
-"heading": "Newton's Law of Gravitation (Vector Form)",
-"formula": "\\vec{F}*{12} = - \\frac{G m_1 m_2}{r^2} \\hat{r}*{21}",
-"description": "States the vector equation for the gravitational force exerted on point mass 1 by point mass 2.",
-"derivation": "**Variables & Units:**\n- **$\\vec{F}_{12}$** = Force on mass 1 due to mass 2 (N)\n- **$G$** = Universal Gravitational Constant\n- **$m_1, m_2$** = Interacting masses (kg)\n- **$r$** = Distance between the masses (m)\n- **$\\hat{r}_{21}$** = Unit vector pointing from mass 2 to mass 1\n\n**Conditions/Notes:**\n- The **negative sign** signifies that the force is strictly **attractive** (mass 1 is pulled directly toward mass 2).\n- This intrinsically validates Newton's Third Law: $\\vec{F}_{12} = -\\vec{F}_{21}$."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2fc",
-"originalOrder": 7,
-"originalHeading": "Universal Gravitational Constant (G)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Logically pairs with the gravitational force equation to define its constant.",
-"cardData": {
-"type": "FORMULA",
-"classification": "DATA",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"constants",
-"neet",
-"jee"
-],
-"order": 4,
-"heading": "Universal Gravitational Constant (G)",
-"formula": "G = 6.67 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2",
-"description": "Provides the universally accepted numerical value of G with its SI units, and states its dimensional formula.",
-"derivation": "**Dimensional Derivation:**\nFrom $F = G \\frac{m_1 m_2}{r^2} \\implies G = \\frac{F r^2}{m_1 m_2}$.\nDimensions: $\\frac{[MLT^{-2}][L^2]}{[M^2]} = [M^{-1}L^3T^{-2}]$.\n\n**Conditions/Notes:**\n- First determined experimentally by English scientist **Henry Cavendish** using a torsion balance.\n- 'G' remains absolute across the entire universe, independent of time, temperature, or physical medium."
-}
-},
-{
-"cardId": "69ab156ffc9152e2eef8d334",
-"originalOrder": 41,
-"originalHeading": "Principle of Superposition (Gravitation)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Moved up. Explains how to handle multiple masses mathematically once the 2-body force is defined.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"superposition",
-"neet",
-"jee"
-],
-"order": 5,
-"heading": "Principle of Superposition (Gravitation)",
-"formula": "\\vec{F}*{net} = \\sum*{i=2}^{n} \\frac{G m_1 m_i}{r_{1i}^2} \\hat{r}*{i1}",
-"description": "States the mathematical vector equation demonstrating the principle of superposition for gravitational forces acting on a mass $m_1$ due to a system of $n$ discrete particles.",
-"derivation": "**Variables & Units:**\n- **$\\vec{F}*{net}$** = Total resultant gravitational force on $m_1$ (N)\n- **$m_1$** = Mass of the primary particle experiencing the force (kg)\n- **$m_i$** = Mass of the $i^{th}$ interacting particle (kg)\n- **$r_{1i}$** = Distance between $m_1$ and $m_i$ (m)\n- **$\\hat{r}*{i1}$** = Unit vector pointing from $m_i$ to $m_1$\n\n**Conditions/Notes:**\n- The fundamental interaction between any two specific masses is completely unaffected by the presence or absence of other masses in the vicinity."
-}
-},
-{
-"cardId": "69ab155dfc9152e2eef8d322",
-"originalOrder": 34,
-"originalHeading": "Gravitational Shielding",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Moved up. Addresses a common misconception regarding superposition and intervening mediums.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"neet",
-"jee"
-],
-"order": 6,
-"heading": "Gravitational Shielding Myth",
-"question": "If you place a thick lead shield or an electromagnetic cage between two masses, how does it mathematically affect the gravitational force between them?",
-"back": "The gravitational force remains **completely unchanged**.\n\n**The Physics Reason:**\n- Unlike electrostatic forces (which can be shielded using hollow conductors) or magnetic forces, the gravitational force is **absolutely independent of the intervening medium**.\n- Mass cannot be shielded from gravity by any known physical means."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2fe",
-"originalOrder": 9,
-"originalHeading": "Shell Theorem (Point Outside)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Required to justify applying Newton's Law to extended spherical bodies like Earth.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"shell-theorem",
-"neet",
-"jee"
-],
-"order": 7,
-"heading": "Shell Theorem (Point Outside)",
-"question": "How does a uniform spherical shell (or a solid sphere) mathematically interact with a point mass located strictly outside its boundary?",
-"back": "The force of attraction between a uniform spherical body and an external point mass is calculated exactly **as if the entire mass of the sphere were concentrated solely at its geometric center**.\n\n**Application:**\nThis theorem mathematically justifies treating massive celestial bodies like the Earth or Sun as simple 'point masses' situated at their centers when calculating orbits or surface gravity."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2fd",
-"originalOrder": 8,
-"originalHeading": "Shell Theorem (Point Inside)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags",
-"Refined mnemonic"
-],
-"vettingNotes": "Pairs with the Outside Point theorem to complete the spherical boundary rules.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"shell-theorem",
-"neet",
-"jee"
-],
-"order": 8,
-"heading": "Shell Theorem (Point Inside)",
-"question": "What is the exact gravitational force exerted by a uniform hollow spherical shell on a point mass located *anywhere* strictly inside the shell?",
-"back": "The net gravitational force is exactly **ZERO**.\n\n**The Physics Reason:**\n- The various regions of the spherical shell attract the internal point mass in all different directions.\n- By calculus, for a uniform shell, these opposing vector forces **completely cancel each other out**, resulting in a net zero gravitational force anywhere inside the hollow space.",
-"mnemonic": "Inside the shell, all forces cancel well."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2ff",
-"originalOrder": 10,
-"originalHeading": "Acceleration Due to Gravity on Earth's Surface",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Applies the preceding laws and shell theorem to define surface gravity.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"neet",
-"jee"
-],
-"order": 9,
-"heading": "Acceleration Due to Gravity on Earth's Surface",
-"formula": "g = \\frac{GM_E}{R_E^2}",
-"description": "States the formula for 'g' exactly on the surface of the Earth in terms of Earth's mass and radius.",
-"derivation": "**Derivation:**\nEquate the universal gravitational force to Newton's Second Law for a body on the surface: $mg = \\frac{G M_E m}{R_E^2}$.\nThe mass of the object $m$ cancels out entirely.\n\n**Variables & Units:**\n- **$g$** = Acceleration due to gravity ($\\approx 9.8 \\text{ m/s}^2$)\n- **$G$** = Universal Gravitational Constant\n- **$M_E$** = Mass of the Earth (kg)\n- **$R_E$** = Radius of the Earth (m)\n\n**Conditions/Notes:**\n- '$g$' is completely **independent of the mass ($m$)** of the falling body. A feather and a rock experience the exact same gravitational acceleration in a vacuum."
-}
-},
-{
-"cardId": "69ab156ffc9152e2eef8d335",
-"originalOrder": 42,
-"originalHeading": "Acceleration Due to Gravity Extremes",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Contextualizes surface gravity values across the solar system.",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"planets",
-"neet",
-"jee"
-],
-"order": 10,
-"heading": "Acceleration Due to Gravity Extremes",
-"question": "Among the major bodies in our solar system, which planet has the absolute minimum acceleration due to gravity on its surface, and what is the gravity on the Moon relative to Earth?",
-"back": "**Minimum Gravity:**\n- **Mercury** possesses the minimum acceleration due to gravity among all the major planets.\n\n**The Moon vs. Earth:**\n- The acceleration due to gravity on the surface of the Moon is approximately **one-sixth (1/6)** of the gravity on Earth ($g_m \\approx g_e / 6$).\n- *For comparison:* The gravity on the Sun is about **27 times** greater than that of Earth."
-}
-},
-{
-"cardId": "MERGED_69ab1539fc9152e2eef8d300_69ab1539fc9152e2eef8d301",
-"originalOrder": 11,
-"originalHeading": "Variation of 'g' with Altitude",
-"action": "MERGED",
-"modificationsSummary": [
-"Merged exact and approximation formulas into a single card",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Combines exact and approximate altitude equations to clarify the boundary conditions for when to use each.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"altitude",
-"neet",
-"jee"
-],
-"order": 11,
-"heading": "Variation of 'g' with Altitude",
-"formula": "g_h = g \\left( \\frac{R_E}{R_E + h} \\right)^2 \\quad \\text{(Exact)} \\quad \\text{and} \\quad g_h \\approx g \\left( 1 - \\frac{2h}{R_E} \\right) \\quad \\text{(Approx)}",
-"description": "States both the exact formula and the binomial approximation for the acceleration due to gravity ($g_h$) at a height $h$ above the Earth's surface.",
-"derivation": "**Exact Derivation:**\n$g_h = \\frac{GM}{(R+h)^2}$. Divide by surface $g = \\frac{GM}{R^2}$ to yield the ratio $\\frac{g_h}{g} = \\frac{R^2}{(R+h)^2}$.\n\n**Approximation Derivation:**\n$g_h = g(1 + h/R_E)^{-2}$. Using the binomial expansion $(1+x)^n \\approx 1+nx$ for small $x$, we get $g_h \\approx g(1 - 2h/R_E)$.\n\n**Boundary Conditions:**\n- Use the **Exact** formula when $h$ is large (comparable to the radius of the Earth, e.g., $h = R/2$).\n- Use the **Approximation** *strictly* when $h \\ll R_E$ (typically for altitudes less than 300-400 km or about 5% of Earth's radius)."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d302",
-"originalOrder": 13,
-"originalHeading": "Variation of 'g' with Depth",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Logically follows the altitude variation.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"depth",
-"neet",
-"jee"
-],
-"order": 12,
-"heading": "Variation of 'g' with Depth",
-"formula": "g_d = g \\left( 1 - \\frac{d}{R_E} \\right)",
-"description": "States the formula for the acceleration due to gravity ($g_d$) at a physical depth $d$ below the Earth's surface.",
-"derivation": "**Derivation:**\nInside the Earth, gravitational force depends only on the inner mass $M_s$ (by the Shell Theorem). Assuming uniform density, $M_s = M_E \\frac{(R-d)^3}{R^3}$.\nThus $g_d = \\frac{GM_s}{(R-d)^2} = \\frac{GM_E(R-d)}{R^3} = g \\frac{R-d}{R} = g\\left(1 - \\frac{d}{R}\\right)$.\n\n**Conditions/Notes:**\n- Unlike the altitude approximation, this is an **exact formula** (under the assumption of a uniform density Earth).\n- It clearly shows that $g$ decreases strictly linearly with depth."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d303",
-"originalOrder": 14,
-"originalHeading": "Gravity at the Center of the Earth",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Direct conceptual application of the depth variation formula.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CASE_STUDY",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"depth",
-"neet",
-"jee"
-],
-"order": 13,
-"heading": "Gravity at the Center of the Earth",
-"question": "What is the precise acceleration due to gravity exactly at the geometric center of the Earth, and what would a 100 kg solid block weigh there?",
-"back": "- The acceleration due to gravity at the center of the Earth is **strictly ZERO** ($g_d = 0$).\n- **Weight:** Because weight $W = mg$, the 100 kg solid block would weigh exactly **Zero Newtons (0 N)**.\n\n**The Physics Reason:**\n- Applying the depth formula $g_d = g(1 - d/R)$, at the center, the depth $d$ strictly equals the radius $R$. Thus, $(1 - R/R) = 0$.\n- Conceptually, the mass is surrounded by equal amounts of Earth pulling identically in all directions, causing all gravitational force vectors to completely cancel out."
-}
-},
-{
-"cardId": "69ab156ffc9152e2eef8d32e",
-"originalOrder": 35,
-"originalHeading": "Variation of 'g' due to Earth's Rotation",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Moved up to complete the 'Variations in g' topic block.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravity",
-"rotation",
-"neet",
-"jee"
-],
-"order": 14,
-"heading": "Variation of 'g' due to Earth's Rotation",
-"formula": "g' = g - R_E \\omega^2 \\cos^2 \\theta",
-"description": "Calculates the effective acceleration due to gravity ($g'$) at a specific latitude $\\theta$, accounting for the centrifugal force caused by Earth's rotation.",
-"derivation": "**Variables & Units:**\n- **$g'$** = Effective gravity at latitude $\\theta$ (m/s$^2$)\n- **$g$** = Gravity without rotation (true gravity) (m/s$^2$)\n- **$R_E$** = Radius of the Earth (m)\n- **$\\omega$** = Angular velocity of the Earth (rad/s)\n- **$\\theta$** = Latitude angle\n\n**Boundary Conditions:**\n- **Equator ($\\theta = 0^\\circ$):** Maximum reduction in gravity ($g' = g - R_E\\omega^2$).\n- **Poles ($\\theta = 90^\\circ$):** Zero reduction; gravity is maximum and completely unaffected by rotation ($g' = g$)."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d304",
-"originalOrder": 15,
-"originalHeading": "Gravitational Field Intensity",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Transitions from the macroscopic 'g' to the general field concept.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-field",
-"neet",
-"jee"
-],
-"order": 15,
-"heading": "Gravitational Field Intensity",
-"question": "How is the 'Intensity of Gravitational Field' formally defined in physics, and is it a scalar or vector quantity?",
-"back": "- **Definition:** It is the exact gravitational force experienced by a **unit mass** (1 kg) placed at a specific point in the gravitational field.\n- **Nature:** It is a **Vector quantity**. Its direction is strictly towards the center of mass of the source body creating the field.\n- **Significance:** At the surface of the Earth, the gravitational field intensity is mathematically and dimensionally identical to the acceleration due to gravity ($g$)."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d305",
-"originalOrder": 16,
-"originalHeading": "Gravitational Field Intensity Formula",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Mathematical formulation of the field intensity concept.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-field",
-"neet",
-"jee"
-],
-"order": 16,
-"heading": "Gravitational Field Intensity Formula",
-"formula": "E_g = \\frac{GM}{r^2}",
-"description": "States the mathematical formula for the Intensity of Gravitational Field ($E_g$ or $I$) created by a point source mass $M$ at a distance $r$.",
-"derivation": "**Derivation:**\n$E_g = \\frac{F}{m} = \\frac{\\frac{GmM}{r^2}}{m} = \\frac{GM}{r^2}$.\n\n**Variables & Units:**\n- **$E_g$** = Intensity of gravitational field (N/kg or m/s$^2$)\n- **$G$** = Universal Gravitational Constant\n- **$M$** = Source mass (kg)\n- **$r$** = Distance from the center of the source mass (m)\n\n**Conditions/Notes:**\n- The dimensional formula is strictly $[L T^{-2}]$, which perfectly matches acceleration."
-}
-},
-{
-"cardId": "69ab156ffc9152e2eef8d330",
-"originalOrder": 37,
-"originalHeading": "Gravitational Field Inside a Solid Sphere",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Moved up. Explores field boundaries for extended geometries.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-field",
-"neet",
-"jee"
-],
-"order": 17,
-"heading": "Gravitational Field Inside a Solid Sphere",
-"formula": "E = \\frac{GM r}{R^3}",
-"description": "Calculates the gravitational field intensity ($E$) at a distance $r$ strictly inside a uniform solid sphere of radius $R$.",
-"derivation": "**Variables & Units:**\n- **$E$** = Gravitational field intensity (N/kg or m/s$^2$)\n- **$M$** = Total mass of the solid sphere (kg)\n- **$R$** = Radius of the solid sphere (m)\n- **$r$** = Internal distance from the center ($r < R$)\n\n**Conditions/Notes:**\n- Inside a solid sphere of uniform density, the gravitational field is **directly proportional** to the distance from the center ($E \\propto r$).\n- At the exact center ($r = 0$), the field evaluates to strictly zero."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d306",
-"originalOrder": 17,
-"originalHeading": "Negative Nature of Gravitational Potential Energy",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Crucial qualitative explanation required before introducing the potential energy equations.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"potential-energy",
-"neet",
-"jee"
-],
-"order": 18,
-"heading": "Negative Nature of Gravitational Potential Energy",
-"question": "Why is the absolute gravitational potential energy of a two-body system universally taken as a negative value?",
-"back": "**The Physics Reason:**\n- Gravitational force is strictly an **attractive force**.\n- By convention, the reference point (zero potential energy) is taken at **infinity** ($r = \\infty$), where the masses do not interact at all.\n- To bring a mass from infinity to a closer distance $r$, the attractive gravitational field itself naturally does the work (a spontaneous process).\n- Since the field does work *for* us, the total energy of the system decreases from zero, meaning it intrinsically drops into **negative** values, representing a 'bound' state."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d307",
-"originalOrder": 18,
-"originalHeading": "Gravitational Potential Energy",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Mathematical formulation of the 2-body potential energy.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"potential-energy",
-"neet",
-"jee"
-],
-"order": 19,
-"heading": "Gravitational Potential Energy (Two-Body System)",
-"formula": "U = - \\frac{G m_1 m_2}{r}",
-"description": "Calculates the exact Gravitational Potential Energy ($U$) of a two-particle system separated by a distance $r$.",
-"derivation": "**Derivation:**\n$W = \\int*{\\infty}^r F \\, dx = \\int_{\\infty}^r \\frac{GMm}{x^2} dx = GMm \\left[ -\\frac{1}{x} \\right]*{\\infty}^r = -\\frac{GMm}{r}$.\nThus $U = W*{conservative} = -\\frac{GMm}{r}$.\n\n**Variables & Units:**\n- **$U$** = Gravitational Potential Energy (Joules, J)\n- **$m_1, m_2$** = Masses of the two interacting bodies (kg)\n- **$r$** = Distance strictly between their centers (m)\n\n**Conditions/Notes:**\n- Assumes the boundary condition that potential energy is exactly zero at infinity."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d308",
-"originalOrder": 19,
-"originalHeading": "Gravitational Potential",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Distinguishes 'Potential' from 'Potential Energy', mirroring the 'Field' vs 'Force' relationship.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-potential",
-"neet",
-"jee"
-],
-"order": 20,
-"heading": "Gravitational Potential",
-"question": "Define 'Gravitational Potential' and strictly outline how it fundamentally differs from Gravitational Field Intensity.",
-"back": "**Definition:**\nGravitational Potential ($V$) at a point is defined as the **amount of work done** by an external agent in bringing a unit mass (1 kg) from infinity to that specific point in the gravitational field without any acceleration.\n\n**Distinction from Field Intensity:**\n- **Field Intensity ($E$)** is the gravitational *force* exerted per unit mass. It is a **Vector** quantity.\n- **Potential ($V$)** is the *work done* (energy) per unit mass. It is a strictly **Scalar** quantity."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d309",
-"originalOrder": 20,
-"originalHeading": "Gravitational Potential Formula",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Mathematical formulation of gravitational potential.",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-potential",
-"neet",
-"jee"
-],
-"order": 21,
-"heading": "Gravitational Potential Formula",
-"formula": "V = - \\frac{GM}{r}",
-"description": "Calculates the scalar Gravitational Potential ($V$) created by a point source mass $M$ at a distance $r$.",
-"derivation": "**Variables & Units:**\n- **$V$** = Gravitational Potential (J/kg)\n- **$M$** = Source mass generating the field (kg)\n- **$r$** = Distance from the mass (m)\n\n**Conditions/Notes:**\n- Because work is naturally done *by* the attractive gravitational field as the unit mass approaches, the potential is always negative, reaching its mathematical maximum value (0) at infinity.\n- To find the Gravitational Potential Energy of a specific mass $m$ placed in this field, simply multiply: $U = mV$."
-}
-},
-{
-"cardId": "69ab156ffc9152e2eef8d331",
-"originalOrder": 38,
-"originalHeading": "Gravitational Potential Inside a Solid Sphere",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Moved up. Complex boundary case for potential, completing the field/potential topic block.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"gravitational-potential",
-"neet",
-"jee"
-],
-"order": 22,
-"heading": "Gravitational Potential Inside a Solid Sphere",
-"formula": "V = - \\frac{GM}{2R^3} (3R^2 - r^2)",
-"description": "States the exact mathematical formula for the gravitational potential ($V$) at a distance $r$ inside a uniform solid sphere of radius $R$.",
-"derivation": "**Variables & Units:**\n- **$V$** = Gravitational potential (J/kg)\n- **$M$** = Total mass of the solid sphere (kg)\n- **$R$** = Radius of the sphere (m)\n- **$r$** = Distance from the center ($r < R$)\n\n**Boundary Conditions:**\n- At the exact geometric center ($r=0$), the potential evaluates to **$V_c = -\\frac{3GM}{2R}$**.\n- This means the potential at the center is exactly **1.5 times** the potential at the surface ($-GM/R$)."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2f6",
-"originalOrder": 1,
-"originalHeading": "Kepler's First Law (Law of Orbits)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Moved down. Initiates the celestial mechanics/orbital motion section.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"keplers-laws",
-"neet",
-"jee"
-],
-"order": 23,
-"heading": "Kepler's First Law (Law of Orbits)",
-"question": "According to Kepler's First Law, what is the exact geometrical shape of a planetary orbit, and where is the Sun located relative to this shape?",
-"back": "**Shape:**\n- All planets move in strictly **elliptical orbits** around the Sun.\n\n**Sun's Position:**\n- The Sun is situated at **one of the foci** (focus) of the ellipse.\n\n**Boundary Conditions / Notes:**\n- The point on the orbit closest to the Sun is called the **Perihelion** (where the planet travels at its fastest speed).\n- The point farthest from the Sun is called the **Aphelion** (where it travels at its slowest speed).",
-"mnemonic": "First is Focus: Sun sits at one focus of the Ellipse."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2f7",
-"originalOrder": 2,
-"originalHeading": "Kepler's Second Law (Law of Areas)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Standardized tags"
-],
-"vettingNotes": "Follows the first law; links orbits to angular momentum conservation.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"keplers-laws",
-"angular-momentum",
-"neet",
-"jee"
-],
-"order": 24,
-"heading": "Kepler's Second Law (Law of Areas)",
-"question": "Kepler's Second Law states that a line joining a planet to the Sun sweeps out equal areas in equal intervals of time. This physical law is a direct consequence of which fundamental conservation principle?",
-"back": "It is a direct mathematical consequence of the **Conservation of Angular Momentum**.\n\n**The Physics Reason:**\n- The gravitational force between the Sun and the planet is a strictly **central force** (acting directly along the line joining their centers).\n- Because the force vector is parallel to the position vector, the torque on the planet is exactly zero ($\\vec{\\tau} = \\vec{r} \\times \\vec{F} = 0$).\n- Zero net torque means the angular momentum ($\\vec{L}$) of the planet remains absolutely constant throughout its elliptical orbit.",
-"mnemonic": "Area equals Angular (Momentum)."
-}
-},
-{
-"cardId": "69ab1539fc9152e2eef8d2f8",
-"originalOrder": 3,
-"originalHeading": "Areal Velocity Formula",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered sequentially",
-"Converted to valid FORMULA schema"
-],
-"vettingNotes": "Mathematical quantification of the Second Law.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"physics",
-"class-11",
-"gravitation",
-"keplers-laws",
-"neet",
-"jee"
-],
-"order": 25,
-"heading": "Areal Velocity Formula",
-"formula": "\\frac{\\Delta A}{\\Delta t} = \\frac{L}{2m} = \\text{constant}",
-"description": "Calculates the areal velocity of a planet revolving around the Sun directly in terms of its angular momentum.",
-"derivation": "**Derivation:**\nThe small area swept out by the radius vector in time $\\Delta t$ is $\\Delta A = \\frac{1}{2} |\\vec{r} \\times \\vec{v}\\Delta t|$.\nDividing by $\\Delta t$ yields the areal velocity: $\\frac{\\Delta A}{\\Delta t} = \\frac{1}{2} |\\vec{r} \\times \\vec{v}|$.\nMultiply and divide by the planet's mass $m$: $\\frac{1}{2m} |\\vec{r} \\times m\\vec{v}| = \\frac{|\\vec{r} \\times \\vec{p}|}{2m} = \\frac{L}{2m}$.\n\n**Conditions/Notes:**\n- Because both the angular momentum ($L$) and mass ($m$) are constants for a given planet, the areal velocity remains strictly constant throughout the entire orbit."
-}
-},
+  "deckId": "c16f4cc8-6645-46f8-98c1-91c60b592ca1",
+  "cards": [
     {
-      "cardId": "69ab156ffc9152e2eef8d332",
+      "cardId": "1dfc2371-f758-4897-bc56-e7baa74d4036",
+      "originalOrder": 5,
+      "originalHeading": "Characteristics of Gravitational Force",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized tags",
+        "Cleaned formatting",
+        "Assigned proper classification"
+      ],
+      "vettingNotes": "Establishes the qualitative, foundational properties of the gravitational force.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "neet",
+          "jee"
+        ],
+        "order": 1,
+        "heading": "Characteristics of Gravitational Force",
+        "question": "What are the four primary defining characteristics of Newton's Universal Gravitational Force?",
+        "back": "**Key Characteristics:**\n1. **Always Attractive:** It is a strictly attractive force; it never repels.\n2. **Central Force:** It acts strictly along the line joining the centers of the two interacting bodies.\n3. **Conservative Force:** The work done by gravity is totally independent of the path taken.\n4. **Medium Independent:** It is completely unaffected by the presence or nature of the intervening medium between the two masses.\n\n*Note:* It is the *weakest* of the four fundamental forces in nature."
+      }
+    },
+    {
+      "cardId": "9aca2244-6be0-48ee-855d-b342daf1fe53",
+      "originalOrder": 33,
+      "originalHeading": "Inertial vs. Gravitational Mass",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Moved up to establish the distinction/equivalence of mass types before heavily using 'm' in equations.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "mass",
+          "neet",
+          "jee"
+        ],
+        "order": 2,
+        "heading": "Inertial vs. Gravitational Mass",
+        "question": "What is the physical difference between Inertial Mass and Gravitational Mass, and how do their magnitudes compare?",
+        "back": "**Inertial Mass ($m_i$):**\n- Defined by Newton's Second Law ($F = m_i a$).\n- It measures the body's resistance to being accelerated by an external force and is entirely **independent** of the presence of other bodies.\n\n**Gravitational Mass ($m_g$):**\n- Defined by Newton's Law of Gravitation ($W = m_g g$).\n- It measures the gravitational pull experienced by the body due to another massive body (like Earth).\n\n**Equivalence:**\n- Experimentally, inertial mass and gravitational mass are found to be **exactly equal in magnitude**. This principle of equivalence is a cornerstone of General Relativity."
+      }
+    },
+    {
+      "cardId": "815f5257-ebb8-45f8-9ebb-af6da6545a3a",
+      "originalOrder": 6,
+      "originalHeading": "Newton's Law of Gravitation (Vector Form)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "The core mathematical definition of the entire chapter.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "neet",
+          "jee"
+        ],
+        "order": 3,
+        "heading": "Newton's Law of Gravitation (Vector Form)",
+        "formula": "\\vec{F}*{12} = - \\frac{G m_1 m_2}{r^2} \\hat{r}*{21}",
+        "description": "States the vector equation for the gravitational force exerted on point mass 1 by point mass 2.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{F}_{12}$** = Force on mass 1 due to mass 2 (N)\n- **$G$** = Universal Gravitational Constant\n- **$m_1, m_2$** = Interacting masses (kg)\n- **$r$** = Distance between the masses (m)\n- **$\\hat{r}_{21}$** = Unit vector pointing from mass 2 to mass 1\n\n**Conditions/Notes:**\n- The **negative sign** signifies that the force is strictly **attractive** (mass 1 is pulled directly toward mass 2).\n- This intrinsically validates Newton's Third Law: $\\vec{F}_{12} = -\\vec{F}_{21}$."
+      }
+    },
+    {
+      "cardId": "1d595a23-f478-4809-844d-4d0ee382cf84",
+      "originalOrder": 7,
+      "originalHeading": "Universal Gravitational Constant (G)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Logically pairs with the gravitational force equation to define its constant.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "constants",
+          "neet",
+          "jee"
+        ],
+        "order": 4,
+        "heading": "Universal Gravitational Constant (G)",
+        "formula": "G = 6.67 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2",
+        "description": "Provides the universally accepted numerical value of G with its SI units, and states its dimensional formula.",
+        "derivation": "**Dimensional Derivation:**\nFrom $F = G \\frac{m_1 m_2}{r^2} \\implies G = \\frac{F r^2}{m_1 m_2}$.\nDimensions: $\\frac{[MLT^{-2}][L^2]}{[M^2]} = [M^{-1}L^3T^{-2}]$.\n\n**Conditions/Notes:**\n- First determined experimentally by English scientist **Henry Cavendish** using a torsion balance.\n- 'G' remains absolute across the entire universe, independent of time, temperature, or physical medium."
+      }
+    },
+    {
+      "cardId": "9901a9a0-2c4f-47e9-9f13-7ae48c8e6332",
+      "originalOrder": 41,
+      "originalHeading": "Principle of Superposition (Gravitation)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Moved up. Explains how to handle multiple masses mathematically once the 2-body force is defined.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "superposition",
+          "neet",
+          "jee"
+        ],
+        "order": 5,
+        "heading": "Principle of Superposition (Gravitation)",
+        "formula": "\\vec{F}*{net} = \\sum*{i=2}^{n} \\frac{G m_1 m_i}{r_{1i}^2} \\hat{r}*{i1}",
+        "description": "States the mathematical vector equation demonstrating the principle of superposition for gravitational forces acting on a mass $m_1$ due to a system of $n$ discrete particles.",
+        "derivation": "**Variables & Units:**\n- **$\\vec{F}*{net}$** = Total resultant gravitational force on $m_1$ (N)\n- **$m_1$** = Mass of the primary particle experiencing the force (kg)\n- **$m_i$** = Mass of the $i^{th}$ interacting particle (kg)\n- **$r_{1i}$** = Distance between $m_1$ and $m_i$ (m)\n- **$\\hat{r}*{i1}$** = Unit vector pointing from $m_i$ to $m_1$\n\n**Conditions/Notes:**\n- The fundamental interaction between any two specific masses is completely unaffected by the presence or absence of other masses in the vicinity."
+      }
+    },
+    {
+      "cardId": "3bf228da-10ba-4bc2-9bd0-46df0d3e3e42",
+      "originalOrder": 34,
+      "originalHeading": "Gravitational Shielding",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Moved up. Addresses a common misconception regarding superposition and intervening mediums.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "neet",
+          "jee"
+        ],
+        "order": 6,
+        "heading": "Gravitational Shielding Myth",
+        "question": "If you place a thick lead shield or an electromagnetic cage between two masses, how does it mathematically affect the gravitational force between them?",
+        "back": "The gravitational force remains **completely unchanged**.\n\n**The Physics Reason:**\n- Unlike electrostatic forces (which can be shielded using hollow conductors) or magnetic forces, the gravitational force is **absolutely independent of the intervening medium**.\n- Mass cannot be shielded from gravity by any known physical means."
+      }
+    },
+    {
+      "cardId": "cd432853-9656-48dc-a5ca-cbead77673b5",
+      "originalOrder": 9,
+      "originalHeading": "Shell Theorem (Point Outside)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Required to justify applying Newton's Law to extended spherical bodies like Earth.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "shell-theorem",
+          "neet",
+          "jee"
+        ],
+        "order": 7,
+        "heading": "Shell Theorem (Point Outside)",
+        "question": "How does a uniform spherical shell (or a solid sphere) mathematically interact with a point mass located strictly outside its boundary?",
+        "back": "The force of attraction between a uniform spherical body and an external point mass is calculated exactly **as if the entire mass of the sphere were concentrated solely at its geometric center**.\n\n**Application:**\nThis theorem mathematically justifies treating massive celestial bodies like the Earth or Sun as simple 'point masses' situated at their centers when calculating orbits or surface gravity."
+      }
+    },
+    {
+      "cardId": "c56ce47c-5bcf-4e93-bce9-d61a05fb242f",
+      "originalOrder": 8,
+      "originalHeading": "Shell Theorem (Point Inside)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags",
+        "Refined mnemonic"
+      ],
+      "vettingNotes": "Pairs with the Outside Point theorem to complete the spherical boundary rules.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "shell-theorem",
+          "neet",
+          "jee"
+        ],
+        "order": 8,
+        "heading": "Shell Theorem (Point Inside)",
+        "question": "What is the exact gravitational force exerted by a uniform hollow spherical shell on a point mass located *anywhere* strictly inside the shell?",
+        "back": "The net gravitational force is exactly **ZERO**.\n\n**The Physics Reason:**\n- The various regions of the spherical shell attract the internal point mass in all different directions.\n- By calculus, for a uniform shell, these opposing vector forces **completely cancel each other out**, resulting in a net zero gravitational force anywhere inside the hollow space.",
+        "mnemonic": "Inside the shell, all forces cancel well."
+      }
+    },
+    {
+      "cardId": "851536e4-6268-4744-9c5e-fea8d424c762",
+      "originalOrder": 10,
+      "originalHeading": "Acceleration Due to Gravity on Earth's Surface",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Applies the preceding laws and shell theorem to define surface gravity.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "neet",
+          "jee"
+        ],
+        "order": 9,
+        "heading": "Acceleration Due to Gravity on Earth's Surface",
+        "formula": "g = \\frac{GM_E}{R_E^2}",
+        "description": "States the formula for 'g' exactly on the surface of the Earth in terms of Earth's mass and radius.",
+        "derivation": "**Derivation:**\nEquate the universal gravitational force to Newton's Second Law for a body on the surface: $mg = \\frac{G M_E m}{R_E^2}$.\nThe mass of the object $m$ cancels out entirely.\n\n**Variables & Units:**\n- **$g$** = Acceleration due to gravity ($\\approx 9.8 \\text{ m/s}^2$)\n- **$G$** = Universal Gravitational Constant\n- **$M_E$** = Mass of the Earth (kg)\n- **$R_E$** = Radius of the Earth (m)\n\n**Conditions/Notes:**\n- '$g$' is completely **independent of the mass ($m$)** of the falling body. A feather and a rock experience the exact same gravitational acceleration in a vacuum."
+      }
+    },
+    {
+      "cardId": "dac43aa3-7ce7-43a2-992f-eb4d4d58911c",
+      "originalOrder": 42,
+      "originalHeading": "Acceleration Due to Gravity Extremes",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Contextualizes surface gravity values across the solar system.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "planets",
+          "neet",
+          "jee"
+        ],
+        "order": 10,
+        "heading": "Acceleration Due to Gravity Extremes",
+        "question": "Among the major bodies in our solar system, which planet has the absolute minimum acceleration due to gravity on its surface, and what is the gravity on the Moon relative to Earth?",
+        "back": "**Minimum Gravity:**\n- **Mercury** possesses the minimum acceleration due to gravity among all the major planets.\n\n**The Moon vs. Earth:**\n- The acceleration due to gravity on the surface of the Moon is approximately **one-sixth (1/6)** of the gravity on Earth ($g_m \\approx g_e / 6$).\n- *For comparison:* The gravity on the Sun is about **27 times** greater than that of Earth."
+      }
+    },
+    {
+      "cardId": "c7b43b9c-223d-488f-9236-2887c8d4a022",
+      "originalOrder": 11,
+      "originalHeading": "Variation of 'g' with Altitude",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Merged exact and approximation formulas into a single card",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Combines exact and approximate altitude equations to clarify the boundary conditions for when to use each.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "altitude",
+          "neet",
+          "jee"
+        ],
+        "order": 11,
+        "heading": "Variation of 'g' with Altitude",
+        "formula": "g_h = g \\left( \\frac{R_E}{R_E + h} \\right)^2 \\quad \\text{(Exact)} \\quad \\text{and} \\quad g_h \\approx g \\left( 1 - \\frac{2h}{R_E} \\right) \\quad \\text{(Approx)}",
+        "description": "States both the exact formula and the binomial approximation for the acceleration due to gravity ($g_h$) at a height $h$ above the Earth's surface.",
+        "derivation": "**Exact Derivation:**\n$g_h = \\frac{GM}{(R+h)^2}$. Divide by surface $g = \\frac{GM}{R^2}$ to yield the ratio $\\frac{g_h}{g} = \\frac{R^2}{(R+h)^2}$.\n\n**Approximation Derivation:**\n$g_h = g(1 + h/R_E)^{-2}$. Using the binomial expansion $(1+x)^n \\approx 1+nx$ for small $x$, we get $g_h \\approx g(1 - 2h/R_E)$.\n\n**Boundary Conditions:**\n- Use the **Exact** formula when $h$ is large (comparable to the radius of the Earth, e.g., $h = R/2$).\n- Use the **Approximation** *strictly* when $h \\ll R_E$ (typically for altitudes less than 300-400 km or about 5% of Earth's radius)."
+      }
+    },
+    {
+      "cardId": "d2e19fa1-e23d-4e7c-add1-7cb046902d73",
+      "originalOrder": 13,
+      "originalHeading": "Variation of 'g' with Depth",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Logically follows the altitude variation.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "depth",
+          "neet",
+          "jee"
+        ],
+        "order": 12,
+        "heading": "Variation of 'g' with Depth",
+        "formula": "g_d = g \\left( 1 - \\frac{d}{R_E} \\right)",
+        "description": "States the formula for the acceleration due to gravity ($g_d$) at a physical depth $d$ below the Earth's surface.",
+        "derivation": "**Derivation:**\nInside the Earth, gravitational force depends only on the inner mass $M_s$ (by the Shell Theorem). Assuming uniform density, $M_s = M_E \\frac{(R-d)^3}{R^3}$.\nThus $g_d = \\frac{GM_s}{(R-d)^2} = \\frac{GM_E(R-d)}{R^3} = g \\frac{R-d}{R} = g\\left(1 - \\frac{d}{R}\\right)$.\n\n**Conditions/Notes:**\n- Unlike the altitude approximation, this is an **exact formula** (under the assumption of a uniform density Earth).\n- It clearly shows that $g$ decreases strictly linearly with depth."
+      }
+    },
+    {
+      "cardId": "955b8054-b025-46d7-b849-ff9bf7d3bcc4",
+      "originalOrder": 14,
+      "originalHeading": "Gravity at the Center of the Earth",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Direct conceptual application of the depth variation formula.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CASE_STUDY",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "depth",
+          "neet",
+          "jee"
+        ],
+        "order": 13,
+        "heading": "Gravity at the Center of the Earth",
+        "question": "What is the precise acceleration due to gravity exactly at the geometric center of the Earth, and what would a 100 kg solid block weigh there?",
+        "back": "- The acceleration due to gravity at the center of the Earth is **strictly ZERO** ($g_d = 0$).\n- **Weight:** Because weight $W = mg$, the 100 kg solid block would weigh exactly **Zero Newtons (0 N)**.\n\n**The Physics Reason:**\n- Applying the depth formula $g_d = g(1 - d/R)$, at the center, the depth $d$ strictly equals the radius $R$. Thus, $(1 - R/R) = 0$.\n- Conceptually, the mass is surrounded by equal amounts of Earth pulling identically in all directions, causing all gravitational force vectors to completely cancel out."
+      }
+    },
+    {
+      "cardId": "329cc498-c093-4a44-b0ff-a3797d8b712b",
+      "originalOrder": 35,
+      "originalHeading": "Variation of 'g' due to Earth's Rotation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Moved up to complete the 'Variations in g' topic block.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravity",
+          "rotation",
+          "neet",
+          "jee"
+        ],
+        "order": 14,
+        "heading": "Variation of 'g' due to Earth's Rotation",
+        "formula": "g' = g - R_E \\omega^2 \\cos^2 \\theta",
+        "description": "Calculates the effective acceleration due to gravity ($g'$) at a specific latitude $\\theta$, accounting for the centrifugal force caused by Earth's rotation.",
+        "derivation": "**Variables & Units:**\n- **$g'$** = Effective gravity at latitude $\\theta$ (m/s$^2$)\n- **$g$** = Gravity without rotation (true gravity) (m/s$^2$)\n- **$R_E$** = Radius of the Earth (m)\n- **$\\omega$** = Angular velocity of the Earth (rad/s)\n- **$\\theta$** = Latitude angle\n\n**Boundary Conditions:**\n- **Equator ($\\theta = 0^\\circ$):** Maximum reduction in gravity ($g' = g - R_E\\omega^2$).\n- **Poles ($\\theta = 90^\\circ$):** Zero reduction; gravity is maximum and completely unaffected by rotation ($g' = g$)."
+      }
+    },
+    {
+      "cardId": "29b527fe-fffe-4e68-9930-5b7864add58a",
+      "originalOrder": 15,
+      "originalHeading": "Gravitational Field Intensity",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Transitions from the macroscopic 'g' to the general field concept.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-field",
+          "neet",
+          "jee"
+        ],
+        "order": 15,
+        "heading": "Gravitational Field Intensity",
+        "question": "How is the 'Intensity of Gravitational Field' formally defined in physics, and is it a scalar or vector quantity?",
+        "back": "- **Definition:** It is the exact gravitational force experienced by a **unit mass** (1 kg) placed at a specific point in the gravitational field.\n- **Nature:** It is a **Vector quantity**. Its direction is strictly towards the center of mass of the source body creating the field.\n- **Significance:** At the surface of the Earth, the gravitational field intensity is mathematically and dimensionally identical to the acceleration due to gravity ($g$)."
+      }
+    },
+    {
+      "cardId": "9cb870d5-f17b-47c3-8cbc-969561f34c8d",
+      "originalOrder": 16,
+      "originalHeading": "Gravitational Field Intensity Formula",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Mathematical formulation of the field intensity concept.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-field",
+          "neet",
+          "jee"
+        ],
+        "order": 16,
+        "heading": "Gravitational Field Intensity Formula",
+        "formula": "E_g = \\frac{GM}{r^2}",
+        "description": "States the mathematical formula for the Intensity of Gravitational Field ($E_g$ or $I$) created by a point source mass $M$ at a distance $r$.",
+        "derivation": "**Derivation:**\n$E_g = \\frac{F}{m} = \\frac{\\frac{GmM}{r^2}}{m} = \\frac{GM}{r^2}$.\n\n**Variables & Units:**\n- **$E_g$** = Intensity of gravitational field (N/kg or m/s$^2$)\n- **$G$** = Universal Gravitational Constant\n- **$M$** = Source mass (kg)\n- **$r$** = Distance from the center of the source mass (m)\n\n**Conditions/Notes:**\n- The dimensional formula is strictly $[L T^{-2}]$, which perfectly matches acceleration."
+      }
+    },
+    {
+      "cardId": "d0661dbc-726e-4b60-8c33-0ab015fc230e",
+      "originalOrder": 37,
+      "originalHeading": "Gravitational Field Inside a Solid Sphere",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Moved up. Explores field boundaries for extended geometries.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-field",
+          "neet",
+          "jee"
+        ],
+        "order": 17,
+        "heading": "Gravitational Field Inside a Solid Sphere",
+        "formula": "E = \\frac{GM r}{R^3}",
+        "description": "Calculates the gravitational field intensity ($E$) at a distance $r$ strictly inside a uniform solid sphere of radius $R$.",
+        "derivation": "**Variables & Units:**\n- **$E$** = Gravitational field intensity (N/kg or m/s$^2$)\n- **$M$** = Total mass of the solid sphere (kg)\n- **$R$** = Radius of the solid sphere (m)\n- **$r$** = Internal distance from the center ($r < R$)\n\n**Conditions/Notes:**\n- Inside a solid sphere of uniform density, the gravitational field is **directly proportional** to the distance from the center ($E \\propto r$).\n- At the exact center ($r = 0$), the field evaluates to strictly zero."
+      }
+    },
+    {
+      "cardId": "81edc6c1-ced8-433b-9599-896622d47e5a",
+      "originalOrder": 17,
+      "originalHeading": "Negative Nature of Gravitational Potential Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Crucial qualitative explanation required before introducing the potential energy equations.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "potential-energy",
+          "neet",
+          "jee"
+        ],
+        "order": 18,
+        "heading": "Negative Nature of Gravitational Potential Energy",
+        "question": "Why is the absolute gravitational potential energy of a two-body system universally taken as a negative value?",
+        "back": "**The Physics Reason:**\n- Gravitational force is strictly an **attractive force**.\n- By convention, the reference point (zero potential energy) is taken at **infinity** ($r = \\infty$), where the masses do not interact at all.\n- To bring a mass from infinity to a closer distance $r$, the attractive gravitational field itself naturally does the work (a spontaneous process).\n- Since the field does work *for* us, the total energy of the system decreases from zero, meaning it intrinsically drops into **negative** values, representing a 'bound' state."
+      }
+    },
+    {
+      "cardId": "8c7b46f0-24f8-4850-b297-e3ba562a6a47",
+      "originalOrder": 18,
+      "originalHeading": "Gravitational Potential Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Mathematical formulation of the 2-body potential energy.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "potential-energy",
+          "neet",
+          "jee"
+        ],
+        "order": 19,
+        "heading": "Gravitational Potential Energy (Two-Body System)",
+        "formula": "U = - \\frac{G m_1 m_2}{r}",
+        "description": "Calculates the exact Gravitational Potential Energy ($U$) of a two-particle system separated by a distance $r$.",
+        "derivation": "**Derivation:**\n$W = \\int*{\\infty}^r F \\, dx = \\int_{\\infty}^r \\frac{GMm}{x^2} dx = GMm \\left[ -\\frac{1}{x} \\right]*{\\infty}^r = -\\frac{GMm}{r}$.\nThus $U = W*{conservative} = -\\frac{GMm}{r}$.\n\n**Variables & Units:**\n- **$U$** = Gravitational Potential Energy (Joules, J)\n- **$m_1, m_2$** = Masses of the two interacting bodies (kg)\n- **$r$** = Distance strictly between their centers (m)\n\n**Conditions/Notes:**\n- Assumes the boundary condition that potential energy is exactly zero at infinity."
+      }
+    },
+    {
+      "cardId": "310c6721-b949-4629-b48e-994f44782a9e",
+      "originalOrder": 19,
+      "originalHeading": "Gravitational Potential",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Distinguishes 'Potential' from 'Potential Energy', mirroring the 'Field' vs 'Force' relationship.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-potential",
+          "neet",
+          "jee"
+        ],
+        "order": 20,
+        "heading": "Gravitational Potential",
+        "question": "Define 'Gravitational Potential' and strictly outline how it fundamentally differs from Gravitational Field Intensity.",
+        "back": "**Definition:**\nGravitational Potential ($V$) at a point is defined as the **amount of work done** by an external agent in bringing a unit mass (1 kg) from infinity to that specific point in the gravitational field without any acceleration.\n\n**Distinction from Field Intensity:**\n- **Field Intensity ($E$)** is the gravitational *force* exerted per unit mass. It is a **Vector** quantity.\n- **Potential ($V$)** is the *work done* (energy) per unit mass. It is a strictly **Scalar** quantity."
+      }
+    },
+    {
+      "cardId": "195725d7-34c3-4903-a346-ff8ad83f6fcf",
+      "originalOrder": 20,
+      "originalHeading": "Gravitational Potential Formula",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Mathematical formulation of gravitational potential.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-potential",
+          "neet",
+          "jee"
+        ],
+        "order": 21,
+        "heading": "Gravitational Potential Formula",
+        "formula": "V = - \\frac{GM}{r}",
+        "description": "Calculates the scalar Gravitational Potential ($V$) created by a point source mass $M$ at a distance $r$.",
+        "derivation": "**Variables & Units:**\n- **$V$** = Gravitational Potential (J/kg)\n- **$M$** = Source mass generating the field (kg)\n- **$r$** = Distance from the mass (m)\n\n**Conditions/Notes:**\n- Because work is naturally done *by* the attractive gravitational field as the unit mass approaches, the potential is always negative, reaching its mathematical maximum value (0) at infinity.\n- To find the Gravitational Potential Energy of a specific mass $m$ placed in this field, simply multiply: $U = mV$."
+      }
+    },
+    {
+      "cardId": "70be41ce-febf-4898-afab-c6ce5f28f3ff",
+      "originalOrder": 38,
+      "originalHeading": "Gravitational Potential Inside a Solid Sphere",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Moved up. Complex boundary case for potential, completing the field/potential topic block.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "gravitational-potential",
+          "neet",
+          "jee"
+        ],
+        "order": 22,
+        "heading": "Gravitational Potential Inside a Solid Sphere",
+        "formula": "V = - \\frac{GM}{2R^3} (3R^2 - r^2)",
+        "description": "States the exact mathematical formula for the gravitational potential ($V$) at a distance $r$ inside a uniform solid sphere of radius $R$.",
+        "derivation": "**Variables & Units:**\n- **$V$** = Gravitational potential (J/kg)\n- **$M$** = Total mass of the solid sphere (kg)\n- **$R$** = Radius of the sphere (m)\n- **$r$** = Distance from the center ($r < R$)\n\n**Boundary Conditions:**\n- At the exact geometric center ($r=0$), the potential evaluates to **$V_c = -\\frac{3GM}{2R}$**.\n- This means the potential at the center is exactly **1.5 times** the potential at the surface ($-GM/R$)."
+      }
+    },
+    {
+      "cardId": "74eac364-6303-401e-9cd2-18491cb3a222",
+      "originalOrder": 1,
+      "originalHeading": "Kepler's First Law (Law of Orbits)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Moved down. Initiates the celestial mechanics/orbital motion section.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "keplers-laws",
+          "neet",
+          "jee"
+        ],
+        "order": 23,
+        "heading": "Kepler's First Law (Law of Orbits)",
+        "question": "According to Kepler's First Law, what is the exact geometrical shape of a planetary orbit, and where is the Sun located relative to this shape?",
+        "back": "**Shape:**\n- All planets move in strictly **elliptical orbits** around the Sun.\n\n**Sun's Position:**\n- The Sun is situated at **one of the foci** (focus) of the ellipse.\n\n**Boundary Conditions / Notes:**\n- The point on the orbit closest to the Sun is called the **Perihelion** (where the planet travels at its fastest speed).\n- The point farthest from the Sun is called the **Aphelion** (where it travels at its slowest speed).",
+        "mnemonic": "First is Focus: Sun sits at one focus of the Ellipse."
+      }
+    },
+    {
+      "cardId": "16547246-33ed-4bb3-8e1b-5a22e5d7ceee",
+      "originalOrder": 2,
+      "originalHeading": "Kepler's Second Law (Law of Areas)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Follows the first law; links orbits to angular momentum conservation.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "keplers-laws",
+          "angular-momentum",
+          "neet",
+          "jee"
+        ],
+        "order": 24,
+        "heading": "Kepler's Second Law (Law of Areas)",
+        "question": "Kepler's Second Law states that a line joining a planet to the Sun sweeps out equal areas in equal intervals of time. This physical law is a direct consequence of which fundamental conservation principle?",
+        "back": "It is a direct mathematical consequence of the **Conservation of Angular Momentum**.\n\n**The Physics Reason:**\n- The gravitational force between the Sun and the planet is a strictly **central force** (acting directly along the line joining their centers).\n- Because the force vector is parallel to the position vector, the torque on the planet is exactly zero ($\\vec{\\tau} = \\vec{r} \\times \\vec{F} = 0$).\n- Zero net torque means the angular momentum ($\\vec{L}$) of the planet remains absolutely constant throughout its elliptical orbit.",
+        "mnemonic": "Area equals Angular (Momentum)."
+      }
+    },
+    {
+      "cardId": "8526c72e-9399-4e4e-b192-ed9260e0c406",
+      "originalOrder": 3,
+      "originalHeading": "Areal Velocity Formula",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered sequentially",
+        "Converted to valid FORMULA schema"
+      ],
+      "vettingNotes": "Mathematical quantification of the Second Law.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "physics",
+          "class-11",
+          "gravitation",
+          "keplers-laws",
+          "neet",
+          "jee"
+        ],
+        "order": 25,
+        "heading": "Areal Velocity Formula",
+        "formula": "\\frac{\\Delta A}{\\Delta t} = \\frac{L}{2m} = \\text{constant}",
+        "description": "Calculates the areal velocity of a planet revolving around the Sun directly in terms of its angular momentum.",
+        "derivation": "**Derivation:**\nThe small area swept out by the radius vector in time $\\Delta t$ is $\\Delta A = \\frac{1}{2} |\\vec{r} \\times \\vec{v}\\Delta t|$.\nDividing by $\\Delta t$ yields the areal velocity: $\\frac{\\Delta A}{\\Delta t} = \\frac{1}{2} |\\vec{r} \\times \\vec{v}|$.\nMultiply and divide by the planet's mass $m$: $\\frac{1}{2m} |\\vec{r} \\times m\\vec{v}| = \\frac{|\\vec{r} \\times \\vec{p}|}{2m} = \\frac{L}{2m}$.\n\n**Conditions/Notes:**\n- Because both the angular momentum ($L$) and mass ($m$) are constants for a given planet, the areal velocity remains strictly constant throughout the entire orbit."
+      }
+    },
+    {
+      "cardId": "78de999c-8f6e-4254-9276-54c1ff6a7968",
       "originalOrder": 39,
       "originalHeading": "Direction of Areal Velocity",
       "action": "MODIFIED",
@@ -725,7 +725,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d2f9",
+      "cardId": "d2e6a0f3-2e0f-4924-b9cb-8e29872e8e3b",
       "originalOrder": 4,
       "originalHeading": "Kepler's Third Law (Law of Periods)",
       "action": "MODIFIED",
@@ -753,7 +753,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d30a",
+      "cardId": "41cee96c-576b-4de3-9375-b4c0320d8ece",
       "originalOrder": 21,
       "originalHeading": "Concept of Escape Speed",
       "action": "MODIFIED",
@@ -780,7 +780,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d30b",
+      "cardId": "d98eacd6-e678-47f2-a70b-500b25cc50e6",
       "originalOrder": 22,
       "originalHeading": "Escape Speed Formula",
       "action": "MODIFIED",
@@ -808,7 +808,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d30c",
+      "cardId": "6a4d7136-708e-45ee-a3c5-6407e9103053",
       "originalOrder": 23,
       "originalHeading": "Atmospheric Retention (The Moon)",
       "action": "MODIFIED",
@@ -835,7 +835,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d30d",
+      "cardId": "97d13a1f-7c4f-4b34-8ef2-be94de565ae8",
       "originalOrder": 24,
       "originalHeading": "Orbital Velocity of a Satellite",
       "action": "MODIFIED",
@@ -863,7 +863,7 @@
       }
     },
     {
-      "cardId": "69ab1539fc9152e2eef8d30e",
+      "cardId": "9dcb79ac-5cb1-46c1-be83-62b2fa39b935",
       "originalOrder": 25,
       "originalHeading": "Escape vs. Orbital Velocity",
       "action": "MODIFIED",
@@ -891,7 +891,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d31a",
+      "cardId": "b40fbdb9-0596-46b1-95a9-2a75655d9246",
       "originalOrder": 26,
       "originalHeading": "Time Period of a Satellite",
       "action": "MODIFIED",
@@ -919,7 +919,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d31b",
+      "cardId": "cbeaa358-9009-4ec9-ab97-52122fa2ce86",
       "originalOrder": 27,
       "originalHeading": "Time Period (Low Altitude Satellite)",
       "action": "MODIFIED",
@@ -947,7 +947,7 @@
       }
     },
     {
-      "cardId": "69ab156ffc9152e2eef8d32f",
+      "cardId": "cc497caf-a8d3-4c39-b373-5f98a694e303",
       "originalOrder": 36,
       "originalHeading": "Time Period of a Satellite (Density Form)",
       "action": "MODIFIED",
@@ -975,7 +975,7 @@
       }
     },
     {
-      "cardId": "SPLIT_69ab155dfc9152e2eef8d31c_1",
+      "cardId": "aaa03ee2-35c0-4e88-a37e-fdaef9e37f44",
       "originalOrder": 28,
       "originalHeading": "Kinetic Energy of a Satellite",
       "action": "SPLIT",
@@ -1004,7 +1004,7 @@
       }
     },
     {
-      "cardId": "SPLIT_69ab155dfc9152e2eef8d31c_2",
+      "cardId": "aaa03ee2-35c0-4e88-a37e-fdaef9e37f44",
       "originalOrder": 28,
       "originalHeading": "Potential Energy of a Satellite",
       "action": "SPLIT",
@@ -1033,7 +1033,7 @@
       }
     },
     {
-      "cardId": "SPLIT_69ab155dfc9152e2eef8d31c_3",
+      "cardId": "aaa03ee2-35c0-4e88-a37e-fdaef9e37f44",
       "originalOrder": 28,
       "originalHeading": "Total Energy of a Satellite",
       "action": "SPLIT",
@@ -1062,7 +1062,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d31d",
+      "cardId": "b6fe1f35-b48b-4609-b983-3a9fdaef048c",
       "originalOrder": 29,
       "originalHeading": "Binding Energy of a Satellite",
       "action": "MODIFIED",
@@ -1091,7 +1091,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d31e",
+      "cardId": "854a1f7c-d17f-41ec-a052-0c22cd494b71",
       "originalOrder": 30,
       "originalHeading": "Geostationary Satellites",
       "action": "MODIFIED",
@@ -1118,7 +1118,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d31f",
+      "cardId": "5583af3d-87d8-4ed1-8554-c98fcd3c1d7c",
       "originalOrder": 31,
       "originalHeading": "Polar Satellites",
       "action": "MODIFIED",
@@ -1145,7 +1145,7 @@
       }
     },
     {
-      "cardId": "69ab155dfc9152e2eef8d320",
+      "cardId": "4a129f44-7f6e-4677-93cd-ba946b3bb8b5",
       "originalOrder": 32,
       "originalHeading": "Weightlessness in Space",
       "action": "MODIFIED",
@@ -1172,7 +1172,7 @@
       }
     },
     {
-      "cardId": "69ab156ffc9152e2eef8d333",
+      "cardId": "24128c59-736e-4a29-a077-768f3e158f50",
       "originalOrder": 40,
       "originalHeading": "Orbital Decay of Satellites",
       "action": "MODIFIED",
@@ -1199,7 +1199,7 @@
       }
     },
     {
-      "cardId": "END_OF_CHAPTER",
+      "cardId": "NEW",
       "action": "SYSTEM",
       "cardData": null
     }
