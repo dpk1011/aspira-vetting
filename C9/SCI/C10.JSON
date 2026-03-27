@@ -1,0 +1,862 @@
+{
+  "deckId": "9feeb6e1-85ef-4d17-b085-1f5662510d4c",
+  "cards": [
+    {
+      "cardId": "65c74455-cdbd-4d33-aaa3-930518ff6a76",
+      "originalOrder": 1,
+      "originalHeading": "Scientific Conception of Work",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Updated tags for competitive exam alignment",
+        "Refined formatting for strict boundary conditions",
+        "Added text-based mnemonic"
+      ],
+      "vettingNotes": "Establishes the strict physical definition of work.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "kinematics",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 1,
+        "heading": "Scientific Conception of Work",
+        "question": "In classical mechanics, what two strict physical conditions must be satisfied for 'Work' to be considered scientifically done on an object?",
+        "back": "## The Two Conditions:\n1. **Applied Force:** A net external force must act on the object.\n2. **Displacement:** The object must be physically displaced along the line of action of the force.\n\n*Boundary Condition:* If either condition is missing (e.g., pushing a massive rock that does not move, or holding a heavy load while standing perfectly still), the scientific work done is exactly **zero**.",
+        "mnemonic": "FND: Force Needed, Displacement Needed."
+      }
+    },
+    {
+      "cardId": "e514229b-7c68-4a16-a74f-2789cb35c245",
+      "originalOrder": 2,
+      "originalHeading": "Work Equation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to strict FORMULA type with properly escaped LaTeX",
+        "Clarified the scalar nature of work"
+      ],
+      "vettingNotes": "Mathematical representation of the previously defined scientific concept.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 2,
+        "heading": "Work Equation (Linear Motion)",
+        "formula": "W = F \\cdot s",
+        "description": "State the basic mathematical formula for work done when a constant force acts perfectly parallel to an object's displacement.",
+        "derivation": "## Variables & Units:\n- **$W$** = Work done (Joules, $\\text{J}$ or $\\text{N}\\cdot\\text{m}$)\n- **$F$** = Constant force applied (Newtons, $\\text{N}$)\n- **$s$** = Displacement of the object (metres, $\\text{m}$)\n\n## Conditions/Notes:\n- This simplified formula applies strictly when the force and displacement vectors point in the **exact same direction** ($\\theta = 0^\\circ$).\n- **Crucial Fact:** Work is a **scalar quantity**; it is the dot product of two vectors, yielding magnitude but no direction."
+      }
+    },
+    {
+      "cardId": "a976bdeb-ae0d-4375-a30f-34f5c54859c7",
+      "originalOrder": 28,
+      "originalHeading": "Work Done at an Angle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 3 to immediately follow the basic work equation",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "A direct foundational extension of the work equation, crucial for competitive exams.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "vectors",
+          "formula",
+          "class-9",
+          "jee",
+          "neet"
+        ],
+        "order": 3,
+        "heading": "Work Done at an Angle",
+        "formula": "W = F \\cdot s \\cdot \\cos \\theta",
+        "description": "State the general mathematical formula for Work Done when the applied force vector acts at a specific angle ($\\theta$) to the direction of displacement.",
+        "derivation": "## Variables & Units:\n- **$W$** = Work Done ($\\text{J}$)\n- **$F$** = Applied Force ($\\text{N}$)\n- **$s$** = Displacement ($\\text{m}$)\n- **$\\theta$** = The angle between the force vector and the displacement vector.\n\n## Boundary Conditions:\n- **$\\theta = 0^\\circ$ (Parallel):** $\\cos(0^\\circ) = 1 \\implies W = Fs$ (Maximum positive work).\n- **$\\theta = 90^\\circ$ (Perpendicular):** $\\cos(90^\\circ) = 0 \\implies W = 0$ (Zero work).\n- **$\\theta = 180^\\circ$ (Anti-parallel):** $\\cos(180^\\circ) = -1 \\implies W = -Fs$ (Maximum negative work)."
+      }
+    },
+    {
+      "cardId": "dc16f81c-4a19-4cec-9e5b-86cfa17415ab",
+      "originalOrder": 3,
+      "originalHeading": "Definition of 1 Joule",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 4",
+        "Formalized the SI unit definition"
+      ],
+      "vettingNotes": "Formalizes the SI unit using the established work equation.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "units",
+          "class-9",
+          "neet"
+        ],
+        "order": 4,
+        "heading": "Defining One Joule (1 J)",
+        "question": "What is the exact physical definition of the SI unit of work, One Joule (1 J)?",
+        "back": "**One Joule** is defined as the exact amount of work done on an object when a constant force of **1 Newton** displaces it by exactly **1 metre** along the line of action of the force.\n\n- **Mathematical Equivalence:** $1 \\text{ J} = 1 \\text{ N} \\times 1 \\text{ m}$"
+      }
+    },
+    {
+      "cardId": "ba9dd769-baf0-4be8-be03-e63b8dcba520",
+      "originalOrder": 29,
+      "originalHeading": "CGS Unit of Work (Erg)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 5",
+        "Converted to strict FORMULA type with explicit derivation"
+      ],
+      "vettingNotes": "Completes the discussion on the units of Work.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "units",
+          "formula",
+          "class-9",
+          "jee",
+          "neet"
+        ],
+        "order": 5,
+        "heading": "CGS Unit of Work (Erg)",
+        "formula": "1 \\text{ Joule} = 10^7 \\text{ ergs}",
+        "description": "State the mathematical relationship between the SI unit of work (Joule) and its CGS unit counterpart (Erg).",
+        "derivation": "## Derivation:\n1. $1 \\text{ Joule} = 1 \\text{ Newton} \\times 1 \\text{ metre}$.\n2. From force conversions: $1 \\text{ N} = 10^5 \\text{ dynes}$.\n3. From length conversions: $1 \\text{ m} = 10^2 \\text{ cm}$.\n4. Substituting these into the work equation:\n   $1 \\text{ J} = (10^5 \\text{ dynes}) \\times (10^2 \\text{ cm}) = 10^7 \\text{ dyne}\\cdot\\text{cm}$.\n5. By definition, $1 \\text{ dyne}\\cdot\\text{cm} = 1 \\text{ erg}$.\n   Therefore, **$1 \\text{ J} = 10^7 \\text{ ergs}$**."
+      }
+    },
+    {
+      "cardId": "1a528a73-ad57-4d10-80d3-6fe56fa4beb3",
+      "originalOrder": 4,
+      "originalHeading": "Positive vs. Negative Work",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 6",
+        "Included specific angle references based on the cosine formula"
+      ],
+      "vettingNotes": "Explores directional boundary conditions of work.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "vectors",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 6,
+        "heading": "Positive vs. Negative Work",
+        "question": "Under what specific vector conditions is the mechanical work done on an object considered strictly positive, and when is it considered negative?",
+        "back": "## Positive Work:\n- Occurs when the applied force acts in the **same direction** as the displacement (Angle $\\theta = 0^\\circ$).\n- *Effect:* It adds kinetic energy to the system, increasing the object's velocity (e.g., kicking a football forward).\n\n## Negative Work:\n- Occurs when the applied force acts in the **exact opposite direction** to the displacement (Angle $\\theta = 180^\\circ$).\n- *Effect:* It removes kinetic energy from the system, retarding motion (e.g., the force of kinetic friction acting on a sliding block)."
+      }
+    },
+    {
+      "cardId": "b3eb1d90-8d07-47e5-a3cf-6dc69d4671c3",
+      "originalOrder": 5,
+      "originalHeading": "Zero Work Scenario",
+      "action": "MERGED",
+      "modificationsSummary": [
+        "Changed order to 7",
+        "Merged with 'Work Done on a Satellite' card to unify 90-degree zero-work scenarios"
+      ],
+      "vettingNotes": "Explores the 90-degree boundary condition of work using multiple real-world examples.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "zero-work",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 7,
+        "heading": "The Zero Work Scenario (90° Angle)",
+        "question": "Why is the scientific work done by gravity mathematically zero when a porter carries a suitcase horizontally, or when a satellite orbits the Earth?",
+        "back": "## The $90^\\circ$ Boundary Condition:\nWork depends on the angle ($\\theta$) between the Force vector and the Displacement vector ($W = Fs \\cos \\theta$).\n\n- **The Porter:** The force of gravity acts vertically downwards, but the porter's displacement is horizontally forwards. \n- **The Satellite:** The Earth's gravitational pull (centripetal force) acts strictly towards the center, while the satellite's instantaneous displacement is tangential to the circular orbit.\n- In both cases, the angle between Force and Displacement is exactly **$90^\\circ$**.\n- Since **$\\cos(90^\\circ) = 0$**, the work done by gravity is strictly **zero**."
+      }
+    },
+    {
+      "cardId": "ac181e8e-f1f0-428a-8e39-a3864b06fe79",
+      "originalOrder": 6,
+      "originalHeading": "Concept of Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 8",
+        "Clarified the transfer mechanism of energy via work"
+      ],
+      "vettingNotes": "Transitions from Work to the concept of Energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "energy",
+          "class-9",
+          "neet"
+        ],
+        "order": 8,
+        "heading": "The Concept of Energy",
+        "question": "What is the foundational scientific definition of Energy, and how is it mechanically transferred when work is done?",
+        "back": "## Definition:\n**Energy** is fundamentally defined in classical mechanics as the **capacity or ability to do work**.\n\n## The Transfer Mechanism:\nWhen physical work is done, an energy transfer mandates:\n- The object or agent that *does the work* actively **loses energy**.\n- The object *on which the work is done* actively **gains energy**.\n\n*Note:* Because energy is measured by the amount of work it can perform, its SI unit is also the **Joule (J)**."
+      }
+    },
+    {
+      "cardId": "eeb6ae85-97af-4940-a494-7364ca03fc4d",
+      "originalOrder": 7,
+      "originalHeading": "Forms of Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 9",
+        "Added a clear text-based mnemonic"
+      ],
+      "vettingNotes": "Broad categorization before diving into specific mechanical forms.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "energy-forms",
+          "class-9"
+        ],
+        "order": 9,
+        "heading": "Various Forms of Energy",
+        "question": "Name the five primary macroscopic forms in which energy can exist and transform in nature.",
+        "back": "## Primary Forms of Energy:\n1. **Mechanical Energy** (The sum of Kinetic and Potential energy)\n2. **Chemical Energy** (Stored in molecular bonds, like batteries or food)\n3. **Heat (Thermal) Energy** (Generated via friction or combustion)\n4. **Electrical Energy** (Flow of charge)\n5. **Light (Radiant) Energy**",
+        "mnemonic": "MCHEL (Mechanical, Chemical, Heat, Electrical, Light)"
+      }
+    },
+    {
+      "cardId": "da6fd7c8-5242-4169-8f12-53ac0caaa0ef",
+      "originalOrder": 8,
+      "originalHeading": "Kinetic Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 10"
+      ],
+      "vettingNotes": "Introduces the first component of mechanical energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "kinetic-energy",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 10,
+        "heading": "Kinetic Energy",
+        "question": "Define Kinetic Energy and identify the two specific physical quantities that strictly dictate its magnitude.",
+        "back": "## Definition:\n**Kinetic Energy** is the mechanical energy possessed by an object strictly by virtue of its **motion**.\n- *Examples:* A speeding bullet, flowing river water, or a rotating turbine.\n\n## Governing Variables:\nIts magnitude depends entirely on two factors:\n1. The object's **mass ($m$)**.\n2. The object's **velocity ($v$)**."
+      }
+    },
+    {
+      "cardId": "12331976-a085-43eb-b5ec-95a7cb689fe2",
+      "originalOrder": 9,
+      "originalHeading": "Kinetic Energy Equation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 11",
+        "Converted to strict FORMULA type with proper LaTeX"
+      ],
+      "vettingNotes": "Derivation and formula for kinetic energy.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "kinetic-energy",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 11,
+        "heading": "Kinetic Energy Equation",
+        "formula": "E_k = \\frac{1}{2} m v^2",
+        "description": "State the mathematical formula used to calculate the kinetic energy of a moving object.",
+        "derivation": "## Kinematic Derivation:\n1. From the 3rd equation of motion: $s = \\frac{v^2 - u^2}{2a}$.\n2. Work done ($W$) = $F \\cdot s = (ma) \\cdot \\left(\\frac{v^2 - u^2}{2a}\\right)$.\n3. The acceleration ($a$) cancels out: $W = \\frac{1}{2}m(v^2 - u^2)$.\n4. If the object starts from rest ($u=0$), the entire work done is converted into kinetic energy: **$E_k = \\frac{1}{2}mv^2$**.\n\n## Variables & Units:\n- **$E_k$** = Kinetic Energy ($\\text{J}$)\n- **$m$** = Mass ($\\text{kg}$)\n- **$v$** = Velocity ($\\text{m/s}$)"
+      }
+    },
+    {
+      "cardId": "ef80d0cc-c5a0-464b-8f01-91275c552ed4",
+      "originalOrder": 26,
+      "originalHeading": "Kinetic Energy & Momentum Relation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 12",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "A critical JEE/NEET foundational formula directly following the KE equation.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "momentum",
+          "formula",
+          "class-9",
+          "jee",
+          "neet"
+        ],
+        "order": 12,
+        "heading": "Relation: Kinetic Energy & Momentum",
+        "formula": "E_k = \\frac{p^2}{2m}",
+        "description": "State the mathematical formula relating Kinetic Energy ($E_k$) directly to Linear Momentum ($p$), eliminating velocity.",
+        "derivation": "## Derivation:\n1. By definition, momentum is $p = m \\cdot v$, which means $v = \\frac{p}{m}$.\n2. Substitute this $v$ into the Kinetic Energy formula ($E_k = \\frac{1}{2}mv^2$):\n   $E_k = \\frac{1}{2}m \\left(\\frac{p}{m}\\right)^2$\n   $E_k = \\frac{1}{2}m \\left(\\frac{p^2}{m^2}\\right) = \\frac{p^2}{2m}$.\n\n## Variables & Units:\n- **$E_k$** = Kinetic Energy ($\\text{J}$)\n- **$p$** = Linear Momentum ($\\text{kg m/s}$)\n- **$m$** = Mass ($\\text{kg}$)\n\n## Conditions/Notes:\n- **Highly Examinable Concept:** This shows that if momentum ($p$) is doubled while mass is constant, the kinetic energy increases by **four times** ($2^2$)."
+      }
+    },
+    {
+      "cardId": "d5ebd951-072f-4347-ad37-b372b25f4bf9",
+      "originalOrder": 10,
+      "originalHeading": "Work-Energy Theorem",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 13",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "Bridges the concepts of Work and Kinetic Energy.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "theorem",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 13,
+        "heading": "The Work-Energy Theorem",
+        "formula": "W = \\Delta E_k = \\frac{1}{2} m v^2 - \\frac{1}{2} m u^2",
+        "description": "State the Work-Energy Theorem, which mathematically relates the net work done on an object to its change in velocity.",
+        "derivation": "## Theorem Statement:\nThe net mechanical work done on an object by an external unbalanced force is exactly equal to the **change in its kinetic energy**.\n\n## Variables & Units:\n- **$W$** = Net work done on the object ($\\text{J}$)\n- **$\\Delta E_k$** = Change in kinetic energy ($\\text{J}$)\n- **$m$** = Mass ($\\text{kg}$)\n- **$v$** = Final velocity ($\\text{m/s}$)\n- **$u$** = Initial velocity ($\\text{m/s}$)\n\n## Conditions/Notes:\n- If $W$ is positive, $v > u$ (the object speeds up).\n- If $W$ is negative, $v < u$ (the object slows down)."
+      }
+    },
+    {
+      "cardId": "5d392c3c-a0a1-4a75-9ab0-ac3eb7deaf51",
+      "originalOrder": 11,
+      "originalHeading": "Potential Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 14"
+      ],
+      "vettingNotes": "Introduces the second component of mechanical energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "potential-energy",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 14,
+        "heading": "The Concept of Potential Energy",
+        "question": "How is 'Potential Energy' fundamentally defined in mechanics, and what are its two primary causes?",
+        "back": "## Definition:\n**Potential Energy** is the energy possessed by an object strictly by virtue of its **position** in a force field or its structural **configuration**.\n- It represents internally stored energy that has the potential to do mechanical work when released.\n\n## The Two Causes:\n1. **Position (Height):** e.g., Water stored high up in a reservoir dam.\n2. **Configuration (Shape):** e.g., A highly stretched rubber band or a compressed metal spring."
+      }
+    },
+    {
+      "cardId": "13de8f99-f8f8-4497-a14b-dd0070e7997b",
+      "originalOrder": 12,
+      "originalHeading": "Gravitational Potential Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 15",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "Formula for the most common form of potential energy.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "potential-energy",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 15,
+        "heading": "Gravitational Potential Energy",
+        "formula": "E_p = mgh",
+        "description": "State the standard formula used to calculate the gravitational potential energy of an object raised to a certain height above a reference point.",
+        "derivation": "## Derivation via Work:\nTo lift an object vertically at a constant velocity, the minimum upward force required equals the object's downward weight ($mg$).\nWork done against gravity ($W$) = Force $\\times$ displacement = $mg \\times h$.\nThis work is conserved and stored in the object as Gravitational Potential Energy ($E_p$).\n\n## Variables & Units:\n- **$E_p$** = Gravitational Potential Energy ($\\text{J}$)\n- **$m$** = Mass of the object ($\\text{kg}$)\n- **$g$** = Acceleration due to gravity ($\\text{m/s}^2$)\n- **$h$** = Vertical height from the chosen reference point ($\\text{m}$)"
+      }
+    },
+    {
+      "cardId": "29b33336-7efe-4190-ad79-0baa69e986db",
+      "originalOrder": 13,
+      "originalHeading": "Path Independence of Gravity",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 16",
+        "Formalized the physics concept (conservative force)"
+      ],
+      "vettingNotes": "A critical boundary condition regarding conservative forces (gravity).",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "gravity",
+          "conservative-force",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 16,
+        "heading": "Path Independence of Gravity",
+        "question": "If you lift a heavy block straight up to a height 'h', or slowly move it up a zigzag staircase to the exact same height 'h', does the stored gravitational potential energy differ?",
+        "back": "**No.** The stored potential energy is identical in both cases ($E_p = mgh$).\n\n- **Reason:** Gravity is a conservative force. The work done by gravity strictly depends on the **difference in vertical heights** between the initial and final positions.\n- It is completely **independent of the physical path** taken by the object to reach that final height."
+      }
+    },
+    {
+      "cardId": "0c818da1-43ac-40ed-8ca5-d5acc232c522",
+      "originalOrder": 14,
+      "originalHeading": "Elastic Potential Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 17"
+      ],
+      "vettingNotes": "Introduces the other primary form of mechanical potential energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "elastic-potential-energy",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 17,
+        "heading": "Elastic Potential Energy",
+        "question": "How does winding the key of a mechanical toy car or pulling back a bowstring physically store energy without changing the object's height?",
+        "back": "This mechanism involves **Elastic Potential Energy**.\n\n- When you wind a spring or pull a bowstring, you actively apply a mechanical force over a distance, doing **work** on the object.\n- Instead of lifting it against gravity, this energy is transferred and stored within the object due to its **forced change in shape or configuration**.\n- Upon release, the material attempts to return to its original shape, converting the stored elastic potential energy rapidly into kinetic energy."
+      }
+    },
+    {
+      "cardId": "491e2404-aaa1-4005-8534-a2470257b0f3",
+      "originalOrder": 15,
+      "originalHeading": "Mechanical Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 18"
+      ],
+      "vettingNotes": "Synthesizes Kinetic and Potential energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "mechanical-energy",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 18,
+        "heading": "Total Mechanical Energy",
+        "question": "What is the formal definition of Total Mechanical Energy in a kinematic system?",
+        "back": "**Mechanical Energy** is defined strictly as the algebraic sum of a macroscopic object's **Kinetic Energy ($E_k$)** and its **Potential Energy ($E_p$)**.\n\n- It represents the total amount of energy an object possesses on account of its macroscopic motion and its physical position/configuration.\n- $\\text{Mechanical Energy} = E_k + E_p$"
+      }
+    },
+    {
+      "cardId": "6634b54b-2383-45d6-acc8-8c76e57b7bba",
+      "originalOrder": 16,
+      "originalHeading": "Law of Conservation of Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 19"
+      ],
+      "vettingNotes": "Formalizes the conservation principle for isolated systems.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "conservation",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 19,
+        "heading": "The Law of Conservation of Energy",
+        "question": "State the universal Law of Conservation of Energy regarding energy transformation within an isolated system.",
+        "back": "## The Universal Law:\nEnergy can only be **transformed** from one form to another; it can **neither be created nor destroyed**.\n\n- Consequently, the **total energy** of a closed, isolated system before, during, and after any physical or chemical transformation always remains entirely **constant**."
+      }
+    },
+    {
+      "cardId": "3bc0ae67-7cf2-45b3-8ca9-9c750ec14736",
+      "originalOrder": 17,
+      "originalHeading": "Conservation in Free Fall",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 20",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "Provides a specific mathematical example of conservation.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "conservation",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 20,
+        "heading": "Energy Conservation in Free Fall",
+        "formula": "\\frac{1}{2} m v^2 + mgh = \\text{Constant}",
+        "description": "State the mathematical expression demonstrating the conservation of total mechanical energy for a body falling freely under gravity.",
+        "derivation": "## The Transformation Process:\nAs the object falls, its height ($h$) continuously decreases (causing $E_p$ to drop). However, its downward velocity ($v$) simultaneously increases due to acceleration by gravity (causing $E_k$ to rise by the exact same magnitude).\n\n## Boundary Conditions (Assuming no air resistance):\n- **At maximum height:** $v=0$, so $E_k = 0$ and $E_p$ is at its absolute maximum.\n- **Just before hitting the ground:** $h=0$, so $E_p = 0$ and $E_k$ is at its absolute maximum.\n- At every single intermediate point during the fall, the sum of $E_k + E_p$ remains mathematically identical."
+      }
+    },
+    {
+      "cardId": "18355462-08e3-4512-8aac-e261f881ddc2",
+      "originalOrder": 30,
+      "originalHeading": "Energy Dissipation on Impact",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 21",
+        "Moved up to immediately follow the free fall conservation logic"
+      ],
+      "vettingNotes": "Explores an apparent violation of conservation (impact), resolving it with transformation.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "conservation",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 21,
+        "heading": "Energy Dissipation on Impact",
+        "question": "According to the Law of Conservation of Energy, what happens to the massive kinetic energy of a freely falling object the exact moment it violently strikes the ground and comes to a complete halt?",
+        "back": "The kinetic energy does **not** disappear (which would violate the law of conservation). Instead, the instant $v$ becomes $0$, the mechanical energy is instantaneously scattered and transformed into non-mechanical forms of energy:\n\n1. **Heat Energy:** Microscopically warming the object and the ground surface upon impact via friction/stress.\n2. **Sound Energy:** Producing the loud acoustic noise of the crash.\n3. **Deformation Energy:** Physically changing the shape of the object or severely denting the ground (e.g., a heavy iron ball creating a crater in sand)."
+      }
+    },
+    {
+      "cardId": "c27dd6d8-7c07-4972-9f0c-23e98648a75c",
+      "originalOrder": 24,
+      "originalHeading": "Energy Transformation in a Bulb",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 22"
+      ],
+      "vettingNotes": "Real-world example of energy transformation.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "transformation",
+          "class-9",
+          "neet"
+        ],
+        "order": 22,
+        "heading": "Energy Transformation: The Flashlight",
+        "question": "Describe the exact sequential transformation of energy forms that occurs when an alkaline battery is used to light up a small filament bulb.",
+        "back": "## The Transformation Sequence:\n1. The **Chemical Energy** stored within the battery's reactive cells is converted into **Electrical Energy**.\n2. The Electrical Energy travels as a current through the conducting wires to the filament of the bulb.\n3. The high resistance of the bulb's filament then forcefully converts this Electrical Energy into **Light (Radiant) Energy** and a significant amount of waste **Heat (Thermal) Energy**.",
+        "mnemonic": "Chemical -> Electrical -> Light + Heat."
+      }
+    },
+    {
+      "cardId": "adda93ce-571c-4226-b17d-b28cb8cd1deb",
+      "originalOrder": 31,
+      "originalHeading": "Macro Energy Transformations",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 23"
+      ],
+      "vettingNotes": "Large-scale real-world examples of energy transformation.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "transformation",
+          "class-9",
+          "neet"
+        ],
+        "order": 23,
+        "heading": "Macro Energy Transformations: Power Plants",
+        "question": "Describe the sequential, macroscopic energy transformations that generate electricity in a Hydroelectric Power Plant and a Thermal Power Plant.",
+        "back": "## Hydroelectric Power Plant:\n**Potential Energy** (Water stored at a high elevation in a dam) $\\rightarrow$ **Kinetic Energy** (Water falling down the penstock) $\\rightarrow$ **Kinetic Energy** (Water physically rotating the massive turbine) $\\rightarrow$ **Electrical Energy** (Output from the coupled generator).\n\n## Thermal Power Plant:\n**Chemical Energy** (Stored inside combustible coal/fuel) $\\rightarrow$ **Heat Energy** (Combustion boiling water into high-pressure steam) $\\rightarrow$ **Kinetic Energy** (Expanding steam spinning the turbine) $\\rightarrow$ **Electrical Energy** (Generator output)."
+      }
+    },
+    {
+      "cardId": "66f6481a-4e8c-43e3-98af-9ec303fe6120",
+      "originalOrder": 18,
+      "originalHeading": "Power",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 24"
+      ],
+      "vettingNotes": "Transitions to the rate of doing work/transferring energy.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "power",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 24,
+        "heading": "The Concept of Power",
+        "question": "If 'Work' measures total energy transferred, what specific kinematic dimension does 'Power' introduce to physics?",
+        "back": "Power introduces the dimension of **Time**; it measures the *speed* at which work is accomplished.\n\n- It is strictly defined as the **rate of doing work** or the **rate of transfer of energy**.\n- *Insight:* Two machines might do the exact same total amount of work (e.g., lifting a 100kg block by 10 meters), but the machine that completes the lift faster generates significantly more power."
+      }
+    },
+    {
+      "cardId": "0030af1f-3c47-4707-b59c-9c5b606546ba",
+      "originalOrder": 19,
+      "originalHeading": "Power Equation",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 25",
+        "Converted to strict FORMULA type"
+      ],
+      "vettingNotes": "Mathematical representation of power.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "power",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 25,
+        "heading": "Power Equation",
+        "formula": "P = \\frac{W}{t} = \\frac{E}{t}",
+        "description": "State the standard mathematical formula for calculating Power in a mechanical system.",
+        "derivation": "## Variables & Units:\n- **$P$** = Power (Watts, $\\text{W}$ or $\\text{J/s}$)\n- **$W$** = Total work done (Joules, $\\text{J}$)\n- **$E$** = Total energy transferred/consumed (Joules, $\\text{J}$)\n- **$t$** = Time taken to perform the work (Seconds, $\\text{s}$)\n\n## Conditions/Notes:\n- Power is a scalar quantity.\n- Larger industrial units include Kilowatts ($1 \\text{ kW} = 1000 \\text{ W}$)."
+      }
+    },
+    {
+      "cardId": "6c3a5fa1-1214-4020-a4f0-55b674e459e1",
+      "originalOrder": 20,
+      "originalHeading": "Definition of 1 Watt",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 26",
+        "Formalized the definition to strict SI units"
+      ],
+      "vettingNotes": "Formal definition of the SI unit for Power.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "power",
+          "units",
+          "class-9",
+          "neet"
+        ],
+        "order": 26,
+        "heading": "Defining One Watt (1 W)",
+        "question": "What is the exact physical definition of the SI unit of power, One Watt (1 W)?",
+        "back": "**One Watt** is the power generated by an agent that does work at the exact rate of **1 Joule per second**.\n\n- **Mathematical Equivalence:** $1 \\text{ W} = 1 \\text{ J/s}$\n- *Note:* The unit is named in honour of James Watt, a pioneer of the steam engine."
+      }
+    },
+    {
+      "cardId": "f20f21a6-6106-4318-bfb2-68bae04204ef",
+      "originalOrder": 27,
+      "originalHeading": "Horsepower (hp) Conversion",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to strict FORMULA type with properly escaped LaTeX"
+      ],
+      "vettingNotes": "Standard unit conversion for power frequently used in mechanics.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "power",
+          "units",
+          "class-9",
+          "jee",
+          "neet"
+        ],
+        "order": 27,
+        "heading": "Horsepower (hp) Conversion",
+        "formula": "1 \\text{ hp} = 746 \\text{ W}",
+        "description": "State the exact mathematical conversion value of 1 Horsepower (hp) into the SI unit Watts (W).",
+        "derivation": "## Variables & Units:\n- **$\\text{hp}$** = Horsepower (a traditional imperial unit of mechanical power)\n- **$\\text{W}$** = Watts ($1 \\text{ J/s}$)\n\n## Conditions/Notes:\n- Historically defined by James Watt to compare the mechanical output of steam engines with the power of draft horses.\n- Commonly used today to rate the maximum power output of electric motors, water pumps, and automobile engines."
+      }
+    },
+    {
+      "cardId": "70c8c597-1f5a-445b-ba96-861d8aba5e05",
+      "originalOrder": 21,
+      "originalHeading": "Average Power",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 28",
+        "Refined physics phrasing for clarity"
+      ],
+      "vettingNotes": "Addresses non-uniform rates of work.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "power",
+          "class-9",
+          "neet"
+        ],
+        "order": 28,
+        "heading": "Average Power",
+        "question": "Why is the concept of 'Average Power' frequently required in real-world applications, and how is it mathematically calculated?",
+        "back": "The power output of an agent or machine is rarely constant; it typically **varies with time** (meaning it performs work at different rates during different intervals).\n\n- To accurately account for this non-uniform rate of energy transfer over an entire process, we use **Average Power**.\n- **Formula:** $\\text{Average Power} = \\frac{\\text{Total Energy Consumed}}{\\text{Total Time Taken}}$"
+      }
+    },
+    {
+      "cardId": "12454c01-eb89-4abb-9117-3f049e9802b6",
+      "originalOrder": 22,
+      "originalHeading": "Commercial Unit of Energy",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 29"
+      ],
+      "vettingNotes": "Introduces practical, macro-scale energy measurement.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "units",
+          "electricity",
+          "class-9"
+        ],
+        "order": 29,
+        "heading": "Commercial Unit of Energy",
+        "question": "Why is the standard SI unit (Joule) not used for commercial electricity measurements, and what unit is adopted instead?",
+        "back": "The Joule is an **extremely small unit** of energy, making it highly inconvenient to express the massive quantities of energy consumed by households and industries.\n\n- Instead, the commercial unit of electrical energy is the **kilowatt-hour (kWh)**.\n- On standard utility electricity bills, \"1 Unit\" of electricity is defined as exactly **1 kWh**."
+      }
+    },
+    {
+      "cardId": "f6ec9060-89c6-42ac-9600-fbce8a790cb2",
+      "originalOrder": 23,
+      "originalHeading": "kWh to Joules Conversion",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed order to 30",
+        "Converted to strict FORMULA type with explicit derivation"
+      ],
+      "vettingNotes": "Mathematical conversion for the commercial unit.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "DATA",
+        "tags": [
+          "science",
+          "physics",
+          "work-energy",
+          "units",
+          "formula",
+          "class-9",
+          "neet",
+          "jee"
+        ],
+        "order": 30,
+        "heading": "kWh to Joules Conversion",
+        "formula": "1 \\text{ kWh} = 3.6 \\times 10^6 \\text{ J}",
+        "description": "State the exact mathematical conversion from 1 kilowatt-hour (kWh) into the SI unit of energy, Joules.",
+        "derivation": "## Derivation:\n1. Express in base SI units: $1 \\text{ kWh} = 1 \\text{ kW} \\times 1 \\text{ h}$\n2. Convert prefixes and time: $1 \\text{ kWh} = 1000 \\text{ W} \\times 3600 \\text{ s}$\n3. Multiply: $1 \\text{ kWh} = 3,600,000 \\text{ Joules}$\n4. Scientific Notation: $1 \\text{ kWh} = 3.6 \\times 10^6 \\text{ J}$\n\n## Conceptual Definition:\n- **$1 \\text{ kWh}$** represents the total amount of energy consumed in exactly one hour by a device operating at a continuous rate of $1 \\text{ kilowatt}$ ($1000 \\text{ J/s}$)."
+      }
+    },
+    {
+      "cardId": "END_OF_CHAPTER",
+      "originalOrder": null,
+      "originalHeading": null,
+      "action": "SYSTEM",
+      "modificationsSummary": [],
+      "vettingNotes": "",
+      "cardData": null
+    }
+  ]
+}
