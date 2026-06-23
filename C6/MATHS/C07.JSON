@@ -1,0 +1,1307 @@
+{
+"deckId": "fd92dfd7-6e53-4b5c-8e11-8cdee88e7a21",
+"cards": [
+{
+"cardId": "e8026db8-3868-47f5-ac15-87fd2ce39dcf",
+"originalOrder": 1,
+"originalHeading": "Fraction Definition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected boundary condition for zero denominator"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"foundations"
+],
+"order": 1,
+"heading": "Fraction Definition",
+"back": "- **Definition:** A fraction is a mathematical number that represents **equal parts of a whole** or equal shares of a specific quantity.\n- **Constraint:** The parts divided from the whole MUST be strictly equal in size/value for the fraction to be mathematically valid.\n\n## Boundary Conditions / Domain:\n- The total number of equal parts representing the whole (the denominator) must strictly be greater than zero ($D \neq 0$).",
+"mnemonic": "Fraction = Fair Action (Equal Shares).",
+"standardMeta": {
+"question": "What is the strict mathematical definition of a 'Fraction' and its core structural constraint?"
+}
+}
+},
+{
+"cardId": "1d3f631e-8c4d-492d-8189-b71b92e9372a",
+"originalOrder": 2,
+"originalHeading": "Fractional Unit (Unit Fraction)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Injected domain conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"unit-fractions"
+],
+"order": 2,
+"heading": "Fractional Unit (Unit Fraction)",
+"back": "- **Definition:** A fractional unit is one single equal part of a whole.\n- **Mathematical Structure:** It is any fraction where the **numerator is strictly $1$** (e.g., $\frac{1}{2}$, $\frac{1}{5}$, $\frac{1}{10}$).\n\n## Boundary Conditions / Domain:\n- Denominator $n > 1$ for proper unit fractions dividing a whole.",
+"mnemonic": "Unit means one (numerator = 1).",
+"standardMeta": {
+"question": "What is the mathematical structure and definition of a 'Fractional Unit' (also known as a Unit Fraction)?"
+}
+}
+},
+{
+"cardId": "f42bd6a4-c3ef-4eef-b2cb-2e24637df400",
+"originalOrder": 3,
+"originalHeading": "Denominator Size vs. Share Size Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"inequalities"
+],
+"order": 3,
+"heading": "Denominator Size vs. Share Size Trap",
+"back": "- **The Trap:** Students often assume that a larger denominator means a larger fraction (e.g., thinking $\frac{1}{9} > \frac{1}{5}$).\n- **The Reality:** The denominator represents the number of pieces sharing the whole. As the denominator **increases**, the geometric size of each individual share **strictly decreases**.\n- **Conclusion:** $\frac{1}{5}$ is strictly greater than $\frac{1}{9}$.",
+"mnemonic": "More people at the party, smaller slice of cake.",
+"standardMeta": {
+"question": "When comparing two unit fractions like $\frac{1}{5}$ and $\frac{1}{9}$, why does a larger denominator actually result in a mathematically smaller fraction?"
+}
+}
+},
+{
+"cardId": "c2693336-c72c-42e4-88f9-328fd68a762f",
+"originalOrder": 4,
+"originalHeading": "Shape Independence of Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"geometry"
+],
+"order": 4,
+"heading": "Shape Independence of Fractions",
+"back": "- **Concept:** Fractional pieces (e.g., $\frac{1}{6}$ of a continuous whole) can have radically different geometric shapes.\n- **Boundary Condition:** As long as the **total area or volume** of the piece is exactly equal to the other pieces, it remains the exact same valid mathematical fraction, regardless of its physical outline or perimeter.",
+"mnemonic": "Size matters, shape doesn't.",
+"standardMeta": {
+"question": "Is it mathematically possible for two $\frac{1}{6}$ fractional pieces of the same whole to have completely different geometric shapes? Explain."
+}
+}
+},
+{
+"cardId": "7c3efd59-0651-4f84-b591-27cb6c0b6ba2",
+"originalOrder": 5,
+"originalHeading": "Constructing General Fractions from Unit Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in formula and text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"formula"
+],
+"order": 5,
+"heading": "Constructing Fractions from Unit Fractions",
+"back": "## Component Anatomy:\n- **$k$:** The number of equal parts selected (the multiplier or numerator).\n- **$\frac{1}{n}$:** The foundational fractional unit.\n\n## Boundary Conditions / Domain:\n- $n > 0$ (Denominator strictly cannot be zero).\n- $k \in \mathbb{Z}_{\ge 0}$ (Must be a non-negative integer).",
+"formulaMeta": {
+"formula": "\text{Fraction} = k \times \frac{1}{n} = \frac{k}{n}",
+"description": "State the algebraic relationship showing how a general fraction is constructed from its base fractional unit.",
+"derivation": "**Example Proof:**\n1. Identify the fractional unit: $\frac{1}{4}$.\n2. Select 3 copies of this unit.\n3. $3 \times \frac{1}{4} = \frac{1}{4} + \frac{1}{4} + \frac{1}{4} = \frac{3}{4}$."
+}
+}
+},
+{
+"cardId": "fb21354e-cb99-4686-8d9e-40a0ab5d8dc2",
+"originalOrder": 6,
+"originalHeading": "Proper Fraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit inequality bounds"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"proper-fractions"
+],
+"order": 6,
+"heading": "Proper Fraction Definition",
+"back": "- **Definition:** A fraction where the numerator is strictly **less than** the denominator ($N < D$).\n- **Mathematical Domain:** The absolute value of a positive proper fraction is always strictly **less than $1$** ($0 \le \frac{N}{D} < 1$). It represents a portion of a single whole.",
+"mnemonic": "Proper is smaller on top, like a pyramid.",
+"standardMeta": {
+"question": "What is the structural definition of a Proper Fraction, and what is its strict value boundary relative to the number 1?"
+}
+}
+},
+{
+"cardId": "d04995a1-f926-4e3b-9e51-08433b43b8a2",
+"originalOrder": 7,
+"originalHeading": "Improper Fraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit inequality bounds"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"improper-fractions"
+],
+"order": 7,
+"heading": "Improper Fraction Definition",
+"back": "- **Definition:** A fraction where the numerator is **greater than or equal to** the denominator ($N \ge D$).\n- **Mathematical Domain:** The absolute value of a positive improper fraction is always **equal to or greater than $1$** ($\frac{N}{D} \ge 1$). It represents a full whole, or more than one whole.",
+"mnemonic": "Improper is top-heavy.",
+"standardMeta": {
+"question": "What is the structural definition of an Improper Fraction, and what is its strict value boundary relative to the number 1?"
+}
+}
+},
+{
+"cardId": "31cd3419-f71a-4da4-80fa-a041b0aede3b",
+"originalOrder": 8,
+"originalHeading": "Mixed Fraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"mixed-fractions"
+],
+"order": 8,
+"heading": "Mixed Fraction Definition",
+"back": "- **Definition:** A composite mathematical representation consisting of exactly two parts: a **whole integer number** and a **proper fraction**.\n- **Example:** $3 \frac{1}{4}$ represents 3 complete wholes plus one additional quarter.",
+"mnemonic": "Mixed = Whole + Part.",
+"standardMeta": {
+"question": "What are the two strict mathematical components that make up a Mixed Fraction?"
+}
+}
+},
+{
+"cardId": "8679f438-d107-42e9-bfda-4e541ad99851",
+"originalOrder": 9,
+"originalHeading": "SOP: Improper to Mixed Fraction Conversion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Standardized component anatomy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"conversion"
+],
+"order": 9,
+"heading": "SOP: Improper to Mixed Fraction",
+"back": "## Component Anatomy:\n- **$Q$:** The integer Quotient (becomes the whole number).\n- **$R$:** The Remainder (becomes the new numerator).\n- **$D$:** The original Denominator (Divisor).\n\n## Boundary Conditions / Domain:\n- The starting fraction must be an improper fraction (Numerator $\ge$ Denominator).",
+"mnemonic": "Quotient on the side, Remainder on top, Denominator stays the same.",
+"formulaMeta": {
+"formula": "Q \frac{R}{D}",
+"description": "State the standard formula and procedure for converting an improper fraction into a mixed fraction.",
+"derivation": "**Algorithmic SOP (e.g., converting $\frac{13}{7}$):**\n1. Divide the Numerator ($13$) by the Denominator ($7$).\n2. Calculate the Quotient ($Q = 1$) and the Remainder ($R = 6$).\n3. Construct the mixed fraction: Place $Q$ as the whole number, $R$ as the new numerator, and keep $D$ strictly the same: $1 \frac{6}{7}$."
+}
+}
+},
+{
+"cardId": "17619c92-422a-42c4-a958-161759d6f8f9",
+"originalOrder": 10,
+"originalHeading": "SOP: Mixed Fraction to Improper Conversion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"conversion"
+],
+"order": 10,
+"heading": "SOP: Mixed Fraction to Improper",
+"back": "## Component Anatomy:\n- **$W$:** The Whole number part.\n- **$N$:** The Numerator of the fractional part.\n- **$D$:** The Denominator.\n\n## Boundary Conditions / Domain:\n- The denominator $D$ must strictly not be zero ($D \neq 0$).",
+"mnemonic": "Multiply bottom with side, add the top.",
+"formulaMeta": {
+"formula": "\frac{(W \times D) + N}{D}",
+"description": "State the standard algebraic formula for converting a mixed fraction back into an improper fraction.",
+"derivation": "**Algorithmic SOP (e.g., converting $3 \frac{1}{4}$):**\n1. Multiply the whole integer by the denominator: $3 \times 4 = 12$.\n2. Add this product to the existing numerator: $12 + 1 = 13$.\n3. Place this final sum strictly over the original denominator: $\frac{13}{4}$."
+}
+}
+},
+{
+"cardId": "84e78e7f-249a-4440-b805-50571f5423be",
+"originalOrder": 11,
+"originalHeading": "Fraction Density on a Number Line",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"number-line"
+],
+"order": 11,
+"heading": "Fraction Density on a Number Line",
+"back": "- **Fact:** There are a mathematically **infinite (uncountable)** number of fractions lying strictly between the integers $0$ and $1$.\n- **Proof Logic:** You can infinitely increase the denominator to divide the unit segment into ever-smaller fractional units (e.g., $\frac{1}{10}, \frac{1}{100}, \frac{1}{1000} \dots$), creating an endless continuum of unique points.",
+"standardMeta": {
+"question": "Exactly how many unique fractions exist mathematically on the number line strictly between the integers 0 and 1?"
+}
+}
+},
+{
+"cardId": "61dd000f-15b8-4d8a-a42b-617d068084de",
+"originalOrder": 26,
+"originalHeading": "Plotting a Fraction on a Number Line",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned in sequence",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"number-line"
+],
+"order": 12,
+"heading": "SOP: Plotting a Proper Fraction",
+"back": "- **Step 1:** Identify the geometric unit interval strictly between $0$ and $1$.\n- **Step 2:** Divide this specific geometric interval into exactly $b$ (the denominator) equal sub-segments.\n- **Step 3:** Starting strictly from $0$, count forward exactly $a$ (the numerator) segments and mark the target point.\n\n## Boundary Conditions / Domain:\n- Applies to proper positive fractions ($0 < \frac{a}{b} < 1$).",
+"mnemonic": "Bottom cuts the line, Top takes the steps.",
+"standardMeta": {
+"question": "What is the standard geometric procedure for plotting a proper positive fraction $\frac{a}{b}$ on a number line?"
+}
+}
+},
+{
+"cardId": "c3f8b293-ed82-45e4-b7e4-414c05253ba2",
+"originalOrder": 12,
+"originalHeading": "Equivalent Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"equivalence"
+],
+"order": 13,
+"heading": "Equivalent Fractions Definition",
+"back": "- **Definition:** Two or more fractions that appear numerically different but mathematically represent the **exact same portion, absolute share, or value** of a whole.\n- **Example:** $\frac{1}{2}$, $\frac{2}{4}$, and $\frac{4}{8}$ are all equivalent fractions because they map to the exact same geometric length on a fraction wall.",
+"mnemonic": "Equal value, different costumes.",
+"standardMeta": {
+"question": "What defines 'Equivalent Fractions' in mathematics?"
+}
+}
+},
+{
+"cardId": "0253e3f5-09f9-41d4-b0ae-d9869c990167",
+"originalOrder": 13,
+"originalHeading": "Generating Equivalent Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"equivalence"
+],
+"order": 14,
+"heading": "Generating Equivalent Fractions",
+"back": "## Component Anatomy:\n- **$a, b$:** Original numerator and denominator.\n- **$m$:** The identical non-zero multiplier or divisor applied to both.\n\n## Boundary Conditions / Domain:\n- $m \neq 0$ (Cannot multiply or divide by zero).\n- When dividing, $m$ must strictly be a common integer factor of both $a$ and $b$.",
+"mnemonic": "What you do to the top, you MUST do to the bottom.",
+"formulaMeta": {
+"formula": "\frac{a}{b} = \frac{a \times m}{b \times m} \quad \text{or} \quad \frac{a}{b} = \frac{a \div m}{b \div m}",
+"description": "State the algebraic rule for generating valid equivalent fractions from a base fraction $\frac{a}{b}$.",
+"derivation": "**Algorithmic SOP:**\n1. Choose any non-zero integer $m$ (e.g., 3).\n2. Multiply the numerator by $m$ (e.g., $2 \times 3 = 6$).\n3. Multiply the denominator by the exact same $m$ (e.g., $5 \times 3 = 15$).\n4. The resulting fraction $\frac{6}{15}$ is strictly algebraically equivalent to $\frac{2}{5}$."
+}
+}
+},
+{
+"cardId": "a7932ae5-b565-400c-be68-b8d0236d40fe",
+"originalOrder": 39,
+"originalHeading": "Multiplicative Identity in Equivalent Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to logically follow generation of equivalent fractions",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"properties"
+],
+"order": 15,
+"heading": "Multiplicative Identity in Fractions",
+"back": "## Component Anatomy:\n- **$\frac{a}{b}$:** The base fraction.\n- **$\frac{m}{m}$:** The scalar multiplier mathematically disguised as the number $1$.\n\n## Boundary Conditions / Domain:\n- $m \neq 0$ (Cannot multiply by $\frac{0}{0}$ as it is mathematically indeterminate).",
+"mnemonic": "Multiplying by m/m is just multiplying by 1 in disguise.",
+"formulaMeta": {
+"formula": "\frac{a}{b} \times 1 = \frac{a}{b} \times \frac{m}{m} = \frac{a \times m}{b \times m}",
+"description": "What is the fundamental mathematical property (using the number 1) that proves why multiplying the numerator and denominator by the same integer $m$ does not change the fraction's actual value?",
+"derivation": "**Logical Proof:**\n1. By the Multiplicative Identity Property, any number multiplied by $1$ remains unchanged ($x \times 1 = x$).\n2. Any non-zero integer divided by itself exactly equals $1$ (i.e., $1 = \frac{2}{2} = \frac{3}{3} = \frac{m}{m}$).\n3. Therefore, performing $\frac{a}{b} \times \frac{m}{m}$ is algebraically identical to multiplying by $1$, which alters the numerical representation without altering the geometric or absolute value."
+}
+}
+},
+{
+"cardId": "3ad8734b-39da-49e7-b1c3-ca00b905ea52",
+"originalOrder": 14,
+"originalHeading": "Fractions in Lowest Terms (Simplest Form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"simplification"
+],
+"order": 16,
+"heading": "Fractions in Lowest Terms",
+"back": "- **Definition:** A fraction is in its lowest terms when its numerator and denominator have **no common mathematical factors other than $1$**.\n- **Mathematical Property:** The numerator and denominator must strictly be **co-prime** integers.",
+"mnemonic": "No factors left to share.",
+"standardMeta": {
+"question": "When is a fraction mathematically considered to be in its 'Lowest Terms' or 'Simplest Form'?"
+}
+}
+},
+{
+"cardId": "1e19bef1-fe08-4484-96d8-724b1f091746",
+"originalOrder": 15,
+"originalHeading": "SOP: Reducing to Simplest Form",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"simplification"
+],
+"order": 17,
+"heading": "SOP: Reducing via HCF",
+"back": "## Component Anatomy:\n- **$N, D$:** The current numerator and denominator.\n- **$\text{HCF}$:** The Highest Common Factor of $N$ and $D$.\n\n## Boundary Conditions / Domain:\n- If $\text{HCF}(N, D) = 1$, the fraction is already in its simplest form and cannot be reduced further.",
+"formulaMeta": {
+"formula": "\frac{N \div \text{HCF}}{D \div \text{HCF}}",
+"description": "State the standard mathematical procedure to reduce a large fraction directly into its absolute lowest terms in one step.",
+"derivation": "**Algorithmic SOP (e.g., reducing $\frac{36}{60}$):**\n1. Calculate the Highest Common Factor of 36 and 60. $\implies \text{HCF} = 12$.\n2. Divide the numerator strictly by the HCF: $36 \div 12 = 3$.\n3. Divide the denominator strictly by the HCF: $60 \div 12 = 5$.\n4. The resulting simplified fraction is $\frac{3}{5}$."
+}
+}
+},
+{
+"cardId": "ff052b88-e6b8-4476-99ec-ac9cf7a6b41b",
+"originalOrder": 42,
+"originalHeading": "SOP: Iterative Stepwise Fraction Reduction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to directly follow HCF reduction",
+"Double-escaped KaTeX format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"simplification"
+],
+"order": 18,
+"heading": "SOP: Iterative Stepwise Reduction",
+"back": "## Component Anatomy:\n- **$p_1, p_2$:** Small, obvious common prime factors (like $2$, $3$, or $5$).\n\n## Boundary Conditions / Domain:\n- The process MUST continue until the resulting numerator and denominator are absolutely co-prime (HCF = 1).\n- Stopping early leaves the fraction partially simplified, not in lowest terms.",
+"mnemonic": "Chop it down piece by piece.",
+"formulaMeta": {
+"formula": "\text{Divide sequentially by common primes } p_i \text{ until co-prime}",
+"description": "If the Highest Common Factor (HCF) of a massive fraction is difficult to calculate mentally, state the alternative algorithmic SOP to reduce it to lowest terms.",
+"derivation": "**Algorithmic SOP (e.g., $\frac{36}{60}$):**\n1. Identify any small, obvious common prime factor (both 36 and 60 are even, so divisible by 2).\n2. Divide both by 2: $\frac{36 \div 2}{60 \div 2} = \frac{18}{30}$.\n3. Check again. Both are still even. Divide by 2: $\frac{18 \div 2}{30 \div 2} = \frac{9}{15}$.\n4. Check again. Both are multiples of 3. Divide by 3: $\frac{9 \div 3}{15 \div 3} = \frac{3}{5}$.\n5. Since 3 and 5 are co-prime, the iterative reduction is complete."
+}
+}
+},
+{
+"cardId": "9178dc0b-7810-4912-b6d0-39bea646045b",
+"originalOrder": 16,
+"originalHeading": "Comparing Fractions (Same Denominator)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"comparison"
+],
+"order": 19,
+"heading": "Comparing Fractions (Like Denominators)",
+"back": "- **Rule:** When two fractions share the exact same denominator (the fractional units are identical), you strictly compare their **numerators**.\n- **Logic:** The fraction with the **larger numerator** is mathematically greater, because you are collecting more pieces of the exact same geometric size.",
+"mnemonic": "Same bottom? Bigger top wins.",
+"standardMeta": {
+"question": "What is the direct procedural rule for comparing the size of two fractions that have the exact same denominator?"
+}
+}
+},
+{
+"cardId": "6c3281d8-fb65-41ed-9262-d9653a1f415d",
+"originalOrder": 17,
+"originalHeading": "Comparing Fractions (Same Numerator)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"comparison",
+"inequalities"
+],
+"order": 20,
+"heading": "Comparing Fractions (Same Numerator Trap)",
+"back": "- **Rule:** When two fractions share the exact same numerator, you strictly compare their **denominators**.\n- **Logic Trap:** The fraction with the **SMALLER denominator** is mathematically greater.\n- **Why?** A smaller denominator means the whole is divided into fewer pieces, making each individual unit piece strictly larger.",
+"mnemonic": "Same top? Smaller bottom wins.",
+"standardMeta": {
+"question": "What is the inverse mathematical rule for comparing two fractions that have the exact same numerator but different denominators?"
+}
+}
+},
+{
+"cardId": "4a2ecb8c-514f-4cf5-9296-560266f0b1a7",
+"originalOrder": 18,
+"originalHeading": "SOP: Comparing Fractions (Different Denominators)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"comparison",
+"lcm"
+],
+"order": 21,
+"heading": "SOP: Comparing Unlike Fractions",
+"back": "## Component Anatomy:\n- **$D_1, D_2$:** The different original denominators.\n- **$\text{LCM}$:** The Least Common Multiple of the denominators.\n\n## Boundary Conditions / Domain:\n- You mathematically cannot directly compare numerators until the denominators are forced to be identical.",
+"mnemonic": "Find the LCM to make them siblings.",
+"formulaMeta": {
+"formula": "\text{Convert to LCM denominator, then compare}",
+"description": "State the standard procedural steps to compare two fractions that have completely different denominators (e.g., $\frac{4}{5}$ and $\frac{7}{9}$).",
+"derivation": "**Algorithmic SOP:**\n1. Find the LCM of the two denominators (e.g., LCM of 5 and 9 is 45).\n2. Convert the first fraction to an equivalent fraction over the LCM: $\frac{4}{5} = \frac{4 \times 9}{5 \times 9} = \frac{36}{45}$.\n3. Convert the second fraction: $\frac{7}{9} = \frac{7 \times 5}{9 \times 5} = \frac{35}{45}$.\n4. Compare the new numerators: Since $36 > 35$, the first fraction $\frac{4}{5}$ is strictly greater."
+}
+}
+},
+{
+"cardId": "48041b26-7c8f-40dd-8513-f13bd7c468d3",
+"originalOrder": 19,
+"originalHeading": "Cross-Multiplication Comparison Shortcut",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"comparison",
+"algebra"
+],
+"order": 22,
+"heading": "Cross-Multiplication Inequality Shortcut",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** The strictly positive integers forming the fractions $\frac{a}{b}$ and $\frac{c}{d}$.\n\n## Boundary Conditions / Domain:\n- $b > 0$ and $d > 0$ (Denominators cannot be zero).\n- You must strictly multiply *upwards* (denominator of one to the numerator of the other) and assign the product to the side of the target numerator.",
+"mnemonic": "Multiply UP.",
+"formulaMeta": {
+"formula": "ad > bc \implies \frac{a}{b} > \frac{c}{d}",
+"description": "State the fast algebraic cross-multiplication inequality used to directly compare two fractions $\frac{a}{b}$ and $\frac{c}{d}$.",
+"derivation": "**Algorithmic SOP (e.g., compare $\frac{4}{5}$ and $\frac{7}{9}$):**\n1. Multiply the denominator of the second ($9$) by the numerator of the first ($4$): $4 \times 9 = 36$. Assign 36 to the left.\n2. Multiply the denominator of the first ($5$) by the numerator of the second ($7$): $7 \times 5 = 35$. Assign 35 to the right.\n3. Compare the products: $36 > 35$.\n4. Therefore, the fraction associated with the first (left) product is larger: $\frac{4}{5} > \frac{7}{9}$."
+}
+}
+},
+{
+"cardId": "97f7faf4-fe55-44ff-a9ff-884aadbc6585",
+"originalOrder": 34,
+"originalHeading": "Multi-Fraction Sorting (Ascending/Descending)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to aggregate sorting workflows",
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"sorting",
+"lcm"
+],
+"order": 23,
+"heading": "Multi-Fraction Sorting (Ascending)",
+"back": "## Component Anatomy:\n- **$F_1, F_2, F_3$:** The un-ordered fractions.\n- **$\text{LCM}$:** The common denominator base across all elements.\n\n## Boundary Conditions / Domain:\n- Sorting based purely on comparing numerators or denominators individually is mathematically invalid when both variables differ across the given set.",
+"formulaMeta": {
+"formula": "\text{Convert to LCM base} \implies \text{Sort by Numerator}",
+"description": "State the Standard Operating Procedure to accurately arrange three or more unlike fractions (e.g., $\frac{19}{24}, \frac{5}{6}, \frac{7}{12}$) into ascending order.",
+"derivation": "**Algorithmic SOP:**\n1. Find the universal LCM of all denominators ($24, 6, 12 \implies \text{LCM} = 24$).\n2. Convert all fractions to the unified LCM base: $\frac{19}{24}$ stays $\frac{19}{24}$; $\frac{5}{6} = \frac{20}{24}$; $\frac{7}{12} = \frac{14}{24}$.\n3. Sort strictly by the new numerators in ascending order: $14 < 19 < 20$.\n4. Map back to the original given fractions: $\frac{7}{12} < \frac{19}{24} < \frac{5}{6}$."
+}
+}
+},
+{
+"cardId": "4db99762-c2f2-45cf-80a9-23bafb7e293b",
+"originalOrder": 20,
+"originalHeading": "Brahmagupta's Method (Addition & Subtraction)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"addition",
+"subtraction"
+],
+"order": 24,
+"heading": "Addition & Subtraction of Unlike Fractions",
+"back": "## Component Anatomy:\n- **$D_1, D_2$:** The differing original denominators.\n- **$\text{LCM}$:** The chosen common fractional unit base.\n\n## Boundary Conditions / Domain:\n- You mathematically CANNOT add or subtract numerators directly if the denominators are different. You must strictly establish a common base first.",
+"formulaMeta": {
+"formula": "\frac{a}{b} \pm \frac{c}{d} = \frac{a' \pm c'}{\text{LCM}}",
+"description": "State Brahmagupta's historic mathematical procedure for adding or subtracting fractions with unlike denominators.",
+"derivation": "**Algorithmic SOP (e.g., $\frac{1}{4} + \frac{1}{3}$):**\n1. Find the LCM of the denominators to establish a shared fractional unit (LCM of 4 and 3 is 12).\n2. Convert both to equivalent fractions over the LCM: $\frac{1}{4} = \frac{3}{12}$ and $\frac{1}{3} = \frac{4}{12}$.\n3. Add/Subtract the new numerators: $3 + 4 = 7$.\n4. Place the result strictly over the shared denominator: $\frac{7}{12}$."
+}
+}
+},
+{
+"cardId": "cc2d5247-1f0b-4553-9231-d9a6b1976062",
+"originalOrder": 23,
+"originalHeading": "SOP: Adding a Whole Number to a Fraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to directly follow fractional addition logic",
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"addition"
+],
+"order": 25,
+"heading": "SOP: Adding a Whole Number to a Fraction",
+"back": "## Component Anatomy:\n- **$W$:** The Whole integer.\n- **$\frac{N}{D}$:** The fraction being added/subtracted.\n\n## Boundary Conditions / Domain:\n- A whole integer $W$ is mathematically equivalent to the improper fraction $\frac{W}{1}$.",
+"mnemonic": "Give the whole number a bottom of 1.",
+"formulaMeta": {
+"formula": "W \pm \frac{N}{D} = \frac{W \times D \pm N}{D}",
+"description": "State the standard procedure for algebraically adding or subtracting a whole integer and a fraction (e.g., $3 + \frac{2}{5}$).",
+"derivation": "**Algorithmic SOP:**\n1. Express the whole number as a fraction over 1: $3 = \frac{3}{1}$.\n2. The problem becomes $\frac{3}{1} + \frac{2}{5}$.\n3. Find the LCM of 1 and 5 (which is 5).\n4. Convert the first fraction: $\frac{3 \times 5}{1 \times 5} = \frac{15}{5}$.\n5. Add the numerators: $\frac{15 + 2}{5} = \frac{17}{5}$."
+}
+}
+}
+]
+}{
+"deckId": "fd92dfd7-6e53-4b5c-8e11-8cdee88e7a21",
+"cards": [
+{
+"cardId": "c6308f95-1e04-4fc6-803e-a775a7c4255f",
+"originalOrder": 29,
+"originalHeading": "SOP: Subtracting a Fraction from a Whole Integer",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula text",
+"Refined boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"subtraction"
+],
+"order": 26,
+"heading": "SOP: Subtracting a Fraction from a Whole Integer",
+"back": "## Component Anatomy:\n- **$W$:** The whole integer (e.g., $1$).\n- **$\frac{N}{D}$:** The fraction being subtracted (e.g., $\frac{3}{4}$).\n\n## Boundary Conditions / Domain:\n- $D \neq 0$.\n- The whole number must be mathematically converted into a fraction sharing the exact same denominator $D$ before numerical subtraction can occur.",
+"formulaMeta": {
+"formula": "W - \frac{N}{D} = \frac{W \times D}{D} - \frac{N}{D}",
+"description": "State the standard procedure for algebraically subtracting a fraction from a whole integer (e.g., $1 - \frac{3}{4}$).",
+"derivation": "**Algorithmic SOP:**\n1. Transform the whole number $W$ into an equivalent fraction with denominator $D$ (e.g., $1 = \frac{4}{4}$).\n2. The equation becomes $\frac{4}{4} - \frac{3}{4}$.\n3. Subtract the numerators: $4 - 3 = 1$.\n4. Keep the denominator identically the same: $\frac{1}{4}$."
+}
+}
+},
+{
+"cardId": "947c6083-01b8-4d4a-ac51-aadfbf85bd4a",
+"originalOrder": 30,
+"originalHeading": "Compound Addition of Multiple Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"addition",
+"lcm"
+],
+"order": 27,
+"heading": "Compound Addition of Unlike Fractions",
+"back": "## Component Anatomy:\n- **$D_1, D_2, D_3$:** The different original denominators.\n- **$\text{LCM}$:** The Least Common Multiple of ALL denominators simultaneously.\n\n## Boundary Conditions / Domain:\n- Brahmagupta's method scales infinitely, but all fractions must be mathematically converted to the single universal LCM base before any additive numerator operations occur.\n- $D_i \neq 0$.",
+"formulaMeta": {
+"formula": "\sum \frac{n_i}{d_i} = \frac{\sum n_i'}{\text{LCM}(d_1, d_2, d_3)}",
+"description": "State the procedure for adding three or more fractions with completely different denominators (e.g., $\frac{1}{2} + \frac{1}{3} + \frac{1}{4}$).",
+"derivation": "**Algorithmic SOP:**\n1. Find the simultaneous LCM of all denominators (e.g., LCM of 2, 3, and 4 is 12).\n2. Convert every fraction into its equivalent form over the LCM: $\frac{6}{12} + \frac{4}{12} + \frac{3}{12}$.\n3. Sum the new numerators: $6 + 4 + 3 = 13$.\n4. Write the final sum over the LCM: $\frac{13}{12}$ (or $1 \frac{1}{12}$)."
+}
+}
+},
+{
+"cardId": "a3f54b65-ec0a-4fed-9bcc-a1bd8b730e63",
+"originalOrder": 35,
+"originalHeading": "Visualizing Subtraction on a Number Line",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"number-line",
+"subtraction"
+],
+"order": 28,
+"heading": "Visualizing Fraction Operations Geometrically",
+"back": "- **Concept:** Addition and subtraction of fractions with identical denominators can be tracked as physical geometric jumps on the number line.\n- **Rule for Addition ($\frac{4}{7} + \frac{6}{7}$):** Start at the point $\frac{4}{7}$. Make exactly $6$ consecutive forward jumps (to the right) of size $\frac{1}{7}$. You will land perfectly on $\frac{10}{7}$.\n- **Rule for Subtraction:** Start at the minuend. Make consecutive backward jumps (to the left) equal to the numerator of the subtrahend.",
+"mnemonic": "Add jumps Right, Subtract jumps Left.",
+"standardMeta": {
+"question": "How are operations like $\frac{4}{7} + \frac{6}{7}$ geometrically visualized and executed on a fractional number line?"
+}
+}
+},
+{
+"cardId": "b241f56f-edb0-4926-ade3-b14062f761bc",
+"originalOrder": 31,
+"originalHeading": "Aggregate Threshold Verification (Inequality Check)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"inequalities",
+"word-problems"
+],
+"order": 29,
+"heading": "Aggregate Threshold Verification",
+"back": "## Component Anatomy:\n- **$\sum F_i$:** The sum of the fractional parts gathered (e.g., pieces of lace).\n- **$T$:** The target threshold required (e.g., 1 meter).\n\n## Boundary Conditions / Domain:\n- To accurately compare the final sum against a whole integer threshold, improper fractions must be converted to mixed numbers or the threshold $T$ must be converted to an equivalent fraction.",
+"formulaMeta": {
+"formula": "\left( \frac{2}{5} + \frac{3}{4} \right) \ge 1",
+"description": "If Geeta buys $\frac{2}{5}$ m of lace and Shamim buys $\frac{3}{4}$ m, state the algebraic check to verify if they have enough for a 1 meter boundary.",
+"derivation": "**Algorithmic SOP:**\n1. Find the LCM of 5 and 4 (which is 20).\n2. Convert and add: $\frac{8}{20} + \frac{15}{20} = \frac{23}{20}$.\n3. Convert the improper sum to a mixed fraction: $\frac{23}{20} = 1 \frac{3}{20}$.\n4. Compare against the threshold: Since $1 \frac{3}{20} \ge 1$, the combined length is strictly sufficient."
+}
+}
+},
+{
+"cardId": "9c43850c-04ba-4c6b-8ff0-09cc57c38beb",
+"originalOrder": 24,
+"originalHeading": "Calculating a Fraction of a Whole Quantity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"multiplication"
+],
+"order": 30,
+"heading": "Calculating a Fraction of a Whole Quantity",
+"back": "## Component Anatomy:\n- **$\frac{a}{b}$:** The designated mathematical fraction.\n- **$Q$:** The absolute total quantity (e.g., $20$ items).\n\n## Boundary Conditions / Domain:\n- $b \neq 0$.\n- The quantity $Q$ must be perfectly divisible by the denominator $b$ if the context strictly demands whole integer outputs (like counting humans or objects).",
+"mnemonic": "Divide by the bottom, multiply by the top.",
+"formulaMeta": {
+"formula": "\text{Result} = \left( \frac{Q}{b} \right) \times a",
+"description": "State the algebraic formula to calculate a specific fractional portion of a total whole quantity.",
+"derivation": "**Algorithmic SOP (e.g., find $\frac{3}{4}$ of $20$):**\n1. Divide the total quantity $Q$ by the denominator $b$ to find the absolute value of one single fractional unit: $20 \div 4 = 5$.\n2. Multiply this unit value by the numerator $a$ to scale it to the desired share: $5 \times 3 = 15$."
+}
+}
+},
+{
+"cardId": "7dc56b5d-3fd1-40de-94d4-b053c88d66ce",
+"originalOrder": 25,
+"originalHeading": "Reverse Engineering the Total Quantity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"algebra"
+],
+"order": 31,
+"heading": "Reverse Engineering the Total Quantity",
+"back": "## Component Anatomy:\n- **$\frac{a}{b}$:** The given fraction.\n- **$P$:** The known partial mathematical quantity.\n- **$Q$:** The unknown total whole quantity to be found.\n\n## Boundary Conditions / Domain:\n- The numerator $a$ must strictly be non-zero to prevent division by zero during the inversion step.",
+"mnemonic": "Flip the fraction and multiply.",
+"formulaMeta": {
+"formula": "Q = P \times \frac{b}{a}",
+"description": "If you are told that $\frac{a}{b}$ of a total quantity equals $P$, state the algebraic formula to reverse-engineer and find the absolute total whole quantity $Q$.",
+"derivation": "**Algorithmic SOP (e.g., $\frac{2}{5}$ of a journey is $10$ km. Find total):**\n1. Set up the foundational equation: $\frac{2}{5} \times Q = 10$.\n2. Isolate $Q$ by multiplying the partial quantity by the reciprocal of the fraction: $Q = 10 \times \frac{5}{2}$.\n3. Calculate algebraically: $10 \div 2 = 5$. Then $5 \times 5 = 25$ km total."
+}
+}
+},
+{
+"cardId": "0b02e30b-fde5-4f20-b2f8-f18039c8f904",
+"originalOrder": 28,
+"originalHeading": "Equivalent Fraction Scaling (Target Denominator)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"equivalence",
+"word-problems"
+],
+"order": 32,
+"heading": "Equivalent Fraction Scaling",
+"back": "## Component Anatomy:\n- **$\frac{a}{b}$:** The known base fraction (e.g., $\frac{2}{5}$ cake per child).\n- **$D_{target}$:** The new target denominator (e.g., $10$ children).\n- **$x$:** The unknown numerator to be algebraically solved.\n\n## Boundary Conditions / Domain:\n- $D_{target}$ must strictly be a perfect multiple of the original denominator $b$ to yield an integer numerator.",
+"formulaMeta": {
+"formula": "\frac{2}{5} = \frac{x}{10}",
+"description": "If 1 child receives $\frac{2}{5}$ of a cake, state the algebraic setup to find how many cakes ($x$) are required to give 10 children the exact same share.",
+"derivation": "**Algorithmic SOP:**\n1. Set up the strict equivalence: $\frac{2}{5} = \frac{x}{10}$.\n2. Determine the scalar multiplier linking the denominators: $10 \div 5 = 2$.\n3. Multiply the original numerator strictly by the exact same scalar multiplier: $2 \times 2 = 4$.\n4. Therefore, $x = 4$. Exactly 4 cakes are needed."
+}
+}
+},
+{
+"cardId": "35e7dc94-d6d5-4f13-b98c-bf95d61723d7",
+"originalOrder": 32,
+"originalHeading": "Fraction of a Subset Collection",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formulas"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"sets"
+],
+"order": 33,
+"heading": "Fraction of a Subset Collection",
+"back": "## Component Anatomy:\n- **$N_{subset}$:** The count of discrete items meeting the specific condition (e.g., prime numbers).\n- **$N_{total}$:** The absolute total count of all discrete items within the specified collection bounds.\n\n## Boundary Conditions / Domain:\n- $N_{total}$ must include both the subset items AND the non-subset items to form the mathematically true denominator.\n- $N_{total} > 0$.",
+"mnemonic": "Subset on top, Total on the bottom.",
+"formulaMeta": {
+"formula": "\text{Fraction} = \frac{N_{subset}}{N_{total}}",
+"description": "What is the formula to find the fraction of prime numbers existing strictly between the natural numbers 2 and 14 inclusive?",
+"derivation": "**Algorithmic SOP:**\n1. Count the total discrete items strictly inside the bounded range: $2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14$ $\implies N_{total} = 13$.\n2. Identify and count the specific subset (Primes): $2, 3, 5, 7, 11, 13$ $\implies N_{subset} = 6$.\n3. Construct the final mathematical fraction: $\frac{6}{13}$."
+}
+}
+},
+{
+"cardId": "9d59e319-ffc7-4c97-a584-d8ca136929e8",
+"originalOrder": 33,
+"originalHeading": "Unit Translation via Fractions (Time/Measurement)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"measurement",
+"time"
+],
+"order": 34,
+"heading": "Unit Translation via Fractions",
+"back": "## Component Anatomy:\n- **$P$:** The partial time or absolute measurement given (e.g., $6$ hours).\n- **$C$:** The mathematical conversion constant representing the full whole (e.g., $24$ hours in a day).\n\n## Boundary Conditions / Domain:\n- Both the numerator and denominator MUST be converted into the exact same mathematical unit before forming the fraction.\n- $C > 0$.",
+"formulaMeta": {
+"formula": "\text{Fraction} = \frac{P}{C}",
+"description": "State the algebraic setup to determine what fraction of a full day is represented by 6 hours.",
+"derivation": "**Algorithmic SOP:**\n1. Identify the partial unit: 6 hours.\n2. Identify the whole unit and apply the conversion constant: 1 Day = 24 hours.\n3. Form the fraction using precisely matching units: $\frac{6}{24}$.\n4. Reduce to lowest terms algebraically by dividing by the HCF (6): $\frac{1}{4}$ of a day."
+}
+}
+},
+{
+"cardId": "fe8cb926-6a92-455f-bf1b-0921314a0d95",
+"originalOrder": 27,
+"originalHeading": "The Division Fact of a Fraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"division"
+],
+"order": 35,
+"heading": "The Division Fact of a Fraction",
+"back": "- **Concept:** Every fraction is mathematically synonymous with a standard division operation.\n- **Mathematical Translation:** The fraction $\frac{a}{b}$ is strictly structurally equivalent to the algebraic division expression $a \div b$.\n- **Application:** Sharing $3$ rotis equally among $4$ children translates directly to $3 \div 4$, which instantly yields the fractional share of $\frac{3}{4}$ per child.",
+"mnemonic": "The fraction bar IS a division bar.",
+"standardMeta": {
+"question": "How does a fraction $\frac{a}{b}$ directly translate into a standard division mathematical fact?"
+}
+}
+},
+{
+"cardId": "37fe8526-06d6-483c-97e5-537a4c5c9ece",
+"originalOrder": 37,
+"originalHeading": "The Division Translation of Sharing",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split multi-fact sharing translation into atomic cards to isolate cognitive concepts",
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "Split Part 1: Division Fact",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"sharing",
+"division"
+],
+"order": 36,
+"heading": "The Division Translation of Sharing",
+"back": "## Component Anatomy:\n- **$A$:** The total number of absolute wholes being shared (Numerator).\n- **$B$:** The total number of recipients (Denominator).\n\n## Boundary Conditions / Domain:\n- $B > 0$ (Mathematically impossible to divide or share among zero entities).",
+"formulaMeta": {
+"formula": "A \div B = \frac{A}{B}",
+"description": "State the direct Division fact that represents sharing exactly $A$ items equally among $B$ recipients.",
+"derivation": "**Example (Sharing 3 rotis among 4 children):**\n1. Take the total quantity being distributed ($3$).\n2. Divide it by the number of recipients ($4$).\n3. The mathematical operation $3 \div 4$ maps directly to the fraction $\frac{3}{4}$ per child."
+}
+}
+},
+{
+"cardId": "NEW_CARD_ADDITION_TRANSLATION",
+"originalOrder": 37,
+"originalHeading": "The Addition Translation of Sharing",
+"action": "NEW",
+"modificationsSummary": [
+"Created from Phase 1 split action",
+"Isolates the addition conceptual approach"
+],
+"vettingNotes": "Split Part 2: Addition Fact",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"sharing",
+"addition"
+],
+"order": 37,
+"heading": "The Addition Translation of Sharing",
+"back": "## Component Anatomy:\n- **$A$:** The total number of wholes being shared.\n- **$B$:** The total number of recipients.\n\n## Boundary Conditions / Domain:\n- $B > 0$. Every single whole item must be individually divided into $B$ equal parts before distribution.",
+"formulaMeta": {
+"formula": "\sum_{i=1}^{A} \frac{1}{B} = \frac{A}{B}",
+"description": "State the additive fractional fact that represents sharing exactly $A$ items equally among $B$ recipients by breaking them down individually.",
+"derivation": "**Example (Sharing 3 rotis among 4 children):**\n1. Divide the first roti into 4 parts. The child takes $\frac{1}{4}$.\n2. Divide the second roti into 4 parts. The child takes another $\frac{1}{4}$.\n3. Divide the third roti into 4 parts. The child takes a final $\frac{1}{4}$.\n4. Summing the individual pieces yields: $\frac{1}{4} + \frac{1}{4} + \frac{1}{4} = \frac{3}{4}$."
+}
+}
+},
+{
+"cardId": "NEW_CARD_MULTIPLICATION_TRANSLATION",
+"originalOrder": 37,
+"originalHeading": "The Multiplication Translation of Sharing",
+"action": "NEW",
+"modificationsSummary": [
+"Created from Phase 1 split action",
+"Isolates the multiplication conceptual approach"
+],
+"vettingNotes": "Split Part 3: Multiplication Fact",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"sharing",
+"multiplication"
+],
+"order": 38,
+"heading": "The Multiplication Translation of Sharing",
+"back": "## Component Anatomy:\n- **$A$:** The multiplier representing the total number of wholes.\n- **$\frac{1}{B}$:** The fractional unit share from a single whole.\n\n## Boundary Conditions / Domain:\n- $B > 0$.",
+"formulaMeta": {
+"formula": "A \times \frac{1}{B} = \frac{A}{B}",
+"description": "State the multiplicative fact that represents scaling a unit fraction to share exactly $A$ items equally among $B$ recipients.",
+"derivation": "**Example (Sharing 3 rotis among 4 children):**\n1. A single child's share from exactly one roti is mathematically $\frac{1}{4}$.\n2. Since there are $3$ rotis in total, the child receives that specific fractional unit exactly $3$ times.\n3. This translates algebraically to $3 \times \frac{1}{4} = \frac{3}{4}$."
+}
+}
+},
+{
+"cardId": "7b4fc643-d969-40e8-8d1b-7a687567ddc1",
+"originalOrder": 38,
+"originalHeading": "Fractional Parts: Area Equality vs. Geometric Congruence",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"geometry",
+"congruence"
+],
+"order": 39,
+"heading": "Area Equality vs. Geometric Congruence",
+"back": "- **Answer:** No. They are mathematically guaranteed to have equal **Area/Volume**, but NOT strictly guaranteed to be geometrically **Congruent**.\n- **Mathematical Proof:** If a square chikki is cut into 4 equal parts, one person might receive a long $1 \times 4$ rectangular strip, while another receives a $2 \times 2$ square piece. Both pieces represent exactly $\frac{1}{4}$ of the mathematical whole, and both possess the exact same surface area, but they possess entirely different geometric perimeter shapes (they are non-congruent).",
+"mnemonic": "Equal slice size doesn't mean equal slice shape.",
+"standardMeta": {
+"question": "If a geometric whole is mathematically divided into $n$ equal fractional parts (e.g., $\frac{1}{4}$ pieces), are those individual parts guaranteed to be geometrically congruent? Explain the distinction."
+}
+}
+},
+{
+"cardId": "ab470a1d-d1a7-4a78-ac36-c8dcff8d1da3",
+"originalOrder": 41,
+"originalHeading": "The Maximum Proper Unit Fraction Constraint",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"unit-fractions",
+"bounds"
+],
+"order": 40,
+"heading": "The Maximum Proper Unit Fraction",
+"back": "- **Answer:** The absolute mathematical maximum value for a proper unit fraction is exactly **$\frac{1}{2}$**.\n- **Mathematical Proof:** A unit fraction has a fixed rigid numerator of $1$. For the fraction to remain a *proper* fraction (representing a part of a whole, value $< 1$), the denominator must be strictly $> 1$.\n- Since denominators describing partitions must be whole integers in this context, the smallest possible valid denominator is $2$.\n- Because fraction geometric size is inversely proportional to the denominator, minimizing the denominator to $2$ mathematically maximizes the fraction's overall spatial value.",
+"standardMeta": {
+"question": "What is the absolute mathematical maximum value for a proper unit fraction, and why is it algebraically impossible to exceed this boundary?"
+}
+}
+},
+{
+"cardId": "2395a907-3a89-4146-a698-bd0f0f5c2836",
+"originalOrder": 36,
+"originalHeading": "Decomposition of Unity into Distinct Unit Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"unit-fractions",
+"identities"
+],
+"order": 41,
+"heading": "Decomposition of Unity",
+"back": "## Component Anatomy:\n- **$1$:** The complete absolute whole.\n- **$\frac{1}{2}, \frac{1}{3}, \frac{1}{6}$:** Distinct fractional units (unit fractions featuring absolutely no repetitions).\n\n## Boundary Conditions / Domain:\n- A strict constraint in ancient Egyptian fractions was representing numbers as the sum of *strictly different* unit fractions.\n- It is mathematically impossible to sum two distinct unit fractions to equal 1 (since the absolute largest is $\frac{1}{2}$, and $\frac{1}{2} + \frac{1}{n} < 1$ for any $n > 2$). A minimum of three distinct unit fractions is algorithmically required.",
+"mnemonic": "Half, Third, Sixth make a Whole fix.",
+"formulaMeta": {
+"formula": "1 = \frac{1}{2} + \frac{1}{3} + \frac{1}{6}",
+"description": "State the specific algebraic identity that decomposes the integer 1 into the sum of exactly three distinct unit fractions (as explored in the NCERT puzzle).",
+"derivation": "**Algorithmic Proof:**\n1. Start with the base additive identity: $1 = \frac{1}{2} + \frac{1}{2}$.\n2. This directly violates the 'distinct' constraint since $\frac{1}{2}$ is repeated.\n3. Take one of the $\frac{1}{2}$ terms and establish an equivalent LCM base of 6: $\frac{1}{2} = \frac{3}{6}$.\n4. Partition $\frac{3}{6}$ algorithmically into $\frac{2}{6} + \frac{1}{6}$.\n5. Simplify the new fractions: $\frac{1}{3} + \frac{1}{6}$.\n6. Substitute back into the original equation: $1 = \frac{1}{2} + \frac{1}{3} + \frac{1}{6}$."
+}
+}
+},
+{
+"cardId": "702a87e2-5a51-40f0-80ab-b359d57cb242",
+"originalOrder": 21,
+"originalHeading": "Ancient Indian Terminology for Fractions",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"history"
+],
+"order": 42,
+"heading": "Ancient Indian Terminology for Fractions",
+"back": "- **Bhinna:** The Sanskrit term for fraction, literally translating to **'broken'**.\n- **Bhaga / Ansha:** Ancient terms utilized to denote a **'part'** or **'piece'**.\n- **Historical Significance:** The modern global convention of mathematically writing fractions (numerator situated directly over denominator without a dividing bar initially) originated in ancient Indian mathematical texts like the Bakshali manuscript.",
+"mnemonic": "Bhinna is Broken.",
+"standardMeta": {
+"question": "What was the ancient Sanskrit term for a fraction, and what was its literal linguistic translation?"
+}
+}
+},
+{
+"cardId": "1bbd59e9-fba2-4b11-8a61-537ccd45960b",
+"originalOrder": 40,
+"originalHeading": "Historical Terminology: Tri-Pada (3/4)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"history"
+],
+"order": 43,
+"heading": "Historical Terminology: Tri-Pada",
+"back": "- **Ancient Rig Veda Term:** The fraction $\frac{3}{4}$ is historically referred to as **tri-pada** in the ancient Indian Rig Veda texts.\n- **Colloquial Equivalents Today:** This specific ancient fraction concept survives in modern Indian languages as **'teen paav'** (in colloquial Hindi) and **'mukkaal'** (in Tamil).",
+"mnemonic": "Tri = Three, Pada = Parts (Three-Quarters).",
+"standardMeta": {
+"question": "What is the ancient Sanskrit term used in the Rig Veda to denote the fraction $\frac{3}{4}$, and what are its colloquial linguistic equivalents in modern India?"
+}
+}
+},
+{
+"cardId": "388878fb-28ea-4c15-9c63-69ade880b864",
+"originalOrder": 22,
+"originalHeading": "Egyptian Fractions Concept",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"fractions",
+"history"
+],
+"order": 44,
+"heading": "Egyptian Fractions Concept",
+"back": "- **Concept:** The ancient Egyptian mathematical system strictly required expressing complex fractions as a sum of **distinct unit fractions** (fractions where the numerator is exactly $1$).\n- **Example:** Instead of writing $\frac{3}{4}$, they would mathematically partition it and write it as $\frac{1}{2} + \frac{1}{4}$.",
+"mnemonic": "Egyptians only wanted ONE piece (Numerator = 1).",
+"standardMeta": {
+"question": "What is the defining structural mathematical rule of an 'Egyptian Fraction'?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"originalOrder": 999,
+"originalHeading": "SYSTEM",
+"action": "SYSTEM",
+"modificationsSummary": [],
+"vettingNotes": "End of chapter marker processed as requested.",
+"cardData": null
+}
+]
+}

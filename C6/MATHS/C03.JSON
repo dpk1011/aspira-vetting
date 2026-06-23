@@ -1,0 +1,1124 @@
+{
+"deckId": "d6cbedd6-5184-422e-a0f3-bfd8e635e63c",
+"cards": [
+{
+"cardId": "5ab25a3b-8841-4ce3-af8f-d6709d300603",
+"originalOrder": 1,
+"originalHeading": "Numerical Representation of Relative States",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"relative-states"
+],
+"order": 1,
+"heading": "Numerical Representation of Relative States",
+"back": "- **Context:** Numbers do not solely represent absolute quantities (like 5 apples); they are also mathematically utilized to represent **relative physical states or positions**.\n- **Application Example:** In a line of children of varying heights, the numbers $0, 1,$ or $2$ can strictly denote the exact count of adjacent neighbors that are taller than a specific individual, effectively mapping physical relativity into a numerical sequence.",
+"standardMeta": {
+"question": "How can numbers strictly represent relative physical states in a geometric or physical sequence (e.g., the 'taller neighbor' activity)?"
+}
+}
+},
+{
+"cardId": "59f27c61-8e42-45dc-93c9-54fafcaed13c",
+"originalOrder": 33,
+"originalHeading": "Zero-Taller-Neighbour (All Zeros) Array Condition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to conceptually follow relative states before introducing Supercells."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"arrays",
+"boundary-condition"
+],
+"order": 2,
+"heading": "Zero-Taller-Neighbour Array Boundary Condition",
+"back": "- **Condition:** All elements (e.g., heights) in the sequence must be **exactly equal** in magnitude.\n- **Mathematical Proof:** If the elements are strictly distinct, there must exist at least one element that is smaller than an adjacent element, forcing the smaller element to evaluate to $\ge 1$ taller neighbor. A uniform array ($h_1 = h_2 = \dots = h_n$) guarantees that no element is strictly greater than its neighbor, allowing the entire array to evaluate to '0'.",
+"standardMeta": {
+"question": "In a relative height sequence where children output the number of taller neighbors they have, under what strict boundary condition will every single element evaluate to '0'?"
+}
+}
+},
+{
+"cardId": "3da12409-da2d-491f-91fd-d8ccc93863a1",
+"originalOrder": 2,
+"originalHeading": "Supercell in a Numerical Grid",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"supercells"
+],
+"order": 3,
+"heading": "Supercell in a Numerical Grid Definition",
+"back": "- **Definition:** A cell in a numerical grid or table is mathematically defined as a 'Supercell' if and only if the number inside it is **strictly greater** than the numbers in ALL of its immediate adjacent (neighboring) cells.\n- **Boundary Condition:** If an adjacent cell has an equal or greater value, the target cell is strictly disqualified from being a Supercell.",
+"mnemonic": "Super means strictly greater than everyone next door.",
+"standardMeta": {
+"question": "What is the strict mathematical definition of a 'Supercell' within a numerical grid or table?"
+}
+}
+},
+{
+"cardId": "1e8210e8-8670-4d6d-bd97-be6b10175eae",
+"originalOrder": 3,
+"originalHeading": "Supercell Boundary Certainty: Largest Number",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"supercells"
+],
+"order": 4,
+"heading": "Supercell Boundary Certainty: Absolute Largest Number",
+"back": "- **Answer:** Yes, it is a mathematical certainty.\n- **Proof:** By definition, the largest absolute number in the entire grid is strictly greater than every other number present. Therefore, it is guaranteed to be strictly greater than its immediate neighbors, permanently satisfying the Supercell condition.",
+"standardMeta": {
+"question": "Will the cell containing the absolute largest number in a grid ALWAYS be a Supercell? Explain the logic."
+}
+}
+},
+{
+"cardId": "cdaf1652-09ab-4107-915a-9c9c9fbeaaf0",
+"originalOrder": 4,
+"originalHeading": "Supercell Boundary Trap: Smallest Number",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"supercells"
+],
+"order": 5,
+"heading": "Supercell Boundary Trap: Absolute Smallest Number",
+"back": "- **Answer:** No, it is mathematically impossible.\n- **Proof:** A Supercell requires the value to be strictly greater ($x > y$) than all its neighbors. The absolute smallest number in a grid is, by definition, less than or equal to all other numbers. It can never satisfy the strict 'greater than' inequality against any adjacent cell.",
+"standardMeta": {
+"question": "Can the cell containing the absolute smallest number in a grid ever be classified as a Supercell? Explain the boundary condition preventing this."
+}
+}
+},
+{
+"cardId": "c6f1df6b-bdce-484e-991c-d69b86412186",
+"originalOrder": 5,
+"originalHeading": "Maximum Supercells in a 1D Array",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in the formula field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"arrays",
+"formula"
+],
+"order": 6,
+"heading": "Maximum Supercells in a 1D Array",
+"back": "## Component Anatomy:\n- **$n$:** The total number of cells in a single-row (1D) sequence/table.\n- **$Max$:** The maximum possible number of non-adjacent supercells.\n\n## Boundary Conditions / Domain:\n- $n \ge 1$\n- The numbers used to fill the cells must have enough distinct values to allow for strict inequalities.",
+"formulaMeta": {
+"formula": "\begin{aligned} \text{Even } n: &\quad \frac{n}{2} \\ \text{Odd } n: &\quad \frac{n+1}{2} \end{aligned}",
+"description": "State the algebraic formulas to calculate the maximum number of supercells possible in a 1D table of $n$ cells (for both even and odd $n$).",
+"derivation": "**Algorithmic SOP:**\n1. Because a supercell must be strictly greater than its neighbors, two supercells can NEVER be immediately adjacent.\n2. To maximize their count, alternate their placement: [Supercell], [Small], [Supercell], [Small]...\n3. For even $n$ (e.g., 4), you get $4/2 = 2$.\n4. For odd $n$ (e.g., 5), starting and ending with a supercell yields $(5+1)/2 = 3$."
+}
+}
+},
+{
+"cardId": "28587bc1-a7dc-4dbf-90c1-ea76a00238ce",
+"originalOrder": 6,
+"originalHeading": "Number Line Ascension Rule",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"number-line"
+],
+"order": 7,
+"heading": "Number Line Ascension Rule",
+"back": "- **Property:** On a standard horizontal Number Line, values strictly and consistently increase as you move from **left to right**.\n- **Application:** If $A < B < C$, then mathematically and visually, the point for $B$ must strictly fall into the geometrical space to the right of $A$ and to the left of $C$.",
+"mnemonic": "Left is Less, Right is Raised.",
+"standardMeta": {
+"question": "What is the strict directional rule for the increment of values on a standard horizontal Number Line?"
+}
+}
+},
+{
+"cardId": "0fc46296-d27b-46c3-a69e-f7b6ae4077e0",
+"originalOrder": 7,
+"originalHeading": "Calculating Total Count of n-Digit Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula string"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"combinatorics",
+"formula"
+],
+"order": 8,
+"heading": "Calculating Total Count of n-Digit Numbers",
+"back": "## Component Anatomy:\n- **$n$:** The specific number of digits (e.g., 2 for 2-digit numbers).\n- **$+ 1$:** The necessary mathematical adjustment to make the subtraction inclusive of both boundary endpoints.\n\n## Boundary Conditions / Domain:\n- $n \ge 1$ (Must strictly be a positive integer).",
+"mnemonic": "Largest minus Smallest, then Add One to invite them both to the party.",
+"formulaMeta": {
+"formula": "\text{Total} = (\text{Largest } n\text{-digit}) - (\text{Smallest } n\text{-digit}) + 1",
+"description": "State the algorithmic formula used to calculate the exact total quantity of $n$-digit numbers in the base-10 system.",
+"derivation": "**Algorithmic SOP (Example for 3-digit numbers):**\n1. Identify the absolute Largest 3-digit number $\implies 999$.\n2. Identify the absolute Smallest 3-digit number $\implies 100$.\n3. Subtract the smallest from the largest: $999 - 100 = 899$.\n4. Add 1 to make the range inclusive: $899 + 1 = 900$.\n*(Alternative direct formula: $9 \times 10^{n-1}$)*"
+}
+}
+},
+{
+"cardId": "4bf71a0e-363d-45ad-8a9c-7886d8a1009d",
+"originalOrder": 35,
+"originalHeading": "Addition Digit-Length Ceiling (4-Digit Maximums)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned in sequence to aggregate digit limits",
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"bounds"
+],
+"order": 9,
+"heading": "Addition Digit-Length Ceiling (4-Digit Maximums)",
+"back": "## Component Anatomy:\n- **$A, B$:** Two $n$-digit numbers (here, 4-digit).\n- **$\max$:** The absolute maximum possible sum.\n\n## Boundary Conditions / Domain:\n- $1000 \le A, B \le 9999$ (Strict bounds for 4-digit numbers).",
+"formulaMeta": {
+"formula": "\max(A + B) = 19998",
+"description": "State the mathematical proof determining the maximum possible number of digits when adding two 4-digit numbers (e.g., Can they form a 6-digit number?).",
+"derivation": "**Mathematical Proof:**\n1. Maximize the inputs: The absolute largest possible 4-digit number is $9999$.\n2. Compute the maximum possible sum: $9999 + 9999 = 19998$.\n3. Analyze the result: $19998$ is strictly a 5-digit number.\n4. **Conclusion:** It is mathematically impossible for the sum of two 4-digit numbers to ever jump boundaries and yield a 6-digit number."
+}
+}
+},
+{
+"cardId": "cdfe9936-1835-424a-bf8c-900a58167ef1",
+"originalOrder": 36,
+"originalHeading": "Subtraction Digit-Length Floor (5-Digit minus 2-Digit)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned in sequence",
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"bounds"
+],
+"order": 10,
+"heading": "Subtraction Digit-Length Floor Boundary",
+"back": "## Component Anatomy:\n- **$A$:** A 5-digit number.\n- **$B$:** A 2-digit number.\n- **$\min$:** The absolute minimum possible difference.\n\n## Boundary Conditions / Domain:\n- $10000 \le A \le 99999$\n- $10 \le B \le 99$",
+"formulaMeta": {
+"formula": "\min(A - B) = 9901",
+"description": "State the mathematical proof determining the minimum possible number of digits when subtracting a 2-digit number from a 5-digit number (e.g., Can it yield a 3-digit number?).",
+"derivation": "**Mathematical Proof:**\n1. To find the absolute minimum difference, we must minimize the minuend ($A$) and maximize the subtrahend ($B$).\n2. The minimum 5-digit number is $A = 10000$.\n3. The maximum 2-digit number is $B = 99$.\n4. Compute the difference: $10000 - 99 = 9901$.\n5. Analyze the result: $9901$ is strictly a 4-digit number.\n6. **Conclusion:** It is mathematically impossible for this specific subtraction to ever drop to a 3-digit number."
+}
+}
+},
+{
+"cardId": "81e758af-4523-4416-b368-2e5bd45a3611",
+"originalOrder": 37,
+"originalHeading": "Additive Floor Boundary Constraint",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned in sequence",
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"bounds"
+],
+"order": 11,
+"heading": "Additive Floor Boundary Constraint",
+"back": "## Component Anatomy:\n- **$A, B$:** Two 5-digit numbers.\n- **$\min$:** The absolute minimum possible sum.\n\n## Boundary Conditions / Domain:\n- $A \ge 10000$ and $B \ge 10000$.",
+"formulaMeta": {
+"formula": "\min(A + B) = 20000",
+"description": "Provide the mathematical proof explaining why it is impossible for the sum of two 5-digit numbers to equal 18,500.",
+"derivation": "**Mathematical Proof:**\n1. The absolute smallest 5-digit number in the base-10 system is $10000$.\n2. Therefore, the absolute minimum sum of any two 5-digit numbers is $10000 + 10000 = 20000$.\n3. Since $20000 > 18500$, the target sum lies strictly outside the achievable geometric domain for 5-digit additions."
+}
+}
+},
+{
+"cardId": "1b9e698c-ce88-4c09-ace3-c76b1148cae0",
+"originalOrder": 34,
+"originalHeading": "Additive Generation Boundary (Mental Math Constraint)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned in sequence",
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"mental-math",
+"bounds"
+],
+"order": 12,
+"heading": "Additive Generation Mental Math Constraint",
+"back": "## Component Anatomy:\n- **$S$:** The available atomic numerical values.\n- **$T$:** The target sum to be formed.\n\n## Boundary Conditions / Domain:\n- The target $T$ must be achievable as a linear combination of elements in $S$ with non-negative integer coefficients.\n- If the smallest element in $S$ does not perfectly divide $T$, and all other elements are $> T$, the sum is mathematically impossible.",
+"formulaMeta": {
+"formula": "\sum c_i s_i = 1000 \implies \text{No Solution}",
+"description": "Given a set of available addends $S = \\{400, 1500, 13000, 25000, 60000\\}$, prove why the target sum $T = 1000$ mathematically cannot be generated using only addition.",
+"derivation": "**Proof of Impossibility:**\n1. Identify elements in $S$ strictly greater than $T$. These cannot be used ($1500, 13000, 25000, 60000$).\n2. The only usable atomic element left is $400$.\n3. Check if $T$ is a perfect multiple of this remaining element: $\frac{1000}{400} = 2.5$.\n4. Since $2.5 \notin \mathbb{Z}^+$ (not a whole integer), the target sum is mathematically impossible to construct."
+}
+}
+},
+{
+"cardId": "6e9e17d2-704e-48d5-9334-d5cdcd7785fe",
+"originalOrder": 8,
+"originalHeading": "Digit Sum Definition",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"digit-sum"
+],
+"order": 13,
+"heading": "Digit Sum Definition",
+"back": "- **Definition:** The 'Digit Sum' is the mathematical operation of taking a multi-digit number and adding all of its individual constituent digits together to find a single total.\n- **Example:** For the number 545, the digit sum is strictly $5 + 4 + 5 = 14$.",
+"standardMeta": {
+"question": "What is the mathematical definition of a 'Digit Sum', and how is it calculated for the number 545?"
+}
+}
+},
+{
+"cardId": "b0536585-305a-4e5d-bd8a-7465bdfcabd5",
+"originalOrder": 9,
+"originalHeading": "SOP: Finding the Smallest Number for a Given Digit Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula string"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"digit-sum"
+],
+"order": 14,
+"heading": "SOP: Minimizing Number for Given Digit Sum",
+"back": "## Component Anatomy:\n- **Target Sum:** The specific total the digits must add up to (e.g., 14).\n- **$9$:** The maximum single-digit value, used to compress the number's length.\n\n## Boundary Conditions / Domain:\n- The leading (leftmost) digit cannot be zero.",
+"formulaMeta": {
+"formula": "\text{Minimize Length } \implies \text{ Maximize Rightmost Digits (9s)}",
+"description": "What is the Standard Operating Procedure (SOP) to construct the absolute SMALLEST possible number that adds up to a specific digit sum?",
+"derivation": "**Algorithmic SOP (Example: Target Sum = 14):**\n1. To make the number as small as possible, it must have the fewest possible digits.\n2. To minimize digits, use the largest possible digit ($9$) in the lowest place values (right side).\n3. Subtract 9 from the target sum: $14 - 9 = 5$.\n4. Place the remainder ($5$) in the highest place value (left side).\n5. The combined smallest number is $59$."
+}
+}
+},
+{
+"cardId": "f6506321-105a-49ea-9da5-4f13f979867d",
+"originalOrder": 10,
+"originalHeading": "SOP: Finding the Largest 5-Digit Number for a Given Digit Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"digit-sum"
+],
+"order": 15,
+"heading": "SOP: Maximizing 5-Digit Number for Given Digit Sum",
+"back": "## Component Anatomy:\n- **$n$:** The strict number of digits the final number must have (e.g., 5).\n- **Target Sum:** The total the digits must add up to.\n\n## Boundary Conditions / Domain:\n- The target sum cannot exceed $9 \times n$ (e.g., 45 for a 5-digit number).",
+"formulaMeta": {
+"formula": "\text{Maximize Value } \implies \text{ Maximize Leftmost Digits}",
+"description": "What is the Standard Operating Procedure (SOP) to construct the absolute LARGEST 5-digit number that adds up to a specific digit sum (e.g., 14)?",
+"derivation": "**Algorithmic SOP (Example: 5-digits, Target Sum = 14):**\n1. To make the number as large as possible, place the largest available digits ($9$) in the highest place values (left side).\n2. First digit (Ten-Thousands): 9. (Remaining sum = $14 - 9 = 5$).\n3. Second digit (Thousands): Put the entire remainder here $\implies 5$. (Remaining sum = 0).\n4. Fill all remaining lower place values strictly with $0$s to complete the 5 digits.\n5. The combined largest number is $95000$."
+}
+}
+},
+{
+"cardId": "cd318f5d-d624-4636-b94d-1745507ea835",
+"originalOrder": 11,
+"originalHeading": "Digit Sum of Three Consecutive Digits",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to APPLICATION",
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"digit-sum",
+"algebra"
+],
+"order": 16,
+"heading": "Digit Sum of Three Consecutive Digits",
+"back": "## Component Anatomy:\n- **$x$:** The first (smallest) digit in the consecutive sequence.\n- **$3$:** The constant multiplier proving divisibility.\n\n## Boundary Conditions / Domain:\n- $x \in \\{1, 2, 3, 4, 5, 6, 7\\}$ (Since $x+2 \le 9$ for it to remain a single-digit component).",
+"formulaMeta": {
+"formula": "\text{Sum} = 3x + 3 = 3(x + 1)",
+"description": "State the algebraic formula for the digit sum of a 3-digit number formed by consecutive digits, and state what number it is always a multiple of.",
+"derivation": "**Mathematical Proof:**\n1. Let the three consecutive digits be $x$, $(x+1)$, and $(x+2)$.\n2. The digit sum is $x + (x+1) + (x+2)$.\n3. Combining like terms yields $3x + 3$.\n4. Factoring out the 3 gives $3(x+1)$.\n5. Because 3 is a factor, the digit sum of any three consecutive digits is strictly always a multiple of 3."
+}
+}
+},
+{
+"cardId": "36ba4893-26dc-4b2f-af79-37f45c5db6fb",
+"originalOrder": 32,
+"originalHeading": "SOP: Maximizing Differences with Given Digits",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to aggregate digit manipulation SOPs",
+"Double-escaped LaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"optimization"
+],
+"order": 17,
+"heading": "SOP: Maximizing Differences with Distinct Digits",
+"back": "## Component Anatomy:\n- **$D_1, D_2 ... D_n$:** A set of distinct numerical digits.\n\n## Boundary Conditions / Domain:\n- If the smallest sorted digit is a $0$, it must still be placed in the highest place value to form the true mathematical smallest number for subtraction purposes.",
+"formulaMeta": {
+"formula": "\text{Max Difference} = \text{Descending Sort} - \text{Ascending Sort}",
+"description": "What is the algorithmic SOP to maximize the absolute difference between two numbers formed using the exact same set of digits?",
+"derivation": "**Algorithmic SOP:**\n1. Sort the provided digits strictly in **descending** order to form the largest possible number.\n2. Sort the exact same digits strictly in **ascending** order to form the smallest possible number.\n3. Subtract the smallest number from the largest number to yield the absolute maximum difference."
+}
+}
+},
+{
+"cardId": "c5c1401d-d348-4236-8698-ed03c41190ab",
+"originalOrder": 25,
+"originalHeading": "SOP: Boundary Target Digit Constraints",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to group with digit combinations",
+"Double-escaped LaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"bounds",
+"optimization"
+],
+"order": 18,
+"heading": "Boundary Target Digit Search Algorithm",
+"back": "## Component Anatomy:\n- **Target:** 50,000.\n- **Constraint:** Must be a 5-digit number strictly composed of ONLY odd digits (1, 3, 5, 7, 9).\n\n## Boundary Conditions / Domain:\n- No even digits (0, 2, 4, 6, 8) can be used anywhere in the number.",
+"formulaMeta": {
+"formula": "\text{Answer} = 51111",
+"description": "What is the algorithmic SOP to find the 5-digit number composed entirely of ODD digits that is mathematically closest to 50,000?",
+"derivation": "**Algorithmic SOP:**\n1. To be as close to 50,000 as possible, evaluate the ten-thousands digit. 4 is even (invalid). The closest valid odd starting digits are 3 and 5.\n2. Option A (Starting with 3): To get as close to 50,000 from below, maximize the remaining digits $\implies 39,999$. (Distance to 50,000 is 10,001).\n3. Option B (Starting with 5): To get as close to 50,000 from above, minimize the remaining digits. The absolute smallest odd digit is 1. $\implies 51,111$. (Distance to 50,000 is 1,111).\n4. Comparing distances, 51,111 is strictly closer."
+}
+}
+},
+{
+"cardId": "f1e29c35-d6bb-466b-9e65-d52e4acf561d",
+"originalOrder": 12,
+"originalHeading": "Frequency of a Non-Zero Digit (1 to 100)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"combinatorics"
+],
+"order": 19,
+"heading": "Frequency of a Non-Zero Digit (1 to 100)",
+"back": "## Component Anatomy:\n- **$d$:** Any specific non-zero digit (1 through 9).\n\n## Boundary Conditions / Domain:\n- The range is strictly integers from $1$ to $100$ inclusive.\n- Does not apply to the digit '0'.",
+"formulaMeta": {
+"formula": "\text{Frequency} = 20",
+"description": "What is the exact frequency (count) of any specific non-zero digit (e.g., '7') occurring between the numbers 1 and 100?",
+"derivation": "**Algorithmic SOP (Counting '7'):**\n1. **Units Place:** The digit 7 appears in 7, 17, 27, 37, 47, 57, 67, 77, 87, 97 $\implies 10$ occurrences.\n2. **Tens Place:** The digit 7 appears in the seventies block: 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 $\implies 10$ occurrences.\n3. **Total:** $10 \text{ (units)} + 10 \text{ (tens)} = 20$ total occurrences.\n*(Note: 77 is correctly counted twice because it contains two 7s)*."
+}
+}
+},
+{
+"cardId": "3c85d0b8-1ea9-456b-8834-98be252aba4c",
+"originalOrder": 13,
+"originalHeading": "Frequency of a Non-Zero Digit (1 to 1000)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"combinatorics"
+],
+"order": 20,
+"heading": "Frequency of a Non-Zero Digit (1 to 1000)",
+"back": "## Component Anatomy:\n- **$d$:** Any specific non-zero digit (1 through 9).\n\n## Boundary Conditions / Domain:\n- The range is strictly integers from $1$ to $1000$ inclusive.\n- Does not apply to the digit '0'.",
+"formulaMeta": {
+"formula": "\text{Frequency} = 300",
+"description": "What is the exact frequency (count) of any specific non-zero digit (e.g., '7') occurring between the numbers 1 and 1000?",
+"derivation": "**Algorithmic SOP:**\n1. **Units Place:** Occurs 1 time per set of 10. In 1000 numbers, there are 100 sets of 10. $\implies 100$ occurrences.\n2. **Tens Place:** Occurs 10 times per set of 100 (e.g., 70-79). In 1000 numbers, there are 10 sets of 100. $\implies 100$ occurrences.\n3. **Hundreds Place:** Occurs 100 times per set of 1000 (e.g., 700-799). $\implies 100$ occurrences.\n4. **Total:** $100 + 100 + 100 = 300$ total occurrences."
+}
+}
+},
+{
+"cardId": "c4f7e93b-9608-4155-9dde-06acd25466b4",
+"originalOrder": 14,
+"originalHeading": "Palindromic Number",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"palindromes"
+],
+"order": 21,
+"heading": "Palindromic Number Definition",
+"back": "- **Definition:** A palindrome or palindromic number is a numerical sequence that reads exactly the same forwards (from left to right) as it does backwards (from right to left).\n- **Examples:** $66$, $848$, $797$, $1111$.",
+"mnemonic": "Palindrome = Mirror image numbers.",
+"standardMeta": {
+"question": "What is the strict definition of a Palindromic Number in mathematics?"
+}
+}
+},
+{
+"cardId": "c0fb60d5-0eec-4cd8-baf5-8a247ab09849",
+"originalOrder": 15,
+"originalHeading": "Reverse-and-Add Algorithm",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"palindromes",
+"algorithms"
+],
+"order": 22,
+"heading": "Reverse-and-Add Algorithm",
+"back": "## Component Anatomy:\n- **$N_i$:** The number at the current iteration.\n- **$\text{Reverse}(N_i)$:** The number formed by reversing the digits of $N_i$.\n\n## Boundary Conditions / Domain:\n- Applies to integers.\n- Certain numbers (Lychrel numbers) are suspected to never form a palindrome under this operation.",
+"formulaMeta": {
+"formula": "N_{i+1} = N_i + \text{Reverse}(N_i)",
+"description": "State the iterative mathematical algorithm used to generate a palindrome starting from an arbitrary multi-digit number.",
+"derivation": "**Algorithmic SOP:**\n1. Start with an initial number (e.g., 48).\n2. Reverse its digits to form a secondary number (84).\n3. Add the two numbers together ($48 + 84 = 132$).\n4. Check if the sum is a palindrome. If it is, strictly stop.\n5. If it is not, take the new sum (132) and repeat the process ($132 + 231 = 363$, which is a palindrome)."
+}
+}
+},
+{
+"cardId": "1dd7dbe7-3754-44e5-ae2c-ba5132cb19c4",
+"originalOrder": 16,
+"originalHeading": "The Lychrel Number Exception (196)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined heading to specify boundary condition"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"palindromes"
+],
+"order": 23,
+"heading": "The Lychrel Number Exception Boundary (196)",
+"back": "- **Concept:** While the Reverse-and-Add algorithm successfully generates a palindrome for almost all 2-digit and 3-digit numbers eventually, there are unproven mathematical exceptions.\n- **The 196 Trap:** It is heavily suspected (though formally unproven) that starting with the number **196** will *never* yield a palindrome, regardless of how many infinite iterative cycles of reverse-and-add are performed.",
+"standardMeta": {
+"question": "Does the Reverse-and-Add algorithm ALWAYS guarantee a palindrome for every 3-digit number? Explain the famous exception."
+}
+}
+},
+{
+"cardId": "e9c5d83d-068f-476e-8159-0b09bf59798d",
+"originalOrder": 21,
+"originalHeading": "SOP: Calculating Time Between Palindromic Times",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to group all palindrome concepts together",
+"Double-escaped LaTeX formula text"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"palindromes",
+"time"
+],
+"order": 24,
+"heading": "SOP: Calculating Elapsed Time Between Palindromic Times",
+"back": "## Component Anatomy:\n- **$T_{\text{current}}$:** The given starting palindromic time (e.g., 10:01).\n- **$T_{\text{next}}$:** The immediate next chronological palindromic time.\n\n## Boundary Conditions / Domain:\n- Must strictly account for the base-60 modulo math of standard clock minutes (1 hour = 60 minutes).",
+"formulaMeta": {
+"formula": "\Delta t = T_{\text{next}} - T_{\text{current}}",
+"description": "What is the algorithmic SOP to calculate the minutes elapsed until the next palindromic time on a digital clock?",
+"derivation": "**Algorithmic SOP (Example: From 10:01):**\n1. Identify the current palindrome: 10:01.\n2. Deduce the next chronological hour that can form a valid minute palindrome: 11.\n3. Mirror the hour to form the minute palindrome: 11:11.\n4. Calculate the difference: 11:11 minus 10:01.\n5. Subtract hours: $11 - 10 = 1$ hour ($60$ mins).\n6. Subtract minutes: $11 - 1 = 10$ mins.\n7. Total elapsed time $= 60 + 10 = 70$ minutes."
+}
+}
+},
+{
+"cardId": "a77ead2b-27e4-49e2-b768-50dfe2c58f57",
+"originalOrder": 38,
+"originalHeading": "Palindromic Date Constraints (DD/MM/YYYY)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to group with palindromes",
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"palindromes",
+"calendar"
+],
+"order": 25,
+"heading": "Palindromic Date Constraints (DD/MM/YYYY)",
+"back": "- **Symmetric Constraint:** For a date to be a perfect 8-digit palindrome, it must mirror precisely at the center: $D_1D_2 / M_1M_2 / Y_1Y_2Y_3Y_4$.\n- **The Reversal Rule:** Reading backwards, the year dictates the exact day and month as follows:\n  - $M_2M_1$ must strictly equal $Y_1Y_2$.\n  - $D_2D_1$ must strictly equal $Y_3Y_4$.\n- **Boundary Limitation:** Because months max out at 12 and days max out at 31, the year's starting digits ($Y_1Y_2$) are heavily restricted. (e.g., $Y_1Y_2$ cannot be 13, as 31 is an invalid month).\nExample: Year 2011 forces Month 02 and Day 11 $\implies 11/02/2011$.",
+"standardMeta": {
+"question": "In the DD/MM/YYYY format, how does the Year entirely predetermine the exact Day and Month for a valid palindromic date?"
+}
+}
+},
+{
+"cardId": "84c91654-4eeb-423a-86e5-3ba311b6bf2b",
+"originalOrder": 17,
+"originalHeading": "Kaprekar's Constant (4-Digit)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"kaprekar"
+],
+"order": 26,
+"heading": "Kaprekar's Constant (4-Digit)",
+"back": "- **Definition:** The number **6174** is known as Kaprekar's Constant.\n- **Property:** It is the magical terminating value reached when applying the specific sorting and subtracting Kaprekar Routine to valid 4-digit numbers.",
+"mnemonic": "6174 is the black hole for 4-digit numbers.",
+"standardMeta": {
+"question": "What specific 4-digit number is known as Kaprekar's Constant?"
+}
+}
+},
+{
+"cardId": "84fe0aa9-4139-4b92-a5b2-fdbbcf34b44e",
+"originalOrder": 18,
+"originalHeading": "SOP: The Kaprekar Routine (4-Digit)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"kaprekar",
+"algorithm"
+],
+"order": 27,
+"heading": "SOP: The Kaprekar Routine (4-Digit)",
+"back": "## Component Anatomy:\n- **$A$:** The maximum possible number formed by the sorted digits.\n- **$B$:** The minimum possible number formed by the sorted digits.\n- **$C$:** The resulting difference for the next iteration.\n\n## Boundary Conditions / Domain:\n- The starting number MUST have at least two distinct (different) digits.",
+"formulaMeta": {
+"formula": "C = A - B",
+"description": "State the formula and algorithmic Standard Operating Procedure (SOP) for executing the Kaprekar Routine to reach 6174.",
+"derivation": "**Algorithmic SOP:**\n1. Take a valid 4-digit number (e.g., 6382).\n2. Sort the digits in strict **descending** order to form the largest number $A$ (8632).\n3. Sort the digits in strict **ascending** order to form the smallest number $B$ (2368).\n4. Subtract the smaller from the larger: $C = 8632 - 2368 = 6264$.\n5. Repeat the entire process using $C$ as the new starting number until you hit exactly 6174."
+}
+}
+},
+{
+"cardId": "294ef2ac-9fad-44eb-91e9-192bc711f111",
+"originalOrder": 19,
+"originalHeading": "Kaprekar Routine Boundary Constraint",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION",
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"kaprekar",
+"boundary-condition"
+],
+"order": 28,
+"heading": "Kaprekar Routine Boundary Constraint",
+"back": "## Component Anatomy:\n- **Distinct Digits:** Digits that have different numerical values from one another.\n\n## Boundary Conditions / Domain:\n- Strictly invalid for numbers like 1111, 2222, 9999. The algorithm traps at 0 immediately and can never iterate towards 6174.",
+"formulaMeta": {
+"formula": "\text{Number of distinct digits } \ge 2",
+"description": "State the strict boundary constraint regarding the digits of the starting number for the Kaprekar routine to work, and prove why it is necessary.",
+"derivation": "**Mathematical Proof:**\n1. If a 4-digit number consists of exactly the same digit (e.g., 5555).\n2. The largest arrangement $A$ is 5555.\n3. The smallest arrangement $B$ is 5555.\n4. Subtracting them yields $5555 - 5555 = 0000$.\n5. The algorithm gets stuck at 0. Thus, at least two digits must be different."
+}
+}
+},
+{
+"cardId": "28c36562-a414-42e9-8a85-85ba6f071f18",
+"originalOrder": 20,
+"originalHeading": "Kaprekar's Constant for 3-Digit Numbers",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"kaprekar"
+],
+"order": 29,
+"heading": "Kaprekar's Constant for 3-Digit Numbers",
+"back": "- **Concept:** When the exact same Kaprekar Routine (Sort Descending $\implies$ Sort Ascending $\implies$ Subtract) is applied to valid **3-digit numbers**.\n- **Constant:** The sequence will always eventually converge to and indefinitely repeat the number **495**.",
+"standardMeta": {
+"question": "What is the equivalent Kaprekar's Constant reached when applying the routine to 3-digit numbers?"
+}
+}
+},
+{
+"cardId": "900b34d0-9da3-4749-a51f-92a6c4f4a65d",
+"originalOrder": 26,
+"originalHeading": "The 1089 Magic Number Algorithm",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"algorithms"
+],
+"order": 30,
+"heading": "The 1089 Magic Number Algorithm",
+"back": "## Component Anatomy:\n- **$N$:** A 3-digit number.\n- **$\text{Reverse}(N)$:** The number formed by reversing the digits of $N$.\n\n## Boundary Conditions / Domain:\n- The first and last digits of $N$ must strictly differ by at least 2.",
+"mnemonic": "Reverse, Subtract, Reverse, Add -> 1089.",
+"formulaMeta": {
+"formula": "\text{Result} = 1089",
+"description": "State the standard algorithmic steps to always yield the magic constant 1089 starting from a 3-digit number.",
+"derivation": "**Algorithmic SOP:**\n1. Take any 3-digit number where the first and last digits differ by at least 2.\n2. Reverse its digits to form a second number.\n3. Subtract the smaller number from the larger number to get a difference $D$.\n4. Reverse the digits of $D$.\n5. Add $D$ to its reverse. The final sum is strictly always 1089."
+}
+}
+},
+{
+"cardId": "df8aa854-e937-4df9-b371-bb37b7b50139",
+"originalOrder": 22,
+"originalHeading": "Collatz Conjecture (3n+1 Problem) Rules",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting for conditional rules"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"collatz",
+"algorithms"
+],
+"order": 31,
+"heading": "Collatz Conjecture (3n+1) Rules",
+"back": "## Component Anatomy:\n- **$n$:** Any positive whole number.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$ (Must strictly be a positive integer).",
+"mnemonic": "Even gets halved, Odd gets tripled plus one.",
+"formulaMeta": {
+"formula": "\begin{aligned} \text{If } n \text{ is even: } & \frac{n}{2} \\ \text{If } n \text{ is odd: } & 3n + 1 \end{aligned}",
+"description": "State the two conditional mathematical rules defining the iterative sequence in the unsolved Collatz Conjecture.",
+"derivation": "**Algorithmic SOP:**\n1. Start with any positive whole number.\n2. Check parity. If it is even, divide it exactly in half.\n3. If it is odd, multiply it by 3 and add 1 (converting it back to an even number).\n4. Repeat the process on the resulting output indefinitely. The conjecture states all such sequences eventually reach exactly 1."
+}
+}
+},
+{
+"cardId": "05af37b8-f0d7-4de8-af47-c10d90e7f829",
+"originalOrder": 23,
+"originalHeading": "Collatz Conjecture Infinite End-Loop",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"collatz"
+],
+"order": 32,
+"heading": "Collatz Conjecture Infinite End-Loop",
+"back": "- **Concept:** The conjecture states that all sequences reach 1. However, if the algorithm is continued strictly *after* reaching 1, it enters a perpetual closed loop.\n- **The Loop Trap:** \n  - 1 is odd $\implies 3(1)+1 = 4$.\n  - 4 is even $\implies 4/2 = 2$.\n  - 2 is even $\implies 2/2 = 1$.\n- **Result:** The sequence gets permanently locked in the **$4 \to 2 \to 1$** cycle.",
+"mnemonic": "4-2-1 loop.",
+"standardMeta": {
+"question": "In the Collatz Conjecture, what specific mathematical infinite loop occurs if you continue applying the rules after reaching the number 1?"
+}
+}
+},
+{
+"cardId": "1430a7fe-b796-49a9-b593-33645c9a1694",
+"originalOrder": 28,
+"originalHeading": "Collatz Conjecture: Powers of 2 Boundary",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION to align with routing map"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"number-theory",
+"collatz"
+],
+"order": 33,
+"heading": "Collatz Conjecture: Powers of 2 Boundary",
+"back": "- **Concept:** The Collatz Conjecture normally oscillates wildly between odd and even operations.\n- **The Power of 2 Exception:** If the starting number is exactly $2^n$ (e.g., 64, 128, 256), it bypasses the $3n+1$ odd rule entirely.\n- **Mathematical Action:** It strictly undergoes consecutive division by 2, monotonically cascading directly down to 1.",
+"standardMeta": {
+"question": "In the Collatz Conjecture, what specific subset of starting numbers will monotonically reach 1 without ever triggering the 'multiply by 3 and add 1' rule?"
+}
+}
+},
+{
+"cardId": "5e655695-4834-42d8-a34d-2bba1921079a",
+"originalOrder": 24,
+"originalHeading": "Winning Strategy for Game of 21",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"game-theory",
+"number-theory"
+],
+"order": 34,
+"heading": "Winning Strategy for Game of 21",
+"back": "## Component Anatomy:\n- **Target Limit:** The final number to reach to win (e.g., 21).\n- **Allowed Additions:** The numbers a player can add per turn (1, 2, or 3).\n- **$4k+1$:** The safe harbor sequence.\n\n## Boundary Conditions / Domain:\n- Players must strictly alternate turns.\n- The opponent must add at least 1, max 3.",
+"formulaMeta": {
+"formula": "\text{Winning Targets} = 4k + 1 \text{ (i.e., 1, 5, 9, 13, 17, 21)}",
+"description": "In the Game of 21 (where players alternate adding 1, 2, or 3), state the algebraic formula/pattern representing the winning target numbers a player must land on.",
+"derivation": "**Algorithmic SOP Strategy:**\n1. The maximum addition is 3. To guarantee control, you must leave the opponent facing a gap of 4.\n2. Work backward from the win: To reach 21, you must land on 17. (Whatever the opponent adds—1, 2, or 3—the total becomes 18, 19, or 20, allowing you to add the exact complement to hit 21).\n3. To guarantee hitting 17, you must land on 13. Then 9, 5, and 1.\n4. Therefore, the player who goes first and says '1' can mathematically force a guaranteed win by continuously hitting these $4k+1$ milestones."
+}
+}
+},
+{
+"cardId": "c800b9be-a21a-4dde-a4aa-b4ddf353bec3",
+"originalOrder": 27,
+"originalHeading": "Winning Strategy for Game of 99",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"game-theory",
+"number-theory"
+],
+"order": 35,
+"heading": "Winning Strategy for Game of 99",
+"back": "## Component Anatomy:\n- **Target Limit:** 99.\n- **Allowed Additions:** Numbers strictly between 1 and 10.\n- **$11k$:** The multiple of 11 safe harbor sequence.\n\n## Boundary Conditions / Domain:\n- Players must strictly alternate turns.\n- A player must add an integer $x$ such that $1 \le x \le 10$.",
+"mnemonic": "Control the 11s to control the 99.",
+"formulaMeta": {
+"formula": "\text{Winning Targets} = 11k \text{ (i.e., 11, 22, 33... 88, 99)}",
+"description": "In the Game of 99 (alternating additions of 1 to 10), state the algebraic pattern representing the winning target numbers to hit.",
+"derivation": "**Algorithmic SOP Strategy:**\n1. The maximum addition is 10. To guarantee control of a full cycle, aim for the sum of maximum + minimum addition: $10 + 1 = 11$.\n2. To reach 99 (which is a perfect multiple of 11), a player must ensure every round sums to exactly 11.\n3. Strategy: The player going **second** can always mathematically force a win. If Player 1 adds $x$, Player 2 strictly adds $(11 - x)$, permanently landing on the $11k$ milestones until reaching 99."
+}
+}
+},
+{
+"cardId": "e2a3fba8-6373-4084-b1f1-e93bf62f0695",
+"originalOrder": 29,
+"originalHeading": "Pattern Summation via Grouping (Distributive Property)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"algebra",
+"mental-math"
+],
+"order": 36,
+"heading": "Pattern Summation via Grouping",
+"back": "## Component Anatomy:\n- **$a$:** The common repeated number (e.g., 35).\n- **$b, c, d$:** The distinct counts of occurrences in different grid sections.\n\n## Boundary Conditions / Domain:\n- All variables are strictly positive integers representing frequencies and values.",
+"formulaMeta": {
+"formula": "a \times b + a \times c + a \times d = a(b + c + d)",
+"description": "State the algebraic property used to rapidly calculate the total sum of a number $a$ appearing $b$ times, $c$ times, and $d$ times in different mathematical grid regions.",
+"derivation": "**Algorithmic SOP (Mental Math):**\n1. Instead of multiplying each region individually, group the common repeated value.\n2. Count the total frequency across all regions: $(b + c + d)$.\n3. Multiply the common value by the total combined frequency. This radically reduces calculation steps and prevents arithmetic errors."
+}
+}
+},
+{
+"cardId": "9fe8b5a8-62bf-4a78-adf5-aeefb672c52d",
+"originalOrder": 30,
+"originalHeading": "Mental Math: Multiplying by 11",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"mental-math"
+],
+"order": 37,
+"heading": "Mental Math: Multiplying by 11",
+"back": "## Component Anatomy:\n- **$\overline{ab}$:** A two-digit number where $a$ is the tens digit and $b$ is the units digit.\n\n## Boundary Conditions / Domain:\n- $10 \le \overline{ab} \le 99$.\n- If the interior sum $(a+b) \ge 10$, the 1 must be strictly carried over and added to the leading digit $a$.",
+"mnemonic": "Split the digits, sum them, stick it in the middle.",
+"formulaMeta": {
+"formula": "11 \times \overline{ab} = \overline{a (a+b) b}",
+"description": "State the mental math algorithmic formula to multiply any 2-digit number $\overline{ab}$ by 11.",
+"derivation": "**Algorithmic SOP (e.g., $52 \times 11$):**\n1. Separate the two digits of the number: $5$ and $2$.\n2. Add the two digits together: $5 + 2 = 7$.\n3. Insert the sum exactly between the original digits: $572$.\n*(Note: If the sum > 9, e.g., $85 \times 11 \implies 8 + 5 = 13$. Keep 3 in the middle, add 1 to the 8 $\implies 935$.)*"
+}
+}
+},
+{
+"cardId": "6693d8ea-191c-46b2-b2fa-9956c79875cf",
+"originalOrder": 31,
+"originalHeading": "Standard Volume Estimation Benchmarks",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"volume",
+"estimation"
+],
+"order": 38,
+"heading": "Standard Volume Estimation Benchmarks",
+"back": "- **Mug:** A standard household mug holds approximately **$0.3$ Liters** ($300$ mL).\n- **Bucket:** A standard household bucket holds approximately **$15$ Liters** ($10$ to $20$ L).\n- **Overhead Tank:** An average residential overhead water tank holds approximately **$1000$ Liters**.\n- **Application:** These benchmarks act as anchor points for quickly validating volume-based mathematical word problems.",
+"standardMeta": {
+"question": "What are the standard numerical estimation benchmarks (in liters) for a typical mug, bucket, and overhead water tank?"
+}
+}
+},
+{
+"cardId": "4f9d13e3-7d8d-4d99-b5ed-8fd1b4b88ff8",
+"originalOrder": 39,
+"originalHeading": "Calendar Recurrence Modulo Cycles",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"class-6",
+"ncert",
+"calendar",
+"modulo"
+],
+"order": 39,
+"heading": "Calendar Recurrence Modulo Cycles",
+"back": "- **Normal Years (365 days):** The calendar strictly repeats its exact date-to-day mapping after either **6 years** or **11 years** (e.g., 2017 perfectly repeats in 2023).\n- **Leap Years (366 days):** Due to the modulo arithmetic of the extra intercalary day, a leap year calendar strictly requires a **28-year** cycle to perfectly realign (e.g., 2012 repeats in 2040).",
+"mnemonic": "Normal shifts by 6 or 11, Leap jumps by 28.",
+"standardMeta": {
+"question": "What are the standard integer cycles (in years) for a full Gregorian calendar to mathematically repeat its exact date-to-day mapping for both Normal and Leap Years?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"originalOrder": 999,
+"originalHeading": "SYSTEM",
+"action": "SYSTEM",
+"modificationsSummary": [],
+"vettingNotes": "End of chapter marker processed as requested.",
+"cardData": null
+}
+]
+}

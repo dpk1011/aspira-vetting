@@ -1,0 +1,1238 @@
+{
+"deckId": "268c53c1-ff27-4a17-a459-1f8235b6ccb6",
+"cards": [
+{
+"cardId": "334e4a0a-1d75-4cad-b921-c4bc47b58b28",
+"originalOrder": 1,
+"originalHeading": "Definition of Perimeter",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected specific domain constraints for 2D planes",
+"Refined classification to DEFINITION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6",
+"jee-main"
+],
+"order": 1,
+"heading": "Mathematical Definition of Perimeter",
+"back": "## Explanation\n- **Definition:** The perimeter of any closed plane figure is the strict mathematical **scalar distance covered along its contiguous outer boundary** when traversing it exactly once.\n- **Application:** Used when calculating continuous lengths for physical boundaries like fencing, framing, or wrapping an object with a linear string.\n\n## Boundary Conditions / Domain\n- The concept strictly applies to **2D flat, closed plane figures**.\n- It is geometrically undefined for open curves (which have "length" but no "perimeter") or 3D volumes (which have surface area, not planar perimeter).",
+"mnemonic": "Peri (around) + Meter (measure) = Measure around.",
+"standardMeta": {
+"question": "What is the strict geometric definition of the 'Perimeter' of a closed plane figure?"
+}
+}
+},
+{
+"cardId": "2adcd274-eaaa-4c97-88bf-46a1eea7382c",
+"originalOrder": 2,
+"originalHeading": "Perimeter of a Polygon",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted to strictly double-escaped KaTeX",
+"Enhanced mathematical formalization of the summation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"polygons",
+"class-6"
+],
+"order": 2,
+"heading": "General Perimeter of a Polygon",
+"back": "## Component Anatomy\n- **$s_i$:** The absolute scalar length of individual side $i$ of the polygon.\n- **$n$:** The total integer number of sides mapping the polygon.\n\n## Boundary Conditions / Domain\n- The geometric figure must be strictly **closed**.\n- The figure must be formed exclusively by strictly **straight, non-intersecting line segments** (a simple polygon).\n- Every side length must be strictly positive ($s_i > 0$).",
+"formulaMeta": {
+"formula": "P = \sum_{i=1}^{n} s_i",
+"description": "State the generalized mathematical summation formula for the perimeter of ANY given $n$-sided polygon.",
+"derivation": "**Algorithmic Logic:**\nSince a polygon is composed entirely of straight line segments joined endpoint-to-endpoint, computing the total boundary distance strictly requires the scalar addition of every individual segment's length."
+}
+}
+},
+{
+"cardId": "b408ac57-881b-458c-b765-e4b21a5aad15",
+"originalOrder": 3,
+"originalHeading": "Perimeter of a Rectangle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected boundary constraints",
+"Reformatted KaTeX strings"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 3,
+"heading": "Perimeter of a Rectangle",
+"back": "## Component Anatomy\n- **$l$:** Length (the longer dimension) of the bounding rectangle.\n- **$b$:** Breadth or width (the shorter dimension).\n- **$P$:** The calculated perimeter.\n\n## Boundary Conditions / Domain\n- Dimensions must strictly be positive real numbers ($l > 0$, $b > 0$).\n- $l$ and $b$ must strictly be converted to the exact same metric unit before applying the additive operation.",
+"mnemonic": "Two lengths, two breadths, grouped together.",
+"formulaMeta": {
+"formula": "P = 2(l + b)",
+"description": "State the standard algebraic formula for the continuous Perimeter of a geometric Rectangle.",
+"derivation": "**Derivation:**\n1. By definition, a rectangle has exactly two pairs of parallel, equal opposite sides.\n2. Additive Perimeter $= l + b + l + b$.\n3. Group like algebraic terms: $= 2l + 2b$.\n4. Factor out the common strictly positive integer $2$: $= 2(l + b)$."
+}
+}
+},
+{
+"cardId": "c5388f86-b1cd-4e69-a803-d1c58cacb01a",
+"originalOrder": 4,
+"originalHeading": "Perimeter of a Square",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected internal angle constraints for rigor"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 4,
+"heading": "Perimeter of a Square",
+"back": "## Component Anatomy\n- **$s$:** The uniform length of a single geometric edge.\n- **$P$:** Total scalar perimeter.\n\n## Boundary Conditions / Domain\n- The side length must strictly be $s > 0$.\n- Strictly geometrically applies ONLY when all four sides are perfectly equal in length AND all four internal bounding angles are exactly $90^\circ$ (right angles).",
+"mnemonic": "Square has four fair sides.",
+"formulaMeta": {
+"formula": "P = 4s",
+"description": "State the standard algebraic formula for the Perimeter of a Square.",
+"derivation": "**Derivation:**\n1. Base polygon formula: Perimeter $= s_1 + s_2 + s_3 + s_4$.\n2. Because the geometry dictates all 4 sides are strictly identical ($s_1=s_2=s_3=s_4=s$), it simplifies algebraically to $4 \times s$."
+}
+}
+},
+{
+"cardId": "a13d4b6d-0fa3-49d1-a6a5-828e178b66bd",
+"originalOrder": 5,
+"originalHeading": "Perimeter of an Equilateral Triangle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"triangles",
+"class-6"
+],
+"order": 5,
+"heading": "Perimeter of an Equilateral Triangle",
+"back": "## Component Anatomy\n- **$s$:** The exact scalar length of one side of the triangle.\n\n## Boundary Conditions / Domain\n- Strictly applies ONLY to equilateral triangles in Euclidean space, where all 3 sides are perfectly equal ($s > 0$) and all interior angles are precisely $60^\circ$.",
+"formulaMeta": {
+"formula": "P = 3s",
+"description": "State the standard algebraic formula for the Perimeter of an Equilateral Triangle.",
+"derivation": "**Derivation:**\n1. Base addition: Perimeter $= s_1 + s_2 + s_3$.\n2. Since $s_1 = s_2 = s_3 = s$, grouping the identical scalar terms yields exactly $3s$."
+}
+}
+},
+{
+"cardId": "791068de-cd26-45ba-a923-ccba4e319bcf",
+"originalOrder": 6,
+"originalHeading": "Perimeter of a Regular Polygon",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated formatting",
+"Added minimum sides constraint for polygon domain"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"polygons",
+"mensuration",
+"class-6"
+],
+"order": 6,
+"heading": "Perimeter of any Regular Polygon",
+"back": "## Component Anatomy\n- **$n$:** The exact integer number of sides the polygon possesses.\n- **$s$:** The uniform scalar length of one individual side.\n\n## Boundary Conditions / Domain\n- To form a valid 2D polygon, the domain strictly requires integer $n \ge 3$.\n- The polygon MUST be "regular" (strictly meaning all individual edges are perfectly equal in length AND all internal angles are identical).",
+"formulaMeta": {
+"formula": "P = ns",
+"description": "State the generalized scalar formula to calculate the perimeter of ANY strictly regular polygon (e.g., regular pentagon, regular hexagon).",
+"derivation": "**Logic:**\nMultiplication is repeated addition. If $n$ edges each measure strictly $s$, their absolute geometric sum is defined algebraically as $n \times s$."
+}
+}
+},
+{
+"cardId": "4c03fec6-7ede-45e2-97c6-7b434e1f726e",
+"originalOrder": 8,
+"originalHeading": "Conservation of Perimeter in Wire Bending",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to FACT",
+"Clarified physical constraints like inelasticity"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 7,
+"heading": "Topological Conservation of Perimeter (Wire Bending)",
+"back": "## Explanation\n- **Fact:** If a continuous piece of inelastic wire is geometrically bent to form a shape (e.g., a rectangle), and then unbent and reshaped into a completely different closed shape (e.g., a square), the **Total Boundary Perimeter remains strictly mathematically constant**.\n- **Mathematical Identity:** $P_{\text{shape 1}} = P_{\text{shape 2}} = \text{Total Absolute Length of Wire}$.\n\n## Boundary Conditions / Domain\n- The material (wire) must strictly be completely inelastic (does not stretch or compress).\n- The entire length must be utilized with absolutely zero geometric overlap, tangling, or discarded segments.",
+"mnemonic": "Wire length doesn't vanish, perimeter stays the same.",
+"standardMeta": {
+"question": "If a continuous, inelastic piece of wire forming a rectangle is straightened and perfectly bent into a square, what fundamental mathematical dimension remains strictly identical between the two geometric shapes?"
+}
+}
+},
+{
+"cardId": "1e0571d4-65b8-4ec6-afd7-d56db8333b5d",
+"originalOrder": 9,
+"originalHeading": "Finding Unknown Side of a Square from Wire Length",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted to correct SCHEMA"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"mensuration",
+"class-6"
+],
+"order": 8,
+"heading": "Extracting Side Length from Known Total Perimeter",
+"back": "## Component Anatomy\n- **$L_{\text{total}}$:** The total absolute linear length of the wire (which equals the total continuous Perimeter $P$).\n- **$s$:** The unknown, extracted side length of the square.\n\n## Boundary Conditions / Domain\n- The wire must strictly form a perfectly regular square ($4$ equal sides).\n- Assumes $L_{\text{total}} > 0$.",
+"formulaMeta": {
+"formula": "s = \frac{L_{\text{total}}}{4}",
+"description": "If the total scalar length of an inelastic wire used to form a perfect square is known, state the algebraic formula to strictly isolate and find the length of a single side.",
+"derivation": "**Algorithmic SOP:**\n1. Axiomatically recognize that Total Wire Length $= P = 4s$.\n2. To mathematically isolate the variable $s$, algebraically divide both sides of the equation strictly by $4$."
+}
+}
+},
+{
+"cardId": "10a5eb82-0851-4611-8f5f-d5171b392232",
+"originalOrder": 10,
+"originalHeading": "Finding the Third Side of a Triangle Given Perimeter",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected Triangle Inequality Theorem constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"triangles",
+"class-6"
+],
+"order": 9,
+"heading": "Algebraic Isolation of a Missing Triangle Side",
+"back": "## Component Anatomy\n- **$P$:** The total known bounding perimeter.\n- **$a, b$:** The scalar lengths of the two explicitly known sides.\n- **$c$:** The unknown target third side.\n\n## Boundary Conditions / Domain\n- By the Triangle Inequality Theorem, it MUST strictly be true that $P > 2(a)$ and $P > 2(b)$. If $P - (a+b) \le 0$, the remaining geometry strictly cannot form a closed triangle.",
+"formulaMeta": {
+"formula": "c = P - (a + b)",
+"description": "State the algebraic substitution procedure to find the missing third side of a scalene triangle when the total perimeter and two individual sides are explicitly known.",
+"derivation": "**Algorithmic SOP:**\n1. Write the base additive identity for the geometry: $P = a + b + c$.\n2. Calculate the scalar sum of the two known edges: $(a + b)$.\n3. Algebraically subtract this subset sum strictly from the total perimeter $P$ to isolate variable $c$."
+}
+}
+},
+{
+"cardId": "1df8d47a-721c-4368-95d0-1dce4337b8e0",
+"originalOrder": 11,
+"originalHeading": "Staggered Starting Lines in Track Races",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined geometric reasoning"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"real-world",
+"class-6"
+],
+"order": 10,
+"heading": "Perimeter Discrepancy in Concentric Tracks",
+"back": "## Explanation\n- **Concept:** In physical athletic tracks, the designated running lanes behave mathematically as concentric geometric loops.\n- **Mathematical Reasoning:** Because the geometric radius of the outer track is strictly larger ($R_{\text{outer}} > R_{\text{inner}}$), the outer boundary inherently has a strictly **larger absolute perimeter** (circumference). If competitors started radially perfectly aligned, the outer runner would be physically forced to traverse a longer mathematical distance.\n- **Solution:** Outer lane runners are granted a "staggered start" (radially shifted forward algebraically exactly equal to the difference in perimeter $\Delta P$) so that every total traveled path is strictly equalized at the shared linear finish line.",
+"standardMeta": {
+"question": "Mathematically, why must runners stationed in the outer concentric lanes of a closed track race be staggered further ahead of runners in the innermost lanes?"
+}
+}
+},
+{
+"cardId": "6176048b-1ba2-4b6a-a657-69e9fbfb939a",
+"originalOrder": 12,
+"originalHeading": "Grid Perimeter: Straight vs. Diagonal Units",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected rigorous Euclidean proof",
+"Fixed KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"grids",
+"class-6"
+],
+"order": 11,
+"heading": "Grid Perimeter: The Diagonal Fallacy",
+"back": "## Explanation\n- **Distinction Trap:** When calculating the perimeter of a drawn polygon on a discrete square Cartesian grid, you are strictly forbidden from counting a diagonal line traversing a square block as geometrically equal to a straight Cartesian edge segment.\n- **Mathematical Proof:** By the Euclidean Pythagorean theorem, the geometric diagonal ($d$) of a $1 \times 1$ square unit is derived as $d^2 = 1^2 + 1^2$, yielding $d = \sqrt{2}$. Since $\sqrt{2} \approx 1.414$, the diagonal is strictly $\approx 41\\%$ longer than the straight edge length ($s = 1$). Treating them identically creates a mathematically false total perimeter.",
+"mnemonic": "Diagonals stretch farther than straights.",
+"standardMeta": {
+"question": "When computing the geometric perimeter of a complex shape mapped onto a 2D square grid, why is it a fundamental mathematical error to count diagonal boundary lines as identical "1 unit" lengths?"
+}
+}
+},
+{
+"cardId": "95169238-2f43-4b2e-b3f6-45c4fdc5ab1f",
+"originalOrder": 13,
+"originalHeading": "Perimeter Fluctuation in "Split and Rejoin"",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reclassified to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 12,
+"heading": "Geometric Decoupling of Area and Perimeter",
+"back": "## Explanation\n- **Concept:** If you mechanically dissect a 2D plane geometry shape into finite fractional pieces and strictly recombine them without discarding any surface material, the **Area remains an absolute constant**, but the **Total Perimeter will radically fluctuate**.\n- **Mathematical Reasoning:** The perimeter function strictly integrates only the completely exposed boundary outer edges. Rearranging sub-shapes exposes formerly hidden internal Euclidean segments (thereby increasing perimeter) or fuses previously exposed external edges via adjacency (thereby strictly decreasing perimeter).\n\n## Boundary Conditions / Domain\n- All original surface material must be perfectly preserved in the recombination step.",
+"mnemonic": "Area stays, Boundary plays.",
+"standardMeta": {
+"question": "If you bisect a geometric plane shape into two discrete pieces and recombine them to form an entirely new contiguous shape, what mathematically occurs to the relationship between the final Area and the final Perimeter?"
+}
+}
+},
+{
+"cardId": "NEW_CARD_1",
+"originalOrder": 37,
+"originalHeading": "Linear Variation of Perimeter (Algebraic Adjustment)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted pure conceptual formula to isolate cognitive bloat"
+],
+"vettingNotes": "Split Part 1: The core formula and concept.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"geometry",
+"class-6"
+],
+"order": 13,
+"heading": "Perimeter Variation under Single-Dimension Adjustment",
+"back": "## Component Anatomy\n- **$P_{\text{old}}$:** The initial computed base perimeter.\n- **$\Delta x$:** The absolute scalar delta (variable amount) by which the rectangle's specific linear dimension (length or breadth) is adjusted.\n- **$P_{\text{new}}$:** The resulting adjusted perimeter.\n\n## Boundary Conditions / Domain\n- The scalar decrease strictly must conform to $\Delta x < L$ (i.e., the manipulated geometric side cannot algebraically invert into a negative integer or absolute zero).",
+"formulaMeta": {
+"formula": "P_{\text{new}} = P_{\text{old}} - 2\Delta x",
+"description": "State the pure algebraic substitution formula denoting the new perimeter ($P_{\text{new}}$) of a base rectangle if strictly one parallel dimension (e.g., length) is geometrically decreased by a variable quantity $\Delta x$.",
+"derivation": "This relies on the geometric constraint that altering the length of a rectangle inherently requires altering strictly **two** parallel bounding edges simultaneously to maintain Cartesian closed shape validity."
+}
+}
+},
+{
+"cardId": "54cf1c4b-3d43-4d24-8fab-207b21b85ca7",
+"originalOrder": 37,
+"originalHeading": "Linear Variation of Perimeter (Algebraic Adjustment)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted the 6-step proof into its own procedural algorithm card"
+],
+"vettingNotes": "Split Part 2: The actual derivation proof.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"proofs",
+"class-6"
+],
+"order": 14,
+"heading": "Algebraic Proof of Rectangular Perimeter Linear Variation",
+"back": "## Algorithmic Proof Steps:\n1. Establish the original algebraic identity: $P_{\text{old}} = 2(L + B)$.\n2. Establish the newly contracted Cartesian dimension: $(L - \Delta x)$.\n3. Substitute the contracted state into the base formula: $P_{\text{new}} = 2((L - \Delta x) + B)$.\n4. Distribute the scalar factor $2$ algebraically: $P_{\text{new}} = 2L - 2\Delta x + 2B$.\n5. Regroup mathematically matching terms: $P_{\text{new}} = (2L + 2B) - 2\Delta x$.\n6. Substitute the axiom from Step 1 back into the expression: $P_{\text{new}} = P_{\text{old}} - 2\Delta x$.\n\n## Conclusion\nEvery scalar linear adjustment to an isolated parallel dimensional pair propagates exactly a doubled magnitude adjustment ($\pm 2\Delta x$) to the total geometric perimeter.",
+"standardMeta": {
+"question": "Provide the formal algebraic step-by-step derivation proving that decreasing a rectangle's length by $\Delta x$ shrinks the total perimeter by exactly $2\Delta x$."
+}
+}
+},
+{
+"cardId": "ab67150b-963a-4ad0-a34b-a8a4b49b0ad4",
+"originalOrder": 39,
+"originalHeading": "Cyclic Track Race Displacements (Modulo Math)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped mod syntax",
+"Defined precise domains for continuous track geometry"
+],
+"vettingNotes": "Moved earlier to strictly conclude the section on Perimeter before branching completely to Area concepts.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"modulo",
+"mensuration",
+"class-6"
+],
+"order": 15,
+"heading": "Cyclic Track Displacement using Modulo Arithmetic",
+"back": "## Component Anatomy\n- **$D$:** The total, absolute scalar continuous distance mathematically run by the athlete.\n- **$P$:** The exact constant perimeter/circumference of the bounding closed track.\n\n## Boundary Conditions / Domain\n- The formula strictly evaluates planar displacement mapping *along the exact curve of the track path*, NOT the direct linear Euclidean distance crossing through the track's center field.\n- The loop geometry must be perfectly cyclic with the exact same start and finish point node. $D \ge 0$, $P > 0$.",
+"formulaMeta": {
+"formula": "\text{Displacement} = D \pmod P",
+"description": "If a runner traverses a massive continuous total distance $D$ on a strictly closed cyclic track of absolute perimeter $P$, state the modulo arithmetic procedure to evaluate their exact finishing linear displacement past the zero start-line.",
+"derivation": "**Algorithmic Logic:**\n1. Algebraically divide the total traversal ($D$) by the fixed track perimeter ($P$).\n2. The resulting integer quotient physically represents the exact integer count of full, finalized cyclic loops.\n3. The strict algebraic remainder (evaluated mathematically as $D \pmod P$) physically yields the precise continuous fraction of distance the entity lands ahead of the origin line."
+}
+}
+},
+{
+"cardId": "d41ab2f1-c96b-4999-8e13-7ac000bf2f32",
+"originalOrder": 14,
+"originalHeading": "Definition of Area",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified plane geometry constraints",
+"Formatted to strict standard"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"area",
+"class-6"
+],
+"order": 16,
+"heading": "Mathematical Definition of Planar Area",
+"back": "## Explanation\n- **Definition:** Area is the exact quantitative scalar measure characterizing the **2D plane region (surface) completely enclosed** strictly within the finite contiguous boundaries of a closed geometric figure.\n- **Unit of Measurement:** Because it intrinsically measures a 2D magnitude spanning two orthogonal directions, it is universally mathematically expressed in **square unit domains** (e.g., $\text{cm}^2$, $\text{m}^2$).\n\n## Boundary Conditions / Domain\n- The bounding geometry MUST strictly represent a completely closed plane figure. An open geometrical curve spans zero defined mathematical Area.",
+"mnemonic": "Area is the Space inside the place.",
+"standardMeta": {
+"question": "What is the absolute mathematical definition of planar 'Area', and what defines its mandatory metric SI unit structure?"
+}
+}
+},
+{
+"cardId": "7953986f-ab93-4fbc-9e80-3e6c4ba2c1ba",
+"originalOrder": 15,
+"originalHeading": "Tessellation Requirement for Area Measurement",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reclassified to CONCEPT",
+"Upgraded explanation utilizing explicit tessellation terminology"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"tessellation",
+"class-6"
+],
+"order": 17,
+"heading": "Cartesian Tessellation Mandate for Area Units",
+"back": "## Explanation\n- **Concept:** Planar Area is universally computationally evaluated utilizing fundamental orthogonal squares (square units) rather than bounding circles or arbitrary convex polygons.\n- **Mathematical Rationale:** Regular squares uniquely mathematically **tessellate** uniform Cartesian 2D space. This means they are structurally capable of being packed infinitely side-by-side on a Euclidean plane with absolutely **zero interstitial gaps and zero metric overlaps**.\n- Conversely, packing identical circles invariably leaves unmeasurable, irrational empty vacuums between tangential curves, corrupting the mathematical integrity of the aggregate area.",
+"mnemonic": "Squares pack tight, circles leave gaps.",
+"standardMeta": {
+"question": "Geometrically, why is planar area strictly universally measured employing squares (square units) rather than identical unit circles?"
+}
+}
+},
+{
+"cardId": "5424b4fb-2ce2-4bf4-91bf-540601b25e66",
+"originalOrder": 16,
+"originalHeading": "Grid Area Estimation: More Than Half",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected specific statistical reasoning domains"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"grids",
+"class-6"
+],
+"order": 18,
+"heading": "Grid Area Estimation: Major Bisection",
+"back": "## Component Anatomy\n- **Grid Square:** A fundamental scalar $1 \times 1$ unit polygon on Cartesian graph paper.\n\n## Boundary Conditions / Domain\n- This strictly serves as a statistical integer *estimation* algorithm for wildly irregular, organic closed topological curves mapping over discrete grids.\n- It is executed strictly when the overlaying boundary line encapsulates geometrically $>50\\%$ of the respective unit square's total interior domain.",
+"formulaMeta": {
+"formula": "\text{Value} \approx 1 \text{ sq unit}",
+"description": "State the standard statistical mapping convention utilized for integer-estimating an irregular area on a Cartesian grid if a given boundary shape explicitly covers MORE than half of a specific grid square.",
+"derivation": "Mathematically, rounding an $X > 0.5$ area inclusion uniformly up to the absolute integer $1$ allows for macroscopic statistical counter-balancing when other $X < 0.5$ fractions are systematically deleted."
+}
+}
+},
+{
+"cardId": "5e38f419-5557-46a0-8b70-bc2fcb7b2498",
+"originalOrder": 17,
+"originalHeading": "Grid Area Estimation: Exactly Half",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted to correct schema",
+"Double-escaped fractions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"grids",
+"class-6"
+],
+"order": 19,
+"heading": "Grid Area Estimation: Perfect Bisection",
+"back": "## Component Anatomy\n- **Grid Square:** A discrete basic $1 \times 1$ orthogonal unit block defined in the domain plane.\n\n## Boundary Conditions / Domain\n- Executed strictly when the traversing geometry boundary line perfectly bisects the square's 2D area directly across the center (e.g., cutting a precise vertex-to-vertex Euclidean diagonal).",
+"formulaMeta": {
+"formula": "\text{Value} \approx \frac{1}{2} \text{ sq unit}",
+"description": "State the conventional numerical mapping mapping for estimating irregular area grids when a complex boundary shape overlays strictly EXACTLY half of a fundamental unit square.",
+"derivation": "The perfect bisection divides the underlying integer area perfectly evenly, mandating an additive aggregate of $\frac{1}{2}$ mapped directly into the total polynomial sum."
+}
+}
+},
+{
+"cardId": "4bfb4fca-bf5f-40d2-b8ff-1265b8e029c6",
+"originalOrder": 18,
+"originalHeading": "Grid Area Estimation: Less Than Half",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted KaTeX variables"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"grids",
+"class-6"
+],
+"order": 20,
+"heading": "Grid Area Estimation: Minor Bisection",
+"back": "## Component Anatomy\n- **Grid Square:** A unit bounded block forming the uniform measuring grid.\n\n## Boundary Conditions / Domain\n- The procedure dictates absolute deletion strictly when the bounding curve encompasses mathematically $<50\\%$ of the discrete square's fractional internal geometry.",
+"formulaMeta": {
+"formula": "\text{Value} \approx 0",
+"description": "State the standard statistical rounding convention for integer-estimating area on a Cartesian grid if a shape encapsulates strictly LESS than half of an intersected square.",
+"derivation": "This rounding acts as the critical statistical inverse of the major bisection rule. Truncating values $<0.5$ rigidly to an absolute $0$ inherently neutralizes the mathematical error introduced by artificially inflating larger fractions strictly to $1$."
+}
+}
+},
+{
+"cardId": "33ef6f0a-dfe1-4de5-bf00-d02f3d5965c6",
+"originalOrder": 19,
+"originalHeading": "Area of a Rectangle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected rigorous dimensional analysis boundary constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 21,
+"heading": "Planar Area Formula: Rectangle",
+"back": "## Component Anatomy\n- **$l$:** Extended orthogonal Length of the target rectangle.\n- **$b$:** The perpendicular Breadth (or width) mapping the rectangle.\n- **$A$:** Total planar mathematical Area.\n\n## Boundary Conditions / Domain\n- $l > 0$ and $b > 0$.\n- **CRITICAL:** In dimensional algebra, both continuous scalar vectors ($l, b$) MUST strictly share identically formatted metric baseline units (e.g., both strictly converted to standardized $\text{meters}$) entirely prior to invoking multiplication. The output resolves uniquely into $2D$ strictly squared dimensions.",
+"mnemonic": "Area of a rect is Length times Breadth.",
+"formulaMeta": {
+"formula": "A = l \times b",
+"description": "State the standard algebraic formula utilizing orthogonal Cartesian coordinates for determining the aggregate Area of a Rectangle.",
+"derivation": "By projecting a straight length parameter ($l$) constantly across an orthogonal Cartesian spatial breadth ($b$), the total integral 2D geometry mapped evaluates simply to their uniform mathematical scalar product."
+}
+}
+},
+{
+"cardId": "6c1d8472-3ad5-4452-a4a4-827f9bf596ee",
+"originalOrder": 20,
+"originalHeading": "Area of a Square",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped math",
+"Refined bounds"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 22,
+"heading": "Planar Area Formula: Perfect Square",
+"back": "## Component Anatomy\n- **$s$:** The exact strictly equal uniform scalar length mapping an absolute singular geometric edge boundary.\n- **$A$:** Output mapping Area.\n\n## Boundary Conditions / Domain\n- Derives strictly when orthogonal continuous vectors mathematically evaluate to $l = b$. $s > 0$.",
+"mnemonic": "Side times Side gives the space inside.",
+"formulaMeta": {
+"formula": "A = s^2",
+"description": "State the standard, optimized algebraic identity formula specifically for calculating the Area of an equilateral equiangular Square.",
+"derivation": "Because the orthogonal mapping bounds strictly mandate length must identical to breadth ($l=b$), the generalized rectangular Area mapping $l \times b$ strictly degenerates uniquely into the self-multiplicative identity $s \times s$."
+}
+}
+},
+{
+"cardId": "680d5751-8184-40d3-8544-61ba7b9e65f8",
+"originalOrder": 24,
+"originalHeading": "Minimizing Perimeter for a Fixed Area",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX and absolute value mapping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"optimization",
+"class-6"
+],
+"order": 23,
+"heading": "Geometric Optimization: Minimizing Perimeter",
+"back": "## Component Anatomy\n- **$A$:** The invariant, strictly fixed constant numerical target area (e.g., $24 \text{ sq units}$).\n- **$l, b$:** Multiplicative bounding length and breadth integer factors establishing the Area.\n\n## Boundary Conditions / Domain\n- Within discrete grid math puzzles, spatial coordinate boundaries strictly mandate dimensions $l$ and $b$ must exclusively map to absolute positive integers ($l, b \in \mathbb{Z}^+$).",
+"mnemonic": "To shrink the fence, make it a square.",
+"formulaMeta": {
+"formula": "\text{Minimize } |l - b| \implies \text{Square}",
+"description": "When arranging integer unit tiles into a generalized rectangular plane holding a strict mathematically invariant Area, dictate the topological geometry condition yielding the absolute LEAST numerical perimeter.",
+"derivation": "**Algorithmic Logic:**\n1. Computationally isolate all mathematically paired integer factors mapping Area $A$ (e.g., mapping $A=24$ yields bounds: $1\times24$, $2\times12$, $3\times8$, $4\times6$).\n2. The discrete geometry strictly maximizing geometric 2D "compaction" aggressively minimizes totally exposed unbounded exterior orthogonal outer edges.\n3. Identify strictly the factor pairing producing the absolutely minimal arithmetic magnitude difference ($|l - b|$). A pairing like $4\times6$ universally dictates the minimally achievable physical perimeter constraint."
+}
+}
+},
+{
+"cardId": "134ff89e-cb32-4d96-a5c6-5e3bab812f79",
+"originalOrder": 25,
+"originalHeading": "Maximizing Perimeter for a Fixed Area",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted absolute values",
+"Injected discrete domain requirements"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"optimization",
+"class-6"
+],
+"order": 24,
+"heading": "Geometric Optimization: Maximizing Perimeter",
+"back": "## Component Anatomy\n- **$A$:** The strictly constrained, finite absolute constant target numerical geometry area.\n- **$l, b$:** Absolute length and breadth subset variables mapping factors.\n\n## Boundary Conditions / Domain\n- Dimensions $l$ and $b$ strictly necessitate $\mathbb{Z}^+$ integers.",
+"mnemonic": "To stretch the fence, make a long line.",
+"formulaMeta": {
+"formula": "\text{Maximize } |l - b| \implies 1 \times A",
+"description": "When arranging discrete integer unit block elements into a contiguous uniform rectangular polygon with rigidly fixed defined Area, define the configuration required to isolate the absolutely GREATEST generated Euclidean perimeter.",
+"derivation": "**Algorithmic Logic:**\n1. Inversing the optimization formula dictates that maximizing 1D outer boundary vectors mandates absolute maximization of totally exposed unconnected perimeter exterior linear edges.\n2. Geometrically, this requires fabricating the single most dramatically stretched, non-compact, linear contiguous vector string physically possible within constraints.\n3. The mathematical global maximum limit strictly maps linearly to the radical prime edge-case factor pairing utilizing integer $1 \times A$."
+}
+}
+},
+{
+"cardId": "d209df6f-bf43-4195-a158-5716885f08d2",
+"originalOrder": 30,
+"originalHeading": "Maximizing Perimeter of N Unit Squares",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX",
+"Defined edge-to-edge intersection requirement"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"grids",
+"optimization",
+"class-6"
+],
+"order": 25,
+"heading": "Algebraic Maximum Perimeter Boundary (N Squares)",
+"back": "## Component Anatomy\n- **$N$:** The mathematically isolated invariant total integer count defining precisely given discrete equal unit surface squares (Total geometric scalar Area).\n- **$P_{\max}$:** The isolated global maximum calculable continuous external line boundary distance.\n\n## Boundary Conditions / Domain\n- $N \in \mathbb{Z}^+$.\n- The identical square grids must physically adjoin precisely sharing $100\\%$ of identical discrete orthogonal linear edges. A purely singular vertex corner-only topological touch intrinsically mathematically violates generating a standard valid enclosed polygon.",
+"mnemonic": "Stretch it out to max the route.",
+"formulaMeta": {
+"formula": "P_{\max} = 2(N + 1)",
+"description": "Establish the specific algebraic optimization identity strictly used for computing the maximum absolute achievable perimeter configuration utilizing precisely an isolated sequence of $N$ fundamental unit squares.",
+"derivation": "**Logic Deduction:**\n1. Utilizing established max-perimeter parameters enforces stacking all given isolated $N$ geometry squares natively into one purely singular, unbroken mathematically straight Euclidean line forming a $1 \times N$ monolithic rectangle geometry.\n2. Implementing standard rectangle boundaries equates simply to: $P = 2 \times (L + B)$. By direct integer substitution where length is universally stringed to $N$ and strict breadth holds invariant at unit $1$, we map strictly to: $P = 2(N + 1)$."
+}
+}
+}
+]
+}{
+"deckId": "268c53c1-ff27-4a17-a459-1f8235b6ccb6",
+"cards": [
+{
+"cardId": "NEW_CARD_2_1",
+"originalOrder": 35,
+"originalHeading": "The Area-Perimeter Decoupling Paradox",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted the conceptual paradox into a dedicated card",
+"Assigned strictly to DISTINCTION classification"
+],
+"vettingNotes": "Split Part 1: Isolates the conceptual paradox away from the heavy proof.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6",
+"jee-main"
+],
+"order": 26,
+"heading": "The Area-Perimeter Decoupling Paradox",
+"back": "## Explanation\n- **The Paradox:** It is a fundamental geometric fallacy to assume that a strictly larger Area inherently guarantees a larger Perimeter.\n- **Concept:** It is mathematically absolutely possible for a geometric shape to possess a strictly **SMALLER Area** than another shape, yet simultaneously manifest a strictly **LARGER Perimeter**.\n- **Reasoning:** Perimeter and Area do not strictly scale linearly together. Highly elongated, non-compact shapes maximize exterior perimeter exposure regardless of holding a mathematically minimal internal area.\n\n## Boundary Conditions / Domain\n- Applies broadly across Euclidean 2D space, explicitly for rectilinear polygons.",
+"standardMeta": {
+"question": "Is it mathematically possible for a 2D geometric shape to hold a strictly SMALLER Area than another reference shape, but simultaneously possess a strictly LARGER Perimeter?"
+}
+}
+},
+{
+"cardId": "f1c7614c-de5f-41c3-a49e-e6bc18f25d43",
+"originalOrder": 35,
+"originalHeading": "The Area-Perimeter Decoupling Paradox",
+"action": "SPLIT",
+"modificationsSummary": [
+"Converted the proof to a FORMULA type under PROCEDURAL",
+"Double-escaped math expressions"
+],
+"vettingNotes": "Split Part 2: Focuses purely on the step-by-step mathematical proof of the paradox.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"proofs",
+"class-6"
+],
+"order": 27,
+"heading": "Algebraic Proof: Area-Perimeter Decoupling",
+"back": "## Component Anatomy\n- **$A$:** Total planar Area ($l \times b$).\n- **$P$:** Total scalar Perimeter ($2(l + b)$).\n\n## Boundary Conditions / Domain\n- Proof strictly relies on evaluating dimensions within the domain of positive real numbers ($l, b > 0$).",
+"formulaMeta": {
+"formula": "(A_1 < A_2) \land (P_1 > P_2)",
+"description": "Provide a strict geometric counter-example proving that Area and Perimeter are mathematically decoupled (a smaller area can have a larger perimeter).",
+"derivation": "**Algorithmic Proof:**\n1. Establish Shape 1 as a highly elongated $1 \times 18$ rectangle.\n   - Calculate its Area: $1 \times 18 = 18 \text{ sq units}$.\n   - Calculate its Perimeter: $2(1 + 18) = 38 \text{ units}$.\n2. Establish Shape 2 as a compact $4 \times 5$ rectangle.\n   - Calculate its Area: $4 \times 5 = 20 \text{ sq units}$.\n   - Calculate its Perimeter: $2(4 + 5) = 18 \text{ units}$.\n3. **Conclusion:** Compare the metrics. Shape 1 has a strictly smaller area ($18 < 20$) but a vastly larger perimeter ($38 > 18$), proving decoupling."
+}
+}
+},
+{
+"cardId": "cfd24c8e-bb67-441d-8d18-9594d91983a2",
+"originalOrder": 29,
+"originalHeading": "Tangram Area Conservation vs. Perimeter Fluctuation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Refined geometric reasoning"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"tangrams",
+"class-6"
+],
+"order": 28,
+"heading": "Geometric Fluctuation in Tangram Rearrangement",
+"back": "## Explanation\n- **Area Conservation:** If you take all $7$ rigid tangram pieces forming a perfect geometric square and spatially rearrange them into a long bounding rectangle, the **Total Area remains strictly identical** because absolutely zero planar physical material was added or removed from the finite system.\n- **Perimeter Fluctuation:** The **Total Perimeter will drastically increase**. Rearranging the compact square into a severely elongated rectangle inherently exposes more outer constituent edges that were previously hidden internally, forcing the Euclidean boundary path to be strictly longer.",
+"mnemonic": "Area stays, Boundary plays.",
+"standardMeta": {
+"question": "If all $7$ solid tangram pieces mapped into a square are disassembled and rearranged to form an elongated rectangle, what strictly happens mathematically to their aggregate Area versus their total Perimeter?"
+}
+}
+},
+{
+"cardId": "fa1b483c-4c8e-499d-a629-7432cdc85caf",
+"originalOrder": 38,
+"originalHeading": "Standard 7-Piece Tangram Area Proportionality",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted fraction to KaTeX",
+"Clarified boundary constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "FACT",
+"tags": [
+"math",
+"geometry",
+"tangrams",
+"class-6"
+],
+"order": 29,
+"heading": "Standard Tangram Base Area Proportionality",
+"back": "## Component Anatomy\n- **$C$:** The mathematical Area strictly assigned to the absolute smallest geometric triangle piece within the canonical set.\n- **$16$:** The integer multiplicative constant representing the total geometric decomposition.\n\n## Boundary Conditions / Domain\n- This ratio strictly and exclusively applies to the universal standard $7$-piece dissectible square tangram puzzle prescribed in NCERT metrics.",
+"formulaMeta": {
+"formula": "\text{Area}*{\text{total}} = 16C",
+"description": "In a standard NCERT 7-piece tangram puzzle geometrically forming a unit square, if the smallest constituent triangle piece measures an Area of $C$, what is the exact algebraic identity for the total area of the complete square?",
+"derivation": "**Geometric Mapping:**\n1. The canonical 7 pieces map precisely to: 2 small triangles (each area $C$), 1 medium triangle (area $2C$), 2 large triangles (each area $4C$), 1 square (area $2C$), and 1 parallelogram (area $2C$).\n2. Executing scalar algebraic summation: $C + C + 2C + 4C + 4C + 2C + 2C = 16C$.\n3. Therefore, the absolute smallest triangle mathematically constitutes exactly $\frac{1}{16}$ of the total bounding square's total area."
+}
+}
+},
+{
+"cardId": "eeda35e4-42a2-43dd-9961-e98ea5dbcbc9",
+"originalOrder": 36,
+"originalHeading": "Corner Cutout (or Attachment) Perimeter Conservation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Enhanced mathematical reasoning for conservation of edge lengths"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 30,
+"heading": "Perimeter Conservation in Corner Dissections",
+"back": "## Explanation\n- **Trap Result:** The overall perimeter of the altered shape remains **strictly mathematically identical** to the original base rectangle's perimeter.\n- **Mathematical Proof:** When a discrete rectangular corner piece is surgically removed (or alternatively, attached strictly inside an interior corner angle), the main geometry physically loses two outer bounding Cartesian edge segments (length $l$ and breadth $b$).\n- However, this dissection immediately exposes two previously internal orthogonal edges of the exact identical spatial lengths ($l$ and $b$) to seal the closed continuous boundary.\n- Therefore, $(P - l - b) + l + b = P$. The net algebraic perturbation to the boundary is exactly zero.",
+"mnemonic": "Cut a corner, perimeter stays regular.",
+"standardMeta": {
+"question": "If you precisely dissect and remove a small square planar piece from the exact geometric corner of a larger rectangle, how does the resulting shape's perimeter compare to the original?"
+}
+}
+},
+{
+"cardId": "NEW_CARD_2_2",
+"originalOrder": 32,
+"originalHeading": "The Square Bisection Perimeter Ratio Trap",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted the pure trap ratio into a STANDARD DISTINCTION card"
+],
+"vettingNotes": "Split Part 1: Isolates the conceptual counter-intuitive ratio trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"class-6"
+],
+"order": 31,
+"heading": "The Square Bisection Perimeter Expansion Trap",
+"back": "## Explanation\n- **Trap Result:** The absolute sum of the new perimeters of the two resulting sub-rectangles is mathematically exactly **$1.5\times$ ($1\frac{1}{2}$ times)** the magnitude of the original singular square's perimeter.\n- **Mathematical Intuition:** A common trap is assuming the perimeter halves ($0.5\times$) or strictly conserves ($1.0\times$). However, physically cutting the geometry cleanly across its domain generates two entirely new exposed interior boundaries equal to the side length, massively inflating the aggregate perimeter sum.\n\n## Boundary Conditions / Domain\n- The cut MUST be perfectly linear and traverse straight from edge-to-edge, perfectly bisecting the geometry into identical congruent rectangles.",
+"standardMeta": {
+"question": "If a perfect geometric square is perfectly bisected into two equal rectangles, what is the exact mathematical ratio comparing the sum of their two new perimeters against the original square's perimeter?"
+}
+}
+},
+{
+"cardId": "b48d927f-4f3c-47a1-b074-67483389fa95",
+"originalOrder": 32,
+"originalHeading": "The Square Bisection Perimeter Ratio Trap",
+"action": "SPLIT",
+"modificationsSummary": [
+"Converted the proof into a FORMULA procedural card",
+"Double-escaped KaTeX fractions"
+],
+"vettingNotes": "Split Part 2: Handles the algebraic derivation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"algebra",
+"class-6"
+],
+"order": 32,
+"heading": "Algebraic Proof: Square Bisection Perimeter Expansion",
+"back": "## Component Anatomy\n- **$s$:** The original uniform geometric side length of the square.\n- $P*{\text{orig}}$: The starting absolute perimeter ($4s$).\n- $P_{\text{new}}$: The combined aggregate perimeter of the subdivided shapes.\n\n## Boundary Conditions / Domain\n- The side length $s > 0$.",
+"formulaMeta": {
+"formula": "\frac{P_{\text{new}}}{P_{\text{orig}}} = 1.5",
+"description": "Provide the explicit algebraic step-by-step derivation proving that the aggregate perimeters of a bisected square sum strictly to $1.5\times$ the original perimeter.",
+"derivation": "Algorithmic Proof:\n1. Let the invariant original square feature side $s$. Original Base Perimeter = $4s$.\n2. Geometrically slicing it perfectly down the middle yields exactly two congruent rectangles possessing dimensions $s$ and $\frac{s}{2}$.\n3. Calculate the perimeter of strictly ONE sub-rectangle: $2(s + 0.5s) = 2(1.5s) = 3s$.\n4. Calculate the total aggregate sum of BOTH rectangle perimeters: $3s + 3s = 6s$.\n5. Resolve the mathematical ratio: $\frac{6s}{4s} = \frac{3}{2} = 1.5$."
+}
+}
+},
+{
+"cardId": "a94fea24-fbc7-4ef7-a6b8-60ffd88bf8b3",
+"originalOrder": 26,
+"originalHeading": "Area of a Right-Angled Triangle (Rectangle Diagonal)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped math formats"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"triangles",
+"area",
+"class-6"
+],
+"order": 33,
+"heading": "Area of a Right-Angled Triangle via Diagonal Bisection",
+"back": "## Component Anatomy\n- $A_{\text{rect}}$: The strictly derived area of the bounding orthogonal rectangle.\n- $\frac{1}{2}$: The explicit geometric bisection scalar multiplier.\n\n## Boundary Conditions / Domain\n- The right-angled triangle MUST strictly be generated by bisecting a rectangle perfectly along its Euclidean geometric diagonal.",
+"formulaMeta": {
+"formula": "\text{Area} = \frac{1}{2} A_{\text{rect}}",
+"description": "State the formula establishing the area of a right-angled triangle extracted natively from the diagonal bisection of a bounding rectangle.",
+"derivation": "Derivation Logic:\n1. Connecting opposite vertices via a straight diagonal strictly subdivides any Cartesian rectangle into exactly two geometrically congruent right-angled triangles.\n2. Because they are identically congruent, they structurally possess the exact identical scalar planar space.\n3. Therefore, the Area of one triangle is geometrically proven to be strictly and exactly half ($\frac{1}{2}$) of the unified bounding rectangle's Area."
+}
+}
+},
+{
+"cardId": "NEW_CARD_2_3",
+"originalOrder": 27,
+"originalHeading": "Area of an Inscribed Triangle (Base on Rectangle Edge)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted the core formula from the dense derivation"
+],
+"vettingNotes": "Split Part 1: Focuses on the core identity.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"area",
+"class-6"
+],
+"order": 34,
+"heading": "Area Formula for Edge-Inscribed Triangles",
+"back": "## Component Anatomy\n- $A_{\text{rect}}$: The total area of the primary bounding outer rectangle.\n- $A_{\text{tri}}$: The resulting Area of the specifically inscribed geometric triangle.\n\n## Boundary Conditions / Domain\n- The internal triangle's base must completely physically span strictly one unbroken edge of the outer bounding rectangle.\n- The triangle's opposite solitary vertex MUST physically touch the geometric line forming the exact parallel opposite side of the bounding rectangle.",
+"formulaMeta": {
+"formula": "A_{\text{tri}} = \frac{1}{2} A_{\text{rect}}",
+"description": "State the fundamental area identity linking a triangle perfectly inscribed inside a bounding rectangle where its base spans the entire width and its vertex touches the top length.",
+"derivation": "This relies on the geometric axiom that a triangle sharing identical Cartesian width (base) and strictly identical Cartesian height with a rectangle will inherently evaluate to half its planar volume."
+}
+}
+},
+{
+"cardId": "6ce73cf2-d0d3-4073-8ea5-4b7da524faf9",
+"originalOrder": 27,
+"originalHeading": "Area of an Inscribed Triangle (Base on Rectangle Edge)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Converted the proof into a purely PROCEDURAL algorithm card"
+],
+"vettingNotes": "Split Part 2: Focuses on the geometric subdivision proof.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"proofs",
+"class-6"
+],
+"order": 35,
+"heading": "Geometric Proof: Inscribed Triangle Bisection",
+"back": "## Component Anatomy\n- $A_{\text{rect1}}, A_{\text{rect2}}$: The scalar areas of the two structurally subdivided bounding sub-rectangles generated by the altitude.\n\n## Boundary Conditions / Domain\n- The dropped altitude MUST be perfectly perpendicular to the base, effectively establishing two strictly valid Cartesian right angles.",
+"formulaMeta": {
+"formula": "\text{Total Area} = \frac{1}{2} A_{\text{rect1}} + \frac{1}{2} A_{\text{rect2}}",
+"description": "Provide the geometric subdivision procedure proving why the area of an inscribed edge-spanning triangle equals strictly half of its bounding rectangle.",
+"derivation": "Algorithmic Subdivision SOP:\n1. Graphically draw a perpendicular altitude line strictly from the top touching vertex straight down orthogonal to the base.\n2. This line mathematically splits the main bounding rectangle into two smaller, distinct adjacent sub-rectangles.\n3. The altitude simultaneously splits the inscribed main triangle into exactly two right-angled sub-triangles.\n4. Within each subsystem, the sub-triangle strictly operates as the diagonal bisection of its sub-rectangle (holding $\frac{1}{2}$ the area).\n5. Algebraically summing the two bisected halves definitively proves the total triangle is strictly exactly half the total global rectangle."
+}
+}
+},
+{
+"cardId": "b6a57faa-69d3-46e6-b00d-71454bc0ba7a",
+"originalOrder": 28,
+"originalHeading": "SOP: Area of Irregular Rectilinear Polygons",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined bounds to prevent mapping overlaps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area",
+"class-6"
+],
+"order": 36,
+"heading": "Algorithm for Irregular Rectilinear Polygon Area",
+"back": "## Component Anatomy\n- $A_i$: The uniquely calculated isolated area of each discrete individual subdivision (rectangle/square).\n- $n$: The final total integer count of independent subdivided geometry pieces.\n\n## Boundary Conditions / Domain\n- The polygon must strictly be rectilinear (all internal angles evaluate strictly to $90^\circ$ or $270^\circ$).\n- CRITICAL: The drawn subdivisions must strictly NEVER spatially overlap, and they must perfectly seamlessly tile the original figure leaving absolutely zero internal geometric voids.",
+"formulaMeta": {
+"formula": "\text{Total Area} = \sum_{i=1}^{n} A_i",
+"description": "State the standard algebraic formula and computational procedure to calculate the total aggregate planar Area of a complex, step-like rectilinear shape (e.g., L-shapes).",
+"derivation": "Algorithmic SOP (Split and Add):\n1. Geometrically map straight, imaginary perpendicular boundary lines to cleanly fracture the complex figure into discrete, manageable sub-rectangles.\n2. Algebraically deduce any missing Cartesian side lengths for these new subsystems strictly by utilizing given parallel opposite edges.\n3. Calculate the isolated area ($L \times B$) of every individually subdivided rectangle entirely separately.\n4. Perform a simple scalar addition ($\sum$) of all individual sub-areas to extract the absolute total global Area."
+}
+}
+},
+{
+"cardId": "b72449b8-5b46-4292-bd32-b24ae37cd36a",
+"originalOrder": 23,
+"originalHeading": "Uncarpeted / Remaining Area Algorithm",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected subset geometry boundaries"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area",
+"class-6"
+],
+"order": 37,
+"heading": "Hollow/Remaining Surface Area Subtraction Algorithm",
+"back": "## Component Anatomy\n- **$A_{\text{total}}$:** Area of the vast primary outer geometric bounds (e.g., the total floor).\n- **$A_{\text{inner}}$:** Area of the internal occupying physical shape (e.g., the overlaying carpet).\n\n## Boundary Conditions / Domain\n- The internal occupying shape must be strictly defined as a completely bounded subset of the outer shape. If the carpet geometrically protrudes over the floor boundary, this formula mathematically collapses.",
+"formulaMeta": {
+"formula": "\text{Remaining Area} = A_{\text{total}} - A_{\text{inner}}",
+"description": "State the formal algebraic subtraction procedure used to derive the Area of a bounded planar region left physically exposed (e.g., floor uncovered by a carpet).",
+"derivation": "**Algorithmic SOP:**\n1. Independently compute the absolute gross area of the extreme outer geometric boundary ($A_{\text{total}}$).\n2. Independently compute the geometric area of the internal obstacle/overlay ($A_{\text{inner}}$).\n3. Algebraically subtract the inner area scalar strictly from the outer area scalar. The remainder uniquely isolates the unmapped exposed space."
+}
+}
+},
+{
+"cardId": "dd609c77-bc5d-4762-88c5-5d5def19bac9",
+"originalOrder": 33,
+"originalHeading": "Inner Border Dimension Deduction Algorithm",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX and defined limits for margin overlaps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"algebra",
+"class-6"
+],
+"order": 38,
+"heading": "Symmetric Margin Internal Dimension Deduction",
+"back": "## Component Anatomy\n- **$L_{\text{outer}}$:** The continuous outer boundary parameter dimension (e.g., the gross page length).\n- **$m$:** The strictly uniform scalar margin/border distance traversing inward from the edge.\n- **$L_{\text{inner}}$:** The structurally resulting dimension bounding the inner box.\n\n## Boundary Conditions / Domain\n- A valid shape requires $L_{\text{outer}} > 2m$. If $L_{\text{outer}} \le 2m$, the margins structurally overlap and perfectly eliminate the inner Euclidean space, making the area $0$ or mathematically invalid.",
+"formulaMeta": {
+"formula": "L_{\text{inner}} = L_{\text{outer}} - 2m",
+"description": "State the algebraic substitution formula necessary to extract the isolated internal Cartesian dimension ($L_{\text{inner}}$) of a bordered rectangle given an outer dimension and a uniform margin $m$.",
+"derivation": "**Algorithmic SOP:**\n1. Computationally identify the total physical outer length (e.g., $20\text{cm}$).\n2. Identify the symmetric spatial margin invading from the top ($1\text{cm}$) and opposingly from the bottom ($1\text{cm}$).\n3. Algebraically subtract the margin value STRICTLY TWICE from the total: $20 - 1 - 1 = 18\text{cm}$.\n4. Execute this exact symmetrical subtraction algorithm across the orthogonal width/breadth axis to finalize the inner geometry."
+}
+}
+},
+{
+"cardId": "NEW_CARD_2_4",
+"originalOrder": 34,
+"originalHeading": "SOP: Solving Area Maze Puzzles",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted base deductive formula into a CONCEPT card"
+],
+"vettingNotes": "Split Part 1: Isolates the base algebraic deduction formula.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area-maze",
+"class-6"
+],
+"order": 39,
+"heading": "Base Dimensional Deduction (Area Mazes)",
+"back": "## Component Anatomy\n- **Known Area:** The explicit scalar 2D metric assigned to a cell.\n- **Known Shared Side:** The explicit 1D scalar dimension established on an adjoining Cartesian edge.\n- **Unknown Side:** The perpendicular 1D scalar mapping dimension.\n\n## Boundary Conditions / Domain\n- Exclusively applies to rectilinear geometries mapping $A = l \times b$.\n- The Known Area strictly must be $>0$.",
+"formulaMeta": {
+"formula": "\text{Unknown Side} = \frac{\text{Known Area}}{\text{Known Shared Side}}",
+"description": "State the fundamental algebraic inversion formula utilized to extract missing continuous boundary lengths in interlocked Area Maze puzzles.",
+"derivation": "Since a rectangle's scalar Area $A = L \times B$, if Area and exactly one side (e.g., $L$) are defined constants, dividing both sides geometrically strictly isolates the remaining variable $B = \frac{A}{L}$."
+}
+}
+},
+{
+"cardId": "396a70d6-56f6-481b-b2b4-6ca0e6e154d1",
+"originalOrder": 34,
+"originalHeading": "SOP: Solving Area Maze Puzzles",
+"action": "SPLIT",
+"modificationsSummary": [
+"Converted the iterative loop into a STANDARD procedural algorithm card"
+],
+"vettingNotes": "Split Part 2: Covers the geometric projection algorithm.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area-maze",
+"class-6"
+],
+"order": 40,
+"heading": "Iterative Geometric Projection (Area Mazes)",
+"back": "## Algorithmic SOP\nTo systematically solve a multi-cellular Area Maze:\n1. **Locate Keystone:** Scan the grid strictly for a "keystone" rectangle explicitly defining both its Area and at least one boundary edge length.\n2. **Deduce:** Execute the base inversion formula ($\text{Side} = \frac{\text{Area}}{\text{Side}}$) to extract the remaining unknown dimension.\n3. **Project:** Geometrically project this newly deduced scalar length directly onto the adjacent touching rectangle.\n4. **Loop:** Repeat steps 2 and 3 iteratively traversing the grid structure, strictly utilizing newly verified sides to mathematically unlock adjacent unknown cells until reaching the target variable.\n\n## Boundary Conditions / Domain\n- **Adjacency Constraint:** Adjacent cells geometrically sharing a strictly flat, unbroken orthogonal line must inherently explicitly share the mathematically exact identically scalar length for that shared segment.",
+"standardMeta": {
+"question": "What is the systematic step-by-step procedural algorithm to propagate deduced dimensions iteratively across a complex, multi-rectangle Area Maze grid?"
+}
+}
+},
+{
+"cardId": "2592b39c-c6fc-492f-ac96-00c2c8c4c36b",
+"originalOrder": 7,
+"originalHeading": "Calculating Total Fencing Cost",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected strict unit matching requirement into bounds"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"mensuration",
+"real-world",
+"class-6"
+],
+"order": 41,
+"heading": "Algorithmic Calculation of Linear Fencing Cost",
+"back": "## Component Anatomy\n- **$P$:** The mathematically extracted absolute scalar perimeter of the bounding geometry.\n- **$R$:** The defined financial cost rate per strictly unitized increment of length (e.g., $\text{Rs. } 40 / \text{m}$).\n\n## Boundary Conditions / Domain\n- **Critical Domain Restriction:** Before invoking multiplication, the mapped linear metric unit of $P$ (e.g., meters) MUST strictly identically match the defined metric base unit of rate $R$. Mixing $\text{cm}$ length with a rate per $\text{m}$ invalidates the equation.",
+"formulaMeta": {
+"formula": "\text{Total Cost} = P \times R",
+"description": "State the standard algebraic procedure strictly implemented to calculate the total absolute financial cost of constructing a linear fence around a geometric field.",
+"derivation": "**Algorithmic SOP:**\n1. Geometrically deduce the total continuous perimeter $P$ of the bounded field utilizing the appropriate polygon identity (e.g., $2(l+b)$).\n2. Isolate the financial rate constant $R$ assigned per strictly single dimension unit.\n3. Algebraically multiply the aggregate perimeter magnitude by the assigned rate to establish final cost."
+}
+}
+},
+{
+"cardId": "d234ccae-faca-42c2-82f5-8adb9ff71620",
+"originalOrder": 21,
+"originalHeading": "SOP: Calculating Tiling/Flooring Cost",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formatted fraction",
+"Clarified blocking metric constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area",
+"real-world",
+"class-6"
+],
+"order": 42,
+"heading": "Algorithmic Calculation of Surface Tiling Cost",
+"back": "## Component Anatomy\n- **$A$:** The absolute computed aggregate metric area spanning the floor (e.g., $10000\text{ m}^2$).\n- **$U_{\text{block}}$:** The specific quantitative bounded area block establishing the price rate (e.g., if price is "$\text{Rs. } 8 \text{ per } 100\text{ m}^2$", then $U_{\text{block}} = 100$).\n- **$R$:** The mapped financial cost strictly per individual block.\n\n## Boundary Conditions / Domain\n- A critical dimensional trap exists. If the pricing rate is explicitly defined per arbitrary group (e.g., $100\text{ m}^2$), you MUST strictly geometrically partition the total Area by that block constant $100$ prior to invoking the financial multiplication.",
+"formulaMeta": {
+"formula": "\text{Total Cost} = \left( \frac{A}{U_{\text{block}}} \right) \times R",
+"description": "State the standard algebraic formula to calculate the aggregate total cost of tiling a 2D surface floor when strictly given a financial rate applied per predefined square unit group.",
+"derivation": "**Algorithmic SOP:**\n1. Compute the absolute Cartesian Area $A$ mapping the plane ($L \times B$).\n2. Extract the unit base grouping metric of the price. If inherently priced "per $100\text{ sq m}$", algebraically divide total metric Area by the integer $100$.\n3. Multiply this fractional mapped quantity by the defined scalar cost rate $R$."
+}
+}
+},
+{
+"cardId": "21987a0b-c105-47da-b579-20d56f9d1e53",
+"originalOrder": 22,
+"originalHeading": "SOP: Max Packing (E.g., Planting Trees)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected constraints for fractional remainders in physical domains"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"area",
+"class-6"
+],
+"order": 43,
+"heading": "Algebraic Formula for Maximum Area Packing",
+"back": "## Component Anatomy\n- **$A_{\text{total}}$:** The gross scalar mapped area of the large bounding region geometry (e.g., the field).\n- **$A_{\text{item}}$:** The strict identical fractional area inherently required by exactly one discrete individual mapped item (e.g., one tree clearance).\n- **$N$:** The maximum calculable integer count.\n\n## Boundary Conditions / Domain\n- The formula algorithm strictly assumes mathematically perfect continuous tessellation/packing yielding absolutely zero unmapped interstitial geometric gaps.\n- For physical discrete items (trees, tiles), the ultimate answer for $N$ must mathematically strictly be rounded DOWN to the nearest whole integer floor ($\lfloor N \rfloor$), since partial items are physically invalid.",
+"formulaMeta": {
+"formula": "N = \frac{A_{\text{total}}}{A_{\text{item}}}",
+"description": "State the foundational algebraic substitution formula implemented to calculate the maximum theoretical discrete integer number of items (like trees or tiles) capable of perfectly fitting inside a larger bounding area.",
+"derivation": "**Algorithmic SOP:**\n1. Computationally determine the absolute unified Area covering the bounding plane.\n2. Isolate the specific spatial Area footprint exclusively occupied by one uniform item.\n3. Algebraically divide the global area strictly by the individual component area to extract the scalar population multiplier."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
