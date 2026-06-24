@@ -1,0 +1,1005 @@
+{
+"deckId": "946225c7-590d-45ee-82a3-14d4706252cb",
+"cards": [
+{
+"cardId": "d9adc5e4-4169-4531-9130-7d354207abd2",
+"originalOrder": 2,
+"originalHeading": "Mathematical Definition of Parity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DEFINITION",
+"Refined tags"
+],
+"vettingNotes": "Corrected vague CLASSIFICATION mapping to DEFINITION.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 1,
+"heading": "Mathematical Definition of Parity",
+"back": "## Explanation\n- **Parity:** The fundamental mathematical property of an integer indicating whether it is even or odd.\n- **Even Parity:** The number can be perfectly arranged in identical pairs (exactly divisible by $2$).\n- **Odd Parity:** The number cannot be arranged in perfect pairs; division by $2$ leaves strictly one leftover element.\n\n## Boundary Conditions / Domain\n- Parity is strictly defined only for integers ($x \in \mathbb{Z}$). It does not apply to fractions or irrational numbers.",
+"mnemonic": "Parity checks if a number can PAIR up.",
+"standardMeta": {
+"question": "What is the strict mathematical definition of 'Parity' for integers, and how is it pictorially differentiated using pairs?"
+}
+}
+},
+{
+"cardId": "a6896ca2-9192-4fa6-bfe6-eca469569126",
+"originalOrder": 9,
+"originalHeading": "Formula for the nth Even Number",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured double-escaped KaTeX formatting",
+"Restructured back field for FORMULA anatomy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"number-theory",
+"sequences",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 2,
+"heading": "Formula for the nth Even Number",
+"back": "## Component Anatomy\n- $E_n$: The Even number at the specific positional index $n$.\n- $n$: The positional index in the sequence of even integers ($1, 2, 3, \dots$).\n\n## Boundary Conditions / Domain\n- $n \geq 1$, where $n$ is a strictly positive integer ($n \in \mathbb{Z}^+$).",
+"formulaMeta": {
+"formula": "E_n = 2n",
+"description": "State the algebraic formula to directly calculate the nth positive Even number.",
+"derivation": "The sequence of positive even numbers is $2, 4, 6, 8\dots$ Each is a direct multiple of $2$ based on its sequence position $n$."
+}
+}
+},
+{
+"cardId": "339d2d5d-349e-45dd-93fb-9007ea6fca12",
+"originalOrder": 10,
+"originalHeading": "Formula for the nth Odd Number",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured KaTeX escaping",
+"Moved SOP into derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"number-theory",
+"sequences",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 3,
+"heading": "Formula for the nth Odd Number",
+"back": "## Component Anatomy\n- $O_n$: The Odd number at the specific positional index $n$.\n- $n$: The positional index in the sequence of odd integers ($1, 2, 3, \dots$).\n\n## Boundary Conditions / Domain\n- $n \geq 1$, where $n$ is a strictly positive integer ($n \in \mathbb{Z}^+$).",
+"mnemonic": "To find the nth Odd, find the nth Even and step back one.",
+"formulaMeta": {
+"formula": "O_n = 2n - 1",
+"description": "State the algebraic formula to directly calculate the nth positive Odd number.",
+"derivation": "Algorithmic SOP:\n1. The sequence of positive odd numbers is $1, 3, 5, 7\dots$\n2. Notice that the $n$-th odd number is always exactly $1$ less than the $n$-th even number.\n3. Calculate the $n$-th even number: $2n$.\n4. Subtract $1$: $2n - 1$."
+}
+}
+},
+{
+"cardId": "b1189be3-0a67-42ba-9fee-0660814fcc35",
+"originalOrder": 3,
+"originalHeading": "Parity of Addition (Same Parity)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Reformatted back layout"
+],
+"vettingNotes": "Changed APPLICATION to CONCEPT as this is a core identity.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 4,
+"heading": "Parity of Addition (Same Parity)",
+"back": "## Component Anatomy\n- $\text{Even} / \text{Odd}$: The inherent parity of the integers being summed.\n\n## Boundary Conditions / Domain\n- This strictly applies to the addition of exactly TWO integers.\n- If both integers share the EXACT SAME parity, their sum is always Even.",
+"mnemonic": "Same parities combine peacefully into an Even sum.",
+"formulaMeta": {
+"formula": "\text{Even} + \text{Even} = \text{Even} \quad \text{and} \quad \text{Odd} + \text{Odd} = \text{Even}",
+"description": "State the algebraic parity equations for adding two Even integers, and adding two Odd integers.",
+"derivation": "Algorithmic Proof for Odds:\n1. $\text{Odd} = \text{pairs} + 1 \text{ leftover}$.\n2. $\text{Odd} + \text{Odd} = (\text{pairs} + 1 \text{ leftover}) + (\text{pairs} + 1 \text{ leftover})$.\n3. The two leftovers combine to form a new perfect pair.\n4. Total result is perfect pairs = $\text{Even}$."
+}
+}
+},
+{
+"cardId": "07c52227-dd87-40ff-93db-2b592c2a8280",
+"originalOrder": 4,
+"originalHeading": "Parity of Addition (Mixed Parity)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 5,
+"heading": "Parity of Addition (Mixed Parity)",
+"back": "## Component Anatomy\n- $\text{Even} / \text{Odd}$: The parities of the integers being summed.\n\n## Boundary Conditions / Domain\n- Applies strictly to the addition of exactly TWO integers with DIFFERENT parities.",
+"mnemonic": "Mixed parities leave the Odd man out.",
+"formulaMeta": {
+"formula": "\text{Even} + \text{Odd} = \text{Odd}",
+"description": "State the algebraic parity equation for adding an Even integer and an Odd integer.",
+"derivation": "Algorithmic Proof:\n1. $\text{Even} = \text{perfect pairs}$.\n2. $\text{Odd} = \text{perfect pairs} + 1 \text{ leftover}$.\n3. $\text{Even} + \text{Odd} = \text{perfect pairs} + \text{perfect pairs} + 1 \text{ leftover}$.\n4. Result has exactly $1$ leftover = $\text{Odd}$."
+}
+}
+},
+{
+"cardId": "d9b88d56-9cb8-4d2c-8f1a-e917a4af7076",
+"originalOrder": 5,
+"originalHeading": "Parity of Subtraction Operations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Injected specific double-escaped aligned block"
+],
+"vettingNotes": "Forced \begin{aligned} for KaTeX safety.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 6,
+"heading": "Parity of Subtraction Operations",
+"back": "## Component Anatomy\n- $\text{Even} / \text{Odd}$: The parities of the two integers being subtracted.\n\n## Boundary Conditions / Domain\n- Subtraction parity rules are mathematically identical to addition parity rules.\n- The order of subtraction ($a-b$ vs $b-a$) does not change the parity of the absolute difference.",
+"mnemonic": "Subtraction mirrors Addition: Same parities = Even, Mixed = Odd.",
+"formulaMeta": {
+"formula": "\begin{aligned} \text{Even} - \text{Even} &= \text{Even} \\ \text{Odd} - \text{Odd} &= \text{Even} \\ \text{Even} - \text{Odd} &= \text{Odd} \\ \text{Odd} - \text{Even} &= \text{Odd} \end{aligned}",
+"description": "State the four parity rules for the subtraction of integers.",
+"derivation": "Because subtracting an integer is mathematically identical to adding its negative counterpart, and negation does not alter parity, the addition parity rules natively govern subtraction."
+}
+}
+},
+{
+"cardId": "4860162c-d37d-4c78-828a-3808f1f66a45",
+"originalOrder": 6,
+"originalHeading": "Sum of 'n' Even Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Explicitly added boundary conditions for n"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 7,
+"heading": "Sum of 'n' Even Numbers",
+"back": "## Component Anatomy\n- $n$: The total count of even numbers being added together.\n\n## Boundary Conditions / Domain\n- $n \geq 1, n \in \mathbb{Z}$.\n- The individual magnitudes of the even numbers do not matter, only that their inherent parity is even.",
+"formulaMeta": {
+"formula": "\sum_{i=1}^{n} \text{Even}*i = \text{Even}",
+"description": "What is the parity of the sum of 'n' completely arbitrary even numbers?",
+"derivation": "Proof: An even number is a multiple of $2$. The sum of any number of multiples of $2$ allows $2$ to be factored out from the entire expression, guaranteeing the resulting sum is also a multiple of $2$ (Even)."
+}
+}
+},
+{
+"cardId": "9295539a-7348-4e08-9a22-1e28712b8ad8",
+"originalOrder": 7,
+"originalHeading": "Sum of 'n' Odd Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured strict double-escaped KaTeX in derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 8,
+"heading": "Sum of 'n' Odd Numbers",
+"back": "## Component Anatomy\n- $n$: The total count of odd numbers being added together.\n\n## Boundary Conditions / Domain\n- $n \geq 1, n \in \mathbb{Z}$.\n- The resulting parity strictly depends on whether the *count* ($n$) of odd numbers is even or odd, ignoring their individual magnitudes.",
+"mnemonic": "An EVEN amount of odds pairs up perfectly. An ODD amount of odds leaves one out.",
+"formulaMeta": {
+"formula": "\text{Parity} \left( \sum*{i=1}^{n} \text{Odd}*i \right) = \text{Parity}(n)",
+"description": "State the condition determining the parity when summing 'n' odd numbers.",
+"derivation": "Algorithmic Logic:\n1. Every odd number has $1$ leftover.\n2. Summing $n$ odd numbers yields $n$ leftovers.\n3. If $n$ is Even, the $n$ leftovers pair up perfectly $\implies$ Even Sum.\n4. If $n$ is Odd, the $n$ leftovers leave exactly $1$ remaining after pairing $\implies$ Odd Sum."
+}
+}
+},
+{
+"cardId": "85241617-f968-41e8-beba-da33becaa4d0",
+"originalOrder": 8,
+"originalHeading": "Parity of the Sum of Consecutive Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to FACT",
+"Reformatted Explanation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"number-theory",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 9,
+"heading": "Parity of the Sum of Consecutive Integers",
+"back": "- **Fact:** The sum of any two strictly consecutive integers is ALWAYS Odd.\n- **Proof Logic:** Any two consecutive integers (e.g., $x$ and $x+1$) will ALWAYS consist of exactly one Even number and exactly one Odd number.\n- **Conclusion:** By the Mixed Parity addition rule: $\text{Even} + \text{Odd} = \text{Odd}$.",
+"standardMeta": {
+"question": "What is the parity of the sum of any two consecutive integers, and why is this an absolute mathematical certainty?"
+}
+}
+},
+{
+"cardId": "95753c77-0c2b-484f-bd45-776240ea30ac",
+"originalOrder": 11,
+"originalHeading": "Parity of Small Squares in a Grid (Product Parity)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted logical AND operator",
+"Moved logic to FORMULA derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 10,
+"heading": "Parity of Small Squares in a Grid (Product Parity)",
+"back": "## Component Anatomy\n- $m$: Number of rows in the grid.\n- $n$: Number of columns in the grid.\n\n## Boundary Conditions / Domain\n- $m, n \in \mathbb{Z}^+$.\n- This translates directly to the parity rules of integer multiplication ($m \times n$).",
+"mnemonic": "One Even ruins the Odd party. (Any Even factor makes the whole product Even).",
+"formulaMeta": {
+"formula": "\text{Total Parity is Odd} \iff m \text{ is Odd } \land \text{ } n \text{ is Odd}",
+"description": "State the condition required for an m × n grid to contain a strictly ODD total number of small squares.",
+"derivation": "Rule of Products:\n- $\text{Odd} \times \text{Odd} = \text{Odd}$\n- $\text{Even} \times \text{Odd} = \text{Even}$\n- $\text{Even} \times \text{Even} = \text{Even}$\n\nTherefore, if AT LEAST ONE dimension ($m$ or $n$) is Even, the total squares will be Even."
+}
+}
+},
+{
+"cardId": "d7a6a890-5ffc-462a-9c8f-54fd2bdf8c91",
+"originalOrder": 12,
+"originalHeading": "Evaluating Parity of Algebraic Expressions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified PROCEDURAL classification",
+"Improved KaTeX rendering in derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 11,
+"heading": "Evaluating Parity of Algebraic Expressions",
+"back": "## Component Anatomy\n- $k$: An arbitrary integer variable within the expression.\n- Constants: Fixed numerical values within the expression.\n\n## Boundary Conditions / Domain\n- $k \in \mathbb{Z}$.\n- If an expression contains an isolated variable (like $k$), the parity of the expression is strictly conditional upon whether $k$ is substituted with an even or odd integer.",
+"formulaMeta": {
+"formula": "\text{Substitute test values for } k \text{ (one Even, one Odd)}",
+"description": "What is the Standard Operating Procedure (SOP) to test the parity of a linear algebraic expression like 3k + 4?",
+"derivation": "Algorithmic SOP:\n1. Assume $k$ is Even. Evaluate: $3(\text{Even}) + 4 \implies \text{Even} + \text{Even} = \text{Even}$.\n2. Assume $k$ is Odd. Evaluate: $3(\text{Odd}) + 4 \implies \text{Odd} + \text{Even} = \text{Odd}$.\n3. Conclusion: The parity is NOT fixed; it is dynamic and directly matches the parity of $k$."
+}
+}
+},
+{
+"cardId": "afcaaba2-4e18-4d5d-bfb6-51edeffec79b",
+"originalOrder": 31,
+"originalHeading": "Parity of Large Consecutive Series Summation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed to PROCEDURAL",
+"Ensured strict double escaping for formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"number-theory",
+"series",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 12,
+"heading": "Parity of Large Consecutive Series Summation",
+"back": "## Component Anatomy\n- $N$: The upper limit of the consecutive sequence (e.g., $100$).\n- $n*{\text{even}}$: Count of even numbers in the series.\n- $n_{\text{odd}}$: Count of odd numbers in the series.\n\n## Boundary Conditions / Domain\n- The sequence MUST be consecutive integers starting from $1$ to accurately split into exact odd/even counts.",
+"mnemonic": "Pair up the halves.",
+"formulaMeta": {
+"formula": "\text{Parity} \left( \sum_{i=1}^{100} i \right) = \text{Even}",
+"description": "What is the algorithmic logic to determine the parity of the sum of consecutive integers from 1 to 100 without executing the actual summation formula?",
+"derivation": "Algorithmic SOP:\n1. Count total terms: $1$ to $100$ means $100$ total terms.\n2. Since it alternates parity strictly, there are exactly $50$ Even numbers and $50$ Odd numbers.\n3. Sum of any amount of Evens = $\text{Even}$.\n4. Sum of an EVEN amount of Odds ($50$ is an even amount) = $\text{Even}$.\n5. Total Sum Parity = $\text{Even} + \text{Even} = \text{Even}$."
+}
+}
+},
+{
+"cardId": "8c97de60-18a7-457b-9494-0f07eb4a3417",
+"originalOrder": 29,
+"originalHeading": "State Toggle Parity Algorithm (Binary Systems)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"logic",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 13,
+"heading": "State Toggle Parity Algorithm (Binary Systems)",
+"back": "## Component Anatomy\n- $n$: The total number of times a switch/state is toggled.\n- $\text{Original State}$: The starting condition (e.g., ON).\n- $\text{Opposite State}$: The inverted condition (e.g., OFF).\n\n## Boundary Conditions / Domain\n- Applies strictly to binary ($2$-state) systems where operations purely alternate between two conditions.\n- $n \geq 0, n \in \mathbb{Z}$.",
+"mnemonic": "Even leaves it Even (Same), Odd makes it Odd (Different).",
+"formulaMeta": {
+"formula": "\text{Final State} = \begin{cases} \text{Opposite State}, & \text{if } n \text{ is Odd} \\ \text{Original State}, & \text{if } n \text{ is Even} \end{cases}",
+"description": "State the parity condition used to determine the final state of a binary system (like a lightbulb) after 'n' sequential toggles.",
+"derivation": "Algorithmic Logic:\n1. 1st toggle (Odd count) $\implies$ Switches to OFF.\n2. 2nd toggle (Even count) $\implies$ Switches to ON (returns to start).\n3. Therefore, any Odd number of total toggles (e.g., $77$ times) will strictly leave the system in the Opposite State."
+}
+}
+},
+{
+"cardId": "3fb615e4-cd46-4483-89bd-0465adba4ade",
+"originalOrder": 26,
+"originalHeading": "Domain Trap: Odd Number Expressions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION",
+"Ensured rigorous domain definitions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"algebra",
+"domain",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 14,
+"heading": "Domain Trap: Odd Number Expressions",
+"back": "- **The Trap:** Both $2n-1$ and $2n+1$ can generate odd numbers, but they are not mathematically identical when the domain is restricted.\n- **$2n-1$:** If the domain is natural numbers ($n \geq 1$), this evaluates to $1, 3, 5, 7 \dots$, successfully covering **ALL** positive odd numbers.\n- **$2n+1$:** If the domain is strictly $n \geq 1$, this evaluates to $3, 5, 7 \dots$, permanently **missing the number $1$**.\n- **Conclusion:** $2n+1$ fails to describe *all* positive odd numbers unless the domain explicitly includes $n = 0$.",
+"mnemonic": "+1 skips 1.",
+"standardMeta": {
+"question": "Why does the expression 2n-1 successfully describe ALL positive odd numbers for n ≥ 1, while the expression 2n+1 mathematically fails to do so?"
+}
+}
+},
+{
+"cardId": "6343d2fa-c989-420d-8cd6-26b3cbfadede",
+"originalOrder": 13,
+"originalHeading": "Definition of a Magic Square",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DEFINITION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"magic-squares",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 15,
+"heading": "Definition of a Magic Square",
+"back": "- **Core Definition:** A square grid of numbers where specific linear combinations sum to the exact same constant, known as the Magic Sum.\n- **Three Required Conditions:**\n  1. Every horizontal row adds to the Magic Sum.\n  2. Every vertical column adds to the Magic Sum.\n  3. Both main diagonals add to the Magic Sum.",
+"mnemonic": "Rows, Columns, Diagonals - All paths lead to the Magic Sum.",
+"standardMeta": {
+"question": "What are the three strict mathematical summation conditions a numerical grid must simultaneously satisfy to be classified as a 'Magic Square'?"
+}
+}
+},
+{
+"cardId": "bd808aea-82b4-42c9-ba7d-9d51632294fe",
+"originalOrder": 16,
+"originalHeading": "Generalized 3x3 Magic Sum Formula",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"magic-squares",
+"algebra",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 16,
+"heading": "Generalized 3x3 Magic Sum Formula",
+"back": "## Component Anatomy\n- $S_{\text{magic}}$: The Magic Sum of the square.\n- $m$: The value placed in the exact center cell of the $3\times3$ grid.\n\n## Boundary Conditions / Domain\n- Strictly applies to $3\times3$ Magic Squares constructed with numbers forming an arithmetic progression.",
+"mnemonic": "The Magic Sum is Triple the Middle.",
+"formulaMeta": {
+"formula": "S_{\text{magic}} = 3m",
+"description": "State the algebraic formula linking the Magic Sum to the center value 'm' in a 3x3 Magic Square.",
+"derivation": "In a generalized $3\times3$ magic square with center $m$, the symmetrical opposite cells (e.g., $m-1$ and $m+1$) cancel their offsets when added across a line passing through the center.\nA line through the center is $(m-k) + m + (m+k) = 3m$."
+}
+}
+},
+{
+"cardId": "069b6123-6a19-4f59-8303-b2fa8be8241d",
+"originalOrder": 14,
+"originalHeading": "Fixed Properties of the 3x3 (1-9) Magic Square",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"magic-squares",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 17,
+"heading": "Fixed Properties of the 3x3 (1-9) Magic Square",
+"back": "- **Total Grid Sum:** Adding digits $1$ through $9$ equals $45$.\n- **Magic Sum:** Since $3$ rows share the total sum equally, the Magic Sum is strictly $45 \div 3 = \mathbf{15}$.\n- **Center Value Requirement:** Through combinatorial necessity to satisfy all intersecting paths to $15$, the center square MUST strictly be $5$. (Applying $S_{\text{magic}} = 3m \implies 15 = 3(5)$).",
+"mnemonic": "Center is 5, Magic Sum is 15 (3 times 5).",
+"standardMeta": {
+"question": "For a standard 3x3 Magic Square containing exactly the distinct integers 1 through 9, state the fixed Magic Sum, the Total Grid Sum, and the required Center Value."
+}
+}
+},
+{
+"cardId": "06713b5b-6480-4907-8822-450ebf848caa",
+"originalOrder": 28,
+"originalHeading": "Boundary Limits for 3x3 Grid Sums",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified APPLICATION classification"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"magic-squares",
+"combinatorics",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 18,
+"heading": "Boundary Limits for 3x3 Grid Sums",
+"back": "- **The Constraint:** When filling a $3\times3$ grid with the strictly distinct digits $1$ through $9$, the values within any single row or column are mathematically bounded.\n- **Minimum Possible Sum:** Utilizing the three smallest available digits ($1+2+3$), the absolute minimum sum is **$6$**.\n- **Maximum Possible Sum:** Utilizing the three largest available digits ($7+8+9$), the absolute maximum sum is **$24$**.\n- **Application:** If a puzzle requests a row sum of $5$ or $26$, it is structurally impossible and can be rejected immediately.",
+"mnemonic": "Sums live between 6 and 24.",
+"standardMeta": {
+"question": "What are the strict minimum and maximum boundary limits for any single row or column sum when placing the distinct digits 1 through 9 into a 3x3 grid?"
+}
+}
+},
+{
+"cardId": "5b868a37-6657-425c-bfc6-dc4d39aea969",
+"originalOrder": 15,
+"originalHeading": "Corner Restrictions in 3x3 Magic Squares",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"magic-squares",
+"combinatorics",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 19,
+"heading": "Corner Restrictions in 3x3 Magic Squares",
+"back": "- **The Constraint:** The extreme integers $1$ and $9$ cannot exist in corner positions of a standard $1-9$ Magic Square.\n- **The Logic:** A corner cell participates in exactly $3$ crossing sums ($1$ row, $1$ col, $1$ diagonal).\n- **Mathematical Proof:** The numbers $1$ and $9$ do not have $3$ distinct pairs of remaining available integers that sum to $14$ (to satisfy $1+14=15$) or $6$ (to satisfy $9+6=15$). Therefore, they are mathematically forced into middle-edge positions.",
+"mnemonic": "Extremes stay out of the corners.",
+"standardMeta": {
+"question": "In a standard 3x3 Magic Square (digits 1-9), why are the integers 1 and 9 mathematically prohibited from occupying the corner positions?"
+}
+}
+},
+{
+"cardId": "dbe0689e-ade4-4a69-aaec-691e80db0ebf",
+"originalOrder": 17,
+"originalHeading": "Magic Square Transformation: Addition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double escaped KaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"magic-squares",
+"algebra",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 20,
+"heading": "Magic Square Transformation: Addition",
+"back": "## Component Anatomy\n- $S_{\text{new}}$: The new Magic Sum after transformation.\n- $S_{\text{old}}$: The original Magic Sum.\n- $c$: The constant added to EVERY individual cell in the grid.\n\n## Boundary Conditions / Domain\n- This specific formula strictly applies to $3\times3$ grids (because a row has exactly $3$ elements receiving the $+c$).",
+"formulaMeta": {
+"formula": "S_{\text{new}} = S_{\text{old}} + 3c",
+"description": "State the formula calculating the new Magic Sum when a constant 'c' is added to every entry of a 3x3 Magic Square.",
+"derivation": "Algorithmic Proof:\n1. Let a row equal $x + y + z = S_{\text{old}}$.\n2. Add constant $c$ to each entry: $(x+c) + (y+c) + (z+c)$.\n3. Simplify by grouping variables: $x + y + z + 3c$.\n4. Substitute the original sum: $S_{\text{old}} + 3c$."
+}
+}
+},
+{
+"cardId": "96b6d5ae-573f-4b0d-a7d7-e2c32e486749",
+"originalOrder": 18,
+"originalHeading": "Magic Square Transformation: Multiplication",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double escaped KaTeX formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"magic-squares",
+"algebra",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 21,
+"heading": "Magic Square Transformation: Multiplication",
+"back": "## Component Anatomy\n- $S_{\text{new}}$: The new Magic Sum after transformation.\n- $S_{\text{old}}$: The original Magic Sum.\n- $c$: The constant multiplying EVERY cell in the grid.\n\n## Boundary Conditions / Domain\n- Applies generally to Magic Squares of any dimension, since $c$ factors out identically across all entries in a row.",
+"formulaMeta": {
+"formula": "S_{\text{new}} = S_{\text{old}} \times c",
+"description": "State the formula calculating the new Magic Sum when every entry of a Magic Square is multiplied by a constant 'c'.",
+"derivation": "Algorithmic Proof:\n1. Let a row equal $x + y + z = S_{\text{old}}$.\n2. Multiply each entry by $c$: $cx + cy + cz$.\n3. Factor out the common term $c$: $c(x + y + z)$.\n4. Substitute original sum: $c \times S_{\text{old}}$."
+}
+}
+},
+{
+"cardId": "ff7f64f7-b72f-463a-a331-2634eb8d3f68",
+"originalOrder": 30,
+"originalHeading": "Permutations vs. Unique Magic Squares",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to FACT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"magic-squares",
+"combinatorics",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 22,
+"heading": "Permutations vs. Unique Magic Squares",
+"back": "- **Total Combinations:** There are $9! = 362,880$ mathematical ways to place the digits $1-9$ randomly into a $3\times3$ grid.\n- **Magic Square Rarity:** Out of those hundreds of thousands of permutations, there is exactly **$1$ unique structural magic square** that satisfies all summation rules.\n- **Note:** While it can be rotated or reflected to look visually different (yielding $8$ symmetry variations), its core mathematical structure is totally unique.",
+"standardMeta": {
+"question": "Out of the 362,880 possible permutations to fill a 3x3 grid with the digits 1-9, exactly how many unique magic square configurations exist (ignoring simple rotations and reflections)?"
+}
+}
+},
+{
+"cardId": "33f450af-19a4-4f1c-a9f7-aee70470576d",
+"originalOrder": 19,
+"originalHeading": "Historical Magic Squares",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified FACT classification"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"magic-squares",
+"history",
+"class-7",
+"ncert"
+],
+"order": 23,
+"heading": "Historical Magic Squares",
+"back": "- **Chautīsā Yantra:** A 10th-century $4\times4$ Magic Square found in the Parshvanath Jain temple in Khajuraho, India. Its magic sum is exactly $34$.\n- **Lo Shu Square:** The oldest recorded $3\times3$ magic square, dating back over $2000$ years to ancient China, legendarily discovered on a turtle's back.\n- **Kubera / Navagraha Yantras:** $3\times3$ Magic Squares integrated into Indian cultural and astrological artifacts.",
+"standardMeta": {
+"question": "Name two historically significant Magic Squares mentioned in the text, their cultural origins, and their dimensions."
+}
+}
+},
+{
+"cardId": "6db94932-fc15-43b3-9165-0a477d8f2354",
+"originalOrder": 20,
+"originalHeading": "Virahānka-Fibonacci Sequence Origin",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to FACT"
+],
+"vettingNotes": "Classification mapping changed to FACT per metadata rules.",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"sequences",
+"history",
+"class-7",
+"ncert"
+],
+"order": 24,
+"heading": "Virahānka-Fibonacci Sequence Origin",
+"back": "- **Sequence:** $1, 2, 3, 5, 8, 13, 21, 34, 55, 89\dots$\n- **Origin Context:** First discovered by Indian linguists and poets (like Virahānka, Pingala, Hemachandra) while calculating rhythms of poetry using combinations of Short (1 beat) and Long (2 beat) syllables.\n- **Natural Occurrence:** It governs organic growth patterns, such as the exact number of spirals on pinecones or petals on daisies.",
+"standardMeta": {
+"question": "What sequence did the Indian scholar Virahānka historically discover, what are its first few terms, and what field of study originally prompted its discovery?"
+}
+}
+},
+{
+"cardId": "4cc3a9f1-6eb3-483e-bee9-dd8365602e54",
+"originalOrder": 21,
+"originalHeading": "Virahānka-Fibonacci Recursive Formula",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified PROCEDURAL classification",
+"Ensured KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"sequences",
+"recursion",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 25,
+"heading": "Virahānka-Fibonacci Recursive Formula",
+"back": "## Component Anatomy\n- $V_n$: The $n$-th term in the sequence.\n- $V_{n-1}$: The immediately preceding term.\n- $V_{n-2}$: The term two steps back.\n\n## Boundary Conditions / Domain\n- $n \geq 3, n \in \mathbb{Z}$.\n- The first two base terms must be established explicitly as $V_1 = 1$ and $V_2 = 2$ (in the context of syllable counting) before the recursive formula can operate.",
+"mnemonic": "To step forward, sum the last two footprints.",
+"formulaMeta": {
+"formula": "V_n = V_{n-1} + V_{n-2}",
+"description": "State the recursive mathematical formula used to generate the next number in the Virahānka-Fibonacci sequence.",
+"derivation": "The logic dictates that any sequence term (past the second) is strictly the sum of the two integers immediately preceding it."
+}
+}
+},
+{
+"cardId": "ec552d2e-7e09-4327-b439-1d3b4912d5b8",
+"originalOrder": 22,
+"originalHeading": "Parity Pattern in Virahānka Sequence",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to OBSERVATION",
+"Injected explicit boundary conditions regarding initialization"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": [
+"math",
+"sequences",
+"parity",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 26,
+"heading": "Parity Pattern in Virahānka Sequence",
+"back": "- **The Repeating Cycle:** The sequence exhibits a strict parity cycle: Odd, Even, Odd, Odd, Even, Odd...\n- **Cycle Length:** The pattern perfectly repeats every 3 numbers.\n- **Why it happens (Deduction):**\n  - $V_1$ (Odd) + $V_2$ (Even) = $V_3$ (Odd)\n  - $V_2$ (Even) + $V_3$ (Odd) = $V_4$ (Odd)\n  - $V_3$ (Odd) + $V_4$ (Odd) = $V_5$ (Even)\n\n## Boundary Conditions / Domain\n- This exact parity cycle is strictly conditional upon the sequence being initialized with an Odd number ($V_1=1$) and an Even number ($V_2=2$). Different starting parities would yield a different cycle.",
+"mnemonic": "O-E-O repeats.",
+"standardMeta": {
+"question": "What is the specific, repeating parity cycle found within the Virahānka sequence, and what is its cycle length?"
+}
+}
+},
+{
+"cardId": "9df67920-83c3-409f-bd30-e9d3695dc119",
+"originalOrder": 23,
+"originalHeading": "Syllable / Staircase Combinatorics via Virahānka",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured double-escaped KaTeX",
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"combinatorics",
+"sequences",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 27,
+"heading": "Syllable / Staircase Combinatorics via Virahānka",
+"back": "## Component Anatomy\n- $\text{Ways}(n)$: Total distinct combinations to achieve a sum/staircase of height $n$.\n- $V_n$: The $n$-th term of the Virahānka sequence (where $V_1=1, V_2=2, V_3=3, V_4=5\dots$).\n\n## Boundary Conditions / Domain\n- The problem domain strictly restricts movements/additions to elements of size $1$ (short syllable/1 step) and size $2$ (long syllable/2 steps).\n- $n \geq 1, n \in \mathbb{Z}^+$.",
+"formulaMeta": {
+"formula": "\text{Ways}(n) = V_n",
+"description": "State the algorithmic identity used to calculate the number of distinct ways to climb an n-step staircase taking only 1 or 2 steps at a time.",
+"derivation": "Algorithmic Logic:\n1. To legally reach step $n$, you must have originated from either step $n-1$ (taking a 1-step) OR step $n-2$ (taking a 2-step).\n2. Therefore, $\text{Ways}(n) = \text{Ways}(n-1) + \text{Ways}(n-2)$.\n3. This perfectly matches the inherent Virahānka-Fibonacci recursive formula."
+}
+}
+},
+{
+"cardId": "42787dc3-4028-41b1-adac-950813af37d1",
+"originalOrder": 24,
+"originalHeading": "Cryptarithms (Alphametics) Boundary Conditions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DEFINITION",
+"Added explicit base-10 mathematical boundary"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"cryptarithms",
+"logic",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 28,
+"heading": "Cryptarithms (Alphametics) Boundary Conditions",
+"back": "- **Unique Assignment:** Every letter represents exactly one distinct digit from $0$ to $9$.\n- **No Overlap Constraint:** Different letters must strictly represent different digits (If $T=5$, no other letter can be $5$).\n- **No Leading Zeros:** A multi-digit number cannot mathematically begin with the digit $0$ (e.g., the string $UT$ cannot evaluate to $05$, establishing that $U \neq 0$).\n\n## Boundary Conditions / Domain\n- All cryptarithms operate strictly within the standard Base-10 arithmetic system unless explicitly stated otherwise.",
+"standardMeta": {
+"question": "What are the three strict mathematical boundary rules required to solve a valid Cryptarithm puzzle?"
+}
+}
+},
+{
+"cardId": "215a98d9-42f5-4248-abad-27b79041d02f",
+"originalOrder": 27,
+"originalHeading": "Maximum Carry-Over Rule in Cryptarithms",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split card into two distinct atomic logical steps",
+"Card 1 of 2: Absolute Maximum Addition Limit"
+],
+"vettingNotes": "First half of the split. Focuses strictly on establishing the 198 limit.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"cryptarithms",
+"limits",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 29,
+"heading": "Maximum Addition Limit for Two 2-Digit Numbers",
+"back": "## Component Anatomy\n- $d_1 d_2, d_3 d_4$: Any two arbitrary 2-digit integer constructs.\n\n## Boundary Conditions / Domain\n- The domain of any valid 2-digit number strictly ranges from $10$ to $99$.",
+"mnemonic": "Two digits plus two digits never breaks two hundred.",
+"formulaMeta": {
+"formula": "\max(d_1d_2 + d_3d_4) = 198",
+"description": "State the absolute maximum possible sum when adding any two arbitrary 2-digit numbers.",
+"derivation": "Algorithmic Limit Testing:\n1. The highest possible legal 2-digit number is $99$.\n2. Adding the two highest possible constructs: $99 + 99 = 198$.\n3. Therefore, no two 2-digit numbers can sum to $199$ or greater."
+}
+}
+},
+{
+"cardId": "NEW_CARRYOVER_DEDUCTION",
+"originalOrder": 27,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Card 2 of 2: Applying the 198 limit to hundreds-place deductions"
+],
+"vettingNotes": "Second half of the split. Focuses on the procedural application of the 198 limit.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"cryptarithms",
+"deduction",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 30,
+"heading": "Hundreds Digit Deduction in Cryptarithms",
+"back": "- **The Deduction:** The hundreds digit of the resulting sum MUST strictly be $1$.\n- **Algorithmic Logic:**\n  1. The theoretical mathematical maximum sum of any two 2-digit numbers is strictly $99 + 99 = 198$.\n  2. Any 3-digit number generated by such an addition falls strictly in the domain $[100, 198]$.\n  3. Therefore, the carry-over into the hundreds place can never mathematically exceed $1$.\n\n## Boundary Conditions / Domain\n- This deduction only holds when exactly TWO 2-digit numbers are being added. Adding three or more numbers raises the maximum bound.",
+"standardMeta": {
+"question": "If the addition of exactly two 2-digit numbers yields a 3-digit sum in a cryptarithm (e.g., UT + TA = TAT), what is the immediate mathematical deduction for the hundreds digit?"
+}
+}
+},
+{
+"cardId": "be18d2ce-4bdc-4bd0-a94c-fa772a694d95",
+"originalOrder": 25,
+"originalHeading": "Solving Repeated Addition Cryptarithms",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split card to prevent cognitive bloat",
+"Card 1 of 2: Algebraic translation formula"
+],
+"vettingNotes": "First half of the split. Focuses solely on translating the column to algebra.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"cryptarithms",
+"algebra",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 31,
+"heading": "Algebraic Setup for Repeated Addition Cryptarithms",
+"back": "## Component Anatomy\n- $k$: The integer count of times the single-digit letter is added to itself.\n- $A$: The target single digit being added (e.g., $U$ in $U+U+U$).\n- $B$: The tens digit generated in the resulting sum.\n\n## Boundary Conditions / Domain\n- Applies when a column of identical digits sums to a result whose units place matches the initial identical digit.",
+"formulaMeta": {
+"formula": "k \times A = 10B + A",
+"description": "State the algebraic setup to solve a cryptarithm where a single digit 'A' added 'k' times yields a sum ending in that exact same digit 'A'.",
+"derivation": "Algorithmic Translation:\n1. Let the repeated digit be $A$, repeated $k$ times. Total sum side = $k \cdot A$.\n2. Let the multi-digit result be represented by tens digit $B$ and units digit $A$.\n3. Expanding the result using base-10 place value yields $10B + A$.\n4. Equating the two sides: $k \cdot A = 10B + A$."
+}
+}
+},
+{
+"cardId": "NEW_CRYPTARITHM_TESTING",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Card 2 of 2: Domain testing and substitution phase"
+],
+"vettingNotes": "Second half of the split. Focuses on testing values once the algebra is set up.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"cryptarithms",
+"deduction",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 32,
+"heading": "Domain Testing in Cryptarithms",
+"back": "- **Algorithmic SOP:**\n  1. Isolate the variables from the algebraic equation (e.g., $3U = 10T + U \implies 2U = 10T \implies U = 5T$).\n  2. Systematically test the domain of independent variable ($T$) from $0$ to $9$.\n  3. If $T=1$, then $U = 5(1) = 5$. Check consistency: $5+5+5=15$ (Matches $UT$!).\n  4. Enforce constraint checks: Ensure the derived values do not violate the 'No Leading Zeros' or 'Unique Assignment' rules.\n\n## Boundary Conditions / Domain\n- The domain for testing variables is strictly the integers $[0, 9]$. If the calculation yields a fractional value or a value $\geq 10$, that test path is invalid.",
+"standardMeta": {
+"question": "After establishing the algebraic equation for a repeated addition cryptarithm (e.g., $U = 5T$), what is the systematic procedure to solve for the missing distinct digits?"
+}
+}
+},
+{
+"cardId": "cfff2595-f66c-452a-ad85-0f3c6a96b89d",
+"originalOrder": 1,
+"originalHeading": "Condition for Calling Out '0' in Height Queues",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION",
+"Moved to end of chapter as lateral thinking exercise"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"logic-puzzles",
+"class-7",
+"ncert",
+"jee-main"
+],
+"order": 33,
+"heading": "Condition for Calling Out '0' in Height Queues",
+"back": "- **The Rule:** Each person calls out the count of people strictly *in front* of them who possess a strictly greater height.\n- **Always True Condition 1:** The very first person in the line ALWAYS calls '0' (The domain of 'people in front' is an empty set $\emptyset$, yielding a count of zero).\n- **Always True Condition 2:** The tallest person in the entire group ALWAYS calls '0' (The domain of 'people taller than them' is an empty set $\emptyset$).\n- **The Trap:** Just because someone calls '0' does NOT mathematically prove they are the tallest; they might just be at the front, or simply have only shorter people ahead of them.",
+"mnemonic": "Zero means 'Zero taller ahead', not 'Zero height'.",
+"standardMeta": {
+"question": "In a queue where each person calls out the number of taller people strictly in front of them, under what two distinct boundary conditions is a person mathematically guaranteed to call out '0'?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
