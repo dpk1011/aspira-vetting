@@ -1,0 +1,989 @@
+{
+"deckId": "2808f237-58cd-44db-be78-77abef75ef71",
+"cards": [
+{
+"cardId": "4b428652-34ea-4f16-933a-cddb6ee02559",
+"originalOrder": 10,
+"originalHeading": "Conjectures vs. Generalisations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed simple number KaTeX (e.g. $1$ to 1)"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 1,
+"heading": "Mathematical Proof: Conjectures vs. Generalisations",
+"back": "- **Conjecture:** An educated mathematical guess or claim made strictly **without formal proof** or verification.\n- **Generalisation:** A mathematical pattern, statement, or property that has been rigorously **proven to hold true in all possible cases**.",
+"standardMeta": {
+"question": "What is the strict mathematical distinction between a 'Conjecture' and a 'Generalisation'?"
+}
+}
+},
+{
+"cardId": "155d60f8-61c7-461c-b181-0ea67391f358",
+"originalOrder": 11,
+"originalHeading": "Disproving Mathematical Conjectures",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 2,
+"heading": "Disproving Mathematical Conjectures",
+"back": "- **Concept:** To prove a conjecture is false, you do not need to show it fails every time.\n- **Action:** You strictly only need to find a single **Counterexample**.\n- **Definition:** A counterexample is one specific, valid mathematical case where the proposed claim mathematically fails.",
+"standardMeta": {
+"question": "Mathematically, what is the most efficient and definitive method to completely disprove a proposed mathematical conjecture?"
+}
+}
+},
+{
+"cardId": "ae7de578-13c4-455d-9850-1f9bc9e8c257",
+"originalOrder": 5,
+"originalHeading": "The Core Concept of Prime Factorisation",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 3,
+"heading": "The Core Concept of Prime Factorisation",
+"back": "- **Definition:** The process of mathematically breaking down any composite number strictly into a product of prime numbers.\n- **Absolute Rule:** Every composite number has a unique prime factorisation signature (excluding the order in which the factors are written).",
+"standardMeta": {
+"question": "What is the fundamental mathematical definition of the Prime Factorisation of a composite number?"
+}
+}
+},
+{
+"cardId": "25fa394f-7d9a-4c13-a5db-605ae4a59166",
+"originalOrder": 6,
+"originalHeading": "Prime Factorisation (Division Method)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed $1$ KaTeX and replaced with standard text formatting.",
+"Ensured KaTeX is double-escaped."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 4,
+"heading": "Prime Factorisation (Division Method)",
+"back": "## Component Anatomy:\n- **Composite Dividend:** The number being broken down.\n- **Prime Divisors:** The prime numbers (2, 3, 5, 7, 11...) used to divide the composite number.\n\n## Boundary Conditions / Domain:\n- You must STRICTLY only divide using prime numbers.\n- Using composite numbers (like 4 or 9) invalidates the process.",
+"mnemonic": "Divide by Primes until you hit a Prime.",
+"formulaMeta": {
+"formula": "\\text{Composite} = P_1 \\times P_2 \\times \\dots \\times P_n",
+"description": "State the standard operating procedure for executing the Division Method of Prime Factorisation.",
+"derivation": "Algorithmic SOP:\n1. Find the smallest prime number that exactly divides the given composite number.\n2. Write the quotient below it.\n3. Repeat the division on the new quotient using the smallest possible prime.\n4. Stop when the final quotient is exactly **1** or a prime number."
+}
+}
+},
+{
+"cardId": "f240de83-ba69-49cf-9408-1caef8f2206b",
+"originalOrder": 7,
+"originalHeading": "Extracting All Factors from Prime Factorisation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed simple unit KaTeX for numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 5,
+"heading": "Extracting All Factors from Prime Factorisation",
+"back": "- **Concept:** Once a number is broken into its prime factors, **every possible factor** of that original number can be generated from it.\n- **Mechanism:** You create factors by multiplying every possible combination (subpart) of those prime factors.\n- **Rule:** Do not forget to include exactly **1** and the number itself in the final list.",
+"standardMeta": {
+"question": "How can you mathematically guarantee you have found every possible factor of a composite number using only its prime factorisation?"
+}
+}
+},
+{
+"cardId": "0841725b-7b28-4c4d-a10c-afccdc09b1a9",
+"originalOrder": 30,
+"originalHeading": "Composite Sub-Factorization Fallacy",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"edge-case"
+],
+"order": 6,
+"heading": "Composite Sub-Factorization Fallacy",
+"back": "- **The Scenario:** A student factorizes 72 = 6 * 12 and 144 = 8 * 18.\n- **The Trap:** Because none of the visible base numbers (6 and 12 vs. 8 and 18) are strictly identical, the student concludes the HCF is **1**.\n- **The Resolution:** This is mathematically invalid because 6, 12, 8, and 18 are **composite numbers**.\nThey house hidden common primes. You can NEVER determine true common factors or the HCF until both numbers are completely broken down into their absolute fundamental **prime** building blocks.",
+"mnemonic": "Don't judge the HCF until you hit rock-bottom primes.",
+"standardMeta": {
+"question": "If two numbers are factorized as 72 = 6 * 12 and 144 = 8 * 18, why is it a severe mathematical error to conclude they share no common factors just by looking at those initial equations?"
+}
+}
+},
+{
+"cardId": "c9422b10-bf8a-4b8b-85d9-8dd082b14fd0",
+"originalOrder": 1,
+"originalHeading": "Highest Common Factor (HCF) / Greatest Common Divisor (GCD)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed unneeded KaTeX formatting on the number 0."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 7,
+"heading": "Highest Common Factor (HCF) / Greatest Common Divisor (GCD)",
+"back": "- **Definition:** The highest (or greatest) common factor mathematically shared between two or more given numbers.\n- **Significance:** It is the strictly largest integer that divides all the given numbers exactly, leaving a remainder of **0**.",
+"mnemonic": "HCF = Heaviest Common Fraction",
+"standardMeta": {
+"question": "What does the Highest Common Factor (HCF), also known as the Greatest Common Divisor (GCD), represent mathematically?"
+}
+}
+},
+{
+"cardId": "620a54dd-58d6-44d2-9863-1d23907271dc",
+"originalOrder": 8,
+"originalHeading": "Calculating HCF via Prime Factorisation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in formula."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 8,
+"heading": "Calculating HCF via Prime Factorisation",
+"back": "## Component Anatomy:\n- **Common Primes:** The specific prime numbers that appear in the factorisation of EVERY given number.\n- **Lowest Power:** The minimum number of times that specific prime occurs across the factorisations.\n\n## Boundary Conditions / Domain:\n- If absolutely no primes are common across all numbers, the HCF defaults strictly to **1**.",
+"mnemonic": "HCF = Minimum Power of Common Primes.",
+"formulaMeta": {
+"formula": "\\text{HCF} = \\text{Product of } \\textbf{common} \\text{ prime factors with the } \\textbf{lowest} \\text{ power.}",
+"description": "State the mathematical rule for calculating the Highest Common Factor (HCF) directly from prime factorisations.",
+"derivation": "Algorithmic SOP:\n1. Write the prime factorisation of each number.\n2. Circle only the prime numbers that exist in ALL lists.\n3. For each circled prime, select the one with the smallest exponent (minimum occurrences).\n4. Multiply these selected primes together."
+}
+}
+},
+{
+"cardId": "100e666a-9879-4ff6-859c-08d57d7d5933",
+"originalOrder": 3,
+"originalHeading": "Lowest Common Multiple (LCM)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 9,
+"heading": "Lowest Common Multiple (LCM)",
+"back": "- **Definition:** The smallest strictly positive integer that is a multiple of two or more given numbers.\n- **Significance:** It is the absolute first point on the number line where the multiplication sequences of the given numbers intersect.",
+"mnemonic": "LCM = Least Common Meeting point",
+"standardMeta": {
+"question": "What does the Lowest Common Multiple (LCM) of a group of numbers mathematically represent?"
+}
+}
+},
+{
+"cardId": "e94d6865-386f-4980-9d71-d0629ef83737",
+"originalOrder": 9,
+"originalHeading": "Calculating LCM via Prime Factorisation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in formula."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 10,
+"heading": "Calculating LCM via Prime Factorisation",
+"back": "## Component Anatomy:\n- **All Primes:** Every distinct prime number that appears in ANY of the factorisation lists.\n- **Highest Power:** The maximum number of times that specific prime occurs in any single list.\n\n## Boundary Conditions / Domain:\n- Valid for any set of two or more strictly positive integers.",
+"mnemonic": "LCM = Maximum Power of ALL Primes.",
+"formulaMeta": {
+"formula": "\\text{LCM} = \\text{Product of } \\textbf{all} \\text{ prime factors with the } \\textbf{highest} \\text{ power.}",
+"description": "State the mathematical rule for calculating the Lowest Common Multiple (LCM) directly from prime factorisations.",
+"derivation": "Algorithmic SOP:\n1. Write the prime factorisation of each number.\n2. Make a master list of EVERY distinct prime number that appears in any of the factorisations.\n3. For each prime on the master list, select its largest exponent (maximum occurrences found in any single number).\n4. Multiply these highest-power primes together."
+}
+}
+},
+{
+"cardId": "9afd60d7-f3a1-472f-a00a-aec1d493ddeb",
+"originalOrder": 19,
+"originalHeading": "Efficient Combined Division Procedure for HCF & LCM",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 11,
+"heading": "Efficient Combined Division Procedure for HCF & LCM",
+"back": "- **Concept:** You can find both HCF and LCM in one single continuous grid division.\n- **Extracting HCF:** The HCF is strictly the product of the prime divisors on the left that successfully divided **ALL** numbers in that specific row.\n- **Extracting LCM:** The LCM is the product of **ALL** prime divisors on the left PLUS all the remaining co-prime quotients at the very bottom.",
+"mnemonic": "HCF = Only the Shared Left. LCM = The Left and the Bottom.",
+"standardMeta": {
+"question": "When using the Efficient Combined Division Procedure on a group of numbers, how do you mathematically distinguish the extraction of the HCF from the LCM?"
+}
+}
+},
+{
+"cardId": "ac75145e-bf9f-4118-8cb6-a969e24c7547",
+"originalOrder": 16,
+"originalHeading": "Co-Prime Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed generic KaTeX wrappers for simple numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 12,
+"heading": "Co-Prime Numbers",
+"back": "- **Definition:** Two numbers are defined as 'Co-prime' (or relatively prime) if they share absolutely zero common prime factors.\n- **Mathematical Absolute:** Their Highest Common Factor (HCF) is strictly exactly **1**.\n- **Trap:** Co-prime numbers do NOT need to be prime numbers themselves (e.g., 8 and 15 are composite, but are co-prime to each other).",
+"standardMeta": {
+"question": "What mathematically defines two numbers as being strictly 'Co-prime' (or relatively prime)?"
+}
+}
+},
+{
+"cardId": "d55fde27-4c15-44eb-a5a4-55947937b082",
+"originalOrder": 14,
+"originalHeading": "HCF of Consecutive Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed redundant KaTeX for simple numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 13,
+"heading": "HCF of Consecutive Integers",
+"back": "- **Mathematical Fact:** Any two consecutive integers (e.g., 8 and 9, or 15 and 16) share absolutely no common factors other than **1**.\n- **Result:** Their Highest Common Factor (HCF) is always strictly **1**.\n- **Corollary:** Consecutive integers are inherently **co-prime**.",
+"standardMeta": {
+"question": "What is the deterministic mathematical value of the Highest Common Factor (HCF) of any two strictly consecutive integers?"
+}
+}
+},
+{
+"cardId": "68e1539e-7d7f-483b-8b98-4d63f868f054",
+"originalOrder": 15,
+"originalHeading": "HCF of Consecutive Even Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Converted inline math wrapper for simple single digits into bolded text."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 14,
+"heading": "HCF of Consecutive Even Integers",
+"back": "- **Mathematical Fact:** By definition, all even numbers are divisible by **2**.\nConsecutive even numbers (e.g., 8 and 10) share **2** as a factor, but because their gap is exactly **2**, they can share no factor larger than their gap.\n- **Result:** The Highest Common Factor (HCF) of any two consecutive even integers is always strictly **2**.",
+"standardMeta": {
+"question": "What is the exact Highest Common Factor (HCF) of any two strictly consecutive even integers?"
+}
+}
+},
+{
+"cardId": "938801bc-bb02-4794-9b11-3f9737f9f6ed",
+"originalOrder": 17,
+"originalHeading": "LCM of Co-Prime Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX string."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 15,
+"heading": "LCM of Co-Prime Numbers",
+"back": "## Component Anatomy:\n- **$a, b$:** Two strictly co-prime numbers (sharing no common factors other than 1).\n- **$a \\\times b$:** Their direct product.\n\n## Boundary Conditions / Domain:\n- Condition strictly requires $\\\text{HCF}(a,b) = 1$.",
+"formulaMeta": {
+"formula": "\\text{LCM}(a, b) = a \\times b",
+"description": "State the algebraic formula to find the Lowest Common Multiple (LCM) of two numbers that are strictly co-prime.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "60874a89-7068-41fb-a556-cc97c60249e5",
+"originalOrder": 12,
+"originalHeading": "HCF Property: One Number is a Factor of the Other",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed unnecessary KaTeX wrapping around simple numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 16,
+"heading": "HCF Property: One Number is a Factor of the Other",
+"back": "- **Concept:** If you are evaluating a pair of numbers where the smaller number exactly divides the larger number (e.g., 6 and 18).\n- **Mathematical Absolute:** The Highest Common Factor (HCF) is strictly forced to be exactly the **smaller number** itself.",
+"mnemonic": "If it fits perfectly, it IS the HCF.",
+"standardMeta": {
+"question": "If you are given two numbers and one number is strictly a factor of the other, what is their exact Highest Common Factor (HCF)?"
+}
+}
+},
+{
+"cardId": "9a87bf0a-9b68-4b53-ac02-7b544557796f",
+"originalOrder": 13,
+"originalHeading": "LCM Property: One Number is a Multiple of the Other",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed unnecessary KaTeX wrapping around simple numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 17,
+"heading": "LCM Property: One Number is a Multiple of the Other",
+"back": "- **Concept:** If you are evaluating a pair of numbers where the larger number is a direct multiple of the smaller number (e.g., 3 and 24).\n- **Mathematical Absolute:** The Lowest Common Multiple (LCM) is strictly forced to be exactly the **larger number** itself.",
+"mnemonic": "The larger number already contains the smaller one.",
+"standardMeta": {
+"question": "If you are given two numbers and one number is strictly a multiple of the other, what is their exact Lowest Common Multiple (LCM)?"
+}
+}
+},
+{
+"cardId": "1c3bad8d-f231-49c1-927b-4667c8ce9871",
+"originalOrder": 22,
+"originalHeading": "LCM Magnitude Limit",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed unnecessary KaTeX wrapping around simple numbers."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 18,
+"heading": "LCM Magnitude Limit",
+"back": "- **Concept:** The LCM of two numbers is mathematically capped.\n- **The Rule:** The LCM can **never** be strictly greater than the direct product of the two numbers.\n- **Outcomes:** It is exactly equal to the product if they are co-prime, and strictly less than the product if they share any common factor greater than **1**.",
+"standardMeta": {
+"question": "Can the Lowest Common Multiple (LCM) of two integers ever be strictly greater than the calculated product of those two integers? Explain why."
+}
+}
+},
+{
+"cardId": "ea1870ff-0150-4e2f-93ad-c51b7a48cd8b",
+"originalOrder": 20,
+"originalHeading": "The Fundamental HCF-LCM Product Identity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting and applied strict boundaries."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 19,
+"heading": "The Fundamental HCF-LCM Product Identity",
+"back": "## Component Anatomy:\n- **$a, b$:** Two given positive integers.\n- **HCF:** Their Highest Common Factor.\n- **LCM:** Their Lowest Common Multiple.\n\n## Boundary Conditions / Domain:\n- This identity strictly holds **ONLY for exactly TWO numbers**.\n- It mathematically fails if applied to **3** or more numbers.",
+"mnemonic": "Factors times Multiples equals the Original Product.",
+"formulaMeta": {
+"formula": "\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b",
+"description": "State the fundamental mathematical identity equation linking exactly two numbers with their respective HCF and LCM.",
+"derivation": "Algorithmic Proof:\n1. The HCF contains the prime factors common to both, counting the minimum powers.\n2. The LCM contains all prime factors across both, counting the maximum powers.\n3. When multiplied together, every single prime factor from both original numbers is perfectly accounted for without omission or duplication, equaling $a \\\times b$."
+}
+}
+},
+{
+"cardId": "dc600e73-2d4e-4f78-8067-5b43256f106e",
+"originalOrder": 21,
+"originalHeading": "Isolating an Unknown Number via the HCF-LCM Identity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 20,
+"heading": "Isolating an Unknown Number via the HCF-LCM Identity",
+"back": "## Component Anatomy:\n- **$b$:** The unknown second number.\n- **$a$:** The known first number.\n\n## Boundary Conditions / Domain:\n- The known number $a$ strictly must not be zero ($a \\\neq 0$).",
+"formulaMeta": {
+"formula": "b = \\frac{\\text{HCF} \\times \\text{LCM}}{a}",
+"description": "State the algebraic rearrangement used to find an unknown number $b$ when you are strictly provided with the other number $a$, their HCF, and their LCM.",
+"derivation": "Algorithmic SOP:\n1. Set up the fundamental equation: $\\\text{HCF} \\\times \\\text{LCM} = a \\\times b$.\n2. Multiply the HCF and LCM together to find the combined product.\n3. Divide that total product by the known number $a$ to isolate and solve for $b$."
+}
+}
+},
+{
+"cardId": "c7355139-15dd-4cca-86be-5a435add0c8f",
+"originalOrder": 18,
+"originalHeading": "Scalar Multiplication of HCF and LCM",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 21,
+"heading": "Scalar Multiplication of HCF and LCM",
+"back": "## Component Anatomy:\n- **$k$:** A constant positive scalar multiplier (e.g., doubling means $k=2$).\n- **$a, b$:** The original integer pair.\n\n## Boundary Conditions / Domain:\n- This scale factor property applies equally and symmetrically to both the HCF and the LCM.\n- Requires $k > 0$.",
+"formulaMeta": {
+"formula": "\\text{HCF}(ka, kb) = k \\times \\text{HCF}(a, b)",
+"description": "State the formula for calculating the new HCF if both numbers in a given pair $(a, b)$ are multiplied by a constant scalar $k$.",
+"derivation": "Algorithmic Proof:\n1. Multiplying both numbers by $k$ injects the exact prime factors of $k$ into BOTH of their prime factorisations.\n2. Because these factors now appear in both, they are inherently pulled into the 'largest common subpart' calculations.\n3. Therefore, the overall HCF perfectly scales by a factor of $k$."
+}
+}
+},
+{
+"cardId": "c88bb1c3-63b8-4b80-a6ad-fd66abac3fbe",
+"originalOrder": 27,
+"originalHeading": "HCF of Scaled Co-Prime Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX string."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula",
+"edge-case"
+],
+"order": 22,
+"heading": "HCF of Scaled Co-Prime Integers",
+"back": "## Component Anatomy:\n- **$k$:** The explicit common scalar multiplier.\n- **$a, b$:** The remaining non-common integer factors.\n\n## Boundary Conditions / Domain:\n- The remaining factors $a$ and $b$ MUST strictly be **co-prime** (i.e., $\\\text{HCF}(a, b) = 1$).\n- If they share any hidden factors, the true HCF will be larger than $k$.",
+"mnemonic": "If the leftovers share nothing, the multiplier is everything.",
+"formulaMeta": {
+"formula": "\\text{HCF}(ka, kb) = k \\iff \\text{HCF}(a, b) = 1",
+"description": "If given two numbers in the factored form $k \\\times a$ and $k \\\times b$, state the condition under which their HCF is strictly equal to $k$.",
+"derivation": "Algorithmic SOP (e.g., Finding HCF of $18 \\\times 10$ and $18 \\\times 15$):\n1. Identify the obvious common multiplier (18).\n2. Extract the remaining factors (10 and 15).\n3. Check if the remaining factors are co-prime.\nHere, 10 and 15 share a hidden factor of 5.\n4. Because they share 5, the true HCF is NOT just 18, but rather $18 \\\times 5 = 90$."
+}
+}
+},
+{
+"cardId": "9e85bdbd-18a2-440a-9653-1267909c9f26",
+"originalOrder": 26,
+"originalHeading": "Verifying Multiples via Prime Factorisation (Subset Rule)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX string."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula",
+"edge-case"
+],
+"order": 23,
+"heading": "Verifying Multiples via Prime Factorisation (Subset Rule)",
+"back": "## Component Anatomy:\n- **$A$:** The suspected multiple (the larger number).\n- **$B$:** The suspected factor (the smaller number).\n\n## Boundary Conditions / Domain:\n- Both numbers must be strictly expressed in their prime factorised forms.\n- If $B$ contains ANY prime number not present in $A$, or if the exponent of any prime in $B$ strictly exceeds its corresponding exponent in $A$, then $A$ is NOT a multiple of $B$.",
+"mnemonic": "For B to fit in A, A must have all of B's parts.",
+"formulaMeta": {
+"formula": "A \\text{ is a multiple of } B \\iff \\text{Every prime factor of } B \\text{ exists in } A \\text{ with } \\text{Power}_A \\ge \\text{Power}_B",
+"description": "State the algebraic condition required to definitively prove that number A is a multiple of number B purely by cross-referencing their prime factorisations.",
+"derivation": "Algorithmic SOP (e.g., Is $A = 5 \\\times 7 \\\times 11^2$ a multiple of $B = 5 \\\times 7^2 \\\times 11 \\\times 2$?):\n1. Factorise both numbers completely.\n2. Check $B$'s primes against $A$'s primes.\n3. $B$ contains the prime 2, which $A$ lacks. Reject.\n4. $B$ contains $7^2$, but $A$ only has $7^1$. Reject.\n5. Conclusion: $A$ is not a multiple of $B$."
+}
+}
+},
+{
+"cardId": "7011d318-c627-454e-802d-869fa3c74318",
+"originalOrder": 2,
+"originalHeading": "HCF in Real-World Geometry (Tiling)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX for inline formatting."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 24,
+"heading": "HCF in Real-World Geometry (Tiling)",
+"back": "- **Concept:** When a problem asks to cover a rectangular area ($L \\\times W$) with identical square tiles **without gaps or cutting**, you must find a common factor.\n- **Action:** To find the **largest** possible square tile, you mathematically calculate the **HCF** of the length and width.",
+"standardMeta": {
+"question": "In geometric word problems, what mathematical concept is required to find the side length of the largest identical square tiles that can perfectly cover a rectangular floor without cutting?"
+}
+}
+},
+{
+"cardId": "6446e25c-3ed9-41f9-9cd1-ff38ae03286b",
+"originalOrder": 25,
+"originalHeading": "3D Packing (LCM vs HCF)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX inline formatting for dimensions."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 25,
+"heading": "3D Packing (LCM vs HCF)",
+"back": "- **Concept:** When packing identical cubes into a large 3D rectangular box of dimensions $L \\\times W \\\times H$.\n- **The Rule:** You are physically sub-dividing the total available space.\nTo completely avoid spatial gaps, the cube's side length must divide the length, width, and height perfectly.\n- **Action:** Therefore, you calculate the **Highest Common Factor (HCF)** of $L$, $W$, and $H$ to find the maximum possible cube size.",
+"standardMeta": {
+"question": "If you need to pack identical cubes into a 3D box of dimensions $L \\\times W \\\times H$ without leaving any gaps, what mathematical tool dictates the maximum possible side length of the cube?"
+}
+}
+},
+{
+"cardId": "8c69b324-f1ec-4c44-97c3-569a7275797e",
+"originalOrder": 4,
+"originalHeading": "LCM in Real-World Cyclic Events",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7"
+],
+"order": 26,
+"heading": "LCM in Real-World Cyclic Events",
+"back": "- **Concept:** When different events repeat at different fixed intervals (e.g., bells ringing every 6 and 8 minutes, or overlapping work shifts).\n- **Action:** To find the exact future moment when all these events will **align simultaneously for the first time**, you calculate the **LCM** of their intervals.",
+"standardMeta": {
+"question": "In cyclic or repeating event problems (like overlapping schedules or blinking lights), what mathematical concept determines the exact shortest time until all events align simultaneously?"
+}
+}
+},
+{
+"cardId": "8b9ec261-e2a0-4a53-b731-5ef55f9faaa3",
+"originalOrder": 28,
+"originalHeading": "Discrete Relative Catch-Up Rate (The Chasing Problem)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Clarified derivation steps for broader application"
+],
+"vettingNotes": "Generalized the algorithmic derivation to apply mathematically rather than relying strictly on the Dog/Rabbit instance.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula",
+"word-problem"
+],
+"order": 27,
+"heading": "Discrete Relative Catch-Up Rate (The Chasing Problem)",
+"back": "## Component Anatomy:\n- **$H$:** The initial head start distance of the target.\n- **$D_{chaser}$:** Distance covered by the chaser per unit of time/leap.\n- **$D_{target}$:** Distance covered by the target per unit of time/leap.\n\n## Boundary Conditions / Domain:\n- The chaser's speed/leap distance MUST be strictly greater than the target's ($D_{chaser} > D_{target}$).\n- If not, they will mathematically never catch up (infinite leaps).",
+"formulaMeta": {
+"formula": "\\text{Leaps} = \\frac{H}{D_{chaser} - D_{target}}",
+"description": "State the formula to find the exact number of leaps/cycles required for a chaser to catch a target with an initial head start.",
+"derivation": "Algorithmic SOP:\n1. Identify the initial gap/head start ($H$).\n2. Calculate the 'Net Closing Distance' per simultaneous leap: $D_{chaser} - D_{target}$.\n3. Divide the total head start by the net gain: $H \\\div (D_{chaser} - D_{target})$."
+}
+}
+},
+{
+"cardId": "025bd8fa-a3ed-442b-9633-49d2d4618a3b",
+"originalOrder": 23,
+"originalHeading": "LCM Word Problem: Smallest Number with a Remainder",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Added explicit mathematical domain restriction for R",
+"Removed bold 0 math formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula"
+],
+"order": 28,
+"heading": "LCM Word Problem: Smallest Number with a Remainder",
+"back": "## Component Anatomy:\n- **$x, y, z$:** The given divisors.\n- **$R$:** The strict constant remainder required across all divisions.\n\n## Boundary Conditions / Domain:\n- The remainder $R$ must be strictly smaller than the smallest divisor in the set ($R < \\\min(x, y, z)$).",
+"formulaMeta": {
+"formula": "\\text{Target} = \\text{LCM}(x, y, z) + R",
+"description": "State the algorithmic formula to find the absolute smallest integer that leaves a strict identical remainder $R$ when divided by $x, y, \\\text{and } z$.",
+"derivation": "Algorithmic SOP:\n1. First, find the exact LCM of the given divisors ($x, y, z$). This guarantees a number that divides perfectly with remainder 0.\n2. Because you require a remainder of $R$, simply add $R$ to that computed LCM.\n3. Check division conditions to verify the answer."
+}
+}
+},
+{
+"cardId": "14e95208-a211-4133-9cf2-a0380fbc4b52",
+"originalOrder": 24,
+"originalHeading": "Word Problem Trap: Divisible by some, NOT by others",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"word-problem"
+],
+"order": 29,
+"heading": "Word Problem Trap: Divisible by some, NOT by others",
+"back": "- **The Trap:** 'Find a number divisible by $A$ and $B$, but NOT by $C$' (e.g., The 'Fire in the Mountain' game problem).\n- **SOP:**\n  1. Find the exact $\\\text{LCM}(A, B)$ to establish the base sequence.\n  2. Write out the consecutive multiples of that LCM (e.g., $\\\text{LCM}, \\\text{LCM}\\\times 2, \\\text{LCM}\\\times 3 \\\dots$).\n  3. Test each multiple against divisor $C$.\nCross out and reject any multiple that divides cleanly by $C$. The remaining numbers are your valid answers.",
+"standardMeta": {
+"question": "If a word problem asks for a number that must be divisible by $A$ and $B$, but strictly NOT divisible by $C$, what is the Standard Operating Procedure (SOP) to solve it?"
+}
+}
+},
+{
+"cardId": "76900fe0-e4d4-4f9b-867c-4cc7a684d7a2",
+"originalOrder": 29,
+"originalHeading": "The Smallest Multiple Sequence Trap (Missing the 7)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Removed single digit math blocks"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"edge-case"
+],
+"order": 30,
+"heading": "The Smallest Multiple Sequence Trap (Missing the 7)",
+"back": "- **The Trap:** An NCERT exercise specifically asks for the smallest number that is a multiple of 1, 2, 3, 4, 5, 6, 8, 9, 10.\n- **The Blind Spot:** Students often calculate the LCM of the first 10 natural numbers (which is 2520) out of habit, failing to notice that the number **7 is deliberately missing** from the requested sequence.\n- **The True Calculation:** $\\\text{LCM}(1, 2, 3, 4, 5, 6, 8, 9, 10) = 2^3 \\\times 3^2 \\\times 5$.\n- **Result:** The correct answer is exactly **360**.",
+"standardMeta": {
+"question": "If asked to find the smallest common multiple of the sequence {1, 2, 3, 4, 5, 6, 8, 9, 10}, what specific number is missing that changes the standard expected LCM, and what is the final result?"
+}
+}
+},
+{
+"cardId": "cf73ffe1-982e-4295-9426-5da17110eb1f",
+"originalOrder": 31,
+"originalHeading": "Adding Multiple Unlike Fractions (Mahaviracharya's SOP)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Injected specific domain conditions for denominators"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"chapter",
+"ch-03",
+"ncert",
+"jee-mains",
+"jee-advance",
+"jee",
+"class-7",
+"formula",
+"application"
+],
+"order": 31,
+"heading": "Adding Multiple Unlike Fractions (Mahaviracharya's SOP)",
+"back": "## Component Anatomy:\n- **$D_1, D_2, \\\dots, D_n$:** The diverse denominators of the given fractions.\n- **LCM:** The Lowest Common Multiple of all the denominators.\n\n## Boundary Conditions / Domain:\n- All fractions must be converted to have this exact strictly identical LCM as their denominator before any addition of numerators can legally occur.\n- Denominators must strictly not be zero ($D_i \\\neq 0$).",
+"formulaMeta": {
+"formula": "\\text{Common Denominator} = \\text{LCM}(D_1, D_2, \\dots, D_n)",
+"description": "State the standard operating procedure (SOP) to efficiently add a long string of unlike fractions, such as $\\\frac{8}{15} + \\\frac{1}{20} + \\\frac{7}{36} + \\\frac{11}{63} + \\\frac{1}{21}$.",
+"derivation": "Algorithmic SOP:\n1. Extract all denominators.\n2. Compute their combined prime factorisation to find the overarching LCM.\n3. For each individual fraction, divide the LCM by the original denominator, then multiply that quotient by the numerator.\n4. Add the newly scaled numerators together over the single LCM denominator."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

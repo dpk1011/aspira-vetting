@@ -1,0 +1,855 @@
+{
+"deckId": "e5059e85-241d-43cc-85c1-59a2edc5d9cc",
+"cards": [
+{
+"cardId": "e614ca12-8c6e-49e9-a544-ab192ab7c34b",
+"originalOrder": 1,
+"originalHeading": "Statistical vs Non-Statistical Questions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed 'Synthesised Answer in Markdown' artifact",
+"Refined classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"statistics",
+"data-handling",
+"ncert",
+"class-7"
+],
+"order": 1,
+"heading": "Statistical vs Non-Statistical Questions",
+"back": "- **Statistical Question:** A question that expects a variety of answers (variability) and requires collecting and analysing data to reach a conclusion (e.g., 'How tall are Grade 7 students?').\n- **Non-Statistical Question:** A question that has a single, fixed, factual answer with no variability (e.g., 'What is the price of a tennis ball in India?').",
+"mnemonic": "Statistical = Spread of answers; Non-Statistical = No spread.",
+"standardMeta": {
+"question": "What is the fundamental difference between a statistical question and a non-statistical question?"
+}
+}
+},
+{
+"cardId": "eb65ccc7-d5d5-405a-9b36-ab76d6a9ead7",
+"originalOrder": 2,
+"originalHeading": "Statistical Statements",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined heading for pedagogical clarity"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"data-handling",
+"ncert",
+"class-7"
+],
+"order": 2,
+"heading": "Defining Statistical Statements",
+"back": "- **Point 1:** A statistical statement is a claim or summary about a specific phenomenon.\n- **Point 2:** It is mathematically expressed in terms of numerical values, proportions, probabilities, averages, or predictions (e.g., 'The population reduced by 100 in the last decade.').",
+"standardMeta": {
+"question": "What mathematically constitutes a statistical statement?"
+}
+}
+},
+{
+"cardId": "dc9b6e2b-32cc-45f2-acc6-b0c5e144f66c",
+"originalOrder": 3,
+"originalHeading": "Statistics (Core Definition)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined heading"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"data-handling",
+"ncert",
+"class-7"
+],
+"order": 3,
+"heading": "Core Definition of Statistics",
+"back": "- **Point 1:** Statistics is the formal mathematical study of data.\n- **Point 2:** It specifically involves collecting, organising, analysing, interpreting, and presenting numerical data.",
+"mnemonic": "COAIP (Collect, Organise, Analyse, Interpret, Present)",
+"standardMeta": {
+"question": "What are the core processes involved in the mathematical study of statistics?"
+}
+}
+},
+{
+"cardId": "3525f931-9002-4819-afb4-b9aa9f74106d",
+"originalOrder": 4,
+"originalHeading": "Comparing Unequal Groups",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined heading"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"central-tendency",
+"ncert",
+"class-7"
+],
+"order": 4,
+"heading": "Comparing Datasets of Unequal Sizes",
+"back": "- **Point 1:** Comparing the mere 'sum total' of two groups is mathematically misleading if they have different sample sizes (e.g., Group A played 4 matches, Group B played 5).\n- **Point 2:** To make a statistically fair comparison, we must balance out the highs and lows by finding a representative central number, such as the arithmetic mean.",
+"standardMeta": {
+"question": "Why is comparing the 'sum total' of two datasets misleading if their group sizes differ, and what is the appropriate metric to use instead?"
+}
+}
+},
+{
+"cardId": "762dc61e-6e7f-46e2-a140-858cbf02fb80",
+"originalOrder": 16,
+"originalHeading": "Measures of Central Tendency",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Moved up in cognitive sequence to introduce Mean and Median"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"central-tendency",
+"ncert",
+"class-7"
+],
+"order": 5,
+"heading": "Measures of Central Tendency",
+"back": "- **Point 1:** A measure of central tendency describes the tendency of statistical values to pile up around a particular central value.\n- **Point 2:** They act as a single representative 'centre' for the entire group of data. The primary measures used are the **Mean** and the **Median**.",
+"standardMeta": {
+"question": "What is the statistical definition of 'measures of central tendency', and which two primary measures fall under this category?"
+}
+}
+},
+{
+"cardId": "f9249e77-1525-41fd-8686-a734a9e3e7af",
+"originalOrder": 5,
+"originalHeading": "Arithmetic Mean (Average)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted to strictly match FORMULA schema",
+"Double-escaped KaTeX",
+"Injected explicit boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"mean",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 6,
+"heading": "Arithmetic Mean (Average)",
+"back": "## Component Anatomy:\n- **Sum of all values:** The total mathematical aggregate of the dataset ($\sum x_i$).\n- **Number of values:** The total count of distinct data points ($n$).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$ (The dataset must strictly contain at least one observation to mathematically prevent division by zero).",
+"formulaMeta": {
+"formula": "\\text{Mean} = \\frac{\\text{Sum of all the values in the data}}{\\text{Number of values in the data}}",
+"description": "State the standard formula for calculating the arithmetic mean of a dataset.",
+"derivation": "Algorithmic SOP:\n1. Add all the numerical values in the given set to find the total sum.\n2. Count the exact number of observations ($n$).\n3. Divide the total sum by $n$ to distribute the values equally across the count."
+}
+}
+},
+{
+"cardId": "2bad81d4-6e6a-4fc6-a644-9c380de99f23",
+"originalOrder": 6,
+"originalHeading": "Arithmetic Mean as 'Fair Share'",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined heading"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"statistics",
+"mean",
+"ncert",
+"class-7"
+],
+"order": 7,
+"heading": "Conceptualizing Mean as 'Fair Share'",
+"back": "- **Point 1:** The mean represents the theoretical 'equalizing' value of a dataset.\n- **Point 2:** If all collected items (e.g., guavas) were pooled together and redistributed equally among all group members, the mathematical amount each person receives is the arithmetic mean. This is practically known as 'Fair Share'.",
+"mnemonic": "Mean = Make Everyone All Neutral (Equal).",
+"standardMeta": {
+"question": "How is the arithmetic mean practically understood as a 'fair share' or 'equal share' in statistics?"
+}
+}
+},
+{
+"cardId": "9b06d00f-529d-4cf9-8fff-da59246cd4be",
+"originalOrder": 7,
+"originalHeading": "Ancient Indian Terminology for Mean",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"statistics",
+"history",
+"ncert",
+"class-7"
+],
+"order": 8,
+"heading": "Ancient Indian Terminology for the Mean",
+"back": "- **Point 1:** Ancient Indian scholars perceived the arithmetic mean precisely as an 'equalising' value.\n- **Point 2:** Historical mathematical terms used include **samamiti** (mean measure), **samarajju** (by Brahmagupta, 628 CE), **samikarana** (levelling, by Mahaviracarya), and **samya** (equality, by Sripati).",
+"mnemonic": "Sama = Equal.",
+"standardMeta": {
+"question": "What historical terms were used by ancient Indian mathematicians to describe the arithmetic mean, and what core conceptual meaning do they translate to?"
+}
+}
+},
+{
+"cardId": "d2ba305b-b73e-41e4-a25e-6d6e2bc6711d",
+"originalOrder": 26,
+"originalHeading": "Fractional Means for Discrete Data",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"statistics",
+"mean",
+"ncert",
+"class-7",
+"edge-case"
+],
+"order": 9,
+"heading": "Fractional Means for Discrete Data",
+"back": "- **Point 1:** The arithmetic mean calculates a theoretical 'equalizing' value or 'fair share' across the entire dataset via division ($\\\frac{\\\text{Sum}}{n}$).\n- **Point 2:** Because it is a computed ratio, it frequently yields a non-integer decimal, perfectly illustrating the mathematical central tendency even if that exact fractional value (e.g., 3.6 pets) is a physical impossibility for a single discrete observation.",
+"standardMeta": {
+"question": "Why is it mathematically valid and common for the arithmetic mean of strictly discrete or indivisible data (e.g., number of pets, number of short stories read) to result in a continuous fractional or decimal value?"
+}
+}
+},
+{
+"cardId": "240cb96f-8e25-466f-a272-6bb71968cb14",
+"originalOrder": 15,
+"originalHeading": "Zero Value vs Missing Value",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined heading for precision"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"statistics",
+"mean",
+"ncert",
+"class-7",
+"edge-case"
+],
+"order": 10,
+"heading": "Data Anomalies: Zero Value vs. Missing Value",
+"back": "- **Zero Value (0):** This is a valid numerical observation. It adds 0 to the sum, but importantly, it **strictly increases the observation count ($n$) by 1**, significantly lowering the resulting mean.\n- **Missing Value (Did not play / '-'):** This indicates an absence of data. It does not affect the sum, nor does it increase the total observation count ($n$).",
+"standardMeta": {
+"question": "What is the critical mathematical distinction between a recorded data value of '0' and a missing value ('-') when calculating the arithmetic mean?"
+}
+}
+},
+{
+"cardId": "0fca44b0-7fbc-40d6-9b8f-2b2195ee23d6",
+"originalOrder": 9,
+"originalHeading": "Median for Odd Number of Observations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Formatted strictly to FORMULA schema"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"median",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 11,
+"heading": "Median for Odd Number of Observations",
+"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an odd integer ($n \\\ge 1$).\n- The raw data MUST be strictly sorted (ascending or descending) before applying the position formula.",
+"formulaMeta": {
+"formula": "\\text{Median} = \\text{Value of the } \\left( \\frac{n+1}{2} \\right)^{\\text{th}} \\text{ term}",
+"description": "State the formula and algorithmic procedure for finding the median when the number of observations ($n$) is odd.",
+"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Calculate the exact middle position using $\\\frac{n+1}{2}$.\n4. The median is the data value located precisely at that integer position."
+}
+}
+},
+{
+"cardId": "d60d0881-dc94-4b14-acd7-2de9d15db77c",
+"originalOrder": 10,
+"originalHeading": "Median for Even Number of Observations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Formatted strictly to FORMULA schema"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"median",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 12,
+"heading": "Median for Even Number of Observations",
+"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an even integer ($n \\\ge 2$).\n- The raw data MUST be strictly sorted before identifying the two middle terms.",
+"formulaMeta": {
+"formula": "\\text{Median} = \\frac{\\text{Value of } \\left(\\frac{n}{2}\\right)^{\\text{th}} \\text{term} + \\text{Value of } \\left(\\frac{n}{2} + 1\\right)^{\\text{th}} \\text{term}}{2}",
+"description": "State the formula and algorithmic procedure for finding the median when the number of observations ($n$) is even.",
+"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Locate the two distinct middle terms at positions $\\\frac{n}{2}$ and $\\\frac{n}{2} + 1$.\n4. Calculate the arithmetic mean of these two middle terms to find the final median."
+}
+}
+},
+{
+"cardId": "e66aade2-27c8-4748-ae94-656df1ff91d2",
+"originalOrder": 8,
+"originalHeading": "Outliers in Data",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"outliers",
+"ncert",
+"class-7"
+],
+"order": 13,
+"heading": "Outliers in Data",
+"back": "- **Point 1:** An outlier is a specific data point that significantly deviates from the rest of the values in the collection.\n- **Point 2:** Outliers can be extremely high or extremely low compared to the main numerical cluster of the dataset.",
+"mnemonic": "Outliers Lie Out of the cluster.",
+"standardMeta": {
+"question": "What is the mathematical definition of an outlier in a statistical dataset?"
+}
+}
+},
+{
+"cardId": "82a9b28c-07b3-4355-8614-52f39de4929e",
+"originalOrder": 11,
+"originalHeading": "Robustness: Mean vs Median",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"statistics",
+"mean",
+"median",
+"ncert",
+"class-7"
+],
+"order": 14,
+"heading": "Robustness: Mean vs Median",
+"back": "- **Point 1:** The **Mean** is highly sensitive to outliers. A single extreme value can drastically shift the mean up or down because it mathematically incorporates the sum of all values.\n- **Point 2:** The **Median** is highly robust (resistant) against outliers. Because it relies entirely on positional ordering, extreme values at the absolute ends of the dataset do not significantly alter its central structural position.",
+"standardMeta": {
+"question": "How do extreme values (outliers) differentially affect the mathematical arithmetic mean compared to the median?"
+}
+}
+},
+{
+"cardId": "644bde90-36d8-4350-adb8-fba752ac47f8",
+"originalOrder": 12,
+"originalHeading": "Impact of a Low Outlier on Central Tendency",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"outliers",
+"ncert",
+"class-7"
+],
+"order": 15,
+"heading": "Impact of a Low Outlier on Central Tendency",
+"back": "- **Point 1:** A low outlier is an unusually small numerical value in the dataset.\n- **Point 2:** It heavily pulls the total sum downward, which sharply decreases the arithmetic mean.\n- **Point 3:** Since the median is largely positionally unaffected, the resulting mathematical relationship is usually **$\\\text{Mean} < \\\text{Median}$**.",
+"mnemonic": "Low outlier pulls Mean LOW.",
+"standardMeta": {
+"question": "How does the mathematical presence of an extreme low outlier shift the relationship between the mean and the median?"
+}
+}
+},
+{
+"cardId": "a5d5010e-75e8-4907-bf36-23b595e2795a",
+"originalOrder": 13,
+"originalHeading": "Impact of a High Outlier on Central Tendency",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"outliers",
+"ncert",
+"class-7"
+],
+"order": 16,
+"heading": "Impact of a High Outlier on Central Tendency",
+"back": "- **Point 1:** A high outlier is an unusually large numerical value in the dataset.\n- **Point 2:** It artificially inflates the total mathematical sum, pulling the arithmetic mean upwards.\n- **Point 3:** Since the median remains positionally stable, the resulting mathematical relationship is usually **$\\\text{Mean} > \\\text{Median}$**.",
+"mnemonic": "High outlier pushes Mean HIGH.",
+"standardMeta": {
+"question": "How does the mathematical presence of an extreme high outlier shift the relationship between the mean and the median?"
+}
+}
+},
+{
+"cardId": "622f5af5-2d70-470a-801e-d85e6ca29a39",
+"originalOrder": 14,
+"originalHeading": "Central Tendency in Symmetric Data",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"statistics",
+"distributions",
+"ncert",
+"class-7"
+],
+"order": 17,
+"heading": "Central Tendency in Symmetric Data",
+"back": "- **Point 1:** When a dataset is highly balanced, uniformly spread, and devoid of extreme outliers, the values cluster symmetrically.\n- **Point 2:** In such mathematically ideal distributions, the arithmetic mean and the median appear to be virtually identical or very close to each other (**$\\\text{Mean} \\\approx \\\text{Median}$**).",
+"standardMeta": {
+"question": "How do the mean and median mathematically relate to each other when a dataset is perfectly balanced and lacks outliers?"
+}
+}
+},
+{
+"cardId": "d8f9f0a6-1c96-4b6d-b68a-357b7661c4db",
+"originalOrder": 25,
+"originalHeading": "The Zero-Median Anomaly",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined textual formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"statistics",
+"median",
+"edge-case",
+"ncert",
+"class-7"
+],
+"order": 18,
+"heading": "The Zero-Median Anomaly",
+"back": "- **Point 1:** Yes, a dataset can mathematically have a median of exactly 0 while simultaneously having an exceptionally high sum and arithmetic mean.\n- **Point 2:** This anomaly occurs in heavily skewed distributions where strictly **more than half of the total observations are exactly 0**.\n- **Point 3:** The zeros pull the positional center (median) entirely to 0, but the few remaining non-zero values can be massive positive outliers that heavily inflate the mean (e.g., in cricket, if 6 players score 0, but the remaining 5 score double-centuries, the median is strictly 0 but the team score is massive).",
+"mnemonic": "Median cares about Position, Mean cares about Weight.",
+"standardMeta": {
+"question": "Can a numerical dataset containing only non-negative values possess a median of exactly 0 while simultaneously having an exceptionally high arithmetic mean and total sum? Explain how."
+}
+}
+},
+{
+"cardId": "b66c0765-92cf-473d-af49-f5c9daeb40da",
+"originalOrder": 27,
+"originalHeading": "Median Invariance to Dual Extreme Outliers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"median",
+"edge-case",
+"ncert",
+"class-7"
+],
+"order": 19,
+"heading": "Median Invariance to Dual Extreme Outliers",
+"back": "- **Point 1:** The median remains **strictly unchanged**.\n- **Point 2:** Because the median relies entirely on the structural positional ranking of the sorted data, appending an equal number of values to both the extreme left (minimum) and extreme right (maximum) merely expands the outer rank boundaries. The physical structural center of the data is perfectly preserved.",
+"standardMeta": {
+"question": "If you append exactly two extreme outliers to a dataset—one exceptionally low and one exceptionally high—how does this specifically affect the dataset's mathematical median?"
+}
+}
+},
+{
+"cardId": "1df99b84-f765-4cae-b920-e6f774a55aac",
+"originalOrder": 17,
+"originalHeading": "Data Variability (Statistical Range)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Formatted to strict FORMULA schema"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"range",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 20,
+"heading": "Data Variability (Statistical Range)",
+"back": "## Component Anatomy:\n- **Maximum Value:** The absolute highest numerical data point present in the set.\n- **Minimum Value:** The absolute lowest numerical data point present in the set.\n\n## Boundary Conditions / Domain:\n- Strictly requires quantitative (numerical) data to evaluate. Cannot be applied to purely categorical data.",
+"formulaMeta": {
+"formula": "\\text{Range} = \\text{Maximum Value} - \\text{Minimum Value}",
+"description": "State the mathematical formula used to calculate the absolute spread or range of a dataset.",
+"derivation": "Algorithmic SOP:\n1. Sort or scan the given dataset to identify the highest possible value.\n2. Identify the lowest possible value in the given dataset.\n3. Subtract the minimum from the maximum. A larger calculated range mathematically indicates a larger statistical spread (higher variability)."
+}
+}
+},
+{
+"cardId": "d5bba079-164e-4c42-95e4-f00a1be8b68b",
+"originalOrder": 28,
+"originalHeading": "Consistency vs Variability (Identical Means)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"range",
+"mean",
+"ncert",
+"class-7"
+],
+"order": 21,
+"heading": "Consistency vs Variability (Identical Means)",
+"back": "- **Point 1:** The identical mean only mathematically proves that their total 'weight' distributed across $n$ observations is the exact same.\n- **Point 2:** The significantly larger range in Dataset A mathematically implies that it possesses high **variability** (spread), meaning its individual numerical observations deviate wildly from that central average.\n- **Point 3:** Dataset B, having a significantly smaller range, possesses much higher structural **consistency**, meaning its individual values cluster tightly around the central average.",
+"standardMeta": {
+"question": "If Dataset A and Dataset B possess identical arithmetic means, but Dataset A has a significantly larger statistical range, what does this mathematically imply about the consistency of the two datasets?"
+}
+}
+},
+{
+"cardId": "2d08f662-cf83-4d06-bf96-739f0c4152f0",
+"originalOrder": 24,
+"originalHeading": "The Purpose of Data Visualisation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"statistics",
+"data-visualization",
+"ncert",
+"class-7"
+],
+"order": 22,
+"heading": "The Purpose of Data Visualisation",
+"back": "- **Point 1:** Raw tables of numbers can obscure immediate trends and hide anomalies due to high cognitive load.\n- **Point 2:** Visualising data (via plots and graphs) mathematically translates numbers into structural spatial relationships, making it instantly easier to intuitively compare categories, spot statistical outliers, and reveal underlying patterns that trigger deeper inquiry.",
+"standardMeta": {
+"question": "What is the foundational mathematical advantage of translating raw tabular data into visual graph formats?"
+}
+}
+},
+{
+"cardId": "50a71276-6937-42c9-b071-33d11246842e",
+"originalOrder": 18,
+"originalHeading": "Visualising Data: Dot Plots",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"ncert",
+"class-7"
+],
+"order": 23,
+"heading": "Visualising Data: Dot Plots",
+"back": "- **Point 1:** A dot plot is a statistical data visualisation tool that shows distinct numerical data points as dots positioned vertically above a horizontal number line.\n- **Point 2:** It inherently sorts the raw data and helps mathematically visualise minimum/maximum values, data clustering (where values pile up frequently), spread (range variability), and isolated extreme outliers.",
+"standardMeta": {
+"question": "What is a statistical dot plot, and what key numerical characteristics does it help to rapidly visualise?"
+}
+}
+},
+{
+"cardId": "6c3c4b57-2fc4-43be-90bc-e8be8afcb729",
+"originalOrder": 19,
+"originalHeading": "Interpreting Dot Plot Clustering",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"mode",
+"ncert",
+"class-7"
+],
+"order": 24,
+"heading": "Interpreting Dot Plot Clustering",
+"back": "- **Point 1:** A dense cluster of dots (multiple dots stacked vertically) at a specific numerical value mathematically signifies high frequency (the mode of the dataset).\n- **Point 2:** It indicates that the specific discrete value occurred many times in the collection, mathematically pulling the central tendency weight towards that zone on the number line.",
+"standardMeta": {
+"question": "When observing a dot plot, what does a dense vertical stack of dots at a specific numerical value signify statistically?"
+}
+}
+},
+{
+"cardId": "2b00184c-6f25-407a-9385-9fe91ebc08e5",
+"originalOrder": 20,
+"originalHeading": "Visual Range Comparison in Dot Plots",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"range",
+"ncert",
+"class-7"
+],
+"order": 25,
+"heading": "Visual Range Comparison in Dot Plots",
+"back": "- **Point 1:** Identify the absolute dots located at the extreme left (mathematical minimum) and extreme right (mathematical maximum) along the horizontal number line for both visual datasets.\n- **Point 2:** The dataset whose outer dots span a geometrically wider horizontal distance mathematically possesses a larger range, directly indicating greater data variability/spread.",
+"standardMeta": {
+"question": "How can you quickly determine which of two statistical datasets has higher variability strictly by using only their respective dot plots?"
+}
+}
+},
+{
+"cardId": "56f901b7-0ff0-443d-97d3-e2db7f8d7561",
+"originalOrder": 29,
+"originalHeading": "Extracting Median Directly from a Dot Plot",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Reformatted to strictly match FORMULA schema",
+"Added mathematical conditions for positional count"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"median",
+"graphs",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 26,
+"heading": "Extracting Median Directly from a Dot Plot",
+"back": "## Component Anatomy:\n- **$n$:** The absolute total count of individual dots plotted across the entire visual graph.\n- **Cumulative Count:** The running total of dots counted sequentially from one end of the horizontal axis to the other.\n\n## Boundary Conditions / Domain:\n- You must sweep cumulatively starting purely from the lowest numerical X-axis value towards the highest, never skipping gaps.\n- Works strictly for discrete datasets where individual points can be individually counted ($n \\\in \\\mathbb{Z}^+$).",
+"formulaMeta": {
+"formula": "\\text{Median} = \\text{X-Axis Value at Dot Position } \\left( \\frac{n+1}{2} \\right)",
+"description": "State the algorithmic procedure for extracting the exact Median value strictly from observing a visual Dot Plot.",
+"derivation": "Algorithmic SOP:\n1. Count every single dot across all columns to find the total observations ($n$).\n2. Calculate the target dot position for the median (e.g., for $n=15$, target is the $8^{\\\text{th}}$ dot).\n3. Sweep from the lowest numerical value on the X-axis (left) to the highest (right), cumulatively counting dots from the bottom up in each column.\n4. The X-axis value corresponding to the column where you hit the target dot count is the exact median."
+}
+}
+},
+{
+"cardId": "7ae4939a-3c30-454c-ab4d-e0dd0f08aeb9",
+"originalOrder": 21,
+"originalHeading": "Clustered Column Graph (Double Bar Graph)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Removed markdown artifact",
+"Refined textual explanation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"ncert",
+"class-7"
+],
+"order": 27,
+"heading": "Clustered Column Graph (Double Bar Graph)",
+"back": "- **Point 1:** A clustered column graph combines two distinct column graphs into one by drawing related bars side-by-side.\n- **Point 2:** Its primary statistical purpose is to visually compare two distinct sets of data simultaneously across the exact same categories or time periods (e.g., comparing prices in two towns over 12 months).",
+"standardMeta": {
+"question": "What is a clustered column graph (double bar graph), and what is its primary analytical purpose?"
+}
+}
+},
+{
+"cardId": "a317eaf7-ba7d-4807-9785-9d2605eab0ca",
+"originalOrder": 22,
+"originalHeading": "Constructing a Double Bar Graph",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Structured strictly into FORMULA schema constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 28,
+"heading": "Constructing a Double Bar Graph",
+"back": "## Component Anatomy:\n- **Horizontal Axis (X-axis):** Categorical parameters (e.g., Months, Years, Groups).\n- **Vertical Axis (Y-axis):** Numerical parameters governed by a strictly uniform scale.\n\n## Boundary Conditions / Domain:\n- Ensure the numerical scale includes a strict $0$ baseline.\n- The Y-axis scale must vertically extend equal to or above the absolute maximum data value present in both datasets.",
+"formulaMeta": {
+"formula": "\\text{Scale} = \\frac{\\text{Data Range}}{\\text{Available Grid Units}}",
+"description": "State the standard operating procedure for constructing a mathematically accurate double bar graph.",
+"derivation": "Algorithmic SOP:\n1. Draw perpendicular horizontal (X) and vertical (Y) axes.\n2. Determine a uniform scale for the Y-axis (e.g., 1 unit = 5 hours) starting from zero.\n3. Place discrete categories evenly along the X-axis.\n4. For each category, draw two adjacent vertical bars with varying colours/patterns representing the dual datasets.\n5. Add a definitive legend to visually map what each pattern represents."
+}
+}
+},
+{
+"cardId": "8677a45b-ddbe-4ae8-bc30-659a73704ee0",
+"originalOrder": 23,
+"originalHeading": "Interpreting Complex Graphs (SOP)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Refined into structured algorithmic steps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"statistics",
+"graphs",
+"ncert",
+"class-7",
+"formula"
+],
+"order": 29,
+"heading": "Interpreting Complex Graphs (SOP)",
+"back": "## Component Anatomy:\n- **Step 1:** Read Structure (Axes, scales, legend, units).\n- **Step 2:** Formulate Conclusions (Calculate differences, means, or extreme points).\n\n## Boundary Conditions / Domain:\n- Do not assume mathematical relationships before verifying the exact axes labels and legends.\n- Conclusions must strictly derive from the visual data, avoiding external biases.",
+"formulaMeta": {
+"formula": "\\text{Step 1: Identify Given} \\rightarrow \\text{Step 2: Infer}",
+"description": "What is the two-step algorithmic procedure for simplifying and making statistical sense of data presented in complex graphs?",
+"derivation": "Algorithmic SOP:\n1. **Identify what is given:** Notice how the graph is visually organised, strictly check the numerical scale/units on the axes, verify the legend, and observe surface-level patterns.\n2. **Infer from what is given:** Mathematically analyse those observations to draw logical conclusions, calculate averages, note extremes (max/min), and generate formal summary statements."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

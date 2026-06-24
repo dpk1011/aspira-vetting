@@ -1,0 +1,873 @@
+{
+"deckId": "1f2d9c42-aafe-45d1-80fc-3c8c4dfef0e6",
+"cards": [
+{
+"cardId": "f05178d7-2041-45ae-bec9-988f734942c3",
+"originalOrder": 1,
+"originalHeading": "Bisection and Perpendicular Bisector",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected specific Boundary Conditions",
+"Standardized KaTeX syntax",
+"Refined classification to DEFINITION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 1,
+"heading": "Geometric Definitions: Bisection vs. Perpendicular Bisection",
+"back": "## Concept Breakdown\n- **Bisection:** The mathematical division of a continuous geometric object (such as a line segment or an angle) into two strictly identical and equal parts.\n- **Perpendicular Bisector:** A specific linear construct that simultaneously bisects a given line segment (divides it perfectly in half) AND intersects it strictly orthogonally (at exactly $90^\circ$).\n\n## Boundary Conditions / Domain\n- Bisection can apply to both angles and finite line segments.\n- A **perpendicular** bisector exclusively applies to finite line segments, as rays and lines extend infinitely and lack a measurable midpoint.",
+"mnemonic": "Bisect = Bi (Two) + Sect (Cut)",
+"standardMeta": {
+"question": "What is the precise geometric distinction between general 'bisection' and a 'perpendicular bisector'?"
+}
+}
+},
+{
+"cardId": "74d0c849-5157-4b59-bfe2-81dc0b16cd53",
+"originalOrder": 2,
+"originalHeading": "Equidistant Point Property of Bisectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added analytical geometry context",
+"Refined heading for pedagogical clarity"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 2,
+"heading": "Locus Definition of a Perpendicular Bisector",
+"back": "## The Equidistant Property\n- **Core Theorem:** Any point $P$ that is exactly equidistant from two distinct endpoints $X$ and $Y$ of a line segment lies strictly on the perpendicular bisector of segment $XY$.\n- **Mathematical Locus:** The perpendicular bisector is fundamentally defined as the complete locus of all points in a 2D plane that are equidistant from $X$ and $Y$.\n\n## Boundary Conditions / Domain\n- This property is restricted to a flat Euclidean plane. In spherical or hyperbolic geometry, equidistant loci behave differently.\n- This theorem is the axiomatic foundation for all ruler-and-compass bisector and midpoint constructions.",
+"standardMeta": {
+"question": "If a point $P$ is measured to be completely equidistant from endpoints $X$ and $Y$ of a line segment, what geometric line must $P$ lie upon?"
+}
+}
+},
+{
+"cardId": "d2b6dd4c-7cc3-4375-bbd8-b406e20a677b",
+"originalOrder": 7,
+"originalHeading": "Ancient Rope Constructions (Śulba-Sūtras)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 3 for historical context",
+"Cleaned text formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"geometry",
+"history-of-math",
+"class-7"
+],
+"order": 3,
+"heading": "Historical Methods: The Śulba-Sūtras",
+"back": "## Ancient Vedic Geometry\n- The **Śulba-Sūtras** are ancient Indian Vedic appendices (part of the Śrauta Sūtras) detailing highly precise geometric constructions, originally intended for the exact mathematical design of fire altars.\n- Instead of a modern rigid compass, ancient mathematicians utilized a **fixed-length rope** or cord.\n- By pegging one end and sweeping the other, they could perfectly generate arcs, draw exact circles, and find midpoints (by physically folding the rope precisely in half) to form accurate perpendicular bisectors.",
+"standardMeta": {
+"question": "What are the Śulba-Sūtras, and what primary instrument did they rely on instead of a modern compass to achieve geometric precision?"
+}
+}
+},
+{
+"cardId": "893b1b58-40a5-47cb-9eb9-f2cfce5c853b",
+"originalOrder": 3,
+"originalHeading": "Constructing a Perpendicular Bisector",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Separated derivation from back field",
+"Strengthened boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 4,
+"heading": "Standard Operating Procedure: Perpendicular Bisector",
+"back": "## Component Anatomy\n- **Endpoints $X$ and $Y$:** The discrete ends of the target line segment.\n- **Intersection Points $A$ and $B$:** The two coordinates generated where the equal compass arcs mathematically intersect above and below the segment.\n\n## Boundary Conditions / Domain\n- The compass radius $r$ MUST strictly satisfy $r > \frac{1}{2} XY$. If $r \le \frac{1}{2} XY$, the arcs will theoretically and physically never intersect, rendering the construction impossible.",
+"formulaMeta": {
+"formula": "r > \frac{1}{2} XY",
+"description": "The algorithmic steps to strictly construct the perpendicular bisector of a finite line segment XY.",
+"derivation": "1. Place the compass point on endpoint $X$. Using a radius strictly greater than half of $XY$, draw arcs above and below the segment.\n2. **CRITICAL:** Without altering the compass radius, place the point on endpoint $Y$ and draw arcs to intersect the first arcs at points $A$ and $B$.\n3. Use an unmarked straightedge to connect points $A$ and $B$. This line is the exact perpendicular bisector."
+}
+}
+},
+{
+"cardId": "23449142-e516-404f-b086-c28c8fe1a523",
+"originalOrder": 4,
+"originalHeading": "Asymmetric Radii in Perpendicular Bisection",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified constraint logic",
+"Converted to APPLICATION classification"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 5,
+"heading": "Boundary Logic: Asymmetric Radii in Bisectors",
+"back": "## Validity of Asymmetric Radii\n- **Different radii between Top and Bottom Arcs: VALID.**\n  The upper intersection point $A$ and the lower intersection point $B$ can be formed using different compass radii ($r_1$ and $r_2$). As long as $r_1 > \frac{1}{2}XY$ and $r_2 > \frac{1}{2}XY$, both points remain equidistant from $X$ and $Y$ respectively, keeping them strictly on the bisector locus.\n- **Different radii from X and Y for a single intersection: INVALID.**\n  To pinpoint a single valid locus coordinate, the arc swept from endpoint $X$ and the arc swept from endpoint $Y$ MUST use the exact same radius. Otherwise, the intersection point shifts off the true midpoint axis.",
+"standardMeta": {
+"question": "When constructing a perpendicular bisector, is it mathematically necessary to use the exact same compass radius for the bottom arcs as you use for the top arcs?"
+}
+}
+},
+{
+"cardId": "dfb784e6-f702-4b1f-ab4a-b5b73c81585d",
+"originalOrder": 5,
+"originalHeading": "Same-Side Arc Intersections",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reclassified to DISTINCTION",
+"Refined explanation of locus projection"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 6,
+"heading": "Alternative Geometries: Same-Side Intersections",
+"back": "## Same-Side Construction Validity\n- It is perfectly valid to construct both pairs of intersecting arcs on the **same side** of the line segment (e.g., both above the line).\n- **Mathematical Proof:** The perpendicular bisector is an infinite line locus. Any two distinct points ($A$ and $B$) that are equidistant from endpoints $X$ and $Y$ mathematically define this line. Connecting two valid points on the same side will perfectly project the bisector line downwards, cutting orthogonally through the segment.\n\n## Boundary Conditions / Domain\n- You must use two **distinct** radii ($r_1$ and $r_2$) to create two separate intersection points on the same side. If you reuse the same radius, you only generate one point, which is insufficient to define a line.",
+"standardMeta": {
+"question": "Must you draw intersecting arcs strictly above AND below a line segment to construct a perpendicular bisector, or is there a valid same-side alternative?"
+}
+}
+},
+{
+"cardId": "c3a0158a-49e0-4250-b7b1-fb541b997458",
+"originalOrder": 26,
+"originalHeading": "Perpendicular from an External Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up in sequence to group with perpendiculars",
+"Added explicit secant domain constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 7,
+"heading": "SOP: Perpendicular from an External Coordinate",
+"back": "## Component Anatomy\n- **Line $l$:** The original baseline structure.\n- **External Point $P$:** A specific geometric coordinate floating off the line.\n- **Secant $AB$:** The newly formed line segment created by intersecting arcs on $l$.\n\n## Boundary Conditions / Domain\n- The initial compass radius originating from $P$ MUST be strictly greater than the shortest orthogonal distance from $P$ to line $l$. If $r < \text{Distance}(P, l)$, the arc will mathematically never intersect the line to form the required secant.",
+"mnemonic": "Drop the anchor (arc), bisect the boat (secant).",
+"formulaMeta": {
+"formula": "\text{Perpendicular Bisector of Secant } AB \implies \text{Orthogonal through } P",
+"description": "Standard operating procedure to construct a precise perpendicular to a line 'l' strictly from an external point 'P'.",
+"derivation": "1. Place the compass point exactly on the external coordinate $P$.\n2. Draw a wide arc that strictly intersects line $l$ at two distinct points, establishing a new secant segment $AB$.\n3. Construct the standard perpendicular bisector of this specific segment $AB$ (using equal intersecting arcs originating from $A$ and $B$).\n4. Draw the straight bisector line; it is mathematically forced to pass perfectly through $P$ and intersect line $l$ at exactly $90^\circ$."
+}
+}
+},
+{
+"cardId": "1096a276-70d7-4f98-be27-c76c19895c76",
+"originalOrder": 8,
+"originalHeading": "Angle Bisection",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Separated derivation to formulaMeta",
+"Added analytical congruent triangle proof logic"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 8,
+"heading": "Standard Operating Procedure: Angle Bisection",
+"back": "## Component Anatomy\n- **Vertex $O$:** The origin intersection point of the angle.\n- **Points $A$ and $B$:** Coordinates equidistant from $O$ established on the two diverging arms.\n\n## Boundary Conditions / Domain\n- This construction is strictly valid for any standard angle $\theta$ where $0^\circ < \theta < 180^\circ$.\n- **Geometric Proof Basis:** This construction works by implicitly creating two congruent triangles ($\Delta OBC \cong \Delta OAC$ via SSS congruence), forcing $\angle BOC = \angle AOC$.",
+"formulaMeta": {
+"formula": "\Delta OBC \cong \Delta OAC \implies \angle BOC = \angle AOC",
+"description": "The algorithmic steps to perfectly and precisely bisect an angle XOY.",
+"derivation": "1. Place the compass point on the vertex $O$ and sweep a primary arc across both arms of the angle, labeling the intersection coordinates as $A$ and $B$.\n2. Place the compass on $A$ and draw an arc inside the open space of the angle.\n3. Strictly maintaining the exact same radius, place the compass on $B$ and draw an arc to intersect the previous arc, creating coordinate $C$.\n4. Draw a straight ray originating from $O$ and passing strictly through $C$. This ray perfectly bisects the angle."
+}
+}
+},
+{
+"cardId": "bc4a5807-6913-46ac-b691-24d44f9298f5",
+"originalOrder": 9,
+"originalHeading": "Angle Bisection: Exterior Intersections",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined formatting and coordinate labels",
+"Ensured rigorous explanation of locus extension"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 9,
+"heading": "Edge Case Validities: Exterior Angle Bisection",
+"back": "## Exterior Intersection Validity\n- **The Construction Remains Valid.** If spatial constraints force you to draw the intersecting arcs 'outside' or 'behind' the vertex $O$ (using a sufficiently large radius), the mathematical locus remains unbroken.\n- **Locus Projection:** The resulting intersection point $C'$ will simply fall on the exact opposite side of the vertex. By drawing a straight line originating from $C'$ and passing strictly through the vertex $O$, the extended ray projecting *forward into* the arms of the angle perfectly overlaps the true geometric angle bisector.",
+"standardMeta": {
+"question": "During angle bisection, if the arcs swept from points $A$ and $B$ intersect 'outside' or 'behind' the vertex rather than inside the arms, is the resulting geometric line still a valid angle bisector?"
+}
+}
+},
+{
+"cardId": "c6880f98-f1ee-45ec-9f8f-993db5a5b577",
+"originalOrder": 11,
+"originalHeading": "Copying an Angle (Duplication)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved to formula type structure",
+"Explicitly noted SSS congruence foundation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 10,
+"heading": "SOP: Angle Duplication via Compass",
+"back": "## Component Anatomy\n- **Base Ray:** The structural starting line where the duplicated angle's bottom arm will sit.\n- **Arc Width ($BC$):** The precise chord distance measured between the two arms of the original angle along a specific arc sweep.\n\n## Boundary Conditions / Domain\n- **Radius Locking Constraint:** You must strictly avoid altering the compass width between measuring the arc chord $BC$ and transferring it to the new target ray. Any shift physically breaks the SSS Congruence ($\Delta ABC \cong \Delta XYZ$) that proves this technique.",
+"formulaMeta": {
+"formula": "\Delta ABC \cong \Delta XYZ \implies \angle A = \angle X",
+"description": "Algorithmic steps to strictly duplicate an exact angle onto a new target line using SSS Congruence.",
+"derivation": "1. On the original angle $A$, sweep an arc cutting both arms, creating coordinates $B$ and $C$.\n2. Keeping the exact same radius, place the compass on the new target vertex $X$ and draw a large base arc cutting the new line at $Z$.\n3. Return to the original angle and adjust the compass width to measure the exact chord distance between $B$ and $C$.\n4. Without shifting the compass, place it on point $Z$ and mark that specific distance onto the large arc, generating point $Y$.\n5. Draw a ray from $X$ strictly through $Y$ to mathematically duplicate the angle."
+}
+}
+},
+{
+"cardId": "NEW_CARD_11_SPLIT_1",
+"originalOrder": 12,
+"originalHeading": "Constructing Parallel Lines: Transversal Geometry",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted structural setup from overloaded procedural card",
+"Reclassified as CONCEPT"
+],
+"vettingNotes": "Split from card f3fd1da4-bb3c-4f3e-ab9f-a7e0fce49ae3 to reduce cognitive bloat.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 11,
+"heading": "Structural Pre-requisites for Parallel Lines",
+"back": "## The Transversal Scaffold\nBefore you can mathematically construct a parallel line through a floating external point $B$, you must first establish a geometric relationship between the point and the original base line $m$.\n- **The Operation:** Draw a straight **transversal line $l$** that passes perfectly through the external point $B$ and intersects the base line $m$ at a new coordinate $A$.\n- **The Purpose:** This transversal creates a measurable reference angle at intersection $A$. By utilizing Euclid's parallel postulate geometry, we can copy this exact angle to point $B$ to force parallelism.",
+"standardMeta": {
+"question": "What primary structural line must be drawn before you can use a compass to construct a line parallel to base line $m$ through a floating point $B$, and what purpose does it serve?"
+}
+}
+},
+{
+"cardId": "f3fd1da4-bb3c-4f3e-ab9f-a7e0fce49ae3",
+"originalOrder": 12,
+"originalHeading": "Constructing Parallel Lines: Angle Duplication SOP",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Focused strictly on execution steps post-transversal",
+"Formatted strictly as KaTeX Formula card"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 12,
+"heading": "SOP: Executing Parallel Lines via Corresponding Angles",
+"back": "## Component Anatomy\n- **Intersection Angle $\angle A$:** The reference angle formed between the base line and the transversal.\n- **Target Vertex $B$:** The exact location on the transversal where the angle will be duplicated.\n\n## Boundary Conditions / Domain\n- The parallel theorem applied here relies absolutely on ensuring that the **Corresponding Angles** on the transversal are mathematically identical. Any error in duplication forces the lines to eventually intersect (violating parallelism).",
+"formulaMeta": {
+"formula": "\text{Corresponding Angles are Equal } \implies m \parallel n",
+"description": "Algorithmic steps to mathematically project a parallel line using the Angle Copying technique.",
+"derivation": "*(Assuming a transversal $l$ already connects base line $m$ to floating point $B$, intersecting $m$ at $A$):*\n1. Isolate the reference angle formed at intersection $A$ between line $m$ and transversal $l$.\n2. Execute the 'Copying an Angle' SOP to duplicate that exact same interior angle upwards, centering the new vertex at point $B$, relative to the transversal.\n3. Draw the resulting line strictly through $B$. Because the corresponding angles are forced into mathematical equality, the new projected line is strictly parallel to $m$."
+}
+}
+},
+{
+"cardId": "834082ec-6f42-421e-8049-0068a3c40524",
+"originalOrder": 16,
+"originalHeading": "Constructing a 60° Angle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured rigorous constraint boundaries for compass radius",
+"Shifted to suggested order 13"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 13,
+"heading": "SOP: Constructing a Precise 60° Angle",
+"back": "## Component Anatomy\n- **Equilateral Triangle Foundation:** The invisible geometric framework governing this construction. By locking the radius, you guarantee all three sides of the projected triangle are identical.\n\n## Boundary Conditions / Domain\n- **Radius Integrity:** The compass width MUST NOT change between sweeping the primary baseline arc and creating the intersection cut. A change in radius physically destroys the required $AB = AC = BC$ equality.",
+"formulaMeta": {
+"formula": "\text{Sides } AB = AC = BC \implies \text{Equilateral } \Delta \implies 60^\circ",
+"description": "The fundamental procedure for generating a perfect 60° angle using only a straightedge and compass.",
+"derivation": "1. From an origin vertex $A$ on a straight line, draw a large arc cutting the baseline at point $B$.\n2. **CRITICAL:** Strictly locking the exact same radius, place the compass point on coordinate $B$ and sweep a secondary arc cutting the primary arc at point $C$.\n3. Draw a straight ray originating from $A$ and passing through $C$. Because $AB = AC = BC$, an invisible equilateral triangle is formed, making $\angle CAB$ mathematically exact at $60^\circ$."
+}
+}
+},
+{
+"cardId": "bd04c155-dd43-46a4-8780-37965e96e2dd",
+"originalOrder": 17,
+"originalHeading": "Constructing a 120° Angle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reclassified to PROCEDURAL",
+"Separated derivations of the two valid methods"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 14,
+"heading": "SOP: Constructing a Precise 120° Angle",
+"back": "## Component Anatomy\n- **60° Sweeps:** The $60^\circ$ arc acts as the fundamental base unit of compass construction. $120^\circ$ is derived via direct summation or subtraction.\n\n## Boundary Conditions / Domain\n- The initial compass radius must remain perfectly locked throughout consecutive sweeps to guarantee linearity in angle addition.",
+"formulaMeta": {
+"formula": "60^\circ + 60^\circ = 120^\circ \quad \text{OR} \quad 180^\circ - 60^\circ = 120^\circ",
+"description": "Two geometrically valid methods for constructing a 120° angle.",
+"derivation": "**Method 1: Additive Approach ($60^\circ + 60^\circ$)**\n1. Construct the base intersection for a $60^\circ$ angle from origin point $A$.\n2. Without altering the radius, place the compass strictly on the new $60^\circ$ intersection mark and sweep a second arc further along the primary curve.\n3. Drawing a ray through this second mark generates exactly $120^\circ$.\n\n**Method 2: Subtractive Approach ($180^\circ - 60^\circ$)**\n1. Construct a standard $60^\circ$ angle intersecting a continuous straight line.\n2. The supplementary exterior angle directly adjacent on the opposite side of the ray is mathematically forced to be exactly $180^\circ - 60^\circ = 120^\circ$."
+}
+}
+},
+{
+"cardId": "ab7ba153-b782-4ea6-ba5c-0919964a5a9a",
+"originalOrder": 6,
+"originalHeading": "Constructing a 90° Angle at a Given Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined boundary condition regarding line extension",
+"Improved sequence order to follow 60/120 constructions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 15,
+"heading": "SOP: Orthogonal Construction at a Specific Vertex",
+"back": "## Component Anatomy\n- **Target Point $O$:** The specified origin vertex on the line where the $90^\circ$ angle must be formed.\n- **Reference Points $X$ and $Y$:** Symmetrical coordinates generated to artificially turn $O$ into a geometric midpoint.\n\n## Boundary Conditions / Domain\n- The target point $O$ must lie on a continuous straight line. If $O$ represents the absolute terminus of a finite segment, the line MUST be artificially extended using a straightedge before symmetrical reference points can be plotted.",
+"formulaMeta": {
+"formula": "O = \text{Midpoint of } XY \implies \text{Bisector through } O \text{ is } 90^\circ",
+"description": "Algorithmic steps to construct a precise 90° orthogonal angle originating from a specific target coordinate O.",
+"derivation": "1. Place the compass on the target vertex $O$. Draw arcs to cut the line on both symmetrical sides at equal distances, generating reference points $X$ and $Y$.\n2. Treat segment $XY$ as an independent entity where $O$ is its exact mathematical midpoint.\n3. Execute a standard perpendicular bisector construction on segment $XY$ (by drawing equal intersecting arcs originating from $X$ and $Y$).\n4. The resulting geometric line will drop directly through $O$ at exactly $90^\circ$."
+}
+}
+},
+{
+"cardId": "dd1b6ff7-5c0d-465c-89b8-e1e55765ca91",
+"originalOrder": 10,
+"originalHeading": "Constructible vs Non-Constructible Angles",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified Euclidean axioms restricting constructability",
+"Added math equation format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 16,
+"heading": "Domain Constraints: Euclidean Constructible Angles",
+"back": "## Mathematical Constructability\nUnder strict Euclidean rules (using only an unmarked straightedge and compass), angles are only constructible if they can be derived through successive bisections (halving) and additions/subtractions of the foundational base angles ($60^\circ$ and $90^\circ$).\n\n- **Constructible:** By chaining basic constructions, we can achieve angles like $45^\circ$ (half of 90), $30^\circ$ (half of 60), $22.5^\circ$ (half of 45), $15^\circ$ (half of 30), and arithmetic combinations like $75^\circ = 45^\circ + 30^\circ$.\n- **Non-Constructible (e.g., $65.5^\circ$):** An angle like $65.5^\circ$ functionally equates to $60^\circ + 5.5^\circ$. Because $5.5^\circ$ cannot be logically derived via binary successive halving of $90^\circ$ or $60^\circ$, $65.5^\circ$ falls outside the domain of valid compass constructions.",
+"standardMeta": {
+"question": "Under Euclidean constraints, why can angles like 22.5° and 15° be mathematically drawn using only a ruler and compass, while an angle like 65.5° cannot?"
+}
+}
+},
+{
+"cardId": "be94a778-082c-4fb6-90db-0ac00c2f3ad6",
+"originalOrder": 15,
+"originalHeading": "Deconstructing a Regular Hexagon",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected sum of angles proof",
+"Strengthened mathematical rigor of the breakdown"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"polygons",
+"class-7"
+],
+"order": 17,
+"heading": "Interior Geometry of a Regular Hexagon",
+"back": "## The Hexagonal Congruence Proof\n- A regular hexagon can be perfectly deconstructed into exactly **6 congruent equilateral triangles**.\n- **Mathematical Justification:** When connecting the opposite vertices of a regular hexagon, the three major diagonals intersect perfectly at a single central coordinate.\n- The interior angles of an equilateral triangle are exactly $60^\circ$. Packing 6 of these vertices around a singular central point yields $6 \times 60^\circ = 360^\circ$. This mathematically closes the 2D planar space around the origin with absolutely zero gaps and zero overlaps.",
+"mnemonic": "Hex = Six = Six Equilateral Triangles.",
+"standardMeta": {
+"question": "Can six completely congruent equilateral triangles be clustered around a central point to form a perfect regular hexagon? Justify the angular geometry."
+}
+}
+},
+{
+"cardId": "3a647ce8-6dde-4614-9c09-21b79b91b414",
+"originalOrder": 18,
+"originalHeading": "Constructing a Regular Hexagon",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted to Formula structure",
+"Added explicit domain check linking side length to radius"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"polygons",
+"jee-main",
+"class-7"
+],
+"order": 18,
+"heading": "SOP: Hexagonal Inscription via Circumference Stepping",
+"back": "## Component Anatomy\n- **Target Parameter $r$:** The specifically desired side length of the final regular hexagon, which dictates the compass width.\n\n## Boundary Conditions / Domain\n- The radius of the foundational base circle and the continuous 'stepping' radius MUST strictly mathematically match the target side length $r$. Any deviation will cause the 6th and final step to fail to close out exactly at $360^\circ$.",
+"formulaMeta": {
+"formula": "\text{Circumference stepping:} \quad 6 \times 60^\circ = 360^\circ",
+"description": "The highly efficient algorithmic procedure for constructing a regular hexagon of side length 'r' using circular geometry.",
+"derivation": "1. Set the compass strictly to the exact desired side length $r$ and sweep a complete $360^\circ$ circle.\n2. Plot an arbitrary starting coordinate anywhere on the circumference.\n3. Without altering the radius $r$, place the compass on the starting coordinate and cut an intersecting arc on the circumference.\n4. Shift the compass point to that new intersection and cut the next sequential arc.\n5. Repeat this continuous stepping sequence exactly 6 times until the final arc perfectly hits the original start point.\n6. Connect the 6 sequential marks with straight line segments to form the regular hexagon."
+}
+}
+},
+{
+"cardId": "cb4b20a9-82ad-454d-abd9-c039d690db21",
+"originalOrder": 19,
+"originalHeading": "Anatomy of the 6-Pointed Star",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX equation blocks",
+"Clarified supplementary angle proofs"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"polygons",
+"jee-main",
+"class-7"
+],
+"order": 19,
+"heading": "Angular Proof: Exterior Triangles of a 6-Pointed Star",
+"back": "## Supplementary Angle Proof\n- **Core Truth:** Yes, all six of the outer triangular structures forming the tips of a 6-pointed star (hexagram) are mathematically **equilateral**.\n- **The Derivation:** The interior angle of a mathematically regular hexagon is calculated as $120^\circ$.\n- When lines are extended outward to form the star, the angles forming the interior base of the star's tips sit on a continuous straight line with the hexagon's interior. Therefore, they are supplementary: $180^\circ - 120^\circ = 60^\circ$.\n- Because a triangle's interior angles sum to $180^\circ$, and the two base angles are proven to be $60^\circ$, the apex tip must also mathematically resolve to $60^\circ$. This renders the entire outer structure perfectly equilateral.",
+"standardMeta": {
+"question": "When mathematically constructing a 6-pointed star projecting outward from the flat sides of a regular hexagon, are the 6 triangular tips equilateral? Justify the proof."
+}
+}
+},
+{
+"cardId": "196947c1-66b1-44a8-b5bd-49d0dba1c77c",
+"originalOrder": 29,
+"originalHeading": "Incircle Construction (Equilateral Triangle)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Repositioned to group with poly-constructions",
+"Added explicit constraint regarding Circumcircle errors"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"jee-main",
+"class-7"
+],
+"order": 20,
+"heading": "SOP: Geometrically Inscribing an Equilateral Triangle",
+"back": "## Component Anatomy\n- **Incentre ($I$):** The precise mathematical coordinate where the angle bisectors (which perfectly overlap with the perpendicular bisectors in strictly equilateral triangles) intersect.\n- **Radius ($r$):** The strictly orthogonal (perpendicular) distance spanning from the incentre to the tangent point of any side.\n\n## Boundary Conditions / Domain\n- **Crucial Error Trap:** The compass radius MUST be meticulously set to the shortest distance (the midpoint of the flat side). If mistakenly set to reach a corner vertex, the sweep will incorrectly generate the **Circumcircle** (enclosing the triangle) rather than the Incircle.",
+"formulaMeta": {
+"formula": "r = \text{Distance}(\text{Incentre}, \text{Side Midpoint})",
+"description": "Algorithmic steps to mathematically inscribe a perfectly tangent circle inside an equilateral triangle.",
+"derivation": "1. Construct the foundational equilateral triangle.\n2. Execute standard perpendicular bisectors on any two sides.\n3. Identify their direct intersection; this mathematically uniquely defines the central point (Incentre / Centroid).\n4. Fix your compass point perfectly on this centre.\n5. Adjust the compass width to measure the exact distance extending from the centre directly to the precise midpoint of any side.\n6. Sweep a full $360^\circ$ arc to draw the inscribed circle, sitting perfectly tangent against all three inner structural walls."
+}
+}
+},
+{
+"cardId": "d42b8f2e-be51-4aed-b8e4-a17f05795771",
+"originalOrder": 14,
+"originalHeading": "Support Lines for a Pointed Arch",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified architectural geometry terms",
+"Reclassified to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"class-7"
+],
+"order": 21,
+"heading": "Geometric Scaffolding: Constructing a Pointed Arch",
+"back": "## The V-Scaffold Framework\n- The fundamental supporting structure is mathematically essentially an inverted V-shape. It strictly consists of two linear segments of identical length meeting at an upper apex vertex.\n- **Algorithmic Execution:**\n  1. Mathematically locate and mark the precise **midpoints** of both the left and right structural arms.\n  2. Placing the compass point at the exact midpoint of the left arm, sweep a convex arc upwards toward the apex.\n  3. Placing the compass point at the exact midpoint of the right arm, sweep a symmetrical convex arc upwards.\n  4. The two independent arcs strictly intersect at the topmost vertex, resolving the classic pointed arch geometry.",
+"standardMeta": {
+"question": "What primary supporting lines and specific geometric coordinate points are required to successfully construct a classic Pointed Arch?"
+}
+}
+},
+{
+"cardId": "49ce5899-d891-4ada-915f-51153462cdd5",
+"originalOrder": 28,
+"originalHeading": "Inflexed Arch vs Pointed Arch Geometry",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reinforced convex vs concave terminology"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"class-7"
+],
+"order": 22,
+"heading": "Locus Shifts: Inflexed vs Pointed Arches",
+"back": "## Compass Centre Location Differences\n- **Pointed Arch (Convex):** The compass coordinates used as rotational centres are located strictly **on or outside** the inverted V-shape supporting arm structure. Sweeping from these exterior loci forces the resulting arcs to bulge outward, creating a convex curve.\n- **Inflexed Arch (Concave):** The compass coordinates are shifted to sit strictly **inside** the arch's interior space (physically below the main curve). Sweeping from these interior loci mathematically forces the top arcs to cave inward (concave), generating a distinctly pinched or 'flexed' apex tip.",
+"mnemonic": "Inflexed centres are INside.",
+"standardMeta": {
+"question": "How does the mathematical locus of the compass centres differ when constructing an 'Inflexed Arch' compared to a standard 'Pointed Arch'?"
+}
+}
+},
+{
+"cardId": "022de6a2-83f6-41eb-ac7d-522ab5fa5f84",
+"originalOrder": 13,
+"originalHeading": "Support Lines for a Trefoil Arch",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Converted to PROCEDURAL classification"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"constructions",
+"class-7"
+],
+"order": 23,
+"heading": "Geometric Scaffolding: Constructing a Symmetrical Trefoil Arch",
+"back": "## The Symmetrical Scaffold SOP\nBefore sweeping the three characteristic curves of a trefoil, strict symmetrical foundation lines must be laid:\n1. Establish a strictly horizontal continuous base line segment $AD$.\n2. Construct two mathematically identical internal angles originating at vertices $A$ and $D$, projecting inward toward a central axis.\n3. On these projected angled rays, mark independent coordinate points $B$ and $C$ such that the scalar length of $AB$ perfectly equals the length of $CD$.\n**Conclusion:** The fixed planar points $A, B, C,$ and $D$ now function as a mathematically flawless structural scaffold to anchor the compass and sweep the three intersecting circular arcs.",
+"standardMeta": {
+"question": "What is the prerequisite structural geometry (support lines and vertices) required before you can mathematically draw a symmetrical Trefoil Arch?"
+}
+}
+},
+{
+"cardId": "daedf2b2-097c-4f82-a35b-1572938e3565",
+"originalOrder": 20,
+"originalHeading": "Tiling (Tessellation)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Explicitly defined 2D constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"geometry",
+"tessellation",
+"jee-main",
+"class-7"
+],
+"order": 24,
+"heading": "Axiomatic Definition of Tessellations",
+"back": "## The Mathematics of Tiling\n- Tiling (Tessellation) is the rigorous mathematical process of executing a complete covering of an infinite or defined two-dimensional planar region using a specific set of geometric shapes.\n- **Absolute Boundary Constraints:** For a planar covering to strictly qualify as a mathematical tessellation, it must endure exactly two geometric laws:\n  1. **Zero Gaps:** There can be absolutely no empty space or voids left uncovered within the target boundary.\n  2. **Zero Overlaps:** No internal area of any shape can exist in the exact same 2D planar space as another shape.",
+"standardMeta": {
+"question": "What is the strict geometric definition of mathematical 'tiling', and what two absolute boundary constraints validate it?"
+}
+}
+},
+{
+"cardId": "2c70a2ee-e190-4419-b958-bcca76a40eba",
+"originalOrder": 25,
+"originalHeading": "Universal Tiling with Regular Polygons",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Linked angle divisibility explicitly to modulo 360",
+"Reclassified to FACT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"geometry",
+"tessellation",
+"jee-main",
+"class-7"
+],
+"order": 25,
+"heading": "Constraints of Regular Polygon Tessellations",
+"back": "## The Rule of 360 Divisibility\n- Mathematically, the strictly ONLY three regular polygons physically capable of independently tiling an infinite 2D plane (obeying zero gaps, zero overlaps) are **Equilateral Triangles, Squares, and Regular Hexagons**.\n- **The Algebraic Proof:** For a regular shape to tile around a vertex, its internal angle $\theta$ must perfectly divide $360^\circ$ without a remainder ($360 \pmod \theta = 0$).\n  - Triangle: $360^\circ / 60^\circ = 6$ polygons.\n  - Square: $360^\circ / 90^\circ = 4$ polygons.\n  - Hexagon: $360^\circ / 120^\circ = 3$ polygons.\n- Polygons like a regular pentagon ($108^\circ$) fail because $360 / 108 = 3.333...$ which forcibly creates gaps or overlaps.",
+"mnemonic": "3, 4, 6 (Triangles, Squares, Hexagons).",
+"standardMeta": {
+"question": "Which three regular polygons are the strictly mathematically capable unique shapes that can tile an infinite 2D plane independently, and what equation governs this?"
+}
+}
+},
+{
+"cardId": "df6c1731-a3e4-411b-8619-49d4d0d7f1f8",
+"originalOrder": 21,
+"originalHeading": "2x1 Grid Parity Constraints (Odd x Odd)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected mathematical variables for grid dimensions",
+"Clarified parity failure mechanism"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"geometry",
+"tessellation",
+"jee-main",
+"class-7"
+],
+"order": 26,
+"heading": "Tiling Constraints: Odd x Odd Grid Parity",
+"back": "## Odd Parity Impossibility\n- It is mathematically impossible to tile an $m \times n$ grid using strictly $2 \times 1$ domino tiles if both dimensions $m$ and $n$ are odd integers.\n- **Mathematical Proof:** The total area of the grid in unit squares is exactly $m \times n$. The algebraic product of two odd integers is strictly an **odd number** (e.g., $5 \times 7 = 35$ squares).\n- Since each $2 \times 1$ tile inherently consumes exactly 2 grid squares, any valid planar tiling without gaps or overlaps must consume an **even** total number of squares ($2k$, where $k$ is the integer number of tiles).\n- An odd total area cannot be divided by 2 without a fractional remainder, forcing parity failure.\n\n## Boundary Conditions / Domain\n- This proof strictly applies to flat orthogonal grids and standard discrete $2 \times 1$ tiles that cannot be physically broken or overlapped.",
+"standardMeta": {
+"question": "Can an $m \times n$ orthogonal grid be mathematically completely tiled using strictly $2 \times 1$ dominoes if both dimensions $m$ and $n$ are odd integers? Provide the proof."
+}
+}
+},
+{
+"cardId": "05583706-ceaa-4a3c-bd86-64539801df4a",
+"originalOrder": 23,
+"originalHeading": "The Black-and-White Coloring Proof",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reclassified to PROCEDURAL",
+"Formatted as a structured algorithm",
+"Added explicit domino parity constraint"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"geometry",
+"combinatorics",
+"jee-main",
+"class-7"
+],
+"order": 27,
+"heading": "Algorithmic SOP: The Checkerboard Tiling Proof",
+"back": "## Component Anatomy\n- **Black Squares:** Orthogonal grid cells mathematically constrained to only share immediate vertical and horizontal edges with White cells.\n- **White Squares:** Grid cells constrained to only share edges with Black cells.\n\n## Boundary Conditions / Domain\n- **The Domino Parity Constraint:** A single, standard $2 \times 1$ domino strictly and simultaneously covers exactly 1 Black square and 1 White square in any valid orientation. It can mathematically never cover two squares of the exact same color.",
+"formulaMeta": {
+"formula": "\text{Count}(\text{Black}) = \text{Count}(\text{White})",
+"description": "The algorithmic parity proof used to mathematically verify if an irregular grid region can be tiled by 2x1 dominoes.",
+"derivation": "1. Mathematically color the entire target grid region in an alternating 2D checkerboard pattern.\n2. Count the absolute total sum of Black squares ($B$) and White squares ($W$) strictly contained within the active region.\n3. Verify the algebraic equality $B = W$.\n4. Because every valid $2 \times 1$ tile placement must continuously consume exactly one of each color, the region CANNOT mathematically be completely tiled if the total internal count of Black squares does not strictly equal the total internal count of White squares."
+}
+}
+},
+{
+"cardId": "704da7e9-367e-40ba-b7e5-8dfe69e9b6d3",
+"originalOrder": 24,
+"originalHeading": "The Missing Square Parity Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Strengthened proof via contradiction",
+"Reclassified as DISTINCTION for trap assessment"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"geometry",
+"combinatorics",
+"jee-main",
+"class-7"
+],
+"order": 28,
+"heading": "Edge Case Constraints: Unequal Parity in Irregular Grids",
+"back": "## The Checkerboard Parity Trap\n- A standard $5 \times 3$ grid mathematically contains exactly 15 squares. If you explicitly cut out exactly one square, you are left with 14 squares (an even total). This numerical reduction mathematically tricks observers into assuming the remaining area is trivially tileable by $2 \times 1$ dominoes.\n- **The Proof via Contradiction:** Apply the standard Black-and-White Checkerboard Coloring algorithm. An odd-by-odd $5 \times 3$ grid inherently contains unequal color parity (e.g., exactly 8 Black squares and 7 White squares).\n- If the removed square was White, the resulting grid possesses 8 Black and 6 White squares. Since $8 \neq 6$, domino tiling is strictly **impossible** despite the even total area.\n- You MUST mathematically remove a Black square (leaving exactly 7 Black and 7 White, so $B=W$) for a $2 \times 1$ covering solution to even be theoretically possible.",
+"standardMeta": {
+"question": "If you permanently remove exactly one square from a $5 \times 3$ grid, you are left with an even total of 14 squares. Is this newly formed irregular grid automatically mathematically tileable by standard $2 \times 1$ dominoes?"
+}
+}
+},
+{
+"cardId": "2ceeb07a-3965-4a6f-8f06-5aab86bd5948",
+"originalOrder": 27,
+"originalHeading": "Anatomy of a Standard Tangram",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Formalized geometric terms for the constituent shapes",
+"Added zero-overlap constraint"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"geometry",
+"tessellation",
+"class-7"
+],
+"order": 29,
+"heading": "Geometric Dissection: The Standard Tangram Set",
+"back": "## Standard Mathematical Composition\n- A classical Chinese Tangram puzzle is structurally derived from the complete planar geometric dissection of a single uniform mathematical square.\n- It strictly consists of exactly **7 distinct discrete geometric polygons** (called 'tans'):\n  - **5 Right Isosceles Triangles:** (Proportionally divided as: two large, one medium, two small)\n  - **1 Square**\n  - **1 Parallelogram**\n\n## Boundary Conditions / Domain\n- **Strict Global Constraint:** To mathematically resolve a target silhouette using a tangram set, all 7 distinct polygonal pieces MUST be utilized simultaneously to completely cover the target spatial region with absolutely zero internal overlaps and zero boundary gaps.",
+"mnemonic": "5 Triangles, 1 Square, 1 Parallelogram (5-1-1).",
+"standardMeta": {
+"question": "What is the exact mathematical polygonal composition (shape distribution) of a standard 7-piece geometrical Tangram puzzle?"
+}
+}
+},
+{
+"cardId": "81523894-f88a-4841-a4ee-e7e736973665",
+"originalOrder": 30,
+"originalHeading": "Kanizsa Triangle (Optical Geometry)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified angular degrees of the negative space sectors"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"geometry",
+"perception",
+"class-7"
+],
+"order": 30,
+"heading": "Negative Space Geometry: The Kanizsa Illusion",
+"back": "## Contour Completion via Geometric Manipulation\n- The Kanizsa illusion is a spatial phenomenon where the human visual cortex automatically perceives a bright, solid continuous equilateral triangle, despite its structural linear boundaries being mathematically non-existent in the 2D plane.\n- **The Construction Mechanics:** It is explicitly mathematically engineered by placing three black circular geometries at the theoretical external vertices of the unseen target triangle.\n- A strict, mathematically precise **$60^\circ$ wedge sector** is removed (subtracted) from each circular base.\n- By stringently orienting these $60^\circ$ negative spatial sectors to point inwards toward a unified central origin, they perfectly map onto the inherent $60^\circ$ interior angles of an equilateral triangle, algorithmically forcing the brain to auto-complete the non-existent geometric edges.",
+"standardMeta": {
+"question": "In the Kanizsa optical illusion, how are explicit geometric shapes mathematically manipulated and radially oriented to force the human visual system to cognitively construct a non-existent equilateral triangle?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"originalOrder": null,
+"originalHeading": null,
+"action": "SYSTEM",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": null
+}
+]
+}
