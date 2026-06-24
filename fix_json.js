@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const targetDir = path.join(__dirname, 'C6/MATHS');
+const targetDir = path.join(__dirname, 'C7/MATHS');
 const files = fs.readdirSync(targetDir).filter(f => f.toUpperCase().endsWith('.JSON'));
 
 const isDryRun = process.argv.includes('--dry-run');
