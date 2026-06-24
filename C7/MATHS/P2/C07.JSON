@@ -714,6 +714,102 @@
 "derivation": "1. Algorithmically scale the defined variable rate directly by the unknown $x$ quantity to capture scaling costs ($25x$).\n2. Additively attach the independent, one-time fixed rate base ($+ 50$).\n3. Mathematically tether the combined total to the absolute budget ceiling ($= 500$).\n4. Process isolation: Strip the fixed rate out of the total budget first via an additive inverse, then divide the remainder strictly by the variable coefficient."
 }
 }
+},
+{
+"cardId": "f5def56e-540c-4426-aabe-2af84fa7c352",
+"originalOrder": 13,
+"originalHeading": "Modeling 'Equating Two Rates' Archetypes",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected mathematical domain constraints for the rates and time variable",
+"Standardized KaTeX syntax"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"word-problems",
+"jee-main",
+"class-7"
+],
+"order": 26,
+"heading": "Archetype Modeling: Equating Divergent Rates",
+"back": "## Component Anatomy\n- **Initial Amount ($\text{Base}$):** The starting scalar value for each respective entity at time $m = 0$.\n- **Rate per period ($R$):** The recurring amount strictly added or subtracted per singular time unit.\n- **Unknown period ($m$):** The shared continuous or discrete time variable (e.g., months) until both aggregate expressions reach equality.\n\n## Boundary Conditions / Domain\n- **Time Synchronicity:** Both sides MUST mathematically be governed by the exact same unit of time ($m$).\n- **Rate Differential Constraint:** To yield a single distinct solution where $m > 0$, the rates must not be equal ($R_1 \neq R_2$). If $R_1 = R_2$, the lines are parallel and will mathematically never intersect (unless bases are also identical, yielding an Identity).",
+"formulaMeta": {
+"formula": "\text{Base}_1 + R_1m = \text{Base}_2 + R_2m",
+"description": "Standard algebraic setup for finding the exact intersection point (time) when two different initial amounts subjected to two different periodic rates become exactly equal.",
+"derivation": "1. Algebraically translate Person 1's trajectory into a localized expression relative to time $m$ (e.g., $4000 + 650m$).\n2. Independently translate Person 2's trajectory into a localized expression relative to the identical time $m$ (e.g., $5050 + 500m$).\n3. Establish mathematical intersection by setting the two isolated expressions strictly equivalent to each other.\n4. Execute transposition: Group the variable $m$ terms strictly on one side and all constant base terms onto the opposing side to isolate and evaluate $m$."
+}
+}
+},
+{
+"cardId": "a6063648-7da0-4b92-870b-bf95440570e4",
+"originalOrder": 26,
+"originalHeading": "Multiplicative Chain Archetype (Bakhshali Manuscript)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted to Formula structure",
+"Refined boundary condition defining explicit recursive dependency"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"history-of-math",
+"word-problems",
+"class-7"
+],
+"order": 27,
+"heading": "Archetype Modeling: Recursive Multiplicative Chains",
+"back": "## Component Anatomy\n- **Base Variable ($x$):** The foundational initial share assigned strictly to the first entity in the sequence.\n- **Chain Multipliers ($k_n$):** The sequential scaling factors mathematically applied to the immediate predecessor's total consolidated share.\n\n## Boundary Conditions / Domain\n- **The Recursive Trap:** The most statistically common exam failure is multiplying the third person directly by the base variable $x$ instead of the second person's entire expression. You MUST mathematically chain the multiplications recursively. For example, if B is twice A, and C is thrice B: C evaluates to $3(2x)$, NOT $3x$.",
+"formulaMeta": {
+"formula": "x + k_1x + (k_2 \times k_1x) + \dots = \text{Total}",
+"description": "Algebraic setup procedure for a historically documented distribution problem (e.g., Bakhshali Manuscript) where each subsequent entity receives a specific geometric multiple of the previous entity's allocation.",
+"derivation": "1. Meticulously anchor the base variable $x$ strictly to the first root entity in the sequential chain.\n2. Algebraically express the second entity strictly as a scaled multiple of the first (e.g., $2x$).\n3. Express the third entity strictly as a scaled multiple of the **second entity's entire localized expression** (e.g., $3 \times 2x = 6x$).\n4. Additively combine all resulting localized terms ($x + 2x + 6x + \dots$) and equate the polynomial to the stated total aggregate sum to resolve $x$."
+}
+}
+},
+{
+"cardId": "df41b5d8-3408-4498-9c17-e44bec00986c",
+"originalOrder": 27,
+"originalHeading": "Fractional Self-Reference Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected mathematical domain constraints preventing singular denominators",
+"Clarified linguistic parsing logic"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"word-problems",
+"jee-main",
+"class-7"
+],
+"order": 28,
+"heading": "Archetype Modeling: Fractional Self-Reference",
+"back": "## Component Anatomy\n- **Total Variable ($w$):** The final, absolute integrated value of the entire object.\n- **Self-Referential Component ($\frac{w}{k}$):** The internal fractional subset scaling natively with the object's total size.\n- **Absolute Constant ($C$):** The external fixed addition explicitly stated.\n\n## Boundary Conditions / Domain\n- **Domain Constraint:** $k \neq 0$ (undefined) and $k \neq 1$ (which implies $w = w + C$, an impossible contradiction if $C \neq 0$).\n- **The Base Assignment Trap:** A common cognitive error is assigning the variable only to the fractional piece. The base variable MUST fundamentally represent the entire, unbroken object to satisfy the linguistic premise.",
+"mnemonic": "The whole equals the part plus the rest.",
+"formulaMeta": {
+"formula": "w = \frac{w}{k} + C",
+"description": "The algebraic procedure for modeling a paradox-like scenario where an object's absolute total value is linguistically defined partially by a fraction of its own total value (e.g., 'A brick weighs 1 kg more than half its own weight').",
+"derivation": "1. Strategically assign a single unified base variable (e.g., $w$) to represent the absolute total weight or dimension of the object.\n2. Mathematically formulate the RHS by converting the linguistic fractional condition strictly into an expression utilizing $w$ (e.g., $\frac{w}{2}$) and additively appending the known absolute constant ($+ 1$).\n3. Enforce equivalence between the isolated whole and the assembled parts: $w = \frac{w}{2} + 1$.\n4. Apply an additive inverse to group the variable fractional term onto the LHS ($w - \frac{w}{2} = 1$) to consolidate and isolate $w$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
 }
 ]
 }
