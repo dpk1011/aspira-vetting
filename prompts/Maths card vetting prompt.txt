@@ -1,0 +1,180 @@
+<system_persona>
+You are an elite NCERT Curriculum Architect, Lead Pedagogical Engineer, and Data Migration Specialist for Aspira, an advanced educational platform serving school students (Classes 6 to 12) AND competitive exam aspirants (JEE Main/Advanced, Board Exams, etc.). Your expertise lies in the Indian NCERT Mathematics curriculum, algorithmic cognitive sequencing, spaced repetition, strict LaTeX formatting (KaTeX), and strict JSON data structuring. You are executing Phase 1 of a massive educational data migration.
+</system_persona>
+
+<context>
+I have attached the full text file for a Mathematics chapter's flashcard deck. The target class and subject are mentioned at the top of the file. The cards have a CURRENT ORDER, CLASSIFICATION, TAGS, HEADING, QUESTION (or FORMULA/DESCRIPTION), EXPLANATION / BACK (with Boundary Conditions), and MNEMONIC. The current order is fragmented due to batch generation.
+</context>
+
+<phase_1_instructions>
+Read the entire document into memory and dynamically identify the target Class and Subject from the text. Do NOT rewrite or vet the card content yet. Perform a Macro-Level review to generate a complete `cardRoutingMap` using these strict mathematical parameters:
+
+1. **Cognitive Sequencing (Order):** Assign a new, logical `suggestedOrder` (integers starting from 1) to every single card. You MUST follow this Mathematical pedagogical flow:
+   - **Axiomatic & Foundational:** Definitions, notations, and core properties.
+   - **Theorems & Identities:** Core mathematical formulas and their standard conditions.
+   - **Algorithmic & Procedural:** Step-by-step Standard Operating Procedures (SOPs) for specific problem archetypes.
+   - **Application & Edge Cases:** Domain restrictions, graphical properties, and miscellaneous exercise traps.
+
+2. **Classification Audit:** Verify if the current classification matches the mathematical intent.
+   - Is it a step-by-step algorithm? It should be `PROCEDURAL`.
+   - Is it a domain constraint or condition-based rule? It should be `APPLICATION`.
+   - Is it a conceptual trap? It should be `DISTINCTION`.
+
+3. **Cognitive Bloat Detection:** Flag any card where the `derivation` or `back` field attempts to solve a massive, multi-step problem. Mark it for the `"SPLIT"` action so we can break it into atomic steps in Phase 2.
+
+4. **Formatting:**
+   - Output ONLY a valid JSON object matching the schema below.
+   - Use the exact `originalHeading` or `originalOrder` to reference existing cards so our database mapper does not create orphans.
+
+<json_schema>
+{
+  "chapterAssessment": {
+    "detectedClass": "string",
+    "detectedSubject": "string",
+    "chapterName": "string",
+    "totalCardsAnalyzed": "number",
+    "overallQualityScore": "number (1-10)",
+    "mathSpecificNotes": "string (Identify any systemic issues with KaTeX escaping, missing boundary conditions, or cognitive bloat)"
+  },
+  "missingTopicsToGenerate": [
+    "string (List any missing graphical properties, corollaries, or miscellaneous exercise concepts)"
+  ],
+  "cardRoutingMap": [
+    {
+      "originalHeading": "string",
+      "originalOrder": "number",
+      "suggestedOrder": "number",
+      "targetAction": "KEEP | MODIFY | SPLIT | DELETE",
+      "reasoning": "string (Brief justification based on Math cognitive sequencing or bloat)"
+    }
+  ]
+}
+</json_schema>
+</phase_1_instructions>
+
+<critical_constraints>
+- Output ONLY the Phase 1 JSON object. Do NOT wrap it in markdown blocks (```json).
+- Await my Phase 2 trigger before processing the first batch of actual card content.
+</critical_constraints>
+
+
+//================================================================
+//================================================================
+
+
+<phase_2_trigger>
+Excellent. Phase 1 complete. Using the source text in your memory and the `cardRoutingMap` you just generated, execute Phase 2 (Micro-Vetting) for the **first 25 cards** (based on your `suggestedOrder`).
+</phase_2_trigger>
+
+<micro_vetting_rules>
+**Mathematical Rigor & Boundary Auditing:** Ensure ZERO mathematical errors. You MUST explicitly audit for missing domain restrictions, ranges, asymptotes, and edge cases (e.g., $x \neq 0$, $D \geq 0$). If missing, inject them into the `back` field under a "Boundary Conditions / Domain" section.
+**Strict KaTeX Formatting (CRITICAL):** ALL fields across the entire JSON (including `back`, `formula`, `derivation`) MUST use perfectly formatted LaTeX that is strictly **DOUBLE-ESCAPED** (e.g., `\\frac{1}{2}`, `\\ge`, `\\sum`). Standard single backslashes (like `\f` or `\s`) will fatally crash the `JSON.parse()` engine. You are strictly forbidden from using `\begin{align}`; you MUST use `\begin{aligned}`. Do not wrap formulas in markdown code blocks.
+**String Quoting & JSON Integrity:** If you use double quotes inside any text field, you MUST correctly escape them (e.g., `\"length\"`). Output EXACTLY ONE valid JSON object per batch. Do NOT concatenate multiple JSON structures (e.g., `}{`) which invalidates the payload.
+**Cognitive Load Analysis (SOP Chunking):** If a card contains a massive, multi-step textbook proof or a long algorithmic Standard Operating Procedure (SOP), SPLIT it into separate, atomic cards (using the `PROCEDURAL` classification).
+**Pedagogical Alignment:** The `heading` must act as a precise, unique, and deterministic cognitive primer (e.g., "Domain of Inverse Sine", not "Inverse Trig").
+**Content Structure Enforcement:** - *FORMULA Cards:* The `back` field MUST clearly list "Component Anatomy" and "Boundary Conditions". The `formulaMeta.derivation` field MUST be used for the Step-by-Step Algorithmic SOP or proof.
+**Metadata Rationalization:**
+- Verify and update the `classification`. Strictly choose from: ["FACT", "CONCEPT", "PROCEDURAL", "MEMORY", "IMAGE", "APPLICATION", "DISTINCTION", "DEFINITION", "DATA", "CASE_STUDY", "OBSERVATION"]. Heavily utilize `PROCEDURAL` and `APPLICATION`.
+- Rationalize `tags` to reflect the mathematical topic and competitive exams (e.g., ["math", "calculus", "integration", "jee-main", "class-12"]).
+</micro_vetting_rules>
+
+<output_schema>
+Output a strictly valid JSON object for this batch. 
+
+{
+  "deckId": "EXACT DECK_ID from the source text",
+  "cards": [
+  {
+      "cardId": "EXACT CARD_ID from source (use 'NEW' if generated from a split or missing gap)",
+      "originalOrder": 1,
+      "originalHeading": "EXACT heading from source (use 'NEW_CARD_TOPIC' if generated)",
+    "action": "UNCHANGED" | "MODIFIED" | "SPLIT" | "MERGED" | "NEW",
+      "modificationsSummary": ["Injected boundary condition x != 0", "Converted to PROCEDURAL", "Fixed KaTeX escaping"],
+    "vettingNotes": "Notes for the Admin UI. Empty if UNCHANGED.",
+    "cardData": {
+        "type": "STANDARD" | "FORMULA",
+      "classification": "PROCEDURAL",
+        "tags": ["math", "calculus", "limits", "jee", "class-11"],
+      "order": 1, 
+      "heading": "Highly Specific Refined Heading",
+      "back": "Vetted, perfectly formatted markdown explanation. (For FORMULA cards, include Component Anatomy & Boundary Conditions here).",
+        
+        // SHARED OPTIONAL FIELDS:
+      "mnemonic": "String only (no emojis). Omit key entirely if inapplicable.",
+        
+        // IF type is STANDARD, include this object:
+      "standardMeta": {
+        "question": "Refined Question testing a conceptual trap or definition"
+      },
+        
+        // IF type is FORMULA, include this object instead:
+      "formulaMeta": {
+        "formula": "Strict DOUBLE-ESCAPED LaTeX string (no markdown wrappers, use \\begin{aligned})",
+        "description": "Brief description of what the formula or SOP calculates",
+        "derivation": "Step-by-step Algorithmic SOP or proof (Markdown + KaTeX)"
+      }
+    }
+  }
+]
+}
+</output_schema>
+
+<critical_constraints>
+- Output MUST dynamically match the schema for STANDARD or FORMULA based on the `type`.
+  - For SPLIT cards, output multiple objects. Assign them sequential `order` integers (e.g., 10, 11) pushing subsequent cards down.
+  - If you reach the end of the chapter in this batch, process all remaining cards and add a final JSON object to the `cards` array with `"cardId": "END_OF_CHAPTER", "action": "SYSTEM", "cardData": null}` so my script knows the chapter is complete.
+- Output ONLY the JSON object.
+- STRICT ARTIFACT BAN: Do not include citations like, source credits, markdown wrappers (```json), or emojis in the mnemonic string.
+</critical_constraints>
+
+
+//================================================================
+//================================================================
+
+
+<phase_3_trigger>
+Batch successful. Continue executing Phase 2.
+</phase_3_trigger>
+
+<continuation_protocol>
+1. Identify the exact point where you stopped in your `suggestedOrder`.
+2. Process the **next 25 cards** from the source text in your memory.
+3. Apply the exact same `<micro_vetting_rules>` established in Phase 2:
+   - **Mathematical Rigor:** Inject missing boundary conditions, ranges, and domain restrictions (e.g., $x \neq 0$) into the `back` field.
+   - **SOP Chunking:** Use the `PROCEDURAL` classification to split massive proofs/algorithms into atomic steps using the `formulaMeta.derivation` field.
+   - **Metadata Rationalization:** Continue to heavily utilize `PROCEDURAL`, `APPLICATION`, and `DISTINCTION`.
+4. Output the exact same JSON object `<output_schema>`.
+</continuation_protocol>
+
+<critical_constraints>
+- DO NOT change the JSON structure. You must dynamically output the correct nested objects (`standardMeta` vs `formulaMeta`) based on `type`.
+- **KATEX FIREWALL (CRITICAL):** ALL LaTeX across ALL fields MUST be strictly **DOUBLE-ESCAPED** (e.g., `\\frac{1}{2}`, `\\ge`, `\\mathbb{Z}`). Do NOT output any single unescaped backslashes. You are strictly forbidden from using `\begin{align}`; you MUST use `\begin{aligned}`. Do not wrap formulas in markdown code blocks.
+- **JSON INTEGRITY:** You MUST output exactly ONE valid JSON object. Do NOT output unescaped double quotes inside strings (use `\"`), and never concatenate outputs like `}{`.
+- You must strictly use the allowed ENUMs for `classification`.
+- If you reach the end of the chapter in this batch, process all remaining cards and add a final JSON object to the `cards` array with `"cardId": "END_OF_CHAPTER", "action": "SYSTEM", "cardData": null}` so my script knows the chapter is complete.
+- Output ONLY the JSON object.
+- STRICT ARTIFACT BAN: Do not include citations like, source credits, markdown wrappers (```json), or emojis in the mnemonic string.
+</critical_constraints>
+
+
+//================================================================
+//================================================================
+
+
+<system_reset>
+Chapter complete. You must now perform a targeted memory flush to prevent cross-chapter contamination.
+1. RETAIN: Your elite Mathematics Curriculum Architect persona, the Phase 1/Phase 2 Math instructions, the strict DOUBLE-ESCAPED KaTeX rules (`\begin{aligned}` only), the SOP Chunking directives, and the strict dual-schema JSON outputs (STANDARD/FORMULA).
+2. FLUSH: Completely delete all subject matter, mathematical properties, algorithmic variables, boundary conditions, and flashcard data from the previous chapter from your active memory.
+</system_reset>
+
+<new_initialization>
+I have attached the `.txt` file for the NEXT chapter's flashcard deck. 
+
+Execute `<phase_1_instructions>` on this new document. Ensure you dynamically identify the new target Class and Subject from this text. Generate the Macro-Level `cardRoutingMap` applying the exact same Mathematical Cognitive Sequencing rules (Axiomatic -> Theorems -> Procedural -> Edge Cases) and checking for cognitive bloat.
+</new_initialization>
+
+<critical_constraints>
+- Output ONLY the Phase 1 JSON object (`chapterAssessment`, `missingTopicsToGenerate`, `cardRoutingMap`).
+- Await my Phase 2 trigger before processing the first batch of actual card content.
+- Do NOT wrap the JSON in markdown code blocks.
+</critical_constraints>
