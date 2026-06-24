@@ -51,7 +51,7 @@
 ],
 "order": 2,
 "heading": "Line vs. Line Segment Distinction",
-"back": "- **Line Segment:** The shortest path between two points. It has **two distinct endpoints** and a fixed length. Denoted as $\overline{AB}$.\n- **Line:** A line segment extended infinitely in both directions. It has **zero endpoints** and no fixed length. Denoted as $\overleftrightarrow{AB}$ or by lowercase letters like $l$ or $m$.",
+"back": "- **Line Segment:** The shortest path between two points. It has **two distinct endpoints** and a fixed length. Denoted as $\\overline{AB}$.\n- **Line:** A line segment extended infinitely in both directions. It has **zero endpoints** and no fixed length. Denoted as $\\overleftrightarrow{AB}$ or by lowercase letters like $l$ or $m$.",
 "mnemonic": "Segment is a piece (endpoints), Line is limitless.",
 "standardMeta": {
 "question": "What is the strict geometric difference between a Line and a Line Segment in terms of endpoints and length?"
@@ -79,9 +79,9 @@
 ],
 "order": 3,
 "heading": "Directionality of Rays",
-"back": "- **Answer:** No, they are strictly different.\n- **Ray $\overrightarrow{OA}$:** Starts at initial point $O$ and extends infinitely through point $A$.\n- **Ray $\overrightarrow{AO}$:** Starts at initial point $A$ and extends infinitely through point $O$.\n- **Key Rule:** The first letter in a ray's notation **must** strictly be its fixed starting (initial) point.",
+"back": "- **Answer:** No, they are strictly different.\n- **Ray $\\overrightarrow{OA}$:** Starts at initial point $O$ and extends infinitely through point $A$.\n- **Ray $\\overrightarrow{AO}$:** Starts at initial point $A$ and extends infinitely through point $O$.\n- **Key Rule:** The first letter in a ray's notation **must** strictly be its fixed starting (initial) point.",
 "standardMeta": {
-"question": "In standard geometry, is the ray $\overrightarrow{OA}$ the same as the ray $\overrightarrow{AO}$? Explain the boundary conditions of the notation."
+"question": "In standard geometry, is the ray $\\overrightarrow{OA}$ the same as the ray $\\overrightarrow{AO}$? Explain the boundary conditions of the notation."
 }
 }
 },
@@ -107,9 +107,9 @@
 ],
 "order": 4,
 "heading": "Ray Notation: Intermediate Point Extension",
-"back": "- **Answer:** Yes, it can be validly denoted as $\overrightarrow{OB}$.\n- **Mathematical Justification:** A ray is defined solely by its **fixed initial point** and its **infinite directional path**. Since $A$ and $B$ lie on the exact same infinite trajectory from $O$, $\overrightarrow{OA}$ and $\overrightarrow{OB}$ represent the exact same geometric entity.",
+"back": "- **Answer:** Yes, it can be validly denoted as $\\overrightarrow{OB}$.\n- **Mathematical Justification:** A ray is defined solely by its **fixed initial point** and its **infinite directional path**. Since $A$ and $B$ lie on the exact same infinite trajectory from $O$, $\\overrightarrow{OA}$ and $\\overrightarrow{OB}$ represent the exact same geometric entity.",
 "standardMeta": {
-"question": "If a ray starts at initial point $O$, passes through point $A$, and continues infinitely through point $B$, can the ray $\overrightarrow{OA}$ be mathematically denoted as $\overrightarrow{OB}$?"
+"question": "If a ray starts at initial point $O$, passes through point $A$, and continues infinitely through point $B$, can the ray $\\overrightarrow{OA}$ be mathematically denoted as $\\overrightarrow{OB}$?"
 }
 }
 },
@@ -163,11 +163,11 @@
 ],
 "order": 6,
 "heading": "Maximum Lines from Non-Collinear Points",
-"back": "## Component Anatomy:\n- **$n$:** The number of distinct, non-collinear points on a plane.\n- **$L$:** The maximum number of unique straight lines that can be drawn passing through pairs of these points.\n\n## Boundary Conditions / Domain:\n- $n \ge 2$\n- $n \in \mathbb{Z}^+$\n- No three points can lie on the same straight line (strictly non-collinear).",
+"back": "## Component Anatomy:\n- **$n$:** The number of distinct, non-collinear points on a plane.\n- **$L$:** The maximum number of unique straight lines that can be drawn passing through pairs of these points.\n\n## Boundary Conditions / Domain:\n- $n \\ge 2$\n- $n \\in \\mathbb{Z}^+$\n- No three points can lie on the same straight line (strictly non-collinear).",
 "formulaMeta": {
-"formula": "L = \frac{n(n-1)}{2}",
+"formula": "L = \\frac{n(n-1)}{2}",
 "description": "State the formula to find the number of unique lines $L$ that can be drawn through $n$ non-collinear points.",
-"derivation": "**Algorithmic SOP (Combinatorics Bridging):**\n1. For $n=3$ points (A, B, C): Lines are AB, BC, CA $\implies \frac{3(2)}{2} = 3$.\n2. For $n=4$ points (A, B, C, D): Lines are AB, BC, CD, DA, AC, BD $\implies \frac{4(3)}{2} = 6$.\n3. Each point connects to $(n-1)$ other points, but this counts every line twice (AB and BA). Thus, divide by 2."
+"derivation": "**Algorithmic SOP (Combinatorics Bridging):**\n1. For $n=3$ points (A, B, C): Lines are AB, BC, CA $\\implies \\frac{3(2)}{2} = 3$.\n2. For $n=4$ points (A, B, C, D): Lines are AB, BC, CD, DA, AC, BD $\\implies \\frac{4(3)}{2} = 6$.\n3. Each point connects to $(n-1)$ other points, but this counts every line twice (AB and BA). Thus, divide by 2."
 }
 }
 },
@@ -190,7 +190,7 @@
 ],
 "order": 7,
 "heading": "Geometric Anatomy of an Angle",
-"back": "- **Vertex:** The common starting (initial) point where two rays meet.\n- **Arms (or Sides):** The two rays (e.g., $\overrightarrow{BD}$ and $\overrightarrow{BE}$) that diverge from the vertex to form the angle.",
+"back": "- **Vertex:** The common starting (initial) point where two rays meet.\n- **Arms (or Sides):** The two rays (e.g., $\\overrightarrow{BD}$ and $\\overrightarrow{BE}$) that diverge from the vertex to form the angle.",
 "standardMeta": {
 "question": "What are the two core geometric components that form an angle?"
 }
@@ -220,7 +220,7 @@
 "heading": "Angle Formation Constraint: Single Point Trap",
 "back": "- **Answer:** No, a single point cannot form an angle.\n- **Reasoning:** A single point lacks dimensionality and spread. An angle strictly requires a **vertex** (the point) AND **two distinct arms** (rays or line segments) diverging from it to measure a rotation.",
 "standardMeta": {
-"question": "Can a single geometric point be labeled as an angle (e.g., $\angle P$)? Explain the strict structural requirement."
+"question": "Can a single geometric point be labeled as an angle (e.g., $\\angle P$)? Explain the strict structural requirement."
 }
 }
 },
@@ -271,11 +271,11 @@
 ],
 "order": 10,
 "heading": "Domain of an Acute Angle",
-"back": "## Component Anatomy:\n- **$\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than zero ($0^\circ$) and strictly less than a right angle ($90^\circ$).",
+"back": "## Component Anatomy:\n- **$\\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than zero ($0^\\circ$) and strictly less than a right angle ($90^\\circ$).",
 "mnemonic": "Acute is 'a cute' little angle (less than 90).",
 "formulaMeta": {
-"formula": "0^\circ < \theta < 90^\circ",
-"description": "State the mathematical domain (inequality) for an Acute Angle, $\theta$.",
+"formula": "0^\\circ < \\theta < 90^\\circ",
+"description": "State the mathematical domain (inequality) for an Acute Angle, $\\theta$.",
 "derivation": "Not applicable; Axiomatic definition."
 }
 }
@@ -299,7 +299,7 @@
 ],
 "order": 11,
 "heading": "Right Angle and Perpendicularity",
-"back": "- **Right Angle:** An angle that is exactly $\frac{1}{2}$ of a straight angle, measuring $90^\circ$.\n- **Perpendicular Lines:** If two lines intersect to form right angles ($90^\circ$), they are strictly defined as perpendicular lines (denoted as $\perp$).",
+"back": "- **Right Angle:** An angle that is exactly $\\frac{1}{2}$ of a straight angle, measuring $90^\\circ$.\n- **Perpendicular Lines:** If two lines intersect to form right angles ($90^\\circ$), they are strictly defined as perpendicular lines (denoted as $\\perp$).",
 "mnemonic": "Right angle is always right (90 degrees).",
 "standardMeta": {
 "question": "What defines a Right Angle, and what is the geometric term for two lines that intersect at this specific angle?"
@@ -327,11 +327,11 @@
 ],
 "order": 12,
 "heading": "Domain of an Obtuse Angle",
-"back": "## Component Anatomy:\n- **$\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than a right angle ($90^\circ$) and strictly less than a straight angle ($180^\circ$).",
+"back": "## Component Anatomy:\n- **$\\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than a right angle ($90^\\circ$) and strictly less than a straight angle ($180^\\circ$).",
 "mnemonic": "Obtuse is obese (larger than 90, but stops at 180).",
 "formulaMeta": {
-"formula": "90^\circ < \theta < 180^\circ",
-"description": "State the mathematical domain (inequality) for an Obtuse Angle, $\theta$.",
+"formula": "90^\\circ < \\theta < 180^\\circ",
+"description": "State the mathematical domain (inequality) for an Obtuse Angle, $\\theta$.",
 "derivation": "Not applicable; Axiomatic definition."
 }
 }
@@ -354,7 +354,7 @@
 ],
 "order": 13,
 "heading": "Straight Angle Definition",
-"back": "- **Definition:** An angle formed when the two arms point in exactly opposite directions, creating a perfectly straight line.\n- **Measure:** It equals exactly $\frac{1}{2}$ of a full turn.\n- **Degree:** $180^\circ$.",
+"back": "- **Definition:** An angle formed when the two arms point in exactly opposite directions, creating a perfectly straight line.\n- **Measure:** It equals exactly $\\frac{1}{2}$ of a full turn.\n- **Degree:** $180^\\circ$.",
 "mnemonic": "Straight line = Straight angle.",
 "standardMeta": {
 "question": "Define a Straight Angle and its fractional relationship to a full turn."
@@ -382,11 +382,11 @@
 ],
 "order": 14,
 "heading": "Domain of a Reflex Angle",
-"back": "## Component Anatomy:\n- **$\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than a straight angle ($180^\circ$) and strictly less than a complete full-turn angle ($360^\circ$).",
+"back": "## Component Anatomy:\n- **$\\theta$:** The measure of the angle in degrees.\n\n## Boundary Conditions / Domain:\n- The angle must be strictly greater than a straight angle ($180^\\circ$) and strictly less than a complete full-turn angle ($360^\\circ$).",
 "mnemonic": "Reflex stretches backwards past a straight line.",
 "formulaMeta": {
-"formula": "180^\circ < \theta < 360^\circ",
-"description": "State the mathematical domain (inequality) for a Reflex Angle, $\theta$.",
+"formula": "180^\\circ < \\theta < 360^\\circ",
+"description": "State the mathematical domain (inequality) for a Reflex Angle, $\\theta$.",
 "derivation": "Not applicable; Axiomatic definition."
 }
 }
@@ -411,7 +411,7 @@
 ],
 "order": 15,
 "heading": "Complete Angle (Full Turn)",
-"back": "- **Definition:** An angle representing one complete, full rotation around a central vertex.\n- **Measure:** Exactly $360^\circ$.\n- **Visual Property:** The initial and final positions of the arm perfectly overlap and coincide after completing the full rotation.",
+"back": "- **Definition:** An angle representing one complete, full rotation around a central vertex.\n- **Measure:** Exactly $360^\\circ$.\n- **Visual Property:** The initial and final positions of the arm perfectly overlap and coincide after completing the full rotation.",
 "mnemonic": "Complete = Full circle = 360.",
 "standardMeta": {
 "question": "What defines a Complete Angle geometrically, and what is its exact mathematical degree measure?"
@@ -492,7 +492,7 @@
 ],
 "order": 18,
 "heading": "Interior Containment Angle Inequality",
-"back": "- **Property:** If an angle $\angle XOY$ is entirely contained within the interior region of another angle $\angle AOB$ sharing the same vertex, then $\angle AOB$ is strictly greater than $\angle XOY$.\n- **Mathematical Notation:** $\angle XOY \subset \angle AOB \implies \angle AOB > \angle XOY$.\n- **Application:** This is the foundational mathematical logic used when comparing angle sizes visually via superimposition (tracing paper).",
+"back": "- **Property:** If an angle $\\angle XOY$ is entirely contained within the interior region of another angle $\\angle AOB$ sharing the same vertex, then $\\angle AOB$ is strictly greater than $\\angle XOY$.\n- **Mathematical Notation:** $\\angle XOY \\subset \\angle AOB \\implies \\angle AOB > \\angle XOY$.\n- **Application:** This is the foundational mathematical logic used when comparing angle sizes visually via superimposition (tracing paper).",
 "standardMeta": {
 "question": "If angle $XOY$ is fully contained within the interior of angle $AOB$, what is the strict mathematical inequality between their measures?"
 }
@@ -517,7 +517,7 @@
 ],
 "order": 19,
 "heading": "Protractor Scale Selection Rule",
-"back": "- **Inner Scale:** Reads $0^\circ$ to $180^\circ$ from **right to left**. Strictly use this when the angle's base arm points to the **right**.\n- **Outer Scale:** Reads $0^\circ$ to $180^\circ$ from **left to right**. Strictly use this when the angle's base arm points to the **left**.\n- **Cognitive Trap:** A common critical error is reading from the $180^\circ$ mark instead of the $0^\circ$ mark. Always verify which specific scale places $0^\circ$ exactly on the base arm.",
+"back": "- **Inner Scale:** Reads $0^\\circ$ to $180^\\circ$ from **right to left**. Strictly use this when the angle's base arm points to the **right**.\n- **Outer Scale:** Reads $0^\\circ$ to $180^\\circ$ from **left to right**. Strictly use this when the angle's base arm points to the **left**.\n- **Cognitive Trap:** A common critical error is reading from the $180^\\circ$ mark instead of the $0^\\circ$ mark. Always verify which specific scale places $0^\\circ$ exactly on the base arm.",
 "mnemonic": "Base points Right -> Read Right-to-left (Inner). Base points Left -> Read Left-to-right (Outer).",
 "standardMeta": {
 "question": "What is the strict boundary rule for choosing between the inner and outer scales on a standard protractor?"
@@ -545,11 +545,11 @@
 ],
 "order": 20,
 "heading": "SOP: Angle Measurement Using a Protractor",
-"back": "## Component Anatomy:\n- **Vertex:** The exact center meeting point of the two arms.\n- **Base Arm:** The reference ray aligned perfectly with the protractor's $0^\circ$ mark.\n\n## Boundary Conditions / Domain:\n- The angle $\theta$ being measured directly must be $\le 180^\circ$.\n- To measure a reflex angle, strictly measure the interior angle and subtract from $360^\circ$.",
+"back": "## Component Anatomy:\n- **Vertex:** The exact center meeting point of the two arms.\n- **Base Arm:** The reference ray aligned perfectly with the protractor's $0^\\circ$ mark.\n\n## Boundary Conditions / Domain:\n- The angle $\\theta$ being measured directly must be $\\le 180^\\circ$.\n- To measure a reflex angle, strictly measure the interior angle and subtract from $360^\\circ$.",
 "formulaMeta": {
-"formula": "\text{Measure} = \text{Scale Reading of Non-Base Arm}",
+"formula": "\\text{Measure} = \\text{Scale Reading of Non-Base Arm}",
 "description": "What is the general mathematical relationship used to record an angle's measure from a protractor?",
-"derivation": "**Algorithmic SOP:**\n1. Place the exact center point of the protractor precisely on the angle's vertex.\n2. Rotate the protractor so the $0^\circ$ baseline strictly overlaps the angle's base arm.\n3. Determine whether the base arm aligns with the inner or outer $0^\circ$ mark.\n4. Trace the angle's second arm and read the exact value on the matched scale."
+"derivation": "**Algorithmic SOP:**\n1. Place the exact center point of the protractor precisely on the angle's vertex.\n2. Rotate the protractor so the $0^\\circ$ baseline strictly overlaps the angle's base arm.\n3. Determine whether the base arm aligns with the inner or outer $0^\\circ$ mark.\n4. Trace the angle's second arm and read the exact value on the matched scale."
 }
 }
 },
@@ -574,11 +574,11 @@
 ],
 "order": 21,
 "heading": "SOP: Angle Construction Using a Protractor",
-"back": "## Component Anatomy:\n- **$\theta$:** The target degree measure to be constructed.\n\n## Boundary Conditions / Domain:\n- $0^\circ < \theta \le 180^\circ$.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The target degree measure to be constructed.\n\n## Boundary Conditions / Domain:\n- $0^\\circ < \\theta \\le 180^\\circ$.",
 "formulaMeta": {
-"formula": "\angle \text{Constructed} = \theta",
-"description": "What is the target parameter when constructing a new specific angle $\theta$?",
-"derivation": "**Algorithmic SOP:**\n1. Draw a straight base ray using a ruler and sharply mark the initial point (the vertex).\n2. Place the protractor's center exactly on the vertex and align the baseline perfectly with the ray.\n3. Identify the target measure $\theta$ on the correct scale (starting from $0^\circ$ on the base ray's side).\n4. Mark a sharp, precise dot at the $\theta$ tick mark on the paper.\n5. Remove the protractor and use a ruler to draw a second ray starting strictly from the vertex and passing precisely through the dot."
+"formula": "\\angle \\text{Constructed} = \\theta",
+"description": "What is the target parameter when constructing a new specific angle $\\theta$?",
+"derivation": "**Algorithmic SOP:**\n1. Draw a straight base ray using a ruler and sharply mark the initial point (the vertex).\n2. Place the protractor's center exactly on the vertex and align the baseline perfectly with the ray.\n3. Identify the target measure $\\theta$ on the correct scale (starting from $0^\\circ$ on the base ray's side).\n4. Mark a sharp, precise dot at the $\\theta$ tick mark on the paper.\n5. Remove the protractor and use a ruler to draw a second ray starting strictly from the vertex and passing precisely through the dot."
 }
 }
 },
@@ -603,11 +603,11 @@
 ],
 "order": 22,
 "heading": "Reflex Angle Algebraic Calculation",
-"back": "## Component Anatomy:\n- **$\theta$:** The given interior acute, right, or obtuse angle.\n- **$360^\circ$:** A complete full-turn angle.\n\n## Boundary Conditions / Domain:\n- $\theta$ must be strictly between $0^\circ$ and $180^\circ$ ($0^\circ < \theta < 180^\circ$) for the reflex angle to fall strictly in the $(180^\circ, 360^\circ)$ domain.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The given interior acute, right, or obtuse angle.\n- **$360^\\circ$:** A complete full-turn angle.\n\n## Boundary Conditions / Domain:\n- $\\theta$ must be strictly between $0^\\circ$ and $180^\\circ$ ($0^\\circ < \\theta < 180^\\circ$) for the reflex angle to fall strictly in the $(180^\\circ, 360^\\circ)$ domain.",
 "formulaMeta": {
-"formula": "\text{Reflex } \angle \theta = 360^\circ - \theta",
-"description": "State the formula to calculate the Reflex angle of a given interior angle $\theta$.",
-"derivation": "**Algorithmic SOP:**\n1. Measure the interior angle $\theta$ using a protractor (if unknown).\n2. Subtract $\theta$ from a complete circle ($360^\circ$).\n3. The resulting difference is the exterior reflex rotation."
+"formula": "\\text{Reflex } \\angle \\theta = 360^\\circ - \\theta",
+"description": "State the formula to calculate the Reflex angle of a given interior angle $\\theta$.",
+"derivation": "**Algorithmic SOP:**\n1. Measure the interior angle $\\theta$ using a protractor (if unknown).\n2. Subtract $\\theta$ from a complete circle ($360^\\circ$).\n3. The resulting difference is the exterior reflex rotation."
 }
 }
 },
@@ -632,11 +632,11 @@
 ],
 "order": 23,
 "heading": "Fractional Rotation to Degree Conversion",
-"back": "## Component Anatomy:\n- **$T$:** The given fraction representing a partial geometric turn.\n- **$360^\circ$:** A complete full-turn angle.\n\n## Boundary Conditions / Domain:\n- $0 < T \le 1$ (The turn fraction must be strictly positive and at most 1 to represent a standard single rotation).",
+"back": "## Component Anatomy:\n- **$T$:** The given fraction representing a partial geometric turn.\n- **$360^\\circ$:** A complete full-turn angle.\n\n## Boundary Conditions / Domain:\n- $0 < T \\le 1$ (The turn fraction must be strictly positive and at most 1 to represent a standard single rotation).",
 "formulaMeta": {
-"formula": "\text{Angle} = T \times 360^\circ",
+"formula": "\\text{Angle} = T \\times 360^\\circ",
 "description": "State the algebraic formula to calculate the degree measure of a fractional turn $T$.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the given turn fraction (e.g., $\frac{1}{4}$ for a quarter turn).\n2. Multiply this fraction by a full circular rotation ($360^\circ$).\n3. Calculate the product (e.g., $\frac{1}{8} \times 360^\circ = 45^\circ$)."
+"derivation": "**Algorithmic SOP:**\n1. Identify the given turn fraction (e.g., $\\frac{1}{4}$ for a quarter turn).\n2. Multiply this fraction by a full circular rotation ($360^\\circ$).\n3. Calculate the product (e.g., $\\frac{1}{8} \\times 360^\\circ = 45^\\circ$)."
 }
 }
 },
@@ -661,12 +661,12 @@
 ],
 "order": 24,
 "heading": "Clock Face Sector Angle Formula",
-"back": "## Component Anatomy:\n- **$\theta$:** The angle formed between the hour hand and the 12 o'clock mark.\n- **$H$:** The hour on the clock.\n- **$30^\circ$:** The angular distance between each consecutive hour mark.\n\n## Boundary Conditions / Domain:\n- $1 \le H \le 12$ (Strictly integers for perfect hours).\n- Strictly applies only when calculating the angle formed precisely on the hour (e.g., 2:00, 5:00). Minute hand deviations require advanced formulas.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The angle formed between the hour hand and the 12 o'clock mark.\n- **$H$:** The hour on the clock.\n- **$30^\\circ$:** The angular distance between each consecutive hour mark.\n\n## Boundary Conditions / Domain:\n- $1 \\le H \\le 12$ (Strictly integers for perfect hours).\n- Strictly applies only when calculating the angle formed precisely on the hour (e.g., 2:00, 5:00). Minute hand deviations require advanced formulas.",
 "mnemonic": "Every hour shifts by 30 degrees.",
 "formulaMeta": {
-"formula": "\theta = H \times 30^\circ",
-"description": "State the formula for calculating the angle $\theta$ formed by the hour hand at exactly $H$ o'clock (relative to 12).",
-"derivation": "1. A full clock face is a complete angle $= 360^\circ$.\n2. The clock is divided into exactly 12 equal hour sectors.\n3. Angle per sector $= \frac{360^\circ}{12} = 30^\circ$.\n4. Multiply the hour $H$ by $30^\circ$ to find the total angle deviation from 12."
+"formula": "\\theta = H \\times 30^\\circ",
+"description": "State the formula for calculating the angle $\\theta$ formed by the hour hand at exactly $H$ o'clock (relative to 12).",
+"derivation": "1. A full clock face is a complete angle $= 360^\\circ$.\n2. The clock is divided into exactly 12 equal hour sectors.\n3. Angle per sector $= \\frac{360^\\circ}{12} = 30^\\circ$.\n4. Multiply the hour $H$ by $30^\\circ$ to find the total angle deviation from 12."
 }
 }
 },
@@ -691,11 +691,11 @@
 ],
 "order": 25,
 "heading": "Ashoka Chakra Consecutive Spoke Angle",
-"back": "## Component Anatomy:\n- **$360^\circ$:** The full circular turn of the Chakra.\n- **$24$:** The exact number of equally spaced spokes.\n\n## Boundary Conditions / Domain:\n- Strictly applies to circular bodies divided into perfectly equally spaced sectors around a central vertex.",
+"back": "## Component Anatomy:\n- **$360^\\circ$:** The full circular turn of the Chakra.\n- **$24$:** The exact number of equally spaced spokes.\n\n## Boundary Conditions / Domain:\n- Strictly applies to circular bodies divided into perfectly equally spaced sectors around a central vertex.",
 "formulaMeta": {
-"formula": "\frac{360^\circ}{24} = 15^\circ",
+"formula": "\\frac{360^\\circ}{24} = 15^\\circ",
 "description": "What is the formula and resulting degree measure for the angle between two consecutive spokes of the Ashoka Chakra?",
-"derivation": "**SOP: Calculating Radial Slices**\n1. Identify the total degree measure of a full circle ($360^\circ$).\n2. Identify the total number of divisions (24 spokes create 24 equal sectors).\n3. Divide $360^\circ$ by $24$ to determine the atomic angle size per sector."
+"derivation": "**SOP: Calculating Radial Slices**\n1. Identify the total degree measure of a full circle ($360^\\circ$).\n2. Identify the total number of divisions (24 spokes create 24 equal sectors).\n3. Divide $360^\\circ$ by $24$ to determine the atomic angle size per sector."
 }
 }
 },
@@ -744,7 +744,7 @@
 ],
 "order": 27,
 "heading": "Linear Pair Axiom",
-"back": "- **Definition:** A Linear Pair is a pair of **adjacent angles** whose non-common arms form a single straight line (i.e., they are opposite rays).\n- **Property:** Because their non-common arms form a straight line, their sum is exactly $180^\circ$.\n- **Distinction Trap:** Every linear pair is supplementary, but not all supplementary angles are a linear pair (because supplementary angles do not have to be adjacent).",
+"back": "- **Definition:** A Linear Pair is a pair of **adjacent angles** whose non-common arms form a single straight line (i.e., they are opposite rays).\n- **Property:** Because their non-common arms form a straight line, their sum is exactly $180^\\circ$.\n- **Distinction Trap:** Every linear pair is supplementary, but not all supplementary angles are a linear pair (because supplementary angles do not have to be adjacent).",
 "mnemonic": "Linear Pair = Adjacent + Supplementary.",
 "standardMeta": {
 "question": "What defines a Linear Pair of angles, and how does it distinctively relate to adjacent and supplementary angles?"
@@ -772,10 +772,10 @@
 ],
 "order": 28,
 "heading": "Linear Pair Sum",
-"back": "## Component Anatomy:\n- **$\angle 1, \angle 2$:** Two adjacent angles.\n- **$180^\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- The non-common arms of $\angle 1$ and $\angle 2$ must strictly form a perfectly straight line (opposite rays).",
+"back": "## Component Anatomy:\n- **$\\angle 1, \\angle 2$:** Two adjacent angles.\n- **$180^\\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- The non-common arms of $\\angle 1$ and $\\angle 2$ must strictly form a perfectly straight line (opposite rays).",
 "formulaMeta": {
-"formula": "\angle 1 + \angle 2 = 180^\circ",
-"description": "State the algebraic equation for two adjacent angles, $\angle 1$ and $\angle 2$, forming a linear pair.",
+"formula": "\\angle 1 + \\angle 2 = 180^\\circ",
+"description": "State the algebraic equation for two adjacent angles, $\\angle 1$ and $\\angle 2$, forming a linear pair.",
 "derivation": "Not applicable; geometric axiom."
 }
 }
@@ -828,11 +828,11 @@
 ],
 "order": 30,
 "heading": "Intersecting Lines Algorithm",
-"back": "## Component Anatomy:\n- **$\theta$:** The single known angle at the intersection point.\n\n## Boundary Conditions / Domain:\n- The intersection must be formed by two perfectly straight lines crossing at a single vertex.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The single known angle at the intersection point.\n\n## Boundary Conditions / Domain:\n- The intersection must be formed by two perfectly straight lines crossing at a single vertex.",
 "formulaMeta": {
-"formula": "\begin{aligned} \text{Opposite Angle} &= \theta \\ \text{Adjacent Angle 1} &= 180^\circ - \theta \\ \text{Adjacent Angle 2} &= 180^\circ - \theta \end{aligned}",
-"description": "If two straight lines intersect and one angle $\theta$ is known, state the procedural formulas to find the other three angles.",
-"derivation": "**SOP: Finding Intersecting Angles**\n1. **Identify Vertically Opposite:** The angle directly across from $\theta$ is exactly equal to $\theta$.\n2. **Apply Linear Pair:** The angles adjacent to $\theta$ form a straight line with it. Calculate them as $180^\circ - \theta$.\n3. The fourth angle is vertically opposite the adjacent angle, verifying it also equals $180^\circ - \theta$."
+"formula": "\\begin{aligned} \\text{Opposite Angle} &= \\theta \\ \\text{Adjacent Angle 1} &= 180^\\circ - \\theta \\ \\text{Adjacent Angle 2} &= 180^\\circ - \\theta \\end{aligned}",
+"description": "If two straight lines intersect and one angle $\\theta$ is known, state the procedural formulas to find the other three angles.",
+"derivation": "**SOP: Finding Intersecting Angles**\n1. **Identify Vertically Opposite:** The angle directly across from $\\theta$ is exactly equal to $\\theta$.\n2. **Apply Linear Pair:** The angles adjacent to $\\theta$ form a straight line with it. Calculate them as $180^\\circ - \\theta$.\n3. The fourth angle is vertically opposite the adjacent angle, verifying it also equals $180^\\circ - \\theta$."
 }
 }
 },
@@ -855,7 +855,7 @@
 ],
 "order": 31,
 "heading": "Angle Bisector",
-"back": "- **Definition:** An angle bisector is a line or ray that divides a given angle into exactly **two equal halves**.\n- **Application:** If an initial angle measures $\theta$, the bisector ray creates two identical adjacent angles, each measuring precisely $\frac{\theta}{2}$.",
+"back": "- **Definition:** An angle bisector is a line or ray that divides a given angle into exactly **two equal halves**.\n- **Application:** If an initial angle measures $\\theta$, the bisector ray creates two identical adjacent angles, each measuring precisely $\\frac{\\theta}{2}$.",
 "mnemonic": "Bisect = 'Bi' (two) + 'Sect' (cut) -> Cut in two equal pieces.",
 "standardMeta": {
 "question": "What is the geometric definition of an Angle Bisector, and what is its mathematical effect on the angle?"
@@ -884,10 +884,10 @@
 ],
 "order": 32,
 "heading": "Sum of Angles Around a Point",
-"back": "## Component Anatomy:\n- **$\theta_i$:** The individual, non-overlapping adjacent angles sharing a single common vertex.\n- **$360^\circ$:** A complete rotation (full turn).\n\n## Boundary Conditions / Domain:\n- The angles must perfectly pave the plane around the vertex without any gaps or overlaps.",
+"back": "## Component Anatomy:\n- **$\\theta_i$:** The individual, non-overlapping adjacent angles sharing a single common vertex.\n- **$360^\\circ$:** A complete rotation (full turn).\n\n## Boundary Conditions / Domain:\n- The angles must perfectly pave the plane around the vertex without any gaps or overlaps.",
 "mnemonic": "Around a point, wrap around to 360.",
 "formulaMeta": {
-"formula": "\sum \theta_i = 360^\circ",
+"formula": "\\sum \\theta_i = 360^\\circ",
 "description": "State the theorem/formula for the sum of all adjacent angles surrounding a single point.",
 "derivation": "Not applicable; derived from the axiom of a complete turn."
 }
@@ -914,11 +914,11 @@
 ],
 "order": 33,
 "heading": "Complementary Angles Condition",
-"back": "## Component Anatomy:\n- **$\alpha, \beta$:** Two distinct angles.\n- **$90^\circ$:** A right angle.\n\n## Boundary Conditions / Domain:\n- Strictly limited to pairs of angles (exactly two).\n- Both $\alpha$ and $\beta$ must be strictly acute angles ($< 90^\circ$) for valid geometric pairs.",
+"back": "## Component Anatomy:\n- **$\\alpha, \\beta$:** Two distinct angles.\n- **$90^\\circ$:** A right angle.\n\n## Boundary Conditions / Domain:\n- Strictly limited to pairs of angles (exactly two).\n- Both $\\alpha$ and $\\beta$ must be strictly acute angles ($< 90^\\circ$) for valid geometric pairs.",
 "mnemonic": "'C' comes before 'S' in the alphabet, just like 90 comes before 180.",
 "formulaMeta": {
-"formula": "\alpha + \beta = 90^\circ",
-"description": "State the mathematical condition/identity for two angles, $\alpha$ and $\beta$, to be complementary.",
+"formula": "\\alpha + \\beta = 90^\\circ",
+"description": "State the mathematical condition/identity for two angles, $\\alpha$ and $\\beta$, to be complementary.",
 "derivation": "Not applicable; geometric definition."
 }
 }
@@ -944,11 +944,11 @@
 ],
 "order": 34,
 "heading": "Finding the Complement",
-"back": "## Component Anatomy:\n- **$\theta$:** The given initial angle.\n\n## Boundary Conditions / Domain:\n- $0^\circ < \theta < 90^\circ$. A valid geometric complement strictly exists only for acute angles.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The given initial angle.\n\n## Boundary Conditions / Domain:\n- $0^\\circ < \\theta < 90^\\circ$. A valid geometric complement strictly exists only for acute angles.",
 "formulaMeta": {
-"formula": "\text{Complement} = 90^\circ - \theta",
-"description": "State the formula to find the complement of a given angle $\theta$.",
-"derivation": "**SOP: Finding a Complement**\n1. Identify the given angle $\theta$.\n2. Subtract the value of $\theta$ from $90^\circ$.\n3. The resulting difference is the complementary angle."
+"formula": "\\text{Complement} = 90^\\circ - \\theta",
+"description": "State the formula to find the complement of a given angle $\\theta$.",
+"derivation": "**SOP: Finding a Complement**\n1. Identify the given angle $\\theta$.\n2. Subtract the value of $\\theta$ from $90^\\circ$.\n3. The resulting difference is the complementary angle."
 }
 }
 },
@@ -973,11 +973,11 @@
 ],
 "order": 35,
 "heading": "Supplementary Angles Condition",
-"back": "## Component Anatomy:\n- **$\alpha, \beta$:** Two distinct angles.\n- **$180^\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- Strictly limited to pairs of angles (exactly two).\n- The angles do not need to be adjacent to be supplementary.",
+"back": "## Component Anatomy:\n- **$\\alpha, \\beta$:** Two distinct angles.\n- **$180^\\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- Strictly limited to pairs of angles (exactly two).\n- The angles do not need to be adjacent to be supplementary.",
 "mnemonic": "'S' in Supplement stands for Straight line (180).",
 "formulaMeta": {
-"formula": "\alpha + \beta = 180^\circ",
-"description": "State the mathematical condition/identity for two angles, $\alpha$ and $\beta$, to be supplementary.",
+"formula": "\\alpha + \\beta = 180^\\circ",
+"description": "State the mathematical condition/identity for two angles, $\\alpha$ and $\\beta$, to be supplementary.",
 "derivation": "Not applicable; geometric definition."
 }
 }
@@ -1003,11 +1003,11 @@
 ],
 "order": 36,
 "heading": "Finding the Supplement",
-"back": "## Component Anatomy:\n- **$\theta$:** The given initial angle.\n\n## Boundary Conditions / Domain:\n- $0^\circ < \theta < 180^\circ$. The angle must be strictly less than a straight line to have a positive geometric supplement.",
+"back": "## Component Anatomy:\n- **$\\theta$:** The given initial angle.\n\n## Boundary Conditions / Domain:\n- $0^\\circ < \\theta < 180^\\circ$. The angle must be strictly less than a straight line to have a positive geometric supplement.",
 "formulaMeta": {
-"formula": "\text{Supplement} = 180^\circ - \theta",
-"description": "State the formula to find the supplement of a given angle $\theta$.",
-"derivation": "**SOP: Finding a Supplement**\n1. Identify the given angle $\theta$.\n2. Subtract the value of $\theta$ from $180^\circ$.\n3. The resulting difference is the supplementary angle."
+"formula": "\\text{Supplement} = 180^\\circ - \\theta",
+"description": "State the formula to find the supplement of a given angle $\\theta$.",
+"derivation": "**SOP: Finding a Supplement**\n1. Identify the given angle $\\theta$.\n2. Subtract the value of $\\theta$ from $180^\\circ$.\n3. The resulting difference is the supplementary angle."
 }
 }
 },
@@ -1030,7 +1030,7 @@
 ],
 "order": 37,
 "heading": "Supplementary Trap: Two Obtuse Angles",
-"back": "- **Answer:** No, it is mathematically impossible.\n- **Proof:** An obtuse angle is defined as $\theta > 90^\circ$. Therefore, the sum of two obtuse angles $\alpha + \beta > 90^\circ + 90^\circ = 180^\circ$.\n- **Conclusion:** Since supplementary angles must sum to exactly $180^\circ$, the sum of two obtuse angles will always exceed this boundary constraint.",
+"back": "- **Answer:** No, it is mathematically impossible.\n- **Proof:** An obtuse angle is defined as $\\theta > 90^\\circ$. Therefore, the sum of two obtuse angles $\\alpha + \\beta > 90^\\circ + 90^\\circ = 180^\\circ$.\n- **Conclusion:** Since supplementary angles must sum to exactly $180^\\circ$, the sum of two obtuse angles will always exceed this boundary constraint.",
 "standardMeta": {
 "question": "Can two obtuse angles ever be supplementary? Explain the mathematical boundary condition preventing this."
 }
@@ -1057,10 +1057,10 @@
 ],
 "order": 38,
 "heading": "Triangle Angle Sum Property",
-"back": "## Component Anatomy:\n- **$\angle A, \angle B, \angle C$:** The three interior angles forming a geometric triangle.\n- **$180^\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- Strictly applies to planar (Euclidean) triangles.\n- Each individual angle must be strictly greater than $0^\circ$ and strictly less than $180^\circ$.",
+"back": "## Component Anatomy:\n- **$\\angle A, \\angle B, \\angle C$:** The three interior angles forming a geometric triangle.\n- **$180^\\circ$:** A straight angle.\n\n## Boundary Conditions / Domain:\n- Strictly applies to planar (Euclidean) triangles.\n- Each individual angle must be strictly greater than $0^\\circ$ and strictly less than $180^\\circ$.",
 "mnemonic": "A triangle's angles fold exactly into a straight line.",
 "formulaMeta": {
-"formula": "\angle A + \angle B + \angle C = 180^\circ",
+"formula": "\\angle A + \\angle B + \\angle C = 180^\\circ",
 "description": "State the formula equating the sum of the interior angles of a triangle.",
 "derivation": "Not applicable; foundational theorem."
 }
@@ -1087,9 +1087,9 @@
 ],
 "order": 39,
 "heading": "Nested Triangle Acute Angle Progression",
-"back": "## Component Anatomy:\n- **$N_n$:** The number of acute angles in the given stage of the nested triangle fractal.\n- **$n$:** The stage number (1st, 2nd, 3rd...)\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$ (Must be a strictly positive integer).\n- Applies specifically to the NCERT nested equilateral triangle pattern.",
+"back": "## Component Anatomy:\n- **$N_n$:** The number of acute angles in the given stage of the nested triangle fractal.\n- **$n$:** The stage number (1st, 2nd, 3rd...)\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}^+$ (Must be a strictly positive integer).\n- Applies specifically to the NCERT nested equilateral triangle pattern.",
 "formulaMeta": {
-"formula": "N_n = 3 + (n-1) \times 9",
+"formula": "N_n = 3 + (n-1) \\times 9",
 "description": "Identify the arithmetic progression and common difference for the number of acute angles in the NCERT nested triangle exercise (Stages yield 3, 12, 21 angles).",
 "derivation": "**Pattern Analysis:**\n1. **Stage 1 (1 large triangle):** 3 acute angles.\n2. **Stage 2 (Inscribed triangle):** 12 acute angles.\n3. **Stage 3 (Double inscribed):** 21 acute angles.\n4. **Conclusion:** This is a strict Arithmetic Progression (A.P.) with a starting term $a = 3$ and a common difference $d = 9$. The 4th stage will yield $21 + 9 = 30$ acute angles."
 }
@@ -1116,11 +1116,11 @@
 ],
 "order": 40,
 "heading": "Acute Angle Multiplier Puzzle Algorithmic Bounds",
-"back": "## Component Anatomy:\n- **$x$:** The unknown, integer acute angle in degrees.\n- **$90^\circ$:** The strict mathematical boundary between acute and obtuse angles.\n\n## Boundary Conditions / Domain:\n- $x \in \mathbb{Z}$ (Must strictly be an integer).\n- $4x < 90^\circ$ (Quadrupled measure remains acute).\n- $5x > 90^\circ$ (Quintupled measure becomes obtuse).",
+"back": "## Component Anatomy:\n- **$x$:** The unknown, integer acute angle in degrees.\n- **$90^\\circ$:** The strict mathematical boundary between acute and obtuse angles.\n\n## Boundary Conditions / Domain:\n- $x \\in \\mathbb{Z}$ (Must strictly be an integer).\n- $4x < 90^\\circ$ (Quadrupled measure remains acute).\n- $5x > 90^\\circ$ (Quintupled measure becomes obtuse).",
 "formulaMeta": {
-"formula": "\begin{aligned} 4x &< 90^\circ \\ 5x &> 90^\circ \end{aligned}",
+"formula": "\\begin{aligned} 4x &< 90^\\circ \\ 5x &> 90^\\circ \\end{aligned}",
 "description": "State the system of inequalities to mathematically solve for an integer angle $x$ that is acute when quadrupled, but obtuse when quintupled.",
-"derivation": "**Algorithmic SOP:**\n1. Isolate $x$ in the first inequality: $4x < 90 \implies x < 22.5^\circ$.\n2. Isolate $x$ in the second inequality: $5x > 90 \implies x > 18^\circ$.\n3. Combine the strict bounds to define the restricted domain: $18^\circ < x < 22.5^\circ$.\n4. Apply the integer constraint to isolate the only mathematical possibilities: $19^\circ, 20^\circ, 21^\circ, 22^\circ$."
+"derivation": "**Algorithmic SOP:**\n1. Isolate $x$ in the first inequality: $4x < 90 \\implies x < 22.5^\\circ$.\n2. Isolate $x$ in the second inequality: $5x > 90 \\implies x > 18^\\circ$.\n3. Combine the strict bounds to define the restricted domain: $18^\\circ < x < 22.5^\\circ$.\n4. Apply the integer constraint to isolate the only mathematical possibilities: $19^\\circ, 20^\\circ, 21^\\circ, 22^\\circ$."
 }
 }
 },
@@ -1146,11 +1146,11 @@
 ],
 "order": 41,
 "heading": "Algebraic Representation of Angle Pairs",
-"back": "## Component Anatomy:\n- **$x$:** The unknown primary angle.\n- **$\theta_{ref}$:** The reference angle ($90^\circ$ for complement, $180^\circ$ for supplement).\n- **$k$:** The modifying constant (e.g., '30 degrees less').\n\n## Boundary Conditions / Domain:\n- $x$ must satisfy $0^\circ < x < \theta_{ref}$ to remain a valid geometric pair.",
+"back": "## Component Anatomy:\n- **$x$:** The unknown primary angle.\n- **$\\theta_{ref}$:** The reference angle ($90^\\circ$ for complement, $180^\\circ$ for supplement).\n- **$k$:** The modifying constant (e.g., '30 degrees less').\n\n## Boundary Conditions / Domain:\n- $x$ must satisfy $0^\\circ < x < \\theta_{ref}$ to remain a valid geometric pair.",
 "formulaMeta": {
-"formula": "x = (\theta_{ref} - x) \pm k",
+"formula": "x = (\\theta_{ref} - x) \\pm k",
 "description": "State the standard algebraic setup for word problems where an angle is compared to its own complement or supplement.",
-"derivation": "**Algorithmic SOP (Translation Phase):**\n1. Let the primary angle be $x$.\n2. Define its pair dynamically: Complement is $(90^\circ - x)$, Supplement is $(180^\circ - x)$.\n3. Translate the English condition directly into an algebraic equality (e.g., 'Angle is twice its complement' $\implies x = 2(90^\circ - x)$)."
+"derivation": "**Algorithmic SOP (Translation Phase):**\n1. Let the primary angle be $x$.\n2. Define its pair dynamically: Complement is $(90^\\circ - x)$, Supplement is $(180^\\circ - x)$.\n3. Translate the English condition directly into an algebraic equality (e.g., 'Angle is twice its complement' $\\implies x = 2(90^\\circ - x)$)."
 }
 }
 },
@@ -1176,9 +1176,9 @@
 ],
 "order": 42,
 "heading": "SOP: Solving Algebraic Angle Pairs",
-"back": "**Algorithmic SOP:**\n1. **Expand:** Distribute any constants into the parentheses (e.g., $x = 180^\circ - 2x$).\n2. **Isolate:** Move all variable terms to one side of the equation (e.g., $3x = 180^\circ$).\n3. **Solve:** Divide to find the numerical value of $x$ (e.g., $x = 60^\circ$).\n\n## Boundary Conditions / Domain:\n- Ensure the final value $x$ is strictly positive ($> 0^\circ$) and satisfies the structural bound of the pair.",
+"back": "**Algorithmic SOP:**\n1. **Expand:** Distribute any constants into the parentheses (e.g., $x = 180^\\circ - 2x$).\n2. **Isolate:** Move all variable terms to one side of the equation (e.g., $3x = 180^\\circ$).\n3. **Solve:** Divide to find the numerical value of $x$ (e.g., $x = 60^\\circ$).\n\n## Boundary Conditions / Domain:\n- Ensure the final value $x$ is strictly positive ($> 0^\\circ$) and satisfies the structural bound of the pair.",
 "standardMeta": {
-"question": "What is the step-by-step procedure to solve for $x$ once an angle pair word problem is translated into an algebraic equation (e.g., $x = 2(90^\circ - x)$)?"
+"question": "What is the step-by-step procedure to solve for $x$ once an angle pair word problem is translated into an algebraic equation (e.g., $x = 2(90^\\circ - x)$)?"
 }
 }
 },
@@ -1203,11 +1203,11 @@
 ],
 "order": 43,
 "heading": "SOP: Ratio-Based Angle Pairs",
-"back": "## Component Anatomy:\n- **$a, b$:** The given structural ratio values.\n- **$x$:** The common algebraic multiplier.\n- **$\theta_{ref}$:** The specific reference sum: $90^\circ$ (complementary), $180^\circ$ (supplementary/linear pair), or $360^\circ$ (angles at a point).\n\n## Boundary Conditions / Domain:\n- The ratio components $a$ and $b$ must be strictly positive real numbers.\n- $x$ must be strictly positive.",
+"back": "## Component Anatomy:\n- **$a, b$:** The given structural ratio values.\n- **$x$:** The common algebraic multiplier.\n- **$\\theta_{ref}$:** The specific reference sum: $90^\\circ$ (complementary), $180^\\circ$ (supplementary/linear pair), or $360^\\circ$ (angles at a point).\n\n## Boundary Conditions / Domain:\n- The ratio components $a$ and $b$ must be strictly positive real numbers.\n- $x$ must be strictly positive.",
 "formulaMeta": {
-"formula": "ax + bx = \theta_{ref}",
+"formula": "ax + bx = \\theta_{ref}",
 "description": "State the algebraic equation to solve for two angles given in a specific ratio $a:b$ that form a known structural pair.",
-"derivation": "**Algorithmic SOP:**\n1. Attach a common variable $x$ to the ratio terms (e.g., ratio 4:5 becomes $4x$ and $5x$).\n2. Set their sum strictly equal to the defining geometric property (e.g., for supplementary: $4x + 5x = 180^\circ$).\n3. Solve for $x$ ($9x = 180^\circ \implies x = 20^\circ$).\n4. Substitute $x$ back into the original expressions to find the precise degrees ($4(20^\circ) = 80^\circ$ and $5(20^\circ) = 100^\circ$)."
+"derivation": "**Algorithmic SOP:**\n1. Attach a common variable $x$ to the ratio terms (e.g., ratio 4:5 becomes $4x$ and $5x$).\n2. Set their sum strictly equal to the defining geometric property (e.g., for supplementary: $4x + 5x = 180^\\circ$).\n3. Solve for $x$ ($9x = 180^\\circ \\implies x = 20^\\circ$).\n4. Substitute $x$ back into the original expressions to find the precise degrees ($4(20^\\circ) = 80^\\circ$ and $5(20^\\circ) = 100^\\circ$)."
 }
 }
 },

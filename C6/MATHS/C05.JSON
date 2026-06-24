@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Multiples",
-"back": "- **Definition:** A multiple of a number is the mathematical product obtained by multiplying that specific base number by any natural counting number ($1, 2, 3, \dots$).\n\n## Boundary Conditions / Domain:\n- Every number is strictly a multiple of exactly $1$ and itself.\n- The list of multiples for any non-zero number is infinitely long.",
+"back": "- **Definition:** A multiple of a number is the mathematical product obtained by multiplying that specific base number by any natural counting number ($1, 2, 3, \\dots$).\n\n## Boundary Conditions / Domain:\n- Every number is strictly a multiple of exactly $1$ and itself.\n- The list of multiples for any non-zero number is infinitely long.",
 "mnemonic": "Multiply to get Multiples.",
 "standardMeta": {
 "question": "What is the strict mathematical definition of a 'Multiple' of a number?"
@@ -51,7 +51,7 @@
 ],
 "order": 2,
 "heading": "Common Multiples",
-"back": "- **Definition:** A numerical value that appears simultaneously in the list of multiples of two or more distinct base numbers.\n- **Example:** $15$ is a common multiple of $3$ and $5$ because it perfectly satisfies both $3 \times 5 = 15$ and $5 \times 3 = 15$.",
+"back": "- **Definition:** A numerical value that appears simultaneously in the list of multiples of two or more distinct base numbers.\n- **Example:** $15$ is a common multiple of $3$ and $5$ because it perfectly satisfies both $3 \\times 5 = 15$ and $5 \\times 3 = 15$.",
 "standardMeta": {
 "question": "What mathematical condition defines a 'Common Multiple' between two or more distinct numbers?"
 }
@@ -135,9 +135,9 @@
 "back": "## Component Anatomy:\n- **$N$:** The given integer to be tested.\n- **$f_i$:** The distinct factors of $N$.\n\n## Boundary Conditions / Domain:\n- $N > 1$\n- The sum must strictly include the number $N$ itself as one of the constituent factors $f_i$ in the equation.",
 "mnemonic": "Perfectly double the number.",
 "formulaMeta": {
-"formula": "\sum f_i = 2N",
+"formula": "\\sum f_i = 2N",
 "description": "State the mathematical equation defining a Perfect Number based on the aggregate sum of all its factors.",
-"derivation": "**Example Proof (N = 28):**\n1. List the strict factors of 28: 1, 2, 4, 7, 14, 28.\n2. Sum the factors: $1 + 2 + 4 + 7 + 14 + 28 = 56$.\n3. Evaluate the boundary: Since $56 = 2 \times 28$, the number 28 is mathematically classified as a perfect number."
+"derivation": "**Example Proof (N = 28):**\n1. List the strict factors of 28: 1, 2, 4, 7, 14, 28.\n2. Sum the factors: $1 + 2 + 4 + 7 + 14 + 28 = 56$.\n3. Evaluate the boundary: Since $56 = 2 \\times 28$, the number 28 is mathematically classified as a perfect number."
 }
 }
 },
@@ -188,7 +188,7 @@
 ],
 "order": 7,
 "heading": "The Even Prime Exception",
-"back": "- **Fact:** The number **$2$** is the smallest prime number and is mathematically the **only even prime number** in existence.\n- **Reasoning Constraint:** Every other even number ($4, 6, 8 \dots$) is strictly divisible by $2$. This inherently gives them at least three factors ($1, 2$, and themselves), immediately disqualifying them from prime status.",
+"back": "- **Fact:** The number **$2$** is the smallest prime number and is mathematically the **only even prime number** in existence.\n- **Reasoning Constraint:** Every other even number ($4, 6, 8 \\dots$) is strictly divisible by $2$. This inherently gives them at least three factors ($1, 2$, and themselves), immediately disqualifying them from prime status.",
 "mnemonic": "2 is the only even one in the prime club.",
 "standardMeta": {
 "question": "What is the only even prime number, and why is it mathematically impossible for any other even number to be prime?"
@@ -270,9 +270,9 @@
 ],
 "order": 10,
 "heading": "Sieve of Eratosthenes Algorithm",
-"back": "## Component Anatomy:\n- **$N$:** The target upper limit of the number grid (e.g., $100$).\n- **$p_i$:** The current prime number being evaluated.\n- **$k$:** Multiplier integers $\ge 2$.\n\n## Boundary Conditions / Domain:\n- The algorithm must strictly start evaluating from $2$, as $1$ is explicitly excluded (crossed out immediately).",
+"back": "## Component Anatomy:\n- **$N$:** The target upper limit of the number grid (e.g., $100$).\n- **$p_i$:** The current prime number being evaluated.\n- **$k$:** Multiplier integers $\\ge 2$.\n\n## Boundary Conditions / Domain:\n- The algorithm must strictly start evaluating from $2$, as $1$ is explicitly excluded (crossed out immediately).",
 "formulaMeta": {
-"formula": "p_i \to \text{Cross out all } (k \times p_i) \text{ for } k \ge 2",
+"formula": "p_i \\to \\text{Cross out all } (k \\times p_i) \\text{ for } k \\ge 2",
 "description": "State the core mathematical cross-out rule applied during the Sieve of Eratosthenes to isolate prime numbers up to $N$.",
 "derivation": "**Algorithmic SOP:**\n1. Cross out 1 (neither prime nor composite).\n2. Circle the first uncrossed number (2), designating it as a prime.\n3. Cross out all subsequent multiples of 2.\n4. Move to the next sequential uncrossed number (3), circle it, and cross out all its multiples.\n5. Repeat this continuous elimination process until every number up to $N$ is either circled (Prime) or crossed out (Composite)."
 }
@@ -378,11 +378,11 @@
 ],
 "order": 14,
 "heading": "First Common Multiple (LCM) of Co-primes",
-"back": "## Component Anatomy:\n- **$a, b$:** Two distinct co-prime integer numbers.\n- **$\text{LCM}$:** Least Common Multiple.\n\n## Boundary Conditions / Domain:\n- The numbers $a$ and $b$ must strictly share no common factors other than $1$. If they share a factor, this formula fails and yields an overestimation.",
+"back": "## Component Anatomy:\n- **$a, b$:** Two distinct co-prime integer numbers.\n- **$\\text{LCM}$:** Least Common Multiple.\n\n## Boundary Conditions / Domain:\n- The numbers $a$ and $b$ must strictly share no common factors other than $1$. If they share a factor, this formula fails and yields an overestimation.",
 "formulaMeta": {
-"formula": "\text{LCM}(a, b) = a \times b",
+"formula": "\\text{LCM}(a, b) = a \\times b",
 "description": "If two numbers $a$ and $b$ are strictly co-prime, what is the formula for calculating their first common multiple (LCM)?",
-"derivation": "**Application Check:**\n- If $a = 4$ and $b = 9$ (co-primes), their first common multiple is strictly $4 \times 9 = 36$.\n- If they are NOT co-prime (e.g., $4$ and $6$), the first common multiple is strictly less than their product ($12 < 24$)."
+"derivation": "**Application Check:**\n- If $a = 4$ and $b = 9$ (co-primes), their first common multiple is strictly $4 \\times 9 = 36$.\n- If they are NOT co-prime (e.g., $4$ and $6$), the first common multiple is strictly less than their product ($12 < 24$)."
 }
 }
 },
@@ -405,7 +405,7 @@
 ],
 "order": 15,
 "heading": "Prime Factorisation",
-"back": "- **Definition:** The mathematical process of expressing a composite number strictly as a product consisting of **prime numbers only**.\n- **Example:** Expressing $36$ as $2 \times 2 \times 3 \times 3$. The primes involved are the prime factors.",
+"back": "- **Definition:** The mathematical process of expressing a composite number strictly as a product consisting of **prime numbers only**.\n- **Example:** Expressing $36$ as $2 \\times 2 \\times 3 \\times 3$. The primes involved are the prime factors.",
 "standardMeta": {
 "question": "What is the mathematical definition of Prime Factorisation for a given integer?"
 }
@@ -432,7 +432,7 @@
 ],
 "order": 16,
 "heading": "Uniqueness of Prime Factorisation",
-"back": "- **Property:** Every composite number strictly has **one and only one** unique combination set of prime factors.\n- **Clarification:** The exact order in which the prime factors are multiplied is geometrically irrelevant (e.g., $2 \times 3 \times 5$ is identical to $5 \times 3 \times 2$ due to multiplication commutativity), but the exact multiset count of the primes remains universally unique.",
+"back": "- **Property:** Every composite number strictly has **one and only one** unique combination set of prime factors.\n- **Clarification:** The exact order in which the prime factors are multiplied is geometrically irrelevant (e.g., $2 \\times 3 \\times 5$ is identical to $5 \\times 3 \\times 2$ due to multiplication commutativity), but the exact multiset count of the primes remains universally unique.",
 "standardMeta": {
 "question": "Is the prime factorisation of a specific composite number unique? Explain the effect of factor ordering."
 }
@@ -462,7 +462,7 @@
 "heading": "SOP: Repeated Division Algorithm (Prime Factorisation)",
 "back": "## Component Anatomy:\n- **$N$:** The target composite number to factorize.\n- **$p_i$:** The smallest prime factor that evenly divides the active quotient.\n\n## Boundary Conditions / Domain:\n- You must strictly isolate the division to **prime numbers only**. You cannot divide by composite numbers (like $4$ or $6$) at any stage.",
 "formulaMeta": {
-"formula": "N = p_1 \times p_2 \times \dots \times p_k",
+"formula": "N = p_1 \\times p_2 \\times \\dots \\times p_k",
 "description": "State the standard algorithmic procedure (SOP) to perform prime factorisation using repeated division.",
 "derivation": "**Algorithmic SOP:**\n1. Identify the absolute smallest prime number $p_1$ (e.g., $2$) that divides $N$ without any remainder.\n2. Divide $N$ by $p_1$ to output a new quotient $Q_1$.\n3. Find the smallest prime number $p_2$ that divides $Q_1$ exactly. (It may be the same prime again).\n4. Repeat this continuous downward division process until the final quotient reaches exactly $1$.\n5. The prime factorisation is expressed as the product string of all the prime divisors used."
 }
@@ -492,7 +492,7 @@
 "heading": "SOP: Co-prime Verification via Prime Factors",
 "back": "## Component Anatomy:\n- **$P_A$:** The complete multiset of prime factors of number $A$.\n- **$P_B$:** The complete multiset of prime factors of number $B$.\n\n## Boundary Conditions / Domain:\n- You must fully calculate the prime factorisation of both numbers down to absolute irreducible primes before comparing.",
 "formulaMeta": {
-"formula": "P_A \cap P_B = \emptyset",
+"formula": "P_A \\cap P_B = \\emptyset",
 "description": "State the algorithmic mathematical condition used to prove two numbers are co-prime utilizing their prime factorisations.",
 "derivation": "**Algorithmic SOP:**\n1. Execute the prime factorisation algorithm for the first number to find set $P_A$.\n2. Execute the prime factorisation algorithm for the second number to find set $P_B$.\n3. Visually and mathematically compare the two sets of isolated prime factors.\n4. If there is absolutely zero intersection (no shared prime factors), the numbers are definitively co-prime."
 }
@@ -522,7 +522,7 @@
 "heading": "SOP: Divisibility Verification via Prime Factors",
 "back": "## Component Anatomy:\n- **$A$:** The larger dividend number.\n- **$B$:** The smaller divisor number.\n- **$P_A, P_B$:** Their respective multisets of computed prime factors.\n\n## Boundary Conditions / Domain:\n- The entire set $P_B$ (including the exact frequency counts of repeated primes) must be perfectly contained within $P_A$.",
 "formulaMeta": {
-"formula": "P_B \subseteq P_A",
+"formula": "P_B \\subseteq P_A",
 "description": "State the algorithmic mathematical condition to prove that number $A$ is completely divisible by number $B$ utilizing their prime factorisations.",
 "derivation": "**Algorithmic SOP:**\n1. Compute the complete prime factorisations for both numbers $A$ and $B$.\n2. Verify that every single prime factor present in $B$ also appears in $A$.\n3. **Strict Frequency Check:** If a specific prime appears $k$ times in $B$, it must strictly appear at least $k$ times in $A$.\n4. If $P_B$ is a true subset, $A$ is mathematically divisible by $B$ without remainder."
 }
@@ -581,7 +581,7 @@
 "heading": "Divisibility Test for 5",
 "back": "## Component Anatomy:\n- **$N$:** The number being tested.\n- **$d_0$:** The units (absolute rightmost) digit of the number.\n\n## Boundary Conditions / Domain:\n- The test strictly isolates and relies ONLY on the units digit.",
 "formulaMeta": {
-"formula": "d_0 \in \{0, 5\}",
+"formula": "d_0 \\in \\{0, 5\\}",
 "description": "State the mathematical rule to instantaneously test if a large number is divisible by 5.",
 "derivation": "**Algorithmic SOP:**\n1. Look strictly at the final (units) digit of the target number.\n2. If the digit is exactly $0$ or exactly $5$, the entire number is perfectly divisible by $5$."
 }
@@ -611,7 +611,7 @@
 "heading": "Divisibility Test for 2 (Even Numbers)",
 "back": "## Component Anatomy:\n- **$N$:** The number being tested.\n- **$d_0$:** The units (absolute rightmost) digit of the number.\n\n## Boundary Conditions / Domain:\n- The test strictly isolates and relies ONLY on the units digit.",
 "formulaMeta": {
-"formula": "d_0 \in \{0, 2, 4, 6, 8\}",
+"formula": "d_0 \\in \\{0, 2, 4, 6, 8\\}",
 "description": "State the mathematical rule to instantaneously test if a large number is divisible by 2.",
 "derivation": "**Algorithmic SOP:**\n1. Look strictly at the final (units) digit of the target number.\n2. If the digit is an even integer ($0, 2, 4, 6$, or $8$), the entire number is perfectly divisible by $2$."
 }
@@ -641,9 +641,9 @@
 "heading": "Divisibility Test for 4",
 "back": "## Component Anatomy:\n- **$N$:** The large number being tested.\n- **$D_2$:** The 2-digit number strictly formed by the tens and units digits of $N$.\n\n## Boundary Conditions / Domain:\n- The test rigidly evaluates the last TWO digits as a unit. Evaluating the units digit alone is mathematically insufficient to determine divisibility by 4.",
 "formulaMeta": {
-"formula": "D_2 \pmod 4 = 0",
+"formula": "D_2 \\pmod 4 = 0",
 "description": "State the mathematical rule to instantaneously test if a large number is divisible by 4.",
-"derivation": "**Algorithmic SOP:**\n1. Extract the specific 2-digit block formed by the tens and units digits of the main number (e.g., for $8536$, extract $36$).\n2. Divide this extracted 2-digit block by $4$.\n3. If $D_2$ divides exactly without remainder (e.g., $36 \div 4 = 9$), then the absolute entire original number is guaranteed to be divisible by $4$."
+"derivation": "**Algorithmic SOP:**\n1. Extract the specific 2-digit block formed by the tens and units digits of the main number (e.g., for $8536$, extract $36$).\n2. Divide this extracted 2-digit block by $4$.\n3. If $D_2$ divides exactly without remainder (e.g., $36 \\div 4 = 9$), then the absolute entire original number is guaranteed to be divisible by $4$."
 }
 }
 },
@@ -671,9 +671,9 @@
 "heading": "Divisibility Test for 8",
 "back": "## Component Anatomy:\n- **$N$:** The large number being tested.\n- **$D_3$:** The 3-digit number strictly formed by the hundreds, tens, and units digits of $N$.\n\n## Boundary Conditions / Domain:\n- The test rigidly evaluates the last THREE digits. Looking at fewer digits is mathematically invalid for determining divisibility by 8.",
 "formulaMeta": {
-"formula": "D_3 \pmod 8 = 0",
+"formula": "D_3 \\pmod 8 = 0",
 "description": "State the mathematical rule to instantaneously test if a large number is divisible by 8.",
-"derivation": "**Algorithmic SOP:**\n1. Extract the specific 3-digit block formed by the hundreds, tens, and units digits of the main number (e.g., for $8560$, extract $560$).\n2. Divide this extracted 3-digit block by $8$.\n3. If $D_3$ divides exactly without remainder (e.g., $560 \div 8 = 70$), then the absolute entire original number is guaranteed to be divisible by $8$."
+"derivation": "**Algorithmic SOP:**\n1. Extract the specific 3-digit block formed by the hundreds, tens, and units digits of the main number (e.g., for $8560$, extract $560$).\n2. Divide this extracted 3-digit block by $8$.\n3. If $D_3$ divides exactly without remainder (e.g., $560 \\div 8 = 70$), then the absolute entire original number is guaranteed to be divisible by $8$."
 }
 }
 },
@@ -701,16 +701,13 @@
 "heading": "Composite Divisibility Intersection Rule",
 "back": "## Component Anatomy:\n- **$A, B$:** Two distinct test conditions (e.g., divisibility by $8$ and $5$).\n- **$N$:** The large number being evaluated.\n\n## Boundary Conditions / Domain:\n- The test parameters chosen must be co-prime to each other, or one must completely mathematically encompass the prime factors of the other subsets (e.g., a number divisible by $8$ is automatically divisible by its subsets $2$ and $4$).",
 "formulaMeta": {
-"formula": "\text{Validate ONLY for } 8 \text{ and } 5",
+"formula": "\\text{Validate ONLY for } 8 \\text{ and } 5",
 "description": "If asked to verify if a massive number is divisible by the set $2, 4, 5, 8$, and $10$, state the algorithmic shortcut to minimize calculations.",
-"derivation": "**Algorithmic SOP:**\n1. Identify cascading sub-dependencies: If a number is divisible by $8$, its prime factors ($2 \times 2 \times 2$) guarantee it is also inherently divisible by $4$ ($2 \times 2$) and $2$.\n2. Identify intersecting relationships: Divisibility by $10$ inherently guarantees divisibility by $2$ and $5$.\n3. Conclusion: Running the test exclusively for $8$ (which clears 2 and 4) and $5$ (which clears 5 and completes the 10 constraint) is mathematically sufficient to declare the number divisible by the entire set."
+"derivation": "**Algorithmic SOP:**\n1. Identify cascading sub-dependencies: If a number is divisible by $8$, its prime factors ($2 \\times 2 \\times 2$) guarantee it is also inherently divisible by $4$ ($2 \\times 2$) and $2$.\n2. Identify intersecting relationships: Divisibility by $10$ inherently guarantees divisibility by $2$ and $5$.\n3. Conclusion: Running the test exclusively for $8$ (which clears 2 and 4) and $5$ (which clears 5 and completes the 10 constraint) is mathematically sufficient to declare the number divisible by the entire set."
 }
+} 
 }
-}
-]
-}{
-"deckId": "72adf221-a1f9-47b5-a905-3abd9d961cb7",
-"cards": [
+, 
 {
 "cardId": "d1e7845e-c443-4133-84eb-12473a7a6731",
 "originalOrder": 28,
@@ -735,9 +732,9 @@
 "heading": "Mental Math: Remainder of Division by 10",
 "back": "## Component Anatomy:\n- **$N$:** Any positive integer.\n- **$d_0$:** The units (absolute rightmost) digit of the number.\n\n## Boundary Conditions / Domain:\n- Strictly limited to division by the base number $10$.",
 "formulaMeta": {
-"formula": "\text{Remainder} = d_0",
+"formula": "\\text{Remainder} = d_0",
 "description": "What is the algorithmic shortcut to find the exact remainder when a massive number $N$ is divided by $10$?",
-"derivation": "**Algorithmic SOP:**\n1. Ignore all higher-order place values in the dividend.\n2. Isolate the final units digit ($d_0$).\n3. The units digit is exactly equal to the mathematical remainder. (e.g., $2345 \div 10 \implies \text{Remainder is } 5$)."
+"derivation": "**Algorithmic SOP:**\n1. Ignore all higher-order place values in the dividend.\n2. Isolate the final units digit ($d_0$).\n3. The units digit is exactly equal to the mathematical remainder. (e.g., $2345 \\div 10 \\implies \\text{Remainder is } 5$)."
 }
 }
 },
@@ -765,9 +762,9 @@
 "heading": "Mental Math: Remainder of Division by 5",
 "back": "## Component Anatomy:\n- **$N$:** Any positive integer.\n- **$d_0$:** The units (absolute rightmost) digit of the number.\n\n## Boundary Conditions / Domain:\n- Strictly limited to division by $5$.",
 "formulaMeta": {
-"formula": "\text{Remainder} = d_0 \pmod 5",
+"formula": "\\text{Remainder} = d_0 \\pmod 5",
 "description": "What is the algorithmic shortcut to find the exact remainder when a massive number $N$ is divided by $5$?",
-"derivation": "**Algorithmic SOP:**\n1. Isolate the final units digit ($d_0$).\n2. **If $d_0 < 5$:** The remainder is exactly $d_0$ (e.g., $173 \implies d_0 = 3 \implies \text{Remainder } 3$).\n3. **If $d_0 \ge 5$:** Subtract $5$ from $d_0$ to find the remainder (e.g., $99 \implies d_0 = 9 \implies 9 - 5 = 4 \implies \text{Remainder } 4$)."
+"derivation": "**Algorithmic SOP:**\n1. Isolate the final units digit ($d_0$).\n2. **If $d_0 < 5$:** The remainder is exactly $d_0$ (e.g., $173 \\implies d_0 = 3 \\implies \\text{Remainder } 3$).\n3. **If $d_0 \\ge 5$:** Subtract $5$ from $d_0$ to find the remainder (e.g., $99 \\implies d_0 = 9 \\implies 9 - 5 = 4 \\implies \\text{Remainder } 4$)."
 }
 }
 },
@@ -795,9 +792,9 @@
 "heading": "Mental Math: Remainder of Division by 2",
 "back": "## Component Anatomy:\n- **$N$:** Any positive integer.\n- **$d_0$:** The units (absolute rightmost) digit of the number.\n\n## Boundary Conditions / Domain:\n- Strictly limited to division by $2$.",
 "formulaMeta": {
-"formula": "\text{Remainder} = d_0 \pmod 2",
+"formula": "\\text{Remainder} = d_0 \\pmod 2",
 "description": "What is the algorithmic shortcut to find the exact remainder when a massive number $N$ is divided by $2$?",
-"derivation": "**Algorithmic SOP:**\n1. Isolate the final units digit ($d_0$).\n2. **Parity Check:** If $d_0$ is even ($0, 2, 4, 6, 8$), it divides perfectly. $\implies \text{Remainder } 0$.\n3. If $d_0$ is odd ($1, 3, 5, 7, 9$), it leaves a strict mathematical excess of $1$. $\implies \text{Remainder } 1$."
+"derivation": "**Algorithmic SOP:**\n1. Isolate the final units digit ($d_0$).\n2. **Parity Check:** If $d_0$ is even ($0, 2, 4, 6, 8$), it divides perfectly. $\\implies \\text{Remainder } 0$.\n3. If $d_0$ is odd ($1, 3, 5, 7, 9$), it leaves a strict mathematical excess of $1$. $\\implies \\text{Remainder } 1$."
 }
 }
 },
@@ -823,11 +820,11 @@
 ],
 "order": 29,
 "heading": "Calculating the n-th Common Multiple",
-"back": "## Component Anatomy:\n- **$n$:** The specific target occurrence (e.g., the 10th time).\n- **$\text{LCM}(a,b)$:** The Least Common Multiple (the 1st mathematical occurrence) of the two base numbers.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$ (Must strictly be a positive integer).",
+"back": "## Component Anatomy:\n- **$n$:** The specific target occurrence (e.g., the 10th time).\n- **$\\text{LCM}(a,b)$:** The Least Common Multiple (the 1st mathematical occurrence) of the two base numbers.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}^+$ (Must strictly be a positive integer).",
 "formulaMeta": {
-"formula": "\text{Value} = n \times \text{LCM}(a, b)",
+"formula": "\\text{Value} = n \\times \\text{LCM}(a, b)",
 "description": "State the algorithmic formula to find the precise numerical value where two repeating sequences (e.g., multiples of 3 and 5) align for the $n$-th time.",
-"derivation": "**Algorithmic SOP (e.g., 10th chronological alignment):**\n1. Identify the two base numbers determining the frequency (e.g., $3$ and $5$).\n2. Find their absolute first common intersection (the LCM): $\text{LCM}(3, 5) = 15$.\n3. Multiply this baseline LCM strictly by the target occurrence $n$ (10).\n4. Result: $15 \times 10 = 150$. The 10th chronological alignment occurs exactly at $150$."
+"derivation": "**Algorithmic SOP (e.g., 10th chronological alignment):**\n1. Identify the two base numbers determining the frequency (e.g., $3$ and $5$).\n2. Find their absolute first common intersection (the LCM): $\\text{LCM}(3, 5) = 15$.\n3. Multiply this baseline LCM strictly by the target occurrence $n$ (10).\n4. Result: $15 \\times 10 = 150$. The 10th chronological alignment occurs exactly at $150$."
 }
 }
 },
@@ -855,7 +852,7 @@
 "heading": "Thread Art Full Connectivity Theorem",
 "back": "## Component Anatomy:\n- **$P$:** The total number of pegs arranged in a geometric circle.\n- **$G$:** The thread-gap (number of pegs skipped per step).\n\n## Boundary Conditions / Domain:\n- $P$ and $G$ must strictly be positive integers.",
 "formulaMeta": {
-"formula": "\text{GCD}(P, G) = 1 \implies \text{Co-prime}",
+"formula": "\\text{GCD}(P, G) = 1 \\implies \\text{Co-prime}",
 "description": "State the strict mathematical condition required for the thread to perfectly touch every single peg exactly once before returning to the starting point.",
 "derivation": "**Algorithmic SOP:**\n1. Identify the total number of pegs ($P$) and the gap size ($G$).\n2. Compute the prime factorisation for both numbers.\n3. If they share absolutely no common prime factors (they are co-prime), the thread pattern will span perfectly and touch every peg (e.g., $P=13$, $G=3$).\n4. If they share a common factor (e.g., $P=12$, $G=4$, common factor $4$), the pattern will prematurely close and skip pegs."
 }
@@ -887,7 +884,7 @@
 "back": "## Component Anatomy:\n- **$Y$:** The given calendar year.\n- **$4, 100, 400$:** The critical modulo divisors.\n\n## Boundary Conditions / Domain:\n- Strictly applies to the Gregorian calendar system.",
 "mnemonic": "4 is safe, 100 is a trap, 400 is the ultimate key.",
 "formulaMeta": {
-"formula": "\begin{aligned} \text{If } Y \pmod{100} &= 0, \quad \text{Must be } Y \pmod{400} = 0 \\ \text{Else}, \quad \text{Must be } Y \pmod 4 &= 0 \end{aligned}",
+"formula": "\\begin{aligned} \\text{If } Y \\pmod{100} &= 0, \\quad \\text{Must be } Y \\pmod{400} = 0 \\ \\text{Else}, \\quad \\text{Must be } Y \\pmod 4 &= 0 \\end{aligned}",
 "description": "State the complete algorithmic conditions to mathematically determine if a given year $Y$ is a leap year, including the century exceptions.",
 "derivation": "**Algorithmic SOP:**\n1. **Base Rule:** Check if $Y$ is strictly divisible by $4$ (by looking at the last two digits).\n2. **The Century Trap:** If the year ends in '00' (divisible by $100$), it is mathematically disqualified from being a leap year by default (e.g., $1900$, $2100$).\n3. **The 400 Exception:** If the century year is perfectly divisible by $400$, it regains its leap year status (e.g., $2000$, $2400$)."
 }
@@ -917,9 +914,9 @@
 "back": "## Component Anatomy:\n- **$10^n$:** A power of 10 (e.g., $10000 = 10^4$).\n- **$2^n, 5^n$:** The completely separated prime factor bases.\n\n## Boundary Conditions / Domain:\n- The target factors must strictly NOT end in $0$.\n- Since a $0$ is exclusively created by multiplying a $2$ and a $5$, these prime bases must be mathematically segregated into completely separate terms.",
 "mnemonic": "Keep the 2s and 5s divorced so a zero isn't born.",
 "formulaMeta": {
-"formula": "10000 = 2^4 \times 5^4 = 16 \times 625",
+"formula": "10000 = 2^4 \\times 5^4 = 16 \\times 625",
 "description": "What is the mathematical procedure to find two factors of $10000$ such that neither factor has $0$ as its units digit?",
-"derivation": "**Algorithmic SOP:**\n1. Compute the full prime factorisation: $10000 = 10 \times 10 \times 10 \times 10 = (2 \times 5)^4$.\n2. Group all identical prime factors strictly together to prevent any $2 \times 5$ sub-products from forming a trailing zero.\n3. **Factor A** = All $2$s combined: $2 \times 2 \times 2 \times 2 = 16$.\n4. **Factor B** = All $5$s combined: $5 \times 5 \times 5 \times 5 = 625$.\n5. **Verification:** $16 \times 625 = 10000$, and neither composite factor ends in $0$."
+"derivation": "**Algorithmic SOP:**\n1. Compute the full prime factorisation: $10000 = 10 \\times 10 \\times 10 \\times 10 = (2 \\times 5)^4$.\n2. Group all identical prime factors strictly together to prevent any $2 \\times 5$ sub-products from forming a trailing zero.\n3. **Factor A** = All $2$s combined: $2 \\times 2 \\times 2 \\times 2 = 16$.\n4. **Factor B** = All $5$s combined: $5 \\times 5 \\times 5 \\times 5 = 625$.\n5. **Verification:** $16 \\times 625 = 10000$, and neither composite factor ends in $0$."
 }
 }
 },
@@ -968,10 +965,10 @@
 ],
 "order": 34,
 "heading": "Maximum Prime Gap Sequence (Under 100)",
-"back": "- **Boundary Condition:** The longest continuous sequence of strictly composite numbers under 100 consists of exactly **seven** consecutive integers.\n- **The Sequence:** $90, 91, 92, 93, 94, 95, 96$.\n- **Mathematical Consequence:** This creates the absolute maximum "prime gap" of $8$ between the boundary primes $89$ and $97$.",
+"back": "- **Boundary Condition:** The longest continuous sequence of strictly composite numbers under 100 consists of exactly **seven** consecutive integers.\n- **The Sequence:** $90, 91, 92, 93, 94, 95, 96$.\n- **Mathematical Consequence:** This creates the absolute maximum 'prime gap' of $8$ between the boundary primes $89$ and $97$.",
 "mnemonic": "The 90s are a prime desert.",
 "standardMeta": {
-"question": "What is the longest continuous sequence of consecutive composite numbers under 100, and what mathematical "prime gap" does it establish?"
+"question": "What is the longest continuous sequence of consecutive composite numbers under 100, and what mathematical 'prime gap' does it establish?"
 }
 }
 },
@@ -996,12 +993,12 @@
 ],
 "order": 35,
 "heading": "The Doubling Primes Transformation",
-"back": "## Component Anatomy:\n- **$p_1$:** The initial prime number.\n- **$p_2$:** The resulting secondary prime number.\n\n## Boundary Conditions / Domain:\n- Both $p_1$ and $p_2$ must strictly be valid prime numbers.\n- **Example of Failure:** $p_1 = 7 \implies 2(7)+1 = 15$ (Since 15 is composite, 7 fails the transformation).",
+"back": "## Component Anatomy:\n- **$p_1$:** The initial prime number.\n- **$p_2$:** The resulting secondary prime number.\n\n## Boundary Conditions / Domain:\n- Both $p_1$ and $p_2$ must strictly be valid prime numbers.\n- **Example of Failure:** $p_1 = 7 \\implies 2(7)+1 = 15$ (Since 15 is composite, 7 fails the transformation).",
 "mnemonic": "Double it and add one.",
 "formulaMeta": {
 "formula": "p_2 = 2p_1 + 1",
 "description": "State the linear algebraic transformation used in the NCERT exercise to test if doubling a prime number and adding one yields another valid prime.",
-"derivation": "**Algorithmic SOP (Searching for Valid Pairs):**\n1. Select a base prime $p_1$ (e.g., $11$).\n2. Multiply strictly by 2 ($11 \times 2 = 22$).\n3. Add exactly 1 ($22 + 1 = 23$).\n4. Verify if the result ($23$) is prime. Yes, it is. Valid pair: $(11, 23)$."
+"derivation": "**Algorithmic SOP (Searching for Valid Pairs):**\n1. Select a base prime $p_1$ (e.g., $11$).\n2. Multiply strictly by 2 ($11 \\times 2 = 22$).\n3. Add exactly 1 ($22 + 1 = 23$).\n4. Verify if the result ($23$) is prime. Yes, it is. Valid pair: $(11, 23)$."
 }
 }
 },
@@ -1028,11 +1025,11 @@
 ],
 "order": 36,
 "heading": "Smallest 4-Digit Palindrome Divisible by 4",
-"back": "## Component Anatomy:\n- **$abba$:** A generic 4-digit palindrome.\n- **$ba$:** The 2-digit numerical block formed by the last two digits.\n\n## Boundary Conditions / Domain:\n- $a \neq 0$ (To strictly maintain 4 digits).\n- For the entire palindrome to be divisible by 4, the terminal block $ba$ must be divisible by 4, forcing the outer digit $a$ to strictly be an even integer $\\{2, 4, 6, 8\\}$.",
+"back": "## Component Anatomy:\n- **$abba$:** A generic 4-digit palindrome.\n- **$ba$:** The 2-digit numerical block formed by the last two digits.\n\n## Boundary Conditions / Domain:\n- $a \\neq 0$ (To strictly maintain 4 digits).\n- For the entire palindrome to be divisible by 4, the terminal block $ba$ must be divisible by 4, forcing the outer digit $a$ to strictly be an even integer $\\{2, 4, 6, 8\\}$.",
 "formulaMeta": {
-"formula": "\text{Min} = 2112",
+"formula": "\\text{Min} = 2112",
 "description": "State the structural boundary for the absolute smallest 4-digit palindrome that is strictly divisible by 4.",
-"derivation": "**Algorithmic Proof:**\n1. Start with the absolute smallest even boundary for $a$, which is $2$.\n2. To minimize $b$, try $0 \implies 2002$ (last digits $02$, not divisible by 4).\n3. Try $b=1 \implies 2112$ (last digits $12$, perfectly divisible by 4!)."
+"derivation": "**Algorithmic Proof:**\n1. Start with the absolute smallest even boundary for $a$, which is $2$.\n2. To minimize $b$, try $0 \\implies 2002$ (last digits $02$, not divisible by 4).\n3. Try $b=1 \\implies 2112$ (last digits $12$, perfectly divisible by 4!)."
 }
 }
 },
@@ -1059,9 +1056,9 @@
 ],
 "order": 37,
 "heading": "Largest 4-Digit Palindrome Divisible by 4",
-"back": "## Component Anatomy:\n- **$abba$:** A generic 4-digit palindrome.\n- **$ba$:** The 2-digit numerical block formed by the last two digits.\n\n## Boundary Conditions / Domain:\n- $a \neq 0$ (To strictly maintain 4 digits).\n- The outer digit $a$ must strictly be an even integer $\\{2, 4, 6, 8\\}$ to allow divisibility by 4.",
+"back": "## Component Anatomy:\n- **$abba$:** A generic 4-digit palindrome.\n- **$ba$:** The 2-digit numerical block formed by the last two digits.\n\n## Boundary Conditions / Domain:\n- $a \\neq 0$ (To strictly maintain 4 digits).\n- The outer digit $a$ must strictly be an even integer $\\{2, 4, 6, 8\\}$ to allow divisibility by 4.",
 "formulaMeta": {
-"formula": "\text{Max} = 8888",
+"formula": "\\text{Max} = 8888",
 "description": "State the structural boundary for the absolute largest 4-digit palindrome that is strictly divisible by 4.",
 "derivation": "**Algorithmic Proof:**\n1. Maximize the outer digit $a$ with the largest available even digit, $8$.\n2. Maximize the inner digit $b$ with $8$ or $9$.\n3. Try $8998$ (last digits $98$, not divisible by 4).\n4. Try $8888$ (last digits $88$, strictly divisible by 4!)."
 }
@@ -1116,9 +1113,9 @@
 "heading": "Minimizing Distinct Prime Products",
 "back": "## Component Anatomy:\n- **$N_{min}$:** The absolute smallest integer containing exactly $k$ distinct prime factors.\n- **$p_i$:** The $i$-th smallest sequential prime number.\n\n## Boundary Conditions / Domain:\n- The prime factors must be strictly distinct (absolutely no repetition of the same prime).",
 "formulaMeta": {
-"formula": "N_{min} = p_1 \times p_2 \times \dots \times p_k",
+"formula": "N_{min} = p_1 \\times p_2 \\times \\dots \\times p_k",
 "description": "State the formula/procedure to construct the absolute smallest number containing exactly $k$ distinct prime factors.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the specific constraint $k$ (e.g., $k=4$ distinct primes).\n2. List the absolute first $k$ prime numbers in strictly ascending sequence (e.g., $2, 3, 5, 7$).\n3. Compute their continuous algebraic product: $2 \times 3 \times 5 \times 7 = 210$.\n4. **Proof:** Substituting any larger prime (like 11) for any of these bases will mathematically force a strictly larger total product."
+"derivation": "**Algorithmic SOP:**\n1. Identify the specific constraint $k$ (e.g., $k=4$ distinct primes).\n2. List the absolute first $k$ prime numbers in strictly ascending sequence (e.g., $2, 3, 5, 7$).\n3. Compute their continuous algebraic product: $2 \\times 3 \\times 5 \\times 7 = 210$.\n4. **Proof:** Substituting any larger prime (like 11) for any of these bases will mathematically force a strictly larger total product."
 }
 }
 },
@@ -1146,7 +1143,7 @@
 "heading": "Prime Grid Intersection Algorithm",
 "back": "## Component Anatomy:\n- **$P_{row}$:** The prime factorization multiset of the row's target product.\n- **$P_{col}$:** The prime factorization multiset of the column's target product.\n\n## Boundary Conditions / Domain:\n- Every internal grid cell strictly contains exactly one prime number.\n- Relies heavily on the Fundamental Theorem of Arithmetic (Uniqueness of Prime Factorization).",
 "formulaMeta": {
-"formula": "\text{Cell Value} = P_{row} \cap P_{col}",
+"formula": "\\text{Cell Value} = P_{row} \\cap P_{col}",
 "description": "State the mathematical set-theory operation used to logically deduce the exact prime number occupying the intersection of a specific row and column in a Prime Multiplication Grid.",
 "derivation": "**Algorithmic SOP:**\n1. Extract the target product for the target row (e.g., Row target = $105$). Compute its prime factors: $\\{3, 5, 7\\}$.\n2. Extract the target product for the intersecting column (e.g., Col target = $30$). Compute its prime factors: $\\{2, 3, 5\\}$.\n3. Identify the logical intersection. The cell at the exact geometric intersection MUST strictly hold a shared prime factor to satisfy both orthogonal products simultaneously."
 }

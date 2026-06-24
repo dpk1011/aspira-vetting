@@ -106,7 +106,7 @@
 ],
 "order": 4,
 "heading": "Mathematical Definition of Frequency",
-"back": "## Explanation\n- **Definition:** The specific absolute integer count of the occurrences of a particular discrete value, measure, or categorical observation within a given dataset.\n- **Example:** If $8$ students choose hockey as their favorite game, the frequency of the category 'hockey' is strictly $8$.\n\n## Boundary Conditions / Domain\n- Frequency ($f$) must always be a non-negative integer ($f \geq 0, f \in \mathbb{Z}$).",
+"back": "## Explanation\n- **Definition:** The specific absolute integer count of the occurrences of a particular discrete value, measure, or categorical observation within a given dataset.\n- **Example:** If $8$ students choose hockey as their favorite game, the frequency of the category 'hockey' is strictly $8$.\n\n## Boundary Conditions / Domain\n- Frequency ($f$) must always be a non-negative integer ($f \\geq 0, f \\in \\mathbb{Z}$).",
 "mnemonic": "Frequency = How Frequently it happens.",
 "standardMeta": {
 "question": "What is the strict mathematical definition of 'Frequency' in the context of discrete data handling?"
@@ -134,10 +134,10 @@
 ],
 "order": 5,
 "heading": "Tally Mark Base-5 Grouping Algorithm",
-"back": "## Component Anatomy\n- **$k$**: The number of fully crossed groups.\n- **$r$**: The remainder of uncrossed vertical lines.\n- **$|$**: A single occurrence (count of $1$).\n- **$||||$ crossed out**: A completed group representing exactly $5$ occurrences.\n\n## Boundary Conditions / Domain\n- A tally group must strictly be crossed on the exactly $5\text{th}$ count.\n- The remainder $r$ must strictly fall in the domain $0 \leq r < 5$.",
+"back": "## Component Anatomy\n- **$k$**: The number of fully crossed groups.\n- **$r$**: The remainder of uncrossed vertical lines.\n- **$|$**: A single occurrence (count of $1$).\n- **$||||$ crossed out**: A completed group representing exactly $5$ occurrences.\n\n## Boundary Conditions / Domain\n- A tally group must strictly be crossed on the exactly $5\\text{th}$ count.\n- The remainder $r$ must strictly fall in the domain $0 \\leq r < 5$.",
 "mnemonic": "Four standing tall, the fifth crosses them all.",
 "formulaMeta": {
-"formula": "\text{Total} = 5k + r",
+"formula": "\\text{Total} = 5k + r",
 "description": "State the standard base-5 grouping formula and visual procedure used when counting frequencies via Tally Marks.",
 "derivation": "**Algorithmic SOP:**\n1. For every occurrence, draw a vertical line ($|$).\n2. When the current isolated count reaches exactly $5$, draw a diagonal line crossing the previous four lines.\n3. For counts $> 5$, start a new distinct grouping.\n4. **Final Calculation:** Multiply the number of fully crossed groups ($k$) by $5$, then add the remaining uncrossed vertical lines ($r$)."
 }
@@ -149,7 +149,7 @@
 "originalHeading": "SOP: Frequency Distribution Table Construction",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Updated formula to formal notation \sum f_i = N",
+"Updated formula to formal notation \\sum f_i = N",
 "Structured back properly for FORMULA card"
 ],
 "vettingNotes": "",
@@ -164,11 +164,11 @@
 ],
 "order": 6,
 "heading": "Standard Construction of Frequency Distribution Tables",
-"back": "## Component Anatomy\n- **Column 1:** Categories / Discrete Items.\n- **Column 2:** Tally Marks (Base-5 groupings).\n- **Column 3:** Numerical Frequency ($f_i$).\n- **$N$:** Total number of raw data points collected.\n\n## Boundary Conditions / Domain\n- **Verification Constraint:** The absolute sum of Column 3 ($\sum f_i$) must exactly equal the total number of raw data points ($N$). If $\sum f_i \neq N$, data points were either missed or double-counted.",
+"back": "## Component Anatomy\n- **Column 1:** Categories / Discrete Items.\n- **Column 2:** Tally Marks (Base-5 groupings).\n- **Column 3:** Numerical Frequency ($f_i$).\n- **$N$:** Total number of raw data points collected.\n\n## Boundary Conditions / Domain\n- **Verification Constraint:** The absolute sum of Column 3 ($\\sum f_i$) must exactly equal the total number of raw data points ($N$). If $\\sum f_i \\neq N$, data points were either missed or double-counted.",
 "formulaMeta": {
-"formula": "\sum_{i=1}^{n} f_i = N",
+"formula": "\\sum_{i=1}^{n} f_i = N",
 "description": "State the 3-step Standard Operating Procedure (SOP) to construct a Frequency Distribution Table and the strict mathematical verification constraint.",
-"derivation": "**Algorithmic SOP:**\n1. Create a table with exactly three designated columns: Category, Tally Marks, and Frequency.\n2. Iterate strictly through the raw data sequence one by one, adding a single tally mark to the corresponding category row.\n3. Convert the completed tally groups into absolute integers in the final Frequency column.\n4. **Verification Step:** Sum the final frequency column. Ensure $\sum f_i$ exactly matches the initial raw dataset size $N$."
+"derivation": "**Algorithmic SOP:**\n1. Create a table with exactly three designated columns: Category, Tally Marks, and Frequency.\n2. Iterate strictly through the raw data sequence one by one, adding a single tally mark to the corresponding category row.\n3. Convert the completed tally groups into absolute integers in the final Frequency column.\n4. **Verification Step:** Sum the final frequency column. Ensure $\\sum f_i$ exactly matches the initial raw dataset size $N$."
 }
 }
 },
@@ -220,7 +220,7 @@
 ],
 "order": 8,
 "heading": "Mandatory Scale Key in Pictographs",
-"back": "## Explanation\n- **Concept:** A designated mathematical key that explicitly defines the constant scalar multiplier (how many real-world units a single picture/symbol represents).\n- **Example:** $1 \text{ symbol} = 10 \text{ units}$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** A pictograph is mathematically invalid and undefined without an explicitly stated scale. Without it, the symbols hold zero objective quantitative value.",
+"back": "## Explanation\n- **Concept:** A designated mathematical key that explicitly defines the constant scalar multiplier (how many real-world units a single picture/symbol represents).\n- **Example:** $1 \\text{ symbol} = 10 \\text{ units}$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** A pictograph is mathematically invalid and undefined without an explicitly stated scale. Without it, the symbols hold zero objective quantitative value.",
 "standardMeta": {
 "question": "What critical scalar component MUST accompany a pictograph for it to be mathematically valid and determinable?"
 }
@@ -247,11 +247,11 @@
 ],
 "order": 9,
 "heading": "Absolute Frequency Calculation from Pictographs",
-"back": "## Component Anatomy\n- **$S$**: The total number of completely drawn symbols shown for a specific category.\n- **$k$**: The numerical scale (the predefined value of exactly one complete symbol).\n- **$F$**: The true absolute frequency/count in the real world.\n\n## Boundary Conditions / Domain\n- $S$ must strictly be a non-negative rational number ($S \geq 0$).\n- Applies ideally when $S$ is an integer; fractional symbols introduce estimation errors unless perfectly defined.",
+"back": "## Component Anatomy\n- **$S$**: The total number of completely drawn symbols shown for a specific category.\n- **$k$**: The numerical scale (the predefined value of exactly one complete symbol).\n- **$F$**: The true absolute frequency/count in the real world.\n\n## Boundary Conditions / Domain\n- $S$ must strictly be a non-negative rational number ($S \\geq 0$).\n- Applies ideally when $S$ is an integer; fractional symbols introduce estimation errors unless perfectly defined.",
 "formulaMeta": {
-"formula": "F = S \times k",
+"formula": "F = S \\times k",
 "description": "State the algebraic formula to calculate the absolute frequency ($F$) of a category from a pictograph.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the given scale $k$ from the key (e.g., $1 \text{ icon} = 5 \text{ cars}$).\n2. Geometrically count the exact number of complete symbols $S$ in the target row or column.\n3. Multiply the scalar $S$ by $k$ to find the total absolute frequency."
+"derivation": "**Algorithmic SOP:**\n1. Identify the given scale $k$ from the key (e.g., $1 \\text{ icon} = 5 \\text{ cars}$).\n2. Geometrically count the exact number of complete symbols $S$ in the target row or column.\n3. Multiply the scalar $S$ by $k$ to find the total absolute frequency."
 }
 }
 },
@@ -276,11 +276,11 @@
 ],
 "order": 10,
 "heading": "Fractional Symbol Calculation for Target Frequencies",
-"back": "## Component Anatomy\n- **$V$**: The true real-world target frequency to be represented on the graph.\n- **$k$**: The defined numerical scale (value of one full geometric symbol).\n- **$N$**: The exact number of visual symbols required to be drawn.\n\n## Boundary Conditions / Domain\n- If $V \not\equiv 0 \pmod{k}$ (i.e., $V$ is not a perfect multiple of $k$), $N$ will strictly be a rational fraction, requiring a mathematically precise 'partial' drawing of the symbol.",
+"back": "## Component Anatomy\n- **$V$**: The true real-world target frequency to be represented on the graph.\n- **$k$**: The defined numerical scale (value of one full geometric symbol).\n- **$N$**: The exact number of visual symbols required to be drawn.\n\n## Boundary Conditions / Domain\n- If $V \\not\\equiv 0 \\pmod{k}$ (i.e., $V$ is not a perfect multiple of $k$), $N$ will strictly be a rational fraction, requiring a mathematically precise 'partial' drawing of the symbol.",
 "formulaMeta": {
-"formula": "N = \frac{V}{k}",
+"formula": "N = \\frac{V}{k}",
 "description": "State the formula to determine the exact number of geometric symbols ($N$) required to draw in a pictograph for a given target frequency.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the target true frequency ($V$) and the chosen scale ($k$).\n2. Divide the target frequency strictly by the scale: $N = \frac{V}{k}$.\n3. Evaluate the result. For example, if target $V = 25$ and scale $k = 10$, then $N = \frac{25}{10} = 2.5$.\n4. Draw the integer component (e.g., $2$ full symbols) followed precisely by the fractional component (e.g., $0.5$ of a symbol)."
+"derivation": "**Algorithmic SOP:**\n1. Identify the target true frequency ($V$) and the chosen scale ($k$).\n2. Divide the target frequency strictly by the scale: $N = \\frac{V}{k}$.\n3. Evaluate the result. For example, if target $V = 25$ and scale $k = 10$, then $N = \\frac{25}{10} = 2.5$.\n4. Draw the integer component (e.g., $2$ full symbols) followed precisely by the fractional component (e.g., $0.5$ of a symbol)."
 }
 }
 },
@@ -305,11 +305,11 @@
 ],
 "order": 11,
 "heading": "Modulo Condition for Pictograph Symbol Completion",
-"back": "## Component Anatomy\n- **$f_{\text{current}}$**: The current true numerical frequency of the category.\n- **$\Delta f$**: The delta representing newly added numerical data points.\n- **$k$**: The defined scale (value of exactly one full geometric symbol).\n\n## Boundary Conditions / Domain\n- This strictly governs discrete updates. The symbol representation upgrades to a new, fully complete integer symbol if and only if the sum of the current frequency's remainder and the delta perfectly equals the scale integer $k$.",
+"back": "## Component Anatomy\n- **$f_{\\text{current}}$**: The current true numerical frequency of the category.\n- **$\\Delta f$**: The delta representing newly added numerical data points.\n- **$k$**: The defined scale (value of exactly one full geometric symbol).\n\n## Boundary Conditions / Domain\n- This strictly governs discrete updates. The symbol representation upgrades to a new, fully complete integer symbol if and only if the sum of the current frequency's remainder and the delta perfectly equals the scale integer $k$.",
 "formulaMeta": {
-"formula": "(f_{\text{current}} \pmod k) + \Delta f = k",
-"description": "State the modulo-based algebraic condition under which adding new data points ($\Delta f$) perfectly converts a 'partial symbol' into exactly one 'full symbol' on a pictograph.",
-"derivation": "**Theoretical Basis:**\n1. The current partial symbol represents the remainder: $R = f_{\text{current}} \pmod k$.\n2. To complete the geometric symbol, the missing value is exactly $k - R$.\n3. Therefore, if the incoming delta $\Delta f$ exactly equals $k - R$, the partial symbol becomes mathematically whole."
+"formula": "(f_{\\text{current}} \\pmod k) + \\Delta f = k",
+"description": "State the modulo-based algebraic condition under which adding new data points ($\\Delta f$) perfectly converts a 'partial symbol' into exactly one 'full symbol' on a pictograph.",
+"derivation": "**Theoretical Basis:**\n1. The current partial symbol represents the remainder: $R = f_{\\text{current}} \\pmod k$.\n2. To complete the geometric symbol, the missing value is exactly $k - R$.\n3. Therefore, if the incoming delta $\\Delta f$ exactly equals $k - R$, the partial symbol becomes mathematically whole."
 }
 }
 },
@@ -333,7 +333,7 @@
 ],
 "order": 12,
 "heading": "Application of Pictograph Symbol Completion",
-"back": "## Explanation\nWhen dynamically updating a pictograph, incoming data interacts with the existing partial symbols based on the scale.\n\n**Algorithmic Procedure (Example):**\n*Scenario: Adding $2$ girls to a class of $18$, where scale $k = 4$ girls/symbol.*\n1. **Identify the current remainder:** The existing partial symbol represents $18 \pmod 4 = 2$ girls (a half-symbol).\n2. **Evaluate the incoming Delta:** The new data is $\Delta f = 2$.\n3. **Test the completion condition:** Add the remainder and the delta: $2 + 2 = 4$.\n4. **Conclusion:** Since the sum ($4$) perfectly equals the scale $k$, the fractional half-symbol is mathematically completed into a singular full integer symbol.\n\n## Boundary Conditions / Domain\n- If $R + \Delta f > k$, a new full symbol is completed, AND a new partial symbol representing $(R + \Delta f) \pmod k$ must be initiated.",
+"back": "## Explanation\nWhen dynamically updating a pictograph, incoming data interacts with the existing partial symbols based on the scale.\n\n**Algorithmic Procedure (Example):**\n*Scenario: Adding $2$ girls to a class of $18$, where scale $k = 4$ girls/symbol.*\n1. **Identify the current remainder:** The existing partial symbol represents $18 \\pmod 4 = 2$ girls (a half-symbol).\n2. **Evaluate the incoming Delta:** The new data is $\\Delta f = 2$.\n3. **Test the completion condition:** Add the remainder and the delta: $2 + 2 = 4$.\n4. **Conclusion:** Since the sum ($4$) perfectly equals the scale $k$, the fractional half-symbol is mathematically completed into a singular full integer symbol.\n\n## Boundary Conditions / Domain\n- If $R + \\Delta f > k$, a new full symbol is completed, AND a new partial symbol representing $(R + \\Delta f) \\pmod k$ must be initiated.",
 "standardMeta": {
 "question": "If a pictograph (scale $k=4$) currently displays $18$ items, conceptually demonstrate how adding $2$ new items algebraically completes the partial symbol."
 }
@@ -359,7 +359,7 @@
 ],
 "order": 13,
 "heading": "Mathematical Limitations of Pictographs",
-"back": "## Explanation\n- **Limitation:** Pictographs become mathematically imprecise and geometrically challenging when frequencies are **not exact multiples or simple standard fractions** (like $\frac{1}{2}$ or $\frac{1}{4}$) of the defined scale.\n- **Example:** If scale $k = 10$, visually drawing an exact representation of $27$ items requires drawing precisely $0.7$ of a complex visual symbol, which is effectively impossible for the human eye to draw or interpret accurately.\n\n## Boundary Conditions / Domain\n- The domain of utility for pictographs sharply drops when analyzing large continuous datasets or datasets with high prime-number variance.",
+"back": "## Explanation\n- **Limitation:** Pictographs become mathematically imprecise and geometrically challenging when frequencies are **not exact multiples or simple standard fractions** (like $\\frac{1}{2}$ or $\\frac{1}{4}$) of the defined scale.\n- **Example:** If scale $k = 10$, visually drawing an exact representation of $27$ items requires drawing precisely $0.7$ of a complex visual symbol, which is effectively impossible for the human eye to draw or interpret accurately.\n\n## Boundary Conditions / Domain\n- The domain of utility for pictographs sharply drops when analyzing large continuous datasets or datasets with high prime-number variance.",
 "standardMeta": {
 "question": "What is the primary geometric and mathematical limitation of using a Pictograph to represent complex empirical data?"
 }
@@ -438,7 +438,7 @@
 ],
 "order": 16,
 "heading": "Mutually Exclusive Axis Roles in Standard Bar Graphs",
-"back": "## Explanation\n- **Concept:** In a standard 2D cartesian representation of a bar graph, the two perpendicular axes serve mathematically mutually exclusive functional roles.\n- **Axis 1 (Categorical/Independent):** One axis strictly hosts the qualitative categories, distinct groups, or names (arranged with equal arbitrary spacing).\n- **Axis 2 (Numerical/Dependent):** The perpendicular orthogonal axis strictly hosts the continuous linear numerical scale representing absolute frequencies or quantitative magnitudes.\n\n## Boundary Conditions / Domain\n- The two axes cannot both be purely categorical. A valid bar graph requires mapping $Cat \to \mathbb{R}^+$.",
+"back": "## Explanation\n- **Concept:** In a standard 2D cartesian representation of a bar graph, the two perpendicular axes serve mathematically mutually exclusive functional roles.\n- **Axis 1 (Categorical/Independent):** One axis strictly hosts the qualitative categories, distinct groups, or names (arranged with equal arbitrary spacing).\n- **Axis 2 (Numerical/Dependent):** The perpendicular orthogonal axis strictly hosts the continuous linear numerical scale representing absolute frequencies or quantitative magnitudes.\n\n## Boundary Conditions / Domain\n- The two axes cannot both be purely categorical. A valid bar graph requires mapping $Cat \\to \\mathbb{R}^+$.",
 "mnemonic": "One axis for names, one axis for numbers.",
 "standardMeta": {
 "question": "In the standard 2D Cartesian plane of a Bar Graph, what are the mutually exclusive mathematical roles assigned to the two perpendicular axes?"
@@ -492,7 +492,7 @@
 ],
 "order": 18,
 "heading": "Arithmetic Progression Constraint of Numerical Axes",
-"back": "## Component Anatomy\n- **$y_n, y_{n+1}$**: Any two strictly consecutive numerical markings (ticks) on the quantitative axis.\n- **$C$**: The strictly constant fundamental unit scale (the fixed geometric gap value).\n\n## Boundary Conditions / Domain\n- The entire sequence of numerical markings must strictly constitute an Arithmetic Progression (A.P.) defined as $y_n = n \cdot C$ for $n \ge 0$.\n- The geometric Cartesian distance between any two consecutive marks must map identically to the arithmetic difference $C$.",
+"back": "## Component Anatomy\n- **$y_n, y_{n+1}$**: Any two strictly consecutive numerical markings (ticks) on the quantitative axis.\n- **$C$**: The strictly constant fundamental unit scale (the fixed geometric gap value).\n\n## Boundary Conditions / Domain\n- The entire sequence of numerical markings must strictly constitute an Arithmetic Progression (A.P.) defined as $y_n = n \\cdot C$ for $n \\ge 0$.\n- The geometric Cartesian distance between any two consecutive marks must map identically to the arithmetic difference $C$.",
 "formulaMeta": {
 "formula": "y_{n+1} - y_n = C",
 "description": "State the strict algebraic linear relationship between any two consecutive numerical markings on a valid bar graph's continuous numerical axis.",
@@ -520,7 +520,7 @@
 ],
 "order": 19,
 "heading": "Extrema-Based Scale Selection for Bar Graphs",
-"back": "## Explanation\n- **Concept:** The selection of the unit scale (e.g., $1 \text{ grid unit} = 10 \text{ items}$) is deterministically bounded by the **minimum and maximum absolute frequencies** (extrema) present in the dataset.\n- **Constraint:** \n  1. The scale factor must be sufficiently large to ensure the $F_{\max}$ (maximum frequency) bar fits entirely within the finite geometry of the available graphing paper.\n  2. The scale factor must be sufficiently small to ensure that the $F_{\min}$ and any minimal delta between bars remain visually and geometrically distinct.\n\n## Boundary Conditions / Domain\n- Markings must strict align with the arithmetic progression constraints originating from $0$.",
+"back": "## Explanation\n- **Concept:** The selection of the unit scale (e.g., $1 \\text{ grid unit} = 10 \\text{ items}$) is deterministically bounded by the **minimum and maximum absolute frequencies** (extrema) present in the dataset.\n- **Constraint:** \n  1. The scale factor must be sufficiently large to ensure the $F_{\\max}$ (maximum frequency) bar fits entirely within the finite geometry of the available graphing paper.\n  2. The scale factor must be sufficiently small to ensure that the $F_{\\min}$ and any minimal delta between bars remain visually and geometrically distinct.\n\n## Boundary Conditions / Domain\n- Markings must strict align with the arithmetic progression constraints originating from $0$.",
 "standardMeta": {
 "question": "Which specific data boundaries strictly dictate the selection of an appropriate numerical scale when constructing a Bar Graph?"
 }
@@ -547,11 +547,11 @@
 ],
 "order": 20,
 "heading": "Geometric Height Calculation for Bar Graph Construction",
-"back": "## Component Anatomy\n- **$F$**: The true absolute numerical frequency of the given category.\n- **$U$**: The designated scalar key (numerical value assigned per $1$ basic geometric unit length).\n- **$H$**: The calculated continuous geometric length/height of the bar measured in physical grid units.\n\n## Boundary Conditions / Domain\n- $H$ strictly exists in the domain $H \ge 0$.\n- If $F$ is not a perfect integer multiple of $U$, $H$ will resolve to a rational number, requiring interpolation between physical grid markings.",
+"back": "## Component Anatomy\n- **$F$**: The true absolute numerical frequency of the given category.\n- **$U$**: The designated scalar key (numerical value assigned per $1$ basic geometric unit length).\n- **$H$**: The calculated continuous geometric length/height of the bar measured in physical grid units.\n\n## Boundary Conditions / Domain\n- $H$ strictly exists in the domain $H \\ge 0$.\n- If $F$ is not a perfect integer multiple of $U$, $H$ will resolve to a rational number, requiring interpolation between physical grid markings.",
 "formulaMeta": {
-"formula": "H = \frac{F}{U}",
+"formula": "H = \\frac{F}{U}",
 "description": "State the algebraic formula to map the data frequency to the exact unit height ($H$) of a physical geometric bar.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the absolute real-world frequency of the category (e.g., Expenditure $F = 3400$).\n2. Identify the defined scale (e.g., $U = 200$ items per single grid unit).\n3. Divide the absolute frequency by the unit scale: $H = \frac{3400}{200} = 17$.\n4. Draw the bar reaching exactly $17$ continuous grid units from the origin."
+"derivation": "**Algorithmic SOP:**\n1. Identify the absolute real-world frequency of the category (e.g., Expenditure $F = 3400$).\n2. Identify the defined scale (e.g., $U = 200$ items per single grid unit).\n3. Divide the absolute frequency by the unit scale: $H = \\frac{3400}{200} = 17$.\n4. Draw the bar reaching exactly $17$ continuous grid units from the origin."
 }
 }
 },
@@ -578,9 +578,9 @@
 "heading": "Arithmetic Mean Calculation for Mid-Scale Bar Heights",
 "back": "## Component Anatomy\n- **$L_1$**: The precise quantitative value of the lower bounding scale mark.\n- **$L_2$**: The precise quantitative value of the upper bounding scale mark.\n\n## Boundary Conditions / Domain\n- Strictly relies on the axiom that the axis represents a perfectly linear Cartesian space.\n- The formula strictly applies ONLY when the top of the geometric bar logically perfectly aligns in the geometric center ($\\%50$ mark) between the two bounding grid markings.",
 "formulaMeta": {
-"formula": "\text{Value} = \frac{L_1 + L_2}{2}",
+"formula": "\\text{Value} = \\frac{L_1 + L_2}{2}",
 "description": "If a bar's height terminates perfectly halfway between two grid marks, state the linear interpolation formula to extract its exact numerical value.",
-"derivation": "**Algorithmic SOP:**\n1. Project horizontally from the geometric top of the bar to the numerical axis.\n2. Identify the adjacent scale tick mark immediately below the projection ($L_1 = 100$).\n3. Identify the adjacent scale tick mark immediately above the projection ($L_2 = 200$).\n4. Calculate the strict arithmetic mean: $\frac{100+200}{2} = 150$."
+"derivation": "**Algorithmic SOP:**\n1. Project horizontally from the geometric top of the bar to the numerical axis.\n2. Identify the adjacent scale tick mark immediately below the projection ($L_1 = 100$).\n3. Identify the adjacent scale tick mark immediately above the projection ($L_2 = 200$).\n4. Calculate the strict arithmetic mean: $\\frac{100+200}{2} = 150$."
 }
 }
 },
@@ -605,11 +605,11 @@
 ],
 "order": 22,
 "heading": "Visual Extraction of Extrema in Bar Graphs",
-"back": "## Component Anatomy\n- **$H_{\max}$**: The absolute maximum geometric continuous length/height present on the plane.\n- **$F_{\max}$**: The mapped absolute maximum data frequency.\n- **$H_{\min}$**: The absolute minimum geometric continuous length/height present.\n- **$F_{\min}$**: The mapped absolute minimum data frequency.\n\n## Boundary Conditions / Domain\n- Relies strictly on the geometric definition that length $H$ is monotonically increasing with respect to frequency $F$.\n- If two bars share the exact same maximal or minimal physical geometric height, there is a mathematical 'tie' (multiple modes or minimums).",
+"back": "## Component Anatomy\n- **$H_{\\max}$**: The absolute maximum geometric continuous length/height present on the plane.\n- **$F_{\\max}$**: The mapped absolute maximum data frequency.\n- **$H_{\\min}$**: The absolute minimum geometric continuous length/height present.\n- **$F_{\\min}$**: The mapped absolute minimum data frequency.\n\n## Boundary Conditions / Domain\n- Relies strictly on the geometric definition that length $H$ is monotonically increasing with respect to frequency $F$.\n- If two bars share the exact same maximal or minimal physical geometric height, there is a mathematical 'tie' (multiple modes or minimums).",
 "formulaMeta": {
-"formula": "\begin{aligned} H_{\max} &\implies F_{\max} \\ H_{\min} &\implies F_{\min} \end{aligned}",
+"formula": "\\begin{aligned} H_{\\max} &\\implies F_{\\max} \\ H_{\\min} &\\implies F_{\\min} \\end{aligned}",
 "description": "State the direct visual geometric rule used to identify the categories holding the mathematical extrema (maximum and minimum frequencies) on a bar graph.",
-"derivation": "**Visual Inference Algorithmic SOP:**\n1. Scan the geometric representation space strictly for the longest physical bar ($H_{\max}$). Its categorical base represents the mode/$F_{\max}$.\n2. Scan the geometric representation space strictly for the shortest physical bar ($H_{\min}$). Its categorical base represents $F_{\min}$."
+"derivation": "**Visual Inference Algorithmic SOP:**\n1. Scan the geometric representation space strictly for the longest physical bar ($H_{\\max}$). Its categorical base represents the mode/$F_{\\max}$.\n2. Scan the geometric representation space strictly for the shortest physical bar ($H_{\\min}$). Its categorical base represents $F_{\\min}$."
 }
 }
 },
@@ -636,7 +636,7 @@
 "heading": "Algebraic Summation of Categorical Frequencies",
 "back": "## Component Anatomy\n- **$f_i$**: The extracted scalar numerical frequency of category $i$.\n- **$n$**: The total integer count of categories being subjected to the summation.\n\n## Boundary Conditions / Domain\n- **Critical Trap:** Never mathematically sum the geometric grid units (the height blocks) unless the assigned numerical scale is strictly $1:1$. Always convert geometry to absolute frequency $f_i$ *before* algebraic summation.",
 "formulaMeta": {
-"formula": "\text{Total} = \sum_{i=1}^{n} f_i",
+"formula": "\\text{Total} = \\sum_{i=1}^{n} f_i",
 "description": "State the standard algebraic formula and SOP to find the aggregate combined total frequency of multiple targeted categories from a single bar graph.",
 "derivation": "**Algorithmic SOP:**\n1. Project the geometric top of the first target bar horizontally onto the numerical Cartesian axis to extract its exact absolute scalar value ($f_1$).\n2. Repeat the precise projection for all $n$ subsequent target bars to extract $f_2, f_3 ... f_n$.\n3. Perform basic scalar addition to sum the extracted absolute mathematical values."
 }
@@ -662,7 +662,7 @@
 ],
 "order": 24,
 "heading": "The Raw Summation Trap in Frequency-Value Tables",
-"back": "## Explanation\nWhen analyzing a discrete distribution table mapping quantitative *Values* ($v_i$, e.g., $2$ wickets) against their absolute *Frequencies* ($f_i$, e.g., $6$ matches), students often fall into two distinct mathematical traps when calculating the aggregate 'Total Value':\n1. **Trap 1:** Simply summing the frequency column ($\sum f_i$). This calculates the total number of *trials* or *events* (matches played), NOT the aggregate value collected.\n2. **Trap 2:** Simply summing the value column ($\sum v_i$). This explicitly ignores the distribution density (how often each value occurred) and creates a mathematically meaningless sum.\n\n## Boundary Conditions / Domain\n- This strictly applies when the 'Category' column itself contains a quantitative real-world value ($v_i \in \mathbb{R}$) rather than a qualitative noun (like 'Red' or 'Blue').",
+"back": "## Explanation\nWhen analyzing a discrete distribution table mapping quantitative *Values* ($v_i$, e.g., $2$ wickets) against their absolute *Frequencies* ($f_i$, e.g., $6$ matches), students often fall into two distinct mathematical traps when calculating the aggregate 'Total Value':\n1. **Trap 1:** Simply summing the frequency column ($\\sum f_i$). This calculates the total number of *trials* or *events* (matches played), NOT the aggregate value collected.\n2. **Trap 2:** Simply summing the value column ($\\sum v_i$). This explicitly ignores the distribution density (how often each value occurred) and creates a mathematically meaningless sum.\n\n## Boundary Conditions / Domain\n- This strictly applies when the 'Category' column itself contains a quantitative real-world value ($v_i \\in \\mathbb{R}$) rather than a qualitative noun (like 'Red' or 'Blue').",
 "standardMeta": {
 "question": "When computing a 'Total Value' from a table that maps quantitative values ($v_i$) to frequencies ($f_i$), why is it mathematically invalid to simply sum the $f$ column or sum the $v$ column?"
 }
@@ -690,9 +690,9 @@
 "heading": "Weighted Sum Calculation for Total Values",
 "back": "## Component Anatomy\n- **$f_i$**: The absolute frequency density of the specific quantitative value.\n- **$v_i$**: The specific underlying quantitative numerical value itself (e.g., number of wickets).\n\n## Boundary Conditions / Domain\n- The column $v_i$ must strictly represent a valid, summable quantitative measure.",
 "formulaMeta": {
-"formula": "\text{Total Value} = \sum_{i=1}^{n} (f_i \times v_i)",
+"formula": "\\text{Total Value} = \\sum_{i=1}^{n} (f_i \\times v_i)",
 "description": "If a frequency distribution table lists quantitative 'Values' ($v_i$) and their mapped 'Frequencies' ($f_i$), state the algebraic formula to calculate the absolute aggregate 'Total Value'.",
-"derivation": "**Algorithmic SOP:**\n1. For every distinct row, mathematically compute the product of the Value and its corresponding Frequency ($f_i \times v_i$). \n   *Example: $2 \text{ wickets} \times 6 \text{ matches} = 12 \text{ wickets}$.*\n2. Execute the algebraic summation of all individually calculated products across the $n$ rows."
+"derivation": "**Algorithmic SOP:**\n1. For every distinct row, mathematically compute the product of the Value and its corresponding Frequency ($f_i \\times v_i$). \n   *Example: $2 \\text{ wickets} \\times 6 \\text{ matches} = 12 \\text{ wickets}$.*\n2. Execute the algebraic summation of all individually calculated products across the $n$ rows."
 }
 }
 },
@@ -745,7 +745,7 @@
 ],
 "order": 27,
 "heading": "Law of Large Numbers in Linguistic Data Convergence",
-"back": "## Explanation\n- **Concept:** When taking random textual samples (like counting letters in varying news articles), the relative frequencies of specific letters consistently converge to a universal, predictable sequence (e.g., $e$ is vastly more common than $x$).\n- **Mathematical Significance:** This demonstrates that sufficiently large random samples will naturally reflect the underlying probability distribution of the universal population, regardless of the specific article chosen.\n\n## Boundary Conditions / Domain\n- **Sample Size Constraint:** This convergence is strictly governed by the Law of Large Numbers (LLN). Small sample sizes ($n \to 0$) will exhibit high variance and may deviate drastically from the true universal population distribution.",
+"back": "## Explanation\n- **Concept:** When taking random textual samples (like counting letters in varying news articles), the relative frequencies of specific letters consistently converge to a universal, predictable sequence (e.g., $e$ is vastly more common than $x$).\n- **Mathematical Significance:** This demonstrates that sufficiently large random samples will naturally reflect the underlying probability distribution of the universal population, regardless of the specific article chosen.\n\n## Boundary Conditions / Domain\n- **Sample Size Constraint:** This convergence is strictly governed by the Law of Large Numbers (LLN). Small sample sizes ($n \\to 0$) will exhibit high variance and may deviate drastically from the true universal population distribution.",
 "standardMeta": {
 "question": "Why do independent, sufficiently large random samples of English text consistently yield a nearly identical relative frequency distribution for specific letters, rather than pure random chaos?"
 }
@@ -798,7 +798,7 @@
 ],
 "order": 29,
 "heading": "Geometric Area Distortion in Infographics",
-"back": "## Explanation\n- **The Trap:** When replacing uniform rectangular bars (which strictly hold 1D quantitative value via height) with 2D geometric shapes (like triangles or realistic icons), scaling the *height* often forces the artist to proportionally scale the *width* to maintain aspect ratio.\n- **Mathematical Consequence:** Because $\text{Area} \propto \text{height}^2$, a shape drawn twice as tall actually becomes exactly four times as large in total geometric area. The human eye inherently judges the Area, severely misleading the viewer's perception of the actual linear data ratio.\n\n## Boundary Conditions / Domain\n- Standard Cartesian bar graphs mathematically prevent this deception by enforcing a strictly constant geometric width across all domains.",
+"back": "## Explanation\n- **The Trap:** When replacing uniform rectangular bars (which strictly hold 1D quantitative value via height) with 2D geometric shapes (like triangles or realistic icons), scaling the *height* often forces the artist to proportionally scale the *width* to maintain aspect ratio.\n- **Mathematical Consequence:** Because $\\text{Area} \\propto \\text{height}^2$, a shape drawn twice as tall actually becomes exactly four times as large in total geometric area. The human eye inherently judges the Area, severely misleading the viewer's perception of the actual linear data ratio.\n\n## Boundary Conditions / Domain\n- Standard Cartesian bar graphs mathematically prevent this deception by enforcing a strictly constant geometric width across all domains.",
 "standardMeta": {
 "question": "What is the critical mathematical 'distortion trap' (involving geometric scaling) that frequently occurs when converting a standard 1D Bar Graph into a 2D Infographic?"
 }
@@ -826,9 +826,9 @@
 "heading": "Strict Proportionality in Non-Deceptive Scaling",
 "back": "## Component Anatomy\n- **$H_1, H_2$**: The true mathematical absolute frequencies/values of two real-world categories.\n- **$h_1, h_2$**: The rendered physical geometric heights of those categories drawn onto the cartesian plane.\n\n## Boundary Conditions / Domain\n- The absolute magnitude of the drawing scale does not matter. To remain strictly non-deceptive, the equality of the ratios MUST perfectly hold.",
 "formulaMeta": {
-"formula": "\frac{h_1}{h_2} = \frac{H_1}{H_2}",
+"formula": "\\frac{h_1}{h_2} = \\frac{H_1}{H_2}",
 "description": "State the strict algebraic proportion that must be mathematically maintained to prevent visual deception when scaling geometric heights in any graphical comparison.",
-"derivation": "**Axiomatic Logic:**\n1. A graph's primary function is to map quantitative relationships perfectly to visual space.\n2. Therefore, the visual geometric ratio ($h_1 : h_2$) must be an exact scalar match to the real-world numerical ratio ($H_1 : H_2$).\n3. Any deviation where $\frac{h_1}{h_2} \neq \frac{H_1}{H_2}$ mathematically constitutes a deceptive graph."
+"derivation": "**Axiomatic Logic:**\n1. A graph's primary function is to map quantitative relationships perfectly to visual space.\n2. Therefore, the visual geometric ratio ($h_1 : h_2$) must be an exact scalar match to the real-world numerical ratio ($H_1 : H_2$).\n3. Any deviation where $\\frac{h_1}{h_2} \\neq \\frac{H_1}{H_2}$ mathematically constitutes a deceptive graph."
 }
 }
 },
@@ -852,7 +852,7 @@
 ],
 "order": 31,
 "heading": "Algorithmic Proof of Visual Geometric Distortion",
-"back": "## Explanation\nWhen designers alter mathematical proportions for aesthetic impact, they inject absolute falsehoods into the data representation.\n\n**Algorithmic Proof (Everest vs. Elbrus Fallacy):**\n1. Identify true absolute values: Elbrus ($H_2$) $= 5642\text{m}$, Everest ($H_1$) $= 8848\text{m}$.\n2. Calculate the exact true mathematical ratio: $\frac{8848}{5642} \approx 1.56$.\n3. If an artist arbitrarily draws Everest's geometric peak $h_1$ to be strictly twice as high as Elbrus's peak $h_2$ (forcing $\frac{h_1}{h_2} = 2$) to make it look 'more dramatic', they introduce a mathematical falsehood, because the drawn ratio ($2$) $\neq$ the true ratio ($1.56$).\n\n## Boundary Conditions / Domain\n- The human visual cortex processes magnitude relatively; therefore, manipulating visual scalars destroys the integrity of all comparative data.",
+"back": "## Explanation\nWhen designers alter mathematical proportions for aesthetic impact, they inject absolute falsehoods into the data representation.\n\n**Algorithmic Proof (Everest vs. Elbrus Fallacy):**\n1. Identify true absolute values: Elbrus ($H_2$) $= 5642\\text{m}$, Everest ($H_1$) $= 8848\\text{m}$.\n2. Calculate the exact true mathematical ratio: $\\frac{8848}{5642} \\approx 1.56$.\n3. If an artist arbitrarily draws Everest's geometric peak $h_1$ to be strictly twice as high as Elbrus's peak $h_2$ (forcing $\\frac{h_1}{h_2} = 2$) to make it look 'more dramatic', they introduce a mathematical falsehood, because the drawn ratio ($2$) $\\neq$ the true ratio ($1.56$).\n\n## Boundary Conditions / Domain\n- The human visual cortex processes magnitude relatively; therefore, manipulating visual scalars destroys the integrity of all comparative data.",
 "standardMeta": {
 "question": "Demonstrate the mathematical falsehood introduced when an artist arbitrarily scales a geometric representation (e.g., drawing Mt. Everest strictly twice as tall as Mt. Elbrus for 'dramatic effect')."
 }
@@ -879,11 +879,11 @@
 ],
 "order": 32,
 "heading": "Algebraic Translation of Inequality Phrases",
-"back": "## Component Anatomy\n- **$A$**: The target comparative quantity being evaluated (e.g., Poonam's $700$ kites).\n- **$B$**: The baseline reference quantity (e.g., Rani's $300$ kites).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This is an open interval inequality ($>$). If $A = 2B$, it is exactly double, which strictly fails the 'more than' conditional check.\n- $A$ and $B$ must strictly belong to the domain of non-negative rational numbers ($A, B \ge 0$).",
+"back": "## Component Anatomy\n- **$A$**: The target comparative quantity being evaluated (e.g., Poonam's $700$ kites).\n- **$B$**: The baseline reference quantity (e.g., Rani's $300$ kites).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This is an open interval inequality ($>$). If $A = 2B$, it is exactly double, which strictly fails the 'more than' conditional check.\n- $A$ and $B$ must strictly belong to the domain of non-negative rational numbers ($A, B \\ge 0$).",
 "formulaMeta": {
 "formula": "A > 2B",
 "description": "State the strict algebraic inequality used to verify if a tested quantity ($A$) is 'more than double' a baseline reference quantity ($B$).",
-"derivation": "**Algorithmic SOP:**\n1. Identify the baseline reference quantity $B$ (e.g., $B = 300$).\n2. Multiply $B$ strictly by the scalar $2$ to establish the critical boundary threshold: $2 \times 300 = 600$.\n3. Compare the target quantity $A$ (e.g., $A = 700$) directly to the calculated threshold.\n4. Since $700 > 600$, the algebraic inequality holds true, verifying the real-world statement."
+"derivation": "**Algorithmic SOP:**\n1. Identify the baseline reference quantity $B$ (e.g., $B = 300$).\n2. Multiply $B$ strictly by the scalar $2$ to establish the critical boundary threshold: $2 \\times 300 = 600$.\n3. Compare the target quantity $A$ (e.g., $A = 700$) directly to the calculated threshold.\n4. Since $700 > 600$, the algebraic inequality holds true, verifying the real-world statement."
 }
 }
 },

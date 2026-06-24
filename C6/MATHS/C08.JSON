@@ -1,699 +1,726 @@
 {
-"deckId": "ecb086f1-5bc2-4dce-a370-c2fe8c092762",
-"cards": [
-{
-"cardId": "37cea257-052b-4219-b68a-658e6bcb2342",
-"originalOrder": 1,
-"originalHeading": "Geometry Tools: Ruler vs. Divider",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized back field format", "Clarified parallax error context"],
-"vettingNotes": "Axiomatic concept, correctly prioritized at the beginning.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 1,
-"heading": "Geometry Tools: Ruler vs. Divider",
-"back": "## Ruler vs. Divider\n\n* **Ruler:** A straightedge tool primarily used to measure absolute lengths and draw straight lines.\n* **Divider:** A tool with two pointed metal ends specifically designed to compare the lengths of two line segments accurately. It effectively eliminates the **parallax error** that is often caused by viewing a thick ruler's markings from a slanted angle.",
-"mnemonic": "Ruler measures, Divider distinguishes.",
-"standardMeta": {
-"question": "What is the primary functional distinction between a ruler and a divider in geometric constructions, and what specific error does the divider eliminate?"
-}
-}
-},
-{
-"cardId": "0af10e57-43f5-4542-a5ae-7eb245b36847",
-"originalOrder": 2,
-"originalHeading": "Mathematical Definition of a Curve",
-"action": "MODIFIED",
-"modificationsSummary": ["Injected boundary condition regarding straight lines", "Refined markdown formatting"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 2,
-"heading": "Mathematical Definition of a Curve",
-"back": "## Mathematical Curve vs. Everyday English\n\n* **Everyday English:** A curve implies a line that strictly bends and has no straight parts.\n* **Mathematical Curve:** Any geometric shape or path that can be drawn on paper continuously with a pencil, without lifting the tip.\n\n## Boundary Conditions / Domain\n* In strict mathematical terms, a **straight line** is explicitly classified as a curve. It is simply a curve with zero curvature.",
-"standardMeta": {
-"question": "How does the strict mathematical definition of a 'curve' differ from its everyday English meaning? Does it include straight lines?"
-}
-}
-},
-{
-"cardId": "e77cefab-6c35-4ffc-90b0-adf9018ae991",
-"originalOrder": 28,
-"originalHeading": "Concept of 'Supporting Curves' in Geometry",
-"action": "MODIFIED",
-"modificationsSummary": ["Moved to foundational section", "Refined definition"],
-"vettingNotes": "Required before teaching construction SOPs.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 3,
-"heading": "Concept of 'Supporting Curves' in Geometry",
-"back": "## Supporting Curves\n\nSupporting curves or supporting lines are light, temporary geometric marks (such as construction arcs, axes, or perpendicular bisectors) used to accurately locate specific mathematical coordinates (like an exact centre or intersection point).\n\n## Boundary Conditions / Domain\n* **Distinction:** They are mathematically mandatory scaffolding but are **not** part of the final required geometric figure.\n* They ensure the final construction strictly satisfies all given boundary constraints and symmetries.",
-"standardMeta": {
-"question": "In complex geometric constructions, what is the strict mathematical role and definition of a 'supporting curve' or 'supporting line'?"
-}
-}
-},
-{
-"cardId": "ca8d1e67-1e2f-4d98-8684-9a5060282819",
-"originalOrder": 25,
-"originalHeading": "The Invariant Property of the Compass",
-"action": "MODIFIED",
-"modificationsSummary": ["Fixed KaTeX formatting", "Explicitly defined Component Anatomy"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 4,
-"heading": "The Invariant Property of the Compass",
-"back": "## Component Anatomy\n* **Hinge/Pivot:** Mechanically controls the fixed radius $r$.\n* **Needle:** The anchor point representing the coordinate centre locally.\n* **$\Delta r$:** The variance in radius distance during operation.\n\n## Boundary Conditions / Domain\n* If the hinge slips during drawing, $r \neq \text{constant}$. The resulting locus curve violates the strict mathematical definition of a circle.",
-"formulaMeta": {
-"formula": "\Delta r = 0 \quad \text{during rotation}",
-"description": "The mathematical constraint physically enforced by a compass during locus construction.",
-"derivation": "1. A compass physically simulates the locus definition of a circle.\n2. By locking the hinge, it enforces the absolute condition that the distance from the centre (needle) to the moving point (pencil) has zero variance ($\Delta r = 0$).\n3. Any change in this radial distance geometrically invalidates the drawn curve."
-}
-}
-},
-{
-"cardId": "057090ff-d1ed-455b-b74f-204fb7475d35",
-"originalOrder": 3,
-"originalHeading": "Circle Anatomy: Radius, Diameter, and Chord",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized definitions", "Added explicit mathematical relationships"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 5,
-"heading": "Circle Anatomy: Radius, Diameter, and Chord",
-"back": "## Core Definitions\n* **Radius ($r$):** The constant distance from the fixed centre point to any point on the boundary of the circle.\n* **Diameter ($d$):** A line segment passing strictly through the centre, with both endpoints lying exactly on the circle's boundary.\n* **Chord:** Any line segment whose endpoints lie on the boundary of the circle.\n\n## Boundary Conditions / Domain\n* **Diameter-Radius Relation:** $d = 2r$.\n* **Diameter-Chord Relation:** A diameter is mathematically the longest possible chord in any circle.",
-"standardMeta": {
-"question": "Define the radius, diameter, and chord of a circle. What is the explicit mathematical relationship between the diameter and the radius?"
-}
-}
-},
-{
-"cardId": "c9fa2fc5-dd39-455e-8662-eb8cfa6eaa9f",
-"originalOrder": 29,
-"originalHeading": "Locus Domains of a Circle",
-"action": "MODIFIED",
-"modificationsSummary": ["Reordered to group with circle anatomy", "Enhanced notation"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 6,
-"heading": "Locus Domains of a Circle",
-"back": "## Strict Distance Inequalities\nGiven a circle with centre $P$, constant radius $r$, and an arbitrary point $X$:\n\n* **On the Circle (Boundary Locus):** The absolute distance is exactly equal to the radius ($PX = r$).\n* **Inside the Circle (Interior Domain):** The absolute distance is strictly less than the radius ($PX < r$).\n* **Outside the Circle (Exterior Domain):** The absolute distance is strictly greater than the radius ($PX > r$).",
-"standardMeta": {
-"question": "Given a circle with centre $P$ and constant radius $r$, classify the strict distance inequalities for a point $X$ located on the boundary, inside the interior, and in the exterior domain of the circle."
-}
-}
-},
-{
-"cardId": "1fe4da90-254e-4c14-8b80-26f4b9ca72b9",
-"originalOrder": 15,
-"originalHeading": "Locus of Equidistant Points",
-"action": "MODIFIED",
-"modificationsSummary": ["Moved to axiomatic locus theory section", "Refined markdown"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 7,
-"heading": "Locus of Equidistant Points",
-"back": "## The Equidistant Locus Concept\n\n* **Core Concept:** A continuous locus of points perfectly equidistant from two fixed coordinates $B$ and $C$ mathematically defines the **perpendicular bisector** of the imaginary line segment joining $B$ and $C$.\n* **Geometric Application:** To construct this algebraically, drawing intersecting arcs of equal radius from $B$ and $C$ guarantees the intersection points lie on this equidistant line.",
-"standardMeta": {
-"question": "What geometric locus governs a set of points perfectly equidistant from two fixed points in a 2D plane?"
-}
-}
-},
-{
-"cardId": "f8b67616-eb08-4aba-9a3b-9d9037125950",
-"originalOrder": 6,
-"originalHeading": "Core Properties of a Square",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified vector/parallel properties"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 8,
-"heading": "Core Properties of a Square",
-"back": "## Defining Mathematical Properties\n\n* **Sides:** All four sides are strictly equal in absolute length ($AB = BC = CD = DA$).\n* **Angles:** All four interior angles are identically $90^{\circ}$ (right angles).\n* **Diagonals:** They are strictly equal in length ($AC = BD$) and perfectly bisect each other at $90^{\circ}$.\n* **Parallelism:** Opposite sides are parallel vectors ($AB \parallel CD$ and $BC \parallel DA$).",
-"standardMeta": {
-"question": "What are the strict defining mathematical properties of a square concerning its sides, interior angles, and diagonals?"
-}
-}
-},
-{
-"cardId": "2058f816-6ce2-4ed0-9861-5abdcb27afc7",
-"originalOrder": 7,
-"originalHeading": "Core Properties of a Rectangle",
-"action": "MODIFIED",
-"modificationsSummary": ["Contrasted diagonal intersection vs. square"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 9,
-"heading": "Core Properties of a Rectangle",
-"back": "## Defining Mathematical Properties\n\n* **Sides:** Opposite sides are equal in length and parallel.\n* **Angles:** All four interior angles are identically $90^{\circ}$ (right angles).\n* **Diagonals:** They are strictly equal in length and bisect each other exactly at their midpoints.\n\n## Boundary Conditions / Domain\n* **Distinction:** Unlike a square, the diagonals of a rectangle do **not** necessarily intersect orthogonally at $90^{\circ}$ (unless the rectangle is specifically a square).",
-"standardMeta": {
-"question": "What are the strict defining mathematical properties of a rectangle concerning its sides, angles, and diagonals?"
-}
-}
-},
-{
-"cardId": "493f40c1-f326-4556-9466-a5f855c53818",
-"originalOrder": 26,
-"originalHeading": "Equal Sided Quadrilateral without Right Angles (Rhombus)",
-"action": "MODIFIED",
-"modificationsSummary": ["Moved next to square/rectangle theory", "Reclassified as DISTINCTION"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 10,
-"heading": "Equal Sided Quadrilateral without Right Angles (Rhombus)",
-"back": "## The Rhombus Concept\n\n* **Possibility:** Yes, a geometric figure can indeed have four strictly equal sides without being a square. This polygon is a **rhombus**.\n* **Boundary Constraints:** A square mathematically requires all four interior angles to be exactly $90^{\circ}$. A rhombus *only* requires equal side lengths.\n* **Sub-classification:** Therefore, a square is a special, constrained boundary case of a rhombus.",
-"standardMeta": {
-"question": "Is it mathematically possible for a 4-sided figure to have all sides strictly equal in length but fail to be a square? Identify the figure."
-}
-}
-},
-{
-"cardId": "23ce4a1b-4314-4804-aec2-a96d59ea51b7",
-"originalOrder": 8,
-"originalHeading": "Polygon Naming Convention",
-"action": "MODIFIED",
-"modificationsSummary": ["Updated Classification to APPLICATION"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 11,
-"heading": "Polygon Naming Convention",
-"back": "## Valid Geometric Naming Vectors\n\n* **Valid Naming:** The vertices of a polygon MUST be stated in a continuous, sequential order of travel exactly around the perimeter (either clockwise or counter-clockwise). Example: $ABCD$ or $ADCB$.\n* **Invalid Naming:** Skipping across the shape's interior (i.e., mapping along a diagonal path) makes the notation mathematically invalid for the perimeter. Example: $ABDC$ is strictly invalid if $C$ is adjacent to $B$ on the perimeter.",
-"standardMeta": {
-"question": "Explain why $ABDC$ is an invalid mathematical name for a square whose physical corners are sequentially plotted $A, B, C, D$ in clockwise order."
-}
-}
-},
-{
-"cardId": "53b353e5-d08e-4c52-a2ef-db7912ed0bef",
-"originalOrder": 9,
-"originalHeading": "Invariance of Rotated Polygons",
-"action": "MODIFIED",
-"modificationsSummary": ["Emphasized geometric invariance"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 12,
-"heading": "Invariance of Rotated Polygons",
-"back": "## Geometric Invariance under Rotation\n\n* **Property:** Rotating a rigid geometric shape (like a square) within a 2D Cartesian plane is a linear transformation that does **not** alter its absolute side lengths or its internal vector angles.\n* **Conclusion:** A square rotated by $45^{\circ}$ (often colloquially called a "diamond") strictly remains a square. It continuously satisfies all mathematical boundary conditions: four equal sides and four $90^{\circ}$ interior angles.",
-"standardMeta": {
-"question": "If a square is rotated $45^{\circ}$ on a plane so that it rests on a single vertex (resembling a diamond shape), does it mathematically cease to be a square?"
-}
-}
-},
-{
-"cardId": "70f063fc-38e3-4043-8ef5-ccbf276e9f57",
-"originalOrder": 18,
-"originalHeading": "Diagonals Dividing Opposite Angles",
-"action": "MODIFIED",
-"modificationsSummary": ["Clarified vector split inequalities for rectangles"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 13,
-"heading": "Diagonals Dividing Opposite Angles",
-"back": "## Diagonal Angle Bisection: Square vs. Rectangle\n\n* **Square (Special Case):** The diagonal perfectly and symmetrically bisects the opposite $90^{\circ}$ corners into two strictly equal **$45^{\circ}$ angles**.\n* **Rectangle (General Case):** The diagonal strictly divides the $90^{\circ}$ corners into two **unequal** angles (e.g., $\theta_1 = 30^{\circ}, \theta_2 = 60^{\circ}$ where $\theta_1 \neq \theta_2$).\n\n## Boundary Conditions / Domain\n* The diagonal of a rectangle will only bisect the angle equally if $l = w$, fundamentally forcing the rectangle into the boundary state of a square.",
-"standardMeta": {
-"question": "Does the diagonal of a rectangle perfectly bisect its corner angles into identical halves? Contrast this vector behavior with a square's diagonal."
-}
-}
-},
-{
-"cardId": "f80a25c1-b766-4fd5-b279-2f017e35f8cb",
-"originalOrder": 14,
-"originalHeading": "Distance Limits on a Rectangle",
-"action": "MODIFIED",
-"modificationsSummary": ["Standardized min/max distance terminology"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 14,
-"heading": "Distance Limits on a Rectangle",
-"back": "## Min/Max Distance Extrema\n\n* **Minimum Distance ($XY_{min}$):** The absolute shortest distance between any two points placed on parallel opposite sides (e.g., $AD$ and $BC$) is the strict orthogonal distance between the sides. This perfectly equals the length of the adjacent side ($AB$ or $CD$).\n* **Maximum Distance ($XY_{max}$):** The absolute maximum distance between any two coordinate points bounded by the perimeter of a rectangle is the exact length of its **diagonal** (from vertex $A$ to vertex $C$).",
-"standardMeta": {
-"question": "For a rectangle $ABCD$, if point $X$ lies on side $AD$ and point $Y$ lies on side $BC$, what vectors represent the strict minimum and maximum possible lengths of the segment $XY$?"
-}
-}
-},
-{
-"cardId": "17076ad9-502e-4c75-a89a-709fa9168442",
-"originalOrder": 27,
-"originalHeading": "Quadrilateral Angular Constraint (All Right Angles)",
-"action": "MODIFIED",
-"modificationsSummary": ["Changed to DISTINCTION", "Emphasized Euclidean constraint proofs"],
-"vettingNotes": "Important trap question regarding shape formation rules.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 15,
-"heading": "Quadrilateral Angular Constraint (All Right Angles)",
-"back": "## Euclidean Constraints\n\n* **Mathematical Impossibility:** No, this is structurally impossible in Euclidean 2D space.\n* **Geometric Proof:** If a generic 4-sided polygon contains four $90^{\circ}$ interior angles, it is mathematically forced to form a rectangle (or a square).\n* **Boundary Condition:** The defining properties of a rectangle strictly mandate that opposite sides **must** be equal and parallel. It is impossible to violate this side-length equality constraint while locking all four angles exactly to $90^{\circ}$.",
-"standardMeta": {
-"question": "Is it mathematically possible to construct a 4-sided planar figure where all four interior angles are exactly $90^{\circ}$, but the opposite sides are NOT equal?"
-}
-}
-},
-{
-"cardId": "3a71f69b-dc63-4a16-bae6-fd88e4ff0a86",
-"originalOrder": 4,
-"originalHeading": "SOP: Constructing a Circle using a Compass",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas", "Reformatted Component Anatomy"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 16,
-"heading": "SOP: Constructing a Circle using a Compass",
-"back": "## Component Anatomy\n* **$r$:** Required absolute radius of the circle.\n* **$P$:** The fixed origin/centre point of the circle.\n\n## Boundary Conditions / Domain\n* The compass needle must remain strictly anchored at fixed coordinate $P$.\n* $\Delta r = 0$: The distance between the needle and pencil tip must not shift during radial rotation.",
-"formulaMeta": {
-"formula": "r = \text{constant distance}",
-"description": "The foundational algorithm for drawing a locus of points equidistant from a center.",
-"derivation": "**Algorithmic SOP:**\n1. Use a strict straightedge to set the distance between the compass needle and the pencil tip exactly to the required radius $r$.\n2. Mark a distinct fixed point $P$ on the plane to serve as the local coordinate centre.\n3. Anchor the sharp metal needle of the compass firmly on $P$.\n4. Rotate the pencil end precisely $360^{\circ}$ to draw the boundary, ensuring the angle of the compass arms remains rigidly locked."
-}
-}
-},
-{
-"cardId": "9a1ecc32-682d-4e4c-aa46-6c2c7eebf984",
-"originalOrder": 5,
-"originalHeading": "SOP: Constructing Perpendicular Lines",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas", "Ensured procedural sequence is clear"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 17,
-"heading": "SOP: Constructing Perpendicular Lines",
-"back": "## Component Anatomy\n* **$L_1, L_2$:** Two intersecting line segments.\n* **$\theta$:** Angle of intersection.\n\n## Boundary Conditions / Domain\n* $\theta$ MUST exactly equal $90^{\circ}$ for the lines to be strictly classified as orthogonal/perpendicular ($L_1 \perp L_2$).",
-"formulaMeta": {
-"formula": "L_1 \perp L_2 \iff \theta = 90^{\circ}",
-"description": "Standard procedure for creating an orthogonal intersection using a protractor.",
-"derivation": "**Algorithmic SOP:**\n1. Draw an initial base line segment $AB$.\n2. Place the protractor's baseline strictly over $AB$ with its origin point perfectly aligned at the required intersection coordinate.\n3. Mark a dot strictly at the $90^{\circ}$ indicator.\n4. Remove the protractor and use a straightedge to connect the origin point on $AB$ directly to the $90^{\circ}$ mark, forming $L_2$."
-}
-}
-},
-{
-"cardId": "370f73d9-16b5-4b02-8e7b-428ea322b70a",
-"originalOrder": 10,
-"originalHeading": "SOP: Constructing a Perpendicular Bisector",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formula", "Clarified radius inequality boundary condition"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 18,
-"heading": "SOP: Constructing a Perpendicular Bisector",
-"back": "## Component Anatomy\n* **$AB$:** The foundational line segment to be bisected.\n* **$M$:** The exact geometric midpoint of $AB$.\n* **$r$:** Compass radius used for supporting arcs.\n\n## Boundary Conditions / Domain\n* **Crucial Condition:** The compass radius $r$ MUST be strictly greater than half the distance of the segment: $r > \frac{1}{2}AB$.\n* If $r \leq \frac{1}{2}AB$, the locus arcs will geometrically fail to intersect.",
-"formulaMeta": {
-"formula": "AM = MB = \frac{1}{2}AB \quad \text{and} \quad \theta = 90^{\circ}",
-"description": "Algorithmic procedure to find the exact midpoint and orthogonal line of a segment.",
-"derivation": "**Algorithmic SOP:**\n1. Open the compass to a fixed radius $r$ strictly greater than $\frac{1}{2}AB$.\n2. Anchor the compass tip at endpoint $A$ and draw wide supporting arcs above and below the segment.\n3. Keeping the radius strictly identical ($\Delta r = 0$), anchor at endpoint $B$ and draw intersecting arcs.\n4. Use a straightedge to draw a line connecting the two intersection coordinates. This generated line is the perpendicular bisector."
-}
-}
-},
-{
-"cardId": "c49dbfd7-fa63-43fb-bc15-15df2a468e20",
-"originalOrder": 16,
-"originalHeading": "SOP: Locating a Point Equidistant from Two Given Points",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas", "Reformatted boundary conditions"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 19,
-"heading": "SOP: Locating a Point Equidistant from Two Given Points",
-"back": "## Component Anatomy\n* **$B, C$:** Two fixed reference coordinates on the plane.\n* **$A$:** The target point to be mapped.\n* **$d$:** The required absolute equidistant radius.\n\n## Boundary Conditions / Domain\n* **Geometric Limit:** To guarantee a valid spatial intersection, the target distance $d$ MUST be strictly greater than half the linear distance between $B$ and $C$ ($d > \frac{1}{2}BC$).\n* If $d \leq \frac{1}{2}BC$, the required arcs cannot physically intersect.",
-"formulaMeta": {
-"formula": "AB = AC = d",
-"description": "Using fixed-radius compass intersections to locate a specific symmetric coordinate.",
-"derivation": "**Algorithmic SOP:**\n1. Use a ruler to lock the compass radius exactly to the required target distance $d$.\n2. Anchor the compass tip strictly at reference point $B$ and draw an arc in the general target area.\n3. Keeping the radius absolutely constant at $d$, anchor at reference point $C$ and draw a second arc overlapping the first.\n4. The exact coordinate where the two arcs intersect is the required equidistant point $A$."
-}
-}
-},
-{
-"cardId": "4ab2cfde-708c-4197-8d0c-6b965bb3418e",
-"originalOrder": 11,
-"originalHeading": "SOP: Constructing a 60-Degree Angle (Compass Only)",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 20,
-"heading": "SOP: Constructing a 60-Degree Angle (Compass Only)",
-"back": "## Component Anatomy\n* **$O$:** The origin vertex of the angle.\n* **$r$:** An arbitrary but constant compass radius.\n* **$P, Q$:** Intermediate intersection points generated by supporting arcs.\n\n## Boundary Conditions / Domain\n* **Rigid Invariance:** The radius $r$ MUST remain absolutely mathematically constant between drawing the initial baseline arc and the intersecting arc ($\Delta r = 0$).",
-"formulaMeta": {
-"formula": "\theta = 60^{\circ}",
-"description": "Constructing an exact $60^{\circ}$ vector using equilateral triangle principles.",
-"derivation": "**Algorithmic SOP:**\n1. Draw a base ray with a straightedge and mark the origin vertex $O$.\n2. With $O$ as the centre and any arbitrary radius $r$, draw a wide supporting arc cutting the base ray at point $P$.\n3. Without altering the radius $r$, place the compass point exactly on the intersection $P$ and draw a small arc cutting the first arc. Mark this point $Q$.\n4. Draw a continuous ray from origin $O$ passing strictly through point $Q$. The internal angle formed is perfectly $60^{\circ}$."
-}
-}
-},
-{
-"cardId": "9c20cf0c-dc1e-4560-b7a3-bde835f9225e",
-"originalOrder": 12,
-"originalHeading": "SOP: Constructing a Square (Given Side Length)",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas", "Ensured procedural steps flow logically"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 21,
-"heading": "SOP: Constructing a Square (Given Side Length)",
-"back": "## Component Anatomy\n* **$s$:** The given, absolute side length constant.\n* **$A, B, C, D$:** The four bounding vertices of the square.\n\n## Boundary Conditions / Domain\n* **Isotropic Constraint:** All intersecting marking arcs MUST use the exact identical radius $s$ to geometrically guarantee equilateral symmetry.\n* Perpendicular rays must be exactly $90^{\circ}$.",
-"formulaMeta": {
-"formula": "s_1 = s_2 = s_3 = s_4 = s \quad \text{and} \quad \theta_i = 90^{\circ}",
-"description": "Synthesising orthogonal vectors and constant radii to bound a square.",
-"derivation": "**Algorithmic SOP:**\n1. Draw a base line segment $AB$ of precise length $s$.\n2. Construct a strict $90^{\circ}$ perpendicular ray projecting upwards at endpoint $A$, and another $90^{\circ}$ ray at endpoint $B$.\n3. Lock the compass radius exactly to $s$. Anchor at $A$ and cut its respective perpendicular ray to permanently mark point $D$.\n4. Anchor at $B$ (retaining radius $s$) and cut its perpendicular ray to mark point $C$.\n5. Connect points $C$ and $D$ with a straightedge to seal the perimeter. Verify $CD = s$."
-}
-}
-},
-{
-"cardId": "9fec56d3-0b1d-4f9e-ad5a-25852a229a1b",
-"originalOrder": 13,
-"originalHeading": "SOP: Constructing a Rectangle (Given Length & Breadth)",
-"action": "MODIFIED",
-"modificationsSummary": ["Double escaped formulas", "Separated radius variables conceptually"],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 22,
-"heading": "SOP: Constructing a Rectangle (Given Length & Breadth)",
-"back": "## Component Anatomy\n* **$l$:** Constant horizontal length of the rectangle.\n* **$w$:** Constant vertical breadth (width) of the rectangle.\n* **$A, B, C, D$:** The four bounding vertices.\n\n## Boundary Conditions / Domain\n* The constructed adjacent sides MUST intersect at exactly $90^{\circ}$ to mathematically satisfy the core rectangular definition.",
-"formulaMeta": {
-"formula": "L_1 = L_2 = l, \quad W_1 = W_2 = w",
-"description": "Building a bounded rectangular polygon from two distinct orthogonal constraints.",
-"derivation": "**Algorithmic SOP:**\n1. Draw the foundational base segment $AB$ of length $l$.\n2. Construct strict $90^{\circ}$ perpendicular rays projecting upwards from both base endpoints $A$ and $B$.\n3. Lock the compass radius exactly to the required breadth $w$.\n4. Anchor strictly at $A$ and cut the perpendicular ray to define vertex $D$.\n5. Move the anchor to $B$ (keeping radius identical at $w$) and cut the respective perpendicular ray to define vertex $C$.\n6. Connect $C$ and $D$ with a straightedge to complete the polygon boundary $ABCD$."
-}
-}
-},
-{
-"cardId": "dff13698-78cb-4696-9b19-85baf301b25d",
-"originalOrder": 17,
-"originalHeading": "SOP: Constructing a Rectangle via Diagonal (Part 1)",
-"action": "SPLIT",
-"modificationsSummary": ["Split card to reduce cognitive bloat", "Focused Part 1 on locating the 3rd vertex via diagonal constraint"],
-"vettingNotes": "Part 1 of 2. Split because deriving the first triangle and completing the rectangle are two distinct cognitive hurdles.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 23,
-"heading": "SOP: Constructing a Rectangle via Diagonal (Part 1 - Locating Vertex)",
-"back": "## Component Anatomy\n* **$s$:** The given base side length.\n* **$d$:** The given diagonal vector length.\n\n## Boundary Conditions / Domain\n* **Triangle Inequality Constraint:** To form a mathematically valid geometric shape, the diagonal hypotenuse $d$ MUST be strictly greater than the base side $s$ ($d > s$).",
-"formulaMeta": {
-"formula": "d^2 = s^2 + w^2 \implies d > s",
-"description": "Step 1: Using the diagonal constraint to mathematically locate the height vertex.",
-"derivation": "**Algorithmic SOP:**\n1. Draw the absolute base segment $CD$ matching the known length $s$.\n2. Construct a $90^{\circ}$ perpendicular ray projecting strictly upwards from base point $C$.\n3. Lock the compass radius exactly to the known diagonal length $d$.\n4. Anchor the compass at point $D$ and draw a supporting arc cutting the perpendicular ray. This intersection point defines vertex $B$."
-}
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 17,
-"originalHeading": "SOP: Constructing a Rectangle via Diagonal (Part 2)",
-"action": "NEW",
-"modificationsSummary": ["Generated 2nd half of split card", "Focused on perimeter completion"],
-"vettingNotes": "Part 2 of 2. Follows naturally from locating vertex B.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 24,
-"heading": "SOP: Constructing a Rectangle via Diagonal (Part 2 - Perimeter Completion)",
-"back": "## Component Anatomy\n* **$C, D$:** The base vertices.\n* **$B$:** The upper vertex located via the diagonal arc.\n* **$A$:** The final unknown vertex to be computed.\n\n## Boundary Conditions / Domain\n* To satisfy rectangular geometry, the completed opposing vectors must remain strictly parallel ($AB \parallel CD$ and $AD \parallel CB$).",
-"formulaMeta": {
-"formula": "\vec{AB} = \vec{DC} \quad \text{and} \quad \vec{AD} = \vec{BC}",
-"description": "Step 2: Completing the polygon once three vertices (C, D, and B) are known.",
-"derivation": "**Algorithmic SOP:**\n*(Assuming vertices C, D, and B have been plotted)*\n1. From the newly found vertex $B$, construct a horizontal vector line strictly parallel to base $CD$.\n2. From vertex $D$, construct a vertical vector line strictly parallel to axis $CB$.\n3. The exact geometric intersection of these two generated parallel lines forms the final, 4th bounding vertex $A$."
-}
-}
-},
-{
-"cardId": "1afb71e4-a3b5-41ca-9e6b-cb94332877a1",
-"originalOrder": 22,
-"originalHeading": "SOP: Rectangle via Specific Diagonal Angles (Part 1)",
-"action": "SPLIT",
-"modificationsSummary": ["Split multi-step algorithm into logical sequence steps", "Focused Part 1 on plotting the diagonal ray"],
-"vettingNotes": "Part 1 of 2. Focuses purely on the angular division of the corner.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 25,
-"heading": "SOP: Rectangle via Specific Diagonal Angles (Part 1 - Diagonal Ray)",
-"back": "## Component Anatomy\n* **$A$:** The origin vertex of the diagonal division.\n* **$\theta_1, \theta_2$:** The explicitly defined internal angle splits (e.g., $50^{\circ}$ and $40^{\circ}$).\n\n## Boundary Conditions / Domain\n* **Orthogonal Sum Constraint:** The sum of the two divided interior angles at the rectangular corner MUST geometrically equal exactly $90^{\circ}$ ($\theta_1 + \theta_2 = 90^{\circ}$).",
-"formulaMeta": {
-"formula": "\theta_1 + \theta_2 = 90^{\circ}",
-"description": "Step 1: Establishing the correct angular vector for the diagonal.",
-"derivation": "**Algorithmic SOP:**\n1. Draw a foundational base segment $AB$ of arbitrary horizontal length.\n2. Construct a $90^{\circ}$ perpendicular ray extending strictly upwards at origin point $A$.\n3. Place a protractor precisely at point $A$ and mark the required specific angle $\theta_1$ (e.g., $50^{\circ}$) relative to the horizontal base $AB$.\n4. Draw an infinite diagonal ray passing perfectly through this angular mark."
-}
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 22,
-"originalHeading": "SOP: Rectangle via Specific Diagonal Angles (Part 2)",
-"action": "NEW",
-"modificationsSummary": ["Generated 2nd half of split card", "Focuses on orthogonal projection"],
-"vettingNotes": "Part 2 of 2. Shows how to project the bounded rectangle from the diagonal ray.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 26,
-"heading": "SOP: Rectangle via Specific Diagonal Angles (Part 2 - Orthogonal Projection)",
-"back": "## Component Anatomy\n* **Diagonal Ray:** The angled vector mapping out the hypotenuse.\n* **$C$:** The arbitrarily chosen opposite vertex lying on the diagonal ray.\n\n## Boundary Conditions / Domain\n* The bounding projections dropping from $C$ MUST be perfectly $90^{\circ}$ orthogonal to the primary $x$ and $y$ axes to enclose a valid rectangle.",
-"formulaMeta": {
-"formula": "\text{Proj}*{x}(C) \perp \text{Proj}*{y}(C)",
-"description": "Step 2: Dropping orthogonal bounds from the diagonal ray to complete the shape.",
-"derivation": "**Algorithmic SOP:**\n*(Assuming the diagonal ray from A has been drawn)*\n1. Pick any arbitrary coordinate point $C$ lying strictly on the drawn diagonal ray.\n2. From point $C$, mathematically drop a $90^{\circ}$ perpendicular vector downwards to intersect the horizontal $x$-axis.\n3. From point $C$, simultaneously drop a $90^{\circ}$ perpendicular vector to the left to intersect the vertical $y$-axis.\n4. These perpendicular intersections seal the formal rectangular boundary."
-}
-}
-},
-{
-"cardId": "96025bc7-16cb-403c-9fea-77889688e4dc",
-"originalOrder": 24,
-"originalHeading": "Centre of a Square within a Rectangle",
-"action": "MODIFIED",
-"modificationsSummary": ["Refined to emphasize coordinate intersection of diagonals"],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
-"order": 27,
-"heading": "Locating the Geometric Centre of a Rectangle",
-"back": "## Procedural Algorithm\n\n* **Core Concept:** To precisely construct a perfectly concentric square inside a larger enclosing rectangle, you must strictly map the absolute geometric centre coordinate of the outer rectangle.\n* **Execution:** Draw both major diagonals from the opposite vertices of the rectangle. The single, unique point where these linear vectors intersect mathematically defines the exact geometric centre for both the rectangle and any inscribed concentric shapes.",
-"standardMeta": {
-"question": "What is the most precise procedural method to geometrically map the exact centre of a rectangle in order to draw a perfectly concentric shape (like a square) inside it?"
-}
-}
-}
-]
-}{
-"deckId": "ecb086f1-5bc2-4dce-a370-c2fe8c092762",
-"cards": [
-{
-"cardId": "943a7d66-c896-4d4c-809b-a5d6805c7476",
-"originalOrder": 19,
-"originalHeading": "Breaking Rectangles into Identical Squares",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected boundary condition for fractional remainders",
-"Updated tags to match mathematical ontology"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"geometry",
-"class-6",
-"ncert",
-"jee-foundation"
-],
-"order": 28,
-"heading": "Breaking Rectangles into Identical Squares",
-"back": "## Mathematical Proportionality\n\n* **Mathematical Rule:** A rectangle can only be perfectly divided into $n$ identical contiguous squares if the absolute length of the rectangle is exactly $n$ times its breadth (or vice versa).\n* **Valid Example:** A $6\text{ cm} \times 2\text{ cm}$ rectangle can be divided into exactly three identical $2\text{ cm} \times 2\text{ cm}$ squares.\n\n## Boundary Conditions / Domain\n* If $L \neq n \times W$ (where $n$ is an integer), the rectangle cannot be perfectly divided into identical squares without leaving fractional geometric remainders.",
-"standardMeta": {
-"question": "What strict mathematical proportionality must exist between the length and breadth of a rectangle for it to be perfectly divisible into $n$ identical squares?"
-}
-}
-},
-{
-"cardId": "43357812-b312-428c-8bea-c2b877b51852",
-"originalOrder": 21,
-"originalHeading": "Verifying Right Angles on a Dot Grid",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reclassified as PROCEDURAL",
-"Added Cartesian grid constraint"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"geometry",
-"class-6",
-"ncert",
-"jee-foundation"
-],
-"order": 29,
-"heading": "Verifying Right Angles on a Dot Grid",
-"back": "## Procedural Execution (Visual Slope Inversion)\n\n* **Grid Concept:** Dot grids naturally form a perfect Cartesian coordinate system.\n* **Execution:** You can mathematically verify right angles without a protractor by observing the vector symmetry and slope inversion of the lines. If an oblique line goes "up 2 dots, right 1 dot", its strictly $90^{\circ}$ perpendicular MUST travel "down 1 dot, right 2 dots".\n\n## Boundary Conditions / Domain\n* This algorithm is only mathematically valid if the vertical and horizontal grid dots are uniformly equidistant, forming a true square matrix.",
-"standardMeta": {
-"question": "How can one procedurally verify if the angles of a drawn polygon are exact right angles on a dot grid paper without using any measuring instruments?"
-}
-}
-},
-{
-"cardId": "211de36d-46f6-463e-8257-c28dc51cb208",
-"originalOrder": 23,
-"originalHeading": "Geometric Construction: Equidistant House Peak",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized phrasing",
-"Added radius equality constraint"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"geometry",
-"class-6",
-"ncert",
-"jee-foundation"
-],
-"order": 30,
-"heading": "Geometric Construction: Equidistant Symmetry",
-"back": "## Procedural Concept\n\n* To draw a triangular peak over a base where the peak is strictly equidistant from the two top corners, you must map the intersection of two identical arcs.\n* Their intersection point naturally lies exactly on the orthogonal perpendicular bisector of the base's width, mathematically ensuring perfect structural symmetry.\n\n## Boundary Conditions / Domain\n* **Isotropic Constraint:** Both supporting arcs MUST be drawn with the exact same constant radius ($r_1 = r_2$), anchored strictly from the opposite geometric corners.",
-"standardMeta": {
-"question": "When constructing a geometric 'House', what mathematical boundary conditions must the construction arcs satisfy to locate a roof peak perfectly equidistant and symmetrical from the two top corners?"
-}
-}
-},
-{
-"cardId": "de60233c-4ac2-4eac-af7e-66b7c6e18bbe",
-"originalOrder": 30,
-"originalHeading": "SOP: Constructing Symmetrical Bi-Convex Arcs (e.g., 'Eyes')",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double escaped formulas",
-"Reformatted Component Anatomy",
-"Clarified orthogonal bisector constraints"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"geometry",
-"class-6",
-"ncert",
-"jee-foundation"
-],
-"order": 31,
-"heading": "SOP: Constructing Symmetrical Bi-Convex Arcs",
-"back": "## Component Anatomy\n* **$C_1, C_2$:** The specific anchor points (centres) for the compass needle.\n* **$r$:** The constant radius bounding both the upper and lower arcs.\n\n## Boundary Conditions / Domain\n* Both anchor coordinates $C_1$ and $C_2$ MUST strictly lie on the **perpendicular bisector** of the segment joining the two sharp geometric endpoints.\n* This constraint is mathematically mandatory to guarantee perfect vertical and horizontal coordinate symmetry.",
-"formulaMeta": {
-"formula": "R_1 = R_2 = r \quad \text{and} \quad C_1, C_2 \in \text{Perpendicular Bisector}",
-"description": "Procedural constraints for drawing perfectly symmetrical intersecting arcs (a bi-convex shape).",
-"derivation": "**Algorithmic SOP:**\n1. Draw the horizontal supporting line segment connecting the two required endpoints of the target shape.\n2. Construct the exact **perpendicular bisector** of this base segment.\n3. Anchor the compass at point $C_1$ on the lower half of the bisector and draw the upper connecting arc.\n4. Keeping the radius strictly identical ($\Delta r = 0$), anchor at point $C_2$ on the upper half of the bisector (ensuring absolute orthogonal distance from the horizontal axis exactly matches $C_1$) and draw the lower arc."
-}
-}
-},
-{
-"cardId": "dd2c63df-909e-4cc3-b45c-ebd46c90901b",
-"originalOrder": 20,
-"originalHeading": "Artistic Construction: 'Wavy Waves'",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Explicit domain definitions for segment mapping",
-"Added radial proportion formula"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"geometry",
-"class-6",
-"ncert",
-"jee-foundation"
-],
-"order": 32,
-"heading": "Continuous Wave Construction",
-"back": "## Geometric Concept\n\n* Continuous "waves" are procedurally constructed by mathematically drawing perfectly alternating semicircles above and below a central linear axis.\n* **Procedural Execution:** The central axis line is strictly divided into identical, equal linear segments. A compass is anchored at the exact coordinate midpoint of each segment to map the alternating arcs seamlessly.\n\n## Boundary Conditions / Domain\n* The compass radius MUST strictly equal exactly half of the divided segment length ($r = \frac{1}{2}L_{segment}$) to ensure perfect tangential continuity between the arcs without spatial gaps or overlaps.",
-"standardMeta": {
-"question": "In geometric applications, what is the underlying procedural concept and radial constraint necessary to construct continuous 'Wavy Waves' seamlessly along a central axis?"
-}
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"originalOrder": 999,
-"originalHeading": "SYSTEM_END",
-"action": "SYSTEM",
-"modificationsSummary": [],
-"vettingNotes": "End of remaining cards achieved.",
-"cardData": null
-}
-]
+  "deckId": "ecb086f1-5bc2-4dce-a370-c2fe8c092762",
+  "cards": [
+    {
+      "cardId": "37cea257-052b-4219-b68a-658e6bcb2342",
+      "originalOrder": 1,
+      "originalHeading": "Geometry Tools: Ruler vs. Divider",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized back field format",
+        "Clarified parallax error context"
+      ],
+      "vettingNotes": "Axiomatic concept, correctly prioritized at the beginning.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 1,
+        "heading": "Geometry Tools: Ruler vs. Divider",
+        "back": "## Ruler vs. Divider\n\n* **Ruler:** A straightedge tool primarily used to measure absolute lengths and draw straight lines.\n* **Divider:** A tool with two pointed metal ends specifically designed to compare the lengths of two line segments accurately. It effectively eliminates the **parallax error** that is often caused by viewing a thick ruler's markings from a slanted angle.",
+        "mnemonic": "Ruler measures, Divider distinguishes.",
+        "standardMeta": {
+          "question": "What is the primary functional distinction between a ruler and a divider in geometric constructions, and what specific error does the divider eliminate?"
+        }
+      }
+    },
+    {
+      "cardId": "0af10e57-43f5-4542-a5ae-7eb245b36847",
+      "originalOrder": 2,
+      "originalHeading": "Mathematical Definition of a Curve",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected boundary condition regarding straight lines",
+        "Refined markdown formatting"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 2,
+        "heading": "Mathematical Definition of a Curve",
+        "back": "## Mathematical Curve vs. Everyday English\n\n* **Everyday English:** A curve implies a line that strictly bends and has no straight parts.\n* **Mathematical Curve:** Any geometric shape or path that can be drawn on paper continuously with a pencil, without lifting the tip.\n\n## Boundary Conditions / Domain\n* In strict mathematical terms, a **straight line** is explicitly classified as a curve. It is simply a curve with zero curvature.",
+        "standardMeta": {
+          "question": "How does the strict mathematical definition of a 'curve' differ from its everyday English meaning? Does it include straight lines?"
+        }
+      }
+    },
+    {
+      "cardId": "e77cefab-6c35-4ffc-90b0-adf9018ae991",
+      "originalOrder": 28,
+      "originalHeading": "Concept of 'Supporting Curves' in Geometry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Moved to foundational section",
+        "Refined definition"
+      ],
+      "vettingNotes": "Required before teaching construction SOPs.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 3,
+        "heading": "Concept of 'Supporting Curves' in Geometry",
+        "back": "## Supporting Curves\n\nSupporting curves or supporting lines are light, temporary geometric marks (such as construction arcs, axes, or perpendicular bisectors) used to accurately locate specific mathematical coordinates (like an exact centre or intersection point).\n\n## Boundary Conditions / Domain\n* **Distinction:** They are mathematically mandatory scaffolding but are **not** part of the final required geometric figure.\n* They ensure the final construction strictly satisfies all given boundary constraints and symmetries.",
+        "standardMeta": {
+          "question": "In complex geometric constructions, what is the strict mathematical role and definition of a 'supporting curve' or 'supporting line'?"
+        }
+      }
+    },
+    {
+      "cardId": "ca8d1e67-1e2f-4d98-8684-9a5060282819",
+      "originalOrder": 25,
+      "originalHeading": "The Invariant Property of the Compass",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Fixed KaTeX formatting",
+        "Explicitly defined Component Anatomy"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 4,
+        "heading": "The Invariant Property of the Compass",
+        "back": "## Component Anatomy\n* **Hinge/Pivot:** Mechanically controls the fixed radius $r$.\n* **Needle:** The anchor point representing the coordinate centre locally.\n* **$\\Delta r$:** The variance in radius distance during operation.\n\n## Boundary Conditions / Domain\n* If the hinge slips during drawing, $r \\neq \\text{constant}$. The resulting locus curve violates the strict mathematical definition of a circle.",
+        "formulaMeta": {
+          "formula": "\\Delta r = 0 \\quad \\text{during rotation}",
+          "description": "The mathematical constraint physically enforced by a compass during locus construction.",
+          "derivation": "1. A compass physically simulates the locus definition of a circle.\n2. By locking the hinge, it enforces the absolute condition that the distance from the centre (needle) to the moving point (pencil) has zero variance ($\\Delta r = 0$).\n3. Any change in this radial distance geometrically invalidates the drawn curve."
+        }
+      }
+    },
+    {
+      "cardId": "057090ff-d1ed-455b-b74f-204fb7475d35",
+      "originalOrder": 3,
+      "originalHeading": "Circle Anatomy: Radius, Diameter, and Chord",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized definitions",
+        "Added explicit mathematical relationships"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 5,
+        "heading": "Circle Anatomy: Radius, Diameter, and Chord",
+        "back": "## Core Definitions\n* **Radius ($r$):** The constant distance from the fixed centre point to any point on the boundary of the circle.\n* **Diameter ($d$):** A line segment passing strictly through the centre, with both endpoints lying exactly on the circle's boundary.\n* **Chord:** Any line segment whose endpoints lie on the boundary of the circle.\n\n## Boundary Conditions / Domain\n* **Diameter-Radius Relation:** $d = 2r$.\n* **Diameter-Chord Relation:** A diameter is mathematically the longest possible chord in any circle.",
+        "standardMeta": {
+          "question": "Define the radius, diameter, and chord of a circle. What is the explicit mathematical relationship between the diameter and the radius?"
+        }
+      }
+    },
+    {
+      "cardId": "c9fa2fc5-dd39-455e-8662-eb8cfa6eaa9f",
+      "originalOrder": 29,
+      "originalHeading": "Locus Domains of a Circle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered to group with circle anatomy",
+        "Enhanced notation"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 6,
+        "heading": "Locus Domains of a Circle",
+        "back": "## Strict Distance Inequalities\nGiven a circle with centre $P$, constant radius $r$, and an arbitrary point $X$:\n\n* **On the Circle (Boundary Locus):** The absolute distance is exactly equal to the radius ($PX = r$).\n* **Inside the Circle (Interior Domain):** The absolute distance is strictly less than the radius ($PX < r$).\n* **Outside the Circle (Exterior Domain):** The absolute distance is strictly greater than the radius ($PX > r$).",
+        "standardMeta": {
+          "question": "Given a circle with centre $P$ and constant radius $r$, classify the strict distance inequalities for a point $X$ located on the boundary, inside the interior, and in the exterior domain of the circle."
+        }
+      }
+    },
+    {
+      "cardId": "1fe4da90-254e-4c14-8b80-26f4b9ca72b9",
+      "originalOrder": 15,
+      "originalHeading": "Locus of Equidistant Points",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Moved to axiomatic locus theory section",
+        "Refined markdown"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 7,
+        "heading": "Locus of Equidistant Points",
+        "back": "## The Equidistant Locus Concept\n\n* **Core Concept:** A continuous locus of points perfectly equidistant from two fixed coordinates $B$ and $C$ mathematically defines the **perpendicular bisector** of the imaginary line segment joining $B$ and $C$.\n* **Geometric Application:** To construct this algebraically, drawing intersecting arcs of equal radius from $B$ and $C$ guarantees the intersection points lie on this equidistant line.",
+        "standardMeta": {
+          "question": "What geometric locus governs a set of points perfectly equidistant from two fixed points in a 2D plane?"
+        }
+      }
+    },
+    {
+      "cardId": "f8b67616-eb08-4aba-9a3b-9d9037125950",
+      "originalOrder": 6,
+      "originalHeading": "Core Properties of a Square",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Clarified vector/parallel properties"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 8,
+        "heading": "Core Properties of a Square",
+        "back": "## Defining Mathematical Properties\n\n* **Sides:** All four sides are strictly equal in absolute length ($AB = BC = CD = DA$).\n* **Angles:** All four interior angles are identically $90^{\\circ}$ (right angles).\n* **Diagonals:** They are strictly equal in length ($AC = BD$) and perfectly bisect each other at $90^{\\circ}$.\n* **Parallelism:** Opposite sides are parallel vectors ($AB \\parallel CD$ and $BC \\parallel DA$).",
+        "standardMeta": {
+          "question": "What are the strict defining mathematical properties of a square concerning its sides, interior angles, and diagonals?"
+        }
+      }
+    },
+    {
+      "cardId": "2058f816-6ce2-4ed0-9861-5abdcb27afc7",
+      "originalOrder": 7,
+      "originalHeading": "Core Properties of a Rectangle",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Contrasted diagonal intersection vs. square"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 9,
+        "heading": "Core Properties of a Rectangle",
+        "back": "## Defining Mathematical Properties\n\n* **Sides:** Opposite sides are equal in length and parallel.\n* **Angles:** All four interior angles are identically $90^{\\circ}$ (right angles).\n* **Diagonals:** They are strictly equal in length and bisect each other exactly at their midpoints.\n\n## Boundary Conditions / Domain\n* **Distinction:** Unlike a square, the diagonals of a rectangle do **not** necessarily intersect orthogonally at $90^{\\circ}$ (unless the rectangle is specifically a square).",
+        "standardMeta": {
+          "question": "What are the strict defining mathematical properties of a rectangle concerning its sides, angles, and diagonals?"
+        }
+      }
+    },
+    {
+      "cardId": "493f40c1-f326-4556-9466-a5f855c53818",
+      "originalOrder": 26,
+      "originalHeading": "Equal Sided Quadrilateral without Right Angles (Rhombus)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Moved next to square/rectangle theory",
+        "Reclassified as DISTINCTION"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 10,
+        "heading": "Equal Sided Quadrilateral without Right Angles (Rhombus)",
+        "back": "## The Rhombus Concept\n\n* **Possibility:** Yes, a geometric figure can indeed have four strictly equal sides without being a square. This polygon is a **rhombus**.\n* **Boundary Constraints:** A square mathematically requires all four interior angles to be exactly $90^{\\circ}$. A rhombus *only* requires equal side lengths.\n* **Sub-classification:** Therefore, a square is a special, constrained boundary case of a rhombus.",
+        "standardMeta": {
+          "question": "Is it mathematically possible for a 4-sided figure to have all sides strictly equal in length but fail to be a square? Identify the figure."
+        }
+      }
+    },
+    {
+      "cardId": "23ce4a1b-4314-4804-aec2-a96d59ea51b7",
+      "originalOrder": 8,
+      "originalHeading": "Polygon Naming Convention",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Updated Classification to APPLICATION"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 11,
+        "heading": "Polygon Naming Convention",
+        "back": "## Valid Geometric Naming Vectors\n\n* **Valid Naming:** The vertices of a polygon MUST be stated in a continuous, sequential order of travel exactly around the perimeter (either clockwise or counter-clockwise). Example: $ABCD$ or $ADCB$.\n* **Invalid Naming:** Skipping across the shape's interior (i.e., mapping along a diagonal path) makes the notation mathematically invalid for the perimeter. Example: $ABDC$ is strictly invalid if $C$ is adjacent to $B$ on the perimeter.",
+        "standardMeta": {
+          "question": "Explain why $ABDC$ is an invalid mathematical name for a square whose physical corners are sequentially plotted $A, B, C, D$ in clockwise order."
+        }
+      }
+    },
+    {
+      "cardId": "53b353e5-d08e-4c52-a2ef-db7912ed0bef",
+      "originalOrder": 9,
+      "originalHeading": "Invariance of Rotated Polygons",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Emphasized geometric invariance"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 12,
+        "heading": "Invariance of Rotated Polygons",
+        "back": "## Geometric Invariance under Rotation\n\n* **Property:** Rotating a rigid geometric shape (like a square) within a 2D Cartesian plane is a linear transformation that does **not** alter its absolute side lengths or its internal vector angles.\n* **Conclusion:** A square rotated by $45^{\\circ}$ (often colloquially called a 'diamond') strictly remains a square. It continuously satisfies all mathematical boundary conditions: four equal sides and four $90^{\\circ}$ interior angles.",
+        "standardMeta": {
+          "question": "If a square is rotated $45^{\\circ}$ on a plane so that it rests on a single vertex (resembling a diamond shape), does it mathematically cease to be a square?"
+        }
+      }
+    },
+    {
+      "cardId": "70f063fc-38e3-4043-8ef5-ccbf276e9f57",
+      "originalOrder": 18,
+      "originalHeading": "Diagonals Dividing Opposite Angles",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified vector split inequalities for rectangles"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 13,
+        "heading": "Diagonals Dividing Opposite Angles",
+        "back": "## Diagonal Angle Bisection: Square vs. Rectangle\n\n* **Square (Special Case):** The diagonal perfectly and symmetrically bisects the opposite $90^{\\circ}$ corners into two strictly equal **$45^{\\circ}$ angles**.\n* **Rectangle (General Case):** The diagonal strictly divides the $90^{\\circ}$ corners into two **unequal** angles (e.g., $\\theta_1 = 30^{\\circ}, \\theta_2 = 60^{\\circ}$ where $\\theta_1 \\neq \\theta_2$).\n\n## Boundary Conditions / Domain\n* The diagonal of a rectangle will only bisect the angle equally if $l = w$, fundamentally forcing the rectangle into the boundary state of a square.",
+        "standardMeta": {
+          "question": "Does the diagonal of a rectangle perfectly bisect its corner angles into identical halves? Contrast this vector behavior with a square's diagonal."
+        }
+      }
+    },
+    {
+      "cardId": "f80a25c1-b766-4fd5-b279-2f017e35f8cb",
+      "originalOrder": 14,
+      "originalHeading": "Distance Limits on a Rectangle",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Standardized min/max distance terminology"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 14,
+        "heading": "Distance Limits on a Rectangle",
+        "back": "## Min/Max Distance Extrema\n\n* **Minimum Distance ($XY_{min}$):** The absolute shortest distance between any two points placed on parallel opposite sides (e.g., $AD$ and $BC$) is the strict orthogonal distance between the sides. This perfectly equals the length of the adjacent side ($AB$ or $CD$).\n* **Maximum Distance ($XY_{max}$):** The absolute maximum distance between any two coordinate points bounded by the perimeter of a rectangle is the exact length of its **diagonal** (from vertex $A$ to vertex $C$).",
+        "standardMeta": {
+          "question": "For a rectangle $ABCD$, if point $X$ lies on side $AD$ and point $Y$ lies on side $BC$, what vectors represent the strict minimum and maximum possible lengths of the segment $XY$?"
+        }
+      }
+    },
+    {
+      "cardId": "17076ad9-502e-4c75-a89a-709fa9168442",
+      "originalOrder": 27,
+      "originalHeading": "Quadrilateral Angular Constraint (All Right Angles)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Changed to DISTINCTION",
+        "Emphasized Euclidean constraint proofs"
+      ],
+      "vettingNotes": "Important trap question regarding shape formation rules.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 15,
+        "heading": "Quadrilateral Angular Constraint (All Right Angles)",
+        "back": "## Euclidean Constraints\n\n* **Mathematical Impossibility:** No, this is structurally impossible in Euclidean 2D space.\n* **Geometric Proof:** If a generic 4-sided polygon contains four $90^{\\circ}$ interior angles, it is mathematically forced to form a rectangle (or a square).\n* **Boundary Condition:** The defining properties of a rectangle strictly mandate that opposite sides **must** be equal and parallel. It is impossible to violate this side-length equality constraint while locking all four angles exactly to $90^{\\circ}$.",
+        "standardMeta": {
+          "question": "Is it mathematically possible to construct a 4-sided planar figure where all four interior angles are exactly $90^{\\circ}$, but the opposite sides are NOT equal?"
+        }
+      }
+    },
+    {
+      "cardId": "3a71f69b-dc63-4a16-bae6-fd88e4ff0a86",
+      "originalOrder": 4,
+      "originalHeading": "SOP: Constructing a Circle using a Compass",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Reformatted Component Anatomy"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 16,
+        "heading": "SOP: Constructing a Circle using a Compass",
+        "back": "## Component Anatomy\n* **$r$:** Required absolute radius of the circle.\n* **$P$:** The fixed origin/centre point of the circle.\n\n## Boundary Conditions / Domain\n* The compass needle must remain strictly anchored at fixed coordinate $P$.\n* $\\Delta r = 0$: The distance between the needle and pencil tip must not shift during radial rotation.",
+        "formulaMeta": {
+          "formula": "r = \\text{constant distance}",
+          "description": "The foundational algorithm for drawing a locus of points equidistant from a center.",
+          "derivation": "**Algorithmic SOP:**\n1. Use a strict straightedge to set the distance between the compass needle and the pencil tip exactly to the required radius $r$.\n2. Mark a distinct fixed point $P$ on the plane to serve as the local coordinate centre.\n3. Anchor the sharp metal needle of the compass firmly on $P$.\n4. Rotate the pencil end precisely $360^{\\circ}$ to draw the boundary, ensuring the angle of the compass arms remains rigidly locked."
+        }
+      }
+    },
+    {
+      "cardId": "9a1ecc32-682d-4e4c-aa46-6c2c7eebf984",
+      "originalOrder": 5,
+      "originalHeading": "SOP: Constructing Perpendicular Lines",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Ensured procedural sequence is clear"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 17,
+        "heading": "SOP: Constructing Perpendicular Lines",
+        "back": "## Component Anatomy\n* **$L_1, L_2$:** Two intersecting line segments.\n* **$\\theta$:** Angle of intersection.\n\n## Boundary Conditions / Domain\n* $\\theta$ MUST exactly equal $90^{\\circ}$ for the lines to be strictly classified as orthogonal/perpendicular ($L_1 \\perp L_2$).",
+        "formulaMeta": {
+          "formula": "L_1 \\perp L_2 \\iff \\theta = 90^{\\circ}",
+          "description": "Standard procedure for creating an orthogonal intersection using a protractor.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw an initial base line segment $AB$.\n2. Place the protractor's baseline strictly over $AB$ with its origin point perfectly aligned at the required intersection coordinate.\n3. Mark a dot strictly at the $90^{\\circ}$ indicator.\n4. Remove the protractor and use a straightedge to connect the origin point on $AB$ directly to the $90^{\\circ}$ mark, forming $L_2$."
+        }
+      }
+    },
+    {
+      "cardId": "370f73d9-16b5-4b02-8e7b-428ea322b70a",
+      "originalOrder": 10,
+      "originalHeading": "SOP: Constructing a Perpendicular Bisector",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formula",
+        "Clarified radius inequality boundary condition"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 18,
+        "heading": "SOP: Constructing a Perpendicular Bisector",
+        "back": "## Component Anatomy\n* **$AB$:** The foundational line segment to be bisected.\n* **$M$:** The exact geometric midpoint of $AB$.\n* **$r$:** Compass radius used for supporting arcs.\n\n## Boundary Conditions / Domain\n* **Crucial Condition:** The compass radius $r$ MUST be strictly greater than half the distance of the segment: $r > \\frac{1}{2}AB$.\n* If $r \\leq \\frac{1}{2}AB$, the locus arcs will geometrically fail to intersect.",
+        "formulaMeta": {
+          "formula": "AM = MB = \\frac{1}{2}AB \\quad \\text{and} \\quad \\theta = 90^{\\circ}",
+          "description": "Algorithmic procedure to find the exact midpoint and orthogonal line of a segment.",
+          "derivation": "**Algorithmic SOP:**\n1. Open the compass to a fixed radius $r$ strictly greater than $\\frac{1}{2}AB$.\n2. Anchor the compass tip at endpoint $A$ and draw wide supporting arcs above and below the segment.\n3. Keeping the radius strictly identical ($\\Delta r = 0$), anchor at endpoint $B$ and draw intersecting arcs.\n4. Use a straightedge to draw a line connecting the two intersection coordinates. This generated line is the perpendicular bisector."
+        }
+      }
+    },
+    {
+      "cardId": "c49dbfd7-fa63-43fb-bc15-15df2a468e20",
+      "originalOrder": 16,
+      "originalHeading": "SOP: Locating a Point Equidistant from Two Given Points",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Reformatted boundary conditions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 19,
+        "heading": "SOP: Locating a Point Equidistant from Two Given Points",
+        "back": "## Component Anatomy\n* **$B, C$:** Two fixed reference coordinates on the plane.\n* **$A$:** The target point to be mapped.\n* **$d$:** The required absolute equidistant radius.\n\n## Boundary Conditions / Domain\n* **Geometric Limit:** To guarantee a valid spatial intersection, the target distance $d$ MUST be strictly greater than half the linear distance between $B$ and $C$ ($d > \\frac{1}{2}BC$).\n* If $d \\leq \\frac{1}{2}BC$, the required arcs cannot physically intersect.",
+        "formulaMeta": {
+          "formula": "AB = AC = d",
+          "description": "Using fixed-radius compass intersections to locate a specific symmetric coordinate.",
+          "derivation": "**Algorithmic SOP:**\n1. Use a ruler to lock the compass radius exactly to the required target distance $d$.\n2. Anchor the compass tip strictly at reference point $B$ and draw an arc in the general target area.\n3. Keeping the radius absolutely constant at $d$, anchor at reference point $C$ and draw a second arc overlapping the first.\n4. The exact coordinate where the two arcs intersect is the required equidistant point $A$."
+        }
+      }
+    },
+    {
+      "cardId": "4ab2cfde-708c-4197-8d0c-6b965bb3418e",
+      "originalOrder": 11,
+      "originalHeading": "SOP: Constructing a 60-Degree Angle (Compass Only)",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Double escaped formulas"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 20,
+        "heading": "SOP: Constructing a 60-Degree Angle (Compass Only)",
+        "back": "## Component Anatomy\n* **$O$:** The origin vertex of the angle.\n* **$r$:** An arbitrary but constant compass radius.\n* **$P, Q$:** Intermediate intersection points generated by supporting arcs.\n\n## Boundary Conditions / Domain\n* **Rigid Invariance:** The radius $r$ MUST remain absolutely mathematically constant between drawing the initial baseline arc and the intersecting arc ($\\Delta r = 0$).",
+        "formulaMeta": {
+          "formula": "\\theta = 60^{\\circ}",
+          "description": "Constructing an exact $60^{\\circ}$ vector using equilateral triangle principles.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw a base ray with a straightedge and mark the origin vertex $O$.\n2. With $O$ as the centre and any arbitrary radius $r$, draw a wide supporting arc cutting the base ray at point $P$.\n3. Without altering the radius $r$, place the compass point exactly on the intersection $P$ and draw a small arc cutting the first arc. Mark this point $Q$.\n4. Draw a continuous ray from origin $O$ passing strictly through point $Q$. The internal angle formed is perfectly $60^{\\circ}$."
+        }
+      }
+    },
+    {
+      "cardId": "9c20cf0c-dc1e-4560-b7a3-bde835f9225e",
+      "originalOrder": 12,
+      "originalHeading": "SOP: Constructing a Square (Given Side Length)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Ensured procedural steps flow logically"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 21,
+        "heading": "SOP: Constructing a Square (Given Side Length)",
+        "back": "## Component Anatomy\n* **$s$:** The given, absolute side length constant.\n* **$A, B, C, D$:** The four bounding vertices of the square.\n\n## Boundary Conditions / Domain\n* **Isotropic Constraint:** All intersecting marking arcs MUST use the exact identical radius $s$ to geometrically guarantee equilateral symmetry.\n* Perpendicular rays must be exactly $90^{\\circ}$.",
+        "formulaMeta": {
+          "formula": "s_1 = s_2 = s_3 = s_4 = s \\quad \\text{and} \\quad \\theta_i = 90^{\\circ}",
+          "description": "Synthesising orthogonal vectors and constant radii to bound a square.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw a base line segment $AB$ of precise length $s$.\n2. Construct a strict $90^{\\circ}$ perpendicular ray projecting upwards at endpoint $A$, and another $90^{\\circ}$ ray at endpoint $B$.\n3. Lock the compass radius exactly to $s$. Anchor at $A$ and cut its respective perpendicular ray to permanently mark point $D$.\n4. Anchor at $B$ (retaining radius $s$) and cut its perpendicular ray to mark point $C$.\n5. Connect points $C$ and $D$ with a straightedge to seal the perimeter. Verify $CD = s$."
+        }
+      }
+    },
+    {
+      "cardId": "9fec56d3-0b1d-4f9e-ad5a-25852a229a1b",
+      "originalOrder": 13,
+      "originalHeading": "SOP: Constructing a Rectangle (Given Length & Breadth)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Separated radius variables conceptually"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 22,
+        "heading": "SOP: Constructing a Rectangle (Given Length & Breadth)",
+        "back": "## Component Anatomy\n* **$l$:** Constant horizontal length of the rectangle.\n* **$w$:** Constant vertical breadth (width) of the rectangle.\n* **$A, B, C, D$:** The four bounding vertices.\n\n## Boundary Conditions / Domain\n* The constructed adjacent sides MUST intersect at exactly $90^{\\circ}$ to mathematically satisfy the core rectangular definition.",
+        "formulaMeta": {
+          "formula": "L_1 = L_2 = l, \\quad W_1 = W_2 = w",
+          "description": "Building a bounded rectangular polygon from two distinct orthogonal constraints.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw the foundational base segment $AB$ of length $l$.\n2. Construct strict $90^{\\circ}$ perpendicular rays projecting upwards from both base endpoints $A$ and $B$.\n3. Lock the compass radius exactly to the required breadth $w$.\n4. Anchor strictly at $A$ and cut the perpendicular ray to define vertex $D$.\n5. Move the anchor to $B$ (keeping radius identical at $w$) and cut the respective perpendicular ray to define vertex $C$.\n6. Connect $C$ and $D$ with a straightedge to complete the polygon boundary $ABCD$."
+        }
+      }
+    },
+    {
+      "cardId": "dff13698-78cb-4696-9b19-85baf301b25d",
+      "originalOrder": 17,
+      "originalHeading": "SOP: Constructing a Rectangle via Diagonal (Part 1)",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Split card to reduce cognitive bloat",
+        "Focused Part 1 on locating the 3rd vertex via diagonal constraint"
+      ],
+      "vettingNotes": "Part 1 of 2. Split because deriving the first triangle and completing the rectangle are two distinct cognitive hurdles.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 23,
+        "heading": "SOP: Constructing a Rectangle via Diagonal (Part 1 - Locating Vertex)",
+        "back": "## Component Anatomy\n* **$s$:** The given base side length.\n* **$d$:** The given diagonal vector length.\n\n## Boundary Conditions / Domain\n* **Triangle Inequality Constraint:** To form a mathematically valid geometric shape, the diagonal hypotenuse $d$ MUST be strictly greater than the base side $s$ ($d > s$).",
+        "formulaMeta": {
+          "formula": "d^2 = s^2 + w^2 \\implies d > s",
+          "description": "Step 1: Using the diagonal constraint to mathematically locate the height vertex.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw the absolute base segment $CD$ matching the known length $s$.\n2. Construct a $90^{\\circ}$ perpendicular ray projecting strictly upwards from base point $C$.\n3. Lock the compass radius exactly to the known diagonal length $d$.\n4. Anchor the compass at point $D$ and draw a supporting arc cutting the perpendicular ray. This intersection point defines vertex $B$."
+        }
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 17,
+      "originalHeading": "SOP: Constructing a Rectangle via Diagonal (Part 2)",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Generated 2nd half of split card",
+        "Focused on perimeter completion"
+      ],
+      "vettingNotes": "Part 2 of 2. Follows naturally from locating vertex B.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 24,
+        "heading": "SOP: Constructing a Rectangle via Diagonal (Part 2 - Perimeter Completion)",
+        "back": "## Component Anatomy\n* **$C, D$:** The base vertices.\n* **$B$:** The upper vertex located via the diagonal arc.\n* **$A$:** The final unknown vertex to be computed.\n\n## Boundary Conditions / Domain\n* To satisfy rectangular geometry, the completed opposing vectors must remain strictly parallel ($AB \\parallel CD$ and $AD \\parallel CB$).",
+        "formulaMeta": {
+          "formula": "\\vec{AB} = \\vec{DC} \\quad \\text{and} \\quad \\vec{AD} = \\vec{BC}",
+          "description": "Step 2: Completing the polygon once three vertices (C, D, and B) are known.",
+          "derivation": "**Algorithmic SOP:**\n*(Assuming vertices C, D, and B have been plotted)*\n1. From the newly found vertex $B$, construct a horizontal vector line strictly parallel to base $CD$.\n2. From vertex $D$, construct a vertical vector line strictly parallel to axis $CB$.\n3. The exact geometric intersection of these two generated parallel lines forms the final, 4th bounding vertex $A$."
+        }
+      }
+    },
+    {
+      "cardId": "1afb71e4-a3b5-41ca-9e6b-cb94332877a1",
+      "originalOrder": 22,
+      "originalHeading": "SOP: Rectangle via Specific Diagonal Angles (Part 1)",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Split multi-step algorithm into logical sequence steps",
+        "Focused Part 1 on plotting the diagonal ray"
+      ],
+      "vettingNotes": "Part 1 of 2. Focuses purely on the angular division of the corner.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 25,
+        "heading": "SOP: Rectangle via Specific Diagonal Angles (Part 1 - Diagonal Ray)",
+        "back": "## Component Anatomy\n* **$A$:** The origin vertex of the diagonal division.\n* **$\\theta_1, \\theta_2$:** The explicitly defined internal angle splits (e.g., $50^{\\circ}$ and $40^{\\circ}$).\n\n## Boundary Conditions / Domain\n* **Orthogonal Sum Constraint:** The sum of the two divided interior angles at the rectangular corner MUST geometrically equal exactly $90^{\\circ}$ ($\\theta_1 + \\theta_2 = 90^{\\circ}$).",
+        "formulaMeta": {
+          "formula": "\\theta_1 + \\theta_2 = 90^{\\circ}",
+          "description": "Step 1: Establishing the correct angular vector for the diagonal.",
+          "derivation": "**Algorithmic SOP:**\n1. Draw a foundational base segment $AB$ of arbitrary horizontal length.\n2. Construct a $90^{\\circ}$ perpendicular ray extending strictly upwards at origin point $A$.\n3. Place a protractor precisely at point $A$ and mark the required specific angle $\\theta_1$ (e.g., $50^{\\circ}$) relative to the horizontal base $AB$.\n4. Draw an infinite diagonal ray passing perfectly through this angular mark."
+        }
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 22,
+      "originalHeading": "SOP: Rectangle via Specific Diagonal Angles (Part 2)",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Generated 2nd half of split card",
+        "Focuses on orthogonal projection"
+      ],
+      "vettingNotes": "Part 2 of 2. Shows how to project the bounded rectangle from the diagonal ray.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 26,
+        "heading": "SOP: Rectangle via Specific Diagonal Angles (Part 2 - Orthogonal Projection)",
+        "back": "## Component Anatomy\n* **Diagonal Ray:** The angled vector mapping out the hypotenuse.\n* **$C$:** The arbitrarily chosen opposite vertex lying on the diagonal ray.\n\n## Boundary Conditions / Domain\n* The bounding projections dropping from $C$ MUST be perfectly $90^{\\circ}$ orthogonal to the primary $x$ and $y$ axes to enclose a valid rectangle.",
+        "formulaMeta": {
+          "formula": "\\text{Proj}*{x}(C) \\perp \\text{Proj}*{y}(C)",
+          "description": "Step 2: Dropping orthogonal bounds from the diagonal ray to complete the shape.",
+          "derivation": "**Algorithmic SOP:**\n*(Assuming the diagonal ray from A has been drawn)*\n1. Pick any arbitrary coordinate point $C$ lying strictly on the drawn diagonal ray.\n2. From point $C$, mathematically drop a $90^{\\circ}$ perpendicular vector downwards to intersect the horizontal $x$-axis.\n3. From point $C$, simultaneously drop a $90^{\\circ}$ perpendicular vector to the left to intersect the vertical $y$-axis.\n4. These perpendicular intersections seal the formal rectangular boundary."
+        }
+      }
+    },
+    {
+      "cardId": "96025bc7-16cb-403c-9fea-77889688e4dc",
+      "originalOrder": 24,
+      "originalHeading": "Centre of a Square within a Rectangle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined to emphasize coordinate intersection of diagonals"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 27,
+        "heading": "Locating the Geometric Centre of a Rectangle",
+        "back": "## Procedural Algorithm\n\n* **Core Concept:** To precisely construct a perfectly concentric square inside a larger enclosing rectangle, you must strictly map the absolute geometric centre coordinate of the outer rectangle.\n* **Execution:** Draw both major diagonals from the opposite vertices of the rectangle. The single, unique point where these linear vectors intersect mathematically defines the exact geometric centre for both the rectangle and any inscribed concentric shapes.",
+        "standardMeta": {
+          "question": "What is the most precise procedural method to geometrically map the exact centre of a rectangle in order to draw a perfectly concentric shape (like a square) inside it?"
+        }
+      }
+    },
+    {
+      "cardId": "943a7d66-c896-4d4c-809b-a5d6805c7476",
+      "originalOrder": 19,
+      "originalHeading": "Breaking Rectangles into Identical Squares",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected boundary condition for fractional remainders",
+        "Updated tags to match mathematical ontology"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 28,
+        "heading": "Breaking Rectangles into Identical Squares",
+        "back": "## Mathematical Proportionality\n\n* **Mathematical Rule:** A rectangle can only be perfectly divided into $n$ identical contiguous squares if the absolute length of the rectangle is exactly $n$ times its breadth (or vice versa).\n* **Valid Example:** A $6\\text{ cm} \\times 2\\text{ cm}$ rectangle can be divided into exactly three identical $2\\text{ cm} \\times 2\\text{ cm}$ squares.\n\n## Boundary Conditions / Domain\n* If $L \\neq n \\times W$ (where $n$ is an integer), the rectangle cannot be perfectly divided into identical squares without leaving fractional geometric remainders.",
+        "standardMeta": {
+          "question": "What strict mathematical proportionality must exist between the length and breadth of a rectangle for it to be perfectly divisible into $n$ identical squares?"
+        }
+      }
+    },
+    {
+      "cardId": "43357812-b312-428c-8bea-c2b877b51852",
+      "originalOrder": 21,
+      "originalHeading": "Verifying Right Angles on a Dot Grid",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reclassified as PROCEDURAL",
+        "Added Cartesian grid constraint"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 29,
+        "heading": "Verifying Right Angles on a Dot Grid",
+        "back": "## Procedural Execution (Visual Slope Inversion)\n\n* **Grid Concept:** Dot grids naturally form a perfect Cartesian coordinate system.\n* **Execution:** You can mathematically verify right angles without a protractor by observing the vector symmetry and slope inversion of the lines. If an oblique line goes 'up 2 dots, right 1 dot', its strictly $90^{\\circ}$ perpendicular MUST travel 'down 1 dot, right 2 dots'.\n\n## Boundary Conditions / Domain\n* This algorithm is only mathematically valid if the vertical and horizontal grid dots are uniformly equidistant, forming a true square matrix.",
+        "standardMeta": {
+          "question": "How can one procedurally verify if the angles of a drawn polygon are exact right angles on a dot grid paper without using any measuring instruments?"
+        }
+      }
+    },
+    {
+      "cardId": "211de36d-46f6-463e-8257-c28dc51cb208",
+      "originalOrder": 23,
+      "originalHeading": "Geometric Construction: Equidistant House Peak",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized phrasing",
+        "Added radius equality constraint"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 30,
+        "heading": "Geometric Construction: Equidistant Symmetry",
+        "back": "## Procedural Concept\n\n* To draw a triangular peak over a base where the peak is strictly equidistant from the two top corners, you must map the intersection of two identical arcs.\n* Their intersection point naturally lies exactly on the orthogonal perpendicular bisector of the base's width, mathematically ensuring perfect structural symmetry.\n\n## Boundary Conditions / Domain\n* **Isotropic Constraint:** Both supporting arcs MUST be drawn with the exact same constant radius ($r_1 = r_2$), anchored strictly from the opposite geometric corners.",
+        "standardMeta": {
+          "question": "When constructing a geometric 'House', what mathematical boundary conditions must the construction arcs satisfy to locate a roof peak perfectly equidistant and symmetrical from the two top corners?"
+        }
+      }
+    },
+    {
+      "cardId": "de60233c-4ac2-4eac-af7e-66b7c6e18bbe",
+      "originalOrder": 30,
+      "originalHeading": "SOP: Constructing Symmetrical Bi-Convex Arcs (e.g., 'Eyes')",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped formulas",
+        "Reformatted Component Anatomy",
+        "Clarified orthogonal bisector constraints"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 31,
+        "heading": "SOP: Constructing Symmetrical Bi-Convex Arcs",
+        "back": "## Component Anatomy\n* **$C_1, C_2$:** The specific anchor points (centres) for the compass needle.\n* **$r$:** The constant radius bounding both the upper and lower arcs.\n\n## Boundary Conditions / Domain\n* Both anchor coordinates $C_1$ and $C_2$ MUST strictly lie on the **perpendicular bisector** of the segment joining the two sharp geometric endpoints.\n* This constraint is mathematically mandatory to guarantee perfect vertical and horizontal coordinate symmetry.",
+        "formulaMeta": {
+          "formula": "R_1 = R_2 = r \\quad \\text{and} \\quad C_1, C_2 \\in \\text{Perpendicular Bisector}",
+          "description": "Procedural constraints for drawing perfectly symmetrical intersecting arcs (a bi-convex shape).",
+          "derivation": "**Algorithmic SOP:**\n1. Draw the horizontal supporting line segment connecting the two required endpoints of the target shape.\n2. Construct the exact **perpendicular bisector** of this base segment.\n3. Anchor the compass at point $C_1$ on the lower half of the bisector and draw the upper connecting arc.\n4. Keeping the radius strictly identical ($\\Delta r = 0$), anchor at point $C_2$ on the upper half of the bisector (ensuring absolute orthogonal distance from the horizontal axis exactly matches $C_1$) and draw the lower arc."
+        }
+      }
+    },
+    {
+      "cardId": "dd2c63df-909e-4cc3-b45c-ebd46c90901b",
+      "originalOrder": 20,
+      "originalHeading": "Artistic Construction: 'Wavy Waves'",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Explicit domain definitions for segment mapping",
+        "Added radial proportion formula"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "geometry", "class-6", "ncert", "jee-foundation"],
+        "order": 32,
+        "heading": "Continuous Wave Construction",
+        "back": "## Geometric Concept\n\n* Continuous 'waves' are procedurally constructed by mathematically drawing perfectly alternating semicircles above and below a central linear axis.\n* **Procedural Execution:** The central axis line is strictly divided into identical, equal linear segments. A compass is anchored at the exact coordinate midpoint of each segment to map the alternating arcs seamlessly.\n\n## Boundary Conditions / Domain\n* The compass radius MUST strictly equal exactly half of the divided segment length ($r = \\frac{1}{2}L_{segment}$) to ensure perfect tangential continuity between the arcs without spatial gaps or overlaps.",
+        "standardMeta": {
+          "question": "In geometric applications, what is the underlying procedural concept and radial constraint necessary to construct continuous 'Wavy Waves' seamlessly along a central axis?"
+        }
+      }
+    },
+    {
+      "cardId": "END_OF_CHAPTER",
+      "originalOrder": 999,
+      "originalHeading": "SYSTEM_END",
+      "action": "SYSTEM",
+      "modificationsSummary": [],
+      "vettingNotes": "End of remaining cards achieved.",
+      "cardData": null
+    }
+  ]
 }

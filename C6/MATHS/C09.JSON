@@ -1,954 +1,940 @@
 {
-"deckId": "d34bfba0-0a5f-460f-8296-172ef116e89d",
-"cards": [
-{
-"cardId": "bf6b831a-173b-4edf-9d81-3cdfe1d00c13",
-"originalOrder": 1,
-"originalHeading": "Line of Symmetry (Reflection Symmetry)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to be a precise cognitive primer",
-"Added explicit mathematical boundaries and domain rules to the explanation",
-"Standardized tags"
-],
-"vettingNotes": "Enhanced foundational rigor by formalizing boundary conditions.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 1,
-"heading": "Axiomatic Definition of Line Symmetry (Reflection)",
-"back": "## Concept\nA line of symmetry is an imaginary axis that mathematically bisects a 2D geometric figure into two congruent, mirror-image halves.\n\n## Verification\nIf the figure is mapped (folded) strictly along this axis, the left and right halves must achieve complete, isomorphic overlap.\n\n## Boundary Conditions / Domain\n- The mapping must result in zero remainder.\n- If an overlap leaves any excess edge or unaligned vertex, the axis is mathematically invalid as a line of symmetry.",
-"standardMeta": {
-"question": "What defines a strict 'Line of Symmetry' in a 2D geometric figure, and what is the required boundary condition when practically verified via folding?"
-}
-}
-},
-{
-"cardId": "2efe458b-3eaf-45e3-90c8-706a0cb6e517",
-"originalOrder": 3,
-"originalHeading": "Mechanics of Point Reflection",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Updated classification to CONCEPT",
-"Refined heading for pedagogical precision",
-"Double-escaped LaTeX syntax"
-],
-"vettingNotes": "Positioned immediately after the definition to establish the core invariant property.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 2,
-"heading": "Equidistance Rule in Point Reflection",
-"back": "## Concept\nWhen a planar figure undergoes reflection across an axis of symmetry, every coordinate point $A$ in the preimage is mapped bijectively to a corresponding image point $A'$.\n\n## Equidistance Theorem\nBoth the original node $A$ and its reflected node $A'$ are strictly constrained to lie at the exact same perpendicular distance from the axis of symmetry.\n\n## Boundary Conditions / Domain\n- The distance measured must be strictly perpendicular (orthogonal, $90^{\circ}$) to the line of symmetry. Oblique distance measurements invalidate this rule.",
-"standardMeta": {
-"question": "What is the strict mathematical theorem governing the distance relationship between any pre-image point and its mirrored image relative to the axis of symmetry?"
-}
-}
-},
-{
-"cardId": "8d150a0d-01ca-45e4-8466-41e4ff32c7e8",
-"originalOrder": 30,
-"originalHeading": "Isometry of Line Reflection (Length Invariance)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered to sequence 3 to group with fundamental reflection concepts",
-"Expanded explanation of isometric mapping"
-],
-"vettingNotes": "Moved from edge-case section to foundational section as length invariance is axiomatic to symmetry.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 3,
-"heading": "Isometry of Line Reflection (Length Invariance)",
-"back": "## Concept\nReflection across an axis of symmetry is defined as an **isometric transformation** (rigid motion).\n\n## Mathematical Rule\nIf a line segment of length $L$ (e.g., $12\text{ cm}$) is reflected, its resulting mirror image is mathematically guaranteed to preserve the exact magnitude $L$ ($12\text{ cm}$).\n\n## Boundary Conditions / Domain\n- The transformation strictly preserves 1D magnitude (length) and 2D magnitude (area/angles). \n- The coordinate spatial orientation is inverted (flipped), but the absolute scale factor is strictly $1$.",
-"standardMeta": {
-"question": "If a line segment measuring exactly $12\text{ cm}$ is subjected to a reflection transformation, what geometric property dictates the length of its resulting mirror image?"
-}
-}
-},
-{
-"cardId": "928570da-70a6-4113-a439-65c737e70935",
-"originalOrder": 4,
-"originalHeading": "Rotational Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to axiomatic definition",
-"Added explicit mathematical limits ($0^\circ < \theta < 360^\circ$)"
-],
-"vettingNotes": "Standardized the domain constraints for acceptable rotational angles.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 4,
-"heading": "Axiomatic Definition of Rotational Symmetry",
-"back": "## Definition\nA planar figure possesses rotational symmetry if it maps perfectly onto its initial coordinate state after being rotated around a defined central point (centroid) by a specific angle $\theta$.\n\n## Boundary Conditions / Domain\n- The mapping angle $\theta$ is strictly bounded: $0^{\circ} < \theta < 360^{\circ}$.\n- A full $360^{\circ}$ rotation is a trivial identity transformation (all objects map onto themselves at $360^{\circ}$), and thus $360^{\circ}$ alone does **not** satisfy the criteria for rotational symmetry.",
-"standardMeta": {
-"question": "Define the geometric property of 'Rotational Symmetry' and explain the mathematical domain limit regarding a $360^{\circ}$ rotation."
-}
-}
-},
-{
-"cardId": "054b0cee-e4d5-4dbb-9ed3-d43fe5ba2535",
-"originalOrder": 5,
-"originalHeading": "Order of Rotational Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted to valid FORMULA structure",
-"Double escaped KaTeX strings",
-"Formatted strictly with Component Anatomy and Domain"
-],
-"vettingNotes": "Validated boundary condition $n \ge 2$ for non-trivial symmetry.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 5,
-"heading": "Formula for Order of Rotational Symmetry",
-"back": "## Component Anatomy\n- **$n$**: Order of rotational symmetry (the total integer number of identical self-mappings within one complete cycle).\n- **$\theta$**: The smallest interior angle of rotational symmetry.\n\n## Boundary Conditions / Domain\n- $n \ge 2$ is required for a geometric figure to be classified as having true rotational symmetry (Order 1 implies asymmetry).\n- $\theta$ must strictly be a factor of $360^{\circ}$ if it is a whole number degree measure.",
-"formulaMeta": {
-"formula": "n = \frac{360^{\circ}}{\theta}",
-"description": "Calculates the total Order of Rotational Symmetry based on the smallest symmetrical angle.",
-"derivation": "**Algorithmic SOP:**\n1. Establish the rotational origin at the figure's centroid.\n2. Rotate the coordinate plane, recording the smallest angle $\theta$ where the figure demonstrates isomorphic congruence with its initial state.\n3. Divide $360^{\circ}$ by $\theta$ to determine the total matching instances (Order $n$)."
-}
-}
-},
-{
-"cardId": "d330e7d2-08af-47d2-b88c-8dedd4f238bb",
-"originalOrder": 6,
-"originalHeading": "Smallest Angle Factorization Rule",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to domain rule",
-"Clarified invalid fractional order implications"
-],
-"vettingNotes": "Reinforces the mathematical boundary condition set up in the previous formula card.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 6,
-"heading": "Factorization Domain Rule for Rotational Angles",
-"back": "## Mathematical Rule\nIf the smallest angle of rotational symmetry for a closed figure is a natural number in degrees, it **must** strictly be a factor (divisor) of $360^{\circ}$ (e.g., $90^{\circ}, 72^{\circ}, 60^{\circ}$).\n\n## Boundary Conditions / Domain\n- The rotational order $n$ must be an integer. An angle like $17^{\circ}$ is logically invalid for symmetry because $360 / 17$ yields a non-integer, creating an impossible fractional overlapping state at the end of the full rotation cycle.",
-"standardMeta": {
-"question": "If a geometric figure exhibits rotational symmetry, why must its smallest angle of rotation (when expressed as a whole number) act as a perfect mathematical divisor of $360^{\circ}$?"
-}
-}
-},
-{
-"cardId": "32a69a3f-37e8-4c3e-a82a-b320bb59afd4",
-"originalOrder": 9,
-"originalHeading": "Symmetry in Regular Polygons",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double-escaped LaTeX strings",
-"Separated Anatomy and Domains"
-],
-"vettingNotes": "Moved earlier in sequence to serve as the master theorem before evaluating specific shapes.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 7,
-"heading": "Symmetry Formula for n-sided Regular Polygons",
-"back": "## Component Anatomy\n- **$n$**: The total integer number of strictly congruent edges and equiangular vertices defining the polygon.\n\n## Boundary Conditions / Domain\n- The target polygon **MUST** strictly satisfy the condition of being "Regular" (both equilateral AND equiangular concurrently).\n- Scalene or generically irregular polygons immediately violate this theorem.",
-"formulaMeta": {
-"formula": "\text{Lines of Symmetry} = n \quad \text{and} \quad \text{Rotational Order} = n",
-"description": "Determines the total reflection axes and rotational order for any valid regular polygon.",
-"derivation": "Due to strict congruence among all $n$ edges and $n$ interior angles:\n1. The centroid-to-vertex and centroid-to-midpoint reflection axes yield exactly $n$ symmetrical splits.\n2. In polar rotation, the figure maps bijectively onto itself $n$ times per $360^{\circ}$ cycle, enforcing a minimum invariant angle of $\frac{360^{\circ}}{n}$."
-}
-}
-},
-{
-"cardId": "429ab381-6e30-4eb0-995c-5ce5171c95f1",
-"originalOrder": 18,
-"originalHeading": "Minimum Angles for Regular Polygons",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered to act as direct applied corollaries to the regular polygon formula",
-"Added explicit formula notation for derivations"
-],
-"vettingNotes": "Perfect bridge connecting the theoretical polygon formula to specific geometric standards.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 8,
-"heading": "Minimum Angles for Standard Regular Polygons",
-"back": "By strictly applying $\theta = \frac{360^{\circ}}{n}$:\n\n- **Equilateral Triangle:** $n=3 \implies \frac{360^{\circ}}{3} = 120^{\circ}$\n- **Square (Regular Quadrilateral):** $n=4 \implies \frac{360^{\circ}}{4} = 90^{\circ}$\n- **Regular Pentagon:** $n=5 \implies \frac{360^{\circ}}{5} = 72^{\circ}$\n- **Regular Hexagon:** $n=6 \implies \frac{360^{\circ}}{6} = 60^{\circ}$",
-"standardMeta": {
-"question": "Apply the rotational symmetry theorem to calculate the absolute smallest angle of rotational symmetry for an equilateral triangle, a square, a regular pentagon, and a regular hexagon."
-}
-}
-},
-{
-"cardId": "3f7374b5-66f5-451e-8fc5-1f641a125bb7",
-"originalOrder": 21,
-"originalHeading": "Symmetry of a Regular Decagon",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered next to generic shape angles",
-"Refined textual layout for clarity"
-],
-"vettingNotes": "Follows logically as an extended application of the polygon rule.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 9,
-"heading": "Symmetry Variables of a Regular Decagon",
-"back": "## Geometric Evaluation ($n=10$)\n\n- **Lines of Symmetry:** $10$ discrete axes.\n  - *Distribution:* 5 lines strictly pass through opposing vertices, while 5 lines perpendicularly bisect opposing edge midpoints.\n- **Rotational Order:** Exactly $10$.\n- **Smallest Symmetrical Angle:** $\frac{360^{\circ}}{10} = 36^{\circ}$.",
-"standardMeta": {
-"question": "Deduce the total lines of symmetry, the rotational order magnitude, and the minimum angular parameter of symmetry for a Regular Decagon."
-}
-}
-},
-{
-"cardId": "a71ae792-60ee-4e4a-a128-f56787c03490",
-"originalOrder": 7,
-"originalHeading": "Symmetry of a Circle",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to emphasize infinity properties",
-"Reordered after n-sided polygons to represent the limit as n approaches infinity"
-],
-"vettingNotes": "Mathematically, a circle represents an n-sided regular polygon as limit approaches infinity.",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 10,
-"heading": "Infinite Symmetry Properties of a Circle",
-"back": "## Line Symmetry\nA continuous circle possesses mathematically **infinite** axes of reflection symmetry. \n*Rule:* Every line segment acting as a diameter (passing through the centroid) constitutes a valid axis.\n\n## Rotational Symmetry\nA circle possesses an **infinite** order of rotational symmetry.\n*Rule:* The coordinate geometry maps congruently onto itself at *every continuous infinitesimal angular shift* around its centroid point.",
-"standardMeta": {
-"question": "Mathematically describe the magnitudes of line symmetry and rotational symmetry bounding a perfect circle. Are these values finite or infinite?"
-}
-}
-},
-{
-"cardId": "283993e1-a71c-47dd-b6a8-e1454e873511",
-"originalOrder": 12,
-"originalHeading": "Symmetry of a Semi-Circle",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Updated classification to DISTINCTION",
-"Strengthened boundary conditions concerning Order 1"
-],
-"vettingNotes": "Critical distinction trap contrasted immediately after the full circle.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 11,
-"heading": "Symmetry Constraints of a Semi-Circle",
-"back": "## Line Symmetry\nStrictly bounded to **1 Axis**. This line acts as the perpendicular bisector orthogonal to its straight diameter edge.\n\n## Rotational Symmetry\n**Zero valid rotational symmetry (Order 1).**\n\n## Boundary Conditions / Domain\n- The asymmetric curve-to-straight-edge boundary demands a full $360^{\circ}$ rotation to map congruently onto its initial spatial coordinates. Order 1 is mathematically defined as an absence of true rotational symmetry.",
-"standardMeta": {
-"question": "Analyze the exact line symmetry count and the rotational symmetry order assigned to a semi-circle, contrasting it with a full circle."
-}
-}
-},
-{
-"cardId": "63ec3b2a-5633-47f1-9100-6a19eed0856b",
-"originalOrder": 2,
-"originalHeading": "Diagonal Symmetry: Square vs. Rectangle",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Strengthened terminology to 'Non-Square Rectangle'",
-"Moved into specialized shape sequence"
-],
-"vettingNotes": "Common exam trap comparing two equigonal quadrilaterals.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 12,
-"heading": "Diagonal Reflection Trap: Square vs. Non-Square Rectangle",
-"back": "## Square (Regular Quadrilateral)\nThe diagonals **ARE** mathematically valid lines of symmetry. Reflection mapping along the diagonal generates perfectly congruent and overlapping right-isosceles triangles.\n\n## Rectangle (Strictly Non-Square)\nThe diagonals are **NOT** valid lines of symmetry.\n\n## Boundary Conditions / Domain\n- Because adjacent edge lengths differ ($L \neq W$), an attempted diagonal reflection maps the vertices outside the geometric boundary, yielding protruding scalene right triangles that fail isometric overlap.",
-"standardMeta": {
-"question": "Do the internal diagonals of a standard rectangle mathematically qualify as lines of symmetry? Contrast this geometric behavior with the diagonals of a standard square."
-}
-}
-},
-{
-"cardId": "e19542a0-f22b-46a1-8db1-b1384aff4d35",
-"originalOrder": 8,
-"originalHeading": "The Parallelogram Trap",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Updated classification to DISTINCTION"
-],
-"vettingNotes": "Frequent trap testing intuitive shape assumption vs rigorous folding.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 13,
-"heading": "Symmetry Absence Trap: Standard Parallelogram",
-"back": "## Line Symmetry: ZERO\nA strictly standard parallelogram (non-rhombus, non-rectangle) contains no internal axes of reflection. Orthogonal or diagonal mappings invariably cause boundary vertex protrusions.\n\n## Rotational Symmetry: YES (Order 2)\nThe coordinate geometry maps perfectly onto itself when rotated mathematically by $180^{\circ}$ around its intersection of diagonals.\n\n## Conceptual Trap\nVisual slant often tricks observers into assuming diagonal line symmetry, but the transformation matrices of rotation and reflection yield strictly different boundary results here.",
-"standardMeta": {
-"question": "Define the unique geometric trap embedded in a standard parallelogram concerning its reflection symmetry count versus its rotational symmetry order."
-}
-}
-},
-{
-"cardId": "02916a33-c5f7-4716-a340-a327e39880f3",
-"originalOrder": 10,
-"originalHeading": "Equilateral vs. Isosceles Triangle Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to reflect comparative analysis",
-"Included mathematical condition implies notation"
-],
-"vettingNotes": "Standard triangle comparative properties.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 14,
-"heading": "Symmetry Comparison: Equilateral vs. Isosceles Triangles",
-"back": "## Equilateral Triangle\n- **Side Domain:** 3 strictly congruent edges.\n- **Line Symmetry:** **3 Axes** (Vertex-to-midpoint bisectors).\n- **Rotational Symmetry:** **Order 3** (Maps sequentially at integer multiples of $120^{\circ}$).\n\n## Isosceles Triangle\n- **Side Domain:** Exactly 2 congruent edges.\n- **Line Symmetry:** **1 Axis** (Altitude bisecting the distinct base segment).\n- **Rotational Symmetry:** **Zero (Order 1)**. Fails congruence until completing a full trivial $360^{\circ}$ transform cycle.",
-"standardMeta": {
-"question": "Contrast the mathematical variables for lines of symmetry and rotational order strictly between an equilateral triangle and a standard isosceles triangle."
-}
-}
-},
-{
-"cardId": "f01c9d8e-c8e4-48b1-8f15-4a748167cd34",
-"originalOrder": 22,
-"originalHeading": "Scalene Triangle Constraints",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading",
-"Added side inequality boundary limits"
-],
-"vettingNotes": "The logical conclusion to the triangle side-constraint sequence.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 15,
-"heading": "Zero-Symmetry Constraints of Scalene Triangles",
-"back": "## Line Symmetry: ZERO\nBecause the geometric limits dictate $Side_A \neq Side_B \neq Side_C$, no spatial coordinate fold can mathematically force bisected segments to align congruently.\n\n## Rotational Symmetry: ZERO (Order 1)\nThe strictly uneven distribution of interior vertex angles physically prevents coordinate overlap during any planar rotation strictly under $360^{\circ}$.",
-"standardMeta": {
-"question": "Explain the geometric boundary rules that dictate why a Scalene Triangle must mathematically possess exactly zero lines of reflection and zero valid rotational symmetry."
-}
-}
-},
-{
-"cardId": "cb1287b7-7e4c-480a-98ed-1ab3402ff533",
-"originalOrder": 11,
-"originalHeading": "Rhombus Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Expanded explanation regarding diagonal orthogonality"
-],
-"vettingNotes": "Quadrilateral edge case heavily tested in competitive exams.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 16,
-"heading": "Diagonal Symmetry Constraints of a Rhombus",
-"back": "## Line Symmetry\n**Exactly 2 Axes.** \nUnlike a non-square rectangle, the reflection lines for a true rhombus strictly trace its two internal intersecting diagonals (which meet orthogonal at $90^{\circ}$).\n\n## Rotational Symmetry\n**Order 2.** \nThe planar coordinates map congruently exactly twice per cycle, stabilizing at periodic intervals of $180^{\circ}$.",
-"standardMeta": {
-"question": "Mathematically quantify the lines of symmetry and the total order of rotational symmetry defining a standard Rhombus."
-}
-}
-},
-{
-"cardId": "9dc09233-41a2-4146-8807-b7a39f46cbb4",
-"originalOrder": 20,
-"originalHeading": "Symmetry of a Kite",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Clarified adjacent edge pairing constraints"
-],
-"vettingNotes": "Final major unique quadrilateral symmetry case.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 17,
-"heading": "Unilateral Symmetry Limits of a Geometric Kite",
-"back": "## Line Symmetry\n**Exactly 1 Axis.** \nDue to the constraint of having two distinct pairs of equal-length adjacent edges, the single valid line of reflection strictly traces the main, longer diagonal traversing between these adjacent boundary pairs.\n\n## Rotational Symmetry\n**ZERO (Order 1).**\nThe geometric variation in lengths between the upper paired sector and lower paired sector physically prevents isomorphic alignment during any angular displacement measuring less than $360^{\circ}$.",
-"standardMeta": {
-"question": "Delineate the exact line reflection and rotational mapping boundary limits characterizing a planar geometric Kite."
-}
-}
-},
-{
-"cardId": "9a626a52-4c72-4c75-9138-690c43ec8d64",
-"originalOrder": 31,
-"originalHeading": "Isosceles Trapezium vs. Standard Trapezium Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Formalized descriptions of parallel/non-parallel constraints"
-],
-"vettingNotes": "Reordered into the quadrilateral sequence.",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 18,
-"heading": "Trapezium Symmetry Distinction",
-"back": "## Standard Trapezium\n- **Domain:** Quadrilateral bound by exactly one parallel pair of opposing basis edges.\n- **Line Symmetry:** **Zero Axes.**\n- **Rotational Symmetry:** **Zero (Order 1).**\n\n## Isosceles Trapezium (Edge Case)\n- **Domain Constraint:** A strict subset where the non-parallel transverse opposing edges are locked to an identical scalar length.\n- **Line Symmetry:** **Exactly 1 Axis.** (A vertical perpendicular line perfectly bisecting both parallel base vectors).\n- **Rotational Symmetry:** **Zero (Order 1).**",
-"standardMeta": {
-"question": "Mathematically contrast the valid line reflections and rotational orders achievable by a generic Trapezium versus those defining a specialized Isosceles Trapezium."
-}
-}
-},
-{
-"cardId": "8c3bf482-5dfa-446a-9b46-7ab6417229cc",
-"originalOrder": 15,
-"originalHeading": "Horizontal vs. Vertical Letter Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reordered to start Alphanumeric application sequence",
-"Added typography boundary conditions"
-],
-"vettingNotes": "Classic foundational symmetry exercise.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 19,
-"heading": "Axes of Symmetry in Uppercase Alphanumerics",
-"back": "## Mapping Constraints\n- **Vertical Axis Only:** Maps left-to-right (e.g., **A, M, T, U, V, W, Y**).\n- **Horizontal Axis Only:** Maps top-to-bottom (e.g., **B, C, D, E, K**).\n- **Dual Axes:** Possesses intersection of both orthogonal lines (e.g., **H, I, O, X**).\n- **Zero Line Symmetry:** Asymmetric letters (e.g., **F, G, J, L, N, P, Q, R, S, Z**).\n\n## Boundary Conditions / Domain\n- This mathematical outcome is strictly constrained by standardized geometric block typography. Serif fonts or cursive styles can nullify predicted symmetry.",
-"standardMeta": {
-"question": "Categorize and provide standard examples of uppercase English block letters exhibiting strictly vertical, strictly horizontal, and dual-axis mathematical line symmetry."
-}
-}
-},
-{
-"cardId": "966ccd26-f199-486d-82d0-67903856fcc8",
-"originalOrder": 19,
-"originalHeading": "Rotational Symmetry of the Digits '0' and '8'",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Clarified font constraint traps"
-],
-"vettingNotes": "Alphanumeric rotation application.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 20,
-"heading": "Rotational Symmetry Constraints in Numeric Typography",
-"back": "## Concept\nAssuming standard symmetric block typography, the integer digits **'0' (zero)** and **'8' (eight)** geometrically support rotational symmetry of **Order 2**.\n\n## Invariant Mapping\nApplying a spatial coordinate transformation of exactly $180^{\circ}$ (upside-down flip) yields an isomorphic geometric state.\n\n## Boundary Conditions / Domain\n- **Typography Failure Mode:** This property entirely breaks if the digit '8' is printed with a mathematically smaller radius upper-loop relative to its base-loop, forcing an asymmetric mapping upon rotation.",
-"standardMeta": {
-"question": "Identify which two common base-10 Arabic digits exhibit strict rotational symmetry of order 2, and state the typographic boundary condition required for this to hold true."
-}
-}
-},
-{
-"cardId": "1e122e65-84da-4642-8c56-f4b335a3eb27",
-"originalOrder": 24,
-"originalHeading": "Real-Life Examples of Rotational Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading and structured examples"
-],
-"vettingNotes": "Applied knowledge testing physical environment abstraction.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 21,
-"heading": "Mechanical and Graphic Rotational Symmetry",
-"back": "## Real-World Mathematical Mappings\n\n- **Ceiling Fan (3 uniform blades):** Order 3 (Invariant at $\theta = 120^{\circ}$).\n- **Bicycle Wheel Structure:** Order $n$, where mathematical variable $n$ dictates the strictly uniform count of spanning spokes.\n- **Mobius Recycling Graphic (Triangle Loop):** Order 3 (Invariant at $\theta = 120^{\circ}$).\n- **Windmill / Pinwheel Turbine (4 uniform blades):** Order 4 (Invariant at $\theta = 90^{\circ}$).",
-"standardMeta": {
-"question": "Provide four distinct practical examples of mechanical systems or standard graphic symbols that exhibit mathematically valid rotational symmetry absent of line symmetry."
-}
-}
-},
-{
-"cardId": "1932f74a-3953-4bb2-aacf-73a0ff9940c3",
-"originalOrder": 14,
-"originalHeading": "Ashoka Chakra Symmetry Mathematics",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double escaped KaTeX in formula logic",
-"Restructured into accurate FORMULA card application"
-],
-"vettingNotes": "Excellent application of radial arm theory to Indian context.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 22,
-"heading": "Cultural Symmetry Application: Ashoka Chakra",
-"back": "## Component Anatomy\n- **Radial Variables:** Exactly 24 strictly uniform spokes spanning outward from the central hub.\n- **Domain Field:** A full rotation spans exactly $360^{\circ}$.\n\n## Boundary Conditions / Domain\n- The calculations are mathematically rigid and specific only to the stylized representation standardized within the geometric parameters of the Indian National Flag.",
-"formulaMeta": {
-"formula": "\text{Lines} = 24, \quad \text{Order} = 24, \quad \theta_{min} = 15^{\circ}",
-"description": "Computes the exact symmetry parameters for a regular 24-spoked wheel analog.",
-"derivation": "Functioning geometrically as a regular 24-spoked array:\n1. **Reflection Lines:** 12 diametrical axes intersecting the radial spokes + 12 axes strictly bisecting the void sectors between spokes $= 24$ total lines.\n2. **Rotational Order:** Bijective overlap maps perfectly 24 times per cycle.\n3. **Minimum Angle:** $\frac{360^{\circ}}{24} = 15^{\circ}$."
-}
-}
-},
-{
-"cardId": "eec38467-c2aa-4fce-aabd-4008c6f303a2",
-"originalOrder": 32,
-"originalHeading": "New Parliament Building Symmetry",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Updated classification to APPLICATION"
-],
-"vettingNotes": "Excellent modern-day architectural geometric mapping.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 23,
-"heading": "Architectural Symmetry Application: Parliament Building",
-"back": "## Line Symmetry (Reflection)\nThe macro external boundary functions abstractly as an equilateral triangle (with geometrically bevelled vertex features), producing strictly **3 intersecting lines** of reflection.\n\n## Rotational Symmetry\nThe architectural coordinates support a rotational mapping order of **3**.\n- *Invariant Mapping Angles:* The building's geometry spatially aligns exactly at $\theta = 120^{\circ}, 240^{\circ}, \text{ and } 360^{\circ}$.",
-"standardMeta": {
-"question": "Analyze the macro architectural geometry defining the New Parliament Building in Delhi. Mathematically deduce its maximum lines of reflection and precise interior angles of rotational mapping."
-}
-}
-},
-{
-"cardId": "563776ee-3df4-4832-845b-4fd69461d600",
-"originalOrder": 16,
-"originalHeading": "SOP: Completing Figures on a Dot Grid (Reflection)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading to formalize algorithmic SOP",
-"Escaped KaTeX formatting correctly"
-],
-"vettingNotes": "Converted from basic description to a rigorous step-by-step procedural algorithmic mapping task.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 24,
-"heading": "Algorithmic SOP: Plotting Symmetrical Coordinates on a Grid",
-"back": "## Component Anatomy\n- **Mapping Axis:** The established reflection line (Horizontal, Vertical, or Diagonal vector).\n- **Node $(x,y)$:** A strictly defined coordinate vertex on the initial geometric half.\n\n## Boundary Conditions / Domain\n- **Orthogonality Constraint:** The traversed distance for mapping new vertices must be mathematically constrained to measure strictly orthogonal (perpendicular) to the reflection axis.",
-"formulaMeta": {
-"formula": "\text{If axis is diagonal: } \Delta x \implies \Delta y \quad \text{and} \quad \Delta y \implies \Delta x",
-"description": "Standardized procedure for plotting isometric coordinate reflections across grid matrices.",
-"derivation": "**Algorithmic Execution:**\n1. Isolate an arbitrary geometric vertex on the defined origin plane.\n2. Quantify the exact perpendicular dot-matrix distance from said vertex to the transformation axis.\n3. Extrapolate that precise distance continuously across the boundary to establish the reflected image coordinate $A'$.\n4. Synthesize the new nodes linearly strictly matching the sequential order of the original geometry.\n*Transformation Shortcut:* Across a strict diagonal axis, a horizontal vector translation of $+2$ universally shifts to a vertical translation of $+2$ for its mirror."
-}
-}
-},
-{
-"cardId": "ebf5cf5d-3d2d-4bc8-8841-34a8f990599e",
-"originalOrder": 25,
-"originalHeading": "SOP: Verifying Multi-Angle Symmetries",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined procedural structure",
-"Double escaped KaTeX bounds"
-],
-"vettingNotes": "Critical algorithm to identify the full multi-angle symmetry set.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 25,
-"heading": "Algorithmic SOP: Generating All Multi-Angle Symmetries",
-"back": "## Component Anatomy\n- **$\theta_1$**: The fundamentally smallest identifiable interior mapping angle.\n- **$k$**: A scalar integer multiplier ($k \in \\{1, 2, 3 \dots n\\}$).\n\n## Boundary Conditions / Domain\n- **Terminal Limit:** The cyclic generation sequence mathematically terminates precisely when the parameter $k \cdot \theta_1$ achieves exactly $360^{\circ}$. Exceeding this boundary initiates redundant cyclic loops.",
-"formulaMeta": {
-"formula": "\theta_k = k \cdot \theta_1 \quad \text{until} \quad \theta_k = 360^{\circ}",
-"description": "Algorithmic extrapolation for identifying all subsequent valid rotational mapping angles.",
-"derivation": "**Execution Sequence:**\n1. Empirically determine or calculate the absolute minimum valid symmetry angle $\theta_1$.\n2. Generate an arithmetic progression sequence by iteratively multiplying $\theta_1$ by successive integers ($k=1, 2, 3\dots$).\n3. Terminate progression strictly when output equals $360^{\circ}$.\n*Example Execution:* If basic geometry maps at $\theta_1 = 60^{\circ}$, generating $k \times 60^{\circ}$ yields the strict set: $\\{60^{\circ}, 120^{\circ}, 180^{\circ}, 240^{\circ}, 300^{\circ}, 360^{\circ}\\}$."
-}
-}
-}
-]
-}{
-"deckId": "d34bfba0-0a5f-460f-8296-172ef116e89d",
-"cards": [
-{
-"cardId": "a2ec0546-c448-4698-ab10-7563dde51174",
-"originalOrder": 28,
-"originalHeading": "Deriving Minimum Angle from an Intermediate Symmetry Angle",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Refined heading for algorithmic precision",
-"Double-escaped KaTeX in formula field",
-"Enforced strict mathematical boundaries for parameter k"
-],
-"vettingNotes": "Converted to procedural derivation to assist in multi-step problem solving.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 26,
-"heading": "Algorithmic SOP: Deriving Minimum Symmetry Angle from an Intermediate Multiple",
-"back": "## Component Anatomy\n- **$\theta_{k}$**: A known, intermediate angle of rotational symmetry (e.g., $60^{\circ}$).\n- **$k$**: The strictly integer multiplier determining the known angle's position in the cyclic sequence.\n- **$\theta_{min}$**: The absolute minimum invariant angle of symmetry.\n\n## Boundary Conditions / Domain\n- The scalar multiplier $k$ must be strictly constrained to the positive integer domain ($\mathbb{Z}^+$).\n- All rotational mapping angles MUST structurally exist as integer multiples of $\theta_{min}$.",
-"formulaMeta": {
-"formula": "\theta_{min} = \frac{\theta_k}{k}",
-"description": "Calculates the base angle of symmetry when provided a non-base symmetrical multiple.",
-"derivation": "**Algorithmic Execution (Example for $\theta_k = 60^{\circ}$ with 2 preceding angles):**\n1. Establish that symmetrical mapping angles form a strict arithmetic progression: $1\theta, 2\theta, 3\theta \dots$\n2. Deduce the scalar $k$. If exactly two mapping angles strictly precede $60^{\circ}$, then $60^{\circ}$ structurally occupies the **third** position ($k=3$).\n3. Construct the algebraic mapping equation: $3 \cdot \theta_{min} = 60^{\circ}$.\n4. Solve algebraically to isolate $\theta_{min}$: $\theta_{min} = \frac{60^{\circ}}{3} = 20^{\circ}$."
-}
-}
-},
-{
-"cardId": "751ca60d-a67a-4b5b-84a9-612f2ff8b9ae",
-"originalOrder": 13,
-"originalHeading": "Calculating Angles for Radial Arms",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double-escaped KaTeX formula mapping",
-"Added strict identicality constraints to component anatomy"
-],
-"vettingNotes": "Standardized the procedural generation of regular radial figures.",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 27,
-"heading": "Algorithmic SOP: Calculating Radial Arm Mapping Angles",
-"back": "## Component Anatomy\n- **$k$**: The target total number of radial arms (e.g., petals, spokes, blades).\n- **$\theta$**: The uniform angular displacement required between any two adjacent radial vectors.\n\n## Boundary Conditions / Domain\n- **Isomorphism Constraint:** All $k$ radial arms must be strictly isomorphic (identical in scalar length and geometric morphology).\n- **Uniformity Limit:** The angular displacement $\theta$ must be distributed perfectly uniformly across the $360^{\circ}$ polar matrix.",
-"formulaMeta": {
-"formula": "\theta = \frac{360^{\circ}}{k}",
-"description": "Determines the precise angular displacement necessary to generate an evenly distributed k-arm radial figure.",
-"derivation": "**Algorithmic Generation Sequence:**\n1. Identify and mathematically fix the target order of symmetry $k$.\n2. Calculate the required uniform angular shift $\theta$ by computing $\frac{360^{\circ}}{k}$.\n3. Initialize the matrix by plotting the primary radial arm vector at exactly $0^{\circ}$.\n4. Map subsequent vectors by continuously adding the scalar $\theta$ to the previous polar coordinate. *(Example: For $k=5$, calculate $\theta = 72^{\circ}$. Output array: $0^{\circ}, 72^{\circ}, 144^{\circ}, 216^{\circ}, 288^{\circ}$)*."
-}
-}
-},
-{
-"cardId": "ed834964-0e96-4241-baf9-a3b1c51e0c51",
-"originalOrder": 17,
-"originalHeading": "Predicting Punched Hole Symmetries",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Elevated classification to PROCEDURAL",
-"Structured explanation using discrete algebraic limits"
-],
-"vettingNotes": "Transforms practical folding exercises into predictable mathematical progression rules.",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 28,
-"heading": "Procedural Logic: Predicting Symmetries in Punched Folded Matrices",
-"back": "## Transformation Logic\nEvery valid geometric fold across a central orthogonal axis acts as a matrix multiplier, effectively doubling the structural layer count ($2^f$ where $f$ is the number of folds).\n\n## Boundary Conditions / Domain\n- The physical punch matrix MUST strictly penetrate all folded layers simultaneously.\n- The punch coordinate must remain strictly internal and not intersect the boundary folding edges; otherwise, the mirrored output produces bisected partial holes rather than complete symmetrical nodes.",
-"standardMeta": {
-"question": "If a perfect square planar matrix is folded perfectly in half horizontally, then bisected vertically, and a single internal node is punched, detail the procedural logic defining the final node count upon unfolding."
-}
-}
-},
-{
-"cardId": "5c950563-1c1f-4e70-a879-51218483490e",
-"originalOrder": 29,
-"originalHeading": "Paper Folding: Central Tilted Square (Diamond)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Clarified orthogonal vs diagonal cutting boundaries"
-],
-"vettingNotes": "Formalizes a common application-level geometry puzzle.",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 29,
-"heading": "Procedural Generation: Central Tilted Square (Diamond) via Folding",
-"back": "## Algorithmic Execution\n1. Bisect the planar matrix horizontally via folding, yielding a 2-layer matrix.\n2. Bisect orthogonally (vertically), yielding a 4-layer spatial matrix.\n3. Isolate the fully closed interior corner vertex (which corresponds strictly to the mathematical centroid of the unfolded plane).\n4. Execute a single **strict diagonal (slanting) transversal cut** across this internal vertex.\n\n## Boundary Conditions / Domain\n- **Cut Trajectory Constraint:** A perpendicular/orthogonal cut relative to the folded edges yields a standard central square structurally parallel to the outer boundary. To strictly generate a tilted geometric rhombus (diamond), the cut vector MUST traverse at an oblique diagonal angle.",
-"standardMeta": {
-"question": "Establish the algorithmic procedure and required boundary constraints to generate a hollow tilted interior square (diamond) at the centroid of a planar matrix using a single linear cut on folded geometry."
-}
-}
-},
-{
-"cardId": "28760891-aca2-4c49-a251-5c510109169d",
-"originalOrder": 23,
-"originalHeading": "Square Combinations (2D Grids)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reclassified to APPLICATION",
-"Added bounding box constraints"
-],
-"vettingNotes": "Tests the concept of maximum symmetry in complex intersecting figures.",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"ncert",
-"class-6",
-"jee-foundation"
-],
-"order": 30,
-"heading": "Maximum Symmetry Boundaries in Tiled 2D Grids",
-"back": "## Conceptual Theorem\nComplex 2D spatial matrices (e.g., tiled grids, Rangolis) synthesize intersecting geometries. The overall structural symmetry is mathematically bounded by its macroscopic perimeter frame.\n\n## Maximum Limit\nIf the complete localized pattern establishes a perfectly regular square bounding box, the *absolute maximum* limit of reflection axes it can sustain is strictly **4** (1 Vertical, 1 Horizontal, 2 Diagonals).\n\n## Boundary Conditions / Domain\n- For the macro limit to remain 4, every constituent internal geometry must map congruently across all four respective axes. Asymmetric internal plotting monotonically reduces the macro symmetry count.",
-"standardMeta": {
-"question": "What mathematical limit defines the absolute maximum number of reflection axes a complex tiled grid or Rangoli pattern can possess, assuming its macro perimeter forms a perfect square?"
-}
-}
-},
-{
-"cardId": "661f6d55-b7c3-42ba-9d74-bbfdee630e09",
-"originalOrder": 26,
-"originalHeading": "Symmetry Sequence of the Koch Snowflake",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Reclassified as OBSERVATION to reflect fractal iterations",
-"Explicitly noted the sequence transition condition"
-],
-"vettingNotes": "Excellent edge case bridging 6th-grade symmetry with higher-order fractal limits.",
-"cardData": {
-"type": "STANDARD",
-"classification": "OBSERVATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"fractal",
-"class-6",
-"jee-foundation"
-],
-"order": 31,
-"heading": "Fractal Symmetry Progression: Koch Snowflake",
-"back": "## Geometric Evaluation\nThe Koch Snowflake represents an iterative fractal progression. \n\n## Sequence Mapping\nBoth the reflection axis count and the rotational order track identical mathematical sequences across iterations: **$3, 6, 6, 6, 6 \dots$**\n\n## Boundary Conditions / Domain\n- **Iteration Zero:** The base geometry ($n=0$) is a strict equilateral triangle, yielding exactly 3 reflection lines and order 3 rotational mapping.\n- **Infinite Stabilization:** From the first structural fractal iteration ($n \ge 1$) onwards, the symmetry matrix permanently locks to exactly 6 lines and order 6, remaining invariant as iterations approach infinity.",
-"standardMeta": {
-"question": "Document the explicit mathematical sequence tracking the magnitude of reflection axes and rotational mapping orders across the infinite iterations of a Koch Snowflake fractal."
-}
-}
-},
-{
-"cardId": "715fc9af-7613-4da7-8600-7434f0dba839",
-"originalOrder": 27,
-"originalHeading": "Fractional Angles of Rotational Symmetry (e.g., 7-Arm Figure)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double-escaped KaTeX fractional output",
-"Explicitly defined the rational number domain boundary constraint"
-],
-"vettingNotes": "Vital card dispelling the misconception that angular symmetry must be an integer.",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"symmetry",
-"geometry",
-"formula",
-"class-6",
-"jee-foundation"
-],
-"order": 32,
-"heading": "Fractional Domain Constraints in Rotational Angles",
-"back": "## Component Anatomy\n- **$n$**: The strictly integer quantity of discrete identical rotational mappings (e.g., $n=7$).\n- **$\theta_{min}$**: The absolute minimum invariant mapped angle.\n\n## Boundary Conditions / Domain\n- **Crucial Mathematical Domain Trap:** Symmetrical mapping angles $\theta$ are **NOT** strictly restricted to the domain of integers ($\mathbb{Z}$). \n- They are mathematically valid across the domain of rational numbers ($\mathbb{Q}$) and may evaluate as exact mixed fractions, provided the foundational equality $n \cdot \theta_{min} = 360^{\circ}$ remains strictly mathematically true.",
-"formulaMeta": {
-"formula": "\theta_{min} = \frac{360^{\circ}}{7} = 51 \frac{3}{7}^{\circ}",
-"description": "Calculates the base fractional symmetry angle for a septagonal (7-order) geometry.",
-"derivation": "**Algorithmic Execution:**\n1. Confirm target rotational order constraint $n = 7$.\n2. Implement quotient mapping: divide the full $360^{\circ}$ polar plane by 7.\n3. Recognize 360 is not a perfect integer multiple of 7. Execute polynomial long division to extract the exact remainder.\n4. Output strictly as the precise rational mixed fraction $51 \frac{3}{7}^{\circ}$ to preserve zero mathematical data loss (avoid repeating decimals)."
-}
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"action": "SYSTEM",
-"cardData": null
-}
-]
+  "deckId": "d34bfba0-0a5f-460f-8296-172ef116e89d",
+  "cards": [
+    {
+      "cardId": "bf6b831a-173b-4edf-9d81-3cdfe1d00c13",
+      "originalOrder": 1,
+      "originalHeading": "Line of Symmetry (Reflection Symmetry)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to be a precise cognitive primer",
+        "Added explicit mathematical boundaries and domain rules to the explanation",
+        "Standardized tags"
+      ],
+      "vettingNotes": "Enhanced foundational rigor by formalizing boundary conditions.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 1,
+        "heading": "Axiomatic Definition of Line Symmetry (Reflection)",
+        "back": "## Concept\nA line of symmetry is an imaginary axis that mathematically bisects a 2D geometric figure into two congruent, mirror-image halves.\n\n## Verification\nIf the figure is mapped (folded) strictly along this axis, the left and right halves must achieve complete, isomorphic overlap.\n\n## Boundary Conditions / Domain\n- The mapping must result in zero remainder.\n- If an overlap leaves any excess edge or unaligned vertex, the axis is mathematically invalid as a line of symmetry.",
+        "standardMeta": {
+          "question": "What defines a strict 'Line of Symmetry' in a 2D geometric figure, and what is the required boundary condition when practically verified via folding?"
+        }
+      }
+    },
+    {
+      "cardId": "2efe458b-3eaf-45e3-90c8-706a0cb6e517",
+      "originalOrder": 3,
+      "originalHeading": "Mechanics of Point Reflection",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Updated classification to CONCEPT",
+        "Refined heading for pedagogical precision",
+        "Double-escaped LaTeX syntax"
+      ],
+      "vettingNotes": "Positioned immediately after the definition to establish the core invariant property.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 2,
+        "heading": "Equidistance Rule in Point Reflection",
+        "back": "## Concept\nWhen a planar figure undergoes reflection across an axis of symmetry, every coordinate point $A$ in the preimage is mapped bijectively to a corresponding image point $A'$.\n\n## Equidistance Theorem\nBoth the original node $A$ and its reflected node $A'$ are strictly constrained to lie at the exact same perpendicular distance from the axis of symmetry.\n\n## Boundary Conditions / Domain\n- The distance measured must be strictly perpendicular (orthogonal, $90^{\\circ}$) to the line of symmetry. Oblique distance measurements invalidate this rule.",
+        "standardMeta": {
+          "question": "What is the strict mathematical theorem governing the distance relationship between any pre-image point and its mirrored image relative to the axis of symmetry?"
+        }
+      }
+    },
+    {
+      "cardId": "8d150a0d-01ca-45e4-8466-41e4ff32c7e8",
+      "originalOrder": 30,
+      "originalHeading": "Isometry of Line Reflection (Length Invariance)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered to sequence 3 to group with fundamental reflection concepts",
+        "Expanded explanation of isometric mapping"
+      ],
+      "vettingNotes": "Moved from edge-case section to foundational section as length invariance is axiomatic to symmetry.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 3,
+        "heading": "Isometry of Line Reflection (Length Invariance)",
+        "back": "## Concept\nReflection across an axis of symmetry is defined as an **isometric transformation** (rigid motion).\n\n## Mathematical Rule\nIf a line segment of length $L$ (e.g., $12\\text{ cm}$) is reflected, its resulting mirror image is mathematically guaranteed to preserve the exact magnitude $L$ ($12\\text{ cm}$).\n\n## Boundary Conditions / Domain\n- The transformation strictly preserves 1D magnitude (length) and 2D magnitude (area/angles). \n- The coordinate spatial orientation is inverted (flipped), but the absolute scale factor is strictly $1$.",
+        "standardMeta": {
+          "question": "If a line segment measuring exactly $12\\text{ cm}$ is subjected to a reflection transformation, what geometric property dictates the length of its resulting mirror image?"
+        }
+      }
+    },
+    {
+      "cardId": "928570da-70a6-4113-a439-65c737e70935",
+      "originalOrder": 4,
+      "originalHeading": "Rotational Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to axiomatic definition",
+        "Added explicit mathematical limits ($0^\\circ < \\theta < 360^\\circ$)"
+      ],
+      "vettingNotes": "Standardized the domain constraints for acceptable rotational angles.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 4,
+        "heading": "Axiomatic Definition of Rotational Symmetry",
+        "back": "## Definition\nA planar figure possesses rotational symmetry if it maps perfectly onto its initial coordinate state after being rotated around a defined central point (centroid) by a specific angle $\\theta$.\n\n## Boundary Conditions / Domain\n- The mapping angle $\\theta$ is strictly bounded: $0^{\\circ} < \\theta < 360^{\\circ}$.\n- A full $360^{\\circ}$ rotation is a trivial identity transformation (all objects map onto themselves at $360^{\\circ}$), and thus $360^{\\circ}$ alone does **not** satisfy the criteria for rotational symmetry.",
+        "standardMeta": {
+          "question": "Define the geometric property of 'Rotational Symmetry' and explain the mathematical domain limit regarding a $360^{\\circ}$ rotation."
+        }
+      }
+    },
+    {
+      "cardId": "054b0cee-e4d5-4dbb-9ed3-d43fe5ba2535",
+      "originalOrder": 5,
+      "originalHeading": "Order of Rotational Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to valid FORMULA structure",
+        "Double escaped KaTeX strings",
+        "Formatted strictly with Component Anatomy and Domain"
+      ],
+      "vettingNotes": "Validated boundary condition $n \\ge 2$ for non-trivial symmetry.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 5,
+        "heading": "Formula for Order of Rotational Symmetry",
+        "back": "## Component Anatomy\n- **$n$**: Order of rotational symmetry (the total integer number of identical self-mappings within one complete cycle).\n- **$\\theta$**: The smallest interior angle of rotational symmetry.\n\n## Boundary Conditions / Domain\n- $n \\ge 2$ is required for a geometric figure to be classified as having true rotational symmetry (Order 1 implies asymmetry).\n- $\\theta$ must strictly be a factor of $360^{\\circ}$ if it is a whole number degree measure.",
+        "formulaMeta": {
+          "formula": "n = \\frac{360^{\\circ}}{\\theta}",
+          "description": "Calculates the total Order of Rotational Symmetry based on the smallest symmetrical angle.",
+          "derivation": "**Algorithmic SOP:**\n1. Establish the rotational origin at the figure's centroid.\n2. Rotate the coordinate plane, recording the smallest angle $\\theta$ where the figure demonstrates isomorphic congruence with its initial state.\n3. Divide $360^{\\circ}$ by $\\theta$ to determine the total matching instances (Order $n$)."
+        }
+      }
+    },
+    {
+      "cardId": "d330e7d2-08af-47d2-b88c-8dedd4f238bb",
+      "originalOrder": 6,
+      "originalHeading": "Smallest Angle Factorization Rule",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to domain rule",
+        "Clarified invalid fractional order implications"
+      ],
+      "vettingNotes": "Reinforces the mathematical boundary condition set up in the previous formula card.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 6,
+        "heading": "Factorization Domain Rule for Rotational Angles",
+        "back": "## Mathematical Rule\nIf the smallest angle of rotational symmetry for a closed figure is a natural number in degrees, it **must** strictly be a factor (divisor) of $360^{\\circ}$ (e.g., $90^{\\circ}, 72^{\\circ}, 60^{\\circ}$).\n\n## Boundary Conditions / Domain\n- The rotational order $n$ must be an integer. An angle like $17^{\\circ}$ is logically invalid for symmetry because $360 / 17$ yields a non-integer, creating an impossible fractional overlapping state at the end of the full rotation cycle.",
+        "standardMeta": {
+          "question": "If a geometric figure exhibits rotational symmetry, why must its smallest angle of rotation (when expressed as a whole number) act as a perfect mathematical divisor of $360^{\\circ}$?"
+        }
+      }
+    },
+    {
+      "cardId": "32a69a3f-37e8-4c3e-a82a-b320bb59afd4",
+      "originalOrder": 9,
+      "originalHeading": "Symmetry in Regular Polygons",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double-escaped LaTeX strings",
+        "Separated Anatomy and Domains"
+      ],
+      "vettingNotes": "Moved earlier in sequence to serve as the master theorem before evaluating specific shapes.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 7,
+        "heading": "Symmetry Formula for n-sided Regular Polygons",
+        "back": "## Component Anatomy\n- **$n$**: The total integer number of strictly congruent edges and equiangular vertices defining the polygon.\n\n## Boundary Conditions / Domain\n- The target polygon **MUST** strictly satisfy the condition of being 'Regular' (both equilateral AND equiangular concurrently).\n- Scalene or generically irregular polygons immediately violate this theorem.",
+        "formulaMeta": {
+          "formula": "\\text{Lines of Symmetry} = n \\quad \\text{and} \\quad \\text{Rotational Order} = n",
+          "description": "Determines the total reflection axes and rotational order for any valid regular polygon.",
+          "derivation": "Due to strict congruence among all $n$ edges and $n$ interior angles:\n1. The centroid-to-vertex and centroid-to-midpoint reflection axes yield exactly $n$ symmetrical splits.\n2. In polar rotation, the figure maps bijectively onto itself $n$ times per $360^{\\circ}$ cycle, enforcing a minimum invariant angle of $\\frac{360^{\\circ}}{n}$."
+        }
+      }
+    },
+    {
+      "cardId": "429ab381-6e30-4eb0-995c-5ce5171c95f1",
+      "originalOrder": 18,
+      "originalHeading": "Minimum Angles for Regular Polygons",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered to act as direct applied corollaries to the regular polygon formula",
+        "Added explicit formula notation for derivations"
+      ],
+      "vettingNotes": "Perfect bridge connecting the theoretical polygon formula to specific geometric standards.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 8,
+        "heading": "Minimum Angles for Standard Regular Polygons",
+        "back": "By strictly applying $\\theta = \\frac{360^{\\circ}}{n}$:\n\n- **Equilateral Triangle:** $n=3 \\implies \\frac{360^{\\circ}}{3} = 120^{\\circ}$\n- **Square (Regular Quadrilateral):** $n=4 \\implies \\frac{360^{\\circ}}{4} = 90^{\\circ}$\n- **Regular Pentagon:** $n=5 \\implies \\frac{360^{\\circ}}{5} = 72^{\\circ}$\n- **Regular Hexagon:** $n=6 \\implies \\frac{360^{\\circ}}{6} = 60^{\\circ}$",
+        "standardMeta": {
+          "question": "Apply the rotational symmetry theorem to calculate the absolute smallest angle of rotational symmetry for an equilateral triangle, a square, a regular pentagon, and a regular hexagon."
+        }
+      }
+    },
+    {
+      "cardId": "3f7374b5-66f5-451e-8fc5-1f641a125bb7",
+      "originalOrder": 21,
+      "originalHeading": "Symmetry of a Regular Decagon",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered next to generic shape angles",
+        "Refined textual layout for clarity"
+      ],
+      "vettingNotes": "Follows logically as an extended application of the polygon rule.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 9,
+        "heading": "Symmetry Variables of a Regular Decagon",
+        "back": "## Geometric Evaluation ($n=10$)\n\n- **Lines of Symmetry:** $10$ discrete axes.\n  - *Distribution:* 5 lines strictly pass through opposing vertices, while 5 lines perpendicularly bisect opposing edge midpoints.\n- **Rotational Order:** Exactly $10$.\n- **Smallest Symmetrical Angle:** $\\frac{360^{\\circ}}{10} = 36^{\\circ}$.",
+        "standardMeta": {
+          "question": "Deduce the total lines of symmetry, the rotational order magnitude, and the minimum angular parameter of symmetry for a Regular Decagon."
+        }
+      }
+    },
+    {
+      "cardId": "a71ae792-60ee-4e4a-a128-f56787c03490",
+      "originalOrder": 7,
+      "originalHeading": "Symmetry of a Circle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to emphasize infinity properties",
+        "Reordered after n-sided polygons to represent the limit as n approaches infinity"
+      ],
+      "vettingNotes": "Mathematically, a circle represents an n-sided regular polygon as limit approaches infinity.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 10,
+        "heading": "Infinite Symmetry Properties of a Circle",
+        "back": "## Line Symmetry\nA continuous circle possesses mathematically **infinite** axes of reflection symmetry. \n*Rule:* Every line segment acting as a diameter (passing through the centroid) constitutes a valid axis.\n\n## Rotational Symmetry\nA circle possesses an **infinite** order of rotational symmetry.\n*Rule:* The coordinate geometry maps congruently onto itself at *every continuous infinitesimal angular shift* around its centroid point.",
+        "standardMeta": {
+          "question": "Mathematically describe the magnitudes of line symmetry and rotational symmetry bounding a perfect circle. Are these values finite or infinite?"
+        }
+      }
+    },
+    {
+      "cardId": "283993e1-a71c-47dd-b6a8-e1454e873511",
+      "originalOrder": 12,
+      "originalHeading": "Symmetry of a Semi-Circle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Updated classification to DISTINCTION",
+        "Strengthened boundary conditions concerning Order 1"
+      ],
+      "vettingNotes": "Critical distinction trap contrasted immediately after the full circle.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 11,
+        "heading": "Symmetry Constraints of a Semi-Circle",
+        "back": "## Line Symmetry\nStrictly bounded to **1 Axis**. This line acts as the perpendicular bisector orthogonal to its straight diameter edge.\n\n## Rotational Symmetry\n**Zero valid rotational symmetry (Order 1).**\n\n## Boundary Conditions / Domain\n- The asymmetric curve-to-straight-edge boundary demands a full $360^{\\circ}$ rotation to map congruently onto its initial spatial coordinates. Order 1 is mathematically defined as an absence of true rotational symmetry.",
+        "standardMeta": {
+          "question": "Analyze the exact line symmetry count and the rotational symmetry order assigned to a semi-circle, contrasting it with a full circle."
+        }
+      }
+    },
+    {
+      "cardId": "63ec3b2a-5633-47f1-9100-6a19eed0856b",
+      "originalOrder": 2,
+      "originalHeading": "Diagonal Symmetry: Square vs. Rectangle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Strengthened terminology to 'Non-Square Rectangle'",
+        "Moved into specialized shape sequence"
+      ],
+      "vettingNotes": "Common exam trap comparing two equigonal quadrilaterals.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 12,
+        "heading": "Diagonal Reflection Trap: Square vs. Non-Square Rectangle",
+        "back": "## Square (Regular Quadrilateral)\nThe diagonals **ARE** mathematically valid lines of symmetry. Reflection mapping along the diagonal generates perfectly congruent and overlapping right-isosceles triangles.\n\n## Rectangle (Strictly Non-Square)\nThe diagonals are **NOT** valid lines of symmetry.\n\n## Boundary Conditions / Domain\n- Because adjacent edge lengths differ ($L \\neq W$), an attempted diagonal reflection maps the vertices outside the geometric boundary, yielding protruding scalene right triangles that fail isometric overlap.",
+        "standardMeta": {
+          "question": "Do the internal diagonals of a standard rectangle mathematically qualify as lines of symmetry? Contrast this geometric behavior with the diagonals of a standard square."
+        }
+      }
+    },
+    {
+      "cardId": "e19542a0-f22b-46a1-8db1-b1384aff4d35",
+      "originalOrder": 8,
+      "originalHeading": "The Parallelogram Trap",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Updated classification to DISTINCTION"],
+      "vettingNotes": "Frequent trap testing intuitive shape assumption vs rigorous folding.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 13,
+        "heading": "Symmetry Absence Trap: Standard Parallelogram",
+        "back": "## Line Symmetry: ZERO\nA strictly standard parallelogram (non-rhombus, non-rectangle) contains no internal axes of reflection. Orthogonal or diagonal mappings invariably cause boundary vertex protrusions.\n\n## Rotational Symmetry: YES (Order 2)\nThe coordinate geometry maps perfectly onto itself when rotated mathematically by $180^{\\circ}$ around its intersection of diagonals.\n\n## Conceptual Trap\nVisual slant often tricks observers into assuming diagonal line symmetry, but the transformation matrices of rotation and reflection yield strictly different boundary results here.",
+        "standardMeta": {
+          "question": "Define the unique geometric trap embedded in a standard parallelogram concerning its reflection symmetry count versus its rotational symmetry order."
+        }
+      }
+    },
+    {
+      "cardId": "02916a33-c5f7-4716-a340-a327e39880f3",
+      "originalOrder": 10,
+      "originalHeading": "Equilateral vs. Isosceles Triangle Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to reflect comparative analysis",
+        "Included mathematical condition implies notation"
+      ],
+      "vettingNotes": "Standard triangle comparative properties.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 14,
+        "heading": "Symmetry Comparison: Equilateral vs. Isosceles Triangles",
+        "back": "## Equilateral Triangle\n- **Side Domain:** 3 strictly congruent edges.\n- **Line Symmetry:** **3 Axes** (Vertex-to-midpoint bisectors).\n- **Rotational Symmetry:** **Order 3** (Maps sequentially at integer multiples of $120^{\\circ}$).\n\n## Isosceles Triangle\n- **Side Domain:** Exactly 2 congruent edges.\n- **Line Symmetry:** **1 Axis** (Altitude bisecting the distinct base segment).\n- **Rotational Symmetry:** **Zero (Order 1)**. Fails congruence until completing a full trivial $360^{\\circ}$ transform cycle.",
+        "standardMeta": {
+          "question": "Contrast the mathematical variables for lines of symmetry and rotational order strictly between an equilateral triangle and a standard isosceles triangle."
+        }
+      }
+    },
+    {
+      "cardId": "f01c9d8e-c8e4-48b1-8f15-4a748167cd34",
+      "originalOrder": 22,
+      "originalHeading": "Scalene Triangle Constraints",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading",
+        "Added side inequality boundary limits"
+      ],
+      "vettingNotes": "The logical conclusion to the triangle side-constraint sequence.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 15,
+        "heading": "Zero-Symmetry Constraints of Scalene Triangles",
+        "back": "## Line Symmetry: ZERO\nBecause the geometric limits dictate $Side_A \\neq Side_B \\neq Side_C$, no spatial coordinate fold can mathematically force bisected segments to align congruently.\n\n## Rotational Symmetry: ZERO (Order 1)\nThe strictly uneven distribution of interior vertex angles physically prevents coordinate overlap during any planar rotation strictly under $360^{\\circ}$.",
+        "standardMeta": {
+          "question": "Explain the geometric boundary rules that dictate why a Scalene Triangle must mathematically possess exactly zero lines of reflection and zero valid rotational symmetry."
+        }
+      }
+    },
+    {
+      "cardId": "cb1287b7-7e4c-480a-98ed-1ab3402ff533",
+      "originalOrder": 11,
+      "originalHeading": "Rhombus Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Expanded explanation regarding diagonal orthogonality"
+      ],
+      "vettingNotes": "Quadrilateral edge case heavily tested in competitive exams.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 16,
+        "heading": "Diagonal Symmetry Constraints of a Rhombus",
+        "back": "## Line Symmetry\n**Exactly 2 Axes.** \nUnlike a non-square rectangle, the reflection lines for a true rhombus strictly trace its two internal intersecting diagonals (which meet orthogonal at $90^{\\circ}$).\n\n## Rotational Symmetry\n**Order 2.** \nThe planar coordinates map congruently exactly twice per cycle, stabilizing at periodic intervals of $180^{\\circ}$.",
+        "standardMeta": {
+          "question": "Mathematically quantify the lines of symmetry and the total order of rotational symmetry defining a standard Rhombus."
+        }
+      }
+    },
+    {
+      "cardId": "9dc09233-41a2-4146-8807-b7a39f46cbb4",
+      "originalOrder": 20,
+      "originalHeading": "Symmetry of a Kite",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Clarified adjacent edge pairing constraints"],
+      "vettingNotes": "Final major unique quadrilateral symmetry case.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 17,
+        "heading": "Unilateral Symmetry Limits of a Geometric Kite",
+        "back": "## Line Symmetry\n**Exactly 1 Axis.** \nDue to the constraint of having two distinct pairs of equal-length adjacent edges, the single valid line of reflection strictly traces the main, longer diagonal traversing between these adjacent boundary pairs.\n\n## Rotational Symmetry\n**ZERO (Order 1).**\nThe geometric variation in lengths between the upper paired sector and lower paired sector physically prevents isomorphic alignment during any angular displacement measuring less than $360^{\\circ}$.",
+        "standardMeta": {
+          "question": "Delineate the exact line reflection and rotational mapping boundary limits characterizing a planar geometric Kite."
+        }
+      }
+    },
+    {
+      "cardId": "9a626a52-4c72-4c75-9138-690c43ec8d64",
+      "originalOrder": 31,
+      "originalHeading": "Isosceles Trapezium vs. Standard Trapezium Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Formalized descriptions of parallel/non-parallel constraints"
+      ],
+      "vettingNotes": "Reordered into the quadrilateral sequence.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 18,
+        "heading": "Trapezium Symmetry Distinction",
+        "back": "## Standard Trapezium\n- **Domain:** Quadrilateral bound by exactly one parallel pair of opposing basis edges.\n- **Line Symmetry:** **Zero Axes.**\n- **Rotational Symmetry:** **Zero (Order 1).**\n\n## Isosceles Trapezium (Edge Case)\n- **Domain Constraint:** A strict subset where the non-parallel transverse opposing edges are locked to an identical scalar length.\n- **Line Symmetry:** **Exactly 1 Axis.** (A vertical perpendicular line perfectly bisecting both parallel base vectors).\n- **Rotational Symmetry:** **Zero (Order 1).**",
+        "standardMeta": {
+          "question": "Mathematically contrast the valid line reflections and rotational orders achievable by a generic Trapezium versus those defining a specialized Isosceles Trapezium."
+        }
+      }
+    },
+    {
+      "cardId": "8c3bf482-5dfa-446a-9b46-7ab6417229cc",
+      "originalOrder": 15,
+      "originalHeading": "Horizontal vs. Vertical Letter Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reordered to start Alphanumeric application sequence",
+        "Added typography boundary conditions"
+      ],
+      "vettingNotes": "Classic foundational symmetry exercise.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 19,
+        "heading": "Axes of Symmetry in Uppercase Alphanumerics",
+        "back": "## Mapping Constraints\n- **Vertical Axis Only:** Maps left-to-right (e.g., **A, M, T, U, V, W, Y**).\n- **Horizontal Axis Only:** Maps top-to-bottom (e.g., **B, C, D, E, K**).\n- **Dual Axes:** Possesses intersection of both orthogonal lines (e.g., **H, I, O, X**).\n- **Zero Line Symmetry:** Asymmetric letters (e.g., **F, G, J, L, N, P, Q, R, S, Z**).\n\n## Boundary Conditions / Domain\n- This mathematical outcome is strictly constrained by standardized geometric block typography. Serif fonts or cursive styles can nullify predicted symmetry.",
+        "standardMeta": {
+          "question": "Categorize and provide standard examples of uppercase English block letters exhibiting strictly vertical, strictly horizontal, and dual-axis mathematical line symmetry."
+        }
+      }
+    },
+    {
+      "cardId": "966ccd26-f199-486d-82d0-67903856fcc8",
+      "originalOrder": 19,
+      "originalHeading": "Rotational Symmetry of the Digits '0' and '8'",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Clarified font constraint traps"],
+      "vettingNotes": "Alphanumeric rotation application.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 20,
+        "heading": "Rotational Symmetry Constraints in Numeric Typography",
+        "back": "## Concept\nAssuming standard symmetric block typography, the integer digits **'0' (zero)** and **'8' (eight)** geometrically support rotational symmetry of **Order 2**.\n\n## Invariant Mapping\nApplying a spatial coordinate transformation of exactly $180^{\\circ}$ (upside-down flip) yields an isomorphic geometric state.\n\n## Boundary Conditions / Domain\n- **Typography Failure Mode:** This property entirely breaks if the digit '8' is printed with a mathematically smaller radius upper-loop relative to its base-loop, forcing an asymmetric mapping upon rotation.",
+        "standardMeta": {
+          "question": "Identify which two common base-10 Arabic digits exhibit strict rotational symmetry of order 2, and state the typographic boundary condition required for this to hold true."
+        }
+      }
+    },
+    {
+      "cardId": "1e122e65-84da-4642-8c56-f4b335a3eb27",
+      "originalOrder": 24,
+      "originalHeading": "Real-Life Examples of Rotational Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Refined heading and structured examples"],
+      "vettingNotes": "Applied knowledge testing physical environment abstraction.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 21,
+        "heading": "Mechanical and Graphic Rotational Symmetry",
+        "back": "## Real-World Mathematical Mappings\n\n- **Ceiling Fan (3 uniform blades):** Order 3 (Invariant at $\\theta = 120^{\\circ}$).\n- **Bicycle Wheel Structure:** Order $n$, where mathematical variable $n$ dictates the strictly uniform count of spanning spokes.\n- **Mobius Recycling Graphic (Triangle Loop):** Order 3 (Invariant at $\\theta = 120^{\\circ}$).\n- **Windmill / Pinwheel Turbine (4 uniform blades):** Order 4 (Invariant at $\\theta = 90^{\\circ}$).",
+        "standardMeta": {
+          "question": "Provide four distinct practical examples of mechanical systems or standard graphic symbols that exhibit mathematically valid rotational symmetry absent of line symmetry."
+        }
+      }
+    },
+    {
+      "cardId": "1932f74a-3953-4bb2-aacf-73a0ff9940c3",
+      "originalOrder": 14,
+      "originalHeading": "Ashoka Chakra Symmetry Mathematics",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double escaped KaTeX in formula logic",
+        "Restructured into accurate FORMULA card application"
+      ],
+      "vettingNotes": "Excellent application of radial arm theory to Indian context.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 22,
+        "heading": "Cultural Symmetry Application: Ashoka Chakra",
+        "back": "## Component Anatomy\n- **Radial Variables:** Exactly 24 strictly uniform spokes spanning outward from the central hub.\n- **Domain Field:** A full rotation spans exactly $360^{\\circ}$.\n\n## Boundary Conditions / Domain\n- The calculations are mathematically rigid and specific only to the stylized representation standardized within the geometric parameters of the Indian National Flag.",
+        "formulaMeta": {
+          "formula": "\\text{Lines} = 24, \\quad \\text{Order} = 24, \\quad \\theta_{min} = 15^{\\circ}",
+          "description": "Computes the exact symmetry parameters for a regular 24-spoked wheel analog.",
+          "derivation": "Functioning geometrically as a regular 24-spoked array:\n1. **Reflection Lines:** 12 diametrical axes intersecting the radial spokes + 12 axes strictly bisecting the void sectors between spokes $= 24$ total lines.\n2. **Rotational Order:** Bijective overlap maps perfectly 24 times per cycle.\n3. **Minimum Angle:** $\\frac{360^{\\circ}}{24} = 15^{\\circ}$."
+        }
+      }
+    },
+    {
+      "cardId": "eec38467-c2aa-4fce-aabd-4008c6f303a2",
+      "originalOrder": 32,
+      "originalHeading": "New Parliament Building Symmetry",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Updated classification to APPLICATION"],
+      "vettingNotes": "Excellent modern-day architectural geometric mapping.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 23,
+        "heading": "Architectural Symmetry Application: Parliament Building",
+        "back": "## Line Symmetry (Reflection)\nThe macro external boundary functions abstractly as an equilateral triangle (with geometrically bevelled vertex features), producing strictly **3 intersecting lines** of reflection.\n\n## Rotational Symmetry\nThe architectural coordinates support a rotational mapping order of **3**.\n- *Invariant Mapping Angles:* The building's geometry spatially aligns exactly at $\\theta = 120^{\\circ}, 240^{\\circ}, \\text{ and } 360^{\\circ}$.",
+        "standardMeta": {
+          "question": "Analyze the macro architectural geometry defining the New Parliament Building in Delhi. Mathematically deduce its maximum lines of reflection and precise interior angles of rotational mapping."
+        }
+      }
+    },
+    {
+      "cardId": "563776ee-3df4-4832-845b-4fd69461d600",
+      "originalOrder": 16,
+      "originalHeading": "SOP: Completing Figures on a Dot Grid (Reflection)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading to formalize algorithmic SOP",
+        "Escaped KaTeX formatting correctly"
+      ],
+      "vettingNotes": "Converted from basic description to a rigorous step-by-step procedural algorithmic mapping task.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 24,
+        "heading": "Algorithmic SOP: Plotting Symmetrical Coordinates on a Grid",
+        "back": "## Component Anatomy\n- **Mapping Axis:** The established reflection line (Horizontal, Vertical, or Diagonal vector).\n- **Node $(x,y)$:** A strictly defined coordinate vertex on the initial geometric half.\n\n## Boundary Conditions / Domain\n- **Orthogonality Constraint:** The traversed distance for mapping new vertices must be mathematically constrained to measure strictly orthogonal (perpendicular) to the reflection axis.",
+        "formulaMeta": {
+          "formula": "\\text{If axis is diagonal: } \\Delta x \\implies \\Delta y \\quad \\text{and} \\quad \\Delta y \\implies \\Delta x",
+          "description": "Standardized procedure for plotting isometric coordinate reflections across grid matrices.",
+          "derivation": "**Algorithmic Execution:**\n1. Isolate an arbitrary geometric vertex on the defined origin plane.\n2. Quantify the exact perpendicular dot-matrix distance from said vertex to the transformation axis.\n3. Extrapolate that precise distance continuously across the boundary to establish the reflected image coordinate $A'$.\n4. Synthesize the new nodes linearly strictly matching the sequential order of the original geometry.\n*Transformation Shortcut:* Across a strict diagonal axis, a horizontal vector translation of $+2$ universally shifts to a vertical translation of $+2$ for its mirror."
+        }
+      }
+    },
+    {
+      "cardId": "ebf5cf5d-3d2d-4bc8-8841-34a8f990599e",
+      "originalOrder": 25,
+      "originalHeading": "SOP: Verifying Multi-Angle Symmetries",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined procedural structure",
+        "Double escaped KaTeX bounds"
+      ],
+      "vettingNotes": "Critical algorithm to identify the full multi-angle symmetry set.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 25,
+        "heading": "Algorithmic SOP: Generating All Multi-Angle Symmetries",
+        "back": "## Component Anatomy\n- **$\\theta_1$**: The fundamentally smallest identifiable interior mapping angle.\n- **$k$**: A scalar integer multiplier ($k \\in \\{1, 2, 3 \\dots n\\}$).\n\n## Boundary Conditions / Domain\n- **Terminal Limit:** The cyclic generation sequence mathematically terminates precisely when the parameter $k \\cdot \\theta_1$ achieves exactly $360^{\\circ}$. Exceeding this boundary initiates redundant cyclic loops.",
+        "formulaMeta": {
+          "formula": "\\theta_k = k \\cdot \\theta_1 \\quad \\text{until} \\quad \\theta_k = 360^{\\circ}",
+          "description": "Algorithmic extrapolation for identifying all subsequent valid rotational mapping angles.",
+          "derivation": "**Execution Sequence:**\n1. Empirically determine or calculate the absolute minimum valid symmetry angle $\\theta_1$.\n2. Generate an arithmetic progression sequence by iteratively multiplying $\\theta_1$ by successive integers ($k=1, 2, 3\\dots$).\n3. Terminate progression strictly when output equals $360^{\\circ}$.\n*Example Execution:* If basic geometry maps at $\\theta_1 = 60^{\\circ}$, generating $k \\times 60^{\\circ}$ yields the strict set: $\\{60^{\\circ}, 120^{\\circ}, 180^{\\circ}, 240^{\\circ}, 300^{\\circ}, 360^{\\circ}\\}$."
+        }
+      }
+    },
+    {
+      "cardId": "a2ec0546-c448-4698-ab10-7563dde51174",
+      "originalOrder": 28,
+      "originalHeading": "Deriving Minimum Angle from an Intermediate Symmetry Angle",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Refined heading for algorithmic precision",
+        "Double-escaped KaTeX in formula field",
+        "Enforced strict mathematical boundaries for parameter k"
+      ],
+      "vettingNotes": "Converted to procedural derivation to assist in multi-step problem solving.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 26,
+        "heading": "Algorithmic SOP: Deriving Minimum Symmetry Angle from an Intermediate Multiple",
+        "back": "## Component Anatomy\n- **$\\theta_{k}$**: A known, intermediate angle of rotational symmetry (e.g., $60^{\\circ}$).\n- **$k$**: The strictly integer multiplier determining the known angle's position in the cyclic sequence.\n- **$\\theta_{min}$**: The absolute minimum invariant angle of symmetry.\n\n## Boundary Conditions / Domain\n- The scalar multiplier $k$ must be strictly constrained to the positive integer domain ($\\mathbb{Z}^+$).\n- All rotational mapping angles MUST structurally exist as integer multiples of $\\theta_{min}$.",
+        "formulaMeta": {
+          "formula": "\\theta_{min} = \\frac{\\theta_k}{k}",
+          "description": "Calculates the base angle of symmetry when provided a non-base symmetrical multiple.",
+          "derivation": "**Algorithmic Execution (Example for $\\theta_k = 60^{\\circ}$ with 2 preceding angles):**\n1. Establish that symmetrical mapping angles form a strict arithmetic progression: $1\\theta, 2\\theta, 3\\theta \\dots$\n2. Deduce the scalar $k$. If exactly two mapping angles strictly precede $60^{\\circ}$, then $60^{\\circ}$ structurally occupies the **third** position ($k=3$).\n3. Construct the algebraic mapping equation: $3 \\cdot \\theta_{min} = 60^{\\circ}$.\n4. Solve algebraically to isolate $\\theta_{min}$: $\\theta_{min} = \\frac{60^{\\circ}}{3} = 20^{\\circ}$."
+        }
+      }
+    },
+    {
+      "cardId": "751ca60d-a67a-4b5b-84a9-612f2ff8b9ae",
+      "originalOrder": 13,
+      "originalHeading": "Calculating Angles for Radial Arms",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double-escaped KaTeX formula mapping",
+        "Added strict identicality constraints to component anatomy"
+      ],
+      "vettingNotes": "Standardized the procedural generation of regular radial figures.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 27,
+        "heading": "Algorithmic SOP: Calculating Radial Arm Mapping Angles",
+        "back": "## Component Anatomy\n- **$k$**: The target total number of radial arms (e.g., petals, spokes, blades).\n- **$\\theta$**: The uniform angular displacement required between any two adjacent radial vectors.\n\n## Boundary Conditions / Domain\n- **Isomorphism Constraint:** All $k$ radial arms must be strictly isomorphic (identical in scalar length and geometric morphology).\n- **Uniformity Limit:** The angular displacement $\\theta$ must be distributed perfectly uniformly across the $360^{\\circ}$ polar matrix.",
+        "formulaMeta": {
+          "formula": "\\theta = \\frac{360^{\\circ}}{k}",
+          "description": "Determines the precise angular displacement necessary to generate an evenly distributed k-arm radial figure.",
+          "derivation": "**Algorithmic Generation Sequence:**\n1. Identify and mathematically fix the target order of symmetry $k$.\n2. Calculate the required uniform angular shift $\\theta$ by computing $\\frac{360^{\\circ}}{k}$.\n3. Initialize the matrix by plotting the primary radial arm vector at exactly $0^{\\circ}$.\n4. Map subsequent vectors by continuously adding the scalar $\\theta$ to the previous polar coordinate. *(Example: For $k=5$, calculate $\\theta = 72^{\\circ}$. Output array: $0^{\\circ}, 72^{\\circ}, 144^{\\circ}, 216^{\\circ}, 288^{\\circ}$)*."
+        }
+      }
+    },
+    {
+      "cardId": "ed834964-0e96-4241-baf9-a3b1c51e0c51",
+      "originalOrder": 17,
+      "originalHeading": "Predicting Punched Hole Symmetries",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Elevated classification to PROCEDURAL",
+        "Structured explanation using discrete algebraic limits"
+      ],
+      "vettingNotes": "Transforms practical folding exercises into predictable mathematical progression rules.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 28,
+        "heading": "Procedural Logic: Predicting Symmetries in Punched Folded Matrices",
+        "back": "## Transformation Logic\nEvery valid geometric fold across a central orthogonal axis acts as a matrix multiplier, effectively doubling the structural layer count ($2^f$ where $f$ is the number of folds).\n\n## Boundary Conditions / Domain\n- The physical punch matrix MUST strictly penetrate all folded layers simultaneously.\n- The punch coordinate must remain strictly internal and not intersect the boundary folding edges; otherwise, the mirrored output produces bisected partial holes rather than complete symmetrical nodes.",
+        "standardMeta": {
+          "question": "If a perfect square planar matrix is folded perfectly in half horizontally, then bisected vertically, and a single internal node is punched, detail the procedural logic defining the final node count upon unfolding."
+        }
+      }
+    },
+    {
+      "cardId": "5c950563-1c1f-4e70-a879-51218483490e",
+      "originalOrder": 29,
+      "originalHeading": "Paper Folding: Central Tilted Square (Diamond)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Clarified orthogonal vs diagonal cutting boundaries"
+      ],
+      "vettingNotes": "Formalizes a common application-level geometry puzzle.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 29,
+        "heading": "Procedural Generation: Central Tilted Square (Diamond) via Folding",
+        "back": "## Algorithmic Execution\n1. Bisect the planar matrix horizontally via folding, yielding a 2-layer matrix.\n2. Bisect orthogonally (vertically), yielding a 4-layer spatial matrix.\n3. Isolate the fully closed interior corner vertex (which corresponds strictly to the mathematical centroid of the unfolded plane).\n4. Execute a single **strict diagonal (slanting) transversal cut** across this internal vertex.\n\n## Boundary Conditions / Domain\n- **Cut Trajectory Constraint:** A perpendicular/orthogonal cut relative to the folded edges yields a standard central square structurally parallel to the outer boundary. To strictly generate a tilted geometric rhombus (diamond), the cut vector MUST traverse at an oblique diagonal angle.",
+        "standardMeta": {
+          "question": "Establish the algorithmic procedure and required boundary constraints to generate a hollow tilted interior square (diamond) at the centroid of a planar matrix using a single linear cut on folded geometry."
+        }
+      }
+    },
+    {
+      "cardId": "28760891-aca2-4c49-a251-5c510109169d",
+      "originalOrder": 23,
+      "originalHeading": "Square Combinations (2D Grids)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reclassified to APPLICATION",
+        "Added bounding box constraints"
+      ],
+      "vettingNotes": "Tests the concept of maximum symmetry in complex intersecting figures.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "ncert",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 30,
+        "heading": "Maximum Symmetry Boundaries in Tiled 2D Grids",
+        "back": "## Conceptual Theorem\nComplex 2D spatial matrices (e.g., tiled grids, Rangolis) synthesize intersecting geometries. The overall structural symmetry is mathematically bounded by its macroscopic perimeter frame.\n\n## Maximum Limit\nIf the complete localized pattern establishes a perfectly regular square bounding box, the *absolute maximum* limit of reflection axes it can sustain is strictly **4** (1 Vertical, 1 Horizontal, 2 Diagonals).\n\n## Boundary Conditions / Domain\n- For the macro limit to remain 4, every constituent internal geometry must map congruently across all four respective axes. Asymmetric internal plotting monotonically reduces the macro symmetry count.",
+        "standardMeta": {
+          "question": "What mathematical limit defines the absolute maximum number of reflection axes a complex tiled grid or Rangoli pattern can possess, assuming its macro perimeter forms a perfect square?"
+        }
+      }
+    },
+    {
+      "cardId": "661f6d55-b7c3-42ba-9d74-bbfdee630e09",
+      "originalOrder": 26,
+      "originalHeading": "Symmetry Sequence of the Koch Snowflake",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Reclassified as OBSERVATION to reflect fractal iterations",
+        "Explicitly noted the sequence transition condition"
+      ],
+      "vettingNotes": "Excellent edge case bridging 6th-grade symmetry with higher-order fractal limits.",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "OBSERVATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "fractal",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 31,
+        "heading": "Fractal Symmetry Progression: Koch Snowflake",
+        "back": "## Geometric Evaluation\nThe Koch Snowflake represents an iterative fractal progression. \n\n## Sequence Mapping\nBoth the reflection axis count and the rotational order track identical mathematical sequences across iterations: **$3, 6, 6, 6, 6 \\dots$**\n\n## Boundary Conditions / Domain\n- **Iteration Zero:** The base geometry ($n=0$) is a strict equilateral triangle, yielding exactly 3 reflection lines and order 3 rotational mapping.\n- **Infinite Stabilization:** From the first structural fractal iteration ($n \\ge 1$) onwards, the symmetry matrix permanently locks to exactly 6 lines and order 6, remaining invariant as iterations approach infinity.",
+        "standardMeta": {
+          "question": "Document the explicit mathematical sequence tracking the magnitude of reflection axes and rotational mapping orders across the infinite iterations of a Koch Snowflake fractal."
+        }
+      }
+    },
+    {
+      "cardId": "715fc9af-7613-4da7-8600-7434f0dba839",
+      "originalOrder": 27,
+      "originalHeading": "Fractional Angles of Rotational Symmetry (e.g., 7-Arm Figure)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double-escaped KaTeX fractional output",
+        "Explicitly defined the rational number domain boundary constraint"
+      ],
+      "vettingNotes": "Vital card dispelling the misconception that angular symmetry must be an integer.",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "symmetry",
+          "geometry",
+          "formula",
+          "class-6",
+          "jee-foundation"
+        ],
+        "order": 32,
+        "heading": "Fractional Domain Constraints in Rotational Angles",
+        "back": "## Component Anatomy\n- **$n$**: The strictly integer quantity of discrete identical rotational mappings (e.g., $n=7$).\n- **$\\theta_{min}$**: The absolute minimum invariant mapped angle.\n\n## Boundary Conditions / Domain\n- **Crucial Mathematical Domain Trap:** Symmetrical mapping angles $\\theta$ are **NOT** strictly restricted to the domain of integers ($\\mathbb{Z}$). \n- They are mathematically valid across the domain of rational numbers ($\\mathbb{Q}$) and may evaluate as exact mixed fractions, provided the foundational equality $n \\cdot \\theta_{min} = 360^{\\circ}$ remains strictly mathematically true.",
+        "formulaMeta": {
+          "formula": "\\theta_{min} = \\frac{360^{\\circ}}{7} = 51 \\frac{3}{7}^{\\circ}",
+          "description": "Calculates the base fractional symmetry angle for a septagonal (7-order) geometry.",
+          "derivation": "**Algorithmic Execution:**\n1. Confirm target rotational order constraint $n = 7$.\n2. Implement quotient mapping: divide the full $360^{\\circ}$ polar plane by 7.\n3. Recognize 360 is not a perfect integer multiple of 7. Execute polynomial long division to extract the exact remainder.\n4. Output strictly as the precise rational mixed fraction $51 \\frac{3}{7}^{\\circ}$ to preserve zero mathematical data loss (avoid repeating decimals)."
+        }
+      }
+    },
+    {
+      "cardId": "END_OF_CHAPTER",
+      "action": "SYSTEM",
+      "cardData": null
+    }
+  ]
 }
