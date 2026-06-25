@@ -1,972 +1,813 @@
 {
-"deckId": "7f473437-6ae0-4021-a766-e22e990bfd05",
-"cards": [
-{
-"cardId": "ffab8d68-c664-4024-87ec-4d672644985b",
-"originalOrder": 2,
-"originalHeading": "The Fraction Operator 'Of'",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected explicit boundary conditions",
-"Refined heading for deterministic prompting"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 1,
-"heading": "The Fractional Operator 'Of'",
-"back": "## Mathematical Meaning:\n- **Meaning:** The word 'of' in fractional arithmetic strictly and universally implies **multiplication**.\n- **Application:** Finding '$\\\frac{1}{2}$ of a quantity' translates directly to mathematically multiplying that quantity by $\\\frac{1}{2}$.\n\n## Boundary Conditions / Domain:\n- This linguistic translation applies strictly to scalar quantities, measurements, or algebraic variables.",
-"mnemonic": "Of means Off to Multiply!",
-"standardMeta": {
-"question": "What explicit mathematical operation does the word 'of' strictly signify when used in conjunction with fractions?"
-}
-}
-},
-{
-"cardId": "9dd7377f-37bd-40b2-9e42-7ce601fbe31b",
-"originalOrder": 1,
-"originalHeading": "Multiplication of a Fraction by a Whole Number",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected mathematical domain conditions for the multiplier"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 2,
-"heading": "Conceptual Interpretation: Whole Number × Fraction",
-"back": "## Conceptual Mechanism:\n- **Interpretation:** Multiplying a whole number and a fraction is mathematically interpreted strictly as the **repeated addition** of that fraction.\n- **Example:** $5 \\\times \\\frac{1}{4}$ means mathematically aggregating $\\\frac{1}{4}$ exactly five times: $\\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} = \\\frac{5}{4}$.\n\n## Boundary Conditions / Domain:\n- The whole number multiplier $n$ must strictly be an integer $n \\\geq 0$.",
-"mnemonic": "Multiplication is just Addition on loop.",
-"standardMeta": {
-"question": "How is the multiplication of a whole number and a fraction conceptually interpreted in fundamental mathematics?"
-}
-}
-},
-{
-"cardId": "a49ffc8e-c752-4951-ae82-64c728764dfd",
-"originalOrder": 6,
-"originalHeading": "Multiplying a Fraction by a Whole Number",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted to strict FORMULA schema constraints",
-"Double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 3,
-"heading": "Multiplying a Fraction by a Whole Number",
-"back": "## Component Anatomy:\n- **$n$:** Any whole number multiplier.\n- **$a$:** The numerator of the fraction.\n- **$b$:** The denominator of the fraction.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0$ (division by zero is undefined).",
-"formulaMeta": {
-"formula": "n \\times \\frac{a}{b} = \\frac{n}{1} \\times \\frac{a}{b} = \\frac{n \\times a}{b}",
-"description": "State the algebraic formula and process for multiplying a whole number by a fraction.",
-"derivation": "## Algorithmic SOP:\n1. Rewrite the whole number $n$ strictly as a fraction by placing it over a denominator of $1$ (yielding $\\\frac{n}{1}$).\n2. Multiply the numerators directly across: $n \\\times a$.\n3. Multiply the denominators directly across: $1 \\\times b = b$."
-}
-}
-},
-{
-"cardId": "c9fe8205-0218-414b-9aa9-5bf9846c7471",
-"originalOrder": 3,
-"originalHeading": "Geometric Interpretation of Fraction Multiplication",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected domain restrictions mapping to the 2D area unit box"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"geometry",
-"fractions",
-"class-7"
-],
-"order": 4,
-"heading": "Geometric Interpretation of Fraction Multiplication",
-"back": "## Geometric Model:\n- **Model:** It is fundamentally visualized using the **Area of a Rectangle** residing inside a standardized $1 \\\times 1$ unit square.\n- **Mechanism:** The two multiplying fractions represent the fractional **length and breadth** of the smaller internal rectangle.\n- The resulting calculated area mathematically matches the algebraic product of the two fractions.\n\n## Boundary Conditions / Domain:\n- For this specific visual unit-box model to apply perfectly, the fractions must strictly be positive proper fractions ($0 < x < 1$ and $0 < y < 1$).",
-"mnemonic": "Fractions as sides, Area as the product.",
-"standardMeta": {
-"question": "How can the algebraic product of two fractions be geometrically and spatially visualized?"
-}
-}
-},
-{
-"cardId": "cc0b2ca5-328b-44bb-9540-4666b453d233",
-"originalOrder": 12,
-"originalHeading": "Commutativity of Fraction Multiplication",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected explicit mathematical boundaries",
-"Structured geometric proof"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 5,
-"heading": "Commutativity of Fraction Multiplication",
-"back": "## Mathematical Property:\n- **Algebraic Rule:** The sequence of operands does NOT affect the mathematical product. strictly, $\\\frac{a}{b} \\\times \\\frac{c}{d} = \\\frac{c}{d} \\\times \\\frac{a}{b}$.\n- **Geometric Proof:** The total bounded area of a geometric rectangle remains completely identical even if you rotate it $90^{\\\circ}$ (thereby swapping the length and breadth dimensions).\n\n## Boundary Conditions / Domain:\n- Valid for all rational numbers where the denominators $b \\\neq 0$ and $d \\\neq 0$.",
-"standardMeta": {
-"question": "Does the sequential order of operands mathematically affect the result when multiplying two fractions? Provide a geometric reasoning."
-}
-}
-},
-{
-"cardId": "0aa6f913-b7fb-4122-b22f-e384391b4898",
-"originalOrder": 4,
-"originalHeading": "Multiplication of Unit Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized KaTeX syntax",
-"Maintained CONCEPT classification"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 6,
-"heading": "Multiplication of Unit Fractions",
-"back": "## Component Anatomy:\n- **$1$:** The constant numerator (the absolute defining feature of a 'unit fraction').\n- **$b, d$:** The distinct integer denominators of the respective fractions.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0, d \\\neq 0$.\n- $b, d \\\in \\\mathbb{Z}$.",
-"formulaMeta": {
-"formula": "\\frac{1}{b} \\times \\frac{1}{d} = \\frac{1}{b \\times d}",
-"description": "State the algebraic formula modeling the multiplication of two distinct unit fractions.",
-"derivation": "## Proof SOP:\n1. Directly multiply the unit numerators straight across ($1 \\\times 1 = 1$).\n2. Directly multiply the integer denominators straight across ($b \\\times d = bd$)."
-}
-}
-},
-{
-"cardId": "10c2df02-a10d-4009-a80f-7cabb0d9bbdd",
-"originalOrder": 5,
-"originalHeading": "Brahmagupta's Formula for Multiplication of Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized to strict FORMULA constraints",
-"Double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 7,
-"heading": "Brahmagupta's Formula: Multiplication of Fractions",
-"back": "## Component Anatomy:\n- **$a, c$:** The strictly defined numerators of the respective fractions.\n- **$b, d$:** The strictly defined denominators of the respective fractions.\n\n## Boundary Conditions / Domain:\n- Denominators must absolutely never mathematically evaluate to zero: $b \\\neq 0, d \\\neq 0$.",
-"mnemonic": "Top with Top, Bottom with Bottom.",
-"formulaMeta": {
-"formula": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}",
-"description": "State the generalized algebraic formula for multiplying two fractions as historically codified by Brahmagupta.",
-"derivation": "## Algorithmic SOP:\n1. Multiply the numerators strictly together to mathematically synthesize the new terminal numerator: $a \\\times c$.\n2. Multiply the denominators strictly together to mathematically synthesize the new terminal denominator: $b \\\times d$."
-}
-}
-},
-{
-"cardId": "a58ddbbc-8b01-48e8-9234-de99b9473eee",
-"originalOrder": 7,
-"originalHeading": "Simplification of Fractions Before Multiplication",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected mathematical boundaries for valid cancellation targets"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 8,
-"heading": "Apavartana: Simplification Before Multiplication",
-"back": "## Procedural Optimization:\n- **Procedure:** Before algorithmically multiplying across, systematically divide any numerator and any denominator by their strictly **highest common factors**.\n- **Terminology:** This optimization technique of mathematically reducing a fraction to its lowest terms is called **cancelling common factors** (historically codified as *Apavartana* in India).\n- **Value Addition:** Proactively prevents the synthesis of excessively massive, error-prone numeric products.\n\n## Boundary Conditions / Domain:\n- You may strictly ONLY cancel a factor from a numerator against a factor from a denominator. You CANNOT cancel numerator-to-numerator or denominator-to-denominator.",
-"mnemonic": "Simplify before you multiply.",
-"standardMeta": {
-"question": "What is the optimal procedural step to mathematically execute before multiplying the numerators and denominators of large fractions?"
-}
-}
-},
-{
-"cardId": "117d5822-0131-4ccc-bf46-c7f744d67588",
-"originalOrder": 29,
-"originalHeading": "Evaluating Chained Fractional 'Of' Operators",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Updated classification to PROCEDURAL",
-"Added explicit mathematical boundaries regarding mixed fractions"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 9,
-"heading": "Evaluating Chained Fractional 'Of' Operators",
-"back": "## Procedural Strategy:\n- **Concept:** A continuous, unbroken chain of the word 'of' between fractions strictly dictates a **continuous chain of multiplication**.\n- **Procedure:** Do not evaluate fraction pairs sequentially from left to right. Instead, expand the entire expression simultaneously into a single large, unified fraction.\n- **Optimization Step:** Strictly apply **Apavartana (Cross-Cancellation)** across all available numerators and denominators concurrently *before* calculating the final terminal product.\n- **Example:** $\\\frac{1}{5}$ of $\\\frac{1}{4}$ of $\\\frac{2}{3}$ maps to $\\\frac{1 \\\times 1 \\\times 2}{5 \\\times 4 \\\times 3}$.\n\n## Boundary Conditions / Domain:\n- This chained multiplication procedure strictly requires all terms to be proper or improper fractions. Mixed fractions MUST be explicitly pre-converted before chaining.",
-"mnemonic": "Chain of 'Of' = Chain of Multiply.",
-"standardMeta": {
-"question": "What is the mathematically optimal algebraic approach for evaluating a long, chained sequence of fractional 'of' operators (e.g., $a$ of $b$ of $c$)?"
-}
-}
-},
-{
-"cardId": "202b845d-d959-45ab-af66-78317639340c",
-"originalOrder": 10,
-"originalHeading": "Product Behavior: Both Multipliers Between 0 and 1",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected rigorous mathematical inequalities"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"class-7"
-],
-"order": 10,
-"heading": "Product Behavior: Multiplying Two Proper Fractions",
-"back": "## Mathematical Relationship:\n- **Outcome:** The resulting terminal product is strictly **less than both** of the original fractional operands.\n- **Reasoning:** Conceptually, multiplying by a proper fraction mathematically extracts a strictly smaller part' or subset of the other number.\n- **Example:** $\\\frac{1}{2} \\\times \\\frac{1}{4} = \\\frac{1}{8}$. Both original operands ($\frac{1}{2}, \frac{1}{4}$) are mathematically greater than the product $\\\frac{1}{8}$.\n\n## Boundary Conditions / Domain:\n- Let $x$ and $y$ be strictly proper positive fractions: $0 < x < 1$ and $0 < y < 1$.\n- The strict inequality holds: $0 < xy < x$ and $0 < xy < y$.",
-"mnemonic": "Fractions eat each other, making smaller pieces.",
-"standardMeta": {
-"question": "What mathematically occurs to the product's magnitude when two proper fractions (strictly between 0 and 1) are multiplied together?"
-}
-}
-},
-{
-"cardId": "99282231-f6ab-4e9c-bda3-203aab2547a6",
-"originalOrder": 11,
-"originalHeading": "Product Behavior: One Multiplier > 1, One < 1",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected rigorous mathematical inequalities"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"class-7"
-],
-"order": 11,
-"heading": "Product Behavior: Mixed Multiplier Bounds",
-"back": "## Mathematical Relationship:\n- **Outcome:** The terminal product mathematically falls strictly *between* the magnitudes of the two original operands.\n- **Specifics:** It evaluates strictly **less than the operand greater than 1**, and strictly **greater than the operand between 0 and 1**.\n- **Example:** $5 \\\times \\\frac{3}{4} = \\\frac{15}{4}$. Here, $\\\frac{15}{4} < 5$ but simultaneously $\\\frac{15}{4} > \\\frac{3}{4}$.\n\n## Boundary Conditions / Domain:\n- Let operand $x > 1$ and operand $0 < y < 1$.\n- The strict bounding inequality holds: $y < xy < x$.",
-"standardMeta": {
-"question": "If you multiply a number strictly greater than $1$ with a proper fraction strictly between $0$ and $1$, how does the terminal product mathematically compare to the original operands?"
-}
-}
-},
-{
-"cardId": "cfa932a6-5885-46f8-b041-ed2a5dbb5309",
-"originalOrder": 9,
-"originalHeading": "Product Behavior: Both Multipliers > 1",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected rigorous mathematical inequalities"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"class-7"
-],
-"order": 12,
-"heading": "Product Behavior: Multiplying Values Greater Than 1",
-"back": "## Mathematical Relationship:\n- **Outcome:** The resulting terminal product is mathematically forced to be strictly **greater than both** of the original numbers being multiplied.\n- **Example:** $3 \\\times \\\frac{5}{4} = \\\frac{15}{4}$. Here, $\\\frac{15}{4} > 3$ and simultaneously $\\\frac{15}{4} > \\\frac{5}{4}$.\n\n## Boundary Conditions / Domain:\n- Let the operands satisfy $x > 1$ and $y > 1$.\n- The strict inequality mathematically dictates: $xy > x$ and $xy > y$.",
-"mnemonic": "Big times Big gets Bigger.",
-"standardMeta": {
-"question": "What is the strict mathematical relationship between the product and the original operands when multiplying two numbers that are strictly greater than $1$?"
-}
-}
-},
-{
-"cardId": "5ee73b47-7801-4d84-841c-c5e21da8a40e",
-"originalOrder": 31,
-"originalHeading": "Bounding Products of Large Improper Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected explicit inequality conditions for validity"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"test-prep",
-"class-7"
-],
-"order": 13,
-"heading": "Bounding Products of Improper Fractions",
-"back": "## Estimation Strategy:\n- **Concept:** You do not need to execute the exact arithmetic product to determine its comparative scale if both multipliers are strictly **improper fractions**.\n- **Rule:** Because improper fractions are definitionally strictly **greater than 1** (e.g., $\\\frac{565}{465}$ and $\\\frac{707}{676}$), mathematical laws dictate their product will strictly be **greater than 1 AND greater than both individual fractional operands**.\n- **Application:** Exploit this bounding property in multiple-choice exams to instantaneously eliminate options that are numerically smaller than either of the original operands.\n\n## Boundary Conditions / Domain:\n- Both input fractions must strictly evaluate to $> 1$.",
-"mnemonic": "Improper times Improper makes an even bigger monster.",
-"standardMeta": {
-"question": "How can you instantaneously mathematically determine the lower bounds of the product of two massive, unsimplified improper fractions without calculating their exact value?"
-}
-}
-},
-{
-"cardId": "99da7f65-82ec-4229-b2b7-2b23f2d5370d",
-"originalOrder": 13,
-"originalHeading": "Multiplicative Inverse (Reciprocal)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected domain restrictions mapping to zero"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DEFINITION",
-"tags": [
-"math",
-"algebra",
-"properties",
-"class-7"
-],
-"order": 14,
-"heading": "Mathematical Definition: Multiplicative Inverse (Reciprocal)",
-"back": "## Core Definition:\n- **Definition:** Two fractions are mathematically defined as reciprocals (multiplicative inverses) if and only if their **mathematical product evaluates to exactly $1$**.\n- **Mechanism:** It is the exact necessary multiplier structurally required to perfectly cross-cancel the original numerator and denominator to unity.\n\n## Boundary Conditions / Domain:\n- The integer $0$ absolutely possesses NO multiplicative inverse within the real numbers, because division by zero is mathematically undefined.",
-"mnemonic": "Reciprocal flips the script to get 1.",
-"standardMeta": {
-"question": "What explicit mathematical identity rigorously defines two fractions as being the reciprocal (or multiplicative inverse) of each other?"
-}
-}
-},
-{
-"cardId": "22d257c5-bebf-43e4-a978-6836092fb2d8",
-"originalOrder": 32,
-"originalHeading": "Identity Element vs Multiplicative Inverse",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Added explicit mathematical boundaries and mapping"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "DISTINCTION",
-"tags": [
-"math",
-"algebra",
-"properties",
-"class-7"
-],
-"order": 15,
-"heading": "Multiplicative Identity vs. Multiplicative Inverse",
-"back": "## Mathematical Distinction:\n- **Multiplicative Identity:** Multiplying an arbitrary fraction strictly by $1$ leaves the fraction's magnitude totally **unchanged** ($\frac{a}{b} \times 1 = \frac{a}{b}$).\n- **Multiplicative Inverse (Reciprocal):** Multiplying an arbitrary fraction strictly by its inverse structurally forces the terminal product to become **exactly $1$** ($\frac{a}{b} \times \frac{b}{a} = 1$).\n- **Distinction Trap:** Students routinely confuse the number they must multiply *by* (the dynamic inverse) with the final target mathematical result (the static identity).\n\n## Boundary Conditions / Domain:\n- The Multiplicative Identity is a universal constant ($1$).\n- The Multiplicative Inverse is highly dynamic, explicitly defined as $1/x$ for any $x$, bounded where $x \neq 0$.",
-"mnemonic": "Identity keeps it the same; Inverse destroys it to 1.",
-"standardMeta": {
-"question": "What is the strict mathematical and functional distinction between the Multiplicative Identity and the Multiplicative Inverse of a fraction?"
-}
-}
-},
-{
-"cardId": "ac3df1be-12b8-4002-897b-0b1445e01787",
-"originalOrder": 14,
-"originalHeading": "Finding the Reciprocal of a Fraction",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted to strict FORMULA constraints",
-"Double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"properties",
-"class-7"
-],
-"order": 16,
-"heading": "Finding the Reciprocal of a Standard Fraction",
-"back": "## Component Anatomy:\n- **$a$:** The original numerator (structurally maps to the new denominator).\n- **$b$:** The original denominator (structurally maps to the new numerator).\n\n## Boundary Conditions / Domain:\n- $a \\\neq 0, b \\\neq 0$.\n- A reciprocal mathematically cannot be calculated if the original numerator $a$ is $0$, as flipping it induces a division by zero error (undefined).",
-"mnemonic": "Flip the fraction.",
-"formulaMeta": {
-"formula": "\\text{Reciprocal of } \\frac{a}{b} = \\frac{b}{a}",
-"description": "State the algebraic mapping to rapidly synthesize the mathematical reciprocal of a standard fraction a/b.",
-"derivation": "## Algorithmic SOP:\n1. Physically invert the fraction by swapping the spatial positions of the original numerator and the original denominator.\n2. Strictly verify the result by multiplying the two fractions: $\\\frac{a}{b} \\\times \\\frac{b}{a}$ must equal $1$."
-}
-}
-},
-{
-"cardId": "1c84fddc-bc4d-4bfd-96aa-ac3465df3a6e",
-"originalOrder": 15,
-"originalHeading": "Finding the Reciprocal of a Whole Number",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted to strict FORMULA constraints"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"properties",
-"class-7"
-],
-"order": 17,
-"heading": "Finding the Reciprocal of a Whole Number",
-"back": "## Component Anatomy:\n- **$n$:** Any arbitrary non-zero whole integer.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$.\n- $n \\\in \\\mathbb{Z}$.",
-"formulaMeta": {
-"formula": "\\text{Reciprocal of } n = \\frac{1}{n}",
-"description": "State the algebraic formula to map the inverse (reciprocal) of any non-zero whole number n.",
-"derivation": "## Algorithmic SOP:\n1. First, explicitly express the whole number $n$ as a fraction over a denominator of one: $\\\frac{n}{1}$.\n2. Swap the numerator and denominator to derive the true algebraic reciprocal: $\\\frac{1}{n}$."
-}
-}
-},
-{
-"cardId": "89d9e703-1ffa-4bee-a433-f9a6f913f656",
-"originalOrder": 16,
-"originalHeading": "Product of a Fraction and its Reciprocal",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Maintained CONCEPT classification",
-"Standardized FORMULA syntax and double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"arithmetic",
-"properties",
-"class-7"
-],
-"order": 18,
-"heading": "Product of a Fraction and its Reciprocal",
-"back": "## Component Anatomy:\n- **$a/b$:** The initial arbitrary baseline fraction.\n- **$b/a$:** The strict mathematical reciprocal of that baseline fraction.\n\n## Boundary Conditions / Domain:\n- Both variables must be strictly non-zero: $a \\\neq 0, b \\\neq 0$.",
-"formulaMeta": {
-"formula": "\\frac{a}{b} \\times \\frac{b}{a} = 1",
-"description": "State the fundamental algebraic identity for mathematically multiplying an arbitrary fraction by its own reciprocal.",
-"derivation": "## Proof SOP:\n1. Execute multiplication of the numerators across: $a \\\times b = ab$.\n2. Execute multiplication of the denominators across: $b \\\times a = ba$.\n3. Given the commutative property, $ab = ba$. Therefore, the fraction evaluates strictly to $\\\frac{ab}{ab}$, which simplifies mathematically to exactly $1$."
-}
-}
-},
-{
-"cardId": "eaaa5d4e-469d-45b0-909b-99f6e4422ac7",
-"originalOrder": 17,
-"originalHeading": "Conceptual Interpretation of Fraction Division",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Injected explicit mathematical boundaries for division by zero"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "CONCEPT",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 19,
-"heading": "Conceptual Interpretation of Fraction Division",
-"back": "## Conceptual Mechanism:\n- **Restatement Strategy:** The division of fractions is fundamentally and conceptually treated as a **'missing number' multiplication problem**.\n- **Execution Example:** To conceptually solve $1 \\\div \\\frac{2}{3}$, restate it algebraically as: 'What exact multiplier must be multiplied by $\\\frac{2}{3}$ to yield the terminal product $1$?'\n- **Resolution:** By the definition of inverses, the required multiplier is strictly its reciprocal, $\\\frac{3}{2}$.\n\n## Boundary Conditions / Domain:\n- The divisor fraction fundamentally cannot evaluate to $0$.",
-"mnemonic": "Division is just multiplication in disguise.",
-"standardMeta": {
-"question": "How can the mathematical division of fractions be conceptually restated to make it logically easier to interpret and solve?"
-}
-}
-},
-{
-"cardId": "7413a54d-e300-4aa9-be32-a704c34e04ec",
-"originalOrder": 18,
-"originalHeading": "Brahmagupta's Formula for Division of Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted to strict FORMULA constraints",
-"Double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 20,
-"heading": "Brahmagupta's Formula: Division of Fractions",
-"back": "## Component Anatomy:\n- **$a/b$:** The primary Dividend (the base fraction actively being divided).\n- **$c/d$:** The active Divisor (the fraction executing the division).\n- **$d/c$:** The algebraic Reciprocal of the Divisor.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0$ (valid fraction condition).\n- $c \\\neq 0$ and $d \\\neq 0$ (The entire divisor fraction mathematically cannot be equal to $0$, else undefined).",
-"mnemonic": "Keep, Change, Flip.",
-"formulaMeta": {
-"formula": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{a \\times d}{b \\times c}",
-"description": "State the general algebraic formula and corresponding algorithm for dividing two fractions.",
-"derivation": "## Algorithmic SOP:\n1. **Keep** the dividend fraction $\\\frac{a}{b}$ strictly identical.\n2. **Change** the division mathematical operator exclusively to a multiplication operator.\n3. **Flip** (Invert) the divisor $\\\frac{c}{d}$ directly to its reciprocal $\\\frac{d}{c}$.\n4. Multiply across numerators and denominators applying standard multiplication rules."
-}
-}
-},
-{
-"cardId": "dc52dfc8-8820-4c71-81e4-387a642e13e5",
-"originalOrder": 19,
-"originalHeading": "Division Involving Whole Numbers and Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Double-escaped KaTeX for aligned environment",
-"Structured boundary conditions"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 21,
-"heading": "Division Involving Whole Numbers and Fractions",
-"back": "## Component Anatomy:\n- **$n$:** The arbitrary whole number interacting with the fraction.\n- **$a, b$:** The numerator and denominator of the strictly fractional component.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$ (Strictly required when $n$ is acting as the divisor in the second configuration).\n- $a \\\neq 0$ (Strictly required when the fraction $a/b$ is acting as the divisor in the first configuration).\n- $b \\\neq 0$ (Baseline valid fraction requirement).",
-"mnemonic": "Put a 1 under it, then Keep-Change-Flip.",
-"formulaMeta": {
-"formula": "\\begin{aligned} n \\div \\frac{a}{b} &= \\frac{n \\times b}{a} \\\\ \\frac{a}{b} \\div n &= \\frac{a}{b \\times n} \\end{aligned}",
-"description": "State the dual algebraic procedures for dividing a whole number by a fraction, and dividing a fraction by a whole number.",
-"derivation": "## Algorithmic SOP:\n1. Always explicitly convert the whole number integer $n$ into an algebraic fraction format by placing it over $1$ (yielding $\\\frac{n}{1}$).\n2. Apply the standard fraction division algorithm strictly: Keep the primary dividend, Change to multiplication, and Flip the divisor to its reciprocal."
-}
-}
-},
-{
-"cardId": "03ed44c2-5f81-4fa8-bcaf-11c1a89e874c",
-"originalOrder": 30,
-"originalHeading": "Division of Unity by a Unit Fraction",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Converted schema to strictly match FORMULA type"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "FACT",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 22,
-"heading": "Division Identity: Unity Divided by a Unit Fraction",
-"back": "## Component Anatomy:\n- **$1$:** The static dividend (Representing Unity / The Whole).\n- **$1/n$:** The active divisor (Representing an arbitrary unit fraction).\n- **$n$:** The resulting evaluated whole integer.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$.\n- Typically, $n \\\in \\\mathbb{Z}^{+}$ specifically when utilized for physical counting or partitioning problems.",
-"mnemonic": "One divided by a piece gives the whole pizza.",
-"formulaMeta": {
-"formula": "1 \\div \\frac{1}{n} = n",
-"description": "State the mathematically simplified algebraic outcome of dividing the constant 1 (Unity) strictly by any unit fraction.",
-"derivation": "## Proof SOP:\n1. Convert the standard division sequence into multiplication by utilizing the reciprocal of the divisor: $1 \\\times \\\frac{n}{1}$.\n2. Multiply across. The product trivially simplifies to identically $n$."
-}
-}
-},
-{
-"cardId": "8a531b94-9c60-4777-8c2f-50ebae4c42b5",
-"originalOrder": 20,
-"originalHeading": "Quotient Behavior: Divisor Between 0 and 1",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Added explicit mathematical inequalities for boundary domain"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"class-7"
-],
-"order": 23,
-"heading": "Quotient Behavior: Proper Fraction Divisors",
-"back": "## Mathematical Relationship:\n- **Outcome:** The resulting mathematical quotient is paradoxically strictly **greater than the original dividend**.\n- **Reasoning:** Conceptually, you are asking 'how many of this tiny fractional piece can fit into the whole?', which inherently yields a significantly larger numeric quantity of pieces.\n- **Example:** $6 \\\div \\\frac{1}{4} = 24$, where obviously $24 > 6$.\n\n## Boundary Conditions / Domain:\n- Let the Divisor $D$ be bounded by $0 < D < 1$.\n- The Dividend must be strictly positive: Dividend $> 0$.",
-"mnemonic": "Divide by a fraction, gain a massive reaction.",
-"standardMeta": {
-"question": "In a mathematical division operation, what occurs to the relative size of the quotient when the active divisor is a proper fraction (strictly bounded between 0 and 1)?"
-}
-}
-},
-{
-"cardId": "b67df18e-95a4-431b-b7b0-2d2898d7ce1a",
-"originalOrder": 21,
-"originalHeading": "Quotient Behavior: Divisor Greater Than 1",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Added explicit mathematical inequalities for boundary domain"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"inequalities",
-"class-7"
-],
-"order": 24,
-"heading": "Quotient Behavior: Divisor Greater Than 1",
-"back": "## Mathematical Relationship:\n- **Outcome:** The resulting quotient is structurally forced to be strictly **less than the primary dividend**.\n- **Example:** $6 \\\div 3 = 2$, where $2 < 6$.\n- **Note:** This conforms perfectly to standard baseline intuition for arithmetic division.\n\n## Boundary Conditions / Domain:\n- Let the active Divisor satisfy: Divisor $> 1$.\n- The primary Dividend must be strictly positive: Dividend $> 0$.",
-"standardMeta": {
-"question": "In a positive division operation, what mathematically happens to the relative scale of the quotient when the divisor is strictly greater than 1?"
-}
-}
-},
-{
-"cardId": "61dfb412-0fc9-4461-a04d-138868cd747c",
-"originalOrder": 22,
-"originalHeading": "Pre-Processing Mixed Fractions",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Standardized KaTeX syntax",
-"Maintained PROCEDURAL classification"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"class-7"
-],
-"order": 25,
-"heading": "Pre-Processing Mixed Fractions",
-"back": "## Component Anatomy:\n- **$W$:** The whole number integer prefix.\n- **$n$:** The numerator of the strictly fractional appended part.\n- **$d$:** The denominator of the strictly fractional appended part.\n\n## Boundary Conditions / Domain:\n- $d \\\neq 0$.\n- **Critical Trap:** You absolutely CANNOT directly multiply/divide the prefix $W$ mathematically independent of its fraction $n/d$.",
-"mnemonic": "Mixed to Improper: Multiply the bottom, add the top.",
-"formulaMeta": {
-"formula": "W \\frac{n}{d} \\implies \\frac{(W \\times d) + n}{d}",
-"description": "State the mandatory algebraic transformation required before attempting to mathematically multiply or divide mixed fractions.",
-"derivation": "## Algorithmic SOP:\n1. **Convert:** Strictly transform any composite mixed fraction into a unified improper fraction before executing multiplication or division.\n2. **Execute:** Apply Brahmagupta's formula algorithm for multiplication or division.\n3. **Re-convert (Optional):** Synthesize the resulting terminal improper fraction back into a mixed fraction if explicitly demanded by the specific problem formatting."
-}
-}
-},
-{
-"cardId": "7b768f37-5c01-4f32-a047-6961554236cf",
-"originalOrder": 28,
-"originalHeading": "Successive Fractional Branching (Tree Diagrams)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Classification mapped to APPLICATION",
-"Enhanced markdown formatting"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"arithmetic",
-"fractions",
-"probability",
-"jee-foundation",
-"class-7"
-],
-"order": 26,
-"heading": "Successive Fractional Branching (Tree Diagrams)",
-"back": "## Mathematical Concept:\n- **Concept:** The successive splitting of a physical quantity (e.g., a colony dividing equally at multiple forks) represents a strict **geometric progression of fractional multiplication**.\n- **Procedure:** To precisely evaluate the terminal fraction of the original group arriving at any specific endpoint, trace the geometric path from the origin and **mathematically multiply the fractions of every single branch** traversed.\n- **Example Application:** If a primary path splits equally into $2$ (yielding $\\\frac{1}{2}$), and a subsequent branch splits equally into $4$ (yielding $\\\frac{1}{4}$), the terminal quantity reaching the end of that specific route is strictly $\\\frac{1}{2} \\\times \\\frac{1}{4} = \\\frac{1}{8}$ of the initial whole.",
-"mnemonic": "Every fork multiplies the fraction.",
-"standardMeta": {
-"question": "How do you mathematically determine the final fractional quantity of a group that undergoes successive, equal splits at multiple sequential path intersections?"
-}
-}
-},
-{
-"cardId": "8babf66a-6347-429c-8713-3e7466744c66",
-"originalOrder": 26,
-"originalHeading": "Telescoping Product of Successive Fractional Differences",
-"action": "SPLIT",
-"modificationsSummary": [
-"Isolated the core algebraic identity",
-"Converted to strictly bounded FORMULA card"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"algebra",
-"fractions",
-"series",
-"jee-foundation",
-"class-7"
-],
-"order": 27,
-"heading": "Identity: Telescoping Fractional Product",
-"back": "## Component Anatomy:\n- **$n$:** The terminal integer in the bounding sequence.\n\n## Boundary Conditions / Domain:\n- $n \\\geq 2$, where $n \\\in \\\mathbb{Z}$.\n- The sequence pattern intrinsically relies on consecutive ascending integers occupying the respective denominators.",
-"mnemonic": "Numerator meets denominator, leaving only the ends.",
-"formulaMeta": {
-"formula": "\\left(1 - \\frac{1}{2}\\right) \\times \\left(1 - \\frac{1}{3}\\right) \\times \\dots \\times \\left(1 - \\frac{1}{n}\\right) = \\frac{1}{n}",
-"description": "State the algebraic identity for a telescoping product of successive fractional differences.",
-"derivation": "## Proof Logic:\nEach term's mathematically generated numerator is strictly identical to the subsequent term's denominator, allowing consecutive cross-cancellation across the entire product chain, isolating only the very first numerator and the final terminal denominator."
-}
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 26,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": [
-"Extracted algorithmic execution SOP into a discrete PROCEDURAL card"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"algebra",
-"fractions",
-"series",
-"jee-foundation",
-"class-7"
-],
-"order": 28,
-"heading": "Execution SOP: Telescoping Fractional Products",
-"back": "## Algorithmic SOP:\n- **Step 1 (Transform):** Convert the algebraic subtraction inside each sequential bracket into a standard proper fraction (e.g., $1 - \\\frac{1}{2} = \\\frac{1}{2}$, and $1 - \\\frac{1}{3} = \\\frac{2}{3}$). This generates the chain: $\\\frac{1}{2} \\\times \\\frac{2}{3} \\\times \\\frac{3}{4} \\\times \\\dots \\\times \\\frac{n-1}{n}$.\n- **Step 2 (Cancel):** Execute diagonal cross-cancellation. The numerator of each term will perfectly mathematically cancel the denominator of the immediately preceding term.\n- **Step 3 (Isolate):** Extract the remaining uncancelled values (strictly the numerator of the first term, $1$, and the denominator of the last term, $n$, yielding strictly $\\\frac{1}{n}$).",
-"standardMeta": {
-"question": "What is the step-by-step procedural algorithm (SOP) for algebraically evaluating a telescoping product of successive fractional differences?"
-}
-}
-},
-{
-"cardId": "1238b7a0-23ea-4e25-a786-32dcba280781",
-"originalOrder": 27,
-"originalHeading": "Fractional Rates of Work (Cisterns & Fountains Archetype)",
-"action": "SPLIT",
-"modificationsSummary": [
-"Isolated the core formula linking total rate to total time",
-"Double-escaped KaTeX"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "FORMULA",
-"classification": "APPLICATION",
-"tags": [
-"math",
-"algebra",
-"fractions",
-"word-problems",
-"jee-foundation",
-"class-7"
-],
-"order": 29,
-"heading": "Algebraic Model: Fractional Rates of Work",
-"back": "## Component Anatomy:\n- **$t_i$:** Time taken by an individual source $i$ to complete the task alone.\n- **$\text{Rate}_{total}$:** The aggregated combined rate of work per unit of time.\n- **$T_{total}$:** The terminal total time required to complete the task collaboratively.\n\n## Boundary Conditions / Domain:\n- $t_i > 0$ (Temporal duration cannot be mathematically zero or negative).",
-"mnemonic": "Flip the Time to find the Rate, Add the Rates to seal their fate.",
-"formulaMeta": {
-"formula": "\\text{Rate}*{total} = \\sum*{i=1}^{n} \\left(\\frac{1}{t_i}\\right) \\implies T_{total} = \\frac{1}{\\text{Rate}*{total}}",
-"description": "State the core algebraic relationship between individual completion times, combined unit rates, and total completion time for parallel work problems.",
-"derivation": "## Logical Framework:\nTime and Work Rate are strictly inversely proportional. You mathematically CANNOT add completion times together for parallel concurrent work, but you CAN seamlessly algebraically sum their independent unit rates of work."
-}
-}
-},
-{
-"cardId": "NEW",
-"originalOrder": 27,
-"originalHeading": "NEW_CARD_TOPIC",
-"action": "NEW",
-"modificationsSummary": [
-"Created independent SOP card for Cisterns/Work problems to prevent cognitive overload"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "PROCEDURAL",
-"tags": [
-"math",
-"algebra",
-"fractions",
-"word-problems",
-"jee-foundation",
-"class-7"
-],
-"order": 30,
-"heading": "Execution SOP: Fractional Parallel Work Problems",
-"back": "## Algorithmic SOP:\n- **Step 1 (Extract Rates):** For each independent worker/source, calculate its unit-time rate by taking the strict mathematical reciprocal of its given completion time ($R_i = 1 \\\div t_i$).\n- **Step 2 (Aggregate):** Algebraically sum all individual unit rates together to determine the combined collective rate of progress ($R*{total} = R_1 + R_2 + \\dots + R_n$).\n- **Step 3 (Invert for Time):** Take the strict mathematical reciprocal of the combined collective rate to find the total terminal time required to collaboratively complete the task ($T_{total} = 1 \\\div R_{total}$).",
-"standardMeta": {
-"question": "What is the exact algebraic Standard Operating Procedure (SOP) for finding the total time required to fill a cistern when multiple fountains fill it at different individual times?"
-}
-}
-},
-{
-"cardId": "ad1fb16c-7101-4b34-8e3e-6885b799a843",
-"originalOrder": 8,
-"originalHeading": "Historical Context: Apavartana",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Maintained FACT classification",
-"Structured content into explicit historical bullet points"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"math",
-"history",
-"fractions",
-"class-7"
-],
-"order": 31,
-"heading": "Historical Context: Apavartana",
-"back": "## Historical Fact:\n- **Terminology:** The algorithmic process of mathematically reducing a fraction to its absolute lowest terms was historically codified in India as **Apavartana**.\n- **Origin/Reference:** The concept was so culturally ubiquitous that Jaina scholar **Umasvati (c. 150 CE)** utilized it casually as an established simile in a non-mathematical philosophical text.",
-"standardMeta": {
-"question": "What is the ancient Indian terminology for systematically reducing a fraction to its lowest terms, and who historically referenced it around 150 CE?"
-}
-}
-},
-{
-"cardId": "f6bfeefe-0b74-4946-b9d4-901ad8055227",
-"originalOrder": 24,
-"originalHeading": "Codification of Fraction Arithmetic (Brahmagupta)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Maintained FACT classification",
-"Structured content logically"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"math",
-"history",
-"fractions",
-"class-7"
-],
-"order": 32,
-"heading": "Historical Codification: Fraction Arithmetic",
-"back": "## Historical Fact:\n- **Mathematician:** The Indian mathematician **Brahmagupta**.\n- **Text:** *Brahmasphutasiddhanta* (628 CE).\n- **Contribution:** He was historically the first to rigorously codify the generalized mathematical rules for adding, subtracting, multiplying, and dividing arbitrary fractions into essentially the exact modern algorithmic forms utilized today.",
-"standardMeta": {
-"question": "Who was the first mathematician to formally codify the general arithmetic rules for fractions, and in what historical text?"
-}
-}
-},
-{
-"cardId": "4292228b-26cf-47ad-8a15-ddf7cde493a8",
-"originalOrder": 23,
-"originalHeading": "Historical Formulation of Fraction Division (Bhaskara II)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Maintained FACT classification",
-"Ensured KaTeX is double escaped"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"math",
-"history",
-"fractions",
-"class-7"
-],
-"order": 33,
-"heading": "Historical Formulation: Fraction Division",
-"back": "## Historical Fact:\n- **Text & Author:** In 1150 CE, **Bhaskara II** explicitly documented this mathematical rule in his seminal text *Lilavati*.\n- **Formulation:** 'Division of one fraction by another is equivalent to multiplication of the first fraction by the reciprocal of the second.'\n- **Significance:** This is the exact historic verbal articulation of the modern fraction division algorithm: $\\\frac{a}{b} \\\div \\\frac{c}{d} = \\\frac{a}{b} \\\times \\\frac{d}{c}$.",
-"standardMeta": {
-"question": "How did the 12th-century Indian mathematician Bhaskara II historically articulate the algorithmic rule for fraction division?"
-}
-}
-},
-{
-"cardId": "603e8f7c-c2a2-45ff-8a0d-0dc626b2b1df",
-"originalOrder": 25,
-"originalHeading": "Earliest Use of Non-Unit Fractions (Shulbasutras)",
-"action": "MODIFIED",
-"modificationsSummary": [
-"Maintained FACT classification"
-],
-"vettingNotes": "",
-"cardData": {
-"type": "STANDARD",
-"classification": "FACT",
-"tags": [
-"math",
-"history",
-"fractions",
-"geometry",
-"class-7"
-],
-"order": 34,
-"heading": "Historical Application: Ancient Non-Unit Fractions",
-"back": "## Historical Fact:\n- **Text:** The ancient Indian geometry manuals known as the **Shulbasutras** (specifically Baudhayana's Shulbasutra, c. 800 BCE).\n- **Application Context:** They extensively utilized complex non-unit fractions, including advanced fractional division operations, for the precise geometric and structural construction of fire altars required for Vedic rituals.",
-"standardMeta": {
-"question": "Which ancient texts contain humanity's oldest surviving examples of working extensively with general non-unit fractions, and what was their structural application?"
-}
-}
-},
-{
-"cardId": "END_OF_CHAPTER",
-"originalOrder": 0,
-"originalHeading": "SYSTEM",
-"action": "SYSTEM",
-"modificationsSummary": [],
-"vettingNotes": "",
-"cardData": null
-}
-]
+  "deckId": "7f473437-6ae0-4021-a766-e22e990bfd05",
+  "cards": [
+    {
+      "cardId": "ffab8d68-c664-4024-87ec-4d672644985b",
+      "originalOrder": 2,
+      "originalHeading": "The Fraction Operator 'Of'",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected explicit boundary conditions",
+        "Refined heading for deterministic prompting"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 1,
+        "heading": "The Fractional Operator 'Of'",
+        "back": "## Mathematical Meaning:\n- **Meaning:** The word 'of' in fractional arithmetic strictly and universally implies **multiplication**.\n- **Application:** Finding '$\\\frac{1}{2}$ of a quantity' translates directly to mathematically multiplying that quantity by $\\\frac{1}{2}$.\n\n## Boundary Conditions / Domain:\n- This linguistic translation applies strictly to scalar quantities, measurements, or algebraic variables.",
+        "mnemonic": "Of means Off to Multiply!",
+        "standardMeta": {
+          "question": "What explicit mathematical operation does the word 'of' strictly signify when used in conjunction with fractions?"
+        }
+      }
+    },
+    {
+      "cardId": "9dd7377f-37bd-40b2-9e42-7ce601fbe31b",
+      "originalOrder": 1,
+      "originalHeading": "Multiplication of a Fraction by a Whole Number",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected mathematical domain conditions for the multiplier"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 2,
+        "heading": "Conceptual Interpretation: Whole Number × Fraction",
+        "back": "## Conceptual Mechanism:\n- **Interpretation:** Multiplying a whole number and a fraction is mathematically interpreted strictly as the **repeated addition** of that fraction.\n- **Example:** $5 \\\times \\\frac{1}{4}$ means mathematically aggregating $\\\frac{1}{4}$ exactly five times: $\\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} + \\\frac{1}{4} = \\\frac{5}{4}$.\n\n## Boundary Conditions / Domain:\n- The whole number multiplier $n$ must strictly be an integer $n \\geq 0$.",
+        "mnemonic": "Multiplication is just Addition on loop.",
+        "standardMeta": {
+          "question": "How is the multiplication of a whole number and a fraction conceptually interpreted in fundamental mathematics?"
+        }
+      }
+    },
+    {
+      "cardId": "a49ffc8e-c752-4951-ae82-64c728764dfd",
+      "originalOrder": 6,
+      "originalHeading": "Multiplying a Fraction by a Whole Number",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to strict FORMULA schema constraints",
+        "Double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 3,
+        "heading": "Multiplying a Fraction by a Whole Number",
+        "back": "## Component Anatomy:\n- **$n$:** Any whole number multiplier.\n- **$a$:** The numerator of the fraction.\n- **$b$:** The denominator of the fraction.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0$ (division by zero is undefined).",
+        "formulaMeta": {
+          "formula": "n \\times \\frac{a}{b} = \\frac{n}{1} \\times \\frac{a}{b} = \\frac{n \\times a}{b}",
+          "description": "State the algebraic formula and process for multiplying a whole number by a fraction.",
+          "derivation": "## Algorithmic SOP:\n1. Rewrite the whole number $n$ strictly as a fraction by placing it over a denominator of $1$ (yielding $\\\frac{n}{1}$).\n2. Multiply the numerators directly across: $n \\\times a$.\n3. Multiply the denominators directly across: $1 \\\times b = b$."
+        }
+      }
+    },
+    {
+      "cardId": "c9fe8205-0218-414b-9aa9-5bf9846c7471",
+      "originalOrder": 3,
+      "originalHeading": "Geometric Interpretation of Fraction Multiplication",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected domain restrictions mapping to the 2D area unit box"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "geometry", "fractions", "class-7"],
+        "order": 4,
+        "heading": "Geometric Interpretation of Fraction Multiplication",
+        "back": "## Geometric Model:\n- **Model:** It is fundamentally visualized using the **Area of a Rectangle** residing inside a standardized $1 \\\times 1$ unit square.\n- **Mechanism:** The two multiplying fractions represent the fractional **length and breadth** of the smaller internal rectangle.\n- The resulting calculated area mathematically matches the algebraic product of the two fractions.\n\n## Boundary Conditions / Domain:\n- For this specific visual unit-box model to apply perfectly, the fractions must strictly be positive proper fractions ($0 < x < 1$ and $0 < y < 1$).",
+        "mnemonic": "Fractions as sides, Area as the product.",
+        "standardMeta": {
+          "question": "How can the algebraic product of two fractions be geometrically and spatially visualized?"
+        }
+      }
+    },
+    {
+      "cardId": "cc0b2ca5-328b-44bb-9540-4666b453d233",
+      "originalOrder": 12,
+      "originalHeading": "Commutativity of Fraction Multiplication",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected explicit mathematical boundaries",
+        "Structured geometric proof"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 5,
+        "heading": "Commutativity of Fraction Multiplication",
+        "back": "## Mathematical Property:\n- **Algebraic Rule:** The sequence of operands does NOT affect the mathematical product. strictly, $\\\frac{a}{b} \\\times \\\frac{c}{d} = \\\frac{c}{d} \\\times \\\frac{a}{b}$.\n- **Geometric Proof:** The total bounded area of a geometric rectangle remains completely identical even if you rotate it $90^{\\circ}$ (thereby swapping the length and breadth dimensions).\n\n## Boundary Conditions / Domain:\n- Valid for all rational numbers where the denominators $b \\\neq 0$ and $d \\\neq 0$.",
+        "standardMeta": {
+          "question": "Does the sequential order of operands mathematically affect the result when multiplying two fractions? Provide a geometric reasoning."
+        }
+      }
+    },
+    {
+      "cardId": "0aa6f913-b7fb-4122-b22f-e384391b4898",
+      "originalOrder": 4,
+      "originalHeading": "Multiplication of Unit Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized KaTeX syntax",
+        "Maintained CONCEPT classification"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 6,
+        "heading": "Multiplication of Unit Fractions",
+        "back": "## Component Anatomy:\n- **$1$:** The constant numerator (the absolute defining feature of a 'unit fraction').\n- **$b, d$:** The distinct integer denominators of the respective fractions.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0, d \\\neq 0$.\n- $b, d \\in \\mathbb{Z}$.",
+        "formulaMeta": {
+          "formula": "\\frac{1}{b} \\times \\frac{1}{d} = \\frac{1}{b \\times d}",
+          "description": "State the algebraic formula modeling the multiplication of two distinct unit fractions.",
+          "derivation": "## Proof SOP:\n1. Directly multiply the unit numerators straight across ($1 \\\times 1 = 1$).\n2. Directly multiply the integer denominators straight across ($b \\\times d = bd$)."
+        }
+      }
+    },
+    {
+      "cardId": "10c2df02-a10d-4009-a80f-7cabb0d9bbdd",
+      "originalOrder": 5,
+      "originalHeading": "Brahmagupta's Formula for Multiplication of Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized to strict FORMULA constraints",
+        "Double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 7,
+        "heading": "Brahmagupta's Formula: Multiplication of Fractions",
+        "back": "## Component Anatomy:\n- **$a, c$:** The strictly defined numerators of the respective fractions.\n- **$b, d$:** The strictly defined denominators of the respective fractions.\n\n## Boundary Conditions / Domain:\n- Denominators must absolutely never mathematically evaluate to zero: $b \\\neq 0, d \\\neq 0$.",
+        "mnemonic": "Top with Top, Bottom with Bottom.",
+        "formulaMeta": {
+          "formula": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}",
+          "description": "State the generalized algebraic formula for multiplying two fractions as historically codified by Brahmagupta.",
+          "derivation": "## Algorithmic SOP:\n1. Multiply the numerators strictly together to mathematically synthesize the new terminal numerator: $a \\\times c$.\n2. Multiply the denominators strictly together to mathematically synthesize the new terminal denominator: $b \\\times d$."
+        }
+      }
+    },
+    {
+      "cardId": "a58ddbbc-8b01-48e8-9234-de99b9473eee",
+      "originalOrder": 7,
+      "originalHeading": "Simplification of Fractions Before Multiplication",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected mathematical boundaries for valid cancellation targets"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 8,
+        "heading": "Apavartana: Simplification Before Multiplication",
+        "back": "## Procedural Optimization:\n- **Procedure:** Before algorithmically multiplying across, systematically divide any numerator and any denominator by their strictly **highest common factors**.\n- **Terminology:** This optimization technique of mathematically reducing a fraction to its lowest terms is called **cancelling common factors** (historically codified as *Apavartana* in India).\n- **Value Addition:** Proactively prevents the synthesis of excessively massive, error-prone numeric products.\n\n## Boundary Conditions / Domain:\n- You may strictly ONLY cancel a factor from a numerator against a factor from a denominator. You CANNOT cancel numerator-to-numerator or denominator-to-denominator.",
+        "mnemonic": "Simplify before you multiply.",
+        "standardMeta": {
+          "question": "What is the optimal procedural step to mathematically execute before multiplying the numerators and denominators of large fractions?"
+        }
+      }
+    },
+    {
+      "cardId": "117d5822-0131-4ccc-bf46-c7f744d67588",
+      "originalOrder": 29,
+      "originalHeading": "Evaluating Chained Fractional 'Of' Operators",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Updated classification to PROCEDURAL",
+        "Added explicit mathematical boundaries regarding mixed fractions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 9,
+        "heading": "Evaluating Chained Fractional 'Of' Operators",
+        "back": "## Procedural Strategy:\n- **Concept:** A continuous, unbroken chain of the word 'of' between fractions strictly dictates a **continuous chain of multiplication**.\n- **Procedure:** Do not evaluate fraction pairs sequentially from left to right. Instead, expand the entire expression simultaneously into a single large, unified fraction.\n- **Optimization Step:** Strictly apply **Apavartana (Cross-Cancellation)** across all available numerators and denominators concurrently *before* calculating the final terminal product.\n- **Example:** $\\\frac{1}{5}$ of $\\\frac{1}{4}$ of $\\\frac{2}{3}$ maps to $\\\frac{1 \\\times 1 \\\times 2}{5 \\\times 4 \\\times 3}$.\n\n## Boundary Conditions / Domain:\n- This chained multiplication procedure strictly requires all terms to be proper or improper fractions. Mixed fractions MUST be explicitly pre-converted before chaining.",
+        "mnemonic": "Chain of 'Of' = Chain of Multiply.",
+        "standardMeta": {
+          "question": "What is the mathematically optimal algebraic approach for evaluating a long, chained sequence of fractional 'of' operators (e.g., $a$ of $b$ of $c$)?"
+        }
+      }
+    },
+    {
+      "cardId": "202b845d-d959-45ab-af66-78317639340c",
+      "originalOrder": 10,
+      "originalHeading": "Product Behavior: Both Multipliers Between 0 and 1",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Injected rigorous mathematical inequalities"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "class-7"],
+        "order": 10,
+        "heading": "Product Behavior: Multiplying Two Proper Fractions",
+        "back": "## Mathematical Relationship:\n- **Outcome:** The resulting terminal product is strictly **less than both** of the original fractional operands.\n- **Reasoning:** Conceptually, multiplying by a proper fraction mathematically extracts a strictly smaller part' or subset of the other number.\n- **Example:** $\\\frac{1}{2} \\\times \\\frac{1}{4} = \\\frac{1}{8}$. Both original operands ($\frac{1}{2}, \frac{1}{4}$) are mathematically greater than the product $\\\frac{1}{8}$.\n\n## Boundary Conditions / Domain:\n- Let $x$ and $y$ be strictly proper positive fractions: $0 < x < 1$ and $0 < y < 1$.\n- The strict inequality holds: $0 < xy < x$ and $0 < xy < y$.",
+        "mnemonic": "Fractions eat each other, making smaller pieces.",
+        "standardMeta": {
+          "question": "What mathematically occurs to the product's magnitude when two proper fractions (strictly between 0 and 1) are multiplied together?"
+        }
+      }
+    },
+    {
+      "cardId": "99282231-f6ab-4e9c-bda3-203aab2547a6",
+      "originalOrder": 11,
+      "originalHeading": "Product Behavior: One Multiplier > 1, One < 1",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Injected rigorous mathematical inequalities"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "class-7"],
+        "order": 11,
+        "heading": "Product Behavior: Mixed Multiplier Bounds",
+        "back": "## Mathematical Relationship:\n- **Outcome:** The terminal product mathematically falls strictly *between* the magnitudes of the two original operands.\n- **Specifics:** It evaluates strictly **less than the operand greater than 1**, and strictly **greater than the operand between 0 and 1**.\n- **Example:** $5 \\\times \\\frac{3}{4} = \\\frac{15}{4}$. Here, $\\\frac{15}{4} < 5$ but simultaneously $\\\frac{15}{4} > \\\frac{3}{4}$.\n\n## Boundary Conditions / Domain:\n- Let operand $x > 1$ and operand $0 < y < 1$.\n- The strict bounding inequality holds: $y < xy < x$.",
+        "standardMeta": {
+          "question": "If you multiply a number strictly greater than $1$ with a proper fraction strictly between $0$ and $1$, how does the terminal product mathematically compare to the original operands?"
+        }
+      }
+    },
+    {
+      "cardId": "cfa932a6-5885-46f8-b041-ed2a5dbb5309",
+      "originalOrder": 9,
+      "originalHeading": "Product Behavior: Both Multipliers > 1",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Injected rigorous mathematical inequalities"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "class-7"],
+        "order": 12,
+        "heading": "Product Behavior: Multiplying Values Greater Than 1",
+        "back": "## Mathematical Relationship:\n- **Outcome:** The resulting terminal product is mathematically forced to be strictly **greater than both** of the original numbers being multiplied.\n- **Example:** $3 \\\times \\\frac{5}{4} = \\\frac{15}{4}$. Here, $\\\frac{15}{4} > 3$ and simultaneously $\\\frac{15}{4} > \\\frac{5}{4}$.\n\n## Boundary Conditions / Domain:\n- Let the operands satisfy $x > 1$ and $y > 1$.\n- The strict inequality mathematically dictates: $xy > x$ and $xy > y$.",
+        "mnemonic": "Big times Big gets Bigger.",
+        "standardMeta": {
+          "question": "What is the strict mathematical relationship between the product and the original operands when multiplying two numbers that are strictly greater than $1$?"
+        }
+      }
+    },
+    {
+      "cardId": "5ee73b47-7801-4d84-841c-c5e21da8a40e",
+      "originalOrder": 31,
+      "originalHeading": "Bounding Products of Large Improper Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected explicit inequality conditions for validity"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "test-prep", "class-7"],
+        "order": 13,
+        "heading": "Bounding Products of Improper Fractions",
+        "back": "## Estimation Strategy:\n- **Concept:** You do not need to execute the exact arithmetic product to determine its comparative scale if both multipliers are strictly **improper fractions**.\n- **Rule:** Because improper fractions are definitionally strictly **greater than 1** (e.g., $\\\frac{565}{465}$ and $\\\frac{707}{676}$), mathematical laws dictate their product will strictly be **greater than 1 AND greater than both individual fractional operands**.\n- **Application:** Exploit this bounding property in multiple-choice exams to instantaneously eliminate options that are numerically smaller than either of the original operands.\n\n## Boundary Conditions / Domain:\n- Both input fractions must strictly evaluate to $> 1$.",
+        "mnemonic": "Improper times Improper makes an even bigger monster.",
+        "standardMeta": {
+          "question": "How can you instantaneously mathematically determine the lower bounds of the product of two massive, unsimplified improper fractions without calculating their exact value?"
+        }
+      }
+    },
+    {
+      "cardId": "99da7f65-82ec-4229-b2b7-2b23f2d5370d",
+      "originalOrder": 13,
+      "originalHeading": "Multiplicative Inverse (Reciprocal)",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Injected domain restrictions mapping to zero"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DEFINITION",
+        "tags": ["math", "algebra", "properties", "class-7"],
+        "order": 14,
+        "heading": "Mathematical Definition: Multiplicative Inverse (Reciprocal)",
+        "back": "## Core Definition:\n- **Definition:** Two fractions are mathematically defined as reciprocals (multiplicative inverses) if and only if their **mathematical product evaluates to exactly $1$**.\n- **Mechanism:** It is the exact necessary multiplier structurally required to perfectly cross-cancel the original numerator and denominator to unity.\n\n## Boundary Conditions / Domain:\n- The integer $0$ absolutely possesses NO multiplicative inverse within the real numbers, because division by zero is mathematically undefined.",
+        "mnemonic": "Reciprocal flips the script to get 1.",
+        "standardMeta": {
+          "question": "What explicit mathematical identity rigorously defines two fractions as being the reciprocal (or multiplicative inverse) of each other?"
+        }
+      }
+    },
+    {
+      "cardId": "22d257c5-bebf-43e4-a978-6836092fb2d8",
+      "originalOrder": 32,
+      "originalHeading": "Identity Element vs Multiplicative Inverse",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added explicit mathematical boundaries and mapping"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "DISTINCTION",
+        "tags": ["math", "algebra", "properties", "class-7"],
+        "order": 15,
+        "heading": "Multiplicative Identity vs. Multiplicative Inverse",
+        "back": "## Mathematical Distinction:\n- **Multiplicative Identity:** Multiplying an arbitrary fraction strictly by $1$ leaves the fraction's magnitude totally **unchanged** ($\frac{a}{b} \times 1 = \frac{a}{b}$).\n- **Multiplicative Inverse (Reciprocal):** Multiplying an arbitrary fraction strictly by its inverse structurally forces the terminal product to become **exactly $1$** ($\frac{a}{b} \times \frac{b}{a} = 1$).\n- **Distinction Trap:** Students routinely confuse the number they must multiply *by* (the dynamic inverse) with the final target mathematical result (the static identity).\n\n## Boundary Conditions / Domain:\n- The Multiplicative Identity is a universal constant ($1$).\n- The Multiplicative Inverse is highly dynamic, explicitly defined as $1/x$ for any $x$, bounded where $x \neq 0$.",
+        "mnemonic": "Identity keeps it the same; Inverse destroys it to 1.",
+        "standardMeta": {
+          "question": "What is the strict mathematical and functional distinction between the Multiplicative Identity and the Multiplicative Inverse of a fraction?"
+        }
+      }
+    },
+    {
+      "cardId": "ac3df1be-12b8-4002-897b-0b1445e01787",
+      "originalOrder": 14,
+      "originalHeading": "Finding the Reciprocal of a Fraction",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to strict FORMULA constraints",
+        "Double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "properties", "class-7"],
+        "order": 16,
+        "heading": "Finding the Reciprocal of a Standard Fraction",
+        "back": "## Component Anatomy:\n- **$a$:** The original numerator (structurally maps to the new denominator).\n- **$b$:** The original denominator (structurally maps to the new numerator).\n\n## Boundary Conditions / Domain:\n- $a \\\neq 0, b \\\neq 0$.\n- A reciprocal mathematically cannot be calculated if the original numerator $a$ is $0$, as flipping it induces a division by zero error (undefined).",
+        "mnemonic": "Flip the fraction.",
+        "formulaMeta": {
+          "formula": "\\text{Reciprocal of } \\frac{a}{b} = \\frac{b}{a}",
+          "description": "State the algebraic mapping to rapidly synthesize the mathematical reciprocal of a standard fraction a/b.",
+          "derivation": "## Algorithmic SOP:\n1. Physically invert the fraction by swapping the spatial positions of the original numerator and the original denominator.\n2. Strictly verify the result by multiplying the two fractions: $\\\frac{a}{b} \\\times \\\frac{b}{a}$ must equal $1$."
+        }
+      }
+    },
+    {
+      "cardId": "1c84fddc-bc4d-4bfd-96aa-ac3465df3a6e",
+      "originalOrder": 15,
+      "originalHeading": "Finding the Reciprocal of a Whole Number",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Converted to strict FORMULA constraints"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "properties", "class-7"],
+        "order": 17,
+        "heading": "Finding the Reciprocal of a Whole Number",
+        "back": "## Component Anatomy:\n- **$n$:** Any arbitrary non-zero whole integer.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$.\n- $n \\in \\mathbb{Z}$.",
+        "formulaMeta": {
+          "formula": "\\text{Reciprocal of } n = \\frac{1}{n}",
+          "description": "State the algebraic formula to map the inverse (reciprocal) of any non-zero whole number n.",
+          "derivation": "## Algorithmic SOP:\n1. First, explicitly express the whole number $n$ as a fraction over a denominator of one: $\\\frac{n}{1}$.\n2. Swap the numerator and denominator to derive the true algebraic reciprocal: $\\\frac{1}{n}$."
+        }
+      }
+    },
+    {
+      "cardId": "89d9e703-1ffa-4bee-a433-f9a6f913f656",
+      "originalOrder": 16,
+      "originalHeading": "Product of a Fraction and its Reciprocal",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Maintained CONCEPT classification",
+        "Standardized FORMULA syntax and double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "CONCEPT",
+        "tags": ["math", "arithmetic", "properties", "class-7"],
+        "order": 18,
+        "heading": "Product of a Fraction and its Reciprocal",
+        "back": "## Component Anatomy:\n- **$a/b$:** The initial arbitrary baseline fraction.\n- **$b/a$:** The strict mathematical reciprocal of that baseline fraction.\n\n## Boundary Conditions / Domain:\n- Both variables must be strictly non-zero: $a \\\neq 0, b \\\neq 0$.",
+        "formulaMeta": {
+          "formula": "\\frac{a}{b} \\times \\frac{b}{a} = 1",
+          "description": "State the fundamental algebraic identity for mathematically multiplying an arbitrary fraction by its own reciprocal.",
+          "derivation": "## Proof SOP:\n1. Execute multiplication of the numerators across: $a \\\times b = ab$.\n2. Execute multiplication of the denominators across: $b \\\times a = ba$.\n3. Given the commutative property, $ab = ba$. Therefore, the fraction evaluates strictly to $\\\frac{ab}{ab}$, which simplifies mathematically to exactly $1$."
+        }
+      }
+    },
+    {
+      "cardId": "eaaa5d4e-469d-45b0-909b-99f6e4422ac7",
+      "originalOrder": 17,
+      "originalHeading": "Conceptual Interpretation of Fraction Division",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Injected explicit mathematical boundaries for division by zero"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "CONCEPT",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 19,
+        "heading": "Conceptual Interpretation of Fraction Division",
+        "back": "## Conceptual Mechanism:\n- **Restatement Strategy:** The division of fractions is fundamentally and conceptually treated as a **'missing number' multiplication problem**.\n- **Execution Example:** To conceptually solve $1 \\div \\\frac{2}{3}$, restate it algebraically as: 'What exact multiplier must be multiplied by $\\\frac{2}{3}$ to yield the terminal product $1$?'\n- **Resolution:** By the definition of inverses, the required multiplier is strictly its reciprocal, $\\\frac{3}{2}$.\n\n## Boundary Conditions / Domain:\n- The divisor fraction fundamentally cannot evaluate to $0$.",
+        "mnemonic": "Division is just multiplication in disguise.",
+        "standardMeta": {
+          "question": "How can the mathematical division of fractions be conceptually restated to make it logically easier to interpret and solve?"
+        }
+      }
+    },
+    {
+      "cardId": "7413a54d-e300-4aa9-be32-a704c34e04ec",
+      "originalOrder": 18,
+      "originalHeading": "Brahmagupta's Formula for Division of Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted to strict FORMULA constraints",
+        "Double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 20,
+        "heading": "Brahmagupta's Formula: Division of Fractions",
+        "back": "## Component Anatomy:\n- **$a/b$:** The primary Dividend (the base fraction actively being divided).\n- **$c/d$:** The active Divisor (the fraction executing the division).\n- **$d/c$:** The algebraic Reciprocal of the Divisor.\n\n## Boundary Conditions / Domain:\n- $b \\\neq 0$ (valid fraction condition).\n- $c \\\neq 0$ and $d \\\neq 0$ (The entire divisor fraction mathematically cannot be equal to $0$, else undefined).",
+        "mnemonic": "Keep, Change, Flip.",
+        "formulaMeta": {
+          "formula": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{a \\times d}{b \\times c}",
+          "description": "State the general algebraic formula and corresponding algorithm for dividing two fractions.",
+          "derivation": "## Algorithmic SOP:\n1. **Keep** the dividend fraction $\\\frac{a}{b}$ strictly identical.\n2. **Change** the division mathematical operator exclusively to a multiplication operator.\n3. **Flip** (Invert) the divisor $\\\frac{c}{d}$ directly to its reciprocal $\\\frac{d}{c}$.\n4. Multiply across numerators and denominators applying standard multiplication rules."
+        }
+      }
+    },
+    {
+      "cardId": "dc52dfc8-8820-4c71-81e4-387a642e13e5",
+      "originalOrder": 19,
+      "originalHeading": "Division Involving Whole Numbers and Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Double-escaped KaTeX for aligned environment",
+        "Structured boundary conditions"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 21,
+        "heading": "Division Involving Whole Numbers and Fractions",
+        "back": "## Component Anatomy:\n- **$n$:** The arbitrary whole number interacting with the fraction.\n- **$a, b$:** The numerator and denominator of the strictly fractional component.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$ (Strictly required when $n$ is acting as the divisor in the second configuration).\n- $a \\\neq 0$ (Strictly required when the fraction $a/b$ is acting as the divisor in the first configuration).\n- $b \\\neq 0$ (Baseline valid fraction requirement).",
+        "mnemonic": "Put a 1 under it, then Keep-Change-Flip.",
+        "formulaMeta": {
+          "formula": "\\begin{aligned} n \\div \\frac{a}{b} &= \\frac{n \\times b}{a} \\\\ \\frac{a}{b} \\div n &= \\frac{a}{b \\times n} \\end{aligned}",
+          "description": "State the dual algebraic procedures for dividing a whole number by a fraction, and dividing a fraction by a whole number.",
+          "derivation": "## Algorithmic SOP:\n1. Always explicitly convert the whole number integer $n$ into an algebraic fraction format by placing it over $1$ (yielding $\\\frac{n}{1}$).\n2. Apply the standard fraction division algorithm strictly: Keep the primary dividend, Change to multiplication, and Flip the divisor to its reciprocal."
+        }
+      }
+    },
+    {
+      "cardId": "03ed44c2-5f81-4fa8-bcaf-11c1a89e874c",
+      "originalOrder": 30,
+      "originalHeading": "Division of Unity by a Unit Fraction",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Converted schema to strictly match FORMULA type"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "FACT",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 22,
+        "heading": "Division Identity: Unity Divided by a Unit Fraction",
+        "back": "## Component Anatomy:\n- **$1$:** The static dividend (Representing Unity / The Whole).\n- **$1/n$:** The active divisor (Representing an arbitrary unit fraction).\n- **$n$:** The resulting evaluated whole integer.\n\n## Boundary Conditions / Domain:\n- $n \\\neq 0$.\n- Typically, $n \\in \\mathbb{Z}^{+}$ specifically when utilized for physical counting or partitioning problems.",
+        "mnemonic": "One divided by a piece gives the whole pizza.",
+        "formulaMeta": {
+          "formula": "1 \\div \\frac{1}{n} = n",
+          "description": "State the mathematically simplified algebraic outcome of dividing the constant 1 (Unity) strictly by any unit fraction.",
+          "derivation": "## Proof SOP:\n1. Convert the standard division sequence into multiplication by utilizing the reciprocal of the divisor: $1 \\\times \\\frac{n}{1}$.\n2. Multiply across. The product trivially simplifies to identically $n$."
+        }
+      }
+    },
+    {
+      "cardId": "8a531b94-9c60-4777-8c2f-50ebae4c42b5",
+      "originalOrder": 20,
+      "originalHeading": "Quotient Behavior: Divisor Between 0 and 1",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added explicit mathematical inequalities for boundary domain"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "class-7"],
+        "order": 23,
+        "heading": "Quotient Behavior: Proper Fraction Divisors",
+        "back": "## Mathematical Relationship:\n- **Outcome:** The resulting mathematical quotient is paradoxically strictly **greater than the original dividend**.\n- **Reasoning:** Conceptually, you are asking 'how many of this tiny fractional piece can fit into the whole?', which inherently yields a significantly larger numeric quantity of pieces.\n- **Example:** $6 \\\\div \\\frac{1}{4} = 24$, where obviously $24 > 6$.\n\n## Boundary Conditions / Domain:\n- Let the Divisor $D$ be bounded by $0 < D < 1$.\n- The Dividend must be strictly positive: Dividend $> 0$.",
+        "mnemonic": "Divide by a fraction, gain a massive reaction.",
+        "standardMeta": {
+          "question": "In a mathematical division operation, what occurs to the relative size of the quotient when the active divisor is a proper fraction (strictly bounded between 0 and 1)?"
+        }
+      }
+    },
+    {
+      "cardId": "b67df18e-95a4-431b-b7b0-2d2898d7ce1a",
+      "originalOrder": 21,
+      "originalHeading": "Quotient Behavior: Divisor Greater Than 1",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Added explicit mathematical inequalities for boundary domain"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": ["math", "arithmetic", "inequalities", "class-7"],
+        "order": 24,
+        "heading": "Quotient Behavior: Divisor Greater Than 1",
+        "back": "## Mathematical Relationship:\n- **Outcome:** The resulting quotient is structurally forced to be strictly **less than the primary dividend**.\n- **Example:** $6 \\\\div 3 = 2$, where $2 < 6$.\n- **Note:** This conforms perfectly to standard baseline intuition for arithmetic division.\n\n## Boundary Conditions / Domain:\n- Let the active Divisor satisfy: Divisor $> 1$.\n- The primary Dividend must be strictly positive: Dividend $> 0$.",
+        "standardMeta": {
+          "question": "In a positive division operation, what mathematically happens to the relative scale of the quotient when the divisor is strictly greater than 1?"
+        }
+      }
+    },
+    {
+      "cardId": "61dfb412-0fc9-4461-a04d-138868cd747c",
+      "originalOrder": 22,
+      "originalHeading": "Pre-Processing Mixed Fractions",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Standardized KaTeX syntax",
+        "Maintained PROCEDURAL classification"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "PROCEDURAL",
+        "tags": ["math", "arithmetic", "fractions", "class-7"],
+        "order": 25,
+        "heading": "Pre-Processing Mixed Fractions",
+        "back": "## Component Anatomy:\n- **$W$:** The whole number integer prefix.\n- **$n$:** The numerator of the strictly fractional appended part.\n- **$d$:** The denominator of the strictly fractional appended part.\n\n## Boundary Conditions / Domain:\n- $d \\\neq 0$.\n- **Critical Trap:** You absolutely CANNOT directly multiply/divide the prefix $W$ mathematically independent of its fraction $n/d$.",
+        "mnemonic": "Mixed to Improper: Multiply the bottom, add the top.",
+        "formulaMeta": {
+          "formula": "W \\frac{n}{d} \\implies \\frac{(W \\times d) + n}{d}",
+          "description": "State the mandatory algebraic transformation required before attempting to mathematically multiply or divide mixed fractions.",
+          "derivation": "## Algorithmic SOP:\n1. **Convert:** Strictly transform any composite mixed fraction into a unified improper fraction before executing multiplication or division.\n2. **Execute:** Apply Brahmagupta's formula algorithm for multiplication or division.\n3. **Re-convert (Optional):** Synthesize the resulting terminal improper fraction back into a mixed fraction if explicitly demanded by the specific problem formatting."
+        }
+      }
+    },
+    {
+      "cardId": "7b768f37-5c01-4f32-a047-6961554236cf",
+      "originalOrder": 28,
+      "originalHeading": "Successive Fractional Branching (Tree Diagrams)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Classification mapped to APPLICATION",
+        "Enhanced markdown formatting"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "arithmetic",
+          "fractions",
+          "probability",
+          "jee-foundation",
+          "class-7"
+        ],
+        "order": 26,
+        "heading": "Successive Fractional Branching (Tree Diagrams)",
+        "back": "## Mathematical Concept:\n- **Concept:** The successive splitting of a physical quantity (e.g., a colony dividing equally at multiple forks) represents a strict **geometric progression of fractional multiplication**.\n- **Procedure:** To precisely evaluate the terminal fraction of the original group arriving at any specific endpoint, trace the geometric path from the origin and **mathematically multiply the fractions of every single branch** traversed.\n- **Example Application:** If a primary path splits equally into $2$ (yielding $\\\frac{1}{2}$), and a subsequent branch splits equally into $4$ (yielding $\\\frac{1}{4}$), the terminal quantity reaching the end of that specific route is strictly $\\\frac{1}{2} \\\times \\\frac{1}{4} = \\\frac{1}{8}$ of the initial whole.",
+        "mnemonic": "Every fork multiplies the fraction.",
+        "standardMeta": {
+          "question": "How do you mathematically determine the final fractional quantity of a group that undergoes successive, equal splits at multiple sequential path intersections?"
+        }
+      }
+    },
+    {
+      "cardId": "8babf66a-6347-429c-8713-3e7466744c66",
+      "originalOrder": 26,
+      "originalHeading": "Telescoping Product of Successive Fractional Differences",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Isolated the core algebraic identity",
+        "Converted to strictly bounded FORMULA card"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "algebra",
+          "fractions",
+          "series",
+          "jee-foundation",
+          "class-7"
+        ],
+        "order": 27,
+        "heading": "Identity: Telescoping Fractional Product",
+        "back": "## Component Anatomy:\n- **$n$:** The terminal integer in the bounding sequence.\n\n## Boundary Conditions / Domain:\n- $n \\geq 2$, where $n \\in \\mathbb{Z}$.\n- The sequence pattern intrinsically relies on consecutive ascending integers occupying the respective denominators.",
+        "mnemonic": "Numerator meets denominator, leaving only the ends.",
+        "formulaMeta": {
+          "formula": "\\left(1 - \\frac{1}{2}\\right) \\times \\left(1 - \\frac{1}{3}\\right) \\times \\dots \\times \\left(1 - \\frac{1}{n}\\right) = \\frac{1}{n}",
+          "description": "State the algebraic identity for a telescoping product of successive fractional differences.",
+          "derivation": "## Proof Logic:\nEach term's mathematically generated numerator is strictly identical to the subsequent term's denominator, allowing consecutive cross-cancellation across the entire product chain, isolating only the very first numerator and the final terminal denominator."
+        }
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 26,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Extracted algorithmic execution SOP into a discrete PROCEDURAL card"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "algebra",
+          "fractions",
+          "series",
+          "jee-foundation",
+          "class-7"
+        ],
+        "order": 28,
+        "heading": "Execution SOP: Telescoping Fractional Products",
+        "back": "## Algorithmic SOP:\n- **Step 1 (Transform):** Convert the algebraic subtraction inside each sequential bracket into a standard proper fraction (e.g., $1 - \\\frac{1}{2} = \\\frac{1}{2}$, and $1 - \\\frac{1}{3} = \\\frac{2}{3}$). This generates the chain: $\\\frac{1}{2} \\\times \\\frac{2}{3} \\\times \\\frac{3}{4} \\\times \\\\dots \\\times \\\frac{n-1}{n}$.\n- **Step 2 (Cancel):** Execute diagonal cross-cancellation. The numerator of each term will perfectly mathematically cancel the denominator of the immediately preceding term.\n- **Step 3 (Isolate):** Extract the remaining uncancelled values (strictly the numerator of the first term, $1$, and the denominator of the last term, $n$, yielding strictly $\\\frac{1}{n}$).",
+        "standardMeta": {
+          "question": "What is the step-by-step procedural algorithm (SOP) for algebraically evaluating a telescoping product of successive fractional differences?"
+        }
+      }
+    },
+    {
+      "cardId": "1238b7a0-23ea-4e25-a786-32dcba280781",
+      "originalOrder": 27,
+      "originalHeading": "Fractional Rates of Work (Cisterns & Fountains Archetype)",
+      "action": "SPLIT",
+      "modificationsSummary": [
+        "Isolated the core formula linking total rate to total time",
+        "Double-escaped KaTeX"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "FORMULA",
+        "classification": "APPLICATION",
+        "tags": [
+          "math",
+          "algebra",
+          "fractions",
+          "word-problems",
+          "jee-foundation",
+          "class-7"
+        ],
+        "order": 29,
+        "heading": "Algebraic Model: Fractional Rates of Work",
+        "back": "## Component Anatomy:\n- **$t_i$:** Time taken by an individual source $i$ to complete the task alone.\n- **$\text{Rate}_{total}$:** The aggregated combined rate of work per unit of time.\n- **$T_{total}$:** The terminal total time required to complete the task collaboratively.\n\n## Boundary Conditions / Domain:\n- $t_i > 0$ (Temporal duration cannot be mathematically zero or negative).",
+        "mnemonic": "Flip the Time to find the Rate, Add the Rates to seal their fate.",
+        "formulaMeta": {
+          "formula": "\\text{Rate}*{total} = \\sum*{i=1}^{n} \\left(\\frac{1}{t_i}\\right) \\implies T_{total} = \\frac{1}{\\text{Rate}*{total}}",
+          "description": "State the core algebraic relationship between individual completion times, combined unit rates, and total completion time for parallel work problems.",
+          "derivation": "## Logical Framework:\nTime and Work Rate are strictly inversely proportional. You mathematically CANNOT add completion times together for parallel concurrent work, but you CAN seamlessly algebraically sum their independent unit rates of work."
+        }
+      }
+    },
+    {
+      "cardId": "NEW",
+      "originalOrder": 27,
+      "originalHeading": "NEW_CARD_TOPIC",
+      "action": "NEW",
+      "modificationsSummary": [
+        "Created independent SOP card for Cisterns/Work problems to prevent cognitive overload"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "PROCEDURAL",
+        "tags": [
+          "math",
+          "algebra",
+          "fractions",
+          "word-problems",
+          "jee-foundation",
+          "class-7"
+        ],
+        "order": 30,
+        "heading": "Execution SOP: Fractional Parallel Work Problems",
+        "back": "## Algorithmic SOP:\n- **Step 1 (Extract Rates):** For each independent worker/source, calculate its unit-time rate by taking the strict mathematical reciprocal of its given completion time ($R_i = 1 \\\\div t_i$).\n- **Step 2 (Aggregate):** Algebraically sum all individual unit rates together to determine the combined collective rate of progress ($R*{total} = R_1 + R_2 + \\dots + R_n$).\n- **Step 3 (Invert for Time):** Take the strict mathematical reciprocal of the combined collective rate to find the total terminal time required to collaboratively complete the task ($T_{total} = 1 \\\\div R_{total}$).",
+        "standardMeta": {
+          "question": "What is the exact algebraic Standard Operating Procedure (SOP) for finding the total time required to fill a cistern when multiple fountains fill it at different individual times?"
+        }
+      }
+    },
+    {
+      "cardId": "ad1fb16c-7101-4b34-8e3e-6885b799a843",
+      "originalOrder": 8,
+      "originalHeading": "Historical Context: Apavartana",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Maintained FACT classification",
+        "Structured content into explicit historical bullet points"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "history", "fractions", "class-7"],
+        "order": 31,
+        "heading": "Historical Context: Apavartana",
+        "back": "## Historical Fact:\n- **Terminology:** The algorithmic process of mathematically reducing a fraction to its absolute lowest terms was historically codified in India as **Apavartana**.\n- **Origin/Reference:** The concept was so culturally ubiquitous that Jaina scholar **Umasvati (c. 150 CE)** utilized it casually as an established simile in a non-mathematical philosophical text.",
+        "standardMeta": {
+          "question": "What is the ancient Indian terminology for systematically reducing a fraction to its lowest terms, and who historically referenced it around 150 CE?"
+        }
+      }
+    },
+    {
+      "cardId": "f6bfeefe-0b74-4946-b9d4-901ad8055227",
+      "originalOrder": 24,
+      "originalHeading": "Codification of Fraction Arithmetic (Brahmagupta)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Maintained FACT classification",
+        "Structured content logically"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "history", "fractions", "class-7"],
+        "order": 32,
+        "heading": "Historical Codification: Fraction Arithmetic",
+        "back": "## Historical Fact:\n- **Mathematician:** The Indian mathematician **Brahmagupta**.\n- **Text:** *Brahmasphutasiddhanta* (628 CE).\n- **Contribution:** He was historically the first to rigorously codify the generalized mathematical rules for adding, subtracting, multiplying, and dividing arbitrary fractions into essentially the exact modern algorithmic forms utilized today.",
+        "standardMeta": {
+          "question": "Who was the first mathematician to formally codify the general arithmetic rules for fractions, and in what historical text?"
+        }
+      }
+    },
+    {
+      "cardId": "4292228b-26cf-47ad-8a15-ddf7cde493a8",
+      "originalOrder": 23,
+      "originalHeading": "Historical Formulation of Fraction Division (Bhaskara II)",
+      "action": "MODIFIED",
+      "modificationsSummary": [
+        "Maintained FACT classification",
+        "Ensured KaTeX is double escaped"
+      ],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "history", "fractions", "class-7"],
+        "order": 33,
+        "heading": "Historical Formulation: Fraction Division",
+        "back": "## Historical Fact:\n- **Text & Author:** In 1150 CE, **Bhaskara II** explicitly documented this mathematical rule in his seminal text *Lilavati*.\n- **Formulation:** 'Division of one fraction by another is equivalent to multiplication of the first fraction by the reciprocal of the second.'\n- **Significance:** This is the exact historic verbal articulation of the modern fraction division algorithm: $\\\frac{a}{b} \\\\div \\\frac{c}{d} = \\\frac{a}{b} \\\times \\\frac{d}{c}$.",
+        "standardMeta": {
+          "question": "How did the 12th-century Indian mathematician Bhaskara II historically articulate the algorithmic rule for fraction division?"
+        }
+      }
+    },
+    {
+      "cardId": "603e8f7c-c2a2-45ff-8a0d-0dc626b2b1df",
+      "originalOrder": 25,
+      "originalHeading": "Earliest Use of Non-Unit Fractions (Shulbasutras)",
+      "action": "MODIFIED",
+      "modificationsSummary": ["Maintained FACT classification"],
+      "vettingNotes": "",
+      "cardData": {
+        "type": "STANDARD",
+        "classification": "FACT",
+        "tags": ["math", "history", "fractions", "geometry", "class-7"],
+        "order": 34,
+        "heading": "Historical Application: Ancient Non-Unit Fractions",
+        "back": "## Historical Fact:\n- **Text:** The ancient Indian geometry manuals known as the **Shulbasutras** (specifically Baudhayana's Shulbasutra, c. 800 BCE).\n- **Application Context:** They extensively utilized complex non-unit fractions, including advanced fractional division operations, for the precise geometric and structural construction of fire altars required for Vedic rituals.",
+        "standardMeta": {
+          "question": "Which ancient texts contain humanity's oldest surviving examples of working extensively with general non-unit fractions, and what was their structural application?"
+        }
+      }
+    },
+    {
+      "cardId": "END_OF_CHAPTER",
+      "originalOrder": 0,
+      "originalHeading": "SYSTEM",
+      "action": "SYSTEM",
+      "modificationsSummary": [],
+      "vettingNotes": "",
+      "cardData": null
+    }
+  ]
 }
