@@ -186,7 +186,7 @@
 ],
 "order": 7,
 "heading": "Algorithmic Efficiency vs. Trial and Error",
-"back": "## Computational Limits of Guessing\n- While theoretically and conceptually valid, the 'Trial and Error' method mathematically relies on randomly substituting values until the LHS strictly equals the RHS.\n- **The Inefficiency Proof:** This approach rapidly becomes computationally inefficient and practically impossible when evaluating large integers, negative constants, or highly complex fractional domains (e.g., attempting to guess $x = \frac{134}{28}$).\n- Systematic algebraic manipulation (using inverse operations) algorithmically guarantees identifying the exact, deterministic mathematical solution in a finite number of steps without reliance on guessing.",
+"back": "## Computational Limits of Guessing\n- While theoretically and conceptually valid, the 'Trial and Error' method mathematically relies on randomly substituting values until the LHS strictly equals the RHS.\n- **The Inefficiency Proof:** This approach rapidly becomes computationally inefficient and practically impossible when evaluating large integers, negative constants, or highly complex fractional domains (e.g., attempting to guess $x = \\frac{134}{28}$).\n- Systematic algebraic manipulation (using inverse operations) algorithmically guarantees identifying the exact, deterministic mathematical solution in a finite number of steps without reliance on guessing.",
 "standardMeta": {
 "question": "Why is the fundamental 'Trial and Error' method considered mathematically and computationally inefficient for resolving algebraic equations when compared to systematic inverse operations?"
 }
@@ -215,7 +215,7 @@
 "heading": "SOP: Variable Isolation via Additive Inverses",
 "back": "## Component Anatomy\n- **Variable ($x$):** The primary unknown numerical value we are targeting to strictly isolate on one side.\n- **Constant ($A, B$):** The fixed known numerical values.\n\n## Boundary Conditions / Domain\n- The exact same additive inverse magnitude MUST be strictly applied to both the LHS and RHS to mathematically preserve the equality condition.",
 "formulaMeta": {
-"formula": "\text{If } x + A = B \implies x + A - A = B - A \implies x = B - A",
+"formula": "\\text{If } x + A = B \\implies x + A - A = B - A \\implies x = B - A",
 "description": "Standard operating procedure for eliminating a constant term that is added to or subtracted from an unknown variable.",
 "derivation": "1. Identify the targeted constant term currently existing on the same side as the unknown variable.\n2. Apply its strict **additive inverse** (the identical magnitude with the opposite sign) to that specific side to mathematically neutralize the constant to exactly $0$.\n3. Simultaneously, apply that exact same additive inverse to the opposite side of the equation to preserve overall algebraic balance."
 }
@@ -242,9 +242,9 @@
 ],
 "order": 9,
 "heading": "SOP: Variable Isolation via Multiplicative Inverses",
-"back": "## Component Anatomy\n- **Coefficient ($C$):** The known scalar explicitly multiplying the variable (e.g., $5$ in $5x$).\n- **Divisor:** The scalar denominator dividing the variable (e.g., $15$ in $\frac{x}{15}$).\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** You MUST NOT divide both sides of the equation by $0$, or by any variable algebraic expression that has the mathematical potential to evaluate to $0$. Doing so renders the step undefined.",
+"back": "## Component Anatomy\n- **Coefficient ($C$):** The known scalar explicitly multiplying the variable (e.g., $5$ in $5x$).\n- **Divisor:** The scalar denominator dividing the variable (e.g., $15$ in $\\frac{x}{15}$).\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** You MUST NOT divide both sides of the equation by $0$, or by any variable algebraic expression that has the mathematical potential to evaluate to $0$. Doing so renders the step undefined.",
 "formulaMeta": {
-"formula": "\text{If } Cx = D \implies \frac{Cx}{C} = \frac{D}{C} \implies x = \frac{D}{C}",
+"formula": "\\text{If } Cx = D \\implies \\frac{Cx}{C} = \\frac{D}{C} \\implies x = \\frac{D}{C}",
 "description": "Standard operating procedure for successfully neutralizing a coefficient or divisor directly attached to an unknown variable.",
 "derivation": "1. **Multiplication Case:** If the unknown variable is scaled by a numerical coefficient, strictly divide BOTH sides of the equation by that exact coefficient to reduce it to $1$.\n2. **Division Case:** If the unknown variable is divided by a numerical denominator, strictly multiply BOTH sides by that exact denominator to mathematically neutralize it to $1$."
 }
@@ -272,7 +272,7 @@
 ],
 "order": 10,
 "heading": "Domain Hazards: The Variable Division Trap",
-"back": "## The Mathematical Fallacy\n- It is strictly algebraically illegal to divide both sides of an equation by a variable (e.g., $x$ or $s$) unless you can definitively mathematically prove that variable $\neq 0$.\n- **The Error Path:** If you possess $5s = 3s$, dividing by $s$ yields $\frac{5s}{s} = \frac{3s}{s} \implies 5 = 3$, which is a mathematically absurd paradox.\n- **The Domain Truth:** This paradox occurs because the actual evaluated root of $s$ might be exactly $0$. Division by $0$ is an undefined operation.\n- **The Correct Procedure:** Instead of dividing, apply an additive inverse to transpose the variable term: $5s - 3s = 0 \implies 2s = 0 \implies s = 0$.",
+"back": "## The Mathematical Fallacy\n- It is strictly algebraically illegal to divide both sides of an equation by a variable (e.g., $x$ or $s$) unless you can definitively mathematically prove that variable $\\neq 0$.\n- **The Error Path:** If you possess $5s = 3s$, dividing by $s$ yields $\\frac{5s}{s} = \\frac{3s}{s} \\implies 5 = 3$, which is a mathematically absurd paradox.\n- **The Domain Truth:** This paradox occurs because the actual evaluated root of $s$ might be exactly $0$. Division by $0$ is an undefined operation.\n- **The Correct Procedure:** Instead of dividing, apply an additive inverse to transpose the variable term: $5s - 3s = 0 \\implies 2s = 0 \\implies s = 0$.",
 "standardMeta": {
 "question": "Why is it strictly mathematically illegal and hazardous to attempt to divide both sides of an algebraic equation by an unknown variable in order to simplify it?"
 }
@@ -301,7 +301,7 @@
 "heading": "SOP: Neutralizing Negative Variable Coefficients",
 "back": "## Component Anatomy\n- **Negative Coefficient ($-A$):** A negative integer explicitly attached as a multiplier to the variable (e.g., $-5x$).\n\n## Boundary Conditions / Domain\n- **Parity Constraint:** A critical error is dividing by the positive integer ($A$) but ignoring the negative sign. Dividing by a strictly negative number mathematically flips the sign parity of the final quotient.",
 "formulaMeta": {
-"formula": "-Ax = B \implies \frac{-Ax}{-A} = \frac{B}{-A} \implies x = -\frac{B}{A}",
+"formula": "-Ax = B \\implies \\frac{-Ax}{-A} = \\frac{B}{-A} \\implies x = -\\frac{B}{A}",
 "description": "Standard algorithmic procedure for fully isolating a variable that has resolved to possess a negative coefficient.",
 "derivation": "1. Execute standard additive transpositions until you condense the equation strictly to the format $-Ax = B$.\n2. Divide BOTH sides of the equation explicitly by the entire negative coefficient, strictly retaining the negative sign in the operation (Divide by $-A$).\n3. Calculate the numerical quotient and algorithmically ensure the final resolved sign parity is mathematically accurate."
 }
@@ -329,7 +329,7 @@
 ],
 "order": 12,
 "heading": "Execution Errors: Sign Inversion during Transposition",
-"back": "## The Transposition Mechanic\n- Transposing (physically moving) a term across the `=` sign is merely a mental shortcut for explicitly applying its mathematical inverse operation to both sides simultaneously.\n- **The Cognitive Trap:** Students frequently physically shift the numerical term but fail to invert the mathematical operator. A strictly positive $+9$ on the LHS MUST systematically invert into a negative $-9$ when transplanted to the RHS.\n- **Example of Failure:** $6x + 9 = 66 \implies 6x = 66 + 9$ (Mathematically Incorrect).\n- **Correct Resolution:** $6x + 9 = 66 \implies 6x = 66 - 9$ (Mathematically Correct).",
+"back": "## The Transposition Mechanic\n- Transposing (physically moving) a term across the `=` sign is merely a mental shortcut for explicitly applying its mathematical inverse operation to both sides simultaneously.\n- **The Cognitive Trap:** Students frequently physically shift the numerical term but fail to invert the mathematical operator. A strictly positive $+9$ on the LHS MUST systematically invert into a negative $-9$ when transplanted to the RHS.\n- **Example of Failure:** $6x + 9 = 66 \\implies 6x = 66 + 9$ (Mathematically Incorrect).\n- **Correct Resolution:** $6x + 9 = 66 \\implies 6x = 66 - 9$ (Mathematically Correct).",
 "mnemonic": "Cross the line, flip the sign.",
 "standardMeta": {
 "question": "What is the most statistically critical algebraic mistake made when directly physically moving (transposing) a term across the equal sign from one side of an equation to the other?"
@@ -357,10 +357,10 @@
 ],
 "order": 13,
 "heading": "SOP: Resolving Multi-Sided Variable Equations",
-"back": "## Component Anatomy\n- **Distributed Variables:** Instances of the exact same unknown variable algebraically existing on both sides of the `=` boundary (e.g., $6y$ and $4y$ in $6y + 7 = 4y + 21$).\n\n## Boundary Conditions / Domain\n- Variables and constants cannot mathematically combine (e.g., $4y + 21 \neq 25y$). They exist in fundamentally different algebraic domains and must be gathered independently.",
+"back": "## Component Anatomy\n- **Distributed Variables:** Instances of the exact same unknown variable algebraically existing on both sides of the `=` boundary (e.g., $6y$ and $4y$ in $6y + 7 = 4y + 21$).\n\n## Boundary Conditions / Domain\n- Variables and constants cannot mathematically combine (e.g., $4y + 21 \\neq 25y$). They exist in fundamentally different algebraic domains and must be gathered independently.",
 "mnemonic": "Letters to the Left, Numbers to the Right.",
 "formulaMeta": {
-"formula": "Ax + B = Cx + D \implies (A-C)x = D - B",
+"formula": "Ax + B = Cx + D \\implies (A-C)x = D - B",
 "description": "The sequential algorithmic steps required to consolidate and solve an equation where variable terms exist on both sides.",
 "derivation": "1. Analytically identify the distinct variable terms dispersed across both sides of the equation.\n2. Apply the additive inverse to the smaller-coefficient variable term to physically group all unknown variables strictly onto one unified side.\n3. Apply additive inverses to all standalone numerical constants, migrating them strictly to the opposing geometric side of the equation.\n4. Mathematically simplify the grouped like terms and finally divide by the consolidated coefficient to uniquely isolate the unknown."
 }
@@ -393,7 +393,7 @@
 "formulaMeta": {
 "formula": "A(B + C) = AB + AC",
 "description": "Standard operating procedure for expanding algebraically grouped bracket terms prior to variable isolation.",
-"derivation": "1. Algebraically multiply the external constant independently by the first enclosed term ($4 \times m = 4m$).\n2. **CRITICAL:** Strictly multiply the external constant independently by the second enclosed term ($4 \times 6 = 24$), preserving the internal operator signs.\n3. Re-write the newly expanded equation entirely without brackets: $4m + 24 - 8 = 2m - 4$.\n4. Combine all resulting localized constants ($4m + 16 = 2m - 4$) and systematically isolate the variable."
+"derivation": "1. Algebraically multiply the external constant independently by the first enclosed term ($4 \\times m = 4m$).\n2. **CRITICAL:** Strictly multiply the external constant independently by the second enclosed term ($4 \\times 6 = 24$), preserving the internal operator signs.\n3. Re-write the newly expanded equation entirely without brackets: $4m + 24 - 8 = 2m - 4$.\n4. Combine all resulting localized constants ($4m + 16 = 2m - 4$) and systematically isolate the variable."
 }
 }
 },
@@ -422,7 +422,7 @@
 "back": "## Component Anatomy\n- **Divisor / Denominator:** The numerical integer dividing an entire distinct algebraic expression.\n- **Common Multiplier:** Typically the exact Lowest Common Multiple (LCM) of all active denominators present in the equation.\n\n## Boundary Conditions / Domain\n- **Global Distribution Law:** You MUST mathematically apply the multiplier to absolutely EVERY single distinct term on BOTH sides of the equation. If a term natively lacks a fraction (e.g., an integer constant), it MUST still be scaled by the multiplier.",
 "mnemonic": "Multiply out to clear the doubt.",
 "formulaMeta": {
-"formula": "\frac{A}{D} + \frac{B}{D} = \frac{C}{D} \implies A + B = C",
+"formula": "\\frac{A}{D} + \\frac{B}{D} = \\frac{C}{D} \\implies A + B = C",
 "description": "Algorithmic procedure for neutralizing massive fractions by converting the equation entirely into integers.",
 "derivation": "1. Analyze all active denominators and calculate the Lowest Common Multiple (LCM) or a universally shared denominator (e.g., $D$).\n2. Wrap the entire LHS and the entire RHS in brackets and rigorously multiply both by that exact derived denominator.\n3. As a mathematical consequence, all distinct denominators will strictly cancel out to $1$, yielding a structurally clean, integer-based linear equation.\n4. Proceed with standard bracket expansion and isolation."
 }
@@ -453,7 +453,7 @@
 "back": "## Component Anatomy\n- **HCF (Highest Common Factor):** The maximum divisible integer strictly shared amongst all constants and coefficients located *outside* any encapsulated brackets across both sides.\n\n## Boundary Conditions / Domain\n- **Bracket Integrity Trap:** You MUST strictly divide every discrete algebraic term across the full equation by the identical HCF. However, do NOT mathematically divide the terms trapped inside an enclosed bracket if its outer multiplier has already received the division.",
 "mnemonic": "Simplify before you multiply.",
 "formulaMeta": {
-"formula": "\frac{A(x+k) + B}{\text{HCF}} = \frac{C}{\text{HCF}}",
+"formula": "\\frac{A(x+k) + B}{\\text{HCF}} = \\frac{C}{\\text{HCF}}",
 "description": "Standard mathematical optimization used to scale down extremely large numerical coefficients before executing distributive expansion.",
 "derivation": "1. Scan the full equation and calculate the Highest Common Factor (HCF) shared strictly by all independent and coefficient terms (e.g., for $28(x+4) + 300 = 1000$, the operative HCF is $4$).\n2. Rigorously divide the entire LHS and the entire RHS by this calculated HCF.\n3. The resultant operation generates a mathematically proportional, functionally identical equation with substantially smaller scalars (e.g., $7(x+4) + 75 = 250$), heavily mitigating the risk of arithmetic expansion errors."
 }
@@ -508,7 +508,7 @@
 ],
 "order": 18,
 "heading": "Domain Classification: Identities vs standard Equations",
-"back": "## Algebraic Possibility Space\n- **Standard Equation:** A linear statement that evaluates as true for exactly **one** unique, determinable numerical root.\n- **Mathematical Identity (Infinitely Many Solutions):** This boundary case occurs when algebraic simplification causes all variable terms to symmetrically cancel out, resolving into an absolutely true constant statement (e.g., $3y + 2 = 3y + 2 \implies 2 = 2$). **Domain:** Any absolute real number ($y \in \mathbb{R}$) inserted will mathematically satisfy the condition.\n- **Impossible Equation (No Solution):** Occurs when identical operations resolve into an absurd, logically false contradiction (e.g., $4 = 5$). **Domain:** Exactly zero values exist that satisfy it.",
+"back": "## Algebraic Possibility Space\n- **Standard Equation:** A linear statement that evaluates as true for exactly **one** unique, determinable numerical root.\n- **Mathematical Identity (Infinitely Many Solutions):** This boundary case occurs when algebraic simplification causes all variable terms to symmetrically cancel out, resolving into an absolutely true constant statement (e.g., $3y + 2 = 3y + 2 \\implies 2 = 2$). **Domain:** Any absolute real number ($y \\in \\mathbb{R}$) inserted will mathematically satisfy the condition.\n- **Impossible Equation (No Solution):** Occurs when identical operations resolve into an absurd, logically false contradiction (e.g., $4 = 5$). **Domain:** Exactly zero values exist that satisfy it.",
 "mnemonic": "Identity = Identical sides.",
 "standardMeta": {
 "question": "Under what strict algebraic structural conditions does a linear equation functionally act as an 'Identity' (possessing infinitely many solutions), and how does this mathematically differ from an equation yielding 'no solution'?"
@@ -536,7 +536,7 @@
 ],
 "order": 19,
 "heading": "Boundary Analysis: Empty Solution Sets",
-"back": "## The Null Domain\n- Yes, certain structural equations are mathematically irreconcilable and inherently possess a null solution set (zero valid solutions).\n- **Mechanisms of Contradiction:** This strictly occurs when rigorous algebraic simplification perfectly eliminates all variable terms ($x - x = 0$) while simultaneously leaving behind two strictly unequal, non-matching constants (e.g., $x + 4 = x + 5 \implies 4 = 5$).\n- **Logical Proof:** Conceptually, if you define a specific number, the statement '4 more than a specific number' can absolutely never yield the exact same value as '5 more than that exact same number'.",
+"back": "## The Null Domain\n- Yes, certain structural equations are mathematically irreconcilable and inherently possess a null solution set (zero valid solutions).\n- **Mechanisms of Contradiction:** This strictly occurs when rigorous algebraic simplification perfectly eliminates all variable terms ($x - x = 0$) while simultaneously leaving behind two strictly unequal, non-matching constants (e.g., $x + 4 = x + 5 \\implies 4 = 5$).\n- **Logical Proof:** Conceptually, if you define a specific number, the statement '4 more than a specific number' can absolutely never yield the exact same value as '5 more than that exact same number'.",
 "standardMeta": {
 "question": "Is it mathematically possible for a linear algebraic equation to possess absolutely zero valid numerical solutions? Provide the mechanism and reasoning."
 }
@@ -592,10 +592,10 @@
 ],
 "order": 21,
 "heading": "Historical Shortcuts: Brahmagupta's General Formula",
-"back": "## Component Anatomy\n- **Variables ($A, B, C, D$):** Discovered numerical constants isolated directly from an equation strictly conforming to the $Ax + B = Cx + D$ template.\n- **Variable ($x$):** The ultimate targeted unknown.\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** $A \neq C$.\n- If scalar $A$ strictly equals scalar $C$, the formula's denominator mathematically collapses to exactly $0$. This implies the $x$ variables cancel out natively, rendering the situation either an Identity (infinite solutions if $B=D$) or completely mathematically impossible (no solution if $B \neq D$).",
+"back": "## Component Anatomy\n- **Variables ($A, B, C, D$):** Discovered numerical constants isolated directly from an equation strictly conforming to the $Ax + B = Cx + D$ template.\n- **Variable ($x$):** The ultimate targeted unknown.\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** $A \\neq C$.\n- If scalar $A$ strictly equals scalar $C$, the formula's denominator mathematically collapses to exactly $0$. This implies the $x$ variables cancel out natively, rendering the situation either an Identity (infinite solutions if $B=D$) or completely mathematically impossible (no solution if $B \\neq D$).",
 "mnemonic": "Don't Be A Coward (D - B) / (A - C).",
 "formulaMeta": {
-"formula": "x = \frac{D - B}{A - C}",
+"formula": "x = \\frac{D - B}{A - C}",
 "description": "The direct algebraic shortcut defined by ancient mathematician Brahmagupta (628 CE) to instantly solve generalized multi-term linear equations.",
 "derivation": "1. Initialize the general analytical format: $Ax + B = Cx + D$.\n2. Apply the additive inverse to isolate variables on the LHS: $Ax - Cx + B = D$.\n3. Factor out the $x$ component algebraically: $x(A - C) + B = D$.\n4. Apply the additive inverse to the constant $B$: $x(A - C) = D - B$.\n5. Finally, divide by the composite coefficient $(A - C)$ to strictly and perfectly isolate $x$."
 }
@@ -621,11 +621,11 @@
 ],
 "order": 22,
 "heading": "Archetype Modeling: Pattern Sequencing",
-"back": "## Component Anatomy\n- **Variable ($n$):** The discrete ordinal sequence position (e.g., $1^{\text{st}}, 2^{\text{nd}}, 3^{\text{rd}}$ item in the line).\n- **Result ($T$):** The absolute aggregate quantity (e.g., matchsticks) required at that distinct ordinal step.\n\n## Boundary Conditions / Domain\n- **Domain Constraint:** The variable $n$ MUST strictly map to a positive integer ($n \in \mathbb{Z}^+$). You mathematically cannot occupy a fractional spatial position within a sequence (e.g., $99.5^{\text{th}}$ position is structurally undefined).",
+"back": "## Component Anatomy\n- **Variable ($n$):** The discrete ordinal sequence position (e.g., $1^{\\text{st}}, 2^{\\text{nd}}, 3^{\\text{rd}}$ item in the line).\n- **Result ($T$):** The absolute aggregate quantity (e.g., matchsticks) required at that distinct ordinal step.\n\n## Boundary Conditions / Domain\n- **Domain Constraint:** The variable $n$ MUST strictly map to a positive integer ($n \\in \\mathbb{Z}^+$). You mathematically cannot occupy a fractional spatial position within a sequence (e.g., $99.5^{\\text{th}}$ position is structurally undefined).",
 "formulaMeta": {
-"formula": "T(n) = 2n + 1 \implies 2n + 1 = 99",
+"formula": "T(n) = 2n + 1 \\implies 2n + 1 = 99",
 "description": "Algorithmic application of setting a sequence rule equation equal to a target total to derive the precise numerical sequence position.",
-"derivation": "1. Set the established algebraic pattern rule strictly equivalent to the required target aggregate total ($2n + 1 = 99$).\n2. Administer an additive inverse to strip away the fixed constant ($2n = 99 - 1 \implies 2n = 98$).\n3. Administer a multiplicative inverse, dividing by the scaling coefficient $2$, to uniquely isolate $n$ ($n = 49$).\n4. Synthesize conclusion: Exactly 99 objects represent the discrete $49^{\text{th}}$ ordinal position in the pattern."
+"derivation": "1. Set the established algebraic pattern rule strictly equivalent to the required target aggregate total ($2n + 1 = 99$).\n2. Administer an additive inverse to strip away the fixed constant ($2n = 99 - 1 \\implies 2n = 98$).\n3. Administer a multiplicative inverse, dividing by the scaling coefficient $2$, to uniquely isolate $n$ ($n = 49$).\n4. Synthesize conclusion: Exactly 99 objects represent the discrete $49^{\\text{th}}$ ordinal position in the pattern."
 }
 }
 },
@@ -650,7 +650,7 @@
 ],
 "order": 23,
 "heading": "Archetype Modeling: Linguistic to Algebraic Translation",
-"back": "## The Translation Matrix\n- The fundamental utility of algebra is logically translating a sequential verbal linguistic puzzle into strict, manageable mathematical operators.\n- **Step 1:** Establish a base. Assign the central mathematical variable (e.g., $x$) strictly to the initial unknown thought or state.\n- **Step 2:** Sequentially track and append operations, strictly utilizing parentheses/brackets to define precedence.\n  - *'Subtract 3'* $\implies (x - 3)$\n  - *'Multiply the result by 4'* $\implies 4(x - 3)$\n  - *'Add 8 to that'* $\implies 4(x - 3) + 8$\n- **Step 3:** Assign the final expression equal to the revealed conclusion, generating the equation framework. Deploy standard inverse operations chronologically backwards to expose the original hidden $x$.",
+"back": "## The Translation Matrix\n- The fundamental utility of algebra is logically translating a sequential verbal linguistic puzzle into strict, manageable mathematical operators.\n- **Step 1:** Establish a base. Assign the central mathematical variable (e.g., $x$) strictly to the initial unknown thought or state.\n- **Step 2:** Sequentially track and append operations, strictly utilizing parentheses/brackets to define precedence.\n  - *'Subtract 3'* $\\implies (x - 3)$\n  - *'Multiply the result by 4'* $\\implies 4(x - 3)$\n  - *'Add 8 to that'* $\\implies 4(x - 3) + 8$\n- **Step 3:** Assign the final expression equal to the revealed conclusion, generating the equation framework. Deploy standard inverse operations chronologically backwards to expose the original hidden $x$.",
 "standardMeta": {
 "question": "How do you mathematically architect and execute a standard algebraic equation to model a sequential 'Think of a number' linguistic puzzle to deduce the initial hidden integer?"
 }
@@ -681,7 +681,7 @@
 "formulaMeta": {
 "formula": "y + (y + A) = T",
 "description": "Standard setup procedure for word problems where two entities collectively share a total, with one specified relative to the other.",
-"derivation": "1. Strategically anchor a base variable (e.g., $y$) to the mathematically smaller or foundational unknown group.\n2. Construct the larger entity strictly as a dependent algebraic expression linked to $y$ (e.g., if Ramesh has 30 more than Suresh, Ramesh evaluates to $y + 30$).\n3. Additively combine both separate localized expressions and set them strictly equivalent to the stated total aggregate sum.\n4. Condense the expression ($y + y + 30 = 60 \implies 2y + 30 = 60$) and systematically execute inverse isolation."
+"derivation": "1. Strategically anchor a base variable (e.g., $y$) to the mathematically smaller or foundational unknown group.\n2. Construct the larger entity strictly as a dependent algebraic expression linked to $y$ (e.g., if Ramesh has 30 more than Suresh, Ramesh evaluates to $y + 30$).\n3. Additively combine both separate localized expressions and set them strictly equivalent to the stated total aggregate sum.\n4. Condense the expression ($y + y + 30 = 60 \\implies 2y + 30 = 60$) and systematically execute inverse isolation."
 }
 }
 },
@@ -706,10 +706,10 @@
 ],
 "order": 25,
 "heading": "Archetype Modeling: Discrete Cost Scaling",
-"back": "## Component Anatomy\n- **Variable Rate ($C$):** The continuous recurring charge multiplied per unit (e.g., ₹25 per object).\n- **Unit Quantity ($x$):** The core unknown multiplier representing the frequency of the variable rate.\n- **Fixed Base ($F$):** A one-time static integer addition regardless of scale (e.g., a flat ₹50 shipping fee).\n- **Total Ceiling ($T$):** The maximum aggregate boundary or budget constraint.\n\n## Boundary Conditions / Domain\n- **Discrete Integer Constraint:** If the modeled entities are discrete real-world objects (e.g., plates, people, cars), $x$ MUST mathematically evaluate to a positive integer ($x \in \mathbb{Z}^+$). Generating fractional values for $x$ usually implies a flawed premise or the need to strictly round down to fit the real-world budget constraint.",
+"back": "## Component Anatomy\n- **Variable Rate ($C$):** The continuous recurring charge multiplied per unit (e.g., ₹25 per object).\n- **Unit Quantity ($x$):** The core unknown multiplier representing the frequency of the variable rate.\n- **Fixed Base ($F$):** A one-time static integer addition regardless of scale (e.g., a flat ₹50 shipping fee).\n- **Total Ceiling ($T$):** The maximum aggregate boundary or budget constraint.\n\n## Boundary Conditions / Domain\n- **Discrete Integer Constraint:** If the modeled entities are discrete real-world objects (e.g., plates, people, cars), $x$ MUST mathematically evaluate to a positive integer ($x \\in \\mathbb{Z}^+$). Generating fractional values for $x$ usually implies a flawed premise or the need to strictly round down to fit the real-world budget constraint.",
 "mnemonic": "Total = (Rate × Quantity) + Fixed.",
 "formulaMeta": {
-"formula": "Cx + F = T \implies 25x + 50 = 500",
+"formula": "Cx + F = T \\implies 25x + 50 = 500",
 "description": "Algebraic scaffold applied to determine scalable item quantities given an overarching total budget, a recurring item rate, and a flat non-scaling surcharge.",
 "derivation": "1. Algorithmically scale the defined variable rate directly by the unknown $x$ quantity to capture scaling costs ($25x$).\n2. Additively attach the independent, one-time fixed rate base ($+ 50$).\n3. Mathematically tether the combined total to the absolute budget ceiling ($= 500$).\n4. Process isolation: Strip the fixed rate out of the total budget first via an additive inverse, then divide the remainder strictly by the variable coefficient."
 }
@@ -737,9 +737,9 @@
 ],
 "order": 26,
 "heading": "Archetype Modeling: Equating Divergent Rates",
-"back": "## Component Anatomy\n- **Initial Amount ($\text{Base}$):** The starting scalar value for each respective entity at time $m = 0$.\n- **Rate per period ($R$):** The recurring amount strictly added or subtracted per singular time unit.\n- **Unknown period ($m$):** The shared continuous or discrete time variable (e.g., months) until both aggregate expressions reach equality.\n\n## Boundary Conditions / Domain\n- **Time Synchronicity:** Both sides MUST mathematically be governed by the exact same unit of time ($m$).\n- **Rate Differential Constraint:** To yield a single distinct solution where $m > 0$, the rates must not be equal ($R_1 \neq R_2$). If $R_1 = R_2$, the lines are parallel and will mathematically never intersect (unless bases are also identical, yielding an Identity).",
+"back": "## Component Anatomy\n- **Initial Amount ($\\text{Base}$):** The starting scalar value for each respective entity at time $m = 0$.\n- **Rate per period ($R$):** The recurring amount strictly added or subtracted per singular time unit.\n- **Unknown period ($m$):** The shared continuous or discrete time variable (e.g., months) until both aggregate expressions reach equality.\n\n## Boundary Conditions / Domain\n- **Time Synchronicity:** Both sides MUST mathematically be governed by the exact same unit of time ($m$).\n- **Rate Differential Constraint:** To yield a single distinct solution where $m > 0$, the rates must not be equal ($R_1 \\neq R_2$). If $R_1 = R_2$, the lines are parallel and will mathematically never intersect (unless bases are also identical, yielding an Identity).",
 "formulaMeta": {
-"formula": "\text{Base}_1 + R_1m = \text{Base}_2 + R_2m",
+"formula": "\\text{Base}_1 + R_1m = \\text{Base}_2 + R_2m",
 "description": "Standard algebraic setup for finding the exact intersection point (time) when two different initial amounts subjected to two different periodic rates become exactly equal.",
 "derivation": "1. Algebraically translate Person 1's trajectory into a localized expression relative to time $m$ (e.g., $4000 + 650m$).\n2. Independently translate Person 2's trajectory into a localized expression relative to the identical time $m$ (e.g., $5050 + 500m$).\n3. Establish mathematical intersection by setting the two isolated expressions strictly equivalent to each other.\n4. Execute transposition: Group the variable $m$ terms strictly on one side and all constant base terms onto the opposing side to isolate and evaluate $m$."
 }
@@ -769,9 +769,9 @@
 "heading": "Archetype Modeling: Recursive Multiplicative Chains",
 "back": "## Component Anatomy\n- **Base Variable ($x$):** The foundational initial share assigned strictly to the first entity in the sequence.\n- **Chain Multipliers ($k_n$):** The sequential scaling factors mathematically applied to the immediate predecessor's total consolidated share.\n\n## Boundary Conditions / Domain\n- **The Recursive Trap:** The most statistically common exam failure is multiplying the third person directly by the base variable $x$ instead of the second person's entire expression. You MUST mathematically chain the multiplications recursively. For example, if B is twice A, and C is thrice B: C evaluates to $3(2x)$, NOT $3x$.",
 "formulaMeta": {
-"formula": "x + k_1x + (k_2 \times k_1x) + \dots = \text{Total}",
+"formula": "x + k_1x + (k_2 \\times k_1x) + \\dots = \\text{Total}",
 "description": "Algebraic setup procedure for a historically documented distribution problem (e.g., Bakhshali Manuscript) where each subsequent entity receives a specific geometric multiple of the previous entity's allocation.",
-"derivation": "1. Meticulously anchor the base variable $x$ strictly to the first root entity in the sequential chain.\n2. Algebraically express the second entity strictly as a scaled multiple of the first (e.g., $2x$).\n3. Express the third entity strictly as a scaled multiple of the **second entity's entire localized expression** (e.g., $3 \times 2x = 6x$).\n4. Additively combine all resulting localized terms ($x + 2x + 6x + \dots$) and equate the polynomial to the stated total aggregate sum to resolve $x$."
+"derivation": "1. Meticulously anchor the base variable $x$ strictly to the first root entity in the sequential chain.\n2. Algebraically express the second entity strictly as a scaled multiple of the first (e.g., $2x$).\n3. Express the third entity strictly as a scaled multiple of the **second entity's entire localized expression** (e.g., $3 \\times 2x = 6x$).\n4. Additively combine all resulting localized terms ($x + 2x + 6x + \\dots$) and equate the polynomial to the stated total aggregate sum to resolve $x$."
 }
 }
 },
@@ -797,12 +797,12 @@
 ],
 "order": 28,
 "heading": "Archetype Modeling: Fractional Self-Reference",
-"back": "## Component Anatomy\n- **Total Variable ($w$):** The final, absolute integrated value of the entire object.\n- **Self-Referential Component ($\frac{w}{k}$):** The internal fractional subset scaling natively with the object's total size.\n- **Absolute Constant ($C$):** The external fixed addition explicitly stated.\n\n## Boundary Conditions / Domain\n- **Domain Constraint:** $k \neq 0$ (undefined) and $k \neq 1$ (which implies $w = w + C$, an impossible contradiction if $C \neq 0$).\n- **The Base Assignment Trap:** A common cognitive error is assigning the variable only to the fractional piece. The base variable MUST fundamentally represent the entire, unbroken object to satisfy the linguistic premise.",
+"back": "## Component Anatomy\n- **Total Variable ($w$):** The final, absolute integrated value of the entire object.\n- **Self-Referential Component ($\\frac{w}{k}$):** The internal fractional subset scaling natively with the object's total size.\n- **Absolute Constant ($C$):** The external fixed addition explicitly stated.\n\n## Boundary Conditions / Domain\n- **Domain Constraint:** $k \\neq 0$ (undefined) and $k \\neq 1$ (which implies $w = w + C$, an impossible contradiction if $C \\neq 0$).\n- **The Base Assignment Trap:** A common cognitive error is assigning the variable only to the fractional piece. The base variable MUST fundamentally represent the entire, unbroken object to satisfy the linguistic premise.",
 "mnemonic": "The whole equals the part plus the rest.",
 "formulaMeta": {
-"formula": "w = \frac{w}{k} + C",
+"formula": "w = \\frac{w}{k} + C",
 "description": "The algebraic procedure for modeling a paradox-like scenario where an object's absolute total value is linguistically defined partially by a fraction of its own total value (e.g., 'A brick weighs 1 kg more than half its own weight').",
-"derivation": "1. Strategically assign a single unified base variable (e.g., $w$) to represent the absolute total weight or dimension of the object.\n2. Mathematically formulate the RHS by converting the linguistic fractional condition strictly into an expression utilizing $w$ (e.g., $\frac{w}{2}$) and additively appending the known absolute constant ($+ 1$).\n3. Enforce equivalence between the isolated whole and the assembled parts: $w = \frac{w}{2} + 1$.\n4. Apply an additive inverse to group the variable fractional term onto the LHS ($w - \frac{w}{2} = 1$) to consolidate and isolate $w$."
+"derivation": "1. Strategically assign a single unified base variable (e.g., $w$) to represent the absolute total weight or dimension of the object.\n2. Mathematically formulate the RHS by converting the linguistic fractional condition strictly into an expression utilizing $w$ (e.g., $\\frac{w}{2}$) and additively appending the known absolute constant ($+ 1$).\n3. Enforce equivalence between the isolated whole and the assembled parts: $w = \\frac{w}{2} + 1$.\n4. Apply an additive inverse to group the variable fractional term onto the LHS ($w - \\frac{w}{2} = 1$) to consolidate and isolate $w$."
 }
 }
 },

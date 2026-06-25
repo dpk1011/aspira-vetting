@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const targetDir = path.join(__dirname, "C7/MATHS/P1");
+const targetDir = path.join(__dirname, "C7/MATHS/P2");
 const files = fs
   .readdirSync(targetDir)
   .filter((f) => f.toUpperCase().endsWith(".JSON"));
@@ -13,16 +13,16 @@ const fixJson = (str) => {
   return (
     str
       // 1. Double escape LaTeX commands starting with f, t, r, b
-      .replace(/(?<!\\)\\([ftrb])/g, "\\\\$1")
+      .replace(/(?<!\\)((?:\\\\)*)\\([ftrb])/g, "$1\\\\$2")
       // 2. Explicitly escape LaTeX commands starting with 'n'
       .replace(
-        /(?<!\\)\\(neq|nabla|nu|notin|nsubseteq|normalsize|not)/g,
-        "\\\\$1",
+        /(?<!\\)((?:\\\\)*)\\(neq|nabla|nu|notin|nsubseteq|normalsize|not)/g,
+        "$1\\\\$2",
       )
       // 3. Explicitly escape LaTeX commands starting with 'u'
-      .replace(/(?<!\\)\\(up|under|uplus)/g, "\\\\$1")
+      .replace(/(?<!\\)((?:\\\\)*)\\(up|under|uplus)/g, "$1\\\\$2")
       // 4. Safely escape everything else EXCEPT valid JSON escapes (", \, /, n, u)
-      .replace(/(?<!\\)\\([^"\\/nu])/g, "\\\\$1")
+      .replace(/(?<!\\)((?:\\\\)*)\\([^"\\/nu])/g, "$1\\\\$2")
   );
 };
 

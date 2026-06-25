@@ -454,7 +454,7 @@
 ],
 "order": 15,
 "heading": "LCM of Co-Prime Numbers",
-"back": "## Component Anatomy:\n- **$a, b$:** Two strictly co-prime numbers (sharing no common factors other than 1).\n- **$a \\\times b$:** Their direct product.\n\n## Boundary Conditions / Domain:\n- Condition strictly requires $\\\text{HCF}(a,b) = 1$.",
+"back": "## Component Anatomy:\n- **$a, b$:** Two strictly co-prime numbers (sharing no common factors other than 1).\n- **$a \\\\times b$:** Their direct product.\n\n## Boundary Conditions / Domain:\n- Condition strictly requires $\\\\text{HCF}(a,b) = 1$.",
 "formulaMeta": {
 "formula": "\\text{LCM}(a, b) = a \\times b",
 "description": "State the algebraic formula to find the Lowest Common Multiple (LCM) of two numbers that are strictly co-prime.",
@@ -584,7 +584,7 @@
 "formulaMeta": {
 "formula": "\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b",
 "description": "State the fundamental mathematical identity equation linking exactly two numbers with their respective HCF and LCM.",
-"derivation": "Algorithmic Proof:\n1. The HCF contains the prime factors common to both, counting the minimum powers.\n2. The LCM contains all prime factors across both, counting the maximum powers.\n3. When multiplied together, every single prime factor from both original numbers is perfectly accounted for without omission or duplication, equaling $a \\\times b$."
+"derivation": "Algorithmic Proof:\n1. The HCF contains the prime factors common to both, counting the minimum powers.\n2. The LCM contains all prime factors across both, counting the maximum powers.\n3. When multiplied together, every single prime factor from both original numbers is perfectly accounted for without omission or duplication, equaling $a \\\\times b$."
 }
 }
 },
@@ -613,11 +613,11 @@
 ],
 "order": 20,
 "heading": "Isolating an Unknown Number via the HCF-LCM Identity",
-"back": "## Component Anatomy:\n- **$b$:** The unknown second number.\n- **$a$:** The known first number.\n\n## Boundary Conditions / Domain:\n- The known number $a$ strictly must not be zero ($a \\\neq 0$).",
+"back": "## Component Anatomy:\n- **$b$:** The unknown second number.\n- **$a$:** The known first number.\n\n## Boundary Conditions / Domain:\n- The known number $a$ strictly must not be zero ($a \\\\neq 0$).",
 "formulaMeta": {
 "formula": "b = \\frac{\\text{HCF} \\times \\text{LCM}}{a}",
 "description": "State the algebraic rearrangement used to find an unknown number $b$ when you are strictly provided with the other number $a$, their HCF, and their LCM.",
-"derivation": "Algorithmic SOP:\n1. Set up the fundamental equation: $\\\text{HCF} \\\times \\\text{LCM} = a \\\times b$.\n2. Multiply the HCF and LCM together to find the combined product.\n3. Divide that total product by the known number $a$ to isolate and solve for $b$."
+"derivation": "Algorithmic SOP:\n1. Set up the fundamental equation: $\\\\text{HCF} \\\\times \\\\text{LCM} = a \\\\times b$.\n2. Multiply the HCF and LCM together to find the combined product.\n3. Divide that total product by the known number $a$ to isolate and solve for $b$."
 }
 }
 },
@@ -680,12 +680,12 @@
 ],
 "order": 22,
 "heading": "HCF of Scaled Co-Prime Integers",
-"back": "## Component Anatomy:\n- **$k$:** The explicit common scalar multiplier.\n- **$a, b$:** The remaining non-common integer factors.\n\n## Boundary Conditions / Domain:\n- The remaining factors $a$ and $b$ MUST strictly be **co-prime** (i.e., $\\\text{HCF}(a, b) = 1$).\n- If they share any hidden factors, the true HCF will be larger than $k$.",
+"back": "## Component Anatomy:\n- **$k$:** The explicit common scalar multiplier.\n- **$a, b$:** The remaining non-common integer factors.\n\n## Boundary Conditions / Domain:\n- The remaining factors $a$ and $b$ MUST strictly be **co-prime** (i.e., $\\\\text{HCF}(a, b) = 1$).\n- If they share any hidden factors, the true HCF will be larger than $k$.",
 "mnemonic": "If the leftovers share nothing, the multiplier is everything.",
 "formulaMeta": {
 "formula": "\\text{HCF}(ka, kb) = k \\iff \\text{HCF}(a, b) = 1",
-"description": "If given two numbers in the factored form $k \\\times a$ and $k \\\times b$, state the condition under which their HCF is strictly equal to $k$.",
-"derivation": "Algorithmic SOP (e.g., Finding HCF of $18 \\\times 10$ and $18 \\\times 15$):\n1. Identify the obvious common multiplier (18).\n2. Extract the remaining factors (10 and 15).\n3. Check if the remaining factors are co-prime.\nHere, 10 and 15 share a hidden factor of 5.\n4. Because they share 5, the true HCF is NOT just 18, but rather $18 \\\times 5 = 90$."
+"description": "If given two numbers in the factored form $k \\\\times a$ and $k \\\\times b$, state the condition under which their HCF is strictly equal to $k$.",
+"derivation": "Algorithmic SOP (e.g., Finding HCF of $18 \\\\times 10$ and $18 \\\\times 15$):\n1. Identify the obvious common multiplier (18).\n2. Extract the remaining factors (10 and 15).\n3. Check if the remaining factors are co-prime.\nHere, 10 and 15 share a hidden factor of 5.\n4. Because they share 5, the true HCF is NOT just 18, but rather $18 \\\\times 5 = 90$."
 }
 }
 },
@@ -720,7 +720,7 @@
 "formulaMeta": {
 "formula": "A \\text{ is a multiple of } B \\iff \\text{Every prime factor of } B \\text{ exists in } A \\text{ with } \\text{Power}_A \\ge \\text{Power}_B",
 "description": "State the algebraic condition required to definitively prove that number A is a multiple of number B purely by cross-referencing their prime factorisations.",
-"derivation": "Algorithmic SOP (e.g., Is $A = 5 \\\times 7 \\\times 11^2$ a multiple of $B = 5 \\\times 7^2 \\\times 11 \\\times 2$?):\n1. Factorise both numbers completely.\n2. Check $B$'s primes against $A$'s primes.\n3. $B$ contains the prime 2, which $A$ lacks. Reject.\n4. $B$ contains $7^2$, but $A$ only has $7^1$. Reject.\n5. Conclusion: $A$ is not a multiple of $B$."
+"derivation": "Algorithmic SOP (e.g., Is $A = 5 \\\\times 7 \\\\times 11^2$ a multiple of $B = 5 \\\\times 7^2 \\\\times 11 \\\\times 2$?):\n1. Factorise both numbers completely.\n2. Check $B$'s primes against $A$'s primes.\n3. $B$ contains the prime 2, which $A$ lacks. Reject.\n4. $B$ contains $7^2$, but $A$ only has $7^1$. Reject.\n5. Conclusion: $A$ is not a multiple of $B$."
 }
 }
 },
@@ -748,7 +748,7 @@
 ],
 "order": 24,
 "heading": "HCF in Real-World Geometry (Tiling)",
-"back": "- **Concept:** When a problem asks to cover a rectangular area ($L \\\times W$) with identical square tiles **without gaps or cutting**, you must find a common factor.\n- **Action:** To find the **largest** possible square tile, you mathematically calculate the **HCF** of the length and width.",
+"back": "- **Concept:** When a problem asks to cover a rectangular area ($L \\\\times W$) with identical square tiles **without gaps or cutting**, you must find a common factor.\n- **Action:** To find the **largest** possible square tile, you mathematically calculate the **HCF** of the length and width.",
 "standardMeta": {
 "question": "In geometric word problems, what mathematical concept is required to find the side length of the largest identical square tiles that can perfectly cover a rectangular floor without cutting?"
 }
@@ -778,9 +778,9 @@
 ],
 "order": 25,
 "heading": "3D Packing (LCM vs HCF)",
-"back": "- **Concept:** When packing identical cubes into a large 3D rectangular box of dimensions $L \\\times W \\\times H$.\n- **The Rule:** You are physically sub-dividing the total available space.\nTo completely avoid spatial gaps, the cube's side length must divide the length, width, and height perfectly.\n- **Action:** Therefore, you calculate the **Highest Common Factor (HCF)** of $L$, $W$, and $H$ to find the maximum possible cube size.",
+"back": "- **Concept:** When packing identical cubes into a large 3D rectangular box of dimensions $L \\\\times W \\\\times H$.\n- **The Rule:** You are physically sub-dividing the total available space.\nTo completely avoid spatial gaps, the cube's side length must divide the length, width, and height perfectly.\n- **Action:** Therefore, you calculate the **Highest Common Factor (HCF)** of $L$, $W$, and $H$ to find the maximum possible cube size.",
 "standardMeta": {
-"question": "If you need to pack identical cubes into a 3D box of dimensions $L \\\times W \\\times H$ without leaving any gaps, what mathematical tool dictates the maximum possible side length of the cube?"
+"question": "If you need to pack identical cubes into a 3D box of dimensions $L \\\\times W \\\\times H$ without leaving any gaps, what mathematical tool dictates the maximum possible side length of the cube?"
 }
 }
 },
@@ -843,7 +843,7 @@
 "formulaMeta": {
 "formula": "\\text{Leaps} = \\frac{H}{D_{chaser} - D_{target}}",
 "description": "State the formula to find the exact number of leaps/cycles required for a chaser to catch a target with an initial head start.",
-"derivation": "Algorithmic SOP:\n1. Identify the initial gap/head start ($H$).\n2. Calculate the 'Net Closing Distance' per simultaneous leap: $D_{chaser} - D_{target}$.\n3. Divide the total head start by the net gain: $H \\\div (D_{chaser} - D_{target})$."
+"derivation": "Algorithmic SOP:\n1. Identify the initial gap/head start ($H$).\n2. Calculate the 'Net Closing Distance' per simultaneous leap: $D_{chaser} - D_{target}$.\n3. Divide the total head start by the net gain: $H \\\\div (D_{chaser} - D_{target})$."
 }
 }
 },
@@ -874,10 +874,10 @@
 ],
 "order": 28,
 "heading": "LCM Word Problem: Smallest Number with a Remainder",
-"back": "## Component Anatomy:\n- **$x, y, z$:** The given divisors.\n- **$R$:** The strict constant remainder required across all divisions.\n\n## Boundary Conditions / Domain:\n- The remainder $R$ must be strictly smaller than the smallest divisor in the set ($R < \\\min(x, y, z)$).",
+"back": "## Component Anatomy:\n- **$x, y, z$:** The given divisors.\n- **$R$:** The strict constant remainder required across all divisions.\n\n## Boundary Conditions / Domain:\n- The remainder $R$ must be strictly smaller than the smallest divisor in the set ($R < \\\\min(x, y, z)$).",
 "formulaMeta": {
 "formula": "\\text{Target} = \\text{LCM}(x, y, z) + R",
-"description": "State the algorithmic formula to find the absolute smallest integer that leaves a strict identical remainder $R$ when divided by $x, y, \\\text{and } z$.",
+"description": "State the algorithmic formula to find the absolute smallest integer that leaves a strict identical remainder $R$ when divided by $x, y, \\\\text{and } z$.",
 "derivation": "Algorithmic SOP:\n1. First, find the exact LCM of the given divisors ($x, y, z$). This guarantees a number that divides perfectly with remainder 0.\n2. Because you require a remainder of $R$, simply add $R$ to that computed LCM.\n3. Check division conditions to verify the answer."
 }
 }
@@ -907,7 +907,7 @@
 ],
 "order": 29,
 "heading": "Word Problem Trap: Divisible by some, NOT by others",
-"back": "- **The Trap:** 'Find a number divisible by $A$ and $B$, but NOT by $C$' (e.g., The 'Fire in the Mountain' game problem).\n- **SOP:**\n  1. Find the exact $\\\text{LCM}(A, B)$ to establish the base sequence.\n  2. Write out the consecutive multiples of that LCM (e.g., $\\\text{LCM}, \\\text{LCM}\\\times 2, \\\text{LCM}\\\times 3 \\\dots$).\n  3. Test each multiple against divisor $C$.\nCross out and reject any multiple that divides cleanly by $C$. The remaining numbers are your valid answers.",
+"back": "- **The Trap:** 'Find a number divisible by $A$ and $B$, but NOT by $C$' (e.g., The 'Fire in the Mountain' game problem).\n- **SOP:**\n  1. Find the exact $\\\\text{LCM}(A, B)$ to establish the base sequence.\n  2. Write out the consecutive multiples of that LCM (e.g., $\\\\text{LCM}, \\\\text{LCM}\\\\times 2, \\\\text{LCM}\\\\times 3 \\\\dots$).\n  3. Test each multiple against divisor $C$.\nCross out and reject any multiple that divides cleanly by $C$. The remaining numbers are your valid answers.",
 "standardMeta": {
 "question": "If a word problem asks for a number that must be divisible by $A$ and $B$, but strictly NOT divisible by $C$, what is the Standard Operating Procedure (SOP) to solve it?"
 }
@@ -939,7 +939,7 @@
 ],
 "order": 30,
 "heading": "The Smallest Multiple Sequence Trap (Missing the 7)",
-"back": "- **The Trap:** An NCERT exercise specifically asks for the smallest number that is a multiple of 1, 2, 3, 4, 5, 6, 8, 9, 10.\n- **The Blind Spot:** Students often calculate the LCM of the first 10 natural numbers (which is 2520) out of habit, failing to notice that the number **7 is deliberately missing** from the requested sequence.\n- **The True Calculation:** $\\\text{LCM}(1, 2, 3, 4, 5, 6, 8, 9, 10) = 2^3 \\\times 3^2 \\\times 5$.\n- **Result:** The correct answer is exactly **360**.",
+"back": "- **The Trap:** An NCERT exercise specifically asks for the smallest number that is a multiple of 1, 2, 3, 4, 5, 6, 8, 9, 10.\n- **The Blind Spot:** Students often calculate the LCM of the first 10 natural numbers (which is 2520) out of habit, failing to notice that the number **7 is deliberately missing** from the requested sequence.\n- **The True Calculation:** $\\\\text{LCM}(1, 2, 3, 4, 5, 6, 8, 9, 10) = 2^3 \\\\times 3^2 \\\\times 5$.\n- **Result:** The correct answer is exactly **360**.",
 "standardMeta": {
 "question": "If asked to find the smallest common multiple of the sequence {1, 2, 3, 4, 5, 6, 8, 9, 10}, what specific number is missing that changes the standard expected LCM, and what is the final result?"
 }
@@ -972,10 +972,10 @@
 ],
 "order": 31,
 "heading": "Adding Multiple Unlike Fractions (Mahaviracharya's SOP)",
-"back": "## Component Anatomy:\n- **$D_1, D_2, \\\dots, D_n$:** The diverse denominators of the given fractions.\n- **LCM:** The Lowest Common Multiple of all the denominators.\n\n## Boundary Conditions / Domain:\n- All fractions must be converted to have this exact strictly identical LCM as their denominator before any addition of numerators can legally occur.\n- Denominators must strictly not be zero ($D_i \\\neq 0$).",
+"back": "## Component Anatomy:\n- **$D_1, D_2, \\\\dots, D_n$:** The diverse denominators of the given fractions.\n- **LCM:** The Lowest Common Multiple of all the denominators.\n\n## Boundary Conditions / Domain:\n- All fractions must be converted to have this exact strictly identical LCM as their denominator before any addition of numerators can legally occur.\n- Denominators must strictly not be zero ($D_i \\\\neq 0$).",
 "formulaMeta": {
 "formula": "\\text{Common Denominator} = \\text{LCM}(D_1, D_2, \\dots, D_n)",
-"description": "State the standard operating procedure (SOP) to efficiently add a long string of unlike fractions, such as $\\\frac{8}{15} + \\\frac{1}{20} + \\\frac{7}{36} + \\\frac{11}{63} + \\\frac{1}{21}$.",
+"description": "State the standard operating procedure (SOP) to efficiently add a long string of unlike fractions, such as $\\\\frac{8}{15} + \\\\frac{1}{20} + \\\\frac{7}{36} + \\\\frac{11}{63} + \\\\frac{1}{21}$.",
 "derivation": "Algorithmic SOP:\n1. Extract all denominators.\n2. Compute their combined prime factorisation to find the overarching LCM.\n3. For each individual fraction, divide the LCM by the original denominator, then multiply that quotient by the numerator.\n4. Add the newly scaled numerators together over the single LCM denominator."
 }
 }

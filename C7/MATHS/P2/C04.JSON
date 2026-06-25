@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Decimals as Place Value Extensions",
-"back": "- **Concept:** Decimals are the natural mathematical extension of the Indian place value system.\n- **Mechanism:** They represent fractional parts where denominators are strict powers of 10 (e.g., tenths $\\\frac{1}{10}$, hundredths $\\\frac{1}{100}$, thousandths $\\\frac{1}{1000}$).\n- **Anatomy:** In 27.53, 5 represents strictly 5 tenths, and 3 represents strictly 3 hundredths.",
+"back": "- **Concept:** Decimals are the natural mathematical extension of the Indian place value system.\n- **Mechanism:** They represent fractional parts where denominators are strict powers of 10 (e.g., tenths $\\\\frac{1}{10}$, hundredths $\\\\frac{1}{100}$, thousandths $\\\\frac{1}{1000}$).\n- **Anatomy:** In 27.53, 5 represents strictly 5 tenths, and 3 represents strictly 3 hundredths.",
 "mnemonic": "Decimals are just fractions hiding in base-10.",
 "standardMeta": {
 "question": "What is the fundamental relationship between the decimal system and the Indian place value system?"
@@ -53,10 +53,10 @@
 ],
 "order": 2,
 "heading": "The Rational Number Decimal Guarantee",
-"back": "- **The Rule:** Any number expressed as a simple fraction $p/q$ (where $p, q \\\in \\\mathbb{Z}$, and $q \\\neq 0$) mathematically guarantees one of exactly **TWO** outcomes when subjected to long division.\n1. **Terminating Decimal:** It ends cleanly with a remainder of 0 (e.g., 1/4 = 0.25).\n2. **Non-Terminating Repeating Decimal:** The remainder cycles, causing an infinite repeating loop of digits (e.g., 10/3 = 3.333... or 1/7 = 0.142857...).\n- **The Absolute Trap:** A standard integer fraction will **never** produce a non-terminating, *non-repeating* decimal sequence.",
+"back": "- **The Rule:** Any number expressed as a simple fraction $p/q$ (where $p, q \\\\in \\\\mathbb{Z}$, and $q \\\\neq 0$) mathematically guarantees one of exactly **TWO** outcomes when subjected to long division.\n1. **Terminating Decimal:** It ends cleanly with a remainder of 0 (e.g., 1/4 = 0.25).\n2. **Non-Terminating Repeating Decimal:** The remainder cycles, causing an infinite repeating loop of digits (e.g., 10/3 = 3.333... or 1/7 = 0.142857...).\n- **The Absolute Trap:** A standard integer fraction will **never** produce a non-terminating, *non-repeating* decimal sequence.",
 "mnemonic": "Fractions either Stop or Loop.",
 "standardMeta": {
-"question": "When performing long division on any two integers $p \\\div q$, what are the only two mathematically possible types of decimal expansions that can physically result?"
+"question": "When performing long division on any two integers $p \\\\div q$, what are the only two mathematically possible types of decimal expansions that can physically result?"
 }
 }
 },
@@ -82,7 +82,7 @@
 ],
 "order": 3,
 "heading": "Terminating Decimal Patterns of Halves and Fifths",
-"back": "- **Concept:** Fractions where the denominator is strictly a power of 2 or a power of 5 will mathematically ALWAYS resolve into a clean, terminating decimal.\n- **The Pattern for $1/2^n$:**\n$1/2 = 0.5$\n$1/4 = 0.25$\n$1/8 = 0.125$\n- **The Pattern for $1/5^n$:**\n$1/5 = 0.2$\n$1/25 = 0.04$\n$1/125 = 0.008$\n- **Reason:** The numbers 2 and 5 are the exclusive prime factors of base-10. Thus, any fraction composed entirely of 2s and 5s in the denominator perfectly expands into $10^k$.\n\n## Boundary Conditions / Domain:\n- Condition holds for $n \\\ge 0$, where $n \\\in \\\mathbb{Z}$.",
+"back": "- **Concept:** Fractions where the denominator is strictly a power of 2 or a power of 5 will mathematically ALWAYS resolve into a clean, terminating decimal.\n- **The Pattern for $1/2^n$:**\n$1/2 = 0.5$\n$1/4 = 0.25$\n$1/8 = 0.125$\n- **The Pattern for $1/5^n$:**\n$1/5 = 0.2$\n$1/25 = 0.04$\n$1/125 = 0.008$\n- **Reason:** The numbers 2 and 5 are the exclusive prime factors of base-10. Thus, any fraction composed entirely of 2s and 5s in the denominator perfectly expands into $10^k$.\n\n## Boundary Conditions / Domain:\n- Condition holds for $n \\\\ge 0$, where $n \\\\in \\\\mathbb{Z}$.",
 "mnemonic": "2 and 5 are the parents of 10; their fractions always terminate.",
 "standardMeta": {
 "question": "Why do fractions taking the form $1/2^n$ or $1/5^n$ always mathematically result in a perfectly terminating decimal pattern?"
@@ -110,7 +110,7 @@
 ],
 "order": 4,
 "heading": "Non-Terminating Repeating Decimals",
-"back": "- **Concept:** When performing long division (e.g., $10 \\\div 3$), you reach a stage where the exact same remainder appears repeatedly.\n- **Mathematical Result:** Because the remainder cycles, the sequence of digits in the quotient also repeats infinitely (e.g., 3.3333...).\n- **Significance:** Such fractions cannot be expressed using a finite, terminating number of decimal digits.",
+"back": "- **Concept:** When performing long division (e.g., $10 \\\\div 3$), you reach a stage where the exact same remainder appears repeatedly.\n- **Mathematical Result:** Because the remainder cycles, the sequence of digits in the quotient also repeats infinitely (e.g., 3.3333...).\n- **Significance:** Such fractions cannot be expressed using a finite, terminating number of decimal digits.",
 "standardMeta": {
 "question": "In long division, what physical sign mathematically guarantees that the resulting decimal will be non-terminating and repeating?"
 }
@@ -139,7 +139,7 @@
 ],
 "order": 5,
 "heading": "Multiplying by Powers of 10",
-"back": "## Component Anatomy:\n- **$N$:** The multiplicand (usually a decimal).\n- **$10^k$:** The multiplier, a power of 10 ($k$ is the number of zeroes).\n\n## Boundary Conditions / Domain:\n- Multiplier MUST be strictly a positive power of 10 ($k \\\ge 1$, $k \\\in \\\mathbb{Z}$).",
+"back": "## Component Anatomy:\n- **$N$:** The multiplicand (usually a decimal).\n- **$10^k$:** The multiplier, a power of 10 ($k$ is the number of zeroes).\n\n## Boundary Conditions / Domain:\n- Multiplier MUST be strictly a positive power of 10 ($k \\\\ge 1$, $k \\\\in \\\\mathbb{Z}$).",
 "mnemonic": "Multiply = More = Shift Right.",
 "formulaMeta": {
 "formula": "N \\times 10^k \\implies \\text{Shift decimal } k \\text{ places RIGHT}",
@@ -171,12 +171,12 @@
 ],
 "order": 6,
 "heading": "Dividing by Powers of 10",
-"back": "## Component Anatomy:\n- **$N$:** The dividend (can be a whole number or a decimal).\n- **$10^k$:** The divisor, a power of 10 (where $k$ is the number of zeroes, e.g., $100 \\\implies k=2$).\n\n## Boundary Conditions / Domain:\n- Divisor MUST be strictly a power of 10 (10, 100, 1000, etc.).\n- The divisor implicitly cannot be zero ($10^k \\\neq 0$).",
+"back": "## Component Anatomy:\n- **$N$:** The dividend (can be a whole number or a decimal).\n- **$10^k$:** The divisor, a power of 10 (where $k$ is the number of zeroes, e.g., $100 \\\\implies k=2$).\n\n## Boundary Conditions / Domain:\n- Divisor MUST be strictly a power of 10 (10, 100, 1000, etc.).\n- The divisor implicitly cannot be zero ($10^k \\\\neq 0$).",
 "mnemonic": "Divide = Decrease = Shift Left.",
 "formulaMeta": {
 "formula": "N \\div 10^k \\implies \\text{Shift decimal } k \\text{ places LEFT}",
 "description": "State the standard algorithmic shortcut for dividing any number by a power of 10.",
-"derivation": "Algorithmic SOP:\n1. Write the dividend exactly as is.\n2. Count the exact number of zeroes ($k$) in the divisor.\n3. Move the decimal point $k$ places to the strict LEFT.\n4. Pad with leading zeroes if you run out of digits (e.g., $12 \\\div 1000 = 0.012$)."
+"derivation": "Algorithmic SOP:\n1. Write the dividend exactly as is.\n2. Count the exact number of zeroes ($k$) in the divisor.\n3. Move the decimal point $k$ places to the strict LEFT.\n4. Pad with leading zeroes if you run out of digits (e.g., $12 \\\\div 1000 = 0.012$)."
 }
 }
 },
@@ -233,7 +233,7 @@
 ],
 "order": 8,
 "heading": "Decimal Product Magnitude: Both Factors > 1",
-"back": "- **Condition:** Both numbers being multiplied are strictly greater than 1 (e.g., $3.4 \\\times 6.5$).\n- **Mathematical Absolute:** The resulting product is mathematically guaranteed to be **strictly greater** than BOTH of the original numbers.\n- **Example:** $3.4 \\\times 6.5 = 22.1$ ($22.1 > 3.4$ and $22.1 > 6.5$).",
+"back": "- **Condition:** Both numbers being multiplied are strictly greater than 1 (e.g., $3.4 \\\\times 6.5$).\n- **Mathematical Absolute:** The resulting product is mathematically guaranteed to be **strictly greater** than BOTH of the original numbers.\n- **Example:** $3.4 \\\\times 6.5 = 22.1$ ($22.1 > 3.4$ and $22.1 > 6.5$).",
 "mnemonic": "Big times Big gets Bigger.",
 "standardMeta": {
 "question": "If you multiply two decimal numbers that are both strictly greater than 1, how does the magnitude of the product compare to the original factors?"
@@ -262,7 +262,7 @@
 ],
 "order": 9,
 "heading": "Decimal Product Magnitude: Both Factors < 1",
-"back": "- **Condition:** Both numbers being multiplied are strictly between 0 and 1 (e.g., $0.75 \\\times 0.4$).\n- **Mathematical Absolute:** The resulting product is mathematically guaranteed to be **strictly less** than BOTH of the original numbers.\n- **Example:** $0.75 \\\times 0.4 = 0.3$ ($0.3 < 0.75$ and $0.3 < 0.4$).\n\n## Boundary Conditions / Domain:\n- Let the numbers be $x, y$. The rule applies strictly for $0 < x < 1$ and $0 < y < 1$.",
+"back": "- **Condition:** Both numbers being multiplied are strictly between 0 and 1 (e.g., $0.75 \\\\times 0.4$).\n- **Mathematical Absolute:** The resulting product is mathematically guaranteed to be **strictly less** than BOTH of the original numbers.\n- **Example:** $0.75 \\\\times 0.4 = 0.3$ ($0.3 < 0.75$ and $0.3 < 0.4$).\n\n## Boundary Conditions / Domain:\n- Let the numbers be $x, y$. The rule applies strictly for $0 < x < 1$ and $0 < y < 1$.",
 "mnemonic": "Fractions of fractions shrink.",
 "standardMeta": {
 "question": "If you multiply two decimal numbers that are strictly between 0 and 1, how does the magnitude of the product compare to the original factors?"
@@ -291,7 +291,7 @@
 ],
 "order": 10,
 "heading": "Decimal Product Magnitude: Mixed Factors",
-"back": "- **Condition:** One number is strictly between 0 and 1, and the other is strictly greater than 1 (e.g., $0.75 \\\times 5$).\n- **Mathematical Absolute:** The resulting product will strictly lie **between** the magnitudes of the two original factors.\n- **Result:** It is less than the number greater than 1, and greater than the number less than 1 ($0.75 < 3.75 < 5$).\n\n## Boundary Conditions / Domain:\n- Let the numbers be $x, y$. The rule applies for $0 < x < 1$ and $y > 1$.",
+"back": "- **Condition:** One number is strictly between 0 and 1, and the other is strictly greater than 1 (e.g., $0.75 \\\\times 5$).\n- **Mathematical Absolute:** The resulting product will strictly lie **between** the magnitudes of the two original factors.\n- **Result:** It is less than the number greater than 1, and greater than the number less than 1 ($0.75 < 3.75 < 5$).\n\n## Boundary Conditions / Domain:\n- Let the numbers be $x, y$. The rule applies for $0 < x < 1$ and $y > 1$.",
 "standardMeta": {
 "question": "If you multiply a decimal number greater than 1 by a decimal number between 0 and 1, where does the final product lie relative to the two factors?"
 }
@@ -320,10 +320,10 @@
 ],
 "order": 11,
 "heading": "Bypassing Decimal Calculation (Known Product Method)",
-"back": "## Component Anatomy:\n- **$A \\\times B = P$:** The given known integer multiplication.\n- **$A', B'$:** The new factors containing decimal points but identical base digits.\n\n## Boundary Conditions / Domain:\n- The underlying sequence of digits must remain completely unchanged. Only the decimal placement varies.",
+"back": "## Component Anatomy:\n- **$A \\\\times B = P$:** The given known integer multiplication.\n- **$A', B'$:** The new factors containing decimal points but identical base digits.\n\n## Boundary Conditions / Domain:\n- The underlying sequence of digits must remain completely unchanged. Only the decimal placement varies.",
 "formulaMeta": {
 "formula": "\\text{New Product} = P \\text{ adjusted by } (d_a + d_b) \\text{ decimal places}",
-"description": "If given a known product like $596 \\\times 248 = 147808$, state the SOP to instantly find $5.96 \\\times 24.8$ without recalculating.",
+"description": "If given a known product like $596 \\\\times 248 = 147808$, state the SOP to instantly find $5.96 \\\\times 24.8$ without recalculating.",
 "derivation": "Algorithmic SOP:\n1. Verify the base digits of the new factors perfectly match the given known equation.\n2. Write down the given known product (147808).\n3. Count total decimal places in the new expression: 5.96 (2 places) + 24.8 (1 place) = 3 total places.\n4. Inject the decimal into the known product 3 places from the right: 147.808."
 }
 }
@@ -352,10 +352,10 @@
 ],
 "order": 12,
 "heading": "Combinatorial Optimization: Maximizing Decimal Products",
-"back": "- **Concept:** When given a set of digits (e.g., $\\\\{2, 4, 5, 8\\\\}$) to form two decimals (like $A.B \\\times C.D$) that yield the maximum possible product, you must place the largest digits in the most significant place values (Ones).\n- **The Trap:** Students intuitively pair the digits sequentially, assuming $8.4 \\\times 5.2$ is maximal.\n- **The Mathematical Resolution:** Cross-multiplication mechanics dictate that you must pair the *largest* whole number with the *smaller* decimal digit to maximize the cross terms.\n- **Proof:** $8.2 \\\times 5.4 = 44.28$, which is strictly greater than $8.4 \\\times 5.2 = 43.68$.",
+"back": "- **Concept:** When given a set of digits (e.g., $\\\\{2, 4, 5, 8\\\\}$) to form two decimals (like $A.B \\\\times C.D$) that yield the maximum possible product, you must place the largest digits in the most significant place values (Ones).\n- **The Trap:** Students intuitively pair the digits sequentially, assuming $8.4 \\\\times 5.2$ is maximal.\n- **The Mathematical Resolution:** Cross-multiplication mechanics dictate that you must pair the *largest* whole number with the *smaller* decimal digit to maximize the cross terms.\n- **Proof:** $8.2 \\\\times 5.4 = 44.28$, which is strictly greater than $8.4 \\\\times 5.2 = 43.68$.",
 "mnemonic": "Pair the highest integer with the second-highest decimal.",
 "standardMeta": {
-"question": "Given a set of four distinct digits, what counter-intuitive mathematical strategy is required to arrange them into a two-decimal multiplication ($A.B \\\times C.D$) to achieve the absolute maximum product?"
+"question": "Given a set of four distinct digits, what counter-intuitive mathematical strategy is required to arrange them into a two-decimal multiplication ($A.B \\\\times C.D$) to achieve the absolute maximum product?"
 }
 }
 },
@@ -408,12 +408,12 @@
 ],
 "order": 14,
 "heading": "Division with a Decimal Divisor",
-"back": "## Component Anatomy:\n- **$D_{dividend}$:** The number being divided.\n- **$D_{divisor}$:** The decimal number dividing the other.\n- **$10^k$:** The scaling factor required to eliminate the decimal from the divisor.\n\n## Boundary Conditions / Domain:\n- You CANNOT use the standard long division algorithm natively if the divisor has a decimal.\n- The divisor implicitly cannot be zero ($D_{divisor} \\\neq 0$).",
+"back": "## Component Anatomy:\n- **$D_{dividend}$:** The number being divided.\n- **$D_{divisor}$:** The decimal number dividing the other.\n- **$10^k$:** The scaling factor required to eliminate the decimal from the divisor.\n\n## Boundary Conditions / Domain:\n- You CANNOT use the standard long division algorithm natively if the divisor has a decimal.\n- The divisor implicitly cannot be zero ($D_{divisor} \\\\neq 0$).",
 "mnemonic": "Clear the Divisor's dot before you divide the lot.",
 "formulaMeta": {
 "formula": "\\frac{D_{dividend}}{D_{divisor}} = \\frac{D_{dividend} \\times 10^k}{D_{divisor} \\times 10^k}",
-"description": "State the algebraic transformation required to divide by a decimal number (e.g., $4.68 \\\div 1.3$).",
-"derivation": "Algorithmic SOP:\n1. Count the decimal places ($k$) in the DIVISOR.\n2. Multiply BOTH the dividend and the divisor by $10^k$ to convert the divisor into a strict whole integer. (e.g., $4.68 \\\div 1.3 \\\implies 46.8 \\\div 13$).\n3. Perform standard long division on the new transformed values."
+"description": "State the algebraic transformation required to divide by a decimal number (e.g., $4.68 \\\\div 1.3$).",
+"derivation": "Algorithmic SOP:\n1. Count the decimal places ($k$) in the DIVISOR.\n2. Multiply BOTH the dividend and the divisor by $10^k$ to convert the divisor into a strict whole integer. (e.g., $4.68 \\\\div 1.3 \\\\implies 46.8 \\\\div 13$).\n3. Perform standard long division on the new transformed values."
 }
 }
 },
@@ -439,7 +439,7 @@
 ],
 "order": 15,
 "heading": "Quotient Magnitude: Divisor < 1",
-"back": "- **The Norm:** Dividing two whole numbers usually yields a quotient smaller than the dividend (e.g., $128 \\\div 4 = 32$).\n- **The Trap:** When dividing by a decimal strictly between 0 and 1 (e.g., 0.4).\n- **Mathematical Absolute:** The resulting quotient is mathematically guaranteed to be **strictly GREATER** than the original dividend.\n- **Example:** $128 \\\div 0.4 = 320$. ($320 > 128$).\n\n## Boundary Conditions / Domain:\n- Let the dividend be $N > 0$ and the divisor be $D$, where $0 < D < 1$.",
+"back": "- **The Norm:** Dividing two whole numbers usually yields a quotient smaller than the dividend (e.g., $128 \\\\div 4 = 32$).\n- **The Trap:** When dividing by a decimal strictly between 0 and 1 (e.g., 0.4).\n- **Mathematical Absolute:** The resulting quotient is mathematically guaranteed to be **strictly GREATER** than the original dividend.\n- **Example:** $128 \\\\div 0.4 = 320$. ($320 > 128$).\n\n## Boundary Conditions / Domain:\n- Let the dividend be $N > 0$ and the divisor be $D$, where $0 < D < 1$.",
 "mnemonic": "Dividing by a fraction multiplies your value.",
 "standardMeta": {
 "question": "Under what specific condition will dividing a positive number yield a quotient that is strictly LARGER than the original dividend?"
@@ -469,11 +469,11 @@
 ],
 "order": 16,
 "heading": "Converting Fractions to Decimals via Equivalent Denominators",
-"back": "## Component Anatomy:\n- **$N/D$:** A fraction where $D$ is a factor of a power of 10 (like 2, 4, 5, 8, 20, 25).\n- **$k$:** The scalar multiplier used to convert $D$ into 10, 100, 1000, etc.\n\n## Boundary Conditions / Domain:\n- Only works effectively if the original denominator's prime factors consist exclusively of 2s and/or 5s.\n- Denominator $D \\\neq 0$.",
+"back": "## Component Anatomy:\n- **$N/D$:** A fraction where $D$ is a factor of a power of 10 (like 2, 4, 5, 8, 20, 25).\n- **$k$:** The scalar multiplier used to convert $D$ into 10, 100, 1000, etc.\n\n## Boundary Conditions / Domain:\n- Only works effectively if the original denominator's prime factors consist exclusively of 2s and/or 5s.\n- Denominator $D \\\\neq 0$.",
 "formulaMeta": {
 "formula": "\\frac{N \\times k}{D \\times k} = \\frac{N_{new}}{10^x}",
-"description": "State the standard operating procedure to quickly convert a fraction like $\\\frac{29}{4}$ into a decimal without using long division.",
-"derivation": "Algorithmic SOP:\n1. Identify what integer ($k$) multiplies the denominator to perfectly yield a power of 10 (e.g., $4 \\\times 25 = 100$).\n2. Multiply BOTH the numerator and denominator by that exact scalar $k$ (e.g., $\\\frac{29 \\\times 25}{4 \\\times 25} = \\\frac{725}{100}$).\n3. Apply the shift-left rule based on the zeroes to write the final decimal (7.25)."
+"description": "State the standard operating procedure to quickly convert a fraction like $\\\\frac{29}{4}$ into a decimal without using long division.",
+"derivation": "Algorithmic SOP:\n1. Identify what integer ($k$) multiplies the denominator to perfectly yield a power of 10 (e.g., $4 \\\\times 25 = 100$).\n2. Multiply BOTH the numerator and denominator by that exact scalar $k$ (e.g., $\\\\frac{29 \\\\times 25}{4 \\\\times 25} = \\\\frac{725}{100}$).\n3. Apply the shift-left rule based on the zeroes to write the final decimal (7.25)."
 }
 }
 },
@@ -501,11 +501,11 @@
 ],
 "order": 17,
 "heading": "Sridharacharya's Mixed Fraction to Decimal Transformation",
-"back": "## Component Anatomy:\n- **Mixed Fractions:** The ancient problem inputs (e.g., $6 \\\frac{1}{4}$ and $2 \\\frac{1}{2}$).\n- **Decimal Equivalents:** The base-10 conversions (6.25 and 2.5).\n\n## Boundary Conditions / Domain:\n- This shortcut strictly relies on the fractional denominators being easily scaled to powers of 10 (e.g., $2 \\\times 5 = 10$, $4 \\\times 25 = 100$).\n- The divisor must strictly not be zero.",
+"back": "## Component Anatomy:\n- **Mixed Fractions:** The ancient problem inputs (e.g., $6 \\\\frac{1}{4}$ and $2 \\\\frac{1}{2}$).\n- **Decimal Equivalents:** The base-10 conversions (6.25 and 2.5).\n\n## Boundary Conditions / Domain:\n- This shortcut strictly relies on the fractional denominators being easily scaled to powers of 10 (e.g., $2 \\\\times 5 = 10$, $4 \\\\times 25 = 100$).\n- The divisor must strictly not be zero.",
 "formulaMeta": {
 "formula": "6.25 \\div 2.5 = 62.5 \\div 25",
-"description": "State the modern decimal algorithmic approach to simplify Sridharacharya's ancient division problem: $6 \\\frac{1}{4} \\\div 2 \\\frac{1}{2}$.",
-"derivation": "Algorithmic SOP:\n1. Translate historical fractional parts into decimals: $1/4 = 0.25$, and $1/2 = 0.5$.\n2. Rewrite the arithmetic expression: $6.25 \\\div 2.5$.\n3. Shift the decimal one place right (multiply by 10) for both terms to strictly clear the divisor's decimal: $62.5 \\\div 25$.\n4. Execute standard long division to find the quotient (2.5)."
+"description": "State the modern decimal algorithmic approach to simplify Sridharacharya's ancient division problem: $6 \\\\frac{1}{4} \\\\div 2 \\\\frac{1}{2}$.",
+"derivation": "Algorithmic SOP:\n1. Translate historical fractional parts into decimals: $1/4 = 0.25$, and $1/2 = 0.5$.\n2. Rewrite the arithmetic expression: $6.25 \\\\div 2.5$.\n3. Shift the decimal one place right (multiply by 10) for both terms to strictly clear the divisor's decimal: $62.5 \\\\div 25$.\n4. Execute standard long division to find the quotient (2.5)."
 }
 }
 },
@@ -531,9 +531,9 @@
 ],
 "order": 18,
 "heading": "The Magic Cyclic Number (142857)",
-"back": "- **Origin:** This specific sequence is generated by the division $1 \\\div 7 = 0.142857142857\dots$\n- **The Cyclic Property:** If you multiply 142857 by any integer from 1 to 6, the product will contain the exact same digits, simply cycled or shifted around in a loop (e.g., $142857 \\\times 2 = 285714$).\n- **Another Source:** $1 \\\div 17$ also produces a larger repeating block of cyclic digits.",
+"back": "- **Origin:** This specific sequence is generated by the division $1 \\\\div 7 = 0.142857142857\\dots$\n- **The Cyclic Property:** If you multiply 142857 by any integer from 1 to 6, the product will contain the exact same digits, simply cycled or shifted around in a loop (e.g., $142857 \\\\times 2 = 285714$).\n- **Another Source:** $1 \\\\div 17$ also produces a larger repeating block of cyclic digits.",
 "standardMeta": {
-"question": "What is the famous six-digit repeating sequence generated by $1 \\\div 7$, and what unique mathematical property does it hold when multiplied by integers 1 through 6?"
+"question": "What is the famous six-digit repeating sequence generated by $1 \\\\div 7$, and what unique mathematical property does it hold when multiplied by integers 1 through 6?"
 }
 }
 },
@@ -559,7 +559,7 @@
 ],
 "order": 19,
 "heading": "Secondary Cyclic Number Generator (1/17)",
-"back": "- **Concept:** While 1/7 generates the famous 6-digit cyclic number 142857, it is not the only prime fraction to do so.\n- **The Extension:** The chapter's footnotes challenge students to evaluate **$1 \\\div 17$**.\nPerforming this massive long division reveals a much larger repeating block of 16 cyclic digits.\n- **Significance:** These specific prime denominators generating maximum-length cyclic blocks are the core foundation of Emil Artin's unproven conjecture.",
+"back": "- **Concept:** While 1/7 generates the famous 6-digit cyclic number 142857, it is not the only prime fraction to do so.\n- **The Extension:** The chapter's footnotes challenge students to evaluate **$1 \\\\div 17$**.\nPerforming this massive long division reveals a much larger repeating block of 16 cyclic digits.\n- **Significance:** These specific prime denominators generating maximum-length cyclic blocks are the core foundation of Emil Artin's unproven conjecture.",
 "standardMeta": {
 "question": "Besides the famous fraction 1/7, what specific, larger prime fraction does the text suggest dividing to find a massive repeating cyclic number block?"
 }
@@ -613,12 +613,12 @@
 ],
 "order": 21,
 "heading": "Metric Prefix Conversion (Distance)",
-"back": "## Component Anatomy:\n- **$1 \\\text{ km} = 1000 \\\text{ m}$**\n- **$1 \\\text{ m} = 100 \\\text{ cm}$**\n- **$1 \\\text{ cm} = 10 \\\text{ mm}$**\n\n## Boundary Conditions / Domain:\n- Measurements represent physical distances and must be strictly non-negative ($D \\\ge 0$).\n- When moving from a smaller unit to a larger unit, you must divide by the factor (shifting the decimal LEFT).\n- When moving from larger to smaller, you multiply (shifting the decimal RIGHT).",
+"back": "## Component Anatomy:\n- **$1 \\\\text{ km} = 1000 \\\\text{ m}$**\n- **$1 \\\\text{ m} = 100 \\\\text{ cm}$**\n- **$1 \\\\text{ cm} = 10 \\\\text{ mm}$**\n\n## Boundary Conditions / Domain:\n- Measurements represent physical distances and must be strictly non-negative ($D \\\\ge 0$).\n- When moving from a smaller unit to a larger unit, you must divide by the factor (shifting the decimal LEFT).\n- When moving from larger to smaller, you multiply (shifting the decimal RIGHT).",
 "mnemonic": "Big to Small: Multiply them all. Small to Big: Divide the rig.",
 "formulaMeta": {
 "formula": "\\text{km} \\xrightarrow{\\times 1000} \\text{m} \\xrightarrow{\\times 100} \\text{cm} \\xrightarrow{\\times 10} \\text{mm}",
 "description": "State the sequential conversion relationships linking kilometers, meters, centimeters, and millimeters.",
-"derivation": "Algorithmic SOP (e.g., converting 9.02 m to mm):\n1. Identify the conversion steps: m to cm to mm.\n2. Multiply $9.02 \\\times 100 = 902$ cm.\n3. Multiply $902 \\\times 10 = 9020$ mm."
+"derivation": "Algorithmic SOP (e.g., converting 9.02 m to mm):\n1. Identify the conversion steps: m to cm to mm.\n2. Multiply $9.02 \\\\times 100 = 902$ cm.\n3. Multiply $902 \\\\times 10 = 9020$ mm."
 }
 }
 },
@@ -645,12 +645,12 @@
 ],
 "order": 22,
 "heading": "Metric Prefix Conversion (Mass & Volume)",
-"back": "## Component Anatomy:\n- **Mass:** $1 \\\text{ kg} = 1000 \\\text{ g}$, $1 \\\text{ g} = 1000 \\\text{ mg}$.\n- **Volume:** $1 \\\text{ L} = 1000 \\\text{ mL}$.\n\n## Boundary Conditions / Domain:\n- Strict base-10 shifts applied to decimals.\n- All physical measurements must be non-negative values ($M \\\ge 0, V \\\ge 0$).",
+"back": "## Component Anatomy:\n- **Mass:** $1 \\\\text{ kg} = 1000 \\\\text{ g}$, $1 \\\\text{ g} = 1000 \\\\text{ mg}$.\n- **Volume:** $1 \\\\text{ L} = 1000 \\\\text{ mL}$.\n\n## Boundary Conditions / Domain:\n- Strict base-10 shifts applied to decimals.\n- All physical measurements must be non-negative values ($M \\\\ge 0, V \\\\ge 0$).",
 "mnemonic": "Kilo is a Thousand.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\text{kg} \\times 1000 &= \\text{g} \\\\ \\text{L} \\times 1000 &= \\text{mL} \\end{aligned}",
 "description": "State the standard conversion ratios for converting between Grams/Kilograms and Liters/Milliliters.",
-"derivation": "Algorithmic SOP (e.g., converting 68 g to kg):\n1. Recognize you are moving from smaller (g) to larger (kg), meaning division is required.\n2. Divide the value by the strict factor of 1000.\n3. Shift the decimal 3 places left: $68 \\\div 1000 = 0.068$ kg."
+"derivation": "Algorithmic SOP (e.g., converting 68 g to kg):\n1. Recognize you are moving from smaller (g) to larger (kg), meaning division is required.\n2. Divide the value by the strict factor of 1000.\n3. Shift the decimal 3 places left: $68 \\\\div 1000 = 0.068$ kg."
 }
 }
 },
@@ -677,11 +677,11 @@
 ],
 "order": 23,
 "heading": "Total Price Calculation with Decimals",
-"back": "## Component Anatomy:\n- **$C_{unit}$:** The given cost of a single standard unit (e.g., 1 kg or 1 piece), usually a decimal.\n- **$Q$:** The required quantity (can also be a decimal).\n- **Total:** The final required money outlay.\n\n## Boundary Conditions / Domain:\n- Units must perfectly match before calculating (e.g., if price is per kg, quantity must be in kg, not grams).\n- $C_{unit} \\\ge 0$ and $Q \\\ge 0$.",
+"back": "## Component Anatomy:\n- **$C_{unit}$:** The given cost of a single standard unit (e.g., 1 kg or 1 piece), usually a decimal.\n- **$Q$:** The required quantity (can also be a decimal).\n- **Total:** The final required money outlay.\n\n## Boundary Conditions / Domain:\n- Units must perfectly match before calculating (e.g., if price is per kg, quantity must be in kg, not grams).\n- $C_{unit} \\\\ge 0$ and $Q \\\\ge 0$.",
 "formulaMeta": {
 "formula": "\\text{Total Cost} = C_{unit} \\times Q",
 "description": "State the standard formula and procedure to calculate the total price when purchasing a decimal quantity of an item.",
-"derivation": "Algorithmic SOP (e.g., 2.45 kg of apples at ₹63.50 / kg):\n1. Verify unit consistency.\n2. Multiply the two decimal numbers: $63.50 \\\times 2.45$.\n3. Use integer multiplication: $6350 \\\times 245 = 1555750$.\n4. Apply total decimal places (2 + 2 = 4): ₹155.5750."
+"derivation": "Algorithmic SOP (e.g., 2.45 kg of apples at ₹63.50 / kg):\n1. Verify unit consistency.\n2. Multiply the two decimal numbers: $63.50 \\\\times 2.45$.\n3. Use integer multiplication: $6350 \\\\times 245 = 1555750$.\n4. Apply total decimal places (2 + 2 = 4): ₹155.5750."
 }
 }
 },
@@ -734,7 +734,7 @@
 ],
 "order": 25,
 "heading": "The 4-Year Leap Year Adjustment",
-"back": "## Component Anatomy:\n- **0.2422:** The extra fraction of a day per year.\n- **$0.2422 \\\times 4 = 0.9688$:** The accumulated fraction over 4 years.\n\n## Boundary Conditions / Domain:\n- Applies to years strictly divisible by 4 (e.g., 2024, 2028).\n- Assumes positive integer years ($Y \\\in \\\mathbb{Z}^+$).",
+"back": "## Component Anatomy:\n- **0.2422:** The extra fraction of a day per year.\n- **$0.2422 \\\\times 4 = 0.9688$:** The accumulated fraction over 4 years.\n\n## Boundary Conditions / Domain:\n- Applies to years strictly divisible by 4 (e.g., 2024, 2028).\n- Assumes positive integer years ($Y \\\\in \\\\mathbb{Z}^+$).",
 "formulaMeta": {
 "formula": "\\text{If Year } \\equiv 0 \\pmod 4 \\implies \\text{Year has 366 days}",
 "description": "State the initial mathematical adjustment made to the calendar to compensate for the Earth's 365.2422 day revolution cycle.",
@@ -765,7 +765,7 @@
 ],
 "order": 26,
 "heading": "The Century Leap Year Exception",
-"back": "## Component Anatomy:\n- **Overcompensation:** 0.9688 is slightly less than the full 1 day added every 4 years.\n- **The Deficit:** This rounding error adds roughly 3 extra unearned days every 400 years.\n\n## Boundary Conditions / Domain:\n- This completely overrides the standard 4-year rule if the year ends in '00'.\n- Applies strictly to positive integer years ($Y \\\in \\\mathbb{Z}^+$).",
+"back": "## Component Anatomy:\n- **Overcompensation:** 0.9688 is slightly less than the full 1 day added every 4 years.\n- **The Deficit:** This rounding error adds roughly 3 extra unearned days every 400 years.\n\n## Boundary Conditions / Domain:\n- This completely overrides the standard 4-year rule if the year ends in '00'.\n- Applies strictly to positive integer years ($Y \\\\in \\\\mathbb{Z}^+$).",
 "mnemonic": "Centuries skip the leap.",
 "formulaMeta": {
 "formula": "\\text{If Year } \\equiv 0 \\pmod{100} \\implies \\text{Year has ONLY 365 days}",
@@ -802,7 +802,7 @@
 "formulaMeta": {
 "formula": "\\text{If Year } \\equiv 0 \\pmod{400} \\implies \\text{Year has 366 days}",
 "description": "State the ultimate mathematical condition (the Gregorian correction) that completely finalizes the leap year calculation algorithm.",
-"derivation": "Algorithmic Hierarchy for any given year:\n1. Is it divisible by 400? If YES $\\\implies$ LEAP YEAR (366).\n2. If NO, is it divisible by 100? If YES $\\\implies$ STANDARD (365).\n3. If NO, is it divisible by 4? If YES $\\\implies$ LEAP YEAR (366).\n4. Otherwise $\\\implies$ STANDARD (365)."
+"derivation": "Algorithmic Hierarchy for any given year:\n1. Is it divisible by 400? If YES $\\\\implies$ LEAP YEAR (366).\n2. If NO, is it divisible by 100? If YES $\\\\implies$ STANDARD (365).\n3. If NO, is it divisible by 4? If YES $\\\\implies$ LEAP YEAR (366).\n4. Otherwise $\\\\implies$ STANDARD (365)."
 }
 }
 },
@@ -830,7 +830,7 @@
 ],
 "order": 28,
 "heading": "Number of Leap Years in a Millennium",
-"back": "## Component Anatomy:\n- **$1000/4$:** The base frequency of 4-year leaps (250).\n- **$1000/100$:** The century exceptions being removed (10).\n- **$\\\text{floor}(1000/400)$:** The 400-year restorations being added back (2).\n\n## Boundary Conditions / Domain:\n- Uses the principle of Inclusion-Exclusion.\n- Strictly applies to a standardized 1000-year block starting from a Year 1 (e.g., Year 1 to 1000). Arbitrary 1000-year windows (e.g., 1850 to 2849) may contain different distributions depending on the exact centuries crossed.",
+"back": "## Component Anatomy:\n- **$1000/4$:** The base frequency of 4-year leaps (250).\n- **$1000/100$:** The century exceptions being removed (10).\n- **$\\\\text{floor}(1000/400)$:** The 400-year restorations being added back (2).\n\n## Boundary Conditions / Domain:\n- Uses the principle of Inclusion-Exclusion.\n- Strictly applies to a standardized 1000-year block starting from a Year 1 (e.g., Year 1 to 1000). Arbitrary 1000-year windows (e.g., 1850 to 2849) may contain different distributions depending on the exact centuries crossed.",
 "formulaMeta": {
 "formula": "L = \\frac{1000}{4} - \\frac{1000}{100} + \\text{floor}\\left(\\frac{1000}{400}\\right)",
 "description": "Using the 400-year algorithmic hierarchy, state the formula to mathematically calculate exactly how many leap years occur in a standard 1000-year millennium.",

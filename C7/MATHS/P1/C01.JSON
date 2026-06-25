@@ -193,9 +193,9 @@
 "heading": "Theorem: Converting Millions to Lakhs",
 "back": "## Component Anatomy:\n- **Million:** International system base unit mapped to $10^6$.\n- **Lakh:** Indian system base unit mapped to $10^5$.\n\n## Boundary Conditions / Domain:\n- Magnitudes must strictly be positive integers.",
 "formulaMeta": {
-"formula": "1 \text{ Million} = 10 \text{ Lakhs}",
+"formula": "1 \\text{ Million} = 10 \\text{ Lakhs}",
 "description": "Mathematical identity equating International Millions to Indian Lakhs.",
-"derivation": "## Mathematical Proof:\n1. 1 Million is defined strictly as $10^6$ ($1,000,000$).\n2. 1 Lakh is defined strictly as $10^5$ ($1,00,000$).\n3. Applying exponential ratio division: $\frac{10^6}{10^5} = 10^{6-5} = 10^1 = 10$."
+"derivation": "## Mathematical Proof:\n1. 1 Million is defined strictly as $10^6$ ($1,000,000$).\n2. 1 Lakh is defined strictly as $10^5$ ($1,00,000$).\n3. Applying exponential ratio division: $\\frac{10^6}{10^5} = 10^{6-5} = 10^1 = 10$."
 }
 }
 },
@@ -223,9 +223,9 @@
 "heading": "Theorem: Converting Crores to Millions",
 "back": "## Component Anatomy:\n- **Crore:** Indian system base unit mapped to $10^7$.\n- **Million:** International system base unit mapped to $10^6$.\n\n## Boundary Conditions / Domain:\n- Magnitudes must strictly be positive integers.",
 "formulaMeta": {
-"formula": "1 \text{ Crore} = 10 \text{ Millions}",
+"formula": "1 \\text{ Crore} = 10 \\text{ Millions}",
 "description": "Mathematical identity equating Indian Crores to International Millions.",
-"derivation": "## Mathematical Proof:\n1. 1 Crore is defined strictly as $10^7$ ($1,00,00,000$).\n2. 1 Million is defined strictly as $10^6$ ($1,000,000$).\n3. Applying exponential ratio division: $\frac{10^7}{10^6} = 10^{7-6} = 10^1 = 10$."
+"derivation": "## Mathematical Proof:\n1. 1 Crore is defined strictly as $10^7$ ($1,00,00,000$).\n2. 1 Million is defined strictly as $10^6$ ($1,000,000$).\n3. Applying exponential ratio division: $\\frac{10^7}{10^6} = 10^{7-6} = 10^1 = 10$."
 }
 }
 },
@@ -253,9 +253,9 @@
 "heading": "Theorem: Converting Billions to Crores",
 "back": "## Component Anatomy:\n- **Billion:** International system base unit mapped to $10^9$.\n- **Crore:** Indian system base unit mapped to $10^7$.\n\n## Boundary Conditions / Domain:\n- Magnitudes must strictly be positive integers.",
 "formulaMeta": {
-"formula": "1 \text{ Billion} = 100 \text{ Crores}",
+"formula": "1 \\text{ Billion} = 100 \\text{ Crores}",
 "description": "Mathematical identity equating International Billions to Indian Crores.",
-"derivation": "## Mathematical Proof:\n1. 1 Billion is defined strictly as $10^9$ ($1,000,000,000$).\n2. 1 Crore is defined strictly as $10^7$ ($1,00,00,000$).\n3. Applying exponential ratio division: $\frac{10^9}{10^7} = 10^{9-7} = 10^2 = 100$."
+"derivation": "## Mathematical Proof:\n1. 1 Billion is defined strictly as $10^9$ ($1,000,000,000$).\n2. 1 Crore is defined strictly as $10^7$ ($1,00,00,000$).\n3. Applying exponential ratio division: $\\frac{10^9}{10^7} = 10^{9-7} = 10^2 = 100$."
 }
 }
 },
@@ -283,9 +283,9 @@
 "heading": "Theorem: Equivalence of Arab and Billion",
 "back": "## Component Anatomy:\n- **Arab:** Indian system representation mapped exactly to $10^9$ (100 Crores).\n- **Billion:** International system representation mapped exactly to $10^9$.\n\n## Boundary Conditions / Domain:\n- Both variables represent the exact same mathematical magnitude strictly at the $10^9$ threshold.",
 "formulaMeta": {
-"formula": "1 \text{ Arab} = 1 \text{ Billion}",
+"formula": "1 \\text{ Arab} = 1 \\text{ Billion}",
 "description": "Mathematical identity proving an Arab is mathematically equal to a Billion.",
-"derivation": "## Mathematical Proof:\n1. $1 \text{ Arab}$ is structurally defined as $100 \text{ Crores}$: $100 \times 10^7 = 10^9$.\n2. $1 \text{ Billion}$ is structurally defined as $1000 \text{ Millions}$: $1000 \times 10^6 = 10^9$.\n3. Therefore, $1 \text{ Arab} = 1 \text{ Billion} = 10^9$."
+"derivation": "## Mathematical Proof:\n1. $1 \\text{ Arab}$ is structurally defined as $100 \\text{ Crores}$: $100 \\times 10^7 = 10^9$.\n2. $1 \\text{ Billion}$ is structurally defined as $1000 \\text{ Millions}$: $1000 \\times 10^6 = 10^9$.\n3. Therefore, $1 \\text{ Arab} = 1 \\text{ Billion} = 10^9$."
 }
 }
 },
@@ -310,7 +310,7 @@
 ],
 "order": 11,
 "heading": "SOP: Systematic Base-10 Expanded Form",
-"back": "## Algorithmic Steps:\n- **Concept:** Expanding an integer using strictly base-10 addition and multiplication operations.\n- **Procedure:** Multiply each non-zero digit $d_i$ strictly by its respective positional place value ($10^0, 10^1, 10^2$, etc.) and calculate the finite sum of the products.\n- **Efficiency Rule:** Positional multipliers corresponding to a zero digit ($d_i = 0$) should be strictly omitted to minimize operations.\n- **Example for 5072:** $(5 \times 1000) + (7 \times 10) + (2 \times 1)$.",
+"back": "## Algorithmic Steps:\n- **Concept:** Expanding an integer using strictly base-10 addition and multiplication operations.\n- **Procedure:** Multiply each non-zero digit $d_i$ strictly by its respective positional place value ($10^0, 10^1, 10^2$, etc.) and calculate the finite sum of the products.\n- **Efficiency Rule:** Positional multipliers corresponding to a zero digit ($d_i = 0$) should be strictly omitted to minimize operations.\n- **Example for 5072:** $(5 \\times 1000) + (7 \\times 10) + (2 \\times 1)$.",
 "mnemonic": "Systematic Sippy: Minimum clicks, maximum efficiency.",
 "standardMeta": {
 "question": "How do you systematically express a multi-digit integer in its standard expanded form while minimizing redundant base-10 operations?"
@@ -365,7 +365,7 @@
 ],
 "order": 13,
 "heading": "SOP: Base-10 Threshold Estimation (Nearest Neighbour)",
-"back": "## Algorithmic Steps:\n- **Step 1:** Identify the absolute target place value $P_k$.\n- **Step 2:** Evaluate the single testing digit $d_{k-1}$ strictly immediately to its right.\n- **Step 3 (Ceiling Rule):** If $d_{k-1} \geq 5$, strictly increment the digit at $P_k$ by 1 (round up).\n- **Step 4 (Floor Rule):** If $d_{k-1} < 5$, strictly maintain the digit at $P_k$ (round down).\n- **Step 5:** Convert all subsequent rightward digits ($P_{k-1}$ to $P_0$) strictly to zero.\n- **Example:** Nearest lakh ($10^5$) for $6,72,85,183$. Target is $7$. Testing digit is $2$. Since $2 < 5$, floor the threshold strictly to $6,72,00,000$.",
+"back": "## Algorithmic Steps:\n- **Step 1:** Identify the absolute target place value $P_k$.\n- **Step 2:** Evaluate the single testing digit $d_{k-1}$ strictly immediately to its right.\n- **Step 3 (Ceiling Rule):** If $d_{k-1} \\geq 5$, strictly increment the digit at $P_k$ by 1 (round up).\n- **Step 4 (Floor Rule):** If $d_{k-1} < 5$, strictly maintain the digit at $P_k$ (round down).\n- **Step 5:** Convert all subsequent rightward digits ($P_{k-1}$ to $P_0$) strictly to zero.\n- **Example:** Nearest lakh ($10^5$) for $6,72,85,183$. Target is $7$. Testing digit is $2$. Since $2 < 5$, floor the threshold strictly to $6,72,00,000$.",
 "mnemonic": "Five or more, let it soar. Four or less, let it rest.",
 "standardMeta": {
 "question": "What is the standard algorithmic procedure for mathematically estimating a large number to its nearest specified base-10 threshold?"
@@ -378,7 +378,7 @@
 "originalHeading": "Application: Exact vs. Approximate Numbers",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected mathematical sets mapping ($n \in \mathbb{Z}$)",
+"Injected mathematical sets mapping ($n \\in \\mathbb{Z}$)",
 "Refined classification to APPLICATION"
 ],
 "vettingNotes": "Linked abstract estimation constraints to physical and digital systems.",
@@ -393,7 +393,7 @@
 ],
 "order": 14,
 "heading": "Domain Constraints: Exact vs. Approximate Integers",
-"back": "## Boundary Conditions for Usage:\n- **Exact Numbers ($n \in \mathbb{Z}$) MUST Be Used For:**\n  - **Unique System Identifiers:** Phone numbers, cryptographic PIN codes, emergency routing protocols (100, 112).\n  - **Strict Quantitative Domains:** Precise scientific titrations, rigid financial ledgers, combinatorial exact counts.\n- **Approximate Numbers (Rounding) Permitted For:** Macro-scale estimations (crowd density), astronomical relative distances, and data visualization where granular variance does not perturb the core structural model.",
+"back": "## Boundary Conditions for Usage:\n- **Exact Numbers ($n \\in \\mathbb{Z}$) MUST Be Used For:**\n  - **Unique System Identifiers:** Phone numbers, cryptographic PIN codes, emergency routing protocols (100, 112).\n  - **Strict Quantitative Domains:** Precise scientific titrations, rigid financial ledgers, combinatorial exact counts.\n- **Approximate Numbers (Rounding) Permitted For:** Macro-scale estimations (crowd density), astronomical relative distances, and data visualization where granular variance does not perturb the core structural model.",
 "standardMeta": {
 "question": "Under what strict mathematical and real-world boundary conditions MUST exact integer values be used instead of approximate (rounded) numbers?"
 }
@@ -434,7 +434,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Converted explanation into algebraic coefficient notation",
-"Explicitly added boundary condition for division ($m \geq n$)"
+"Explicitly added boundary condition for division ($m \\geq n$)"
 ],
 "vettingNotes": "Enhanced mathematical rigor for base-10 manipulation.",
 "cardData": {
@@ -448,7 +448,7 @@
 ],
 "order": 16,
 "heading": "SOP: Managing Trailing Zeroes in Arithmetic",
-"back": "## Algorithmic SOP for Zeroes:\n- **Multiplication $(A \times 10^m) \times (B \times 10^n)$:** \n  1. Strictly multiply the non-zero core coefficients ($A \times B$).\n  2. Append the total algebraic sum of trailing zeroes ($m + n$) strictly to the right of the product.\n  - *Example:* $2100 \times 70000 \to 21 \times 7 = 147$, append $2+4=6$ zeroes $\to 147,000,000$.\n- **Division $\frac{A \times 10^m}{B \times 10^n}$:**\n  1. Trailing zeroes strictly cancel out algebraically. Subtract the divisor's zero count from the dividend's zero count ($m - n$, assuming boundary condition $m \geq n$ for integer termination).\n  2. Divide the remaining core coefficients.",
+"back": "## Algorithmic SOP for Zeroes:\n- **Multiplication $(A \\times 10^m) \\times (B \\times 10^n)$:** \n  1. Strictly multiply the non-zero core coefficients ($A \\times B$).\n  2. Append the total algebraic sum of trailing zeroes ($m + n$) strictly to the right of the product.\n  - *Example:* $2100 \\times 70000 \\to 21 \\times 7 = 147$, append $2+4=6$ zeroes $\\to 147,000,000$.\n- **Division $\\frac{A \\times 10^m}{B \\times 10^n}$:**\n  1. Trailing zeroes strictly cancel out algebraically. Subtract the divisor's zero count from the dividend's zero count ($m - n$, assuming boundary condition $m \\geq n$ for integer termination).\n  2. Divide the remaining core coefficients.",
 "standardMeta": {
 "question": "What is the rigorous algorithmic procedure for algebraically handling trailing zeroes (factors of 10) when multiplying or dividing round numbers?"
 }
@@ -460,7 +460,7 @@
 "originalHeading": "Multiplication Shortcut: Multiplying by 5",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected modulo optimization boundary condition ($x \mod 2 = 0$)",
+"Injected modulo optimization boundary condition ($x \\mod 2 = 0$)",
 "Strictly formatted KaTeX derivation"
 ],
 "vettingNotes": "Upgraded computational shortcut to formal algorithmic identity.",
@@ -475,12 +475,12 @@
 ],
 "order": 17,
 "heading": "Algorithmic Identity: Multiplying by 5",
-"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \in \mathbb{R}$.\n- Computationally optimized strictly when $x$ is an even integer ($x \mod 2 = 0$).",
+"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \\in \\mathbb{R}$.\n- Computationally optimized strictly when $x$ is an even integer ($x \\mod 2 = 0$).",
 "mnemonic": "Half it, then zero it.",
 "formulaMeta": {
-"formula": "x \times 5 = \left(\frac{x}{2}\right) \times 10",
+"formula": "x \\times 5 = \\left(\\frac{x}{2}\\right) \\times 10",
 "description": "Algorithmic shortcut mapping base-5 multiplication strictly to base-10 division.",
-"derivation": "## Algorithmic SOP:\n1. Since $5 = \frac{10}{2}$, algebraically substitute $5$ into the equation: $x \times \frac{10}{2}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 2.\n3. Multiply the ensuing quotient strictly by 10 (shift decimal one place right).\n- *Example:* $116 \times 5 = \frac{116}{2} \times 10 = 58 \times 10 = 580$."
+"derivation": "## Algorithmic SOP:\n1. Since $5 = \\frac{10}{2}$, algebraically substitute $5$ into the equation: $x \\times \\frac{10}{2}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 2.\n3. Multiply the ensuing quotient strictly by 10 (shift decimal one place right).\n- *Example:* $116 \\times 5 = \\frac{116}{2} \\times 10 = 58 \\times 10 = 580$."
 }
 }
 },
@@ -490,7 +490,7 @@
 "originalHeading": "Multiplication Shortcut: Multiplying by 25",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected modulo optimization boundary condition ($x \mod 4 = 0$)",
+"Injected modulo optimization boundary condition ($x \\mod 4 = 0$)",
 "Strictly formatted KaTeX derivation"
 ],
 "vettingNotes": "Upgraded computational shortcut to formal algorithmic identity.",
@@ -505,11 +505,11 @@
 ],
 "order": 18,
 "heading": "Algorithmic Identity: Multiplying by 25",
-"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \in \mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 4 ($x \mod 4 = 0$).",
+"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \\in \\mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 4 ($x \\mod 4 = 0$).",
 "formulaMeta": {
-"formula": "x \times 25 = \left(\frac{x}{4}\right) \times 100",
+"formula": "x \\times 25 = \\left(\\frac{x}{4}\\right) \\times 100",
 "description": "Algorithmic shortcut mapping base-25 multiplication strictly to base-100 division.",
-"derivation": "## Algorithmic SOP:\n1. Since $25 = \frac{100}{4}$, algebraically substitute $25$ into the equation: $x \times \frac{100}{4}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 4.\n3. Multiply the ensuing quotient strictly by 100 (shift decimal two places right).\n- *Example:* $824 \times 25 = \frac{824}{4} \times 100 = 206 \times 100 = 20,600$."
+"derivation": "## Algorithmic SOP:\n1. Since $25 = \\frac{100}{4}$, algebraically substitute $25$ into the equation: $x \\times \\frac{100}{4}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 4.\n3. Multiply the ensuing quotient strictly by 100 (shift decimal two places right).\n- *Example:* $824 \\times 25 = \\frac{824}{4} \\times 100 = 206 \\times 100 = 20,600$."
 }
 }
 },
@@ -519,7 +519,7 @@
 "originalHeading": "Multiplication Shortcut: Multiplying by 125",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected modulo optimization boundary condition ($x \mod 8 = 0$)",
+"Injected modulo optimization boundary condition ($x \\mod 8 = 0$)",
 "Strictly formatted KaTeX derivation"
 ],
 "vettingNotes": "Upgraded computational shortcut to formal algorithmic identity.",
@@ -534,11 +534,11 @@
 ],
 "order": 19,
 "heading": "Algorithmic Identity: Multiplying by 125",
-"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \in \mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 8 ($x \mod 8 = 0$).",
+"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \\in \\mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 8 ($x \\mod 8 = 0$).",
 "formulaMeta": {
-"formula": "x \times 125 = \left(\frac{x}{8}\right) \times 1000",
+"formula": "x \\times 125 = \\left(\\frac{x}{8}\\right) \\times 1000",
 "description": "Algorithmic shortcut mapping base-125 multiplication strictly to base-1000 division.",
-"derivation": "## Algorithmic SOP:\n1. Since $125 = \frac{1000}{8}$, algebraically substitute $125$ into the equation: $x \times \frac{1000}{8}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 8.\n3. Multiply the ensuing quotient strictly by 1000 (shift decimal three places right).\n- *Example:* $72 \times 125 = \frac{72}{8} \times 1000 = 9 \times 1000 = 9000$."
+"derivation": "## Algorithmic SOP:\n1. Since $125 = \\frac{1000}{8}$, algebraically substitute $125$ into the equation: $x \\times \\frac{1000}{8}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 8.\n3. Multiply the ensuing quotient strictly by 1000 (shift decimal three places right).\n- *Example:* $72 \\times 125 = \\frac{72}{8} \\times 1000 = 9 \\times 1000 = 9000$."
 }
 }
 },
@@ -548,7 +548,7 @@
 "originalHeading": "Multiplication Shortcut: Multiplying by 250",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected modulo optimization boundary condition ($x \mod 4 = 0$)",
+"Injected modulo optimization boundary condition ($x \\mod 4 = 0$)",
 "Strictly formatted KaTeX derivation"
 ],
 "vettingNotes": "Upgraded computational shortcut to formal algorithmic identity.",
@@ -563,11 +563,11 @@
 ],
 "order": 20,
 "heading": "Algorithmic Identity: Multiplying by 250",
-"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \in \mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 4 ($x \mod 4 = 0$).",
+"back": "## Component Anatomy:\n- **$x$:** Any given multiplicand.\n\n## Boundary Conditions / Domain:\n- Identity formally holds for any real number $x \\in \\mathbb{R}$.\n- Computationally optimized strictly when $x$ is an integer multiple of 4 ($x \\mod 4 = 0$).",
 "formulaMeta": {
-"formula": "x \times 250 = \left(\frac{x}{4}\right) \times 1000",
+"formula": "x \\times 250 = \\left(\\frac{x}{4}\\right) \\times 1000",
 "description": "Algorithmic shortcut mapping base-250 multiplication strictly to base-1000 division.",
-"derivation": "## Algorithmic SOP:\n1. Since $250 = \frac{1000}{4}$, algebraically substitute $250$ into the equation: $x \times \frac{1000}{4}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 4.\n3. Multiply the ensuing quotient strictly by 1000 (shift decimal three places right).\n- *Example:* $24 \times 250 = \frac{24}{4} \times 1000 = 6 \times 1000 = 6000$."
+"derivation": "## Algorithmic SOP:\n1. Since $250 = \\frac{1000}{4}$, algebraically substitute $250$ into the equation: $x \\times \\frac{1000}{4}$.\n2. Reorder operations: Divide the original multiplicand $x$ strictly by 4.\n3. Multiply the ensuing quotient strictly by 1000 (shift decimal three places right).\n- *Example:* $24 \\times 250 = \\frac{24}{4} \\times 1000 = 6 \\times 1000 = 6000$."
 }
 }
 },
@@ -578,7 +578,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Injected rigorous mathematical proof via inequalities",
-"Formalized domain mappings ($m, n \in \mathbb{Z}^+$)"
+"Formalized domain mappings ($m, n \\in \\mathbb{Z}^+$)"
 ],
 "vettingNotes": "Rebuilt derivation as a formal mathematical proof.",
 "cardData": {
@@ -593,11 +593,11 @@
 ],
 "order": 21,
 "heading": "Theorem: Maximum Digit Boundary of a Product",
-"back": "## Component Anatomy:\n- **$m$:** Number of digits in the first strictly positive integer multiplier.\n- **$n$:** Number of digits in the second strictly positive integer multiplier.\n- **$D_{max}$:** Strict upper bound of absolute digits in the resulting product.\n\n## Boundary Conditions / Domain:\n- Multipliers must strictly be positive integers: $m \in \mathbb{Z}^+, n \in \mathbb{Z}^+$.",
+"back": "## Component Anatomy:\n- **$m$:** Number of digits in the first strictly positive integer multiplier.\n- **$n$:** Number of digits in the second strictly positive integer multiplier.\n- **$D_{max}$:** Strict upper bound of absolute digits in the resulting product.\n\n## Boundary Conditions / Domain:\n- Multipliers must strictly be positive integers: $m \\in \\mathbb{Z}^+, n \\in \\mathbb{Z}^+$.",
 "formulaMeta": {
 "formula": "D_{max} = m + n",
 "description": "Mathematical formula dictating the absolute maximum possible number of digits when computing the product of an $m$-digit integer and an $n$-digit integer.",
-"derivation": "## Mathematical Proof:\n1. The absolute largest possible $m$-digit integer is strictly bounded by $10^m - 1 < 10^m$.\n2. The absolute largest possible $n$-digit integer is strictly bounded by $10^n - 1 < 10^n$.\n3. Their product $P$ is thus strictly bounded by the inequality: $P < 10^m \times 10^n = 10^{m+n}$.\n4. By definition, any strictly positive integer strictly less than $10^{m+n}$ contains at most $m+n$ digits."
+"derivation": "## Mathematical Proof:\n1. The absolute largest possible $m$-digit integer is strictly bounded by $10^m - 1 < 10^m$.\n2. The absolute largest possible $n$-digit integer is strictly bounded by $10^n - 1 < 10^n$.\n3. Their product $P$ is thus strictly bounded by the inequality: $P < 10^m \\times 10^n = 10^{m+n}$.\n4. By definition, any strictly positive integer strictly less than $10^{m+n}$ contains at most $m+n$ digits."
 }
 }
 },
@@ -608,7 +608,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Injected rigorous mathematical proof",
-"Formalized domain mappings ($m, n \in \mathbb{Z}^+$)"
+"Formalized domain mappings ($m, n \\in \\mathbb{Z}^+$)"
 ],
 "vettingNotes": "Rebuilt derivation as a formal mathematical proof.",
 "cardData": {
@@ -623,11 +623,11 @@
 ],
 "order": 22,
 "heading": "Theorem: Minimum Digit Boundary of a Product",
-"back": "## Component Anatomy:\n- **$m$:** Number of digits in the first strictly positive integer multiplier.\n- **$n$:** Number of digits in the second strictly positive integer multiplier.\n- **$D_{min}$:** Strict lower bound of absolute digits in the resulting product.\n\n## Boundary Conditions / Domain:\n- Multipliers must strictly be positive integers: $m \in \mathbb{Z}^+, n \in \mathbb{Z}^+$.",
+"back": "## Component Anatomy:\n- **$m$:** Number of digits in the first strictly positive integer multiplier.\n- **$n$:** Number of digits in the second strictly positive integer multiplier.\n- **$D_{min}$:** Strict lower bound of absolute digits in the resulting product.\n\n## Boundary Conditions / Domain:\n- Multipliers must strictly be positive integers: $m \\in \\mathbb{Z}^+, n \\in \\mathbb{Z}^+$.",
 "formulaMeta": {
 "formula": "D_{min} = m + n - 1",
 "description": "Mathematical formula dictating the absolute minimum possible number of digits when computing the product of an $m$-digit integer and an $n$-digit integer.",
-"derivation": "## Mathematical Proof:\n1. The absolute smallest $m$-digit integer is exactly $10^{m-1}$.\n2. The absolute smallest $n$-digit integer is exactly $10^{n-1}$.\n3. Their minimal product $P$ strictly equals $10^{m-1} \times 10^{n-1} = 10^{(m-1)+(n-1)} = 10^{m+n-2}$.\n4. Any number geometrically expressed exactly as $10^k$ possesses exactly $k+1$ digits. Therefore, $10^{m+n-2}$ possesses strictly $(m+n-2) + 1 = m+n-1$ digits."
+"derivation": "## Mathematical Proof:\n1. The absolute smallest $m$-digit integer is exactly $10^{m-1}$.\n2. The absolute smallest $n$-digit integer is exactly $10^{n-1}$.\n3. Their minimal product $P$ strictly equals $10^{m-1} \\times 10^{n-1} = 10^{(m-1)+(n-1)} = 10^{m+n-2}$.\n4. Any number geometrically expressed exactly as $10^k$ possesses exactly $k+1$ digits. Therefore, $10^{m+n-2}$ possesses strictly $(m+n-2) + 1 = m+n-1$ digits."
 }
 }
 },
@@ -637,7 +637,7 @@
 "originalHeading": "Repunit (All Ones) Multiplication Pattern",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected strict digit count constraint ($n \leq 9$) to prevent base-10 carryover collapse",
+"Injected strict digit count constraint ($n \\leq 9$) to prevent base-10 carryover collapse",
 "Classified as OBSERVATION"
 ],
 "vettingNotes": "Added critical edge-case boundary where pattern fails at n>9.",
@@ -765,7 +765,7 @@
 ],
 "order": 27,
 "heading": "Application: Strict Monotonically Ascending Integers",
-"back": "## Conceptual Rule:\n- **Property:** For a multi-digit base-10 integer to mathematically guarantee that swapping *any* two arbitrary digits will strictly yield a larger integer, its original digits MUST be arranged in **strictly monotonically ascending order** from left to right ($d_1 < d_2 < \dots < d_n$).\n- **Example:** $123456789$. Swapping any pair (e.g., $3$ and $7$ yielding $127456389$) universally maps a larger magnitude digit into an exponentially higher place value.\n- **Uniqueness Boundary:** There exists exactly **one** 9-digit integer utilizing distinct non-zero digits that strictly satisfies this condition ($123456789$).",
+"back": "## Conceptual Rule:\n- **Property:** For a multi-digit base-10 integer to mathematically guarantee that swapping *any* two arbitrary digits will strictly yield a larger integer, its original digits MUST be arranged in **strictly monotonically ascending order** from left to right ($d_1 < d_2 < \\dots < d_n$).\n- **Example:** $123456789$. Swapping any pair (e.g., $3$ and $7$ yielding $127456389$) universally maps a larger magnitude digit into an exponentially higher place value.\n- **Uniqueness Boundary:** There exists exactly **one** 9-digit integer utilizing distinct non-zero digits that strictly satisfies this condition ($123456789$).",
 "standardMeta": {
 "question": "What strict structural base-10 property must an integer satisfy such that mathematically exchanging ANY two of its internal digits is guaranteed to yield a strictly larger integer?"
 }
@@ -792,11 +792,11 @@
 ],
 "order": 28,
 "heading": "Theorem: Digit Frequency in Base-10 Exponential Blocks",
-"back": "## Component Anatomy:\n- **$F$:** The absolute total combinatorial occurrences of a specific target non-zero digit.\n- **$k$:** The exponent strictly determining the block boundary $10^k - 1$.\n\n## Boundary Conditions / Domain:\n- Target digit $d \in \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n- Formula applies strictly and exclusively to complete numerical ranges starting exactly at $0$ and ending exactly at $10^k - 1$.",
+"back": "## Component Anatomy:\n- **$F$:** The absolute total combinatorial occurrences of a specific target non-zero digit.\n- **$k$:** The exponent strictly determining the block boundary $10^k - 1$.\n\n## Boundary Conditions / Domain:\n- Target digit $d \\in \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n- Formula applies strictly and exclusively to complete numerical ranges starting exactly at $0$ and ending exactly at $10^k - 1$.",
 "formulaMeta": {
-"formula": "F = k \times 10^{k-1}",
+"formula": "F = k \\times 10^{k-1}",
 "description": "Combinatorial formula calculating the total frequency of a specific non-zero digit across a full base-10 numerical block.",
-"derivation": "## Mathematical Proof:\n1. Construct a $k$-digit sequence space, strictly padding smaller integers with leading zeroes to maintain uniform $k$ positions per number.\n2. Isolate a single arbitrary position. The target digit $d$ will occupy this position exactly $10^{k-1}$ times, as the remaining $k-1$ positions exhaust all $10$ possible base-10 permutations ($10^{k-1}$).\n3. Since there are exactly $k$ independent sequential positions, multiply the positional frequency by the total positions: $k \times 10^{k-1}$."
+"derivation": "## Mathematical Proof:\n1. Construct a $k$-digit sequence space, strictly padding smaller integers with leading zeroes to maintain uniform $k$ positions per number.\n2. Isolate a single arbitrary position. The target digit $d$ will occupy this position exactly $10^{k-1}$ times, as the remaining $k-1$ positions exhaust all $10$ possible base-10 permutations ($10^{k-1}$).\n3. Since there are exactly $k$ independent sequential positions, multiply the positional frequency by the total positions: $k \\times 10^{k-1}$."
 }
 }
 },
@@ -822,11 +822,11 @@
 ],
 "order": 29,
 "heading": "SOP: Finding n-th Digit - Step 1 (Block Identification)",
-"back": "## Component Anatomy:\n- **$n$:** The strict target index of the digit to locate.\n- **$k$:** The integer digit-length of numbers in the current operational block (e.g., $1$-digit, $2$-digit).\n- **$D_{total}$:** Total sequential digits mathematically contributed by a uniform $k$-digit block.\n\n## Boundary Conditions / Domain:\n- Target index $n \in \mathbb{Z}^+$.\n- Target sequence must strictly be natural numbers $(1, 2, 3, \dots)$ concatenated without arbitrary delimiters.",
+"back": "## Component Anatomy:\n- **$n$:** The strict target index of the digit to locate.\n- **$k$:** The integer digit-length of numbers in the current operational block (e.g., $1$-digit, $2$-digit).\n- **$D_{total}$:** Total sequential digits mathematically contributed by a uniform $k$-digit block.\n\n## Boundary Conditions / Domain:\n- Target index $n \\in \\mathbb{Z}^+$.\n- Target sequence must strictly be natural numbers $(1, 2, 3, \\dots)$ concatenated without arbitrary delimiters.",
 "formulaMeta": {
-"formula": "D_{total} = 9 \times 10^{k-1} \times k",
+"formula": "D_{total} = 9 \\times 10^{k-1} \\times k",
 "description": "Algorithmic step isolating the specific $k$-digit numerical block that inherently contains the target $n$-th digit.",
-"derivation": "## Algorithmic SOP (Phase 1):\n1. **Calculate Block Totals:** Evaluate the absolute total digits contributed by each sequential integer length block (1-digit $= 9 \times 1$, 2-digit $= 90 \times 2 = 180$, 3-digit $= 900 \times 3 = 2700$).\n2. **Iterative Subtraction:** Subtract these $D_{total}$ values sequentially from the starting target index $n$.\n3. **Identify Target Block:** Strictly terminate the subtraction loop when the remaining index $n'$ becomes strictly smaller than the $D_{total}$ of the next sequential block. The corresponding block length $k$ indicates the exact integer size containing the target digit."
+"derivation": "## Algorithmic SOP (Phase 1):\n1. **Calculate Block Totals:** Evaluate the absolute total digits contributed by each sequential integer length block (1-digit $= 9 \\times 1$, 2-digit $= 90 \\times 2 = 180$, 3-digit $= 900 \\times 3 = 2700$).\n2. **Iterative Subtraction:** Subtract these $D_{total}$ values sequentially from the starting target index $n$.\n3. **Identify Target Block:** Strictly terminate the subtraction loop when the remaining index $n'$ becomes strictly smaller than the $D_{total}$ of the next sequential block. The corresponding block length $k$ indicates the exact integer size containing the target digit."
 }
 }
 },
@@ -851,9 +851,9 @@
 ],
 "order": 30,
 "heading": "SOP: Finding n-th Digit - Step 2 (Digit Extraction)",
-"back": "## Component Anatomy:\n- **$n'$:** The residual index strictly remaining after subtracting full blocks in Phase 1.\n- **$k$:** The integer digit-length of the identified target block.\n- **$q, r$:** Quotient and Remainder strictly determined by Euclidean division.\n\n## Boundary Conditions / Domain:\n- $n' \in \mathbb{Z}^+$ and $n' \leq D_{total}$ of the specific $k$-digit block.",
+"back": "## Component Anatomy:\n- **$n'$:** The residual index strictly remaining after subtracting full blocks in Phase 1.\n- **$k$:** The integer digit-length of the identified target block.\n- **$q, r$:** Quotient and Remainder strictly determined by Euclidean division.\n\n## Boundary Conditions / Domain:\n- $n' \\in \\mathbb{Z}^+$ and $n' \\leq D_{total}$ of the specific $k$-digit block.",
 "formulaMeta": {
-"formula": "n' = q \times k + r",
+"formula": "n' = q \\times k + r",
 "description": "Algorithmic step utilizing Euclidean division to sequentially pinpoint the exact base-10 integer and extract the precise target digit.",
 "derivation": "## Algorithmic SOP (Phase 2):\n1. **Euclidean Division:** Divide the remaining index $n'$ strictly by the defined block length $k$.\n2. **Identify Target Integer:** The quotient $q$ defines exactly how many complete $k$-digit integers precede the target. The base starting integer of any $k$-block is $10^{k-1}$.\n3. **Extract Target Digit:**\n   - If remainder $r = 0$: The target is strictly the *last* digit of the $q$-th integer in that block.\n   - If remainder $r > 0$: The target is strictly the $r$-th digit (reading sequentially from left to right) of the $(q+1)$-th integer in that block."
 }

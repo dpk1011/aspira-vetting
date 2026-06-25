@@ -167,7 +167,7 @@
 ],
 "order": 6,
 "heading": "Arithmetic Mean (Average)",
-"back": "## Component Anatomy:\n- **Sum of all values:** The total mathematical aggregate of the dataset ($\sum x_i$).\n- **Number of values:** The total count of distinct data points ($n$).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$ (The dataset must strictly contain at least one observation to mathematically prevent division by zero).",
+"back": "## Component Anatomy:\n- **Sum of all values:** The total mathematical aggregate of the dataset ($\\sum x_i$).\n- **Number of values:** The total count of distinct data points ($n$).\n\n## Boundary Conditions / Domain:\n- $n \\ge 1$ (The dataset must strictly contain at least one observation to mathematically prevent division by zero).",
 "formulaMeta": {
 "formula": "\\text{Mean} = \\frac{\\text{Sum of all the values in the data}}{\\text{Number of values in the data}}",
 "description": "State the standard formula for calculating the arithmetic mean of a dataset.",
@@ -255,7 +255,7 @@
 ],
 "order": 9,
 "heading": "Fractional Means for Discrete Data",
-"back": "- **Point 1:** The arithmetic mean calculates a theoretical 'equalizing' value or 'fair share' across the entire dataset via division ($\\\frac{\\\text{Sum}}{n}$).\n- **Point 2:** Because it is a computed ratio, it frequently yields a non-integer decimal, perfectly illustrating the mathematical central tendency even if that exact fractional value (e.g., 3.6 pets) is a physical impossibility for a single discrete observation.",
+"back": "- **Point 1:** The arithmetic mean calculates a theoretical 'equalizing' value or 'fair share' across the entire dataset via division ($\\\\frac{\\\\text{Sum}}{n}$).\n- **Point 2:** Because it is a computed ratio, it frequently yields a non-integer decimal, perfectly illustrating the mathematical central tendency even if that exact fractional value (e.g., 3.6 pets) is a physical impossibility for a single discrete observation.",
 "standardMeta": {
 "question": "Why is it mathematically valid and common for the arithmetic mean of strictly discrete or indivisible data (e.g., number of pets, number of short stories read) to result in a continuous fractional or decimal value?"
 }
@@ -313,11 +313,11 @@
 ],
 "order": 11,
 "heading": "Median for Odd Number of Observations",
-"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an odd integer ($n \\\ge 1$).\n- The raw data MUST be strictly sorted (ascending or descending) before applying the position formula.",
+"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an odd integer ($n \\\\ge 1$).\n- The raw data MUST be strictly sorted (ascending or descending) before applying the position formula.",
 "formulaMeta": {
 "formula": "\\text{Median} = \\text{Value of the } \\left( \\frac{n+1}{2} \\right)^{\\text{th}} \\text{ term}",
 "description": "State the formula and algorithmic procedure for finding the median when the number of observations ($n$) is odd.",
-"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Calculate the exact middle position using $\\\frac{n+1}{2}$.\n4. The median is the data value located precisely at that integer position."
+"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Calculate the exact middle position using $\\\\frac{n+1}{2}$.\n4. The median is the data value located precisely at that integer position."
 }
 }
 },
@@ -344,11 +344,11 @@
 ],
 "order": 12,
 "heading": "Median for Even Number of Observations",
-"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an even integer ($n \\\ge 2$).\n- The raw data MUST be strictly sorted before identifying the two middle terms.",
+"back": "## Component Anatomy:\n- **$n$:** The total count of absolute observations in the dataset.\n\n## Boundary Conditions / Domain:\n- $n$ must be an even integer ($n \\\\ge 2$).\n- The raw data MUST be strictly sorted before identifying the two middle terms.",
 "formulaMeta": {
 "formula": "\\text{Median} = \\frac{\\text{Value of } \\left(\\frac{n}{2}\\right)^{\\text{th}} \\text{term} + \\text{Value of } \\left(\\frac{n}{2} + 1\\right)^{\\text{th}} \\text{term}}{2}",
 "description": "State the formula and algorithmic procedure for finding the median when the number of observations ($n$) is even.",
-"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Locate the two distinct middle terms at positions $\\\frac{n}{2}$ and $\\\frac{n}{2} + 1$.\n4. Calculate the arithmetic mean of these two middle terms to find the final median."
+"derivation": "Algorithmic SOP:\n1. Sort the entire dataset in ascending order.\n2. Count the total number of values ($n$).\n3. Locate the two distinct middle terms at positions $\\\\frac{n}{2}$ and $\\\\frac{n}{2} + 1$.\n4. Calculate the arithmetic mean of these two middle terms to find the final median."
 }
 }
 },
@@ -430,7 +430,7 @@
 ],
 "order": 15,
 "heading": "Impact of a Low Outlier on Central Tendency",
-"back": "- **Point 1:** A low outlier is an unusually small numerical value in the dataset.\n- **Point 2:** It heavily pulls the total sum downward, which sharply decreases the arithmetic mean.\n- **Point 3:** Since the median is largely positionally unaffected, the resulting mathematical relationship is usually **$\\\text{Mean} < \\\text{Median}$**.",
+"back": "- **Point 1:** A low outlier is an unusually small numerical value in the dataset.\n- **Point 2:** It heavily pulls the total sum downward, which sharply decreases the arithmetic mean.\n- **Point 3:** Since the median is largely positionally unaffected, the resulting mathematical relationship is usually **$\\\\text{Mean} < \\\\text{Median}$**.",
 "mnemonic": "Low outlier pulls Mean LOW.",
 "standardMeta": {
 "question": "How does the mathematical presence of an extreme low outlier shift the relationship between the mean and the median?"
@@ -459,7 +459,7 @@
 ],
 "order": 16,
 "heading": "Impact of a High Outlier on Central Tendency",
-"back": "- **Point 1:** A high outlier is an unusually large numerical value in the dataset.\n- **Point 2:** It artificially inflates the total mathematical sum, pulling the arithmetic mean upwards.\n- **Point 3:** Since the median remains positionally stable, the resulting mathematical relationship is usually **$\\\text{Mean} > \\\text{Median}$**.",
+"back": "- **Point 1:** A high outlier is an unusually large numerical value in the dataset.\n- **Point 2:** It artificially inflates the total mathematical sum, pulling the arithmetic mean upwards.\n- **Point 3:** Since the median remains positionally stable, the resulting mathematical relationship is usually **$\\\\text{Mean} > \\\\text{Median}$**.",
 "mnemonic": "High outlier pushes Mean HIGH.",
 "standardMeta": {
 "question": "How does the mathematical presence of an extreme high outlier shift the relationship between the mean and the median?"
@@ -488,7 +488,7 @@
 ],
 "order": 17,
 "heading": "Central Tendency in Symmetric Data",
-"back": "- **Point 1:** When a dataset is highly balanced, uniformly spread, and devoid of extreme outliers, the values cluster symmetrically.\n- **Point 2:** In such mathematically ideal distributions, the arithmetic mean and the median appear to be virtually identical or very close to each other (**$\\\text{Mean} \\\approx \\\text{Median}$**).",
+"back": "- **Point 1:** When a dataset is highly balanced, uniformly spread, and devoid of extreme outliers, the values cluster symmetrically.\n- **Point 2:** In such mathematically ideal distributions, the arithmetic mean and the median appear to be virtually identical or very close to each other (**$\\\\text{Mean} \\\\approx \\\\text{Median}$**).",
 "standardMeta": {
 "question": "How do the mean and median mathematically relate to each other when a dataset is perfectly balanced and lacks outliers?"
 }
@@ -748,11 +748,11 @@
 ],
 "order": 26,
 "heading": "Extracting Median Directly from a Dot Plot",
-"back": "## Component Anatomy:\n- **$n$:** The absolute total count of individual dots plotted across the entire visual graph.\n- **Cumulative Count:** The running total of dots counted sequentially from one end of the horizontal axis to the other.\n\n## Boundary Conditions / Domain:\n- You must sweep cumulatively starting purely from the lowest numerical X-axis value towards the highest, never skipping gaps.\n- Works strictly for discrete datasets where individual points can be individually counted ($n \\\in \\\mathbb{Z}^+$).",
+"back": "## Component Anatomy:\n- **$n$:** The absolute total count of individual dots plotted across the entire visual graph.\n- **Cumulative Count:** The running total of dots counted sequentially from one end of the horizontal axis to the other.\n\n## Boundary Conditions / Domain:\n- You must sweep cumulatively starting purely from the lowest numerical X-axis value towards the highest, never skipping gaps.\n- Works strictly for discrete datasets where individual points can be individually counted ($n \\\\in \\\\mathbb{Z}^+$).",
 "formulaMeta": {
 "formula": "\\text{Median} = \\text{X-Axis Value at Dot Position } \\left( \\frac{n+1}{2} \\right)",
 "description": "State the algorithmic procedure for extracting the exact Median value strictly from observing a visual Dot Plot.",
-"derivation": "Algorithmic SOP:\n1. Count every single dot across all columns to find the total observations ($n$).\n2. Calculate the target dot position for the median (e.g., for $n=15$, target is the $8^{\\\text{th}}$ dot).\n3. Sweep from the lowest numerical value on the X-axis (left) to the highest (right), cumulatively counting dots from the bottom up in each column.\n4. The X-axis value corresponding to the column where you hit the target dot count is the exact median."
+"derivation": "Algorithmic SOP:\n1. Count every single dot across all columns to find the total observations ($n$).\n2. Calculate the target dot position for the median (e.g., for $n=15$, target is the $8^{\\\\text{th}}$ dot).\n3. Sweep from the lowest numerical value on the X-axis (left) to the highest (right), cumulatively counting dots from the bottom up in each column.\n4. The X-axis value corresponding to the column where you hit the target dot count is the exact median."
 }
 }
 },
