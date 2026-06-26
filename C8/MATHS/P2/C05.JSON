@@ -22,7 +22,7 @@
 ],
 "order": 1,
 "heading": "The Mean as a Balance Point",
-"back": "- **Traditional Definition:** The sum of all values divided by the total count (the 'fair share').\n- **Physical Interpretation:** The mean acts as the exact **center of gravity** or balance point on a number line for a given dataset.\n- **Distance Property:** The total sum of the distances of all data points to the *left* of the mean is mathematically guaranteed to equal the total sum of the distances of all data points to the *right* of the mean.\n\n## Boundary Conditions / Domain:\n- Mathematically, this property strictly dictates that the sum of the deviations from the mean is exactly zero: $\sum (x_i - \mu) = 0$.",
+"back": "- **Traditional Definition:** The sum of all values divided by the total count (the 'fair share').\n- **Physical Interpretation:** The mean acts as the exact **center of gravity** or balance point on a number line for a given dataset.\n- **Distance Property:** The total sum of the distances of all data points to the *left* of the mean is mathematically guaranteed to equal the total sum of the distances of all data points to the *right* of the mean.\n\n## Boundary Conditions / Domain:\n- Mathematically, this property strictly dictates that the sum of the deviations from the mean is exactly zero: $\\sum (x_i - \\mu) = 0$.",
 "mnemonic": "Mean = Fulcrum of the Number Line.",
 "standardMeta": {
 "question": "Conceptually, how does the arithmetic mean act as a physical 'balance point' for data plotted on a number line?"
@@ -51,7 +51,7 @@
 ],
 "order": 2,
 "heading": "Uniqueness of the Arithmetic Mean",
-"back": "- **Theorem:** For any given finite dataset, there exists **exactly one** unique mathematical balance point on the number line.\n- **Proof Logic:** If you assume a center slightly larger than the true mean, all deviation distances on the left side mathematically increase and distances on the right decrease, permanently breaking the balance condition ($\sum D_L = \sum D_R$).\n- Moving it leftward does the exact opposite.\n- **Conclusion:** The arithmetic mean is mathematically strictly unique and singular for any fixed set.",
+"back": "- **Theorem:** For any given finite dataset, there exists **exactly one** unique mathematical balance point on the number line.\n- **Proof Logic:** If you assume a center slightly larger than the true mean, all deviation distances on the left side mathematically increase and distances on the right decrease, permanently breaking the balance condition ($\\sum D_L = \\sum D_R$).\n- Moving it leftward does the exact opposite.\n- **Conclusion:** The arithmetic mean is mathematically strictly unique and singular for any fixed set.",
 "standardMeta": {
 "question": "Why can there mathematically be only one unique 'balance point' (mean) for any given dataset on a number line?"
 }
@@ -79,9 +79,9 @@
 ],
 "order": 3,
 "heading": "Mean of Two Numbers (Midpoint)",
-"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$a, b$:** The two given numeric values.\n\n## Boundary Conditions / Domain:\n- Valid for any $a, b \in \mathbb{R}$.\n- This specific midpoint equivalence strictly fails for datasets with $n \ge 3$ unless the data is perfectly symmetric.",
+"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$a, b$:** The two given numeric values.\n\n## Boundary Conditions / Domain:\n- Valid for any $a, b \\in \\mathbb{R}$.\n- This specific midpoint equivalence strictly fails for datasets with $n \\ge 3$ unless the data is perfectly symmetric.",
 "formulaMeta": {
-"formula": "M = \frac{a+b}{2}",
+"formula": "M = \\frac{a+b}{2}",
 "description": "State the formula for the mean of exactly two numbers and explain its strict geometric position on a number line.",
 "derivation": "**Geometric Interpretation:**\nFor any two numbers, their arithmetic mean mathematically lands **exactly halfway** between them on the number line. The mean of exactly two numbers is mathematically identical to their geometric midpoint."
 }
@@ -138,11 +138,11 @@
 ],
 "order": 5,
 "heading": "Mean of the First 'n' Natural Numbers",
-"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$n$:** The total count of consecutive natural numbers starting strictly from 1.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$ (Strictly positive integers).\n- The sequence must strictly begin at the number 1 and have no missing integers (e.g., $1, 2, 3, \dots, n$).",
+"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$n$:** The total count of consecutive natural numbers starting strictly from 1.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}^+$ (Strictly positive integers).\n- The sequence must strictly begin at the number 1 and have no missing integers (e.g., $1, 2, 3, \\dots, n$).",
 "formulaMeta": {
-"formula": "M = \frac{n+1}{2}",
+"formula": "M = \\frac{n+1}{2}",
 "description": "State the derived algebraic formula for quickly calculating the mean of the first 'n' consecutive natural numbers.",
-"derivation": "**Algebraic Proof:**\n1. The mathematical sum of the first $n$ natural numbers ($1 + 2 + \dots + n$) is given by the formula: $\text{Sum} = \frac{n(n+1)}{2}$.\n2. The Mean is strictly defined as the Sum divided by the count ($n$).\n3. $M = \frac{\frac{n(n+1)}{2}}{n}$.\n4. The $n$ in the numerator and denominator algebraically cancel out, leaving: $M = \frac{n+1}{2}$."
+"derivation": "**Algebraic Proof:**\n1. The mathematical sum of the first $n$ natural numbers ($1 + 2 + \\dots + n$) is given by the formula: $\\text{Sum} = \\frac{n(n+1)}{2}$.\n2. The Mean is strictly defined as the Sum divided by the count ($n$).\n3. $M = \\frac{\\frac{n(n+1)}{2}}{n}$.\n4. The $n$ in the numerator and denominator algebraically cancel out, leaving: $M = \\frac{n+1}{2}$."
 }
 }
 },
@@ -250,12 +250,12 @@
 ],
 "order": 9,
 "heading": "Algebra of Mean: Adding a Constant",
-"back": "## Component Anatomy:\n- **$M_{\text{new}}$:** The new calculated arithmetic mean.\n- **$M_{\text{old}}$:** The original arithmetic mean before transformation.\n- **$k$:** The scalar constant value added to *every single* data point.\n\n## Boundary Conditions / Domain:\n- $k \in \mathbb{R}$.\n- The constant addition must be applied uniformly to strictly 100% of the data points in the set.",
+"back": "## Component Anatomy:\n- **$M_{\\text{new}}$:** The new calculated arithmetic mean.\n- **$M_{\\text{old}}$:** The original arithmetic mean before transformation.\n- **$k$:** The scalar constant value added to *every single* data point.\n\n## Boundary Conditions / Domain:\n- $k \\in \\mathbb{R}$.\n- The constant addition must be applied uniformly to strictly 100% of the data points in the set.",
 "mnemonic": "Shift the data, shift the mean.",
 "formulaMeta": {
-"formula": "M_{\text{new}} = M_{\text{old}} + k",
+"formula": "M_{\\text{new}} = M_{\\text{old}} + k",
 "description": "If a constant 'k' is added to every single value in a dataset, state the formula for the new mean.",
-"derivation": "**Proof:**\n1. Let original mean $M_{\text{old}} = \frac{x_1 + x_2 + \dots + x_n}{n}$.\n2. Add $k$ to all individual points: $\frac{(x_1+k) + (x_2+k) + \dots + (x_n+k)}{n}$.\n3. Algebraically regroup the terms: $\frac{(x_1 + x_2 + \dots + x_n) + nk}{n}$.\n4. Separate the fractions: $M_{\text{old}} + \frac{nk}{n} = M_{\text{old}} + k$."
+"derivation": "**Proof:**\n1. Let original mean $M_{\\text{old}} = \\frac{x_1 + x_2 + \\dots + x_n}{n}$.\n2. Add $k$ to all individual points: $\\frac{(x_1+k) + (x_2+k) + \\dots + (x_n+k)}{n}$.\n3. Algebraically regroup the terms: $\\frac{(x_1 + x_2 + \\dots + x_n) + nk}{n}$.\n4. Separate the fractions: $M_{\\text{old}} + \\frac{nk}{n} = M_{\\text{old}} + k$."
 }
 }
 },
@@ -281,12 +281,12 @@
 ],
 "order": 10,
 "heading": "Algebra of Mean: Multiplying by a Constant",
-"back": "## Component Anatomy:\n- **$M_{\text{new}}$:** The new calculated arithmetic mean.\n- **$M_{\text{old}}$:** The original arithmetic mean.\n- **$k$:** The constant scalar multiplier applied to *every* data point.\n\n## Boundary Conditions / Domain:\n- $k \in \mathbb{R}$.\n- The multiplication must be applied uniformly across the entire dataset.",
+"back": "## Component Anatomy:\n- **$M_{\\text{new}}$:** The new calculated arithmetic mean.\n- **$M_{\\text{old}}$:** The original arithmetic mean.\n- **$k$:** The constant scalar multiplier applied to *every* data point.\n\n## Boundary Conditions / Domain:\n- $k \\in \\mathbb{R}$.\n- The multiplication must be applied uniformly across the entire dataset.",
 "mnemonic": "Scale the data, scale the mean.",
 "formulaMeta": {
-"formula": "M_{\text{new}} = k \times M_{\text{old}}",
+"formula": "M_{\\text{new}} = k \\times M_{\\text{old}}",
 "description": "If every single value in a dataset is multiplied by a constant 'k', state the formula for the new mean.",
-"derivation": "**Proof:**\n1. Let $M_{\text{old}} = \frac{x_1 + x_2 + \dots + x_n}{n}$.\n2. Multiply all individual points by $k$: $\frac{kx_1 + kx_2 + \dots + kx_n}{n}$.\n3. Factor out the constant $k$ using the distributive property: $\frac{k(x_1 + x_2 + \dots + x_n)}{n}$.\n4. Substitute the original mean definition back into the expression: $k \times M_{\text{old}}$."
+"derivation": "**Proof:**\n1. Let $M_{\\text{old}} = \\frac{x_1 + x_2 + \\dots + x_n}{n}$.\n2. Multiply all individual points by $k$: $\\frac{kx_1 + kx_2 + \\dots + kx_n}{n}$.\n3. Factor out the constant $k$ using the distributive property: $\\frac{k(x_1 + x_2 + \\dots + x_n)}{n}$.\n4. Substitute the original mean definition back into the expression: $k \\times M_{\\text{old}}$."
 }
 }
 },
@@ -313,10 +313,10 @@
 ],
 "order": 11,
 "heading": "Finding an Unknown Value Using the Mean",
-"back": "## Component Anatomy:\n- **$x$:** The single algebraically unknown value.\n- **$n$:** The absolute total number of items in the dataset (including the unknown $x$).\n- **$M$:** The explicitly given final mean of the dataset.\n- **$\sum x_{\text{known}}$:** The calculated sum of all explicitly given known values.\n\n## Boundary Conditions / Domain:\n- $n \ge 2$ strictly (You cannot have a missing value in a 1-item set where the mean is given).",
+"back": "## Component Anatomy:\n- **$x$:** The single algebraically unknown value.\n- **$n$:** The absolute total number of items in the dataset (including the unknown $x$).\n- **$M$:** The explicitly given final mean of the dataset.\n- **$\\sum x_{\\text{known}}$:** The calculated sum of all explicitly given known values.\n\n## Boundary Conditions / Domain:\n- $n \\ge 2$ strictly (You cannot have a missing value in a 1-item set where the mean is given).",
 "mnemonic": "Total Expected minus Total Known.",
 "formulaMeta": {
-"formula": "x = (n \times M) - \sum x_{\text{known}}",
+"formula": "x = (n \\times M) - \\sum x_{\\text{known}}",
 "description": "State the algebraic formula to find a single missing data point when the target mean and all other values are known.",
 "derivation": "**SOP:**\n1. Multiply the given Mean ($M$) strictly by the total count of numbers ($n$) to algebraically find the **Target Total Sum**.\n2. Add up all the explicitly provided individual numbers to find the **Current Known Sum**.\n3. Subtract the Current Known Sum strictly from the Target Total Sum to isolate and reveal the missing value $x$."
 }
@@ -346,9 +346,9 @@
 ],
 "order": 12,
 "heading": "Mean Invariance with Unequal Additions",
-"back": "## Component Anatomy:\n- **$\sum D_{\text{left}}$:** Total absolute mathematical distance of all new points added below the current mean.\n- **$\sum D_{\text{right}}$:** Total absolute mathematical distance of all new points added above the current mean.\n\n## Boundary Conditions / Domain:\n- You can add *any* unequal quantity of data points (e.g., 2 points below, 1 point above) without changing the overall mean, strictly as long as the absolute sum of deviations perfectly offsets.",
+"back": "## Component Anatomy:\n- **$\\sum D_{\\text{left}}$:** Total absolute mathematical distance of all new points added below the current mean.\n- **$\\sum D_{\\text{right}}$:** Total absolute mathematical distance of all new points added above the current mean.\n\n## Boundary Conditions / Domain:\n- You can add *any* unequal quantity of data points (e.g., 2 points below, 1 point above) without changing the overall mean, strictly as long as the absolute sum of deviations perfectly offsets.",
 "formulaMeta": {
-"formula": "\sum D_{\text{left}} = \sum D_{\text{right}}",
+"formula": "\\sum D_{\\text{left}} = \\sum D_{\\text{right}}",
 "description": "State the strict algebraic condition required to add multiple unequal new values to a dataset without changing its original mean.",
 "derivation": "**SOP Example Proof:**\n1. Assume Current Mean = 9.\n2. Add two 7s (Each is exactly 2 units below the mean. Total left pull = $2+2=4$).\n3. Add one 13 (This is exactly 4 units above the mean. Total right pull = $4$).\n4. Since Left Pull = Right Pull ($4=4$), the net torque is zero.\n5. The mean stays exactly 9 despite adding 2 discrete numbers on the left and only 1 on the right."
 }
@@ -375,7 +375,7 @@
 ],
 "order": 13,
 "heading": "Systematic Measurement Error Correction",
-"back": "- **The Concept:** If a uniform, constant measurement error mathematically affects *every single data point* in a set (e.g., measuring student heights while all wearing 1 cm shoes), you do **not** need to correct every individual raw data point and recalculate the total sum.\n- **The Algorithmic Fix:** Simply apply the inverse mathematical operation directly to the **Final Calculated Mean**.\n- **Example:** If $M_{\text{shoes}} = 150.2$ cm, then the true, corrected mean is strictly $M_{\text{actual}} = 150.2 - 1 = 149.2$ cm.",
+"back": "- **The Concept:** If a uniform, constant measurement error mathematically affects *every single data point* in a set (e.g., measuring student heights while all wearing 1 cm shoes), you do **not** need to correct every individual raw data point and recalculate the total sum.\n- **The Algorithmic Fix:** Simply apply the inverse mathematical operation directly to the **Final Calculated Mean**.\n- **Example:** If $M_{\\text{shoes}} = 150.2$ cm, then the true, corrected mean is strictly $M_{\\text{actual}} = 150.2 - 1 = 149.2$ cm.",
 "standardMeta": {
 "question": "If a dataset's mean is calculated with a systematic +1 unit physical error on every single data point, what is the fastest algorithmic way to find the true mean?"
 }
@@ -403,10 +403,10 @@
 ],
 "order": 14,
 "heading": "Calculating Mean from a Frequency Table",
-"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$x_i$:** The distinct numeric data values.\n- **$f_i$:** The strict frequency (how many times $x_i$ occurs).\n- **$\sum (f_i \times x_i)$:** The total combined sum of all items in the dataset.\n- **$\sum f_i$:** The total absolute count of items ($N$).\n\n## Boundary Conditions / Domain:\n- $\sum f_i > 0$ strictly (Cannot calculate a mean for zero items).\n- The $x_i$ values must be quantitative (numerical).",
+"back": "## Component Anatomy:\n- **$M$:** The arithmetic mean.\n- **$x_i$:** The distinct numeric data values.\n- **$f_i$:** The strict frequency (how many times $x_i$ occurs).\n- **$\\sum (f_i \\times x_i)$:** The total combined sum of all items in the dataset.\n- **$\\sum f_i$:** The total absolute count of items ($N$).\n\n## Boundary Conditions / Domain:\n- $\\sum f_i > 0$ strictly (Cannot calculate a mean for zero items).\n- The $x_i$ values must be quantitative (numerical).",
 "mnemonic": "Sum of Products over Sum of Frequencies.",
 "formulaMeta": {
-"formula": "M = \frac{\sum (f_i \times x_i)}{\sum f_i}",
+"formula": "M = \\frac{\\sum (f_i \\times x_i)}{\\sum f_i}",
 "description": "State the formula to calculate the exact mean from a grouped frequency distribution table.",
 "derivation": "**Algorithmic SOP:**\n1. Create a third column for the Product: Multiply each distinct value ($x_i$) strictly by its given frequency ($f_i$).\n2. Add all the resulting products together to algebraically get the absolute **Total Sum**.\n3. Add all the frequencies together to get the **Total Count ($N$)**.\n4. Divide the Total Sum by the Total Count.\n*(Trap: Never just average the raw $x_i$ column directly!)*"
 }
@@ -605,7 +605,7 @@
 "back": "## Component Anatomy:\n- **$P$:** The target median position index within the sorted array.\n- **$CF$:** Cumulative Frequency (the running integer total of positions).\n- **$N$:** Total frequency (absolute total count of data points).\n\n## Boundary Conditions / Domain:\n- The base data values ($x_i$) **must strictly be sorted** in ascending numerical order before evaluating any frequencies or calculating $CF$.",
 "mnemonic": "Accumulate to locate.",
 "formulaMeta": {
-"formula": "\text{Locate index: } P = \frac{N+1}{2} \quad (\text{or average of } \frac{N}{2}, \frac{N}{2}+1)",
+"formula": "\\text{Locate index: } P = \\frac{N+1}{2} \\quad (\\text{or average of } \\frac{N}{2}, \\frac{N}{2}+1)",
 "description": "State the algorithmic standard operating procedure to locate the Median within a frequency table without writing out all the numbers.",
 "derivation": "**SOP (The Cumulative Frequency Trick):**\n1. Determine the exact target middle position(s) index based on the total count $N$.\n2. Create a **Cumulative Frequency** ($CF$) column by keeping a running algebraic total of the given frequencies strictly from smallest data value to largest.\n3. Read down the Cumulative Frequency column until the running total exactly equals or just surpasses your calculated target middle position $P$.\n4. The base value ($x_i$) corresponding horizontally to that row is your true Median."
 }
@@ -691,7 +691,7 @@
 ],
 "order": 24,
 "heading": "Interpreting Mathematical Slope in Line Graphs",
-"back": "- **The Slope Rule:** The geometric steepness (slope $m = \frac{\Delta y}{\Delta x}$) of the line segment directly represents the **rate of change** of the variable.\n- **Steep Upward Slope ($m > 0$):** Indicates a rapid, drastic quantitative increase over the fixed interval.\n- **Flat Horizontal Line ($m = 0$):** Indicates absolutely zero change (stagnation) over the interval; the variable is constant.\n- **Steep Downward Slope ($m < 0$):** Indicates a sharp, sudden quantitative decrease.",
+"back": "- **The Slope Rule:** The geometric steepness (slope $m = \\frac{\\Delta y}{\\Delta x}$) of the line segment directly represents the **rate of change** of the variable.\n- **Steep Upward Slope ($m > 0$):** Indicates a rapid, drastic quantitative increase over the fixed interval.\n- **Flat Horizontal Line ($m = 0$):** Indicates absolutely zero change (stagnation) over the interval; the variable is constant.\n- **Steep Downward Slope ($m < 0$):** Indicates a sharp, sudden quantitative decrease.",
 "mnemonic": "Steeper slope, faster pace.",
 "standardMeta": {
 "question": "When reading a data line graph, what does the specific geometric steepness (slope) of a line segment mathematically tell you about the data?"
@@ -719,7 +719,7 @@
 ],
 "order": 25,
 "heading": "Graphical Signatures of Periodic Shifts",
-"back": "- **Sunrise/Sunset Vectors:** When plotted over a standard month, these form mostly **flat, horizontal lines** (slope $\approx 0$) with very minimal daily deviation in time.\n- **Moonrise/Moonset Vectors:** The moon geographically rises approximately 50 minutes later each successive day. Therefore, its graph strictly forms an **upward-sloping diagonal line** (positive slope) cutting across the stable, flat sun lines.\n- **Intersection Points:** Mathematically, where the Moonrise line intersects the Sunrise line indicates **Amavasya** (New Moon), and where Moonrise intersects Sunset logically indicates **Purnima** (Full Moon).",
+"back": "- **Sunrise/Sunset Vectors:** When plotted over a standard month, these form mostly **flat, horizontal lines** (slope $\\approx 0$) with very minimal daily deviation in time.\n- **Moonrise/Moonset Vectors:** The moon geographically rises approximately 50 minutes later each successive day. Therefore, its graph strictly forms an **upward-sloping diagonal line** (positive slope) cutting across the stable, flat sun lines.\n- **Intersection Points:** Mathematically, where the Moonrise line intersects the Sunrise line indicates **Amavasya** (New Moon), and where Moonrise intersects Sunset logically indicates **Purnima** (Full Moon).",
 "mnemonic": "Sun is Flat, Moon climbs the chart.",
 "standardMeta": {
 "question": "When plotting daily rise and set times on a Cartesian line graph, how does the mathematical slope of the Moon's graph differ from the Sun's, and what do their intersections represent?"
@@ -775,7 +775,7 @@
 ],
 "order": 27,
 "heading": "Spreadsheet Cell Nomenclature",
-"back": "- **Definition:** A spreadsheet (like Google Sheets or Excel) is a digital Cartesian grid of intersecting rows and columns.\n- **Naming Convention:** Every specific geometric intersection box is called a **cell**.\n- **Coordinates:** A cell is definitively named by concatenating its **Column Letter** followed strictly by its **Row Number**.\n- **Example:** The exact intersection of Column E and Row 5 is universally named `E5`.\n\n## Boundary Conditions / Domain:\n- Column indices are strictly alphabetic character sets ($A, B, \dots, Z, AA, AB, \dots$).\n- Row indices are strictly positive integers ($1, 2, 3, \dots$).",
+"back": "- **Definition:** A spreadsheet (like Google Sheets or Excel) is a digital Cartesian grid of intersecting rows and columns.\n- **Naming Convention:** Every specific geometric intersection box is called a **cell**.\n- **Coordinates:** A cell is definitively named by concatenating its **Column Letter** followed strictly by its **Row Number**.\n- **Example:** The exact intersection of Column E and Row 5 is universally named `E5`.\n\n## Boundary Conditions / Domain:\n- Column indices are strictly alphabetic character sets ($A, B, \\dots, Z, AA, AB, \\dots$).\n- Row indices are strictly positive integers ($1, 2, 3, \\dots$).",
 "mnemonic": "Letter first, Number second (like Battleship).",
 "standardMeta": {
 "question": "What is the strict universal naming convention used to identify a specific spatial cell in a digital spreadsheet?"
@@ -806,7 +806,7 @@
 "heading": "Spreadsheet Formula: SUM",
 "back": "## Component Anatomy:\n- **`=`:** The strict programmatic prefix telling the spreadsheet to execute a mathematical operation rather than print plain text.\n- **`SUM`:** The functional command to algebraically add numbers.\n- **`B3:G3`:** The specific continuous range of cells. The colon `:` mathematically represents 'through' (inclusive of spatial boundaries).\n\n## Boundary Conditions / Domain:\n- The cells within the targeted continuous range must contain valid numerical data. Text strings inside the range will typically either evaluate to $0$ or return a `#VALUE!` compilation error.",
 "formulaMeta": {
-"formula": "= \text{SUM}(B3:G3)",
+"formula": "= \\text{SUM}(B3:G3)",
 "description": "State the exact digital spreadsheet formula syntax used to calculate the absolute total sum of numbers located from cell B3 through cell G3.",
 "derivation": "**SOP:**\n1. Select the destination cell where you want the mathematical total to appear.\n2. Type the equals sign `=` to initialize the formula parser.\n3. Type `SUM(`.\n4. Highlight or manually type the target continuous spatial range (e.g., `B3:G3`).\n5. Close the parenthesis `)` and press Enter."
 }
@@ -837,7 +837,7 @@
 "heading": "Spreadsheet Formula: AVERAGE",
 "back": "## Component Anatomy:\n- **`=`:** Initiates the formula execution sequence.\n- **`AVERAGE`:** The functional command to calculate the true arithmetic mean.\n- **`B2:B23`:** The strictly defined 1D vertical column range containing the dataset.\n\n## Boundary Conditions / Domain:\n- Empty (blank) cells in the targeted range are strictly **ignored** by the AVERAGE function, which fundamentally dynamically reduces the denominator count ($n$). \n- Conversely, a cell explicitly containing the integer `0` is mathematically counted as a valid data point.",
 "formulaMeta": {
-"formula": "= \text{AVERAGE}(B2:B23)",
+"formula": "= \\text{AVERAGE}(B2:B23)",
 "description": "State the exact spreadsheet formula syntax used to calculate the arithmetic mean of a column of data ranging from cell B2 down to B23.",
 "derivation": "**SOP:**\n1. Select the distinct destination cell.\n2. Type `=AVERAGE(` to call the mean function.\n3. Type the start cell coordinate, a colon, and the end cell coordinate (e.g., `B2:B23`).\n4. Close the parenthesis `)` and press Enter.\n*(The software instantaneously calculates the algebraic sum of the range and divides strictly by the non-empty cell count).*"
 }
@@ -866,11 +866,11 @@
 ],
 "order": 30,
 "heading": "Solving a 3x3 Mean Grid: Row Sum Calculation",
-"back": "## Component Anatomy:\n- **$M$:** The target arithmetic mean mandated for every linear combination.\n- **$3$:** The discrete number of cells strictly contained in every row, column, and diagonal in a $3 \times 3$ matrix.\n\n## Boundary Conditions / Domain:\n- This formula strictly assumes a perfect square $3 \times 3$ grid structure.\n- All numerical subsets must collectively mathematically satisfy this absolute sum constraint for the grid to be considered valid.",
+"back": "## Component Anatomy:\n- **$M$:** The target arithmetic mean mandated for every linear combination.\n- **$3$:** The discrete number of cells strictly contained in every row, column, and diagonal in a $3 \\times 3$ matrix.\n\n## Boundary Conditions / Domain:\n- This formula strictly assumes a perfect square $3 \\times 3$ grid structure.\n- All numerical subsets must collectively mathematically satisfy this absolute sum constraint for the grid to be considered valid.",
 "formulaMeta": {
-"formula": "\text{Row Sum} = 3 \times M",
+"formula": "\\text{Row Sum} = 3 \\times M",
 "description": "State the required mathematical sum for a single line (row, column, or diagonal) in a 3x3 Mean Grid with a target mean of M.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the given target mean ($M$) required for the entire puzzle grid.\n2. Since each row, column, and primary diagonal strictly contains exactly 3 cells, multiply the given target mean strictly by 3.\n3. Every valid line must mathematically sum exactly to this derived product ($3 \times M$)."
+"derivation": "**Algorithmic SOP:**\n1. Identify the given target mean ($M$) required for the entire puzzle grid.\n2. Since each row, column, and primary diagonal strictly contains exactly 3 cells, multiply the given target mean strictly by 3.\n3. Every valid line must mathematically sum exactly to this derived product ($3 \\times M$)."
 }
 }
 },
@@ -925,7 +925,7 @@
 ],
 "order": 32,
 "heading": "Game of Hex: Mathematical Non-Draw Property",
-"back": "- **Concept:** Hex is a two-player mathematical strategy game played on a rhombus-shaped board structurally composed of a hexagonal geometric lattice (typically $11 \times 11$).\n- **Winning Condition:** The objective is to place discrete pieces to form an unbroken, continuous geometric chain physically connecting your two assigned opposite outer sides of the board.\n- **Mathematical Property:** The game is theoretically 'perfect'—due to the strict topological properties of the 2D hexagonal lattice, any filled board must always contain a continuous path for one of the players. Therefore, the game mathematically **can never end in a draw** (a principle derived from Nash's Hex Theorem).",
+"back": "- **Concept:** Hex is a two-player mathematical strategy game played on a rhombus-shaped board structurally composed of a hexagonal geometric lattice (typically $11 \\times 11$).\n- **Winning Condition:** The objective is to place discrete pieces to form an unbroken, continuous geometric chain physically connecting your two assigned opposite outer sides of the board.\n- **Mathematical Property:** The game is theoretically 'perfect'—due to the strict topological properties of the 2D hexagonal lattice, any filled board must always contain a continuous path for one of the players. Therefore, the game mathematically **can never end in a draw** (a principle derived from Nash's Hex Theorem).",
 "standardMeta": {
 "question": "What is the primary objective to win the mathematical strategy game 'Hex', and what is its unique geometric outcome property regarding draws?"
 }

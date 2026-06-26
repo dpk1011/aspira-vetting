@@ -78,7 +78,7 @@
 ],
 "order": 3,
 "heading": "Mathematical Distinction: Sample Space ($S$) vs. Event ($E$)",
-"back": "## Sample Space ($S$)\nThe exhaustive universal set containing absolutely ALL possible outcomes of a random experiment (e.g., $S = \\{1, 2, 3, 4, 5, 6\\}$ for a standard die).\n\n## Event ($E$)\nA highly specific condition or subset drawn from the Sample Space (e.g., getting an even number: $E = \\{2, 4, 6\\}$).\n\n## Boundary Conditions / Domain\nAn Event ($E$) is always a strict mathematical subset of the Sample Space ($S$). Mathematically: $E \subseteq S$.",
+"back": "## Sample Space ($S$)\nThe exhaustive universal set containing absolutely ALL possible outcomes of a random experiment (e.g., $S = \\{1, 2, 3, 4, 5, 6\\}$ for a standard die).\n\n## Event ($E$)\nA highly specific condition or subset drawn from the Sample Space (e.g., getting an even number: $E = \\{2, 4, 6\\}$).\n\n## Boundary Conditions / Domain\nAn Event ($E$) is always a strict mathematical subset of the Sample Space ($S$). Mathematically: $E \\subseteq S$.",
 "standardMeta": {
 "question": "What is the fundamental difference between a 'Sample Space' and an 'Event' in probability theory?"
 }
@@ -132,7 +132,7 @@
 ],
 "order": 5,
 "heading": "Dynamic Granularity of Sample Spaces",
-"back": "## The Principle\nA sample space is not universally fixed for a real-world event; it must dynamically expand to match the **level of detail (resolution)** required by the specific mathematical problem.\n\n## Example Breakdown\nFor a basic weather prediction, $S = \\{\text{Rain}, \text{No Rain}\\}$ is mathematically valid for a simple binary question.\nHowever, if the problem involves measuring rainfall intensity or categories, the sample space MUST strictly expand to an exhaustive set like $S = \\{\text{No Rain}, \text{Drizzle}, \text{Light Rain}, \text{Heavy Rain}\\}$.",
+"back": "## The Principle\nA sample space is not universally fixed for a real-world event; it must dynamically expand to match the **level of detail (resolution)** required by the specific mathematical problem.\n\n## Example Breakdown\nFor a basic weather prediction, $S = \\{\\text{Rain}, \\text{No Rain}\\}$ is mathematically valid for a simple binary question.\nHowever, if the problem involves measuring rainfall intensity or categories, the sample space MUST strictly expand to an exhaustive set like $S = \\{\\text{No Rain}, \\text{Drizzle}, \\text{Light Rain}, \\text{Heavy Rain}\\}$.",
 "standardMeta": {
 "question": "Why might a simple binary sample space like {Rain, No Rain} be mathematically insufficient for certain probability problems, and how must it be adjusted?"
 }
@@ -190,7 +190,7 @@
 "heading": "Empirical (Experimental) Probability Formula",
 "back": "## Component Anatomy\n- **$P(E)$**: The Empirical probability, based strictly on historical data or physical trials.\n- **Numerator**: The exact frequency count of the targeted event actually occurring during the experiment.\n- **Denominator**: The total number of trials conducted.\n\n## Boundary Conditions / Domain\n- The total number of trials must be strictly greater than zero ($n > 0$) to avoid undefined division.\n- The probability strictly relies on past data, not assumed symmetries.",
 "formulaMeta": {
-"formula": "P(E) = \frac{\text{Number of times the event occurred}}{\text{Total number of trials}}",
+"formula": "P(E) = \\frac{\\text{Number of times the event occurred}}{\\text{Total number of trials}}",
 "description": "Calculates Empirical (Experimental) Probability based on observed historical or physical data.",
 "derivation": "1. Conduct $n$ trials of an experiment.\n2. Count exactly how many times event $E$ occurs (let this be $m$).\n3. Calculate the ratio $m/n$."
 }
@@ -220,9 +220,9 @@
 "heading": "Theoretical (Classical) Probability Formula",
 "back": "## Component Anatomy\n- **Numerator ($n(E)$)**: The count of outcomes in the sample space that strictly satisfy the condition of Event $E$.\n- **Denominator ($n(S)$)**: The total size of the exhaustive Sample Space ($S$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This formula is mathematically invalid unless ALL individual outcomes in the sample space are strictly **equally likely** (fair and unbiased).",
 "formulaMeta": {
-"formula": "P(E) = \frac{\text{Number of favourable outcomes}}{\text{Total possible outcomes in Sample Space}}",
+"formula": "P(E) = \\frac{\\text{Number of favourable outcomes}}{\\text{Total possible outcomes in Sample Space}}",
 "description": "Calculates the theoretical probability of an event E occurring under idealized conditions.",
-"derivation": "Derived algebraically as $P(E) = \frac{n(E)}{n(S)}$, where $n$ represents the cardinality of the sets."
+"derivation": "Derived algebraically as $P(E) = \\frac{n(E)}{n(S)}$, where $n$ represents the cardinality of the sets."
 }
 }
 },
@@ -248,7 +248,7 @@
 ],
 "order": 9,
 "heading": "The False 50/50 Trap: Invalidity of Theoretical Probability",
-"back": "## The Trap\nStudents often falsely assume that any experiment with exactly two outcomes automatically has a 50/50 probability.\n\n## The Boundary Condition\nThe theoretical probability formula $P(E) = \frac{\text{Favourable}}{\text{Total}}$ is strictly **INVALID** if the underlying outcomes are not equally likely.\n\n## NCERT Example Application\n'A car starts or does not start.'\nWhile there are two outcomes, they are NOT equally likely because starting depends heavily on mechanical conditions (battery, fuel, engine health), not symmetrical random chance.",
+"back": "## The Trap\nStudents often falsely assume that any experiment with exactly two outcomes automatically has a 50/50 probability.\n\n## The Boundary Condition\nThe theoretical probability formula $P(E) = \\frac{\\text{Favourable}}{\\text{Total}}$ is strictly **INVALID** if the underlying outcomes are not equally likely.\n\n## NCERT Example Application\n'A car starts or does not start.'\nWhile there are two outcomes, they are NOT equally likely because starting depends heavily on mechanical conditions (battery, fuel, engine health), not symmetrical random chance.",
 "standardMeta": {
 "question": "Why is it mathematically incorrect to claim that the probability of a car starting is exactly $1/2$, given that there are only two outcomes (starts or doesn't start)?"
 }
@@ -278,9 +278,9 @@
 "heading": "Strict Range Constraint (Domain) of Probability",
 "back": "## Component Anatomy\n- **$P(E)$**: The mathematical probability of event $E$ occurring.\n- **$0$**: Represents an absolutely Impossible event.\n- **$1$**: Represents an absolutely Certain (Sure) event.\n\n## Boundary Conditions / Domain\n- Probability is bounded to the closed interval $[0, 1]$.\n- A probability value can never be strictly negative ($P(E) < 0$ is invalid).\n- A probability value can never strictly exceed $1$ ($P(E) > 1$ is invalid).",
 "formulaMeta": {
-"formula": "0 \leq P(E) \leq 1",
+"formula": "0 \\leq P(E) \\leq 1",
 "description": "Defines the strict mathematical boundaries for any valid probability calculation.",
-"derivation": "Since the subset of favourable outcomes $n(E)$ can range from an empty set $0$ to the full sample space $n(S)$, dividing the inequality $0 \leq n(E) \leq n(S)$ by $n(S)$ yields $0 \leq P(E) \leq 1$."
+"derivation": "Since the subset of favourable outcomes $n(E)$ can range from an empty set $0$ to the full sample space $n(S)$, dividing the inequality $0 \\leq n(E) \\leq n(S)$ by $n(S)$ yields $0 \\leq P(E) \\leq 1$."
 }
 }
 },
@@ -306,11 +306,11 @@
 ],
 "order": 11,
 "heading": "Sum of All Elementary Probabilities",
-"back": "## Component Anatomy\n- **$P(E_i)$**: The probability of each individual, mutually exclusive elementary outcome in the sample space.\n- **$\sum$**: The summation of all these individual probabilities.\n- **$1$**: Represents absolute certainty of the Sample Space as a whole.\n\n## Boundary Conditions / Domain\n- This strictly applies to a complete set of elementary events that are **mutually exclusive** and exhaust the entire Sample Space.",
+"back": "## Component Anatomy\n- **$P(E_i)$**: The probability of each individual, mutually exclusive elementary outcome in the sample space.\n- **$\\sum$**: The summation of all these individual probabilities.\n- **$1$**: Represents absolute certainty of the Sample Space as a whole.\n\n## Boundary Conditions / Domain\n- This strictly applies to a complete set of elementary events that are **mutually exclusive** and exhaust the entire Sample Space.",
 "formulaMeta": {
-"formula": "\sum_{i=1}^{n} P(E_i) = 1",
+"formula": "\\sum_{i=1}^{n} P(E_i) = 1",
 "description": "States that the probabilities of all possible distinct elementary events in an experiment sum to absolute certainty (1).",
-"derivation": "If the sample space $S$ has $n$ total outcomes, the sum of probabilities of each individual outcome is $\frac{1}{n} + \frac{1}{n} \dots = \frac{n}{n} = 1$."
+"derivation": "If the sample space $S$ has $n$ total outcomes, the sum of probabilities of each individual outcome is $\\frac{1}{n} + \\frac{1}{n} \\dots = \\frac{n}{n} = 1$."
 }
 }
 },
@@ -336,11 +336,11 @@
 ],
 "order": 12,
 "heading": "Probability of a Complementary Event",
-"back": "## Component Anatomy\n- **$P(E)$**: Probability that event E happens.\n- **$P(\bar{E})$**: Probability that event E strictly does NOT happen (its complement).\n- **$1$**: Total probability of the sample space.\n\n## Boundary Conditions / Domain\n- The sum of an event and its strict complement must always exactly equal 1 ($P(E) + P(\bar{E}) = 1$).",
+"back": "## Component Anatomy\n- **$P(E)$**: Probability that event E happens.\n- **$P(\\bar{E})$**: Probability that event E strictly does NOT happen (its complement).\n- **$1$**: Total probability of the sample space.\n\n## Boundary Conditions / Domain\n- The sum of an event and its strict complement must always exactly equal 1 ($P(E) + P(\\bar{E}) = 1$).",
 "formulaMeta": {
-"formula": "P(\bar{E}) = 1 - P(E)",
+"formula": "P(\\bar{E}) = 1 - P(E)",
 "description": "Calculates the probability of an event NOT occurring by subtracting its occurrence probability from 1.",
-"derivation": "Since an event $E$ and its complement $\bar{E}$ are mutually exclusive and exhaustive, their sum covers the entire sample space: $P(E) + P(\bar{E}) = 1$. Rearranging yields the formula."
+"derivation": "Since an event $E$ and its complement $\\bar{E}$ are mutually exclusive and exhaustive, their sum covers the entire sample space: $P(E) + P(\\bar{E}) = 1$. Rearranging yields the formula."
 }
 }
 },
@@ -366,7 +366,7 @@
 ],
 "order": 13,
 "heading": "Convergence: Empirical vs. Theoretical Probability",
-"back": "## The Rule\nThis phenomenon is mathematically governed by the **Law of Large Numbers**.\n\n## The Mechanism\nAs the number of physical trials (e.g., coin tosses, die rolls) increases toward infinity ($n \to \infty$), the Empirical (experimental) probability will systematically converge toward the true Theoretical probability.\n\n## Conclusion\nSmall sample sizes exhibit high variance and unpredictability; massive sample sizes stabilize around the mathematical ideal.",
+"back": "## The Rule\nThis phenomenon is mathematically governed by the **Law of Large Numbers**.\n\n## The Mechanism\nAs the number of physical trials (e.g., coin tosses, die rolls) increases toward infinity ($n \\to \\infty$), the Empirical (experimental) probability will systematically converge toward the true Theoretical probability.\n\n## Conclusion\nSmall sample sizes exhibit high variance and unpredictability; massive sample sizes stabilize around the mathematical ideal.",
 "standardMeta": {
 "question": "What happens mathematically to Empirical (Experimental) Probability as the number of trials increases significantly?"
 }
@@ -454,7 +454,7 @@
 "formulaMeta": {
 "formula": "n(S) = 6^n",
 "description": "Calculates the total number of elements in the Sample Space when n 6-sided dice are rolled.",
-"derivation": "By the Fundamental Counting Principle, each die acts as an independent event with 6 outcomes. For $n$ dice, the total space is $6 \times 6 \dots (n \text{ times}) = 6^n$."
+"derivation": "By the Fundamental Counting Principle, each die acts as an independent event with 6 outcomes. For $n$ dice, the total space is $6 \\times 6 \\dots (n \\text{ times}) = 6^n$."
 }
 }
 },
@@ -480,7 +480,7 @@
 ],
 "order": 17,
 "heading": "Statistical Mode: Most Probable Sum on Two Dice",
-"back": "## The Most Probable Sum\nThe sum of **$7$**.\n\n## The Mathematical Reason (Combinatorics)\nThe sum of $7$ can be formed in exactly **$6$ distinct ways**, which is strictly greater than the frequency of any other possible sum on two 6-sided dice.\nFavourable set $E = \\{(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\\}.$\n\n## The Probability\n$P(\text{Sum of } 7) = \frac{6}{36} = \frac{1}{6}$.",
+"back": "## The Most Probable Sum\nThe sum of **$7$**.\n\n## The Mathematical Reason (Combinatorics)\nThe sum of $7$ can be formed in exactly **$6$ distinct ways**, which is strictly greater than the frequency of any other possible sum on two 6-sided dice.\nFavourable set $E = \\{(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\\}.$\n\n## The Probability\n$P(\\text{Sum of } 7) = \\frac{6}{36} = \\frac{1}{6}$.",
 "standardMeta": {
 "question": "When rolling two standard 6-sided dice, what is strictly the most mathematically probable sum, and why?"
 }
@@ -509,7 +509,7 @@
 ],
 "order": 18,
 "heading": "Boundary Domain Set: Prime Sums on a Two-Die Roll",
-"back": "## The Domain\nWhen rolling two standard 6-sided dice, the strict mathematical domain for the sum is bounded: $2 \leq \Sigma \leq 12$.\n\n## The Prime Set\nWithin this strict domain, the only possible prime sums are strictly **$\\{2, 3, 5, 7, 11\\}$**.\n\n## Application Note\nMemorizing this exact subset prevents missing edge cases (like forgetting $2$ is prime or falsely including $1$) during high-speed competitive exam calculations.",
+"back": "## The Domain\nWhen rolling two standard 6-sided dice, the strict mathematical domain for the sum is bounded: $2 \\leq \\Sigma \\leq 12$.\n\n## The Prime Set\nWithin this strict domain, the only possible prime sums are strictly **$\\{2, 3, 5, 7, 11\\}$**.\n\n## Application Note\nMemorizing this exact subset prevents missing edge cases (like forgetting $2$ is prime or falsely including $1$) during high-speed competitive exam calculations.",
 "standardMeta": {
 "question": "What is the exhaustive set of all possible prime numbers that can be obtained as the sum of rolling two standard 6-sided dice?"
 }
@@ -536,7 +536,7 @@
 ],
 "order": 19,
 "heading": "Sample Space Inventory: Anatomy of a Standard Card Deck",
-"back": "## Absolute Domain\n- **Total Cards:** $n(S) = 52$\n\n## Primary Segmentation (Colour)\n- **Red Cards:** $26$\n- **Black Cards:** $26$\n\n## Secondary Segmentation (Suits)\nThere are 4 strictly mutually exclusive suits of 13 cards each:\n1. **Spades ($\spadesuit$)** - Black\n2. **Clubs ($\clubsuit$)** - Black\n3. **Hearts ($\heartsuit$)** - Red\n4. **Diamonds ($\diamondsuit$)** - Red\n\n## Value Segmentation (Per Suit)\nEach suit contains strictly one of each: Ace ($A$), $2, 3, 4, 5, 6, 7, 8, 9, 10$, Jack ($J$), Queen ($Q$), King ($K$).",
+"back": "## Absolute Domain\n- **Total Cards:** $n(S) = 52$\n\n## Primary Segmentation (Colour)\n- **Red Cards:** $26$\n- **Black Cards:** $26$\n\n## Secondary Segmentation (Suits)\nThere are 4 strictly mutually exclusive suits of 13 cards each:\n1. **Spades ($\\spadesuit$)** - Black\n2. **Clubs ($\\clubsuit$)** - Black\n3. **Hearts ($\\heartsuit$)** - Red\n4. **Diamonds ($\\diamondsuit$)** - Red\n\n## Value Segmentation (Per Suit)\nEach suit contains strictly one of each: Ace ($A$), $2, 3, 4, 5, 6, 7, 8, 9, 10$, Jack ($J$), Queen ($Q$), King ($K$).",
 "standardMeta": {
 "question": "What is the exact categorical breakdown of a standard 52-card deck by colour, suit, and values?"
 }
@@ -563,7 +563,7 @@
 ],
 "order": 20,
 "heading": "Boundary Exclusions: Face Cards in a Standard Deck",
-"back": "## The Face Cards\nOnly the **Jack ($J$), Queen ($Q$), and King ($K$)** strictly qualify as face cards because they mathematically represent 'court' cards with human faces printed on them.\n\n## The Critical Exclusion\nAn Ace ($A$) is strictly **NOT** a face card. It is a number/value card.\n\n## Total Count\n$3$ face cards per suit $\times$ $4$ suits = **$12$ Face Cards total in the domain**.",
+"back": "## The Face Cards\nOnly the **Jack ($J$), Queen ($Q$), and King ($K$)** strictly qualify as face cards because they mathematically represent 'court' cards with human faces printed on them.\n\n## The Critical Exclusion\nAn Ace ($A$) is strictly **NOT** a face card. It is a number/value card.\n\n## Total Count\n$3$ face cards per suit $\\times$ $4$ suits = **$12$ Face Cards total in the domain**.",
 "standardMeta": {
 "question": "Which specific cards qualify as 'Face Cards' in a standard deck, what is the most common exclusion error, and what is their total mathematical count?"
 }
@@ -592,11 +592,11 @@
 ],
 "order": 21,
 "heading": "Combinatorics: Cartesian Product of Independent Sample Spaces",
-"back": "## Component Anatomy\n- **$n(S_1)$**: The total number of outcomes for the first independent experiment.\n- **$n(S_2)$**: The total number of outcomes for the second independent experiment.\n- **$n(S_{\text{combined}})$**: The total distinct pairings across both experiments.\n\n## Boundary Conditions / Domain\n- The two experiments must be strictly **independent** of each other (e.g., rolling a die and tossing a coin have no mechanical influence on each other).",
+"back": "## Component Anatomy\n- **$n(S_1)$**: The total number of outcomes for the first independent experiment.\n- **$n(S_2)$**: The total number of outcomes for the second independent experiment.\n- **$n(S_{\\text{combined}})$**: The total distinct pairings across both experiments.\n\n## Boundary Conditions / Domain\n- The two experiments must be strictly **independent** of each other (e.g., rolling a die and tossing a coin have no mechanical influence on each other).",
 "formulaMeta": {
-"formula": "n(S_{\text{combined}}) = n(S_1) \times n(S_2)",
+"formula": "n(S_{\\text{combined}}) = n(S_1) \\times n(S_2)",
 "description": "Calculates the total size of a combined sample space for independent, simultaneous experiments using the Fundamental Counting Principle.",
-"derivation": "By forming a Cartesian product of Sets $S_1$ and $S_2$, every element in $S_1$ pairs exactly once with every element in $S_2$. For a coin ($n=2$) and die ($n=6$), total space is $2 \times 6 = 12$."
+"derivation": "By forming a Cartesian product of Sets $S_1$ and $S_2$, every element in $S_1$ pairs exactly once with every element in $S_2$. For a coin ($n=2$) and die ($n=6$), total space is $2 \\times 6 = 12$."
 }
 }
 },
@@ -649,10 +649,10 @@
 ],
 "order": 23,
 "heading": "Algorithmic Calculation SOP for Tree Diagram Pathways",
-"back": "## Component Anatomy\n- **$P(\text{Branch } 1)$**: Probability of the first sequential event occurring.\n- **$P(\text{Branch } 2)$**: Probability of the subsequent event occurring, branching off the first.\n\n## Boundary Conditions / Domain\n- This multiplication strictly assumes the probability of the second branch has been dynamically adjusted for the first event if the experiment is 'without replacement' (dependent events).",
+"back": "## Component Anatomy\n- **$P(\\text{Branch } 1)$**: Probability of the first sequential event occurring.\n- **$P(\\text{Branch } 2)$**: Probability of the subsequent event occurring, branching off the first.\n\n## Boundary Conditions / Domain\n- This multiplication strictly assumes the probability of the second branch has been dynamically adjusted for the first event if the experiment is 'without replacement' (dependent events).",
 "mnemonic": "Multiply along the branches, Add across the paths.",
 "formulaMeta": {
-"formula": "P(\text{Path}) = P(\text{Branch } 1) \times P(\text{Branch } 2)",
+"formula": "P(\\text{Path}) = P(\\text{Branch } 1) \\times P(\\text{Branch } 2)",
 "description": "The algebraic procedure to calculate final sequential outcome probabilities via a Tree Diagram.",
 "derivation": "1. Trace the specific continuous path from the root node to the final leaf.\n2. MULTIPLY the fractional probabilities along that specific path to find the likelihood of that exact sequence.\n3. If an overarching event can happen via multiple separate parallel paths (e.g., matching colours via RR OR BB), ADD those final path probabilities together."
 }
@@ -710,9 +710,9 @@
 "heading": "Formulas: Sample Space Size for Sequential Draws",
 "back": "## Component Anatomy\n- **$N$**: The total initial number of distinct items available in the total pool before any draws occur.\n\n## Boundary Conditions / Domain\n- Must have $N > 1$ for a sequence of 2 items to be drawn without replacement.\n- The formula strict split is governed purely by whether the experiment allows pool regeneration (replacement) between steps.",
 "formulaMeta": {
-"formula": "\begin{aligned} n(S_{\text{With Replacement}}) &= N^2 \\ n(S_{\text{Without Replacement}}) &= N \times (N - 1) \end{aligned}",
+"formula": "\\begin{aligned} n(S_{\\text{With Replacement}}) &= N^2 \\ n(S_{\\text{Without Replacement}}) &= N \\times (N - 1) \\end{aligned}",
 "description": "Calculates the total sample space size n(S) when drawing exactly 2 items sequentially from a pool of N items.",
-"derivation": "1. For 'With Replacement', the pool size resets to $N$ for the second draw, yielding $N \times N = N^2$.\n2. For 'Without Replacement', the exact item drawn first is removed, strictly reducing the pool size to $N-1$ for the second independent choice, yielding $N \times (N - 1)$."
+"derivation": "1. For 'With Replacement', the pool size resets to $N$ for the second draw, yielding $N \\times N = N^2$.\n2. For 'Without Replacement', the exact item drawn first is removed, strictly reducing the pool size to $N-1$ for the second independent choice, yielding $N \\times (N - 1)$."
 }
 }
 },
@@ -739,7 +739,7 @@
 ],
 "order": 26,
 "heading": "Mathematical Distinction: 'At Least' vs 'At Most'",
-"back": "## At Least ($X \geq x$)\nIncludes $x$ and strictly **everything greater** than $x$, up to the maximum possible boundary of the sample space.\n(e.g., 'At least 1 head' in 2 coin tosses = 1 head OR 2 heads $\rightarrow \\{HT, TH, HH\\}$).\n\n## At Most ($X \leq x$)\nIncludes $x$ and strictly **everything less** than $x$, going all the way down to **ZERO**.\n(e.g., 'At most 1 head' = 1 head OR 0 heads $\rightarrow \\{HT, TH, TT\\}$).\n\n## Boundary Conditions / Domain\nForgetting to include the zero case ($X=0$) in 'At most' conditions is a fatal mathematical trap that results in an incomplete sample space subset.",
+"back": "## At Least ($X \\geq x$)\nIncludes $x$ and strictly **everything greater** than $x$, up to the maximum possible boundary of the sample space.\n(e.g., 'At least 1 head' in 2 coin tosses = 1 head OR 2 heads $\\rightarrow \\{HT, TH, HH\\}$).\n\n## At Most ($X \\leq x$)\nIncludes $x$ and strictly **everything less** than $x$, going all the way down to **ZERO**.\n(e.g., 'At most 1 head' = 1 head OR 0 heads $\\rightarrow \\{HT, TH, TT\\}$).\n\n## Boundary Conditions / Domain\nForgetting to include the zero case ($X=0$) in 'At most' conditions is a fatal mathematical trap that results in an incomplete sample space subset.",
 "standardMeta": {
 "question": "What is the critical mathematical distinction between 'At least' and 'At most' when defining probability event boundaries?"
 }
@@ -768,7 +768,7 @@
 ],
 "order": 27,
 "heading": "Boundary Violations in Sample Spaces",
-"back": "## The Error\nCounting outcomes that exist beyond the strict physical limits of the experiment ($X > n$).\n\n## The Mathematical Explanation\nIf an experiment consists of exactly $n=3$ independent coin tosses, the absolute maximum number of heads that can physical appear is strictly $3$. \n\n## Boundary Conditions / Domain\nThe domain of possible successful outcomes $X$ is strictly $0 \leq X \leq n$. Therefore, the value '4' is a strict mathematical impossibility, rendering any sample space containing it completely invalid.",
+"back": "## The Error\nCounting outcomes that exist beyond the strict physical limits of the experiment ($X > n$).\n\n## The Mathematical Explanation\nIf an experiment consists of exactly $n=3$ independent coin tosses, the absolute maximum number of heads that can physical appear is strictly $3$. \n\n## Boundary Conditions / Domain\nThe domain of possible successful outcomes $X$ is strictly $0 \\leq X \\leq n$. Therefore, the value '4' is a strict mathematical impossibility, rendering any sample space containing it completely invalid.",
 "standardMeta": {
 "question": "When tracking the total number of Heads across exactly 3 coin tosses, why is the set $\\{0, 1, 2, 3, 4\\}$ strictly an invalid sample space?"
 }
@@ -825,11 +825,11 @@
 ],
 "order": 29,
 "heading": "Geometric Probability Formula (2D Area-Based)",
-"back": "## Component Anatomy\n- **Area of Favourable Region**: The physical 2D area (e.g., $\pi r^2$) where the event condition is satisfied.\n- **Total Bounding Area**: The physical 2D area representing the entire Sample Space.\n\n## Boundary Conditions / Domain\n- The target (e.g., dart, meteor) MUST strictly land randomly within the total bounding area. The probability of landing entirely outside the bounds is assumed to be strictly $0$.",
+"back": "## Component Anatomy\n- **Area of Favourable Region**: The physical 2D area (e.g., $\\pi r^2$) where the event condition is satisfied.\n- **Total Bounding Area**: The physical 2D area representing the entire Sample Space.\n\n## Boundary Conditions / Domain\n- The target (e.g., dart, meteor) MUST strictly land randomly within the total bounding area. The probability of landing entirely outside the bounds is assumed to be strictly $0$.",
 "formulaMeta": {
-"formula": "P(E) = \frac{\text{Area of Favourable Region}}{\text{Total Bounding Area}}",
+"formula": "P(E) = \\frac{\\text{Area of Favourable Region}}{\\text{Total Bounding Area}}",
 "description": "Calculates the probability of an object landing randomly in a specific geometric sub-region.",
-"derivation": "1. Identify the geometric shape of the total space and calculate its area $A_S$.\n2. Identify the geometric shape of the target region and calculate its area $A_E$.\n3. Compute the ratio: $P(E) = \frac{A_E}{A_S}$."
+"derivation": "1. Identify the geometric shape of the total space and calculate its area $A_S$.\n2. Identify the geometric shape of the target region and calculate its area $A_E$.\n3. Compute the ratio: $P(E) = \\frac{A_E}{A_S}$."
 }
 }
 },
@@ -855,9 +855,9 @@
 ],
 "order": 30,
 "heading": "Formula: Population Estimation via Empirical Sampling",
-"back": "## Component Anatomy\n- **$P(E_{\text{sample}})$**: The empirical relative frequency calculated strictly from the smaller sample group (e.g., $20/50 = 0.4$).\n- **Total Population**: The massive real-world total cardinality ($N$) you wish to estimate for.\n\n## Boundary Conditions / Domain\n- This calculation provides an **estimate**, not an absolute certainty.\n- It mathematically assumes the sample taken is perfectly random, representative, and strictly unbiased.",
+"back": "## Component Anatomy\n- **$P(E_{\\text{sample}})$**: The empirical relative frequency calculated strictly from the smaller sample group (e.g., $20/50 = 0.4$).\n- **Total Population**: The massive real-world total cardinality ($N$) you wish to estimate for.\n\n## Boundary Conditions / Domain\n- This calculation provides an **estimate**, not an absolute certainty.\n- It mathematically assumes the sample taken is perfectly random, representative, and strictly unbiased.",
 "formulaMeta": {
-"formula": "\text{Estimated Target Count} = P(E_{\text{sample}}) \times \text{Total Population}",
+"formula": "\\text{Estimated Target Count} = P(E_{\\text{sample}}) \\times \\text{Total Population}",
 "description": "Extrapolates empirical sample probabilities to estimate specific demographic counts within a massive population.",
 "derivation": "1. Calculate empirical probability from the sample: $m/n$.\n2. Multiply this fractional ratio by the total overarching population size $N$."
 }
@@ -889,9 +889,9 @@
 "heading": "SOP: Probability Involving Multi-Digit Permutations",
 "back": "## Component Anatomy\n- **Denominator ($n(S)$)**: Calculated using the fundamental counting principle (factorials) for the entire set.\n- **Numerator ($n(E)$)**: Calculated by applying the boundary restriction (e.g., placing specific digits in the units place) and permuting the remainder.\n\n## Boundary Conditions / Domain\n- You must strictly determine from the problem statement if the domain allows digits 'with repetition' or strictly 'without repetition', as this fundamentally alters the factorial expansion.",
 "formulaMeta": {
-"formula": "\begin{aligned} n(S) &= 4! = 24 \\ n(E) &= 2 \times 3! = 12 \\ P(\text{Even}) &= \frac{12}{24} = \frac{1}{2} \end{aligned}",
+"formula": "\\begin{aligned} n(S) &= 4! = 24 \\ n(E) &= 2 \\times 3! = 12 \\ P(\\text{Even}) &= \\frac{12}{24} = \\frac{1}{2} \\end{aligned}",
 "description": "Algorithm for finding the probability that a randomly formed 4-digit number (from {1,2,3,4} without repetition) is even.",
-"derivation": "1. Find total arrangements: $4 \times 3 \times 2 \times 1 = 24$.\n2. Apply the boundary constraint: To be even, the units digit strictly must be $2$ or $4$ (exactly 2 choices).\n3. Permute the remaining $3$ slots with the remaining $3$ digits: $3! = 6$ ways.\n4. Multiply choices: $n(E) = 2 \times 6 = 12$.\n5. Compute theoretical probability."
+"derivation": "1. Find total arrangements: $4 \\times 3 \\times 2 \\times 1 = 24$.\n2. Apply the boundary constraint: To be even, the units digit strictly must be $2$ or $4$ (exactly 2 choices).\n3. Permute the remaining $3$ slots with the remaining $3$ digits: $3! = 6$ ways.\n4. Multiply choices: $n(E) = 2 \\times 6 = 12$.\n5. Compute theoretical probability."
 }
 }
 },
@@ -920,9 +920,9 @@
 "heading": "MCQ Probability Part 1: Calculating a Single Specific Pathway",
 "back": "## Component Anatomy\n- **$C$**: Event of guessing the Correct Answer.\n- **$W$**: Event of guessing the Wrong Answer.\n\n## Boundary Conditions / Domain\n- strictly one option per question is correct out of $4$ total choices. Therefore, $P(C) = 1/4$ and $P(W) = 3/4$.\n- Each question is mathematically independent, allowing straight multiplication across the sequential path.",
 "formulaMeta": {
-"formula": "P(CCW) = \frac{1}{4} \times \frac{1}{4} \times \frac{3}{4} = \frac{3}{64}",
+"formula": "P(CCW) = \\frac{1}{4} \\times \\frac{1}{4} \\times \\frac{3}{4} = \\frac{3}{64}",
 "description": "Calculates the probability of one strictly defined sequence of right and wrong answers (e.g., Correct, Correct, Wrong).",
-"derivation": "1. Determine probability of success for an individual question: $P(C) = 1/4$.\n2. Determine probability of failure for an individual question: $P(W) = 3/4$.\n3. Multiply probabilities along the specific sequential branch of the probability tree: $1/4 \times 1/4 \times 3/4$."
+"derivation": "1. Determine probability of success for an individual question: $P(C) = 1/4$.\n2. Determine probability of failure for an individual question: $P(W) = 3/4$.\n3. Multiply probabilities along the specific sequential branch of the probability tree: $1/4 \\times 1/4 \\times 3/4$."
 }
 }
 },
@@ -949,9 +949,9 @@
 ],
 "order": 33,
 "heading": "MCQ Probability Part 2: Factoring Favorable Path Permutations",
-"back": "## Component Anatomy\n- **$P(\text{Single Path})$**: The probability of one specific sequence (e.g., $3/64$).\n- **Total Pathways**: The number of distinct ways to arrange the successful conditions among the trials.\n\n## Boundary Conditions / Domain\n- You must identify absolutely all mutually exclusive branches on the probability tree that satisfy the event condition ('exactly 2 correct').\n- The pathways here are $\\{CCW, CWC, WCC\\}$, resulting in exactly $3$ valid paths.",
+"back": "## Component Anatomy\n- **$P(\\text{Single Path})$**: The probability of one specific sequence (e.g., $3/64$).\n- **Total Pathways**: The number of distinct ways to arrange the successful conditions among the trials.\n\n## Boundary Conditions / Domain\n- You must identify absolutely all mutually exclusive branches on the probability tree that satisfy the event condition ('exactly 2 correct').\n- The pathways here are $\\{CCW, CWC, WCC\\}$, resulting in exactly $3$ valid paths.",
 "formulaMeta": {
-"formula": "P(E) = 3 \times P(CCW) = 3 \times \left(\frac{3}{64}\right) = \frac{9}{64}",
+"formula": "P(E) = 3 \\times P(CCW) = 3 \\times \\left(\\frac{3}{64}\\right) = \\frac{9}{64}",
 "description": "Calculates the total probability of an event by multiplying the path probability by the number of valid pathway permutations.",
 "derivation": "1. Identify the number of ways exactly 2 correct answers can occur in 3 questions: $3$.\n2. Add the probabilities of the mutually exclusive paths together (which is equivalent to multiplying the single path probability by $3$)."
 }

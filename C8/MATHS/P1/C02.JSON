@@ -24,7 +24,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Anatomy of Exponential Terms",
-"back": "- **Base ($x$):** The core numerical value or variable being repeatedly multiplied.\n- **Exponent / Power ($y$):** The superscript value indicating the exact number of times the base is multiplied by itself.\n- **Example:** In $2^5$, $2$ is the base, and $5$ is the exponent.\n\n## Boundary Conditions / Domain:\n- For general real-number bases, $x \in \mathbb{R}$.\n- If $y$ is fractional (e.g., $1/2$), $x$ must be $\geq 0$ to remain in the set of real numbers.",
+"back": "- **Base ($x$):** The core numerical value or variable being repeatedly multiplied.\n- **Exponent / Power ($y$):** The superscript value indicating the exact number of times the base is multiplied by itself.\n- **Example:** In $2^5$, $2$ is the base, and $5$ is the exponent.\n\n## Boundary Conditions / Domain:\n- For general real-number bases, $x \\in \\mathbb{R}$.\n- If $y$ is fractional (e.g., $1/2$), $x$ must be $\\geq 0$ to remain in the set of real numbers.",
 "standardMeta": {
 "question": "In the mathematical expression $x^y$, what are the precise definitions and roles of the variables $x$ and $y$?"
 }
@@ -53,7 +53,7 @@
 ],
 "order": 2,
 "heading": "Core Distinction: Linear vs. Exponential Growth",
-"back": "- **Linear Growth:** Increases by adding a fixed constant over equal intervals (**Strictly Additive**).\n  - *Example:* $20 + 20 + 20 \dots$\n- **Exponential Growth:** Increases by multiplying by a fixed constant over equal intervals (**Strictly Multiplicative**).\n  - *Example:* $2 \times 2 \times 2 \dots$",
+"back": "- **Linear Growth:** Increases by adding a fixed constant over equal intervals (**Strictly Additive**).\n  - *Example:* $20 + 20 + 20 \\dots$\n- **Exponential Growth:** Increases by multiplying by a fixed constant over equal intervals (**Strictly Multiplicative**).\n  - *Example:* $2 \\times 2 \\times 2 \\dots$",
 "mnemonic": "Linear Adds, Exponential Multiplies.",
 "standardMeta": {
 "question": "What is the fundamental mathematical distinction between linear growth sequences and exponential growth sequences?"
@@ -83,10 +83,10 @@
 ],
 "order": 3,
 "heading": "Product Law of Exponents (Identical Bases)",
-"back": "## Component Anatomy:\n- **$n$:** The common base shared by both terms.\n- **$a, b$:** The distinct exponents being added.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $n \neq 0$. (While $0^a \times 0^b = 0$, defining $0^0$ risks indeterminate forms, so $n=0$ is excluded in rigorous applications).",
+"back": "## Component Anatomy:\n- **$n$:** The common base shared by both terms.\n- **$a, b$:** The distinct exponents being added.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $n \\neq 0$. (While $0^a \\times 0^b = 0$, defining $0^0$ risks indeterminate forms, so $n=0$ is excluded in rigorous applications).",
 "mnemonic": "Multiply bases -> Add powers (MAD).",
 "formulaMeta": {
-"formula": "n^a \times n^b = n^{a+b}",
+"formula": "n^a \\times n^b = n^{a+b}",
 "description": "The foundational algebraic law for multiplying two exponential expressions that possess the exact same base.",
 "derivation": "- **Concept:** Expanding $n^a$ yields $n$ multiplied $a$ times. Expanding $n^b$ yields $n$ multiplied $b$ times.\n- **Synthesis:** Multiplying them together strings all factors, resulting in $n$ multiplied $(a+b)$ times."
 }
@@ -98,7 +98,7 @@
 "originalHeading": "Quotient Law of Exponents (Same Base)",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Swapped \div for \frac representation",
+"Swapped \\div for \\frac representation",
 "Double-escaped LaTeX"
 ],
 "vettingNotes": "",
@@ -114,10 +114,10 @@
 ],
 "order": 4,
 "heading": "Quotient Law of Exponents (Identical Bases)",
-"back": "## Component Anatomy:\n- **$n$:** The common non-zero base.\n- **$a$:** Numerator exponent.\n- **$b$:** Denominator exponent.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \neq 0$. Division by zero is mathematically undefined.",
+"back": "## Component Anatomy:\n- **$n$:** The common non-zero base.\n- **$a$:** Numerator exponent.\n- **$b$:** Denominator exponent.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \\neq 0$. Division by zero is mathematically undefined.",
 "mnemonic": "Divide bases -> Subtract powers.",
 "formulaMeta": {
-"formula": "\frac{n^a}{n^b} = n^{a-b}",
+"formula": "\\frac{n^a}{n^b} = n^{a-b}",
 "description": "The algebraic law for dividing two exponential terms that share the exact same base.",
 "derivation": "- **Step 1:** Expand both numerator and denominator into their respective products.\n- **Step 2:** Cancel identical $n$ factors from top and bottom.\n- **Step 3:** The remaining uncancelled factors amount to $a-b$ terms."
 }
@@ -145,12 +145,12 @@
 ],
 "order": 5,
 "heading": "Power of a Power Law (Nested Exponents)",
-"back": "## Component Anatomy:\n- **$n^a$:** The internal exponential base term.\n- **$b$:** The external power uniformly applied to the entire parenthesis.\n\n## Boundary Conditions / Domain:\n- Fully applicable for all non-zero real bases $n \in \mathbb{R}-\\{0\\}$ and rational exponents.",
+"back": "## Component Anatomy:\n- **$n^a$:** The internal exponential base term.\n- **$b$:** The external power uniformly applied to the entire parenthesis.\n\n## Boundary Conditions / Domain:\n- Fully applicable for all non-zero real bases $n \\in \\mathbb{R}-\\{0\\}$ and rational exponents.",
 "mnemonic": "Power to a power? Multiply them out.",
 "formulaMeta": {
-"formula": "(n^a)^b = n^{a \times b}",
+"formula": "(n^a)^b = n^{a \\times b}",
 "description": "The standard rule for raising an existing exponential expression to an additional outer power.",
-"derivation": "- **Concept:** The entire group $(n^a)$ is multiplied by itself $b$ times.\n- **Expansion:** $n^a \times n^a \times \dots \text{ (b times)} = n^{a+a+\dots} = n^{a \times b}$."
+"derivation": "- **Concept:** The entire group $(n^a)$ is multiplied by itself $b$ times.\n- **Expansion:** $n^a \\times n^a \\times \\dots \\text{ (b times)} = n^{a+a+\\dots} = n^{a \\times b}$."
 }
 }
 },
@@ -176,11 +176,11 @@
 ],
 "order": 6,
 "heading": "Power of a Product Law (Identical Exponents)",
-"back": "## Component Anatomy:\n- **$m, n$:** Two fundamentally distinct bases.\n- **$a$:** The common exponent shared by both.\n\n## Boundary Conditions / Domain:\n- $m, n \in \mathbb{R}$. If $a$ is negative, $m \neq 0$ and $n \neq 0$.",
+"back": "## Component Anatomy:\n- **$m, n$:** Two fundamentally distinct bases.\n- **$a$:** The common exponent shared by both.\n\n## Boundary Conditions / Domain:\n- $m, n \\in \\mathbb{R}$. If $a$ is negative, $m \\neq 0$ and $n \\neq 0$.",
 "formulaMeta": {
-"formula": "m^a \times n^a = (mn)^a",
+"formula": "m^a \\times n^a = (mn)^a",
 "description": "The associative law for multiplying two different bases that are raised to the identical power.",
-"derivation": "- **Step 1:** Expand both terms: $(m \times m \dots) \times (n \times n \dots)$.\n- **Step 2:** Group each $m$ with an $n$ to form pairs: $(m \times n) \times (m \times n) \dots$\n- **Step 3:** Count the pairs. There are $a$ pairs, resulting in $(mn)^a$."
+"derivation": "- **Step 1:** Expand both terms: $(m \\times m \\dots) \\times (n \\times n \\dots)$.\n- **Step 2:** Group each $m$ with an $n$ to form pairs: $(m \\times n) \\times (m \\times n) \\dots$\n- **Step 3:** Count the pairs. There are $a$ pairs, resulting in $(mn)^a$."
 }
 }
 },
@@ -190,7 +190,7 @@
 "originalHeading": "Power of a Quotient Law (Same Exponent)",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Swapped \div for \frac",
+"Swapped \\div for \\frac",
 "Explicit division by zero boundary condition"
 ],
 "vettingNotes": "",
@@ -206,11 +206,11 @@
 ],
 "order": 7,
 "heading": "Power of a Quotient Law (Identical Exponents)",
-"back": "## Component Anatomy:\n- **$m$:** The numerator base.\n- **$n$:** The denominator base.\n- **$a$:** The common exponent applied to both.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \neq 0$ (Denominators can never equal zero).\n- If $a < 0$, then $m \neq 0$ must also hold true.",
+"back": "## Component Anatomy:\n- **$m$:** The numerator base.\n- **$n$:** The denominator base.\n- **$a$:** The common exponent applied to both.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \\neq 0$ (Denominators can never equal zero).\n- If $a < 0$, then $m \\neq 0$ must also hold true.",
 "formulaMeta": {
-"formula": "\frac{m^a}{n^a} = \left(\frac{m}{n}\right)^a",
+"formula": "\\frac{m^a}{n^a} = \\left(\\frac{m}{n}\\right)^a",
 "description": "The distributive law for extracting a common exponent from a division operation of distinct bases.",
-"derivation": "- **Step 1:** Expand the division as a stacked fraction: $\frac{m \times m \dots}{n \times n \dots}$.\n- **Step 2:** Isolate the individual fractions: $(\frac{m}{n}) \times (\frac{m}{n}) \dots$\n- **Step 3:** Compress into the common power."
+"derivation": "- **Step 1:** Expand the division as a stacked fraction: $\\frac{m \\times m \\dots}{n \\times n \\dots}$.\n- **Step 2:** Isolate the individual fractions: $(\\frac{m}{n}) \\times (\\frac{m}{n}) \\dots$\n- **Step 3:** Compress into the common power."
 }
 }
 },
@@ -236,12 +236,12 @@
 ],
 "order": 8,
 "heading": "The Zero Exponent Property",
-"back": "## Component Anatomy:\n- **$n$:** The base.\n- **$0$:** A zero integer exponent.\n\n## Boundary Conditions / Domain:\n- **CRITICAL:** $n \neq 0$.\n- The mathematical expression $0^0$ is considered an **indeterminate form** in standard algebra and limits.",
+"back": "## Component Anatomy:\n- **$n$:** The base.\n- **$0$:** A zero integer exponent.\n\n## Boundary Conditions / Domain:\n- **CRITICAL:** $n \\neq 0$.\n- The mathematical expression $0^0$ is considered an **indeterminate form** in standard algebra and limits.",
 "mnemonic": "Anything to the zero is a hero (1).",
 "formulaMeta": {
 "formula": "n^0 = 1",
 "description": "Defines the exact algebraic value for any valid non-zero base raised to the zeroth power.",
-"derivation": "- **Proof via Quotient Rule:** Divide a number by itself: $\frac{n^a}{n^a} = 1$.\n- **Apply exponent law:** $\frac{n^a}{n^a} = n^{a-a} = n^0$.\n- **Conclusion:** Therefore, $n^0$ must logically equal $1$."
+"derivation": "- **Proof via Quotient Rule:** Divide a number by itself: $\\frac{n^a}{n^a} = 1$.\n- **Apply exponent law:** $\\frac{n^a}{n^a} = n^{a-a} = n^0$.\n- **Conclusion:** Therefore, $n^0$ must logically equal $1$."
 }
 }
 },
@@ -266,12 +266,12 @@
 ],
 "order": 9,
 "heading": "Converting Negative Exponents (Numerator to Denominator)",
-"back": "## Component Anatomy:\n- **$n$:** The base.\n- **$-a$:** The negative integer exponent.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \neq 0$. Taking the reciprocal forces the base into the denominator, risking division by zero.",
+"back": "## Component Anatomy:\n- **$n$:** The base.\n- **$-a$:** The negative integer exponent.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \\neq 0$. Taking the reciprocal forces the base into the denominator, risking division by zero.",
 "mnemonic": "Negative power? Flip it over.",
 "formulaMeta": {
-"formula": "n^{-a} = \frac{1}{n^a}",
+"formula": "n^{-a} = \\frac{1}{n^a}",
 "description": "The core algebraic transformation to convert a term with a negative exponent into a reciprocal fraction with a positive exponent.",
-"derivation": "- **Step 1:** Consider $n^0 \div n^a$.\n- **Step 2:** By the quotient rule, $n^{0-a} = n^{-a}$.\n- **Step 3:** By basic division, $1 \div n^a = \frac{1}{n^a}$. Thus, they are equivalent."
+"derivation": "- **Step 1:** Consider $n^0 \\div n^a$.\n- **Step 2:** By the quotient rule, $n^{0-a} = n^{-a}$.\n- **Step 3:** By basic division, $1 \\div n^a = \\frac{1}{n^a}$. Thus, they are equivalent."
 }
 }
 },
@@ -298,12 +298,12 @@
 ],
 "order": 10,
 "heading": "Resolving Negative Exponents in the Denominator",
-"back": "## Component Anatomy:\n- **$n^{-a}$:** An exponential term with a negative power trapped in the basement (denominator).\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \neq 0$.",
+"back": "## Component Anatomy:\n- **$n^{-a}$:** An exponential term with a negative power trapped in the basement (denominator).\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $n \\neq 0$.",
 "mnemonic": "Negative in the basement? Send it to the roof.",
 "formulaMeta": {
-"formula": "\frac{1}{n^{-a}} = n^a",
+"formula": "\\frac{1}{n^{-a}} = n^a",
 "description": "The procedural shortcut for neutralizing a negative power that originates in the denominator of a fraction.",
-"derivation": "- **Step 1:** Rewrite the denominator using the negative exponent rule: $\frac{1}{1/n^a}$.\n- **Step 2:** Multiply by the reciprocal to clear the complex fraction: $1 \times \frac{n^a}{1} = n^a$."
+"derivation": "- **Step 1:** Rewrite the denominator using the negative exponent rule: $\\frac{1}{1/n^a}$.\n- **Step 2:** Multiply by the reciprocal to clear the complex fraction: $1 \\times \\frac{n^a}{1} = n^a$."
 }
 }
 },
@@ -330,12 +330,12 @@
 ],
 "order": 11,
 "heading": "Inverting Rational Fractions with Negative Powers",
-"back": "## Component Anatomy:\n- **$\frac{a}{b}$:** The internal rational fraction.\n- **$-n$:** The external negative power.\n\n## Boundary Conditions / Domain:\n- Both variables must be non-zero: $a \neq 0$ and $b \neq 0$, because the operation forces both variables to occupy the denominator at different steps.",
+"back": "## Component Anatomy:\n- **$\\frac{a}{b}$:** The internal rational fraction.\n- **$-n$:** The external negative power.\n\n## Boundary Conditions / Domain:\n- Both variables must be non-zero: $a \\neq 0$ and $b \\neq 0$, because the operation forces both variables to occupy the denominator at different steps.",
 "mnemonic": "Flip the fraction inside, flip the sign outside.",
 "formulaMeta": {
-"formula": "\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^n",
+"formula": "\\left(\\frac{a}{b}\\right)^{-n} = \\left(\\frac{b}{a}\\right)^n",
 "description": "The fastest algebraic procedure to completely resolve a negative exponent wrapped around an entire fraction.",
-"derivation": "- **Step 1:** Distribute the negative exponent to numerator and denominator: $\frac{a^{-n}}{b^{-n}}$.\n- **Step 2:** Apply reciprocal rules to both top and bottom. $a^{-n}$ moves down, $b^{-n}$ moves up.\n- **Step 3:** The result is $\frac{b^n}{a^n}$, which regroups to $(\frac{b}{a})^n$."
+"derivation": "- **Step 1:** Distribute the negative exponent to numerator and denominator: $\\frac{a^{-n}}{b^{-n}}$.\n- **Step 2:** Apply reciprocal rules to both top and bottom. $a^{-n}$ moves down, $b^{-n}$ moves up.\n- **Step 3:** The result is $\\frac{b^n}{a^n}$, which regroups to $(\\frac{b}{a})^n$."
 }
 }
 },
@@ -361,7 +361,7 @@
 ],
 "order": 12,
 "heading": "Sign Parity: Negative Bases Raised to Even Powers",
-"back": "- **Core Rule:** A negative base raised to any **EVEN** integer power always produces a **POSITIVE** result.\n- **Mathematical Representation:** $(-a)^{2k} = a^{2k}$, where $k \in \mathbb{Z}$.\n- **Logical Reasoning:** Multiplication of two negative numbers yields a positive. Even powers allow every single negative sign to pair up and cancel out completely.\n- **Example:** $(-2)^4 = (-2) \times (-2) \times (-2) \times (-2) = +16$.\n\n## Boundary Conditions / Domain:\n- The base must be enclosed in parentheses. Note the distinction: $(-2)^4 = +16$, but $-2^4 = -16$.",
+"back": "- **Core Rule:** A negative base raised to any **EVEN** integer power always produces a **POSITIVE** result.\n- **Mathematical Representation:** $(-a)^{2k} = a^{2k}$, where $k \\in \\mathbb{Z}$.\n- **Logical Reasoning:** Multiplication of two negative numbers yields a positive. Even powers allow every single negative sign to pair up and cancel out completely.\n- **Example:** $(-2)^4 = (-2) \\times (-2) \\times (-2) \\times (-2) = +16$.\n\n## Boundary Conditions / Domain:\n- The base must be enclosed in parentheses. Note the distinction: $(-2)^4 = +16$, but $-2^4 = -16$.",
 "mnemonic": "Evens eliminate the negative.",
 "standardMeta": {
 "question": "What is the strict rule for determining the final algebraic sign when a negative base is raised to an EVEN integer power?"
@@ -390,7 +390,7 @@
 ],
 "order": 13,
 "heading": "Sign Parity: Negative Bases Raised to Odd Powers",
-"back": "- **Core Rule:** A negative base raised to any **ODD** integer power always produces a **NEGATIVE** result.\n- **Mathematical Representation:** $(-a)^{2k+1} = -a^{2k+1}$, where $k \in \mathbb{Z}$.\n- **Logical Reasoning:** After pairing up all negative signs to create positive subgroups, exactly one unpaired negative sign will remain, turning the final product negative.\n- **Example:** $(-2)^3 = (-2) \times (-2) \times (-2) = -8$.",
+"back": "- **Core Rule:** A negative base raised to any **ODD** integer power always produces a **NEGATIVE** result.\n- **Mathematical Representation:** $(-a)^{2k+1} = -a^{2k+1}$, where $k \\in \\mathbb{Z}$.\n- **Logical Reasoning:** After pairing up all negative signs to create positive subgroups, exactly one unpaired negative sign will remain, turning the final product negative.\n- **Example:** $(-2)^3 = (-2) \\times (-2) \\times (-2) = -8$.",
 "mnemonic": "Odds keep it odd (negative).",
 "standardMeta": {
 "question": "What is the strict rule for determining the final algebraic sign when a negative base is raised to an ODD integer power?"
@@ -421,9 +421,9 @@
 "heading": "SOP: Exponential Form via Prime Factorisation",
 "back": "## Component Anatomy:\n- **$N$:** The composite integer target.\n- **$p_1, p_2$:** The extracted prime bases (e.g., $2, 3, 5$).\n- **$a, b$:** The frequency exponents of each prime.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $N$ must be a natural number strictly $> 1$. (1 has no prime factors).",
 "formulaMeta": {
-"formula": "N = p_1^a \times p_2^b \times p_3^c \dots",
+"formula": "N = p_1^a \\times p_2^b \\times p_3^c \\dots",
 "description": "The standardized procedure to break down any composite integer into the unique product of its prime bases.",
-"derivation": "- **Step 1:** Perform successive division of $N$ starting with the smallest prime ($2$), then $3, 5, 7$, etc., until reaching $1$.\n- **Step 2:** Write out the full linear multiplication of all extracted primes.\n- **Step 3:** Group identical prime factors.\n- **Step 4:** Condense identical groups by writing the count as the exponent (e.g., $2 \times 2 \times 3 = 2^2 \times 3^1$)."
+"derivation": "- **Step 1:** Perform successive division of $N$ starting with the smallest prime ($2$), then $3, 5, 7$, etc., until reaching $1$.\n- **Step 2:** Write out the full linear multiplication of all extracted primes.\n- **Step 3:** Group identical prime factors.\n- **Step 4:** Condense identical groups by writing the count as the exponent (e.g., $2 \\times 2 \\times 3 = 2^2 \\times 3^1$)."
 }
 }
 },
@@ -450,10 +450,10 @@
 ],
 "order": 15,
 "heading": "SOP: Writing Numbers in Scientific Notation",
-"back": "## Component Anatomy:\n- **$a$:** The significant coefficient (mantissa).\n- **$n$:** The integer exponent acting as the scale order of magnitude.\n\n## Boundary Conditions / Domain:\n- **CRITICAL Inequality:** $1 \le a < 10$. The coefficient must strictly be between 1 (inclusive) and 10 (exclusive).\n- **$n$ Domain:** Must be an integer ($n \in \mathbb{Z}$).",
+"back": "## Component Anatomy:\n- **$a$:** The significant coefficient (mantissa).\n- **$n$:** The integer exponent acting as the scale order of magnitude.\n\n## Boundary Conditions / Domain:\n- **CRITICAL Inequality:** $1 \\le a < 10$. The coefficient must strictly be between 1 (inclusive) and 10 (exclusive).\n- **$n$ Domain:** Must be an integer ($n \\in \\mathbb{Z}$).",
 "mnemonic": "One non-zero digit to the left of the decimal.",
 "formulaMeta": {
-"formula": "N = a \times 10^n",
+"formula": "N = a \\times 10^n",
 "description": "The strict mathematical formatting required to elegantly represent astronomically massive or microscopic values.",
 "derivation": "- **Step 1:** Shift the decimal point in $N$ left or right until exactly one non-zero digit remains on its left. This value is $a$.\n- **Step 2:** Count the total number of places the decimal was shifted.\n- **Step 3:** Set $n$. If you moved LEFT (original number was large), $n$ is positive. If you moved RIGHT (original number was a small decimal), $n$ is negative."
 }
@@ -481,7 +481,7 @@
 ],
 "order": 16,
 "heading": "Powers of 10: Lakh & Crore (Indian System)",
-"back": "- **One Lakh:** Mathematically expressed as $1,00,000 = 10^5$ (Contains five zeroes).\n- **One Crore:** Mathematically expressed as $1,00,00,000 = 10^7$ (Contains seven zeroes).\n\n## Internal System Relationship:\n- One Crore mathematically equals exactly $100$ Lakhs. \n- Algebraic Proof: $10^2 \times 10^5 = 10^{2+5} = 10^7$.",
+"back": "- **One Lakh:** Mathematically expressed as $1,00,000 = 10^5$ (Contains five zeroes).\n- **One Crore:** Mathematically expressed as $1,00,00,000 = 10^7$ (Contains seven zeroes).\n\n## Internal System Relationship:\n- One Crore mathematically equals exactly $100$ Lakhs. \n- Algebraic Proof: $10^2 \\times 10^5 = 10^{2+5} = 10^7$.",
 "mnemonic": "Lakh is 5, Crore is 7.",
 "standardMeta": {
 "question": "How are One Lakh and One Crore strictly expressed as powers of 10 in the Indian Numeral System?"
@@ -510,7 +510,7 @@
 ],
 "order": 17,
 "heading": "Powers of 10: Arab & Kharab (Indian System)",
-"back": "- **One Arab:** Mathematically expressed as $1,00,00,00,000 = 10^9$ (Contains nine zeroes).\n- **One Kharab:** Mathematically expressed as $1,00,00,00,00,000 = 10^{11}$ (Contains eleven zeroes).\n\n## Internal System Relationship:\n- The Indian system scales up by factors of $100$ (or $10^2$) beyond a thousands.\n- One Arab equals $100$ Crores ($10^2 \times 10^7 = 10^9$).\n- One Kharab equals $100$ Arabs ($10^2 \times 10^9 = 10^{11}$).",
+"back": "- **One Arab:** Mathematically expressed as $1,00,00,00,000 = 10^9$ (Contains nine zeroes).\n- **One Kharab:** Mathematically expressed as $1,00,00,00,00,000 = 10^{11}$ (Contains eleven zeroes).\n\n## Internal System Relationship:\n- The Indian system scales up by factors of $100$ (or $10^2$) beyond a thousands.\n- One Arab equals $100$ Crores ($10^2 \\times 10^7 = 10^9$).\n- One Kharab equals $100$ Arabs ($10^2 \\times 10^9 = 10^{11}$).",
 "mnemonic": "Arab is 9, Kharab is 11.",
 "standardMeta": {
 "question": "How are One Arab and One Kharab strictly expressed as powers of 10 in the Indian Numeral System?"
@@ -540,7 +540,7 @@
 ],
 "order": 18,
 "heading": "Powers of 10: Millions & Billions (International Scale)",
-"back": "- **One Million:** Mathematically expressed as $1,000,000 = 10^6$ (Contains six zeroes).\n- **One Billion:** Mathematically expressed as $1,000,000,000 = 10^9$ (Contains nine zeroes).\n- *Note: The international system scales consistently by factors of $1,000$ ($10^3$).*\n\n## Cross-System Equivalence:\n- **$10^6$ Equivalency:** One Million = Ten Lakh ($10 \times 10^5$).\n- **$10^9$ Equivalency:** One Billion = One Arab.",
+"back": "- **One Million:** Mathematically expressed as $1,000,000 = 10^6$ (Contains six zeroes).\n- **One Billion:** Mathematically expressed as $1,000,000,000 = 10^9$ (Contains nine zeroes).\n- *Note: The international system scales consistently by factors of $1,000$ ($10^3$).*\n\n## Cross-System Equivalence:\n- **$10^6$ Equivalency:** One Million = Ten Lakh ($10 \\times 10^5$).\n- **$10^9$ Equivalency:** One Billion = One Arab.",
 "mnemonic": "Million is 6, Billion is 9.",
 "standardMeta": {
 "question": "How are One Million and One Billion strictly expressed as powers of 10 in the International Numeral System, and what are their Indian equivalents?"
@@ -570,7 +570,7 @@
 ],
 "order": 19,
 "heading": "Advanced Indian Numeral Magnitudes (Neel, Padma, Shankh)",
-"back": "The Indian numeral system consistently increases in scale by a mathematical factor of $100$ ($10^2$) at each new tier above thousand.\n\n- **One Neel:** $10^{13}$ (Hundred Kharab, $10^2 \times 10^{11}$)\n- **One Padma:** $10^{15}$ (Hundred Neel, $10^2 \times 10^{13}$)\n- **One Shankh:** $10^{17}$ (Hundred Padma, $10^2 \times 10^{15}$)\n- **One Maha Shankh:** $10^{19}$ (Hundred Shankh, $10^2 \times 10^{17}$)",
+"back": "The Indian numeral system consistently increases in scale by a mathematical factor of $100$ ($10^2$) at each new tier above thousand.\n\n- **One Neel:** $10^{13}$ (Hundred Kharab, $10^2 \\times 10^{11}$)\n- **One Padma:** $10^{15}$ (Hundred Neel, $10^2 \\times 10^{13}$)\n- **One Shankh:** $10^{17}$ (Hundred Padma, $10^2 \\times 10^{15}$)\n- **One Maha Shankh:** $10^{19}$ (Hundred Shankh, $10^2 \\times 10^{17}$)",
 "standardMeta": {
 "question": "What are the specific mathematical exponents representing one Neel, one Padma, and one Shankh in the Indian numeral scaling system?"
 }
@@ -628,7 +628,7 @@
 ],
 "order": 21,
 "heading": "Fundamental Principle of Counting (Multiplication Rule)",
-"back": "- **Core Rule:** If event A can occur in $m$ distinct ways, and a sequentially independent event B can occur in $n$ distinct ways, the total number of combined possibilities is the product of their individual choices.\n- **Algebraic Formula:** $\text{Total Combinations} = m \times n \times p \dots$\n- **Concrete Application:** Building an outfit from $7$ shirts, $2$ hats, and $3$ pairs of shoes yields $7 \times 2 \times 3 = 42$ completely unique outfit combinations.\n\n## Boundary Conditions / Domain:\n- Events MUST be strictly independent (choices in event A do not artificially constrain the available options in event B).",
+"back": "- **Core Rule:** If event A can occur in $m$ distinct ways, and a sequentially independent event B can occur in $n$ distinct ways, the total number of combined possibilities is the product of their individual choices.\n- **Algebraic Formula:** $\\text{Total Combinations} = m \\times n \\times p \\dots$\n- **Concrete Application:** Building an outfit from $7$ shirts, $2$ hats, and $3$ pairs of shoes yields $7 \\times 2 \\times 3 = 42$ completely unique outfit combinations.\n\n## Boundary Conditions / Domain:\n- Events MUST be strictly independent (choices in event A do not artificially constrain the available options in event B).",
 "standardMeta": {
 "question": "According to the fundamental principle of counting, how is the total number of combined possibilities algebraically calculated for sequential, independent events?"
 }
@@ -661,7 +661,7 @@
 "formulaMeta": {
 "formula": "C = O^S",
 "description": "The algebraic exponential model used to evaluate the total permutations of a fixed-length lock or passcode.",
-"derivation": "- **Step 1:** By the fundamental counting principle, each slot requires an independent choice.\n- **Step 2:** Because the number of options ($O$) remains identical for every slot, the expanded multiplication looks like $O \times O \times O \dots$ ($S$ times).\n- **Step 3:** This repeated multiplication collapses perfectly into the exponential term $O^S$."
+"derivation": "- **Step 1:** By the fundamental counting principle, each slot requires an independent choice.\n- **Step 2:** Because the number of options ($O$) remains identical for every slot, the expanded multiplication looks like $O \\times O \\times O \\dots$ ($S$ times).\n- **Step 3:** This repeated multiplication collapses perfectly into the exponential term $O^S$."
 }
 }
 },
@@ -692,9 +692,9 @@
 "back": "## Component Anatomy:\n- **Exponent:** The overwhelmingly massive power (e.g., the $160$ in $2^{160}$).\n- **Cycle Base ($4$):** Almost all single digits ($2, 3, 7, 8$) strictly repeat their unit digit outcomes in cycles of exactly $4$ iterations.\n\n## Boundary Conditions / Domain:\n- **Limitation:** This algorithm isolates and solves ONLY for the final absolute trailing digit (Units place). It yields zero data about the overall magnitude or leading digits of the number.",
 "mnemonic": "Divide power by 4, map the remainder.",
 "formulaMeta": {
-"formula": "R = \text{Exponent} \pmod{4}",
+"formula": "R = \\text{Exponent} \\pmod{4}",
 "description": "The algorithmic method utilizing modulo arithmetic to calculate the unit digit of incredibly large exponential terms.",
-"derivation": "- **Step 1:** Extract just the unit digit of the primary base.\n- **Step 2:** Execute long division on the massive exponent by $4$ to find the integer remainder $R$.\n- **Step 3:** If $R=1, 2, \text{or } 3$, the final unit digit directly maps to $\text{base}^R$.\n- **Step 4:** **Trap Condition:** If $R=0$ (meaning the exponent is perfectly divisible by $4$), map the unit digit to the final step of the cycle, which is $\text{base}^4$."
+"derivation": "- **Step 1:** Extract just the unit digit of the primary base.\n- **Step 2:** Execute long division on the massive exponent by $4$ to find the integer remainder $R$.\n- **Step 3:** If $R=1, 2, \\text{or } 3$, the final unit digit directly maps to $\\text{base}^R$.\n- **Step 4:** **Trap Condition:** If $R=0$ (meaning the exponent is perfectly divisible by $4$), map the unit digit to the final step of the cycle, which is $\\text{base}^4$."
 }
 }
 },
@@ -721,7 +721,7 @@
 ],
 "order": 24,
 "heading": "Cyclicity Map: Unit Digits for Powers of 2",
-"back": "- **Strict Repeating Sequence:** **$2 \to 4 \to 8 \to 6$**.\n\n## Algorithmic Mapping:\nAfter determining the Remainder ($R$) of the exponent divided by 4:\n- $R=1 \implies 2^1 = 2$\n- $R=2 \implies 2^2 = 4$\n- $R=3 \implies 2^3 = 8$\n- $R=0 \implies 2^4 = 16 \implies \text{Unit digit is } 6$.\n\n- **Application Example:** Find the unit digit of $2^{15}$. $15 \div 4$ leaves Remainder $3$. The mapped digit for $R=3$ is **$8$**.",
+"back": "- **Strict Repeating Sequence:** **$2 \\to 4 \\to 8 \\to 6$**.\n\n## Algorithmic Mapping:\nAfter determining the Remainder ($R$) of the exponent divided by 4:\n- $R=1 \\implies 2^1 = 2$\n- $R=2 \\implies 2^2 = 4$\n- $R=3 \\implies 2^3 = 8$\n- $R=0 \\implies 2^4 = 16 \\implies \\text{Unit digit is } 6$.\n\n- **Application Example:** Find the unit digit of $2^{15}$. $15 \\div 4$ leaves Remainder $3$. The mapped digit for $R=3$ is **$8$**.",
 "mnemonic": "2, 4, 8, 6.",
 "standardMeta": {
 "question": "What is the strict, repeating 4-step numerical sequence for the trailing unit digits of the powers of 2?"
@@ -751,7 +751,7 @@
 ],
 "order": 25,
 "heading": "Cyclicity Map: Unit Digits for Powers of 3",
-"back": "- **Strict Repeating Sequence:** **$3 \to 9 \to 7 \to 1$**.\n\n## Algorithmic Mapping:\nAfter determining the Remainder ($R$) of the exponent divided by 4:\n- $R=1 \implies 3^1 = 3$\n- $R=2 \implies 3^2 = 9$\n- $R=3 \implies 3^3 = 27 \implies \text{Unit digit is } 7$\n- $R=0 \implies 3^4 = 81 \implies \text{Unit digit is } 1$.\n\n- **Application Example:** Find the unit digit of $3^{100}$. $100$ is perfectly divisible by $4$ ($R=0$). The mapped unit digit is **$1$**.",
+"back": "- **Strict Repeating Sequence:** **$3 \\to 9 \\to 7 \\to 1$**.\n\n## Algorithmic Mapping:\nAfter determining the Remainder ($R$) of the exponent divided by 4:\n- $R=1 \\implies 3^1 = 3$\n- $R=2 \\implies 3^2 = 9$\n- $R=3 \\implies 3^3 = 27 \\implies \\text{Unit digit is } 7$\n- $R=0 \\implies 3^4 = 81 \\implies \\text{Unit digit is } 1$.\n\n- **Application Example:** Find the unit digit of $3^{100}$. $100$ is perfectly divisible by $4$ ($R=0$). The mapped unit digit is **$1$**.",
 "mnemonic": "3, 9, 7, 1.",
 "standardMeta": {
 "question": "What is the strict, repeating 4-step numerical sequence for the trailing unit digits of the powers of 3?"
@@ -781,7 +781,7 @@
 ],
 "order": 26,
 "heading": "Simultaneous Perfect Squares and Cubes",
-"back": "- **Core Rule:** A number is both a perfect square and a perfect cube if and only if it can be represented as a **perfect sixth power** ($n^6$).\n- **Mathematical Reasoning:** For a number to be both, its prime factorization exponents must be divisible by both $2$ (for square) and $3$ (for cube). The Least Common Multiple (LCM) of $2$ and $3$ is $6$.\n- **Examples:** $1 = 1^6$, $64 = 2^6$, $729 = 3^6$, $4096 = 4^6$.\n\n## Boundary Conditions / Domain:\n- **Constraint:** The base $n$ must be an integer ($n \in \mathbb{Z}$). For the resulting number to be considered a 'natural' perfect square/cube, $n$ must be a natural number ($n \in \mathbb{N}$).",
+"back": "- **Core Rule:** A number is both a perfect square and a perfect cube if and only if it can be represented as a **perfect sixth power** ($n^6$).\n- **Mathematical Reasoning:** For a number to be both, its prime factorization exponents must be divisible by both $2$ (for square) and $3$ (for cube). The Least Common Multiple (LCM) of $2$ and $3$ is $6$.\n- **Examples:** $1 = 1^6$, $64 = 2^6$, $729 = 3^6$, $4096 = 4^6$.\n\n## Boundary Conditions / Domain:\n- **Constraint:** The base $n$ must be an integer ($n \\in \\mathbb{Z}$). For the resulting number to be considered a 'natural' perfect square/cube, $n$ must be a natural number ($n \\in \\mathbb{N}$).",
 "mnemonic": "Square (2) x Cube (3) = 6th Power.",
 "standardMeta": {
 "question": "If a natural number is mathematically proven to be both a perfect square and a perfect cube simultaneously, what higher-order power must it inherently be?"
@@ -811,7 +811,7 @@
 ],
 "order": 27,
 "heading": "Generalization: Simultaneous Multiple Powers (LCM Rule)",
-"back": "- **Core Rule:** A positive integer is simultaneously an $a$-th power and a $b$-th power if and only if its prime factorisation exponents are multiples of the **Least Common Multiple (LCM)** of $a$ and $b$.\n- **Example Application:** To be both a 4th power and a 6th power simultaneously, the number must be a power of $\text{LCM}(4, 6) = 12$.\n- **Edge Case Trap:** The algebraic expression $q^{46}$ can NEVER represent both a 4th and 6th power because $46$ is not a multiple of $12$.\n\n## Boundary Conditions / Domain:\n- $a$ and $b$ must be natural numbers ($a, b \in \mathbb{N}$, strictly $\geq 2$).",
+"back": "- **Core Rule:** A positive integer is simultaneously an $a$-th power and a $b$-th power if and only if its prime factorisation exponents are multiples of the **Least Common Multiple (LCM)** of $a$ and $b$.\n- **Example Application:** To be both a 4th power and a 6th power simultaneously, the number must be a power of $\\text{LCM}(4, 6) = 12$.\n- **Edge Case Trap:** The algebraic expression $q^{46}$ can NEVER represent both a 4th and 6th power because $46$ is not a multiple of $12$.\n\n## Boundary Conditions / Domain:\n- $a$ and $b$ must be natural numbers ($a, b \\in \\mathbb{N}$, strictly $\\geq 2$).",
 "standardMeta": {
 "question": "What is the strict mathematical condition required for a natural number to be simultaneously an $a$-th power and a $b$-th power?"
 }
@@ -842,11 +842,11 @@
 ],
 "order": 28,
 "heading": "SOP: Solving Exponential Equations by Equating Exponents",
-"back": "## Component Anatomy:\n- **$a$:** The identical base shared on both sides of the equation.\n- **$m, n$:** The algebraic exponents being equated.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The base $a$ MUST NOT be $-1, 0, \text{or } 1$. \n- *Reasoning:* $1^5 = 1^8 = 1$, but $5 \neq 8$. Similarly, $0^3 = 0^7 = 0$, but $3 \neq 7$. Equating exponents fails if the base cannot support unique scaling.",
+"back": "## Component Anatomy:\n- **$a$:** The identical base shared on both sides of the equation.\n- **$m, n$:** The algebraic exponents being equated.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The base $a$ MUST NOT be $-1, 0, \\text{or } 1$. \n- *Reasoning:* $1^5 = 1^8 = 1$, but $5 \\neq 8$. Similarly, $0^3 = 0^7 = 0$, but $3 \\neq 7$. Equating exponents fails if the base cannot support unique scaling.",
 "formulaMeta": {
-"formula": "a^m = a^n \implies m = n",
+"formula": "a^m = a^n \\implies m = n",
 "description": "The fundamental algebraic rule for equating the exponents of two exponential terms that share the exact same valid base.",
-"derivation": "- **Step 1:** Use exponent laws to simplify both sides of the equation until they share a single, identical base $a$.\n- **Step 2:** Verify the critical domain constraint: ensure $a \notin \\{-1, 0, 1\\}$.\n- **Step 3:** Drop the bases entirely and set the exponents equal to each other ($m = n$).\n- **Step 4:** Solve the resulting linear or quadratic equation for the variable."
+"derivation": "- **Step 1:** Use exponent laws to simplify both sides of the equation until they share a single, identical base $a$.\n- **Step 2:** Verify the critical domain constraint: ensure $a \\notin \\{-1, 0, 1\\}$.\n- **Step 3:** Drop the bases entirely and set the exponents equal to each other ($m = n$).\n- **Step 4:** Solve the resulting linear or quadratic equation for the variable."
 }
 }
 },
@@ -856,7 +856,7 @@
 "originalHeading": "Equating Bases for Identical Exponents",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Injected critical missing boundary condition for EVEN exponents (a = \pm b)",
+"Injected critical missing boundary condition for EVEN exponents (a = \\pm b)",
 "Formatted as PROCEDURAL SOP"
 ],
 "vettingNotes": "CRITICAL FIX: The original card claimed a=b universally. Added the absolute value constraint for even exponents.",
@@ -874,11 +874,11 @@
 ],
 "order": 29,
 "heading": "SOP: Solving Exponential Equations by Equating Bases",
-"back": "## Component Anatomy:\n- **$a, b$:** The distinct bases being evaluated.\n- **$m$:** The identical integer exponent shared on both sides.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP 1 (Zero Exponent):** The exponent $m$ MUST NOT equal $0$. If $m=0$, then $a^0 = 1$ and $b^0 = 1$, which does not imply $a=b$ (e.g., $5^0 = 9^0$, but $5 \neq 9$).\n- **CRITICAL TRAP 2 (Even Exponents):** If $m$ is an **EVEN** integer, dropping the exponent yields absolute values: $|a| = |b|$, meaning $a = \pm b$. (e.g., $(-3)^2 = 3^2 = 9$, but $-3 \neq 3$).\n- Only if $m$ is an **ODD** integer does $a^m = b^m$ strictly imply $a = b$.",
+"back": "## Component Anatomy:\n- **$a, b$:** The distinct bases being evaluated.\n- **$m$:** The identical integer exponent shared on both sides.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP 1 (Zero Exponent):** The exponent $m$ MUST NOT equal $0$. If $m=0$, then $a^0 = 1$ and $b^0 = 1$, which does not imply $a=b$ (e.g., $5^0 = 9^0$, but $5 \\neq 9$).\n- **CRITICAL TRAP 2 (Even Exponents):** If $m$ is an **EVEN** integer, dropping the exponent yields absolute values: $|a| = |b|$, meaning $a = \\pm b$. (e.g., $(-3)^2 = 3^2 = 9$, but $-3 \\neq 3$).\n- Only if $m$ is an **ODD** integer does $a^m = b^m$ strictly imply $a = b$.",
 "formulaMeta": {
-"formula": "a^m = b^m \implies a = b \quad \text{(if } m \text{ is odd)}",
+"formula": "a^m = b^m \\implies a = b \\quad \\text{(if } m \\text{ is odd)}",
 "description": "The algebraic procedure and critical domain restrictions for equating the bases of terms with identical whole-number exponents.",
-"derivation": "- **Step 1:** Manipulate the equation so the exponents on both sides are completely identical.\n- **Step 2:** Verify that the exponent $m \neq 0$.\n- **Step 3:** Identify the parity of $m$. If odd, drop exponents and state $a = b$. If even, state $a = \pm b$.\n- **Step 4:** Solve for the base variable."
+"derivation": "- **Step 1:** Manipulate the equation so the exponents on both sides are completely identical.\n- **Step 2:** Verify that the exponent $m \\neq 0$.\n- **Step 3:** Identify the parity of $m$. If odd, drop exponents and state $a = b$. If even, state $a = \\pm b$.\n- **Step 4:** Solve for the base variable."
 }
 }
 },
@@ -906,7 +906,7 @@
 ],
 "order": 30,
 "heading": "Notation Trap: Power Tower vs. Power of a Power",
-"back": "- **Power of a Power $(a^m)^n$:** When explicitly grouped with parentheses, the exponents multiply together via the standard law: $(a^m)^n = a^{m \times n}$.\n- **Power Tower $a^{m^n}$:** Without parentheses, the operation is non-associative and must be evaluated **top-down**: $a^{m^n} = a^{(m^n)}$. You evaluate the upper exponent $m^n$ first.\n- **Strict Mathematical Distinction:** They are almost never mathematically equivalent.\n- **Example:** $(2^3)^2 = 2^{3 \times 2} = 2^6 = 64$. However, evaluating the tower $2^{3^2}$ means evaluating $3^2=9$ first, yielding $2^9 = 512$.",
+"back": "- **Power of a Power $(a^m)^n$:** When explicitly grouped with parentheses, the exponents multiply together via the standard law: $(a^m)^n = a^{m \\times n}$.\n- **Power Tower $a^{m^n}$:** Without parentheses, the operation is non-associative and must be evaluated **top-down**: $a^{m^n} = a^{(m^n)}$. You evaluate the upper exponent $m^n$ first.\n- **Strict Mathematical Distinction:** They are almost never mathematically equivalent.\n- **Example:** $(2^3)^2 = 2^{3 \\times 2} = 2^6 = 64$. However, evaluating the tower $2^{3^2}$ means evaluating $3^2=9$ first, yielding $2^9 = 512$.",
 "mnemonic": "Parentheses Multiply, Towers build Top-Down.",
 "standardMeta": {
 "question": "What is the strict mathematical distinction between evaluating the power tower $a^{m^n}$ and the nested grouping $(a^m)^n$? Are they equivalent?"
@@ -936,7 +936,7 @@
 ],
 "order": 31,
 "heading": "Algebraic Trap: Addition of Exponential Terms",
-"back": "- **Strict Rule:** $a^m + a^n \neq a^{m+n}$. (Except for trivial roots like $a=0$).\n- **Mathematical Reasoning:** The Product Law of Exponents ($a^m \times a^n = a^{m+n}$) strictly governs the **multiplication** of identical bases. There is no equivalent shortcut law for adding bases. Addition requires factoring or manual calculation.\n- **Example Demonstration:** $2^2 + 2^3 = 4 + 8 = 12$. If the trap were true, $2^{2+3} = 2^5 = 32$. Since $12 \neq 32$, the additive shortcut is mathematically invalid.",
+"back": "- **Strict Rule:** $a^m + a^n \\neq a^{m+n}$. (Except for trivial roots like $a=0$).\n- **Mathematical Reasoning:** The Product Law of Exponents ($a^m \\times a^n = a^{m+n}$) strictly governs the **multiplication** of identical bases. There is no equivalent shortcut law for adding bases. Addition requires factoring or manual calculation.\n- **Example Demonstration:** $2^2 + 2^3 = 4 + 8 = 12$. If the trap were true, $2^{2+3} = 2^5 = 32$. Since $12 \\neq 32$, the additive shortcut is mathematically invalid.",
 "standardMeta": {
 "question": "Is the algebraic sum $a^m + a^n$ mathematically equivalent to $a^{m+n}$? Provide the reasoning."
 }

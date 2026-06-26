@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Definition of a Perfect Square",
-"back": "- **Definition:** A natural number that can be expressed as the product of an integer multiplied by itself.\n- **Expression:** $n \times n = n^2$\n- **Domain / Boundary Condition:** $n \in \mathbb{N}$ (For the scope of arithmetic perfect squares, $n$ is a natural number).\n- **Example:** $25$ is a perfect square because $5 \times 5 = 25$.",
+"back": "- **Definition:** A natural number that can be expressed as the product of an integer multiplied by itself.\n- **Expression:** $n \\times n = n^2$\n- **Domain / Boundary Condition:** $n \\in \\mathbb{N}$ (For the scope of arithmetic perfect squares, $n$ is a natural number).\n- **Example:** $25$ is a perfect square because $5 \\times 5 = 25$.",
 "standardMeta": {
 "question": "What explicitly defines a natural number as a 'perfect square' in arithmetic?"
 }
@@ -102,9 +102,9 @@
 ],
 "order": 4,
 "heading": "The Radical Symbol (Principal Square Root)",
-"back": "- **Concept:** While every positive perfect square inherently has **two** integer square roots, the radical symbol mathematically defaults to only the positive one.\n- **Strict Rule:** The symbol $\sqrt{x}$ strictly represents the **principal (positive) square root**.\n- **Boundary Condition:** $\sqrt{x} \geq 0$ for all $x \geq 0$.\n- **Example:** $\sqrt{64} = 8$. It is mathematically imprecise to write $\sqrt{64} = \pm 8$, even though both $8^2 = 64$ and $(-8)^2 = 64$.",
+"back": "- **Concept:** While every positive perfect square inherently has **two** integer square roots, the radical symbol mathematically defaults to only the positive one.\n- **Strict Rule:** The symbol $\\sqrt{x}$ strictly represents the **principal (positive) square root**.\n- **Boundary Condition:** $\\sqrt{x} \\geq 0$ for all $x \\geq 0$.\n- **Example:** $\\sqrt{64} = 8$. It is mathematically imprecise to write $\\sqrt{64} = \\pm 8$, even though both $8^2 = 64$ and $(-8)^2 = 64$.",
 "standardMeta": {
-"question": "What is the strict mathematical distinction between finding 'the square roots' of a number and evaluating the radical symbol $\sqrt{x}$?"
+"question": "What is the strict mathematical distinction between finding 'the square roots' of a number and evaluating the radical symbol $\\sqrt{x}$?"
 }
 }
 },
@@ -255,7 +255,7 @@
 ],
 "order": 10,
 "heading": "Odd Factor Parity of Perfect Squares",
-"back": "- **Key Fact:** A perfect square ALWAYS has an **odd number of distinct factors**.\n- **Reasoning:** Factors generally occur in pairs (e.g. $a \times b = N$). For a perfect square, the square root pairs with itself ($\sqrt{N} \times \sqrt{N} = N$), meaning this root is only counted once, leaving an odd total count.",
+"back": "- **Key Fact:** A perfect square ALWAYS has an **odd number of distinct factors**.\n- **Reasoning:** Factors generally occur in pairs (e.g. $a \\times b = N$). For a perfect square, the square root pairs with itself ($\\sqrt{N} \\times \\sqrt{N} = N$), meaning this root is only counted once, leaving an odd total count.",
 "mnemonic": "Squares are ODDly unique (Odd number of factors).",
 "standardMeta": {
 "question": "What is mathematically unique about the total number of distinct factors of any perfect square compared to non-square natural numbers?"
@@ -282,7 +282,7 @@
 ],
 "order": 11,
 "heading": "Even Factor Parity of Non-Squares",
-"back": "- **Concept:** Every natural number that is NOT a perfect square possesses an **even number of total distinct factors**.\n- **Reasoning:** Factors always divide a number in distinct pairs (e.g., for $12$, the pairs are $1 \times 12, 2 \times 6, 3 \times 4$). Since the number is not a perfect square, no factor pairs with itself, keeping the total count strictly even.",
+"back": "- **Concept:** Every natural number that is NOT a perfect square possesses an **even number of total distinct factors**.\n- **Reasoning:** Factors always divide a number in distinct pairs (e.g., for $12$, the pairs are $1 \\times 12, 2 \\times 6, 3 \\times 4$). Since the number is not a perfect square, no factor pairs with itself, keeping the total count strictly even.",
 "standardMeta": {
 "question": "If a natural number is known definitively NOT to be a perfect square, what mathematical parity applies to its total number of distinct factors?"
 }
@@ -310,9 +310,9 @@
 ],
 "order": 12,
 "heading": "Perfect Squares as Sum of Consecutive Odd Numbers",
-"back": "## Component Anatomy:\n- **$n$:** The exact count of consecutive odd numbers being summed.\n- **$2k - 1$:** The algebraic representation of the $k$-th odd number.\n- **$n^2$:** The resulting perfect square.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{N}$ (must be a natural number).\n- The summation MUST begin explicitly from $1$ (where $k=1$).",
+"back": "## Component Anatomy:\n- **$n$:** The exact count of consecutive odd numbers being summed.\n- **$2k - 1$:** The algebraic representation of the $k$-th odd number.\n- **$n^2$:** The resulting perfect square.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{N}$ (must be a natural number).\n- The summation MUST begin explicitly from $1$ (where $k=1$).",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} (2k - 1) = n^2",
+"formula": "\\sum_{k=1}^{n} (2k - 1) = n^2",
 "description": "States the relationship between perfect squares and the summation of consecutive odd integers starting from 1.",
 "derivation": "- **Step 1:** Start from the integer 1.\n- **Step 2:** Add the subsequent consecutive odd numbers until you have summed $n$ terms.\n- **Example:** For $n=4$, sum the first 4 odd numbers: $1 + 3 + 5 + 7 = 16 = 4^2$."
 }
@@ -338,9 +338,9 @@
 ],
 "order": 13,
 "heading": "Verifying Perfect Squares via Successive Subtraction",
-"back": "## Component Anatomy:\n- **$N$:** The target integer being tested.\n- **Sequence:** The infinite sequence of consecutive odd numbers ($1, 3, 5, 7, \dots$).\n\n## Boundary Conditions / Domain:\n- $N \in \mathbb{N}$ (Only applicable for positive integers).\n- Computationally inefficient for very large values of $N$; better suited for algebraic proofs or small numbers.",
+"back": "## Component Anatomy:\n- **$N$:** The target integer being tested.\n- **Sequence:** The infinite sequence of consecutive odd numbers ($1, 3, 5, 7, \\dots$).\n\n## Boundary Conditions / Domain:\n- $N \\in \\mathbb{N}$ (Only applicable for positive integers).\n- Computationally inefficient for very large values of $N$; better suited for algebraic proofs or small numbers.",
 "formulaMeta": {
-"formula": "N - 1 - 3 - 5 - \dots = 0 \implies N \text{ is a Perfect Square}",
+"formula": "N - 1 - 3 - 5 - \\dots = 0 \\implies N \\text{ is a Perfect Square}",
 "description": "Algorithmic procedure to verify if a number is a perfect square by subtracting sequential odd numbers.",
 "derivation": "- **Step 1:** Subtract consecutive odd numbers starting from $1$ from the given target number $N$.\n- **Step 2:** Continue the subtraction recursively until the running total reaches exactly $0$ or crosses into negative integers.\n- **Step 3:** If the final result terminates exactly at $0$, $N$ is a perfect square. If it bypasses $0$ into negatives, $N$ is not a perfect square."
 }
@@ -367,9 +367,9 @@
 ],
 "order": 14,
 "heading": "Counting Non-Square Integers Between Consecutive Squares",
-"back": "## Component Anatomy:\n- **$n$:** The base of the smaller perfect square.\n- **$n+1$:** The base of the consecutive larger perfect square.\n- **$2n$:** The total discrete count of non-square integers lying strictly between $n^2$ and $(n+1)^2$.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{N}$. Works strictly for the interval $(n^2, (n+1)^2)$.",
+"back": "## Component Anatomy:\n- **$n$:** The base of the smaller perfect square.\n- **$n+1$:** The base of the consecutive larger perfect square.\n- **$2n$:** The total discrete count of non-square integers lying strictly between $n^2$ and $(n+1)^2$.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{N}$. Works strictly for the interval $(n^2, (n+1)^2)$.",
 "formulaMeta": {
-"formula": "\text{Count} = (n+1)^2 - n^2 - 1 = 2n",
+"formula": "\\text{Count} = (n+1)^2 - n^2 - 1 = 2n",
 "description": "Formula to evaluate the exact number of natural numbers that fall between the squares of two consecutive integers.",
 "derivation": "- **Step 1:** Identify the base of the smaller square ($n$).\n- **Step 2:** Multiply this base by $2$.\n- **Result:** There are exactly $2n$ natural numbers in the open interval $(n^2, (n+1)^2)$."
 }
@@ -393,7 +393,7 @@
 ],
 "order": 15,
 "heading": "Triangular Numbers and Perfect Squares",
-"back": "- **Definition:** Triangular numbers are integers that can form an equilateral triangle dot pattern ($T_n = \frac{n(n+1)}{2} \implies 1, 3, 6, 10, 15, \dots$).\n- **Property:** The algebraic sum of any **two consecutive triangular numbers** always forms a **perfect square**.\n- **Example:** $1 + 3 = 4 (2^2)$, $3 + 6 = 9 (3^2)$.",
+"back": "- **Definition:** Triangular numbers are integers that can form an equilateral triangle dot pattern ($T_n = \\frac{n(n+1)}{2} \\implies 1, 3, 6, 10, 15, \\dots$).\n- **Property:** The algebraic sum of any **two consecutive triangular numbers** always forms a **perfect square**.\n- **Example:** $1 + 3 = 4 (2^2)$, $3 + 6 = 9 (3^2)$.",
 "mnemonic": "Two triangles make a square.",
 "standardMeta": {
 "question": "What is the specific mathematical relationship between consecutive triangular numbers and perfect squares?"
@@ -418,7 +418,7 @@
 ],
 "order": 16,
 "heading": "Adjacent Square Pairs Property",
-"back": "- **Concept:** It is a unique mathematical puzzle property where a set of distinct, non-repeating consecutive integers can be arranged in a specific sequence such that the **sum of any two adjacent numbers forms a perfect square**.\n- **Example:** Arrange numbers 1 to 15 to get sequence segments like $3, 6, 10, 15, 1$.\n- **Verification:** $3+6=\mathbf{9}$, $6+10=\mathbf{16}$, $10+15=\mathbf{25}$, $15+1=\mathbf{16}$.",
+"back": "- **Concept:** It is a unique mathematical puzzle property where a set of distinct, non-repeating consecutive integers can be arranged in a specific sequence such that the **sum of any two adjacent numbers forms a perfect square**.\n- **Example:** Arrange numbers 1 to 15 to get sequence segments like $3, 6, 10, 15, 1$.\n- **Verification:** $3+6=\\mathbf{9}$, $6+10=\\mathbf{16}$, $10+15=\\mathbf{25}$, $15+1=\\mathbf{16}$.",
 "standardMeta": {
 "question": "What unique mathematical pattern can be formed by carefully summing adjacent integers in specifically arranged sequences (e.g., the sequence 3, 6, 10, 15, 1)?"
 }
@@ -431,7 +431,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Double-escaped KaTeX",
-"Injected specific variable domains ($m \in \mathbb{Z}, m > 1$)"
+"Injected specific variable domains ($m \\in \\mathbb{Z}, m > 1$)"
 ],
 "vettingNotes": "",
 "cardData": {
@@ -445,7 +445,7 @@
 ],
 "order": 17,
 "heading": "Generating Pythagorean Triplets",
-"back": "## Component Anatomy:\n- **$2m$:** The first leg of the right triangle (always guaranteed even).\n- **$m^2 - 1$:** The second leg of the right triangle.\n- **$m^2 + 1$:** The hypotenuse (largest member of the triplet).\n\n## Boundary Conditions / Domain:\n- $m \in \mathbb{Z}$ (Must be an integer).\n- $m > 1$ strictly, to ensure all side lengths remain positive non-zero integers.",
+"back": "## Component Anatomy:\n- **$2m$:** The first leg of the right triangle (always guaranteed even).\n- **$m^2 - 1$:** The second leg of the right triangle.\n- **$m^2 + 1$:** The hypotenuse (largest member of the triplet).\n\n## Boundary Conditions / Domain:\n- $m \\in \\mathbb{Z}$ (Must be an integer).\n- $m > 1$ strictly, to ensure all side lengths remain positive non-zero integers.",
 "formulaMeta": {
 "formula": "(2m)^2 + (m^2 - 1)^2 = (m^2 + 1)^2",
 "description": "Algebraic parameterization used to generate primitive and non-primitive Pythagorean Triplets.",
@@ -476,9 +476,9 @@
 "heading": "Extracting Square Roots via Prime Factorisation",
 "back": "## Component Anatomy:\n- **$p_1, p_2$:** The fundamental prime numbers that constitute the prime factorisation of the target number.\n\n## Boundary Conditions / Domain:\n- The target number MUST be a verified perfect square; otherwise, the prime factors will not perfectly group into pairs.",
 "formulaMeta": {
-"formula": "\sqrt{p_1^2 \times p_2^2} = p_1 \times p_2",
+"formula": "\\sqrt{p_1^2 \\times p_2^2} = p_1 \\times p_2",
 "description": "Algorithm for computing the exact principal square root of a perfect square using its prime factors.",
-"derivation": "- **Step 1:** Find the complete prime factorisation of the target number.\n- **Step 2:** Group the identical prime factors into **pairs** (e.g., $2 \times 2$, $3 \times 3$).\n- **Step 3:** Extract exactly one prime factor from each pair.\n- **Step 4:** Multiply these extracted factors together to compute the final integer square root."
+"derivation": "- **Step 1:** Find the complete prime factorisation of the target number.\n- **Step 2:** Group the identical prime factors into **pairs** (e.g., $2 \\times 2$, $3 \\times 3$).\n- **Step 3:** Extract exactly one prime factor from each pair.\n- **Step 4:** Multiply these extracted factors together to compute the final integer square root."
 }
 }
 },
@@ -502,9 +502,9 @@
 ],
 "order": 19,
 "heading": "Transforming to a Perfect Square via Multiplication",
-"back": "## Component Anatomy:\n- **$N$:** The target non-perfect square integer.\n- **$p_{\text{unpaired}}$:** The prime factor(s) lacking a pair in $N$'s factorisation.\n\n## Boundary Conditions / Domain:\n- $N \in \mathbb{N}$ and $N > 1$.",
+"back": "## Component Anatomy:\n- **$N$:** The target non-perfect square integer.\n- **$p_{\\text{unpaired}}$:** The prime factor(s) lacking a pair in $N$'s factorisation.\n\n## Boundary Conditions / Domain:\n- $N \\in \\mathbb{N}$ and $N > 1$.",
 "formulaMeta": {
-"formula": "N \times p_{\text{unpaired}} = \text{Perfect Square}",
+"formula": "N \\times p_{\\text{unpaired}} = \\text{Perfect Square}",
 "description": "Algorithm to find the smallest multiplier needed to convert a non-perfect square into a perfect square.",
 "derivation": "- **Step 1:** Perform the complete prime factorisation of the given number $N$.\n- **Step 2:** Group identical prime factors into pairs.\n- **Step 3:** Identify the prime factor(s) that do NOT form a complete pair.\n- **Step 4:** Multiply $N$ by these unpaired prime factor(s) to complete their pairs, generating a perfect square."
 }
@@ -530,9 +530,9 @@
 ],
 "order": 20,
 "heading": "Transforming to a Perfect Square via Division",
-"back": "## Component Anatomy:\n- **$N$:** The target non-perfect square integer.\n- **$p_{\text{unpaired}}$:** The prime factor(s) lacking a pair in $N$'s factorisation.\n\n## Boundary Conditions / Domain:\n- $N \in \mathbb{N}$ and $N > 1$.",
+"back": "## Component Anatomy:\n- **$N$:** The target non-perfect square integer.\n- **$p_{\\text{unpaired}}$:** The prime factor(s) lacking a pair in $N$'s factorisation.\n\n## Boundary Conditions / Domain:\n- $N \\in \\mathbb{N}$ and $N > 1$.",
 "formulaMeta": {
-"formula": "N \div p_{\text{unpaired}} = \text{Perfect Square}",
+"formula": "N \\div p_{\\text{unpaired}} = \\text{Perfect Square}",
 "description": "Algorithm to find the smallest divisor needed to convert a non-perfect square into a perfect square.",
 "derivation": "- **Step 1:** Perform the complete prime factorisation of the given number $N$.\n- **Step 2:** Group identical prime factors into pairs.\n- **Step 3:** Identify the prime factor(s) that are left over (do NOT form a pair).\n- **Step 4:** Divide $N$ by the product of these unpaired prime factor(s) to eliminate them, leaving only paired factors (a perfect square)."
 }
@@ -559,9 +559,9 @@
 ],
 "order": 21,
 "heading": "Smallest Perfect Square Divisible by Multiple Integers",
-"back": "## Component Anatomy:\n- **Given Set:** A sequence of distinct integers (e.g., $a, b, c$).\n- **$\text{LCM}$:** The Least Common Multiple of the given set.\n- **$p_{\text{unpaired}}$:** The unpaired prime factors of the evaluated LCM.\n\n## Boundary Conditions / Domain:\n- The elements of the given set must be non-zero natural numbers.",
+"back": "## Component Anatomy:\n- **Given Set:** A sequence of distinct integers (e.g., $a, b, c$).\n- **$\\text{LCM}$:** The Least Common Multiple of the given set.\n- **$p_{\\text{unpaired}}$:** The unpaired prime factors of the evaluated LCM.\n\n## Boundary Conditions / Domain:\n- The elements of the given set must be non-zero natural numbers.",
 "formulaMeta": {
-"formula": "N_{\text{square}} = \text{LCM} \times p_{\text{unpaired}}",
+"formula": "N_{\\text{square}} = \\text{LCM} \\times p_{\\text{unpaired}}",
 "description": "Algorithmic procedure to calculate the absolute smallest perfect square that is exactly divisible by a given set of distinct numbers.",
 "derivation": "- **Step 1:** Calculate the Least Common Multiple (LCM) of the entire given set of numbers.\n- **Step 2:** Perform prime factorisation directly on the computed LCM.\n- **Step 3:** Group the factors into pairs and identify any prime factors that do not exist in complete pairs.\n- **Step 4:** Multiply the original LCM by these unpaired prime factors to complete the pairs. The resulting product is the target perfect square."
 }
@@ -590,9 +590,9 @@
 "heading": "Interval Estimation of Square Roots",
 "back": "## Component Anatomy:\n- **Intervals:** Boundary perfect squares that are multiples of 10 or 5 (e.g., $10^2=100, 15^2=225, 20^2=400$).\n- **Unit Digit:** The rightmost digit of the number being evaluated, used to guess the exact integer root.\n\n## Boundary Conditions / Domain:\n- Most effective for estimating 3-digit and 4-digit numbers.\n- Relies on the premise that the function $f(x) = x^2$ is strictly increasing for $x > 0$.",
 "formulaMeta": {
-"formula": "10^2 < N < 20^2 \implies 10 < \sqrt{N} < 20",
+"formula": "10^2 < N < 20^2 \\implies 10 < \\sqrt{N} < 20",
 "description": "Procedure to estimate the integer square root of a large number by sequentially narrowing down its bounding interval.",
-"derivation": "- **Step 1:** Establish the tens interval by comparing $N$ with the squares of multiples of $10$ (e.g., $100 < 250 < 400 \implies 10 < \sqrt{250} < 20$).\n- **Step 2:** Narrow the bounds further by testing the square of the midpoint integer ending in $5$ (e.g., $15^2 = 225$).\n- **Step 3:** If $N$ is known to be a perfect square, use its unit digit to finalize the exact root based on the narrow interval."
+"derivation": "- **Step 1:** Establish the tens interval by comparing $N$ with the squares of multiples of $10$ (e.g., $100 < 250 < 400 \\implies 10 < \\sqrt{250} < 20$).\n- **Step 2:** Narrow the bounds further by testing the square of the midpoint integer ending in $5$ (e.g., $15^2 = 225$).\n- **Step 3:** If $N$ is known to be a perfect square, use its unit digit to finalize the exact root based on the narrow interval."
 }
 }
 },
@@ -619,9 +619,9 @@
 "heading": "Shortcut Square Root Deduction via Digit Grouping",
 "back": "## Component Anatomy:\n- **Pair (Right Group):** The rightmost two digits of the perfect square.\n- **Left Group:** The remaining digits to the left of the Pair.\n- **$T$:** The deduced tens digit of the root.\n\n## Boundary Conditions / Domain:\n- The target number **MUST** be a mathematically verified perfect square.\n- If this heuristic is applied to a non-perfect square, it fails silently and will yield an incorrect pseudo-root.",
 "formulaMeta": {
-"formula": "\sqrt{\text{Left Group} \mid \text{Pair}}",
+"formula": "\\sqrt{\\text{Left Group} \\mid \\text{Pair}}",
 "description": "Shortcut algorithm to deduce the exact square root of a 3-digit or 4-digit verified perfect square without prime factorisation.",
-"derivation": "- **Step 1:** Split the number into two groups: the rightmost two digits (Pair), and the remaining digits (Left Group).\n- **Step 2:** Use the unit digit of the Pair to identify the two possible unit digits for the root (e.g., if ending in $4$, the root ends in $2$ or $8$).\n- **Step 3:** Find the largest perfect square strictly $\le$ the Left Group. Its base becomes the tens digit ($T$) of the root.\n- **Step 4:** Multiply $T \times (T+1)$. If the Left Group $\ge$ this product, choose the larger unit digit candidate; otherwise, select the smaller one."
+"derivation": "- **Step 1:** Split the number into two groups: the rightmost two digits (Pair), and the remaining digits (Left Group).\n- **Step 2:** Use the unit digit of the Pair to identify the two possible unit digits for the root (e.g., if ending in $4$, the root ends in $2$ or $8$).\n- **Step 3:** Find the largest perfect square strictly $\\le$ the Left Group. Its base becomes the tens digit ($T$) of the root.\n- **Step 4:** Multiply $T \\times (T+1)$. If the Left Group $\\ge$ this product, choose the larger unit digit candidate; otherwise, select the smaller one."
 }
 }
 },
@@ -646,11 +646,11 @@
 ],
 "order": 24,
 "heading": "Extracting Maximum Integer Squares from Arbitrary Areas",
-"back": "## Component Anatomy:\n- **$A_{\text{given}}$:** The available continuous area of material (which is strictly not a perfect square).\n- **$n^2$:** The lower-bound maximal perfect square strictly less than $A_{\text{given}}$.\n- **$s$:** The maximum allowable integer side length.\n\n## Boundary Conditions / Domain:\n- $s \in \mathbb{Z}^+$ (Must be a positive integer strictly $> 0$).\n- Assumes geometric dimensions must remain integers.",
+"back": "## Component Anatomy:\n- **$A_{\\text{given}}$:** The available continuous area of material (which is strictly not a perfect square).\n- **$n^2$:** The lower-bound maximal perfect square strictly less than $A_{\\text{given}}$.\n- **$s$:** The maximum allowable integer side length.\n\n## Boundary Conditions / Domain:\n- $s \\in \\mathbb{Z}^+$ (Must be a positive integer strictly $> 0$).\n- Assumes geometric dimensions must remain integers.",
 "formulaMeta": {
-"formula": "s = \lfloor \sqrt{A_{\text{given}}} \rfloor",
+"formula": "s = \\lfloor \\sqrt{A_{\\text{given}}} \\rfloor",
 "description": "Algorithm to determine the maximum possible integer side length of a square that can be physically cut from a non-perfect square area.",
-"derivation": "- **Step 1:** Identify the bounding perfect squares for the given continuous area: $n^2 < A_{\text{given}} < (n+1)^2$.\n- **Step 2:** To ensure the geometric square fits completely within the material without exceeding the area limit, drop the upper bound and select the maximal lower-bound perfect square ($n^2$).\n- **Step 3:** The principal square root of this selected lower bound ($n$) yields the maximum integer side length $s$."
+"derivation": "- **Step 1:** Identify the bounding perfect squares for the given continuous area: $n^2 < A_{\\text{given}} < (n+1)^2$.\n- **Step 2:** To ensure the geometric square fits completely within the material without exceeding the area limit, drop the upper bound and select the maximal lower-bound perfect square ($n^2$).\n- **Step 3:** The principal square root of this selected lower bound ($n$) yields the maximum integer side length $s$."
 }
 }
 },
@@ -675,7 +675,7 @@
 ],
 "order": 25,
 "heading": "Algebraic Difference of Two Squares",
-"back": "## Component Anatomy:\n- **$a$:** The base of the larger perfect square.\n- **$b$:** The base of the smaller perfect square.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$. Mathematically valid for all real numbers.\n- Practically applied as a mental math shortcut for evaluating the difference between large near-consecutive integers.",
+"back": "## Component Anatomy:\n- **$a$:** The base of the larger perfect square.\n- **$b$:** The base of the smaller perfect square.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$. Mathematically valid for all real numbers.\n- Practically applied as a mental math shortcut for evaluating the difference between large near-consecutive integers.",
 "formulaMeta": {
 "formula": "a^2 - b^2 = (a - b)(a + b)",
 "description": "Fundamental algebraic identity used to efficiently evaluate the numerical difference between two perfect squares without computing the squares directly.",
@@ -704,7 +704,7 @@
 ],
 "order": 26,
 "heading": "Recursive Evaluation of Consecutive Squares",
-"back": "## Component Anatomy:\n- **$n^2$:** The numerically known perfect square.\n- **$2n + 1$:** The exact algebraic difference required to transition to the next consecutive square.\n- **$(n+1)^2$:** The target unknown square.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{N}$. Exclusively valid for calculating squares of strictly consecutive whole numbers.",
+"back": "## Component Anatomy:\n- **$n^2$:** The numerically known perfect square.\n- **$2n + 1$:** The exact algebraic difference required to transition to the next consecutive square.\n- **$(n+1)^2$:** The target unknown square.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{N}$. Exclusively valid for calculating squares of strictly consecutive whole numbers.",
 "formulaMeta": {
 "formula": "(n+1)^2 = n^2 + 2n + 1",
 "description": "Algebraic recursion used to computationally deduce the square of a number given the exact square of its preceding integer.",
@@ -734,12 +734,12 @@
 ],
 "order": 27,
 "heading": "Mental Squaring (Numbers Ending in 5)",
-"back": "## Component Anatomy:\n- **$N$:** The leading digit(s) of the target number (excluding the final digit 5).\n- **$N(N+1)$:** The numeric prefix of the resulting perfect square.\n- **$25$:** The fixed numeric suffix of the resulting perfect square.\n\n## Boundary Conditions / Domain:\n- The target number must strictly terminate in the digit $5$.\n- $N \in \mathbb{N}$ (Valid for positive integers).",
+"back": "## Component Anatomy:\n- **$N$:** The leading digit(s) of the target number (excluding the final digit 5).\n- **$N(N+1)$:** The numeric prefix of the resulting perfect square.\n- **$25$:** The fixed numeric suffix of the resulting perfect square.\n\n## Boundary Conditions / Domain:\n- The target number must strictly terminate in the digit $5$.\n- $N \\in \\mathbb{N}$ (Valid for positive integers).",
 "mnemonic": "Multiply by the next, append twenty-five.",
 "formulaMeta": {
-"formula": "(10N + 5)^2 = 100 \times [N(N+1)] + 25",
+"formula": "(10N + 5)^2 = 100 \\times [N(N+1)] + 25",
 "description": "Fast algorithmic procedure (Vedic Sutra: Ekadhikena Purvena) to mentally calculate the perfect square of any integer ending in 5.",
-"derivation": "- **Step 1:** Strip the terminating digit 5 to isolate the leading number block $N$.\n- **Step 2:** Multiply $N$ by its consecutive integer, evaluating $N(N+1)$.\n- **Step 3:** Append the digits $25$ strictly to the right of the computed product to form the final square (e.g., $35^2 \implies 3 \times 4 = 12 \implies 1225$)."
+"derivation": "- **Step 1:** Strip the terminating digit 5 to isolate the leading number block $N$.\n- **Step 2:** Multiply $N$ by its consecutive integer, evaluating $N(N+1)$.\n- **Step 3:** Append the digits $25$ strictly to the right of the computed product to form the final square (e.g., $35^2 \\implies 3 \\times 4 = 12 \\implies 1225$)."
 }
 }
 },
@@ -764,9 +764,9 @@
 ],
 "order": 28,
 "heading": "Algebraic Squaring via Binomial Expansion",
-"back": "## Component Anatomy:\n- **$a$:** The nearest easy base multiple of 10 (e.g., $30, 40, 100$).\n- **$b$:** The small integer difference from the selected base (usually $1, 2$, or $3$).\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$. Mathematically valid for all real numbers.\n- Practically optimal only when $b$ is a very small integer, minimizing cross-term complexity.",
+"back": "## Component Anatomy:\n- **$a$:** The nearest easy base multiple of 10 (e.g., $30, 40, 100$).\n- **$b$:** The small integer difference from the selected base (usually $1, 2$, or $3$).\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$. Mathematically valid for all real numbers.\n- Practically optimal only when $b$ is a very small integer, minimizing cross-term complexity.",
 "formulaMeta": {
-"formula": "(a \pm b)^2 = a^2 \pm 2ab + b^2",
+"formula": "(a \\pm b)^2 = a^2 \\pm 2ab + b^2",
 "description": "Binomial expansions applied to rapidly evaluate the square of a number near a multiple of 10 without direct long multiplication.",
 "derivation": "- **Step 1:** Express the target number as $(a+b)$ or $(a-b)$ where $a$ is an easy base multiple of $10$.\n- **Step 2:** Calculate $a^2$ (trivial due to trailing zeroes) and the minor square $b^2$.\n- **Step 3:** Add or subtract the cross-term $2ab$ depending on the specific expansion used. (e.g., $39^2 = (40-1)^2 = 1600 - 80 + 1 = 1521$)."
 }
@@ -792,7 +792,7 @@
 ],
 "order": 29,
 "heading": "Mathematical Definition of a Perfect Cube",
-"back": "- **Definition:** A number obtained by multiplying an integer by itself **three times**.\n- **Notation:** $n \times n \times n = n^3$.\n- **Domain / Boundary Condition:** $n \in \mathbb{Z}$ (Unlike squares, perfect cubes exist natively in negative integers as well).\n- **Example:** $5^3 = 125$ and $(-5)^3 = -125$.",
+"back": "- **Definition:** A number obtained by multiplying an integer by itself **three times**.\n- **Notation:** $n \\times n \\times n = n^3$.\n- **Domain / Boundary Condition:** $n \\in \\mathbb{Z}$ (Unlike squares, perfect cubes exist natively in negative integers as well).\n- **Example:** $5^3 = 125$ and $(-5)^3 = -125$.",
 "standardMeta": {
 "question": "What mathematically defines a 'perfect cube' and what is its algebraic representation?"
 }
@@ -819,7 +819,7 @@
 ],
 "order": 30,
 "heading": "Sign Inheritance of Cube Roots",
-"back": "- **Definition:** The cube root of a real number $y$ is the unique real value $x$ such that $x^3 = y$, denoted as $\sqrt[3]{y}$.\n- **Sign Rule:** Because the cubic function preserves signs, the cube root of a positive number is strictly positive, and the cube root of a negative number is strictly negative.\n- **Boundary Condition:** $y \in \mathbb{R}$. Unlike square roots, there is no domain restriction against negative inputs.",
+"back": "- **Definition:** The cube root of a real number $y$ is the unique real value $x$ such that $x^3 = y$, denoted as $\\sqrt[3]{y}$.\n- **Sign Rule:** Because the cubic function preserves signs, the cube root of a positive number is strictly positive, and the cube root of a negative number is strictly negative.\n- **Boundary Condition:** $y \\in \\mathbb{R}$. Unlike square roots, there is no domain restriction against negative inputs.",
 "standardMeta": {
 "question": "What is the definitive algebraic rule for the sign of a cube root depending on whether the original base number is positive or negative?"
 }
@@ -898,9 +898,9 @@
 ],
 "order": 33,
 "heading": "Cubing Rational Numbers & Decimals",
-"back": "## Component Anatomy:\n- **$a$:** Integer numerator.\n- **$b$:** Integer denominator.\n\n## Boundary Conditions / Domain:\n- $b \neq 0$ strictly, to prevent undefined division.",
+"back": "## Component Anatomy:\n- **$a$:** Integer numerator.\n- **$b$:** Integer denominator.\n\n## Boundary Conditions / Domain:\n- $b \\neq 0$ strictly, to prevent undefined division.",
 "formulaMeta": {
-"formula": "\left(\frac{a}{b}\right)^3 = \frac{a^3}{b^3}",
+"formula": "\\left(\\frac{a}{b}\\right)^3 = \\frac{a^3}{b^3}",
 "description": "Algebraic rule for evaluating the perfect cube of a fractional rational number or terminating decimal.",
 "derivation": "- **Step 1:** Distribute the cubic exponent to both the numerator and the denominator independently.\n- **Step 2:** Compute the perfect cube of both integers to simplify the fraction.\n- **For Decimals:** Convert the terminating decimal to a fraction first, apply the rational rule, and convert back. The final number of decimal places will strictly be exactly three times the number of decimal places in the original base."
 }
@@ -951,9 +951,9 @@
 ],
 "order": 35,
 "heading": "Perfect Cubes as Sums of Consecutive Odd Numbers",
-"back": "## Component Anatomy:\n- **$n$:** The base of the perfect cube ($n^3$).\n- **$n^2 - n + 1$:** The exact required starting odd number for the specific cubic summation.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{N}$. You must sequentially sum exactly $n$ consecutive odd numbers starting from the calculated index.",
+"back": "## Component Anatomy:\n- **$n$:** The base of the perfect cube ($n^3$).\n- **$n^2 - n + 1$:** The exact required starting odd number for the specific cubic summation.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{N}$. You must sequentially sum exactly $n$ consecutive odd numbers starting from the calculated index.",
 "formulaMeta": {
-"formula": "n^3 = \sum_{k=0}^{n-1} (n^2 - n + 1 + 2k)",
+"formula": "n^3 = \\sum_{k=0}^{n-1} (n^2 - n + 1 + 2k)",
 "description": "States the relationship between perfect cubes and discrete sums of consecutive odd numbers.",
 "derivation": "- **Step 1:** Calculate the explicitly required starting odd number using the algebraic formula: $n^2 - n + 1$.\n- **Step 2:** Write down exactly $n$ consecutive odd numbers sequentially starting from that initial result.\n- **Step 3:** The total summation of these $n$ numbers precisely equals $n^3$. (e.g., for $n=3$, starting odd is $9-3+1=7$. Sum $3$ numbers: $7 + 9 + 11 = 27 = 3^3$)."
 }
@@ -980,11 +980,11 @@
 ],
 "order": 36,
 "heading": "Algebraic Difference Between Consecutive Cubes",
-"back": "## Component Anatomy:\n- **$a$:** The sequentially larger integer.\n- **$b$:** The sequentially smaller consecutive integer ($a - 1$).\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{Z}$.\n- Must strictly satisfy the consecutive constraint: $(a - b) = 1$.",
+"back": "## Component Anatomy:\n- **$a$:** The sequentially larger integer.\n- **$b$:** The sequentially smaller consecutive integer ($a - 1$).\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{Z}$.\n- Must strictly satisfy the consecutive constraint: $(a - b) = 1$.",
 "formulaMeta": {
 "formula": "a^3 - b^3 = (a - b)(a^2 + ab + b^2)",
 "description": "Algebraic identity applied to easily evaluate the numerical difference between the cubes of two strictly consecutive integers.",
-"derivation": "- **Step 1:** Recognize that since $a$ and $b$ are strictly consecutive, the difference term $(a - b)$ simplifies exactly to $1$.\n- **Step 2:** Substitute into the general algebraic identity, reducing it to $1 \times (a^2 + ab + b^2)$.\n- **Step 3:** Calculate the minor squares and product independently, then sum them to evaluate the difference bypassing massive 3-digit cubic expansions."
+"derivation": "- **Step 1:** Recognize that since $a$ and $b$ are strictly consecutive, the difference term $(a - b)$ simplifies exactly to $1$.\n- **Step 2:** Substitute into the general algebraic identity, reducing it to $1 \\times (a^2 + ab + b^2)$.\n- **Step 3:** Calculate the minor squares and product independently, then sum them to evaluate the difference bypassing massive 3-digit cubic expansions."
 }
 }
 },
@@ -995,7 +995,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Double-escaped KaTeX",
-"Fixed source typo by injecting \sqrt[3] instead of \sqrt"
+"Fixed source typo by injecting \\sqrt[3] instead of \\sqrt"
 ],
 "vettingNotes": "Primary exact root algorithm for cubes.",
 "cardData": {
@@ -1011,7 +1011,7 @@
 "heading": "Extracting Cube Roots via Prime Factorisation",
 "back": "## Component Anatomy:\n- **Prime Factors ($p_1, p_2$):** The fundamental primes that logically construct the integer.\n\n## Boundary Conditions / Domain:\n- The target number must strictly be a verified perfect cube for all extracted factors to seamlessly form precise triplets.",
 "formulaMeta": {
-"formula": "\sqrt[3]{p_1^3 \times p_2^3} = p_1 \times p_2",
+"formula": "\\sqrt[3]{p_1^3 \\times p_2^3} = p_1 \\times p_2",
 "description": "Standard algorithmic procedure for extracting the precise integer cube root using prime factorisation.",
 "derivation": "- **Step 1:** Perform the complete prime factorisation of the target number.\n- **Step 2:** Group identical prime factors strictly into **triplets** (sets of 3).\n- **Step 3:** If any residual factor fails to form a complete triplet, the base number is proven NOT to be a perfect cube.\n- **Step 4:** Extract exactly one prime factor from each generated triplet and multiply them to evaluate the final cube root."
 }
@@ -1040,7 +1040,7 @@
 "heading": "Transforming to a Perfect Cube via Multiplication",
 "back": "## Component Anatomy:\n- **Target Number:** The base non-perfect cube integer.\n- **Incomplete Triplets ($p$):** Prime factors appearing strictly 1 or 2 times instead of the required 3.\n\n## Boundary Conditions / Domain:\n- Applicable to positive integers $N > 1$.",
 "formulaMeta": {
-"formula": "\text{Multiplier} = \prod p_i^{(3 - \text{count}*i)}",
+"formula": "\\text{Multiplier} = \\prod p_i^{(3 - \\text{count}*i)}",
 "description": "Process to computationally identify the smallest integer multiplier required to convert a non-perfect cube into a perfect cube.",
 "derivation": "- **Step 1:** Perform complete prime factorisation of the target base.\n- **Step 2:** Isolate and identify prime factors that currently exist outside of exact triplets.\n- **Step 3:** Evaluate the deficiency (how many more of each factor are required to reach 3).\n- **Step 4:** Multiply the original base by the precise amount of these deficient prime factors to mathematically complete every triplet."
 }
@@ -1067,9 +1067,9 @@
 ],
 "order": 39,
 "heading": "Transforming to a Perfect Cube via Division",
-"back": "## Component Anatomy:\n- **$N$:** The initial target non-perfect cube integer.\n- Excess Factors ($p*{\text{excess}}$): Residual prime factors that strictly fail to fit into a complete perfect triplet grouping.\n\n## Boundary Conditions / Domain:\n- Applicable to positive integers $N > 1$.",
+"back": "## Component Anatomy:\n- **$N$:** The initial target non-perfect cube integer.\n- Excess Factors ($p*{\\text{excess}}$): Residual prime factors that strictly fail to fit into a complete perfect triplet grouping.\n\n## Boundary Conditions / Domain:\n- Applicable to positive integers $N > 1$.",
 "formulaMeta": {
-"formula": "N \div p_{\text{excess}} = \text{Perfect Cube}",
+"formula": "N \\div p_{\\text{excess}} = \\text{Perfect Cube}",
 "description": "Algorithmic process to calculate the smallest integer divisor needed to strip away excess factors and yield a perfect cube.",
 "derivation": "- **Step 1:** Execute complete prime factorisation of the target number.\n- **Step 2:** Systematically group identical prime factors into perfect triplets.\n- **Step 3:** Identify the specific residual prime factors that are left over after triplet formation.\n- **Step 4:** Divide the original baseline number strictly by the product of these isolated excess factors."
 }
@@ -1082,7 +1082,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Fixed KaTeX pipe `|` to `\\mid`",
-"Injected \sqrt[3] instead of \sqrt",
+"Injected \\sqrt[3] instead of \\sqrt",
 "Emphasized the severe trap of applying this to non-cubes"
 ],
 "vettingNotes": "Critical to emphasize that this is a heuristic that mathematically fails on non-perfect cubes.",
@@ -1099,9 +1099,9 @@
 "heading": "Shortcut Cube Root Deduction via Digit Grouping",
 "back": "## Component Anatomy:\n- **First Group (Rightmost):** The terminating 3 digits of the known perfect cube.\n- **Second Group (Left):** The remaining sequence of digits to the left.\n\n## Boundary Conditions / Domain:\n- The target initial number **MUST strictly be a mathematically verified perfect cube**.\n- If this specific shortcut heuristic is forced onto a non-perfect cube, it will silently fail and generate an entirely invalid integer estimation.",
 "formulaMeta": {
-"formula": "\sqrt[3]{\text{Group2} \mid \text{Group1}}",
+"formula": "\\sqrt[3]{\\text{Group2} \\mid \\text{Group1}}",
 "description": "Shortcut heuristic procedure to deduce the exact integer cube root of large verified perfect cubes (up to 6 digits) bypassing prime factorisation.",
-"derivation": "- **Step 1:** Segment the perfect cube into sequential groups of three digits, explicitly starting from the rightmost unit digit.\n- **Step 2:** Analyze the unit digit of the First (rightmost) Group. Apply the absolute cube unit mappings (e.g., 2 $\leftrightarrow$ 8, 3 $\leftrightarrow$ 7, others static) to determine the unit digit of the final root.\n- **Step 3:** Analyze the Second (left) Group. Identify the largest absolute perfect cube that remains strictly less than or equal to this numeric block.\n- **Step 4:** The base of that specific bounding cube securely dictates the tens digit of the final cube root."
+"derivation": "- **Step 1:** Segment the perfect cube into sequential groups of three digits, explicitly starting from the rightmost unit digit.\n- **Step 2:** Analyze the unit digit of the First (rightmost) Group. Apply the absolute cube unit mappings (e.g., 2 $\\leftrightarrow$ 8, 3 $\\leftrightarrow$ 7, others static) to determine the unit digit of the final root.\n- **Step 3:** Analyze the Second (left) Group. Identify the largest absolute perfect cube that remains strictly less than or equal to this numeric block.\n- **Step 4:** The base of that specific bounding cube securely dictates the tens digit of the final cube root."
 }
 }
 },

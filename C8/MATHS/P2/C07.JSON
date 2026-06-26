@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Area vs. Perimeter Geometrical Independence",
-"back": "## Explanation\n- **Perimeter** measures the 1D boundary length, while **Area** measures the 2D space enclosed.\n- **Crucial Distinction:** Regions can have the *same perimeter but entirely different areas* (and vice versa).\n\n## Boundary Conditions / Domain\n- The shapes must be closed, simple 2D polygons or curves.\n- Example: A $7 \times 4$ rectangle and an $8 \times 3$ rectangle both have a perimeter of 22 units, but their areas are 28 sq units and 24 sq units, respectively.",
+"back": "## Explanation\n- **Perimeter** measures the 1D boundary length, while **Area** measures the 2D space enclosed.\n- **Crucial Distinction:** Regions can have the *same perimeter but entirely different areas* (and vice versa).\n\n## Boundary Conditions / Domain\n- The shapes must be closed, simple 2D polygons or curves.\n- Example: A $7 \\times 4$ rectangle and an $8 \\times 3$ rectangle both have a perimeter of 22 units, but their areas are 28 sq units and 24 sq units, respectively.",
 "mnemonic": "Longer boundary doesn't mean more paint.",
 "standardMeta": {
 "question": "Does a strictly larger perimeter mathematically guarantee a larger area, and can two geometric shapes possess the exact same perimeter but different areas?"
@@ -51,11 +51,11 @@
 ],
 "order": 2,
 "heading": "Imperial to Metric Area Scaling Factor",
-"back": "## Component Anatomy\n- **$\text{in}^2$**: Square inches (Imperial unit of area).\n- **$\text{cm}^2$**: Square centimeters (Metric unit of area).\n\n## Boundary Conditions / Domain\n- Values must be strictly $A \geq 0$.\n- This constant is exact, derived by squaring the definition of 1 inch ($1 \text{ in} \equiv 2.54 \text{ cm}$).",
+"back": "## Component Anatomy\n- **$\\text{in}^2$**: Square inches (Imperial unit of area).\n- **$\\text{cm}^2$**: Square centimeters (Metric unit of area).\n\n## Boundary Conditions / Domain\n- Values must be strictly $A \\geq 0$.\n- This constant is exact, derived by squaring the definition of 1 inch ($1 \\text{ in} \\equiv 2.54 \\text{ cm}$).",
 "formulaMeta": {
-"formula": "1 \text{ in}^2 = 6.4516 \text{ cm}^2",
+"formula": "1 \\text{ in}^2 = 6.4516 \\text{ cm}^2",
 "description": "The exact algebraic conversion factor from square inches to square centimeters.",
-"derivation": "- **Step 1:** State the 1D conversion: $1 \text{ in} = 2.54 \text{ cm}$.\n- **Step 2:** Square both sides for 2D area: $(1 \text{ in})^2 = (2.54 \text{ cm})^2$.\n- **Step 3:** Calculate: $2.54 \times 2.54 = 6.4516 \text{ cm}^2$."
+"derivation": "- **Step 1:** State the 1D conversion: $1 \\text{ in} = 2.54 \\text{ cm}$.\n- **Step 2:** Square both sides for 2D area: $(1 \\text{ in})^2 = (2.54 \\text{ cm})^2$.\n- **Step 3:** Calculate: $2.54 \\times 2.54 = 6.4516 \\text{ cm}^2$."
 }
 }
 },
@@ -79,11 +79,11 @@
 ],
 "order": 3,
 "heading": "Macro-Scale Land Area Conversions",
-"back": "## Component Anatomy\n- **$\text{acre}$**: Customary unit of land area commonly used for agricultural plots.\n- **$\text{km}^2$**: Square kilometers, used for measuring macro-regional scale areas.\n\n## Boundary Conditions / Domain\n- Variables representing physical area must be strictly positive.\n- These are exact integer conversion constants.",
+"back": "## Component Anatomy\n- **$\\text{acre}$**: Customary unit of land area commonly used for agricultural plots.\n- **$\\text{km}^2$**: Square kilometers, used for measuring macro-regional scale areas.\n\n## Boundary Conditions / Domain\n- Variables representing physical area must be strictly positive.\n- These are exact integer conversion constants.",
 "formulaMeta": {
-"formula": "\begin{aligned} 1 \text{ acre} &= 43,560 \text{ ft}^2 \\ 1 \text{ km}^2 &= 1,000,000 \text{ m}^2 \end{aligned}",
+"formula": "\\begin{aligned} 1 \\text{ acre} &= 43,560 \\text{ ft}^2 \\ 1 \\text{ km}^2 &= 1,000,000 \\text{ m}^2 \\end{aligned}",
 "description": "Standard numerical conversions for macro land measurements (Acre and Square Kilometer).",
-"derivation": "- A square kilometer is a square of $1000 \text{ m}$ by $1000 \text{ m}$.\n- Therefore, $(1000 \text{ m})^2 = 1,000,000 \text{ m}^2$."
+"derivation": "- A square kilometer is a square of $1000 \\text{ m}$ by $1000 \\text{ m}$.\n- Therefore, $(1000 \\text{ m})^2 = 1,000,000 \\text{ m}^2$."
 }
 }
 },
@@ -111,9 +111,9 @@
 "heading": "Quadratic Area Scaling Theorem for Similar Figures",
 "back": "## Component Anatomy\n- **$A_{new}$**: The area of the scaled figure.\n- **$A_{old}$**: The initial area before scaling.\n- **$n$**: The linear scaling factor (scalar multiplier applied to all 1D dimensions).\n\n## Boundary Conditions / Domain\n- Valid across all 2D shapes strictly when *ALL* corresponding linear dimensions are scaled proportionally (i.e., the shapes are similar).\n- $n > 0$. If $n < 1$, the shape shrinks. If $n > 1$, the shape expands.",
 "formulaMeta": {
-"formula": "A_{new} = n^2 \times A_{old}",
+"formula": "A_{new} = n^2 \\times A_{old}",
 "description": "The general mathematical relationship for calculating the new area of a 2D figure when its linear dimensions are scaled by a factor of n.",
-"derivation": "- **Step 1:** Area inherently involves the multiplication of two orthogonal linear dimensions (e.g., $L \times W$).\n- **Step 2:** Scale both dimensions by factor $n$: $(n \cdot L)$ and $(n \cdot W)$.\n- **Step 3:** Multiply to find the new area: $(n \cdot L) \times (n \cdot W) = n^2 (L \times W) = n^2 A_{old}$."
+"derivation": "- **Step 1:** Area inherently involves the multiplication of two orthogonal linear dimensions (e.g., $L \\times W$).\n- **Step 2:** Scale both dimensions by factor $n$: $(n \\cdot L)$ and $(n \\cdot W)$.\n- **Step 3:** Multiply to find the new area: $(n \\cdot L) \\times (n \\cdot W) = n^2 (L \\times W) = n^2 A_{old}$."
 }
 }
 },
@@ -142,7 +142,7 @@
 "formulaMeta": {
 "formula": "A_{path} = A_{outer} - A_{inner}",
 "description": "Calculates the area of a uniform path laid around a rectangular region using geometric subtraction.",
-"derivation": "- **Step 1:** Identify the inner dimensions $L$ and $B$.\n- **Step 2:** Calculate outer dimensions by adding twice the path width $w$ to each dimension: Outer Length = $L + 2w$, Outer Breadth = $B + 2w$.\n- **Step 3:** Calculate $A_{outer} = (L + 2w)(B + 2w)$.\n- **Step 4:** Calculate $A_{inner} = L \times B$.\n- **Step 5:** Subtract $A_{inner}$ from $A_{outer}$ to isolate the path area."
+"derivation": "- **Step 1:** Identify the inner dimensions $L$ and $B$.\n- **Step 2:** Calculate outer dimensions by adding twice the path width $w$ to each dimension: Outer Length = $L + 2w$, Outer Breadth = $B + 2w$.\n- **Step 3:** Calculate $A_{outer} = (L + 2w)(B + 2w)$.\n- **Step 4:** Calculate $A_{inner} = L \\times B$.\n- **Step 5:** Subtract $A_{inner}$ from $A_{outer}$ to isolate the path area."
 }
 }
 },
@@ -166,11 +166,11 @@
 ],
 "order": 6,
 "heading": "Area of an Orthogonal Intersecting Cross-Path",
-"back": "## Component Anatomy\n- **$L, B$**: Length and breadth of the main rectangular plot.\n- **$w_1, w_2$**: Widths of the horizontal and vertical paths, respectively.\n- **$w_1 \times w_2$**: The central intersection square/rectangle that is double-counted.\n\n## Boundary Conditions / Domain\n- $0 < w_1 < B$ (horizontal path width must be less than total breadth).\n- $0 < w_2 < L$ (vertical path width must be less than total length).",
+"back": "## Component Anatomy\n- **$L, B$**: Length and breadth of the main rectangular plot.\n- **$w_1, w_2$**: Widths of the horizontal and vertical paths, respectively.\n- **$w_1 \\times w_2$**: The central intersection square/rectangle that is double-counted.\n\n## Boundary Conditions / Domain\n- $0 < w_1 < B$ (horizontal path width must be less than total breadth).\n- $0 < w_2 < L$ (vertical path width must be less than total length).",
 "formulaMeta": {
-"formula": "A_{cross} = (L \times w_1) + (B \times w_2) - (w_1 \times w_2)",
+"formula": "A_{cross} = (L \\times w_1) + (B \\times w_2) - (w_1 \\times w_2)",
 "description": "Calculates the exact area of orthogonal cross-paths inside a rectangle, correcting for the overlapping intersection.",
-"derivation": "- **Step 1:** Calculate area of the Horizontal Path = $L \times w_1$.\n- **Step 2:** Calculate area of the Vertical Path = $B \times w_2$.\n- **Step 3:** Summing them double-counts the central intersection region where they cross.\n- **Step 4:** Isolate the intersection region area ($w_1 \times w_2$) and subtract it once to correct the total."
+"derivation": "- **Step 1:** Calculate area of the Horizontal Path = $L \\times w_1$.\n- **Step 2:** Calculate area of the Vertical Path = $B \\times w_2$.\n- **Step 3:** Summing them double-counts the central intersection region where they cross.\n- **Step 4:** Isolate the intersection region area ($w_1 \\times w_2$) and subtract it once to correct the total."
 }
 }
 },
@@ -198,7 +198,7 @@
 "heading": "Fundamental Area Formula for Any Triangle",
 "back": "## Component Anatomy\n- **$b$**: The base of the triangle (any chosen side).\n- **$h$**: The altitude (perpendicular height) drawn strictly from the opposite vertex to the line containing chosen base.\n\n## Boundary Conditions / Domain\n- Formula is universally valid for ALL triangles in Euclidean geometry (acute, right, obtuse).\n- $b > 0, h > 0$.\n- In obtuse triangles, the altitude $h$ will drop outside the physical boundary of the triangle onto an extended line from the base.",
 "formulaMeta": {
-"formula": "A = \frac{1}{2} \times b \times h",
+"formula": "A = \\frac{1}{2} \\times b \\times h",
 "description": "The universal formula determining the 2D space enclosed by a three-sided polygon.",
 "derivation": "- **Step 1:** Circumscribe the triangle within a bounding rectangle of length $b$ and height $h$.\n- **Step 2:** Dropping the perpendicular altitude $h$ from the top vertex to base $b$ splits the bounding rectangle into two sub-rectangles.\n- **Step 3:** The slanted sides of the triangle exactly bisect these two sub-rectangles diagonally.\n- **Step 4:** Therefore, the triangle's total area is strictly half the bounding rectangle's area ($bh$)."
 }
@@ -226,9 +226,9 @@
 "heading": "Equating Areas to Determine Secondary Triangle Altitudes",
 "back": "## Component Anatomy\n- **$b_1, h_1$**: A strictly known base and its corresponding known altitude.\n- **$b_2, h_2$**: A secondary known base and its corresponding unknown altitude.\n\n## Boundary Conditions / Domain\n- $b_1, b_2, h_1, h_2 > 0$.\n- Both altitude-base pairs must belong to the exact same triangle.",
 "formulaMeta": {
-"formula": "\frac{1}{2} \times b_1 \times h_1 = \frac{1}{2} \times b_2 \times h_2",
+"formula": "\\frac{1}{2} \\times b_1 \\times h_1 = \\frac{1}{2} \\times b_2 \\times h_2",
 "description": "An algebraic identity used to solve for an unknown altitude when given an alternative base-altitude pair.",
-"derivation": "- **Step 1:** Calculate the constant area of the triangle using the primary known base and height ($A = \frac{1}{2}b_1h_1$).\n- **Step 2:** Formulate the area equation using the secondary base and the unknown height ($A = \frac{1}{2}b_2h_2$).\n- **Step 3:** Since the area is geometrically conserved, equate the two expressions.\n- **Step 4:** Cancel the $\frac{1}{2}$ multiplier from both sides ($b_1h_1 = b_2h_2$) and divide by $b_2$ to isolate $h_2$."
+"derivation": "- **Step 1:** Calculate the constant area of the triangle using the primary known base and height ($A = \\frac{1}{2}b_1h_1$).\n- **Step 2:** Formulate the area equation using the secondary base and the unknown height ($A = \\frac{1}{2}b_2h_2$).\n- **Step 3:** Since the area is geometrically conserved, equate the two expressions.\n- **Step 4:** Cancel the $\\frac{1}{2}$ multiplier from both sides ($b_1h_1 = b_2h_2$) and divide by $b_2$ to isolate $h_2$."
 }
 }
 },
@@ -253,11 +253,11 @@
 ],
 "order": 9,
 "heading": "Area of a Regular Equilateral Triangle",
-"back": "## Component Anatomy\n- **$a$**: The strictly uniform side length of the equilateral triangle.\n- **$\sqrt{3}$**: An irrational constant mathematically approximating to $1.732$.\n\n## Boundary Conditions / Domain\n- $a > 0$.\n- Strictly restricted to triangles where all three interior angles are exactly $60^\circ$ and all three sides are $a$.",
+"back": "## Component Anatomy\n- **$a$**: The strictly uniform side length of the equilateral triangle.\n- **$\\sqrt{3}$**: An irrational constant mathematically approximating to $1.732$.\n\n## Boundary Conditions / Domain\n- $a > 0$.\n- Strictly restricted to triangles where all three interior angles are exactly $60^\\circ$ and all three sides are $a$.",
 "formulaMeta": {
-"formula": "A = \frac{\sqrt{3}}{4} a^2",
+"formula": "A = \\frac{\\sqrt{3}}{4} a^2",
 "description": "Calculates the area of an equilateral triangle directly from its side length without needing the altitude.",
-"derivation": "- **Step 1:** Drop an altitude $h$, bisecting the base $a$ into two segments of $\frac{a}{2}$ and forming two right triangles.\n- **Step 2:** Apply Pythagorean Theorem: $h^2 + (\frac{a}{2})^2 = a^2$.\n- **Step 3:** Solve for $h$: $h^2 = a^2 - \frac{a^2}{4} = \frac{3a^2}{4}$. Thus, $h = \frac{\sqrt{3}}{2}a$.\n- **Step 4:** Substitute $h$ into the general area formula: $A = \frac{1}{2} \cdot a \cdot (\frac{\sqrt{3}}{2}a) = \frac{\sqrt{3}}{4}a^2$."
+"derivation": "- **Step 1:** Drop an altitude $h$, bisecting the base $a$ into two segments of $\\frac{a}{2}$ and forming two right triangles.\n- **Step 2:** Apply Pythagorean Theorem: $h^2 + (\\frac{a}{2})^2 = a^2$.\n- **Step 3:** Solve for $h$: $h^2 = a^2 - \\frac{a^2}{4} = \\frac{3a^2}{4}$. Thus, $h = \\frac{\\sqrt{3}}{2}a$.\n- **Step 4:** Substitute $h$ into the general area formula: $A = \\frac{1}{2} \\cdot a \\cdot (\\frac{\\sqrt{3}}{2}a) = \\frac{\\sqrt{3}}{4}a^2$."
 }
 }
 },
@@ -281,7 +281,7 @@
 ],
 "order": 10,
 "heading": "Isoperimetric Inequality Application: Square vs. Triangle",
-"back": "## Explanation\n- If an equilateral triangle and a square share the **exact same side length $a$**, the **Square mathematically guarantees a strictly greater area**.\n\n## Algebraic Proof\n- Area of Square = $a^2$ (Coefficient = $1.0$).\n- Area of Equilateral Triangle = $\frac{\sqrt{3}}{4} a^2$.\n- Since $\sqrt{3} \approx 1.732$, the coefficient is $\frac{1.732}{4} = 0.433$.\n- Because $1.0 > 0.433$, the square covers more than double the 2D area for the same side length parameter.",
+"back": "## Explanation\n- If an equilateral triangle and a square share the **exact same side length $a$**, the **Square mathematically guarantees a strictly greater area**.\n\n## Algebraic Proof\n- Area of Square = $a^2$ (Coefficient = $1.0$).\n- Area of Equilateral Triangle = $\\frac{\\sqrt{3}}{4} a^2$.\n- Since $\\sqrt{3} \\approx 1.732$, the coefficient is $\\frac{1.732}{4} = 0.433$.\n- Because $1.0 > 0.433$, the square covers more than double the 2D area for the same side length parameter.",
 "standardMeta": {
 "question": "If you are given a square and an equilateral triangle that share the exact same parameter side length $a$, which shape mathematically bounds a greater area?"
 }
@@ -307,7 +307,7 @@
 ],
 "order": 11,
 "heading": "Composite Area Inequality: Square vs. Double Triangle",
-"back": "## Explanation\n- Counterintuitively, the **single Square still encloses a strictly greater total area** than the two combined triangles.\n\n## Algebraic Proof\n- Area of Square = $a^2$ (Coefficient = $1.00$).\n- Area of TWO Equilateral Triangles = $2 \times (\frac{\sqrt{3}}{4} a^2) = \frac{\sqrt{3}}{2} a^2$.\n- Since $\frac{\sqrt{3}}{2} \approx 0.866$, the combined area ($0.866 a^2$) remains strictly less than the square's area ($1.00 a^2$).",
+"back": "## Explanation\n- Counterintuitively, the **single Square still encloses a strictly greater total area** than the two combined triangles.\n\n## Algebraic Proof\n- Area of Square = $a^2$ (Coefficient = $1.00$).\n- Area of TWO Equilateral Triangles = $2 \\times (\\frac{\\sqrt{3}}{4} a^2) = \\frac{\\sqrt{3}}{2} a^2$.\n- Since $\\frac{\\sqrt{3}}{2} \\approx 0.866$, the combined area ($0.866 a^2$) remains strictly less than the square's area ($1.00 a^2$).",
 "standardMeta": {
 "question": "If you evaluate the total 2D area of a single square with side $a$ against the combined total area of TWO independent equilateral triangles, each with side $a$, which configuration encloses greater area?"
 }
@@ -334,7 +334,7 @@
 ],
 "order": 12,
 "heading": "Median Area Bisection Theorem",
-"back": "## Explanation\n- A median (the straight line segment joining a vertex to the exact geometric midpoint of its opposite side) **always mathematically bisects the triangle into two sub-triangles of exactly equal area**.\n\n## Geometric Proof Reasoning\n- **Shared Base Constraint:** By definition of a midpoint, the base of the original triangle is split into two perfectly equal collinear segments.\n- **Shared Altitude Constraint:** Both newly formed triangles extend to the same top vertex, thus sharing the exact same perpendicular height dropped from that vertex.\n- Since both $b$ and $h$ are identical, $\frac{1}{2}bh$ is perfectly conserved across both halves.",
+"back": "## Explanation\n- A median (the straight line segment joining a vertex to the exact geometric midpoint of its opposite side) **always mathematically bisects the triangle into two sub-triangles of exactly equal area**.\n\n## Geometric Proof Reasoning\n- **Shared Base Constraint:** By definition of a midpoint, the base of the original triangle is split into two perfectly equal collinear segments.\n- **Shared Altitude Constraint:** Both newly formed triangles extend to the same top vertex, thus sharing the exact same perpendicular height dropped from that vertex.\n- Since both $b$ and $h$ are identical, $\\frac{1}{2}bh$ is perfectly conserved across both halves.",
 "standardMeta": {
 "question": "What is the definitive geometric consequence of drawing a triangle's median concerning the 2D area of the resulting sub-triangles?"
 }
@@ -361,11 +361,11 @@
 ],
 "order": 13,
 "heading": "Midsegment Theorem Area Proportionality",
-"back": "## Component Anatomy\n- **$A_{XYZ}$**: The total bounding area of the parent triangle.\n- **$A_{XMN}$**: The smaller bounded area formed by connecting midpoints $M$ and $N$ of two respective sides.\n\n## Boundary Conditions / Domain\n- Points $M$ and $N$ **MUST** strictly be the exact geometrical midpoints. If the segments are divided in any ratio other than $1:1$, this specific $\frac{1}{4}$ scaling law fails.",
+"back": "## Component Anatomy\n- **$A_{XYZ}$**: The total bounding area of the parent triangle.\n- **$A_{XMN}$**: The smaller bounded area formed by connecting midpoints $M$ and $N$ of two respective sides.\n\n## Boundary Conditions / Domain\n- Points $M$ and $N$ **MUST** strictly be the exact geometrical midpoints. If the segments are divided in any ratio other than $1:1$, this specific $\\frac{1}{4}$ scaling law fails.",
 "formulaMeta": {
-"formula": "A_{XMN} = \frac{1}{4} \times A_{XYZ}",
+"formula": "A_{XMN} = \\frac{1}{4} \\times A_{XYZ}",
 "description": "Expresses the quadratic scaling relationship of the area when a triangle is truncated via its midsegment.",
-"derivation": "- **Step 1:** By the Midpoint Theorem, the transversal connecting midpoints $M$ and $N$ is perfectly parallel to the base and measures exactly half its linear length ($b_{new} = \frac{1}{2}b$).\n- **Step 2:** The smaller triangle is similar to the larger triangle (AAA similarity due to parallel lines).\n- **Step 3:** Its perpendicular altitude is also cut exactly in half ($h_{new} = \frac{1}{2}h$).\n- **Step 4:** Area calculation: $\frac{1}{2} \cdot (\frac{1}{2}b) \cdot (\frac{1}{2}h) = \frac{1}{4} \cdot (\frac{1}{2}bh)$. The area is strictly $\frac{1}{4}$ of the original."
+"derivation": "- **Step 1:** By the Midpoint Theorem, the transversal connecting midpoints $M$ and $N$ is perfectly parallel to the base and measures exactly half its linear length ($b_{new} = \\frac{1}{2}b$).\n- **Step 2:** The smaller triangle is similar to the larger triangle (AAA similarity due to parallel lines).\n- **Step 3:** Its perpendicular altitude is also cut exactly in half ($h_{new} = \\frac{1}{2}h$).\n- **Step 4:** Area calculation: $\\frac{1}{2} \\cdot (\\frac{1}{2}b) \\cdot (\\frac{1}{2}h) = \\frac{1}{4} \\cdot (\\frac{1}{2}bh)$. The area is strictly $\\frac{1}{4}$ of the original."
 }
 }
 },
@@ -390,7 +390,7 @@
 ],
 "order": 14,
 "heading": "Area Invariance for Triangles Between Parallel Lines",
-"back": "## Explanation\n- If an infinite set of triangles share the **exact same rigid base segment**, and their third vertices all lie anywhere along a line strictly parallel to that base, **all these triangles are mathematically guaranteed to have the exact same area**.\n\n## Geometric Reasoning\n- By Euclidean definition, the shortest perpendicular distance between two strictly parallel lines is perfectly constant.\n- Therefore, the altitude ($h$) for every triangle in this set is identical.\n- Since the base ($b$) is shared and constant, the product $\frac{1}{2}bh$ remains invariant, regardless of how far left or right the third vertex shifts (skewing the triangle).",
+"back": "## Explanation\n- If an infinite set of triangles share the **exact same rigid base segment**, and their third vertices all lie anywhere along a line strictly parallel to that base, **all these triangles are mathematically guaranteed to have the exact same area**.\n\n## Geometric Reasoning\n- By Euclidean definition, the shortest perpendicular distance between two strictly parallel lines is perfectly constant.\n- Therefore, the altitude ($h$) for every triangle in this set is identical.\n- Since the base ($b$) is shared and constant, the product $\\frac{1}{2}bh$ remains invariant, regardless of how far left or right the third vertex shifts (skewing the triangle).",
 "standardMeta": {
 "question": "What is the geometric outcome regarding area if you continuously slide a triangle's third vertex along a line strictly parallel to its fixed base?"
 }
@@ -446,7 +446,7 @@
 "heading": "Area of a Parallelogram (General Formula)",
 "back": "## Component Anatomy\n- **$b$**: The base of the parallelogram (any chosen side).\n- **$h$**: The perpendicular height measured exactly between the chosen base and its parallel opposite side.\n\n## Boundary Conditions / Domain\n- $b > 0, h > 0$.\n- **CRITICAL:** $h$ is strictly the perpendicular distance, NOT the length of the slanted side.",
 "formulaMeta": {
-"formula": "A = b \times h",
+"formula": "A = b \\times h",
 "description": "Calculates the total 2D area enclosed by a quadrilateral with two pairs of parallel sides.",
 "derivation": "- **The Dissection Method:** Drop a perpendicular altitude to cut off a right-angled triangle from one end.\n- Translate this isolated triangle to the opposite slanted side.\n- The pieces perfectly interlock to form a standardized rectangle of width $b$ and height $h$."
 }
@@ -472,7 +472,7 @@
 ],
 "order": 17,
 "heading": "Area Inequality: Rectangle vs. Slanted Parallelogram",
-"back": "## Explanation\n- If a rectangle and a slanted (non-rectangular) parallelogram share the **exact same side lengths**, the **Rectangle will mathematically always have a strictly greater area**.\n\n## Geometric Reasoning\n- In a rectangle, the adjacent side *is* inherently the perpendicular height $h$.\n- In a non-rectangular parallelogram, the perpendicular height $h$ is the leg of a right triangle where the slanted side is the hypotenuse. Since the hypotenuse is strictly the longest side, $h < \text{slanted side}$.\n- Since Area = $b \times h$, the rectangle maximizes the altitude, thus maximizing area.",
+"back": "## Explanation\n- If a rectangle and a slanted (non-rectangular) parallelogram share the **exact same side lengths**, the **Rectangle will mathematically always have a strictly greater area**.\n\n## Geometric Reasoning\n- In a rectangle, the adjacent side *is* inherently the perpendicular height $h$.\n- In a non-rectangular parallelogram, the perpendicular height $h$ is the leg of a right triangle where the slanted side is the hypotenuse. Since the hypotenuse is strictly the longest side, $h < \\text{slanted side}$.\n- Since Area = $b \\times h$, the rectangle maximizes the altitude, thus maximizing area.",
 "standardMeta": {
 "question": "Given a rectangle and a slanted parallelogram with identical corresponding side lengths (e.g., sides of 5 cm and 4 cm), which shape mathematically bounds a greater area and why?"
 }
@@ -501,9 +501,9 @@
 "back": "## Component Anatomy\n- **$d_1, d_2$**: The linear lengths of the two intersecting diagonals.\n\n## Boundary Conditions / Domain\n- $d_1 > 0, d_2 > 0$.\n- Formula applies to *any* rhombus (where all 4 sides are equal). Since every square is geometrically a rhombus, this formula also perfectly calculates the area of a square given its diagonals.",
 "mnemonic": "Half the criss-cross product.",
 "formulaMeta": {
-"formula": "A = \frac{1}{2} \times d_1 \times d_2",
+"formula": "A = \\frac{1}{2} \\times d_1 \\times d_2",
 "description": "Calculates the area of a rhombus strictly using the lengths of its internal diagonals.",
-"derivation": "- **Step 1:** The diagonals of a rhombus strictly bisect each other at exactly $90^\circ$.\n- **Step 2:** This divides the shape into 4 congruent right triangles.\n- **Step 3:** Rearranging these 4 triangles yields a single solid rectangle of length $d_1$ and width $\frac{d_2}{2}$.\n- **Step 4:** Therefore, Area = $d_1 \times \frac{d_2}{2}$."
+"derivation": "- **Step 1:** The diagonals of a rhombus strictly bisect each other at exactly $90^\\circ$.\n- **Step 2:** This divides the shape into 4 congruent right triangles.\n- **Step 3:** Rearranging these 4 triangles yields a single solid rectangle of length $d_1$ and width $\\frac{d_2}{2}$.\n- **Step 4:** Therefore, Area = $d_1 \\times \\frac{d_2}{2}$."
 }
 }
 },
@@ -530,9 +530,9 @@
 "heading": "Area of a Standard Trapezium",
 "back": "## Component Anatomy\n- **$a, b$**: The strictly parallel opposite sides (the bases).\n- **$h$**: The orthogonal distance (perpendicular height) between the two parallel bases.\n\n## Boundary Conditions / Domain\n- The quadrilateral MUST have at least one pair of strictly parallel sides.\n- $a, b, h > 0$.",
 "formulaMeta": {
-"formula": "A = \frac{1}{2} \times h \times (a + b)",
+"formula": "A = \\frac{1}{2} \\times h \\times (a + b)",
 "description": "Calculates the area of a trapezium using its parallel bases and height.",
-"derivation": "- **Step 1:** Draw a single diagonal, dividing the trapezium into two distinct triangles.\n- **Step 2:** The top triangle has base $a$ and height $h$. Area = $\frac{1}{2}ah$.\n- **Step 3:** The bottom triangle has base $b$ and height $h$. Area = $\frac{1}{2}bh$.\n- **Step 4:** Summing them up and factoring out $\frac{1}{2}h$ yields the final formula."
+"derivation": "- **Step 1:** Draw a single diagonal, dividing the trapezium into two distinct triangles.\n- **Step 2:** The top triangle has base $a$ and height $h$. Area = $\\frac{1}{2}ah$.\n- **Step 3:** The bottom triangle has base $b$ and height $h$. Area = $\\frac{1}{2}bh$.\n- **Step 4:** Summing them up and factoring out $\\frac{1}{2}h$ yields the final formula."
 }
 }
 },
@@ -556,7 +556,7 @@
 ],
 "order": 20,
 "heading": "Geometric Proof: Two-Copy Trapezium Method",
-"back": "## Step-by-Step Geometric Dissection\n- **Step 1:** Initialize two perfectly identical (congruent) copies of a given trapezium with parallel bases $a$ and $b$.\n- **Step 2:** Rotate the second copy exactly $180^\circ$ on a 2D plane.\n- **Step 3:** Translate and join them flush along their non-parallel slanted edges.\n- **Resulting Shape:** They physically lock together to form one perfectly continuous **Parallelogram**.\n- **Algebraic Deduction:** The base of this new macroscopic parallelogram is $(a + b)$ and its height remains $h$. The total area is $h(a+b)$. Since it is composed of two identical trapeziums, a single trapezium's area is exactly half: $\frac{1}{2}h(a+b)$.",
+"back": "## Step-by-Step Geometric Dissection\n- **Step 1:** Initialize two perfectly identical (congruent) copies of a given trapezium with parallel bases $a$ and $b$.\n- **Step 2:** Rotate the second copy exactly $180^\\circ$ on a 2D plane.\n- **Step 3:** Translate and join them flush along their non-parallel slanted edges.\n- **Resulting Shape:** They physically lock together to form one perfectly continuous **Parallelogram**.\n- **Algebraic Deduction:** The base of this new macroscopic parallelogram is $(a + b)$ and its height remains $h$. The total area is $h(a+b)$. Since it is composed of two identical trapeziums, a single trapezium's area is exactly half: $\\frac{1}{2}h(a+b)$.",
 "standardMeta": {
 "question": "Detail the algorithmic geometric procedure to prove the formula for the area of a trapezium by manipulating two strictly identical copies of it."
 }
@@ -635,7 +635,7 @@
 ],
 "order": 23,
 "heading": "General Trapezium Midpoint Dissection (Part 2: Transformation)",
-"back": "## Step-by-Step Transformation\n- **Assumption:** You have already drawn the midline and dropped the perpendiculars forming the bounding rectangle outline.\n- **Step 4:** Analyze the top boundary. The midline slices off two small triangular pieces at the top left and right corners of the trapezium.\n- **Step 5:** By ASA congruence (derived from the midpoint bisection and parallel transversals), these two cut-off top triangles are exactly congruent to the empty geometric void spaces at the bottom corners of the newly drawn bounding rectangle.\n- **Step 6:** Rotate these top triangular pieces exactly $180^\circ$ around the midpoints. They will perfectly tessellate into the bottom voids, yielding a mathematically equivalent solid rectangle.",
+"back": "## Step-by-Step Transformation\n- **Assumption:** You have already drawn the midline and dropped the perpendiculars forming the bounding rectangle outline.\n- **Step 4:** Analyze the top boundary. The midline slices off two small triangular pieces at the top left and right corners of the trapezium.\n- **Step 5:** By ASA congruence (derived from the midpoint bisection and parallel transversals), these two cut-off top triangles are exactly congruent to the empty geometric void spaces at the bottom corners of the newly drawn bounding rectangle.\n- **Step 6:** Rotate these top triangular pieces exactly $180^\\circ$ around the midpoints. They will perfectly tessellate into the bottom voids, yielding a mathematically equivalent solid rectangle.",
 "standardMeta": {
 "question": "Once the midline and bounding rectangle are constructed for a general trapezium, how do you manipulate the resulting shapes to mathematically prove the area is transformed into a perfect rectangle?"
 }
@@ -661,7 +661,7 @@
 ],
 "order": 24,
 "heading": "Trapezium to Triangle Conversion (Part 1: Construction)",
-"back": "## Geometric Construction Algorithm\n- **Context:** Transforming trapezium $ZYXW$ ($ZY \parallel WX$) into a single triangle.\n- **Step 1:** Locate point $A$, the exact geometrical midpoint of the non-parallel right side $XY$.\n- **Step 2:** Extend the bottom horizontal base $WX$ indefinitely to the right.\n- **Step 3:** Draw a straight line starting from the top-left vertex $Z$, passing perfectly straight through midpoint $A$, until it intersects the extended base line at a new point $B$.\n- **Result:** This creates a massive new triangle $\Delta ZWB$ and forms two smaller isolated sub-triangles near the midpoint.",
+"back": "## Geometric Construction Algorithm\n- **Context:** Transforming trapezium $ZYXW$ ($ZY \\parallel WX$) into a single triangle.\n- **Step 1:** Locate point $A$, the exact geometrical midpoint of the non-parallel right side $XY$.\n- **Step 2:** Extend the bottom horizontal base $WX$ indefinitely to the right.\n- **Step 3:** Draw a straight line starting from the top-left vertex $Z$, passing perfectly straight through midpoint $A$, until it intersects the extended base line at a new point $B$.\n- **Result:** This creates a massive new triangle $\\Delta ZWB$ and forms two smaller isolated sub-triangles near the midpoint.",
 "standardMeta": {
 "question": "Detail the strictly algorithmic geometric construction steps to extend a trapezium ($ZYXW$) into a massive triangle using the midpoint of its slanted side."
 }
@@ -687,11 +687,11 @@
 ],
 "order": 25,
 "heading": "Trapezium to Triangle Conversion (Part 2: ASA Proof)",
-"back": "## Component Anatomy\n- **$\Delta ZYA$**: The top sub-triangle strictly outside the new large triangle boundary.\n- **$\Delta BXA$**: The bottom sub-triangle newly added to the base.\n\n## Boundary Conditions / Domain\n- Point $A$ MUST be the geometric midpoint ($YA = XA$). The theorem mathematically collapses if the line is divided in any other ratio.",
+"back": "## Component Anatomy\n- **$\\Delta ZYA$**: The top sub-triangle strictly outside the new large triangle boundary.\n- **$\\Delta BXA$**: The bottom sub-triangle newly added to the base.\n\n## Boundary Conditions / Domain\n- Point $A$ MUST be the geometric midpoint ($YA = XA$). The theorem mathematically collapses if the line is divided in any other ratio.",
 "formulaMeta": {
-"formula": "\text{Area}(ZYXW) = \text{Area}(\Delta ZWB)",
+"formula": "\\text{Area}(ZYXW) = \\text{Area}(\\Delta ZWB)",
 "description": "Proof that the area of the original trapezium equals the new constructed triangle.",
-"derivation": "- **Step 1:** Analyze the two sub-triangles $\Delta ZYA$ and $\Delta BXA$.\n- **Step 2:** Angle $YAZ = \text{Angle } XAB$ (Vertical Opposite Angles).\n- **Step 3:** Side $YA = XA$ (Given, $A$ is strictly a midpoint).\n- **Step 4:** Angle $ZYA = \text{Angle } BXA$ (Alternate Interior Angles from parallel lines $ZY \parallel WX$).\n- **Step 5:** By ASA Congruence, $\Delta ZYA \cong \Delta BXA$.\n- **Conclusion:** The area lost at the top exactly equals the area gained at the bottom, perfectly conserving total area."
+"derivation": "- **Step 1:** Analyze the two sub-triangles $\\Delta ZYA$ and $\\Delta BXA$.\n- **Step 2:** Angle $YAZ = \\text{Angle } XAB$ (Vertical Opposite Angles).\n- **Step 3:** Side $YA = XA$ (Given, $A$ is strictly a midpoint).\n- **Step 4:** Angle $ZYA = \\text{Angle } BXA$ (Alternate Interior Angles from parallel lines $ZY \\parallel WX$).\n- **Step 5:** By ASA Congruence, $\\Delta ZYA \\cong \\Delta BXA$.\n- **Conclusion:** The area lost at the top exactly equals the area gained at the bottom, perfectly conserving total area."
 }
 }
 },
@@ -718,9 +718,9 @@
 "heading": "Area of a General Irregular Quadrilateral",
 "back": "## Component Anatomy\n- **$d$**: The length of one chosen internal diagonal connecting opposite vertices.\n- **$h_1, h_2$**: The strictly perpendicular heights (altitudes) dropped from the remaining two un-connected vertices directly onto the chosen diagonal $d$.\n\n## Boundary Conditions / Domain\n- The quadrilateral must be simple (non-self-intersecting).\n- $d, h_1, h_2 > 0$.",
 "formulaMeta": {
-"formula": "A = \frac{1}{2} \times d \times (h_1 + h_2)",
+"formula": "A = \\frac{1}{2} \\times d \\times (h_1 + h_2)",
 "description": "Calculates the area of any general 4-sided polygon by dividing it along a diagonal.",
-"derivation": "- **Step 1:** Draw internal diagonal $d$, physically splitting the generic quadrilateral into two triangles.\n- **Step 2:** Area of Triangle 1 = $\frac{1}{2} \cdot d \cdot h_1$.\n- **Step 3:** Area of Triangle 2 = $\frac{1}{2} \cdot d \cdot h_2$.\n- **Step 4:** Factor out the common $\frac{1}{2}d$ term to yield $\frac{1}{2}d(h_1 + h_2)$."
+"derivation": "- **Step 1:** Draw internal diagonal $d$, physically splitting the generic quadrilateral into two triangles.\n- **Step 2:** Area of Triangle 1 = $\\frac{1}{2} \\cdot d \\cdot h_1$.\n- **Step 3:** Area of Triangle 2 = $\\frac{1}{2} \\cdot d \\cdot h_2$.\n- **Step 4:** Factor out the common $\\frac{1}{2}d$ term to yield $\\frac{1}{2}d(h_1 + h_2)$."
 }
 }
 },
@@ -773,9 +773,9 @@
 "heading": "Classical Geometry: Rectangle to Isomeric Triangle",
 "back": "## Component Anatomy\n- **$b_{rect}, h_{rect}$**: Strict base and perpendicular height of the starting given rectangle.\n- **$b_{tri}, h_{tri}$**: Base and altitude of the constructed resulting triangle.\n\n## Boundary Conditions / Domain\n- The 2D Area parameter must remain perfectly conserved between the two differing geometric forms.",
 "formulaMeta": {
-"formula": "\begin{aligned} b_{tri} &= 2 \times b_{rect} \\ h_{tri} &= h_{rect} \end{aligned}",
+"formula": "\\begin{aligned} b_{tri} &= 2 \\times b_{rect} \\ h_{tri} &= h_{rect} \\end{aligned}",
 "description": "Śulba-Sūtras dimension shifts required to construct a triangle of exactly equal area to a given rectangle.",
-"derivation": "- **Step 1:** The area of the target rectangle is $A = b_{rect} \cdot h_{rect}$.\n- **Step 2:** The formula for the target triangle is $A = \frac{1}{2} \cdot b_{tri} \cdot h_{tri}$.\n- **Step 3:** To mathematically equate them ($b_{rect} \cdot h_{rect} = \frac{1}{2} \cdot b_{tri} \cdot h_{tri}$), you must strategically absorb the $\frac{1}{2}$ multiplier.\n- **Step 4:** By holding the height constant ($h_{tri} = h_{rect}$), you must strictly double the base length ($b_{tri} = 2b_{rect}$) to nullify the fraction."
+"derivation": "- **Step 1:** The area of the target rectangle is $A = b_{rect} \\cdot h_{rect}$.\n- **Step 2:** The formula for the target triangle is $A = \\frac{1}{2} \\cdot b_{tri} \\cdot h_{tri}$.\n- **Step 3:** To mathematically equate them ($b_{rect} \\cdot h_{rect} = \\frac{1}{2} \\cdot b_{tri} \\cdot h_{tri}$), you must strategically absorb the $\\frac{1}{2}$ multiplier.\n- **Step 4:** By holding the height constant ($h_{tri} = h_{rect}$), you must strictly double the base length ($b_{tri} = 2b_{rect}$) to nullify the fraction."
 }
 }
 },
@@ -801,9 +801,9 @@
 "heading": "Classical Geometry: Triangle to Isomeric Rectangle",
 "back": "## Component Anatomy\n- **$b_{tri}, h_{tri}$**: Base and perpendicular altitude of the starting given triangle.\n- **$b_{rect}, h_{rect}$**: Base and height of the synthesized rectangle.\n\n## Boundary Conditions / Domain\n- The 2D Area parameter must remain perfectly conserved.\n- Dimensions must remain strictly positive real numbers.",
 "formulaMeta": {
-"formula": "\begin{aligned} b_{rect} &= b_{tri} \\ h_{rect} &= \frac{1}{2} \times h_{tri} \end{aligned}",
+"formula": "\\begin{aligned} b_{rect} &= b_{tri} \\ h_{rect} &= \\frac{1}{2} \\times h_{tri} \\end{aligned}",
 "description": "Inverse Śulba-Sūtras dimension shift to construct a rectangle of equal area to a given triangle.",
-"derivation": "- **Step 1:** Start with the triangle area: $A = \frac{1}{2} \cdot b_{tri} \cdot h_{tri}$.\n- **Step 2:** To map this into a rectangular area formula ($L \times W$), the $\frac{1}{2}$ coefficient must be intrinsically absorbed by one of the linear variables.\n- **Step 3:** Keep the base geometrically identical ($b_{rect} = b_{tri}$), but slice the perpendicular height strictly in half ($h_{rect} = \frac{1}{2}h_{tri}$)."
+"derivation": "- **Step 1:** Start with the triangle area: $A = \\frac{1}{2} \\cdot b_{tri} \\cdot h_{tri}$.\n- **Step 2:** To map this into a rectangular area formula ($L \\times W$), the $\\frac{1}{2}$ coefficient must be intrinsically absorbed by one of the linear variables.\n- **Step 3:** Keep the base geometrically identical ($b_{rect} = b_{tri}$), but slice the perpendicular height strictly in half ($h_{rect} = \\frac{1}{2}h_{tri}$)."
 }
 }
 },
@@ -830,9 +830,9 @@
 "heading": "Classical Geometry: Rhombus to Isomeric Rectangle",
 "back": "## Component Anatomy\n- **$d_1, d_2$**: The lengths of the two strictly perpendicular intersecting diagonals of the rhombus.\n- **$L, W$**: The derived length and width of the transformed equivalent rectangle.\n\n## Boundary Conditions / Domain\n- Geometric area must be conserved.\n- Applies universally to any rhombus.",
 "formulaMeta": {
-"formula": "\begin{aligned} L &= d_1 \\ W &= \frac{1}{2} \times d_2 \end{aligned}",
+"formula": "\\begin{aligned} L &= d_1 \\ W &= \\frac{1}{2} \\times d_2 \\end{aligned}",
 "description": "Dimensional mapping to construct a rectangle by physically dissecting a rhombus using its diagonals.",
-"derivation": "- **Step 1:** The diagonals of a rhombus act as perpendicular bisectors, splitting the 2D plane into 4 strictly congruent right-angled triangles.\n- **Step 2:** Group these into two isosceles triangles logically joined along the main diagonal $d_1$.\n- **Step 3:** Perform a geometric cut and rotate, translating each half into a rectangle.\n- **Step 4:** They lock together to form a single macroscopic rectangle where the length is the full primary diagonal ($L = d_1$) and the width is strictly cut to half the secondary diagonal ($W = \frac{d_2}{2}$)."
+"derivation": "- **Step 1:** The diagonals of a rhombus act as perpendicular bisectors, splitting the 2D plane into 4 strictly congruent right-angled triangles.\n- **Step 2:** Group these into two isosceles triangles logically joined along the main diagonal $d_1$.\n- **Step 3:** Perform a geometric cut and rotate, translating each half into a rectangle.\n- **Step 4:** They lock together to form a single macroscopic rectangle where the length is the full primary diagonal ($L = d_1$) and the width is strictly cut to half the secondary diagonal ($W = \\frac{d_2}{2}$)."
 }
 }
 },

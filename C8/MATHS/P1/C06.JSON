@@ -25,12 +25,12 @@
 ],
 "order": 1,
 "heading": "Algebraic Identity: Distributive Property of Multiplication",
-"back": "## Component Anatomy:\n- **$a$**: The external multiplier.\n- **$b, c$**: The terms inside the binomial being added.\n\n## Boundary Conditions / Domain:\n- $a, b, c \in \mathbb{R}$\n- The operation inherently requires a minimum of two terms inside the bracket to distribute over.",
+"back": "## Component Anatomy:\n- **$a$**: The external multiplier.\n- **$b, c$**: The terms inside the binomial being added.\n\n## Boundary Conditions / Domain:\n- $a, b, c \\in \\mathbb{R}$\n- The operation inherently requires a minimum of two terms inside the bracket to distribute over.",
 "mnemonic": "Pass the 'a' to every term inside to stay in the game.",
 "formulaMeta": {
 "formula": "a(b + c) = ab + ac",
 "description": "States the algebraic identity for distributing a single multiplier over an addition.",
-"derivation": "1. Geometrically, consider a rectangle of width $a$ and total length $(b+c)$.\n2. The total area is exactly $a \times (b+c)$.\n3. The rectangle can be split strictly into two smaller rectangles: one of area $ab$ and another of area $ac$.\n4. Therefore, $a(b+c) = ab + ac$."
+"derivation": "1. Geometrically, consider a rectangle of width $a$ and total length $(b+c)$.\n2. The total area is exactly $a \\times (b+c)$.\n3. The rectangle can be split strictly into two smaller rectangles: one of area $ab$ and another of area $ac$.\n4. Therefore, $a(b+c) = ab + ac$."
 }
 }
 },
@@ -58,7 +58,7 @@
 ],
 "order": 2,
 "heading": "Product Variation: Single Factor Increment by 1",
-"back": "## Component Anatomy:\n- **$ab$**: The initial baseline product.\n- **$a$**: The exact absolute value by which the total product increases.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$ab$**: The initial baseline product.\n- **$a$**: The exact absolute value by which the total product increases.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "a(b + 1) = ab + a",
 "description": "Calculates the strict numerical increase of a product $ab$ when the second factor $b$ is increased by exactly 1.",
@@ -90,7 +90,7 @@
 ],
 "order": 3,
 "heading": "Product Variation: Double Factor Increment by 1",
-"back": "## Component Anatomy:\n- **$ab$**: The original baseline product.\n- **$(a + b + 1)$**: The total absolute increment added to the original product due to the dual shift.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$ab$**: The original baseline product.\n- **$(a + b + 1)$**: The total absolute increment added to the original product due to the dual shift.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "(a + 1)(b + 1) = ab + a + b + 1",
 "description": "Expands the product algebraically when both constituent factors $a$ and $b$ are strictly increased by 1.",
@@ -122,7 +122,7 @@
 ],
 "order": 4,
 "heading": "Generalized Binomial Expansion: Mixed Variable Increments",
-"back": "## Component Anatomy:\n- **$m$**: The specific increment added to factor $a$.\n- **$n$**: The specific increment added to factor $b$.\n\n## Boundary Conditions / Domain:\n- $a, b, m, n \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$m$**: The specific increment added to factor $a$.\n- **$n$**: The specific increment added to factor $b$.\n\n## Boundary Conditions / Domain:\n- $a, b, m, n \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "(a + m)(b + n) = ab + an + bm + mn",
 "description": "Defines the generalized identity for expanding a product where base $a$ is offset by $m$ and base $b$ is offset by $n$.",
@@ -153,7 +153,7 @@
 ],
 "order": 5,
 "heading": "Algebraic Expansion: Binomial Multiplied by Trinomial",
-"back": "## Component Anatomy:\n- **$a, b$**: Individual terms of the leading binomial.\n- **$x, y, z$**: Individual terms of the trailing trinomial.\n\n## Boundary Conditions / Domain:\n- $a, b, x, y, z \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$a, b$**: Individual terms of the leading binomial.\n- **$x, y, z$**: Individual terms of the trailing trinomial.\n\n## Boundary Conditions / Domain:\n- $a, b, x, y, z \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "(a + b)(x + y + z) = ax + ay + az + bx + by + bz",
 "description": "Provides the strict algebraic expansion rule for multiplying a 2-term polynomial by a 3-term polynomial.",
@@ -185,7 +185,7 @@
 ],
 "order": 6,
 "heading": "Common Trap: Negative Monomial Distribution",
-"back": "- **The Trap:** When expanding expressions like $-3p(-5p + 2q)$, a frequent cognitive error is applying the negative sign strictly to the first inner term while ignoring subsequent terms.\n- **The Rule:** Mathematically, you MUST multiply both the coefficient magnitude AND the sign operator across *every* sequential term inside the bracket.\n- **Correct Procedure:**\n  - $(-3p) \times (-5p) = +15p^2$ (Negative $\times$ Negative = Positive)\n  - $(-3p) \times (+2q) = -6pq$ (Negative $\times$ Positive = Negative)\n- **Final Algorithmic Answer:** $15p^2 - 6pq$.",
+"back": "- **The Trap:** When expanding expressions like $-3p(-5p + 2q)$, a frequent cognitive error is applying the negative sign strictly to the first inner term while ignoring subsequent terms.\n- **The Rule:** Mathematically, you MUST multiply both the coefficient magnitude AND the sign operator across *every* sequential term inside the bracket.\n- **Correct Procedure:**\n  - $(-3p) \\times (-5p) = +15p^2$ (Negative $\\times$ Negative = Positive)\n  - $(-3p) \\times (+2q) = -6pq$ (Negative $\\times$ Positive = Negative)\n- **Final Algorithmic Answer:** $15p^2 - 6pq$.",
 "mnemonic": "The minus sign is a VIP; it visits every party in the bracket.",
 "standardMeta": {
 "question": "What is the critical mathematical error often made when distributing a negative monomial across a binomial (e.g., expanding $-3p(-5p + 2q)$), and what is the rigorously correct procedural result?"
@@ -246,7 +246,7 @@
 ],
 "order": 8,
 "heading": "Standard Identity 1A: Square of a Binomial Sum",
-"back": "## Component Anatomy:\n- **$a^2, b^2$**: The pure squares of the individual binomial terms.\n- **$2ab$**: The critical cross-product middle term that emerges during expansion.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$a^2, b^2$**: The pure squares of the individual binomial terms.\n- **$2ab$**: The critical cross-product middle term that emerges during expansion.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "mnemonic": "Square the first, square the last, double the product of the cast.",
 "formulaMeta": {
 "formula": "(a + b)^2 = a^2 + 2ab + b^2",
@@ -309,7 +309,7 @@
 ],
 "order": 10,
 "heading": "Standard Identity 1B: Square of a Binomial Difference",
-"back": "## Component Anatomy:\n- **$a^2, b^2$**: The squares of the individual terms, which remain strictly positive.\n- **$-2ab$**: The negative cross-product middle term generated by the binomial difference.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$a^2, b^2$**: The squares of the individual terms, which remain strictly positive.\n- **$-2ab$**: The negative cross-product middle term generated by the binomial difference.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "(a - b)^2 = a^2 - 2ab + b^2",
 "description": "States Standard Identity 1B, the specific algebraic expansion for the square of a binomial subtraction.",
@@ -346,7 +346,7 @@
 "formulaMeta": {
 "formula": "(a - b)^2 = a^2 - 2ab + b^2",
 "description": "Describes the visual geometric area-based proof for the algebraic expansion of $(a-b)^2$.",
-"derivation": "1. Begin with the total surface area of a large square with side length $a$, establishing an initial area of $a^2$.\n2. To isolate the physical area of the smaller $(a-b)$ dimensioned square, geometrically subtract two intersecting rectangles of dimensions $a \times b$ (effectively subtracting $2ab$).\n3. Because both rectangles physically overlap at a specific $b \times b$ corner, that corner sector representing area $b^2$ was inadvertently subtracted twice.\n4. Compensate by adding one $b^2$ area back to correct the double-subtraction, yielding: $a^2 - 2ab + b^2$."
+"derivation": "1. Begin with the total surface area of a large square with side length $a$, establishing an initial area of $a^2$.\n2. To isolate the physical area of the smaller $(a-b)$ dimensioned square, geometrically subtract two intersecting rectangles of dimensions $a \\times b$ (effectively subtracting $2ab$).\n3. Because both rectangles physically overlap at a specific $b \\times b$ corner, that corner sector representing area $b^2$ was inadvertently subtracted twice.\n4. Compensate by adding one $b^2$ area back to correct the double-subtraction, yielding: $a^2 - 2ab + b^2$."
 }
 }
 },
@@ -373,7 +373,7 @@
 ],
 "order": 12,
 "heading": "Standard Identity 1C: Product of Sum and Difference",
-"back": "## Component Anatomy:\n- **$a^2 - b^2$**: The final 'difference of two squares' output.\n- In this identity, the middle $ab$ cross-terms possess opposite signs and perfectly annihilate each other.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$a^2 - b^2$**: The final 'difference of two squares' output.\n- In this identity, the middle $ab$ cross-terms possess opposite signs and perfectly annihilate each other.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "mnemonic": "Conjugates crash the middle term to zero.",
 "formulaMeta": {
 "formula": "(a + b)(a - b) = a^2 - b^2",
@@ -405,7 +405,7 @@
 ],
 "order": 13,
 "heading": "Algebraic Synthesis: Sum of Conjugate Binomial Squares",
-"back": "## Component Anatomy:\n- **$(a+b)^2, (a-b)^2$**: The individual complete sum and difference square expansions.\n- **$2(a^2+b^2)$**: The simplified, factored combination remaining after cancellation.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$(a+b)^2, (a-b)^2$**: The individual complete sum and difference square expansions.\n- **$2(a^2+b^2)$**: The simplified, factored combination remaining after cancellation.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$",
 "formulaMeta": {
 "formula": "(a + b)^2 + (a - b)^2 = 2(a^2 + b^2)",
 "description": "Defines the specific algebraic resultant pattern generated when adding the expanded square of a sum $(a+b)^2$ directly to the square of a difference $(a-b)^2$.",
@@ -437,10 +437,10 @@
 ],
 "order": 14,
 "heading": "Advanced Generalization: Difference of N-th Powers",
-"back": "## Component Anatomy:\n- **$a, b$**: The variable bases of the algebraic expression.\n- **$n$**: The integer representing the highest exponent present in the generalized polynomial cascade.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}, n \geq 1$\n- $a, b \in \mathbb{R}$",
+"back": "## Component Anatomy:\n- **$a, b$**: The variable bases of the algebraic expression.\n- **$n$**: The integer representing the highest exponent present in the generalized polynomial cascade.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}, n \\geq 1$\n- $a, b \\in \\mathbb{R}$",
 "mnemonic": "The difference bracket strips one power; the rest cascade down.",
 "formulaMeta": {
-"formula": "a^{n+1} - b^{n+1} = (a - b)(a^n + a^{n-1}b + a^{n-2}b^2 + \dots + b^n)",
+"formula": "a^{n+1} - b^{n+1} = (a - b)(a^n + a^{n-1}b + a^{n-2}b^2 + \\dots + b^n)",
 "description": "States the formal generalized algebraic identity governing the difference of two identical generic powers.",
 "derivation": "1. Consider the cascading pattern established from the standard baseline identities.\n2. For $n=1$: $(a-b)(a+b) = a^2 - b^2$.\n3. For $n=2$: $(a-b)(a^2+ab+b^2) = a^3 - b^3$.\n4. For $n=3$: $(a-b)(a^3+a^2b+ab^2+b^3) = a^4 - b^4$.\n5. By distributing the initiating $(a-b)$ term entirely across the trailing polynomial, every intermediate cross-term structurally perfectly cancels out, leaving strictly the absolute highest power of $a$ minus the highest power of $b$."
 }
@@ -498,11 +498,11 @@
 ],
 "order": 16,
 "heading": "Algebraic Decomposition: Multiplying by Base-10 Offsets",
-"back": "## Component Anatomy:\n- **$N$**: The principal integer being multiplied.\n- **$10^k + 1$**: The decomposed exponential base structure acting as the multiplier (e.g., $10^1+1$ for 11, $10^2+1$ for 101).\n\n## Boundary Conditions / Domain:\n- $N \in \mathbb{Z}$\n- $k \in \mathbb{Z}, k \ge 1$",
+"back": "## Component Anatomy:\n- **$N$**: The principal integer being multiplied.\n- **$10^k + 1$**: The decomposed exponential base structure acting as the multiplier (e.g., $10^1+1$ for 11, $10^2+1$ for 101).\n\n## Boundary Conditions / Domain:\n- $N \\in \\mathbb{Z}$\n- $k \\in \\mathbb{Z}, k \\ge 1$",
 "formulaMeta": {
-"formula": "N \times (10^k + 1) = N \times 10^k + N",
+"formula": "N \\times (10^k + 1) = N \\times 10^k + N",
 "description": "Demonstrates the strict algebraic decomposition strategy used to convert multiplication by target numbers like 11, 101, or 1001 into an elementary addition operation.",
-"derivation": "1. Express the specific multiplier analytically as a power of 10 plus an offset of 1 (e.g., $11 = 10+1$, $101 = 100+1$).\n2. Mathematically apply the standard distributive property: $N(10^k + 1)$.\n3. The calculation $N \times 10^k$ trivially shifts the numerical base by strictly $k$ zeros.\n4. Complete the operation by simply adding the original integer $N$ physically to the structurally shifted number."
+"derivation": "1. Express the specific multiplier analytically as a power of 10 plus an offset of 1 (e.g., $11 = 10+1$, $101 = 100+1$).\n2. Mathematically apply the standard distributive property: $N(10^k + 1)$.\n3. The calculation $N \\times 10^k$ trivially shifts the numerical base by strictly $k$ zeros.\n4. Complete the operation by simply adding the original integer $N$ physically to the structurally shifted number."
 }
 }
 },
@@ -529,11 +529,11 @@
 ],
 "order": 17,
 "heading": "Algorithmic Squaring: Sridharacharya's Transposition Method",
-"back": "## Component Anatomy:\n- **$a$**: The structurally difficult target number you are attempting to square.\n- **$b$**: The specific small integer offset chosen to intentionally bridge $a$ to an easily calculable round number (e.g., a multiple of 10).\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$\n- Most cognitively effective mathematically when $b$ strictly bridges $a$ to a terminal zero number.",
+"back": "## Component Anatomy:\n- **$a$**: The structurally difficult target number you are attempting to square.\n- **$b$**: The specific small integer offset chosen to intentionally bridge $a$ to an easily calculable round number (e.g., a multiple of 10).\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$\n- Most cognitively effective mathematically when $b$ strictly bridges $a$ to a terminal zero number.",
 "formulaMeta": {
 "formula": "a^2 = (a + b)(a - b) + b^2",
 "description": "Defines Sridharacharya's dynamically modified algebraic formula, derived directly from Identity 1C, leveraged to computationally process squares of difficult numbers mentally.",
-"derivation": "1. Begin strictly with standard Identity 1C: $a^2 - b^2 = (a+b)(a-b)$.\n2. Transpose the $-b^2$ term mathematically across the equals sign to the right side of the expression.\n3. Resulting framework: $a^2 = (a+b)(a-b) + b^2$.\n4. Computational Example for $31^2$: Strategically let the offset $b=1$.\n5. Execute: $31^2 = (31+1)(31-1) + 1^2 = (32 \times 30) + 1 = 960 + 1 = 961$."
+"derivation": "1. Begin strictly with standard Identity 1C: $a^2 - b^2 = (a+b)(a-b)$.\n2. Transpose the $-b^2$ term mathematically across the equals sign to the right side of the expression.\n3. Resulting framework: $a^2 = (a+b)(a-b) + b^2$.\n4. Computational Example for $31^2$: Strategically let the offset $b=1$.\n5. Execute: $31^2 = (31+1)(31-1) + 1^2 = (32 \\times 30) + 1 = 960 + 1 = 961$."
 }
 }
 },
@@ -561,10 +561,10 @@
 ],
 "order": 18,
 "heading": "Heuristic Comparison: Close Products via Midpoints",
-"back": "- **SOP for Mathematical Comparison:** To rigorously compare products like $14 \times 26$ against $16 \times 24$ without full expansion:\n- **Step 1:** Establish their shared integer midpoint (which is 20) and configure using Identity 1C.\n- **Step 2:** Formulate product 1: $14 \times 26 = (20-6)(20+6) = 20^2 - 6^2 = 400 - 36$.\n- **Step 3:** Formulate product 2: $16 \times 24 = (20-4)(20+4) = 20^2 - 4^2 = 400 - 16$.\n- **Conclusion:** The operation $16 \times 24$ yields the larger result because subtracting a dimensionally smaller square ($4^2$) mathematically leaves a larger total remaining magnitude than subtracting a larger square ($6^2$).",
+"back": "- **SOP for Mathematical Comparison:** To rigorously compare products like $14 \\times 26$ against $16 \\times 24$ without full expansion:\n- **Step 1:** Establish their shared integer midpoint (which is 20) and configure using Identity 1C.\n- **Step 2:** Formulate product 1: $14 \\times 26 = (20-6)(20+6) = 20^2 - 6^2 = 400 - 36$.\n- **Step 3:** Formulate product 2: $16 \\times 24 = (20-4)(20+4) = 20^2 - 4^2 = 400 - 16$.\n- **Conclusion:** The operation $16 \\times 24$ yields the larger result because subtracting a dimensionally smaller square ($4^2$) mathematically leaves a larger total remaining magnitude than subtracting a larger square ($6^2$).",
 "mnemonic": "Closer to the center means a smaller deduction.",
 "standardMeta": {
-"question": "What is the specific algorithmic strategy to mathematically verify which product is strictly larger between sets like $14 \times 26$ and $16 \times 24$ without conventionally computing either final value?"
+"question": "What is the specific algorithmic strategy to mathematically verify which product is strictly larger between sets like $14 \\times 26$ and $16 \\times 24$ without conventionally computing either final value?"
 }
 }
 },
@@ -591,9 +591,9 @@
 ],
 "order": 19,
 "heading": "System Formulation: Decomposing Integers into Difference of Squares",
-"back": "## Component Anatomy:\n- **$N$**: The primary target integer being analytically decomposed.\n- **$x, y$**: Two chosen mathematical factors of $N$ such that $N = x \times y$.\n- **$a, b$**: The unknown integer bases forming the two respective perfect squares.\n\n## Boundary Conditions / Domain:\n- $N, a, b, x, y \in \mathbb{Z}$\n- **Crucial Mathematical Constraint:** To strictly guarantee $a$ and $b$ resolve as integers, the chosen factors $x$ and $y$ MUST possess the exact same parity (either both are even, or both are strictly odd).",
+"back": "## Component Anatomy:\n- **$N$**: The primary target integer being analytically decomposed.\n- **$x, y$**: Two chosen mathematical factors of $N$ such that $N = x \\times y$.\n- **$a, b$**: The unknown integer bases forming the two respective perfect squares.\n\n## Boundary Conditions / Domain:\n- $N, a, b, x, y \\in \\mathbb{Z}$\n- **Crucial Mathematical Constraint:** To strictly guarantee $a$ and $b$ resolve as integers, the chosen factors $x$ and $y$ MUST possess the exact same parity (either both are even, or both are strictly odd).",
 "formulaMeta": {
-"formula": "\begin{aligned} a + b &= x \\ a - b &= y \end{aligned}",
+"formula": "\\begin{aligned} a + b &= x \\ a - b &= y \\end{aligned}",
 "description": "Defines the algebraic setup phase required to express a designated integer $N$ systematically as the exact difference of two perfect squares $(a^2 - b^2)$.",
 "derivation": "1. Initialize the target equality: $a^2 - b^2 = N$.\n2. Deconstruct the left side via standard Identity 1C yielding: $(a+b)(a-b) = N$.\n3. Isolate $N$ and strategically split it into two multiplicative integer factors $x$ and $y$ (e.g., if $N=100$, assign factors like $50$ and $2$).\n4. Map the components to establish the strict linear system of equations: $a+b = x$ and $a-b = y$."
 }
@@ -621,11 +621,11 @@
 ],
 "order": 20,
 "heading": "System Execution: Solving the Difference of Squares Parity Setup",
-"back": "## Component Anatomy:\n- **$x, y$**: The pre-established factors sharing identical parity.\n- **$a, b$**: The resulting integer bases successfully discovered.\n\n## Boundary Conditions / Domain:\n- Parity constraint holds: $(x+y)$ and $(x-y)$ must mathematically resolve to even integers so division by 2 yields $a, b \in \mathbb{Z}$.",
+"back": "## Component Anatomy:\n- **$x, y$**: The pre-established factors sharing identical parity.\n- **$a, b$**: The resulting integer bases successfully discovered.\n\n## Boundary Conditions / Domain:\n- Parity constraint holds: $(x+y)$ and $(x-y)$ must mathematically resolve to even integers so division by 2 yields $a, b \\in \\mathbb{Z}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} a &= \frac{x+y}{2} \\ b &= \frac{x-y}{2} \end{aligned}",
+"formula": "\\begin{aligned} a &= \\frac{x+y}{2} \\ b &= \\frac{x-y}{2} \\end{aligned}",
 "description": "Provides the algorithmic execution phase for resolving the linear system created to express an integer as a difference of squares.",
-"derivation": "1. Given the established linear system: $a+b = x$ and $a-b = y$.\n2. Add the two independent equations simultaneously to mathematically eliminate $b$: $2a = x+y \implies a = \frac{x+y}{2}$.\n3. Subtract the second equation from the first to isolate $b$: $2b = x-y \implies b = \frac{x-y}{2}$.\n4. Execute numeric verification (Example for $N=100$ utilizing $x=50, y=2$): $a = \frac{52}{2} = 26$, and $b = \frac{48}{2} = 24$.\n5. Final validation demonstrates explicitly: $100 = 26^2 - 24^2$."
+"derivation": "1. Given the established linear system: $a+b = x$ and $a-b = y$.\n2. Add the two independent equations simultaneously to mathematically eliminate $b$: $2a = x+y \\implies a = \\frac{x+y}{2}$.\n3. Subtract the second equation from the first to isolate $b$: $2b = x-y \\implies b = \\frac{x-y}{2}$.\n4. Execute numeric verification (Example for $N=100$ utilizing $x=50, y=2$): $a = \\frac{52}{2} = 26$, and $b = \\frac{48}{2} = 24$.\n5. Final validation demonstrates explicitly: $100 = 26^2 - 24^2$."
 }
 }
 },
@@ -653,9 +653,9 @@
 "heading": "Geometric Polynomial Modeling: Border and Path Areas",
 "back": "## Component Anatomy:\n- **$w$**: The specific geometric width of the defined walking path or bounding border.\n- **$g$**: The uniform side length of the localized interior square plots.\n\n## Boundary Conditions / Domain:\n- $w, g > 0$ (Physical spatial dimensions must remain strictly positive).",
 "formulaMeta": {
-"formula": "\text{Path Area} = \text{Total Outer Area} - \text{Sum of Inner Areas}",
+"formula": "\\text{Path Area} = \\text{Total Outer Area} - \\text{Sum of Inner Areas}",
 "description": "States the definitive algorithmic sequence for extracting the exact residual area of a geometric border or path encompassing internal rectangular/square plots.",
-"derivation": "1. Analytically determine the total overall bounding length ($L$) and width ($W$) by algebraically summing the individual internal plot lengths $g$ alongside the repeating path segments $w$.\n2. Mathematically execute the polynomial multiplication $L \times W$ to fully expand the total outer bounding area constraint.\n3. Distinctly identify the localized combined area of the strictly interior physical plots (e.g., $2g^2$ if two plots exist).\n4. Subtract the isolated inner plot polynomials rigorously from the expanded bounding polynomial to map the singular equation describing the isolated path."
+"derivation": "1. Analytically determine the total overall bounding length ($L$) and width ($W$) by algebraically summing the individual internal plot lengths $g$ alongside the repeating path segments $w$.\n2. Mathematically execute the polynomial multiplication $L \\times W$ to fully expand the total outer bounding area constraint.\n3. Distinctly identify the localized combined area of the strictly interior physical plots (e.g., $2g^2$ if two plots exist).\n4. Subtract the isolated inner plot polynomials rigorously from the expanded bounding polynomial to map the singular equation describing the isolated path."
 }
 }
 },
@@ -681,11 +681,11 @@
 ],
 "order": 22,
 "heading": "Sequence Algebraic Modeling: Geometric Visual Patterns",
-"back": "## Component Anatomy:\n- **$k$**: The discrete, active step/iteration number in the ongoing sequence.\n- **$k^2$**: Algebraically models a core, forming geometric square of visual entities within the pattern.\n- **$2k$**: Algebraically models the linear extending flanks sequentially growing identically at every iteration step.\n\n## Boundary Conditions / Domain:\n- $k \in \mathbb{Z}, k \ge 1$",
+"back": "## Component Anatomy:\n- **$k$**: The discrete, active step/iteration number in the ongoing sequence.\n- **$k^2$**: Algebraically models a core, forming geometric square of visual entities within the pattern.\n- **$2k$**: Algebraically models the linear extending flanks sequentially growing identically at every iteration step.\n\n## Boundary Conditions / Domain:\n- $k \\in \\mathbb{Z}, k \\ge 1$",
 "formulaMeta": {
 "formula": "C_k = (k + 1)^2 - 1",
 "description": "Defines the generalized algebraic mapping formula representing sequential physical dot/circle patterns exhibiting dual-axis growth (e.g., tracking sequence output: Step 1=3, Step 2=8, Step 3=15).",
-"derivation": "1. Rigorously observe the numerical iteration data: Step 1 is exactly 3 ($2^2-1$). Step 2 is 8 ($3^2-1$). Step 3 is 15 ($4^2-1$).\n2. Establish the functional relationship mapping strictly to $(k+1)^2 - 1$.\n3. Expand the defined expression using Standard Identity 1A: $(k^2 + 2k + 1) - 1$.\n4. Simplify out the constants cleanly to $k^2 + 2k$, which definitively proves the structural foundation of the geometry equals a $k \times k$ block supplemented exactly by two lines of length $k$."
+"derivation": "1. Rigorously observe the numerical iteration data: Step 1 is exactly 3 ($2^2-1$). Step 2 is 8 ($3^2-1$). Step 3 is 15 ($4^2-1$).\n2. Establish the functional relationship mapping strictly to $(k+1)^2 - 1$.\n3. Expand the defined expression using Standard Identity 1A: $(k^2 + 2k + 1) - 1$.\n4. Simplify out the constants cleanly to $k^2 + 2k$, which definitively proves the structural foundation of the geometry equals a $k \\times k$ block supplemented exactly by two lines of length $k$."
 }
 }
 },
@@ -712,10 +712,10 @@
 ],
 "order": 23,
 "heading": "Real-World Number Theory: The Calendar Grid Phenomenon",
-"back": "- **The Mathematical Rule:** Across any standard monthly calendar format, isolating absolutely any unbroken $2 \times 2$ bounding square of adjacent dates results in a strictly deterministic diagonal product difference.\n- **The Absolute Value:** The calculated difference invariably equates to exactly **7**, completely regardless of grid position.\n- **Empirical Example:** Select matrix dates 9, 10, 16, 17. Compute Diagonals: $10 \times 16 = 160$ and $9 \times 17 = 153$.\n- **Result Check:** Difference evaluates to strictly $160 - 153 = 7$.",
+"back": "- **The Mathematical Rule:** Across any standard monthly calendar format, isolating absolutely any unbroken $2 \\times 2$ bounding square of adjacent dates results in a strictly deterministic diagonal product difference.\n- **The Absolute Value:** The calculated difference invariably equates to exactly **7**, completely regardless of grid position.\n- **Empirical Example:** Select matrix dates 9, 10, 16, 17. Compute Diagonals: $10 \\times 16 = 160$ and $9 \\times 17 = 153$.\n- **Result Check:** Difference evaluates to strictly $160 - 153 = 7$.",
 "mnemonic": "Seven days in a week, seven in the cross.",
 "standardMeta": {
-"question": "If you systematically select any localized $2 \times 2$ grid of adjacent dates from a standard calendar and mathematically multiply the corner numbers diagonally, what strict universal rule governs the difference between those two resulting products?"
+"question": "If you systematically select any localized $2 \\times 2$ grid of adjacent dates from a standard calendar and mathematically multiply the corner numbers diagonally, what strict universal rule governs the difference between those two resulting products?"
 }
 }
 },
@@ -742,10 +742,10 @@
 ],
 "order": 24,
 "heading": "Algebraic Proof: Validating the 7-Day Calendar Constant",
-"back": "## Component Anatomy:\n- **$a$**: The structurally independent top-left primary date anchoring the $2 \times 2$ matrix.\n- **$a+1$**: The directly adjacent sequential date (the mathematically next day).\n- **$a+7$**: The date positioned physically directly beneath $a$ (offset precisely by one week).\n\n## Boundary Conditions / Domain:\n- $a \in \mathbb{Z}, a \ge 1$\n- Must explicitly satisfy $a+8 \le 31$ (to physically conform to standard valid Gregorian monthly calendar limitations).",
+"back": "## Component Anatomy:\n- **$a$**: The structurally independent top-left primary date anchoring the $2 \\times 2$ matrix.\n- **$a+1$**: The directly adjacent sequential date (the mathematically next day).\n- **$a+7$**: The date positioned physically directly beneath $a$ (offset precisely by one week).\n\n## Boundary Conditions / Domain:\n- $a \\in \\mathbb{Z}, a \\ge 1$\n- Must explicitly satisfy $a+8 \\le 31$ (to physically conform to standard valid Gregorian monthly calendar limitations).",
 "formulaMeta": {
 "formula": "(a + 7)(a + 1) - a(a + 8) = 7",
-"description": "Formally outlines the strict algebraic polynomial proof validating precisely why the resultant difference between diagonal cross-products in any calendar's localized $2 \times 2$ grid collapses entirely to 7.",
+"description": "Formally outlines the strict algebraic polynomial proof validating precisely why the resultant difference between diagonal cross-products in any calendar's localized $2 \\times 2$ grid collapses entirely to 7.",
 "derivation": "1. Initialize the grid variables as $a, a+1$ (forming the upper row) and $a+7, a+8$ (forming the lower row).\n2. Compute Diagonal 1 Product entirely: $(a+7)(a+1) = a^2 + 8a + 7$.\n3. Compute Diagonal 2 Product entirely: $a(a+8) = a^2 + 8a$.\n4. Algebraically subtract Product 2 directly from Product 1: $(a^2 + 8a + 7) - (a^2 + 8a)$.\n5. The interdependent variable terms systematically cancel themselves out to exactly zero, isolating the absolute constant strictly as 7."
 }
 }
@@ -773,7 +773,7 @@
 ],
 "order": 25,
 "heading": "Generalization Logic: Modeling Consecutive Integers",
-"back": "- **SOP for Mathematical Setup:** To definitively execute theorems or algebraic proofs utilizing three structurally consecutive discrete numbers, you must utilize abstract variable generation.\n- **The Preferred Standard Form:** Define the target numbers symmetrically strictly as **$n-1, n, n+1$**. \n- **The Alternate Assumed Form:** Define them sequentially as **$n, n+1, n+2$**.\n- **Strategic Reasoning:** Centering the series inherently around the variable $n$ fundamentally makes any subsequent algebraic multiplication, expansion, or cancellation dramatically cleaner due to the innate balancing symmetry.\n- **Condition:** Must declare $n \in \mathbb{Z}$.",
+"back": "- **SOP for Mathematical Setup:** To definitively execute theorems or algebraic proofs utilizing three structurally consecutive discrete numbers, you must utilize abstract variable generation.\n- **The Preferred Standard Form:** Define the target numbers symmetrically strictly as **$n-1, n, n+1$**. \n- **The Alternate Assumed Form:** Define them sequentially as **$n, n+1, n+2$**.\n- **Strategic Reasoning:** Centering the series inherently around the variable $n$ fundamentally makes any subsequent algebraic multiplication, expansion, or cancellation dramatically cleaner due to the innate balancing symmetry.\n- **Condition:** Must declare $n \\in \\mathbb{Z}$.",
 "standardMeta": {
 "question": "How must you strictly setup and algebraically generalize three consecutive integers mathematically in order to establish a universal baseline for proving distinct number theory properties?"
 }
@@ -802,7 +802,7 @@
 ],
 "order": 26,
 "heading": "Identity Proof: Middle Square vs. Outer Cross-Product",
-"back": "## Component Anatomy:\n- **$n$**: The perfectly centered intermediate integer spanning the consecutive sequence.\n- **$n-1, n+1$**: The bounding lower and upper outer integers.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}$",
+"back": "## Component Anatomy:\n- **$n$**: The perfectly centered intermediate integer spanning the consecutive sequence.\n- **$n-1, n+1$**: The bounding lower and upper outer integers.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}$",
 "formulaMeta": {
 "formula": "n^2 - (n - 1)(n + 1) = 1",
 "description": "Constructs the formal algebraic theorem proving explicitly that the pure square of the middle number within a bounded set of three adjacent integers, minus the product of its outer flanks, universally isolates to exactly 1.",
@@ -834,7 +834,7 @@
 ],
 "order": 27,
 "heading": "Parity Proof: Sum of Squares of Consecutive Integers",
-"back": "## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}$\n\n- **Point 1:** The mathematical sum of the squares of ANY two consecutive integers ($n^2 + (n+1)^2$) is strictly and deterministically **always odd**.\n- **Point 2:** Proof by algebraic expansion: $n^2 + (n^2 + 2n + 1) = 2n^2 + 2n + 1$.\n- **Point 3:** Factor out the scalar 2 exclusively from the variable terms: $2(n^2 + n) + 1$.\n- **Point 4:** Because the expanded expression perfectly matches the rigid algebraic definition of an odd number $2k + 1$ (where the integer $k = n^2+n$), it mathematically guarantees an odd resultant parity, completely independent of whether the initial $n$ is even or odd.",
+"back": "## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}$\n\n- **Point 1:** The mathematical sum of the squares of ANY two consecutive integers ($n^2 + (n+1)^2$) is strictly and deterministically **always odd**.\n- **Point 2:** Proof by algebraic expansion: $n^2 + (n^2 + 2n + 1) = 2n^2 + 2n + 1$.\n- **Point 3:** Factor out the scalar 2 exclusively from the variable terms: $2(n^2 + n) + 1$.\n- **Point 4:** Because the expanded expression perfectly matches the rigid algebraic definition of an odd number $2k + 1$ (where the integer $k = n^2+n$), it mathematically guarantees an odd resultant parity, completely independent of whether the initial $n$ is even or odd.",
 "mnemonic": "Consecutive squares combine to leave a +1 behind.",
 "standardMeta": {
 "question": "What is the deterministic mathematical parity when you sum the squares of two strictly consecutive integers, and what is the algebraic proof defining this behavior?"
@@ -864,9 +864,9 @@
 ],
 "order": 28,
 "heading": "Modular Arithmetic: Sum of Remainders Theorem",
-"back": "## Component Anatomy:\n- **$k$**: The common positive integer divisor.\n- **$r_x, r_y$**: The individual integer remainders obtained when $x$ and $y$ are divided strictly by $k$.\n\n## Boundary Conditions / Domain:\n- $k \in \mathbb{Z}, k > 0$\n- $x, y \in \mathbb{Z}$",
+"back": "## Component Anatomy:\n- **$k$**: The common positive integer divisor.\n- **$r_x, r_y$**: The individual integer remainders obtained when $x$ and $y$ are divided strictly by $k$.\n\n## Boundary Conditions / Domain:\n- $k \\in \\mathbb{Z}, k > 0$\n- $x, y \\in \\mathbb{Z}$",
 "formulaMeta": {
-"formula": "(x + y) \pmod{k} = (r_x + r_y) \pmod{k}",
+"formula": "(x + y) \\pmod{k} = (r_x + r_y) \\pmod{k}",
 "description": "States the fundamental arithmetic property determining the target remainder when the pure sum of two integers $(x+y)$ is evaluated under modulo $k$.",
 "derivation": "1. Express $x$ and $y$ structurally via the division algorithm: $x = ak + r_x$ and $y = bk + r_y$.\n2. Add the two equations algebraically: $x+y = ak + bk + r_x + r_y$.\n3. Factor out the common divisor $k$: $x+y = k(a+b) + (r_x + r_y)$.\n4. Because the initial component $k(a+b)$ is inherently a strict integer multiple of $k$, the overall divisibility of the system by $k$ relies entirely on whether the subsequent sum of the remainders $(r_x+r_y)$ is divisible by $k$."
 }
@@ -895,10 +895,10 @@
 ],
 "order": 29,
 "heading": "Modular Arithmetic: Product of Remainders Theorem",
-"back": "## Component Anatomy:\n- **$k$**: The common positive integer divisor shared by both values.\n- **$r_x, r_y$**: The individual remainders mapped to integers $x$ and $y$ under division by $k$.\n\n## Boundary Conditions / Domain:\n- $k \in \mathbb{Z}, k > 0$\n- $x, y \in \mathbb{Z}$",
+"back": "## Component Anatomy:\n- **$k$**: The common positive integer divisor shared by both values.\n- **$r_x, r_y$**: The individual remainders mapped to integers $x$ and $y$ under division by $k$.\n\n## Boundary Conditions / Domain:\n- $k \\in \\mathbb{Z}, k > 0$\n- $x, y \\in \\mathbb{Z}$",
 "formulaMeta": {
-"formula": "(x \times y) \pmod{k} = (r_x \times r_y) \pmod{k}",
-"description": "States the strict modular property determining the resultant remainder when the integer product of two numbers $(x \times y)$ is divided by a shared divisor $k$.",
+"formula": "(x \\times y) \\pmod{k} = (r_x \\times r_y) \\pmod{k}",
+"description": "States the strict modular property determining the resultant remainder when the integer product of two numbers $(x \\times y)$ is divided by a shared divisor $k$.",
 "derivation": "1. Let $x = ak + r_x$ and $y = bk + r_y$ via standard division algorithm definitions.\n2. Multiply the expanded binomial expressions: $(ak + r_x)(bk + r_y) = abk^2 + akr_y + bkr_x + (r_x r_y)$.\n3. Algebraically factor out the common divisor $k$ from the first three terms strictly: $k(abk + ar_y + br_x) + (r_x r_y)$.\n4. Because the first large grouped term is demonstrably a strict integer multiple of $k$, the final modulo remainder is explicitly and independently determined strictly by evaluating the product of the remainders $(r_x r_y)$."
 }
 }
@@ -927,12 +927,12 @@
 ],
 "order": 30,
 "heading": "Algorithmic SOP: Converting Negative Modulo Remainders",
-"back": "## Component Anatomy:\n- **$r_{neg}$**: The intermediate negative algebraic remainder obtained via modulo subtraction operations.\n- **$d$**: The strictly positive mathematical divisor.\n- **$r_{pos}$**: The mathematically valid positive remainder returned to standardize the final answer.\n\n## Boundary Conditions / Domain:\n- $d \in \mathbb{Z}, d > 0$\n- Standard cyclic mathematical remainders must strictly explicitly satisfy the range constraint $0 \leq r_{pos} < d$.",
+"back": "## Component Anatomy:\n- **$r_{neg}$**: The intermediate negative algebraic remainder obtained via modulo subtraction operations.\n- **$d$**: The strictly positive mathematical divisor.\n- **$r_{pos}$**: The mathematically valid positive remainder returned to standardize the final answer.\n\n## Boundary Conditions / Domain:\n- $d \\in \\mathbb{Z}, d > 0$\n- Standard cyclic mathematical remainders must strictly explicitly satisfy the range constraint $0 \\leq r_{pos} < d$.",
 "mnemonic": "When the remainder falls below zero, add the divisor to make it the hero.",
 "formulaMeta": {
-"formula": "r_{pos} \equiv (r_{neg} + d) \pmod{d}",
+"formula": "r_{pos} \\equiv (r_{neg} + d) \\pmod{d}",
 "description": "Provides the specific algebraic step required to procedurally convert a 'negative remainder' into a mathematically valid strictly positive remainder.",
-"derivation": "1. In proper modular arithmetic, remainders operate on a strictly cyclic basis. Evaluating the difference of two integers $(x - y) \pmod{d}$ may temporarily yield an intermediate negative result, such as $-2 \pmod{7}$.\n2. A remainder of $-2$ explicitly denotes the current value is exactly 2 integer units short of reaching the *next* multiple of $d$.\n3. To compute the true positive remainder (representing the numerical surplus extending past the *previous* valid multiple), simply add the positive magnitude of the divisor $d$ sequentially to the negative remainder.\n4. Example Execution: $-2 + 7 = 5$. Thus, the strictly valid final positive remainder is correctly evaluated as 5."
+"derivation": "1. In proper modular arithmetic, remainders operate on a strictly cyclic basis. Evaluating the difference of two integers $(x - y) \\pmod{d}$ may temporarily yield an intermediate negative result, such as $-2 \\pmod{7}$.\n2. A remainder of $-2$ explicitly denotes the current value is exactly 2 integer units short of reaching the *next* multiple of $d$.\n3. To compute the true positive remainder (representing the numerical surplus extending past the *previous* valid multiple), simply add the positive magnitude of the divisor $d$ sequentially to the negative remainder.\n4. Example Execution: $-2 + 7 = 5$. Thus, the strictly valid final positive remainder is correctly evaluated as 5."
 }
 }
 },
@@ -960,10 +960,10 @@
 ],
 "order": 31,
 "heading": "Modulo 8 Theorem: Parity Property of Odd Squares",
-"back": "## Component Anatomy:\n- **$n$**: A mathematically strictly odd integer.\n- **$\equiv 1 \pmod{8}$**: Formal mathematical notation explicitly indicating division by 8 yields a strict residual remainder of exactly 1.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}$\n- $n$ MUST strictly satisfy the baseline algebraic odd number definition format: $n = 2k+1$ for $k \in \mathbb{Z}$.",
+"back": "## Component Anatomy:\n- **$n$**: A mathematically strictly odd integer.\n- **$\\equiv 1 \\pmod{8}$**: Formal mathematical notation explicitly indicating division by 8 yields a strict residual remainder of exactly 1.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}$\n- $n$ MUST strictly satisfy the baseline algebraic odd number definition format: $n = 2k+1$ for $k \\in \\mathbb{Z}$.",
 "mnemonic": "Odd squares always leave 1 at the gate of 8.",
 "formulaMeta": {
-"formula": "n^2 \equiv 1 \pmod{8}",
+"formula": "n^2 \\equiv 1 \\pmod{8}",
 "description": "States the rigorous modular arithmetic theorem definitively proving that the mathematical square of ANY odd integer inherently generates a remainder of exactly 1 when divided by 8.",
 "derivation": "1. Define $n$ universally as a standard odd integer: $n = 2k + 1$.\n2. Execute the polynomial square expansion using standard Identity 1A: $n^2 = (2k + 1)^2 = 4k^2 + 4k + 1$.\n3. Factor out strictly the greatest common coefficient (4) exclusively from the variable terms: $n^2 = 4k(k + 1) + 1$.\n4. By definition, observe that the variables $k$ and $(k+1)$ inherently represent consecutive integers. Therefore, exactly one of them MUST physically be an even number.\n5. Consequently, their internal product $k(k+1)$ is mathematically guaranteed strictly to yield an even result, effectively representing some integer $2m$.\n6. Substitute this even designation $2m$ back into the globally factored equation: $n^2 = 4(2m) + 1 = 8m + 1$.\n7. This final algebraic framework decisively proves that the square of any starting odd integer evaluates precisely to 1 unit greater than a strict multiple of 8."
 }

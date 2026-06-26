@@ -52,12 +52,12 @@
 ],
 "order": 2,
 "heading": "Interior Angle Sum Property of Quadrilaterals",
-"back": "## Component Anatomy:\n- **$\angle A, \angle B, \angle C, \angle D$:** The four interior angles of the given geometric quadrilateral.\n- **$360^\circ$:** The invariant aggregate sum of these angles.\n\n## Boundary Conditions / Domain:\n- Mathematically valid for ALL simple (non-self-intersecting) quadrilaterals, strictly including both convex and concave (dart) geometries.",
+"back": "## Component Anatomy:\n- **$\\angle A, \\angle B, \\angle C, \\angle D$:** The four interior angles of the given geometric quadrilateral.\n- **$360^\\circ$:** The invariant aggregate sum of these angles.\n\n## Boundary Conditions / Domain:\n- Mathematically valid for ALL simple (non-self-intersecting) quadrilaterals, strictly including both convex and concave (dart) geometries.",
 "mnemonic": "Four corners, full circle (360).",
 "formulaMeta": {
-"formula": "\angle A + \angle B + \angle C + \angle D = 360^\circ",
+"formula": "\\angle A + \\angle B + \\angle C + \\angle D = 360^\\circ",
 "description": "States the invariant mathematical formula for the sum of all interior angles of any simple quadrilateral.",
-"derivation": "This property directly emerges from the fact that any simple quadrilateral can be geometrically partitioned into exactly two triangles, yielding an angle sum of $2 \times 180^\circ = 360^\circ$."
+"derivation": "This property directly emerges from the fact that any simple quadrilateral can be geometrically partitioned into exactly two triangles, yielding an angle sum of $2 \\times 180^\\circ = 360^\\circ$."
 }
 }
 },
@@ -83,11 +83,11 @@
 ],
 "order": 3,
 "heading": "Geometric Proof: Quadrilateral Angle Sum",
-"back": "## Component Anatomy:\n- **Diagonal:** A straight line segment connecting two non-adjacent opposite vertices.\n- **Partitioned Triangles:** The two distinct triangles formed by drawing the diagonal.\n\n## Boundary Conditions / Domain:\n- The algorithm generalizes to any $n$-sided polygon via the strict partition formula $(n-2) \times 180^\circ$.",
+"back": "## Component Anatomy:\n- **Diagonal:** A straight line segment connecting two non-adjacent opposite vertices.\n- **Partitioned Triangles:** The two distinct triangles formed by drawing the diagonal.\n\n## Boundary Conditions / Domain:\n- The algorithm generalizes to any $n$-sided polygon via the strict partition formula $(n-2) \\times 180^\\circ$.",
 "formulaMeta": {
-"formula": "2 \times 180^\circ = 360^\circ",
+"formula": "2 \\times 180^\\circ = 360^\\circ",
 "description": "Algorithmic geometric proof deriving why the sum of interior angles in a quadrilateral strictly evaluates to 360 degrees.",
-"derivation": "- **Step 1:** Select any vertex and draw exactly one diagonal connecting it to its opposite vertex.\n- **Step 2:** Observe that this single diagonal strictly partitions the quadrilateral into exactly two distinct, non-overlapping triangles.\n- **Step 3:** Apply the fundamental triangle angle sum theorem: the interior angles of each triangle sum strictly to $180^\circ$.\n- **Step 4:** Sum the aggregate interior angles of both partitioned triangles to yield the final invariant property: $180^\circ + 180^\circ = 360^\circ$."
+"derivation": "- **Step 1:** Select any vertex and draw exactly one diagonal connecting it to its opposite vertex.\n- **Step 2:** Observe that this single diagonal strictly partitions the quadrilateral into exactly two distinct, non-overlapping triangles.\n- **Step 3:** Apply the fundamental triangle angle sum theorem: the interior angles of each triangle sum strictly to $180^\\circ$.\n- **Step 4:** Sum the aggregate interior angles of both partitioned triangles to yield the final invariant property: $180^\\circ + 180^\\circ = 360^\\circ$."
 }
 }
 },
@@ -113,9 +113,9 @@
 ],
 "order": 4,
 "heading": "Angle Sum Invariance in Concave Quadrilaterals",
-"back": "- **Fact:** The $360^\circ$ interior angle sum property holds absolutely invariant for **non-convex (concave/dart) quadrilaterals**.\n- **Geometric Proof:** By drawing an internal diagonal connecting two valid opposing vertices, any concave quadrilateral is still perfectly bisected into exactly two distinct triangles.\n- **Calculation:** $180^\circ + 180^\circ = 360^\circ$. The internal reflex angle (greater than $180^\circ$) simply absorbs the proportionally larger degree measure.\n- **Boundary Condition:** The shape MUST remain a simple polygon. If the sides cross over each other (a complex, self-intersecting quadrilateral), classical interior angle rules break down.",
+"back": "- **Fact:** The $360^\\circ$ interior angle sum property holds absolutely invariant for **non-convex (concave/dart) quadrilaterals**.\n- **Geometric Proof:** By drawing an internal diagonal connecting two valid opposing vertices, any concave quadrilateral is still perfectly bisected into exactly two distinct triangles.\n- **Calculation:** $180^\\circ + 180^\\circ = 360^\\circ$. The internal reflex angle (greater than $180^\\circ$) simply absorbs the proportionally larger degree measure.\n- **Boundary Condition:** The shape MUST remain a simple polygon. If the sides cross over each other (a complex, self-intersecting quadrilateral), classical interior angle rules break down.",
 "standardMeta": {
-"question": "Does the $360^\circ$ interior angle sum theorem apply mathematically to concave (dart-shaped) quadrilaterals, and what geometric property justifies this?"
+"question": "Does the $360^\\circ$ interior angle sum theorem apply mathematically to concave (dart-shaped) quadrilaterals, and what geometric property justifies this?"
 }
 }
 },
@@ -169,12 +169,12 @@
 ],
 "order": 6,
 "heading": "Supplementary Co-interior Angles in Trapeziums",
-"back": "## Component Anatomy:\n- **Parallel Bases:** The geometric top and bottom parallel line segments.\n- **Transversal Legs:** The non-parallel side segments physically connecting the parallel bases.\n\n## Boundary Conditions / Domain:\n- This identity ONLY applies to the specific pair of angles physically sharing the **same non-parallel transversal leg**.\n- The base angles (angles sharing the same parallel line) do NOT mathematically sum to $180^\circ$ unless the trapezium is uniquely a rectangle.",
+"back": "## Component Anatomy:\n- **Parallel Bases:** The geometric top and bottom parallel line segments.\n- **Transversal Legs:** The non-parallel side segments physically connecting the parallel bases.\n\n## Boundary Conditions / Domain:\n- This identity ONLY applies to the specific pair of angles physically sharing the **same non-parallel transversal leg**.\n- The base angles (angles sharing the same parallel line) do NOT mathematically sum to $180^\\circ$ unless the trapezium is uniquely a rectangle.",
 "mnemonic": "Leg angles sum to 180.",
 "formulaMeta": {
-"formula": "\angle \text{Top} + \angle \text{Bottom} = 180^\circ",
+"formula": "\\angle \\text{Top} + \\angle \\text{Bottom} = 180^\\circ",
 "description": "States the geometric angle sum property for the adjacent co-interior angles located exclusively along the non-parallel legs of a Trapezium.",
-"derivation": "Because the opposing top and bottom bases are strictly parallel, any side leg connecting them algebraically acts as a transversal. By fundamental parallel line theorems, interior angles on the same side of a transversal are strictly supplementary ($180^\circ$)."
+"derivation": "Because the opposing top and bottom bases are strictly parallel, any side leg connecting them algebraically acts as a transversal. By fundamental parallel line theorems, interior angles on the same side of a transversal are strictly supplementary ($180^\\circ$)."
 }
 }
 },
@@ -228,7 +228,7 @@
 "heading": "Base Angle Equality in Isosceles Trapeziums",
 "back": "## Component Anatomy:\n- **Base Angles:** A geometric pair of internal angles seated directly upon the exact same horizontal parallel line (base).\n\n## Boundary Conditions / Domain:\n- This symmetrical equivalence property strictly applies ONLY to Isosceles Trapeziums.\n- It mathematically fails in general trapeziums with unequal transversal legs.",
 "formulaMeta": {
-"formula": "\angle \text{Left Base} = \angle \text{Right Base}",
+"formula": "\\angle \\text{Left Base} = \\angle \\text{Right Base}",
 "description": "States the unique geometric angular symmetry relating the pairs of base angles in an Isosceles Trapezium.",
 "derivation": "In an isosceles trapezium, because the non-parallel legs are equal in magnitude and bridge parallel lines, the internal geometry becomes perfectly bilaterally symmetrical. Therefore, the angles opposite to the equal sides (i.e., the pairs of angles along either parallel base) are mathematically forced to be equivalent."
 }
@@ -285,12 +285,12 @@
 ],
 "order": 10,
 "heading": "Supplementary Adjacent Angles in Parallelograms",
-"back": "## Component Anatomy:\n- **$\angle A, \angle B$:** Any two contiguous (adjacent) internal angles sharing a common bounding side segment.\n\n## Boundary Conditions / Domain:\n- This identity is derived directly from the transversal properties of infinite parallel lines and is universally valid for all parallelograms, rhombuses, rectangles, and squares.",
+"back": "## Component Anatomy:\n- **$\\angle A, \\angle B$:** Any two contiguous (adjacent) internal angles sharing a common bounding side segment.\n\n## Boundary Conditions / Domain:\n- This identity is derived directly from the transversal properties of infinite parallel lines and is universally valid for all parallelograms, rhombuses, rectangles, and squares.",
 "mnemonic": "Neighbors sum to 180.",
 "formulaMeta": {
-"formula": "\angle A + \angle B = 180^\circ",
+"formula": "\\angle A + \\angle B = 180^\\circ",
 "description": "States the algebraic supplementary relationship defining any two adjacent (consecutive) internal angles within a parallelogram.",
-"derivation": "Because the opposite sides of the geometric figure are strictly parallel, any connecting adjacent side mathematically functions as a transversal line intersecting them. By definition, interior angles situated on the same side of a transversal intersecting parallel lines are always supplementary, summing precisely to $180^\circ$."
+"derivation": "Because the opposite sides of the geometric figure are strictly parallel, any connecting adjacent side mathematically functions as a transversal line intersecting them. By definition, interior angles situated on the same side of a transversal intersecting parallel lines are always supplementary, summing precisely to $180^\\circ$."
 }
 }
 },
@@ -317,11 +317,11 @@
 ],
 "order": 11,
 "heading": "Opposite Angle Congruence in Parallelograms",
-"back": "## Component Anatomy:\n- **$\angle A, \angle C$:** The internal angles geometrically located at opposite diagonal corners of the polygon.\n\n## Boundary Conditions / Domain:\n- This angular congruence property is strictly valid and inherited by all parallelograms, including specialized forms like rectangles, squares, and rhombuses.",
+"back": "## Component Anatomy:\n- **$\\angle A, \\angle C$:** The internal angles geometrically located at opposite diagonal corners of the polygon.\n\n## Boundary Conditions / Domain:\n- This angular congruence property is strictly valid and inherited by all parallelograms, including specialized forms like rectangles, squares, and rhombuses.",
 "formulaMeta": {
-"formula": "\angle A = \angle C \quad \text{and} \quad \angle B = \angle D",
+"formula": "\\angle A = \\angle C \\quad \\text{and} \\quad \\angle B = \\angle D",
 "description": "States the geometric congruence rule proving that the opposing internal angles within any parallelogram are identical in measure.",
-"derivation": "This is proven algebraically via the adjacent supplementary rule. If consecutive angles must sum to $180^\circ$, we have equations: $\angle A + \angle B = 180^\circ$ and $\angle B + \angle C = 180^\circ$. Substituting the constant $180^\circ$ yields $\angle A + \angle B = \angle B + \angle C$. Subtracting $\angle B$ from both sides mathematically forces $\angle A = \angle C$."
+"derivation": "This is proven algebraically via the adjacent supplementary rule. If consecutive angles must sum to $180^\\circ$, we have equations: $\\angle A + \\angle B = 180^\\circ$ and $\\angle B + \\angle C = 180^\\circ$. Substituting the constant $180^\\circ$ yields $\\angle A + \\angle B = \\angle B + \\angle C$. Subtracting $\\angle B$ from both sides mathematically forces $\\angle A = \\angle C$."
 }
 }
 },
@@ -404,12 +404,12 @@
 ],
 "order": 14,
 "heading": "Perpendicular Bisection of Rhombus Diagonals",
-"back": "## Component Anatomy:\n- **$AC, BD$:** The internal intersecting diagonals of the rhombus (which remain unequal in magnitude unless the shape is a square).\n- **$\angle AOB$:** The central intersection angle formed at the geometric midpoint.\n\n## Boundary Conditions / Domain:\n- This perpendicular intersection property is valid exclusively for Rhombuses and Squares.\n- It mathematically fails for generic parallelograms and generic rectangles.",
+"back": "## Component Anatomy:\n- **$AC, BD$:** The internal intersecting diagonals of the rhombus (which remain unequal in magnitude unless the shape is a square).\n- **$\\angle AOB$:** The central intersection angle formed at the geometric midpoint.\n\n## Boundary Conditions / Domain:\n- This perpendicular intersection property is valid exclusively for Rhombuses and Squares.\n- It mathematically fails for generic parallelograms and generic rectangles.",
 "mnemonic": "Rhombus diagonals cross right.",
 "formulaMeta": {
-"formula": "\angle AOB = 90^\circ",
+"formula": "\\angle AOB = 90^\\circ",
 "description": "States the precise geometric angular condition at which the internal diagonals of a rhombus intersect.",
-"derivation": "- **Concept:** Due to all four sides being strictly equal (equilateral), the diagonals of a rhombus act as lines of symmetry, forcing them to **bisect each other at strict right angles** ($90^\circ$).\n- **Secondary Property:** As a direct corollary, these perpendicular diagonals also perfectly bisect the interior corner angles of the rhombus."
+"derivation": "- **Concept:** Due to all four sides being strictly equal (equilateral), the diagonals of a rhombus act as lines of symmetry, forcing them to **bisect each other at strict right angles** ($90^\\circ$).\n- **Secondary Property:** As a direct corollary, these perpendicular diagonals also perfectly bisect the interior corner angles of the rhombus."
 }
 }
 },
@@ -434,7 +434,7 @@
 ],
 "order": 15,
 "heading": "Equiangular Definition of a Rectangle",
-"back": "- **Strict Axiomatic Definition:** A rectangle is a quadrilateral geometric figure in which **all four interior angles are exactly $90^\circ$ (equiangular)**.\n- **Implicit Derived Consequence:** If all angles evaluate to strictly $90^\circ$, fundamental mathematical deduction automatically forces the opposite sides to be perfectly parallel and geometrically equal in magnitude.\n- You do NOT mathematically need to explicitly state the side length relationships in the core definition.",
+"back": "- **Strict Axiomatic Definition:** A rectangle is a quadrilateral geometric figure in which **all four interior angles are exactly $90^\\circ$ (equiangular)**.\n- **Implicit Derived Consequence:** If all angles evaluate to strictly $90^\\circ$, fundamental mathematical deduction automatically forces the opposite sides to be perfectly parallel and geometrically equal in magnitude.\n- You do NOT mathematically need to explicitly state the side length relationships in the core definition.",
 "standardMeta": {
 "question": "What is the most simplified, mathematically sufficient definition of a rectangle utilizing strictly its interior angles?"
 }
@@ -462,7 +462,7 @@
 ],
 "order": 16,
 "heading": "The 'Three Right Angles' Quadrilateral Trap",
-"back": "- **The Conceptual Trap:** Is it physically possible to construct a valid quadrilateral that possesses exactly three $90^\circ$ angles, while allowing the fourth to vary?\n- **The Mathematical Rule:** **NO.** Because the invariant angle sum must resolve to exactly $360^\circ$, if three angles evaluate to $90^\circ$ (aggregating to $270^\circ$), the fourth remaining angle is strictly and algebraically forced to equal exactly $90^\circ$ ($360^\circ - 270^\circ$).\n- **Conclusion:** Any geometric 4-sided shape demonstrating three right angles instantly collapses into an equiangular configuration, automatically categorizing it as a rectangle.",
+"back": "- **The Conceptual Trap:** Is it physically possible to construct a valid quadrilateral that possesses exactly three $90^\\circ$ angles, while allowing the fourth to vary?\n- **The Mathematical Rule:** **NO.** Because the invariant angle sum must resolve to exactly $360^\\circ$, if three angles evaluate to $90^\\circ$ (aggregating to $270^\\circ$), the fourth remaining angle is strictly and algebraically forced to equal exactly $90^\\circ$ ($360^\\circ - 270^\\circ$).\n- **Conclusion:** Any geometric 4-sided shape demonstrating three right angles instantly collapses into an equiangular configuration, automatically categorizing it as a rectangle.",
 "mnemonic": "Three rights mathematically mandate a fourth.",
 "standardMeta": {
 "question": "Why is it mathematically and geometrically impossible to construct a planar quadrilateral that contains exactly THREE right angles?"
@@ -491,10 +491,10 @@
 ],
 "order": 17,
 "heading": "Diagonal Properties of a Rectangle",
-"back": "## Component Anatomy:\n- **$AC$ and $BD$:** The two geometric diagonals spanning connecting opposite vertices.\n- **$O$:** The intersection point serving as the mutual midpoint.\n\n## Boundary Conditions / Domain:\n- This intersection achieves true geometric bisection, but it does NOT naturally happen at a $90^\circ$ perpendicular angle unless the specific rectangle happens to additionally be a square.",
+"back": "## Component Anatomy:\n- **$AC$ and $BD$:** The two geometric diagonals spanning connecting opposite vertices.\n- **$O$:** The intersection point serving as the mutual midpoint.\n\n## Boundary Conditions / Domain:\n- This intersection achieves true geometric bisection, but it does NOT naturally happen at a $90^\\circ$ perpendicular angle unless the specific rectangle happens to additionally be a square.",
 "mnemonic": "Rectangle diagonals: Equal lengths, Equal halves.",
 "formulaMeta": {
-"formula": "AC = BD \quad \text{and} \quad OA = OC, \; OB = OD",
+"formula": "AC = BD \\quad \\text{and} \\quad OA = OC, \\; OB = OD",
 "description": "States the two primary interdependent geometric properties governing the diagonals of a rectangle.",
 "derivation": "- **Property 1 (Equality):** The intersecting diagonals strictly maintain **equal scalar lengths** ($AC = BD$).\n- **Property 2 (Bisection):** Inheriting from its parallelogram taxonomy, the diagonals **mutually bisect each other**, slicing the segments exactly in half directly at their intersection midpoint."
 }
@@ -524,7 +524,7 @@
 "heading": "Carpenter's Diagonal Method for Rectangles",
 "back": "## Component Anatomy:\n- **Rigid Strips:** Two distinct line segments functioning internally as the physical diagonals.\n- **Tension Thread:** The physical perimeter mapping connecting the 4 floating endpoints.\n\n## Boundary Conditions / Domain:\n- The two rigid strips MUST possess strictly equivalent physical lengths.\n- The central crossing junction point MUST represent the exact measured mathematical center of both rigid strips to guarantee proper mutual bisection.",
 "formulaMeta": {
-"formula": "\text{Equal Diagonals} + \text{Mutual Bisection} \implies \text{Rectangle}",
+"formula": "\\text{Equal Diagonals} + \\text{Mutual Bisection} \\implies \\text{Rectangle}",
 "description": "Outlines the physical verification algorithm (Carpenter's Method) used to perfectly construct a planar rectangle utilizing strictly two wooden strips and a bounding thread.",
 "derivation": "- **Step 1:** Select two straight rigid wooden strips of exactly equal measured length.\n- **Step 2:** Fasten the two strips together physically at a central pivot so they overlap exactly at their respective midpoints (forcing mutual bisection).\n- **Step 3:** Wrap a taut string completely around the four outer terminating endpoints. The resulting bound perimeter shape is geometrically guaranteed to be a perfect equiangular rectangle."
 }
@@ -551,7 +551,7 @@
 ],
 "order": 19,
 "heading": "Mathematical Definition of a Square",
-"back": "- **Strict Definition:** A square is a highly specialized quadrilateral that successfully satisfies two concurrent geometric conditions: all interior angles evaluate to exactly **$90^\circ$**, AND all four boundary sides are of exactly **equal scalar length**.\n- **Subset Relationship Matrix:** Because all interior angles equal $90^\circ$, every valid square structurally classifies as a **rectangle**. Conversely, because all sides equal the same length, it mathematically classifies as a **rhombus**. It exists as the perfect intersection (special case) of both families.",
+"back": "- **Strict Definition:** A square is a highly specialized quadrilateral that successfully satisfies two concurrent geometric conditions: all interior angles evaluate to exactly **$90^\\circ$**, AND all four boundary sides are of exactly **equal scalar length**.\n- **Subset Relationship Matrix:** Because all interior angles equal $90^\\circ$, every valid square structurally classifies as a **rectangle**. Conversely, because all sides equal the same length, it mathematically classifies as a **rhombus**. It exists as the perfect intersection (special case) of both families.",
 "standardMeta": {
 "question": "What are the two concurrent defining mathematical conditions that MUST be met for a quadrilateral to be formally classified as a square?"
 }
@@ -579,12 +579,12 @@
 ],
 "order": 20,
 "heading": "Perpendicular Bisection in Square Diagonals",
-"back": "## Component Anatomy:\n- **$AC, BD$:** The two equal-length geometric diagonals.\n- **$\angle AOB$ etc.:** The four internal intersection angles generated at the central crossing.\n\n## Boundary Conditions / Domain:\n- This perpendicular intersection property is geometrically inherited from the Rhombus family. It is mathematically invalid for generic, non-equilateral rectangles.",
+"back": "## Component Anatomy:\n- **$AC, BD$:** The two equal-length geometric diagonals.\n- **$\\angle AOB$ etc.:** The four internal intersection angles generated at the central crossing.\n\n## Boundary Conditions / Domain:\n- This perpendicular intersection property is geometrically inherited from the Rhombus family. It is mathematically invalid for generic, non-equilateral rectangles.",
 "mnemonic": "Square diagonals cross strictly right.",
 "formulaMeta": {
-"formula": "\angle AOB = \angle BOC = \angle COD = \angle DOA = 90^\circ",
+"formula": "\\angle AOB = \\angle BOC = \\angle COD = \\angle DOA = 90^\\circ",
 "description": "States the precise angular condition at which the equal diagonals of a regular square physically intersect.",
-"derivation": "- **Geometric Concept:** Because a square successfully qualifies as a rhombus (possessing four equal sides), its diagonals geometrically act as lines of bilateral symmetry. This automatically forces the intersecting diagonals to act as **perpendicular bisectors**, striking strictly at $90^\circ$ angles."
+"derivation": "- **Geometric Concept:** Because a square successfully qualifies as a rhombus (possessing four equal sides), its diagonals geometrically act as lines of bilateral symmetry. This automatically forces the intersecting diagonals to act as **perpendicular bisectors**, striking strictly at $90^\\circ$ angles."
 }
 }
 },
@@ -611,11 +611,11 @@
 ],
 "order": 21,
 "heading": "Vertex Angle Bisection in Squares",
-"back": "## Component Anatomy:\n- **Corner Vertex Angle:** The initial $90^\circ$ geometric corner inherently defining the square.\n- **Bisected Angle:** The resulting $45^\circ$ internal angle physically enclosed between the outer boundary side and the drawn diagonal vector.\n\n## Boundary Conditions / Domain:\n- This vertex-splitting phenomenon mathematically applies only to geometric shapes where all internal boundary sides evaluate equally (specifically Squares and Rhombuses).",
+"back": "## Component Anatomy:\n- **Corner Vertex Angle:** The initial $90^\\circ$ geometric corner inherently defining the square.\n- **Bisected Angle:** The resulting $45^\\circ$ internal angle physically enclosed between the outer boundary side and the drawn diagonal vector.\n\n## Boundary Conditions / Domain:\n- This vertex-splitting phenomenon mathematically applies only to geometric shapes where all internal boundary sides evaluate equally (specifically Squares and Rhombuses).",
 "formulaMeta": {
-"formula": "\frac{\angle \text{Vertex}}{2} = 45^\circ",
+"formula": "\\frac{\\angle \\text{Vertex}}{2} = 45^\\circ",
 "description": "Describes the explicit geometric splitting effect that projecting a diagonal across a square imposes upon its bounding corner vertices.",
-"derivation": "- **Property Evaluation:** The intersecting diagonals of a square inherently serve as lines of symmetry. Therefore, they perfectly **bisect the $90^\circ$ interior vertex angles** of the shape.\n- **Result:** Every $90^\circ$ standard corner is precisely sliced into two equivalent $45^\circ$ scalar angles."
+"derivation": "- **Property Evaluation:** The intersecting diagonals of a square inherently serve as lines of symmetry. Therefore, they perfectly **bisect the $90^\\circ$ interior vertex angles** of the shape.\n- **Result:** Every $90^\\circ$ standard corner is precisely sliced into two equivalent $45^\\circ$ scalar angles."
 }
 }
 },
@@ -640,7 +640,7 @@
 ],
 "order": 22,
 "heading": "Diagonal Distinction: Rhombus vs. Square",
-"back": "- **Shared Mathematical Property:** Both geometric shapes belong to the equilateral quadrilateral family, meaning both possess intersecting diagonals acting as **perpendicular bisectors** (striking exactly at $90^\circ$).\n- **The Critical Difference:** In a generalized Rhombus, the intersecting diagonals are geometrically **UNEQUAL** in length. In a Square, due to the added rectangle inheritance (equiangular corners), the diagonals are strictly forced to be **EQUAL** in length.",
+"back": "- **Shared Mathematical Property:** Both geometric shapes belong to the equilateral quadrilateral family, meaning both possess intersecting diagonals acting as **perpendicular bisectors** (striking exactly at $90^\\circ$).\n- **The Critical Difference:** In a generalized Rhombus, the intersecting diagonals are geometrically **UNEQUAL** in length. In a Square, due to the added rectangle inheritance (equiangular corners), the diagonals are strictly forced to be **EQUAL** in length.",
 "standardMeta": {
 "question": "What is the critical deterministic mathematical distinction explicitly separating the diagonals of a regular Square from the diagonals of a generalized Rhombus?"
 }
@@ -697,9 +697,9 @@
 "heading": "Diagonal Intersection Properties of a Kite",
 "back": "## Component Anatomy:\n- **Main Diagonal ($d_1$):** Connects the two opposing vertices located between the unequal sides (the line of symmetry).\n- **Cross Diagonal ($d_2$):** Connects the opposing vertices located directly between the equal side pairs.\n\n## Boundary Conditions / Domain:\n- Unlike parallelograms, mutual bisection fails entirely. Only ONE specific diagonal (the cross diagonal) is bisected.\n- Only ONE specific diagonal (the main symmetry diagonal) bisects its respective interior corner angles.",
 "formulaMeta": {
-"formula": "d_1 \perp d_2",
+"formula": "d_1 \\perp d_2",
 "description": "States the two distinct geometric rules governing perpendicularity and unilateral bisection regarding the diagonals within a Kite.",
-"derivation": "- **Property 1 (Intersection):** Because of bilateral symmetry along the main axis, the two intersecting diagonals cross strictly at a **perpendicular angle ($90^\circ$)**.\n- **Property 2 (Unilateral Bisection):** The main axis diagonal exactly **bisects** the cross diagonal. (WARNING: The reverse logical operation is demonstrably false; they do NOT mutually bisect each other)."
+"derivation": "- **Property 1 (Intersection):** Because of bilateral symmetry along the main axis, the two intersecting diagonals cross strictly at a **perpendicular angle ($90^\\circ$)**.\n- **Property 2 (Unilateral Bisection):** The main axis diagonal exactly **bisects** the cross diagonal. (WARNING: The reverse logical operation is demonstrably false; they do NOT mutually bisect each other)."
 }
 }
 },
@@ -755,7 +755,7 @@
 ],
 "order": 26,
 "heading": "Venn Diagram Hierarchy: The Square",
-"back": "- **Hierarchy Rule:** A Square is geometrically the most restrictive and specialized quadrilateral.\n- It sits at the absolute intersection (center) of the Venn Diagram because it concurrently satisfies all conditions to be:\n  1. A **Rectangle** (all angles strictly $90^\circ$)\n  2. A **Rhombus** (all sides strictly equal)\n  3. A **Parallelogram** (both pairs of opposite sides parallel)\n  4. A **Kite** (two distinct adjacent pairs of equal sides)\n- **Boundary Condition:** This hierarchical intersection holds strictly true within standard 2D Euclidean planar geometry.",
+"back": "- **Hierarchy Rule:** A Square is geometrically the most restrictive and specialized quadrilateral.\n- It sits at the absolute intersection (center) of the Venn Diagram because it concurrently satisfies all conditions to be:\n  1. A **Rectangle** (all angles strictly $90^\\circ$)\n  2. A **Rhombus** (all sides strictly equal)\n  3. A **Parallelogram** (both pairs of opposite sides parallel)\n  4. A **Kite** (two distinct adjacent pairs of equal sides)\n- **Boundary Condition:** This hierarchical intersection holds strictly true within standard 2D Euclidean planar geometry.",
 "mnemonic": "A square mathematically wears all the hats.",
 "standardMeta": {
 "question": "Explain the geometric Venn diagram relationship of a Square to Rectangles, Rhombuses, Parallelograms, and Kites."
@@ -784,9 +784,9 @@
 ],
 "order": 27,
 "heading": "Vertex Correspondence Trap in Congruence",
-"back": "- **Strict Rule:** Geometric congruence notation demands exact, 1-to-1 **vertex correspondence** (the linear order of the letters dictates the mathematical mapping).\n- **The Flaw:** In attempting to claim $\Delta BAD \cong \Delta CDB$, the notation implies side $BA$ maps directly to $CD$, and specific alternate interior angles align. If $BD$ is the diagonal, the correct geometric mapping reflects the alternate interior angles.\n- **Correct Notation:** For a standard parallelogram divided by diagonal $BD$, alternate interior angles dictate that $\Delta ABD \cong \Delta CDB$ (where $AB \leftrightarrow CD$ and $AD \leftrightarrow CB$).",
+"back": "- **Strict Rule:** Geometric congruence notation demands exact, 1-to-1 **vertex correspondence** (the linear order of the letters dictates the mathematical mapping).\n- **The Flaw:** In attempting to claim $\\Delta BAD \\cong \\Delta CDB$, the notation implies side $BA$ maps directly to $CD$, and specific alternate interior angles align. If $BD$ is the diagonal, the correct geometric mapping reflects the alternate interior angles.\n- **Correct Notation:** For a standard parallelogram divided by diagonal $BD$, alternate interior angles dictate that $\\Delta ABD \\cong \\Delta CDB$ (where $AB \\leftrightarrow CD$ and $AD \\leftrightarrow CB$).",
 "standardMeta": {
-"question": "In a rectangle or parallelogram split by a diagonal, why is it a strict mathematical error to write $\Delta BAD \cong \Delta CDB$, even if the two triangles share the exact same dimensions?"
+"question": "In a rectangle or parallelogram split by a diagonal, why is it a strict mathematical error to write $\\Delta BAD \\cong \\Delta CDB$, even if the two triangles share the exact same dimensions?"
 }
 }
 },
@@ -841,7 +841,7 @@
 ],
 "order": 29,
 "heading": "Rhombus from Joined Equilateral Triangles",
-"back": "- **Fact:** Joining two geometrically identical equilateral triangles seamlessly along a common edge always forms a **Rhombus**.\n- **Angular Anatomy:** Because each isolated interior angle of an equilateral triangle is strictly $60^\circ$, the joined boundary vertices will aggregate to angles of $60^\circ + 60^\circ = 120^\circ$.\n- **Resulting Angles:** The final unified rhombus will strictly possess interior angles of **$60^\circ, 120^\circ, 60^\circ, \text{and } 120^\circ$**.\n- **Boundary Condition:** The triangles must be strictly equilateral. If they are merely isosceles, the resulting shape could be a general rhombus or a generic kite depending on which base is joined.",
+"back": "- **Fact:** Joining two geometrically identical equilateral triangles seamlessly along a common edge always forms a **Rhombus**.\n- **Angular Anatomy:** Because each isolated interior angle of an equilateral triangle is strictly $60^\\circ$, the joined boundary vertices will aggregate to angles of $60^\\circ + 60^\\circ = 120^\\circ$.\n- **Resulting Angles:** The final unified rhombus will strictly possess interior angles of **$60^\\circ, 120^\\circ, 60^\\circ, \\text{and } 120^\\circ$**.\n- **Boundary Condition:** The triangles must be strictly equilateral. If they are merely isosceles, the resulting shape could be a general rhombus or a generic kite depending on which base is joined.",
 "standardMeta": {
 "question": "What specific quadrilateral is geometrically formed by joining two identical equilateral triangles along a common edge, and what are its exact four resultant interior angles?"
 }
@@ -870,12 +870,12 @@
 ],
 "order": 30,
 "heading": "Quadrilateral from Perpendicular Diameters",
-"back": "## Component Anatomy:\n- **Circle Center ($O$):** Acts as the exact point of bisection for both resulting diagonals.\n- **Diameters:** Physically act as the bounding diagonals of the resulting inscribed quadrilateral.\n- **Radius ($r$):** Ensures the geometric exactness of the bisection (all half-diagonals equal $r$).\n\n## Boundary Conditions / Domain:\n- The two initial diameters MUST strictly intersect at a perpendicular ($90^\circ$) angle.\n- If the diameters are drawn at any non-orthogonal angle, the diagonals still bisect and remain equal, meaning the resulting shape safely reverts to a standard **Rectangle**, but fails to qualify as a Square.",
+"back": "## Component Anatomy:\n- **Circle Center ($O$):** Acts as the exact point of bisection for both resulting diagonals.\n- **Diameters:** Physically act as the bounding diagonals of the resulting inscribed quadrilateral.\n- **Radius ($r$):** Ensures the geometric exactness of the bisection (all half-diagonals equal $r$).\n\n## Boundary Conditions / Domain:\n- The two initial diameters MUST strictly intersect at a perpendicular ($90^\\circ$) angle.\n- If the diameters are drawn at any non-orthogonal angle, the diagonals still bisect and remain equal, meaning the resulting shape safely reverts to a standard **Rectangle**, but fails to qualify as a Square.",
 "mnemonic": "Perpendicular diameters square the circle.",
 "formulaMeta": {
-"formula": "\text{Shape} = \text{Square}",
+"formula": "\\text{Shape} = \\text{Square}",
 "description": "Procedural geometric deduction to identify the exact shape formed by connecting the endpoints of two perpendicular circular diameters.",
-"derivation": "- **Step 1:** Recognize that the two circular diameters function identically as the primary diagonals of the newly formed quadrilateral.\n- **Step 2:** Because they are both diameters of the same circle, their scalar lengths are mathematically guaranteed to be equal ($2r$).\n- **Step 3:** Because all diameters intersect precisely at the origin center of the circle, they perfectly bisect each other.\n- **Step 4:** They are given geometrically as perpendicular, meaning their central intersection angle is strictly $90^\circ$.\n- **Conclusion:** A planar quadrilateral whose diagonals are simultaneously equal, bisecting, and perpendicular is mathematically defined strictly as a Square."
+"derivation": "- **Step 1:** Recognize that the two circular diameters function identically as the primary diagonals of the newly formed quadrilateral.\n- **Step 2:** Because they are both diameters of the same circle, their scalar lengths are mathematically guaranteed to be equal ($2r$).\n- **Step 3:** Because all diameters intersect precisely at the origin center of the circle, they perfectly bisect each other.\n- **Step 4:** They are given geometrically as perpendicular, meaning their central intersection angle is strictly $90^\\circ$.\n- **Conclusion:** A planar quadrilateral whose diagonals are simultaneously equal, bisecting, and perpendicular is mathematically defined strictly as a Square."
 }
 }
 },
@@ -901,11 +901,11 @@
 ],
 "order": 31,
 "heading": "Midpoint Quadrilateral of a Parent Square",
-"back": "## Component Anatomy:\n- **Outer Parent Shape:** A verified geometric square.\n- **Midpoints:** The exact mathematical center coordinates of each of the 4 outer perimeter sides.\n- **Inner Shape:** The resulting geometric quadrilateral formed by sequentially connecting these 4 midpoints.\n\n## Boundary Conditions / Domain:\n- This exact emergent property relies heavily on the Midpoint Theorem applied specifically to the invariant $90^\circ$ intersecting, equal-length diagonals of the parent square.",
+"back": "## Component Anatomy:\n- **Outer Parent Shape:** A verified geometric square.\n- **Midpoints:** The exact mathematical center coordinates of each of the 4 outer perimeter sides.\n- **Inner Shape:** The resulting geometric quadrilateral formed by sequentially connecting these 4 midpoints.\n\n## Boundary Conditions / Domain:\n- This exact emergent property relies heavily on the Midpoint Theorem applied specifically to the invariant $90^\\circ$ intersecting, equal-length diagonals of the parent square.",
 "formulaMeta": {
-"formula": "\text{Inner Shape} = \text{Square}",
+"formula": "\\text{Inner Shape} = \\text{Square}",
 "description": "Geometric proof deducing the exact shape formed by sequentially joining the strict midpoints of the sides of any parent square.",
-"derivation": "- **Step 1:** Draw the internal diagonals of the outer parent square. We know they are strictly equal in length and intersect at exactly $90^\circ$.\n- **Step 2:** Apply the mathematical Midpoint Theorem to the four corner triangles formed by the diagonals. The new inner boundary sides are geometrically parallel to the outer diagonals and measure exactly half their length.\n- **Step 3:** Because the outer diagonals are equal in magnitude, all four of the resulting inner sides are forced to be equal.\n- **Step 4:** Because the outer diagonals intersect at $90^\circ$, the parallel inner sides must also mutually intersect at strictly $90^\circ$ angles, thereby generating a perfect Inner Square."
+"derivation": "- **Step 1:** Draw the internal diagonals of the outer parent square. We know they are strictly equal in length and intersect at exactly $90^\\circ$.\n- **Step 2:** Apply the mathematical Midpoint Theorem to the four corner triangles formed by the diagonals. The new inner boundary sides are geometrically parallel to the outer diagonals and measure exactly half their length.\n- **Step 3:** Because the outer diagonals are equal in magnitude, all four of the resulting inner sides are forced to be equal.\n- **Step 4:** Because the outer diagonals intersect at $90^\\circ$, the parallel inner sides must also mutually intersect at strictly $90^\\circ$ angles, thereby generating a perfect Inner Square."
 }
 }
 },

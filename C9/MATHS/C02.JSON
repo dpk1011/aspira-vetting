@@ -40,7 +40,7 @@
 "tags": ["math", "polynomials", "algebra", "class-9", "domain"],
 "order": 2,
 "heading": "Univariate Polynomial",
-"back": "## Synthesised Answer\n- An algebraic expression that involves **strictly one single variable**.\n\n## Boundary Conditions / Domain\n- The variable MUST strictly be raised to **non-negative integer powers** ($0, 1, 2, 3...$).\n- **Fail Cases:** Fractional powers (e.g., $\sqrt{x} = x^{1/2}$) and negative powers (e.g., $\frac{1}{x} = x^{-1}$) strictly violate the polynomial domain and instantly disqualify the expression.\n- **Example:** $x^2 + 5x + 1$ is a valid univariate polynomial.\n- **Counter-Example:** $4x + 5y + 3$ contains two distinct variables ($x, y$), disqualifying it from being univariate.",
+"back": "## Synthesised Answer\n- An algebraic expression that involves **strictly one single variable**.\n\n## Boundary Conditions / Domain\n- The variable MUST strictly be raised to **non-negative integer powers** ($0, 1, 2, 3...$).\n- **Fail Cases:** Fractional powers (e.g., $\\sqrt{x} = x^{1/2}$) and negative powers (e.g., $\\frac{1}{x} = x^{-1}$) strictly violate the polynomial domain and instantly disqualify the expression.\n- **Example:** $x^2 + 5x + 1$ is a valid univariate polynomial.\n- **Counter-Example:** $4x + 5y + 3$ contains two distinct variables ($x, y$), disqualifying it from being univariate.",
 "standardMeta": {
 "question": "What is the strict mathematical definition of a 'univariate polynomial', and what specific conditions must its exponents satisfy?"
 }
@@ -151,7 +151,7 @@
 "tags": ["math", "polynomials", "evaluation", "class-9"],
 "order": 7,
 "heading": "Evaluating a Polynomial",
-"back": "## Component Anatomy\n- **$P(k)$:** The final evaluated output scalar of the polynomial.\n- **$k$:** The specific real number being substituted into the function.\n- **$P(x)$:** The original polynomial expression.\n\n## Boundary Conditions / Domain\n- The input $k$ can be any real number ($k \in \mathbb{R}$). Polynomials inherently have no domain restrictions on their inputs.",
+"back": "## Component Anatomy\n- **$P(k)$:** The final evaluated output scalar of the polynomial.\n- **$k$:** The specific real number being substituted into the function.\n- **$P(x)$:** The original polynomial expression.\n\n## Boundary Conditions / Domain\n- The input $k$ can be any real number ($k \\in \\mathbb{R}$). Polynomials inherently have no domain restrictions on their inputs.",
 "formulaMeta": {
 "formula": "P(k)",
 "description": "State the Standard Operating Procedure (SOP) to systematically evaluate the exact numerical value of a polynomial $P(x)$ at a specific coordinate $x = k$.",
@@ -179,7 +179,7 @@
 "formulaMeta": {
 "formula": "P(0) = b",
 "description": "State the mathematical procedure and specific function evaluation required to instantly extract the constant term $b$ from any unknown polynomial $P(x)$.",
-"derivation": "1. Substitute the strict boundary condition $x = 0$ into the linear polynomial $P(x) = ax + b$.\n2. The variable term is completely annihilated because any real number multiplied by zero is zero ($a \cdot 0 = 0$).\n3. The evaluated output $P(0)$ mathematically leaves only the standalone constant term $b$."
+"derivation": "1. Substitute the strict boundary condition $x = 0$ into the linear polynomial $P(x) = ax + b$.\n2. The variable term is completely annihilated because any real number multiplied by zero is zero ($a \\cdot 0 = 0$).\n3. The evaluated output $P(0)$ mathematically leaves only the standalone constant term $b$."
 }
 }
 },
@@ -199,7 +199,7 @@
 "tags": ["math", "linear-equations", "algebra", "class-9"],
 "order": 9,
 "heading": "Standard Form of a Linear Polynomial",
-"back": "## Component Anatomy\n- **$a$:** The strict non-zero coefficient of the independent variable $x$.\n- **$x$:** The single independent variable, strictly raised to the first power ($x^1$).\n- **$b$:** The constant mathematical term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a \neq 0$.\n- If $a = 0$, the $x$ term vanishes. The expression strictly collapses into $P(x) = b$, which is a Degree 0 (Constant) polynomial, completely destroying the geometric linearity.",
+"back": "## Component Anatomy\n- **$a$:** The strict non-zero coefficient of the independent variable $x$.\n- **$x$:** The single independent variable, strictly raised to the first power ($x^1$).\n- **$b$:** The constant mathematical term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a \\neq 0$.\n- If $a = 0$, the $x$ term vanishes. The expression strictly collapses into $P(x) = b$, which is a Degree 0 (Constant) polynomial, completely destroying the geometric linearity.",
 "formulaMeta": {
 "formula": "P(x) = ax + b",
 "description": "State the general standard algebraic form of a linear polynomial in one variable, and its absolute primary boundary condition.",
@@ -222,7 +222,7 @@
 "tags": ["math", "sequences", "linear-patterns", "class-9"],
 "order": 10,
 "heading": "Defining Characteristic of a Linear Pattern",
-"back": "## Synthesised Answer\n- **Core Rule:** In any valid mathematical linear pattern or arithmetic sequence, the numerical difference between strictly any two **successive (consecutive) terms** is absolutely **constant**.\n- **Example:** In the sequence $1, 3, 5, 7\dots$, the common difference is strictly $(3-1) = +2$ for every step.\n\n## Boundary Conditions / Domain\n- If the difference fluctuates even slightly (e.g., $+2$, then $+3$), the pattern mathematically fails the linear condition.",
+"back": "## Synthesised Answer\n- **Core Rule:** In any valid mathematical linear pattern or arithmetic sequence, the numerical difference between strictly any two **successive (consecutive) terms** is absolutely **constant**.\n- **Example:** In the sequence $1, 3, 5, 7\\dots$, the common difference is strictly $(3-1) = +2$ for every step.\n\n## Boundary Conditions / Domain\n- If the difference fluctuates even slightly (e.g., $+2$, then $+3$), the pattern mathematically fails the linear condition.",
 "standardMeta": {
 "question": "What is the strict, defining algebraic characteristic of a Linear Pattern or arithmetic sequence?"
 }
@@ -244,7 +244,7 @@
 "tags": ["math", "sequences", "linear-patterns", "class-9"],
 "order": 11,
 "heading": "N-th Term of a Linear Pattern",
-"back": "## Component Anatomy\n- **$T_n$:** The final numerical value evaluated at stage $n$.\n- **$a$:** The constant difference between consecutive terms (the discrete rate of change).\n- **$n$:** The specific stage, term number, or time interval.\n- **$b$:** The mathematical offset (often represents the theoretical 'Stage 0' value).\n\n## Boundary Conditions / Domain\n- The sequence position $n$ MUST strictly be a positive integer ($n \in \mathbb{Z}^+$). You cannot physically evaluate 'Stage $2.5$' of a discrete pattern.",
+"back": "## Component Anatomy\n- **$T_n$:** The final numerical value evaluated at stage $n$.\n- **$a$:** The constant difference between consecutive terms (the discrete rate of change).\n- **$n$:** The specific stage, term number, or time interval.\n- **$b$:** The mathematical offset (often represents the theoretical 'Stage 0' value).\n\n## Boundary Conditions / Domain\n- The sequence position $n$ MUST strictly be a positive integer ($n \\in \\mathbb{Z}^+$). You cannot physically evaluate 'Stage $2.5$' of a discrete pattern.",
 "formulaMeta": {
 "formula": "T_n = an + b",
 "description": "State the general algebraic formula that deterministically yields the value of the $n$-th term in any given linear pattern.",
@@ -268,11 +268,11 @@
 "tags": ["math", "sequences", "algebra", "class-9"],
 "order": 12,
 "heading": "Finding the Stage Number (n) for a Target Value",
-"back": "## Component Anatomy\n- **$an + b$:** The established linear expression strictly modeling the given pattern.\n- **$V$:** The specific, numerical target value provided by the examiner.\n- **$n$:** The unknown discrete stage number to be algebraically isolated.\n\n## Boundary Conditions / Domain\n- $a \neq 0$.\n- **Existence Check:** If $n$ evaluates algebraically to a non-integer or decimal (e.g., $n = 39.8$), it rigorously proves that the exact value $V$ **cannot exist** as a valid output stage within this specific discrete pattern.",
+"back": "## Component Anatomy\n- **$an + b$:** The established linear expression strictly modeling the given pattern.\n- **$V$:** The specific, numerical target value provided by the examiner.\n- **$n$:** The unknown discrete stage number to be algebraically isolated.\n\n## Boundary Conditions / Domain\n- $a \\neq 0$.\n- **Existence Check:** If $n$ evaluates algebraically to a non-integer or decimal (e.g., $n = 39.8$), it rigorously proves that the exact value $V$ **cannot exist** as a valid output stage within this specific discrete pattern.",
 "formulaMeta": {
 "formula": "an + b = V",
 "description": "State the standard algebraic procedure to mathematically determine which stage number $n$ correctly corresponds to a specific target output value $V$ in a discrete linear pattern.",
-"derivation": "1. Equate the known linear expression of the pattern to the target output value $V$.\n2. Isolate the term containing $n$ by subtracting $b$ from both sides: $an = V - b$.\n3. Divide by $a$ to strictly isolate $n$: $n = \frac{V - b}{a}$.\n4. Verify if $n$ evaluates strictly to a valid positive whole integer."
+"derivation": "1. Equate the known linear expression of the pattern to the target output value $V$.\n2. Isolate the term containing $n$ by subtracting $b$ from both sides: $an = V - b$.\n3. Divide by $a$ to strictly isolate $n$: $n = \\frac{V - b}{a}$.\n4. Verify if $n$ evaluates strictly to a valid positive whole integer."
 }
 }
 },
@@ -336,7 +336,7 @@
 "tags": ["math", "linear-equations", "graphs", "class-9"],
 "order": 15,
 "heading": "Linear Relationship (Slope-Intercept Form)",
-"back": "## Component Anatomy\n- **$y$:** The dependent variable (System Output).\n- **$x$:** The independent variable (System Input).\n- **$a$:** The continuous mathematical Slope (Gradient). It explicitly measures the strict rate of change (exactly how much $y$ changes for every $1$ unit change in $x$).\n- **$b$:** The strictly defined y-intercept. It represents the starting, initial, or baseline value of $y$ precisely when $x=0$.\n\n## Boundary Conditions / Domain\n- Variables $x, y \in \mathbb{R}$.\n- Graphically produces an infinite straight line across the 2-D plane. If $a=0$, it flattens completely into a purely horizontal line ($y=b$).",
+"back": "## Component Anatomy\n- **$y$:** The dependent variable (System Output).\n- **$x$:** The independent variable (System Input).\n- **$a$:** The continuous mathematical Slope (Gradient). It explicitly measures the strict rate of change (exactly how much $y$ changes for every $1$ unit change in $x$).\n- **$b$:** The strictly defined y-intercept. It represents the starting, initial, or baseline value of $y$ precisely when $x=0$.\n\n## Boundary Conditions / Domain\n- Variables $x, y \\in \\mathbb{R}$.\n- Graphically produces an infinite straight line across the 2-D plane. If $a=0$, it flattens completely into a purely horizontal line ($y=b$).",
 "formulaMeta": {
 "formula": "y = ax + b",
 "description": "State the fundamental linear equation representing the continuous geometric and algebraic relationship between two variables $x$ and $y$ on a 2-D plane.",
@@ -385,7 +385,7 @@
 "formulaMeta": {
 "formula": "(0, b)",
 "description": "State the exact mathematical coordinate pair representing the y-intercept for any linear graph $y = ax + b$.",
-"derivation": "Derived explicitly by substituting the absolute boundary condition $x = 0$ into the linear equation:\n$y = a(0) + b \rightarrow y = b$."
+"derivation": "Derived explicitly by substituting the absolute boundary condition $x = 0$ into the linear equation:\n$y = a(0) + b \\rightarrow y = b$."
 }
 }
 },
@@ -405,9 +405,9 @@
 "tags": ["math", "linear-equations", "graphs", "intercepts", "class-9"],
 "order": 18,
 "heading": "X-Intercept Conceptual Anatomy",
-"back": "## Component Anatomy\n- **$-\frac{b}{a}$:** The exact derived horizontal distance from the origin where the continuous line mathematically slices through the x-axis.\n- **$0$:** The strictly required y-coordinate, confirming the point has zero vertical elevation off the axis.\n\n## Boundary Conditions / Domain\n- The slope $a$ MUST strictly be non-zero ($a \neq 0$).\n- **Division by Zero:** If $a = 0$, the ratio $-\frac{b}{0}$ is mathematically undefined. Geometrically, this means the line is perfectly horizontal and parallel to the x-axis, unconditionally failing to ever intersect it.",
+"back": "## Component Anatomy\n- **$-\\frac{b}{a}$:** The exact derived horizontal distance from the origin where the continuous line mathematically slices through the x-axis.\n- **$0$:** The strictly required y-coordinate, confirming the point has zero vertical elevation off the axis.\n\n## Boundary Conditions / Domain\n- The slope $a$ MUST strictly be non-zero ($a \\neq 0$).\n- **Division by Zero:** If $a = 0$, the ratio $-\\frac{b}{0}$ is mathematically undefined. Geometrically, this means the line is perfectly horizontal and parallel to the x-axis, unconditionally failing to ever intersect it.",
 "formulaMeta": {
-"formula": "\left(-\frac{b}{a}, 0\right)",
+"formula": "\\left(-\\frac{b}{a}, 0\\right)",
 "description": "State the exact algebraic coordinate formula that yields the x-intercept of the general linear graph $y = ax + b$.",
 "derivation": "The x-intercept unconditionally exists strictly where the graph physically touches the horizontal axis, enforcing the rule that overall vertical output $y = 0$."
 }
@@ -429,11 +429,11 @@
 "tags": ["math", "linear-equations", "algebra", "intercepts", "class-9"],
 "order": 19,
 "heading": "X-Intercept Algebraic Derivation",
-"back": "## Component Anatomy\n- **$y = 0$:** The necessary mathematical prerequisite to find any x-intercept.\n- **$x$:** The isolated variable representing the horizontal root.\n\n## Boundary Conditions / Domain\n- The procedure strictly assumes $a \neq 0$ so that the division in Step 4 is mathematically legal.",
+"back": "## Component Anatomy\n- **$y = 0$:** The necessary mathematical prerequisite to find any x-intercept.\n- **$x$:** The isolated variable representing the horizontal root.\n\n## Boundary Conditions / Domain\n- The procedure strictly assumes $a \\neq 0$ so that the division in Step 4 is mathematically legal.",
 "formulaMeta": {
 "formula": "ax + b = 0",
 "description": "State the standard algebraic step-by-step Standard Operating Procedure (SOP) to mathematically derive the exact x-intercept of the equation $y = ax + b$.",
-"derivation": "1. Apply the strict boundary condition for points on the x-axis by setting vertical elevation to nil: $y = 0$.\n2. Substitute $y=0$ into the standard equation: $0 = ax + b$.\n3. Algebraically isolate the $ax$ term by subtracting the constant $b$ from both sides: $ax = -b$.\n4. Divide by $a$ to strip the coefficient and find the final x-coordinate limit: $x = -\frac{b}{a}$."
+"derivation": "1. Apply the strict boundary condition for points on the x-axis by setting vertical elevation to nil: $y = 0$.\n2. Substitute $y=0$ into the standard equation: $0 = ax + b$.\n3. Algebraically isolate the $ax$ term by subtracting the constant $b$ from both sides: $ax = -b$.\n4. Divide by $a$ to strip the coefficient and find the final x-coordinate limit: $x = -\\frac{b}{a}$."
 }
 }
 },
@@ -453,11 +453,11 @@
 "tags": ["math", "linear-equations", "graphs", "edge-case", "class-9"],
 "order": 20,
 "heading": "Equation of a Zero-Slope (Horizontal) Line",
-"back": "## Component Anatomy\n- **$y$:** The dependent variable remains strictly locked to a single constant output value, entirely regardless of what $x$ input is provided.\n- **$b$:** The specific constant where the horizontal line perpendicularly cuts the y-axis.\n\n## Boundary Conditions / Domain\n- Because the gradient $a = 0$, the $x$ variable is mathematically annihilated ($0 \cdot x = 0$).\n- The resulting line is perfectly horizontal and indefinitely parallel to the x-axis.\n- It mathematically possesses exactly **zero x-intercepts** (unless $b=0$, in which case the line perfectly overlaps and *becomes* the infinite x-axis).",
+"back": "## Component Anatomy\n- **$y$:** The dependent variable remains strictly locked to a single constant output value, entirely regardless of what $x$ input is provided.\n- **$b$:** The specific constant where the horizontal line perpendicularly cuts the y-axis.\n\n## Boundary Conditions / Domain\n- Because the gradient $a = 0$, the $x$ variable is mathematically annihilated ($0 \\cdot x = 0$).\n- The resulting line is perfectly horizontal and indefinitely parallel to the x-axis.\n- It mathematically possesses exactly **zero x-intercepts** (unless $b=0$, in which case the line perfectly overlaps and *becomes* the infinite x-axis).",
 "formulaMeta": {
 "formula": "y = b",
 "description": "State the resulting simplified algebraic equation and its geometric trajectory if the slope $a$ in $y=ax+b$ is forced to strictly equal $0$.",
-"derivation": "Substitute $a=0$ into the slope-intercept form: $y = (0)x + b \rightarrow y = b$."
+"derivation": "Substitute $a=0$ into the slope-intercept form: $y = (0)x + b \\rightarrow y = b$."
 }
 }
 },
@@ -477,7 +477,7 @@
 "tags": ["math", "linear-equations", "graphs", "origin", "class-9"],
 "order": 21,
 "heading": "Linear Graphs Passing Through the Origin",
-"back": "## Synthesised Answer\n- **Strict Condition:** The constant term $b$ (the mathematical y-intercept) must be exactly **$0$**.\n- **Resulting Equation Form:** The general equation collapses strictly into a direct proportion: **$y = ax$**.\n\n## Boundary Conditions / Domain (Algebraic Proof)\n- If the origin coordinate $(0,0)$ resides perfectly on the line, we can substitute it into the standard form to rigorously prove the condition: $0 = a(0) + b \rightarrow 0 = 0 + b \rightarrow b = 0$.",
+"back": "## Synthesised Answer\n- **Strict Condition:** The constant term $b$ (the mathematical y-intercept) must be exactly **$0$**.\n- **Resulting Equation Form:** The general equation collapses strictly into a direct proportion: **$y = ax$**.\n\n## Boundary Conditions / Domain (Algebraic Proof)\n- If the origin coordinate $(0,0)$ resides perfectly on the line, we can substitute it into the standard form to rigorously prove the condition: $0 = a(0) + b \\rightarrow 0 = 0 + b \\rightarrow b = 0$.",
 "standardMeta": {
 "question": "What strict mathematical condition within the equation $y = ax + b$ unequivocally guarantees that the resulting straight line will pass exactly through the origin $(0,0)$?"
 }
@@ -522,7 +522,7 @@
 "tags": ["math", "linear-equations", "graphs", "slope", "class-9"],
 "order": 23,
 "heading": "Effect of Slope Magnitude on Graph Steepness",
-"back": "## Synthesised Answer\n- The standard reference baseline is the identity equation $y = x$ (where $a=1$, forming a perfect $45^\circ$ diagonal).\n- **If absolute magnitude $|a| > 1$:** The line trajectory becomes strictly **steeper** (it rotates visually closer to the vertical y-axis). Example: $y = 4x$.\n- **If absolute magnitude $|a| < 1$:** The line trajectory becomes strictly **less steep** (it flattens visually closer to the horizontal x-axis). Example: $y = \frac{1}{2}x$.\n\n## Boundary Conditions / Domain\n- We strictly use the absolute magnitude $|a|$ because a slope of $-10$ is mathematically 'steeper' (falling faster) than a slope of $-2$, despite $-10$ being a smaller number.",
+"back": "## Synthesised Answer\n- The standard reference baseline is the identity equation $y = x$ (where $a=1$, forming a perfect $45^\\circ$ diagonal).\n- **If absolute magnitude $|a| > 1$:** The line trajectory becomes strictly **steeper** (it rotates visually closer to the vertical y-axis). Example: $y = 4x$.\n- **If absolute magnitude $|a| < 1$:** The line trajectory becomes strictly **less steep** (it flattens visually closer to the horizontal x-axis). Example: $y = \\frac{1}{2}x$.\n\n## Boundary Conditions / Domain\n- We strictly use the absolute magnitude $|a|$ because a slope of $-10$ is mathematically 'steeper' (falling faster) than a slope of $-2$, despite $-10$ being a smaller number.",
 "mnemonic": "Large A = Avalanche (Steep). Small A = Ant trail (Flat).",
 "standardMeta": {
 "question": "How does altering the absolute mathematical magnitude of the slope $a$ alter the visual steepness of the line $y=ax$ compared to the baseline $y=x$?"
@@ -545,7 +545,7 @@
 "tags": ["math", "linear-equations", "graphs", "geometry", "class-9"],
 "order": 24,
 "heading": "Condition for Parallel Linear Graphs",
-"back": "## Synthesised Answer\n- **Dual Condition:** Two distinct linear equations $y = a_1x + b_1$ and $y = a_2x + b_2$ will produce perfectly parallel lines if and only if:\n  1. Their continuous gradients are mathematically identical: **$a_1 = a_2$**.\n  2. Their y-intercepts are strictly distinct: **$b_1 \neq b_2$**.\n- **Concept:** If you alter only the initial constant $b$, the line merely translates (shifts) up or down vertically without changing its fundamental angle of inclination.\n\n## Boundary Conditions / Domain (Trap Alert)\n- If both $a_1 = a_2$ AND $b_1 = b_2$, the lines are NOT mathematically parallel; they are **coincident** (the exact same overlapping line). Thus, the $b_1 \neq b_2$ restriction is absolutely mandatory.",
+"back": "## Synthesised Answer\n- **Dual Condition:** Two distinct linear equations $y = a_1x + b_1$ and $y = a_2x + b_2$ will produce perfectly parallel lines if and only if:\n  1. Their continuous gradients are mathematically identical: **$a_1 = a_2$**.\n  2. Their y-intercepts are strictly distinct: **$b_1 \\neq b_2$**.\n- **Concept:** If you alter only the initial constant $b$, the line merely translates (shifts) up or down vertically without changing its fundamental angle of inclination.\n\n## Boundary Conditions / Domain (Trap Alert)\n- If both $a_1 = a_2$ AND $b_1 = b_2$, the lines are NOT mathematically parallel; they are **coincident** (the exact same overlapping line). Thus, the $b_1 \\neq b_2$ restriction is absolutely mandatory.",
 "mnemonic": "Same Slope, Different B = Parallel to the Sea.",
 "standardMeta": {
 "question": "What strict mathematical and algebraic conditions regarding variables $a$ and $b$ must be met for two linear equations to produce perfectly parallel lines?"
@@ -568,9 +568,9 @@
 "tags": ["math", "linear-equations", "algebra", "class-9", "system-of-equations"],
 "order": 25,
 "heading": "Deriving a Linear Equation (Eliminating Intercept)",
-"back": "## Component Anatomy\n- **$(x_1, y_1)$ & $(x_2, y_2)$:** The two given distinct numerical coordinate pairs.\n- **$a$:** The unknown targeted slope.\n- **$b$:** The unknown initial constant.\n\n## Boundary Conditions / Domain\n- The coordinates must be mathematically distinct. Furthermore, $x_1$ must strictly not equal $x_2$ ($x_1 \neq x_2$). If $x_1 = x_2$, the points lie on a perfectly vertical line, breaking the function format $y = ax + b$.",
+"back": "## Component Anatomy\n- **$(x_1, y_1)$ & $(x_2, y_2)$:** The two given distinct numerical coordinate pairs.\n- **$a$:** The unknown targeted slope.\n- **$b$:** The unknown initial constant.\n\n## Boundary Conditions / Domain\n- The coordinates must be mathematically distinct. Furthermore, $x_1$ must strictly not equal $x_2$ ($x_1 \\neq x_2$). If $x_1 = x_2$, the points lie on a perfectly vertical line, breaking the function format $y = ax + b$.",
 "formulaMeta": {
-"formula": "\begin{aligned} y_1 &= ax_1 + b \\ y_2 &= ax_2 + b \end{aligned}",
+"formula": "\\begin{aligned} y_1 &= ax_1 + b \\ y_2 &= ax_2 + b \\end{aligned}",
 "description": "State the Phase 1 Standard Operating Procedure (SOP) to setup the system and mathematically eliminate the variable $b$ when finding a linear equation from two points.",
 "derivation": "1. Substitute the numerical values of the first coordinate pair $(x_1, y_1)$ into $y=ax+b$ to form Equation 1.\n2. Substitute the second numerical coordinate pair $(x_2, y_2)$ into $y=ax+b$ to form Equation 2.\n3. Subtract Equation 1 algebraically from Equation 2. This strictly eliminates the constant variable $b$, leaving an equation containing only numerical values and the single unknown slope $a$."
 }
@@ -595,7 +595,7 @@
 "heading": "Deriving a Linear Equation (Solving for Coefficients)",
 "back": "## Component Anatomy\n- **$(y_2 - y_1) = a(x_2 - x_1)$:** The intermediate equation remaining after mathematically eliminating $b$.\n- **$a$:** The targeted mathematical slope.\n- **$b$:** The initial constant (y-intercept).\n\n## Boundary Conditions / Domain\n- **Division by Zero Trap:** You strictly cannot divide by $(x_2 - x_1)$ if $x_1 = x_2$. If the x-coordinates are identical, the line is perfectly vertical, the slope $a$ is undefined, and the equation form $y=ax+b$ mathematically fails.",
 "formulaMeta": {
-"formula": "a = \frac{y_2 - y_1}{x_2 - x_1}",
+"formula": "a = \\frac{y_2 - y_1}{x_2 - x_1}",
 "description": "State the Phase 2 Standard Operating Procedure (SOP) to mathematically extract the slope $a$ and constant $b$ after eliminating $b$ via subtraction.",
 "derivation": "1. Take the subtracted algebraic equation: $(y_2 - y_1) = a(x_2 - x_1)$.\n2. Divide both sides strictly by the difference in x-coordinates $(x_2 - x_1)$ to isolate the slope $a$.\n3. Substitute the derived numerical value of $a$ back into Equation 1 ($y_1 = ax_1 + b$).\n4. Solve algebraically for the final unknown constant $b$."
 }
@@ -618,7 +618,7 @@
 "tags": ["math", "algebra", "word-problems", "class-9", "ratios"],
 "order": 27,
 "heading": "Ratio-Based Integer Problems",
-"back": "## Component Anatomy\n- **$m, n$:** The scalar integers representing the components of the given ratio.\n- **$x$:** The strictly unknown common multiplier mathematically connecting the ratio to the actual hidden values.\n- **$D$:** The absolute given numerical difference between the two targeted numbers.\n\n## Boundary Conditions / Domain\n- The procedure strictly assumes $m \neq n$. If $m = n$, the ratio is $1:1$, making their mathematical difference strictly $0$.\n- To ensure a positive difference $D > 0$, assign $m$ as the strictly larger ratio component.",
+"back": "## Component Anatomy\n- **$m, n$:** The scalar integers representing the components of the given ratio.\n- **$x$:** The strictly unknown common multiplier mathematically connecting the ratio to the actual hidden values.\n- **$D$:** The absolute given numerical difference between the two targeted numbers.\n\n## Boundary Conditions / Domain\n- The procedure strictly assumes $m \\neq n$. If $m = n$, the ratio is $1:1$, making their mathematical difference strictly $0$.\n- To ensure a positive difference $D > 0$, assign $m$ as the strictly larger ratio component.",
 "formulaMeta": {
 "formula": "mx - nx = D",
 "description": "State the algebraic setup and SOP to find two unknown real integers if their exact ratio is given as $m:n$ and their mathematical difference is $D$.",
@@ -643,7 +643,7 @@
 "tags": ["math", "linear-equations", "algebra", "word-problems", "class-9"],
 "order": 28,
 "heading": "2-Digit Number Problems (Algebraic Setup)",
-"back": "## Component Anatomy\n- **$x$:** The specific integer digit residing in the tens place.\n- **$y$:** The specific integer digit residing in the units (ones) place.\n- **$10$:** The strictly required base-10 scalar multiplier for the tens position.\n\n## Boundary Conditions / Domain\n- $x$ MUST strictly be an integer between $1$ and $9$ inclusive ($1 \leq x \leq 9$). If $x=0$, the number completely collapses into a 1-digit number.\n- $y$ MUST strictly be an integer between $0$ and $9$ inclusive ($0 \leq y \leq 9$).",
+"back": "## Component Anatomy\n- **$x$:** The specific integer digit residing in the tens place.\n- **$y$:** The specific integer digit residing in the units (ones) place.\n- **$10$:** The strictly required base-10 scalar multiplier for the tens position.\n\n## Boundary Conditions / Domain\n- $x$ MUST strictly be an integer between $1$ and $9$ inclusive ($1 \\leq x \\leq 9$). If $x=0$, the number completely collapses into a 1-digit number.\n- $y$ MUST strictly be an integer between $0$ and $9$ inclusive ($0 \\leq y \\leq 9$).",
 "formulaMeta": {
 "formula": "N = 10x + y",
 "description": "State the mathematical procedure for algebraically modeling the true numerical value $N$ of a '2-digit number' using distinct variables.",
@@ -692,9 +692,9 @@
 "tags": ["math", "linear-equations", "physics-application", "class-9"],
 "order": 30,
 "heading": "Linear Model of Work and Distance (Physics Application)",
-"back": "## Component Anatomy\n- **$w$:** The dependent variable representing total Work done (analogous to $y$).\n- **$d$:** The independent variable representing continuous distance travelled (analogous to $x$).\n- **$F$:** The strictly Constant Force, which mathematically acts as the fixed slope/gradient ($a$) of the linear equation.\n\n## Boundary Conditions / Domain\n- Distance $d$ must strictly be $\geq 0$ in typical scalar models.\n- **Geometric Behavior:** Because there is mathematically no constant addition offset term ($b = 0$), this linear equation must strictly pass exactly through the origin $(0,0)$. At exactly zero distance, strictly zero work is output.",
+"back": "## Component Anatomy\n- **$w$:** The dependent variable representing total Work done (analogous to $y$).\n- **$d$:** The independent variable representing continuous distance travelled (analogous to $x$).\n- **$F$:** The strictly Constant Force, which mathematically acts as the fixed slope/gradient ($a$) of the linear equation.\n\n## Boundary Conditions / Domain\n- Distance $d$ must strictly be $\\geq 0$ in typical scalar models.\n- **Geometric Behavior:** Because there is mathematically no constant addition offset term ($b = 0$), this linear equation must strictly pass exactly through the origin $(0,0)$. At exactly zero distance, strictly zero work is output.",
 "formulaMeta": {
-"formula": "w = F \cdot d",
+"formula": "w = F \\cdot d",
 "description": "State the linear polynomial relationship mapping Work ($w$) against Distance ($d$) applied under a Constant Force ($F$), and algebraically identify its y-intercept behavior.",
 "derivation": "1. Identify the input independent variable ($d$) and the strictly constant scalar multiplier ($F$).\n2. Construct the linear equation by substituting into $y=ax+b$: $w = Fd + 0$.\n3. Algebraically recognize that the y-intercept is perfectly $0$."
 }

@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Definition of a Sequence",
-"back": "## The Structure\nA sequence is strictly defined as an **ordered list** of numbers or objects.\n\n## The Components\nEach individual number within this ordered list is formally called a **term** (denoted by $t_1, t_2, \dots, t_n$).\n\n## Boundary Conditions / Domain\n- The position index $n$ MUST be a positive integer ($n \in \mathbb{N}$). \n- The terms usually follow a specific mathematical rule or pattern, though some (like prime numbers) lack a simple explicit algebraic formula.",
+"back": "## The Structure\nA sequence is strictly defined as an **ordered list** of numbers or objects.\n\n## The Components\nEach individual number within this ordered list is formally called a **term** (denoted by $t_1, t_2, \\dots, t_n$).\n\n## Boundary Conditions / Domain\n- The position index $n$ MUST be a positive integer ($n \\in \\mathbb{N}$). \n- The terms usually follow a specific mathematical rule or pattern, though some (like prime numbers) lack a simple explicit algebraic formula.",
 "standardMeta": {
 "question": "What is the strict mathematical definition of a 'sequence', and what are its individual components called?"
 }
@@ -50,7 +50,7 @@
 ],
 "order": 2,
 "heading": "Mathematical Distinction: Finite vs. Infinite Sequences",
-"back": "## Finite Sequence\nA sequence that possesses a strict, fixed number of terms and eventually ends (e.g., $6, 12, 24, 48, 96$). It has a defined final term $t_n$.\n\n## Infinite Sequence\nA sequence that continues indefinitely without termination, mathematically indicated by an ellipsis $\dots$ at the end (e.g., $1, 3, 5, 7, \dots$).\n\n## Boundary Conditions / Domain\nFor infinite sequences, as $n \to \infty$, the sequence does not have a computable last term.",
+"back": "## Finite Sequence\nA sequence that possesses a strict, fixed number of terms and eventually ends (e.g., $6, 12, 24, 48, 96$). It has a defined final term $t_n$.\n\n## Infinite Sequence\nA sequence that continues indefinitely without termination, mathematically indicated by an ellipsis $\\dots$ at the end (e.g., $1, 3, 5, 7, \\dots$).\n\n## Boundary Conditions / Domain\nFor infinite sequences, as $n \\to \\infty$, the sequence does not have a computable last term.",
 "standardMeta": {
 "question": "What is the fundamental mathematical distinction between a Finite Sequence and an Infinite Sequence?"
 }
@@ -134,7 +134,7 @@
 ],
 "order": 5,
 "heading": "Domain Validation for Sequence Position ($n$)",
-"back": "## The Constraint\nThe variable $n$ (representing the term's position) MUST strictly map to a **positive integer (natural number)**: $n \in \\{1, 2, 3, \dots\\}$.\n\n## The Application\nIf solving an explicit formula equation backwards (e.g., finding the position of a specific value) yields a decimal, fraction, or negative value for $n$ (like $n = 94.6$ or $n = -3$), that specific value is strictly **NOT** a valid term in the sequence.",
+"back": "## The Constraint\nThe variable $n$ (representing the term's position) MUST strictly map to a **positive integer (natural number)**: $n \\in \\{1, 2, 3, \\dots\\}$.\n\n## The Application\nIf solving an explicit formula equation backwards (e.g., finding the position of a specific value) yields a decimal, fraction, or negative value for $n$ (like $n = 94.6$ or $n = -3$), that specific value is strictly **NOT** a valid term in the sequence.",
 "standardMeta": {
 "question": "What is the strict mathematical domain restriction for the term position variable '$n$' in any sequence, and how is it used to validate terms?"
 }
@@ -163,7 +163,7 @@
 ],
 "order": 6,
 "heading": "Explicit Formula for Odd Natural Numbers",
-"back": "## Component Anatomy\n- **$u_n$**: The mathematical value of the $n$th odd number.\n- **$n$**: The positive integer position of the term in the sequence.\n- **$2n$**: Represents a foundational even number generator, from which 1 is subtracted.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (Natural numbers: $1, 2, 3, \dots$). For $n=1$, $u_1 = 2(1)-1 = 1$.",
+"back": "## Component Anatomy\n- **$u_n$**: The mathematical value of the $n$th odd number.\n- **$n$**: The positive integer position of the term in the sequence.\n- **$2n$**: Represents a foundational even number generator, from which 1 is subtracted.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (Natural numbers: $1, 2, 3, \\dots$). For $n=1$, $u_1 = 2(1)-1 = 1$.",
 "formulaMeta": {
 "formula": "u_n = 2n - 1",
 "description": "Standard explicit algebraic formula to generate the sequence of all consecutive odd natural numbers.",
@@ -195,9 +195,9 @@
 ],
 "order": 7,
 "heading": "Series Identity: Square Numbers via Sum of Odd Naturals",
-"back": "## Component Anatomy\n- **$2k - 1$**: The algebraic rule generating the $k$th odd natural number.\n- **$\sum$**: The summation of terms from index $k=1$ up to $n$.\n- **$n^2$**: The resulting $n$th perfect square.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (The property strictly requires summing consecutively from the very first positive odd number, 1).",
+"back": "## Component Anatomy\n- **$2k - 1$**: The algebraic rule generating the $k$th odd natural number.\n- **$\\sum$**: The summation of terms from index $k=1$ up to $n$.\n- **$n^2$**: The resulting $n$th perfect square.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (The property strictly requires summing consecutively from the very first positive odd number, 1).",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} (2k - 1) = n^2",
+"formula": "\\sum_{k=1}^{n} (2k - 1) = n^2",
 "description": "Mathematical identity establishing that the sum of the first n consecutive odd natural numbers perfectly equals the nth perfect square.",
 "derivation": "1. The 1st square number is $1$.\n2. The 2nd is $1 + 3 = 4$ ($2^2$).\n3. The 3rd is $1 + 3 + 5 = 9$ ($3^2$).\n4. By mathematical induction, summing exactly $n$ consecutive odd numbers yields $n^2$."
 }
@@ -226,11 +226,11 @@
 ],
 "order": 8,
 "heading": "Formula: Sum of the First n Natural Numbers (Triangular Numbers)",
-"back": "## Component Anatomy\n- **$S_n$**: The accumulated sum of the first $n$ natural numbers, which physically corresponds to the $n$th Triangular Number (dots arranged in an equilateral triangle).\n- **$n$**: The total number of consecutive integers being summed.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (Natural numbers: $1, 2, 3, \dots$). The sequence strictly starts at 1.",
+"back": "## Component Anatomy\n- **$S_n$**: The accumulated sum of the first $n$ natural numbers, which physically corresponds to the $n$th Triangular Number (dots arranged in an equilateral triangle).\n- **$n$**: The total number of consecutive integers being summed.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (Natural numbers: $1, 2, 3, \\dots$). The sequence strictly starts at 1.",
 "formulaMeta": {
-"formula": "S_n = \frac{n(n + 1)}{2}",
+"formula": "S_n = \\frac{n(n + 1)}{2}",
 "description": "Calculates the nth Triangular Number, which is mathematically identical to the sum of the first n consecutive natural numbers.",
-"derivation": "Derived via Gauss's Trick: Write the sum $S = 1 + 2 + \dots + n$. Write it backwards underneath: $S = n + (n-1) + \dots + 1$. Adding vertically pairs to $(n+1)$. There are $n$ pairs, so $2S = n(n+1)$, which divides by 2 to yield the formula."
+"derivation": "Derived via Gauss's Trick: Write the sum $S = 1 + 2 + \\dots + n$. Write it backwards underneath: $S = n + (n-1) + \\dots + 1$. Adding vertically pairs to $(n+1)$. There are $n$ pairs, so $2S = n(n+1)$, which divides by 2 to yield the formula."
 }
 }
 },
@@ -285,9 +285,9 @@
 ],
 "order": 10,
 "heading": "Recursive Formula: The Virahanka-Fibonacci Sequence",
-"back": "## Component Anatomy\n- **$V_n$**: The value of the current calculated term.\n- **$V_{n-1}, V_{n-2}$**: The exact values of the immediately preceding two terms in the sequence.\n\n## Boundary Conditions / Domain\n- **Strict Seed Values:** $V_1 = 1$, $V_2 = 2$. (Note: classical European Fibonacci often seeds with $(0, 1)$ or $(1, 1)$, but the NCERT historical context uses Virahanka's poetic metric seeds of $1$ and $2$).\n- The recursive equation strictly applies for position $n \geq 3$.",
+"back": "## Component Anatomy\n- **$V_n$**: The value of the current calculated term.\n- **$V_{n-1}, V_{n-2}$**: The exact values of the immediately preceding two terms in the sequence.\n\n## Boundary Conditions / Domain\n- **Strict Seed Values:** $V_1 = 1$, $V_2 = 2$. (Note: classical European Fibonacci often seeds with $(0, 1)$ or $(1, 1)$, but the NCERT historical context uses Virahanka's poetic metric seeds of $1$ and $2$).\n- The recursive equation strictly applies for position $n \\geq 3$.",
 "formulaMeta": {
-"formula": "\begin{aligned} V_1 &= 1 \\ V_2 &= 2 \\ V_n &= V_{n-1} + V_{n-2} \end{aligned}",
+"formula": "\\begin{aligned} V_1 &= 1 \\ V_2 &= 2 \\ V_n &= V_{n-1} + V_{n-2} \\end{aligned}",
 "description": "The exact recursive rules and initial seeds defining the Virahanka-Fibonacci sequence as presented in Indian mathematical history.",
 "derivation": "Each new term is algorithmically generated by computing the strict addition of the two immediately preceding terms, starting from the given seeds."
 }
@@ -316,9 +316,9 @@
 ],
 "order": 11,
 "heading": "Series Application: Cumulative Sums to Fibonacci",
-"back": "## The Recursive Setup\nThe rule is: $W_n = W_1 + W_2 + \dots + W_{n-2} + 2$ (where seeds are strictly $W_1=1, W_2=2$).\n\n## The Boundary Constraint\nUnlike standard cumulative series, this summation strictly stops at $W_{n-2}$. It intentionally excludes the immediate preceding term ($W_{n-1}$).\n\n## The Mathematical Result\nBecause of this strict algorithmic exclusion, computing the sequence terms yields $(1, 2, 3, 5, 8, 13, 21, 34)$, perfectly regenerating the **Virahanka-Fibonacci Sequence** through cumulative partial sums.",
+"back": "## The Recursive Setup\nThe rule is: $W_n = W_1 + W_2 + \\dots + W_{n-2} + 2$ (where seeds are strictly $W_1=1, W_2=2$).\n\n## The Boundary Constraint\nUnlike standard cumulative series, this summation strictly stops at $W_{n-2}$. It intentionally excludes the immediate preceding term ($W_{n-1}$).\n\n## The Mathematical Result\nBecause of this strict algorithmic exclusion, computing the sequence terms yields $(1, 2, 3, 5, 8, 13, 21, 34)$, perfectly regenerating the **Virahanka-Fibonacci Sequence** through cumulative partial sums.",
 "standardMeta": {
-"question": "What famous mathematical sequence is strictly generated by the cumulative recursive rule $W_n = W_1 + W_2 + \dots + W_{n-2} + 2$, and why?"
+"question": "What famous mathematical sequence is strictly generated by the cumulative recursive rule $W_n = W_1 + W_2 + \\dots + W_{n-2} + 2$, and why?"
 }
 }
 },
@@ -345,9 +345,9 @@
 ],
 "order": 12,
 "heading": "Series Application: Full Cumulative Sum to Powers of 2",
-"back": "## Component Anatomy\n- **$P_n$**: The value of the $n$th term in the generated sequence.\n- **$P_1, \dots, P_{n-1}$**: The summation includes ALL strictly preceding terms in the sequence.\n\n## Boundary Conditions / Domain\n- The sequence is defined by the full summation rule: $P_n = P_1 + P_2 + \dots + P_{n-1} + 1$.\n- Initial seeds: $P_1 = 1$, making $P_2 = 1+1 = 2$.\n- The formula strictly applies for $n > 1$.",
+"back": "## Component Anatomy\n- **$P_n$**: The value of the $n$th term in the generated sequence.\n- **$P_1, \\dots, P_{n-1}$**: The summation includes ALL strictly preceding terms in the sequence.\n\n## Boundary Conditions / Domain\n- The sequence is defined by the full summation rule: $P_n = P_1 + P_2 + \\dots + P_{n-1} + 1$.\n- Initial seeds: $P_1 = 1$, making $P_2 = 1+1 = 2$.\n- The formula strictly applies for $n > 1$.",
 "formulaMeta": {
-"formula": "\begin{aligned} P_n &= 2P_{n-1} \\ P_n &= 2^{n-1} \end{aligned}",
+"formula": "\\begin{aligned} P_n &= 2P_{n-1} \\ P_n &= 2^{n-1} \\end{aligned}",
 "description": "Translates a full cumulative summation rule into a simple Geometric Progression of powers of 2.",
 "derivation": "Because every new term is formed by adding ALL previous terms plus 1, the new term mathematically doubles the total accumulated value of the immediately preceding step. This structural property transforms the series into a pure Geometric Progression with a constant common ratio of $r=2$."
 }
@@ -405,7 +405,7 @@
 ],
 "order": 14,
 "heading": "Explicit Formula: nth Term of an AP ($t_n$)",
-"back": "## Component Anatomy\n- **$t_n$**: The numerical value of the $n$th term.\n- **$a$**: The absolute first term of the AP ($t_1$).\n- **$d$**: The constant common difference.\n- **$n$**: The specific strictly positive integer position.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \in \mathbb{N}$ and $n \geq 1$.\n- **Critical Algorithmic Trap:** The multiplier applied to the common difference $d$ is strictly $(n-1)$, NOT $n$, because the first term receives zero additions of $d$.",
+"back": "## Component Anatomy\n- **$t_n$**: The numerical value of the $n$th term.\n- **$a$**: The absolute first term of the AP ($t_1$).\n- **$d$**: The constant common difference.\n- **$n$**: The specific strictly positive integer position.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \\in \\mathbb{N}$ and $n \\geq 1$.\n- **Critical Algorithmic Trap:** The multiplier applied to the common difference $d$ is strictly $(n-1)$, NOT $n$, because the first term receives zero additions of $d$.",
 "formulaMeta": {
 "formula": "t_n = a + (n - 1)d",
 "description": "Calculates the value of any specific term in an Arithmetic Progression using its position.",
@@ -437,7 +437,7 @@
 ],
 "order": 15,
 "heading": "Recursive Formula Rule for an AP",
-"back": "## Component Anatomy\n- **$t_n$**: The currently evaluated term.\n- **$t_{n-1}$**: The term immediately preceding $t_n$.\n- **$d$**: The constant additive common difference.\n\n## Boundary Conditions / Domain\n- You MUST explicitly provide the seed value definition: $t_1 = a$.\n- The recursive relation strictly applies for index values $n \geq 2$.",
+"back": "## Component Anatomy\n- **$t_n$**: The currently evaluated term.\n- **$t_{n-1}$**: The term immediately preceding $t_n$.\n- **$d$**: The constant additive common difference.\n\n## Boundary Conditions / Domain\n- You MUST explicitly provide the seed value definition: $t_1 = a$.\n- The recursive relation strictly applies for index values $n \\geq 2$.",
 "formulaMeta": {
 "formula": "t_n = t_{n-1} + d",
 "description": "Generates the next term in an Arithmetic Progression strictly by adding the common difference to the previous term.",
@@ -468,7 +468,7 @@
 ],
 "order": 16,
 "heading": "SOP: Calculating the Common Difference ($d$) Safely",
-"back": "## The Procedural Rule\nTo find $d$, you MUST strictly subtract the preceding term from the succeeding term algebraically (e.g., $d = t_2 - t_1$ or $d = t_3 - t_2$).\n\n## The Mathematical Trap\nNever simply subtract the smaller absolute number from the larger number.\nIf the sequence is strictly descending (e.g., $11, 8, 5, \dots$), evaluating $11 - 8 = 3$ is a fatal error.\nIt must be evaluated strictly sequentially: $8 - 11 = -3$.",
+"back": "## The Procedural Rule\nTo find $d$, you MUST strictly subtract the preceding term from the succeeding term algebraically (e.g., $d = t_2 - t_1$ or $d = t_3 - t_2$).\n\n## The Mathematical Trap\nNever simply subtract the smaller absolute number from the larger number.\nIf the sequence is strictly descending (e.g., $11, 8, 5, \\dots$), evaluating $11 - 8 = 3$ is a fatal error.\nIt must be evaluated strictly sequentially: $8 - 11 = -3$.",
 "standardMeta": {
 "question": "What is the strict procedural rule (SOP) for calculating the common difference ($d$) of an AP, especially to avoid sign errors in descending sequences?"
 }
@@ -527,9 +527,9 @@
 ],
 "order": 18,
 "heading": "SOP (Part 1): Setting up the AP Linear System",
-"back": "## Component Anatomy\n- **$t_p = x$**: The given numerical value $x$ of the term at position index $p$.\n- **$t_q = y$**: The given numerical value $y$ of the term at position index $q$.\n- **$a, d$**: The strictly unknown first term and common difference.\n\n## Boundary Conditions / Domain\n- The indices $p$ and $q$ must be distinct positive integers ($p \neq q$).\n- This phase strictly translates sequence data into a solvable algebraic system.",
+"back": "## Component Anatomy\n- **$t_p = x$**: The given numerical value $x$ of the term at position index $p$.\n- **$t_q = y$**: The given numerical value $y$ of the term at position index $q$.\n- **$a, d$**: The strictly unknown first term and common difference.\n\n## Boundary Conditions / Domain\n- The indices $p$ and $q$ must be distinct positive integers ($p \\neq q$).\n- This phase strictly translates sequence data into a solvable algebraic system.",
 "formulaMeta": {
-"formula": "\begin{aligned} a + (p-1)d &= x \\ a + (q-1)d &= y \end{aligned}",
+"formula": "\\begin{aligned} a + (p-1)d &= x \\ a + (q-1)d &= y \\end{aligned}",
 "description": "The initial algebraic setup to find the unknown parameters (a, d) of an AP when given any two non-consecutive terms.",
 "derivation": "By mapping the provided values directly into the explicit formula $t_n = a + (n-1)d$, you generate two distinct linear equations containing exactly two variables ($a$ and $d$)."
 }
@@ -623,9 +623,9 @@
 ],
 "order": 21,
 "heading": "Formulas: Sum of the First n Terms of an AP ($S_n$)",
-"back": "## Component Anatomy\n- **$S_n$**: The total accumulated sum of the first $n$ terms.\n- **$n$**: The strictly positive integer count of terms being summed.\n- **$a$**: The absolute first term.\n- **$d$**: The constant common difference.\n- **$l$**: The final / last term in the evaluated sequence (mathematically equivalent to $t_n$).\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (The number of terms evaluated must strictly be a positive natural number).",
+"back": "## Component Anatomy\n- **$S_n$**: The total accumulated sum of the first $n$ terms.\n- **$n$**: The strictly positive integer count of terms being summed.\n- **$a$**: The absolute first term.\n- **$d$**: The constant common difference.\n- **$l$**: The final / last term in the evaluated sequence (mathematically equivalent to $t_n$).\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (The number of terms evaluated must strictly be a positive natural number).",
 "formulaMeta": {
-"formula": "\begin{aligned} S_n &= \frac{n}{2}[2a + (n - 1)d] \\ S_n &= \frac{n}{2}(a + l) \end{aligned}",
+"formula": "\\begin{aligned} S_n &= \\frac{n}{2}[2a + (n - 1)d] \\ S_n &= \\frac{n}{2}(a + l) \\end{aligned}",
 "description": "The two standard algebraic formulas used to calculate the sum of an Arithmetic Progression, chosen based on whether the last term (l) is known.",
 "derivation": "The second formula ($a+l$) is a direct derivation of Gauss's trick (pairing the outermost terms inward). By substituting the explicit definition of the last term, $l = a + (n-1)d$, directly into the second formula, you expand and algebraically derive the first formula."
 }
@@ -654,7 +654,7 @@
 ],
 "order": 22,
 "heading": "Proof Methodology: Gauss's Trick / Aryabhata's Method",
-"back": "## Step-by-Step Derivation Procedure\n- **Step 1:** Write out the full summation equation strictly mathematically forwards: $S = 1 + 2 + \dots + n$.\n- **Step 2:** Write the exact same summation equation strictly backwards directly underneath it: $S = n + (n-1) + \dots + 1$.\n- **Step 3:** Add the two algebraic equations vertically. Every single aligned vertical pair will perfectly sum to exactly $(n+1)$.\n- **Step 4:** Since there are exactly $n$ identical pairs, the sum is $2S = n(n+1)$. Divide strictly by 2 to isolate and solve for $S$.",
+"back": "## Step-by-Step Derivation Procedure\n- **Step 1:** Write out the full summation equation strictly mathematically forwards: $S = 1 + 2 + \\dots + n$.\n- **Step 2:** Write the exact same summation equation strictly backwards directly underneath it: $S = n + (n-1) + \\dots + 1$.\n- **Step 3:** Add the two algebraic equations vertically. Every single aligned vertical pair will perfectly sum to exactly $(n+1)$.\n- **Step 4:** Since there are exactly $n$ identical pairs, the sum is $2S = n(n+1)$. Divide strictly by 2 to isolate and solve for $S$.",
 "standardMeta": {
 "question": "Describe the clever mathematical proof methodology (Gauss's Trick / Aryabhata's Method) used to derive the sum formula of an arithmetic sequence without manual addition."
 }
@@ -683,11 +683,11 @@
 ],
 "order": 23,
 "heading": "Operational Logic: Sum of a Truncated Range",
-"back": "## Component Anatomy\n- **$S_B$**: The calculated sum of the progression starting strictly from term $1$ up to the final target term $B$.\n- **$S_{A-1}$**: The calculated sum of the progression starting strictly from term $1$ up to the term immediately preceding the desired start bound $A$.\n\n## Boundary Conditions / Domain\n- Used strictly when the required summation does NOT start at the sequence origin (e.g., evaluating $25 + 26 + \dots + 58$).\n- **Critical Trap:** You must subtract $S_{A-1}$, NOT $S_A$. Subtracting $S_A$ erroneously removes the first required term from your final sum.",
+"back": "## Component Anatomy\n- **$S_B$**: The calculated sum of the progression starting strictly from term $1$ up to the final target term $B$.\n- **$S_{A-1}$**: The calculated sum of the progression starting strictly from term $1$ up to the term immediately preceding the desired start bound $A$.\n\n## Boundary Conditions / Domain\n- Used strictly when the required summation does NOT start at the sequence origin (e.g., evaluating $25 + 26 + \\dots + 58$).\n- **Critical Trap:** You must subtract $S_{A-1}$, NOT $S_A$. Subtracting $S_A$ erroneously removes the first required term from your final sum.",
 "formulaMeta": {
-"formula": "S_{\text{range}} = S_B - S_{A-1}",
+"formula": "S_{\\text{range}} = S_B - S_{A-1}",
 "description": "Calculates the sum of consecutive terms within a specific isolated sub-range by subtracting the unwanted initial segment from the total sum.",
-"derivation": "To find a truncated sum like $25 + \dots + 58$, first calculate the total absolute sum from origin $1$ to $58$ ($S_{58}$). Then, mathematically subtract the unwanted prefix segment from origin $1$ up to $24$ ($S_{24}$) to isolate the target window."
+"derivation": "To find a truncated sum like $25 + \\dots + 58$, first calculate the total absolute sum from origin $1$ to $58$ ($S_{58}$). Then, mathematically subtract the unwanted prefix segment from origin $1$ up to $24$ ($S_{24}$) to isolate the target window."
 }
 }
 },
@@ -714,7 +714,7 @@
 ],
 "order": 24,
 "heading": "SOP (Part 1): Target Value as Sum of Consecutive Naturals (Setup)",
-"back": "## The Algebraic Setup\nTo express a Target value (e.g., $100$) as a sum of consecutive natural numbers, you must strictly define the sequence bounds algebraically.\n\n## Step 1: Define Parameters\nLet the unknown starting natural number be $x$.\nLet the total number of consecutive terms you are evaluating be $k$.\n\n## Step 2: Formulate the AP\nThe sequence is $x, (x+1), (x+2), \dots$ up to $k$ terms.\nUsing the AP sum formula ($S_k$), the total sum evaluates algebraically to:\n$S_k = kx + \frac{k(k-1)}{2}$.\n\n## Step 3: Equation Setup\nSet this expression strictly equal to the Target integer $T$: $kx + \frac{k(k-1)}{2} = T$.",
+"back": "## The Algebraic Setup\nTo express a Target value (e.g., $100$) as a sum of consecutive natural numbers, you must strictly define the sequence bounds algebraically.\n\n## Step 1: Define Parameters\nLet the unknown starting natural number be $x$.\nLet the total number of consecutive terms you are evaluating be $k$.\n\n## Step 2: Formulate the AP\nThe sequence is $x, (x+1), (x+2), \\dots$ up to $k$ terms.\nUsing the AP sum formula ($S_k$), the total sum evaluates algebraically to:\n$S_k = kx + \\frac{k(k-1)}{2}$.\n\n## Step 3: Equation Setup\nSet this expression strictly equal to the Target integer $T$: $kx + \\frac{k(k-1)}{2} = T$.",
 "standardMeta": {
 "question": "What is the initial algebraic setup procedure to determine if a Target number can be expressed as the sum of consecutive natural numbers?"
 }
@@ -742,7 +742,7 @@
 ],
 "order": 25,
 "heading": "SOP (Part 2): Target Value as Sum of Consecutive Naturals (Solving)",
-"back": "## Step 4: Iterative Testing\nTake the established equation: $kx + \frac{k(k-1)}{2} = T$.\nMathematically isolate the starting term $x$:\n$x = \frac{T}{k} - \frac{k-1}{2}$.\n\n## Step 5: Domain Validation (Boundary Condition)\nSystematically test specific integer values for the length $k$ (e.g., $k=2, 3, 4, 5$).\n**The Strict Validation Rule:** A chosen length $k$ is a mathematically valid solution **IF AND ONLY IF** evaluating the formula yields an $x$ that is strictly a **positive natural number** ($x \in \mathbb{N}$). Fractional, zero, or negative results for $x$ are mathematically invalid.",
+"back": "## Step 4: Iterative Testing\nTake the established equation: $kx + \\frac{k(k-1)}{2} = T$.\nMathematically isolate the starting term $x$:\n$x = \\frac{T}{k} - \\frac{k-1}{2}$.\n\n## Step 5: Domain Validation (Boundary Condition)\nSystematically test specific integer values for the length $k$ (e.g., $k=2, 3, 4, 5$).\n**The Strict Validation Rule:** A chosen length $k$ is a mathematically valid solution **IF AND ONLY IF** evaluating the formula yields an $x$ that is strictly a **positive natural number** ($x \\in \\mathbb{N}$). Fractional, zero, or negative results for $x$ are mathematically invalid.",
 "standardMeta": {
 "question": "After algebraically setting up the sum equation $S_k = T$, what is the strict SOP for finding valid lengths ($k$) and what is the absolute domain constraint for the starting term ($x$)?"
 }
@@ -772,11 +772,11 @@
 ],
 "order": 26,
 "heading": "Algorithmic Approximation: Exceeding a Target Sum Inequality",
-"back": "## Component Anatomy\n- **$n$**: The number of consecutive terms required.\n- **$T$**: The strict numerical boundary target that the sum must exceed.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n$ must be strictly a positive natural integer ($n \in \mathbb{N}$).",
+"back": "## Component Anatomy\n- **$n$**: The number of consecutive terms required.\n- **$T$**: The strict numerical boundary target that the sum must exceed.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n$ must be strictly a positive natural integer ($n \\in \\mathbb{N}$).",
 "formulaMeta": {
-"formula": "\frac{n(n+1)}{2} > T \implies n(n+1) > 2T",
+"formula": "\\frac{n(n+1)}{2} > T \\implies n(n+1) > 2T",
 "description": "The mathematical setup and approximation procedure to isolate the absolute smallest integer 'n' whose sum strictly exceeds a given boundary target T.",
-"derivation": "1. Set up the strict inequality: $n(n+1) > 2T$.\n2. To avoid solving complex quadratics, recognize the limit approximation that $n(n+1) \approx n^2$.\n3. Calculate the approximate square root: $n \approx \sqrt{2T}$.\n4. Test the natural integers directly below and directly above this root by plugging them rigorously back into $n(n+1)$ to find the lowest valid threshold."
+"derivation": "1. Set up the strict inequality: $n(n+1) > 2T$.\n2. To avoid solving complex quadratics, recognize the limit approximation that $n(n+1) \\approx n^2$.\n3. Calculate the approximate square root: $n \\approx \\sqrt{2T}$.\n4. Test the natural integers directly below and directly above this root by plugging them rigorously back into $n(n+1)$ to find the lowest valid threshold."
 }
 }
 },
@@ -806,9 +806,9 @@
 "heading": "SOP (Part 1): Counting Divisibles within Range Limits",
 "back": "## Component Anatomy\n- **$L$**: The raw lower limit of the given boundary range.\n- **$U$**: The raw upper limit of the given boundary range.\n- **$d$**: The target mathematical divisor (which acts as the AP common difference).\n\n## Boundary Conditions / Domain\n- The evaluated subset must map strictly to integers. The start and end values cannot fall outside the range $[L, U]$.",
 "formulaMeta": {
-"formula": "a \geq L \quad \text{and} \quad t_n \leq U",
+"formula": "a \\geq L \\quad \\text{and} \\quad t_n \\leq U",
 "description": "The preparatory step for counting multiples, ensuring the first term (a) and last term (t_n) fall strictly within valid boundary limits.",
-"derivation": "1. Identify the absolute first valid multiple of the divisor $d$ that is strictly $\geq L$. Set this as the AP's first term $a$.\n2. Identify the absolute highest valid multiple of the divisor $d$ that is strictly $\leq U$. Set this as the AP's final term $t_n$."
+"derivation": "1. Identify the absolute first valid multiple of the divisor $d$ that is strictly $\\geq L$. Set this as the AP's first term $a$.\n2. Identify the absolute highest valid multiple of the divisor $d$ that is strictly $\\leq U$. Set this as the AP's final term $t_n$."
 }
 }
 },
@@ -837,9 +837,9 @@
 "heading": "SOP (Part 2): Executing AP Count for Divisibles",
 "back": "## Component Anatomy\n- **$t_n$**: The strictly highest valid multiple within range.\n- **$a$**: The strictly lowest valid multiple within range.\n- **$d$**: The target divisor (common difference).\n- **$n$**: The total count of valid multiples.\n\n## Boundary Conditions / Domain\n- The subtraction $(t_n - a)$ MUST strictly be perfectly divisible by $d$, otherwise one of the boundary limits ($a$ or $t_n$) was identified incorrectly in Part 1.",
 "formulaMeta": {
-"formula": "n = \frac{t_n - a}{d} + 1",
+"formula": "n = \\frac{t_n - a}{d} + 1",
 "description": "The algebraically rearranged AP formula used to instantly calculate the total count of valid terms.",
-"derivation": "Take the explicit AP rule: $t_n = a + (n-1)d$.\nSubtract the base: $t_n - a = (n-1)d$.\nDivide by the divisor/difference: $\frac{t_n - a}{d} = n - 1$.\nAdd 1 to strictly isolate the position count $n$."
+"derivation": "Take the explicit AP rule: $t_n = a + (n-1)d$.\nSubtract the base: $t_n - a = (n-1)d$.\nDivide by the divisor/difference: $\\frac{t_n - a}{d} = n - 1$.\nAdd 1 to strictly isolate the position count $n$."
 }
 }
 },
@@ -866,7 +866,7 @@
 ],
 "order": 29,
 "heading": "Mathematical Definition of a Geometric Progression (GP)",
-"back": "## The Strict Definition\nA Geometric Progression (GP) is a sequence where each term (after the first) is obtained strictly by **multiplying** the immediately preceding term by a fixed, constant mathematical factor.\n\n## The Constant Parameter\nThis invariant multiplier is formally called the **common ratio ($r$)**.\n\n## Boundary Conditions / Domain (Behavioural)\n- To maintain definition integrity, the first term strictly cannot be zero ($a \neq 0$), and the common ratio strictly cannot be zero ($r \neq 0$).\n- **Growth profiles:** Produces exponential growth ($r > 1$), exponential decay ($0 < r < 1$), or alternating signs ($r < 0$).",
+"back": "## The Strict Definition\nA Geometric Progression (GP) is a sequence where each term (after the first) is obtained strictly by **multiplying** the immediately preceding term by a fixed, constant mathematical factor.\n\n## The Constant Parameter\nThis invariant multiplier is formally called the **common ratio ($r$)**.\n\n## Boundary Conditions / Domain (Behavioural)\n- To maintain definition integrity, the first term strictly cannot be zero ($a \\neq 0$), and the common ratio strictly cannot be zero ($r \\neq 0$).\n- **Growth profiles:** Produces exponential growth ($r > 1$), exponential decay ($0 < r < 1$), or alternating signs ($r < 0$).",
 "standardMeta": {
 "question": "What is the strict mathematical condition that defines a sequence as a Geometric Progression (GP)?"
 }
@@ -922,11 +922,11 @@
 ],
 "order": 31,
 "heading": "Explicit Formula: nth Term of a GP ($t_n$)",
-"back": "## Component Anatomy\n- **$t_n$**: The numerical value of the $n$th term.\n- **$a$**: The absolute first term of the GP ($t_1$).\n- **$r$**: The constant multiplicative common ratio.\n- **$n$**: The strictly positive integer position index.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \in \mathbb{N}$ and $n \geq 1$.\n- The ratio $r \neq 0$.",
+"back": "## Component Anatomy\n- **$t_n$**: The numerical value of the $n$th term.\n- **$a$**: The absolute first term of the GP ($t_1$).\n- **$r$**: The constant multiplicative common ratio.\n- **$n$**: The strictly positive integer position index.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \\in \\mathbb{N}$ and $n \\geq 1$.\n- The ratio $r \\neq 0$.",
 "formulaMeta": {
-"formula": "t_n = a \times r^{n-1}",
+"formula": "t_n = a \\times r^{n-1}",
 "description": "Calculates the value of any specific term in a Geometric Progression using its position index.",
-"derivation": "1. The 1st term is $a$.\n2. The 2nd term is $a \times r$.\n3. The 3rd term is $a \times r^2$.\n4. By mathematical induction, finding the $n$th term strictly requires multiplying the base $a$ by the ratio $r$ exactly $(n-1)$ times."
+"derivation": "1. The 1st term is $a$.\n2. The 2nd term is $a \\times r$.\n3. The 3rd term is $a \\times r^2$.\n4. By mathematical induction, finding the $n$th term strictly requires multiplying the base $a$ by the ratio $r$ exactly $(n-1)$ times."
 }
 }
 },
@@ -955,7 +955,7 @@
 "heading": "Execution Trap: Order of Operations in the GP Formula",
 "back": "## The Calculation Trap\nStudents frequently multiply the base $a$ and the ratio $r$ together *first*, and then apply the exponent, incorrectly computing $(ar)^{n-1}$.\n\n## The Strict Mathematical Rule\nDue to the fundamental Order of Operations (BODMAS/PEMDAS), exponents strictly precede multiplication.\nThe exponent $(n-1)$ is mathematically attached **ONLY to the common ratio $r$**.\n\n## Proper Execution SOP\nYou MUST mathematically evaluate the exponential term $r^{n-1}$ first, and only then multiply that resulting scalar value by the first term $a$.",
 "standardMeta": {
-"question": "What is the critical Order of Operations trap when calculating the $n$th term of a Geometric Progression ($t_n = a \times r^{n-1}$)?"
+"question": "What is the critical Order of Operations trap when calculating the $n$th term of a Geometric Progression ($t_n = a \\times r^{n-1}$)?"
 }
 }
 },
@@ -983,11 +983,11 @@
 ],
 "order": 33,
 "heading": "Recursive Formula Rule for a GP",
-"back": "## Component Anatomy\n- **$t_n$**: The currently evaluated term.\n- **$t_{n-1}$**: The term immediately preceding $t_n$.\n- **$r$**: The constant common ratio multiplier.\n\n## Boundary Conditions / Domain\n- You MUST explicitly provide the seed value definition: $t_1 = a$.\n- The recursive relation strictly applies for index values $n \geq 2$.",
+"back": "## Component Anatomy\n- **$t_n$**: The currently evaluated term.\n- **$t_{n-1}$**: The term immediately preceding $t_n$.\n- **$r$**: The constant common ratio multiplier.\n\n## Boundary Conditions / Domain\n- You MUST explicitly provide the seed value definition: $t_1 = a$.\n- The recursive relation strictly applies for index values $n \\geq 2$.",
 "formulaMeta": {
-"formula": "t_n = r \times t_{n-1}",
+"formula": "t_n = r \\times t_{n-1}",
 "description": "Generates the next term in a Geometric Progression strictly by multiplying the previous term by the common ratio.",
-"derivation": "By the axiomatic definition of a GP, the quotient between consecutive terms is constant. Therefore, rearranging $\frac{t_n}{t_{n-1}} = r$ algebraically yields the recursive rule $t_n = r \times t_{n-1}$."
+"derivation": "By the axiomatic definition of a GP, the quotient between consecutive terms is constant. Therefore, rearranging $\\frac{t_n}{t_{n-1}} = r$ algebraically yields the recursive rule $t_n = r \\times t_{n-1}$."
 }
 }
 },
@@ -1014,7 +1014,7 @@
 ],
 "order": 34,
 "heading": "SOP: Calculating the Common Ratio ($r$) Safely",
-"back": "## The Procedural Rule\nTo find $r$, you MUST strictly divide the succeeding term by the immediately preceding term algebraically ($r = \frac{t_2}{t_1}$ or $r = \frac{t_n}{t_{n-1}}$).\n\n## The Mathematical Trap\nStudents frequently divide the larger absolute term by the smaller absolute term incorrectly. Even if the sequence involves negative numbers, complex fractions, or descending values, the order of division ($t_n$ strictly in the numerator) must be maintained.\n\n## Boundary Conditions / Domain\nThe preceding term cannot be zero ($t_{n-1} \neq 0$) to prevent an undefined division mathematically.",
+"back": "## The Procedural Rule\nTo find $r$, you MUST strictly divide the succeeding term by the immediately preceding term algebraically ($r = \\frac{t_2}{t_1}$ or $r = \\frac{t_n}{t_{n-1}}$).\n\n## The Mathematical Trap\nStudents frequently divide the larger absolute term by the smaller absolute term incorrectly. Even if the sequence involves negative numbers, complex fractions, or descending values, the order of division ($t_n$ strictly in the numerator) must be maintained.\n\n## Boundary Conditions / Domain\nThe preceding term cannot be zero ($t_{n-1} \\neq 0$) to prevent an undefined division mathematically.",
 "standardMeta": {
 "question": "What is the strict procedural rule (SOP) for calculating the common ratio ($r$) of a GP, ensuring no errors occur with fractions or descending values?"
 }
@@ -1042,7 +1042,7 @@
 ],
 "order": 35,
 "heading": "Exponential Curve: Graphical Representation of a GP",
-"back": "## The Visualization\nIf you plot a Cartesian graph with the term position ($n$) on the x-axis and the term value ($t_n$) on the y-axis, the coordinate points of a GP will strictly **NOT lie on a straight line**.\n\n## The Mathematical Proof\nThe explicit GP formula $t_n = a \times r^{n-1}$ is fundamentally an exponential function where the variable $n$ resides in the power.\nTherefore, the points will form a **curve**, reflecting rapid exponential growth or exponential decay.",
+"back": "## The Visualization\nIf you plot a Cartesian graph with the term position ($n$) on the x-axis and the term value ($t_n$) on the y-axis, the coordinate points of a GP will strictly **NOT lie on a straight line**.\n\n## The Mathematical Proof\nThe explicit GP formula $t_n = a \\times r^{n-1}$ is fundamentally an exponential function where the variable $n$ resides in the power.\nTherefore, the points will form a **curve**, reflecting rapid exponential growth or exponential decay.",
 "standardMeta": {
 "question": "When plotting the terms of a Geometric Progression on a Cartesian graph, what visual shape do the points form, and why mathematically?"
 }
@@ -1101,11 +1101,11 @@
 ],
 "order": 37,
 "heading": "Algebraic Core Condition: Three Consecutive Terms in a GP",
-"back": "## Component Anatomy\n- **$x, y, z$**: Three consecutive terms in an unknown sequence.\n- **$y$**: The central term, mathematically defined as the Geometric Mean of $x$ and $z$.\n\n## Boundary Conditions / Domain\n- The sequence terms must strictly be non-zero to define a valid quotient ratio ($x \neq 0$, $y \neq 0$).",
+"back": "## Component Anatomy\n- **$x, y, z$**: Three consecutive terms in an unknown sequence.\n- **$y$**: The central term, mathematically defined as the Geometric Mean of $x$ and $z$.\n\n## Boundary Conditions / Domain\n- The sequence terms must strictly be non-zero to define a valid quotient ratio ($x \\neq 0$, $y \\neq 0$).",
 "formulaMeta": {
 "formula": "y^2 = xz",
 "description": "The fundamental algebraic condition that must hold true for any three consecutive numbers x, y, and z to form a valid Geometric Progression.",
-"derivation": "1. By definition, the common ratio must be mathematically identical between the consecutive pairs: $\frac{y}{x} = \frac{z}{y}$.\n2. Cross-multiplying these ratios strictly isolates the central term, yielding $y^2 = xz$."
+"derivation": "1. By definition, the common ratio must be mathematically identical between the consecutive pairs: $\\frac{y}{x} = \\frac{z}{y}$.\n2. Cross-multiplying these ratios strictly isolates the central term, yielding $y^2 = xz$."
 }
 }
 },
@@ -1132,7 +1132,7 @@
 ],
 "order": 38,
 "heading": "Structural Property: Equidistant GP Extraction",
-"back": "## The Structural Property\nIf you extract terms from a parent Geometric Progression that are separated by strictly **equidistant position intervals** (e.g., pulling the 4th, 10th, and 16th terms, where the uniform gap index is $6$), these extracted terms mathematically form a **brand new GP** themselves.\n\n## The Algebraic Proof\nLet the parent GP have ratio $r$. The extracted terms map to $ar^3, ar^9, ar^{15}$.\nThe ratio between these new terms is strictly constant and is determined by the gap distance:\n$\frac{ar^9}{ar^3} = r^6$ and $\frac{ar^{15}}{ar^9} = r^6$.",
+"back": "## The Structural Property\nIf you extract terms from a parent Geometric Progression that are separated by strictly **equidistant position intervals** (e.g., pulling the 4th, 10th, and 16th terms, where the uniform gap index is $6$), these extracted terms mathematically form a **brand new GP** themselves.\n\n## The Algebraic Proof\nLet the parent GP have ratio $r$. The extracted terms map to $ar^3, ar^9, ar^{15}$.\nThe ratio between these new terms is strictly constant and is determined by the gap distance:\n$\\frac{ar^9}{ar^3} = r^6$ and $\\frac{ar^{15}}{ar^9} = r^6$.",
 "standardMeta": {
 "question": "What is the mathematical consequence of extracting terms from a parent Geometric Progression at strictly equal position intervals?"
 }
@@ -1163,9 +1163,9 @@
 ],
 "order": 39,
 "heading": "Algebraic Optimization: Unknown GP Terms with a Known Product",
-"back": "## Component Anatomy\n- **$a/r$**: The optimally chosen first term.\n- **$a$**: The optimally chosen central term.\n- **$ar$**: The optimally chosen third term.\n\n## Boundary Conditions / Domain\n- This specific symmetric substitution is strictly valid ONLY when the problem explicitly provides the PRODUCT of an **odd number** of consecutive unknown GP terms (e.g., 3 terms).\n- The ratio cannot be zero ($r \neq 0$).",
+"back": "## Component Anatomy\n- **$a/r$**: The optimally chosen first term.\n- **$a$**: The optimally chosen central term.\n- **$ar$**: The optimally chosen third term.\n\n## Boundary Conditions / Domain\n- This specific symmetric substitution is strictly valid ONLY when the problem explicitly provides the PRODUCT of an **odd number** of consecutive unknown GP terms (e.g., 3 terms).\n- The ratio cannot be zero ($r \\neq 0$).",
 "formulaMeta": {
-"formula": "\frac{a}{r} \times a \times ar = a^3",
+"formula": "\\frac{a}{r} \\times a \\times ar = a^3",
 "description": "An optimized algebraic substitution trick used to instantly collapse a GP product equation to solve for a single variable.",
 "derivation": "If you naively use the standard notation $a, ar, ar^2$, multiplying them yields $a^3 r^3$, leaving a trapped two-variable equation. By strategically defining the terms symmetrically as $a/r, a, ar$, the fractional $r$ variables perfectly cancel out upon multiplication, allowing you to instantly isolate and cube-root to find the central term $a$."
 }
@@ -1195,11 +1195,11 @@
 ],
 "order": 40,
 "heading": "Formula: Sum of the First n Terms of a GP ($S_n$)",
-"back": "## Component Anatomy\n- **$S_n$**: The total accumulated sum of the first $n$ terms.\n- **$a$**: The absolute first term ($t_1$).\n- **$r$**: The constant common multiplier ratio.\n- **$n$**: The strictly positive total number of terms evaluated.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The common ratio CANNOT be mathematically equal to 1 ($r \neq 1$).\n- If $r = 1$, the sequence flattens to $a, a, a\dots$, making the true sum simply $n \times a$. Attempting to use the formula with $r=1$ causes the denominator ($1-r$) to crash mathematically (division by zero).",
+"back": "## Component Anatomy\n- **$S_n$**: The total accumulated sum of the first $n$ terms.\n- **$a$**: The absolute first term ($t_1$).\n- **$r$**: The constant common multiplier ratio.\n- **$n$**: The strictly positive total number of terms evaluated.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The common ratio CANNOT be mathematically equal to 1 ($r \\neq 1$).\n- If $r = 1$, the sequence flattens to $a, a, a\\dots$, making the true sum simply $n \\times a$. Attempting to use the formula with $r=1$ causes the denominator ($1-r$) to crash mathematically (division by zero).",
 "formulaMeta": {
-"formula": "S_n = \frac{a(1 - r^n)}{1 - r}",
+"formula": "S_n = \\frac{a(1 - r^n)}{1 - r}",
 "description": "The standard algebraic formula to calculate the sum of a finite Geometric Progression.",
-"derivation": "Derived algebraically by taking the series $S_n = a + ar + \dots + ar^{n-1}$, multiplying the entire series by $r$ to get $rS_n$, and mathematically subtracting the two equations. All intermediate terms cancel out, leaving $S_n - rS_n = a - ar^n$, which strictly factors to this formula."
+"derivation": "Derived algebraically by taking the series $S_n = a + ar + \\dots + ar^{n-1}$, multiplying the entire series by $r$ to get $rS_n$, and mathematically subtracting the two equations. All intermediate terms cancel out, leaving $S_n - rS_n = a - ar^n$, which strictly factors to this formula."
 }
 }
 },
@@ -1226,7 +1226,7 @@
 ],
 "order": 41,
 "heading": "Index Domain Shift: Time-Step Exponential Growth",
-"back": "## The Indexing Trap\nAttempting to rigidly use the standard sequence formula $ar^{n-1}$ for physical time-based growth (e.g., compound interest, bacteria doubling every hour).\n\n## The Mathematical Reality\nIn physical time problems, the 'initial' starting amount mathematically occurs at time $t=0$, not position index $n=1$. \nTherefore, after exactly $n$ hours elapse, the growth factor has been strictly applied a full $n$ times, not $(n-1)$ times.\n\n## Execution SOP\nThe explicit boundary rule for the final amount after exactly $n$ time steps is strictly **$A \times r^n$**, fully bypassing the standard $(n-1)$ sequence exponent.",
+"back": "## The Indexing Trap\nAttempting to rigidly use the standard sequence formula $ar^{n-1}$ for physical time-based growth (e.g., compound interest, bacteria doubling every hour).\n\n## The Mathematical Reality\nIn physical time problems, the 'initial' starting amount mathematically occurs at time $t=0$, not position index $n=1$. \nTherefore, after exactly $n$ hours elapse, the growth factor has been strictly applied a full $n$ times, not $(n-1)$ times.\n\n## Execution SOP\nThe explicit boundary rule for the final amount after exactly $n$ time steps is strictly **$A \\times r^n$**, fully bypassing the standard $(n-1)$ sequence exponent.",
 "standardMeta": {
 "question": "Why does physical time-based exponential growth (e.g., bacteria doubling after $n$ hours) use the exponent $n$ instead of the standard GP sequence exponent $(n-1)$?"
 }
@@ -1255,7 +1255,7 @@
 ],
 "order": 42,
 "heading": "Fractal Sequences: Triangle Count in Sierpinski's Gasket",
-"back": "## Component Anatomy\n- **$t_n$**: The exact absolute count of solid black triangles present at Stage index $n$.\n- **$n$**: The structural stage number of the fractal (starting strictly from the origin block at Stage 0).\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \geq 0$.\n- At the base origin (Stage 0, $n=0$), there is strictly exactly $1$ large triangle ($3^0 = 1$).",
+"back": "## Component Anatomy\n- **$t_n$**: The exact absolute count of solid black triangles present at Stage index $n$.\n- **$n$**: The structural stage number of the fractal (starting strictly from the origin block at Stage 0).\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \\geq 0$.\n- At the base origin (Stage 0, $n=0$), there is strictly exactly $1$ large triangle ($3^0 = 1$).",
 "formulaMeta": {
 "formula": "t_n = 3^n",
 "description": "Explicit geometric progression formula defining the total number of solid triangles generated at stage n of the Sierpinski Triangle.",
@@ -1286,9 +1286,9 @@
 ],
 "order": 43,
 "heading": "Fractal Decay: Remaining Area in Sierpinski's Gasket",
-"back": "## Component Anatomy\n- **$s_n$**: The total remaining mathematical area of the solid black region at Stage index $n$.\n- **$n$**: The structural stage number.\n\n## Boundary Conditions / Domain\n- The formula strictly assumes the starting geometric area at Stage 0 is normalized to exactly $1$ square unit ($a=1$).\n- As $n \to \infty$, the sequence exhibits strict exponential decay, mathematically approaching $0$.",
+"back": "## Component Anatomy\n- **$s_n$**: The total remaining mathematical area of the solid black region at Stage index $n$.\n- **$n$**: The structural stage number.\n\n## Boundary Conditions / Domain\n- The formula strictly assumes the starting geometric area at Stage 0 is normalized to exactly $1$ square unit ($a=1$).\n- As $n \\to \\infty$, the sequence exhibits strict exponential decay, mathematically approaching $0$.",
 "formulaMeta": {
-"formula": "s_n = \left(\frac{3}{4}\right)^n",
+"formula": "s_n = \\left(\\frac{3}{4}\\right)^n",
 "description": "Explicit geometric progression formula defining the total remaining surface area of the Sierpinski Triangle at stage n.",
 "derivation": "In every recursive stage, each solid triangle is structurally divided into 4 equal subdivisions, and the central 1 part is permanently removed. Therefore, exactly 3/4 of the immediately previous area is retained, forming a GP with a decay ratio of $r=3/4$."
 }
@@ -1316,11 +1316,11 @@
 ],
 "order": 44,
 "heading": "Fractal Sequences: Square Count in Sierpinski's Carpet",
-"back": "## Component Anatomy\n- **$t_n$**: The exact absolute count of solid squares generated at Stage index $n$.\n- **$n$**: The structural stage number.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \geq 0$.\n- At the base origin (Stage 0, $n=0$), there is strictly exactly $1$ large base square ($8^0 = 1$).",
+"back": "## Component Anatomy\n- **$t_n$**: The exact absolute count of solid squares generated at Stage index $n$.\n- **$n$**: The structural stage number.\n\n## Boundary Conditions / Domain\n- Domain restriction: $n \\geq 0$.\n- At the base origin (Stage 0, $n=0$), there is strictly exactly $1$ large base square ($8^0 = 1$).",
 "formulaMeta": {
 "formula": "t_n = 8^n",
 "description": "Explicit geometric progression formula defining the total number of solid squares generated at stage n of the Sierpinski Carpet.",
-"derivation": "During generation, each existing square is geometrically trisected into a $3 \times 3$ grid (9 smaller squares), and the central 1 square is permanently removed. This leaves exactly 8 surrounding squares, forming a continuous GP multiplication operation with $r=8$."
+"derivation": "During generation, each existing square is geometrically trisected into a $3 \\times 3$ grid (9 smaller squares), and the central 1 square is permanently removed. This leaves exactly 8 surrounding squares, forming a continuous GP multiplication operation with $r=8$."
 }
 }
 },
@@ -1346,7 +1346,7 @@
 ],
 "order": 45,
 "heading": "Infinite Limits: Asymptotic Decay in Geometric Fractals",
-"back": "## The Area Sequence\nThe remaining solid region of the carpet at structural stage $n$ strictly follows the GP decay formula $A_n = \left(\frac{8}{9}\right)^n$.\n\n## The Asymptotic Limit Condition\nBecause the scalar common ratio strictly sits between 0 and 1 ($0 < r < 1$), as the stage number approaches infinity ($n \to \infty$), the sequence undergoes continuous exponential decay.\n\n## The Mathematical Boundary Constraint\nThe theoretical area gets infinitely closer to 0 but strictly **never becomes exactly 0** at any finite integer stage $n$. The x-axis acts as an absolute mathematical asymptote.",
+"back": "## The Area Sequence\nThe remaining solid region of the carpet at structural stage $n$ strictly follows the GP decay formula $A_n = \\left(\\frac{8}{9}\\right)^n$.\n\n## The Asymptotic Limit Condition\nBecause the scalar common ratio strictly sits between 0 and 1 ($0 < r < 1$), as the stage number approaches infinity ($n \\to \\infty$), the sequence undergoes continuous exponential decay.\n\n## The Mathematical Boundary Constraint\nThe theoretical area gets infinitely closer to 0 but strictly **never becomes exactly 0** at any finite integer stage $n$. The x-axis acts as an absolute mathematical asymptote.",
 "standardMeta": {
 "question": "What is the strict boundary behavior (asymptotic limit) of the remaining area in Sierpiński fractals as the stage number $n$ approaches infinity?"
 }
@@ -1375,11 +1375,11 @@
 ],
 "order": 46,
 "heading": "Physics Application: Maximum Height of the nth Bounce",
-"back": "## Component Anatomy\n- **$H$**: The initial physical drop height from rest.\n- **$r$**: The constant kinematic rebound ratio (e.g., $60\\%$ energy retention means $r = 0.6$).\n- **$h_n$**: The peak maximum height achieved physically immediately following the $n$th ground impact.\n\n## Boundary Conditions / Domain\n- The coefficient of restitution (rebound ratio) must strictly be $0 < r < 1$ for a physically realistic inelastic bounce (the ball must lose height on each impact).\n- $n \geq 1$ (the bounce sequence strictly begins at impact 1).",
+"back": "## Component Anatomy\n- **$H$**: The initial physical drop height from rest.\n- **$r$**: The constant kinematic rebound ratio (e.g., $60\\%$ energy retention means $r = 0.6$).\n- **$h_n$**: The peak maximum height achieved physically immediately following the $n$th ground impact.\n\n## Boundary Conditions / Domain\n- The coefficient of restitution (rebound ratio) must strictly be $0 < r < 1$ for a physically realistic inelastic bounce (the ball must lose height on each impact).\n- $n \\geq 1$ (the bounce sequence strictly begins at impact 1).",
 "formulaMeta": {
-"formula": "h_n = H \times r^n",
+"formula": "h_n = H \\times r^n",
 "description": "Calculates the exact maximum peak height a falling object will achieve strictly after its nth ground impact.",
-"derivation": "1. After the 1st impact, height decays to $H \times r$.\n2. After the 2nd impact, height decays to $(H \times r) \times r = H \times r^2$.\n3. By mathematical induction, evaluating the height exactly after $n$ impacts yields $H \times r^n$."
+"derivation": "1. After the 1st impact, height decays to $H \\times r$.\n2. After the 2nd impact, height decays to $(H \\times r) \\times r = H \\times r^2$.\n3. By mathematical induction, evaluating the height exactly after $n$ impacts yields $H \\times r^n$."
 }
 }
 },
@@ -1409,7 +1409,7 @@
 "heading": "SOP (Part 1): Total Distance Setup for a Bouncing Ball",
 "back": "## Component Anatomy\n- **$H$**: The initial drop distance. This vector is traveled strictly downwards, exactly once.\n- **$h_i$**: The peak height of each subsequent bounce interval. This scalar distance is traveled exactly twice per interval (once upward against gravity, once downward).\n\n## Boundary Conditions / Domain\n- **Critical Algorithmic Trap:** The mathematical calculation MUST strictly isolate the initial drop $H$ from the subsequent bouncing intervals to avoid erroneously double-counting the initial descent.",
 "formulaMeta": {
-"formula": "D_{\text{total}} = H + 2(h_1 + h_2 + \dots + h_{n-1})",
+"formula": "D_{\\text{total}} = H + 2(h_1 + h_2 + \\dots + h_{n-1})",
 "description": "The foundational algebraic structure defining the total vertical scalar distance covered by a bouncing ball prior to the nth impact.",
 "derivation": "1. The ball physically falls the initial rest distance $H$.\n2. It hits the ground, bounces strictly upward to peak $h_1$, and falls back down $h_1$ (total interval distance $= 2h_1$).\n3. This symmetric up-and-down kinematic pattern repeats for every impact interval strictly up to the $(n-1)$th impact."
 }
@@ -1438,11 +1438,11 @@
 ],
 "order": 48,
 "heading": "SOP (Part 2): Evaluating the Total Distance via GP Sum",
-"back": "## Component Anatomy\n- **$H$**: Initial isolated drop height.\n- **$h_1$**: The absolute first term of the internal bounce progression ($H \times r$).\n- **$r$**: The constant rebound ratio.\n- **$n-1$**: The total number of terms existing strictly inside the summation bracket.\n\n## Boundary Conditions / Domain\n- $0 < r < 1$.\n- You MUST substitute $h_1$ (which is $Hr$) as the starting base '$a$' for the GP formula, NOT the initial drop $H$.",
+"back": "## Component Anatomy\n- **$H$**: Initial isolated drop height.\n- **$h_1$**: The absolute first term of the internal bounce progression ($H \\times r$).\n- **$r$**: The constant rebound ratio.\n- **$n-1$**: The total number of terms existing strictly inside the summation bracket.\n\n## Boundary Conditions / Domain\n- $0 < r < 1$.\n- You MUST substitute $h_1$ (which is $Hr$) as the starting base '$a$' for the GP formula, NOT the initial drop $H$.",
 "formulaMeta": {
-"formula": "D_{\text{total}} = H + 2 \times \left[ \frac{h_1(1 - r^{n-1})}{1 - r} \right]",
+"formula": "D_{\\text{total}} = H + 2 \\times \\left[ \\frac{h_1(1 - r^{n-1})}{1 - r} \\right]",
 "description": "The final operational formula solving the total vertical distance by substituting the GP Sum theorem into the bounce structure.",
-"derivation": "1. Take the structural setup: $D = H + 2(h_1 + h_2 + \dots + h_{n-1})$.\n2. Recognize that the bracketed component $(h_1 + h_2 + \dots + h_{n-1})$ is a strict finite Geometric Series.\n3. The first term of this series is $h_1$. The multiplier is $r$. There are exactly $(n-1)$ terms.\n4. Substitute the GP Sum formula $\frac{a(1-r^k)}{1-r}$ directly into the bracket."
+"derivation": "1. Take the structural setup: $D = H + 2(h_1 + h_2 + \\dots + h_{n-1})$.\n2. Recognize that the bracketed component $(h_1 + h_2 + \\dots + h_{n-1})$ is a strict finite Geometric Series.\n3. The first term of this series is $h_1$. The multiplier is $r$. There are exactly $(n-1)$ terms.\n4. Substitute the GP Sum formula $\\frac{a(1-r^k)}{1-r}$ directly into the bracket."
 }
 }
 },

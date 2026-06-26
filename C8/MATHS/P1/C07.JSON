@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Definition and Terminology of a Ratio",
-"back": "- **Definition:** A ratio $a : b$ mathematically represents that for every $a$ units of the first quantity, there are strictly $b$ units of the second quantity.\n- **Terminology:** The individual numbers $a$ and $b$ inside the expression are formally designated as the **terms** of the ratio. (Specifically, $a$ is the antecedent and $b$ is the consequent).\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{R}$.\n- **Strict Constraint:** The consequent $b \neq 0$, because a ratio $a:b$ is algebraically equivalent to the fraction $\frac{a}{b}$, and division by zero is undefined.",
+"back": "- **Definition:** A ratio $a : b$ mathematically represents that for every $a$ units of the first quantity, there are strictly $b$ units of the second quantity.\n- **Terminology:** The individual numbers $a$ and $b$ inside the expression are formally designated as the **terms** of the ratio. (Specifically, $a$ is the antecedent and $b$ is the consequent).\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{R}$.\n- **Strict Constraint:** The consequent $b \\neq 0$, because a ratio $a:b$ is algebraically equivalent to the fraction $\\frac{a}{b}$, and division by zero is undefined.",
 "standardMeta": {
 "question": "Define the meaning of a ratio $a : b$ in terms of discrete quantities, and state the formal mathematical name for $a$ and $b$."
 }
@@ -80,9 +80,9 @@
 ],
 "order": 3,
 "heading": "SOP: Reducing Ratios to Simplest Form",
-"back": "## Component Anatomy:\n- **$a, b$:** The given integer terms of the original ratio.\n- **$\text{HCF}(a,b)$:** The Highest Common Factor (Greatest Common Divisor) of the two terms.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{Z}^+$ (Standard ratios involve positive integers).\n- **Strict Constraint:** $b \neq 0$.",
+"back": "## Component Anatomy:\n- **$a, b$:** The given integer terms of the original ratio.\n- **$\\text{HCF}(a,b)$:** The Highest Common Factor (Greatest Common Divisor) of the two terms.\n\n## Boundary Conditions / Domain:\n- $a, b \\in \\mathbb{Z}^+$ (Standard ratios involve positive integers).\n- **Strict Constraint:** $b \\neq 0$.",
 "formulaMeta": {
-"formula": "\frac{a \div \text{HCF}(a,b)}{b \div \text{HCF}(a,b)}",
+"formula": "\\frac{a \\div \\text{HCF}(a,b)}{b \\div \\text{HCF}(a,b)}",
 "description": "Standard algorithmic procedure for reducing any given ratio a:b to its absolute simplest, irreducible mathematical form.",
 "derivation": "1. Identify the two distinct terms of the ratio, $a$ and $b$.\n2. Calculate their Highest Common Factor (HCF).\n3. Divide both $a$ and $b$ strictly by this HCF.\n4. The resulting numbers form the equivalent ratio in its simplest possible form (where the new terms are co-prime)."
 }
@@ -109,7 +109,7 @@
 ],
 "order": 4,
 "heading": "Core Theorem of Equivalent Ratios",
-"back": "- **Theorem:** If two separate ratios $a:b$ and $c:d$ evaluate to the exact same irreducible fraction after their respective terms are divided by their specific Highest Common Factors (HCFs), the ratios are mathematically proven to be in **strict proportion**.\n- **Application:** This is the definitive algebraic test to verify equivalence, proving that both original ratios represent identical relative scaling.\n\n## Boundary Conditions / Domain:\n- $b \neq 0$ and $d \neq 0$ (The consequents can never be zero).",
+"back": "- **Theorem:** If two separate ratios $a:b$ and $c:d$ evaluate to the exact same irreducible fraction after their respective terms are divided by their specific Highest Common Factors (HCFs), the ratios are mathematically proven to be in **strict proportion**.\n- **Application:** This is the definitive algebraic test to verify equivalence, proving that both original ratios represent identical relative scaling.\n\n## Boundary Conditions / Domain:\n- $b \\neq 0$ and $d \\neq 0$ (The consequents can never be zero).",
 "standardMeta": {
 "question": "State the core theorem utilized to definitively prove whether two seemingly different ratios (e.g., 3:4 and 72:96) are strictly proportional to each other."
 }
@@ -136,7 +136,7 @@
 ],
 "order": 5,
 "heading": "Strict Condition for Proportionality & Notation",
-"back": "- **Condition:** Two distinct ratios are declared to be strictly proportional if and only if they are mathematically identical when reduced to their **simplest form**.\n- **Notation:** The double colon symbol $::$ is used algebraically to denote this exact proportionality (e.g., $60:40 :: 30:20$). It functions precisely as an equals sign ($=$) between two fractions.\n\n## Boundary Conditions / Domain:\n- For the proportion $a:b :: c:d$, $b \neq 0$ and $d \neq 0$.",
+"back": "- **Condition:** Two distinct ratios are declared to be strictly proportional if and only if they are mathematically identical when reduced to their **simplest form**.\n- **Notation:** The double colon symbol $::$ is used algebraically to denote this exact proportionality (e.g., $60:40 :: 30:20$). It functions precisely as an equals sign ($=$) between two fractions.\n\n## Boundary Conditions / Domain:\n- For the proportion $a:b :: c:d$, $b \\neq 0$ and $d \\neq 0$.",
 "standardMeta": {
 "question": "Under what strict mathematical condition are two ratios considered proportional, and what specific notation is used to represent this relationship?"
 }
@@ -164,12 +164,12 @@
 ],
 "order": 6,
 "heading": "Cross-Multiplication Identity of Proportions",
-"back": "## Component Anatomy:\n- **$a, b, c, d$:** The four terms in a strictly proportional relationship ($a:b :: c:d$).\n- **$ad$:** Product of the extremes (the outer terms).\n- **$bc$:** Product of the means (the inner terms).\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $b \neq 0, d \neq 0$ (to prevent division by zero in the fractional proof).",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** The four terms in a strictly proportional relationship ($a:b :: c:d$).\n- **$ad$:** Product of the extremes (the outer terms).\n- **$bc$:** Product of the means (the inner terms).\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $b \\neq 0, d \\neq 0$ (to prevent division by zero in the fractional proof).",
 "mnemonic": "Extremes meet means.",
 "formulaMeta": {
-"formula": "a \times d = b \times c",
+"formula": "a \\times d = b \\times c",
 "description": "The core algebraic identity proving that two ratios are strictly proportional (Product of Extremes = Product of Means).",
-"derivation": "1. Start with the algebraic equality of fractions: $\frac{a}{b} = \frac{c}{d}$.\n2. Multiply both sides entirely by the product of their denominators ($bd$).\n3. The $b$ cancels on the left side, leaving $ad$.\n4. The $d$ cancels on the right side, leaving $bc$.\n5. Thus, the identity evaluates to $ad = bc$."
+"derivation": "1. Start with the algebraic equality of fractions: $\\frac{a}{b} = \\frac{c}{d}$.\n2. Multiply both sides entirely by the product of their denominators ($bd$).\n3. The $b$ cancels on the left side, leaving $ad$.\n4. The $d$ cancels on the right side, leaving $bc$.\n5. Thus, the identity evaluates to $ad = bc$."
 }
 }
 },
@@ -195,11 +195,11 @@
 ],
 "order": 7,
 "heading": "Scalar Factor of Change in Proportions",
-"back": "## Component Anatomy:\n- **$f$:** The common scalar factor of change.\n- **$a, b$:** Original base ratio terms.\n- **$c, d$:** Target proportional ratio terms.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $a \neq 0, b \neq 0$. (Cannot calculate a scalar multiplier from a zero base).",
+"back": "## Component Anatomy:\n- **$f$:** The common scalar factor of change.\n- **$a, b$:** Original base ratio terms.\n- **$c, d$:** Target proportional ratio terms.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $a \\neq 0, b \\neq 0$. (Cannot calculate a scalar multiplier from a zero base).",
 "formulaMeta": {
-"formula": "f = \frac{c}{a} = \frac{d}{b}",
+"formula": "f = \\frac{c}{a} = \\frac{d}{b}",
 "description": "Algebraic formula to determine the constant scalar factor of change (f) required to scale ratio a:b to c:d.",
-"derivation": "1. In a strictly proportional relationship, the target terms must be scalar multiples of the base terms.\n2. Therefore, express algebraically: $c = f \times a$ and $d = f \times b$.\n3. Rearrange both equations to solve independently for the factor $f$, yielding $f = \frac{c}{a}$ and $f = \frac{d}{b}$."
+"derivation": "1. In a strictly proportional relationship, the target terms must be scalar multiples of the base terms.\n2. Therefore, express algebraically: $c = f \\times a$ and $d = f \\times b$.\n3. Rearrange both equations to solve independently for the factor $f$, yielding $f = \\frac{c}{a}$ and $f = \\frac{d}{b}$."
 }
 }
 },
@@ -307,11 +307,11 @@
 ],
 "order": 11,
 "heading": "SOP: Trairasika (Solving for the Unknown)",
-"back": "## Component Anatomy:\n- **$d$ (Ichchhāphala):** The calculated unknown fourth quantity.\n- **$a$ (Pramāṇa):** The initial base measure.\n- **$b$ (Phala):** The known result for the initial measure.\n- **$c$ (Ichchhā):** The new target measure.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $a \neq 0$. Division by the base measure must be mathematically defined.",
+"back": "## Component Anatomy:\n- **$d$ (Ichchhāphala):** The calculated unknown fourth quantity.\n- **$a$ (Pramāṇa):** The initial base measure.\n- **$b$ (Phala):** The known result for the initial measure.\n- **$c$ (Ichchhā):** The new target measure.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** $a \\neq 0$. Division by the base measure must be mathematically defined.",
 "formulaMeta": {
-"formula": "d = \frac{b \times c}{a}",
+"formula": "d = \\frac{b \\times c}{a}",
 "description": "Explicit formula isolating the unknown fourth variable (d) in a strictly proportional relationship a:b :: c:d.",
-"derivation": "1. Begin with the proportional identity declaration: $a:b :: c:d$.\n2. Apply the cross-multiplication theorem to yield: $ad = bc$.\n3. To isolate the unknown variable $d$, divide both sides entirely by $a$.\n4. Resulting algebraic form: $d = \frac{bc}{a}$."
+"derivation": "1. Begin with the proportional identity declaration: $a:b :: c:d$.\n2. Apply the cross-multiplication theorem to yield: $ad = bc$.\n3. To isolate the unknown variable $d$, divide both sides entirely by $a$.\n4. Resulting algebraic form: $d = \\frac{bc}{a}$."
 }
 }
 },
@@ -337,7 +337,7 @@
 ],
 "order": 12,
 "heading": "SOP: Direct Proportion Problem Setup",
-"back": "1. **Identify Variables:** Determine the two quantities varying directly (e.g., Distance and Cost).\n2. **Isolate Knowns:** Map out the three known values and the single unknown target ($x$).\n3. **Homogenize Units (CRITICAL):** Ensure both instances of Quantity 1 share the exact same unit, and both instances of Quantity 2 share the exact same unit. Convert if necessary.\n4. **Align the Equation:** Set up $a : b :: c : d$ ensuring strict corresponding sequential order (e.g., $\text{Dist}_1 : \text{Cost}_1 :: \text{Dist}_2 : \text{Cost}_2$).\n5. **Execute:** Apply cross-multiplication ($a \times d = b \times c$) to algebraically solve for $x$.\n\n## Boundary Conditions / Domain:\n- The relationship between the variables must be mathematically verified as **Linear and Direct** (as one goes up, the other goes up at a constant rate).",
+"back": "1. **Identify Variables:** Determine the two quantities varying directly (e.g., Distance and Cost).\n2. **Isolate Knowns:** Map out the three known values and the single unknown target ($x$).\n3. **Homogenize Units (CRITICAL):** Ensure both instances of Quantity 1 share the exact same unit, and both instances of Quantity 2 share the exact same unit. Convert if necessary.\n4. **Align the Equation:** Set up $a : b :: c : d$ ensuring strict corresponding sequential order (e.g., $\\text{Dist}_1 : \\text{Cost}_1 :: \\text{Dist}_2 : \\text{Cost}_2$).\n5. **Execute:** Apply cross-multiplication ($a \\times d = b \\times c$) to algebraically solve for $x$.\n\n## Boundary Conditions / Domain:\n- The relationship between the variables must be mathematically verified as **Linear and Direct** (as one goes up, the other goes up at a constant rate).",
 "standardMeta": {
 "question": "What is the 5-step Standard Operating Procedure (SOP) for setting up and mathematically executing a Direct Proportion calculation with an unknown variable?"
 }
@@ -365,11 +365,11 @@
 ],
 "order": 13,
 "heading": "Allocating a Total Quantity (First Share)",
-"back": "## Component Anatomy:\n- **$x$:** The total combined numerical quantity to be distributed.\n- **$m, n$:** The specific proportional weights of the sharing ratio ($m:n$).\n- **$m+n$:** The total combined number of identical groupings/parts.\n\n## Boundary Conditions / Domain:\n- Total quantity $x \ge 0$.\n- **Strict Constraint:** $m+n \neq 0$. Typically, $m > 0$ and $n > 0$ for tangible resource allocation.",
+"back": "## Component Anatomy:\n- **$x$:** The total combined numerical quantity to be distributed.\n- **$m, n$:** The specific proportional weights of the sharing ratio ($m:n$).\n- **$m+n$:** The total combined number of identical groupings/parts.\n\n## Boundary Conditions / Domain:\n- Total quantity $x \\ge 0$.\n- **Strict Constraint:** $m+n \\neq 0$. Typically, $m > 0$ and $n > 0$ for tangible resource allocation.",
 "formulaMeta": {
-"formula": "\text{Part}_m = \frac{m}{m + n} \times x",
+"formula": "\\text{Part}_m = \\frac{m}{m + n} \\times x",
 "description": "Algebraic formula to calculate the exact allocated amount of the first share (m) when a total quantity x is divided in the ratio m:n.",
-"derivation": "1. Find the total number of allocation parts by summing the ratio terms: $m + n$.\n2. Determine the unitary size of exactly one part by dividing the total quantity by the sum: $\frac{x}{m+n}$.\n3. Multiply the derived size of one part by the desired specific ratio weight $m$ to get the final allocated share."
+"derivation": "1. Find the total number of allocation parts by summing the ratio terms: $m + n$.\n2. Determine the unitary size of exactly one part by dividing the total quantity by the sum: $\\frac{x}{m+n}$.\n3. Multiply the derived size of one part by the desired specific ratio weight $m$ to get the final allocated share."
 }
 }
 },
@@ -395,11 +395,11 @@
 ],
 "order": 14,
 "heading": "Allocating a Total Quantity (Second Share)",
-"back": "## Component Anatomy:\n- **$x$:** The total combined numerical quantity to be shared.\n- **$m, n$:** The specific proportional weights of the sharing ratio ($m:n$).\n- **$m+n$:** The combined denominator representing all parts.\n\n## Boundary Conditions / Domain:\n- Total quantity $x \ge 0$.\n- **Strict Constraint:** $m+n \neq 0$. Both $m$ and $n$ are generally positive integers.",
+"back": "## Component Anatomy:\n- **$x$:** The total combined numerical quantity to be shared.\n- **$m, n$:** The specific proportional weights of the sharing ratio ($m:n$).\n- **$m+n$:** The combined denominator representing all parts.\n\n## Boundary Conditions / Domain:\n- Total quantity $x \\ge 0$.\n- **Strict Constraint:** $m+n \\neq 0$. Both $m$ and $n$ are generally positive integers.",
 "formulaMeta": {
-"formula": "\text{Part}_n = \frac{n}{m + n} \times x",
+"formula": "\\text{Part}_n = \\frac{n}{m + n} \\times x",
 "description": "Algebraic formula to calculate the exact allocated amount of the second share (n) when a total quantity x is divided in the ratio m:n.",
-"derivation": "1. Add the ratio components to find the total parts available: $m + n$.\n2. The base unitary size of one group evaluates to $\frac{x}{m+n}$.\n3. Multiply this derived unitary base by the specific ratio weight $n$ to accurately isolate the second share."
+"derivation": "1. Add the ratio components to find the total parts available: $m + n$.\n2. The base unitary size of one group evaluates to $\\frac{x}{m+n}$.\n3. Multiply this derived unitary base by the specific ratio weight $n$ to accurately isolate the second share."
 }
 }
 },
@@ -425,12 +425,12 @@
 ],
 "order": 15,
 "heading": "SOP: Dynamic Age Ratio Shifts",
-"back": "## Component Anatomy:\n- **$a, b$:** The terms of the original/current age ratio.\n- **$x$:** The unknown common scalar multiplier (so current ages are $ax$ and $bx$).\n- **$k$:** The constant number of years added (or subtracted) from the current timeline.\n- **$c, d$:** The terms of the resultant target ratio.\n\n## Boundary Conditions / Domain:\n- $x > 0$ (Current ages must be strictly positive).\n- **Physical Constraint:** $ax + k > 0$ and $bx + k > 0$ (Ages must remain positive regardless of past/future shifts).\n- **Denominator Constraint:** $bx + k \neq 0$ and $d \neq 0$.",
+"back": "## Component Anatomy:\n- **$a, b$:** The terms of the original/current age ratio.\n- **$x$:** The unknown common scalar multiplier (so current ages are $ax$ and $bx$).\n- **$k$:** The constant number of years added (or subtracted) from the current timeline.\n- **$c, d$:** The terms of the resultant target ratio.\n\n## Boundary Conditions / Domain:\n- $x > 0$ (Current ages must be strictly positive).\n- **Physical Constraint:** $ax + k > 0$ and $bx + k > 0$ (Ages must remain positive regardless of past/future shifts).\n- **Denominator Constraint:** $bx + k \\neq 0$ and $d \\neq 0$.",
 "mnemonic": "Scale the present, add the years, equate to the future.",
 "formulaMeta": {
-"formula": "\frac{ax + k}{bx + k} = \frac{c}{d}",
+"formula": "\\frac{ax + k}{bx + k} = \\frac{c}{d}",
 "description": "Algebraic representation and SOP to solve for unknown quantities when a constant k is added, causing a ratio to shift from a:b to c:d.",
-"derivation": "1. Assign a scalar variable $x$ to the original ratio, defining current ages explicitly as $ax$ and $bx$.\n2. Because chronological time passes equally for both individuals, add the constant $k$ to both the numerator and denominator.\n3. Equate this new fractional expression strictly to the new target ratio $\frac{c}{d}$.\n4. Cross-multiply to break the fraction and yield a linear equation: $d(ax + k) = c(bx + k)$.\n5. Solve for $x$, then substitute $x$ back into $ax$ and $bx$ to find the actual current ages."
+"derivation": "1. Assign a scalar variable $x$ to the original ratio, defining current ages explicitly as $ax$ and $bx$.\n2. Because chronological time passes equally for both individuals, add the constant $k$ to both the numerator and denominator.\n3. Equate this new fractional expression strictly to the new target ratio $\\frac{c}{d}$.\n4. Cross-multiply to break the fraction and yield a linear equation: $d(ax + k) = c(bx + k)$.\n5. Solve for $x$, then substitute $x$ back into $ax$ and $bx$ to find the actual current ages."
 }
 }
 },
@@ -456,11 +456,11 @@
 ],
 "order": 16,
 "heading": "SOP: Multi-Step Alloy Component Costing",
-"back": "## Component Anatomy:\n- **$W$:** Total combined weight of the final alloy mixture.\n- **$m, n$:** The proportional parts of the two constituent metals ($m:n$).\n- **$C_A, C_B$:** The respective unit costs (price per standard unit of weight) of the two metals.\n\n## Boundary Conditions / Domain:\n- **Unit Homogeneity:** Unit costs $C_A, C_B$ must align perfectly with the mass unit of $W$ (e.g., if $W$ is in grams, $C$ must be cost *per gram*, NOT *per kg*).\n- $W \ge 0$, and $m+n \neq 0$.",
+"back": "## Component Anatomy:\n- **$W$:** Total combined weight of the final alloy mixture.\n- **$m, n$:** The proportional parts of the two constituent metals ($m:n$).\n- **$C_A, C_B$:** The respective unit costs (price per standard unit of weight) of the two metals.\n\n## Boundary Conditions / Domain:\n- **Unit Homogeneity:** Unit costs $C_A, C_B$ must align perfectly with the mass unit of $W$ (e.g., if $W$ is in grams, $C$ must be cost *per gram*, NOT *per kg*).\n- $W \\ge 0$, and $m+n \\neq 0$.",
 "formulaMeta": {
-"formula": "\text{Total Cost} = \left( \frac{m}{m+n} \times W \times C_A \right) + \left( \frac{n}{m+n} \times W \times C_B \right)",
+"formula": "\\text{Total Cost} = \\left( \\frac{m}{m+n} \\times W \\times C_A \\right) + \\left( \\frac{n}{m+n} \\times W \\times C_B \\right)",
 "description": "Algorithmic equation to calculate the total intrinsic material cost of an alloy formed by two distinct metals mixed in a ratio of m:n.",
-"derivation": "1. Isolate the exact physical mass of Metal A using its fractional share of the total weight: $\frac{m}{m+n} \times W$.\n2. Isolate the exact physical mass of Metal B using its fractional share: $\frac{n}{m+n} \times W$.\n3. Check Unit Homogeneity: Convert given unit prices to strictly match the mass units.\n4. Multiply each isolated metal's mass by its specific unit cost to find the individual sub-costs.\n5. Sum the individual sub-costs to mathematically determine the total intrinsic value of the alloy."
+"derivation": "1. Isolate the exact physical mass of Metal A using its fractional share of the total weight: $\\frac{m}{m+n} \\times W$.\n2. Isolate the exact physical mass of Metal B using its fractional share: $\\frac{n}{m+n} \\times W$.\n3. Check Unit Homogeneity: Convert given unit prices to strictly match the mass units.\n4. Multiply each isolated metal's mass by its specific unit cost to find the individual sub-costs.\n5. Sum the individual sub-costs to mathematically determine the total intrinsic value of the alloy."
 }
 }
 },
@@ -486,7 +486,7 @@
 ],
 "order": 17,
 "heading": "Trap: Constant Addition in Ratios",
-"back": "- **The Trap:** Students intuitively mistakenly assume that adding the identical number to both sides of a ratio preserves the proportion (similar to an equation).\n- **The Reality:** Adding (or subtracting) the same non-zero constant $k$ to both terms of a ratio $a : b$ produces a new ratio $(a+k) : (b+k)$ that is mathematically **NOT proportional** to the original ratio.\n- **The Exception:** This distortion occurs in all cases *unless* $a=b$ (a 1:1 ratio).\n\n## Boundary Conditions / Domain:\n- Original ratio $b \neq 0$. New ratio $b+k \neq 0$.",
+"back": "- **The Trap:** Students intuitively mistakenly assume that adding the identical number to both sides of a ratio preserves the proportion (similar to an equation).\n- **The Reality:** Adding (or subtracting) the same non-zero constant $k$ to both terms of a ratio $a : b$ produces a new ratio $(a+k) : (b+k)$ that is mathematically **NOT proportional** to the original ratio.\n- **The Exception:** This distortion occurs in all cases *unless* $a=b$ (a 1:1 ratio).\n\n## Boundary Conditions / Domain:\n- Original ratio $b \\neq 0$. New ratio $b+k \\neq 0$.",
 "mnemonic": "Addition breaks the proportion mission.",
 "standardMeta": {
 "question": "If you mathematically add a constant integer $k$ to both terms of a ratio $a : b$, is the new ratio $(a+k) : (b+k)$ strictly proportional to the original? Why or why not?"
@@ -542,7 +542,7 @@
 ],
 "order": 19,
 "heading": "Trap: The Speed-Time Fallacy (Inverse Proportion)",
-"back": "- **The Fallacy:** Attempting to solve a dynamic Speed vs. Time problem over a fixed distance using the direct proportion Rule of Three (e.g., $S_1 : T_1 :: S_2 : T_2$) is mathematically **invalid**.\n- **The Reality:** The product of Speed and Time equals a constant Distance ($S \times T = D$). As speed increases, time strictly *decreases*. Because they inherently change in opposite directions, they do not satisfy the fundamental condition of direct proportionality.\n- **Conclusion:** You cannot model speed/time problems as $50 : 2 :: 75 : x$ because the target time must logically shrink, making direct cross-multiplication useless.",
+"back": "- **The Fallacy:** Attempting to solve a dynamic Speed vs. Time problem over a fixed distance using the direct proportion Rule of Three (e.g., $S_1 : T_1 :: S_2 : T_2$) is mathematically **invalid**.\n- **The Reality:** The product of Speed and Time equals a constant Distance ($S \\times T = D$). As speed increases, time strictly *decreases*. Because they inherently change in opposite directions, they do not satisfy the fundamental condition of direct proportionality.\n- **Conclusion:** You cannot model speed/time problems as $50 : 2 :: 75 : x$ because the target time must logically shrink, making direct cross-multiplication useless.",
 "mnemonic": "Faster speed kills the time; direct proportion is a crime.",
 "standardMeta": {
 "question": "Why is it fundamentally incorrect to use the direct proportion Rule of Three (e.g., $50:2 :: 75:x$) to mathematically calculate the time taken to travel a fixed distance at a new, faster speed?"
@@ -570,7 +570,7 @@
 ],
 "order": 20,
 "heading": "Mixture Alteration and the Principle of Invariance",
-"back": "- **Scenario:** A mixture's ratio of Sand to Cement is mathematically changed from 3:1 to 5:2 by physically adding *only* Cement.\n- **The Rule of Invariance:** Because no sand was added or removed, the absolute physical total mass of the **unaltered component** (Sand) must remain strictly mathematically constant across both the initial and final states.\n- **Algorithmic Execution:** You must calculate the exact physical mass of the sand from the initial mixture state first. Then, utilize that newly fixed sand mass as the anchor constant in a new proportion to solve for the required mass of cement.\n\n## Boundary Conditions / Domain:\n- Assumes a closed system where no mass is lost during mixing. Component masses $M \ge 0$.",
+"back": "- **Scenario:** A mixture's ratio of Sand to Cement is mathematically changed from 3:1 to 5:2 by physically adding *only* Cement.\n- **The Rule of Invariance:** Because no sand was added or removed, the absolute physical total mass of the **unaltered component** (Sand) must remain strictly mathematically constant across both the initial and final states.\n- **Algorithmic Execution:** You must calculate the exact physical mass of the sand from the initial mixture state first. Then, utilize that newly fixed sand mass as the anchor constant in a new proportion to solve for the required mass of cement.\n\n## Boundary Conditions / Domain:\n- Assumes a closed system where no mass is lost during mixing. Component masses $M \\ge 0$.",
 "mnemonic": "What you don't add, stays the same.",
 "standardMeta": {
 "question": "When altering the ratio of a mixture (e.g., sand and cement) by physically adding more of ONLY one component, what critical mathematical property of the OTHER component must be utilized to solve the problem?"
@@ -599,11 +599,11 @@
 ],
 "order": 21,
 "heading": "Population Density Proportionality Model",
-"back": "## Component Anatomy:\n- **$P$:** The total numerical population of the target region.\n- **$A$:** The total physical geographical area of the region.\n- **$D$:** The calculated Population Density (individuals per unitary area block).\n\n## Boundary Conditions / Domain:\n- **Area Constraint:** $A > 0$ (Physical area cannot be zero or negative).\n- **Population Constraint:** $P \ge 0$ (Population cannot be negative).",
+"back": "## Component Anatomy:\n- **$P$:** The total numerical population of the target region.\n- **$A$:** The total physical geographical area of the region.\n- **$D$:** The calculated Population Density (individuals per unitary area block).\n\n## Boundary Conditions / Domain:\n- **Area Constraint:** $A > 0$ (Physical area cannot be zero or negative).\n- **Population Constraint:** $P \\ge 0$ (Population cannot be negative).",
 "formulaMeta": {
-"formula": "D = \frac{P}{A}",
+"formula": "D = \\frac{P}{A}",
 "description": "Algorithmic formula utilized to mathematically extract a unitary rate (Population Density) to set up a valid proportion between two distinct geographic regions.",
-"derivation": "1. To accurately compare two distinct regions of differing sizes, you cannot simply contrast total population $P$.\n2. You must establish a standard unitary rate representing exactly how many individuals occupy a single $1 \times 1$ unit of area.\n3. Divide the total population $P$ by the total area $A$ to extract $D$.\n4. The region yielding the mathematically higher decimal $D$ is proportional to the more physically crowded region."
+"derivation": "1. To accurately compare two distinct regions of differing sizes, you cannot simply contrast total population $P$.\n2. You must establish a standard unitary rate representing exactly how many individuals occupy a single $1 \\times 1$ unit of area.\n3. Divide the total population $P$ by the total area $A$ to extract $D$.\n4. The region yielding the mathematically higher decimal $D$ is proportional to the more physically crowded region."
 }
 }
 },
@@ -627,9 +627,9 @@
 ],
 "order": 22,
 "heading": "Conversion: Metres to Feet",
-"back": "## Component Anatomy:\n- **Metre (m):** Standard SI base unit of linear length.\n- **Feet (ft):** Standard Imperial unit of linear length.\n\n## Boundary Conditions / Domain:\n- Physical length $L \ge 0$.",
+"back": "## Component Anatomy:\n- **Metre (m):** Standard SI base unit of linear length.\n- **Feet (ft):** Standard Imperial unit of linear length.\n\n## Boundary Conditions / Domain:\n- Physical length $L \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ metre} = 3.281 \text{ feet}",
+"formula": "1 \\text{ metre} = 3.281 \\text{ feet}",
 "description": "Specific numerical conversion factor required to mathematically translate exactly 1 metre into imperial feet.",
 "derivation": "This is a strictly empirical standard equivalence constant used for direct scalar multiplication."
 }
@@ -655,11 +655,11 @@
 ],
 "order": 23,
 "heading": "Conversion: Square Metres to Square Feet",
-"back": "## Component Anatomy:\n- **Square Metre (m²):** Standard SI derived unit of 2D geometric area.\n- **Square Feet (ft²):** Standard Imperial unit of 2D area.\n\n## Boundary Conditions / Domain:\n- Physical area $A \ge 0$.",
+"back": "## Component Anatomy:\n- **Square Metre (m²):** Standard SI derived unit of 2D geometric area.\n- **Square Feet (ft²):** Standard Imperial unit of 2D area.\n\n## Boundary Conditions / Domain:\n- Physical area $A \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ m}^2 = 10.764 \text{ ft}^2",
+"formula": "1 \\text{ m}^2 = 10.764 \\text{ ft}^2",
 "description": "Explicit numerical conversion factor translating exactly 1 square metre into imperial square feet.",
-"derivation": "Mathematically derived by identically squaring the linear length conversion factor: $(3.28084\dots)^2 \approx 10.764$."
+"derivation": "Mathematically derived by identically squaring the linear length conversion factor: $(3.28084\\dots)^2 \\approx 10.764$."
 }
 }
 },
@@ -683,11 +683,11 @@
 ],
 "order": 24,
 "heading": "Conversion: Acres to Square Feet",
-"back": "## Component Anatomy:\n- **Acre:** Traditional unit of land area utilized heavily in the imperial and US customary systems.\n- **Square Feet (ft²):** Base imperial 2D area unit.\n\n## Boundary Conditions / Domain:\n- Physical area $A \ge 0$.",
+"back": "## Component Anatomy:\n- **Acre:** Traditional unit of land area utilized heavily in the imperial and US customary systems.\n- **Square Feet (ft²):** Base imperial 2D area unit.\n\n## Boundary Conditions / Domain:\n- Physical area $A \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ acre} = 43,560 \text{ ft}^2",
+"formula": "1 \\text{ acre} = 43,560 \\text{ ft}^2",
 "description": "The exact scalar conversion factor translating exactly 1 Acre of land into square feet.",
-"derivation": "Historically defined as the area of one chain by one furlong ($66 \times 660 \text{ feet}$). Evaluation yields $43,560$."
+"derivation": "Historically defined as the area of one chain by one furlong ($66 \\times 660 \\text{ feet}$). Evaluation yields $43,560$."
 }
 }
 },
@@ -711,11 +711,11 @@
 ],
 "order": 25,
 "heading": "Conversion: Hectare Equivalencies",
-"back": "## Component Anatomy:\n- **Hectare:** Accepted metric unit for large geographical land areas.\n- **Square Metre (m²):** Standard SI base unit.\n- **Acre:** Standard Imperial land unit.\n\n## Boundary Conditions / Domain:\n- Physical area $A \ge 0$.",
+"back": "## Component Anatomy:\n- **Hectare:** Accepted metric unit for large geographical land areas.\n- **Square Metre (m²):** Standard SI base unit.\n- **Acre:** Standard Imperial land unit.\n\n## Boundary Conditions / Domain:\n- Physical area $A \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ hectare} = 10,000 \text{ m}^2 = 2.471 \text{ acres}",
+"formula": "1 \\text{ hectare} = 10,000 \\text{ m}^2 = 2.471 \\text{ acres}",
 "description": "The two standard macro-area equivalencies required to scale 1 Hectare into square metres and imperial acres.",
-"derivation": "A hectare is strictly geometrically defined as the area of a perfect square boasting 100-metre sides. Scaling yields $100 \times 100 = 10,000 \text{ m}^2$. Dividing this by the metric equivalent of an acre yields $\approx 2.471$."
+"derivation": "A hectare is strictly geometrically defined as the area of a perfect square boasting 100-metre sides. Scaling yields $100 \\times 100 = 10,000 \\text{ m}^2$. Dividing this by the metric equivalent of an acre yields $\\approx 2.471$."
 }
 }
 },
@@ -739,9 +739,9 @@
 ],
 "order": 26,
 "heading": "Conversion: Liquid to Solid Equivalence (mL to cc)",
-"back": "## Component Anatomy:\n- **mL:** Millilitre (Standard metric unit of liquid volume).\n- **cc:** Cubic centimetre (Standard geometric measurement of solid 3D volume).\n\n## Boundary Conditions / Domain:\n- Physical volume $V \ge 0$.",
+"back": "## Component Anatomy:\n- **mL:** Millilitre (Standard metric unit of liquid volume).\n- **cc:** Cubic centimetre (Standard geometric measurement of solid 3D volume).\n\n## Boundary Conditions / Domain:\n- Physical volume $V \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ mL} = 1 \text{ cc}",
+"formula": "1 \\text{ mL} = 1 \\text{ cc}",
 "description": "Mathematical equivalence between a millilitre (mL) and a cubic centimetre (cc).",
 "derivation": "This is a fundamental definition in the metric system linking fluid capacity directly to 3D spatial volume. Exactly 1 cubic centimetre of space perfectly holds 1 millilitre of fluid."
 }
@@ -767,11 +767,11 @@
 ],
 "order": 27,
 "heading": "Conversion: The Litre Base",
-"back": "## Component Anatomy:\n- **Litre (L):** Base metric unit of liquid volume.\n- **mL:** Millilitre ($1/1000$th of a Litre).\n- **cc:** Cubic centimetre (equivalent to 1 mL).\n\n## Boundary Conditions / Domain:\n- Physical volume $V \ge 0$.",
+"back": "## Component Anatomy:\n- **Litre (L):** Base metric unit of liquid volume.\n- **mL:** Millilitre ($1/1000$th of a Litre).\n- **cc:** Cubic centimetre (equivalent to 1 mL).\n\n## Boundary Conditions / Domain:\n- Physical volume $V \\ge 0$.",
 "formulaMeta": {
-"formula": "1 \text{ litre} = 1,000 \text{ mL} = 1,000 \text{ cc}",
+"formula": "1 \\text{ litre} = 1,000 \\text{ mL} = 1,000 \\text{ cc}",
 "description": "The standard metric equivalence of 1 Litre expressed in terms of millilitres (mL) and cubic centimetres (cc).",
-"derivation": "The prefix 'milli' designates $10^{-3}$, meaning 1,000 millilitres equal 1 Litre. Since $1 \text{ mL} = 1 \text{ cc}$, 1 Litre also exactly equals 1,000 cubic centimetres."
+"derivation": "The prefix 'milli' designates $10^{-3}$, meaning 1,000 millilitres equal 1 Litre. Since $1 \\text{ mL} = 1 \\text{ cc}$, 1 Litre also exactly equals 1,000 cubic centimetres."
 }
 }
 },
@@ -797,11 +797,11 @@
 ],
 "order": 28,
 "heading": "SOP: Celsius to Fahrenheit Conversion",
-"back": "## Component Anatomy:\n- **$C$:** Temperature expressed in Celsius.\n- **$F$:** Temperature expressed in Fahrenheit.\n- **$\frac{9}{5}$:** Scale ratio multiplier (180°F gap / 100°C gap).\n- **$32$:** The fixed numerical offset representing the freezing point of water in Fahrenheit.\n\n## Boundary Conditions / Domain:\n- **Absolute Zero Constraint:** $C \ge -273.15$ and $F \ge -459.67$. Temperatures below absolute zero do not exist in standard thermodynamics.",
+"back": "## Component Anatomy:\n- **$C$:** Temperature expressed in Celsius.\n- **$F$:** Temperature expressed in Fahrenheit.\n- **$\\frac{9}{5}$:** Scale ratio multiplier (180°F gap / 100°C gap).\n- **$32$:** The fixed numerical offset representing the freezing point of water in Fahrenheit.\n\n## Boundary Conditions / Domain:\n- **Absolute Zero Constraint:** $C \\ge -273.15$ and $F \\ge -459.67$. Temperatures below absolute zero do not exist in standard thermodynamics.",
 "formulaMeta": {
-"formula": "F = \left( \frac{9}{5} \times C \right) + 32",
+"formula": "F = \\left( \\frac{9}{5} \\times C \\right) + 32",
 "description": "Explicit procedural formula to accurately convert a given temperature from Celsius to Fahrenheit.",
-"derivation": "1. Identify the freezing-to-boiling gap in Celsius: exactly 100 degrees ($0$ to $100$).\n2. Identify the same thermodynamic gap in Fahrenheit: exactly 180 degrees ($32$ to $212$).\n3. Determine the scalar ratio: $\frac{180}{100} = \frac{9}{5}$.\n4. Multiply the Celsius value $C$ by this scalar, then mechanically add the initial zero-point offset of 32 degrees."
+"derivation": "1. Identify the freezing-to-boiling gap in Celsius: exactly 100 degrees ($0$ to $100$).\n2. Identify the same thermodynamic gap in Fahrenheit: exactly 180 degrees ($32$ to $212$).\n3. Determine the scalar ratio: $\\frac{180}{100} = \\frac{9}{5}$.\n4. Multiply the Celsius value $C$ by this scalar, then mechanically add the initial zero-point offset of 32 degrees."
 }
 }
 },
@@ -827,11 +827,11 @@
 ],
 "order": 29,
 "heading": "SOP: Fahrenheit to Celsius Conversion",
-"back": "## Component Anatomy:\n- **$F$:** Temperature expressed in Fahrenheit.\n- **$C$:** Temperature expressed in Celsius.\n- **$\frac{5}{9}$:** The inverse scale multiplier.\n\n## Boundary Conditions / Domain:\n- **Absolute Zero Constraint:** $C \ge -273.15$ and $F \ge -459.67$. Temperatures below absolute zero are thermodynamically impossible.",
+"back": "## Component Anatomy:\n- **$F$:** Temperature expressed in Fahrenheit.\n- **$C$:** Temperature expressed in Celsius.\n- **$\\frac{5}{9}$:** The inverse scale multiplier.\n\n## Boundary Conditions / Domain:\n- **Absolute Zero Constraint:** $C \\ge -273.15$ and $F \\ge -459.67$. Temperatures below absolute zero are thermodynamically impossible.",
 "formulaMeta": {
-"formula": "C = \frac{5}{9} \times (F - 32)",
+"formula": "C = \\frac{5}{9} \\times (F - 32)",
 "description": "Explicit procedural formula to accurately convert a given temperature from Fahrenheit to Celsius.",
-"derivation": "1. Start with the established forward equation: $F = (\frac{9}{5} \times C) + 32$.\n2. Subtract 32 from both sides to begin isolating C: $F - 32 = \frac{9}{5} \times C$.\n3. Multiply both sides by the reciprocal fraction $\frac{5}{9}$ to fully isolate $C$.\n4. The resulting algebraic equation is $C = \frac{5}{9} \times (F - 32)$."
+"derivation": "1. Start with the established forward equation: $F = (\\frac{9}{5} \\times C) + 32$.\n2. Subtract 32 from both sides to begin isolating C: $F - 32 = \\frac{9}{5} \\times C$.\n3. Multiply both sides by the reciprocal fraction $\\frac{5}{9}$ to fully isolate $C$.\n4. The resulting algebraic equation is $C = \\frac{5}{9} \\times (F - 32)$."
 }
 }
 },
@@ -857,7 +857,7 @@
 ],
 "order": 30,
 "heading": "Binairo (Takuzu) Logic Grid Constraints",
-"back": "- **Constraint 1 (Parity):** Each individual row and each individual column must contain an **exactly equal number** of both symbols (e.g., in a 10x10 grid, exactly five 0s and five 1s per line).\n- **Constraint 2 (Adjacency Limit):** No more than **two** identical symbols can be adjacent anywhere in the grid (neither horizontally nor vertically. For example, 0-0-0 is mathematically invalid).\n- **Constraint 3 (Uniqueness):** Every row must be **strictly unique** compared to all other rows, and every column must be strictly unique compared to all other columns.\n\n## Boundary Conditions / Domain:\n- The grid size must be strictly an even number ($N \times N$ where $N \pmod{2} = 0$) to allow Constraint 1 (equal parity) to resolve completely without fractional symbols.",
+"back": "- **Constraint 1 (Parity):** Each individual row and each individual column must contain an **exactly equal number** of both symbols (e.g., in a 10x10 grid, exactly five 0s and five 1s per line).\n- **Constraint 2 (Adjacency Limit):** No more than **two** identical symbols can be adjacent anywhere in the grid (neither horizontally nor vertically. For example, 0-0-0 is mathematically invalid).\n- **Constraint 3 (Uniqueness):** Every row must be **strictly unique** compared to all other rows, and every column must be strictly unique compared to all other columns.\n\n## Boundary Conditions / Domain:\n- The grid size must be strictly an even number ($N \\times N$ where $N \\pmod{2} = 0$) to allow Constraint 1 (equal parity) to resolve completely without fractional symbols.",
 "mnemonic": "Equal pairs, never three, unique rows for you and me.",
 "standardMeta": {
 "question": "What are the three strict mathematical and logical constraints required to successfully solve a Binairo (Takuzu) binary logic grid?"

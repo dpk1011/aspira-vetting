@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Mathematical Definition of Fractals",
-"back": "- **Fractal:** A geometric shape or pattern that is strictly **self-similar** across different scales.\n- **Self-Similarity:** This means that if you zoom into any sub-part of the fractal, the magnified portion mathematically resembles or is an exact identical copy of the entire whole shape.\n- **Nature Examples:** Fern leaves, coastlines, clouds, and snowflakes display approximate fractal properties.\n\n## Boundary Conditions / Domain:\n- True mathematical fractals exhibit self-similarity infinitely as the scale factor approaches zero ($n \to \infty$). Natural fractals only exhibit this down to a certain physical threshold.",
+"back": "- **Fractal:** A geometric shape or pattern that is strictly **self-similar** across different scales.\n- **Self-Similarity:** This means that if you zoom into any sub-part of the fractal, the magnified portion mathematically resembles or is an exact identical copy of the entire whole shape.\n- **Nature Examples:** Fern leaves, coastlines, clouds, and snowflakes display approximate fractal properties.\n\n## Boundary Conditions / Domain:\n- True mathematical fractals exhibit self-similarity infinitely as the scale factor approaches zero ($n \\to \\infty$). Natural fractals only exhibit this down to a certain physical threshold.",
 "mnemonic": "Fractals: Fractions of the whole that look like the whole.",
 "standardMeta": {
 "question": "What is the defining geometric property of a fractal, and what does it mean mathematically?"
@@ -80,12 +80,12 @@
 ],
 "order": 3,
 "heading": "Algorithm: Construction of the Sierpinski Carpet",
-"back": "## Component Anatomy:\n- **Step 0:** The initial solid shape must strictly be a perfect square.\n- **Sub-squares:** The 9 equal squares formed by dividing the shape using a $3 \times 3$ Cartesian grid.\n\n## Boundary Conditions / Domain:\n- The initial shape must be a perfect square to ensure isotropic scaling.\n- The operation is infinitely recursive ($n \to \infty$).",
+"back": "## Component Anatomy:\n- **Step 0:** The initial solid shape must strictly be a perfect square.\n- **Sub-squares:** The 9 equal squares formed by dividing the shape using a $3 \\times 3$ Cartesian grid.\n\n## Boundary Conditions / Domain:\n- The initial shape must be a perfect square to ensure isotropic scaling.\n- The operation is infinitely recursive ($n \\to \\infty$).",
 "mnemonic": "Divide by 9, Drop the center 1.",
 "formulaMeta": {
-"formula": "R_{\text{new}} = 9 - 1 = 8 \text{ squares per block}",
+"formula": "R_{\\text{new}} = 9 - 1 = 8 \\text{ squares per block}",
 "description": "State the step-by-step geometric algorithm to generate the Sierpinski Carpet fractal.",
-"derivation": "**Algorithmic SOP:**\n1. Start with a solid square (Step 0).\n2. Divide the square into a $3 \times 3$ grid to form 9 identical smaller squares.\n3. Strictly remove the **central square**.\n4. Repeat steps 2 and 3 recursively for every remaining solid square."
+"derivation": "**Algorithmic SOP:**\n1. Start with a solid square (Step 0).\n2. Divide the square into a $3 \\times 3$ grid to form 9 identical smaller squares.\n3. Strictly remove the **central square**.\n4. Repeat steps 2 and 3 recursively for every remaining solid square."
 }
 }
 },
@@ -111,7 +111,7 @@
 ],
 "order": 4,
 "heading": "Sierpinski Carpet: Remaining Squares Formula",
-"back": "## Component Anatomy:\n- **$R_n$:** The absolute number of solid squares remaining at step $n$.\n- **$n$:** The step number (iteration sequence).\n- **$8$:** The common geometric ratio of growth per step.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{W}$ (Whole numbers $0, 1, 2, \dots$).\n- At step 0, $R_0 = 8^0 = 1$ strictly.",
+"back": "## Component Anatomy:\n- **$R_n$:** The absolute number of solid squares remaining at step $n$.\n- **$n$:** The step number (iteration sequence).\n- **$8$:** The common geometric ratio of growth per step.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{W}$ (Whole numbers $0, 1, 2, \\dots$).\n- At step 0, $R_0 = 8^0 = 1$ strictly.",
 "formulaMeta": {
 "formula": "R_n = 8^n",
 "description": "State the exponential formula to calculate the exact number of solid squares remaining in a Sierpinski Carpet at step n.",
@@ -141,9 +141,9 @@
 ],
 "order": 5,
 "heading": "Sierpinski Carpet: Cumulative Total Holes Formula",
-"back": "## Component Anatomy:\n- **$H_n$:** The total cumulative number of holes physically removed up to step $n$.\n- **$8^{k-1}$:** The number of new holes strictly generated at any given step $k$.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$ ($n \ge 1$).\n- Every solid square mathematically present at step $n-1$ generates exactly one new hole at step $n$.",
+"back": "## Component Anatomy:\n- **$H_n$:** The total cumulative number of holes physically removed up to step $n$.\n- **$8^{k-1}$:** The number of new holes strictly generated at any given step $k$.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}^+$ ($n \\ge 1$).\n- Every solid square mathematically present at step $n-1$ generates exactly one new hole at step $n$.",
 "formulaMeta": {
-"formula": "H_n = \sum_{k=1}^{n} 8^{k-1} = 1 + 8 + 8^2 + \dots + 8^{n-1}",
+"formula": "H_n = \\sum_{k=1}^{n} 8^{k-1} = 1 + 8 + 8^2 + \\dots + 8^{n-1}",
 "description": "State the formula representing the cumulative sum of holes generated in a Sierpinski Carpet up to step n.",
 "derivation": "**Derivation / Logic:**\n1. At Step 1, the 1 original square creates 1 central hole ($8^0$).\n2. At Step 2, the 8 remaining solid squares each create 1 new central hole, adding exactly 8 holes ($8^1$).\n3. At Step $n$, the $8^{n-1}$ squares from the previous step each create 1 hole.\n4. The total holes are the cumulative sum of a geometric series of all holes generated in previous steps."
 }
@@ -171,7 +171,7 @@
 ],
 "order": 6,
 "heading": "Recursive Formula for Sierpinski Carpet Holes",
-"back": "## Component Anatomy:\n- **$H_{n+1}$:** The total number of holes at the next forward step.\n- **$H_n$:** The total cumulative number of holes at the current step.\n- **$R_n$:** The number of solid squares remaining at the current step.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{W}$ ($n \ge 0$).\n- At Step 0 (the solid initial square), $H_0 = 0$ strictly and $R_0 = 1$ strictly.",
+"back": "## Component Anatomy:\n- **$H_{n+1}$:** The total number of holes at the next forward step.\n- **$H_n$:** The total cumulative number of holes at the current step.\n- **$R_n$:** The number of solid squares remaining at the current step.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{W}$ ($n \\ge 0$).\n- At Step 0 (the solid initial square), $H_0 = 0$ strictly and $R_0 = 1$ strictly.",
 "mnemonic": "Every solid block spawns exactly one new hole.",
 "formulaMeta": {
 "formula": "H_{n+1} = H_n + R_n",
@@ -202,11 +202,11 @@
 ],
 "order": 7,
 "heading": "Sierpinski Carpet: Remaining Area Formula",
-"back": "## Component Anatomy:\n- **$A_n$:** The remaining solid mathematical area at step $n$.\n- **$A_0$:** The initial area (assumed to be exactly 1 sq. unit).\n- **$\frac{8}{9}$:** The scaling decay factor per step.\n\n## Boundary Conditions / Domain:\n- $n \ge 0$.\n- **Infinite Limit:** As $n \to \infty$, the fraction $\left(\frac{8}{9}\right)^n \to 0$. The Carpet mathematically possesses strictly **zero area**, despite having an infinite number of holes and boundary lines.",
+"back": "## Component Anatomy:\n- **$A_n$:** The remaining solid mathematical area at step $n$.\n- **$A_0$:** The initial area (assumed to be exactly 1 sq. unit).\n- **$\\frac{8}{9}$:** The scaling decay factor per step.\n\n## Boundary Conditions / Domain:\n- $n \\ge 0$.\n- **Infinite Limit:** As $n \\to \\infty$, the fraction $\\left(\\frac{8}{9}\\right)^n \\to 0$. The Carpet mathematically possesses strictly **zero area**, despite having an infinite number of holes and boundary lines.",
 "formulaMeta": {
-"formula": "A_n = A_0 \times \left(\frac{8}{9}\right)^n",
+"formula": "A_n = A_0 \\times \\left(\\frac{8}{9}\\right)^n",
 "description": "State the formula to calculate the remaining solid area of a Sierpinski Carpet at step n, assuming an initial area.",
-"derivation": "**Derivation:**\n1. At each geometric step, every existing square is divided into 9 equal area sub-squares.\n2. Exactly one of these 9 is removed. Therefore, exactly $\frac{8}{9}$ of the area remains.\n3. Because this scaling is repeated recursively $n$ times, the original area is scaled by a factor of $\frac{8}{9}$ repeatedly, yielding the exponential decay formula."
+"derivation": "**Derivation:**\n1. At each geometric step, every existing square is divided into 9 equal area sub-squares.\n2. Exactly one of these 9 is removed. Therefore, exactly $\\frac{8}{9}$ of the area remains.\n3. Because this scaling is repeated recursively $n$ times, the original area is scaled by a factor of $\\frac{8}{9}$ repeatedly, yielding the exponential decay formula."
 }
 }
 },
@@ -235,7 +235,7 @@
 "back": "## Component Anatomy:\n- **Step 0:** Initial solid equilateral triangle.\n- **Midpoints:** Connecting midpoints forms 4 identical smaller equilateral triangles within the larger bound.\n\n## Boundary Conditions / Domain:\n- Must strictly begin with an **equilateral triangle** to ensure perfect, uniform geometric self-similarity along all three axes.",
 "mnemonic": "Connect the mids, drop the middle.",
 "formulaMeta": {
-"formula": "R_{\text{new}} = 4 - 1 = 3 \text{ triangles per block}",
+"formula": "R_{\\text{new}} = 4 - 1 = 3 \\text{ triangles per block}",
 "description": "State the step-by-step geometric algorithm to generate the Sierpinski Gasket fractal.",
 "derivation": "**Algorithmic SOP:**\n1. Begin with a solid equilateral triangle.\n2. Mark the exact mathematical midpoints of all three outer sides.\n3. Connect these midpoints using straight line segments to divide the triangle into exactly 4 smaller equilateral triangles.\n4. Strictly remove the **central inverted triangle**.\n5. Repeat this operation recursively for the 3 remaining solid corner triangles."
 }
@@ -261,7 +261,7 @@
 ],
 "order": 9,
 "heading": "Sierpinski Gasket: Remaining Triangles Formula",
-"back": "## Component Anatomy:\n- **$R_n$:** The absolute number of solid triangles mathematically remaining at step $n$.\n- **$n$:** The forward step number.\n- **$3$:** The common geometric growth ratio.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{W}$ (Whole numbers $0, 1, 2, \dots$).\n- At step 0, $R_0 = 3^0 = 1$.",
+"back": "## Component Anatomy:\n- **$R_n$:** The absolute number of solid triangles mathematically remaining at step $n$.\n- **$n$:** The forward step number.\n- **$3$:** The common geometric growth ratio.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{W}$ (Whole numbers $0, 1, 2, \\dots$).\n- At step 0, $R_0 = 3^0 = 1$.",
 "formulaMeta": {
 "formula": "R_n = 3^n",
 "description": "State the exponential formula to calculate the exact number of solid triangles remaining in a Sierpinski Gasket at step n.",
@@ -290,11 +290,11 @@
 ],
 "order": 10,
 "heading": "Sierpinski Gasket: Remaining Area Formula",
-"back": "## Component Anatomy:\n- **$A_n$:** The remaining solid area strictly at step $n$.\n- **$A_0$:** The initial base area (assumed to be 1 sq. unit).\n- **$\frac{3}{4}$:** The geometric decay factor.\n\n## Boundary Conditions / Domain:\n- $n \ge 0$.\n- **Infinite Limit:** As $n \to \infty$, the mathematical limit of $\left(\frac{3}{4}\right)^n$ converges to exactly **zero**. The final fractal has no solid area.",
+"back": "## Component Anatomy:\n- **$A_n$:** The remaining solid area strictly at step $n$.\n- **$A_0$:** The initial base area (assumed to be 1 sq. unit).\n- **$\\frac{3}{4}$:** The geometric decay factor.\n\n## Boundary Conditions / Domain:\n- $n \\ge 0$.\n- **Infinite Limit:** As $n \\to \\infty$, the mathematical limit of $\\left(\\frac{3}{4}\\right)^n$ converges to exactly **zero**. The final fractal has no solid area.",
 "formulaMeta": {
-"formula": "A_n = A_0 \times \left(\frac{3}{4}\right)^n",
+"formula": "A_n = A_0 \\times \\left(\\frac{3}{4}\\right)^n",
 "description": "State the formula to calculate the remaining solid area of a Sierpinski Gasket at step n, assuming an initial area.",
-"derivation": "**Derivation:**\n1. At each step, a solid triangle is geometrically divided into 4 identical smaller triangles of equal area.\n2. Since the central 1 is removed, exactly $\frac{3}{4}$ of the original mass/area remains.\n3. Repeating this reduction process $n$ times yields a final area multiplier of strictly $\left(\frac{3}{4}\right)^n$."
+"derivation": "**Derivation:**\n1. At each step, a solid triangle is geometrically divided into 4 identical smaller triangles of equal area.\n2. Since the central 1 is removed, exactly $\\frac{3}{4}$ of the original mass/area remains.\n3. Repeating this reduction process $n$ times yields a final area multiplier of strictly $\\left(\\frac{3}{4}\\right)^n$."
 }
 }
 },
@@ -322,7 +322,7 @@
 "back": "## Component Anatomy:\n- **Base Shape:** Typically an equilateral triangle.\n- **The 'Bump':** An outward-pointing equilateral triangle formed on the exact middle third of a segment.\n\n## Boundary Conditions / Domain:\n- The operation is applied strictly and solely to the outer **perimeter/edges** of the shape, never to the internal 2D area.",
 "mnemonic": "Thirds and Bumps.",
 "formulaMeta": {
-"formula": "\text{1 line segment} \to \text{4 line segments}",
+"formula": "\\text{1 line segment} \\to \\text{4 line segments}",
 "description": "State the step-by-step geometric algorithm to generate the Koch Snowflake fractal.",
 "derivation": "**Algorithmic SOP:**\n1. Begin with a solid equilateral triangle.\n2. Divide each straight line segment strictly into 3 equal parts.\n3. Replace the middle third segment with two segments of the exact same length, forming an outward-pointing equilateral 'bump'.\n4. Geometrically remove the base of the bump (the original middle third segment).\n5. Repeat this operation recursively on every new straight line segment."
 }
@@ -349,11 +349,11 @@
 ],
 "order": 12,
 "heading": "Koch Snowflake: Number of Sides Formula",
-"back": "## Component Anatomy:\n- **$S_n$:** Total absolute number of distinct straight line segments forming the perimeter at step $n$.\n- **$3$:** The initial number of sides at step 0 (an equilateral triangle).\n- **$4$:** The growth factor multiplier per segment.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{W}$ ($n \ge 0$).",
+"back": "## Component Anatomy:\n- **$S_n$:** Total absolute number of distinct straight line segments forming the perimeter at step $n$.\n- **$3$:** The initial number of sides at step 0 (an equilateral triangle).\n- **$4$:** The growth factor multiplier per segment.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{W}$ ($n \\ge 0$).",
 "formulaMeta": {
-"formula": "S_n = 3 \times 4^n",
+"formula": "S_n = 3 \\times 4^n",
 "description": "State the formula to calculate the total number of individual sides forming the perimeter of a Koch Snowflake at step n.",
-"derivation": "**Derivation:**\n1. At Step 0, there are exactly 3 solid sides.\n2. In every subsequent step, each single straight line segment is physically replaced by exactly 4 new line segments (to form the new bump).\n3. Therefore, the total absolute number of sides multiplies by a strict factor of 4 at every step. Total sides = $3 \times 4^n$."
+"derivation": "**Derivation:**\n1. At Step 0, there are exactly 3 solid sides.\n2. In every subsequent step, each single straight line segment is physically replaced by exactly 4 new line segments (to form the new bump).\n3. Therefore, the total absolute number of sides multiplies by a strict factor of 4 at every step. Total sides = $3 \\times 4^n$."
 }
 }
 },
@@ -379,11 +379,11 @@
 ],
 "order": 13,
 "heading": "Koch Snowflake: Absolute Perimeter Formula",
-"back": "## Component Anatomy:\n- **$P_n$:** Total continuous perimeter length at step $n$.\n- **$P_0$:** Initial perimeter length (e.g., 3 units if side $L = 1$).\n- **$\frac{4}{3}$:** The perimeter growth multiplier.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{W}$.\n- As $n \to \infty$, because the multiplier $\frac{4}{3} > 1$, the perimeter strictly diverges to **infinity** ($P \to \infty$).",
+"back": "## Component Anatomy:\n- **$P_n$:** Total continuous perimeter length at step $n$.\n- **$P_0$:** Initial perimeter length (e.g., 3 units if side $L = 1$).\n- **$\\frac{4}{3}$:** The perimeter growth multiplier.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{W}$.\n- As $n \\to \\infty$, because the multiplier $\\frac{4}{3} > 1$, the perimeter strictly diverges to **infinity** ($P \\to \\infty$).",
 "formulaMeta": {
-"formula": "P_n = P_0 \times \left(\frac{4}{3}\right)^n",
+"formula": "P_n = P_0 \\times \\left(\\frac{4}{3}\\right)^n",
 "description": "State the exponential formula for the total perimeter of the Koch Snowflake at step n, assuming an initial perimeter P_0.",
-"derivation": "**Derivation:**\n1. At step 0, perimeter $P_0 = 3 \times L$.\n2. At each recursive step, a segment of length $L$ is removed and replaced by 4 smaller segments, each of length strictly $\frac{L}{3}$.\n3. The new total length replacing the old single segment is $4 \times \frac{L}{3} = \frac{4}{3}L$.\n4. Therefore, the total absolute perimeter length increases by a strict factor of $\frac{4}{3}$ every single step."
+"derivation": "**Derivation:**\n1. At step 0, perimeter $P_0 = 3 \\times L$.\n2. At each recursive step, a segment of length $L$ is removed and replaced by 4 smaller segments, each of length strictly $\\frac{L}{3}$.\n3. The new total length replacing the old single segment is $4 \\times \\frac{L}{3} = \\frac{4}{3}L$.\n4. Therefore, the total absolute perimeter length increases by a strict factor of $\\frac{4}{3}$ every single step."
 }
 }
 },
@@ -410,7 +410,7 @@
 ],
 "order": 14,
 "heading": "The Koch Snowflake Paradox (Perimeter vs. Area)",
-"back": "- **The Mathematical Paradox:** As the number of iterations approaches infinity ($n \to \infty$), the perimeter of the Koch Snowflake grows exponentially without bound ($P \to \infty$).\n- **Area Constraint:** However, the entire shape is strictly bounded geometrically; its maximum vertices can be completely enclosed within a finite circle drawn around the original triangle.\n- **Conclusion:** Therefore, its **area is strictly finite**. It represents a geometric figure with an infinitely long boundary line that tightly encloses a finite, specific 2D area.",
+"back": "- **The Mathematical Paradox:** As the number of iterations approaches infinity ($n \\to \\infty$), the perimeter of the Koch Snowflake grows exponentially without bound ($P \\to \\infty$).\n- **Area Constraint:** However, the entire shape is strictly bounded geometrically; its maximum vertices can be completely enclosed within a finite circle drawn around the original triangle.\n- **Conclusion:** Therefore, its **area is strictly finite**. It represents a geometric figure with an infinitely long boundary line that tightly encloses a finite, specific 2D area.",
 "mnemonic": "Infinite fence holding a finite yard.",
 "standardMeta": {
 "question": "What is the counter-intuitive geometric paradox regarding the Perimeter and the Area of a fully formed Koch Snowflake?"
@@ -522,11 +522,11 @@
 ],
 "order": 18,
 "heading": "Geometric Construction: Net of a Cylinder",
-"back": "## Component Anatomy:\n- **Rectangle:** Forms the curved lateral surface area upon folding.\n- **Two Circles:** Form the top and bottom solid flat bases.\n- **$r$:** Radius of the circular base.\n- **$h$:** Height of the solid cylinder.\n\n## Boundary Conditions / Domain:\n- The length of the flat rectangle **must strictly equal** the mathematical circumference of the circular base ($2\pi r$). If shorter, a gap occurs; if longer, an overlap occurs.",
+"back": "## Component Anatomy:\n- **Rectangle:** Forms the curved lateral surface area upon folding.\n- **Two Circles:** Form the top and bottom solid flat bases.\n- **$r$:** Radius of the circular base.\n- **$h$:** Height of the solid cylinder.\n\n## Boundary Conditions / Domain:\n- The length of the flat rectangle **must strictly equal** the mathematical circumference of the circular base ($2\\pi r$). If shorter, a gap occurs; if longer, an overlap occurs.",
 "formulaMeta": {
-"formula": "\text{Rectangle Dimensions: Length } = 2\pi r, \text{ Breadth } = h",
+"formula": "\\text{Rectangle Dimensions: Length } = 2\\pi r, \\text{ Breadth } = h",
 "description": "Describe the 2D shapes required to draw the net of a cylinder, and state the strict dimension connection between them.",
-"derivation": "**Algorithmic SOP:**\n1. Draw a central rectangle with a height equal to $h$ and a mathematically calculated horizontal length of exactly $2\pi r$.\n2. On the top edge of the rectangle, physically attach a circle of radius $r$.\n3. On the bottom edge of the rectangle, directly opposite, attach another identical circle of radius $r$."
+"derivation": "**Algorithmic SOP:**\n1. Draw a central rectangle with a height equal to $h$ and a mathematically calculated horizontal length of exactly $2\\pi r$.\n2. On the top edge of the rectangle, physically attach a circle of radius $r$.\n3. On the bottom edge of the rectangle, directly opposite, attach another identical circle of radius $r$."
 }
 }
 },
@@ -551,11 +551,11 @@
 ],
 "order": 19,
 "heading": "Geometric Construction: Net of a Cone",
-"back": "## Component Anatomy:\n- **Circular Sector:** Forms the curved slanting lateral surface of the cone.\n- **Circle:** Forms the flat solid circular base.\n- **$R$ / $l$:** The slant height of the cone (which geometrically acts as the radius of the large 2D sector).\n- **$r$:** The radius of the solid cone's flat base.\n\n## Boundary Conditions / Domain:\n- The continuous arc length of the large sector **must strictly equal** the mathematical circumference of the small base circle ($2\pi r$).",
+"back": "## Component Anatomy:\n- **Circular Sector:** Forms the curved slanting lateral surface of the cone.\n- **Circle:** Forms the flat solid circular base.\n- **$R$ / $l$:** The slant height of the cone (which geometrically acts as the radius of the large 2D sector).\n- **$r$:** The radius of the solid cone's flat base.\n\n## Boundary Conditions / Domain:\n- The continuous arc length of the large sector **must strictly equal** the mathematical circumference of the small base circle ($2\\pi r$).",
 "formulaMeta": {
-"formula": "\text{Arc Length of Sector } = 2\pi r",
+"formula": "\\text{Arc Length of Sector } = 2\\pi r",
 "description": "Describe the 2D shapes required to draw the net of a cone, and state the strict dimension connection between them.",
-"derivation": "**Algorithmic SOP:**\n1. Draw a wedge sector of a large circle where the radius is $R$ (the slant height of the target cone).\n2. Calculate the target base circumference strictly as $2\pi r$.\n3. Cut the large sector so its curved outer arc length mathematically equals exactly $2\pi r$.\n4. Attach a small complete circle of radius $r$ tangentially to the curved edge."
+"derivation": "**Algorithmic SOP:**\n1. Draw a wedge sector of a large circle where the radius is $R$ (the slant height of the target cone).\n2. Calculate the target base circumference strictly as $2\\pi r$.\n3. Cut the large sector so its curved outer arc length mathematically equals exactly $2\\pi r$.\n4. Attach a small complete circle of radius $r$ tangentially to the curved edge."
 }
 }
 },
@@ -581,10 +581,10 @@
 ],
 "order": 20,
 "heading": "Euler Parameters for an n-sided Prism",
-"back": "## Component Anatomy:\n- **$n$:** The integer number of sides of the 2D polygon forming the uniform base.\n- **$F, E, V$:** Mathematical Faces, Edges, and Vertices respectively.\n\n## Boundary Conditions / Domain:\n- $n \ge 3$ strictly (The base must be a valid closed 2D polygon; $n=2$ forms a degenerate plane).\n- The parameters must universally obey Euler's Formula for planar graphs: $F + V - E = 2$.",
+"back": "## Component Anatomy:\n- **$n$:** The integer number of sides of the 2D polygon forming the uniform base.\n- **$F, E, V$:** Mathematical Faces, Edges, and Vertices respectively.\n\n## Boundary Conditions / Domain:\n- $n \\ge 3$ strictly (The base must be a valid closed 2D polygon; $n=2$ forms a degenerate plane).\n- The parameters must universally obey Euler's Formula for planar graphs: $F + V - E = 2$.",
 "mnemonic": "Prisms multiply edges by 3.",
 "formulaMeta": {
-"formula": "\begin{aligned} F &= n + 2 \\ V &= 2n \\ E &= 3n \end{aligned}",
+"formula": "\\begin{aligned} F &= n + 2 \\ V &= 2n \\ E &= 3n \\end{aligned}",
 "description": "If the base of a prism is an n-sided polygon, state the algebraic formulas to calculate the total number of Faces (F), Edges (E), and Vertices (V).",
 "derivation": "**Proof Logic:**\n1. **Faces:** It has exactly 2 identical bases (top and bottom) + $n$ rectangular lateral faces connecting the corresponding perimeter sides. Total = $n + 2$.\n2. **Vertices:** The top base has $n$ corners, and the bottom base has $n$ corners. Total = $2n$.\n3. **Edges:** $n$ perimeter edges on top, $n$ perimeter edges on bottom, and $n$ vertical straight edges connecting them. Total = $3n$."
 }
@@ -612,10 +612,10 @@
 ],
 "order": 21,
 "heading": "Euler Parameters for an n-sided Pyramid",
-"back": "## Component Anatomy:\n- **$n$:** The integer number of sides of the 2D polygon forming the singular base.\n- **$F, E, V$:** Mathematical Faces, Edges, and Vertices respectively.\n\n## Boundary Conditions / Domain:\n- $n \ge 3$ strictly.\n- The parameters must universally obey Euler's Formula: $F + V - E = 2$.",
+"back": "## Component Anatomy:\n- **$n$:** The integer number of sides of the 2D polygon forming the singular base.\n- **$F, E, V$:** Mathematical Faces, Edges, and Vertices respectively.\n\n## Boundary Conditions / Domain:\n- $n \\ge 3$ strictly.\n- The parameters must universally obey Euler's Formula: $F + V - E = 2$.",
 "mnemonic": "Pyramids multiply edges by 2.",
 "formulaMeta": {
-"formula": "\begin{aligned} F &= n + 1 \\ V &= n + 1 \\ E &= 2n \end{aligned}",
+"formula": "\\begin{aligned} F &= n + 1 \\ V &= n + 1 \\ E &= 2n \\end{aligned}",
 "description": "If the base of a pyramid is an n-sided polygon, state the algebraic formulas to calculate the total number of Faces (F), Edges (E), and Vertices (V).",
 "derivation": "**Proof Logic:**\n1. **Faces:** It has exactly 1 base plane + $n$ triangular lateral faces meeting at the single top apex. Total = $n + 1$.\n2. **Vertices:** The base perimeter has $n$ corners + 1 apex vertex at the very top. Total = $n + 1$.\n3. **Edges:** The flat base has $n$ perimeter edges, and there are $n$ slanting edges rising to connect to the apex. Total = $2n$."
 }
@@ -643,10 +643,10 @@
 ],
 "order": 22,
 "heading": "Algorithm: Shortest Surface Path on a Cuboid",
-"back": "## Component Anatomy:\n- **Cuboid:** The solid 3D object bounding the movement.\n- **Net:** The mathematically flattened 2D representation of the faces.\n- **$\Delta x, \Delta y$:** The Cartesian distance components mapped strictly onto the flattened 2D net.\n\n## Boundary Conditions / Domain:\n- Movement is strictly restricted to **only the 2D surface** faces (no moving through the 3D interior volume).",
+"back": "## Component Anatomy:\n- **Cuboid:** The solid 3D object bounding the movement.\n- **Net:** The mathematically flattened 2D representation of the faces.\n- **$\\Delta x, \\Delta y$:** The Cartesian distance components mapped strictly onto the flattened 2D net.\n\n## Boundary Conditions / Domain:\n- Movement is strictly restricted to **only the 2D surface** faces (no moving through the 3D interior volume).",
 "mnemonic": "Flatten it to flatten the distance.",
 "formulaMeta": {
-"formula": "d = \sqrt{\Delta x^2 + \Delta y^2} \quad \text{(Calculated strictly on the 2D Net)}",
+"formula": "d = \\sqrt{\\Delta x^2 + \\Delta y^2} \\quad \\text{(Calculated strictly on the 2D Net)}",
 "description": "State the standard operating procedure (SOP) to geometrically calculate the absolute shortest path between two points on the outer surface of a cuboid.",
 "derivation": "**Algorithmic SOP:**\n1. Mentally (or physically) unfold the 3D cuboid into a contiguous flat 2D net.\n2. Mark the precise coordinate starting point and ending point directly on this flat 2D net.\n3. Draw a perfectly straight, direct line segment connecting the two points on the 2D plane.\n4. Use the Baudhāyana-Pythagoras theorem on the resulting right triangle formed by the grid boundaries to calculate the exact distance.\n*(Note: You must test multiple nets to find the global minimum. See next card).*"
 }
@@ -755,7 +755,7 @@
 ],
 "order": 26,
 "heading": "Orthographic Projection vs. Point-Source Shadows",
-"back": "- **Orthographic Projection:** Mathematically requires all projection lines to be strictly parallel and perpendicular to the projection plane. This perfectly preserves the parallel nature of lines and relative proportions.\n- **Shadows (Point-Source):** A flashlight creates a point-source of light where the geometric rays strictly **diverge**. This divergence causes the resulting shadow to be scaled up, stretched, or non-uniformly distorted compared to the actual object's orthographic projection.\n\n## Boundary Conditions / Domain:\n- A true orthographic projection mathematically requires the theoretical projection point (light source) to be strictly at an infinite distance ($d = \infty$) so that the rays remain perfectly parallel.",
+"back": "- **Orthographic Projection:** Mathematically requires all projection lines to be strictly parallel and perpendicular to the projection plane. This perfectly preserves the parallel nature of lines and relative proportions.\n- **Shadows (Point-Source):** A flashlight creates a point-source of light where the geometric rays strictly **diverge**. This divergence causes the resulting shadow to be scaled up, stretched, or non-uniformly distorted compared to the actual object's orthographic projection.\n\n## Boundary Conditions / Domain:\n- A true orthographic projection mathematically requires the theoretical projection point (light source) to be strictly at an infinite distance ($d = \\infty$) so that the rays remain perfectly parallel.",
 "standardMeta": {
 "question": "Why is the shadow cast by a flashlight geometrically NOT a true orthographic projection, even if pointed at a flat wall?"
 }
@@ -840,7 +840,7 @@
 ],
 "order": 29,
 "heading": "Isometric Projections and Grids",
-"back": "- **Concept:** Isometric drawing is a technique used in engineering to represent 3D objects on a 2D surface such that mathematical lengths along all three primary axes (depth, length, height) are preserved equally without perspective distortion.\n- **Isometric Cube Signature:** If you perfectly balance a cube on one corner vertex and view it straight on along the diagonal axis, the outer 2D boundary of its isometric projection is a **perfect regular hexagon**.\n- **The Grid:** Because of this geometric property, Isometric paper is physically constructed by tiling the 2D plane with regular hexagons (or an equivalent lattice of equilateral triangles).\n\n## Boundary Conditions / Domain:\n- **Angle Distortion Constraint:** While lengths are preserved, angles are mathematically distorted. A true $90^\circ$ orthogonal corner on a 3D cube strictly projects as either $60^\circ$ or $120^\circ$ on the flat 2D isometric grid.",
+"back": "- **Concept:** Isometric drawing is a technique used in engineering to represent 3D objects on a 2D surface such that mathematical lengths along all three primary axes (depth, length, height) are preserved equally without perspective distortion.\n- **Isometric Cube Signature:** If you perfectly balance a cube on one corner vertex and view it straight on along the diagonal axis, the outer 2D boundary of its isometric projection is a **perfect regular hexagon**.\n- **The Grid:** Because of this geometric property, Isometric paper is physically constructed by tiling the 2D plane with regular hexagons (or an equivalent lattice of equilateral triangles).\n\n## Boundary Conditions / Domain:\n- **Angle Distortion Constraint:** While lengths are preserved, angles are mathematically distorted. A true $90^\\circ$ orthogonal corner on a 3D cube strictly projects as either $60^\\circ$ or $120^\\circ$ on the flat 2D isometric grid.",
 "standardMeta": {
 "question": "What geometric shape does a perfect 3D cube form in an isometric projection, and how does this dictate the geometric structure of isometric grid paper?"
 }
@@ -868,7 +868,7 @@
 ],
 "order": 30,
 "heading": "Isometric Orientations of 3D Polyominoes",
-"back": "- **Tetracubes:** The 5 classic Tetris shapes (polyominoes) theoretically represent all possible 3D configurations formed by gluing exactly 4 identical cubes edge-to-edge.\n- **Isometric Properties:** Because the isometric grid preserves mathematical scale strictly along exactly 3 principal Cartesian axes, any of these geometric shapes can be correctly drawn in exactly **3 distinct orientations**: aligned along the vertical height axis, the horizontal length axis, or the depth axis.\n\n## Boundary Conditions / Domain:\n- This strictly assumes the individual cubes intersect face-to-face perfectly (no fractional geometric offsets).\n- Visual rotations are strictly bounded to precise $90^\circ$ increments along the three principal 3D axes.",
+"back": "- **Tetracubes:** The 5 classic Tetris shapes (polyominoes) theoretically represent all possible 3D configurations formed by gluing exactly 4 identical cubes edge-to-edge.\n- **Isometric Properties:** Because the isometric grid preserves mathematical scale strictly along exactly 3 principal Cartesian axes, any of these geometric shapes can be correctly drawn in exactly **3 distinct orientations**: aligned along the vertical height axis, the horizontal length axis, or the depth axis.\n\n## Boundary Conditions / Domain:\n- This strictly assumes the individual cubes intersect face-to-face perfectly (no fractional geometric offsets).\n- Visual rotations are strictly bounded to precise $90^\\circ$ increments along the three principal 3D axes.",
 "standardMeta": {
 "question": "When translating the 5 standard Tetris shapes (polyominoes) into 3D isometric drawings, along how many principal mathematical axes can they be correctly oriented?"
 }
@@ -897,7 +897,7 @@
 ],
 "order": 31,
 "heading": "The Geometric Illusion of Impossible Figures",
-"back": "- **Concept:** Isometric grids can be manipulated to draw mathematically 'impossible figures' (e.g., the Penrose Triangle or continuous impossible staircases).\n- **The Mathematical Trick:** These work strictly as visual optical illusions because every individual, localized geometric segment of the drawing obeys the strict rules of isometric 3D projection, making the local sections look structurally valid.\n- **The Reality:** However, the overall global mathematical structure contains self-contradictory 3D plane overlaps. They are 2D geometric tricks that are **physically impossible to construct as a contiguous solid 3D object**.\n\n## Boundary Conditions / Domain:\n- The optical illusion strictly depends on a single, fixed 2D orthographic viewing point. Rotating the spatial perspective in 3D space by even $1^\circ$ mathematically breaks the projection and reveals the disjointed geometry.",
+"back": "- **Concept:** Isometric grids can be manipulated to draw mathematically 'impossible figures' (e.g., the Penrose Triangle or continuous impossible staircases).\n- **The Mathematical Trick:** These work strictly as visual optical illusions because every individual, localized geometric segment of the drawing obeys the strict rules of isometric 3D projection, making the local sections look structurally valid.\n- **The Reality:** However, the overall global mathematical structure contains self-contradictory 3D plane overlaps. They are 2D geometric tricks that are **physically impossible to construct as a contiguous solid 3D object**.\n\n## Boundary Conditions / Domain:\n- The optical illusion strictly depends on a single, fixed 2D orthographic viewing point. Rotating the spatial perspective in 3D space by even $1^\\circ$ mathematically breaks the projection and reveals the disjointed geometry.",
 "standardMeta": {
 "question": "How do 'Impossible Figures' drawn on isometric grids geometrically trick the eye, and why can't they physically and mathematically exist in 3D reality?"
 }
