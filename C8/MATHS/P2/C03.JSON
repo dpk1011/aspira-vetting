@@ -1,0 +1,743 @@
+{
+"deckId": "a2ffe8d9-f3a1-4cb9-8c31-4fb06aa84ef9",
+"cards": [
+{
+"cardId": "4cdf8a2a-8d9b-4a28-bcca-3df5d33d1cab",
+"originalOrder": 1,
+"originalHeading": "Proportional Relationship Definition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected mathematical boundary conditions",
+"Refined classification to DEFINITION"
+],
+"vettingNotes": "Expanded boundary conditions to clarify that proportionality constants must be non-zero.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 1,
+"heading": "Proportional Relationship Definition",
+"back": "- A **proportional relationship** exists when two or more related quantities change strictly by the **same factor**.\n- If the quantities are represented by a ratio $a:b$, any valid proportional state must be a scaled multiple $ka:kb$.\n- **Example:** Mixing 2 cups of rice to 1 cup of dal ($2:1$). If you use 6 cups of rice (multiplied by 3), you must use 3 cups of dal to maintain proportionality.\n\n## Boundary Conditions / Domain:\n- The scaling factor $k$ strictly cannot equal $0$ ($k \neq 0$).\n- For physical quantities (like mass, distance, items), the values must strictly be positive ($a > 0, b > 0$).",
+"mnemonic": "Same Factor, Same Flavor",
+"standardMeta": {
+"question": "What is the fundamental condition that defines a mathematical proportional relationship between two quantities?"
+}
+}
+},
+{
+"cardId": "a932c582-50dc-440a-93dc-449cc31d542d",
+"originalOrder": 15,
+"originalHeading": "Direct Proportion vs. Inverse Proportion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated order for pedagogical sequence",
+"Reinforced mathematical signatures"
+],
+"vettingNotes": "Moved earlier to establish the dual branches of proportional reasoning.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 2,
+"heading": "Direct Proportion vs. Inverse Proportion",
+"back": "- **Direct Proportion:** Two quantities move strictly in the **same direction** by the same factor.\n  - *Test:* If $x$ doubles, $y$ doubles.\n  - *Mathematical Signature:* Their **Quotient** is constant ($x / y = k$).\n- **Inverse Proportion:** Two quantities move strictly in **opposite directions** by the inverse factor.\n  - *Test:* If $x$ doubles, $y$ halves.\n  - *Mathematical Signature:* Their **Product** is constant ($x \times y = k$).\n\n## Boundary Conditions / Domain:\n- In both relationships, $x \neq 0$ and $y \neq 0$ to avoid undefined operations or collapsing the constant.",
+"mnemonic": "Direct is Divide for Constant. Inverse is Multiply for Constant.",
+"standardMeta": {
+"question": "What is the fundamental difference in mathematical behavior and algebraic signatures between a Direct Proportion and an Inverse Proportion?"
+}
+}
+},
+{
+"cardId": "33f7a516-7314-4848-ba0f-ccabf7de4a23",
+"originalOrder": 2,
+"originalHeading": "Verifying Proportionality (Cross-Multiplication)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Strict KaTeX double-escaping",
+"Refined component anatomy"
+],
+"vettingNotes": "Re-verified denominator constraints.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "algebra", "jee-foundation"],
+"order": 3,
+"heading": "Verifying Proportionality (Cross-Multiplication)",
+"back": "## Component Anatomy:\n- **$a, b$:** The terms of the first ratio ($a:b$).\n- **$c, d$:** The terms of the second ratio ($c:d$).\n\n## Boundary Conditions / Domain:\n- $b \neq 0$ and $d \neq 0$ (Denominators strictly cannot be zero).\n- Cross-multiplication is strictly a test for **Direct Proportion** equivalence.",
+"mnemonic": "Extremes equal Means.",
+"formulaMeta": {
+"formula": "a \times d = b \times c \iff \frac{a}{b} = \frac{c}{d}",
+"description": "State the algebraic condition (cross-multiplication rule) used to verify if two separate ratios are strictly proportional.",
+"derivation": "**SOP:**\n1. Write the two ratios as fractions: $\frac{a}{b}$ and $\frac{c}{d}$.\n2. Multiply the numerator of the first by the denominator of the second ($a \times d$).\n3. Multiply the denominator of the first by the numerator of the second ($b \times c$).\n4. If the two products are exactly equal, the ratios are proportional."
+}
+}
+},
+{
+"cardId": "8561bce7-c743-446f-b2ad-f6fc4b7f92e9",
+"originalOrder": 26,
+"originalHeading": "The Alternendo Property of Proportions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved for sequential flow",
+"Strict KaTeX double-escaping"
+],
+"vettingNotes": "Follows cross-multiplication logically as an algebraic manipulation tool.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "algebra", "jee-foundation"],
+"order": 4,
+"heading": "The Alternendo Property of Proportions",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** The four terms of a valid proportion where $a:b :: c:d$.\n\n## Boundary Conditions / Domain:\n- $b \neq 0$, $c \neq 0$, $d \neq 0$ (To prevent division by zero in any fractional state).\n- Useful in competitive exams to rapidly group variables of identical units on one side of an equation.",
+"mnemonic": "Swap the Means to make new scenes.",
+"formulaMeta": {
+"formula": "\frac{a}{b} = \frac{c}{d} \implies \frac{a}{c} = \frac{b}{d}",
+"description": "State the algebraic property that allows you to swap the mathematical means of a proportion to form a new valid proportional equation.",
+"derivation": "**Algebraic Proof:**\n1. Start with the standard proportional equation: $\frac{a}{b} = \frac{c}{d}$.\n2. Multiply both sides by $b$ to isolate $a$: $a = \frac{bc}{d}$.\n3. Divide both sides by $c$ to isolate the terms: $\frac{a}{c} = \frac{b}{d}$."
+}
+}
+},
+{
+"cardId": "e1b93891-c7d0-461d-9972-6c358011893d",
+"originalOrder": 27,
+"originalHeading": "The Mathematical 'Rule of Three'",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification",
+"Refined prompt logic"
+],
+"vettingNotes": "Converted from DEFINITION to PROCEDURAL as it describes an algorithm for solving unknowns.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 5,
+"heading": "The Mathematical 'Rule of Three'",
+"back": "- **Definition:** The 'Rule of Three' is a mechanical algorithm stating that if two ratios form a valid proportion (either direct or inverse), and exactly **three of the four** quantities are given, the fourth unknown quantity can be deterministically calculated.\n- **Direct Application:** Uses cross-multiplication on $\frac{x_1}{y_1} = \frac{x_2}{y_2}$.\n- **Inverse Application:** Uses algebraic isolation on the constant product $x_1 \times y_1 = x_2 \times y_2$.\n\n## Boundary Conditions / Domain:\n- It must be explicitly established whether the relationship is Direct or Inverse before applying the rule, otherwise the wrong algebraic operation will be executed.",
+"standardMeta": {
+"question": "What is the 'Rule of Three' in proportional reasoning, and what is the strict prerequisite required to apply it?"
+}
+}
+},
+{
+"cardId": "92768854-92bb-48ec-8484-ff60c1109bee",
+"originalOrder": 5,
+"originalHeading": "Multi-Term Proportionality Rule",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Expanded edge cases"
+],
+"vettingNotes": "Ensure scaling factor consistency logic is tight.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 6,
+"heading": "Multi-Term Proportionality Rule",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** Terms of the first multi-part ratio.\n- **$p, q, r, s$:** Corresponding terms of the second multi-part ratio.\n- **$k$:** The universal constant scaling factor.\n\n## Boundary Conditions / Domain:\n- Denominators $p, q, r, s \neq 0$.\n- All corresponding pairs must yield the exact same simplified fractional factor. A failure in one pair invalidates the entire chain.",
+"formulaMeta": {
+"formula": "\frac{a}{p} = \frac{b}{q} = \frac{c}{r} = \frac{d}{s} = k",
+"description": "State the algebraic condition that must be met for two multi-term ratios (a:b:c:d and p:q:r:s) to be completely proportional.",
+"derivation": "**SOP for Scaling Mixtures:**\n1. Identify the known scaling factor for one specific component (e.g., original recipe has 4 red chillies, you only have 2, so the factor $k = \frac{2}{4} = 0.5$).\n2. Multiply *every single term* in the original ratio strictly by this scaling factor $k$ to yield the new proportional ratio."
+}
+}
+},
+{
+"cardId": "f050398e-8a06-45fa-a8f7-3d7c4607fb29",
+"originalOrder": 6,
+"originalHeading": "Dividing a Whole Quantity in a Multi-Part Ratio",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX formatting"
+],
+"vettingNotes": "Checked summation constraints.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 7,
+"heading": "Dividing a Whole Quantity in a Multi-Part Ratio",
+"back": "## Component Anatomy:\n- **$P_a$:** The absolute value of part $a$.\n- **$x$:** The total base quantity to be divided.\n- **$a, b, c$:** The individual terms in the given ratio.\n- **$(a+b+c)$:** The sum of all ratio parts.\n\n## Boundary Conditions / Domain:\n- $(a+b+c) \neq 0$. The total parts strictly cannot sum to zero.\n- $x > 0$ for strictly physical quantities (like splitting money or resources).",
+"mnemonic": "Part over Total, times the Whole.",
+"formulaMeta": {
+"formula": "P_a = x \times \frac{a}{a+b+c}",
+"description": "State the formula to calculate the absolute value of a specific component 'a' when a total quantity 'x' is divided in the ratio a:b:c.",
+"derivation": "**Algorithmic SOP:**\n1. Calculate the **Total Ratio Parts** by adding all terms ($a + b + c$).\n2. Divide the total quantity $x$ by this sum to find the absolute value of **One Single Part** ($x \div \text{sum}$).\n3. Multiply the value of One Single Part by the specific ratio term ($a$) to find its corresponding absolute quantity."
+}
+}
+},
+{
+"cardId": "4031b0a0-557c-4750-ae67-9d3414ecc995",
+"originalOrder": 10,
+"originalHeading": "Finding the Base Quantity from a Single Partial Ratio",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-ordered to follow division logic directly",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Reverse operation of Card 7.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 8,
+"heading": "Finding the Base Quantity from a Single Partial Ratio",
+"back": "## Component Anatomy:\n- **$x$:** The unknown total quantity.\n- **$P_a$:** The absolute known value of part $a$.\n- **$a$:** The specific ratio term corresponding to $P_a$.\n- **$Sum$:** The sum of all parts in the ratio.\n\n## Boundary Conditions / Domain:\n- $a \neq 0$.\n- Assumes all parts originate from the exact same base $x$.",
+"formulaMeta": {
+"formula": "x = P_a \times \frac{Sum}{a}",
+"description": "If a whole is divided in the ratio a:b:c, and you are given the absolute value of just part 'a', state the equation to find the Total Base Quantity (x).",
+"derivation": "**SOP:**\n1. Set up the proportion mapping the specific part to the total: $\frac{a}{Sum} = \frac{P_a}{x}$.\n2. Solve algebraically for $x$ by isolating it: $x = \frac{P_a \times Sum}{a}$.\n\n*Alternative Logic:* Calculate the value of 1 ratio unit ($P_a \div a$), then multiply by the Total Ratio Parts ($Sum$)."
+}
+}
+},
+{
+"cardId": "35a191e7-4e81-4735-a196-a996b5eb3397",
+"originalOrder": 7,
+"originalHeading": "Constructing Triangle Angles from a Ratio",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-ordered",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Standard application of the multi-part division rule.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "geometry", "jee-foundation"],
+"order": 9,
+"heading": "Constructing Triangle Angles from a Ratio",
+"back": "## Component Anatomy:\n- **$\angle A, \angle B, \angle C$:** The three interior angles.\n- **$a, b, c$:** The given ratio of the angles.\n\n## Boundary Conditions / Domain:\n- The sum of the calculated angles must strictly equal $180^\circ$ (Euclidean geometry constraint).\n- Individual angle measures must be strictly $> 0^\circ$.",
+"formulaMeta": {
+"formula": "\angle A = 180^\circ \times \frac{a}{a+b+c}",
+"description": "If the interior angles of a triangle are in the ratio a:b:c, state the formula to find the exact degree measure of angle A.",
+"derivation": "**SOP:**\n1. Recognize the implicit Whole Quantity: The sum of interior angles of any planar triangle is $180^\circ$.\n2. Add the ratio components: $\text{Sum} = a + b + c$.\n3. Calculate the multiplier: $k = \frac{180^\circ}{\text{Sum}}$.\n4. Multiply each ratio part by $k$ to find the individual angles."
+}
+}
+},
+{
+"cardId": "49cb412c-d5b4-4562-92eb-96252f75ea50",
+"originalOrder": 8,
+"originalHeading": "The Triangle Inequality Trap for Side Ratios",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured strict math bounds"
+],
+"vettingNotes": "Important geometry safeguard.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-8", "ch-03", "geometry", "jee-foundation"],
+"order": 10,
+"heading": "The Triangle Inequality Trap for Side Ratios",
+"back": "- **The Trap:** Not all ratios can form a valid triangle. You cannot blindly assume a given side ratio like $1:3:5$ is geometrically possible.\n- **The Mathematical Constraint:** According to the **Triangle Inequality Theorem**, the sum of any two sides must be strictly greater than the third side.\n- **Example of Failure ($1:3:5$):** Let the sides be $1x, 3x,$ and $5x$.\n  - Adding the two smaller sides: $1x + 3x = 4x$.\n  - Since $4x < 5x$, the sides will never mathematically meet.\n  - The ratio is strictly invalid.",
+"mnemonic": "Small plus Medium MUST beat Large.",
+"standardMeta": {
+"question": "Why is it mathematically impossible to construct a triangle whose side lengths are in the ratio 1:3:5?"
+}
+}
+},
+{
+"cardId": "10a38840-2e40-482f-8aa5-006381be54a2",
+"originalOrder": 9,
+"originalHeading": "Similarity vs. Congruence in Constant Side Ratios",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Classification adjustment"
+],
+"vettingNotes": "Clear geometric application.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-8", "ch-03", "geometry", "jee-foundation"],
+"order": 11,
+"heading": "Similarity vs. Congruence in Constant Side Ratios",
+"back": "- **Similarity:** Any two triangles constructed with the *exact same side length ratio* (e.g., $3:4:5$) will definitively have the exact same shape and identical interior angles. They are guaranteed to be **Similar**.\n- **Congruence Trap:** They are **NOT** necessarily congruent. Congruence strictly requires identical absolute size.\n- **Example:** A triangle with sides $3, 4, 5$ and one with sides $6, 8, 10$ share the $3:4:5$ ratio but are not congruent because their absolute areas and perimeters fundamentally differ.",
+"mnemonic": "Same Ratio = Same Shape (Similar). Same Ratio != Same Size (Congruent).",
+"standardMeta": {
+"question": "If multiple triangles are drawn sharing the exact same ratio of side lengths (e.g., 3:4:5), what geometric relationship is guaranteed, and what relationship is false?"
+}
+}
+},
+{
+"cardId": "9dff4fa7-76cb-450c-a7bb-67474f067ba4",
+"originalOrder": 11,
+"originalHeading": "Coin Denomination Total Value Formula",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected integer boundary conditions",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Students often output non-integer answers for coins in tests. Emphasizing $\mathbb{Z}^+$ domain.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "algebra", "jee-foundation", "ssc"],
+"order": 12,
+"heading": "Coin Denomination Total Value Formula",
+"back": "## Component Anatomy:\n- **$T$:** Total monetary value.\n- **$D_1, D_2, D_3$:** The face value of the specific denominations (e.g., ₹10, ₹5, ₹2).\n- **$N_1, N_2, N_3$:** The absolute number of coins for each denomination.\n\n## Boundary Conditions / Domain:\n- $N_i$ must strictly be **positive integers** ($N_i \in \mathbb{Z}^+$). You cannot calculate fractions of a coin.",
+"formulaMeta": {
+"formula": "T = (D_1 \times N_1) + (D_2 \times N_2) + (D_3 \times N_3) + \dots",
+"description": "Given the absolute number of coins for various denominations, state the formula to calculate the Total Monetary Value.",
+"derivation": "**SOP (When given a ratio of coins and total coins):**\n1. Determine the absolute number of coins ($N_i$) for each denomination using the proportional division formula: $N_i = \text{Total Coins} \times \frac{\text{Ratio Part}}{\text{Sum of Ratio Parts}}$.\n2. Multiply the absolute number of coins $N_i$ by their respective face value $D_i$.\n3. Sum all the resulting monetary values."
+}
+}
+},
+{
+"cardId": "c6478032-d8c7-49d4-9d53-401c25bf5375",
+"originalOrder": 23,
+"originalHeading": "Evaluating 'Buy X, Get Y Free' Discounts",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Formula definition card to reduce cognitive bloat",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Derivation was too long and confusing when combined with the final formula.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "commercial-math", "jee-foundation", "ssc"],
+"order": 13,
+"heading": "Formula for 'Buy X, Get Y Free' Discounts",
+"back": "## Component Anatomy:\n- **$X$:** Number of items you actually pay for.\n- **$Y$:** Number of items you receive strictly for free.\n- **$(X + Y)$:** Total items physically taken home.\n\n## Boundary Conditions / Domain:\n- Assumes all individual items hold the exact same Marked Price. If items have varying prices, the formula fails.",
+"mnemonic": "Free divided by Total.",
+"formulaMeta": {
+"formula": "\text{Discount } \% = \frac{Y}{X + Y} \times 100\%"',
+"description": "State the formula to calculate the true percentage discount of a 'Buy X, Get Y Free' promotion.",
+"derivation": "*(Proof covered in subsequent card)*\nApply the formula by mapping the free items to the numerator, and the **entire lot** taken home to the denominator."
+}
+}
+},
+{
+"cardId": "NEW_BUY_X_PROOF",
+"originalOrder": 23,
+"originalHeading": "Evaluating 'Buy X, Get Y Free' Discounts",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted algorithmic proof from parent card"
+],
+"vettingNotes": "Split from Card ID c6478032.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "commercial-math", "jee-foundation", "ssc"],
+"order": 14,
+"heading": "Proof: 'Buy X, Get Y Free' Discount Rule",
+"back": "**Algorithmic Proof:**\n1. Let 1 item arbitrarily cost ₹100.\n2. You take home $(X + Y)$ items, so the Total Value (Marked Price) is $100(X + Y)$.\n3. You only pay for $X$ items, so your Total Cost (Selling Price) is $100X$.\n4. The absolute discount is $100Y$ (the value of the free items).\n5. Discount percentage is calculated strictly on the Total Value: $\frac{100Y}{100(X+Y)} \times 100\\%$.\n6. The $100$ cancels out, leaving $\frac{Y}{X+Y} \times 100\\%$.",
+"standardMeta": {
+"question": "What is the step-by-step mathematical proof demonstrating why a 'Buy X, Get Y Free' discount is evaluated as Y/(X+Y)?"
+}
+}
+},
+{
+"cardId": "793a12e2-8ae5-4b32-8311-0e7a4203f6a9",
+"originalOrder": 3,
+"originalHeading": "Representative Fraction (RF) in Maps",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit constraint regarding unit independence"
+],
+"vettingNotes": "Core scaling application.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "geography"],
+"order": 15,
+"heading": "Representative Fraction (RF) in Maps",
+"back": "- **Definition:** A Representative Fraction (RF) is the strict ratio between a linear distance on a map and the corresponding actual geographical distance on the ground.\n- **Format:** It is universally expressed as $1 : n$ (e.g., $1 : 60,000,000$).\n- **Unit Independence:** The RF has strictly **no units**. $1$ unit (cm, inch, etc.) on the map equates to $n$ of the *exact same units* on the ground.\n\n## Boundary Conditions / Domain:\n- $n > 1$ strictly, indicating reduction. If $n = 1$, the map is 1:1 life-size.",
+"standardMeta": {
+"question": "What is a Representative Fraction (RF) on a map, and what are its standard format and unit properties?"
+}
+}
+},
+{
+"cardId": "5f85db41-d0a2-4425-b108-16585567d20e",
+"originalOrder": 4,
+"originalHeading": "Map Distance to Actual Distance Conversion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Reinforced real-world constraints"
+],
+"vettingNotes": "Checked scaling conversion steps.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning"],
+"order": 16,
+"heading": "Map Distance to Actual Distance Conversion",
+"back": "## Component Anatomy:\n- **$D_{\text{actual}}$:** The real-world geographical distance.\n- **$D_{\text{map}}$:** The measured distance strictly on the physical map.\n- **$n$:** The scale factor extracted from the Representative Fraction ($1:n$).\n\n## Boundary Conditions / Domain:\n- $n > 0$ and $D_{\text{map}} > 0$.\n- **Critical Edge-Case:** The calculated distance is strictly the *geographical straight-line displacement* (as the crow flies), NOT the actual road travel distance.",
+"formulaMeta": {
+"formula": "D_{\text{actual}} = D_{\text{map}} \times n",
+"description": "State the formula to calculate the actual ground distance given the map distance and the Representative Fraction (1:n).",
+"derivation": "**SOP:**\n1. Identify the RF scale factor $n$ (e.g., for $1 : 6,000,000$, $n = 6,000,000$).\n2. Measure the map distance in a specific unit (e.g., $5$ cm).\n3. Multiply the map measurement by $n$ ($5 \times 6,000,000 = 30,000,000$ cm).\n4. Convert the resulting raw units into a standard geographic unit like km (divide cm by $100,000$)."
+}
+}
+},
+{
+"cardId": "bddbb937-741c-40dd-b2ec-b9a30916da93",
+"originalOrder": 12,
+"originalHeading": "Pie Charts (Circle Graphs)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured rigorous sum restrictions"
+],
+"vettingNotes": "Basic visual proportionality mapping.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-8", "ch-03", "data-handling"],
+"order": 17,
+"heading": "Pie Charts (Circle Graphs)",
+"back": "- **Concept:** A pie chart is a visual data representation that divides a single whole (a circle) into strictly proportional slices.\n- **Mathematical Basis:** The full circle represents the **Total (100% or absolute whole)**. The central angle of each slice is directly proportional to the absolute quantity it represents.\n- **Constraint:** The sum of all the central angles must mathematically exactly equal $360^\circ$.",
+"standardMeta": {
+"question": "What is the core mathematical principle behind a Pie Chart, and what geometric constraint governs the sum of its parts?"
+}
+}
+},
+{
+"cardId": "ea0b5625-7e6b-4933-a5c0-c6328e274e9a",
+"originalOrder": 13,
+"originalHeading": "Central Angle Formula for Pie Charts",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Verified domain"
+],
+"vettingNotes": "Formula representation of pie charts.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "data-handling"],
+"order": 18,
+"heading": "Central Angle Formula for Pie Charts",
+"back": "## Component Anatomy:\n- **$\theta$:** The central angle of the specific slice in degrees.\n- **$v$:** The absolute value or quantity of the specific category.\n- **$T$:** The absolute total sum of all values across all categories.\n\n## Boundary Conditions / Domain:\n- $T > 0$ strictly.\n- $0^\circ < \theta < 360^\circ$ (A category with 0 value does not receive a slice).",
+"mnemonic": "Value over Total, times 360.",
+"formulaMeta": {
+"formula": "\theta = \frac{v}{T} \times 360^\circ",
+"description": "State the formula to calculate the specific central angle required to draw a slice for a given category in a pie chart.",
+"derivation": "**SOP:**\n1. Sum the data values of all individual categories to find the **Total ($T$)**.\n2. Create a fraction representing the category's share of the whole: $\frac{v}{T}$.\n3. Multiply this fractional share by $360^\circ$ to convert it into a proportional central angle.\n\n*(If the data is given as a percentage $p\\%$, the angle is simply $\frac{p}{100} \times 360^\circ$).*"
+}
+}
+},
+{
+"cardId": "9edc4d76-3c4b-4659-9aa2-d505e8519cbd",
+"originalOrder": 14,
+"originalHeading": "SOP for Drawing a Pie Chart",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into general SOP and Protractor Trap to reduce cognitive bloat"
+],
+"vettingNotes": "Step 5 (the trap) needs a dedicated card as students routinely fail it in practical exams.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "data-handling", "geometry"],
+"order": 19,
+"heading": "SOP for Drawing a Pie Chart",
+"back": "- **Step 1:** Calculate the central angle for every single category using $\theta = \frac{v}{T} \times 360^\circ$.\n- **Step 2:** Mathematically verify that the sum of all calculated angles strictly equals $360^\circ$ before drawing.\n- **Step 3:** Draw a circle and mark an initial horizontal baseline radius.\n- **Step 4:** Place a protractor strictly on the center, align zero with the baseline, and plot the first angle to draw the next radius.\n*(See next card for sequential slice plotting).* ",
+"standardMeta": {
+"question": "What is the step-by-step mathematical and geometric procedure to prepare and begin drawing a pie chart?"
+}
+}
+},
+{
+"cardId": "NEW_PIE_CHART_TRAP",
+"originalOrder": 14,
+"originalHeading": "SOP for Drawing a Pie Chart",
+"action": "NEW",
+"modificationsSummary": [
+"Created card isolated from split to emphasize practical geometry trap"
+],
+"vettingNotes": "Crucial distinction isolated from Card ID 9edc4d76.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-8", "ch-03", "data-handling", "geometry"],
+"order": 20,
+"heading": "The Overlapping Slice Trap in Pie Charts",
+"back": "- **The Error:** Students often mistakenly measure every single slice's angle from the *original starting baseline*.\n- **The Fix (Sequential Plotting):** To draw a subsequent slice, you must mechanically rotate the protractor so its zero-line aligns strictly with the **newly drawn radius** of the previous slice, NOT the original baseline.\n- Failure to rotate the protractor causes all slices to overlap, nullifying the chart.",
+"standardMeta": {
+"question": "When physically plotting slices in a pie chart with a protractor, how do you avoid the overlapping angle trap for the second and third slices?"
+}
+}
+},
+{
+"cardId": "7ecd2a4e-8d13-4ee7-aa98-d434835c5783",
+"originalOrder": 16,
+"originalHeading": "Inverse Proportion Equation (Constant Product Rule)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Clarified derivation steps"
+],
+"vettingNotes": "Core theorem for inverse branch.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "algebra"],
+"order": 21,
+"heading": "Inverse Proportion Equation (Constant Product Rule)",
+"back": "## Component Anatomy:\n- **$x_1, y_1$:** The initial state values of the two inversely related quantities.\n- **$x_2, y_2$:** The final state values after the transformation change.\n- **$k$:** The constant of inverse proportionality.\n\n## Boundary Conditions / Domain:\n- $x \neq 0$ and $y \neq 0$. Neither quantity can physically or mathematically be zero in an inverse proportion (leads to $k=0$ or undefined bounds).",
+"mnemonic": "State 1 Product = State 2 Product",
+"formulaMeta": {
+"formula": "x_1 \times y_1 = x_2 \times y_2 = k",
+"description": "State the core algebraic equation used to solve missing values when two quantities are inversely proportional.",
+"derivation": "**SOP for Solving:**\n1. Identify that the problem logic strictly dictates an inverse relationship (e.g., More Speed $\implies$ Less Time).\n2. Multiply the fully known pair of values ($x_1 \times y_1$) to establish the constant product $k$.\n3. Set this product equal to the new incomplete state: $k = x_2 \times y_2$.\n4. Algebraically divide $k$ by the known variable in the new state to isolate the unknown variable."
+}
+}
+},
+{
+"cardId": "d6c71a6e-5e1f-4bf4-b430-44e0c71e4b20",
+"originalOrder": 24,
+"originalHeading": "Solving Inverse Proportion with Multipliers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Mental math technique.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "mental-math"],
+"order": 22,
+"heading": "Solving Inverse Proportion with Multipliers",
+"back": "## Component Anatomy:\n- **$x_1, y_1$:** Initial base state.\n- **$n$:** The fractional or integer multiplier applied to variable $x$.\n- **$\frac{1}{n}$:** The inverse mathematical multiplier implicitly applied to variable $y$.\n\n## Boundary Conditions / Domain:\n- $n \neq 0$ strictly.",
+"formulaMeta": {
+"formula": "y_2 = y_1 \times \frac{1}{n} \quad \text{when} \quad x_2 = x_1 \times n",
+"description": "State the algebraic rule for transforming inversely proportional variables using a multiplier 'n'.",
+"derivation": "**SOP for Quick Mental Math:**\n1. Determine the factor by which the first quantity changed. E.g., if workers drop from 20 to 10, the multiplier $n = \frac{1}{2}$.\n2. Since the relationship is explicitly inverse, mathematically invert (flip) the multiplier to find the change in the second quantity. The inverse of $\frac{1}{2}$ is $2$.\n3. Multiply the original second quantity by this flipped multiplier to compute the new value ($y_2 = y_1 \times 2$)."
+}
+}
+},
+{
+"cardId": "aa99e93a-6475-453d-9524-aa790bd3ea1d",
+"originalOrder": 21,
+"originalHeading": "The Constant Price/Budget Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"LaTeX rendering standard unified"
+],
+"vettingNotes": "Highly useful real-world cognitive trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "commercial-math"],
+"order": 23,
+"heading": "The Constant Price/Budget Trap",
+"back": "- **Direct Proportion (Varying Cost):** If the price per unit is strictly fixed, the Number of Items bought and the Total Cost are **directly proportional** (Buy more items $\implies$ Total Cost increases).\n  - $\frac{\text{Total Cost}}{\text{Items}} = \text{Fixed Price per unit}$.\n- **Inverse Proportion (Fixed Budget):** If your Total Overall Budget is strictly fixed, the Price per Item and the Number of Items you can afford are **inversely proportional** (If price goes up $\implies$ You buy fewer items).\n  - $\text{Price per item} \times \text{Items} = \text{Fixed Budget}$.",
+"standardMeta": {
+"question": "Explain how purchasing items can mathematically represent a Direct Proportion in one scenario, but an Inverse Proportion in another."
+}
+}
+},
+{
+"cardId": "3613913d-6681-4b4d-83e3-30f1160c8e89",
+"originalOrder": 17,
+"originalHeading": "Inverse Proportion Archetype: Speed and Time",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Classification to APPLICATION",
+"Added constraints"
+],
+"vettingNotes": "Standard inverse model 1.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "kinematics"],
+"order": 24,
+"heading": "Inverse Proportion Archetype: Speed and Time",
+"back": "- **Relationship:** Assuming the physical travel distance remains exactly constant, Speed ($S$) and Time ($T$) are **inversely proportional**.\n- **Formula Translation:** $S_1 \times T_1 = S_2 \times T_2 = \text{Total Distance}$.\n- **Behavior:** \n  - If you **double** your speed ($2 \times S$), your travel time is mathematically cut in **half** ($T / 2$).\n  - If you reduce speed by a factor of 3 ($S / 3$), time strictly triples ($3 \times T$).\n\n## Boundary Conditions / Domain:\n- Strictly assumes constant, non-stop uniform velocity. Fails if the object stops or changes speeds dynamically over the journey.",
+"mnemonic": "Faster driving, shorter arriving.",
+"standardMeta": {
+"question": "For a fixed physical travel distance, explain the mathematical proportional relationship between Speed and Time, and state what happens to Time if Speed is doubled."
+}
+}
+},
+{
+"cardId": "82ce5e5a-c0ef-4db4-8782-67797fc8d50d",
+"originalOrder": 18,
+"originalHeading": "Inverse Proportion Archetype: Workers and Days",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Classification to APPLICATION"
+],
+"vettingNotes": "Standard inverse model 2.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation"],
+"order": 25,
+"heading": "Inverse Proportion Archetype: Workers and Days",
+"back": "- **Relationship:** Assuming the total amount of work is constant, the Number of Workers ($W$) and the Number of Days ($D$) required are **inversely proportional**.\n- **Formula Translation:** $W_1 \times D_1 = W_2 \times D_2 = \text{Total Work Units (Man-days)}$.\n- **Assumptions (Strict Boundary Conditions):** \n  1. Every single worker operates at the exact same uniform mathematical speed/rate.\n  2. The daily working hours are identical for all workers.\n  3. The work is perfectly parallelizable (adding workers doesn't cause logistical delays).",
+"mnemonic": "More hands make lighter work.",
+"standardMeta": {
+"question": "Explain the proportional relationship between the number of workers and the days required to finish a job, and state the strict assumptions required for this math to work."
+}
+}
+},
+{
+"cardId": "68c672e9-1419-4c6a-9c89-c05901d2f553",
+"originalOrder": 19,
+"originalHeading": "Inverse Proportion Archetype: Food Supplies and Consumers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined classification to APPLICATION"
+],
+"vettingNotes": "Standard inverse model 3, features common exam trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning", "jee-foundation", "ssc"],
+"order": 26,
+"heading": "Inverse Proportion Archetype: Food Supplies and Consumers",
+"back": "- **Relationship:** Assuming a fixed physical stockpile of food, the Number of Consumers (e.g., soldiers, animals) and the Number of Days the food lasts are **inversely proportional**.\n- **Formula Translation:** $C_1 \times D_1 = C_2 \times D_2 = \text{Total Daily Rations}$.\n- **The Dynamic Change Trap:** In common exam problems where consumers 'join' or 'leave' after a certain number of days, you strictly CANNOT use the original starting food amount.\n- **The Fix:** You must mathematically adjust State 1 to evaluate the *remaining* food and *remaining* days before applying $C_1 \times D_1 = C_2 \times D_2$.",
+"mnemonic": "More mouths to feed, fewer days to eat.",
+"standardMeta": {
+"question": "How do the absolute number of consumers and the duration of a fixed food supply relate proportionally, and what is the primary algebraic trap when solving these problems?"
+}
+}
+},
+{
+"cardId": "26bb7c20-5ed2-4d32-bc7a-d025ac142d3c",
+"originalOrder": 20,
+"originalHeading": "Inverse Proportion Archetype: Grid Arrangements (Rows and Columns)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Classification adjusted to APPLICATION"
+],
+"vettingNotes": "Standard inverse model 4.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-03", "proportional-reasoning"],
+"order": 27,
+"heading": "Inverse Proportion Archetype: Grid Arrangements",
+"back": "- **Relationship:** If you are physically arranging a fixed, constant number of objects (e.g., chairs, soldiers) into a Cartesian grid, the Number of Rows ($R$) and the Number of Items per Row ($C$) are **inversely proportional**.\n- **Formula Translation:** $R_1 \times C_1 = R_2 \times C_2 = \text{Total Number of Objects}$.\n- **Behavior:** Compressing the grid into fewer rows mathematically forces an inverse proportional increase in the number of columns to house the displaced objects.",
+"standardMeta": {
+"question": "If you are rearranging a constant fixed set of chairs into a new grid pattern, what is the mathematical proportional relationship between the number of rows and the number of chairs per row?"
+}
+}
+},
+{
+"cardId": "a0747100-bcfd-4966-a553-6d2b275d9590",
+"originalOrder": 25,
+"originalHeading": "Inverse Proportion Archetype: School Periods",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Classification changed to APPLICATION",
+"Added explicit boundary conditions for fixed school duration"
+],
+"vettingNotes": "Final standard archetype before complex combinations.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-8",
+"ch-03",
+"proportional-reasoning"
+],
+"order": 28,
+"heading": "Inverse Proportion Archetype: School Periods",
+"back": "- **Relationship:** Assuming the total duration of the school day is fixed, the Number of Periods ($N$) and the Duration of Each Period ($P$) are **inversely proportional**.\n- **Formula Translation:** $N_1 \times P_1 = N_2 \times P_2 = \text{Total School Hours}$.\n- **Behavior:** If a school decides to add more periods to the schedule, the length of each individual period must logically decrease to fit within the exact same bell schedule.\n\n## Boundary Conditions / Domain:\n- $N > 0$ and must strictly be a positive integer ($N \in \mathbb{Z}^+$).\n- $P > 0$ strictly.",
+"standardMeta": {
+"question": "If a school keeps its total daily hours strictly constant but increases the number of periods, what proportional relationship dictates the new duration of each period?"
+}
+}
+},
+{
+"cardId": "NEW_UNITARY_WORK_SETUP",
+"originalOrder": 22,
+"originalHeading": "Combined Work Rates (Unitary Method)",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted foundational rate logic from parent card to prevent cognitive bloat"
+],
+"vettingNotes": "Split from Card ID 1a6e08ea to establish conceptual logic before the formula.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-8",
+"ch-03",
+"proportional-reasoning",
+"unitary-method"
+],
+"order": 29,
+"heading": "Unitary Method: Fractional Work Rates Setup",
+"back": "- **The Trap:** You strictly CANNOT add absolute completion times together. If Person A takes 2 hours and Person B takes 3 hours, working together does not take 5 hours.\n- **The Fix (Fractional Rates):** You must define the entire task as exactly **1 Unit of Work**.\n- Calculate the rate of work per unit of time (e.g., per hour).\n  - If $t$ is the absolute total time, the rate is mathematically $\frac{1}{t}$.\n- Work rates strictly **add**, whereas absolute times do not.\n\n## Boundary Conditions / Domain:\n- Absolute time $t$ must strictly be $> 0$.",
+"mnemonic": "Add their speeds, not their hours.",
+"standardMeta": {
+"question": "What is the core logical trap when combining workers, and how does the Unitary Method mathematically resolve this by converting absolute completion times?"
+}
+}
+},
+{
+"cardId": "1a6e08ea-4bdc-4ca7-8f8e-8fe93da5f872",
+"originalOrder": 22,
+"originalHeading": "Combined Work Rates (Unitary Method)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Isolated formula and algebraic SOP",
+"Double-escaped LaTeX formatting"
+],
+"vettingNotes": "Focuses strictly on the algebraic equation after the concept is established in the previous card.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-8",
+"ch-03",
+"proportional-reasoning",
+"algebra"
+],
+"order": 30,
+"heading": "Combined Work Rates Formula",
+"back": "## Component Anatomy:\n- **$R_{\text{total}}$:** The combined mathematical rate of work (units per time period).\n- **$t_1, t_2$:** The absolute time it strictly takes person 1 and person 2 to complete the full job independently.\n\n## Boundary Conditions / Domain:\n- $t_1 > 0$ and $t_2 > 0$ (Time cannot be zero or negative).",
+"formulaMeta": {
+"formula": "R_{\text{total}} = \frac{1}{t_1} + \frac{1}{t_2}",
+"description": "State the algebraic formula to calculate the Combined Work Rate of two entities working simultaneously.",
+"derivation": "**SOP for Combined Time:**\n1. Convert Person A's time into a rate: $\frac{1}{t_1}$.\n2. Convert Person B's time into a rate: $\frac{1}{t_2}$.\n3. Mathematically **add** these individual fractional rates together to compute $R_{\text{total}}$.\n4. To find the actual Time Taken Working Together ($T_{\text{together}}$), take the mathematical reciprocal of this combined total rate: $T_{\text{together}} = \frac{1}{R_{\text{total}}}$."
+}
+}
+},
+{
+"cardId": "81e98f56-5e91-40ca-a967-a39e7a23849b",
+"originalOrder": 28,
+"originalHeading": "Graphical Signatures of Direct vs. Inverse Proportions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Ensured strict math bounds",
+"Corrected visual descriptors"
+],
+"vettingNotes": "Excellent capstone mapping algebra to cartesian geometry.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-8",
+"ch-03",
+"proportional-reasoning",
+"coordinate-geometry",
+"jee-foundation"
+],
+"order": 31,
+"heading": "Graphical Signatures of Direct vs. Inverse Proportions",
+"back": "- **Direct Proportion Graph ($y = kx$):** Plots strictly as a **straight, linear diagonal line** that must pass exactly through the mathematical origin $(0,0)$.\n- **Inverse Proportion Graph ($xy = k$):** Plots as a curve known as a **Rectangular Hyperbola** strictly in the first quadrant (for standard physical quantities).\n- **Boundary Condition (Asymptotes):** The hyperbola curve will continuously approach, but **strictly never touch**, the $x$-axis or $y$-axis because neither quantity in an inverse proportion can mathematically equal zero (division by zero is undefined).",
+"mnemonic": "Direct is a Dart (straight), Inverse is a Curve.",
+"standardMeta": {
+"question": "If you plot a Direct Proportion and an Inverse Proportion on a Cartesian coordinate plane, what are their distinct geometric shapes and asymptotic behaviors?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

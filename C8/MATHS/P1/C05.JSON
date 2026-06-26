@@ -1,0 +1,943 @@
+{
+"deckId": "4ad50eac-204d-4cff-bfc3-b1d9a3a80baa",
+"cards": [
+{
+"cardId": "b5cd98aa-dcf7-49d5-a89c-8f44ce2eba65",
+"originalOrder": 5,
+"originalHeading": "Arithmetic Parity Rules: Addition and Subtraction",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added strict domain boundaries for integers"
+],
+"vettingNotes": "Moved to order 1 as the axiomatic foundation.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"parity",
+"class-8",
+"foundation"
+],
+"order": 1,
+"heading": "Arithmetic Parity Rules: Addition and Subtraction",
+"back": "- **Odd $\pm$ Odd:** Even\n- **Even $\pm$ Even:** Even\n- **Odd $\pm$ Even:** Odd\n\n## Algebraic Implication:\n- The expressions $(a + b)$ and $(a - b)$ ALWAYS have the exact same parity, regardless of the individual parities of $a$ and $b$.\n\n## Boundary Conditions / Domain:\n- $a, b \in \mathbb{Z}$. These parity properties rigorously apply only to integers, not rational fractions or real numbers.",
+"mnemonic": "Like parities make Even, opposite parities make Odd.",
+"standardMeta": {
+"question": "State the three core parity rules for addition and subtraction. What does this algebraically imply about the relationship between $(a+b)$ and $(a-b)$?"
+}
+}
+},
+{
+"cardId": "2c86670b-a05d-4265-b094-baef26dba888",
+"originalOrder": 6,
+"originalHeading": "Arithmetic Parity Rules: Multiplication",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added domain conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"parity",
+"class-8",
+"foundation"
+],
+"order": 2,
+"heading": "Arithmetic Parity Rules: Multiplication",
+"back": "- **Odd $\times$ Odd:** Odd\n- **Even $\times$ Even:** Even\n- **Even $\times$ Odd:** Even\n\n## Conclusion:\n- A product is even if and only if **at least one** of its factors is an even number.\n\n## Boundary Conditions / Domain:\n- The factors must be integers ($\in \mathbb{Z}$).",
+"mnemonic": "Even infects everything it multiplies.",
+"standardMeta": {
+"question": "Under what strict mathematical condition does the multiplication of multiple integers yield an odd result?"
+}
+}
+},
+{
+"cardId": "4e9b9fe7-f63a-4c9a-aa85-2f17a3095132",
+"originalOrder": 7,
+"originalHeading": "Universal Form of Even Algebraic Expressions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reformatted to strictly match FORMULA schema",
+"Verified KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"algebra",
+"parity",
+"class-8",
+"proofs"
+],
+"order": 3,
+"heading": "Universal Form of Even Algebraic Expressions",
+"back": "## Component Anatomy:\n- **$E$:** The evaluated expression.\n- **$k$:** Any integer resulting from combining other variables.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $k \in \mathbb{Z}$. If $k$ is not an integer (e.g., $k=1.5$), $2k$ evaluates to $3$ (odd), breaking the form.",
+"formulaMeta": {
+"formula": "E = 2k",
+"description": "State the universal algebraic form that guarantees an expression evaluates to an even number.",
+"derivation": "1. Factor out the number $2$ from the algebraic terms of the expression.\n2. E.g., for $4m + 2n$, factor it as $2(2m + n)$.\n3. Since integers are closed under addition and multiplication, $(2m + n)$ is an integer. Let $k = 2m + n$.\n4. The expression takes the rigid form $2k$, formally proving it is even."
+}
+}
+},
+{
+"cardId": "5f574daf-17af-4865-af78-5a03ac1e95ce",
+"originalOrder": 31,
+"originalHeading": "Parity Dependence in Non-Linear Expressions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Shifted classification to DISTINCTION",
+"Moved to front sequence to contrast with universal forms"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"algebra",
+"parity",
+"class-8",
+"edge-case"
+],
+"order": 4,
+"heading": "Parity Trap: Non-Linear Expressions",
+"back": "- **Concept:** Expressions containing squared variables (e.g., $x^2 + 2$ or $b^2 + 1$) do **not** have a universal static parity.\n- **Proof:** The parity of $x^2$ strictly matches the parity of $x$ (Odd $\times$ Odd = Odd; Even $\times$ Even = Even).\n- **Conclusion:** Adding a constant to a squared variable will alternate the final parity depending entirely on whether the input variable was even or odd, making it impossible to declare the expression universally even or odd without knowing the input.\n\n## Boundary Conditions / Domain:\n- $x, b \in \mathbb{Z}$",
+"mnemonic": "Squares don't switch; they mirror their base.",
+"standardMeta": {
+"question": "Why can an algebraic expression like $x^2 + 2$ NEVER be classified as 'always even', unlike linear expressions such as $4m + 2n$?"
+}
+}
+},
+{
+"cardId": "3c8c72ff-39fb-4659-b97a-da94180bab00",
+"originalOrder": 4,
+"originalHeading": "Sign Switch Parity Invariance Proof",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Double escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"algebra",
+"parity",
+"proofs",
+"class-8"
+],
+"order": 5,
+"heading": "Sign Switch Parity Invariance Proof",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** Any four integers in a linear addition/subtraction sequence.\n- **$\Delta$:** The net mathematical change in the total value when a single sign is flipped.\n\n## Boundary Conditions / Domain:\n- $a, b, c, d \in \mathbb{Z}$",
+"formulaMeta": {
+"formula": "\Delta = (a + b - c - d) - (a - b - c - d) = 2b",
+"description": "Algebraic proof showing that flipping a single sign (from negative to positive) in an expression of integers changes the result by an even amount, preserving parity.",
+"derivation": "1. Let the original expression contain a strictly subtracted term $-b$.\n2. Create a new expression by changing $-b$ to $+b$.\n3. Subtract the original expression from the new one to find the delta ($\Delta$).\n4. All constant terms cancel out exactly, leaving $b - (-b) = 2b$.\n5. Since $2b$ is explicitly a multiple of 2, the total value shifts by an even amount. Adding or subtracting an even amount never alters the original parity."
+}
+}
+},
+{
+"cardId": "adfc29e7-7148-47e8-bab3-1a1ef3cb9d4b",
+"originalOrder": 3,
+"originalHeading": "Parity Invariance of Four Consecutive Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Explicitly defined the domain constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"number-theory",
+"parity",
+"class-8",
+"consecutive-numbers"
+],
+"order": 6,
+"heading": "Parity Invariance of Four Consecutive Numbers",
+"back": "- **Point 1:** Take any sequence of four consecutive natural numbers and place $+$ or $-$ signs between them in any combination ($a \pm b \pm c \pm d$).\n- **Point 2:** The calculated sum or difference will **always be an even number**.\n- **Point 3:** There are exactly $2^3 = 8$ possible arithmetic expressions for a specific four-number sequence. Because flipping any sign only changes the result by an even amount ($2x$), all 8 permutations share the exact same parity (Even).\n\n## Boundary Conditions / Domain:\n- $a, b, c, d \in \mathbb{N}$ and must be strictly consecutive (e.g., $n, n+1, n+2, n+3$).",
+"standardMeta": {
+"question": "If you systematically test all 8 combinations of addition and subtraction between four consecutive integers, what strict parity rule emerges?"
+}
+}
+},
+{
+"cardId": "afbf8ac9-3143-4a1d-a3b6-7926da45c4c0",
+"originalOrder": 8,
+"originalHeading": "Modulo 4 Classification of Even Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected integer domains for the remainder modulo variable"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8"
+],
+"order": 7,
+"heading": "Modulo 4 Classification of Even Numbers",
+"back": "- **Type A (Multiples of 4):** e.g., $4, 8, 12, 16$.\n  - They leave a strict remainder of $0$ when divided by 4.\n  - **Algebraic Form:** $4p$.\n- **Type B (Non-multiples of 4):** e.g., $2, 6, 10, 14$.\n  - They leave a strict remainder of $2$ when divided by 4.\n  - **Algebraic Form:** $4p + 2$.\n\n## Boundary Conditions / Domain:\n- $p \in \mathbb{Z}$. Valid for positive and negative even integers.",
+"standardMeta": {
+"question": "How can the set of all even numbers be strictly split into two distinct algebraic categories based on their divisibility by 4?"
+}
+}
+},
+{
+"cardId": "953dd0f6-767e-4b4e-9547-c9c3201fc4db",
+"originalOrder": 9,
+"originalHeading": "Sum of Two Multiples of 4",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"algebra",
+"proofs",
+"modulo",
+"class-8"
+],
+"order": 8,
+"heading": "Algebraic Proof: Sum of Multiples of 4",
+"back": "## Component Anatomy:\n- **$4p, 4q$:** Two distinct even numbers strictly defined as multiples of 4.\n\n## Boundary Conditions / Domain:\n- $p, q \in \mathbb{Z}$",
+"formulaMeta": {
+"formula": "4p + 4q = 4(p + q)",
+"description": "Algebraic proof that the sum of two distinct multiples of 4 guarantees another multiple of 4.",
+"derivation": "1. Express the first even number as $4p$.\n2. Express the second even number as $4q$.\n3. Add them together to form the expression: $4p + 4q$.\n4. Factor out the $4$: $4(p + q)$.\n5. Since integers are closed under addition, let integer $k = p + q$.\n6. The sum is strictly $4k$, confirming it is a multiple of 4."
+}
+}
+},
+{
+"cardId": "32d25869-9423-445b-810b-c9af1b7b6a91",
+"originalOrder": 10,
+"originalHeading": "Sum of Two Even Non-Multiples of 4",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"algebra",
+"proofs",
+"modulo",
+"class-8"
+],
+"order": 9,
+"heading": "Algebraic Proof: Sum of Two Non-Multiples of 4",
+"back": "## Component Anatomy:\n- **$4p+2, 4q+2$:** Two even integers that leave a strict remainder of 2 when divided by 4.\n\n## Boundary Conditions / Domain:\n- $p, q \in \mathbb{Z}$",
+"formulaMeta": {
+"formula": "(4p + 2) + (4q + 2) = 4(p + q + 1)",
+"description": "Algebraic proof showing that summing two even non-multiples of 4 counterintuitively yields a sum that IS a multiple of 4.",
+"derivation": "1. Express the numbers algebraically as $4p + 2$ and $4q + 2$.\n2. Add them linearly: $4p + 4q + 4$.\n3. Factor out the $4$ from all terms globally: $4(p + q + 1)$.\n4. Let integer $k = p + q + 1$. \n5. The sum is $4k$, mathematically guaranteeing the result is a multiple of 4."
+}
+}
+},
+{
+"cardId": "cd8d3401-1f41-4e55-8a55-fb93eb832f31",
+"originalOrder": 11,
+"originalHeading": "Sum of Mixed Even Numbers (Modulo 4 Trap)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to DISTINCTION",
+"Clarified integer boundary logic"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"trap"
+],
+"order": 10,
+"heading": "Modulo 4 Trap: Sum of Mixed Even Numbers",
+"back": "- **The Trap:** Adding one multiple of 4 (form $4p$) and one non-multiple even number (form $4q+2$) will **never** yield a sum that is a multiple of 4.\n- **Algebraic Proof:** \n  - Sum $= 4p + (4q + 2)$\n  - Factoring yields: $4(p+q) + 2$.\n- **Conclusion:** The sum leaves an irreducible remainder of 2, confirming it is mathematically impossible for the sum to be divisible by 4.\n\n## Boundary Conditions / Domain:\n- $p, q \in \mathbb{Z}$",
+"mnemonic": "Mixing 4s and 2s leaves 2 out in the cold.",
+"standardMeta": {
+"question": "What specifically happens when you add an even number that is a multiple of 4 to an even number that is NOT a multiple of 4? Is the sum a multiple of 4?"
+}
+}
+},
+{
+"cardId": "a09153bd-6b21-4303-964f-d86fa12be9b5",
+"originalOrder": 1,
+"originalHeading": "Condition for Representation as Sum of Consecutive Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit domain restriction to natural numbers"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"series",
+"class-8"
+],
+"order": 11,
+"heading": "Representation as Sum of Consecutive Numbers",
+"back": "- **Core Theorem:** Any natural number that possesses at least one **odd factor strictly greater than 1** can be mathematically expressed as the sum of consecutive natural numbers.\n- **Odd Numbers:** All odd numbers (except $1$) naturally satisfy this condition and can be written as the sum of two consecutive numbers (e.g., $9 = 4 + 5$).\n- **Even Numbers:** Even numbers can be expressed this way *only* if they contain an odd factor buried in their prime factorization (e.g., $18 = 2 \times 9$, so $18 = 3 + 4 + 5 + 6$).\n\n## Boundary Conditions / Domain:\n- Operates strictly over Natural Numbers ($\mathbb{N}$). Number $1$ cannot be represented this way.",
+"mnemonic": "Odd factors open the consecutive door.",
+"standardMeta": {
+"question": "What is the strict mathematical condition required for a natural number to be expressible as the sum of consecutive natural numbers?"
+}
+}
+},
+{
+"cardId": "c5a8b517-3a94-4401-b09b-5472a7e64b2d",
+"originalOrder": 2,
+"originalHeading": "Numbers Inexpressible as Sum of Consecutive Numbers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified prime factorization domain logic"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"number-theory",
+"series",
+"class-8",
+"edge-case"
+],
+"order": 12,
+"heading": "Trap: Numbers Inexpressible as Consecutive Sums",
+"back": "- **Exception Set:** Numbers that are pure **powers of 2** (e.g., $2^1, 2^2, 2^3 \dots$ or $2, 4, 8, 16, 32$) fundamentally CANNOT be written as the sum of consecutive natural numbers.\n- **Mathematical Reasoning:** This restriction exists strictly because their prime factorization contains exclusively 2s. They entirely lack any odd factors greater than 1, violating the core theorem condition.\n\n## Boundary Conditions / Domain:\n- This applies to $2^n$ where $n \in \mathbb{N}$.",
+"mnemonic": "Powers of two stand alone, too even to split.",
+"standardMeta": {
+"question": "Which specific sequence of numbers fundamentally CANNOT be expressed as the sum of consecutive natural numbers, and what is the algebraic reason why?"
+}
+}
+},
+{
+"cardId": "afc2221d-5c72-4d33-85cc-d54c77965731",
+"originalOrder": 12,
+"originalHeading": "Divisibility of Sums and Differences",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified KaTeX double escaping",
+"Re-classified to CONCEPT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"proofs"
+],
+"order": 13,
+"heading": "Theorem: Divisibility of Sums and Differences",
+"back": "## Component Anatomy:\n- **$a$:** The common integer divisor.\n- **$M, N$:** Integers strictly divisible by $a$.\n\n## Boundary Conditions / Domain:\n- $M, N, a \in \mathbb{Z}$\n- **Strict Constraint:** $a \neq 0$ (Division by zero is undefined).",
+"formulaMeta": {
+"formula": "a|M \text{ and } a|N \implies a|(M \pm N)",
+"description": "Theorem demonstrating that if a divisor exactly divides two separate integers, it must deterministically divide their sum and difference.",
+"derivation": "1. Given $a|M$, express it as $M = ax$ for some integer $x$.\n2. Given $a|N$, express it as $N = ay$ for some integer $y$.\n3. Add/Subtract the equations linearly: $M \pm N = ax \pm ay$.\n4. Factor out the common divisor $a$: $M \pm N = a(x \pm y)$.\n5. Since integers are closed, $x \pm y$ is an integer. Thus, $a$ strictly divides both the sum and the difference."
+}
+}
+},
+{
+"cardId": "ca12d84e-2a48-48ee-a6a0-530e3742bdb0",
+"originalOrder": 13,
+"originalHeading": "Divisibility Propagation to Multiples",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified KaTeX format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"proofs"
+],
+"order": 14,
+"heading": "Theorem: Divisibility Propagation to Multiples",
+"back": "## Component Anatomy:\n- **$A$:** The original dividend integer.\n- **$k$:** The common divisor.\n- **$m$:** An arbitrary scalar integer multiplier applied to $A$.\n\n## Boundary Conditions / Domain:\n- $A, k, m \in \mathbb{Z}$\n- **Strict Constraint:** $k \neq 0$",
+"formulaMeta": {
+"formula": "k|A \implies k|(mA)",
+"description": "Theorem governing the divisibility of scalar multiples of a dividend $A$ by an existing divisor $k$.",
+"derivation": "1. Given $k|A$, let $A = c \times k$ for some strictly integer quotient $c$.\n2. Multiply $A$ by an arbitrary integer $m$: $mA = m(c \times k)$.\n3. Rearrange the multiplication using associativity: $mA = k(m \times c)$.\n4. Since $(mc)$ is an integer, $mA$ is deterministically divisible by $k$."
+}
+}
+},
+{
+"cardId": "654d867e-83f1-4941-90be-00197b1b1e58",
+"originalOrder": 14,
+"originalHeading": "Transitive Divisibility by Factors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added boundary constraints for divisors"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"factors"
+],
+"order": 15,
+"heading": "Transitive Divisibility by Factors",
+"back": "- **Core Rule:** If a number $A$ is completely divisible by an integer $k$, then $A$ is inherently divisible by **all factors** of $k$.\n- **Algebraic Application:** If $12$ divides a number $M$ (i.e., $M = 12x$), then because $12 = 3 \times 4$, we can rewrite it as $M = 3 \times 4 \times x$. This algebraically proves $3$ and $4$ also perfectly divide $M$.\n\n## Boundary Conditions / Domain:\n- $A \in \mathbb{Z}$\n- $k \in \mathbb{Z}$, $k \neq 0$.",
+"mnemonic": "Factors of the parent are factors of the child.",
+"standardMeta": {
+"question": "If a number $A$ is known to be perfectly divisible by an integer $k$, what can we deterministically conclude about the relationship between the factors of $k$ and the number $A$?"
+}
+}
+},
+{
+"cardId": "fb594e93-2677-4e14-9975-39d7bb12e12b",
+"originalOrder": 15,
+"originalHeading": "Divisibility by Multiple Factors (LCM Rule)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified proper line breaks and LaTeX formatting",
+"Added zero-check to boundaries"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"lcm",
+"class-8"
+],
+"order": 16,
+"heading": "Combined Divisibility (LCM Rule)",
+"back": "## Component Anatomy:\n- **$a, b$:** Two distinct known divisors of the integer $M$.\n- **$\text{LCM}(a,b)$:** The Least Common Multiple of $a$ and $b$.\n\n## Boundary Conditions / Domain:\n- $M, a, b \in \mathbb{Z}$\n- **Strict Constraint:** $a \neq 0$, $b \neq 0$.",
+"formulaMeta": {
+"formula": "a|M \text{ and } b|M \implies \text{LCM}(a, b) | M",
+"description": "The strict algebraic rule for determining combined divisibility when a number is known to be divisible by two separate divisors.",
+"derivation": "1. If $M$ is divisible by $a$, $M$ must contain all prime factors of $a$ to their required powers.\n2. If $M$ is divisible by $b$, $M$ must contain all prime factors of $b$ to their required powers.\n3. Therefore, $M$ must contain the mathematical union of these prime factors.\n4. The union of these prime factors forms exactly the Least Common Multiple (LCM) of $a$ and $b$. Thus, the LCM divides $M$."
+}
+}
+},
+{
+"cardId": "cf6c102b-caa3-4ab6-a45e-1deed14224d9",
+"originalOrder": 16,
+"originalHeading": "The Non-Coprime Trap in Combined Divisibility",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Strengthened mathematical terminology"
+],
+"vettingNotes": "Critical follow-up to the LCM formula to prevent blind multiplication.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"lcm",
+"class-8",
+"trap"
+],
+"order": 17,
+"heading": "Trap: Non-Coprime Combined Divisibility",
+"back": "- **The Trap:** Falsely concluding that divisibility by integer $x$ and integer $y$ automatically implies divisibility by their direct product ($x \times y$).\n- **Mathematical Reality:** This multiplication shortcut ONLY works if $x$ and $y$ are **co-prime** (i.e., their Greatest Common Divisor = 1). If they share factors, you MUST use their LCM.\n- **Counter-Example:** A number divisible by both $4$ and $6$ is only mathematically guaranteed to be divisible by $12$ (their LCM), NOT $24$. To test for divisibility by $24$, you must check divisors that are co-prime, such as $3$ and $8$.",
+"mnemonic": "Don't multiply blindly; trace the LCM strictly.",
+"standardMeta": {
+"question": "Why is verifying divisibility by 4 and 6 fundamentally insufficient to mathematically prove a number is divisible by 24, and what specific divisors should be used instead?"
+}
+}
+},
+{
+"cardId": "c770859e-3edb-43bd-8d8a-5e7d70524157",
+"originalOrder": 26,
+"originalHeading": "Divisibility of the Product of n Consecutive Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double escaped KaTeX",
+"Reordered derivation steps cleanly"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"number-theory",
+"factorials",
+"class-8",
+"jee-main"
+],
+"order": 18,
+"heading": "Divisibility of $n$ Consecutive Integers",
+"back": "## Component Anatomy:\n- **$n$:** The strict number of consecutive integers being multiplied.\n- **$n!$ ($n$-factorial):** The deterministic divisor mathematically guaranteed to perfectly divide the product.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}$, $n > 0$.\n- The consecutive integers themselves can be positive, negative, or cross zero.",
+"mnemonic": "n numbers, n factorial.",
+"formulaMeta": {
+"formula": "\text{Product of } n \text{ consecutive integers} \equiv 0 \pmod{n!}",
+"description": "General mathematical rule proving that the product of 'n' consecutive integers is always perfectly divisible by n-factorial.",
+"derivation": "1. **For n=2:** Out of any 2 consecutive numbers, exactly one must be even. Thus, the product is strictly divisible by $2! = 2$.\n2. **For n=3:** Out of 3 consecutive numbers, there is at least one multiple of 2 and exactly one multiple of 3. Thus, divisible by $3! = 6$.\n3. **For n=4:** Includes guaranteed multiples of 2, 3, and 4. Divisible by $4! = 24$.\n4. **For n=5:** Includes guaranteed multiples of 2, 3, 4, and 5. Divisible by $5! = 120$."
+}
+}
+},
+{
+"cardId": "20631ebd-9438-4eae-8a6c-27253903790c",
+"originalOrder": 17,
+"originalHeading": "Algebraic Representation of Remainders",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Explicitly referenced Euclidean algorithm"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"euclidean",
+"class-8"
+],
+"order": 19,
+"heading": "Algebraic Foundation of Remainders (Euclidean Division)",
+"back": "## Component Anatomy:\n- **$N$:** The initial dividend.\n- **$d$:** The specific divisor.\n- **$k$:** The resulting integer quotient.\n- **$r$:** The absolute remainder.\n\n## Boundary Conditions / Domain:\n- **Crucial Limit:** $0 \le r < d$. The remainder must be non-negative and strictly smaller than the divisor. If $r = d$, the remainder resets to $0$ and $k$ increments.",
+"formulaMeta": {
+"formula": "N = dk + r",
+"description": "The generalized linear algebraic expression representing all numbers $N$ that leave a specific remainder $r$ when divided by divisor $d$.",
+"derivation": "1. This is a direct formalization of the Euclidean Division Algorithm.\n2. It explicitly defines that any dividend $N$ exactly equals the divisor multiplied by the integer quotient, plus whatever remainder is left over."
+}
+}
+},
+{
+"cardId": "a9bf28a1-b32f-488c-803c-1781180976bc",
+"originalOrder": 18,
+"originalHeading": "Negative Remainder Equivalence Form",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added explicit variable domains"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"jee-main"
+],
+"order": 20,
+"heading": "Negative Remainder Equivalence",
+"back": "## Component Anatomy:\n- **$d$:** The integer divisor.\n- **$r$:** The standard positive remainder.\n- **$(d-r)$:** The 'negative remainder', representing the exact mathematical deficit required to reach the next integer multiple of $d$.\n\n## Boundary Conditions / Domain:\n- $d > 0$\n- $0 < r < d$. If $r=0$, there is no deficit.",
+"formulaMeta": {
+"formula": "dk + r = d(k+1) - (d-r)",
+"description": "The algebraic equivalence mapping a standard positive remainder $r$ to its corresponding 'shortfall' or negative remainder format.",
+"derivation": "1. Start with the standard Euclidean form: $N = dk + r$.\n2. Add and subtract the divisor $d$ simultaneously (net zero change): $N = dk + d - d + r$.\n3. Factor $d$ from the first two terms: $N = d(k+1) - d + r$.\n4. Extract the negative sign: $N = d(k+1) - (d-r)$. This formally proves the number is exactly $(d-r)$ short of the next multiple of $d$."
+}
+}
+},
+{
+"cardId": "140ea547-491f-45cb-bfac-fc915dcd58c4",
+"originalOrder": 19,
+"originalHeading": "Simultaneous Remainder Theorem (Constant Deficit)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double escaped KaTeX",
+"Reordered domain constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"lcm",
+"class-8",
+"jee-main"
+],
+"order": 21,
+"heading": "SOP: Simultaneous Remainders (Constant Deficit)",
+"back": "## Component Anatomy:\n- **$d_i$:** The set of given divisors ($d_1, d_2, d_3 \dots$).\n- **$c$:** The strictly constant deficit, defined as $c = d_i - r_i$.\n\n## Boundary Conditions / Domain:\n- **Crucial Condition:** The expression $d_i - r_i$ MUST evaluate to the exact same constant value $c$ for every single given divisor-remainder pair.",
+"formulaMeta": {
+"formula": "N = \text{LCM}(d_1, d_2, d_3) - c",
+"description": "Procedural formula to find the smallest number $N$ leaving distinct remainders $r_1, r_2, r_3$ when divided by $d_1, d_2, d_3$, given a constant deficit.",
+"derivation": "1. Evaluate the gap between each divisor and its remainder: calculate $c = d_i - r_i$.\n2. Recognize via negative remainder equivalence that $N$ is exactly $c$ short of being a perfect multiple for all divisors $d_1, d_2$, and $d_3$.\n3. The absolute smallest common multiple for all divisors is their LCM.\n4. Subtract the constant deficit $c$ from the LCM to mathematically satisfy all remainder conditions simultaneously."
+}
+}
+},
+{
+"cardId": "b01047c1-5536-43d1-95b7-5a8f8a1cc18c",
+"originalOrder": 20,
+"originalHeading": "Algebraic Basis of Divisibility by 9",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Corrected equivalence LaTeX string format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"modulo",
+"class-8"
+],
+"order": 22,
+"heading": "Algebraic Basis: Divisibility by 9",
+"back": "## Component Anatomy:\n- **$10^n$:** The standard base-10 place value multiplier (10, 100, 1000).\n- **$\equiv 1$:** Signifies that it leaves a strict remainder of exactly $1$.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}, n \ge 0$.",
+"formulaMeta": {
+"formula": "10^n \equiv 1 \pmod{9}",
+"description": "State the modulo expression demonstrating why checking the sum of digits works perfectly for divisibility by 9.",
+"derivation": "1. Any integer power of $10$ can be written algebraically as a sequence of nines plus one: $99\dots9 + 1$.\n2. Example: $100 = 99 + 1 = 9(11) + 1$.\n3. Thus, universally, $10^n = 9k + 1$ for some integer $k$.\n4. When divided by 9, the $9k$ component divides perfectly, leaving an isolated remainder of exactly $1$ for every place value."
+}
+}
+},
+{
+"cardId": "f794c947-cd8f-4eb6-a4d9-f442011de74c",
+"originalOrder": 30,
+"originalHeading": "Place Value Face Remainder (Modulo 9)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Corrected LaTeX formula syntax"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"modulo",
+"class-8"
+],
+"order": 23,
+"heading": "Place Value Face Remainder (Modulo 9)",
+"back": "## Component Anatomy:\n- **$d$:** The single face digit.\n- **$10^n$:** The base-10 place value multiplier.\n\n## Boundary Conditions / Domain:\n- $d \in \\{0, 1, 2, \dots, 9\\}$\n- $n \in \mathbb{Z}, n \ge 0$",
+"formulaMeta": {
+"formula": "d \times 10^n \equiv d \pmod{9}",
+"description": "Algebraic relationship proving that the remainder of any isolated place value (e.g., 400 or 7000) divided by 9 is exactly its face digit.",
+"derivation": "1. Start with the previously established identity: $10^n = 9k + 1$.\n2. Multiply the entire equation by the face digit $d$: $d \times 10^n = d(9k + 1)$.\n3. Expand the right side: $9kd + d$.\n4. Because $9kd$ explicitly contains the factor $9$, it is a perfect multiple and leaves zero remainder. The residual term strictly determining the modulo is the face digit $d$."
+}
+}
+},
+{
+"cardId": "66a7984a-bdb9-4a1b-a217-caa3c11d1fe8",
+"originalOrder": 21,
+"originalHeading": "Divisibility Shortcut Algorithm for 9 & 3",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double escaped summation syntax",
+"Clarified modulo relation for 3"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"algorithms"
+],
+"order": 24,
+"heading": "SOP: Sum of Digits Divisibility Test (9 and 3)",
+"back": "## Component Anatomy:\n- **$d_i$:** The individual isolated digits of the initial number $N$.\n- **$\sum$:** Summation of all those individual digits.\n\n## Boundary Conditions / Domain:\n- This algorithmic shortcut works strictly and exclusively for $9$ and $3$, because only for those bases does $10^n \equiv 1$ strictly hold true. It fails completely for divisors like $7, 8, \text{or } 11$.",
+"formulaMeta": {
+"formula": "\sum_{i=0}^{n} d_i \equiv 0 \pmod{9}",
+"description": "Mathematical summation formula to evaluate if a multi-digit number is divisible by 9 or 3.",
+"derivation": "1. Expand the target number algebraically: $d_n 10^n + \dots + d_1 10^1 + d_0$.\n2. Substitute the identity $10^k = 9m_k + 1$: $d_n(9m_n + 1) + \dots + d_0(9m_0 + 1)$.\n3. Expand and strictly group all multiples of 9: $9(d_n m_n + \dots + d_0 m_0) + (d_n + \dots + d_1 + d_0)$.\n4. The first large term is a guaranteed multiple of 9. Therefore, the entire parent number is divisible by 9 if and only if the residual second term (the raw sum of its digits) is divisible by 9."
+}
+}
+},
+{
+"cardId": "8cfc764b-fe7c-47f5-93e1-97d3c5b361dc",
+"originalOrder": 24,
+"originalHeading": "Digital Root Concept and Modulo 9 Properties",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Corrected syntax mapping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"digital-root"
+],
+"order": 25,
+"heading": "Digital Root: Definition and Modulo 9 Integration",
+"back": "- **Definition:** The single absolute digit uniquely obtained by repeatedly summing the digits of a number until only one digit remains.\n- **Property 1 (Modulo Map):** The digital root is mathematically identical to the true remainder obtained when the number is divided by 9.\n- **Property 2 (The 9 Trap):** If the parent number is a perfect multiple of 9, its digital root is exactly **9**, NOT $0$. (Modulo arithmetic yields $0$, but digital root yields $9$).\n- **Property 3 (Cyclicity):** The digital roots of sequential natural numbers inherently cycle from $1$ through $9$ indefinitely.\n\n## Boundary Conditions / Domain:\n- A digital root is always a strictly positive integer in the set $\\{1, 2, \dots, 9\\}$.",
+"mnemonic": "Sum it down to a single crown.",
+"standardMeta": {
+"question": "Define a 'Digital Root' mathematically. How does it explicitly map to the modulo 9 operation, and what happens when the number is a multiple of 9?"
+}
+}
+},
+{
+"cardId": "755fe843-e8d8-4416-88ea-30f8f01e24ff",
+"originalOrder": 27,
+"originalHeading": "Digital Roots Range for Multiples of 3 vs 9",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added domain bounds for digital roots",
+"Refined question for precision"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"trap"
+],
+"order": 26,
+"heading": "Trap: Digital Roots of Multiples of 3 vs. 9",
+"back": "- **For Multiples of 9:** The digital root is strictly and deterministically **9** (e.g., $18 \to 9$, $27 \to 9$).\n- **For Multiples of 3:** The digital root is mathematically restricted to a specific subset: **$\\{3, 6, 9\\}$**.\n- **Distinction Trap:** A digital root of $3$ or $6$ completely guarantees divisibility by $3$, but it explicitly proves the number is **NOT** divisible by $9$. Only a root of $9$ guarantees both.\n\n## Boundary Conditions / Domain:\n- Digital root logic applies strictly to positive integers (natural numbers).",
+"mnemonic": "9 stays 9, but 3 gets 3, 6, and 9.",
+"standardMeta": {
+"question": "What is the critical mathematical distinction between the digital roots of multiples of 9 compared to multiples of 3, and what false assumption must be avoided?"
+}
+}
+},
+{
+"cardId": "0b5da4d3-91d8-44b3-80a8-ab188a784a78",
+"originalOrder": 28,
+"originalHeading": "Digit Shuffle Invariance (Modulo 9 & 3)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to FACT",
+"Added base-10 boundary condition"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"properties"
+],
+"order": 27,
+"heading": "Digit Shuffle Invariance (Modulo 9 & 3)",
+"back": "- **Concept:** If an integer is perfectly divisible by $9$ (or $3$), any arbitrary rearrangement, shuffle, or reversal of its digits will produce a new number that is **still perfectly divisible** by $9$ (or $3$).\n- **Algebraic Proof:** Divisibility by $9$ and $3$ depends exclusively on the linear sum of the digits. Since addition is strictly commutative ($a+b+c = c+b+a$), the modulo result remains $100\\%$ invariant under any permutation of digits.\n\n## Boundary Conditions / Domain:\n- This property is strictly dependent on the **Base-10** numeral system where $10 \equiv 1 \pmod{9}$ and $10 \equiv 1 \pmod{3}$.",
+"mnemonic": "Shuffle the parts, the sum never departs.",
+"standardMeta": {
+"question": "If you completely reverse or randomly shuffle the digits of a number known to be a multiple of 9 or 3, what can be mathematically guaranteed about the new number?"
+}
+}
+},
+{
+"cardId": "6ab62213-dc5a-4c09-8311-75f67aeeb36e",
+"originalOrder": 29,
+"originalHeading": "Modulo 3 Condition for the Sum of Three Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Reformatted as strict Formula block",
+"Double escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"number-theory",
+"modulo",
+"class-8",
+"jee-main"
+],
+"order": 28,
+"heading": "Modulo 3: Sum of Three Arbitrary Integers",
+"back": "## Component Anatomy:\n- **$r_1, r_2, r_3$:** The respective absolute remainders when the three distinct numbers are individually divided by $3$.\n\n## Boundary Conditions / Domain:\n- **Strict Range:** $r_i \in \\{0, 1, 2\\}$. A modulo 3 operation can only ever yield these three valid remainders.",
+"formulaMeta": {
+"formula": "r_1 + r_2 + r_3 \in \{0, 3, 6\}",
+"description": "The strict mathematical conditions regarding the remainders required for the sum of three arbitrary numbers to be a multiple of 3.",
+"derivation": "1. Express the three integers algebraically as $3a+r_1$, $3b+r_2$, and $3c+r_3$.\n2. Their linear sum is $3(a+b+c) + (r_1+r_2+r_3)$.\n3. For the entire expression to be a multiple of $3$, the sum of the isolated remainders $(r_1+r_2+r_3)$ must itself be a multiple of $3$.\n4. Given the domain $r_i \in \\{0,1,2\\}$, this ONLY happens in two distinct cases: All remainders are strictly identical (e.g., $1+1+1=3$) OR all remainders are mutually distinct ($0+1+2=3$)."
+}
+}
+},
+{
+"cardId": "22bf804f-f402-4909-b101-01e899d8175e",
+"originalOrder": 22,
+"originalHeading": "Algebraic Basis of Divisibility by 11",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified KaTeX formatting",
+"Refined component anatomy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"modulo"
+],
+"order": 29,
+"heading": "Algebraic Basis: Divisibility by 11",
+"back": "## Component Anatomy:\n- **$10^n$:** The base-10 place value multiplier.\n- **$(-1)^n$:** The alternating remainder sequence generated by the modulo $11$ operation.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}, n \ge 0$. Represents the index position starting from $0$ at the units place.",
+"formulaMeta": {
+"formula": "10^n \equiv (-1)^n \pmod{11}",
+"description": "The modulo expression demonstrating the exact alternating remainder sequence for powers of 10 when divided by 11.",
+"derivation": "1. For $n=0$ (Units): $1 = 0(11) + 1 \implies \text{Remainder } +1$.\n2. For $n=1$ (Tens): $10 = 1(11) - 1 \implies \text{Remainder } -1$.\n3. For $n=2$ (Hundreds): $100 = 9(11) + 1 \implies \text{Remainder } +1$.\n4. This explicitly isolates an infinite alternating $+1, -1, +1, -1$ remainder pattern propagating linearly from the units place upwards."
+}
+}
+},
+{
+"cardId": "5bf57f0f-cf89-4afa-aeb3-acc895f0de6a",
+"originalOrder": 23,
+"originalHeading": "Divisibility Shortcut Algorithm for 11",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double escaped KaTeX",
+"Explicitly defined place indexing from the units digit"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"number-theory",
+"divisibility",
+"class-8",
+"algorithms"
+],
+"order": 30,
+"heading": "SOP: Alternating Sum Divisibility Test (11)",
+"back": "## Component Anatomy:\n- **$\text{Odd Places}$:** Digits mapped to positions 1, 3, 5... (Strictly starting from the units digit = position 1).\n- **$\text{Even Places}$:** Digits mapped to positions 2, 4, 6... (Strictly starting from the units digit = position 1).\n\n## Boundary Conditions / Domain:\n- **Crucial Note:** The evaluated difference $\left( \sum \text{Odd} - \sum \text{Even} \right)$ is permitted to be a negative integer, zero, or a positive integer. As long as that resulting value is a multiple of $11$ (including $0$ and $-11$), the number passes.",
+"formulaMeta": {
+"formula": "\left( \sum \text{Odd Places} \right) - \left( \sum \text{Even Places} \right) \equiv 0 \pmod{11}",
+"description": "The mathematical algorithm evaluating if a base-10 integer is divisible by 11 using alternating digit sums.",
+"derivation": "1. Based on $10^n \equiv (-1)^n \pmod{11}$, assign a $+1$ multiplier to odd-indexed positions (units, hundreds) and a $-1$ multiplier to even-indexed positions (tens, thousands).\n2. Sum the respective digit subsets.\n3. Subtract the sum of the Even Places from the sum of the Odd Places.\n4. If the resulting scalar difference is a strict multiple of $11$ (or exactly $0$), the parent number is deterministically divisible by $11$."
+}
+}
+},
+{
+"cardId": "0be15ba0-8482-4b88-adfa-8e8266687b8b",
+"originalOrder": 25,
+"originalHeading": "Cryptarithms: Core Directives & Constraints",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split card to isolate foundational rules from solving strategy",
+"Classified strictly as DEFINITION"
+],
+"vettingNotes": "Card split due to cognitive bloat (mixing rules with specific analytical solving strategies).",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"mathematics",
+"cryptarithms",
+"class-8",
+"logic",
+"foundation"
+],
+"order": 31,
+"heading": "Cryptarithms: Core Rules and Constraints",
+"back": "- **Rule 1 (Unique Mapping):** Each distinct letter mathematically stands for a **unique, single digit**. (If $A=5$, no other letter can equal $5$).\n- **Rule 2 (No Leading Zeros):** The leading/first digit of any multi-digit number in the puzzle **cannot equal zero**. (e.g., in the number $AB$, $A \neq 0$).\n\n## Boundary Conditions / Domain:\n- Letters rigidly map exclusively to base-10 digits: $\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.",
+"mnemonic": "Unique letters, non-zero leads.",
+"standardMeta": {
+"question": "State the foundational, non-negotiable rules governing letter mapping and leading digits in standard Cryptarithm puzzles."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted from original Cryptarithm card",
+"Formatted as a procedural strategy for specific endpoints"
+],
+"vettingNotes": "Part 2 of the split Cryptarithm card focusing purely on the algorithmic solving approach.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"cryptarithms",
+"class-8",
+"logic",
+"algorithms"
+],
+"order": 32,
+"heading": "SOP: Solving Multiplication Cryptarithms (Units Analysis)",
+"back": "- **Strategy:** In multiplication puzzles featuring a known integer (e.g., $AB \times 5 = CAB$), **isolate and analyze the units digit first**.\n- **Application:** Any base-10 integer multiplied by $5$ MUST yield a product ending in either $0$ or $5$. \n- **Restriction:** This instantly restricts the domain of the unit variable $B$ to the strict subset $\\{0, 5\\}$, providing an immediate logical anchor to solve the rest of the puzzle.\n\n## Boundary Conditions / Domain:\n- This strategy is highly effective for multipliers that create predictable cyclic unit behaviors (e.g., $5, 0, 1, 6$).",
+"standardMeta": {
+"question": "What is the immediate analytical first step for solving a multiplication Cryptarithm that involves a specific predictable multiplier (like 5)?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

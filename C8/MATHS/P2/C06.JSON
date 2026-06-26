@@ -1,0 +1,787 @@
+{
+"deckId": "e87b148c-b5df-45a9-a31a-9663570d5fce",
+"cards": [
+{
+"cardId": "8abe690e-34f2-4b99-bbc8-ef4f0259947e",
+"originalOrder": 1,
+"originalHeading": "Basic 'Think of a Number' Algebraic Translation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Enforced Component Anatomy layout"
+],
+"vettingNotes": "Axiomatic baseline introducing linear translation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "jee-foundation"],
+"order": 1,
+"heading": "Basic 'Think of a Number' Algebraic Translation",
+"back": "## Component Anatomy:\n- **$x$:** The initial algebraically unknown number chosen.\n- **$2$:** The constant final answer, strictly independent of $x$.\n\n## Boundary Conditions / Domain:\n- $x$ can be absolutely any real number ($x \in \mathbb{R}$). The algebraic cancellation guarantees the result will always be 2.",
+"formulaMeta": {
+"formula": "\frac{2x + 4}{2} - x = 2",
+"description": "State the final algebraic equation when you think of a number x, double it, add 4, divide by 2, and subtract the original number.",
+"derivation": "**Algorithmic SOP:**\n1. Let the starting number be $x$.\n2. Double it: $2x$.\n3. Add 4: $2x + 4$.\n4. Divide the entire binomial by 2: $\frac{2x + 4}{2} = x + 2$.\n5. Subtract the original number: $x + 2 - x = 2$."
+}
+}
+},
+{
+"cardId": "82b2ac57-19cb-466f-8bee-81b35332fa62",
+"originalOrder": 2,
+"originalHeading": "Date Guessing Trick (Algebraic Expression)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Added strict domain sets for Date and Month"
+],
+"vettingNotes": "Practical algebraic application.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory"],
+"order": 2,
+"heading": "Date Guessing Trick (Algebraic Expression)",
+"back": "## Component Anatomy:\n- **$M$:** The numerical value of the Month.\n- **$D$:** The numerical value of the Day.\n- **$R$:** The final numerical result given by the user.\n\n## Boundary Conditions / Domain:\n- $M \in \\{1, 2, \dots, 12\\}$ strictly.\n- $D \in \\{1, 2, \dots, 31\\}$ strictly, bound by the respective calendar month.",
+"mnemonic": "100 Months plus a Day",
+"formulaMeta": {
+"formula": "100M + 165 + D = R",
+"description": "Write the master algebraic equation representing the 'Date Guessing Trick' after all operations are applied to the Month (M) and Day (D).",
+"derivation": "**Algorithmic SOP:**\n1. Multiply month by 5: $5M$.\n2. Add 6: $5M + 6$.\n3. Multiply by 4: $4(5M + 6) = 20M + 24$.\n4. Add 9: $20M + 33$.\n5. Multiply by 5: $5(20M + 33) = 100M + 165$.\n6. Add the day: $100M + 165 + D = R$."
+}
+}
+},
+{
+"cardId": "63f30906-000c-4b1f-845d-bfc839cc411d",
+"originalOrder": 3,
+"originalHeading": "Decoding the Date Guessing Trick",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined markdown structure"
+],
+"vettingNotes": "Inverse procedural logic to the Date Trick.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory"],
+"order": 3,
+"heading": "Decoding the Date Guessing Trick",
+"back": "- **Step 1:** Subtract the constant $165$ from the user's Final Result ($R - 165$).\n- **Step 2:** The resulting number is structurally equivalent to $100M + D$.\n- **Step 3:** The **last two digits** strictly represent the Day ($D$), and the **remaining digit(s)** preceding them strictly represent the Month ($M$).\n\n## Boundary Conditions / Domain:\n- $R$ must be a valid outcome of the algorithm, meaning $R \ge (100(1) + 165 + 1) = 266$.",
+"standardMeta": {
+"question": "How do you algebraically extract the exact Month (M) and Day (D) from the final result (R) in the Date Guessing trick?"
+}
+}
+},
+{
+"cardId": "52a4b948-abd3-49f4-bc96-76fe1acd4a17",
+"originalOrder": 14,
+"originalHeading": "2-Digit Reversal Difference (Algebraic Form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to establish base-10 properties early",
+"Double-escaped LaTeX",
+"Enforced strict 1-9 domain limits"
+],
+"vettingNotes": "Essential base-10 algebra theorem.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory", "jee-foundation"],
+"order": 4,
+"heading": "2-Digit Reversal Difference (Algebraic Form)",
+"back": "## Component Anatomy:\n- **$a$:** The tens digit of the original number.\n- **$b$:** The units digit of the original number.\n\n## Boundary Conditions / Domain:\n- $a, b \in \\{1, 2, \dots, 9\\}$. Neither digit can mathematically be $0$, otherwise the reversed number collapses into a 1-digit number.\n- For this specific algebraic expression to remain positive, $b > a$.",
+"formulaMeta": {
+"formula": "(10b + a) - (10a + b) = 9(b - a)",
+"description": "Write the algebraic equation demonstrating the difference between a 2-digit number (ab) and its reverse (ba) when b > a.",
+"derivation": "**Proof:**\n1. The algebraically reversed number (larger) is represented as: $10b + a$.\n2. The original number (smaller) is represented as: $10a + b$.\n3. Difference: $(10b + a) - (10a + b)$.\n4. Expand and combine like terms: $10b - b + a - 10a = 9b - 9a = 9(b - a)$."
+}
+}
+},
+{
+"cardId": "149c9a8a-12c2-474a-b17b-f8ae11f8b635",
+"originalOrder": 15,
+"originalHeading": "Divisibility of 2-Digit Reversal Difference",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered",
+"Checked classification"
+],
+"vettingNotes": "Direct theorem deriving from the previous form.",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "class-8", "ch-06", "number-theory", "jee-foundation", "ssc"],
+"order": 5,
+"heading": "Divisibility of 2-Digit Reversal Difference",
+"back": "- The mathematical difference between any 2-digit number and its geometric reverse is **always perfectly divisible by 9**.\n- Furthermore, the resulting algebraic quotient exactly equals the absolute **difference between the two constituent digits** ($|b - a|$).\n- *Example:* $82 - 28 = 54$. $54 \div 9 = 6$. The difference $|8 - 2| = 6$.",
+"standardMeta": {
+"question": "What number always perfectly divides the difference between any 2-digit number and its reverse, and what does the resulting quotient represent?"
+}
+}
+},
+{
+"cardId": "a0d61801-3368-41f5-8c98-8aed020cc7e4",
+"originalOrder": 16,
+"originalHeading": "2-Digit Reversal Sum (Algebraic Form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered",
+"Double-escaped LaTeX",
+"Enforced boundary domains"
+],
+"vettingNotes": "Parallel property to reversal difference.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory", "jee-foundation"],
+"order": 6,
+"heading": "2-Digit Reversal Sum (Algebraic Form)",
+"back": "## Component Anatomy:\n- **$a$:** The tens digit of the original number.\n- **$b$:** The units digit of the original number.\n\n## Boundary Conditions / Domain:\n- $a, b \in \\{1, 2, \dots, 9\\}$. They must be strictly non-zero to maintain 2-digit integrity in both orientations.",
+"formulaMeta": {
+"formula": "(10a + b) + (10b + a) = 11(a + b)",
+"description": "Write the algebraic equation demonstrating the sum of a 2-digit number (ab) and its reverse (ba).",
+"derivation": "**Proof:**\n1. Original Number expanded: $10a + b$.\n2. Reversed Number expanded: $10b + a$.\n3. Sum: $(10a + b) + (10b + a)$.\n4. Combine like terms: $10a + a + 10b + b = 11a + 11b$.\n5. Factor out the constant: $11(a + b)$."
+}
+}
+},
+{
+"cardId": "245513fe-b89a-45ad-beee-ec0163241529",
+"originalOrder": 17,
+"originalHeading": "Divisibility of 2-Digit Reversal Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered"
+],
+"vettingNotes": "Direct theorem deriving from the reversal sum.",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "class-8", "ch-06", "number-theory", "jee-foundation", "ssc"],
+"order": 7,
+"heading": "Divisibility of 2-Digit Reversal Sum",
+"back": "- The sum of any 2-digit number and its geometric reverse is **always perfectly divisible by 11**.\n- The resulting algebraic quotient is exactly equal to the **sum of the two constituent digits** ($a + b$).\n- *Example:* $47 + 74 = 121$. $121 \div 11 = 11$. The sum $4 + 7 = 11$.",
+"standardMeta": {
+"question": "What number always perfectly divides the sum of a 2-digit number and its reverse, and what does the quotient represent?"
+}
+}
+},
+{
+"cardId": "352a7b2b-0f70-4994-9073-f1f225080b84",
+"originalOrder": 18,
+"originalHeading": "3-Digit Cyclic Sum Expansion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Expanded variable definitions"
+],
+"vettingNotes": "Scales the base-10 algebra to hundreds.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory"],
+"order": 8,
+"heading": "3-Digit Cyclic Sum Expansion",
+"back": "## Component Anatomy:\n- **$a, b, c$:** The hundreds, tens, and units digits respectively of the starting number.\n- **$abc, bca, cab$:** The three geometric cyclic permutations of the digits.\n\n## Boundary Conditions / Domain:\n- $a, b, c \in \\{1, 2, \dots, 9\\}$. Digits strictly cannot be $0$ to ensure all three cyclic permutations remain valid 3-digit numbers.",
+"formulaMeta": {
+"formula": "\text{Value}(abc) + \text{Value}(bca) + \text{Value}(cab) = 111(a + b + c)",
+"description": "Write the algebraic expansion proving that the sum of the three cyclic permutations of a 3-digit number is a multiple of 111.",
+"derivation": "**Proof:**\n1. Evaluate $abc = 100a + 10b + c$.\n2. Evaluate $bca = 100b + 10c + a$.\n3. Evaluate $cab = 100c + 10a + b$.\n4. Summing all components: $(100a+a+10a) + (10b+100b+b) + (c+10c+100c)$.\n5. This yields $111a + 111b + 111c = 111(a + b + c)$."
+}
+}
+},
+{
+"cardId": "f4627be9-2094-4c9e-b7ba-755fae58c35f",
+"originalOrder": 19,
+"originalHeading": "Divisibility of 3-Digit Cyclic Sums",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Verified FACT classification"
+],
+"vettingNotes": "Direct consequence of the expansion.",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "class-8", "ch-06", "number-theory", "jee-foundation"],
+"order": 9,
+"heading": "Divisibility of 3-Digit Cyclic Sums",
+"back": "- The sum is strictly perfectly divisible by the prime numbers **37** and **3**.\n- This is algebraically derived because the sum yields $111(a+b+c)$, and the fundamental prime factorization of $111$ is exactly $37 \times 3$.",
+"standardMeta": {
+"question": "Which two prime numbers always perfectly divide the sum of the three cyclic permutations of a 3-digit number (abc + bca + cab)?"
+}
+}
+},
+{
+"cardId": "c17abf13-ccb8-4277-b5de-d93614ecf8ca",
+"originalOrder": 20,
+"originalHeading": "The 6-Digit Repeated Sequence Trick",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped LaTeX",
+"Added factorization bounds"
+],
+"vettingNotes": "Advanced base-10 factoring.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "number-theory", "jee-foundation"],
+"order": 10,
+"heading": "The 6-Digit Repeated Sequence Trick",
+"back": "## Component Anatomy:\n- **$abcabc$:** A 6-digit number formed by writing a 3-digit number geometrically twice sequentially.\n- **$100a + 10b + c$:** The foundational algebraic expansion of the 3-digit number $abc$.\n\n## Boundary Conditions / Domain:\n- $a \neq 0$. The leading digit must be non-zero to maintain strict 6-digit structural integrity.",
+"mnemonic": "7, 11, 13 equals 1001",
+"formulaMeta": {
+"formula": "\text{Value}(abcabc) = 1001 \times (100a + 10b + c)",
+"description": "Express the 6-digit repeating number abcabc algebraically as a product of 1001 and the original 3-digit number.",
+"derivation": "**Proof:**\n1. Expand the place values: $100000a + 10000b + 1000c + 100a + 10b + c$.\n2. Algebraically group the terms by digit: $100100a + 10010b + 1001c$.\n3. Factor out the common multiplier 1001: $1001(100a + 10b + c)$.\n4. *Corollary:* Since the prime factorization of $1001 = 7 \times 11 \times 13$, any $abcabc$ number is strictly divisible by 7, 11, and 13."
+}
+}
+},
+{
+"cardId": "b1e029a4-88b4-45d7-8862-ac038eac5c28",
+"originalOrder": 12,
+"originalHeading": "The Largest Product Algorithm (3 Digits)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 11"
+],
+"vettingNotes": "Concludes the digit manipulation section.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "optimization"],
+"order": 11,
+"heading": "The Largest Product Algorithm (3 Digits)",
+"back": "- **Step 1:** Identify the **largest absolute digit** in the set and strictly assign it as the isolated single-digit multiplier.\n- **Step 2:** Arrange the remaining two digits in **strictly decreasing order** to form the 2-digit multiplicand.\n- *Example:* Given the digits 2, 3, 5.\n  - Largest is 5 (Multiplier).\n  - Decreasing order of remainder is 32 (Multiplicand).\n  - The global maximum product is $32 \times 5 = 160$.",
+"standardMeta": {
+"question": "What is the specific algorithmic rule for forming the maximum possible product of a 2-digit and a 1-digit number using three distinct given digits?"
+}
+}
+},
+{
+"cardId": "2d43b377-d06e-4c3f-8462-8354815cc74e",
+"originalOrder": 13,
+"originalHeading": "Algebraic Proof of the Largest Product",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 12",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Proof justifying the algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "inequalities"],
+"order": 12,
+"heading": "Algebraic Proof of the Largest Product",
+"back": "## Component Anatomy:\n- **$p, q, r$:** Three distinct numerical digits.\n- **$qp$:** A 2-digit number with tens digit $q$ and units digit $p$ (algebraically $10q + p$).\n\n## Boundary Conditions / Domain:\n- Strict mathematical inequality constraint: $p < q < r$.\n- $p, q, r \in \\{1, 2, \dots, 9\\}$.",
+"formulaMeta": {
+"formula": "qp \times r > rp \times q",
+"description": "Write the algebraic inequality that proves the largest product configuration for three digits p, q, and r (where p < q < r).",
+"derivation": "**Proof:**\n1. Expand the optimal configuration: $qp \times r = (10q + p)r = 10qr + pr$.\n2. Expand the primary suboptimal configuration: $rp \times q = (10r + p)q = 10rq + pq$.\n3. Since $10qr$ and $10rq$ are mathematically identical, the inequality reduces to comparing $pr$ and $pq$.\n4. Because the given condition states $r > q$, it algebraically follows that $pr > pq$.\n5. Therefore, $10qr + pr > 10rq + pq$, establishing $qp \times r$ as the strict maximum."
+}
+}
+},
+{
+"cardId": "59cb1e4b-4164-4dc7-b247-9f15d351a1c8",
+"originalOrder": 24,
+"originalHeading": "Sum Sequence of Odd Numbers Fractions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 13",
+"Double-escaped LaTeX",
+"Added explicit sum definitions"
+],
+"vettingNotes": "Bridge between digit algebra and sequence logic.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "sequences", "algebra"],
+"order": 13,
+"heading": "Sum Sequence of Odd Numbers Fractions",
+"back": "## Component Anatomy:\n- **$n$:** The quantity of consecutive odd numbers being algebraically summed in both the numerator and the denominator.\n\n## Boundary Conditions / Domain:\n- $n$ must be a strictly positive integer ($n \ge 1$).\n- The numerator sum must strictly begin at 1, and the denominator sum must immediately proceed sequentially from the numerator's maximum.",
+"formulaMeta": {
+"formula": "\frac{\sum_{i=1}^{n} (2i - 1)}{\sum_{i=n+1}^{2n} (2i - 1)} = \frac{n^2}{3n^2} = \frac{1}{3}",
+"description": "Provide the generalized formula that proves why fractions structured like 1/3, (1+3)/(5+7), and (1+3+5)/(7+9+11) always evaluate to exactly 1/3.",
+"derivation": "**Algebraic Proof:**\n1. The mathematical sum of the first $n$ consecutive odd numbers evaluates strictly to $n^2$.\n2. The sum of the *next* $n$ consecutive odd numbers evaluates algebraically to $3n^2$ (derived via $(2n)^2 - n^2 = 4n^2 - n^2 = 3n^2$).\n3. Setting the ratio: $\frac{n^2}{3n^2}$.\n4. The $n^2$ mathematically cancels out, leaving exactly $\frac{1}{3}$ universally.\n*Example ($n=3$):* $\frac{1+3+5}{7+9+11} = \frac{9}{27} = \frac{1}{3}$."
+}
+}
+},
+{
+"cardId": "97698974-094f-403d-ad49-215574d270b4",
+"originalOrder": 4,
+"originalHeading": "Number Pyramid Base Rule",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 14",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Axiomatic baseline for spatial pyramids.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "sequences"],
+"order": 14,
+"heading": "Number Pyramid Base Rule",
+"back": "## Component Anatomy:\n- **$T$:** The algebraic value of the top block.\n- **$L$:** The algebraic value of the block directly below and to the left.\n- **$R$:** The algebraic value of the block directly below and to the right.\n\n## Boundary Conditions / Domain:\n- This additive law is valid for any adjacent, inverted triangular 3-block configuration anywhere within a standard addition pyramid structure.",
+"formulaMeta": {
+"formula": "T = L + R",
+"description": "State the fundamental mathematical relationship between a block and the blocks directly below it in a number pyramid.",
+"derivation": "This is an axiomatic definition. The block resting on top of two lower blocks is explicitly defined as the algebraic sum of those two foundational blocks."
+}
+}
+},
+{
+"cardId": "2bf6b238-be36-4065-929d-0581de1402d5",
+"originalOrder": 5,
+"originalHeading": "Topmost Value of a 3-Row Number Pyramid",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 15",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Scales the pyramid base rule.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "sequences"],
+"order": 15,
+"heading": "Topmost Value of a 3-Row Number Pyramid",
+"back": "## Component Anatomy:\n- **$a, b, c$:** The algebraic values of the blocks in the foundational bottom row, read sequentially from left to right.\n\n## Boundary Conditions / Domain:\n- Formula applies strictly and only to an additive pyramid with exactly 3 horizontal rows.",
+"mnemonic": "a, 2b, c",
+"formulaMeta": {
+"formula": "\text{Top} = a + 2b + c",
+"description": "Write the simplified algebraic expression for the topmost block of a 3-row number pyramid with bottom row values a, b, c.",
+"derivation": "**Algebraic Proof:**\n1. **Row 1 (Bottom):** Contains values $a, b, c$.\n2. **Row 2:** Applying the $T=L+R$ rule, the two blocks become $(a+b)$ and $(b+c)$.\n3. **Row 3 (Top):** Summing the Row 2 blocks yields $(a+b) + (b+c)$.\n4. **Combine like terms:** $a + 2b + c$."
+}
+}
+},
+{
+"cardId": "6cccb22c-7f39-4cfe-b11d-1d8dc7f809c4",
+"originalOrder": 6,
+"originalHeading": "Topmost Value of a 4-Row Number Pyramid",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 16",
+"Double-escaped LaTeX",
+"Explicit connection to Pascal's Triangle"
+],
+"vettingNotes": "Reveals binomial coefficient patterns.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "sequences", "combinatorics"],
+"order": 16,
+"heading": "Topmost Value of a 4-Row Number Pyramid",
+"back": "## Component Anatomy:\n- **$a, b, c, d$:** The algebraic values of the blocks in the foundational bottom row, read sequentially from left to right.\n\n## Boundary Conditions / Domain:\n- Applies strictly to additive pyramids with exactly 4 horizontal rows.",
+"mnemonic": "1, 3, 3, 1 (Pascal's Triangle coefficients)",
+"formulaMeta": {
+"formula": "\text{Top} = a + 3b + 3c + d",
+"description": "Write the simplified algebraic expression for the topmost block of a 4-row number pyramid with bottom row values a, b, c, d.",
+"derivation": "**Algebraic Proof:**\n1. **Row 1 (Bottom):** $a, b, c, d$.\n2. **Row 2:** Applying the base rule yields $(a+b), (b+c), (c+d)$.\n3. **Row 3:** Summing adjacent pairs yields $(a+b+b+c) \Rightarrow (a+2b+c)$ and $(b+c+c+d) \Rightarrow (b+2c+d)$.\n4. **Row 4 (Top):** Summing Row 3 yields $(a+2b+c) + (b+2c+d)$.\n5. **Combine like terms:** $a + 3b + 3c + d$."
+}
+}
+},
+{
+"cardId": "877ec131-6c62-413f-93ea-1c70c1be18bc",
+"originalOrder": 7,
+"originalHeading": "Virahānka-Fibonacci Sequence",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 17",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Foundation for the next puzzle structure.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-8", "ch-06", "sequences", "number-theory"],
+"order": 17,
+"heading": "Virahānka-Fibonacci Sequence",
+"back": "- **Definition:** A recursive mathematical sequence where each individual number is the explicit algebraic sum of the **two immediately preceding numbers**.\n- **Standard Sequence:** $1, 2, 3, 5, 8, 13, 21, 34, 55, \dots$\n- *(Note: While modern definitions often start with $0, 1$, standard school arithmetic models frequently map from $1, 2$ for applied puzzle purposes).* ",
+"standardMeta": {
+"question": "What is the defining algebraic rule of the Virahānka-Fibonacci number sequence, and what are its first few terms?"
+}
+}
+},
+{
+"cardId": "32777368-c18d-4b57-a666-f90161c2a7bb",
+"originalOrder": 8,
+"originalHeading": "Virahānka-Fibonacci Pyramids",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 18",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Synthesizes pyramids with Fibonacci.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "sequences", "algebra"],
+"order": 18,
+"heading": "Virahānka-Fibonacci Pyramids",
+"back": "- **Property 1:** The topmost apex block will strictly evaluate to the **$(2n - 1)^{\text{th}}$ Virahānka-Fibonacci number** in the master sequence.\n- **Property 2:** **Every single number** that is generated anywhere inside the intermediate rows of this specific pyramid grid is mathematically guaranteed to also be a valid Virahānka-Fibonacci number.",
+"standardMeta": {
+"question": "If the bottom row of an n-row additive pyramid contains the first n Virahānka-Fibonacci numbers sequentially, what two distinct mathematical properties describe the rest of the pyramid?"
+}
+}
+},
+{
+"cardId": "a9d5ccd4-431f-4a9f-b1a2-ab73f961468b",
+"originalOrder": 9,
+"originalHeading": "Calendar Magic: $2 \times 2$ Grid Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 19",
+"Double-escaped LaTeX",
+"Fixed matrix formatting"
+],
+"vettingNotes": "Translates calendar geometry into algebra.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "matrices"],
+"order": 19,
+"heading": "Calendar Magic: 2x2 Grid Sum",
+"back": "## Component Anatomy:\n- **$S$:** The algebraic sum of all four dates in the $2 \times 2$ matrix.\n- **$a$:** The top-left date serving as the anchor coordinate.\n\n## Boundary Conditions / Domain:\n- $a$ must be a valid starting date ($a \ge 1$).\n- A full $2 \times 2$ square must fit within the month, meaning $a+8 \le 31$ (or the month's maximum length).",
+"formulaMeta": {
+"formula": "S = 4a + 16",
+"description": "State the algebraic formula for the sum of four dates in a 2x2 calendar grid in terms of the top-left date 'a'.",
+"derivation": "**Proof:**\n1. In a standard 7-day calendar row format, the four dates form the spatial matrix: \n   $\begin{bmatrix} a & a+1 \\\\ a+7 & a+8 \end{bmatrix}$\n2. Extract and sum the elements: $a + (a+1) + (a+7) + (a+8)$.\n3. Combine like terms: $4a + 16$."
+}
+}
+},
+{
+"cardId": "82778c5e-3809-4d60-a062-43e7ad6a2a3e",
+"originalOrder": 10,
+"originalHeading": "Decoding the $2 \times 2$ Calendar Grid",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 20",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Inverse calculation for the 2x2 grid.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "matrices"],
+"order": 20,
+"heading": "Decoding the 2x2 Calendar Grid",
+"back": "- **Step 1:** Subtract the constant 16 from the target total sum $S$ ($S - 16$).\n- **Step 2:** Divide the resulting difference strictly by 4.\n- **Conclusion:** The final mathematical quotient evaluates exactly to $a$, identifying the top-left coordinate date of the chosen grid.",
+"mnemonic": "Minus 16, Quarter it",
+"standardMeta": {
+"question": "Given the total sum S of a 2x2 calendar grid, what is the exact algebraic Standard Operating Procedure to find the starting top-left date (a)?"
+}
+}
+},
+{
+"cardId": "f6530eae-ccfc-4904-aacc-d10a721199f8",
+"originalOrder": 11,
+"originalHeading": "Calendar Magic: $3 \times 3$ Grid Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 21",
+"Double-escaped LaTeX",
+"Added boundary constraints"
+],
+"vettingNotes": "Scales the calendar matrix logic.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "matrices"],
+"order": 21,
+"heading": "Calendar Magic: 3x3 Grid Sum",
+"back": "## Component Anatomy:\n- **$S$:** The absolute sum of all nine dates in the spatial grid.\n- **$a$:** The top-left date serving as the anchor.\n\n## Boundary Conditions / Domain:\n- $a$ must allow for a full $3 \times 3$ grid. This requires $a+16 \le 31$ (or the month's maximum days), so practically $a \le 15$.",
+"formulaMeta": {
+"formula": "S = 9a + 72 = 9(a + 8)",
+"description": "State the algebraic formula for the sum of nine dates in a 3x3 calendar grid in terms of the top-left date 'a'.",
+"derivation": "**Proof Expansion:**\n1. Row 1: $a + (a+1) + (a+2) = 3a + 3$\n2. Row 2 (+7 days): $(a+7) + (a+8) + (a+9) = 3a + 24$\n3. Row 3 (+14 days): $(a+14) + (a+15) + (a+16) = 3a + 45$\n4. Aggregate Sum: $(3a+3) + (3a+24) + (3a+45) = 9a + 72$."
+}
+}
+},
+{
+"cardId": "53d25cad-f933-4d41-a7a9-201bd5645358",
+"originalOrder": 26,
+"originalHeading": "3x3 Calendar Grid: Center Element Corollary",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 22",
+"Double-escaped LaTeX",
+"Classification adjusted to CONCEPT"
+],
+"vettingNotes": "Immediately connects the 3x3 derivation to its powerful heuristic.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-8", "ch-06", "algebra", "matrices"],
+"order": 22,
+"heading": "3x3 Calendar Grid: Center Element Corollary",
+"back": "- **Heuristic Rule:** The total algebraic sum of the 9 dates is exactly **9 times the center date** of the grid.\n- **Algebraic Proof:** If the top-left date is $a$, the comprehensive sum evaluates to $9a + 72$, which strictly factors to $9(a + 8)$.\n- Since the physical center date coordinate in a standard 7-day calendar $3 \times 3$ grid is exactly $a + 8$ (down one row, right one column), the sum is structurally equivalent to $9 \times \text{Center Element}$.",
+"mnemonic": "Nine times the heart",
+"standardMeta": {
+"question": "What is the direct arithmetic shortcut to mathematically find the sum of any 3x3 calendar grid without needing to solve for the top-left date?"
+}
+}
+},
+{
+"cardId": "a7a1807a-2717-4601-ab2a-4fa5767479de",
+"originalOrder": 27,
+"originalHeading": "Calendar Magic: 5-Cell Cross Grid Sum",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 23",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Concluding spatial calendar trick.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "matrices"],
+"order": 23,
+"heading": "Calendar Magic: 5-Cell Cross Grid Sum",
+"back": "## Component Anatomy:\n- **$S$:** The total mathematical sum of the 5 dates forming the cross structure.\n- **$a$:** The absolute topmost date of the cross configuration.\n- **$a + 7$:** The central intersection date of the cross.\n\n## Boundary Conditions / Domain:\n- $a$ must be a valid date where the cross geometry does not overflow the structural edges of the specific month's calendar layout.",
+"formulaMeta": {
+"formula": "S = 5a + 35 = 5(a + 7)",
+"description": "State the algebraic formula for the sum of a 5-cell cross-shaped calendar grid (+ shape) in terms of its topmost element a, and note its factored relationship to the center element.",
+"derivation": "**Proof:**\n1. **Top Element:** $a$\n2. **Middle Row (Left, Center, Right):** $(a+6) + (a+7) + (a+8) = 3a + 21$\n3. **Bottom Element:** $a+14$ (two weeks below top)\n4. **Aggregate Sum:** $a + (3a + 21) + (a + 14) = 5a + 35$\n5. **Factored:** $5(a+7)$, mathematically proving the sum is exactly 5 times the center element."
+}
+}
+},
+{
+"cardId": "3e713fbf-c1b9-4b50-92f0-3df0d28dfddd",
+"originalOrder": 22,
+"originalHeading": "Heads and Legs Algebraic Setup",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 24",
+"Double-escaped LaTeX",
+"Enforced positive integer domain constraints"
+],
+"vettingNotes": "Transitions into formal word problem translation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations"],
+"order": 24,
+"heading": "Heads and Legs Algebraic Setup",
+"back": "## Component Anatomy:\n- **$x$:** The unknown number of hens (bearing 2 legs each).\n- **$y$:** The unknown number of horses (bearing 4 legs each).\n\n## Boundary Conditions / Domain:\n- $x \ge 0$, $y \ge 0$.\n- Both variables must strictly be integers ($x, y \in \mathbb{W}$), as biological entities cannot be fractional.",
+"formulaMeta": {
+"formula": "\begin{aligned} x + y &= 55 \\ 2x + 4y &= 150 \end{aligned}",
+"description": "Formulate the exact system of linear equations for a farm with 55 total heads and 150 total legs containing exclusively hens and horses.",
+"derivation": "**Translation SOP:**\n1. Biological constraint: Every healthy animal possesses exactly 1 head. Therefore, the sum of entities equals 55 $\Rightarrow x + y = 55$.\n2. Leg constraints: Hens have exactly 2 legs ($2x$), and horses have exactly 4 ($4y$).\n3. Equating the leg count to the total provides the second equation $\Rightarrow 2x + 4y = 150$."
+}
+}
+},
+{
+"cardId": "c8c0b4a8-7f86-4684-8a66-7feec90c0d1e",
+"originalOrder": 23,
+"originalHeading": "Heads and Legs Arithmetic Shortcut",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 25",
+"Double-escaped LaTeX"
+],
+"vettingNotes": "Provides mathematical distinction and lateral thinking alternative.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "arithmetic", "problem-solving"],
+"order": 25,
+"heading": "Heads and Legs Arithmetic Shortcut",
+"back": "- **Step 1:** Establish a baseline assumption. Assume ALL 55 animals are the 2-legged variant (hens).\n- **Step 2:** Calculate theoretical legs: $55 \times 2 = 110$ legs.\n- **Step 3:** Find the mathematical deficit compared to the given reality: $150 - 110 = 40$ extra legs that must belong to the 4-legged variant.\n- **Step 4:** Divide the extra legs by exactly 2 (since each horse possesses exactly 2 more legs than a hen) to determine the absolute number of horses: $40 \div 2 = 20$ horses.\n- **Step 5:** Back-solve for hens: Total $55 - 20 = 35$ hens.",
+"standardMeta": {
+"question": "How do you systematically solve the '55 heads, 150 legs (hens and horses)' puzzle strictly using algorithmic arithmetic, completely avoiding formal algebraic variables (x, y)?"
+}
+}
+},
+{
+"cardId": "caf9f84e-15a1-4c42-8f9b-8da6c842afdc",
+"originalOrder": 31,
+"originalHeading": "Simultaneous Linear Equations: The Cowherd Transfer",
+"action": "SPLIT",
+"modificationsSummary": [
+"Reordered to position 26",
+"Split equation setup from algebraic solving steps",
+"Double-escaped LaTeX formulas"
+],
+"vettingNotes": "First card of the split, focusing strictly on translation into algebra.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations", "word-problems"],
+"order": 26,
+"heading": "Simultaneous Linear Equations: Cowherd Transfer (Setup)",
+"back": "## Component Anatomy:\n- **$x$:** The numerical quantity held by the person with fewer items.\n- **$y$:** The numerical quantity held by the person with more items.\n\n## Boundary Conditions / Domain:\n- $x$ and $y$ must strictly be positive integers ($x, y \in \mathbb{Z}^+$). You cannot transfer fractional cows.",
+"formulaMeta": {
+"formula": "\begin{aligned} y &= 2x \\ x + 3 &= y - 3 \end{aligned}",
+"description": "Set up the algebraic system of equations for a scenario where person Y has twice as many items as person X, but transferring 3 items from Y to X equalizes their amounts.",
+"derivation": "**Translation SOP:**\n1. **Condition 1 (Twice as many):** Algebraically equate the larger quantity to twice the smaller quantity $\implies y = 2x$.\n2. **Condition 2 (Transfer equalizes):** $x$ gains 3 items ($x+3$), while $y$ simultaneously loses 3 items ($y-3$).\n3. Set these two new states equal to each other to form the second equation $\implies x + 3 = y - 3$."
+}
+}
+},
+{
+"cardId": "NEW_COWHERD_SOLVE",
+"originalOrder": 31,
+"originalHeading": "Simultaneous Linear Equations: The Cowherd Transfer",
+"action": "NEW",
+"modificationsSummary": [
+"Created to handle the algorithmic solving steps of the split"
+],
+"vettingNotes": "Second part of the split. Tests the substitution method.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations"],
+"order": 27,
+"heading": "Solving the Cowherd Transfer Equations",
+"back": "- **Step 1:** Start with the equated transfer equation: $x + 3 = y - 3$.\n- **Step 2 (Substitution):** Since the first condition strictly defines $y = 2x$, substitute $2x$ in place of $y$ in the transfer equation: $x + 3 = 2x - 3$.\n- **Step 3 (Isolate Variables):** Subtract $x$ from both sides to group variables on the right: $3 = x - 3$.\n- **Step 4 (Solve for x):** Add 3 to both sides to solve for the smaller quantity: $x = 6$.\n- **Step 5 (Solve for y):** Substitute $x = 6$ back into the first equation: $y = 2(6) = 12$.",
+"standardMeta": {
+"question": "Given the system of equations $y = 2x$ and $x + 3 = y - 3$, what is the step-by-step algebraic procedure to solve for $x$ and $y$?"
+}
+}
+},
+{
+"cardId": "26e895e1-1bf4-444f-b9e9-42dc2534541d",
+"originalOrder": 28,
+"originalHeading": "Linear Profit-Volume Function (Dosa Cart Model)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 28",
+"Refined bounds and domain"
+],
+"vettingNotes": "Advanced commercial math linear setup.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "commercial-math"],
+"order": 28,
+"heading": "Linear Profit-Volume Function",
+"back": "## Component Anatomy:\n- **$P$:** Target absolute Profit.\n- **$n$:** Quantity of distinct units sold.\n- **$p$:** Selling price strictly per unit.\n- **$v$:** Variable cost strictly per unit (e.g., ingredients, fuel per item).\n- **$F$:** Fixed daily sunk cost (e.g., rent, cart fee).\n\n## Boundary Conditions / Domain:\n- $n \ge 0$ (Quantity physically cannot be negative).\n- For positive profit ($P > 0$), the selling price must strictly exceed the variable cost ($p > v$), and the volume $n$ must exceed the break-even volume threshold ($n > \frac{F}{p-v}$).",
+"formulaMeta": {
+"formula": "P = n(p - v) - F",
+"description": "Formulate the standard algebraic equation to find the target profit (P) given a fixed daily cost (F), variable cost per unit (v), selling price per unit (p), and units sold (n).",
+"derivation": "**SOP:**\n1. Calculate **Total Revenue:** Multiply items sold by price ($n \times p$).\n2. Calculate **Total Cost:** Sum the Fixed Cost and the Total Variable Cost $\implies F + (n \times v)$.\n3. Calculate **Profit:** Subtract Total Cost strictly from Total Revenue $\implies P = np - (F + nv)$.\n4. Factor out the volume $n$ algebraically: $P = n(p - v) - F$."
+}
+}
+},
+{
+"cardId": "b2a24d06-e187-4355-aa40-8a2b23283c6d",
+"originalOrder": 21,
+"originalHeading": "Magical Ponds Algebraic Setup",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 29",
+"Double-escaped LaTeX formatting"
+],
+"vettingNotes": "Introduces multi-stage iterative algebraic modeling.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations", "iterative-functions"],
+"order": 29,
+"heading": "Magical Ponds Iterative Setup",
+"back": "## Component Anatomy:\n- **$x$:** The algebraically unknown initial number of flowers.\n- **$k$:** The fixed constant number of flowers dropped at each of the 3 shrines.\n\n## Boundary Conditions / Domain:\n- $x$ and $k$ must be positive integers ($x, k \in \mathbb{Z}^+$).\n- The formula strictly requires complete exact depletion at the 3rd shrine (equals zero).",
+"formulaMeta": {
+"formula": "8x - 7k = 0 \implies x = \frac{7k}{8}",
+"description": "Formulate the algebraic equation to find x if flowers geometrically double at 3 ponds and a fixed amount k is dropped at 3 shrines, leaving exactly 0 flowers at the end.",
+"derivation": "**Algorithmic Expansion:**\n1. **Pond 1 / Shrine 1:** Start with $x$, double it, subtract $k$ $\implies 2x - k$.\n2. **Pond 2 / Shrine 2:** Double the previous remainder and subtract $k$ $\implies 2(2x - k) - k = 4x - 3k$.\n3. **Pond 3 / Shrine 3:** Double again and subtract $k$ $\implies 2(4x - 3k) - k = 8x - 7k$.\n4. **Set to Zero:** Since no flowers remain, set to zero and isolate $x$: $8x - 7k = 0 \implies x = \frac{7k}{8}$."
+}
+}
+},
+{
+"cardId": "3cabbcf8-3bdd-4571-a518-b7ed21ca4ec6",
+"originalOrder": 25,
+"originalHeading": "Karim and the Genie Puzzle Setup",
+"action": "SPLIT",
+"modificationsSummary": [
+"Reordered to position 30",
+"Extracted the iterative stage expansion into a separate PROCEDURAL card to reduce cognitive bloat"
+],
+"vettingNotes": "Part 1 of the split, handling the complex expansion steps.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "iterative-functions", "word-problems"],
+"order": 30,
+"heading": "Karim and the Genie: Iterative Expansion",
+"back": "- **Round 1:** Starts with $x$ coins. The genie doubles them ($2x$), and Karim pays the fixed fee $k$. Result $\implies 2x - k$.\n- **Round 2:** The remaining money doubles $2(2x - k)$, and Karim pays $k$ again. Expand the expression $\implies 4x - 2k - k = 4x - 3k$.\n- **Round 3:** The remaining money doubles $2(4x - 3k)$, and Karim pays the final fee $k$. Expand the expression $\implies 8x - 6k - k = 8x - 7k$.\n\n## Boundary Conditions / Domain:\n- Valid for precisely 3 full sequential rounds of operations.",
+"standardMeta": {
+"question": "If Karim starts with $x$ coins, his money strictly doubles, and he pays a fixed fee $k$ each round, what is the step-by-step algebraic expansion of his wealth over 3 complete rounds?"
+}
+}
+},
+{
+"cardId": "NEW_KARIM_GENIE_EQUATION",
+"originalOrder": 25,
+"originalHeading": "Karim and the Genie Puzzle Setup",
+"action": "NEW",
+"modificationsSummary": [
+"Created isolated card for the final equation and solver logic"
+],
+"vettingNotes": "Part 2 of the split.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations"],
+"order": 31,
+"heading": "Karim and the Genie: Final Equation Formulation",
+"back": "## Component Anatomy:\n- **$x$:** Initial starting coins Karim holds.\n- **$k$:** The fixed fee (e.g., 8 coins) Karim pays the genie after each doubling phase.\n\n## Boundary Conditions / Domain:\n- To mathematically end with exactly the fee amount $k$ after exactly 3 rounds, $x$ must strictly equal $k$.",
+"formulaMeta": {
+"formula": "8x - 7k = k \implies x = k",
+"description": "State the final algebraic equation equating the result of 3 doubling/fee rounds to a final amount of 'k' coins.",
+"derivation": "**Solving SOP:**\n1. Take the expanded algebraic expression for wealth after Round 3: $8x - 7k$.\n2. The problem dictates that his final remaining amount exactly equals the fee $k$.\n3. Equate the two: $8x - 7k = k$.\n4. Add $7k$ to both sides to isolate $x$: $8x = 8k$.\n5. Divide by 8: $x = k$."
+}
+}
+},
+{
+"cardId": "24d9a08f-28fe-406b-b581-f6660ccc4992",
+"originalOrder": 29,
+"originalHeading": "Genie Coin Doubling: Wealth Increase Inequality",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 32",
+"Double-escaped LaTeX constraints"
+],
+"vettingNotes": "Applies inequality logic to the iterative model.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "inequalities"],
+"order": 32,
+"heading": "Genie Coin Doubling: Wealth Increase Inequality",
+"back": "## Component Anatomy:\n- **$x$:** Initial starting coins.\n- **$k$:** The fixed geometric fee paid to the genie after each doubling round.\n\n## Boundary Conditions / Domain:\n- $x$ and $k$ must be positive real numbers ($x, k > 0$).",
+"formulaMeta": {
+"formula": "k < x",
+"description": "If Karim starts with x coins, doubles them per round, and pays a fixed fee k per round, what is the strict algebraic inequality constraint on k for Karim to strictly increase his initial wealth after 3 rounds?",
+"derivation": "**Algebraic Proof:**\n1. Retrieve the Final Amount expression after 3 Rounds: $8x - 7k$.\n2. **Inequality Setup:** Set the Final Amount strictly greater than the Initial Amount ($x$).\n3. $8x - 7k > x$.\n4. Subtract $x$ from both sides: $7x - 7k > 0 \implies 7x > 7k$.\n5. Divide by 7: $x > k$ (The recurring fee must be strictly less than the starting amount for net profit to occur)."
+}
+}
+},
+{
+"cardId": "014cdfa8-73d8-4a78-8063-487cea2dbcfe",
+"originalOrder": 30,
+"originalHeading": "Genie Coin Doubling: Absolute Bankruptcy Condition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to position 33",
+"Double-escaped LaTeX formula"
+],
+"vettingNotes": "Final application of the iterative algebraic model.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-8", "ch-06", "algebra", "linear-equations"],
+"order": 33,
+"heading": "Genie Coin Doubling: Absolute Bankruptcy Condition",
+"back": "## Component Anatomy:\n- **$x$:** Initial starting coins.\n- **$k$:** The fixed fee charged by the genie per round.\n\n## Boundary Conditions / Domain:\n- For the fee $k$ to physically manifest as a valid integer number of coins, the initial starting amount $x$ must be a perfect integer multiple of 7.",
+"formulaMeta": {
+"formula": "k = \frac{8}{7}x",
+"description": "What is the exact algebraic fee k the genie must charge per round to leave Karim with exactly 0 coins after 3 rounds (starting with x coins)?",
+"derivation": "**Solving SOP:**\n1. Retrieve the Final Amount expression after 3 Rounds: $8x - 7k$.\n2. **Bankruptcy Setup:** Set the final amount strictly to 0.\n3. $8x - 7k = 0$.\n4. Isolate the fee variable $k$ by adding $7k$ to both sides: $7k = 8x$.\n5. Divide by 7: $k = \frac{8}{7}x$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
