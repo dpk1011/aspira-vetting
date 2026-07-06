@@ -1,0 +1,632 @@
+{
+"deckId": "46e2be18-d4fe-486b-9c41-c4811dd3b0c7",
+"cards": [
+{
+"cardId": "d02684a2-59d1-404a-99d9-72d00b024f73",
+"originalOrder": 1,
+"originalHeading": "Theoretical vs. Experimental Probability",
+"action": "MODIFIED",
+"modificationsSummary": ["Removed emoji from mnemonic", "Updated tags"],
+"vettingNotes": "Verified definitions against the original curriculum text.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 1,
+"heading": "Theoretical vs. Experimental Probability",
+"back": "- **Theoretical (Classical) Probability:** Predicts what *should* happen based on logical mathematical assumptions without physically conducting the experiment.\n- **Experimental (Empirical) Probability:** Calculates what *actually* happened based on recorded data from repeated trials in a real-world scenario.",
+"mnemonic": "Theory is Logic, Experimental is Action.",
+"standardMeta": {
+"question": "What is the fundamental difference between Theoretical Probability and Experimental Probability?"
+}
+}
+},
+{
+"cardId": "8bc24bd3-7112-4b94-b8b6-997795f2d571",
+"originalOrder": 21,
+"originalHeading": "Fair (Unbiased) vs. Biased Experiments",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags for competitive exam alignment", "Shifted order to precede Equally Likely Assumption"],
+"vettingNotes": "Shifted to logically introduce unbiased states before the classical formula.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 2,
+"heading": "Fair (Unbiased) vs. Biased Experiments",
+"back": "- **Fair/Unbiased:** Symmetrical objects (like standard coins or dice) that are completely free to fall without physical interference, ensuring outcomes are purely random and equally likely.\n- **Biased:** Objects physically weighted, rigged, or influenced so that one specific outcome naturally occurs more frequently than others.",
+"standardMeta": {
+"question": "In probability theory, what is the strict difference between a 'fair' (unbiased) experiment and a 'biased' experiment?"
+}
+}
+},
+{
+"cardId": "d11fe603-b225-4f48-96db-6e6cfd753152",
+"originalOrder": 3,
+"originalHeading": "Equally Likely Outcomes Assumption",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Updated tags"],
+"vettingNotes": "Checked formatting of LaTeX.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 3,
+"heading": "Equally Likely Outcomes Assumption",
+"back": "- **Concept:** An experiment has equally likely outcomes if there is absolutely no reason or bias for any one outcome to occur in preference to another.\n- **Crucial Condition:** The standard theoretical probability formula $P(E) = \frac{\text{Favorable}}{\text{Total}}$ is **strictly invalid** if the outcomes are not equally likely (e.g., a biased coin or a car failing to start based on engine conditions).",
+"standardMeta": {
+"question": "What strict underlying assumption must be met to apply the classical probability formula $P(E) = \frac{\text{Favorable}}{\text{Total}}$?"
+}
+}
+},
+{
+"cardId": "804bc14c-07f7-4344-bfdf-307ee79acda7",
+"originalOrder": 2,
+"originalHeading": "Theoretical Probability Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Injected strict boundary constraints"],
+"vettingNotes": "Added explicit domain restriction ensuring denominator is not zero.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 4,
+"heading": "Theoretical Probability Formula",
+"back": "## Component Anatomy:\n- **$P(E)$:** The probability of a specific event $E$ occurring.\n\n## Boundary Conditions / Domain:\n- This formula strictly assumes that all possible outcomes of the experiment are **equally likely**.\n- The total number of possible outcomes must strictly be greater than zero ($\text{Total} > 0$).",
+"formulaMeta": {
+"formula": "P(E) = \frac{\text{Number of outcomes favourable to } E}{\text{Number of all possible outcomes}}",
+"description": "Master formula for the Theoretical (Classical) Probability of an event.",
+"derivation": "Derived from the assumption that the total sample space probability is exactly $1$ and is divided uniformly among all equally likely elementary outcomes."
+}
+}
+},
+{
+"cardId": "a5681dca-b9f3-4b8e-9f9d-b91b3dc894cb",
+"originalOrder": 4,
+"originalHeading": "Elementary Event",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Vetted against definitions.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 5,
+"heading": "Definition of an Elementary Event",
+"back": "- **Definition:** An event having exactly **one** specific outcome of the experiment.\n- **Example Distinction:** Getting a '3' on a single roll of a die is an elementary event ($1$ outcome). Getting an 'even number' is NOT an elementary event (contains $3$ distinct outcomes: $2, 4, 6$).",
+"standardMeta": {
+"question": "What is the statistical definition of an 'Elementary Event'?"
+}
+}
+},
+{
+"cardId": "2bbc0e2f-d40e-4a9c-b95c-92ead2067532",
+"originalOrder": 5,
+"originalHeading": "Sum of Probabilities of Elementary Events",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Updated classification"],
+"vettingNotes": "Kept strictly to the core theorem definition.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 6,
+"heading": "Sum of Probabilities of Elementary Events",
+"back": "## Component Anatomy:\n- **$P(E_i)$:** The probability of the $i^{th}$ uniquely distinct elementary event.\n\n## Boundary Conditions / Domain:\n- The summation must strictly include *every* possible elementary event comprising the total sample space of the experiment.\n- Events must be mutually exclusive.",
+"formulaMeta": {
+"formula": "\sum P(E_i) = 1",
+"description": "Mathematical identity regarding the sum of the probabilities of all elementary events.",
+"derivation": "Since the sample space represents all possible outcomes (a sure event), the sum of the probabilities of all distinct, non-overlapping elementary outcomes strictly evaluates to $1$."
+}
+}
+},
+{
+"cardId": "88c56aa3-38c6-447d-94fd-941cc55273e3",
+"originalOrder": 6,
+"originalHeading": "Impossible Event",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Valid definition format.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 7,
+"heading": "Probability of an Impossible Event",
+"back": "- **Definition:** An event that has absolutely zero chance of occurring within the defined sample space.\n- **Probability:** Strictly equals **$0$**.\n- **Example:** Rolling an 8 on a standard 6-sided die.",
+"standardMeta": {
+"question": "What is an 'Impossible Event' and what is its strict probability value?"
+}
+}
+},
+{
+"cardId": "dccc7a75-2c33-4194-8c1a-6909e8f4ee23",
+"originalOrder": 7,
+"originalHeading": "Sure (or Certain) Event",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Valid definition format.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 8,
+"heading": "Probability of a Sure (Certain) Event",
+"back": "- **Definition:** An event that is absolutely guaranteed to occur every single time the experiment is performed.\n- **Probability:** Strictly equals **$1$**.\n- **Example:** Rolling a number less than 7 on a standard 6-sided die.",
+"standardMeta": {
+"question": "What is a 'Sure Event' (or Certain Event) and what is its strict probability value?"
+}
+}
+},
+{
+"cardId": "0ec6c84a-86c6-43ed-aa64-873f934857dc",
+"originalOrder": 8,
+"originalHeading": "Mathematical Range of Probability",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to APPLICATION", "Double-escaped KaTeX"],
+"vettingNotes": "Modified to highlight domain application.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 9,
+"heading": "Mathematical Domain (Range) of Probability",
+"back": "## Component Anatomy:\n- **$P(E)$:** The calculated probability of an event $E$.\n\n## Boundary Conditions / Domain:\n- A probability can **never** be negative ($P < 0$ is invalid).\n- A probability can **never** exceed $1$ or $100\\%$ ($P > 1$ is invalid).",
+"formulaMeta": {
+"formula": "0 \le P(E) \le 1",
+"description": "Defines the strict numerical boundaries within which any probability must lie.",
+"derivation": "Axiomatic boundary stemming from Kolmogorov's probability foundations, where probability is a normalized measure of a subset relative to the total sample space."
+}
+}
+},
+{
+"cardId": "e358d770-89d4-438a-a0cb-45a5ca013fa4",
+"originalOrder": 31,
+"originalHeading": "Percentage Bounds of Probability",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to APPLICATION", "Shifted order to follow numerical range"],
+"vettingNotes": "Moved to cluster boundary constraint concepts together.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 10,
+"heading": "Percentage Bounds of Probability",
+"back": "- **Fact:** When expressed as a percentage, the probability of an event must strictly lie within the closed interval **$0\\%$ to $100\\%$** inclusive.\n- **Boundary Limits:** \n  - $0\\%$ strictly defines an Impossible Event.\n  - $100\\%$ strictly defines a Sure/Certain Event.\n  - Trap: Values like $-15\\%$ or $105\\%$ are mathematically invalid and represent immediate disqualification.",
+"standardMeta": {
+"question": "What is the strict mathematical domain of probability when it is expressed as a percentage instead of a decimal or fraction?"
+}
+}
+},
+{
+"cardId": "4c9918d3-ae98-4aa1-866a-17da4401fbb4",
+"originalOrder": 9,
+"originalHeading": "Complementary Events",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "Verified format.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 11,
+"heading": "Complementary Events Formulation",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the event occurring.\n- **$P(\bar{E})$:** Probability of the event *not* occurring (often denoted as 'not E' or $E'$).\n\n## Boundary Conditions / Domain:\n- $E$ and $\bar{E}$ must be purely mutually exclusive and collectively exhaustive (they cover the entire sample space together).",
+"mnemonic": "Happening + Not Happening = 1",
+"formulaMeta": {
+"formula": "P(E) + P(\bar{E}) = 1 \implies P(\bar{E}) = 1 - P(E)",
+"description": "Algebraic relationship between the probability of an event happening and not happening.",
+"derivation": "Based on the axiom that the entire sample space sum equals $1$. Since $E$ and $\bar{E}$ form the entire sample space and do not overlap, their probabilities strictly add to $1$."
+}
+}
+},
+{
+"cardId": "0a51ad11-e28b-4973-86af-06beade2a693",
+"originalOrder": 27,
+"originalHeading": "Convergence of Experimental and Theoretical Probability",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Moved up to close theoretical concept section.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 12,
+"heading": "Convergence: Experimental vs. Theoretical",
+"back": "- **Principle:** Experimental (empirical) probability is based on actual recorded trials, while theoretical (classical) probability predicts outcomes based on ideal assumptions.\n- **Limit Theorem Intuition:** As the number of actual trials in an experiment **increases indefinitely**, the experimental probability is mathematically expected to converge to and become nearly identical to the theoretical probability.",
+"mnemonic": "More trials, more truth.",
+"standardMeta": {
+"question": "What is the theoretical relationship between the experimental probability and the theoretical probability of an event as the number of experimental trials approaches infinity?"
+}
+}
+},
+{
+"cardId": "55ae3586-11af-49c9-988c-56c241621339",
+"originalOrder": 10,
+"originalHeading": "At Least vs. At Most Terminology",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Updated tags"],
+"vettingNotes": "Checked inequality logic.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 13,
+"heading": "Inequality Bounds: At Least vs. At Most",
+"back": "- **At Least ($x$):** The *minimum* boundary is $x$. You must strictly include $x$ and everything **greater** than $x$ ($ \ge x $).\n- At Most ($x$): The *maximum* boundary is $x$. You must strictly include $x$ and everything less than $x$ ($ \le x $).",
+"mnemonic": "At least = Floor, At most = Ceiling.",
+"standardMeta": {
+"question": "What is the mathematical distinction between finding the probability of 'At Least x' versus 'At Most x'?"
+}
+}
+},
+{
+"cardId": "da38589f-b8cb-44ee-894b-61237ba71dba",
+"originalOrder": 11,
+"originalHeading": "Anatomy of a Deck: Suits",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to DATA"],
+"vettingNotes": "DATA classification best fits deterministic factual card distributions[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "DATA",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "cards"],
+"order": 14,
+"heading": "Anatomy of a Standard Deck: Suits",
+"back": "- Total Cards: $52$\n- Number of Suits: $4$ (Spades, Hearts, Diamonds, Clubs).\n- Cards per Suit: Exactly $13$ cards.\n- Suit Composition: Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King.",
+"standardMeta": {
+"question": "What is the specific breakdown of suits and cards per suit in a standard deck of 52 playing cards?"
+}
+}
+},
+{
+"cardId": "912a7f60-fd97-4cca-bf68-b514a9e37698",
+"originalOrder": 12,
+"originalHeading": "Anatomy of a Deck: Colors",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to DATA"],
+"vettingNotes": "DATA classification fits factual card distributions[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "DATA",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "cards"],
+"order": 15,
+"heading": "Anatomy of a Standard Deck: Colors",
+"back": "- Red Cards ($26$ Total): Hearts and Diamonds.\n- Black Cards ($26$ Total): Spades and Clubs.",
+"mnemonic": "Hearts pump red blood, Diamonds are red jewels.",
+"standardMeta": {
+"question": "How are the 52 cards of a standard deck divided by color, and which specific suits belong to which color?"
+}
+}
+},
+{
+"cardId": "91b1648b-e87f-4572-b48b-106fb1d09df2",
+"originalOrder": 13,
+"originalHeading": "The Face Cards Trap",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Addresses common cognitive trap[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "cards"],
+"order": 16,
+"heading": "The Face Cards Definition Trap",
+"back": "- Definition: Cards with a \"face\" or person printed on them: Jack (J), Queen (Q), and King (K).\n- Total Count: $3 \times 4 \text{ suits} = 12$ Face Cards.\n- CRITICAL EXAM TRAP: The Ace (A) is strictly NOT a face card.",
+"mnemonic": "JQK have faces, Aces are just letters.",
+"standardMeta": {
+"question": "Which specific playing cards constitute the 'Face Cards', how many are there in total, and what common card is explicitly excluded?"
+}
+}
+},
+{
+"cardId": "57de66b1-2501-4fe1-8418-6148c0e3513d",
+"originalOrder": 14,
+"originalHeading": "Total Outcomes for 'n' Coin Tosses",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "Added mathematical rigour to derivation[cite: 2].",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "combinatorics"],
+"order": 17,
+"heading": "Total Outcomes for 'n' Coin Tosses",
+"back": "## Component Anatomy:\n- $\text{Total}$: The total size of the sample space.\n- $n$: The number of coins tossed simultaneously (or one coin tossed $n$ times successively).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$, where $n$ is an integer.",
+"formulaMeta": {
+"formula": "\text{Total} = 2^n",
+"description": "Formula to find the total number of possible outcomes when a coin is tossed $n$ times.",
+"derivation": "A single coin has 2 outcomes (H, T). By the fundamental principle of counting, independent coin tosses multiply their individual outcome sets: $2 \times 2 \times 2 \dots n \text{ times} = 2^n$."
+}
+}
+},
+{
+"cardId": "fcdbea71-7926-4f36-b440-e4d5eecb3f02",
+"originalOrder": 15,
+"originalHeading": "Sample Space for 2 Coins",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Escaped KaTeX set notation"],
+"vettingNotes": "Changed to PROCEDURAL because it requires a generation step[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 18,
+"heading": "Sample Space Generation for 2 Coins",
+"back": "- Total Outcomes: $2^2 = 4$\n- Sample Space (S): $\\{HH, HT, TH, TT\\}$\n- Common Trap: $HT$ and $TH$ are strictly distinct outcomes representing independent order/coin position (e.g., Coin 1 vs Coin 2).",
+"standardMeta": {
+"question": "State the complete sample space and total number of outcomes when two coins are tossed simultaneously."
+}
+}
+},
+{
+"cardId": "5f191aff-58f3-487f-917b-d78045c6798b",
+"originalOrder": 16,
+"originalHeading": "Sample Space for 3 Coins",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Escaped KaTeX set notation"],
+"vettingNotes": "Changed to PROCEDURAL because it requires generation map[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 19,
+"heading": "Sample Space Generation for 3 Coins",
+"back": "- Total Outcomes: $2^3 = 8$\n- Sample Space (S): $\\{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\\}$\n- Exam Application: Crucial for accurately mapping conditions like \"at least 2 heads\" or \"exactly 1 tail\".",
+"standardMeta": {
+"question": "State the total number of outcomes and the complete sample space when three coins are tossed simultaneously."
+}
+}
+},
+{
+"cardId": "f50ee738-3052-4b3b-9100-e667955f4731",
+"originalOrder": 29,
+"originalHeading": "The 'One of Each' Coin Toss Fallacy",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Reordered to follow the 2 coin sample space card directly"],
+"vettingNotes": "Logical flow enhancement[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 20,
+"heading": "The 'One of Each' Coin Toss Fallacy",
+"back": "- The Trap: When tossing two coins, one might hastily assume the outcomes are 'Two Heads', 'Two Tails', and 'One of Each', and incorrectly assign a probability of $\frac{1}{3}$ to each group.\n- Correction: 'One of Each' is a compound event, strictly consisting of two distinct elementary ordered outcomes: $(H, T)$ and $(T, H)$. The true sample space has $4$ equally likely outcomes, making the correct probability of 'One of Each' strictly $\frac{2}{4} = \frac{1}{2}$.",
+"standardMeta": {
+"question": "What is the logical flaw in arguing that the probability of getting exactly one head and one tail when tossing two coins is $\frac{1}{3}$?"
+}
+}
+},
+{
+"cardId": "30a4a804-f3a9-4563-adc7-08caff49cd63",
+"originalOrder": 26,
+"originalHeading": "Equivalence of Sequential and Simultaneous Trials",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "Valid conceptual bridge between coin and dice problems[cite: 2].",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 21,
+"heading": "Equivalence: Sequential vs. Simultaneous Trials",
+"back": "- Concept: Performing an experiment simultaneously with multiple objects (e.g., throwing two distinct dice at once) is mathematically strictly equivalent to performing the experiment sequentially with one object (e.g., throwing a single die twice in a row).\n- Significance: The sample spaces and the total number of mathematically distinct outcomes generated ($n^m$) remain absolutely identical. Do not overcomplicate sequential problems by treating them differently.",
+"standardMeta": {
+"question": "In probability, what is the mathematical distinction in the sample space between throwing two dice simultaneously versus throwing a single die twice in succession?"
+}
+}
+},
+{
+"cardId": "af356f4f-2a99-446e-8ec8-093688ae2d53",
+"originalOrder": 17,
+"originalHeading": "Total Outcomes for 'n' Dice Throws",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "Checked boundary conditions[cite: 2].",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "combinatorics"],
+"order": 22,
+"heading": "Total Outcomes for 'n' Dice Throws",
+"back": "## Component Anatomy:\n- $\text{Total}$: The total size of the sample space.\n- **$n$:** The number of dice thrown simultaneously (or one die thrown $n$ times).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$, where $n$ is a strict integer.\n- Applies strictly to standard 6-sided uniform cubical dice.",
+"formulaMeta": {
+"formula": "\text{Total} = 6^n",
+"description": "Formula to find the total number of possible outcomes when a standard 6-sided die is thrown $n$ times.",
+"derivation": "A single die has 6 possible elementary outcomes. By the fundamental principle of counting, independent dice rolls multiply: $6 \times 6 \times \dots (n \text{ times}) = 6^n$."
+}
+}
+},
+{
+"cardId": "a2db8ebc-6887-47a9-8218-610038ebbf36",
+"originalOrder": 18,
+"originalHeading": "Minimum and Maximum Sum of Two Dice",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to APPLICATION", "Double-escaped set notation"],
+"vettingNotes": "Changed to APPLICATION to highlight mathematical boundary states.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 23,
+"heading": "Boundary Values: Min and Max Sum of Two Dice",
+"back": "- **Minimum Possible Sum:** $2$ (achieved strictly by the outcome $\\{1, 1\\}$).\n- **Maximum Possible Sum:** $12$ (achieved strictly by the outcome $\\{6, 6\\}$).\n- **Trap:** A sum of $1$ or a sum of $13$ is strictly an **impossible event** ($P = 0$).",
+"standardMeta": {
+"question": "When two standard dice are thrown simultaneously, what are the strict minimum and maximum possible algebraic values for the sum of the numbers appearing on top?"
+}
+}
+},
+{
+"cardId": "3b8d9bf7-f631-422e-a268-7b2107744012",
+"originalOrder": 19,
+"originalHeading": "Doublets in Two Dice Throws",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to DEFINITION", "Double-escaped KaTeX formulas and sets"],
+"vettingNotes": "Classification updated.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 24,
+"heading": "Definition of Doublets (Two Dice)",
+"back": "- **Definition:** When both dice show the exact same numerical face value.\n- **Favorable Outcomes:** $\\{ (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\}$.\n- **Probability:** $\frac{6}{36} = \frac{1}{6}$.",
+"mnemonic": "Twins on the table.",
+"standardMeta": {
+"question": "What is a 'doublet' in the specific context of throwing two dice, and what is the theoretical probability of obtaining one?"
+}
+}
+},
+{
+"cardId": "1116865d-c12c-426c-b71f-4cba050ee7d5",
+"originalOrder": 28,
+"originalHeading": "The Sum of Two Dice Equiprobability Fallacy",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "Addresses a critical assumption flaw.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 25,
+"heading": "The Sum of Two Dice Equiprobability Fallacy",
+"back": "- **The Trap:** Students often assume that since there are $11$ possible sums ($2, 3, 4, \dots, 12$) when rolling two dice, the probability of getting any specific sum is $\frac{1}{11}$.\n- **Correction:** These $11$ distinct sums are strictly **NOT equally likely**. For example, a sum of $2$ can only happen in $1$ distinct way $(1,1)$, whereas a sum of $7$ can happen in $6$ different ways. The classical probability formula strictly requires the underlying elementary outcomes (the 36 pairs) to be equally likely, not the compound sums.",
+"standardMeta": {
+"question": "Why is it mathematically incorrect to state that the probability of getting a sum of 7 when rolling two dice is exactly $\frac{1}{11}$?"
+}
+}
+},
+{
+"cardId": "2aa1a53b-e3aa-419b-a571-8d5e754cc3a2",
+"originalOrder": 25,
+"originalHeading": "Finding Favorable Outcomes via Inequalities",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Expanded boundary conditions"],
+"vettingNotes": "Checked formatting and categorization.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "combinatorics"],
+"order": 26,
+"heading": "SOP: Favorable Outcomes via Inequalities",
+"back": "## Component Anatomy:\n- **Constraint:** A specific mathematical inequality or condition (e.g., Product $xy < 9$).\n- **Variables:** Elements selected from defined numerical sets.\n\n## Boundary Conditions / Domain:\n- The total possible pairs (sample space) must strictly be finite and discrete to allow for manual or combinatorial counting.\n- You must systematically map every single discrete combination before counting. You cannot assume linear proportionality in probability distributions for non-linear constraints like multiplication.",
+"formulaMeta": {
+"formula": "P(\text{Condition}) = \frac{\sum (\text{Pairs meeting condition})}{\text{Total Pairs generated}}",
+"description": "Standard operating procedure (SOP) to find the probability of a numerical condition being met across multiple sets.",
+"derivation": "**Algorithmic SOP:**\n1. Identify the total sample space by listing out all possible combinations (e.g., $(x, y)$ pairs) from the given discrete sets.\n2. Apply the given algebraic constraint (e.g., multiply $x \times y$) to every single pair systematically.\n3. Count exactly how many pairs yield a result that algebraically satisfies the inequality (e.g., $< 9$).\n4. Divide the favorable count strictly by the total possible pairs generated."
+}
+}
+},
+{
+"cardId": "d9afe422-3811-45ee-9585-6c650613d5ee",
+"originalOrder": 22,
+"originalHeading": "Probability of Same Birthday",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Classified as PROCEDURAL because it teaches an algorithmic application of complementary events.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main"],
+"order": 27,
+"heading": "SOP: Probability of Same Birthday",
+"back": "## Component Anatomy:\n- **$P(\text{Different})$:** Probability two independent people have non-matching birthdays.\n- **$P(\text{Same})$:** Probability two independent people share the exact same birthday (complementary event).\n\n## Boundary Conditions / Domain:\n- Standard mathematical convention **ignores leap years** unless explicitly stated in the problem (strictly assume a $365$-day year).\n- Assumes all 365 days are perfectly equally likely to be a birthday.",
+"formulaMeta": {
+"formula": "P(\text{Same}) = 1 - P(\text{Different}) = 1 - \frac{364}{365} = \frac{1}{365}",
+"description": "Calculates the probability of two individuals sharing a birthday using complementary logic.",
+"derivation": "**Algorithmic SOP:**\n1. Recognize that 'same birthday' and 'different birthdays' are perfectly complementary and mutually exclusive events.\n2. Apply the complementary identity: $P(E) = 1 - P(\bar{E})$.\n3. Calculate the difference: $1 - \frac{364}{365}$."
+}
+}
+},
+{
+"cardId": "1d889caa-9de0-40c4-bfd6-f121400707ae",
+"originalOrder": 23,
+"originalHeading": "53 Sundays in a Non-Leap Year",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Classified as PROCEDURAL to highlight the division algorithm SOP used in time-based probability.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "time"],
+"order": 28,
+"heading": "SOP: 53 Sundays in a Non-Leap Year",
+"back": "## Component Anatomy:\n- **$365$ days:** Breaks down strictly into $52$ complete weeks ($52 \times 7 = 364$ days) + **$1$ extra day**.\n\n## Boundary Conditions / Domain:\n- Strictly applies only to a standard $365$-day year.\n- The residual $1$ day follows a perfectly uniform distribution across the $7$ days of the week.",
+"formulaMeta": {
+"formula": "P(53\text{ Sundays}) = \frac{1}{7}",
+"description": "Calculates the probability that a standard non-leap year contains exactly 53 Sundays (or any specific day).",
+"derivation": "**Algorithmic SOP:**\n1. Divide $365$ by $7$. Quotient = $52$, Remainder = $1$.\n2. The $52$ complete weeks logically guarantee exactly $52$ Sundays.\n3. The $1$ extra day can be any of the $7$ days of the week $\\{\text{Mon, Tue, Wed, Thu, Fri, Sat, Sun}\\}$.\n4. There is exactly $1$ favorable outcome (Sunday) out of the $7$ equally likely possible residual days."
+}
+}
+},
+{
+"cardId": "9e2c6d04-48b6-41ec-af49-282121f64099",
+"originalOrder": 24,
+"originalHeading": "53 Sundays in a Leap Year",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Classified as PROCEDURAL for sequential time analysis.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "time"],
+"order": 29,
+"heading": "SOP: 53 Sundays in a Leap Year",
+"back": "## Component Anatomy:\n- **$366$ days:** Breaks down strictly into $52$ complete weeks ($364$ days) + **$2$ extra days**.\n\n## Boundary Conditions / Domain:\n- Strictly applies only to a $366$-day leap year.\n- The $2$ residual days are strictly dependent and MUST be sequential (consecutive).",
+"mnemonic": "Leap year has 2 extra days, so 2/7.",
+"formulaMeta": {
+"formula": "P(53\text{ Sundays}) = \frac{2}{7}",
+"description": "Calculates the probability that a leap year contains exactly 53 Sundays (or any specific day).",
+"derivation": "**Algorithmic SOP:**\n1. Divide $366$ by $7$. Quotient = $52$, Remainder = $2$.\n2. The $2$ extra days must be consecutive. Sample Space: $\\{(\text{Su,M}), (\text{M,T}), (\text{T,W}), (\text{W,Th}), (\text{Th,F}), (\text{F,Sa}), (\text{Sa,Su})\\}$. Total consecutive pairs = $7$.\n3. Pairs containing Sunday = $\\{(\text{Sa,Su}), (\text{Su,M})\\}$. Favorable outcomes = $2$.\n4. Result: Strictly $\frac{2}{7}$."
+}
+}
+},
+{
+"cardId": "861edf16-484a-4097-b2a8-3fbf0a0f4b20",
+"originalOrder": 20,
+"originalHeading": "Geometric Probability (Area-Based)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Adjusted LaTeX subscripts for strict formatting"],
+"vettingNotes": "Maintained APPLICATION classification to highlight domain translation to 2D continuous space.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "geometry"],
+"order": 30,
+"heading": "2D Geometric Probability (Area-Based)",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of a dropped object landing in the specific target region.\n- **$\text{Area}_{\text{target}}$:** The total mathematical area of the favorable inner region.\n- **$\text{Area}_{\text{total}}$:** The total mathematical area of the entire 2D sample space (the outer boundary).\n\n## Boundary Conditions / Domain:\n- The object must drop completely at random with zero directional bias (uniform continuous distribution).\n- The target area must strictly be a subset of (contained entirely within) the total area.\n- $\text{Area}_{\text{total}} > 0$.",
+"mnemonic": "Small Area over Big Area.",
+"formulaMeta": {
+"formula": "P(E) = \frac{\text{Area}*{\text{target}}}{\text{Area}*{\text{total}}}",
+"description": "Calculates the theoretical probability of a randomly dropped object landing inside a specific 2-dimensional geometric region.",
+"derivation": "Derived by extending the classical probability formula from discrete counting to continuous 2D space, where infinite coordinate points are represented proportionally by geometric area."
+}
+}
+},
+{
+"cardId": "967edf77-9e13-42e5-b90f-31cb5475472b",
+"originalOrder": 30,
+"originalHeading": "1D Geometric Probability (Continuous Time/Length)",
+"action": "MODIFIED",
+"modificationsSummary": ["Reclassified to PROCEDURAL", "Double-escaped KaTeX", "Refined subscripts"],
+"vettingNotes": "Classified as PROCEDURAL to emphasize the linear interval extraction algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "probability", "class-10", "ncert", "jee-main", "geometry"],
+"order": 31,
+"heading": "SOP: 1D Geometric Probability (Continuous Time/Length)",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the random event occurring within a specific continuous 1D interval.\n- **$L_{\text{target}}$:** The length (or time duration) of the strictly favourable continuous interval.\n- **$L_{\text{total}}$:** The absolute length (or time duration) of the entire sample space interval.\n\n## Boundary Conditions / Domain:\n- All numerical points within the continuous total interval must be completely random and strictly uniformly distributed.\n- $L_{\text{total}} > 0$.\n- Used for problems involving a random point dropped on a linear line segment or an event happening randomly within a given continuous time frame.",
+"formulaMeta": {
+"formula": "P(E) = \frac{L_{\text{target}}}{L_{\text{total}}}",
+"description": "Geometric probability formula applied to 1-dimensional continuous variables.",
+"derivation": "**Algorithmic SOP (e.g., Musical Chair Time Problem):**\n1. Identify the mathematical bounds of the total possible time duration (e.g., $0$ to $2$ minutes $\implies L_{\text{total}} = 2$).\n2. Identify the exact continuous boundaries for the target time duration constraint (e.g., stops within the first half-minute $\implies L_{\text{target}} = 0.5$).\n3. Divide the target linear length by the total linear length: $\frac{0.5}{2} = \frac{1}{4}$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

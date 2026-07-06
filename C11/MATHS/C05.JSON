@@ -1,0 +1,732 @@
+{
+"deckId": "0c0ed356-79c9-4a40-bbc3-f0189f088b5b",
+"cards": [
+{
+"cardId": "c638f4e3-758b-4be2-b101-92e7ecf27ce3",
+"originalOrder": 1,
+"originalHeading": "Strict vs. Slack Inequalities",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Reformatted back markdown"],
+"vettingNotes": "Core axiomatic definition.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "inequalities", "basics", "jee-main", "class-11"],
+"order": 1,
+"heading": "Strict vs. Slack Inequalities",
+"back": "- **Strict Inequalities:** Employ strictly the symbols `<` (less than) or `>` (greater than). The geometric boundary is NOT included in the solution set.\n- **Slack Inequalities:** Employ the symbols `\\leq` (less than or equal to) or `\\geq` (greater than or equal to). The geometric boundary IS strictly included in the solution set.",
+"mnemonic": "Slack cuts you some SLACK (allows equality). Strict is STRICT (no equality).",
+"standardMeta": {
+"question": "What is the strict mathematical distinction between 'Strict' and 'Slack' inequalities?"
+}
+}
+},
+{
+"cardId": "c515dbcd-3e32-4130-a365-7f2614559eb1",
+"originalOrder": 6,
+"originalHeading": "Number Line Plotting Conventions",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Removed synthesised answer text", "Sequenced to follow definitions"],
+"vettingNotes": "Logical visual extension of the strict/slack definition.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "inequalities", "jee-main", "class-11"],
+"order": 2,
+"heading": "Number Line Plotting Conventions",
+"back": "- **Open Circle ($\circ$):** Used specifically for strict inequalities (`<` or `>`). Indicates the boundary point is mathematically excluded from the domain.\n- **Closed/Dark Circle ($\bullet$):** Used specifically for slack inequalities (`\\leq` or `\\geq`). Indicates the boundary point is mathematically included in the domain.",
+"mnemonic": "Slack is packed (closed circle). Strict is stripped (open circle).",
+"standardMeta": {
+"question": "What is the standard graphical convention for representing strict vs. slack inequalities on a 1D number line?"
+}
+}
+},
+{
+"cardId": "894dd5c5-54bc-4b1d-9062-81bb691ed422",
+"originalOrder": 2,
+"originalHeading": "Inequality Rule 1: Addition & Subtraction",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX", "Restructured back format"],
+"vettingNotes": "Core inequality property.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "inequalities", "jee-main", "class-11"],
+"order": 3,
+"heading": "Inequality Rule 1: Addition & Subtraction",
+"back": "## Component Anatomy:\n- **$x, y, c$**: Any real numbers or algebraic expressions mapped on a number line.\n\n## Boundary Conditions / Domain:\n- Valid universally for all real numbers $x, y, c \in \mathbb{R}$. The inequality sign is strictly invariant under addition or subtraction.",
+"formulaMeta": {
+"formula": "x < y \implies x \pm c < y \pm c",
+"description": "State the rule for adding or subtracting the same number on both sides of an inequality.",
+"derivation": "Both sides of a linear inequality can have equal numbers added to (or subtracted from) them without changing the orientation of the inequality sign, as the relative distance shifts uniformly."
+}
+}
+},
+{
+"cardId": "94098c66-5720-4cad-93f4-83343deb7296",
+"originalOrder": 3,
+"originalHeading": "Inequality Rule 2a: Multiplication/Division by a Positive",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "inequalities", "jee-main", "class-11"],
+"order": 4,
+"heading": "Inequality Rule 2a: Multiplication/Division by a Positive",
+"back": "## Component Anatomy:\n- **$x, y$**: Variables or algebraic expressions.\n- **$c$**: A strictly positive real multiplier.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint**: $c > 0$. The operation mathematically scales the number line without reversing direction.",
+"formulaMeta": {
+"formula": "x < y \implies cx < cy \quad \text{and} \quad \frac{x}{c} < \frac{y}{c}",
+"description": "State the rule for multiplying or dividing an inequality by a strictly POSITIVE number.",
+"derivation": "When multiplying or dividing both sides by the exact same positive real number, the relative mathematical order is preserved, so the inequality sign remains completely unaffected."
+}
+}
+},
+{
+"cardId": "eb673ec8-9048-44ed-b8c9-921303982008",
+"originalOrder": 4,
+"originalHeading": "Inequality Rule 2b: Multiplication/Division by a Negative (The Trap)",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to DISTINCTION", "Escaped KaTeX"],
+"vettingNotes": "Critical algebraic trap classification applied.",
+"cardData": {
+"type": "FORMULA",
+"classification": "DISTINCTION",
+"tags": ["math", "algebra", "trap", "jee-main", "class-11"],
+"order": 5,
+"heading": "Inequality Rule 2b: Multiplication by a Negative",
+"back": "## Component Anatomy:\n- **$x, y$**: Variables or algebraic expressions.\n- **$c$**: A strictly negative real multiplier.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint**: $c < 0$. This mathematically forces a reversal of the entire relative number line.",
+"mnemonic": "Negative Multiplier flips the Wire.",
+"formulaMeta": {
+"formula": "x < y \implies cx > cy \quad \text{and} \quad \frac{x}{c} > \frac{y}{c}",
+"description": "State the critical rule for multiplying or dividing an inequality by a strictly NEGATIVE number.",
+"derivation": "Multiplying or dividing by a negative value physically reverses the geometric order of the number line. Therefore, to preserve logical truth, the inequality sign MUST be strictly flipped or reversed."
+}
+}
+},
+{
+"cardId": "76af53e6-c90b-4709-8e13-f0155c9e372b",
+"originalOrder": 5,
+"originalHeading": "Domain Trap: Natural Numbers vs. Integers vs. Real Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Removed synthesised text"],
+"vettingNotes": "Sets domain boundaries for inequalities.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 6,
+"heading": "Domain Trap: Natural vs. Integers vs. Real Numbers",
+"back": "- **Natural Numbers ($x \in \mathbb{N}$):** The algebraic solution set must strictly contain only positive discrete integers $\\{1, 2, 3, \dots\\}$. Discard $0$ and all negative roots.\n- **Integers ($x \in \mathbb{Z}$):** The algebraic solution set contains only discrete whole numbers $\\{\dots, -2, -1, 0, 1, 2, \dots\\}$.\n- **Real Numbers ($x \in \mathbb{R}$):** The algebraic solution set maps to a continuous interval written strictly with brackets/parentheses, e.g., $(-\infty, 2]$.",
+"standardMeta": {
+"question": "How does the specified domain of $x$ (Natural, Integer, or Real) radically change the final format of a linear inequality's solution set?"
+}
+}
+},
+{
+"cardId": "6cf69cc8-2449-477c-bd70-13057d6983cd",
+"originalOrder": 26,
+"originalHeading": "Replacement Set vs. Solution Set",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced earlier to align with domain definitions"],
+"vettingNotes": "Nomenclature standard.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "sets", "nomenclature", "class-11"],
+"order": 7,
+"heading": "Replacement Set vs. Solution Set",
+"back": "- **Replacement Set:** The master set or designated mathematical domain from which values of the independent variable are permitted to be chosen (e.g., $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{R}$).\n- **Solution Set:** The strict, filtered subset of the Replacement Set containing ONLY the specific values that mathematically satisfy the given algebraic inequality.\n- **Examiner's Trap:** You must ALWAYS explicitly intersect your raw algebraic interval with the Replacement Set before locking in the final Solution Set.",
+"mnemonic": "Replacement is the Pool. Solution is the Catch.",
+"standardMeta": {
+"question": "What is the fundamental mathematical distinction between the 'Replacement Set' and the 'Solution Set' in linear inequalities?"
+}
+}
+},
+{
+"cardId": "52f2d683-e2ad-43a7-a97e-69a108e65857",
+"originalOrder": 7,
+"originalHeading": "SOP: Solving Double Inequalities",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX", "Structured component anatomy"],
+"vettingNotes": "Primary linear inequality solver.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "algorithms", "jee-main", "class-11"],
+"order": 8,
+"heading": "SOP: Solving Double Inequalities",
+"back": "## Component Anatomy:\n- **$a, b$**: Real constant algebraic boundaries mapping the domain.\n- **$f(x)$**: The internal linear algebraic expression.\n\n## Boundary Conditions / Domain:\n- Valid universally for $x \in \mathbb{R}$.\n- **CRITICAL**: Any mathematical operation applied to the central term MUST be simultaneously and identically applied to BOTH the left ($a$) and right ($b$) boundaries.",
+"formulaMeta": {
+"formula": "a \leq f(x) \leq b",
+"description": "State the standard algebraic structure of a double inequality and the algorithmic procedure to successfully isolate x.",
+"derivation": "Algorithmic SOP:\n1. Identify the compound double boundary structure (e.g., $-3 \leq 4 - \frac{7x}{2} \leq 18$).\n2. Add or subtract constants uniformly strictly across all three distinct segments to isolate the $x$ term.\n3. Multiply or divide across all three segments to clear coefficients.\n4. **TRAP**: If multiplying or dividing by a negative constant, you must strictly flip BOTH inequality signs simultaneously."
+}
+}
+},
+{
+"cardId": "c5829b91-b54e-4948-98a6-6a43ffed6872",
+"originalOrder": 8,
+"originalHeading": "The Cartesian Half-Planes",
+"action": "MODIFIED",
+"modificationsSummary": ["Refined tags"],
+"vettingNotes": "Axiomatic foundation for graphical sections.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "geometry", "graphs", "class-11"],
+"order": 9,
+"heading": "The Cartesian Half-Planes",
+"back": "- **Definition:** A continuous straight geometric boundary line perfectly splits the 2D Cartesian plane into two distinct, infinite geographical regions.\n- **Terminology:** Each of these individual partitioned regions is strictly defined as a **Half-Plane**.\n- **Application:** For any linear inequality operating in two variables ($x, y$), the mathematical solution region is exclusively mapped to one of these two specific half-planes.",
+"standardMeta": {
+"question": "In the context of 2D graphical inequalities, what is the strict mathematical definition of a 'Half-Plane'?"
+}
+}
+},
+{
+"cardId": "92b8e8db-9100-4719-b385-11ebe6261757",
+"originalOrder": 9,
+"originalHeading": "Solid vs. Dotted Boundary Lines (2D Graphing)",
+"action": "MODIFIED",
+"modificationsSummary": ["Aligned terminology with 1D rules"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "geometry", "graphs", "class-11"],
+"order": 10,
+"heading": "Solid vs. Dotted Boundary Lines (2D Graphing)",
+"back": "- **Dotted/Dashed Line:** Strictly drawn when the governing inequality is **strict** ($<$ or $>$). The continuous points falling exactly on the line are excluded from the solution region.\n- **Solid/Dark Line:** Strictly drawn when the governing inequality is **slack** ($\leq$ or $\geq$). The continuous points falling exactly on the line are included in the solution region.",
+"mnemonic": "Dotted = Discarded (Strict). Solid = Solution (Slack).",
+"standardMeta": {
+"question": "When plotting a linear inequality on a 2D Cartesian plane, how do you strictly determine whether the mathematical boundary line must be solid or dotted?"
+}
+}
+},
+{
+"cardId": "57b1d26b-7cba-4522-a723-befd7d44d58d",
+"originalOrder": 10,
+"originalHeading": "SOP: The Test Point Method for Shading",
+"action": "SPLIT",
+"modificationsSummary": ["Split procedural bloat into Setup (Boundary generation)"],
+"vettingNotes": "Split Part 1.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "geometry", "graphs", "algorithms", "class-11"],
+"order": 11,
+"heading": "SOP: Test Point Method (Part 1 - Boundary Line)",
+"back": "## Component Anatomy:\n- **$ax + by = c$**: The algebraic conversion of the inequality into a strict equality to establish a geometric boundary.\n\n## Boundary Conditions / Domain:\n- Ensure you check if the final plotted line should physically be dashed (strict) or solid (slack).",
+"formulaMeta": {
+"formula": "ax + by = c",
+"description": "Step 1: Generating the baseline boundary for the test point method.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Temporarily strip the inequality sign ($<, >, \leq, \geq$) from the given problem.\n2. Treat the algebraic statement strictly as a linear equation: $ax + by = c$.\n3. Find the x-intercept (set $y=0$) and y-intercept (set $x=0$).\n4. Plot these coordinates to draw the mathematical boundary line across the plane."
+}
+}
+},
+{
+"cardId": "NEW_TEST_POINT_SPLIT_2",
+"originalOrder": 10,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split procedural bloat into Execution (Test Point evaluation)"],
+"vettingNotes": "Split Part 2.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "geometry", "graphs", "algorithms", "class-11"],
+"order": 12,
+"heading": "SOP: Test Point Method (Part 2 - Shading Execution)",
+"back": "## Component Anatomy:\n- **$(x_1, y_1)$**: A non-collinear test coordinate, preferentially the origin $(0,0)$.\n- **$ax_1 + by_1 \lessgtr c$**: Evaluating the truth state of the half-plane.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP**: You can algebraically evaluate using $(0,0)$ ONLY if the boundary line does NOT physically pass through the origin. If the line passes through $(0,0)$, you must strictly pick another definitive, non-collinear point (e.g., $(1,0)$).",
+"formulaMeta": {
+"formula": "a(x_1) + b(y_1) \lessgtr c",
+"description": "Step 2: Testing the coordinates to evaluate which Cartesian half-plane represents the solution.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Select a valid Test Point $(x_1, y_1)$.\n2. Substitute the test coordinates directly back into the original inequality statement.\n3. Evaluate the logic: If the resulting numerical statement is TRUE, strictly shade the half-plane that physically contains the test point.\n4. If FALSE, strictly shade the opposite, disjoint half-plane."
+}
+}
+},
+{
+"cardId": "bac04ed6-e2e6-4d58-9a4c-58578dfc7a27",
+"originalOrder": 11,
+"originalHeading": "Feasible Region in Systems of Inequalities",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced after single graph SOPs"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "geometry", "systems", "class-11"],
+"order": 13,
+"heading": "Feasible Region in Systems of Inequalities",
+"back": "- **Definition:** When algebraically resolving a system of multiple linear inequalities simultaneously, the **Feasible Region** is strictly defined as the exact geographical area where ALL individual shaded half-planes overlap.\n- **Meaning:** Every single coordinate point $(x, y)$ residing within this continuous intersection satisfies every single boundary inequality in the system simultaneously.",
+"standardMeta": {
+"question": "What is the strict mathematical definition of a 'Feasible Region' when graphically solving a system of linear inequalities?"
+}
+}
+},
+{
+"cardId": "a03cea9c-a068-48a3-ba75-6e7a6644e5f3",
+"originalOrder": 13,
+"originalHeading": "Bounded vs. Unbounded Solution Regions",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced to flow from Feasible Region definition"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "geometry", "systems", "jee-main", "class-11"],
+"order": 14,
+"heading": "Bounded vs. Unbounded Solution Regions",
+"back": "- **Bounded Region:** A feasible region that is geometrically completely enclosed on all sides by strict boundary lines (e.g., forming a closed polygon like a triangle). Mathematically, it can be contained entirely within a finite circle of fixed radius.\n- **Unbounded Region:** A feasible solution area that fundamentally lacks a boundary on at least one side, projecting infinitely into the Cartesian plane (e.g., diverging infinitely towards $+\infty$ or $-\infty$).",
+"standardMeta": {
+"question": "In graphical systems, what is the exact visual and mathematical distinction between a bounded solution region and an unbounded solution region?"
+}
+}
+},
+{
+"cardId": "6dda7878-f98b-423d-8bde-bfb679b68a4f",
+"originalOrder": 12,
+"originalHeading": "First Quadrant Confinement Restrictions",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced to flow from region types"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "geometry", "word-problems", "class-11"],
+"order": 15,
+"heading": "First Quadrant Confinement Restrictions",
+"back": "- **The Algebraic Conditions:** $x \geq 0$ and $y \geq 0$.\n- **Graphical Impact:** These specific non-negative constraints act geometrically as physical boundary walls strictly along the x-axis and y-axis, instantly confining the entire feasible solution region to exactly the **First Quadrant**.\n- **Real-World Meaning:** Applied universally in physical word problems because real-world quantities (like the number of manufactured items, linear dimensions, or physical volumes) cannot logically assume negative values.",
+"standardMeta": {
+"question": "Graphically and logically, what is the strict impact of the standard boundary conditions $x \geq 0$ and $y \geq 0$ on a system of inequalities?"
+}
+}
+},
+{
+"cardId": "78e37767-640d-4cf6-81ff-d73d0e73b8e3",
+"originalOrder": 27,
+"originalHeading": "The 'No Solution' / Empty Feasible Region",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced to conclude graphical region properties"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "geometry", "systems", "class-11"],
+"order": 16,
+"heading": "The 'No Solution' / Empty Feasible Region",
+"back": "- **Definition:** A system of linear inequalities has absolutely **No Solution** if the mathematically shaded half-planes of the respective inequalities share exactly zero common overlapping geographical area.\n- **Graphical Identification:** The boundary lines may form strictly parallel lines generating disjoint shaded regions (e.g., one line strictly shades upwards to $+\infty$, while the other strictly shades downwards to $-\infty$, leaving a continuous geometric gap in between).\n- **Mathematical Notation:** The solution set is precisely the empty set $\emptyset$.",
+"standardMeta": {
+"question": "Under what exact graphical condition does a system of linear inequalities evaluated in two variables yield 'No Solution'?"
+}
+}
+},
+{
+"cardId": "a9fe85c8-3ac4-41a2-be38-2f619e18c305",
+"originalOrder": 28,
+"originalHeading": "SOP: Reverse Engineering Inequalities from a Graph",
+"action": "SPLIT",
+"modificationsSummary": ["Split procedural bloat into Equation Setup"],
+"vettingNotes": "Part 1 of reverse engineering graph.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "geometry", "algorithms", "jee-main", "class-11"],
+"order": 17,
+"heading": "SOP: Reverse Engineering Graph (Part 1 - Equation)",
+"back": "## Component Anatomy:\n- **$y - y_1 = m(x - x_1)$**: The standard point-slope geometric equation to mathematically build the boundary line.\n\n## Boundary Conditions / Domain:\n- Ensure the two points you read from the graph to calculate slope ($m$) definitively lie strictly on the boundary line, intercepting perfectly at grid nodes.",
+"formulaMeta": {
+"formula": "ax + by = c",
+"description": "Step 1: Extracting the strict linear equation defining the geometric boundary line.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Identify exactly two definitive points $(x_1, y_1)$ and $(x_2, y_2)$ resting strictly on the drawn boundary line.\n2. Algebraically calculate the slope: $m = \frac{y_2 - y_1}{x_2 - x_1}$.\n3. Substitute into the point-slope formula to find the strict algebraic equation of the boundary line.\n4. Rearrange the resulting equation into standard form: $ax + by = c$."
+}
+}
+},
+{
+"cardId": "NEW_REVERSE_ENG_SPLIT_2",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split procedural bloat into Sign Deduction"],
+"vettingNotes": "Part 2 of reverse engineering graph.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "geometry", "algorithms", "jee-main", "class-11"],
+"order": 18,
+"heading": "SOP: Reverse Engineering Graph (Part 2 - Sign Deduction)",
+"back": "## Component Anatomy:\n- **$(x_t, y_t)$**: A specific test coordinate definitively anchored inside the shaded region.\n\n## Boundary Conditions / Domain:\n- Check line structure visually: Solid lines demand slack parameters ($\leq, \geq$), whereas dotted lines explicitly enforce strict parameters ($<, >$).",
+"mnemonic": "Find the line, test the shade, pick the sign.",
+"formulaMeta": {
+"formula": "ax_t + by_t \lessgtr c",
+"description": "Step 2: Deducing the strict or slack inequality orientation using the shaded feasible region.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Select a specific test point $(x_t, y_t)$ (preferably $(0,0)$ if valid) that geometrically lies **strictly inside** the shaded feasible region.\n2. Substitute the test point's coordinates purely into the LHS of the derived boundary line: $ax_t + by_t$.\n3. Compare this numerical result mathematically to the constant RHS ($c$). Determine which orientation sign correctly bridges them as a true logical statement.\n4. Apply slack signs if the line is plotted solid, and strict signs if dashed."
+}
+}
+},
+{
+"cardId": "32953c82-a3d7-4a30-9eaf-ed506509dd77",
+"originalOrder": 19,
+"originalHeading": "Modulus Inequality: Less Than (Bounded)",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Core modulus property.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "modulus", "jee-main", "class-11"],
+"order": 19,
+"heading": "Modulus Inequality: Less Than (Bounded)",
+"back": "## Component Anatomy:\n- **$x$**: Unknown variable or algebraic expression strictly bound inside the absolute value.\n- **$a$**: A constant, strictly positive real number boundary ($a > 0$).\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP**: $a$ MUST be $> 0$. If $a < 0$, the mathematical inequality $|x| < a$ strictly possesses absolutely no real solution because a physical geometric distance cannot evaluate to a negative value.",
+"mnemonic": "Less than creates a 'sandwich' (bounded perfectly in the middle).",
+"formulaMeta": {
+"formula": "|x| \leq a \implies -a \leq x \leq a",
+"description": "State the standard expansion rule for algebraically resolving a bounded modulus inequality.",
+"derivation": "Geometrically, $|x|$ defines the absolute distance of $x$ from the origin. If the permitted distance is strictly less than $a$, $x$ must physically reside inside the confined continuous interval precisely between $-a$ and $+a$."
+}
+}
+},
+{
+"cardId": "8b6ccfca-0a79-4aef-8579-07b8136e10bc",
+"originalOrder": 20,
+"originalHeading": "Modulus Inequality: Greater Than (Unbounded Split)",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Core modulus property.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "modulus", "jee-main", "class-11"],
+"order": 20,
+"heading": "Modulus Inequality: Greater Than (Unbounded Split)",
+"back": "## Component Anatomy:\n- **$x$**: Unknown variable or algebraic expression bound strictly inside the absolute value.\n- **$a$**: A constant, strictly positive real number boundary ($a > 0$).\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP**: $a > 0$. If $a < 0$, the mathematical statement $|x| > a$ evaluates logically as universally true for all real numbers $x \in \mathbb{R}$, yielding an infinite unbounded solution.",
+"mnemonic": "Greater than creates a 'Great Divide' (splits outward into disjoint halves).",
+"formulaMeta": {
+"formula": "|x| \geq a \implies x \leq -a \quad \text{OR} \quad x \geq a",
+"description": "State the standard expansion rule for algebraically resolving a disjoint, unbounded modulus inequality.",
+"derivation": "Geometrically, if the absolute distance of a coordinate from the origin must strictly exceed $a$, the valid points are mathematically forced to lie infinitely far to the left of $-a$ OR infinitely far to the right of $+a$."
+}
+}
+},
+{
+"cardId": "86781863-a4ef-4263-9331-0cfc3698070a",
+"originalOrder": 21,
+"originalHeading": "Shifted Modulus Inequality",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Extension of bounded modulus.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "modulus", "jee-main", "class-11"],
+"order": 21,
+"heading": "Shifted Modulus Inequality Boundary Mapping",
+"back": "## Component Anatomy:\n- **$x$**: The unknown independent algebraic variable.\n- **$a$**: The constant geometric shift representing the new center point of the modulus.\n- **$b$**: The strictly permitted distance radius from center $a$.\n\n## Boundary Conditions / Domain:\n- The allowed radius must be valid mathematically: $b > 0$.",
+"formulaMeta": {
+"formula": "a - b \leq x \leq a + b",
+"description": "State the expanded algebraic boundary conditions used strictly to solve a shifted modulus inequality of the form $|x - a| \leq b$.",
+"derivation": "Algorithmic SOP:\n1. Expand the internal parameter $|x - a| \leq b$ utilizing the standard sandwich rule: $-b \leq x - a \leq b$.\n2. Add the shift constant $a$ strictly uniformly across all three geometric segments of the double inequality to perfectly isolate $x$."
+}
+}
+},
+{
+"cardId": "c9be4c42-03b2-490c-ba34-c0a1079b2e7e",
+"originalOrder": 25,
+"originalHeading": "Denominator Non-Zero Constraint in Rational Inequalities",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to APPLICATION", "Sequenced before complex rational algorithms"],
+"vettingNotes": "Critical prerequisite rule.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 22,
+"heading": "Denominator Non-Zero Constraint in Rational Inequalities",
+"back": "- **Core Rule:** In strictly any fractional inequality evaluation (e.g., $\frac{x+2}{x-8} > 2$), the mathematical algebraic expression occupying the denominator position can **NEVER** equal zero to prevent an undefined evaluation.\n- **Action:** Before executing any procedural wavy curve logic, you must universally isolate and explicitly state $x - 8 \neq 0 \implies x \neq 8$.\n- **Graphical Result:** Even if the overall overarching inequality is slack ($\geq$ or $\leq$), the specific critical point generated by roots of the denominator must universally ALWAYS utilize an **open circle** (strict boundary) on the final solution line.",
+"mnemonic": "Denominators are strictly off-limits (open circle only).",
+"standardMeta": {
+"question": "When algebraically resolving rational fractional inequalities, what strict domain boundary condition must ALWAYS be enforced regarding the denominator?"
+}
+}
+},
+{
+"cardId": "d1f53ba0-3512-4c82-a6e1-0dc347717cc4",
+"originalOrder": 22,
+"originalHeading": "SOP: Complex Rational Inequalities with Modulus",
+"action": "SPLIT",
+"modificationsSummary": ["Split heavy 6-step algorithmic load into Part 1 (Setup)"],
+"vettingNotes": "Part 1 mapping for complex rational wavy curves.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "algorithms", "jee-advanced", "class-11"],
+"order": 23,
+"heading": "SOP: Complex Rational Modulus (Part 1 - Setup)",
+"back": "## Component Anatomy:\n- **$|x-a|$**: A repeated absolute value term polluting the fractional expression.\n- **$y$**: A dummy mathematical substitution variable to suppress algebraic complexity.\n\n## Boundary Conditions / Domain:\n- Always evaluate roots of the denominator to establish strict geometric vertical asymptotes where the fraction becomes algebraically undefined.",
+"formulaMeta": {
+"formula": "\text{Let } y = |x-a|",
+"description": "Step 1: Setting up and identifying critical points for complex fractional modulus inequalities.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Simplify the overarching expression strictly by substituting a temporary dummy variable $y$ in place of the repeated modulus term.\n2. Algebraically factor both the numerator and the denominator polynomials strictly in terms of $y$.\n3. Establish critical numerical points by isolating where the numerator strictly evaluates to $0$ and where the denominator strictly evaluates to $0$."
+}
+}
+},
+{
+"cardId": "NEW_COMPLEX_RATIONAL_SPLIT_2",
+"originalOrder": 22,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split heavy 6-step algorithmic load into Part 2 (Execution)"],
+"vettingNotes": "Part 2 executing Wavy Curve.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "algorithms", "jee-advanced", "class-11"],
+"order": 24,
+"heading": "SOP: Complex Rational Modulus (Part 2 - Wavy Curve)",
+"back": "## Component Anatomy:\n- **Wavy Curve**: A sequential sign-testing algorithm mapped strictly across critical numerical bounds.\n\n## Boundary Conditions / Domain:\n- You must meticulously enforce the strict domain rule (denominator $\neq 0$) by mapping open circles purely to denominator roots, regardless of the overall inequality sign.",
+"formulaMeta": {
+"formula": "\text{Wavy Curve Method Execution}",
+"description": "Step 2: Testing domains and unpacking the modulus substitution.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with the established critical algebraic points for dummy variable $y$.\n2. **CRITICAL:** Deploy a standard 1D number line (Wavy Curve Method) to test algebraic sign orientations exactly within the intervals spanning between these critical points.\n3. Filter out intervals using the denominator $\neq 0$ constraint.\n4. Re-substitute the strict modulus mapping ($|x-a| = y$) directly back into the valid solution intervals.\n5. Expand the final absolute value states strictly using standard $|x| \leq c$ sandwich rules to define the final domain interval for $x$."
+}
+}
+},
+{
+"cardId": "02abbd5b-b009-4078-9a52-d46967702006",
+"originalOrder": 15,
+"originalHeading": "SOP: Unknown Denominator Sign Trap (Rational Inequalities)",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Critical algebraic procedure.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "trap", "jee-advanced", "class-11"],
+"order": 25,
+"heading": "SOP: Unknown Denominator Sign Trap",
+"back": "## Component Anatomy:\n- **$(x+a)$**: An independent variable denominator expression whose resulting algebraic sign (positive or negative) is completely unknown during execution.\n\n## Boundary Conditions / Domain:\n- **Restriction:** $x \neq -a$ (Denominator cannot evaluate strictly to zero).\n- **TRAP:** Because the true sign of $(x+a)$ is mathematically unverified, you absolutely CANNOT simply cross-multiply. Cross-multiplying a negative value demands flipping the inequality, and without knowing the sign, you risk a logic collapse.",
+"mnemonic": "When in mathematical doubt, strictly square it out.",
+"formulaMeta": {
+"formula": "\frac{f(x)}{x+a} \leq c \implies \frac{f(x)}{x+a} \cdot (x+a)^2 \leq c(x+a)^2",
+"description": "State the standard algebraic workaround to effectively eliminate a variable denominator specifically when its positive/negative sign is unknown.",
+"derivation": "Algorithmic SOP:\n1. Never mathematically cross-multiply an unknown algebraic variable across an inequality.\n2. Instead, multiply BOTH continuous sides of the inequality strictly by the mathematical SQUARE of the denominator expression: $(x+a)^2$.\n3. Since a squared real number is universally positive, the overarching inequality sign is guaranteed to remain perfectly unchanged.\n4. Cancel the singular denominator term algebraically and solve the subsequently generated continuous polynomial."
+}
+}
+},
+{
+"cardId": "519382f6-1084-45f2-86f4-3db85a254be6",
+"originalOrder": 14,
+"originalHeading": "Word Problem Translation Trap: At Least vs. At Most",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced to prime word problems"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "word-problems", "translation", "class-11"],
+"order": 26,
+"heading": "Word Problem Translation Trap: At Least vs. At Most",
+"back": "- **'At Least' ($\geq$):** Mathematically establishes a strict floor or minimum continuous boundary. Translates algebraically to **Greater Than or Equal To**. (e.g., 'At least 61 cm' strictly implies $P \geq 61$).\n- **'At Most' ($\leq$):** Mathematically establishes a strict ceiling or maximum continuous boundary. Translates algebraically to **Less Than or Equal To**. (e.g., 'At most 120 Rs' strictly implies $C \leq 120$).\n- **'More Than' ($>$):** Establishes a purely strict inequality. Absolutely no equality is permitted at the boundary.",
+"mnemonic": "At LEAST points up (greater). At MOST points down (less).",
+"standardMeta": {
+"question": "How do you accurately algebraically translate the restrictive phrasing 'At least' and 'At most' strictly in linear inequality word problems?"
+}
+}
+},
+{
+"cardId": "a6330c19-88e6-47ad-888c-20fc8b98cf0c",
+"originalOrder": 17,
+"originalHeading": "SOP: Consecutive Odd/Even Integer Problems",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Archetypal algebraic model.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "algebra", "class-11"],
+"order": 27,
+"heading": "SOP: Consecutive Odd/Even Integer Problems",
+"back": "## Component Anatomy:\n- **$x$**: The first (strictly smaller) discrete integer mapped in the pair.\n- **$x+2$**: The next consecutive discrete odd/even integer mapped above it.\n\n## Boundary Conditions / Domain:\n- **Odd Constraint**: If specifying Odd, $x$ must evaluate definitively as an odd mathematical number.\n- **Even Constraint**: If specifying Even, $x$ must evaluate definitively as an even mathematical number.\n- In both continuous cases, the step gap physically traversing the number line remains precisely $+2$.",
+"formulaMeta": {
+"formula": "x \quad \text{and} \quad x + 2",
+"description": "State the standard algebraic mathematical setup used for defining two consecutive odd or even integers precisely in an inequality problem.",
+"derivation": "Algorithmic SOP:\n1. Let the smaller integer algebraically strictly be $x$.\n2. The immediately following consecutive odd or even integer is strictly separated geometrically by a gap of exactly 2, so define it as $x + 2$.\n3. Apply given algorithmic constraints strictly (e.g., condition 1: $x > 5$ and condition 2: $x + (x+2) < 23$).\n4. Algebraically solve to isolate the continuous range for $x$, and then purely manually filter out and select the valid discrete integer points from that continuous interval based on whether the prompt explicitly demanded odd or even elements."
+}
+}
+},
+{
+"cardId": "70a283a4-efc1-4a1d-ba81-6b92a0d6d56e",
+"originalOrder": 18,
+"originalHeading": "SOP: Average Score Constraints",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "Archetypal algebraic model.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "algebra", "class-11"],
+"order": 28,
+"heading": "SOP: Average Score Constraints",
+"back": "## Component Anatomy:\n- **$S_1, S_2, \dots$**: Known discrete test scores achieved.\n- **$x$**: The unknown continuous/discrete score mathematically required strictly on the final testing event.\n- **$n$**: The total exhaustive number of tests evaluated.\n- **$A$**: The target overarching average performance threshold.\n\n## Boundary Conditions / Domain:\n- The required performance $x \geq 0$ (Cannot logically score below an absolute zero base).\n- Typically restricted by a strict physical upper ceiling defined by the maximum mathematically possible test score (e.g., $x \leq 100$).",
+"formulaMeta": {
+"formula": "\frac{S_1 + S_2 + \dots + x}{n} \geq A",
+"description": "State the rigid algebraic setup mapping used strictly to uncover the minimum or maximum continuous score mathematically required on a terminal evaluation to secure a fixed target average.",
+"derivation": "Algorithmic SOP:\n1. Algebraically sum all definitively known score parameters alongside the independent unknown variable $x$.\n2. Divide this entire consolidated numerator uniformly by the total count parameter $n$.\n3. Rigorously set the overarching continuous inequality (using $\geq$ for evaluating 'at least' states, or $\leq$ for 'at most' boundaries) against the designated target average $A$.\n4. Multiply strictly both algebraic sides universally by $n$ to clear fractions, and definitively isolate $x$."
+}
+}
+},
+{
+"cardId": "39e6d34b-9669-4b1a-a30e-1d56dd283679",
+"originalOrder": 24,
+"originalHeading": "SOP: Geometric / Perimeter Constraints",
+"action": "SPLIT",
+"modificationsSummary": ["Split 5-step SOP into Part 1 (Variable Setup)"],
+"vettingNotes": "Part 1 of perimeter word problem translation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "geometry", "class-11"],
+"order": 29,
+"heading": "SOP: Geometric Constraints (Part 1 - Setup)",
+"back": "## Component Anatomy:\n- **$x$**: Let the primary dimension (usually the shortest side) strictly be designated as $x$.\n- **$f(x), g(x)$**: The subsequent secondary side dimensions algebraically mapped relative to $x$ (e.g., $3x$, $3x - 2$).\n\n## Boundary Conditions / Domain:\n- **Strict Constraint**: All physical lengths must algebraically evaluate as strictly positive integers or reals: $x > 0$, $f(x) > 0$, $g(x) > 0$.",
+"formulaMeta": {
+"formula": "\text{Total Length} = x + f(x) + g(x)",
+"description": "Step 1: Translating geometric dimensional statements into an algebraic sum.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Define the universal base variable (usually the shortest physical side $x$).\n2. Express all other dimensional lengths strictly algebraically in terms of $x$.\n3. Sum all generated dimensions to mathematically represent the continuous total perimeter."
+}
+}
+},
+{
+"cardId": "NEW_GEOMETRIC_SPLIT_2",
+"originalOrder": 24,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split 5-step SOP into Part 2 (Evaluation)"],
+"vettingNotes": "Part 2 of perimeter evaluation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "geometry", "class-11"],
+"order": 30,
+"heading": "SOP: Geometric Constraints (Part 2 - Execution)",
+"back": "## Component Anatomy:\n- **$P$**: The fixed target physical perimeter boundary.\n\n## Boundary Conditions / Domain:\n- After solving the algebraic inequality for $x$, verify the final mathematical interval strictly obeys the initial condition $x > 0$.",
+"formulaMeta": {
+"formula": "x + f(x) + g(x) \geq P",
+"description": "Step 2: Enforcing the inequality boundary constraint.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with the total algebraic sum from Part 1.\n2. Apply the specific wording constraint ('at least' $\implies \geq$, or 'at most' $\implies \leq$) directly against the target boundary $P$.\n3. Algebraically solve to strictly isolate $x$ and establish the minimum or maximum allowed continuous geometric length."
+}
+}
+},
+{
+"cardId": "7c6c6b5a-6356-4874-93c9-a0b3e385c7e1",
+"originalOrder": 16,
+"originalHeading": "SOP: Acid/Mixture Dilution Word Problems",
+"action": "SPLIT",
+"modificationsSummary": ["Split complex archetype into Part 1 (Volume & Mass mapping)"],
+"vettingNotes": "Part 1 of the notoriously difficult acid dilution archetype.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "algebra", "jee-main", "class-11"],
+"order": 31,
+"heading": "SOP: Acid Dilution (Part 1 - Mass Balance)",
+"back": "## Component Anatomy:\n- **$V_1$**: Continuous physical volume of the original base solution.\n- **$P_1$**: Percentage concentration of the original base solution.\n- **$x$**: Unknown continuous volume of the secondary solution being actively added.\n- **$P_2$**: Percentage of the added solution (Crucial: 0% if pure water).\n\n## Boundary Conditions / Domain:\n- The unknown added volume must definitively be positive: $x > 0$.",
+"formulaMeta": {
+"formula": "\text{New Mass} = V_1 P_1 + x P_2",
+"description": "Step 1: Mapping the strict algebraic conservation of active mass/acid.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Calculate the total initial absolute acid/solute mass: $V_1 \cdot P_1$.\n2. Identify the active mass being added: $x \cdot P_2$.\n3. Construct the numerator (Total Active Mass): $V_1 P_1 + x P_2$.\n4. Construct the denominator (Total New Physical Volume): $V_1 + x$."
+}
+}
+},
+{
+"cardId": "NEW_ACID_SPLIT_2",
+"originalOrder": 16,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split complex archetype into Part 2 (Concentration Boundary)"],
+"vettingNotes": "Part 2 executing the concentration constraint.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "word-problems", "algebra", "jee-main", "class-11"],
+"order": 32,
+"heading": "SOP: Acid Dilution (Part 2 - Concentration Bound)",
+"back": "## Component Anatomy:\n- **$\frac{\text{Mass}}{\text{Volume}}$**: Defines the strict resulting concentration percentage.\n- **$P_{\text{target}}$**: The mandated boundary constraint percentage.\n\n## Boundary Conditions / Domain:\n- Since strictly $V_1 + x > 0$, you can universally safely multiply both sides of the inequality by the denominator without ever flipping the inequality sign.",
+"formulaMeta": {
+"formula": "\frac{V_1 P_1 + x P_2}{V_1 + x} \lessgtr \frac{P_{\text{target}}}{100}",
+"description": "Step 2: Enforcing the strict concentration percentage boundary.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with the concentration ratio fraction mapped in Part 1.\n2. Set up the overarching algebraic inequality constraint strictly bounded by the target percentage (e.g., $< \frac{P_{\text{target}}}{100}$).\n3. Multiply across strictly by the universally positive new volume $(V_1 + x)$.\n4. Algebraically isolate the variable $x$ to yield the final continuous valid volume range."
+}
+}
+},
+{
+"cardId": "50cf7646-0919-4c71-a759-1f7da67f1e2c",
+"originalOrder": 29,
+"originalHeading": "Manufacturing Profit Constraints",
+"action": "MODIFIED",
+"modificationsSummary": ["Injected discrete item domain constraint", "Escaped KaTeX"],
+"vettingNotes": "Standard economics word problem.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "word-problems", "algebra", "class-11"],
+"order": 33,
+"heading": "Manufacturing Profit Constraints",
+"back": "## Component Anatomy:\n- **$R(x)$**: Mathematical revenue function (money earned from selling precisely $x$ discrete items).\n- **$C(x)$**: Mathematical cost function (money expended to produce $x$ items, classically fixed base cost + linear variable cost).\n- **$x$**: Total distinct count of items physically produced and sold.\n\n## Boundary Conditions / Domain:\n- **CRITICAL**: Items are discrete, tangible physical objects. The domain for $x$ must strictly be restricted to Natural Numbers ($x \in \mathbb{N}$). Fractional items are fundamentally invalid.",
+"formulaMeta": {
+"formula": "R(x) - C(x) > 0",
+"description": "State the strict algebraic boundary constraint mathematically required for a company to tangibly 'realize some profit'.",
+"derivation": "1. Mathematical profit is globally defined as Revenue strictly minus Cost.\n2. For a company to 'realize profit', the generated algebraic difference must be strictly greater than zero (an exact value of zero denotes merely a stagnant break-even state).\n3. Substitute expressions for $R(x)$ and $C(x)$ and algebraically solve for $x$."
+}
+}
+},
+{
+"cardId": "e0b31531-7f64-402d-a556-a3f482753b23",
+"originalOrder": 30,
+"originalHeading": "Intelligence Quotient (IQ) Range Modeling",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX"],
+"vettingNotes": "Good application of double inequalities.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "word-problems", "algebra", "class-11"],
+"order": 34,
+"heading": "Intelligence Quotient (IQ) Range Modeling",
+"back": "## Component Anatomy:\n- **$MA$**: Evaluated Mental Age variable.\n- **$CA$**: Chronological Age (Actual elapsed physical age in years).\n- **$IQ$**: Calculated Intelligence Quotient metric.\n\n## Boundary Conditions / Domain:\n- Mathematically, chronological age strictly must be positive ($CA > 0$), permitting uniform cross-multiplication across the double inequality without sign flips.",
+"formulaMeta": {
+"formula": "IQ = \frac{MA}{CA} \times 100",
+"description": "State the standard algebraic formula for IQ and the procedural method to extract the mapped Mental Age (MA) continuous range given a strict IQ boundary.",
+"derivation": "1. Substitute the definitively known constant for Chronological Age ($CA$) directly into the overarching IQ formulation.\n2. Nest the resulting fractional expression $\frac{MA}{CA} \times 100$ structurally directly inside the mapped double inequality boundary (e.g., $80 \leq IQ \leq 140$).\n3. Algebraically multiply all three contiguous segments strictly by $CA$, then uniformly divide by $100$ to successfully isolate $MA$."
+}
+}
+},
+{
+"cardId": "965768c9-4e65-4860-9e97-00c4da967599",
+"originalOrder": 23,
+"originalHeading": "Temperature Conversion Inequality",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX"],
+"vettingNotes": "Final linear double inequality problem.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "word-problems", "algebra", "class-11"],
+"order": 35,
+"heading": "Temperature Conversion Inequality",
+"back": "## Component Anatomy:\n- **$C$**: Thermal metric in Celsius.\n- **$F$**: Thermal metric mapped in Fahrenheit.\n\n## Boundary Conditions / Domain:\n- The linear relationship ensures inequalities hold structurally proportionally because the functional mapping is strictly linear and possesses a positive algebraic slope ($\frac{9}{5}$).",
+"formulaMeta": {
+"formula": "F = \frac{9}{5}C + 32",
+"description": "State the universally standard algebraic conversion formula used mathematically in linear inequality thermal boundary problems.",
+"derivation": "Procedural evaluation:\n1. Substitute the continuous linear relation mapping directly into the stipulated boundary bounds (e.g., $68 < F < 77$).\n2. Deduct $32$ uniformly from all three segments.\n3. Multiply strictly by $\frac{5}{9}$ uniformly to completely algebraically isolate $C$ and lock the mapped temperature domain."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

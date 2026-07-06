@@ -1,0 +1,1019 @@
+{
+"deckId": "2212b109-d5dc-4918-be7e-362f28b3c81b",
+"cards": [
+{
+"cardId": "7e8109a2-0c63-4558-9821-d9ff2305454c",
+"originalOrder": 1,
+"originalHeading": "Random Experiment Conditions",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 1,
+"heading": "Random Experiment Conditions",
+"back": "- **Point 1:** It must have strictly **more than one** possible outcome.\n- **Point 2:** It is mathematically impossible to predict the exact outcome in advance.",
+"standardMeta": {
+"question": "What are the two strict mathematical conditions an activity must satisfy to be classified as a 'Random Experiment'?"
+}
+}
+},
+{
+"cardId": "941153dc-402e-4fe0-b985-d3072094fd6a",
+"originalOrder": 2,
+"originalHeading": "Sample Space and Sample Points",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 2,
+"heading": "Sample Space and Sample Points",
+"back": "- **Sample Space ($S$):** The set of absolutely all possible outcomes of a random experiment.\n- **Sample Point:** Each individual element (or outcome) within that sample space.",
+"standardMeta": {
+"question": "Define the terms 'Sample Space' and 'Sample Point' in the context of probability."
+}
+}
+},
+{
+"cardId": "418873cb-a0cb-42da-a917-e86b9d01c008",
+"originalOrder": 22,
+"originalHeading": "Deck of Cards Anatomy",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to establish fundamental data earlier",
+"Changed classification to DATA"
+],
+"vettingNotes": "Moved up before classical probability algorithms.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DATA",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 3,
+"heading": "Deck of Cards Anatomy",
+"back": "- **Total Cards:** $52$ (excluding Jokers).\n- **Colours:** $26$ Red (Hearts $\heartsuit$, Diamonds $\diamondsuit$), $26$ Black (Spades $\spadesuit$, Clubs $\clubsuit$).\n- **Suits:** $4$ suits of exactly $13$ cards each.\n- **Face Cards:** Jacks (J), Queens (Q), Kings (K). There are strictly **$3 \times 4 = 12$ face cards** total. *(Note: Aces are NOT face cards).* \n- **Honour Cards:** Aces + Face Cards ($16$ total).",
+"standardMeta": {
+"question": "What is the mathematical distribution of colours, suits, and face cards in a standard deck of 52 playing cards?"
+}
+}
+},
+{
+"cardId": "1b258a10-2e5f-4bf7-bd22-e702a8f73d55",
+"originalOrder": 3,
+"originalHeading": "Mathematical Definition of an Event",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 4,
+"heading": "Mathematical Definition of an Event",
+"back": "- **Concept:** An event is strictly any **subset** of the sample space $S$.\n- **Notation:** If $E$ is an event, then $E \subseteq S$.",
+"standardMeta": {
+"question": "In rigorous set theory terms, what exactly is an 'Event' in relation to a Sample Space?"
+}
+}
+},
+{
+"cardId": "43b607bb-26b1-4ea6-80c7-5654d5b0ff94",
+"originalOrder": 4,
+"originalHeading": "Impossible vs. Sure Events",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 5,
+"heading": "Impossible vs. Sure Events",
+"back": "- **Impossible Event:** An event that corresponds to the **empty set** ($\phi$). It contains zero sample points (e.g., rolling a 7 on a standard 6-sided die).\n- **Sure Event:** An event that strictly corresponds to the **entire sample space** ($S$). Every possible outcome satisfies it.",
+"standardMeta": {
+"question": "What is the strict set-theoretic distinction between an Impossible Event and a Sure Event?"
+}
+}
+},
+{
+"cardId": "6bba0c12-6e8a-41ba-8403-dc6f9f1cbf42",
+"originalOrder": 5,
+"originalHeading": "Simple vs. Compound Events",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 6,
+"heading": "Simple vs. Compound Events",
+"back": "- **Simple Event:** An event containing exactly **one single sample point** from the sample space.\n- **Compound Event:** An event containing **more than one sample point** from the sample space.",
+"mnemonic": "Simple = Single.",
+"standardMeta": {
+"question": "How do you distinguish between a Simple Event and a Compound Event based on their sample points?"
+}
+}
+},
+{
+"cardId": "0e63ce2a-7595-40d7-a10a-7fc3ec5b4e65",
+"originalOrder": 10,
+"originalHeading": "Mutually Exclusive Events",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered for cognitive sequencing"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 7,
+"heading": "Mutually Exclusive Events",
+"back": "- **Definition:** Two events $A$ and $B$ are mutually exclusive if they cannot strictly occur simultaneously.\n- **Mathematical Condition:** Their intersection is the empty set: **$A \cap B = \phi$**.\n- **Example:** Getting a 'Head' and a 'Tail' on a single coin toss.",
+"mnemonic": "Exclusive = Exclude each other entirely.",
+"standardMeta": {
+"question": "What is the strict mathematical condition for two events A and B to be considered 'Mutually Exclusive'?"
+}
+}
+},
+{
+"cardId": "6bf7ec64-8257-45be-ac99-4faa0eb93452",
+"originalOrder": 11,
+"originalHeading": "Exhaustive Events",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered for cognitive sequencing"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 8,
+"heading": "Exhaustive Events",
+"back": "- **Definition:** A set of events $E_1, E_2, \dots, E_n$ is exhaustive if at least one of them MUST occur whenever the experiment is performed.\n- **Mathematical Condition:** Their union strictly forms the entire Sample Space: **$E_1 \cup E_2 \cup \dots \cup E_n = S$**.",
+"mnemonic": "Exhaustive exhausts the whole sample space.",
+"standardMeta": {
+"question": "What is the strict mathematical condition for a set of events to be considered 'Exhaustive'?"
+}
+}
+},
+{
+"cardId": "8c7bc0ff-a63b-48b0-8423-47779984c4ed",
+"originalOrder": 12,
+"originalHeading": "Mutually Exclusive AND Exhaustive Events",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered for cognitive sequencing"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 9,
+"heading": "Mutually Exclusive AND Exhaustive Validation",
+"back": "- **Step 1:** Verify Exhaustive condition: The union of all events must equal $S$ ($E_1 \cup E_2 \dots = S$).\n- **Step 2:** Verify Mutually Exclusive condition: The intersection of EVERY distinct pair must be strictly empty ($E_i \cap E_j = \phi$ for $i \neq j$).\n- **Conclusion:** If both hold, the system perfectly partitions the sample space into non-overlapping events.",
+"standardMeta": {
+"question": "How do you systematically prove that a given set of events are BOTH Mutually Exclusive and Exhaustive?"
+}
+}
+},
+{
+"cardId": "543b269f-364f-4b7a-994c-178049cbcb59",
+"originalOrder": 6,
+"originalHeading": "Set Notation: Complementary Event (Not A)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 10,
+"heading": "Complementary Event Set Notation",
+"back": "## Component Anatomy:\n- **$A'$ or $A^c$:** The event 'not A'.\n- **$S$:** The universal sample space.\n- **$A$:** The original event.\n\n## Boundary Conditions / Domain:\n- $A'$ contains all outcomes strictly in $S$ that are NOT in $A$.",
+"formulaMeta": {
+"formula": "A' = S - A",
+"description": "Set theory formula defining the complementary event 'Not A'.",
+"derivation": "Derived by subtracting subset A from universal set S."
+}
+}
+},
+{
+"cardId": "bdbb223c-50ef-44ee-a47f-a036a59fd259",
+"originalOrder": 7,
+"originalHeading": "Set Notation: Event A or B",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 11,
+"heading": "Union Notation (A or B)",
+"back": "## Component Anatomy:\n- **$\cup$ (Union):** Represents the logical 'OR'.\n- **$A \cup B$:** The event that either A occurs, B occurs, or both occur.\n\n## Boundary Conditions / Domain:\n- Combines all sample points from both subsets without repetition.",
+"mnemonic": "Union is a cup (U) that holds everything from A OR B.",
+"formulaMeta": {
+"formula": "A \cup B",
+"description": "Mathematical set notation for the event 'A or B'.",
+"derivation": "Standard set theory notation for combination of elements."
+}
+}
+},
+{
+"cardId": "82c7c0c5-6fc2-49eb-93ab-21596537675e",
+"originalOrder": 8,
+"originalHeading": "Set Notation: Event A and B",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 12,
+"heading": "Intersection Notation (A and B)",
+"back": "## Component Anatomy:\n- **$\cap$ (Intersection):** Represents the logical 'AND'.\n- **$A \cap B$:** The event that BOTH A and B occur simultaneously.\n\n## Boundary Conditions / Domain:\n- Only contains sample points strictly common to both A and B.",
+"mnemonic": "Intersection looks like an 'A' for AND.",
+"formulaMeta": {
+"formula": "A \cap B",
+"description": "Mathematical set notation for the event 'A and B'.",
+"derivation": "Standard set theory notation for shared elements."
+}
+}
+},
+{
+"cardId": "6f885044-3452-4ce8-9c01-88e1d9793c4a",
+"originalOrder": 9,
+"originalHeading": "Set Notation: Event A but not B",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 13,
+"heading": "Difference Notation (A but not B)",
+"back": "## Component Anatomy:\n- **$A$:** The target event.\n- **$B'$:** The complement of the excluded event.\n\n## Boundary Conditions / Domain:\n- Mathematically equivalent to removing the intersection of A and B strictly from A.",
+"formulaMeta": {
+"formula": "A - B = A \cap B'",
+"description": "Equivalent mathematical set notations for the event 'A but not B'.",
+"derivation": "Achieved by isolating elements of A and excluding elements that fall in B."
+}
+}
+},
+{
+"cardId": "32427c68-e221-4ed6-a82b-8020271b04fe",
+"originalOrder": 13,
+"originalHeading": "SOP: Validating Axiomatic Probability Assignments",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 14,
+"heading": "SOP: Validating Axiomatic Assignments",
+"back": "To check if a given probability assignment for outcomes $\omega_i$ in sample space $S$ is valid:\n- **Condition 1 (Non-Negativity):** Every single outcome must have a probability between $0$ and $1$ inclusive. $0 \leq P(\omega_i) \leq 1$.\n- **Condition 2 (Total Sum):** The sum of the probabilities of ALL sample points in $S$ must strictly equal exactly $1$. $\sum P(\omega_i) = 1$.\n- **Conclusion:** If any assigned probability is negative, $>1$, or the sum is $\neq 1$, the assignment is invalid.",
+"mnemonic": "No negatives, no over-ones, sum to one.",
+"standardMeta": {
+"question": "What is the algorithmic SOP to check if a provided table of probabilities for outcomes in a sample space is mathematically valid according to Axiomatic probability?"
+}
+}
+},
+{
+"cardId": "2e1d452e-7077-4894-abdb-f3b45a1d32aa",
+"originalOrder": 14,
+"originalHeading": "Classical Probability Formula (Equally Likely Outcomes)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 15,
+"heading": "Classical Probability Formula",
+"back": "## Component Anatomy:\n- **$n(E)$:** The number of outcomes favourable to event E.\n- **$n(S)$:** The total number of outcomes in the sample space.\n\n## Boundary Conditions / Domain:\n- Strictly requires that all outcomes in the sample space are **equally likely**.\n- $n(S) > 0$.",
+"mnemonic": "Favourable over Total.",
+"formulaMeta": {
+"formula": "P(E) = \frac{n(E)}{n(S)}",
+"description": "Classical formula to calculate the probability of an event E.",
+"derivation": "Derived from the axiomatic sum $\sum P(\omega_i) = 1$. If there are $n$ equally likely outcomes, each has probability $1/n$. For an event $E$ with $m$ outcomes, its probability is strictly $m \times (1/n) = m/n$."
+}
+}
+},
+{
+"cardId": "b8f3196b-1d10-49ed-ba7b-fa712fced88b",
+"originalOrder": 15,
+"originalHeading": "Probability of a Complementary Event",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 16,
+"heading": "Complementary Probability",
+"back": "## Component Anatomy:\n- **$P(A')$:** The probability that event A does NOT happen.\n- **$P(A)$:** The probability that event A does happen.\n\n## Boundary Conditions / Domain:\n- $0 \leq P(A) \leq 1$.",
+"formulaMeta": {
+"formula": "P(A') = 1 - P(A)",
+"description": "Formula relating the probability of an event A to its complementary event.",
+"derivation": "Since A and A' are mutually exclusive and exhaustive: $A \cup A' = S$ and $A \cap A' = \phi$. By probability axioms, $P(A \cup A') = P(A) + P(A') = P(S) = 1$. Rearranging gives $P(A') = 1 - P(A)$."
+}
+}
+},
+{
+"cardId": "94950f19-3a7d-469a-8364-216a22a274ab",
+"originalOrder": 16,
+"originalHeading": "General Addition Rule (A or B)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 17,
+"heading": "General Addition Rule (A or B)",
+"back": "## Component Anatomy:\n- **$P(A \cup B)$:** Probability of A occurring, B occurring, or both.\n- **$P(A) + P(B)$:** The sum of their individual probabilities.\n- **$P(A \cap B)$:** The intersection, subtracted to remove double-counting.\n\n## Boundary Conditions / Domain:\n- Valid for ANY two events A and B in sample space S.",
+"formulaMeta": {
+"formula": "P(A \cup B) = P(A) + P(B) - P(A \cap B)",
+"description": "Calculates the probability of the union of two general events A and B.",
+"derivation": "Counting elements in A plus B inherently counts the intersection twice, requiring subtraction of $P(A \cap B)$ once."
+}
+}
+},
+{
+"cardId": "5b0ccf2d-328a-4bc0-827a-01b0f74d2984",
+"originalOrder": 17,
+"originalHeading": "Addition Rule for Mutually Exclusive Events",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 18,
+"heading": "Addition Rule: Mutually Exclusive",
+"back": "## Component Anatomy:\n- **$P(A \cup B)$:** Probability of A or B occurring.\n- **$P(A) + P(B)$:** Direct sum of individual probabilities.\n\n## Boundary Conditions / Domain:\n- STRICTLY valid only if $A$ and $B$ are **Mutually Exclusive** ($A \cap B = \phi$).",
+"formulaMeta": {
+"formula": "P(A \cup B) = P(A) + P(B)",
+"description": "Specialized Addition Rule formula for mutually exclusive events.",
+"derivation": "If A and B are mutually exclusive, $A \cap B = \phi$, meaning $P(A \cap B) = 0$. Substituting this into the general addition rule strictly zeroes out the intersection term."
+}
+}
+},
+{
+"cardId": "bf250191-cd1c-4dbc-bfc3-6ce11d749458",
+"originalOrder": 24,
+"originalHeading": "Addition Rule for Three Events (A union B union C)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping",
+"Reordered for cognitive flow"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 19,
+"heading": "Addition Rule for Three Events",
+"back": "## Component Anatomy:\n- **Singles:** $+P(A) + P(B) + P(C)$\n- **Pairs:** $-P(A \cap B) - P(B \cap C) - P(A \cap C)$ (removes double counts)\n- **Triple:** $+P(A \cap B \cap C)$ (adds back the strictly central overlap removed too many times)\n\n## Boundary Conditions / Domain:\n- Valid for any 3 general events. Used frequently in Miscellaneous/Exemplar problems.",
+"mnemonic": "Add singles, subtract pairs, add the triple back.",
+"formulaMeta": {
+"formula": "P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(C \cap A) + P(A \cap B \cap C)",
+"description": "Extended Addition Rule formula for the union of three events.",
+"derivation": "Uses Inclusion-Exclusion Principle."
+}
+}
+},
+{
+"cardId": "081b99de-be06-4879-9cb5-0db6af0baf21",
+"originalOrder": 18,
+"originalHeading": "Probability of 'Exactly One' (A but not B)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping",
+"Converted to FORMULA type constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 20,
+"heading": "Probability of 'A but not B'",
+"back": "## Component Anatomy:\n- **$P(A \cap B')$:** The probability that A happens AND B strictly does not happen.\n- **$P(A)$:** Total probability of A.\n- **$P(A \cap B)$:** The overlap where B also happened.\n\n## Boundary Conditions / Domain:\n- Valid for any two events.",
+"mnemonic": "Take all of A, and carve out the part infected by B.",
+"formulaMeta": {
+"formula": "P(A \cap B') = P(A) - P(A \cap B)",
+"description": "Formula to find the probability that event A occurs, but event B strictly does NOT occur.",
+"derivation": "From set theory, $A$ is composed of two mutually exclusive parts: $(A \cap B')$ and $(A \cap B)$. Therefore, $P(A) = P(A \cap B') + P(A \cap B)$. Rearranging strictly isolates $P(A \cap B')$."
+}
+}
+},
+{
+"cardId": "b27770fa-655d-4fa3-ab90-e80a99c97589",
+"originalOrder": 19,
+"originalHeading": "De Morgan's Law Application (Neither A nor B)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 21,
+"heading": "De Morgan's Probability (Neither)",
+"back": "## Component Anatomy:\n- **$P(A' \cap B')$:** The probability that NEITHER A NOR B occurs.\n- **$1 - P(A \cup B)$:** One minus the probability of A or B occurring.\n\n## Boundary Conditions / Domain:\n- 'Neither A nor B' translates mathematically strictly to $A' \cap B'$.",
+"mnemonic": "Break the line, change the sign (Intersection to Union).",
+"formulaMeta": {
+"formula": "P(A' \cap B') = 1 - P(A \cup B)",
+"description": "Formula applying De Morgan's Law to find the probability of 'Neither A nor B'.",
+"derivation": "By De Morgan's Law, $A' \cap B' = (A \cup B)'$. Using the complementary probability rule, $P((A \cup B)') = 1 - P(A \cup B)$."
+}
+}
+},
+{
+"cardId": "fcb06b3c-b574-45b8-b142-8cdd2a4d8665",
+"originalOrder": 29,
+"originalHeading": "Event Subset Conditions (E1 ⊂ E2)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered for cognitive sequencing",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 22,
+"heading": "Event Subset Conditions",
+"back": "## Component Anatomy:\n- **$E_1 \subset E_2$:** Event 1 is strictly a subset of Event 2 (if $E_1$ happens, $E_2$ automatically happens).\n\n## Boundary Conditions / Domain:\n- Under this condition, the intersection strictly collapses to the smaller set ($E_1$), and the union strictly collapses to the larger set ($E_2$).",
+"formulaMeta": {
+"formula": "\begin{aligned} E_1 \cap E_2 &= E_1 \\ E_1 \cup E_2 &= E_2 \\ P(E_1) &\leq P(E_2) \end{aligned}",
+"description": "Formulas for intersection, union, and probability bounds if one event is a subset of another.",
+"derivation": "Direct mapping of set subset definitions."
+}
+}
+},
+{
+"cardId": "43461817-bfef-4e42-9fa3-173209079730",
+"originalOrder": 28,
+"originalHeading": "Probability Inequality Chain",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 23,
+"heading": "Probability Inequality Chain",
+"back": "## Component Anatomy:\n- **$P(A \cap B)$:** The intersection (smallest value).\n- **$P(A)$:** An individual event probability.\n- **$P(A \cup B)$:** The union (larger than individual).\n- **$P(A) + P(B)$:** The raw algebraic sum (largest value).\n\n## Boundary Conditions / Domain:\n- Valid for any two events $A$ and $B$ in sample space $S$.\n- This chain strictly caps at a maximum of $1$ for the union, but the algebraic sum $P(A)+P(B)$ can reach $2$.",
+"mnemonic": "Intersection ≤ Individual ≤ Union ≤ Raw Sum",
+"formulaMeta": {
+"formula": "0 \leq P(A \cap B) \leq P(A) \leq P(A \cup B) \leq P(A) + P(B)",
+"description": "Strict mathematical inequality chain connecting key probability values.",
+"derivation": "Derived from subset property $A \cap B \subset A \subset A \cup B$ and general addition theorem."
+}
+}
+},
+{
+"cardId": "13b03ce2-b401-47d8-acdb-8b4cf929a79f",
+"originalOrder": 20,
+"originalHeading": "SOP: Combinatorics in Probability (Selecting r items from N)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Denominator) to reduce cognitive load"
+],
+"vettingNotes": "First half of the combinatorics algorithm.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"combinatorics",
+"jee-main",
+"class-11"
+],
+"order": 24,
+"heading": "SOP: Combinatorics Denominator Setup",
+"back": "- **Step 1:** Identify total items $N$ and the number of items strictly to be drawn simultaneously (or without replacement) $r$.\n- **Step 2:** Determine the total sample space denominator using combinatorial combinations.\n- **Formula:** $n(S) = {}^{N}C_r$.",
+"standardMeta": {
+"question": "What is the initial Standard Operating Procedure step to establish the sample space denominator when drawing multiple items without replacement?"
+}
+}
+},
+{
+"cardId": "NEW_COMBINATORICS_P2",
+"originalOrder": 20,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Generated as Part 2 from original Card 20"
+],
+"vettingNotes": "Second half of the combinatorics algorithm.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"combinatorics",
+"jee-main",
+"class-11"
+],
+"order": 25,
+"heading": "SOP: Combinatorics Numerator & Execution",
+"back": "- **Step 1:** Identify the favourable subgroups (e.g., $N_1$ red balls, $N_2$ blue balls) and the strictly required items to be drawn from each ($r_1, r_2$).\n- **Step 2:** Calculate favourable outcomes using the Fundamental Principle of Counting (Multiplication): **$n(E) = {}^{N_1}C_{r_1} \times {}^{N_2}C_{r_2}$**.\n- **Step 3:** Compute final probability by dividing $n(E)$ by the sample space $n(S)$.",
+"standardMeta": {
+"question": "After determining the sample space, how do you mathematically calculate the favourable outcomes (numerator) for combinations using subgroups?"
+}
+}
+},
+{
+"cardId": "5f2bd7e1-8cca-439d-90be-b240c3d3e033",
+"originalOrder": 25,
+"originalHeading": "SOP: 'Different Colours' when drawing 2 items",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split setup into logic structure to prevent bloat"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 26,
+"heading": "SOP Logic: Drawing 'Different Colours'",
+"back": "- **Scenario:** Drawing exactly 2 cards/balls simultaneously and needing them to be of 'opposite/different colours' (e.g., 1 Red, 1 Black).\n- **Logical Setup:** Treat the requirement strictly as a combinatorial 'AND' condition between two distinct subsets: (Choose 1 from Red) AND (Choose 1 from Black).\n- **Favorable Outcomes:** Using the multiplication principle, **$n(E) = {}^{N_{Red}}C_1 \times {}^{N_{Black}}C_1$**.",
+"standardMeta": {
+"question": "What is the logical setup and combinatorial formulation for favorable outcomes when drawing exactly 2 items of 'different colours'?"
+}
+}
+},
+{
+"cardId": "NEW_DIFF_COLOURS_P2",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created to finalize the calculation steps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"jee-main",
+"class-11"
+],
+"order": 27,
+"heading": "SOP Execution: Drawing 'Different Colours'",
+"back": "- **Step 1:** Formulate total outcomes strictly by drawing 2 items from the total pool: **$n(S) = {}^{N_{Total}}C_2$**.\n- **Step 2:** Retrieve the favorable numerator: **$n(E) = {}^{N_{Red}}C_1 \times {}^{N_{Black}}C_1$**.\n- **Step 3:** Probability = **$\frac{{}^{N_{Red}}C_1 \times {}^{N_{Black}}C_1}{{}^{N_{Total}}C_2}$**.",
+"standardMeta": {
+"question": "Given the favorable outcomes logic for drawing 2 different colored items, what is the final procedural execution to find the probability?"
+}
+}
+},
+{
+"cardId": "35636c04-e407-4a27-81ce-070ea0db7548",
+"originalOrder": 31,
+"originalHeading": "Probability of One-to-One Mappings",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split mathematical derivation from core formula",
+"Injected explicit boundary conditions",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Split to prevent cognitive bloat in memory retention.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"probability",
+"functions",
+"jee-main",
+"class-11"
+],
+"order": 28,
+"heading": "Formula: Probability of One-to-One Mappings",
+"back": "## Component Anatomy:\n- **$n!$:** The number of permutations, representing all strictly valid one-to-one (injective) mappings from set $A$ to itself.\n- **$n^n$:** The total number of unconstrained mathematical functions/mappings from set $A$ to itself.\n\n## Boundary Conditions / Domain:\n- The set $A$ must have strictly $n$ elements. $n \geq 1, n \in \mathbb{Z}$.",
+"mnemonic": "Factorial over Exponential.",
+"formulaMeta": {
+"formula": "P(1\text{-to-}1) = \frac{n!}{n^n}",
+"description": "Probability formula for selecting a strictly one-to-one mapping at random from a set to itself.",
+"derivation": "Calculated by dividing permutations by total possible mappings."
+}
+}
+},
+{
+"cardId": "NEW_DERIVATION_1_TO_1",
+"originalOrder": 31,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from split of Card 31 to isolate derivation steps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"functions",
+"jee-main",
+"class-11"
+],
+"order": 29,
+"heading": "Derivation: One-to-One Mapping Probability",
+"back": "- **Step 1 (Total Outcomes):** Total functions from a set of $n$ elements to a set of $n$ elements is calculated via the multiplication principle: $n \times n \dots \times n = n^n$.\n- **Step 2 (Favorable Outcomes):** For a 1-to-1 function, the first element has $n$ choices, the second has $(n-1)$ choices, etc., giving strictly $n!$ favorable outcomes.\n- **Step 3:** Divide favorable by total: $\frac{n!}{n^n}$.",
+"standardMeta": {
+"question": "What is the combinatorial algorithm/derivation to prove the probability of selecting a one-to-one mapping from a set of 'n' elements to itself?"
+}
+}
+},
+{
+"cardId": "3467ab9d-ae9a-4bbd-a3f0-c502df996e61",
+"originalOrder": 21,
+"originalHeading": "Leap Year vs. Non-Leap Year Trap (53 Sundays)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"edge-cases",
+"jee-main",
+"class-11"
+],
+"order": 30,
+"heading": "Leap Year vs. Non-Leap Year Trap",
+"back": "- **Non-Leap Year (365 days):** Consists of exactly 52 full weeks ($52 \times 7 = 364$ days) + **1 extra day**. This extra day can be any of the 7 days of the week. \n  *Probability of 53 Sundays = **$1/7$**.*\n- **Leap Year (366 days):** Consists of 52 full weeks + **2 extra consecutive days** (e.g., Sat-Sun, Sun-Mon, Mon-Tue). Out of the 7 possible pairs, 2 pairs contain Sunday.\n  *Probability of 53 Sundays = **$2/7$**.*",
+"standardMeta": {
+"question": "What is the critical mathematical distinction when calculating the probability of getting exactly 53 Sundays in a Leap Year versus a Non-Leap Year?"
+}
+}
+},
+{
+"cardId": "b7497630-df75-4450-9ece-fe50b8a9ceba",
+"originalOrder": 23,
+"originalHeading": "Language Trap: 'At least' vs 'At most'",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification from PROCEDURAL to DISTINCTION to emphasize language traps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"terminology",
+"jee-main",
+"class-11"
+],
+"order": 31,
+"heading": "Language Trap: 'At least' vs 'At most'",
+"back": "- **'At least k':** Minimum $k$. Calculate probabilities for exactly $k$, $k+1$, $k+2$, up to the maximum possible $n$. ($X \geq k$)\n  *Shortcut:* Often easier to calculate $1 - P(\text{less than } k)$.\n- **'At most k':** Maximum $k$. Calculate probabilities for exactly $0$, $1$, up to $k$. ($X \leq k$). Do NOT forget $0$ (e.g., getting $0$ heads is a valid outcome for 'at most 2 heads').",
+"mnemonic": "At least = Count Up. At most = Count Down to Zero.",
+"standardMeta": {
+"question": "How do you mathematically translate the English constraints 'At least k' and 'At most k' when counting favorable outcomes in probability?"
+}
+}
+},
+{
+"cardId": "02a875ab-5fdc-4a81-8607-a360b3b6b20f",
+"originalOrder": 26,
+"originalHeading": "Consistently Defined Probabilities Trap",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"miscellaneous",
+"jee-main",
+"class-11"
+],
+"order": 32,
+"heading": "Consistently Defined Probabilities Bound",
+"back": "- **The Trap:** Examiners will provide values for $P(A)$, $P(B)$, and $P(A \cap B)$ and ask if the probability assignment is strictly 'valid' or 'consistently defined'.\n- **Mathematical Rule 1 (Intersection Bound):** The intersection probability CANNOT be strictly greater than either individual probability. $P(A \cap B) \leq P(A)$ and $P(A \cap B) \leq P(B)$.\n- **Mathematical Rule 2 (Union Bound):** Using the addition theorem, the calculated $P(A \cup B)$ must strictly satisfy $P(A \cup B) \leq 1$. If $P(A) + P(B) - P(A \cap B) > 1$, the assignment is invalid.",
+"mnemonic": "Intersection is always the smallest; Union never exceeds 1.",
+"standardMeta": {
+"question": "What are the two critical boundary checks required to mathematically prove if a given set of probabilities for P(A), P(B), and P(A ∩ B) are consistently defined?"
+}
+}
+},
+{
+"cardId": "a58f597b-8d54-43d4-bd20-f1cdef171703",
+"originalOrder": 27,
+"originalHeading": "SOP: Biased / Loaded Outcomes",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into variable setup and algebraic execution to reduce cognitive load"
+],
+"vettingNotes": "First half of the biased outcome algorithm.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"miscellaneous",
+"jee-main",
+"class-11"
+],
+"order": 33,
+"heading": "SOP Setup: Biased / Loaded Outcomes",
+"back": "- **Scenario:** A problem states one type of outcome is '$k$ times as likely' as another (e.g., odd numbers are twice as likely as even numbers on a loaded die).\n- **Step 1:** Assign a base variable strictly to the lesser probability: Let $P(\text{Even}) = x$.\n- **Step 2:** Express the dominant probability in terms of $x$: $P(\text{Odd}) = kx$.",
+"standardMeta": {
+"question": "What is the initial algebraic setup (Steps 1 & 2) when establishing variables for biased or loaded random experiments?"
+}
+}
+},
+{
+"cardId": "NEW_SOP_BIASED_EXECUTION",
+"originalOrder": 27,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from split of Card 27"
+],
+"vettingNotes": "Second half of the biased outcome algorithm.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"miscellaneous",
+"jee-main",
+"class-11"
+],
+"order": 34,
+"heading": "SOP Execution: Biased / Loaded Outcomes",
+"back": "- **Step 1:** Retrieve the assigned algebraic variables (e.g., $P(\text{Even}) = x$, $P(\text{Odd}) = kx$).\n- **Step 2:** Apply the Axiomatic Exhaustive Sum Rule: $\sum P(\omega_i) = 1$.\n- **Step 3:** For a 6-sided die, sum the 3 even and 3 odd probabilities: $3(x) + 3(kx) = 1$. \n- **Step 4:** Solve for $x$ strictly before calculating any subsequent event probabilities.",
+"standardMeta": {
+"question": "After setting up variables for a biased experiment, what is the algorithmic execution to find their exact probabilities?"
+}
+}
+},
+{
+"cardId": "5ae4e7a2-2746-40d2-a7cc-6f3ed0b82a3f",
+"originalOrder": 30,
+"originalHeading": "Symmetry Trap in Permutations (A before B)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification from PROCEDURAL to DISTINCTION"
+],
+"vettingNotes": "Highlighted as a mathematical shortcut/trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"probability",
+"permutations",
+"jee-main",
+"class-11"
+],
+"order": 35,
+"heading": "Symmetry Trap in Relative Ordering",
+"back": "- **The Scenario:** Arranging distinct items (like visiting cities A, B, C, D) and finding the probability of a relative order (e.g., 'A is visited before B').\n- **The Mathematical Reality (Symmetry):** In completely random permutations, item A is equally likely to appear *before* B as it is to appear *after* B.\n- **Shortcut Conclusion:** Therefore, the probability that A is strictly before B is **$1/2$**. \n- **Extension:** The probability of a strictly fixed relative sequence of 3 items (A before B before C) is $1/3! = 1/6$.",
+"mnemonic": "Symmetry splits the sample space perfectly.",
+"standardMeta": {
+"question": "What is the mathematical shortcut utilizing symmetry to find the probability of a specific relative ordering of items (e.g., A occurs before B) in a random permutation?"
+}
+}
+},
+{
+"cardId": "8b051c11-08f6-48ee-9d78-78e7bbaed674",
+"originalOrder": 32,
+"originalHeading": "Indefinite Trials Sample Space (Geometric Sequence)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split conceptual logic from mathematical formula execution"
+],
+"vettingNotes": "First half detailing the logic of indefinite trials.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"probability",
+"miscellaneous",
+"jee-main",
+"class-11"
+],
+"order": 36,
+"heading": "Concept: Indefinite Trials Sample Space",
+"back": "- **Scenario:** An experiment repeats infinitely until a specific target outcome occurs (e.g., 'Rolling a die until a 2 appears').\n- **The Question:** 'How many elements in the sample space correspond to the target appearing strictly on the $k^{th}$ trial?'\n- **The Logic:** For the event to occur on the $k^{th}$ trial, the first $(k-1)$ trials MUST strictly result in *non-target* (failure) outcomes, and the $k^{th}$ trial MUST strictly result in the *target* (success) outcome.",
+"mnemonic": "Fail (k-1) times, succeed exactly once.",
+"standardMeta": {
+"question": "What is the core logical condition required for a target outcome to appear strictly on the k-th trial of an indefinite experiment?"
+}
+}
+},
+{
+"cardId": "NEW_INDEFINITE_TRIALS_CALC",
+"originalOrder": 32,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from split of Card 32"
+],
+"vettingNotes": "Second half detailing the actual sample space calculation.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"probability",
+"miscellaneous",
+"jee-main",
+"class-11"
+],
+"order": 37,
+"heading": "Calculation: Indefinite Trials Sample Space",
+"back": "- **Step 1:** Identify the number of failure options (e.g., $5$ non-target numbers on a die) and success options (e.g., $1$ target number).\n- **Step 2:** Apply the multiplication principle based on the logic that the first $(k-1)$ trials are failures and the $k^{th}$ is a success.\n- **Step 3 (Formula):** Sample Space Elements = $(\text{Fail Options})^{k-1} \times (\text{Success Options})^1$.\n- **Example:** $5^{k-1} \times 1 = 5^{k-1}$.",
+"standardMeta": {
+"question": "What is the combinatorial algorithm to mathematically calculate the exact number of sample space elements where success occurs on the k-th trial?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

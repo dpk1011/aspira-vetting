@@ -1,0 +1,734 @@
+{
+"deckId": "5d25251b-aef8-41d5-b779-3e69cb8bd29f",
+"cards": [
+{
+"cardId": "8cad562e-865b-4f11-922e-7aaa22b3c616",
+"originalOrder": 1,
+"originalHeading": "Slope (Gradient) of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized classification to DEFINITION", "Double-escaped KaTeX for tangent and theta", "Reformatted content strictly into markdown"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 1,
+"heading": "Mathematical Definition of Slope (Gradient)",
+"back": "## Definition\nIf a line makes an angle $\theta$ with the positive direction of the x-axis, measured strictly in the counter-clockwise direction, then the slope (gradient) of the line is exactly $m = \tan \theta$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $\theta \neq 90^{\circ}$ (since $\tan 90^{\circ}$ is mathematically undefined). For vertical lines, the slope does not exist.",
+"standardMeta": {
+"question": "What is the mathematical definition of the slope (or gradient) of a straight line, and what is its strict domain restriction?"
+}
+}
+},
+{
+"cardId": "915e39fc-78dd-44d1-b732-6ad62271d3a8",
+"originalOrder": 2,
+"originalHeading": "Slope from Two Given Points",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified strictly to PROCEDURAL", "Added double-escaped standard formula", "Expanded boundary condition on x-coordinates"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 2,
+"heading": "Slope Formula (Two Distinct Points)",
+"back": "## Component Anatomy\n- **$m$**: Evaluated slope of the line.\n- **$(x_1, y_1)$ & $(x_2, y_2)$**: Two distinct geometric points lying on the line.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x_1 \neq x_2$.\n- If $x_1 = x_2$, the denominator evaluates to zero. Geometrically, the line is strictly vertical (parallel to the y-axis), and its slope is mathematically undefined.",
+"mnemonic": "Rise over Run (Change in y over Change in x)",
+"formulaMeta": {
+"formula": "m = \frac{y_2 - y_1}{x_2 - x_1}",
+"description": "Calculates the algebraic slope of a straight line passing through two specific known coordinates.",
+"derivation": "Using standard right-angle trigonometry formed by dropping perpendiculars from the two points to the coordinate axes:\n$\tan \theta = \frac{\text{Opposite}}{\text{Adjacent}} = \frac{y_2 - y_1}{x_2 - x_1}$."
+}
+}
+},
+{
+"cardId": "73dbaae3-b12c-444e-8fc5-d4581be9b942",
+"originalOrder": 3,
+"originalHeading": "Slopes of the Coordinate Axes",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized classification to FACT", "Clarified undefined status vs infinity"],
+"vettingNotes": "Important conceptual check for boundary conditions.",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 3,
+"heading": "Slopes of the Coordinate Axes",
+"back": "## X-axis (and parallel horizontal lines)\n- The angle of inclination $\theta$ is $0^{\circ}$.\n- Therefore, slope $m = \tan 0^{\circ} = 0$.\n\n## Y-axis (and parallel vertical lines)\n- The angle of inclination $\theta$ is $90^{\circ}$.\n- Therefore, slope $m = \tan 90^{\circ}$, which is mathematically undefined (approaches infinity).",
+"mnemonic": "X is zero, Y is a hero (undefined/infinity)",
+"standardMeta": {
+"question": "What are the precise mathematical slopes of the Cartesian x-axis and y-axis?"
+}
+}
+},
+{
+"cardId": "0856874b-cafd-42f5-b0d6-5e19399c35d1",
+"originalOrder": 8,
+"originalHeading": "Collinearity of Three Points (Slope Method)",
+"action": "MODIFIED",
+"modificationsSummary": ["Moved to logical order 4 (prioritizing slope concepts)", "Classified as APPLICATION", "Formalized component anatomy"],
+"vettingNotes": "Brought forward to group with basic slope principles before introducing line equations.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 4,
+"heading": "Slope Condition for Collinearity",
+"back": "## Component Anatomy\n- $A, B, C$: Three distinct coordinate points on the Cartesian plane.\n- $m_{AB}, m_{BC}, m_{AC}$: The algebraic slopes of the line segments connecting the points.\n\n## Boundary Conditions / Domain\n- The points must be distinct.\n- This slope-based method fails computationally if the line is perfectly vertical (slopes are undefined). In that specific edge-case, check if $x_A = x_B = x_C$ directly.",
+"mnemonic": "If the stairs have the same steepness and share a step, it's one continuous staircase",
+"formulaMeta": {
+"formula": "m_{AB} = m_{BC}",
+"description": "The algebraic condition confirming three points strictly lie on the same infinite line.",
+"derivation": "If the slope of the segment joining A to B is strictly identical to the slope joining B to C, they are parallel. Because they mathematically share the common fixed point B, they are forced to form a single continuous straight line."
+}
+}
+},
+{
+"cardId": "cf240791-42a7-4a21-9a06-6d202c57ca8c",
+"originalOrder": 4,
+"originalHeading": "Condition for Parallel Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated to order 5", "Expanded boundary conditions to handle vertical lines"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 5,
+"heading": "Algebraic Condition for Parallel Lines",
+"back": "## Component Anatomy\n- $m_1, m_2$: Slopes of the two distinct straight lines.\n\n## Boundary Conditions / Domain\n- This equation is strictly valid only if neither line is perfectly vertical.\n- If both lines are vertical, their slopes are undefined, but they remain parallel by geometric definition.",
+"formulaMeta": {
+"formula": "m_1 = m_2",
+"description": "States that two non-vertical lines are geometrically parallel if and only if their slopes are strictly equal.",
+"derivation": "Parallel lines strictly have the same geometric angle of inclination ($\alpha = \beta$) with the x-axis. Evaluating the tangent function on both sides yields $\tan \alpha = \tan \beta$, hence $m_1 = m_2$."
+}
+}
+},
+{
+"cardId": "7a4dcd32-7fc3-49ec-8e07-abf364211312",
+"originalOrder": 5,
+"originalHeading": "Condition for Perpendicular Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated to order 6", "Classified as APPLICATION", "Highlighted critical domain exception for horizontal/vertical pair"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 6,
+"heading": "Algebraic Condition for Perpendicularity",
+"back": "## Component Anatomy\n- **$m_1, m_2$**: Slopes of the two intersecting lines.\n\n## Boundary Conditions / Domain\n- **Critical Exception:** Neither line can be perfectly vertical or perfectly horizontal.\n- If one line is horizontal ($m=0$) and the other is vertical ($m$ is undefined), they are perfectly perpendicular geometrically, but this specific algebraic product rule ($0 \times \text{undefined}$) computationally fails.",
+"mnemonic": "Negative reciprocal friends",
+"formulaMeta": {
+"formula": "m_1 m_2 = -1",
+"description": "States that two non-vertical lines are perpendicular if and only if their slopes are negative reciprocals of one another.",
+"derivation": "If the lines are perpendicular, their inclinations differ by exactly $90^{\circ}$ ($\beta = \alpha + 90^{\circ}$).\nEvaluating slope: $m_2 = \tan(\alpha + 90^{\circ}) = -\cot \alpha = -\frac{1}{\tan \alpha} = -\frac{1}{m_1}$."
+}
+}
+},
+{
+"cardId": "8fd30c0e-e8c9-4312-9fa2-f43e6fc7e08d",
+"originalOrder": 6,
+"originalHeading": "Acute Angle Between Two Intersecting Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 7", "Fixed LaTeX spacing and double escaping", "Classified as PROCEDURAL"],
+"vettingNotes": "Crucial to mention modulus forcing the acute angle.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 7,
+"heading": "Acute Angle Between Two Intersecting Lines",
+"back": "## Component Anatomy\n- **$\theta$**: The strictly acute angle between the two lines ($0 \leq \theta \leq 90^{\circ}$).\n- **$m_1, m_2$**: Evaluated slopes of the respective lines.\n\n## Boundary Conditions / Domain\n- $1 + m_1 m_2 \neq 0$. If the denominator evaluates exactly to $0$, the lines are strictly perpendicular, and $\theta = 90^{\circ}$.\n- Neither line can be perfectly vertical (slope undefined).",
+"formulaMeta": {
+"formula": "\tan \theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|",
+"description": "Calculates the strictly acute angle $\theta$ between two non-vertical intersecting lines.",
+"derivation": "From trigonometry, $\tan(\theta_2 - \theta_1) = \frac{\tan \theta_2 - \tan \theta_1}{1 + \tan \theta_1 \tan \theta_2}$. The modulus (absolute value) operator computationally forces the output to be strictly positive, guaranteeing the result maps to the first quadrant (the acute angle)."
+}
+}
+},
+{
+"cardId": "acf9fb5a-4339-43cc-b607-e21543360898",
+"originalOrder": 7,
+"originalHeading": "Finding the Obtuse Angle Between Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 8", "Classified as APPLICATION", "Refined markdown structure"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 8,
+"heading": "Computing the Obtuse Intersection Angle",
+"back": "## Geometric Rule\nWhen two non-perpendicular straight lines intersect, they form two pairs of vertically opposite angles: one acute pair ($\theta$) and one obtuse pair ($\phi$).\n\n## Algebraic Equation\nBecause they lie adjacent on a continuous straight line, they are strictly supplementary.\nTherefore, compute: **$\phi = 180^{\circ} - \theta$**.",
+"standardMeta": {
+"question": "Once the acute angle $\theta$ between two intersecting lines is algebraically determined, how do you strictly calculate the obtuse angle $\phi$?"
+}
+}
+},
+{
+"cardId": "9e9c97ff-325d-4483-9b24-4b0a2b6fa608",
+"originalOrder": 9,
+"originalHeading": "Equations of Horizontal and Vertical Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 9", "Classified as FACT", "Clarified component intercepts"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "FACT",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 9,
+"heading": "Equations of Horizontal and Vertical Lines",
+"back": "## Component Anatomy\n- **$a$**: Constant y-intercept (the fixed height of the horizontal line).\n- **$b$**: Constant x-intercept (the fixed displacement of the vertical line).\n\n## Boundary Conditions / Domain\n- A horizontal line $y=a$ implies slope $m = 0$.\n- A vertical line $x=b$ implies the slope is mathematically undefined.",
+"mnemonic": "Horizontal hugs y (y=a). Vertical hugs x (x=b)",
+"formulaMeta": {
+"formula": "y = a \quad \text{and} \quad x = b",
+"description": "Standard equations for a purely horizontal line and a purely vertical line, respectively.",
+"derivation": "A horizontal line is the locus of all coordinates possessing the exact same y-value, irrespective of x. A vertical line is the locus of all coordinates possessing the exact same x-value."
+}
+}
+},
+{
+"cardId": "39612376-278e-476d-9a2b-38364825b4f6",
+"originalOrder": 10,
+"originalHeading": "Point-Slope Form of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 10", "Classified as PROCEDURAL", "Re-structured derivation for clarity"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 10,
+"heading": "Point-Slope Form",
+"back": "## Component Anatomy\n- **$x, y$**: General variables representing any dynamic coordinate point on the line.\n- **$(x_0, y_0)$**: The specific given fixed point through which the line passes.\n- **$m$**: The constant slope of the straight line.\n\n## Boundary Conditions / Domain\n- This specific algebraic form is strictly valid only for non-vertical lines (where $m$ is a defined real number).",
+"formulaMeta": {
+"formula": "y - y_0 = m(x - x_0)",
+"description": "Equation of a line generated from one known point and its defined slope.",
+"derivation": "By the fundamental definition of slope between an arbitrary variable point $(x,y)$ and a given fixed point $(x_0, y_0)$, $m = \frac{y - y_0}{x - x_0}$. Algebraically cross-multiplying the denominator yields the linear equation."
+}
+}
+},
+{
+"cardId": "c4ed1fde-c932-4aec-a584-edbbc4a48971",
+"originalOrder": 11,
+"originalHeading": "Two-Point Form of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 11", "Classified as PROCEDURAL", "Added divide-by-zero boundary condition explanation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 11,
+"heading": "Two-Point Form",
+"back": "## Component Anatomy\n- **$x, y$**: General variables representing any coordinate on the line.\n- **$(x_1, y_1)$ & $(x_2, y_2)$**: The two fixed distinct given points defining the line.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x_1 \neq x_2$.\n- If $x_1 = x_2$, the slope formula generates a divide-by-zero discontinuity. In such cases, skip this formula; the geometry dictates a perfectly vertical line defined simply as $x = x_1$.",
+"formulaMeta": {
+"formula": "y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)",
+"description": "Equation of a line generated strictly from two known distinct passing points.",
+"derivation": "Structurally identical to the Point-Slope form. The constant slope variable $m$ is simply explicitly substituted with its full algebraic expansion $m = \frac{y_2 - y_1}{x_2 - x_1}$."
+}
+}
+},
+{
+"cardId": "a93f674d-1918-4188-9870-c570965e5870",
+"originalOrder": 12,
+"originalHeading": "Slope-Intercept Form (y-intercept)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 12", "Classified as APPLICATION", "Clearly distinguished c from generic constants"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 12,
+"heading": "Slope-Intercept Form (y-intercept)",
+"back": "## Component Anatomy\n- **$m$**: Defined slope of the line.\n- **$c$**: The precise y-intercept (the numerical y-coordinate where the line explicitly intersects the y-axis at strictly point $(0, c)$).\n\n## Boundary Conditions / Domain\n- Strictly valid only for non-vertical lines (where slope $m$ exists).",
+"formulaMeta": {
+"formula": "y = mx + c",
+"description": "Standard standard algebraic form of a linear equation utilizing the y-intercept.",
+"derivation": "Substitute the explicitly known y-intercept coordinate $(0, c)$ directly into the point-slope form: $y - c = m(x - 0) \implies y = mx + c$."
+}
+}
+},
+{
+"cardId": "e3466523-593e-4b3b-a0c0-d9a73680ab96",
+"originalOrder": 13,
+"originalHeading": "Slope-Intercept Form (x-intercept)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 13", "Classified as APPLICATION", "Aligned formatting with y-intercept sibling card"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 13,
+"heading": "Slope-Intercept Form (x-intercept)",
+"back": "## Component Anatomy\n- **$m$**: Defined slope of the line.\n- **$d$**: The precise x-intercept (the numerical x-coordinate where the line explicitly intersects the x-axis at strictly point $(d, 0)$).\n\n## Boundary Conditions / Domain\n- Strictly valid only for non-vertical lines (where slope $m$ exists).",
+"formulaMeta": {
+"formula": "y = m(x - d)",
+"description": "Variant algebraic form of a linear equation utilizing the x-intercept.",
+"derivation": "Substitute the explicitly known x-intercept coordinate $(d, 0)$ directly into the point-slope form: $y - 0 = m(x - d) \implies y = m(x - d)$."
+}
+}
+},
+{
+"cardId": "1684bd0c-e307-4e3c-9afe-1802d621df9e",
+"originalOrder": 14,
+"originalHeading": "Intercept Form of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 14", "Classified as APPLICATION", "Emphasized domain restriction regarding origin"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 14,
+"heading": "Double Intercept Form",
+"back": "## Component Anatomy\n- **$a$**: The strict x-intercept (intersecting x-axis precisely at $(a, 0)$).\n- **$b$**: The strict y-intercept (intersecting y-axis precisely at $(0, b)$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a \neq 0$ and $b \neq 0$.\n- **Geometric Consequence:** Because of this denominator restriction, this algebraic form mathematically cannot represent any line that passes directly through the origin $(0,0)$.",
+"formulaMeta": {
+"formula": "\frac{x}{a} + \frac{y}{b} = 1",
+"description": "Standard linear equation constructed strictly using its respective intersection lengths along the Cartesian axes.",
+"derivation": "Apply the standard two-point formula utilizing coordinates $(a,0)$ and $(0,b)$: $y - 0 = \frac{b - 0}{0 - a}(x - a)$.\nExpanding the expression yields $ay = -bx + ab$. Divide the entire equation rigorously by the product $ab$ to isolate $1$ on the RHS."
+}
+}
+},
+{
+"cardId": "f70a167a-28ad-468a-8bb3-e41308f779d7",
+"originalOrder": 15,
+"originalHeading": "Normal Form of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 15", "Classified as APPLICATION", "Clearly strictly defined omega"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 15,
+"heading": "Normal Form of a Line",
+"back": "## Component Anatomy\n- **$p$**: The perpendicular (normal) geometric distance strictly from the origin $(0,0)$ to the straight line.\n- **$\omega$**: The exact angle the perpendicular normal makes with the positive x-axis, measured completely counter-clockwise.\n\n## Boundary Conditions / Domain\n- **Critical Domain Restriction:** $p$ must ALWAYS be strictly non-negative ($p \geq 0$). By standard convention, $p > 0$. If $p=0$, the line passes directly through the origin.",
+"formulaMeta": {
+"formula": "x \cos \omega + y \sin \omega = p",
+"description": "Equation of a line defined entirely by the properties of the perpendicular dropped from the origin onto it.",
+"derivation": "The normal segment from the origin has length $p$ and angle $\omega$, terminating at geometric point $(p\cos\omega, p\sin\omega)$. The main line itself is perfectly perpendicular to this normal, so its slope is strictly $-\frac{1}{\tan\omega} = -\frac{\cos\omega}{\sin\omega}$. Substitute this calculated slope and the terminal point into point-slope form."
+}
+}
+},
+{
+"cardId": "da3496c9-22a1-4b82-b9f7-d56b7a5f5a7f",
+"originalOrder": 16,
+"originalHeading": "General Equation of a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 16", "Maintained STANDARD type", "Classified as DEFINITION", "Formalized mathematical notation constraint"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 16,
+"heading": "General Linear Equation Framework",
+"back": "## Algebraic Structure\nThe general form is rigorously written as: **$Ax + By + C = 0$**.\n\n## Component Anatomy\n- $A, B,$ and $C$ are all real mathematical constants.\n\n## Strict Boundary Condition\n- $A$ and $B$ can **never evaluate to zero simultaneously**.\n- Mathematically, this domain constraint is compactly written as **$A^2 + B^2 \neq 0$**.",
+"standardMeta": {
+"question": "What is the standard algebraic structural format of the General Equation of a Line, and what is its strict mathematical boundary condition?"
+}
+}
+},
+{
+"cardId": "42c2b8db-8c8a-434d-9d71-b78f0f0b1d66",
+"originalOrder": 17,
+"originalHeading": "Slope and y-intercept from General Equation",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 17", "Classified as PROCEDURAL", "Expanded boundary exception for B=0"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 17,
+"heading": "Extracting Slope & Y-Intercept from General Form",
+"back": "## Component Anatomy\n- **$A, B, C$**: Known real coefficients extracted strictly from $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $B \neq 0$.\n- If $B=0$, it mathematically represents a vertical line. Its slope is undefined, and it physically does not intercept the y-axis (unless $C=0$, making it the y-axis itself).",
+"mnemonic": "Negative A over B. Negative C over B.",
+"formulaMeta": {
+"formula": "m = -\frac{A}{B}, \quad c = -\frac{C}{B}",
+"description": "Direct formulas to extract the slope (m) and y-intercept (c) from the General Equation.",
+"derivation": "Algebraically rearrange the general expression $Ax + By + C = 0$ strictly into the $y = mx + c$ framework.\n1. Isolate the y term: $By = -Ax - C$\n2. Divide strictly by B: $y = -\frac{A}{B}x - \frac{C}{B}$."
+}
+}
+},
+{
+"cardId": "acf22bba-f140-4188-a957-9f0add974765",
+"originalOrder": 18,
+"originalHeading": "x and y intercepts from General Equation",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 18", "Classified as PROCEDURAL", "Added strict checks for origin-passing lines"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 18,
+"heading": "Extracting Axis Intercepts from General Form",
+"back": "## Component Anatomy\n- **$a$**: The strict x-intercept.\n- **$b$**: The strict y-intercept.\n- **$A, B, C$**: Real coefficients extracted from $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- $A \neq 0$ and $B \neq 0$ (The line cannot be perfectly horizontal or vertical if both intercepts are strictly required).\n- $C \neq 0$. If $C=0$, the line passes exactly through the origin, and the intercept form mathematically collapses.",
+"mnemonic": "Negative Constant over Variable Coefficient",
+"formulaMeta": {
+"formula": "a = -\frac{C}{A}, \quad b = -\frac{C}{B}",
+"description": "Direct shortcut formulas to algebraically extract the x-intercept and y-intercept from the General Equation.",
+"derivation": "Rearrange the base equation $Ax + By = -C$.\nDivide every mathematical term strictly by $-C$:\n$\frac{Ax}{-C} + \frac{By}{-C} = 1 \implies \frac{x}{-C/A} + \frac{y}{-C/B} = 1$."
+}
+}
+},
+{
+"cardId": "72beab03-561f-40bc-aca6-b5e2d155261e",
+"originalOrder": 19,
+"originalHeading": "SOP: General Equation to Normal Form",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 19", "Classified as PROCEDURAL", "Re-structured derivation as a strict algorithmic SOP", "Clarified positive RHS trap"],
+"vettingNotes": "This is a heavy procedural algorithm. Derivation field is perfectly suited for the step-by-step SOP.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 19,
+"heading": "SOP: General to Normal Form Transformation",
+"back": "## Component Anatomy\n- **$A, B, C$**: Real constants extracted from the general form $Ax + By + C = 0$.\n- **$\sqrt{A^2+B^2}$**: The critical mathematical normalization factor.\n\n## Boundary Conditions / Domain\n- $A^2 + B^2 \neq 0$.\n- **CRITICAL TRAP:** The RHS distance $p$ MUST mathematically be forced to be strictly non-negative. If dividing yields a negative RHS, you must algebraically multiply the entire equation by $-1$ to satisfy normal form conventions.",
+"formulaMeta": {
+"formula": "\pm \frac{A}{\sqrt{A^2+B^2}}x \pm \frac{B}{\sqrt{A^2+B^2}}y = \mp \frac{C}{\sqrt{A^2+B^2}}",
+"description": "The exact structural transformation generating the Normal Form $(x \cos \omega + y \sin \omega = p)$ from the General Equation.",
+"derivation": "**Standard Operating Procedure:**\n1. Move the constant term $C$ algebraically to the RHS: $Ax + By = -C$.\n2. Divide every single term in the equation strictly by the magnitude $\sqrt{A^2 + B^2}$.\n3. Evaluate the numeric sign of the new RHS expression ($-C / \sqrt{A^2 + B^2}$).\n4. **Correction Step:** If that resulting RHS is mathematically negative, multiply the whole equation by $-1$ to force a positive distance $p$.\n5. The final resulting LHS coefficients are exactly $\cos \omega$ and $\sin \omega$."
+}
+}
+},
+{
+"cardId": "43eba27e-4fe4-4efe-8796-0a0865c84356",
+"originalOrder": 20,
+"originalHeading": "Distance of a Point from a Line",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 20", "Classified as APPLICATION", "Emphasized zero-equation constraint"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 20,
+"heading": "Perpendicular Distance: Point to Line",
+"back": "## Component Anatomy\n- **$d$**: The absolute geometric perpendicular distance.\n- **$(x_1, y_1)$**: The specified arbitrary coordinate point.\n- **$A, B, C$**: The exact constants of the line strictly formatted as $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** The given linear equation MUST be mathematically re-arranged so that all terms sit completely on one side (evaluating to strictly $0$) BEFORE calculating. Failing to move terms from the RHS will corrupt $C$.",
+"mnemonic": "Plug the point in, wrap in modulus, divide by the root of squares",
+"formulaMeta": {
+"formula": "d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}",
+"description": "Algebraic formula calculating the absolute shortest straight-line distance from an external point to an infinite line.",
+"derivation": "Derived geometrically by finding the area of the triangle formed by the external point and the line's axial intercepts, then using Area = $1/2 \times \text{Base} \times \text{Height}$, solving strictly for the Height ($d$)."
+}
+}
+},
+{
+"cardId": "c184856f-6b58-48ac-81ca-c871060871f3",
+"originalOrder": 21,
+"originalHeading": "Distance Between Two Parallel Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 21", "Classified as APPLICATION", "Highlighted critical algebraic scaling trap"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 21,
+"heading": "Distance Between Parallel Lines",
+"back": "## Component Anatomy\n- **$d$**: Absolute geometric distance between the two lines.\n- **$C_1, C_2$**: The distinct free constant terms of the two respective lines.\n- **$A, B$**: The strictly identical variable coefficients for both $x$ and $y$.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** Before evaluating this formula computationally, you MUST mathematically scale or divide both linear equations so that their respective $A$ and $B$ coefficients are exactly, numerically identical.",
+"mnemonic": "Absolute difference of constants over the root of squares",
+"formulaMeta": {
+"formula": "d = \frac{|C_1 - C_2|}{\sqrt{A^2 + B^2}}",
+"description": "Calculates the uniform perpendicular distance separating two infinite parallel lines.",
+"derivation": "Select an arbitrary point on the first line (e.g., set $x=0$, $y=-C_1/B$).\nPlug this derived point strictly into the standard point-distance formula for the second line ($Ax + By + C_2 = 0$).\nThe $By_1$ term evaluates to $-C_1$, leaving precisely $|-C_1 + C_2|$ in the modulus numerator."
+}
+}
+},
+{
+"cardId": "0020e502-7bb1-41f5-89f8-6752a0d8f04f",
+"originalOrder": 23,
+"originalHeading": "SOP: Foot of the Perpendicular",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 22", "Classified as PROCEDURAL", "Fixed variable naming in SOP step"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 22,
+"heading": "SOP: Coordinate Foot of the Perpendicular",
+"back": "## Component Anatomy\n- **$(x, y)$**: The strictly unknown coordinate variables representing the foot (intersection point).\n- **$(x_1, y_1)$**: The specified external starting point.\n- **$A, B, C$**: The exact constants of the target infinite line $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- $A^2 + B^2 \neq 0$ (Target line must strictly exist).",
+"formulaMeta": {
+"formula": "\frac{x - x_1}{A} = \frac{y - y_1}{B} = -\frac{Ax_1 + By_1 + C}{A^2 + B^2}",
+"description": "Symmetrical shortcut formula used to algebraically extract the explicit coordinate $(x,y)$ where a perpendicular dropped from $(x_1, y_1)$ strikes the line.",
+"derivation": "**Algebraic Proof:**\n1. The new perpendicular connecting line segment has slope $B/A$ (negative reciprocal to the base line's $-A/B$).\n2. Establish the point-slope equation using $(x_1, y_1)$ and slope $B/A$.\n3. Solve the simultaneous intersection of this new perpendicular equation directly with the original base line equation $Ax + By + C = 0$."
+}
+}
+},
+{
+"cardId": "8e2c1412-8881-4c53-b4c8-bd9034d99f0d",
+"originalOrder": 24,
+"originalHeading": "SOP: Image of a Point in a Line (Plane Mirror)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 23", "Classified as PROCEDURAL", "Added geometric justification for the multiplier"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 23,
+"heading": "SOP: Coordinate Image Across a Line Mirror",
+"back": "## Component Anatomy\n- **$(h, k)$**: The rigorously unknown spatial coordinates of the resulting mirror image.\n- **$(x_1, y_1)$**: The specified external base object point.\n- **$A, B, C$**: The exact constants of the mirror line $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- $A^2 + B^2 \neq 0$.",
+"mnemonic": "Exactly double the shift scalar of the foot (factor of -2)",
+"formulaMeta": {
+"formula": "\frac{h - x_1}{A} = \frac{k - y_1}{B} = -2 \left( \frac{Ax_1 + By_1 + C}{A^2 + B^2} \right)",
+"description": "Symmetrical shortcut formula to directly calculate the spatial image $(h,k)$ of an object reflected perfectly across a linear axis.",
+"derivation": "Geometrically, the mirror line strictly acts as the exact perpendicular bisector located midway between the object point $(x_1, y_1)$ and its resultant image $(h,k)$.\nBecause the shift distance is strictly doubled compared to just finding the foot of the perpendicular, the numerical scalar is multiplied by exactly $2$ (generating the $-2$ coefficient)."
+}
+}
+},
+{
+"cardId": "4b63d201-4d79-4fc5-9067-cd4071ccfcfe",
+"originalOrder": 22,
+"originalHeading": "Family of Lines Passing through an Intersection",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 24", "Classified as APPLICATION", "Formalized parameter lambda interpretation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 24,
+"heading": "Family of Lines (Intersection Locus)",
+"back": "## Component Anatomy\n- **$L_1, L_2$**: The explicit algebraic LHS expressions representing the two given intersecting straight lines ($L_1 = 0, L_2 = 0$).\n- **$\lambda$**: An arbitrary scalar real parameter determining the precise angle of the resultant member line.\n\n## Boundary Conditions / Domain\n- Strictly valid only for two given non-parallel intersecting lines.\n- Technically, this specific mathematical format CANNOT geometrically generate the line $L_2 = 0$ itself (which requires $\lambda \to \infty$).",
+"mnemonic": "Line 1 plus Lambda Line 2",
+"formulaMeta": {
+"formula": "L_1 + \lambda L_2 = 0",
+"description": "The generalized single linear equation computationally representing the entire infinite family of straight lines passing directly through a specific intersection node.",
+"derivation": "This algebraic linear combination evaluates strictly to $0$ at the exact single spatial coordinate where both $L_1$ and $L_2$ evaluate simultaneously to $0$. This computationally forces this new arbitrary line to pass flawlessly through that fixed intersection junction."
+}
+}
+},
+{
+"cardId": "2fe7e33a-b492-4e23-8246-b639d6707a64",
+"originalOrder": 25,
+"originalHeading": "SOP: Condition for Concurrency of Three Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 25", "Classified as PROCEDURAL", "Clarified mutual distinction necessity"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 25,
+"heading": "SOP: Algorithmic Verification of Concurrency",
+"back": "## Component Anatomy\n- **$L_1, L_2, L_3$**: Three specific mathematically defined straight lines.\n- **$(x_0, y_0)$**: The evaluated single spatial node of intersection between two of the lines.\n\n## Boundary Conditions / Domain\n- The three subject lines must be mutually distinct and strictly non-parallel.\n- If any two lines are identical, they possess infinite concurrent points. If two are strictly parallel, they possess zero concurrent points.",
+"mnemonic": "Intersect two, strictly satisfy the third",
+"formulaMeta": {
+"formula": "L_3(x_0, y_0) = 0",
+"description": "Standard algorithmic methodology to logically prove three completely distinct straight lines intersect exactly at one shared coordinate.",
+"derivation": "**Standard Operating Procedure:**\n1. Algebraically isolate the equations of any two lines (e.g., $L_1 = 0$ and $L_2 = 0$).\n2. Solve them rigorously simultaneously utilizing substitution or elimination to calculate their exact unique intersection node $(x_0, y_0)$.\n3. Substitute those calculated coordinate values strictly into the algebraic equation of the third remaining line $L_3$.\n4. If the resulting algebraic expression evaluates perfectly to $0=0$, the lines are verified as purely concurrent."
+}
+}
+},
+{
+"cardId": "f586f0c2-7e45-469e-8449-16d863e26df9",
+"originalOrder": 28,
+"originalHeading": "SOP: Concurrency of Three Lines (Slope-Intercept Form)",
+"action": "SPLIT",
+"modificationsSummary": ["Split massive procedural derivation from the final algebraic condition", "Classified as APPLICATION", "Double-escaped KaTeX"],
+"vettingNotes": "Isolated the mathematical formula for quick recall.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 26,
+"heading": "Algebraic Condition for Concurrency (Slope-Intercept)",
+"back": "## Component Anatomy\n- **$m_1, m_2, m_3$**: The slopes of the three respective straight lines.\n- **$c_1, c_2, c_3$**: The y-intercepts of the three respective lines.\n\n## Boundary Conditions / Domain\n- The lines must be explicitly provided in the standard form $y = mx + c$.\n- All three lines must be mutually distinct and mutually non-parallel.",
+"mnemonic": "Slope times the cyclic difference of intercepts sums strictly to zero",
+"formulaMeta": {
+"formula": "m_1(c_2 - c_3) + m_2(c_3 - c_1) + m_3(c_1 - c_2) = 0",
+"description": "The exact symmetric algebraic condition for three lines defined in slope-intercept form to intersect at a single shared geometric point.",
+"derivation": "This relies on solving the exact $(x, y)$ intersection of the first two lines, then algebraically forcing the third line to strictly satisfy that coordinate."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Extracted procedural proof from original concurrency card", "Classified strictly as PROCEDURAL"],
+"vettingNotes": "This card now strictly handles the algorithmic proof.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-advanced", "class-11"],
+"order": 27,
+"heading": "SOP: Deriving the Concurrency Condition",
+"back": "## Component Anatomy\n- **$y = m_ix + c_i$**: The generic structure of the three base lines.\n\n## Boundary Conditions / Domain\n- Denominators $(m_1 - m_2)$ cannot evaluate to zero; otherwise, the lines are strictly parallel and the intersection locus is undefined.",
+"formulaMeta": {
+"formula": "y = m_3x + c_3",
+"description": "Standard algorithmic steps to mathematically derive the cyclic concurrency condition for three lines.",
+"derivation": "**Standard Operating Procedure:**\n1. Algebraically equate line 1 and line 2 to find their intersection x-coordinate: $m_1x + c_1 = m_2x + c_2 \implies x = \frac{c_2 - c_1}{m_1 - m_2}$.\n2. Substitute $x$ back to find $y$: $y = \frac{m_1c_2 - m_2c_1}{m_1 - m_2}$.\n3. Substitute both $(x, y)$ strictly into the third line's equation: $y = m_3x + c_3$.\n4. Cross-multiply the denominator $(m_1 - m_2)$ and group all respective slope terms cyclically to arrive at $m_1(c_2 - c_3) + m_2(c_3 - c_1) + m_3(c_1 - c_2) = 0$."
+}
+}
+},
+{
+"cardId": "def5e987-0feb-4b4e-838e-13dde3e220d4",
+"originalOrder": 29,
+"originalHeading": "SOP: Ratio in which a Line Divides a Segment",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped ratio formula", "Expanded on strict domain constraints for denominator"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 28,
+"heading": "Section Ratio of a Segment Divided by a Line",
+"back": "## Component Anatomy\n- **$\lambda$**: The section ratio $(\lambda : 1)$ in which the specific line cuts the line segment.\n- **$(x_1, y_1)$ & $(x_2, y_2)$**: The fixed endpoints of the defined line segment.\n- **$A, B, C$**: The exact mathematical constants of the infinite dividing line $Ax + By + C = 0$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $Ax_2 + By_2 + C \neq 0$. If this denominator evaluates to zero, the dividing line strictly passes through endpoint $(x_2, y_2)$, rendering the standard ratio $(\lambda : 1)$ mathematically undefined.\n- If $\lambda > 0$, the geometric division is purely internal. If $\lambda < 0$, the intersection occurs externally on the extended segment ray.",
+"mnemonic": "Negative ratio of the direct point evaluations",
+"formulaMeta": {
+"formula": "\lambda = -\\frac{Ax_1 + By_1 + C}{Ax_2 + By_2 + C}",
+"description": "Shortcut algebraic formula to directly calculate the exact ratio in which a general straight line mathematically sections a given line segment.",
+"derivation": "Let the line strictly divide the segment in the ratio $\lambda : 1$. By the standard coordinate section formula, the intersection node is $(\frac{\lambda x_2 + x_1}{\lambda + 1}, \frac{\lambda y_2 + y_1}{\lambda + 1})$. Since this unique point geometrically lies on $Ax + By + C = 0$, substitute the coordinates entirely into the linear equation and isolate $\lambda$ algebraically."
+}
+}
+},
+{
+"cardId": "9598c953-86be-4dd9-914d-7ecef7e65dcd",
+"originalOrder": 26,
+"originalHeading": "Area of Triangle Formed by Two Lines and the Y-axis",
+"action": "SPLIT",
+"modificationsSummary": ["Split heavy derivation into a new procedural card", "Double-escaped formula", "Clarified modulus application for area"],
+"vettingNotes": "Formula isolated.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 29,
+"heading": "Area of Triangle (Two Lines & Y-Axis)",
+"back": "## Component Anatomy\n- **$m_1, m_2$**: Slopes of the two intersecting straight lines.\n- **$c_1, c_2$**: The explicit Y-intercepts of the two respective lines.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $m_1 \neq m_2$. If the slopes are identical, the lines are strictly parallel, the intersection node recedes to infinity, and no finite bounded triangle is mathematically formed.\n- The absolute value operator in the denominator is mandatory, as geometric area cannot physically be a negative scalar value.",
+"mnemonic": "Difference of intercepts squared over double the absolute slope difference",
+"formulaMeta": {
+"formula": "\text{Area} = \\frac{(c_1 - c_2)^2}{2|m_1 - m_2|}",
+"description": "Direct formula calculating the finite enclosed spatial area of a triangle explicitly bounded by two straight lines and the Cartesian y-axis.",
+"derivation": "Generated by evaluating the algebraic length of the y-axis bounded base and geometrically multiplying by the absolute x-coordinate of the lines' intersection point."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 26,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created strictly procedural derivation card from Area of Triangle original text"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-advanced", "class-11"],
+"order": 30,
+"heading": "SOP: Deriving Triangle Area with the Y-Axis",
+"back": "## Component Anatomy\n- **$y = m_ix + c_i$**: Standard equations of the two bounding lines.\n- **$x = 0$**: The standard equation strictly defining the y-axis.\n\n## Boundary Conditions / Domain\n- The calculation structurally requires the third bounding line to strictly be $x = 0$.",
+"formulaMeta": {
+"formula": "\text{Area} = \\frac{1}{2} \times \text{Base} \times \text{Height}",
+"description": "Standard step-by-step methodology to mathematically derive the area bounded by two lines and the y-axis.",
+"derivation": "**Standard Operating Procedure:**\n1. Calculate the explicit y-intercepts where the lines structurally cross $x=0$, yielding the two coordinate vertices $(0, c_1)$ and $(0, c_2)$.\n2. The continuous geometric base of the triangle explicitly running along the y-axis is perfectly equivalent to the scalar length $|c_1 - c_2|$.\n3. The orthogonal height of the triangle is identically the absolute x-coordinate of their mutual intersection point: $\left| \frac{c_1 - c_2}{m_2 - m_1} \right|$.\n4. Apply Area = $\frac{1}{2} \times \text{base} \times \text{height}$ to yield the final formula."
+}
+}
+},
+{
+"cardId": "3273d42c-1a18-49d8-bb73-57f4d218c13a",
+"originalOrder": 27,
+"originalHeading": "Equation of Line via Fixed Angle from Given Line (Origin)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated format", "Classified as APPLICATION", "Double escaped mathematical notation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 31,
+"heading": "Equation of a Line Making a Fixed Angle (Through Origin)",
+"back": "## Component Anatomy\n- **$m$**: Defined constant slope of the given mathematical base line ($y = mx + c$).\n- **$\theta$**: The fixed geometric angle the newly generated line strictly makes with the base line.\n- **$x, y$**: The spatial variables defining the new generated line strictly passing through the origin.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $\theta \neq 90^{\circ}$ and $\theta \neq 270^{\circ}$ (since $\tan \theta$ would be mathematically undefined).\n- $1 \mp m \tan \theta \neq 0$. If this evaluates to zero, it signifies the resultant new line is physically perfectly vertical.",
+"formulaMeta": {
+"formula": "\\frac{y}{x} = \\frac{m \pm \tan \theta}{1 \mp m \tan \theta}",
+"description": "Generates the structural equations of the two distinct straight lines passing strictly through the Cartesian origin and projecting an exact angle $\theta$ against a reference line.",
+"derivation": "Assume the desired line equation is $y = m'x$. The required angle $\theta$ between the base line $y = mx + c$ and $y = m'x$ is geometrically defined by $\tan \theta = \left| \frac{m - m'}{1 + m m'} \right|$.\nMathematically expanding the absolute value operator produces $\pm \tan \theta = \frac{m - m'}{1 + m m'}$.\nIsolating and algebraically solving for $m'$ (which strictly maps to $\frac{y}{x}$) generates the stated final formula."
+}
+}
+},
+{
+"cardId": "fe9185cf-da9a-47e7-8f99-cb686baef3d8",
+"originalOrder": 31,
+"originalHeading": "Locus of a Point Equidistant from Intersecting Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DISTINCTION", "Enhanced mathematical phrasing"],
+"vettingNotes": "Solid conceptual transition linking basic straight lines to coordinate geometry loci.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "straight-lines", "coordinate-geometry", "jee-main", "class-11"],
+"order": 32,
+"heading": "Locus: Equidistant from Two Intersecting Lines",
+"back": "## The Locus \nIf a point moves continuously such that its orthogonal geometric perpendicular distance from two distinct intersecting straight lines is constantly equal, the mathematically resulting path traces out **straight lines**.\n\n## Geometric Identity\nThese derived straight lines specifically represent the true **Angle Bisectors** (both the internal bisector and the external bisector) of the initial two intersecting baseline equations.\n\n## Algebraic Execution\nThe fundamental equality is set up as: \n$\frac{|A_1x + B_1y + C_1|}{\sqrt{A_1^2 + B_1^2}} = \frac{|A_2x + B_2y + C_2|}{\sqrt{A_2^2 + B_2^2}}$. \nRemoving the modulus strictly generates two distinct linear equations corresponding directly to the two perpendicular angle bisectors.",
+"mnemonic": "Equidistant from lines logically equals the Angle Bisectors",
+"standardMeta": {
+"question": "Geometrically and algebraically, what does the continuous dynamic locus of a single point moving perfectly equidistant from two intersecting straight lines strictly represent?"
+}
+}
+},
+{
+"cardId": "96ea3c59-dee1-4188-b108-0eb99f974430",
+"originalOrder": 30,
+"originalHeading": "Constant Product of Perpendiculars (Ellipse/Hyperbola Edge-Case)",
+"action": "SPLIT",
+"modificationsSummary": ["Split into formula and derivation", "Classified as OBSERVATION", "Double escaped KaTeX"],
+"vettingNotes": "Highly specific conic boundary case. Isolated for memory retention.",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "straight-lines", "conic-sections", "jee-advanced", "class-11"],
+"order": 33,
+"heading": "Constant Product of Perpendiculars (Conic Edge-Case)",
+"back": "## Component Anatomy\n- $p_1, p_2$: Physical scalar lengths of the two perpendiculars dropped from the fixed points onto the target tangent line.\n- $(\pm \sqrt{a^2-b^2}, 0)$: The two distinct fixed coordinate points (geometrically representing the strict foci of a standard ellipse).\n- **$b^2$**: The resulting constant geometric mathematical product.\n\n## Boundary Conditions / Domain\n- The target line must strictly be formatted in the highly specific trigonometric structure $\frac{x}{a}\cos\theta + \frac{y}{b}\sin\theta = 1$.",
+"formulaMeta": {
+"formula": "p_1 p_2 = b^2",
+"description": "States the constant scalar value resulting from multiplying the perpendiculars drawn strictly from the foci coordinates $(\pm \sqrt{a^2-b^2}, 0)$ to the generalized tangent line $\frac{x}{a}\cos\theta + \frac{y}{b}\sin\theta = 1$.",
+"derivation": "The highly bloated geometric proof mathematically utilizes a massive difference of squares and standard trigonometric identities to aggressively cancel all spatial $\theta$ variables entirely."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 30,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created procedural proof card from original Conic Edge-Case card"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "straight-lines", "conic-sections", "jee-advanced", "class-11"],
+"order": 34,
+"heading": "SOP: Deriving Constant Perpendicular Product (Conics)",
+"back": "## Component Anatomy\n- **$b x \cos\theta + a y \sin\theta - ab = 0$**: The standard general format of the target trigonometric line.\n\n## Boundary Conditions / Domain\n- $a^2 \geq b^2$ is strictly required for the spatial term $\sqrt{a^2-b^2}$ to evaluate as a real geometric coordinate.",
+"formulaMeta": {
+"formula": "\sin^2\theta + \cos^2\theta = 1",
+"description": "The exact algorithmic sequence proving the constant product of perpendiculars from the geometric foci to a variable tangent.",
+"derivation": "**Standard Operating Procedure:**\n1. Algebraically convert the base line to general form: $b x \cos\theta + a y \sin\theta - ab = 0$.\n2. Utilize the standard perpendicular distance equation for both spatial points $(\sqrt{a^2-b^2}, 0)$ and $(-\sqrt{a^2-b^2}, 0)$.\n3. Multiply the two resulting algebraic distances.\n4. The resulting combined numerator perfectly forms a difference of squares polynomial: $a^2b^2 - b^2(a^2-b^2)\cos^2\theta$.\n5. Geometrically factor out $b^2$ and strictly apply the fundamental identity $\sin^2\theta + \cos^2\theta = 1$. Massive computational cancellation collapses the entire fraction cleanly down to strictly $b^2$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"originalOrder": null,
+"originalHeading": null,
+"action": "SYSTEM",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": null
+}
+]
+}

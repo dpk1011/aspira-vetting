@@ -1,0 +1,824 @@
+{
+"deckId": "0d0c1e79-76a3-40b3-a76e-9b55e121b1d2",
+"cards": [
+{
+"cardId": "08f1df37-0633-4079-86aa-0e73bc65fd82",
+"originalOrder": 1,
+"originalHeading": "Secant vs. Tangent of a Circle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit domain restriction to 2D Euclidean geometry",
+"Rationalized tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-10", "circles", "geometry", "definitions"],
+"order": 1,
+"heading": "Geometric Distinction: Secant vs. Tangent",
+"back": "## Geometric Difference\n- **Secant:** A straight line that intersects a circle at exactly **two distinct points**.\n- **Tangent:** A straight line that touches or intersects the circle at exactly **one unique point**.\n\n## Boundary Conditions / Domain\n- Strictly defined within 2D Euclidean coplanar geometry.",
+"mnemonic": "Secant Severs (two pieces), Tangent Touches (one point).",
+"standardMeta": {
+"question": "What is the fundamental geometric difference between a secant line and a tangent line to a circle?"
+}
+}
+},
+{
+"cardId": "43135102-b90d-4483-9a96-04660a63aaf5",
+"originalOrder": 2,
+"originalHeading": "Point of Contact",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined standardMeta question"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-10", "circles", "geometry", "definitions"],
+"order": 2,
+"heading": "Mathematical Definition: Point of Contact",
+"back": "## Definition\nThe unique common point shared identically by a tangent line and the circle it touches.\n\n## Significance\nIt is the absolute only point on the tangent line that lies strictly *on* the circumference of the circle. All other points on the tangent line lie strictly in the exterior of the circle.",
+"standardMeta": {
+"question": "What is the specific geometric term used for the exact common point shared by a circle and its tangent line?"
+}
+}
+},
+{
+"cardId": "9ddd1940-5a2a-4ea4-b10a-54a55ff866ce",
+"originalOrder": 3,
+"originalHeading": "Tangent as a Limiting Case of a Secant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "circles", "limits", "geometry"],
+"order": 3,
+"heading": "Conceptual Limit: Tangent from a Secant",
+"back": "## Concept\nA tangent mathematically acts as a special limiting case of a secant where the two endpoints of its corresponding chord converge and coincide.\n\n## Visualisation & Mechanism\nIf you translate a secant line parallel to itself progressively away from the centre, the intercepted chord length strictly decreases. It continues decreasing until it reaches exactly zero at the extreme boundary point (point of contact).",
+"standardMeta": {
+"question": "How is a tangent mathematically and conceptually derived as a special limiting case of a secant?"
+}
+}
+},
+{
+"cardId": "04d5da10-009c-4e66-820e-05771c4b8c42",
+"originalOrder": 5,
+"originalHeading": "Tangents from an Interior Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION",
+"Reordered logically to group by point position cases"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "tangents", "existence"],
+"order": 4,
+"heading": "Existence Condition: Tangents from an Interior Point",
+"back": "## Fact\nIt is **impossible** to draw any tangent to a circle that passes through a point lying strictly inside the circle.\n\n## Reasoning\nAny infinite straight line passing through an interior point is strictly forced to exit the closed curve of the circle, inherently intersecting the circumference at exactly two points (acting geometrically as a secant, not a tangent).",
+"standardMeta": {
+"question": "How many tangents can geometrically be drawn to a circle from a point located strictly inside the circle?"
+}
+}
+},
+{
+"cardId": "a79a4e2e-fd89-4b2d-a1e4-2acb480d30ee",
+"originalOrder": 6,
+"originalHeading": "Tangents from a Point on the Circle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "tangents", "existence"],
+"order": 5,
+"heading": "Existence Condition: Tangent on the Circumference",
+"back": "## Fact\nThere is **exactly one** unique tangent to a circle that can pass through a specific point lying directly on the circle's circumference.\n\n## Boundary Conditions / Domain\n- The point must be exactly on the perimeter (distance from centre $d = r$).",
+"standardMeta": {
+"question": "How many distinct tangents can be drawn to a circle passing through one specific point lying exactly on its circumference?"
+}
+}
+},
+{
+"cardId": "c86d02aa-0642-442b-9905-7c8485f068a6",
+"originalOrder": 7,
+"originalHeading": "Tangents from an Exterior Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "tangents", "existence"],
+"order": 6,
+"heading": "Existence Condition: Tangents from an Exterior Point",
+"back": "## Fact\nThere are **exactly two** distinct tangents that can be drawn to a circle from a point located strictly outside the circle.\n\n## Boundary Conditions / Domain\n- The point must lie strictly in the exterior of the circle (distance from centre $d > r$).",
+"standardMeta": {
+"question": "How many tangents can geometrically be drawn to a single circle from a point located strictly outside the circle?"
+}
+}
+},
+{
+"cardId": "38f60e75-d02d-4175-9ccc-876a880807b5",
+"originalOrder": 10,
+"originalHeading": "Length of the Tangent",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up before Theorem 10.2 for logical pedagogy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-10", "circles", "tangents", "definitions"],
+"order": 7,
+"heading": "Mathematical Definition: Length of a Tangent",
+"back": "## Definition\nThe strict length of the line segment measured from the designated external point to the exact point of contact with the circle.\n\n## Crucial Distinction\nThe geometric tangent itself is an infinite line. However, the term 'length of the tangent' in calculations only refers to the specific, finite segment strictly bounded between the exterior origin point and the contact point.",
+"standardMeta": {
+"question": "How is the finite 'length of a tangent' geometrically defined when drawn from an external point to a circle?"
+}
+}
+},
+{
+"cardId": "ff228145-23df-44e0-bac7-8768b703f742",
+"originalOrder": 8,
+"originalHeading": "Theorem 10.1: Tangent-Radius Perpendicularity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Double-escaped KaTeX in formula"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "theorems", "geometry", "formula"],
+"order": 8,
+"heading": "Theorem 10.1: Tangent-Radius Perpendicularity",
+"back": "## Component Anatomy\n- **$OP$:** Radius of the circle extending strictly to the point of contact $P$.\n- **$XY$:** Tangent line touching the circle at exactly point $P$.\n\n## Boundary Conditions / Domain\n- Point $P$ must strictly be the unique point of contact on the circumference.\n- The radius must explicitly intersect the tangent at $P$, not at any arbitrary point on the tangent.",
+"mnemonic": "Tangent and Radius form a Right angle.",
+"formulaMeta": {
+"formula": "OP \\perp XY \\implies \\angle OPX = \\angle OPY = 90^\\circ",
+"description": "Geometric relationship proving a tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+"derivation": "1. Take any arbitrary point $Q$ on tangent $XY$ other than contact point $P$.\n2. $Q$ must inherently lie strictly outside the circle (otherwise $XY$ becomes a secant).\n3. Therefore, the distance $OQ > OP$ (radius).\n4. Since this inequality $OQ > OP$ holds true for all points on $XY$ except $P$, $OP$ is the absolute shortest distance from centre $O$ to the line $XY$.\n5. Mathematically, the shortest distance from a point to a line is strictly the perpendicular distance. Thus, $OP \\\perp XY$."
+}
+}
+},
+{
+"cardId": "4fdeb536-0c0b-42a1-bfdc-f8c246cffcde",
+"originalOrder": 9,
+"originalHeading": "Normal to a Circle",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-10", "circles", "geometry", "definitions"],
+"order": 9,
+"heading": "Mathematical Definition: Normal to a Circle",
+"back": "## Definition\nThe infinite straight line strictly containing the radius that passes through the exact point of contact of a tangent is called the **normal** to the circle at that specific point.\n\n## Property\nAs a direct corollary of Theorem 10.1, the normal is strictly perpendicular ($90^\circ$) to the tangent at the point of contact.",
+"standardMeta": {
+"question": "What geometric term is used to describe the line that contains the radius passing strictly through the point of contact of a tangent?"
+}
+}
+},
+{
+"cardId": "32e25c27-ab34-43f3-8a4b-dde6aa3a0aa8",
+"originalOrder": 18,
+"originalHeading": "Perpendicular at Point of Contact",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Moved to order 10 to logically follow Theorem 10.1"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "theorems", "corollaries"],
+"order": 10,
+"heading": "Corollary: Perpendicular at Point of Contact",
+"back": "## Fact\nThe perpendicular line erected exactly at the point of contact to the tangent of a circle will strictly **pass through the centre** of the circle.\n\n## Significance / Application\nThis is the inverse application of Theorem 10.1. It is structurally used in geometric constructions to locate the unknown centre of a circle if a tangent and its specific point of contact are provided.",
+"standardMeta": {
+"question": "If you construct a perpendicular line to a tangent exactly at its point of contact, what specific structural point must this line invariably pass through?"
+}
+}
+},
+{
+"cardId": "1b8f4773-123e-4e7d-9645-f95eb5546e20",
+"originalOrder": 11,
+"originalHeading": "Theorem 10.2: Lengths of Tangents from an External Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "theorems", "geometry", "formula"],
+"order": 11,
+"heading": "Theorem 10.2: External Tangent Lengths",
+"back": "## Component Anatomy\n- **$P$:** The external origin point.\n- **$Q, R$:** The two unique points of contact strictly on the circle.\n- **$PQ, PR$:** The absolute lengths of the finite tangent segments.\n\n## Boundary Conditions / Domain\n- Point $P$ must strictly be located in the exterior domain of the circle ($d > r$).",
+"formulaMeta": {
+"formula": "PQ = PR",
+"description": "Theorem establishing that the lengths of two tangents drawn from a single external point to a circle are strictly equal.",
+"derivation": "1. Draw a circle with centre $O$. Join centre $O$ to the external point $P$, and construct radii $OQ$ and $OR$ to the points of contact.\n2. Evaluate right triangles $\\\triangle OQP$ and $\\\triangle ORP$:\n   - $OQ = OR$ (Radii of the identical circle)\n   - $OP = OP$ (Shared common hypotenuse)\n   - $\\\angle OQP = \\\angle ORP = 90^\\\circ$ (Radius $\\\perp$ Tangent per Theorem 10.1)\n3. Therefore, $\\\triangle OQP \\\cong \\\triangle ORP$ by Right-Angle Hypotenuse Side (RHS) congruence criterion.\n4. Consequently, $PQ = PR$ by Corresponding Parts of Congruent Triangles (CPCT)."
+}
+}
+},
+{
+"cardId": "f693bb69-d4f3-46b2-8f9c-b3fdf5424c2a",
+"originalOrder": 17,
+"originalHeading": "Tangents at the Ends of a Diameter",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Adjusted order (12)"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "geometry", "parallel"],
+"order": 12,
+"heading": "Geometric Property: Tangents at Diameter Ends",
+"back": "## Fact\nTangents drawn exactly at the two endpoints of any diameter of a circle are strictly **parallel** to each other.\n\n## Algebraic Proof Logic\n1. By Theorem 10.1, both tangents strictly form $90^\\\circ$ angles with the radii (which collinearly form the diameter).\n2. The diameter geometrically acts as a transversal line intersecting the two tangents.\n3. Since the alternate interior angles are mathematically equal ($90^\\\circ = 90^\\\circ$), the two tangent lines must be parallel.",
+"standardMeta": {
+"question": "What is the strict relative geometric orientation of two tangents drawn exactly at the endpoints of a circle's diameter?"
+}
+}
+},
+{
+"cardId": "910604a7-db56-4c1f-a6f8-b877038b42a5",
+"originalOrder": 12,
+"originalHeading": "Tangents Subtend Equal Angles at the Centre",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "circles", "angles", "theorems"],
+"order": 13,
+"heading": "Corollary: Central Angles of Tangents",
+"back": "## Concept\nIf two tangents are drawn from a single external point $P$ to a circle with centre $O$ (touching at $A$ and $B$), they subtend strictly equal angles at the centre.\n\n## Mathematical Translation\n$\\angle POA = \\angle POB$.\n\n## Proof Reasoning\nThis is derived directly via CPCT from the RHS congruence of $\\\triangle OAP \\\cong \\\triangle OBP$ established in the proof of Theorem 10.2.\n\n## Boundary Conditions / Domain\n- Point $P$ must be located strictly outside the circle.",
+"standardMeta": {
+"question": "What is the exact algebraic relationship between the angles subtended at the centre of a circle by two tangents drawn from a single external point?"
+}
+}
+},
+{
+"cardId": "960cd3af-c9b9-459a-8640-80585d308510",
+"originalOrder": 13,
+"originalHeading": "Centre Lies on the Angle Bisector of Tangents",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit domain limits"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "circles", "geometry", "bisectors"],
+"order": 14,
+"heading": "Corollary: Tangent Angle Bisector",
+"back": "## Concept\nThe straight line segment strictly joining the centre of the circle to the external point acts perfectly as the angle bisector for the angle formed between the two tangents.\n\n## Mathematical Translation\n$\\angle OPA = \\angle OPB$.\n\n## Proof Reasoning\nDerived directly via CPCT from the identical RHS congruence of $\\\triangle OAP \\\cong \\\triangle OBP$ (Theorem 10.2).\n\n## Boundary Conditions / Domain\n- The angle $\\\angle APB$ between the tangents is bounded as $0^\\\circ < \\\angle APB < 180^\\\circ$.",
+"standardMeta": {
+"question": "What is the exact geometric relationship between the centre of a circle and the interior angle formed by two tangents intersecting at an external point?"
+}
+}
+},
+{
+"cardId": "e40f909f-2f1a-4283-9deb-8a4e9c675972",
+"originalOrder": 14,
+"originalHeading": "Supplementary Angles of Tangents and Radii",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Strictly formatted the derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "angles", "quadrilaterals"],
+"order": 15,
+"heading": "Application: Supplementary Angles Property",
+"back": "## Component Anatomy\n- **$\\\angle APB$:** The interior angle formed specifically between the two tangents originating from external point $P$.\n- **$\\\angle AOB$:** The central angle subtended by the radii connecting to the points of contact $A$ and $B$.\n\n## Boundary Conditions / Domain\n- Point $P$ must lie strictly in the exterior space of the circle.\n- Points $A$ and $B$ must be the exact distinct points of tangency.",
+"formulaMeta": {
+"formula": "\\angle APB + \\angle AOB = 180^\\circ",
+"description": "Algebraic proof that the angle between two external tangents and the central angle of their contact points are strictly supplementary.",
+"derivation": "1. In the geometric quadrilateral $OAPB$, the sum of all four interior angles is strictly $360^\\\circ$.\n2. By Theorem 10.1, the tangents are perpendicular to the radii at the points of contact, thus $\\\angle OAP = 90^\\\circ$ and $\\\angle OBP = 90^\\\circ$.\n3. Substitute knowns into the sum: $\\\angle APB + \\\angle AOB + 90^\\\circ + 90^\\\circ = 360^\\\circ$.\n4. Isolate the target angles: $\\\angle APB + \\\angle AOB = 360^\\\circ - 180^\\\circ = 180^\\\circ$."
+}
+}
+},
+{
+"cardId": "a9aeb880-2f79-4476-b1c6-70e6d9daedfa",
+"originalOrder": 23,
+"originalHeading": "Isosceles Triangle formed by Tangents and Chord",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION",
+"Adjusted order (16)"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "triangles", "geometry"],
+"order": 16,
+"heading": "Geometric Property: Tangent-Chord Triangle",
+"back": "## Fact\nThe triangle formed strictly by two tangents drawn from a common external point and the chord joining their exact points of contact is always an **isosceles triangle**.\n\n## Algebraic Proof Reasoning\nSince the lengths of the two tangents from any external point are strictly equal per Theorem 10.2 ($TP = TQ$), the bounded triangle $\\\triangle TPQ$ inherently possesses two equal sides, satisfying the definition of an isosceles triangle.",
+"standardMeta": {
+"question": "What specific type of geometric triangle is structurally formed by two tangents originating from an external point and the chord connecting their points of contact?"
+}
+}
+},
+{
+"cardId": "6a62b472-3fed-4868-82db-c4901893e66a",
+"originalOrder": 27,
+"originalHeading": "Cyclic Quadrilateral Formed by Tangents",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Adjusted order (17)"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "quadrilaterals", "cyclic"],
+"order": 17,
+"heading": "Geometric Property: Cyclic Tangent Quadrilateral",
+"back": "## Concept\nThe specific quadrilateral structured by an external point, the two points of tangency, and the centre of the circle is always mathematically a **cyclic quadrilateral**.\n\n## Algebraic Proof Reasoning\n1. By Theorem 10.1, the internal angle between a tangent and its connecting radius is strictly $90^\\\circ$.\n2. The sum of these two specific opposite angles in the quadrilateral is $90^\\\circ + 90^\\\circ = 180^\\\circ$.\n3. Since a pair of opposite angles is exactly supplementary ($180^\\\circ$), the geometric vertices can be circumscribed by a secondary circle, proving it is cyclic.",
+"standardMeta": {
+"question": "What specific type of mathematical quadrilateral is formed by an external point, its two points of tangency, and the centre of the circle?"
+}
+}
+},
+{
+"cardId": "391c55d7-f241-4105-b361-38d7d3e2a7a6",
+"originalOrder": 21,
+"originalHeading": "Angle Between Tangents & Angle Between Chord and Radius",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to PROCEDURAL to reflect algorithmic proof",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "angles", "proofs"],
+"order": 18,
+"heading": "Algorithmic Proof: Tangent Angle vs Chord-Radius Angle",
+"back": "## Component Anatomy\n- **$\\\angle PTQ$:** The full internal angle formed specifically between the two tangents originating from external point $T$.\n- **$\\\angle OPQ$:** The bounded angle formed strictly between the radius $OP$ and the straight chord of contact $PQ$.\n\n## Boundary Conditions / Domain\n- Point $T$ must reside strictly in the exterior domain.",
+"formulaMeta": {
+"formula": "\\angle PTQ = 2 \\angle OPQ",
+"description": "Standard NCERT algebraic proof relating the external tangent angle directly to the internal chord-radius angle.",
+"derivation": "1. Let $\\\angle PTQ = \\\theta$. Tangents from $T$ are equal ($TP = TQ$), implying $\\\triangle TPQ$ is isosceles.\n2. In $\\\triangle TPQ$, base angles are equal: $\\\angle TPQ = \\\angle TQP = \\\frac{1}{2}(180^\\\circ - \\\theta) = 90^\\\circ - \\\frac{\\\theta}{2}$.\n3. Since tangent is strictly perpendicular to radius (Theorem 10.1), the total angle $\\\angle OPT = 90^\\\circ$.\n4. Decompose the angle: $\\\angle OPQ = \\\angle OPT - \\\angle TPQ = 90^\\\circ - (90^\\\circ - \\\frac{\\\theta}{2}) = \\\frac{\\\theta}{2}$.\n5. Multiply by 2: $\\\theta = 2 \\\angle OPQ$. Since $\\\theta = \\\angle PTQ$, therefore $\\\angle PTQ = 2 \\\angle OPQ$."
+}
+}
+},
+{
+"cardId": "ddbe48ba-f198-4660-82b3-240f420781c8",
+"originalOrder": 15,
+"originalHeading": "Calculating Tangent Length via Pythagoras",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "pythagoras", "calculation"],
+"order": 19,
+"heading": "Algorithmic SOP: Calculating Tangent Length",
+"back": "## Component Anatomy\n- **$L$:** Unknown length of the finite tangent segment from the external point to the point of contact.\n- **$d$:** Linear distance from the external point to the geometric centre of the circle.\n- **$r$:** Radius of the circle.\n\n## Boundary Conditions / Domain\n- The external point distance must strictly exceed the radius: $d > r$. If $d = r$, $L = 0$. If $d < r$, the solution is complex (no real tangent exists).",
+"formulaMeta": {
+"formula": "L = \\sqrt{d^2 - r^2}",
+"description": "Procedure to calculate the length of a tangent segment using the Pythagorean theorem.",
+"derivation": "1. Geometrically construct a right-angled triangle by connecting the centre $O$, the external point $P$, and the unique point of contact $Q$.\n2. By Theorem 10.1, the radius $r$ and tangent segment $L$ intersect perfectly at $90^\\\circ$, thereby forming the two perpendicular legs of the right triangle.\n3. The distance $d$ from the centre to the external point acts as the hypotenuse.\n4. Apply Pythagorean theorem: $d^2 = r^2 + L^2$.\n5. Isolate $L$: $L^2 = d^2 - r^2 \\\implies L = \\\sqrt{d^2 - r^2}$."
+}
+}
+},
+{
+"cardId": "2503d3e8-9e86-4e1b-a670-83eb93f8e739",
+"originalOrder": 16,
+"originalHeading": "Chord of Larger Circle Touching Smaller Concentric Circle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Enforced strict radius boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "chords", "concentric"],
+"order": 20,
+"heading": "Algorithmic SOP: Concentric Circle Tangent-Chord",
+"back": "## Component Anatomy\n- **$L_{chord}$:** Total length of the secant chord belonging to the larger outer circle.\n- **$R$:** Radius of the larger external circle.\n- **$r$:** Radius of the smaller concentric inner circle.\n\n## Boundary Conditions / Domain\n- The two circles must strictly share the exact same centre point (concentric).\n- The outer radius must strictly exceed the inner radius: $R > r$.",
+"formulaMeta": {
+"formula": "L_{chord} = 2 \\sqrt{R^2 - r^2}",
+"description": "Procedure to derive the length of a chord in a larger circle that simultaneously functions as a tangent to a smaller concentric circle.",
+"derivation": "1. Let chord $AB$ of the larger circle tangentially touch the smaller inner circle at point $P$.\n2. Join the shared centre $O$ to point $P$. By Theorem 10.1, $OP \\\perp AB$ since $AB$ is a tangent to the inner circle.\n3. A geometric theorem states the perpendicular dropped from the centre to any chord completely bisects that chord, hence segment $AP = PB$.\n4. In right-angled $\\\triangle OPA$, the hypotenuse is $OA = R$ and leg is $OP = r$. Calculate $AP = \\\sqrt{OA^2 - OP^2} = \\\sqrt{R^2 - r^2}$.\n5. Since $AP$ is exactly half the chord, total length $AB = 2 \\\times AP = 2 \\\sqrt{R^2 - r^2}$."
+}
+}
+},
+{
+"cardId": "3c635b79-0b13-444b-84eb-71ba7c05aa90",
+"originalOrder": 19,
+"originalHeading": "Circumscribed Quadrilateral Side Property",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT to reduce cognitive load. This is Part 1: Segment Mapping.",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "First half of the circumscribed quadrilateral algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "quadrilaterals", "proofs"],
+"order": 21,
+"heading": "Algorithmic SOP: Circumscribed Quadrilateral (Part 1 - Segment Mapping)",
+"back": "## Component Anatomy\n- **$A, B, C, D$:** External vertices of the circumscribing polygon.\n- **$P, Q, R, S$:** Distinct points of contact on the circle circumference.\n\n## Boundary Conditions / Domain\n- The quadrilateral must completely circumscribe the internal circle (all four linear sides must touch the circle acting as tangents).",
+"formulaMeta": {
+"formula": "AP=AS, \\ BP=BQ, \\ CR=CQ, \\ DR=DS",
+"description": "The initial geometric setup step for proving properties of a circumscribed quadrilateral using Theorem 10.2.",
+"derivation": "1. Let the inner circle tangentially touch the four sides $AB, BC, CD, AD$ exactly at points $P, Q, R, S$ respectively.\n2. Treat each vertex $A, B, C, D$ as an independent external point originating two tangents.\n3. Apply Theorem 10.2 (Lengths of tangents from an external point are strictly equal) to mathematically map the boundary segments:\n   - From $A$: $AP = AS$\n   - From $B$: $BP = BQ$\n   - From $C$: $CR = CQ$\n   - From $D$: $DR = DS$"
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 19,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Generated from SPLIT of Circumscribed Quadrilateral Side Property. Part 2: Synthesis."
+],
+"vettingNotes": "Second half of the circumscribed quadrilateral algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "quadrilaterals", "algebra"],
+"order": 22,
+"heading": "Algorithmic SOP: Circumscribed Quadrilateral (Part 2 - Algebraic Synthesis)",
+"back": "## Component Anatomy\n- **$AB, BC, CD, AD$:** Full lengths of the unified sides of quadrilateral $ABCD$.\n\n## Boundary Conditions / Domain\n- Requires strict addition of opposite pairs to form the correct contiguous line segments.",
+"mnemonic": "Opposite sides sum to the exactly equal length.",
+"formulaMeta": {
+"formula": "AB + CD = AD + BC",
+"description": "The algebraic synthesis step combining segmented tangents to prove opposite sides of a circumscribed quadrilateral sum equally.",
+"derivation": "1. Take the four equivalence equations derived from Theorem 10.2 ($AP=AS, BP=BQ, CR=CQ, DR=DS$).\n2. Algebraically add all the Left-Hand Side (LHS) terms together, and all Right-Hand Side (RHS) terms together: $(AP + BP + CR + DR) = (AS + BQ + CQ + DS)$.\n3. Group the fragmented components back into their contiguous geometric sides: $(AP + BP) + (CR + DR) = (AS + DS) + (BQ + CQ)$.\n4. Synthesise the full lengths: $AB + CD = AD + BC$."
+}
+}
+},
+{
+"cardId": "714f9b32-ddc8-47ab-951c-b507517e230c",
+"originalOrder": 20,
+"originalHeading": "Circumscribed Parallelogram Identity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit proof steps in back field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "circles", "quadrilaterals", "rhombus"],
+"order": 23,
+"heading": "Corollary: Circumscribed Parallelogram",
+"back": "## Concept\nIf a parallelogram is geometrically configured such that it perfectly circumscribes a circle, it is mathematically forced to strictly be a **rhombus**.\n\n## Algebraic Proof Logic\n1. From the general circumscribed quadrilateral property, we know strictly: $AB + CD = AD + BC$.\n2. By the axiomatic definition of a parallelogram, opposite sides are equal: $AB = CD$ and $AD = BC$.\n3. Substitute this into the first equation: $AB + AB = BC + BC \\\implies 2AB = 2BC \\\implies AB = BC$.\n4. A parallelogram possessing adjacent sides of identical length is the strict definition of a rhombus.",
+"standardMeta": {
+"question": "What specific geometric shape is mathematically necessitated when a parallelogram perfectly circumscribes a circle?"
+}
+}
+},
+{
+"cardId": "c55394f1-fda5-4f5b-9b61-be3f9a126f55",
+"originalOrder": 22,
+"originalHeading": "Circumscribed Quadrilateral Central Angles Property",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Part 1 (Triangulation) and Part 2 (Synthesis) to fix cognitive bloat.",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "First part handling the complex geometric mapping of 8 central angles.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "angles", "quadrilaterals"],
+"order": 24,
+"heading": "Algorithmic SOP: Circumscribed Central Angles (Part 1 - Triangulation)",
+"back": "## Component Anatomy\n- **8 Central Sub-angles:** Formed by connecting the centre to the four vertices and four contact points.\n\n## Boundary Conditions / Domain\n- The quadrilateral $ABCD$ must perfectly circumscribe the circle to ensure the vertex-radii pairs create contiguous congruent triangles.",
+"formulaMeta": {
+"formula": "\\angle 1 = \\angle 8, \\; \\angle 2 = \\angle 3, \\; \\angle 4 = \\angle 5, \\; \\angle 6 = \\angle 7",
+"description": "Geometrically triangulating the circumscribed quadrilateral to establish identical pairs of central angles.",
+"derivation": "1. Map the structure: Join the geometric centre $O$ to all four contact points ($P,Q,R,S$) and all four external vertices ($A,B,C,D$).\n2. This structurally decomposes the quadrilateral into 8 smaller right-angled triangles sharing the centre vertex.\n3. Evaluate vertex $A$: $\\\triangle OAP \\\cong \\\triangle OAS$ by RHS congruence (Theorem 10.2 logic).\n4. Therefore, their corresponding central angles are strictly equal by CPCT. Let's label them $\\\angle 1 = \\\angle 8$.\n5. Repeat identically for vertices $B, C,$ and $D$ to establish the other equal adjacent pairs."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 22,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Generated from SPLIT of Circumscribed Quadrilateral Central Angles Property. Part 2: Synthesis."
+],
+"vettingNotes": "Second part executing the algebraic summation to 360 degrees.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "angles", "algebra"],
+"order": 25,
+"heading": "Algorithmic SOP: Circumscribed Central Angles (Part 2 - Algebraic Synthesis)",
+"back": "## Component Anatomy\n- **$\\\angle AOB, \\\angle COD$:** Full central angles subtended by opposite sides $AB$ and $CD$.\n- **$\\\angle BOC, \\\angle AOD$:** Full central angles subtended by opposite sides $BC$ and $AD$.\n\n## Boundary Conditions / Domain\n- The sum of angles around a geometric point in 2D space strictly equals $360^\\\circ$.",
+"formulaMeta": {
+"formula": "\\begin{aligned} \\angle AOB + \\angle COD &= 180^\\circ \\ \\angle BOC + \\angle AOD &= 180^\\circ \\end{aligned}",
+"description": "Executing the algebraic factoring to prove opposite sides subtend supplementary angles.",
+"derivation": "1. The mathematical sum of all 8 discrete central angles circling point $O$ is exactly $360^\\\circ$: $\\\angle 1 + \\\angle 2 + \\\angle 3 + \\\dots + \\\angle 8 = 360^\\\circ$.\n2. Substitute the equal pairs established in Part 1 (e.g., replace $\\\angle 8$ with $\\\angle 1$): $2\\\angle 1 + 2\\\angle 2 + 2\\\angle 5 + 2\\\angle 6 = 360^\\\circ$.\n3. Factor out the $2$: $2(\\\angle 1 + \\\angle 2) + 2(\\\angle 5 + \\\angle 6) = 360^\\\circ$.\n4. Divide by 2: $(\\\angle 1 + \\\angle 2) + (\\\angle 5 + \\\angle 6) = 180^\\\circ$.\n5. Synthesise back to full angles: $\\\angle AOB + \\\angle COD = 180^\\\circ$."
+}
+}
+},
+{
+"cardId": "e8367063-2367-41e3-9598-5952f953aa5c",
+"originalOrder": 28,
+"originalHeading": "Area of a Polygon Circumscribing a Circle",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Part 1 (Decomposition) and Part 2 (Synthesis) to eliminate cognitive bloat",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "First part handles the geometric division of the polygon.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "geometry", "area"],
+"order": 26,
+"heading": "Algorithmic SOP: Circumscribed Polygon Area (Part 1 - Decomposition)",
+"back": "## Component Anatomy\n- **$A_{\text{sub}}$:** The area of a constituent sub-triangle.\n- **$a, b, c, \dots$:** The individual side lengths of the circumscribing polygon.\n- **$r$:** The radius of the inscribed circle (incircle).\n\n## Boundary Conditions / Domain\n- The polygon must perfectly circumscribe the circle (every constituent side acts strictly as a tangent).\n- The polygon must be convex.",
+"formulaMeta": {
+"formula": "A_{\text{total}} = \sum A_{\text{sub}} = \frac{1}{2}ar + \frac{1}{2}br + \dots",
+"description": "Procedural step to geometrically decompose a circumscribed polygon into computable sub-triangles.",
+"derivation": "1. **Decompose:** Divide the circumscribing polygon into smaller triangles by drawing straight lines joining the geometric centre of the incircle to every single vertex of the polygon.\n2. **Identify Heights:** By Theorem 10.1, the radius drawn to the point of contact on each side is strictly perpendicular to that side. Therefore, the altitude (height) of every such sub-triangle is exactly the incircle radius $r$.\n3. **Summation:** Express the total area as the sum of the sub-triangle areas: $A = \\\frac{1}{2}ar + \\\frac{1}{2}br + \\\frac{1}{2}cr + \\\dots$"
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Generated from SPLIT of Area of a Polygon Circumscribing a Circle. Part 2: Factoring."
+],
+"vettingNotes": "Second part handles the algebraic factoring into semi-perimeter.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "algebra", "area"],
+"order": 27,
+"heading": "Algorithmic SOP: Circumscribed Polygon Area (Part 2 - Factoring)",
+"back": "## Component Anatomy\n- **$A$:** Total integrated area of the circumscribing polygon.\n- **$r$:** Constant radius of the incircle.\n- **$s$:** Semi-perimeter of the polygon ($s = \frac{\text{Perimeter}}{2}$).\n\n## Boundary Conditions / Domain\n- All side lengths $a, b, c$ must strictly be $> 0$.",
+"formulaMeta": {
+"formula": "A = r \cdot s",
+"description": "Algebraic synthesis to convert the decomposed triangle areas into a clean semi-perimeter formula.",
+"derivation": "1. **Isolate Constant:** Take the expanded sum equation from Part 1: $A = \\\frac{1}{2}ar + \\\frac{1}{2}br + \\\frac{1}{2}cr + \\\dots$\n2. **Factor:** Algebraically factor out the common terms $\\\frac{1}{2}$ and $r$: $A = r \\\left( \\\frac{a+b+c+\\\dots}{2} \\\right)$.\n3. **Identify Semi-perimeter:** Recognise that the sum of all sides divided by 2 is the exact definition of the semi-perimeter $s$.\n4. **Substitute:** Replace the bracketed term with $s$ to yield the final condensed formula: $A = r \\\cdot s$."
+}
+}
+},
+{
+"cardId": "7adcdcaf-8e7e-4027-ad30-8e337035be0f",
+"originalOrder": 24,
+"originalHeading": "Radius of Incircle in a Right-Angled Triangle",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Part 1 (Square Setup) and Part 2 (Hypotenuse Substitution)",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Part 1 of the right-angled incircle derivation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "triangles", "incircle"],
+"order": 28,
+"heading": "Algorithmic SOP: Right Incircle Radius (Part 1 - Vertex Square Setup)",
+"back": "## Component Anatomy\n- **$r$:** Radius of the incircle.\n- **$a, b$:** Perpendicular legs of the right triangle.\n- **$c$:** Hypotenuse.\n\n## Boundary Conditions / Domain\n- The parent triangle must strictly be a right-angled triangle ($90^\circ$).\n- The internal bounded shape at the $90^\circ$ vertex structurally forms a perfect square.",
+"formulaMeta": {
+"formula": "L_{\text{tangent}} = r",
+"description": "Geometric setup defining the corner square and calculating the remaining leg segments.",
+"derivation": "1. Let the incircle tangentially touch the perpendicular legs $a, b$ at points $D, E$ respectively.\n2. The radii drawn to $D$ and $E$ are strictly perpendicular to the legs (Theorem 10.1).\n3. In the quadrilateral formed at the $90^\\\circ$ vertex, three angles are $90^\\\circ$, forcing the fourth to be $90^\\\circ$ (a rectangle). Since adjacent radii are equal ($r$), it is strictly a square.\n4. Therefore, the tangent segments from the $90^\\\circ$ vertex both equal $r$.\n5. The remaining lengths of the legs are algebraically expressed as $(a-r)$ and $(b-r)$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 24,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Generated from SPLIT of Radius of Incircle in a Right-Angled Triangle."
+],
+"vettingNotes": "Part 2 of the right-angled incircle derivation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "circles", "algebra", "incircle"],
+"order": 29,
+"heading": "Algorithmic SOP: Right Incircle Radius (Part 2 - Hypotenuse Substitution)",
+"back": "## Component Anatomy\n- **$a, b$:** Lengths of the perpendicular legs.\n- **$c$:** Length of the full contiguous hypotenuse.\n- **$r$:** Unknown incircle radius.\n\n## Boundary Conditions / Domain\n- Assumes all geometric lengths are strictly positive real numbers.",
+"mnemonic": "(Sum of Legs - Hypotenuse) cut in half.",
+"formulaMeta": {
+"formula": "r = \frac{a + b - c}{2}",
+"description": "Algebraic execution connecting the fragmented leg segments to the hypotenuse to solve for radius.",
+"derivation": "1. By Theorem 10.2, tangents drawn from the remaining two acute external vertices are equal.\n2. Therefore, the two segments making up the hypotenuse $c$ are strictly equal to the remaining leg segments $(a-r)$ and $(b-r)$.\n3. Set up the equation: $c = (a-r) + (b-r)$.\n4. Algebraically expand and rearrange: $c = a + b - 2r$.\n5. Isolate $2r = a + b - c \\\implies r = \\\frac{a+b-c}{2}$."
+}
+}
+},
+{
+"cardId": "3d5d1902-55d1-4394-80cd-7dc7de13cd74",
+"originalOrder": 29,
+"originalHeading": "Incircle Radius at a Right-Angled Vertex",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Added strict polygon constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "geometry", "edge-case"],
+"order": 30,
+"heading": "Edge-Case Property: Right-Angled Vertex Tangent Length",
+"back": "## Component Anatomy\n- **$r$:** Constant radius of the incircle.\n- **$L_{\text{tangent}}$:** Length of the physical tangent segment originating specifically from the $90^\circ$ vertex down to the point of contact.\n\n## Boundary Conditions / Domain\n- The specific tested vertex of the circumscribing polygon must be strictly $90^\circ$. If it deviates, this equality completely breaks down.",
+"formulaMeta": {
+"formula": "r = L_{\text{tangent}}",
+"description": "Algebraic proof establishing that at a 90-degree vertex, the tangent length is exactly equal to the incircle radius.",
+"derivation": "1. Let the $90^\\\circ$ vertex be $B$, and the incircle touch the adjacent bounding sides at points $P$ and $Q$.\n2. Draw geometric radii $OP$ and $OQ$. By Theorem 10.1, $\\\angle OPB = \\\angle OQB = 90^\\\circ$.\n3. Inside the resulting quadrilateral $OPBQ$, three interior angles are verified as $90^\\\circ$. This strictly forces the fourth central angle ($\angle POQ$) to also be $90^\\\circ$, confirming it as a rectangle.\n4. Because adjacent sides are the equal geometric radii ($OP = OQ = r$), a rectangle with equal adjacent sides is strictly defined as a **square**.\n5. Therefore, the tangent lengths forming the other sides $BP = BQ = r$."
+}
+}
+},
+{
+"cardId": "d283cf33-cc83-4eb1-9110-8a9626a84f72",
+"originalOrder": 26,
+"originalHeading": "Tangent-Secant Theorem (Power of a Point)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added explicit collinear bounds",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Advanced exemplar theorem critical for competitive crossovers.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "theorems", "jee-main"],
+"order": 31,
+"heading": "Theorem: Tangent-Secant (Power of a Point)",
+"back": "## Component Anatomy\n- **$PT$:** Absolute length of the finite tangent segment from external point $P$ to the exact point of contact $T$.\n- **$PA$:** Length of the external segment of the secant line.\n- **$PB$:** Total length of the contiguous secant segment traversing through the circle (from $P$ through $A$ to $B$).\n\n## Boundary Conditions / Domain\n- Origin point $P$ must be strictly located outside the circle.\n- The secant line must intersect the circle at exactly two distinct points $A$ and $B$, forming a strict collinear segment $P-A-B$.",
+"mnemonic": "Tangent squared equals Outer times Whole.",
+"formulaMeta": {
+"formula": "PT^2 = PA \cdot PB",
+"description": "Algebraic relationship between a tangent segment and a secant segment originating from the identical external point.",
+"derivation": "Derived structurally using similar triangles $\\\triangle PTA$ and $\\\triangle PBT$. The similarity is established by applying the Alternate Segment Theorem (where the angle between the tangent $PT$ and chord $TA$ equals the angle in the alternate segment $\\\angle ABT$) alongside the common angle $\\\angle P$."
+}
+}
+},
+{
+"cardId": "d85f73c7-70da-4d7f-866f-2a682255be6a",
+"originalOrder": 4,
+"originalHeading": "Maximum Parallel Tangents to a Secant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION",
+"Reordered to late-stage systemic bounds"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "geometry", "parallel"],
+"order": 32,
+"heading": "System Constraint: Maximum Parallel Tangents",
+"back": "## Fact\nA circle can mathematically have at most **two** distinct tangents strictly parallel to any given secant line.\n\n## Geometric Reasoning\nThese two parallel tangents will strictly touch the circle at diametrically opposite polar ends. The diameter connecting their points of contact will be perfectly perpendicular to both the tangents and the reference secant line.",
+"standardMeta": {
+"question": "What is the absolute maximum number of tangents to a single circle that can be geometrically parallel to a given reference secant line?"
+}
+}
+},
+{
+"cardId": "fb250f98-1338-4cc7-a601-216dea7422ad",
+"originalOrder": 25,
+"originalHeading": "Maximum Common Tangents for Intersecting Circles",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "tangents", "system-geometry"],
+"order": 33,
+"heading": "System Constraint: Intersecting Circle Tangents",
+"back": "## Fact\nTwo circles intersecting at exactly two distinct points can mathematically share a maximum of **two** common tangents.\n\n## Geometric Reasoning\nBecause the boundaries of the circles overlap in space, no straight tangent line can geometrically pass between them (which would act as an internal transverse tangent). Thus, only the two outer (external direct) tangents are structurally possible without severing a circle as a secant.",
+"standardMeta": {
+"question": "What is the strict maximum number of common tangents that can be drawn to two circles that physically intersect at two distinct points?"
+}
+}
+},
+{
+"cardId": "636a1fc9-6461-4f5d-9cda-f4baf3340d37",
+"originalOrder": 32,
+"originalHeading": "Number of Common Tangents: External Touch vs. Disjoint",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-10", "circles", "tangents", "system-geometry"],
+"order": 34,
+"heading": "Distinction: Tangents for Disjoint vs. Touching Circles",
+"back": "## Touching Externally (1 intersection point)\nProduces exactly **3** common tangents. (2 Direct Common Tangents forming the outer boundary, and exactly 1 Transverse tangent passing perpendicularly directly through the shared point of contact).\n\n## Disjoint (0 intersection points)\nProduces exactly **4** common tangents. (2 Direct Common Tangents on the exterior, and 2 Transverse Common Tangents forming a crossing 'X' perfectly strictly between the two disjoint circles).",
+"standardMeta": {
+"question": "How does the maximum count of common tangents geometrically differ between a system of two circles that touch externally versus two circles that are completely disjoint?"
+}
+}
+},
+{
+"cardId": "9e5bc9ae-6f37-4511-a7eb-5dbc3185408f",
+"originalOrder": 31,
+"originalHeading": "Distance Between Centres of Touching Circles",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Double-escaped KaTeX with proper aligned linebreaks"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "circles", "geometry", "coordinate-geometry"],
+"order": 35,
+"heading": "Application: Distance Between Touching Centres",
+"back": "## Component Anatomy\n- **$d$:** The finite linear distance perfectly between the geometric centres of the two circles.\n- **$r_1, r_2$:** The respective radii of the two touching circles.\n\n## Boundary Conditions / Domain\n- The two circles must intersect at exactly **one unique point** (mathematically touching).\n- For internal touching, the absolute value $|r_1 - r_2|$ ensures distance strictly remains positive ($d \geq 0$).",
+"mnemonic": "External adds up, Internal subtracts.",
+"formulaMeta": {
+"formula": "\begin{aligned} d_{\text{external}} &= r_1 + r_2 \\\\ d_{\text{internal}} &= |r_1 - r_2| \end{aligned}",
+"description": "Formulas calculating the strict linear distance between the centres of two circles for both external and internal touching conditions.",
+"derivation": "This geometric boundary condition is heavily tested in coordinate geometry. \n1. If the circles touch **externally**, their centres lie on strictly opposite sides of the shared tangent point. The total distance is the contiguous sum of the radii.\n2. If they touch **internally**, the centre of the smaller circle is geometrically enveloped, lying on the identical side of the tangent point. The distance is strictly the absolute difference of their radii."
+}
+}
+},
+{
+"cardId": "f2cdc8a3-82a2-4317-8a06-5216e85e4c3c",
+"originalOrder": 30,
+"originalHeading": "Perpendicular Bisector of a Common Chord",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION",
+"Clarified geometric application"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "circles", "chords", "geometry"],
+"order": 36,
+"heading": "Geometric Property: Centres and Common Chord",
+"back": "## Concept\nThe straight line segment strictly joining the geometric centres of two intersecting circles acts identically as the **perpendicular bisector** of their shared common chord.\n\n## Significance / Application\nIn advanced board problems and competitive exams, this mathematical property allows you to instantly construct solvable right-angled triangles using the known distance between centres, the given circle's radius, and exactly *half* the contiguous length of the unknown common chord.",
+"standardMeta": {
+"question": "When two circles geometrically intersect at two distinct points, what is the exact structural relationship between their bounded common chord and the linear segment joining their centres?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

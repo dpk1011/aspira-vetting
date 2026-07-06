@@ -1,0 +1,1139 @@
+{
+"deckId": "e2cb85de-1792-42cb-9007-f411ded2e117",
+"cards": [
+{
+"cardId": "8a75731e-5512-46b1-bb71-dd02f6987b56",
+"originalOrder": 1,
+"originalHeading": "Left-Hand Limit (LHL) vs Right-Hand Limit (RHL)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 1,
+"heading": "Left-Hand Limit (LHL) vs Right-Hand Limit (RHL)",
+"back": "- **Left-Hand Limit (LHL):** The expected value of $f(x)$ as $x$ approaches $a$ strictly from values less than $a$ ($x \to a^-$).\n- **Right-Hand Limit (RHL):** The expected value of $f(x)$ as $x$ approaches $a$ strictly from values greater than $a$ ($x \to a^+$).",
+"standardMeta": {
+"question": "What is the formal conceptual distinction between the Left-Hand Limit and the Right-Hand Limit of a function f(x) at x=a?"
+}
+}
+},
+{
+"cardId": "cdde29c0-6690-4715-9037-758ae2d6241e",
+"originalOrder": 2,
+"originalHeading": "Condition for Limit Existence",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 2,
+"heading": "Condition for Limit Existence",
+"back": "- **Step 1:** Evaluate the Left-Hand Limit (LHL).\n- **Step 2:** Evaluate the Right-Hand Limit (RHL).\n- **Condition:** For $\lim_{x \to a} f(x)$ to exist, the LHL and RHL must both exist (be finite) and be **strictly equal**.",
+"mnemonic": "Limit exists if the Left and Right agree.",
+"standardMeta": {
+"question": "What is the strict mathematical condition required to declare that the limit of f(x) as x approaches 'a' exists?"
+}
+}
+},
+{
+"cardId": "0969ffe5-24fe-4450-ac06-8c5e0bb9aa60",
+"originalOrder": 3,
+"originalHeading": "Limit Value vs Function Value Trap",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 3,
+"heading": "Limit Value vs Function Value Trap",
+"back": "- **The Concept:** A limit dictates the expected behavior of a function *near* a point, not *at* the point itself.\n- **The Reality:** It is entirely possible for $\lim_{x \to a} f(x)$ to exist and equal a finite number $L$, even if the function $f(a)$ is completely undefined at that exact point (e.g., due to a $0/0$ hole).",
+"standardMeta": {
+"question": "Does the function value f(a) need to equal the limit as x approaches 'a' for the limit to exist? Can the limit exist if f(a) is completely undefined?"
+}
+}
+},
+{
+"cardId": "2ebae3aa-bb85-4934-9ef4-afc94891d202",
+"originalOrder": 4,
+"originalHeading": "Algebra of Limits: Addition & Multiplication",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 4,
+"heading": "Algebra of Limits: Addition & Multiplication",
+"back": "## Component Anatomy:\n- **Sum/Difference:** Limits distribute over addition/subtraction.\n- **Product:** Limits distribute over multiplication.\n- **Scalar:** Constants can be pulled out of the limit.\n\n## Boundary Conditions / Domain:\n- The individual limits of $f(x)$ and $g(x)$ MUST independently exist at $x = a$.",
+"mnemonic": "Limits distribute seamlessly across addition and multiplication.",
+"formulaMeta": {
+"formula": "\begin{aligned} \lim_{x \to a} [f(x) \pm g(x)] &= \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x) \\ \lim_{x \to a} [f(x) \cdot g(x)] &= \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x) \\ \lim_{x \to a} [\lambda \cdot f(x)] &= \lambda \cdot \lim_{x \to a} f(x) \end{aligned}",
+"description": "State the algebraic rules for splitting limits across sum/difference, product, and scalar multiplication operations.",
+"derivation": "Axiomatic limit properties."
+}
+}
+},
+{
+"cardId": "b67ff184-6ff5-4b68-a132-57849d5c8b09",
+"originalOrder": 5,
+"originalHeading": "Algebra of Limits: Quotient Rule",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 5,
+"heading": "Algebra of Limits: Quotient Rule",
+"back": "## Component Anatomy:\n- **Numerator:** $\lim_{x \to a} f(x)$\n- **Denominator:** $\lim_{x \to a} g(x)$\n\n## Boundary Conditions / Domain:\n- The individual limits must exist.\n- **CRITICAL:** The limit of the denominator function MUST NOT equal zero: $\lim_{x \to a} g(x) \neq 0$.",
+"formulaMeta": {
+"formula": "\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}",
+"description": "Rule and boundary condition for finding the limit of a quotient expression f(x)/g(x).",
+"derivation": "Axiomatic limit properties."
+}
+}
+},
+{
+"cardId": "bc6ee69c-5c84-48ba-bbb0-9564a91c2734",
+"originalOrder": 8,
+"originalHeading": "Sandwich (Squeeze) Theorem",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered for cognitive sequencing before trigonometric limits"
+],
+"vettingNotes": "Moved up as it is a prerequisite for trig limits.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 6,
+"heading": "Sandwich (Squeeze) Theorem",
+"back": "- **Premise:** You have three functions bounded in an inequality: $f(x) \leq g(x) \leq h(x)$ for all $x$ in a common domain near $a$.\n- **Condition:** The limits of the outer 'bread' functions are equal: $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} h(x) = L$.\n- **Conclusion:** The inner 'meat' function is mathematically squeezed to the same limit: $\lim_{x \to a} g(x) = L$.",
+"mnemonic": "If you squeeze the bread, the meat goes with it.",
+"standardMeta": {
+"question": "What is the conceptual premise and mathematical conclusion of the Sandwich (or Squeeze) Theorem for evaluating limits?"
+}
+}
+},
+{
+"cardId": "9373894f-ea92-4310-85a2-d5188c9b4e45",
+"originalOrder": 9,
+"originalHeading": "Trigonometric Limit Bounding Inequality",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation from formula to prevent cognitive bloat",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "FACT",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 7,
+"heading": "Trigonometric Limit Bounding Inequality",
+"back": "## Component Anatomy:\n- **$\cos x$:** The lower bounding function.\n- **$\frac{\sin x}{x}$:** The central target function.\n- **$1$:** The upper bounding function.\n\n## Boundary Conditions / Domain:\n- Strictly valid for $0 < |x| < \frac{\pi}{2}$.\n- Angle $x$ MUST be in radians.",
+"formulaMeta": {
+"formula": "\cos x < \frac{\sin x}{x} < 1",
+"description": "Fundamental geometric inequality used alongside the Sandwich Theorem to derive the standard trigonometric limit of (sin x)/x.",
+"derivation": "Geometrically derived using unit circle area comparisons."
+}
+}
+},
+{
+"cardId": "NEW_TRIG_INEQUALITY_PROOF",
+"originalOrder": 9,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted procedural proof from Card 9"
+],
+"vettingNotes": "Proof chunked into a separate SOP card.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 8,
+"heading": "Proof: Trigonometric Bounding Inequality",
+"back": "- **Step 1:** Consider a unit circle with an angle $x$ in radians (where $0 < x < \frac{\pi}{2}$).\n- **Step 2:** Compare the areas of three geometric shapes: Area of Inner Triangle OAC < Area of Sector OAC < Area of Outer Triangle OAB.\n- **Step 3:** Substitute the area formulas: $\frac{1}{2}\cos x \sin x < \frac{1}{2}x < \frac{1}{2}\tan x$.\n- **Step 4:** Divide the entire inequality strictly by $\frac{1}{2}\sin x$ (which is positive) to yield $\cos x < \frac{x}{\sin x} < \frac{1}{\cos x}$. Inverting all terms yields $\cos x < \frac{\sin x}{x} < 1$.",
+"standardMeta": {
+"question": "What is the step-by-step geometric derivation to prove the trigonometric inequality $\cos x < \frac{\sin x}{x} < 1$?"
+}
+}
+},
+{
+"cardId": "1ce41eec-5d4b-4038-b238-eeb41126114e",
+"originalOrder": 10,
+"originalHeading": "Standard Limit: Sine Function",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation from formula",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 9,
+"heading": "Standard Limit: Sine Function",
+"back": "## Component Anatomy:\n- **$x$:** The angle variable approaching $0$.\n- **$\sin x$:** The trigonometric sine function.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The angle $x$ must be measured exclusively in **radians**. If given in degrees, convert to radians by multiplying by $\frac{\pi}{180}$ before evaluating.\n- Resolves the $0/0$ indeterminate form.",
+"formulaMeta": {
+"formula": "\lim_{x \to 0} \frac{\sin x}{x} = 1",
+"description": "Standard limit formula involving the ratio of the sine function to its angle as the angle approaches zero.",
+"derivation": "Derived via the Sandwich Theorem."
+}
+}
+},
+{
+"cardId": "NEW_SINE_LIMIT_PROOF",
+"originalOrder": 10,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted proof from Card 10"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 10,
+"heading": "Proof: Sine Function Standard Limit",
+"back": "- **Step 1:** Start with the bounding inequality: $\cos x < \frac{\sin x}{x} < 1$ for $x$ near $0$.\n- **Step 2:** Evaluate the limit of the lower bound as $x \to 0$: $\lim_{x \to 0} \cos x = 1$.\n- **Step 3:** Evaluate the limit of the upper bound as $x \to 0$: $\lim_{x \to 0} 1 = 1$.\n- **Conclusion:** By the Sandwich (Squeeze) Theorem, since both outer limits converge to $1$, the inner limit $\lim_{x \to 0} \frac{\sin x}{x}$ must strictly equal $1$.",
+"standardMeta": {
+"question": "What is the formal proof using the Sandwich Theorem to show that $\lim_{x \to 0} \frac{\sin x}{x} = 1$?"
+}
+}
+},
+{
+"cardId": "b94c63c3-76a2-476a-8c5a-b184c9ef45fd",
+"originalOrder": 11,
+"originalHeading": "Standard Limit: 1 minus Cosine",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation from formula",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 11,
+"heading": "Standard Limit: 1 minus Cosine",
+"back": "## Component Anatomy:\n- **$1 - \cos x$:** The numerator term.\n- **$x$:** The angle approaching $0$.\n\n## Boundary Conditions / Domain:\n- Angle $x$ must be strictly in radians.\n- Resolves a $0/0$ indeterminate form.",
+"formulaMeta": {
+"formula": "\lim_{x \to 0} \frac{1 - \cos x}{x} = 0",
+"description": "Standard limit formula evaluating (1 - cos x) divided by x as x approaches zero.",
+"derivation": "Derived using trigonometric identities and the sine limit."
+}
+}
+},
+{
+"cardId": "NEW_COSINE_LIMIT_PROOF",
+"originalOrder": 11,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 11"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 12,
+"heading": "Proof: 1 minus Cosine Standard Limit",
+"back": "- **Method 1 (Half-Angle):** Substitute the half-angle identity $1 - \cos x = 2 \sin^2(x/2)$. The expression becomes $\frac{2 \sin^2(x/2)}{x}$. Group as $\sin(x/2) \cdot \frac{\sin(x/2)}{x/2}$. As $x \to 0$, this evaluates to $0 \cdot 1 = 0$.\n- **Method 2 (Conjugate):** Multiply numerator and denominator by $(1 + \cos x)$. Numerator becomes $1 - \cos^2 x = \sin^2 x$. The expression is $\frac{\sin x}{x} \cdot \frac{\sin x}{1+\cos x}$. Evaluating yields $1 \cdot \frac{0}{2} = 0$.",
+"standardMeta": {
+"question": "What are the algebraic steps to prove the standard limit $\lim_{x \to 0} \frac{1 - \cos x}{x} = 0$?"
+}
+}
+},
+{
+"cardId": "5806a87d-99f6-46c1-924f-5c963815f02a",
+"originalOrder": 12,
+"originalHeading": "Standard Limit: Tangent Function",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation from formula",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 13,
+"heading": "Standard Limit: Tangent Function",
+"back": "## Component Anatomy:\n- **$\tan x$:** The trigonometric tangent function.\n- **$x$:** The angle variable approaching $0$.\n\n## Boundary Conditions / Domain:\n- Angle $x$ must be measured strictly in radians.",
+"formulaMeta": {
+"formula": "\lim_{x \to 0} \frac{\tan x}{x} = 1",
+"description": "Standard limit formula involving the tangent of an angle divided by the angle itself.",
+"derivation": "Derived via expanding tangent into sine and cosine."
+}
+}
+},
+{
+"cardId": "NEW_TANGENT_LIMIT_PROOF",
+"originalOrder": 12,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 12"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 14,
+"heading": "Proof: Tangent Function Standard Limit",
+"back": "- **Step 1:** Expand $\tan x$ into its ratio form: $\tan x = \frac{\sin x}{\cos x}$.\n- **Step 2:** Substitute into the limit: $\lim_{x \to 0} \left( \frac{\sin x}{x} \cdot \frac{1}{\cos x} \right)$.\n- **Step 3:** Apply the product rule for limits: $\lim_{x \to 0} \frac{\sin x}{x} \cdot \lim_{x \to 0} \frac{1}{\cos x}$.\n- **Step 4:** Evaluate directly: $1 \cdot \frac{1}{1} = 1$.",
+"standardMeta": {
+"question": "How do you mathematically derive the standard limit $\lim_{x \to 0} \frac{\tan x}{x} = 1$?"
+}
+}
+},
+{
+"cardId": "48ea77c7-0430-451c-811f-c66aeb80bd31",
+"originalOrder": 7,
+"originalHeading": "Standard Algebraic Limit Formula",
+"action": "SPLIT",
+"modificationsSummary": [
+"Reordered to follow trig limit proofs",
+"Split derivation to prevent cognitive bloat",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"limits",
+"algebra",
+"jee-main",
+"class-11"
+],
+"order": 15,
+"heading": "Standard Algebraic Limit Formula",
+"back": "## Component Anatomy:\n- **$n$:** The exponent of the variable and constant terms.\n- **$a$:** The limit approach point and constant base.\n\n## Boundary Conditions / Domain:\n- Valid for any **rational number** $n$.\n- Base $a$ must be strictly positive ($a > 0$).",
+"mnemonic": "Power down, subtract one (similar to the power rule of derivatives).",
+"formulaMeta": {
+"formula": "\lim_{x \to a} \frac{x^n - a^n}{x - a} = n a^{n-1}",
+"description": "Standard formula for the limit of (x^n - a^n) / (x - a) as x approaches a.",
+"derivation": "Proven using polynomial division for integers, generalized for rationals."
+}
+}
+},
+{
+"cardId": "NEW_ALGEBRAIC_LIMIT_PROOF",
+"originalOrder": 7,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 7"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"algebra",
+"jee-main",
+"class-11"
+],
+"order": 16,
+"heading": "Proof: Standard Algebraic Limit (Integer n)",
+"back": "- **Step 1:** Assume $n$ is a positive integer. Divide the numerator $(x^n - a^n)$ by the denominator $(x-a)$ using polynomial division.\n- **Step 2:** The result is exactly the finite expansion: $(x^{n-1} + x^{n-2}a + \dots + a^{n-1})$. There are exactly $n$ terms in this expansion.\n- **Step 3:** Apply the limit as $x \to a$. Every single term becomes $a^{n-1}$.\n- **Step 4:** Summing the $n$ terms yields the final result: $n \cdot a^{n-1}$.",
+"standardMeta": {
+"question": "What is the algebraic proof for the standard limit $\lim_{x \to a} \frac{x^n - a^n}{x - a} = n a^{n-1}$ when n is a positive integer?"
+}
+}
+},
+{
+"cardId": "28cc4365-357e-42b6-9d10-a0ee31827e07",
+"originalOrder": 26,
+"originalHeading": "Standard Algebraic Limit (Rational Powers Boundary)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to logically follow the algebraic limit formula",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"algebra",
+"jee-main",
+"class-11"
+],
+"order": 17,
+"heading": "Algebraic Limit: Rational Powers Domain",
+"back": "## Component Anatomy:\n- **$n$:** The exponent, which can be any rational number.\n- **$a$:** The limit approach point and constant base.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** If $n$ is a rational fraction (e.g., $1/2, 3/4$), then $a$ MUST be strictly positive ($a > 0$) to avoid evaluating roots of negative numbers, which produce non-real (complex) values.",
+"formulaMeta": {
+"formula": "\lim_{x \to a} \frac{x^n - a^n}{x - a} = n a^{n-1}",
+"description": "Standard algebraic limit formula boundary constraint when 'n' is a rational fraction.",
+"derivation": "Domain constraint to ensure real outputs."
+}
+}
+},
+{
+"cardId": "4a4d1c65-a1bd-4329-b9b5-f5eb81af65b5",
+"originalOrder": 6,
+"originalHeading": "Evaluating Indeterminate Rational Limits (0/0 Form SOP)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to begin algorithmic procedures section"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 18,
+"heading": "SOP: 0/0 Indeterminate Rational Limits",
+"back": "- **Step 1:** Plug in $x = a$. If it results in a finite value, that is the limit. If it results in the indeterminate form $0/0$, proceed.\n- **Step 2:** Factorize both the numerator polynomial $g(x)$ and denominator polynomial $h(x)$.\n- **Step 3:** Identify and mathematically cancel the common vanishing algebraic factor $(x - a)$.\n- **Step 4:** Substitute $x = a$ into the newly simplified rational function to find the true limit.",
+"mnemonic": "Factor, Cancel, Substitute.",
+"standardMeta": {
+"question": "What is the Standard Operating Procedure (SOP) to evaluate the limit of a rational function g(x)/h(x) if direct substitution yields the indeterminate form 0/0?"
+}
+}
+},
+{
+"cardId": "48dea43b-e69c-4b04-a732-3acec1a917e6",
+"originalOrder": 27,
+"originalHeading": "Rational Functions 0/0 Limit Analysis (k vs l Powers)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to follow the 0/0 SOP",
+"Changed classification to APPLICATION"
+],
+"vettingNotes": "Categorized as APPLICATION of the vanishing factor concept.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 19,
+"heading": "Rational Functions 0/0 Power Analysis",
+"back": "Given $g(x) = (x-a)^k \cdot g_1(x)$ and $h(x) = (x-a)^l \cdot h_1(x)$, evaluate based on powers of the vanishing factor $(x-a)$:\n- **Case 1: $k > l$** \n  The numerator has a strictly higher power. Limit strictly evaluates to **$0$**.\n- **Case 2: $k = l$** \n  The powers cancel perfectly. Limit evaluates to **$g_1(a) / h_1(a)$**.\n- **Case 3: $k < l$** \n  The denominator has a strictly higher power. Limit is strictly **Not Defined (Does Not Exist)**.",
+"mnemonic": "Top Heavy = Zero. Balanced = Number. Bottom Heavy = Undefined.",
+"standardMeta": {
+"question": "When evaluating the limit of a rational function g(x)/h(x) at x=a (0/0 form), what are the three mathematical outcomes based on the powers (k and l) of the common vanishing factor (x-a)?"
+}
+}
+},
+{
+"cardId": "89c9ad6d-fe32-4ead-a278-45cd854e2a9e",
+"originalOrder": 31,
+"originalHeading": "Double Rationalization SOP for 0/0 Limits",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered into the algebraic limit procedures section"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 20,
+"heading": "SOP: Double Rationalization for 0/0 Limits",
+"back": "- **Scenario:** A limit problem evaluating to $0/0$ where BOTH the numerator and denominator contain radical/square root terms.\n- **Step 1:** Identify the conjugate of the numerator expression.\n- **Step 2:** Identify the conjugate of the denominator expression.\n- **Step 3:** Multiply the entire fraction by *both* conjugates simultaneously (effectively multiplying by $1 \times 1$).\n- **Step 4:** Simplify using the difference of squares $(\sqrt{A} - \sqrt{B})(\sqrt{A} + \sqrt{B}) = A - B$ in both parts to expose and cancel the vanishing factor $(x-a)$.",
+"standardMeta": {
+"question": "What is the algebraic SOP to resolve an indeterminate 0/0 limit when both the numerator and denominator contain square root expressions?"
+}
+}
+},
+{
+"cardId": "79336a43-636a-46d7-87ea-d3a08d070198",
+"originalOrder": 13,
+"originalHeading": "SOP: Limits with Non-Matching Fractional Angles",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to follow algebraic limit procedures"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 21,
+"heading": "SOP: Non-Matching Trigonometric Arguments",
+"back": "- **Scenario:** Evaluating $\lim_{x \to 0} \frac{\sin(ax)}{x}$ where the argument $ax$ doesn't match the denominator $x$.\n- **Step 1:** Multiply both the numerator and the denominator by the scalar $a$ to perfectly match the denominator to the sine argument.\n- **Step 2:** Extract the scalar $a$ out of the limit: $a \cdot \lim_{ax \to 0} \frac{\sin(ax)}{ax}$.\n- **Step 3:** Apply the standard formula (which evaluates to $1$) to deduce the final answer is strictly $a$.",
+"mnemonic": "Match the bottom to the belly (the argument of sine).",
+"standardMeta": {
+"question": "What is the algorithmic SOP to evaluate trigonometric limits where the sine argument has a scalar multiple, such as evaluating the limit of sin(ax) / x ?"
+}
+}
+},
+{
+"cardId": "53c489a2-7ffb-44d5-b457-05bea81d92d9",
+"originalOrder": 28,
+"originalHeading": "Change of Variable / Shift of Origin SOP",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered with limit evaluation SOPs"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 22,
+"heading": "SOP: Limit Shift of Origin (Change of Variable)",
+"back": "- **Step 1:** Introduce a new variable $y$ representing the distance from the limit point: Let **$y = x - a$**.\n- **Step 2:** Note that as $x \to a$, the new variable strictly approaches zero: **$y \to 0$**.\n- **Step 3:** Substitute $x = a + y$ into the function $f(x)$.\n- **Step 4:** Evaluate the new limit $\lim_{y \to 0} f(a+y)$ using standard limits that require the variable to approach zero.",
+"mnemonic": "Shift the target to zero by replacing x with (a + y).",
+"standardMeta": {
+"question": "What is the algebraic Standard Operating Procedure (SOP) to evaluate trigonometric limits when 'x' approaches a non-zero value 'a' instead of 0?"
+}
+}
+},
+{
+"cardId": "c595fb1f-8c41-45b1-bd42-2c710ad42d38",
+"originalOrder": 29,
+"originalHeading": "Limits Involving the Modulus (Signum) Function",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to the end of limits section"
+],
+"vettingNotes": "Edge case highlighting LHL/RHL divergence.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 23,
+"heading": "Limits Involving the Modulus (Signum)",
+"back": "- **The Trap:** Attempting to directly substitute $x=0$ into $|x|/x$ gives an undefined $0/0$. Do NOT use L'Hôpital's rule here.\n- **Left-Hand Limit (LHL):** As $x \to 0^-$, $x$ is strictly negative, so $|x| = -x$. The function simplifies to $-x/x = -1$.\n- **Right-Hand Limit (RHL):** As $x \to 0^+$, $x$ is strictly positive, so $|x| = x$. The function simplifies to $x/x = 1$.\n- **Conclusion:** Since $\text{LHL} \neq \text{RHL}$ ($-1 \neq 1$), the limit **does not exist**.",
+"standardMeta": {
+"question": "How do you mathematically prove that the limit of |x|/x as x approaches 0 does not exist?"
+}
+}
+},
+{
+"cardId": "2544cfaf-5493-4069-a854-c585affeb979",
+"originalOrder": 30,
+"originalHeading": "Limits of the Greatest Integer Function (GIF) at Integers",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to the end of limits section"
+],
+"vettingNotes": "Edge case trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"calculus",
+"limits",
+"jee-main",
+"class-11"
+],
+"order": 24,
+"heading": "Limits of the Greatest Integer Function (GIF)",
+"back": "- **The Trap:** Students incorrectly assume $\lim_{x \to k} [x] = [k] = k$. This is strictly false at integer boundaries.\n- **Right-Hand Limit (RHL):** For $x \to k^+$ (just slightly larger than $k$), the greatest integer is strictly $k$.\n- **Left-Hand Limit (LHL):** For $x \to k^-$ (just slightly less than $k$), the greatest integer drops down to strictly $k-1$.\n- **Conclusion:** Because $k \neq k-1$, the limit of $[x]$ as $x$ approaches any exact integer **never exists**.",
+"mnemonic": "GIF breaks on the stairs (integers).",
+"standardMeta": {
+"question": "What is the boundary behavior and existence condition for the limit of a Greatest Integer Function [x] as x approaches an integer 'k'?"
+}
+}
+},
+{
+"cardId": "655f84e3-309a-4813-a5cc-c7323233ef8c",
+"originalOrder": 16,
+"originalHeading": "Geometric Interpretation of the Derivative",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to serve as the conceptual primer for the derivatives section",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "Bridges limits and derivatives.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 25,
+"heading": "Geometric Interpretation of the Derivative",
+"back": "- **Secant to Tangent:** The difference quotient $\frac{f(a+h) - f(a)}{h}$ represents the slope of a secant line connecting two points. As $h \to 0$, this secant strictly transforms into the tangent line.\n- **Geometrical Conclusion:** Therefore, the derivative $f'(a)$ geometrically represents the exact **slope of the tangent line** to the curve $y = f(x)$ at the specific point $(a, f(a))$.",
+"mnemonic": "Derivative = Slope of Tangent = Instantaneous Rate of Change.",
+"standardMeta": {
+"question": "What is the strict geometrical meaning of the derivative f'(a) on the curve y = f(x)?"
+}
+}
+},
+{
+"cardId": "c865fac2-7498-4fd0-b3e6-176ea364c845",
+"originalOrder": 14,
+"originalHeading": "Derivative at a Specific Point (First Principle)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping",
+"Reordered to logically follow geometric interpretation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 26,
+"heading": "Derivative at a Specific Point (First Principle)",
+"back": "## Component Anatomy:\n- **$f'(a)$:** The derivative (instantaneous rate of change) exactly at point $a$.\n- **$h$:** The infinitesimally small step size approaching $0$.\n- **$f(a+h) - f(a)$:** The change in the function value ($y_2 - y_1$).\n\n## Boundary Conditions / Domain:\n- The limit must exist and be a finite real number. If not, the function is non-differentiable at $x=a$.",
+"formulaMeta": {
+"formula": "f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}",
+"description": "First Principle definition formula used to calculate the derivative of a function f(x) exactly at a specific point x = a.",
+"derivation": "Evaluates the limit of the difference quotient as the interval shrinks to zero."
+}
+}
+},
+{
+"cardId": "4abe1ebe-ed20-472b-a739-f9fda6760865",
+"originalOrder": 15,
+"originalHeading": "Derivative as a General Function (First Principle)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 27,
+"heading": "Derivative as a General Function (First Principle)",
+"back": "## Component Anatomy:\n- **$f'(x)$:** The derived function representing the rate of change for any valid $x$.\n- **$h$:** The infinitesimal change in the independent variable.\n\n## Boundary Conditions / Domain:\n- Valid for all $x$ in the domain where the specified limit physically exists.",
+"formulaMeta": {
+"formula": "f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}",
+"description": "First Principle mathematical definition used to find the general derivative function f'(x) for any x.",
+"derivation": "This derives directly from computing the limit of the difference quotient (average rate of change) over an arbitrarily shrinking interval h across the valid domain."
+}
+}
+},
+{
+"cardId": "7519c1fa-59c8-445c-8bfe-57130c5b7601",
+"originalOrder": 17,
+"originalHeading": "Algebra of Derivatives: Sum and Difference Rules",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 28,
+"heading": "Algebra of Derivatives: Sum and Difference",
+"back": "## Component Anatomy:\n- **$u, v$:** Two differentiable functions of $x$.\n\n## Boundary Conditions / Domain:\n- Both functions $u(x)$ and $v(x)$ must be mathematically differentiable in the given domain.",
+"formulaMeta": {
+"formula": "\frac{d}{dx}[u(x) \pm v(x)] = \frac{d}{dx}[u(x)] \pm \frac{d}{dx}[v(x)]",
+"description": "Formula rules for calculating the derivative of the sum or difference of two functions.",
+"derivation": "Derived directly from applying the limit laws to the First Principle definition."
+}
+}
+},
+{
+"cardId": "c29c8036-13fe-4482-b77b-35ecf16277d6",
+"originalOrder": 18,
+"originalHeading": "Product Rule (Leibnitz Rule) for Derivatives",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 29,
+"heading": "Product Rule (Leibnitz Rule)",
+"back": "## Component Anatomy:\n- **$u$:** The first function.\n- **$v$:** The second function.\n- **$u', v'$:** Their respective derivatives.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** $(uv)'$ is strictly NOT equal to $u'v'$. The multiplicative derivative interaction is additive in components.",
+"mnemonic": "First times derivative of second, PLUS second times derivative of first.",
+"formulaMeta": {
+"formula": "\frac{d}{dx}[u(x)v(x)] = u(x)v'(x) + v(x)u'(x)",
+"description": "Leibnitz Product Rule formula used for differentiating the multiplication of two functions.",
+"derivation": "Derived using the First Principle by adding and subtracting an intermediate term in the numerator."
+}
+}
+},
+{
+"cardId": "13c53d7e-adfe-44de-83e9-fc5d24effb35",
+"originalOrder": 19,
+"originalHeading": "Quotient Rule for Derivatives",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 30,
+"heading": "Quotient Rule for Derivatives",
+"back": "## Component Anatomy:\n- **$u$:** The numerator function.\n- **$v$:** The denominator function.\n- **$u', v'$:** Their respective derivatives.\n\n## Boundary Conditions / Domain:\n- The denominator function MUST NOT be zero: $v(x) \neq 0$.\n- Order matters strictly due to the subtraction sign in the numerator.",
+"mnemonic": "Low D-High minus High D-Low, over the square of what's below.",
+"formulaMeta": {
+"formula": "\frac{d}{dx} \left[ \frac{u(x)}{v(x)} \right] = \frac{v(x)u'(x) - u(x)v'(x)}{[v(x)]^2}",
+"description": "Quotient Rule formula used to differentiate the division of two functions.",
+"derivation": "Derived from the First Principle by finding a common denominator in the limit expression."
+}
+}
+},
+{
+"cardId": "3852cc3b-fc7e-4f26-b431-95c5fe837b7d",
+"originalOrder": 20,
+"originalHeading": "Power Rule for Derivatives",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation using Binomial Theorem to prevent cognitive bloat",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "Proof chunked into a separate card.",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 31,
+"heading": "Power Rule for Derivatives",
+"back": "## Component Anatomy:\n- **$n$:** The power or exponent of the variable $x$.\n- **$x$:** The base variable.\n\n## Boundary Conditions / Domain:\n- Valid for any real number $n$ (including positive, negative, and fractional exponents).",
+"mnemonic": "Bring the power down to the front, subtract one from the power.",
+"formulaMeta": {
+"formula": "\frac{d}{dx}(x^n) = n x^{n-1}",
+"description": "Standard Power Rule formula for differentiating x raised to the power of n.",
+"derivation": "Derived via the First Principle and Binomial expansion."
+}
+}
+},
+{
+"cardId": "NEW_POWER_RULE_PROOF",
+"originalOrder": 20,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 20"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 32,
+"heading": "Proof: Power Rule via First Principle",
+"back": "- **Step 1:** Use the First Principle limit: $\lim_{h \to 0} \frac{(x+h)^n - x^n}{h}$.\n- **Step 2:** Expand $(x+h)^n$ via the Binomial Theorem to yield $x^n + nx^{n-1}h + \dots$\n- **Step 3:** Subtract the initial $x^n$, which cancels out.\n- **Step 4:** Divide the remaining terms by $h$ and apply the limit $h \to 0$. All higher-order terms vanish, isolating strictly $nx^{n-1}$.",
+"standardMeta": {
+"question": "What is the algorithmic proof for the Power Rule of derivatives using the First Principle and Binomial Theorem?"
+}
+}
+},
+{
+"cardId": "e0fcfcdd-2dfd-45d3-989d-4f92d3b97e9a",
+"originalOrder": 21,
+"originalHeading": "Polynomial Differentiation SOP",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"jee-main",
+"class-11"
+],
+"order": 33,
+"heading": "SOP: Polynomial Differentiation",
+"back": "- **Step 1:** Isolate each term of the polynomial $f(x) = a_n x^n + \dots + a_1 x + a_0$.\n- **Step 2:** Apply the Scalar rule (keep coefficients $a_i$).\n- **Step 3:** Apply the Power rule ($x^n \to nx^{n-1}$) to each variable term.\n- **Step 4:** The derivative of the bare constant term $a_0$ becomes strictly $0$.\n- **Result:** $f'(x) = n a_n x^{n-1} + (n-1) a_{n-1} x^{n-2} + \dots + a_1$.",
+"standardMeta": {
+"question": "What is the algorithmic SOP to differentiate an entire standard polynomial function term-by-term?"
+}
+}
+},
+{
+"cardId": "05bb5c95-efbc-4ac1-bb32-7c99700f9c36",
+"originalOrder": 22,
+"originalHeading": "Derivative of Sine Function",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation to avoid bloat",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 34,
+"heading": "Derivative of Sine Function",
+"back": "## Component Anatomy:\n- **$\sin x$:** The trigonometric function being differentiated.\n- **$\cos x$:** The resulting trigonometric rate of change.\n\n## Boundary Conditions / Domain:\n- Angle $x$ must strictly be measured in radians.",
+"formulaMeta": {
+"formula": "\frac{d}{dx}(\sin x) = \cos x",
+"description": "Standard formula for the derivative of the sine function.",
+"derivation": "Derived via the First Principle and sum-to-product trigonometric identities."
+}
+}
+},
+{
+"cardId": "NEW_SINE_DERIVATIVE_PROOF",
+"originalOrder": 22,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 22"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 35,
+"heading": "Proof: Sine Derivative via First Principle",
+"back": "- **Step 1:** Set up the first principle definition: $\lim_{h \to 0} \frac{\sin(x+h) - \sin x}{h}$.\n- **Step 2:** Apply the sum-to-product trigonometric formula to get $\lim_{h \to 0} \frac{2 \cos(x + \frac{h}{2}) \sin(\frac{h}{2})}{h}$.\n- **Step 3:** Rearrange to isolate the standard limit: $\lim_{h \to 0} \cos(x + \frac{h}{2}) \cdot \frac{\sin(h/2)}{h/2}$.\n- **Step 4:** Evaluate the limit to yield strictly $\cos x \cdot 1 = \cos x$.",
+"standardMeta": {
+"question": "What is the step-by-step derivation for the derivative of the sine function using the First Principle?"
+}
+}
+},
+{
+"cardId": "20aa424a-2135-4f33-aa60-a957ff1d31dd",
+"originalOrder": 23,
+"originalHeading": "Derivative of Cosine Function",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 36,
+"heading": "Derivative of Cosine Function",
+"back": "## Component Anatomy:\n- **$\cos x$:** The trigonometric function.\n- **$-\sin x$:** The resulting derivative.\n\n## Boundary Conditions / Domain:\n- $x$ must be measured in radians.\n- **TRAP:** Do not forget the negative sign. Trigonometric functions starting with 'C' (Cos, Cot, Csc) yield strictly negative derivatives.",
+"mnemonic": "Derivatives of 'C' functions are always negative.",
+"formulaMeta": {
+"formula": "\frac{d}{dx}(\cos x) = -\sin x",
+"description": "Standard formula for the derivative of the cosine function.",
+"derivation": "Derived via the First Principle similarly to sine."
+}
+}
+},
+{
+"cardId": "32631ceb-4b28-45ae-9b11-7d65e8b5fe1b",
+"originalOrder": 24,
+"originalHeading": "Derivative of Tangent Function",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split derivation using Quotient Rule to prevent bloat",
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 37,
+"heading": "Derivative of Tangent Function",
+"back": "## Component Anatomy:\n- **$\tan x$:** The tangent function.\n- **$\sec^2 x$:** The resultant derivative.\n\n## Boundary Conditions / Domain:\n- Function is strictly not differentiable at odd multiples of $\pi/2$ (e.g., $x \neq (2n+1)\frac{\pi}{2}$).",
+"formulaMeta": {
+"formula": "\frac{d}{dx}(\tan x) = \sec^2 x",
+"description": "Standard formula for the derivative of the tangent function.",
+"derivation": "Derived via the Quotient Rule applied to sine over cosine."
+}
+}
+},
+{
+"cardId": "NEW_TANGENT_DERIVATIVE_PROOF",
+"originalOrder": 24,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Extracted derivation from Card 24"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 38,
+"heading": "Proof: Tangent Derivative via Quotient Rule",
+"back": "- **Step 1:** Express $\tan x$ as $\frac{\sin x}{\cos x}$.\n- **Step 2:** Apply the Quotient Rule: $\frac{\cos x (\cos x) - \sin x (-\sin x)}{\cos^2 x}$.\n- **Step 3:** Simplify the numerator to $\cos^2 x + \sin^2 x$, which equals $1$ via the Pythagorean identity.\n- **Step 4:** The expression simplifies strictly to $\frac{1}{\cos^2 x}$, which is equivalent to $\sec^2 x$.",
+"standardMeta": {
+"question": "What is the algebraic proof using the Quotient Rule to derive the derivative of the tangent function?"
+}
+}
+},
+{
+"cardId": "ab70a34c-4331-4cde-95b9-9dea5abe0d95",
+"originalOrder": 25,
+"originalHeading": "Derivative of Cotangent, Secant, and Cosecant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX double escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"calculus",
+"derivatives",
+"trigonometry",
+"jee-main",
+"class-11"
+],
+"order": 39,
+"heading": "Derivatives: Cotangent, Secant, Cosecant",
+"back": "## Component Anatomy:\n- **$\cot x \to -\csc^2 x$**\n- **$\sec x \to \sec x \tan x$**\n- **$\csc x \to -\csc x \cot x$**\n\n## Boundary Conditions / Domain:\n- Follows the 'C' rule: $\cot$ and $\csc$ derivatives strictly generate negative signs.",
+"mnemonic": "C-functions (Cot, Csc, Cos) produce strictly negative derivatives.",
+"formulaMeta": {
+"formula": "\begin{aligned} \frac{d}{dx}(\cot x) &= -\csc^2 x \\ \frac{d}{dx}(\sec x) &= \sec x \tan x \\ \frac{d}{dx}(\csc x) &= -\csc x \cot x \end{aligned}",
+"description": "Standard derivative formulas for the trigonometric functions: cot(x), sec(x), and csc(x).",
+"derivation": "Derived via applying the Quotient Rule to their respective reciprocal forms."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

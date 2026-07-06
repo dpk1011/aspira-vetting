@@ -1,0 +1,669 @@
+{
+"deckId": "360150b4-4ee0-4445-bdcb-25a90a83dc6b",
+"cards": [
+{
+"cardId": "a80aa746-a375-4c9d-96a9-9dd7f9fda02c",
+"originalOrder": 1,
+"originalHeading": "Class Mark of Grouped Data",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Updated tags"],
+"vettingNotes": "Formatting aligned with double-escape requirements.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 1,
+"heading": "Class Mark ($x_i$) of Grouped Data",
+"back": "## Component Anatomy:\n- **Upper Limit:** The maximum boundary of the specific continuous class interval.\n- **Lower Limit:** The minimum boundary of the specific continuous class interval.\n\n## Boundary Conditions / Domain:\n- Mandatory first step for calculating the mean of grouped frequency distributions. Assumes the frequency of a class is perfectly centered at its mid-point.\n- Class intervals must be continuous before calculation if not already.",
+"mnemonic": "Average the boundaries",
+"formulaMeta": {
+"formula": "x_i = \frac{\text{Upper Limit} + \text{Lower Limit}}{2}",
+"description": "Calculates the class mark (mid-point) for a given class interval.",
+"derivation": "This represents the exact mid-point of the class interval, acting as the mathematical representative $x_i$ for all observations falling within that class."
+}
+}
+},
+{
+"cardId": "b8b5d0d3-e27f-434a-8852-16522765a943",
+"originalOrder": 2,
+"originalHeading": "Mean: Direct Method",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Converted from MEMORY to PROCEDURAL to reflect the algorithmic nature of the derivation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 2,
+"heading": "Mean of Grouped Data: Direct Method",
+"back": "## Component Anatomy:\n- **$\bar{x}$:** The arithmetic mean.\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$x_i$:** The class mark (mid-point) of the $i^{th}$ class.\n- **$\sum f_i$:** Total number of observations ($N$).\n\n## Boundary Conditions / Domain:\n- Best applied strictly when the numerical values of $f_i$ and $x_i$ are small, making direct multiplication computationally easy.\n- $\sum f_i > 0$ (Total frequency must be greater than zero).",
+"formulaMeta": {
+"formula": "\bar{x} = \frac{\sum f_i x_i}{\sum f_i}",
+"description": "Calculates the Mean of grouped data using direct multiplication of frequencies and class marks.",
+"derivation": "**Algorithmic SOP:**\n1. Calculate the class mark $x_i$ for each interval.\n2. Multiply each $x_i$ by its corresponding frequency $f_i$.\n3. Sum all the products ($\sum f_i x_i$).\n4. Divide by the total frequency ($\sum f_i$)."
+}
+}
+},
+{
+"cardId": "fe709875-4ee8-474c-8506-11112ef279aa",
+"originalOrder": 4,
+"originalHeading": "Deviation in Assumed Mean Method",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order for logical cognitive flow", "Double-escaped KaTeX"],
+"vettingNotes": "Placed before Assumed Mean Method to introduce the deviation variable first.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 3,
+"heading": "Algebraic Deviation ($d_i$) in Assumed Mean Method",
+"back": "## Component Anatomy:\n- **$d_i$:** Deviation of the specific class mark from the assumed mean.\n- **$x_i$:** Class mark (mid-point) of the interval.\n- **$a$:** Assumed Mean (an arbitrarily chosen central class mark).\n\n## Boundary Conditions / Domain:\n- Will yield $0$ exactly for the class containing the assumed mean $a$.\n- Will yield strictly negative values for classes below $a$ and positive for classes above $a$.",
+"mnemonic": "Data minus Assumed",
+"formulaMeta": {
+"formula": "d_i = x_i - a",
+"description": "Defines the algebraic deviation $d_i$ used to simplify calculations in the Assumed Mean Method.",
+"derivation": "Simplifies variance of large class marks by shifting the origin to a central assumed mean '$a$'."
+}
+}
+},
+{
+"cardId": "a6a4c26a-2c1f-45c4-b5db-dcf187aa8c9c",
+"originalOrder": 3,
+"originalHeading": "Mean: Assumed Mean Method",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Updated order", "Double-escaped KaTeX"],
+"vettingNotes": "Moved after deviation definition. Converted to PROCEDURAL.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 4,
+"heading": "Mean of Grouped Data: Assumed Mean Method",
+"back": "## Component Anatomy:\n- **$a$:** The Assumed Mean (usually chosen as a central $x_i$).\n- **$d_i$:** The deviation of the $i^{th}$ class mark ($x_i - a$).\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$\sum f_i$:** Total frequency.\n\n## Boundary Conditions / Domain:\n- Highly recommended when the values of $x_i$ or $f_i$ are numerically large.\n- $\sum f_i > 0$.",
+"formulaMeta": {
+"formula": "\bar{x} = a + \frac{\sum f_i d_i}{\sum f_i}",
+"description": "Master formula for calculating the Mean using shifted origin via Assumed Mean.",
+"derivation": "**Algorithmic SOP:**\n1. Find class marks ($x_i$).\n2. Select a central $x_i$ to act as the Assumed Mean ($a$).\n3. Calculate deviations $d_i = x_i - a$ for each class.\n4. Multiply $f_i \times d_i$ and sum them.\n5. Divide by $\sum f_i$ and strictly add back the assumed mean $a$."
+}
+}
+},
+{
+"cardId": "6bfbdb85-be0d-4549-a9a3-52186a9a658f",
+"originalOrder": 7,
+"originalHeading": "Independence of Assumed Mean 'a'",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 5,
+"heading": "Independence of Assumed Mean '$a$'",
+"back": "- **Fact:** The final calculated Mean ($\bar{x}$) is strictly **independent** of the choice of the Assumed Mean '$a$'. \n- **Significance:** While choosing the central $x_i$ minimizes calculations, choosing ANY $x_i$ (or even a number not in the dataset) as '$a$' will yield the exact same final arithmetic mean.",
+"standardMeta": {
+"question": "How does the choice of the Assumed Mean '$a$' affect the final calculated value of the arithmetic mean?"
+}
+}
+},
+{
+"cardId": "f50a8e26-fcef-4444-98fb-85872300253c",
+"originalOrder": 25,
+"originalHeading": "Assumed Mean Mid-Point Fallacy",
+"action": "MODIFIED",
+"modificationsSummary": ["Moved forward to align with Assumed Mean concepts"],
+"vettingNotes": "Addresses common cognitive trap immediately after introducing 'a'.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 6,
+"heading": "Assumed Mean Mid-Point Fallacy",
+"back": "- **Fallacy:** Students often believe the Assumed Mean '$a$' MUST strictly be chosen as the exact middle class mark of the table.\n- **Correction:** While picking the central value simplifies mental math by balancing positive and negative deviations, '$a$' can technically be chosen as **any class mark**, or even any real number. The formula mathematically compensates and will return the exact same $\bar{x}$.",
+"standardMeta": {
+"question": "Is it a strict mathematical requirement that the Assumed Mean '$a$' must be the exact central mid-point of the given classes?"
+}
+}
+},
+{
+"cardId": "7714594f-8fd0-4524-81cb-b8db991a2e11",
+"originalOrder": 6,
+"originalHeading": "Step Deviation Variable (u_i)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 7,
+"heading": "Step Deviation Parameter ($u_i$)",
+"back": "## Component Anatomy:\n- **$u_i$:** The scaled step-deviation.\n- **$x_i$:** Class mark.\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or any chosen common divisor of the deviations $d_i$).\n\n## Boundary Conditions / Domain:\n- $h \neq 0$ (Divisor cannot be zero).",
+"formulaMeta": {
+"formula": "u_i = \frac{x_i - a}{h} = \frac{d_i}{h}",
+"description": "Calculates the step-deviation parameter to further scale down large values.",
+"derivation": "By dividing the deviation $d_i$ by a common factor $h$, the variance in class marks is transformed into small, manageable integers."
+}
+}
+},
+{
+"cardId": "d1f4d967-277e-417f-b675-be7204d850d0",
+"originalOrder": 5,
+"originalHeading": "Mean: Step-Deviation Method",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 8,
+"heading": "Mean of Grouped Data: Step-Deviation Method",
+"back": "## Component Anatomy:\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or common divisor of deviations).\n- **$u_i$:** Step deviation ($u_i = \frac{x_i - a}{h}$).\n- **$f_i$:** Frequency.\n\n## Boundary Conditions / Domain:\n- Most efficient when the deviations $d_i$ have a large common factor.\n- $\sum f_i > 0$ and $h \neq 0$.",
+"formulaMeta": {
+"formula": "\bar{x} = a + \left( \frac{\sum f_i u_i}{\sum f_i} \right) \times h",
+"description": "Master formula for calculating the Mean using scaled step-deviations.",
+"derivation": "**Algorithmic SOP:**\n1. Find $x_i$, choose $a$.\n2. Calculate $u_i = \frac{x_i - a}{h}$. For uniform class sizes, these will simply be integers centered at $a$.\n3. Multiply $f_i \times u_i$ and sum.\n4. Divide by total frequency, multiply the result strictly by $h$, then add $a$."
+}
+}
+},
+{
+"cardId": "34e39f52-a92d-4cd6-b75a-77ebd29aff2c",
+"originalOrder": 27,
+"originalHeading": "Step-Deviation Method: Unequal Class Sizes",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 9,
+"heading": "Step-Deviation Boundary: Unequal Class Sizes",
+"back": "- **Fact:** Yes, it can still be strictly applied.\n- **Obscure Boundary Condition:** In cases of unequal class sizes, the variable '$h$' does **NOT** strictly represent the physical class width. Instead, '$h$' must be chosen as any **suitable common divisor** of all the individual calculated deviations ($d_i$).",
+"mnemonic": "h is a Helper divisor, not just Height.",
+"standardMeta": {
+"question": "Can the Step-Deviation method for calculating mean be applied to a frequency distribution that has unequal class sizes? If so, how is the parameter '$h$' defined?"
+}
+}
+},
+{
+"cardId": "74803cce-3734-472d-886f-772ee592cebb",
+"originalOrder": 32,
+"originalHeading": "Algorithmic Equivalence of Mean Methods",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 10,
+"heading": "Algorithmic Equivalence of Mean Methods",
+"back": "- **Fact:** No. The mean obtained by all three methods is **strictly and identically equal**.\n- **Concept:** The Assumed Mean and Step-Deviation methods are mathematically NOT new statistical algorithms. They are simply **simplified algebraic forms** of the Direct method, designed specifically to scale down large numbers temporarily to prevent manual arithmetic multiplication errors.",
+"standardMeta": {
+"question": "Do the Direct Method, Assumed Mean Method, and Step-Deviation Method represent fundamentally different statistical calculations that might yield slightly different means for the same dataset?"
+}
+}
+},
+{
+"cardId": "9c4336ed-d879-4c2e-acab-07245bd4c8f6",
+"originalOrder": 8,
+"originalHeading": "Sum of Deviations from the True Mean",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 11,
+"heading": "Sum of Deviations from the True Mean",
+"back": "## Component Anatomy:\n- **$f_i$:** Frequency.\n- **$x_i$:** Class Mark.\n- **$\bar{x}$:** The exact Arithmetic Mean of the dataset.\n\n## Boundary Conditions / Domain:\n- This identity strictly holds only when measuring deviation from the exact arithmetic mean $\bar{x}$, not an assumed mean $a$.",
+"formulaMeta": {
+"formula": "\sum f_i (x_i - \bar{x}) = 0",
+"description": "The algebraic sum of the deviations of all observations from their true arithmetic mean is always exactly zero.",
+"derivation": "**Proof:**\n1. $\sum f_i (x_i - \bar{x}) = \sum f_i x_i - \sum f_i \bar{x}$\n2. Since $\bar{x} = \frac{\sum f_i x_i}{n}$, we know $\sum f_i x_i = n \bar{x}$.\n3. And $\sum f_i \bar{x} = \bar{x} \sum f_i = n \bar{x}$.\n4. Therefore, $n \bar{x} - n \bar{x} = 0$."
+}
+}
+},
+{
+"cardId": "945eb23e-84f7-4afd-9b54-993e3d087d21",
+"originalOrder": 31,
+"originalHeading": "Mean of First 'n' Natural Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "sequences"],
+"order": 12,
+"heading": "Mean of First '$n$' Natural Numbers",
+"back": "## Component Anatomy:\n- **$\bar{x}$:** The arithmetic mean.\n- **$n$:** The total count of consecutive natural numbers starting strictly from $1$.\n\n## Boundary Conditions / Domain:\n- $n$ must be a strict positive integer ($n \in \mathbb{Z}^+$).\n- The sequence must strictly start at $1$.",
+"formulaMeta": {
+"formula": "\bar{x} = \frac{n+1}{2}",
+"description": "Algebraic shortcut formula for the arithmetic mean of the first $n$ natural numbers.",
+"derivation": "**Algorithmic Proof:**\n1. The sum of the first $n$ natural numbers ($1 + 2 + 3 + \dots + n$) is mathematically defined as $S_n = \frac{n(n+1)}{2}$.\n2. The total number of observations is strictly $n$.\n3. $\text{Mean} = \frac{\text{Sum of Observations}}{\text{Total Count}} = \frac{\frac{n(n+1)}{2}}{n}$.\n4. The $n$ in the numerator and denominator cancel out, leaving strictly $\frac{n+1}{2}$."
+}
+}
+},
+{
+"cardId": "5e63ad80-545b-454f-a20c-985d63b6bbf9",
+"originalOrder": 9,
+"originalHeading": "Modal Class",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 13,
+"heading": "Modal Class Identification",
+"back": "- **Definition:** In a grouped frequency distribution, the Modal Class is strictly defined as the continuous class interval having the **maximum frequency**.\n- **Significance:** The mode of the data is guaranteed to lie within the mathematical boundaries of this specific class.",
+"standardMeta": {
+"question": "How do you systematically identify the 'Modal Class' in a grouped frequency distribution?"
+}
+}
+},
+{
+"cardId": "967c5057-ef3d-4b3f-b24e-38d1a4256211",
+"originalOrder": 10,
+"originalHeading": "Mode of Grouped Data",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Converted MEMORY to PROCEDURAL.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 14,
+"heading": "Mode Formula for Grouped Data",
+"back": "## Component Anatomy:\n- **$l$:** Lower limit of the modal class.\n- **$h$:** Size of the continuous class interval.\n- **$f_1$:** Frequency of the modal class.\n- **$f_0$:** Frequency of the class immediately preceding the modal class.\n- **$f_2$:** Frequency of the class immediately succeeding the modal class.\n\n## Boundary Conditions / Domain:\n- The class intervals MUST be continuous. If they are discontinuous, they must strictly be converted first.\n- The distribution must be unimodal.",
+"formulaMeta": {
+"formula": "\text{Mode} = l + \left( \frac{f_1 - f_0}{2f_1 - f_0 - f_2} \right) \times h",
+"description": "Master formula for interpolating the Mode within the modal class of grouped data.",
+"derivation": "**Algorithmic SOP:**\n1. Locate the class with the highest frequency ($f_1$). This is the Modal Class.\n2. Identify $l$ (lower limit) and $h$ (class width).\n3. Identify $f_0$ (frequency of class above it) and $f_2$ (frequency of class below it).\n4. Plug into the formula. The fraction dynamically adjusts the position of the mode inside the modal class based on the pull of adjacent frequencies."
+}
+}
+},
+{
+"cardId": "305c951e-2778-4cf6-860e-fafbe3b0a844",
+"originalOrder": 11,
+"originalHeading": "Anatomy of Mode Frequencies (f_0, f_1, f_2)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 15,
+"heading": "Anatomy of Mode Frequencies ($f_0, f_1, f_2$)",
+"back": "- **$f_1$:** The **Champion** (Maximum Frequency, belongs to the Modal Class).\n- **$f_0$:** The **Predecessor** (Frequency of the class immediately BEFORE the modal class. Think $0$ comes before $1$).\n- **$f_2$:** The **Successor** (Frequency of the class immediately AFTER the modal class. Think $2$ comes after $1$).\n- **Edge Case / Boundary Condition:** If the modal class is the very first class in the table, $f_0 = 0$. If it is the very last class, $f_2 = 0$.",
+"mnemonic": "0 is before, 1 is the winner, 2 is after",
+"standardMeta": {
+"question": "In the mode formula, clearly distinguish the specific meanings of the frequency variables $f_0$, $f_1$, and $f_2$, and state their edge cases."
+}
+}
+},
+{
+"cardId": "14681168-80e1-4e8a-8c37-76f014b3583a",
+"originalOrder": 28,
+"originalHeading": "Syllabus Boundary: Unimodal Constraint for Grouped Mode",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to APPLICATION"],
+"vettingNotes": "Shifted to logically follow the Mode formula and variables.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 16,
+"heading": "Domain Restriction: Unimodal Constraint for Grouped Mode",
+"back": "- **Strict Boundary Condition:** The standard grouped mode formula strictly applies ONLY to **unimodal** distributions.\n- **Significance:** If the frequency table has two or more distinct class intervals sharing the exact same maximum frequency (multimodal data), this specific formula fails mathematically and cannot be used directly to interpolate the mode.",
+"standardMeta": {
+"question": "What is the strict boundary condition regarding the distribution type when applying the standard high school formula for the Mode of grouped data?"
+}
+}
+},
+{
+"cardId": "a8cd23c4-a7d6-48ad-8e86-28afc6deecbb",
+"originalOrder": 12,
+"originalHeading": "Converting Discontinuous Classes to Continuous",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 17,
+"heading": "SOP: Converting Discontinuous Classes",
+"back": "## Component Anatomy:\n- **Discontinuous Limits:** e.g., $118-126$ followed by $127-135$.\n- **Gap:** Difference between the lower limit of a class and the upper limit of the preceding class (e.g., $127 - 126 = 1$).\n- **Adjustment Factor:** $\frac{\text{Gap}}{2}$ (usually $0.5$).\n\n## Boundary Conditions / Domain:\n- **MANDATORY** before calculating Median or Mode to preserve continuous mapping.\n- NOT technically required for Mean (as class marks mathematically remain unchanged).",
+"mnemonic": "Subtract half below, add half above",
+"formulaMeta": {
+"formula": "\begin{aligned} \text{New Lower Limit} &= \text{Old Lower Limit} - 0.5 \\ \text{New Upper Limit} &= \text{Old Upper Limit} + 0.5 \end{aligned}",
+"description": "Standard algorithmic procedure (SOP) to convert discontinuous class intervals into continuous bounds.",
+"derivation": "**Algorithmic SOP:**\n1. Identify the gap between consecutive classes (e.g., $1$).\n2. Divide the gap by 2 (e.g., $0.5$).\n3. Strictly subtract $0.5$ from every Lower Limit.\n4. Strictly add $0.5$ to every Upper Limit.\n5. Classes are now continuous (e.g., $117.5-126.5$, $126.5-135.5$)."
+}
+}
+},
+{
+"cardId": "7107a864-997d-47b3-b314-7147639e7beb",
+"originalOrder": 13,
+"originalHeading": "Cumulative Frequency (Less Than Type)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 18,
+"heading": "Cumulative Frequency (Less Than Type)",
+"back": "- **Definition:** The frequency obtained by adding the frequencies of all classes preceding the given class to the frequency of that class itself.\n- **Data Meaning:** Represents the total number of observations strictly **less than the upper boundary** of a given class interval.\n- **Graphing (Ogive):** Always plotted against the **Upper Class Limits**.",
+"standardMeta": {
+"question": "What is the statistical definition of a 'Less Than' type Cumulative Frequency, and which specific class boundary does it relate to?"
+}
+}
+},
+{
+"cardId": "9f51f0d7-502f-42f8-b733-0037eb3d7ee5",
+"originalOrder": 14,
+"originalHeading": "Cumulative Frequency (More Than Type)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 19,
+"heading": "Cumulative Frequency (More Than Type)",
+"back": "- **Definition:** Represents the total number of observations strictly **greater than or equal to the lower boundary** of a given class interval.\n- **Calculation:** Starts with the total frequency $N$ for the first class, and successively subtracts the frequency of each class moving downwards.\n- **Graphing (Ogive):** Always plotted against the **Lower Class Limits**.",
+"standardMeta": {
+"question": "What is the statistical definition of a 'More Than' type Cumulative Frequency, and which specific class boundary does it relate to?"
+}
+}
+},
+{
+"cardId": "25b9ead9-20d1-4512-9eac-c4cb16358042",
+"originalOrder": 15,
+"originalHeading": "Identifying the Median Class",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 20,
+"heading": "SOP: Identifying the Median Class",
+"back": "- **SOP:**\n  1. Calculate the total frequency $N = \sum f_i$.\n  2. Compute the exact value of $\frac{N}{2}$.\n  3. Construct a Cumulative Frequency ($cf$) column (strictly 'less than' type).\n  4. Locate the specific class whose cumulative frequency is **strictly greater than and nearest to** $\frac{N}{2}$.\n- **Conclusion:** This specific continuous class is mathematically designated as the **Median Class**.",
+"standardMeta": {
+"question": "What is the step-by-step procedure to identify the 'Median Class' in a grouped frequency distribution?"
+}
+}
+},
+{
+"cardId": "1d7296d2-1607-4c56-aa9c-78b1a44fdb81",
+"originalOrder": 16,
+"originalHeading": "Median of Grouped Data",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 21,
+"heading": "Median Formula for Grouped Data",
+"back": "## Component Anatomy:\n- **$l$:** Lower limit of the median class.\n- **$N$:** Total number of observations ($\sum f_i$).\n- **$cf$:** Cumulative frequency of the class strictly **PRECEDING** the median class.\n- **$f$:** Frequency of the median class itself.\n- **$h$:** Class size.\n\n## Boundary Conditions / Domain:\n- Class intervals MUST be mathematically continuous.\n- The distribution is assumed to be uniform within the median class.",
+"formulaMeta": {
+"formula": "\text{Median} = l + \left( \frac{\frac{N}{2} - cf}{f} \right) \times h",
+"description": "Master formula for interpolating the exact Median within the bounds of the median class.",
+"derivation": "**Algorithmic SOP:**\n1. Convert to continuous classes if needed.\n2. Create a Cumulative Frequency column.\n3. Find $\frac{N}{2}$ and identify the Median Class.\n4. Extract $l, h, f$ from the median class.\n5. CAREFUL: Extract $cf$ from the row directly ABOVE the median class.\n6. Compute the formula."
+}
+}
+},
+{
+"cardId": "9bc22a28-5eeb-4a71-a777-375a84f5bedc",
+"originalOrder": 17,
+"originalHeading": "The 'cf' Trap in the Median Formula",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 22,
+"heading": "The '$cf$' Cognitive Trap in the Median Formula",
+"back": "- **Trap:** Students frequently substitute the cumulative frequency of the median class itself into the $cf$ variable.\n- **Correction:** The $cf$ in the standard Median formula strictly stands for the cumulative frequency of the class **immediately preceding (before)** the median class.\n- **Why?** It represents all data points accumulated *before* entering the median class interval, allowing the formula to interpolate strictly within the remaining $\frac{N}{2} - cf$ elements.",
+"mnemonic": "cf looks backward, f looks present",
+"standardMeta": {
+"question": "What is the most common cognitive trap regarding the '$cf$' variable when applying the Median formula for grouped data?"
+}
+}
+},
+{
+"cardId": "06f9a14d-4c9e-4524-96af-7d5fd346904f",
+"originalOrder": 26,
+"originalHeading": "Discrepancy Between Ungrouped and Grouped Median",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 23,
+"heading": "Discrepancy: Ungrouped vs. Grouped Median",
+"back": "- **Fact:** No, they are frequently **different**.\n- **Reasoning:** The grouped data median formula is an approximation. It mathematically relies on the strict assumption that all observations falling within the median class interval are **uniformly distributed** (equally spaced). Raw ungrouped data rarely perfectly follows this idealized uniform distribution.",
+"standardMeta": {
+"question": "Is the median calculated from raw ungrouped data always perfectly identical to the median calculated after grouping that exact same data into class intervals?"
+}
+}
+},
+{
+"cardId": "6cf77c9d-494b-4b32-a99b-0885ecbae84c",
+"originalOrder": 30,
+"originalHeading": "SOP: Two Missing Frequencies Given Median",
+"action": "SPLIT",
+"modificationsSummary": ["Split massive SOP into two parts for cognitive load reduction"],
+"vettingNotes": "Split into Part 1 (System Setup) and Part 2 (Median Class & Substitution) to reduce cognitive bloat.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "equations"],
+"order": 24,
+"heading": "SOP Part 1: System Setup for Two Missing Frequencies",
+"back": "- **Context:** You are given the overall Median, the Total Frequency ($N$), and a table with two missing frequencies ($f_1, f_2$).\n- **Step 1 (Linear Equation 1):** Sum all given frequencies plus the unknown variables ($f_1, f_2$) and equate to the given Total Frequency $N$. \n- **Simplification:** Simplify this directly into a linear equation of the form $f_1 + f_2 = k$.\n- **Boundary Condition:** A system of two independent linear equations is strictly required to solve for two variables. This provides the first equation.",
+"standardMeta": {
+"question": "When solving for two missing frequencies in a Median problem, what is the strict mathematical first step to set up the system of equations?"
+}
+}
+},
+{
+"cardId": "NEW_SPLIT_MISSING_FREQ_PART2",
+"originalOrder": 30,
+"originalHeading": "SOP: Two Missing Frequencies Given Median",
+"action": "NEW",
+"modificationsSummary": ["Second half of the split missing frequencies SOP"],
+"vettingNotes": "Second half of Split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "equations"],
+"order": 25,
+"heading": "SOP Part 2: Extracting Equation 2 via Median Formula",
+"back": "- **Step 2 (Identify Median Class Trap):** Do **NOT** use $N/2$ to find the median class (as cumulative frequencies contain algebraic variables). Instead, look directly at the numerically given Median value and locate which class interval boundaries strictly contain it.\n- **Step 3 (Linear Equation 2):** Apply the standard median formula using parameters from that identified class. Equate this to the given median value to isolate one of the variables.\n- **Step 4 (Synthesis):** Substitute the solved variable back into Equation 1 ($f_1 + f_2 = k$) to find the second missing frequency.",
+"standardMeta": {
+"question": "After forming the first equation, how do you correctly identify the median class and solve for the two missing frequencies?"
+}
+}
+},
+{
+"cardId": "7064d21b-ebc4-460e-ac0b-7eb8475e4a62",
+"originalOrder": 18,
+"originalHeading": "Empirical Relationship of Central Tendency",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 26,
+"heading": "Empirical Relationship (Mean, Median, Mode)",
+"back": "## Component Anatomy:\n- Relates Mean, Median, and Mode of moderately skewed distributions.\n\n## Boundary Conditions / Domain:\n- This relationship is an **approximation** derived by Karl Pearson for moderately asymmetrical distributions. It is strictly not an exact identity for all arbitrary datasets.\n- Highly useful when two of the measures are known and the third is required without having access to the raw dataset.",
+"mnemonic": "3 Medians equal 1 Mode plus 2 Means.",
+"formulaMeta": {
+"formula": "3 \text{ Median} = \text{Mode} + 2 \text{ Mean}",
+"description": "Empirical formula defining the mathematical relationship between the Mean, Median, and Mode.",
+"derivation": "Derived via observational heuristics showing that for moderately skewed data, the distance from the Mean to the Mode is approximately three times the distance from the Mean to the Median."
+}
+}
+},
+{
+"cardId": "e1187d05-65ca-4229-a206-c56d0f1fe947",
+"originalOrder": 23,
+"originalHeading": "Impact of Extreme Values",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated classification and tags"],
+"vettingNotes": "Adjusted to emphasize robustness.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 27,
+"heading": "Robustness: Impact of Extreme Values (Outliers)",
+"back": "- **Mean:** The Mean is **highly sensitive** to extreme values (outliers). A single massive value can mathematically skew the mean significantly, rendering it a poor representative of the core data.\n- **Median & Mode:** The Median and Mode are robust and relatively **unaffected** by extreme values. The median strictly evaluates the physical center rank, and the mode solely identifies the highest density cluster.",
+"standardMeta": {
+"question": "How does the presence of extreme numerical outliers in a dataset uniquely affect the Mean compared to the Median and Mode?"
+}
+}
+},
+{
+"cardId": "b82c5edc-42ec-4888-8014-3876ca52f52d",
+"originalOrder": 24,
+"originalHeading": "Choosing the Right Central Tendency (Mean vs. Mode)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
+"order": 28,
+"heading": "Domain Application: Choosing Mean vs. Mode",
+"back": "- **Use Mean When:** The objective requires mathematically accounting for **all observations** and the dataset is relatively symmetric (e.g., comparing average academic performance between two cohorts).\n- **Use Mode When:** The domain problem strictly requires establishing the **most frequent or popular item** (e.g., identifying the shoe size in greatest consumer demand or the most common vehicle color).",
+"standardMeta": {
+"question": "Under what specific real-world conditions is the Mode a mathematically better measure of central tendency than the Mean?"
+}
+}
+},
+{
+"cardId": "89cef57c-d70d-43c6-a1e9-637f6d149513",
+"originalOrder": 19,
+"originalHeading": "Plotting a 'Less Than' Ogive",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL"],
+"vettingNotes": "Strictly procedural graphing steps.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
+"order": 29,
+"heading": "SOP: Plotting a 'Less Than' Ogive",
+"back": "- **X-axis Mapping:** Strictly plot the **Upper Class Limits**.\n- **Y-axis Mapping:** Plot the corresponding **Cumulative Frequencies** (Less Than type).\n- **Curve Shape:** The curve strictly rises upwards (monotonically increasing) from left to right.\n- **Smoothing:** Join the plotted coordinate points successively with a smooth freehand curve, NOT straight line segments.",
+"standardMeta": {
+"question": "What specific coordinates are mapped on the x and y axes to draw a 'Less Than' type Ogive (Cumulative Frequency Curve)?"
+}
+}
+},
+{
+"cardId": "eb870fb7-3918-46dd-9296-acfea8dfe33f",
+"originalOrder": 20,
+"originalHeading": "Plotting a 'More Than' Ogive",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to PROCEDURAL"],
+"vettingNotes": "Strictly procedural graphing steps.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
+"order": 30,
+"heading": "SOP: Plotting a 'More Than' Ogive",
+"back": "- **X-axis Mapping:** Strictly plot the **Lower Class Limits**.\n- **Y-axis Mapping:** Plot the corresponding **Cumulative Frequencies** (More Than type).\n- **Curve Shape:** The curve strictly falls downwards (monotonically decreasing) from left to right.\n- **Smoothing:** Join the plotted coordinate points successively with a smooth freehand curve.",
+"standardMeta": {
+"question": "What specific coordinates are mapped on the x and y axes to draw a 'More Than' type Ogive (Cumulative Frequency Curve)?"
+}
+}
+},
+{
+"cardId": "a8d53d78-fc26-4fae-90fe-fc58417f41ac",
+"originalOrder": 29,
+"originalHeading": "Graphical Property: Ogive Axis Scaling",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to APPLICATION"],
+"vettingNotes": "Shifted from FACT to APPLICATION to highlight graph domain constraints.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
+"order": 31,
+"heading": "Domain Rule: Ogive Axis Scaling",
+"back": "- **Fact:** No, the numerical scale **may not be the same** on both axes.\n- **Reasoning:** The x-axis represents continuous class limits (e.g., marks, weights) while the y-axis represents discrete cumulative frequencies (number of items). These are completely independent variables with different units, strictly requiring vastly different proportional scales for clear graphical representation.",
+"standardMeta": {
+"question": "When constructing an Ogive (Cumulative Frequency Curve), is it a strict mathematical requirement that the unit scale on the x-axis matches the unit scale on the y-axis?"
+}
+}
+},
+{
+"cardId": "97767041-d1e3-4909-9dc2-cd3da9104523",
+"originalOrder": 21,
+"originalHeading": "Finding Median via Ogive Intersection",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
+"order": 32,
+"heading": "Graphical Application: Median via Ogive Intersection",
+"back": "- **Concept:** If you plot both the 'Less Than' Ogive and the 'More Than' Ogive on the exact same Cartesian plane, the two curves will geometrically intersect at exactly one coordinate point.\n- **Procedure:** Draw a perpendicular line from this point of intersection directly down to the x-axis.\n- **Result:** The x-coordinate of this intersection point strictly provides the exact **Median** of the grouped data.",
+"mnemonic": "X marks the Median",
+"standardMeta": {
+"question": "How can the exact Median of a dataset be found geometrically using both types of Ogive curves?"
+}
+}
+},
+{
+"cardId": "19b3a1ca-5d79-4744-8d0b-466c6744e1f2",
+"originalOrder": 22,
+"originalHeading": "Finding Median via a Single Ogive",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped KaTeX in standard fields"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
+"order": 33,
+"heading": "SOP: Finding Median via a Single Ogive",
+"back": "- **SOP:**\n  1. Calculate $N$ (total cumulative frequency).\n  2. Locate the exact numerical value of $\frac{N}{2}$ on the **y-axis**.\n  3. Draw a straight line strictly parallel to the x-axis from $\frac{N}{2}$ until it geometrically intersects the Ogive curve.\n  4. From that intersection point on the curve, drop a perpendicular strictly down to the **x-axis**.\n  5. The intercept value on the x-axis is exactly the Median.",
+"standardMeta": {
+"question": "Explain the step-by-step graphical procedure to algebraically map and find the Median using only a single Ogive (either less than or more than)."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

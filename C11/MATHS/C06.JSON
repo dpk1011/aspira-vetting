@@ -1,0 +1,1006 @@
+{
+"deckId": "d7238732-d769-427a-bde3-bf462f2741cb",
+"cards": [
+{
+"cardId": "fdadbabd-448c-4843-b2bc-a76621b210da",
+"originalOrder": 1,
+"originalHeading": "Fundamental Principle of Counting (Multiplication Rule)",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Injected independent condition"],
+"vettingNotes": "Clarified that events must be independent for direct multiplication.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 1,
+"heading": "Fundamental Principle of Counting (Multiplication Rule)",
+"back": "## Core Concept\nIf an event can occur in $m$ different ways, following which another independent event can occur in $n$ different ways, then the total number of occurrences of the events in the given sequence is $m \times n$.\n\n## Boundary Conditions / Domain\n- The events must be **sequential** and **independent** (i.e., 'AND' condition).\n- The choice made in the first event must not restrict the available number of ways in the second event unless explicitly accounted for.",
+"mnemonic": "AND means MULTIPLY.",
+"standardMeta": {
+"question": "What is the Fundamental Principle of Counting (Multiplication Rule) and when is it strictly applied?"
+}
+}
+},
+{
+"cardId": "3e912609-63d9-4e52-8256-fe3a06438c96",
+"originalOrder": 2,
+"originalHeading": "Addition Rule vs Multiplication Rule",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Enhanced markdown formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 2,
+"heading": "Addition Rule vs Multiplication Rule",
+"back": "## Multiplication Rule\nUsed when tasks are **sequential** and all must be performed to complete the operation (e.g., Task A *AND* Task B). Total ways: $m \times n$.\n\n## Addition Rule\nUsed when tasks are **mutually exclusive** and performing any one task completes the operation (e.g., Task A *OR* Task B). Total ways: $m + n$.\n\n## Boundary Conditions / Domain\n- For the Addition Rule, the sets of outcomes must be disjoint (no intersection). If they overlap, you must subtract the intersection (Principle of Inclusion-Exclusion).",
+"mnemonic": "AND = Multiply, OR = Add.",
+"standardMeta": {
+"question": "In combinatorics, what is the strict mathematical distinction between applying the Addition Rule versus the Multiplication Rule?"
+}
+}
+},
+{
+"cardId": "7727aaeb-2356-44fa-b35b-22227b520798",
+"originalOrder": 3,
+"originalHeading": "Factorial Notation (n!)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 3,
+"heading": "Factorial Notation Definition (n!)",
+"back": "## Component Anatomy\n- **$n!$**: Represents the continued product of the first $n$ natural numbers.\n\n## Boundary Conditions / Domain\n- $n$ MUST be a non-negative integer ($n \in \mathbb{W}$). Factorials are not defined for negative integers or fractions in standard introductory combinatorics.",
+"formulaMeta": {
+"formula": "n! = n \times (n-1) \times (n-2) \times \dots \times 3 \times 2 \times 1",
+"description": "Mathematical definition and formula for n factorial (n!).",
+"derivation": "Note the critical recursive property used for simplification: $n! = n \times (n-1)!$"
+}
+}
+},
+{
+"cardId": "34c813e1-5844-4090-83fe-26dee775f5a3",
+"originalOrder": 4,
+"originalHeading": "Value of 0!",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Clarified logical reasoning"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 4,
+"heading": "Mathematical Value of 0!",
+"back": "## Value\n$0! = 1$\n\n## Reasoning\nFactorials count the number of ways to arrange objects. Selecting or arranging zero objects means doing nothing, and there is exactly **one way** to do nothing (the empty arrangement). Algebraically, applying the recursive formula $n! = n \times (n-1)!$ with $n=1$ yields $1! = 1 \times 0! \implies 0! = 1$.",
+"standardMeta": {
+"question": "What is the strict mathematical value of $0!$ and the logical reasoning behind it?"
+}
+}
+},
+{
+"cardId": "4862bc37-8120-4012-84b1-0e722b1e1987",
+"originalOrder": 5,
+"originalHeading": "Definition of Permutation",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 5,
+"heading": "Mathematical Definition of a Permutation",
+"back": "## Definition\nA permutation is an **arrangement** in a definite ordered sequence of a number of objects taken some or all at a time.\n\n## Key Characteristic\nOrder strictly matters. For example, forming the string `AB` is a mathematically distinct permutation from `BA`.",
+"mnemonic": "Permutation = Position matters.",
+"standardMeta": {
+"question": "What is the formal mathematical definition of a 'Permutation'?"
+}
+}
+},
+{
+"cardId": "e411ac2b-a0ec-4399-91ff-ab3657ff7b12",
+"originalOrder": 6,
+"originalHeading": "Definition of Combination",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 6,
+"heading": "Mathematical Definition of a Combination",
+"back": "## Definition\nA combination is a **selection** of a number of objects taken some or all at a time, where the sequence of selection is completely irrelevant.\n\n## Key Characteristic\nOrder does NOT matter. For example, selecting person `A` then `B` yields the exact same combination (team) as selecting `B` then `A`.",
+"mnemonic": "Combination = Choosing only.",
+"standardMeta": {
+"question": "What is the formal mathematical definition of a 'Combination'?"
+}
+}
+},
+{
+"cardId": "995d1bc5-07da-4f89-9e19-9d547d4bbd20",
+"originalOrder": 7,
+"originalHeading": "Permutations of Distinct Objects",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Fixed nPr formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 7,
+"heading": "Permutations of Distinct Objects without Repetition",
+"back": "## Component Anatomy\n- **$n$**: Total number of distinct objects available.\n- **$r$**: Number of objects to be arranged at a time.\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$.\n- $n, r \in \mathbb{W}$.\n- All $n$ objects MUST be distinctly different.\n- Repetition of objects is strictly NOT allowed.",
+"formulaMeta": {
+"formula": "^{n}P_{r} = \frac{n!}{(n-r)!}",
+"description": "Formula for the number of permutations of n different objects taken r at a time without repetition.",
+"derivation": "Derived from the multiplication principle: filling $r$ slots with $n$ options yields $n \times (n-1) \dots \times (n-r+1)$. Multiplying numerator and denominator by $(n-r)!$ condenses this into the factorial form."
+}
+}
+},
+{
+"cardId": "e6b884f3-98d1-45a4-9b3c-d351c6e409f5",
+"originalOrder": 8,
+"originalHeading": "Permutations when Repetition is Allowed",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Clarified boundary conditions"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 8,
+"heading": "Permutations with Repetition Allowed",
+"back": "## Component Anatomy\n- **$n$**: Total number of distinct object options available for each slot.\n- **$r$**: Number of slots to be filled.\n\n## Boundary Conditions / Domain\n- Valid for $r \ge 0$.\n- Unlike $^{n}P_{r}$, $r$ **can** be strictly greater than $n$ (e.g., forming a 5-letter word using only 3 available letters).",
+"formulaMeta": {
+"formula": "n^r",
+"description": "Formula for the number of permutations of n different objects taken r at a time, when repetition IS allowed.",
+"derivation": "There are $r$ vacant places. The first place can be filled in $n$ ways. Since repetition is allowed, the second place can also be filled in $n$ ways, and so on up to $r$ times. Hence, $n \times n \times \dots \text{ (r times)} = n^r$."
+}
+}
+},
+{
+"cardId": "fa54abd2-e1ea-4b84-a40b-d46e67b9b1d8",
+"originalOrder": 9,
+"originalHeading": "Permutations of Identical Objects (One Kind)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 9,
+"heading": "Permutations Involving Identical Objects (One Kind)",
+"back": "## Component Anatomy\n- **$n$**: Total number of objects.\n- **$p$**: Number of identical objects of the same kind.\n\n## Boundary Conditions / Domain\n- $1 \le p \le n$.\n- The remaining $(n-p)$ objects must be perfectly distinct from each other and from the $p$ objects.",
+"mnemonic": "Divide out the duplicates.",
+"formulaMeta": {
+"formula": "\frac{n!}{p!}",
+"description": "Formula for permutations of n objects where p objects are identical and the rest are distinct.",
+"derivation": "1. Assume the $p$ identical objects are temporarily distinct. This yields $n!$ permutations.\n2. Arranging those $p$ distinct objects among themselves ($p!$ ways) creates indistinguishable arrangements in reality.\n3. Divide the total by $p!$ to remove the overcounted identical permutations."
+}
+}
+},
+{
+"cardId": "40493cc2-af30-4ef1-a8ae-dd261e653d4e",
+"originalOrder": 10,
+"originalHeading": "Permutations of Identical Objects (Multiple Kinds)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 10,
+"heading": "Permutations Involving Identical Objects (Multiple Kinds)",
+"back": "## Component Anatomy\n- **$n$**: Total number of objects.\n- **$p_1, p_2, \dots, p_k$**: Quantities of objects that are alike of their respective kinds.\n\n## Boundary Conditions / Domain\n- $p_1 + p_2 + \dots + p_k \le n$.\n- Applies to words like 'MISSISSIPPI' where multiple letters repeat.",
+"formulaMeta": {
+"formula": "\frac{n!}{p_1! p_2! \dots p_k!}",
+"description": "Generalized formula for permutations of n objects where multiple subsets of objects are identical.",
+"derivation": "Similar to the single-kind rule, divide the total $n!$ permutations by the internal permutations of each identical subset ($p_1!$, $p_2!$, etc.) to remove overcounted indistinguishable arrangements."
+}
+}
+},
+{
+"cardId": "07f443e4-5089-41ff-b674-cb3fa4a46b81",
+"originalOrder": 19,
+"originalHeading": "Circular Permutations of Distinct Objects",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 11", "Double-escaped KaTeX"],
+"vettingNotes": "Moved up to group with standard permutations.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 11,
+"heading": "Circular Permutations of Distinct Objects",
+"back": "## Component Anatomy\n- **$n$**: Number of distinct objects placed in a closed circle.\n\n## Boundary Conditions / Domain\n- Valid for $n \ge 1$ (trivial for 1).\n- The circle has a fixed, non-flippable orientation in 2D space (clockwise and anti-clockwise arrangements are strictly considered distinct).",
+"mnemonic": "Fix one to break the circle, arrange the rest.",
+"formulaMeta": {
+"formula": "(n-1)!",
+"description": "Formula for the number of circular permutations of n distinct objects.",
+"derivation": "In a circle, there is no fixed starting point, so a linear arrangement of $n!$ overcounts each circular configuration exactly $n$ times (once for each rotated position). Thus, $\frac{n!}{n} = (n-1)!$."
+}
+}
+},
+{
+"cardId": "156fba8a-e1ac-46e5-9d92-fee9283a9b7d",
+"originalOrder": 20,
+"originalHeading": "Circular Permutations (Necklace / Garland)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 12", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 12,
+"heading": "Circular Permutations with Reversible Orientation (Necklaces)",
+"back": "## Component Anatomy\n- **$n$**: Number of distinct objects (like beads or flowers).\n\n## Boundary Conditions / Domain\n- This applies strictly when the physical structure can be flipped or inverted in 3D space.\n- Because of the flip, clockwise and anti-clockwise arrangements become visually identical and must not be double-counted.",
+"formulaMeta": {
+"formula": "\frac{(n-1)!}{2}",
+"description": "Formula for the number of circular permutations when clockwise and anti-clockwise orders are indistinguishable.",
+"derivation": "Calculate standard circular permutations $(n-1)!$. Since flipping the necklace reverses the sequence perfectly, every arrangement is counted twice. Divide by 2."
+}
+}
+},
+{
+"cardId": "6963af64-5015-48ea-b656-e881c00522e2",
+"originalOrder": 14,
+"originalHeading": "Combinations Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 13", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 13,
+"heading": "Combinations Formula (Selection of Distinct Objects)",
+"back": "## Component Anatomy\n- **$n$**: Total distinct objects available.\n- **$r$**: Number of objects chosen to form a subset.\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$.\n- $n, r \in \mathbb{W}$.",
+"formulaMeta": {
+"formula": "^{n}C_{r} = \frac{n!}{r!(n-r)!}",
+"description": "Formula for the number of combinations (selections) of n different objects taken r at a time.",
+"derivation": "Derived from permutations. Since order doesn't matter in combinations, divide the permutation formula $^{n}P_{r}$ by $r!$ to eliminate the internal arrangements of the chosen $r$ items."
+}
+}
+},
+{
+"cardId": "8b0c02ce-62ea-4527-9f0f-35fe1f49e094",
+"originalOrder": 15,
+"originalHeading": "Relationship Between Permutation and Combination",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 14", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 14,
+"heading": "Algebraic Relationship Between Permutations and Combinations",
+"back": "## Component Anatomy\n- **$^{n}P_{r}$**: Permutation (Selection + Arrangement).\n- **$^{n}C_{r}$**: Combination (Selection only).\n- **$r!$**: The internal arrangement of the selected items.\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$.",
+"mnemonic": "Permutation = Combination THEN Arrangement.",
+"formulaMeta": {
+"formula": "^{n}P_{r} = ^{n}C_{r} \times r!",
+"description": "Algebraic relationship linking nPr and nCr.",
+"derivation": "Selecting $r$ objects is done in $^{n}C_{r}$ ways. Once selected, those $r$ distinct objects can be linearly arranged among themselves in $r!$ ways. Multiplying these independent steps gives the total permutations."
+}
+}
+},
+{
+"cardId": "56d7e685-ff27-4d14-ba6d-f552d5b3e23c",
+"originalOrder": 16,
+"originalHeading": "Complementary Combination Property",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 15", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 15,
+"heading": "Complementary Combination Property",
+"back": "## Component Anatomy\n- **$n$**: Total available pool.\n- **$r$**: Number selected for the subset.\n- **$n-r$**: Number inherently rejected (or selected for the complementary subset).\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$.",
+"mnemonic": "Selecting r is exactly the same as leaving behind (n-r).",
+"formulaMeta": {
+"formula": "^{n}C_{r} = ^{n}C_{n-r}",
+"description": "Property establishing that selecting r objects leaves exactly one corresponding subset of (n-r) objects.",
+"derivation": "Algebraically: $^{n}C_{r} = \frac{n!}{r!(n-r)!}$. Replace $r$ with $(n-r)$, the denominator becomes $(n-r)!(n-(n-r))! = (n-r)!r!$, which is identical."
+}
+}
+},
+{
+"cardId": "ce0dea41-466a-4567-8305-70c65454fe0c",
+"originalOrder": 17,
+"originalHeading": "Combination Equality Property",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 16", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 16,
+"heading": "Combination Equality Theorem",
+"back": "## Component Anatomy\n- **$a, b$**: Two subset selection quantities.\n- **$n$**: Total pool size.\n\n## Boundary Conditions / Domain\n- $a, b \in \mathbb{W}$ and $a, b \le n$.",
+"formulaMeta": {
+"formula": "^{n}C_{a} = ^{n}C_{b} \implies a = b \quad \text{OR} \quad n = a + b",
+"description": "Theorem representing the two possible algebraic conditions if two combinations from the same pool evaluate to the same value.",
+"derivation": "Follows directly from the complementary property. If the selections evaluate to the same number but the variables $a$ and $b$ aren't identical, they must represent the selected and rejected complementary subsets of the same $n$ pool ($b = n - a$)."
+}
+}
+},
+{
+"cardId": "d0fc6a08-bcef-4ef1-92ca-29cad2c18c9a",
+"originalOrder": 18,
+"originalHeading": "Pascal's Rule for Combinations",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 17", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 17,
+"heading": "Pascal's Rule for Combinations",
+"back": "## Component Anatomy\n- **$n$**: Top row pool size.\n- **$r, r-1$**: Consecutive selection sizes.\n\n## Boundary Conditions / Domain\n- $1 \le r \le n$.",
+"mnemonic": "Add combinations of the same 'n' by keeping the bigger 'r' and bumping 'n' up by 1.",
+"formulaMeta": {
+"formula": "^{n}C_{r} + ^{n}C_{r-1} = ^{n+1}C_{r}",
+"description": "Pascal's Rule for the addition of two consecutive combinations.",
+"derivation": "Factor out common terms: $\frac{n!}{r!(n-r)!} + \frac{n!}{(r-1)!(n-r+1)!}$. Combine fractions with a common denominator $r!(n-r+1)!$ to yield the $(n+1)$ numerator structure."
+}
+}
+},
+{
+"cardId": "f8cd7185-3ac8-4456-88ae-52eb2118fa9e",
+"originalOrder": 41,
+"originalHeading": "Ratio of Consecutive Combinations",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 18", "Double-escaped KaTeX"],
+"vettingNotes": "Moved up to group with combination properties.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 18,
+"heading": "Ratio of Consecutive Combinations",
+"back": "## Component Anatomy\n- **$n$**: Total number of objects.\n- **$r$**: Selection size of the larger combination in the numerator.\n\n## Boundary Conditions / Domain\n- $1 \le r \le n$.\n- Extremely useful in Binomial Theorem for comparing consecutive terms.",
+"mnemonic": "(n - r + 1) is the 'remaining pool plus one' over the 'current pick'.",
+"formulaMeta": {
+"formula": "\frac{^{n}C_{r}}{^{n}C_{r-1}} = \frac{n - r + 1}{r}",
+"description": "Ratio formula for dividing two consecutive combinations, used to quickly solve systems of equations.",
+"derivation": "Expand both combinations. The $n!$ terms cancel. The $r! / (r-1)!$ leaves $r$ in the denominator, and $(n-r+1)! / (n-r)!$ leaves $(n-r+1)$ in the numerator."
+}
+}
+},
+{
+"cardId": "1d5dae67-3b55-431b-9b38-00e7e479e72e",
+"originalOrder": 11,
+"originalHeading": "SOP: String / Tie Method (Objects Always Together)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 19", "Converted to PROCEDURAL"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 19,
+"heading": "SOP: String / Tie Method (Objects Always Together)",
+"back": "## Component Anatomy\n- **Group**: The specific objects that must stay together.\n- **Unit**: The unified block formed by mathematically tying the group into 1 entity.\n\n## Boundary Conditions / Domain\n- The internal arrangement of the tied block MUST always be accounted for unless the grouped objects are identical.",
+"mnemonic": "Tie them up, arrange the room, then arrange the knot.",
+"formulaMeta": {
+"formula": "\text{Total Ways} = (N_{\text{units}}!) \times (N_{\text{internal}}!)",
+"description": "Algorithmic steps to find arrangements where specific objects MUST always occur together in a block.",
+"derivation": "1. Treat the group of items that must stay together strictly as **ONE** single unit.\n2. Add this 1 unit to the remaining un-tied items to get the total $N_{\text{units}}$.\n3. Arrange these macro units in $(N_{\text{units}}!)$ ways.\n4. Multiply by the number of ways the tied items can arrange internally among themselves $(N_{\text{internal}}!)$."
+}
+}
+},
+{
+"cardId": "0c2835e9-31d6-4de0-809e-852f3341d9aa",
+"originalOrder": 12,
+"originalHeading": "SOP: Gap Method (Objects Never Together)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 20", "Converted to PROCEDURAL"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 20,
+"heading": "SOP: Gap Method (No Two Objects Together)",
+"back": "## Component Anatomy\n- **Base objects**: The non-restricted items.\n- **Gaps**: The available spaces between and at the extreme ends of the base objects.\n\n## Boundary Conditions / Domain\n- Ensure the number of restricted items does not strictly exceed the available gaps, otherwise the arrangement is impossible ($Ways = 0$).",
+"mnemonic": "Seat the safe ones first, then fill the gaps.",
+"formulaMeta": {
+"formula": "\text{Ways} = (N_{\text{base}}!) \times ^{\text{Gaps}}P_{N_{\text{restricted}}}",
+"description": "Algorithmic steps to arrange objects such that strictly NO TWO restricted items sit together.",
+"derivation": "1. First, arrange the unrestricted base objects. If there are $b$ base objects, they arrange in $b!$ ways.\n2. This configuration inherently creates $(b+1)$ gaps (including the ends): `_ B _ B _ B _`.\n3. Place the restricted objects strictly into these gaps. If there are $r$ restricted objects, select and arrange them in $^{(b+1)}P_{r}$ ways.\n4. Multiply the two independent arrangements."
+}
+}
+},
+{
+"cardId": "8029dea0-7bac-4cf8-8594-b2790df0d80b",
+"originalOrder": 13,
+"originalHeading": "SOP: All Objects Never Together (Complementary Counting)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 21", "Converted to PROCEDURAL", "Clarified severe conceptual trap"],
+"vettingNotes": "Emphasized the distinction between 'NO TWO' and 'NOT ALL'.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 21,
+"heading": "SOP: ALL Restricted Objects Are Not Together (Complementary)",
+"back": "## Component Anatomy\n- **Total Unrestricted**: Arrangements calculated without applying any rules.\n- **All Together**: Arrangements calculated using the String/Tie Method.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** This strictly solves 'ALL objects do not sit as one continuous block'. \n- It does **NOT** solve 'NO TWO objects sit together' (for $>2$ objects). For 'No two together', you MUST use the Gap Method.",
+"mnemonic": "Total minus Together.",
+"formulaMeta": {
+"formula": "\text{Total Unrestricted Ways} - \text{Ways (All Together)}",
+"description": "Complementary algorithm to find arrangements where a specific group of objects do NOT form a single unified block.",
+"derivation": "Calculate the absolute total permutations using standard factorial rules, then subtract the result obtained from the String/Tie Method (where all restricted items are grouped as one)."
+}
+}
+},
+{
+"cardId": "321aa548-2f44-49a3-9890-6a460f3f37cb",
+"originalOrder": 35,
+"originalHeading": "Arrangements with a Specific Object ALWAYS Included",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 22", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 22,
+"heading": "SOP: Arrangements with a Specific Object ALWAYS Included",
+"back": "## Component Anatomy\n- **$n$:** Total available distinct objects.\n- **$r$:** Required size of the final arrangement.\n- **$1$:** The specific object mathematically forced into the arrangement.\n\n## Boundary Conditions / Domain\n- $r \ge 1$.\n- $n \ge r$.",
+"formulaMeta": {
+"formula": "^{n-1}C_{r-1} \times r!",
+"description": "Algorithmic formula for permutations of n distinct objects taken r at a time, where one specific object MUST always be included.",
+"derivation": "1. Physically force the mandatory object into the selection.\n2. You now need $(r-1)$ more objects to complete the selection. Pick them from the remaining $(n-1)$ objects: $^{n-1}C_{r-1}$.\n3. You now have your required $r$ objects.\n4. Arrange them all linearly in $r!$ ways."
+}
+}
+},
+{
+"cardId": "cfadcb34-0415-4aac-a2af-392df9b8b9fc",
+"originalOrder": 36,
+"originalHeading": "Arrangements with a Specific Object NEVER Included",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 23", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 23,
+"heading": "SOP: Arrangements with a Specific Object NEVER Included",
+"back": "## Component Anatomy\n- **$n$:** Total available distinct objects.\n- **$r$:** Required size of the final arrangement.\n- **$1$:** The specific object strictly excluded from the pool.\n\n## Boundary Conditions / Domain\n- $n-1 \ge r$. (The remaining pool must be large enough to satisfy the selection).",
+"formulaMeta": {
+"formula": "^{n-1}C_{r} \times r! \quad \text{OR} \quad ^{n-1}P_{r}",
+"description": "Algorithmic formula for permutations of n distinct objects taken r at a time, where one specific object is strictly excluded.",
+"derivation": "1. Physically remove the forbidden object from the starting pool, leaving $(n-1)$ available objects.\n2. Select all $r$ required objects from this new restricted pool: $^{n-1}C_{r}$.\n3. Arrange the selected objects in $r!$ ways."
+}
+}
+},
+{
+"cardId": "db821a6d-95d5-41ed-86ae-081504269163",
+"originalOrder": 23,
+"originalHeading": "SOP: Finding Rank of a Word in a Dictionary",
+"action": "SPLIT",
+"modificationsSummary": ["Updated order to 24", "Split to handle Non-Repeating words specifically to reduce cognitive load"],
+"vettingNotes": "Card split. This card now exclusively covers words with distinct letters.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 24,
+"heading": "SOP: Dictionary Rank of a Word (Distinct Letters)",
+"back": "## Component Anatomy\n- **Alphabetical order**: The strict sorted order of the available letters.\n- **Factorial combinations**: The block sizes of words starting with specific letters.\n\n## Boundary Conditions / Domain\n- Valid strictly for words where **NO letter repeats** (e.g., 'RANDOM', 'MOTHER').",
+"mnemonic": "Alphabetize, Block-count, Add.",
+"formulaMeta": {
+"formula": "\text{Rank} = \sum (\text{Words prior}) + 1",
+"description": "Algorithmic steps to find the dictionary rank of a word with non-repeating letters.",
+"derivation": "1. Write all letters of the given word in strict alphabetical order.\n2. Fix the first alphabetical letter and count how many words start with it using permutations (if there are $k$ remaining spots, it generates $k!$ words).\n3. Continue this block-counting for each letter until you reach the target word's actual first letter.\n4. Strike that letter out, fix it, and repeat the alphabetical block-counting for the 2nd position, then 3rd, etc.\n5. Add 1 to the final sum to account for the actual target word itself."
+}
+}
+},
+{
+"cardId": "NEW_RANK_REPEATING",
+"originalOrder": 23,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from SPLIT of original card 23"],
+"vettingNotes": "Handles the repeating letters edge case separately.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 25,
+"heading": "SOP: Dictionary Rank of a Word (Repeating Letters)",
+"back": "## Component Anatomy\n- **Identical objects division**: Requires dividing block counts by factorials of repeating letters.\n\n## Boundary Conditions / Domain\n- Valid for words with repeating characters (e.g., 'BANANA', 'SUCCESS').\n- Division by repeating factorials applies *only* to the remaining available characters at each specific node of the tree.",
+"formulaMeta": {
+"formula": "\text{Rank} = \sum \left( \frac{k!}{p_1! p_2! \dots} \right) + 1",
+"description": "Algorithmic steps to find the dictionary rank of a word containing repeating letters.",
+"derivation": "1. Write the unique letters in alphabetical order.\n2. Calculate block sizes similarly to the non-repeating method, but **divide by the factorials of any identical letters** that exist in the *remaining* available suffix pool.\n3. As you fix letters matching the target word, cross them out. If you cross out a repeating letter, the denominator for future block calculations drops that factorial.\n4. Sum all prior blocks and add 1."
+}
+}
+},
+{
+"cardId": "c66f916b-2498-46f4-882c-384cdeefe49f",
+"originalOrder": 45,
+"originalHeading": "SOP: The Sliding Window Trick (Fixed Gap Between Objects)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 26", "Double-escaped KaTeX", "Converted to PROCEDURAL"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 26,
+"heading": "SOP: The Sliding Window Trick (Fixed Gap Between Objects)",
+"back": "## Component Anatomy\n- **$N$:** Total number of linear positions available.\n- **$k$:** The exact number of spaces/objects that must strictly lie between the two target objects.\n- **$2!$:** Accounts for the internal swapping of the two target objects themselves at the boundaries (e.g., P...S or S...P).\n\n## Boundary Conditions / Domain\n- Valid strictly for **linear** arrangements, not circular.\n- $N > k + 1$ (the total slots must be large enough to contain the two boundaries plus the gap).",
+"mnemonic": "Total minus Gap minus One gives the starting slots.",
+"formulaMeta": {
+"formula": "2! \times (N - k - 1) \times (N - 2)!",
+"description": "Algorithmic formula to find the number of arrangements where two specific objects have exactly k objects between them.",
+"derivation": "1. Treat the two target objects and their intermediate $k$ gaps as a rigid 'window' of size $(k+2)$.\n2. In a line of $N$ slots, a window of size $(k+2)$ can slide into exactly $N - (k+2) + 1 = (N - k - 1)$ valid starting positions.\n3. The two target boundaries can swap places at the edges in $2!$ ways.\n4. The remaining $(N-2)$ objects can be freely arranged in the remaining $(N-2)$ slots outside the boundaries in $(N-2)!$ ways."
+}
+}
+},
+{
+"cardId": "1fec9ef7-d8b8-40b6-9209-f61ddd3b3127",
+"originalOrder": 42,
+"originalHeading": "Sum of all n-Digit Numbers Formed",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 27", "Double-escaped KaTeX", "Added explicit zero boundary condition"],
+"vettingNotes": "Emphasized the critical trap regarding the digit 0.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 27,
+"heading": "SOP: Sum of All Formed n-Digit Numbers",
+"back": "## Component Anatomy\n- **$n$:** The number of distinct digits given.\n- **$\sum d_i$:** The arithmetic sum of all the given distinct digits.\n- **$111\dots1$:** A number consisting of exactly $n$ ones, mathematically equivalent to $\frac{10^n - 1}{9}$.\n\n## Boundary Conditions / Domain\n- Repetition of digits is strictly **NOT** allowed.\n- **CRITICAL TRAP:** None of the given digits can be $0$. If $0$ is included in the given set, you MUST subtract the hypothetical sum of the numbers starting with $0$ (treating those as $(n-1)$-digit numbers).",
+"formulaMeta": {
+"formula": "\text{Sum} = (n-1)! \times \left( \sum d_i \right) \times (111\dots1 \text{ } n \text{ times})",
+"description": "Shortcut formula to find the arithmetic sum of ALL possible n-digit numbers formed using n distinct non-zero digits.",
+"derivation": "1. If you fix a specific digit in the unit's place, the remaining digits arrange in $(n-1)!$ ways.\n2. Thus, every digit appears exactly $(n-1)!$ times in every place value column (units, tens, hundreds...).\n3. Summing these columns algebraically factors out the digit sum and creates the $111\dots1$ multiplier based on place values $(10^0 + 10^1 + \dots + 10^{n-1})$."
+}
+}
+},
+{
+"cardId": "047a0fe9-2b94-4cc3-8e26-1affd0c80bf9",
+"originalOrder": 24,
+"originalHeading": "Selection of One or More Objects",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 28", "Double-escaped KaTeX", "Standardized markdown"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 28,
+"heading": "Selection of 'One or More' (Distinct vs Identical)",
+"back": "## Distinct Objects\nSelecting 1 or more from $n$ strictly distinct objects is evaluating every combination: $^{n}C_{1} + ^{n}C_{2} + \dots + ^{n}C_{n} = 2^n - 1$.\n\n## Identical Objects\nSelecting 1 or more from $n$ completely identical objects is exactly $n$ ways (you simply choose the quantity: 1, 2, ..., or $n$ objects).\n\n## Mixed Groups\nFor groups of $p, q, r$ identical objects and $k$ distinct objects, the formula is $(p+1)(q+1)(r+1)2^k - 1$.",
+"mnemonic": "Distinct = binary choices. Identical = counting choices.",
+"standardMeta": {
+"question": "What is the critical mathematical difference in calculating the number of ways to select 'one or more' objects when the objects are distinct vs identical?"
+}
+}
+},
+{
+"cardId": "238e76f6-7f0b-4b96-acd0-df80384a748e",
+"originalOrder": 25,
+"originalHeading": "SOP: Selection from Multiple Identical Subsets",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 29", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 29,
+"heading": "SOP: Selection from Multiple Identical Subsets",
+"back": "## Component Anatomy\n- **$p, q, r$**: Quantities of objects of kind 1, kind 2, and kind 3 (all identical within their own respective kinds).\n- **$-1$**: Mathematically subtracts the empty set (the single case of choosing 0 objects overall).\n\n## Boundary Conditions / Domain\n- Strictly assumes the prompt requires picking *at least one* object in total.",
+"mnemonic": "Add 1, Multiply, Subtract 1.",
+"formulaMeta": {
+"formula": "(p+1)(q+1)(r+1) \dots - 1",
+"description": "Formula for selecting one or more items from multiple groups of identical objects.",
+"derivation": "1. For $p$ identical items, you have $(p+1)$ quantitative choices: choose 0, 1, 2, ..., $p$ items.\n2. Multiply these independent quantitative choices across all available groups $(q, r, \dots)$ using the Multiplication Principle.\n3. Finally, subtract 1 to remove the single case where you chose 0 items from every single group, satisfying the 'at least one' condition."
+}
+}
+},
+{
+"cardId": "08d51d69-e2ae-434c-9179-faf1b70329fa",
+"originalOrder": 43,
+"originalHeading": "The 'Select THEN Arrange' Archetype",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 30", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 30,
+"heading": "The 'Select THEN Arrange' Paradigm",
+"back": "## Step 1: Selection Phase\nFirst, strictly select the required items from their respective pools using Combinations (e.g., Select 2 vowels from 4 as $^{4}C_{2}$ AND 3 consonants from 5 as $^{5}C_{3}$).\n\n## Step 2: Grouping Phase\nMultiply the individual combinations to find the total ways to form the unarranged group ($^{4}C_{2} \times ^{5}C_{3}$).\n\n## Step 3: Arrangement Phase\nMultiply the entire selected grouping by the factorial of the final total group size to account for their internal linear permutations. Final Result: $(^{4}C_{2} \times ^{5}C_{3}) \times 5!$",
+"mnemonic": "Combinations collect the ingredients; Factorials cook the meal.",
+"standardMeta": {
+"question": "What is the mandatory 3-step Standard Operating Procedure (SOP) to solve word-formation problems requiring a specific mixture of item types (e.g., 'Words with exactly 2 vowels and 3 consonants')?"
+}
+}
+},
+{
+"cardId": "fdf9d256-9e1a-46de-8eeb-e9e4d1decac8",
+"originalOrder": 21,
+"originalHeading": "Number of Handshakes / Chords",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 31", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 31,
+"heading": "Combinatorics of Handshakes and Chords",
+"back": "## Component Anatomy\n- **$n$**: Total number of distinct persons or distinct points on a circle.\n\n## Boundary Conditions / Domain\n- $n \ge 2$ (minimum required to form a pair).\n- Order strictly does not matter (Person A shaking hands with B is the mathematically identical event to B shaking hands with A).",
+"formulaMeta": {
+"formula": "^{n}C_{2} = \frac{n(n-1)}{2}",
+"description": "Formula for the total number of unique handshakes among n people, or chords drawn between n points on a circle.",
+"derivation": "A handshake or a geometric chord strictly requires exactly 2 distinct entities. Selecting 2 out of $n$ available entities without regard to order is calculated as $^{n}C_{2}$."
+}
+}
+},
+{
+"cardId": "84f7aef2-334f-4324-a8b3-413a2dca443b",
+"originalOrder": 38,
+"originalHeading": "Maximum Intersections of Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 32", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 32,
+"heading": "Maximum Intersections of n Straight Lines",
+"back": "## Component Anatomy\n- **$n$**: Total number of infinite straight lines on a 2D plane.\n\n## Boundary Conditions / Domain\n- No two lines are strictly parallel.\n- No three lines intersect at exactly the same single coordinate (i.e., they are non-concurrent).",
+"formulaMeta": {
+"formula": "^{n}C_{2} = \frac{n(n-1)}{2}",
+"description": "Formula for the absolute maximum number of unique intersection points created by n straight lines.",
+"derivation": "An intersection strictly requires exactly 2 distinct non-parallel lines to cross. Thus, the total possible unique intersections is simply the number of ways to mathematically select 2 lines from the pool of $n$."
+}
+}
+},
+{
+"cardId": "0a5dc709-0c2f-4d84-b7c3-b43e7a4b83b7",
+"originalOrder": 22,
+"originalHeading": "Number of Diagonals in a Polygon",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 33", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 33,
+"heading": "Number of Diagonals in an n-Sided Polygon",
+"back": "## Component Anatomy\n- **$n$**: Number of sides (which is equal to the number of vertices) of the given polygon.\n\n## Boundary Conditions / Domain\n- $n \ge 3$ (must be a valid closed 2D polygon).",
+"mnemonic": "All segment lines minus the outer walls.",
+"formulaMeta": {
+"formula": "^{n}C_{2} - n = \frac{n(n-3)}{2}",
+"description": "Formula to calculate the total number of internal diagonals in an n-sided polygon.",
+"derivation": "1. Mathematically connect any 2 vertices out of $n$ to form a line segment ($^{n}C_{2}$ ways).\n2. However, this theoretical total includes the $n$ perimeter sides of the polygon itself, which are by definition not diagonals.\n3. Subtract $n$ from the total combinations to isolate the internal diagonals."
+}
+}
+},
+{
+"cardId": "e19ce17e-67e4-46b1-8d20-fe726c8b99f9",
+"originalOrder": 39,
+"originalHeading": "Collinear Points Trap: Forming Straight Lines",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 34", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 34,
+"heading": "Collinear Points: Forming Straight Lines",
+"back": "## Component Anatomy\n- **$n$**: Total number of points on the 2D plane.\n- **$m$**: Number of points that are strictly collinear (lying continuously on the exact same line).\n\n## Boundary Conditions / Domain\n- $m \ge 3$ (if $m=2$, any two points form a line anyway, so collinearity is trivial).",
+"formulaMeta": {
+"formula": "^{n}C_{2} - ^{m}C_{2} + 1",
+"description": "Formula for the number of unique straight lines that can be formed by joining n points, where m of those points are collinear.",
+"derivation": "1. Assume all points are strictly non-collinear. They would theoretically form $^{n}C_{2}$ lines.\n2. The $m$ collinear points should have formed $^{m}C_{2}$ unique lines, but due to collinearity, they all collapse geometrically into just 1 single line.\n3. Subtract the overcounted $^{m}C_{2}$ combinations and logically add back the 1 actual line they do form."
+}
+}
+},
+{
+"cardId": "cef40883-859a-41c8-9e53-34c0aa4f92ea",
+"originalOrder": 40,
+"originalHeading": "Collinear Points Trap: Forming Triangles",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 35", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 35,
+"heading": "Collinear Points: Forming Triangles",
+"back": "## Component Anatomy\n- **$n$**: Total number of points on the 2D plane.\n- **$m$**: Number of points that are strictly collinear.\n\n## Boundary Conditions / Domain\n- $n \ge 3$ (must have points to form a triangle).\n- $m \ge 3$.",
+"formulaMeta": {
+"formula": "^{n}C_{3} - ^{m}C_{3}",
+"description": "Formula for the number of valid triangles that can be formed by joining n points, where m of those points are collinear.",
+"derivation": "1. Assume all points are strictly non-collinear. They would form $^{n}C_{3}$ possible triangles.\n2. The $m$ collinear points mathematically cannot form any triangles amongst themselves (they form a flat line with area 0).\n3. Subtract the $^{m}C_{3}$ theoretical triangles they would have formed. (Note: Do NOT add 1 here, because collinear points never form a triangle)."
+}
+}
+},
+{
+"cardId": "34d07b71-17a4-42a4-8be5-c3c95939bd80",
+"originalOrder": 37,
+"originalHeading": "Total Squares on a Grid / Chessboard",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 36", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "geometry", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 36,
+"heading": "Total Squares on an n x n Grid",
+"back": "## Component Anatomy\n- **$n$**: The dimensional length of the $n \times n$ square grid.\n\n## Boundary Conditions / Domain\n- The grid strictly must be a perfect square ($n \times n$). If rectangular ($m \times n$), the formula diverges to $\sum k(n-m+k)$.\n- For a standard chessboard, $n = 8$, yielding $\frac{8(9)(17)}{6} = 204$ squares.",
+"mnemonic": "Sum of squares.",
+"formulaMeta": {
+"formula": "\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}",
+"description": "Formula to calculate the absolute total number of perfect squares (of all sub-sizes, 1x1 to nxn) on an n x n grid.",
+"derivation": "By pure counting: There are $n^2$ squares of size $1\times1$, $(n-1)^2$ squares of size $2\times2$, scaling down to exactly $1^2$ square of size $n\times n$. The total mathematically simplifies to the standard sum of the squares of the first $n$ natural numbers."
+}
+}
+},
+{
+"cardId": "e8188394-b8b6-42bf-a866-6e57bdf5dcbc",
+"originalOrder": 26,
+"originalHeading": "Division of Objects into Unequal Groups",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 37", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "grouping", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 37,
+"heading": "Division of Distinct Objects into Unequal Groups",
+"back": "## Component Anatomy\n- **$m+n$:** Total number of strictly distinct objects.\n- **$m, n$:** Target quantitative sizes of the two unequal groups.\n\n## Boundary Conditions / Domain\n- $m \neq n$.\n- The sizes of the groups MUST be strictly different. If they are equal, the formula overcounts due to symmetry and requires division by $2!$.",
+"formulaMeta": {
+"formula": "\frac{(m+n)!}{m!n!}",
+"description": "Formula to divide (m+n) distinct objects into two strictly unequal groups containing m and n objects.",
+"derivation": "Choose $m$ objects for the first group using $^{m+n}C_{m}$. The remaining $n$ objects automatically default into the second group (which happens in $^{n}C_{n} = 1$ way). Expanding $^{m+n}C_{m}$ algebraically yields the factorial formula."
+}
+}
+},
+{
+"cardId": "9529417a-567f-4d3f-8d07-f58983b01775",
+"originalOrder": 27,
+"originalHeading": "Division of Objects into Equal Groups (Unordered)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 38", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "grouping", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 38,
+"heading": "Division of Distinct Objects into Equal Unordered Groups",
+"back": "## Component Anatomy\n- **$mn$:** Total number of distinct objects available.\n- **$m$:** The total count of equal-sized groups formed.\n- **$n$:** The strict quantitative size of each individual group.\n- **$m!$:** Crucial mathematical correction factor for the indistinguishable nature of the groups themselves.\n\n## Boundary Conditions / Domain\n- Valid strictly when the groups themselves have NO distinct identity (e.g., forming anonymous piles on a table).",
+"mnemonic": "Divide by the group sizes, then divide by the group count.",
+"formulaMeta": {
+"formula": "\frac{(mn)!}{(n!)^m m!}",
+"description": "Formula to mathematically divide mn distinct objects equally into m anonymous groups, each of size n.",
+"derivation": "Partitioning $mn$ objects into $m$ subsets of size $n$ creates identical 'slots' from a macroscopic perspective. Without the $\frac{1}{m!}$ term, you overcount the permutations of the completely identical groups just swapping abstract places with each other."
+}
+}
+},
+{
+"cardId": "e8c28a71-90c4-4a72-b3f1-736daec37434",
+"originalOrder": 28,
+"originalHeading": "Group Division vs Distribution to Persons",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 39", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "combinatorics", "grouping", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 39,
+"heading": "Distinction: Group Division vs Group Distribution",
+"back": "## Division (Unordered Piles)\nSimply forming $m$ equal groups requires dividing by $m!$ to prevent overcounting identical bundles. The groups lack distinct identities.\n\n## Distribution (Ordered Destinations)\nIf those $m$ equal groups are subsequently distributed to $m$ strictly distinct people (or uniquely labeled boxes), the groups gain identity based on who receives them. You must multiply the division formula strictly by $m!$.\n\n## Resulting Formula (Distribution)\nThe $m!$ terms algebraically cancel out, leaving exactly $\frac{(mn)!}{(n!)^m}$.",
+"mnemonic": "People provide position. (Multiply by m!)",
+"standardMeta": {
+"question": "When dividing distinct objects into equal groups, what is the strict mathematical distinction between just 'forming groups' versus 'distributing to distinct persons'?"
+}
+}
+},
+{
+"cardId": "d3390a04-5c98-4143-8ac4-e54380f87132",
+"originalOrder": 33,
+"originalHeading": "Unrestricted Distribution of Distinct Objects",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 40", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "distribution", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 40,
+"heading": "Unrestricted Distribution of Distinct Objects",
+"back": "## Component Anatomy\n- **$n$:** Number of entirely distinct objects (e.g., specific letters, distinct toys).\n- **$r$:** Number of distinct recipients/destinations (e.g., letterboxes, children).\n\n## Boundary Conditions / Domain\n- Unrestricted: Any recipient can logically receive any number of objects, strictly including zero.",
+"mnemonic": "Recipients to the power of Objects.",
+"formulaMeta": {
+"formula": "r^n",
+"description": "Formula for distributing n distinct objects among r distinct recipients with no limits on who gets what.",
+"derivation": "Take the first object. It logically has $r$ possible destinations. The second object also has $r$ independent destinations. By the Fundamental Principle of Counting, this iterates as $r \times r \times \dots \text{ (n times)} = r^n$."
+}
+}
+},
+{
+"cardId": "49410458-cca0-4ff5-94d3-d9aca89af8d0",
+"originalOrder": 34,
+"originalHeading": "Restricted Distribution of Distinct Objects (Max 1)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 41", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "distribution", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 41,
+"heading": "Restricted Distribution of Distinct Objects (Max 1 per Recipient)",
+"back": "## Component Anatomy\n- **$n$:** Number of distinct objects (e.g., prizes to be given out).\n- **$r$:** Number of strictly distinct recipients.\n\n## Boundary Conditions / Domain\n- $r \ge n$. No recipient can mathematically get more than exactly 1 object. If $n > r$, the distribution is impossible under this restriction (pigeonhole principle).",
+"formulaMeta": {
+"formula": "^{r}P_{n}",
+"description": "Formula for distributing n distinct objects among r distinct recipients where absolutely no recipient receives more than one object.",
+"derivation": "The first object has $r$ possible recipients. Because no one can receive two objects, the chosen recipient is eliminated, leaving the second object $(r-1)$ valid recipients. This strictly models permutation logic: $r \times (r-1) \times \dots \times (r-n+1) = ^{r}P_{n}$."
+}
+}
+},
+{
+"cardId": "bc9de31e-4c38-45ec-922c-a892590015a2",
+"originalOrder": 31,
+"originalHeading": "Distribution of Identical Objects (Blanks Allowed)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 42", "Double-escaped KaTeX"],
+"vettingNotes": "Stars and Bars foundational formula.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "distribution", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 42,
+"heading": "Stars and Bars: Distribution of Identical Objects (Blanks Allowed)",
+"back": "## Component Anatomy\n- **$n$:** Number of completely identical (indistinguishable) objects.\n- **$r$:** Number of distinct persons/bins.\n\n## Boundary Conditions / Domain\n- Each person can mathematically receive $0, 1, 2, \dots, n$ items.\n- Blanks (0 items) are strictly allowed.",
+"mnemonic": "Stars and Bars: n stars, r-1 bars.",
+"formulaMeta": {
+"formula": "^{n+r-1}C_{r-1}",
+"description": "Formula for distributing n identical items among r distinct persons where any person may receive zero items.",
+"derivation": "Use the 'Stars and Bars' method. To divide $n$ items into $r$ distinct bins, you need $(r-1)$ partitions (bars). The total linear positions are $n + (r-1)$. The problem simplifies to choosing the structural positions for the $(r-1)$ bars."
+}
+}
+},
+{
+"cardId": "c08298ee-f7c2-4300-b77a-f0e8c0a61e05",
+"originalOrder": 32,
+"originalHeading": "Distribution of Identical Objects (Blanks NOT Allowed)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 43", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "combinatorics", "distribution", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 43,
+"heading": "Stars and Bars: Distribution of Identical Objects (Blanks NOT Allowed)",
+"back": "## Component Anatomy\n- **$n$:** Number of completely identical objects.\n- **$r$:** Number of distinct persons/bins.\n\n## Boundary Conditions / Domain\n- $n \ge r$.\n- Every distinct person MUST receive at least 1 item strictly.",
+"mnemonic": "Give 1 to everyone first, then Stars and Bars.",
+"formulaMeta": {
+"formula": "^{n-1}C_{r-1}",
+"description": "Formula for distributing n identical items among r distinct persons such that absolutely nobody receives zero items.",
+"derivation": "1. Physically pre-distribute 1 item to each of the $r$ persons to immediately satisfy the 'no blanks' constraint.\n2. You now have exactly $(n-r)$ items left to distribute among the $r$ persons with blanks legally allowed.\n3. Apply the base Stars and Bars formula: $^{(n-r)+r-1}C_{r-1} = ^{n-1}C_{r-1}$."
+}
+}
+},
+{
+"cardId": "abc87b57-657b-42e0-8bf6-b857a18baa21",
+"originalOrder": 29,
+"originalHeading": "Derangement Formula D(n)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 44", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": ["mathematics", "combinatorics", "advanced", "class-11", "jee-main", "jee-advanced"],
+"order": 44,
+"heading": "Derangement Formula D(n)",
+"back": "## Component Anatomy\n- **$n$:** Total number of distinct objects and their strictly assigned corresponding positions (e.g., $n$ letters meant for $n$ specific envelopes).\n\n## Boundary Conditions / Domain\n- $n \ge 1$.\n- The outcome guarantees absolutely zero correct matches.",
+"mnemonic": "Factorial times the alternating inverse factorials.",
+"formulaMeta": {
+"formula": "D(n) = n! \left[ 1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \dots + \frac{(-1)^n}{n!} \right]",
+"description": "Formula for D(n), the total number of ways n objects can be arranged such that NONE occupy their original assigned places.",
+"derivation": "Derived using the advanced Principle of Inclusion-Exclusion. You subtract arrangements with at least 1 correct match, logically add back 2 correct matches (due to over-subtraction), subtract 3, and alternate signs until $n$."
+}
+}
+},
+{
+"cardId": "e362cc15-bb31-4448-a427-17edcd46f927",
+"originalOrder": 30,
+"originalHeading": "Partial Derangement",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 45", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "advanced", "class-11", "jee-main", "jee-advanced"],
+"order": 45,
+"heading": "Partial Derangement",
+"back": "## Component Anatomy\n- **$n$:** Total number of objects.\n- **$r$:** Exact number of objects that strictly MUST be in their correct/original places.\n- **$n-r$:** The remaining objects that must be completely deranged.\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$. If $r=n$, $D(0) = 1$. If $r=n-1$, $D(1) = 0$ (impossible for exactly one object to be wrong).",
+"formulaMeta": {
+"formula": "D(n, r) = ^{n}C_{r} \times D(n-r)",
+"description": "Formula to find the number of ways where exactly r objects occupy their original places, and the rest absolutely do not.",
+"derivation": "1. Select the $r$ specific objects that will go to their correct places ($^{n}C_{r}$ ways).\n2. Multiply by the full derangement of the remaining $(n-r)$ objects so none of them accidentally land in their correct spots."
+}
+}
+},
+{
+"cardId": "cbaf7368-5656-4e13-959c-6c0be358aa7a",
+"originalOrder": 46,
+"originalHeading": "The 'All or None' Excursion Trap",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 46", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 46,
+"heading": "The 'All or None' Group Selection Trap",
+"back": "## The Trap Constraint\nA subset of $k$ people out of $n$ available people make a strict pact: 'Either we ALL go, or NONE of us go' for a trip requiring a total team of exactly $r$ people.\n\n## Algorithm\nYou must strictly split the problem into two mutually exclusive mathematical cases and add the results.\n\n- **Case 1 (They ALL go):** Since $k$ slots are now forcibly occupied by the pact, you must select the remaining $(r-k)$ people from the $(n-k)$ unrestricted pool. $\implies ^{n-k}C_{r-k}$\n- **Case 2 (NONE go):** Since the $k$ people are forcibly banned, you must select the entire team of $r$ people purely from the $(n-k)$ unrestricted pool. $\implies ^{n-k}C_{r}$\n\n## Final Equation\nTotal Ways $= ^{n-k}C_{r-k} + ^{n-k}C_{r}$",
+"mnemonic": "Force them IN, then force them OUT. Add the results.",
+"standardMeta": {
+"question": "How do you mathematically model a selection problem where a specific group dictates an 'all of us go, or none of us go' condition?"
+}
+}
+},
+{
+"cardId": "4d8306a6-8f75-4305-8503-c98d014bd37f",
+"originalOrder": 44,
+"originalHeading": "Product of First n Even Natural Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 47", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "combinatorics", "algebra", "class-11", "jee-main", "jee-advanced", "ncert"],
+"order": 47,
+"heading": "Simplification: Product of First n Even Natural Numbers",
+"back": "## Component Anatomy\n- **$n$:** The number of even sequential terms being multiplied.\n- **$2^n$:** The algebraically extracted factor of 2 accumulated from each individual term.\n- **$n!$:** The remaining factorial sequence.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"formulaMeta": {
+"formula": "2 \cdot 4 \cdot 6 \dots 2n = 2^n \cdot n!",
+"description": "Algebraic simplification for the continuous product of the first n even natural numbers.",
+"derivation": "Write out the product explicitly as $(2 \cdot 1) \times (2 \cdot 2) \times (2 \cdot 3) \dots \times (2 \cdot n)$. Because they are multiplied (not added), you extract exactly one factor of $2$ from each of the $n$ parentheses, mathematically yielding $2^n$. This leaves behind the sequence $1 \cdot 2 \cdot 3 \dots n$, which strictly evaluates to $n!$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

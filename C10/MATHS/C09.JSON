@@ -1,0 +1,726 @@
+{
+"deckId": "a20e5b63-ba49-42e0-ae28-9cee1d8e7ca1",
+"cards": [
+{
+"cardId": "51bfbcd0-7c66-4768-ac08-368d22d1a1c7",
+"originalOrder": 1,
+"originalHeading": "Line of Sight",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected atmospheric boundary condition",
+"Refined classification to DEFINITION"
+],
+"vettingNotes": "Standardized the definition and added real-world constraints for advanced exams.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "geometry"],
+"order": 1,
+"heading": "Mathematical Definition: Line of Sight",
+"back": "## Definition\nThe straight, imaginary line drawn directly from the observer's eye to the specific point being viewed on the object.\n\n## Geometric Role\nIn any right-angled triangle application in this chapter, this line strictly forms the **hypotenuse**.\n\n## Boundary Conditions / Domain\n- Assumes a perfectly clear, unobstructed path in Euclidean space.\n- Ignores atmospheric refraction (which causes bending of light in reality), treating the line as perfectly straight.",
+"standardMeta": {
+"question": "What is the mathematical definition of the 'Line of Sight', and what geometric side does it invariably represent in standard height and distance problems?"
+}
+}
+},
+{
+"cardId": "e30dcb6a-6dde-4df5-8cb9-c219add8339d",
+"originalOrder": 2,
+"originalHeading": "Horizontal Level",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected flat earth assumption boundary condition"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "geometry"],
+"order": 2,
+"heading": "Reference Baseline: Horizontal Level",
+"back": "## Definition\nThe straight line passing through the observer's eye, perfectly parallel to the ground or surface.\n\n## Significance\nIt serves as the $0^\circ$ reference baseline from which both angles of elevation and angles of depression are exclusively measured.\n\n## Boundary Conditions / Domain\n- Assumes the Earth's surface is a perfectly flat, non-curved horizontal plane locally for the scope of the problem.",
+"standardMeta": {
+"question": "Define the 'Horizontal Level' in observational trigonometry and explain its strict role as a geometric reference baseline."
+}
+}
+},
+{
+"cardId": "7cae8a77-bae4-45ad-bc57-d4868f79690c",
+"originalOrder": 3,
+"originalHeading": "Angle of Elevation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added explicit angular domain restrictions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "angles"],
+"order": 3,
+"heading": "Geometric Concept: Angle of Elevation",
+"back": "## Definition\nThe angle formed between the Line of Sight and the Horizontal Level when the viewed object is strictly **above** the horizontal level (observer tilts head upwards).\n\n## Boundary Conditions / Domain\n- $\theta \in (0^\circ, 90^\circ)$. \n- At exactly $0^\circ$, there is no elevation (object is on the horizontal level).\n- At exactly $90^\circ$, the object is directly overhead (zenith), forming a degenerate triangle where $\tan 90^\circ$ is undefined.",
+"standardMeta": {
+"question": "What specifically constitutes an 'Angle of Elevation', and what are its standard angular domain boundaries in right-triangle trigonometry?"
+}
+}
+},
+{
+"cardId": "ae6e8eac-3655-4fe8-8299-7a1b9e5cdca9",
+"originalOrder": 4,
+"originalHeading": "Angle of Depression",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Added explicit angular domain restrictions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "angles"],
+"order": 4,
+"heading": "Geometric Concept: Angle of Depression",
+"back": "## Definition\nThe angle formed between the Line of Sight and the Horizontal Level when the viewed object is strictly **below** the horizontal level (observer tilts head downwards).\n\n## Boundary Conditions / Domain\n- $\theta \in (0^\circ, 90^\circ)$.\n- Measured strictly downward from the horizontal imaginary line, *not* from the vertical axis.",
+"standardMeta": {
+"question": "What specifically constitutes an 'Angle of Depression', and where must the object be located relative to the observer?"
+}
+}
+},
+{
+"cardId": "7ab4dc9d-a1b5-4fc6-8cf5-abbcf8af0ad1",
+"originalOrder": 6,
+"originalHeading": "Sun's Altitude Definition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up in cognitive sequence (order 5)",
+"Formatted text hierarchy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "class-10", "trigonometry", "terminology"],
+"order": 5,
+"heading": "Terminology: Sun's Altitude",
+"back": "## Explanation\nThe phrase 'altitude of the sun' is a common linguistic trap. It does **not** refer to a linear physical height (measured in meters or kilometers).\n\n## Trigonometric Meaning\nIt strictly refers to the **Angle of Elevation** ($\theta$) of the sun viewed from a point on the ground (e.g., from the tip of a shadow looking up at the sun).\n\n## Boundary Conditions / Domain\n- As the day progresses from sunrise to noon, the Sun's altitude (angle) strictly increases from $0^\circ$ towards $90^\circ$.",
+"standardMeta": {
+"question": "In trigonometry word problems, what does the phrase 'Sun's altitude' mathematically refer to, and what unit is it measured in?"
+}
+}
+},
+{
+"cardId": "e465e622-b719-46c2-b1d0-a571a227fbfe",
+"originalOrder": 27,
+"originalHeading": "Angle of Depression Drawing Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up significantly (order 6) to immediately follow definitions",
+"Changed classification to DISTINCTION"
+],
+"vettingNotes": "Crucial to teach this right after the concept to avoid the most common student error.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "geometry-trap"],
+"order": 6,
+"heading": "Visual Trap: Drawing the Angle of Depression",
+"back": "## The Common Error\nStudents frequently (and incorrectly) draw the angle of depression between the Line of Sight and the **vertical axis** (e.g., the wall or tower itself).\n\n## Mathematical Correction\nThe angle of depression must **strictly** be drawn between the Line of Sight and the imaginary **Horizontal Level** extending outwards from the observer's eye.\n\n## Mathematical Consequence of Error\nDrawing it against the vertical axis results in using the complementary angle $(90^\circ - \theta)$. This completely inverts the geometric relationships, swapping the Sine/Cosine functions or Tangent/Cotangent ratios, yielding an entirely incorrect answer.",
+"standardMeta": {
+"question": "When constructing a geometric diagram, what is the most common drawing trap involving the Angle of Depression, and what is its mathematical consequence?"
+}
+}
+},
+{
+"cardId": "371a9def-ce37-47d4-88a8-abe657b5ea7e",
+"originalOrder": 5,
+"originalHeading": "Converting Angle of Depression for Calculation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "geometry"],
+"order": 7,
+"heading": "Geometric Rule: Converting Angle of Depression",
+"back": "## The Rule\nThe angle of depression is measured from an upper horizontal reference line outside the main structural triangle.\n\n## The Conversion\nBecause the upper horizontal level at the observer's eye is perfectly parallel to the horizontal ground level, we apply the theorem of **Alternate Interior Angles**.\n\n## Result\nThe Angle of Depression exactly equals the Angle of Elevation from the object looking back up at the observer. This safely moves the angle *inside* the primary calculation triangle.",
+"standardMeta": {
+"question": "What specific parallel-line geometric property is used to securely convert an 'Angle of Depression' into an interior angle of a ground-based right triangle?"
+}
+}
+},
+{
+"cardId": "2c50161c-88e6-4c8a-b869-b1254b9abd32",
+"originalOrder": 26,
+"originalHeading": "The Observer Height Assumption Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up to foundational section (order 8)",
+"Refined textual hierarchy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-10", "trigonometry", "assumptions"],
+"order": 8,
+"heading": "Modeling Assumption: Observer Height Protocol",
+"back": "## The Implicit Boundary Condition\nIn NCERT/standard trigonometry problems, if the height of the observer is **not** explicitly stated, the observer must strictly be mathematically treated as a **point object** (height $= 0$). The horizontal level aligns perfectly with the ground.\n\n## The Explicit Shift\nIf the observer's height *is* given (e.g., 'a 1.5m tall boy'), the primary horizontal reference level shifts upwards by that exact amount.\n\nThe resulting right-angled calculation triangle is formed **above** the ground. \n\n*Critical Step:* This observer height must be algebraically added back at the very end to calculate total ground-to-top heights.",
+"mnemonic": "No height given? The eye is on the ground.",
+"standardMeta": {
+"question": "What is the strict mathematical protocol regarding the observer's height if it is completely omitted from a problem, and how does providing it shift the geometry?"
+}
+}
+},
+{
+"cardId": "f2e497ee-72ee-45ba-8614-562bb9bb500b",
+"originalOrder": 7,
+"originalHeading": "Proximity Rule for Angles of Elevation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to OBSERVATION",
+"Added explicit limit notation for limits"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": ["math", "class-10", "trigonometry", "limits"],
+"order": 9,
+"heading": "Dynamic Property: Proximity and Elevation Angles",
+"back": "## The Direct Rule\nAs an observer moves horizontally **closer** to a vertical object, the horizontal base $x$ approaches $0$, and the angle of elevation strictly **increases**.\n\nMathematically: $\lim_{x \to 0} \theta = 90^\circ$.\n\n## Inverse Application (Shadows)\nIf the shadow of a fixed vertical object is decreasing in length over time, the angle of elevation of the light source (sun) must be strictly increasing.",
+"standardMeta": {
+"question": "What is the strict dynamic relationship between an observer's horizontal proximity to a vertical tower and the resulting angle of elevation?"
+}
+}
+},
+{
+"cardId": "64fc4b84-ff97-454e-9038-51d66dce1d60",
+"originalOrder": 9,
+"originalHeading": "The Height Doubling Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added KaTeX formatting fixes"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "class-10", "trigonometry", "jee-main", "non-linear"],
+"order": 10,
+"heading": "Non-Linearity: The Height Doubling Trap",
+"back": "## The Trap\nIntuitively assuming that if the vertical height of a tower doubles (from $h$ to $2h$), the angle of elevation from a fixed ground point also doubles (from $\theta$ to $2\theta$).\n\n## Mathematical Reality\nThe tangent function is strictly **non-linear**. \nWhile the geometric ratio doubles ($\frac{2h}{x}$ vs $\frac{h}{x}$), the actual output angle $\theta$ does not scale linearly.\n\nTherefore: $2\tan \theta \neq \tan (2\theta)$.",
+"standardMeta": {
+"question": "If the physical height of a vertical tower is exactly doubled, does the angle of elevation from a fixed ground point also double? Why mathematically?"
+}
+}
+},
+{
+"cardId": "16e7f8ee-d320-49dc-855b-e7bb683e0b34",
+"originalOrder": 8,
+"originalHeading": "The 45-Degree Height-Shadow Rule",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Converted to FORMULA card type for strict mathematical relationship",
+"Added component anatomy and boundaries"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "shortcut"],
+"order": 11,
+"heading": "Theorem: The 45-Degree Isosceles Rule",
+"back": "## Component Anatomy\n- **Height:** Vertical opposite leg ($h$).\n- **Base/Shadow:** Horizontal adjacent leg ($x$).\n\n## Boundary Conditions / Domain\n- Strictly applies only when the angle of elevation or depression is exactly $45^\circ$.\n- Forms a perfect Isosceles Right Triangle.",
+"formulaMeta": {
+"formula": "\text{Height} = \text{Base} \implies h = x",
+"description": "The mathematical relationship between height and shadow when the elevation angle is exactly 45 degrees.",
+"derivation": "1. **Identify Ratio:** Use the standard trigonometric tangent ratio: $\\\tan \\\theta = \\\frac{\\\text{Opposite}}{\\\text{Adjacent}}$.\n2. **Substitute:** Plug in $45^\circ$: $\\\tan 45^\circ = \\\frac{\\\text{Height}}{\\\text{Base}}$.\n3. **Apply Identity:** We know mathematically that $\\\tan 45^\circ = 1$.\n4. **Solve:** $1 = \\\frac{\\\text{Height}}{\\\text{Base}} \\\implies \\\text{Height} = \\\text{Base}$."
+}
+}
+},
+{
+"cardId": "fdde56d3-2bfd-4e47-aff1-55aa99089738",
+"originalOrder": 22,
+"originalHeading": "SOP: Deducing Elevation Angle from Ratios",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Structured derivation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "ratios"],
+"order": 12,
+"heading": "Algorithmic SOP: Deducing Angles from Ratios",
+"back": "## Component Anatomy\n- **$k$:** A required mathematical proportionality constant representing actual physical scale (must not be zero).\n- **Ratio:** Given as height to shadow (e.g., $\sqrt{3} : 1$).\n\n## Boundary Conditions / Domain\n- Ratios completely cancel out physical units (meters, feet), leaving a pure dimensionless number.\n- The resulting fraction must fall within the range of the Tangent function $(0, \infty)$ for valid acute angles $(0^\circ, 90^\circ)$.",
+"formulaMeta": {
+"formula": "\tan \theta = \frac{\text{Height Ratio}}{\text{Shadow Ratio}}",
+"description": "Algebraic procedure to determine the angle of elevation if only the proportional ratio of an object's height to its shadow is provided.",
+"derivation": "1. **Assign Variables:** Convert the bare ratio into algebraic lengths using a non-zero constant $k$ (e.g., let Height = $k\\\sqrt{3}$, Shadow = $k$).\n2. **Apply Tangent:** Set up the standard trigonometric equation: $\\\tan \\\theta = \\\frac{\\\text{Opposite}}{\\\text{Adjacent}} = \\\frac{k\\\sqrt{3}}{k}$.\n3. **Cancel Constant:** Algebraically divide out $k$ ($k \\\neq 0$) to yield a pure numerical value: $\\\sqrt{3}$.\n4. **Inverse Lookup:** Match the resulting value to standard trigonometric table angles: $\\\tan \\\theta = \\\sqrt{3} \\\implies \\\theta = 60^\circ$."
+}
+}
+},
+{
+"cardId": "b0392511-f7a7-4bf7-a503-efde341bdc06",
+"originalOrder": 20,
+"originalHeading": "Theorem: Complementary Angles of Elevation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Clarified algebraic boundaries"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "identities", "boards"],
+"order": 13,
+"heading": "Identity Theorem: Complementary Angle Distances",
+"back": "## Component Anatomy\n- **$a$:** Distance of the first observation point from the base.\n- **$b$:** Distance of the second observation point from the base.\n- **$h$:** The unknown vertical height of the object.\n\n## Boundary Conditions / Domain\n- The two distinct observation points must lie strictly on the exact same linear horizontal plane extending from the base.\n- The two angles of elevation must mathematically sum to exactly $90^\circ$ (Complementary).\n- Height $h$ is strictly positive ($h > 0$).",
+"formulaMeta": {
+"formula": "h = \sqrt{ab}",
+"description": "Formula and algebraic proof for finding the height of a tower if angles of elevation from distances 'a' and 'b' are complementary.",
+"derivation": "1. **Setup Angles:** Let the two complementary angles be defined as $\\\theta$ and $(90^\circ - \\\theta)$.\n2. **Equation 1:** For distance $a$, write the ratio: $\\\tan \\\theta = \\\frac{h}{a}$.\n3. **Equation 2:** For distance $b$, write the ratio: $\\\tan(90^\circ - \\\theta) = \\\frac{h}{b}$.\n4. **Complementary Conversion:** Convert Equation 2 using the standard co-function identity $\\\tan(90^\circ - \\\theta) = \\\cot \\\theta$. Thus, $\\\cot \\\theta = \\\frac{h}{b}$.\n5. **Multiply Equations:** Multiply the LHS and RHS of both equations together: $(\\\tan \\\theta)(\\\cot \\\theta) = (\\\frac{h}{a})(\\\frac{h}{b})$.\n6. **Solve:** Since $\\\tan \\\theta \\\cdot \\\cot \\\theta = 1$, the equation simplifies to $1 = \\\frac{h^2}{ab} \\\implies h^2 = ab$. Taking the positive root (since height $> 0$), $h = \\\sqrt{ab}$."
+}
+}
+},
+{
+"cardId": "e31012cb-0027-451c-a90c-975f756965dc",
+"originalOrder": 28,
+"originalHeading": "The 30°-60° Distance Halving Theorem (JEE/Board Shortcut)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Added explicit system variables"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "shortcut", "jee-main"],
+"order": 14,
+"heading": "Shortcut Theorem: 30°-60° Distance Halving",
+"back": "## Component Anatomy\n- **$D_{\text{travelled}}$:** The horizontal distance covered as the elevation shifts from $30^\circ$ to $60^\circ$.\n- **$D_{\text{remaining}}$:** The remaining horizontal distance to the foot of the object.\n\n## Boundary Conditions / Domain\n- Strictly applies **only** when an object moves directly in a straight line towards/away from a vertical tower on a flat plane.\n- Angles strictly transition exactly between $30^\circ$ and $60^\circ$.\n- Time assumptions rely on constant, uniform velocity ($a = 0$).",
+"mnemonic": "From 30 to 60, the distance is cut in half.",
+"formulaMeta": {
+"formula": "D_{\text{travelled}} = 2 \times D_{\text{remaining}}",
+"description": "Direct proportional relationship between distance travelled and distance remaining when elevation shifts from 30 to 60 degrees.",
+"derivation": "1. **Total Distance ($30^\circ$):** Using the outer triangle, $D_{\\\text{total}} = \\\frac{h}{\\\tan 30^\circ} = h\\\sqrt{3}$.\n2. **Remaining Distance ($60^\circ$):** Using the inner triangle, $D_{\\\text{remaining}} = \\\frac{h}{\\\tan 60^\circ} = \\\frac{h}{\\\sqrt{3}}$.\n3. **Calculate Travelled:** $D_{\\\text{travelled}} = D_{\\\text{total}} - D_{\\\text{remaining}} = h\\\sqrt{3} - \\\frac{h}{\\\sqrt{3}}$.\n   Simplify by finding a common denominator: $\\\frac{3h - h}{\\\sqrt{3}} = \\\frac{2h}{\\\sqrt{3}}$.\n4. **Compare:** The travelled distance $\\\frac{2h}{\\\sqrt{3}}$ is exactly double the remaining distance $\\\frac{h}{\\\sqrt{3}}$.\n   *Corollary:* At uniform speed, the remaining time is exactly half of the travelled time."
+}
+}
+},
+{
+"cardId": "49066877-74c5-4505-8556-8595034a7e5e",
+"originalOrder": 11,
+"originalHeading": "SOP: The Broken Tree Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Refined boundary assumptions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype"],
+"order": 15,
+"heading": "Algorithmic SOP: The Broken Tree Archetype",
+"back": "## Component Anatomy\n- **Vertical Leg ($h$):** The portion of the tree/pole still standing upright.\n- **Hypotenuse ($x$):** The broken top resting diagonally against the ground.\n- **Base:** Distance from the root to where the top touches the ground.\n\n## Boundary Conditions / Domain\n- The break acts as a perfect mathematical hinge, preventing complete detachment.\n- Creates a closed, planar right-angled triangle with the horizontal ground.\n- Original height is strictly the sum of both the standing and broken segments.",
+"formulaMeta": {
+"formula": "\text{Total Height} = \text{Standing Part } (h) + \text{Broken Part } (x)",
+"description": "Procedure to find the original total height of a vertically snapped object forming a triangle with the ground.",
+"derivation": "1. **Sketch:** Draw a right triangle. The horizontal base is the ground, the vertical leg ($h$) is the standing trunk, and the hypotenuse ($x$) is the broken top.\n2. **Find Standing Part:** Given the base and angle $\\\theta$, use the tangent function: $\\\tan \\\theta = \\\frac{h}{\\\text{base}}$. Solve for $h$.\n3. **Find Broken Part:** Use the cosine function linking base and hypotenuse: $\\\cos \\\theta = \\\frac{\\\text{base}}{x}$ (or apply Pythagorean theorem). Solve for $x$.\n4. **Sum:** Add the vertical leg and the hypotenuse ($h + x$) to compute the original unbroken height."
+}
+}
+},
+{
+"cardId": "f8f9dee8-2f5c-4e2f-9a4a-c57f0a9c3941",
+"originalOrder": 12,
+"originalHeading": "SOP: The Slackless String / Ladder Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype"],
+"order": 16,
+"heading": "Algorithmic SOP: Slackless String & Ladders",
+"back": "## Component Anatomy\n- **Hypotenuse:** The physical ladder leaning on a wall, or a taut kite string.\n- **Opposite Side:** The vertical elevation/height (wall height or kite altitude).\n\n## Boundary Conditions / Domain\n- Assumes ideal mathematical physics: absolutely zero slack, bend, wind-curve, or stretching in the string/ladder. It must be a perfectly straight line.\n- The vertical wall is assumed perpendicular ($90^\circ$) to the ground.",
+"formulaMeta": {
+"formula": "\sin \theta = \frac{\text{Vertical Height}}{\text{Hypotenuse Length}}",
+"description": "Procedure for determining the required length of an angled hypotenuse given its vertical target height.",
+"derivation": "1. **Identify Hypotenuse:** Recognize that the physical slanted object (ladder/string) represents the hypotenuse of a standard right triangle.\n2. **Match Knowns:** If the vertical opposite height is given/target, strictly utilize the $\\\sin \\\theta$ ratio.\n3. **Set Up:** Write the equation $\\\sin \\\theta = \\\frac{\\\text{Height}}{x}$.\n4. **Calculate:** Substitute the known angle and isolate $x$ to solve for the object's length."
+}
+}
+},
+{
+"cardId": "64b5fabb-e400-4fb9-ab59-a3c1503d628f",
+"originalOrder": 29,
+"originalHeading": "Subtracted Target Height Archetype (The Electrician Problem)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up to group with single-triangle SOPs (order 17)",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Moved from the end of the deck to sit alongside single-triangle applications.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "edge-case"],
+"order": 17,
+"heading": "Algorithmic SOP: Subtracted Target Height Edge-Case",
+"back": "## Component Anatomy\n- **$H_{\text{total}}$:** The total physical height of the object described (e.g., a 5m pole).\n- **$c$:** The required clearance distance *below* the top apex (e.g., reaching 1.3m below the top).\n- **$h_{\text{triangle}}$:** The strictly derived perpendicular leg actually used inside the mathematical triangle.\n\n## Boundary Conditions / Domain\n- The observer, object, or ladder rests strictly on the calculated intermediate point $H - c$.\n- The clearance distance must be strictly less than the total height ($c < H$).",
+"formulaMeta": {
+"formula": "h_{\text{triangle}} = H_{\text{total}} - c_{\text{clearance}}",
+"description": "Procedural mathematical adjustment required when an observer/ladder targets a specific point below the apex of a vertical structure.",
+"derivation": "1. **Identify the Trap:** The problem provides the full structure height ($H$), but the functional target point is lower.\n2. **Calculate Active Height:** Algebraically subtract the required clearance distance from the total height before deploying any trigonometry (e.g., $5\\\text{m} - 1.3\\\text{m} = 3.7\\\text{m}$).\n3. **Apply Trig Ratio:** Insert this newly isolated active height ($3.7\\\text{m}$) as the true 'Opposite' leg in your standard $\\\sin$, $\\\cos$, or $\\\tan$ equations."
+}
+}
+},
+{
+"cardId": "1bff2f93-a0a1-4243-b75d-4865e574a519",
+"originalOrder": 25,
+"originalHeading": "Algorithmic Core: The Common Base Substitution",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up to act as the gateway for double-triangle SOPs (order 18)",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Crucial pedagogical gateway card before executing double-triangle word problems.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "core-algorithm", "algebra"],
+"order": 18,
+"heading": "Gateway Algorithm: Common Base Substitution",
+"back": "## Component Anatomy\n- **Common Boundary ($x$):** The specific geometric side identically shared by two overlapping or adjacent right triangles in a word problem.\n\n## Boundary Conditions / Domain\n- The two triangles must geometrically share exactly one common side (usually horizontal ground distance or a central vertical pole) with identical scalar length.\n- Irrational denominator roots (like $\sqrt{3}$) should strictly be rationalized at the *final* step of substitution, not prematurely, to avoid compounding rounding errors.",
+"formulaMeta": {
+"formula": "\begin{aligned} x &= f_1(h_1, \theta_1) \\ x &= f_2(h_2, \theta_2) \end{aligned} \implies f_1 = f_2",
+"description": "The universal algebraic SOP 'trick' used to solve nearly all complex, double-triangle height and distance problems.",
+"derivation": "1. **Identify Intersection:** Locate the one geometric side length completely shared by both triangles (let's call it $x$).\n2. **Isolate:** Write two separate trigonometric equations (one for each triangle). Algebraically isolate the common variable $x$ on the Left-Hand Side of BOTH equations.\n3. **Equate:** Set the two resulting algebraic expressions equal to each other.\n4. **Solve:** This substitution completely eliminates the unknown common base from the system, yielding a linear equation to directly solve for the primary target variable."
+}
+}
+},
+{
+"cardId": "41e61176-ba50-4d11-a536-403d44bfd4c0",
+"originalOrder": 13,
+"originalHeading": "SOP: The Surmounted Object Archetype (Flagstaff/Pedestal)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Converted standard array to \begin{aligned}"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 19,
+"heading": "Algorithmic SOP: The Surmounted Object (Flagstaff)",
+"back": "## Component Anatomy\n- **$h$:** Vertical height of the base object (e.g., building, pedestal).\n- **$d$:** Vertical height of the surmounted object (e.g., flagstaff, statue).\n- **$x$:** Common horizontal baseline distance to the observer.\n\n## Boundary Conditions / Domain\n- Both structural objects mathematically share the exact same vertical axis line perpendicular to the ground.\n- Angles of elevation to both tops are measured from a single, static point.",
+"formulaMeta": {
+"formula": "\begin{aligned} \tan \theta_1 &= \frac{h}{x} \\ \tan \theta_2 &= \frac{h + d}{x} \end{aligned}",
+"description": "Algebraic procedure to solve problems where one object is vertically stacked on top of another and viewed from a single ground point.",
+"derivation": "1. **Common Base:** Identify that the horizontal distance to the observer ($x$) is identically shared by both the small and large right triangles.\n2. **Lower Triangle:** Set up the tangent equation for the lower base object (height $h$) and isolate $x$: $x = \\\frac{h}{\\\tan \\\theta_1}$.\n3. **Upper Triangle:** Set up the tangent equation for the combined total height ($h+d$): $x = \\\frac{h+d}{\\\tan \\\theta_2}$.\n4. **Equate/Substitute:** Equate the two expressions for $x$ and solve the resulting algebraic system for the unknown heights."
+}
+}
+},
+{
+"cardId": "5957b6de-3d99-4906-bb86-bcbe33ec8f17",
+"originalOrder": 14,
+"originalHeading": "SOP: The Lengthening Shadow Archetype",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Setup Phase (Card 1) and Solution Phase (Card 2) to reduce cognitive bloat",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Split cognitive bloat into Setup & Variable assignment vs Algebraic Solving.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 20,
+"heading": "Algorithmic SOP: Lengthening Shadow (Part 1 - Geometric Setup)",
+"back": "## Component Anatomy\n- **$h$:** The constant vertical perpendicular height of the object.\n- **$x$:** The initial shadow length (shorter base).\n- **$d$:** The specific additional length the shadow physically grows (e.g., 40m longer).\n\n## Boundary Conditions / Domain\n- As the shadow physically lengthens ($x + d$), the angle of elevation strictly decreases.\n- The large angle pairs with the small base ($x$), and the small angle pairs with the large base ($x+d$).",
+"formulaMeta": {
+"formula": "\begin{aligned} \tan \theta_{\text{large}} &= \frac{h}{x} \\ \tan \theta_{\text{small}} &= \frac{h}{x + d} \end{aligned}",
+"description": "Setting up the geometric variables and initial equations for scenarios where a shadow lengthens due to solar shift.",
+"derivation": "1. **Identify the Core Geometry:** The scenario involves a single constant vertical height ($h$) but two different horizontal base lengths overlapping.\n2. **Setup Inner Triangle:** Use the larger angle of elevation. Formulate: $\\\tan \\\theta_{\\\text{large}} = \\\frac{h}{x}$.\n3. **Setup Outer Triangle:** Use the smaller angle of elevation. The total base is now the initial shadow plus the growth. Formulate: $\\\tan \\\theta_{\\\text{small}} = \\\frac{h}{x + d}$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 14,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from SPLIT of Lengthening Shadow Archetype"
+],
+"vettingNotes": "Part 2 of the Lengthening Shadow algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "algebra", "double-triangle"],
+"order": 21,
+"heading": "Algorithmic SOP: Lengthening Shadow (Part 2 - Algebraic Solution)",
+"back": "## Component Anatomy\n- **System:** $\tan \theta_{\text{large}} = \frac{h}{x}$ and $\tan \theta_{\text{small}} = \frac{h}{x+d}$.\n- **Target:** Usually identifying the height $h$.\n\n## Boundary Conditions / Domain\n- Ensure proper distribution when factoring out $h$ to avoid sign errors.",
+"formulaMeta": {
+"formula": "x = \frac{h}{\tan \theta_{\text{large}}} \implies \text{Substitute into Outer Equation}",
+"description": "Algebraic execution to solve the lengthening shadow system.",
+"derivation": "1. **Isolate Common Base:** From the inner triangle equation, isolate the initial unknown shadow $x$: $x = \\\frac{h}{\\\tan \\\theta_{\\\text{large}}}$.\n2. **Substitute:** Take the outer triangle equation $\\\tan \\\theta_{\\\text{small}} = \\\frac{h}{x + d}$ and replace $x$ with the isolated expression.\n3. **Clear Denominators:** Multiply both sides by the complex denominator to move all variables to the numerator line.\n4. **Solve:** Group all terms containing $h$ on one side, factor out $h$, and solve the resulting linear equation."
+}
+}
+},
+{
+"cardId": "79fa306b-0faf-467f-abd4-396cc7236558",
+"originalOrder": 15,
+"originalHeading": "SOP: Two Equal Poles with Intermediate Point",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Converted to \begin{aligned}",
+"Order shifted down to 22 due to split"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 22,
+"heading": "Algorithmic SOP: Opposite Equal Poles",
+"back": "## Component Anatomy\n- **$h$:** The mathematically identical height of both opposing poles.\n- **$D$:** Total width of the road/space strictly between the two poles.\n- **$x$:** Segmented distance from the observer to the base of Pole 1.\n- **$D - x$:** Remaining segmented distance to the base of Pole 2.\n\n## Boundary Conditions / Domain\n- The observer point must lie exactly on the linear horizontal segment connecting the bases of the two poles.\n- $0 < x < D$ strictly, meaning the observer is between them, not exactly on a pole.",
+"formulaMeta": {
+"formula": "\begin{aligned} \tan \theta_1 &= \frac{h}{x} \\ \tan \theta_2 &= \frac{h}{D - x} \end{aligned}",
+"description": "SOP for finding pole heights and segmented distances when an observer stands between two identical poles.",
+"derivation": "1. **Variable Split:** Let the total road width be $D$. Define the horizontal distance to the first pole as $x$. The horizontal distance to the second pole is therefore strictly $(D - x)$.\n2. **Set up Equations:** Write the tangent ratio for both triangles: $\\\tan \\\theta_1 = \\\frac{h}{x}$ and $\\\tan \\\theta_2 = \\\frac{h}{D-x}$.\n3. **Equate Heights:** Since the poles are identical, isolate $h$ in both equations: $h = x \\\tan \\\theta_1$ and $h = (D - x) \\\tan \\\theta_2$.\n4. **Set Equal & Solve:** Equate the two right-hand expressions, distribute, and solve for $x$. Finally, substitute $x$ back into either equation to calculate height $h$."
+}
+}
+},
+{
+"cardId": "a720a278-3a65-4ece-b610-d4b9caad256c",
+"originalOrder": 16,
+"originalHeading": "SOP: Top and Bottom Observation Archetype",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Decompose (Card 1) and Solve (Card 2)",
+"Double-escaped KaTeX",
+"Added explicit variable limits"
+],
+"vettingNotes": "Split due to heavy multi-step geometry and calculation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 23,
+"heading": "Algorithmic SOP: Top and Bottom Observation (Part 1 - Geometric Splitting)",
+"back": "## Component Anatomy\n- **$h$:** Height of the smaller building (observer's initial elevation point).\n- **$H$:** Total height of the opposing taller tower.\n- **$x$:** Constant horizontal distance strictly between them.\n\n## Boundary Conditions / Domain\n- Assumes both structural objects are perfectly vertically parallel and stand on the exact same planar horizontal ground level.\n- Total Tower Height strictly equals the sum of its split parts: $h + (H - h)$.",
+"formulaMeta": {
+"formula": "H_{\text{total}} = h_{\text{lower}} + h_{\text{upper}}",
+"description": "Procedure for geometrically decomposing a scenario where the top and bottom of a tower are viewed from an opposing elevated point.",
+"derivation": "1. **Horizontal Projection:** Draw an imaginary horizontal line outward from the observer's elevated eye level across to the taller opposing tower.\n2. **Decompose the Shape:** This projection visually bisects the space, creating an upper right triangle (for elevation), a lower right triangle (for depression), and a grounding rectangle.\n3. **Map the Rectangle:** Due to the rectangular properties, the lower portion of the opposing tower is mathematically identical to the observer's building height ($h$)."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 16,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from SPLIT of Top and Bottom Observation"
+],
+"vettingNotes": "Part 2 handling the mathematical solving execution.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "algebra", "double-triangle"],
+"order": 24,
+"heading": "Algorithmic SOP: Top and Bottom Observation (Part 2 - Solving Sequence)",
+"back": "## Component Anatomy\n- **Upper Triangle:** Contains angle of elevation and opposite side $(H - h)$.\n- **Lower Triangle:** Contains angle of depression and opposite side $h$.\n- **Common Base:** $x$.\n\n## Boundary Conditions / Domain\n- The angle of depression must be converted to an angle of elevation via Alternate Interior Angles to utilize the lower ground-based triangle.",
+"formulaMeta": {
+"formula": "H_{\text{total}} = h + \left(x \cdot \tan \theta_{\text{elevation}}\right)",
+"description": "Step-by-step mathematical execution to determine the total opposing tower height.",
+"derivation": "1. **Solve Lower Triangle:** Apply the converted angle of depression to the lower triangle where the opposite side ($h$) is known. Use $\\\tan \\\theta_{\\\text{dep}} = \\\frac{h}{x}$ to calculate the horizontal distance $x$.\n2. **Transfer Common Base:** Project this calculated distance $x$ up to act as the adjacent base for the upper triangle.\n3. **Solve Upper Triangle:** Use the angle of elevation and base $x$ to find the unknown upper segment of the tower: $\\\text{Upper Height} = x \\\cdot \\\tan \\\theta_{\\\text{elev}}$.\n4. **Sum for Total:** Algebraically add the calculated upper segment to the lower rectangular height $h$ to yield the final total height $H$."
+}
+}
+},
+{
+"cardId": "378839ed-6970-4eb0-96ad-2af227e22936",
+"originalOrder": 21,
+"originalHeading": "SOP: Bridge and Opposite River Banks Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Order shifted down to 25 due to splits"
+],
+"vettingNotes": "Final card in this 25-card micro-vetting batch.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 25,
+"heading": "Algorithmic SOP: Bridge and Opposite River Banks",
+"back": "## Component Anatomy\n- **$h$:** Known vertical perpendicular height of the bridge above the water surface.\n- **$x$:** Sub-horizontal distance from the perpendicular drop-point to Bank A.\n- **$y$:** Sub-horizontal distance from the perpendicular drop-point to Bank B.\n\n## Boundary Conditions / Domain\n- The physical width of the river is assumed to be a perfectly straight, flat horizontal line directly beneath the bridge.\n- The observer point must strictly lie between the horizontal planes of Bank A and Bank B (creating split triangles, not additive).",
+"formulaMeta": {
+"formula": "\text{Total Width} = \frac{h}{\tan \theta_1} + \frac{h}{\tan \theta_2}",
+"description": "Procedure to calculate the total width of a river when viewed centrally from a bridge above, given distinct angles of depression to opposite banks.",
+"derivation": "1. **Drop Perpendicular:** Mathematically drop a straight vertical line ($h$) from the bridge down to the water level. This splits the unknown river width into two distinct segments, $x$ and $y$.\n2. **Convert Angles:** Convert both given angles of depression to standard angles of elevation at the respective river banks using Alternate Interior Angles.\n3. **Solve Left Triangle:** Use $\\\tan \\\theta_1 = \\\frac{h}{x}$ to isolate and calculate segment $x$.\n4. **Solve Right Triangle:** Use $\\\tan \\\theta_2 = \\\frac{h}{y}$ to isolate and calculate segment $y$.\n5. **Sum:** Algebraically add the two base segments together ($x + y$) to yield the total linear width of the river."
+}
+}
+},
+{
+"cardId": "eddb6e7d-67bc-41f2-a94f-67704bb7800f",
+"originalOrder": 17,
+"originalHeading": "SOP: Two Objects on Same Line of Sight (Lighthouse)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Added explicit collinearity constraints"
+],
+"vettingNotes": "Adjusted boundary conditions to strictly enforce linear alignment.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "double-triangle"],
+"order": 26,
+"heading": "Algorithmic SOP: Collinear Objects (Lighthouse)",
+"back": "## Component Anatomy\n- **$h$:** Constant vertical perpendicular height of the observer (lighthouse).\n- **$x$:** Horizontal distance from base to the closer object.\n- **$y$:** Horizontal distance from base to the farther object.\n\n## Boundary Conditions / Domain\n- Both observed objects must lie strictly on the exact same planar straight line projecting outwards from the base of the lighthouse (Collinear).\n- Both objects must be on the **same side** of the lighthouse for subtraction to apply.",
+"formulaMeta": {
+"formula": "\text{Distance} = h \cot \theta_{\text{small}} - h \cot \theta_{\text{large}}",
+"description": "Procedural algorithm to compute the distance strictly between two collinear objects viewed from a single elevated point.",
+"derivation": "1. **Convert Angles:** Convert both provided angles of depression into base angles of elevation using the Alternate Interior Angles theorem.\n2. **Find Farther Distance:** Utilize the smaller angle of elevation (representing the farther ship). Formulate: $y = \\\frac{h}{\\\tan \\\theta_{\\\text{small}}} = h \\\cot \\\theta_{\\\text{small}}$.\n3. **Find Closer Distance:** Utilize the larger angle of elevation (representing the closer ship). Formulate: $x = \\\frac{h}{\\\tan \\\theta_{\\\text{large}}} = h \\\cot \\\theta_{\\\text{large}}$.\n4. **Subtract:** The exact distance separating the two ships is strictly the farther absolute distance minus the closer absolute distance ($y - x$)."
+}
+}
+},
+{
+"cardId": "7b1d1c9e-ab63-4f2b-964c-62de2e32d440",
+"originalOrder": 18,
+"originalHeading": "SOP: Horizontally Moving Target Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Refined boundary assumptions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "kinematics"],
+"order": 27,
+"heading": "Algorithmic SOP: Horizontally Moving Target",
+"back": "## Component Anatomy\n- **$h$:** The constant vertical perpendicular altitude of the object (e.g., a balloon or bird).\n- **Angles:** Initial elevation $\theta_1$, final elevation $\theta_2$.\n\n## Boundary Conditions / Domain\n- The object must move perfectly horizontally, maintaining an absolutely constant altitude $h$.\n- The observer's position must remain strictly static (no relative motion of the reference frame).",
+"formulaMeta": {
+"formula": "\text{Travel} = \frac{h}{\tan \theta_2} - \frac{h}{\tan \theta_1}",
+"description": "Algorithm to dynamically determine the horizontal distance travelled by an object maintaining constant altitude as its elevation angle shifts.",
+"derivation": "1. **Triangle 1 (Initial):** Construct a right triangle using the initial angle $\\\theta_1$ and constant vertical height $h$. Calculate the initial horizontal base distance: $x_1 = \\\frac{h}{\\\tan \\\theta_1}$.\n2. **Triangle 2 (Final):** Construct a second right triangle using the final angle $\\\theta_2$ and the exact same height $h$. Calculate the final horizontal base distance: $x_2 = \\\frac{h}{\\\tan \\\theta_2}$.\n3. **Calculate Travel:** Subtract the smaller horizontal base distance from the larger horizontal base distance ($|x_2 - x_1|$) to determine the actual linear distance the object displaced through the air."
+}
+}
+},
+{
+"cardId": "5568d089-c082-4be1-8282-039842814857",
+"originalOrder": 19,
+"originalHeading": "SOP: Uniform Speed and Time Archetype",
+"action": "SPLIT",
+"modificationsSummary": [
+"SPLIT into Phase 1 (Distance Algebra) and Phase 2 (Kinematics) to eliminate cognitive bloat",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Heavily split to decouple pure trigonometry from uniform kinematic relationships.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "archetype", "kinematics"],
+"order": 28,
+"heading": "Algorithmic SOP: Uniform Speed & Time (Part 1 - Distance Algebra)",
+"back": "## Component Anatomy\n- **$D_1$:** Total initial horizontal distance from the observer to the base.\n- **$D_2$:** Final remaining horizontal distance to the base.\n- **Travel Distance:** The absolute difference $D_1 - D_2$.\n\n## Boundary Conditions / Domain\n- The moving object is strictly approaching or receding linearly directly on the horizontal plane.\n- Calculations initially treat distance geometrically in terms of an unknown constant height $h$.",
+"formulaMeta": {
+"formula": "\text{Travelled Distance} = D_1 - D_2 = h \left( \frac{1}{\tan \theta_1} - \frac{1}{\tan \theta_2} \right)",
+"description": "Geometrically resolving the horizontal distances covered before applying any velocity/time calculations.",
+"derivation": "1. **Base Variables:** Let the vertical structure's height be $h$.\n2. **Initial Triangle:** Apply trigonometric ratios to define the initial total distance ($D_1$) algebraically in terms of $h$: $D_1 = \\\frac{h}{\\\tan \\\theta_1}$.\n3. **Final Triangle:** Apply ratios to define the new remaining distance ($D_2$) in terms of $h$: $D_2 = \\\frac{h}{\\\tan \\\theta_2}$.\n4. **Calculate Distance Covered:** Subtract the two algebraically derived bases to represent the physical linear distance travelled by the object: $(D_1 - D_2)$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 19,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created from SPLIT of Uniform Speed and Time Archetype"
+],
+"vettingNotes": "Part 2 focusing purely on the proportionality of constant velocity.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "class-10", "trigonometry", "kinematics", "proportionality"],
+"order": 29,
+"heading": "Algorithmic SOP: Uniform Speed & Time (Part 2 - Time Proportionality)",
+"back": "## Component Anatomy\n- **Time Ratio:** The dimensionless scalar linking time and distance.\n- **$v$:** Uniform velocity.\n\n## Boundary Conditions / Domain\n- Acceleration strictly equals zero ($a = 0$).\n- The object must move at a strictly constant, uniform velocity. If velocity is variable, trigonometric proportionality entirely breaks down.",
+"formulaMeta": {
+"formula": "t_{\text{remaining}} = \left( \frac{D_2}{D_1 - D_2} \right) \times t_{\text{travelled}}",
+"description": "Applying linear proportionality to determine remaining travel time without needing physical distance units.",
+"derivation": "1. **Speed Relationship:** Acknowledge the core kinematic rule: Since speed ($v$) is strictly uniform, Time ($t$) is directly proportional to Distance ($D$).\n2. **Isolate Ratio:** Mathematically construct the ratio of the remaining distance ($D_2$) to the already covered distance ($D_1 - D_2$). Note that the unknown height constant $h$ will cancel out perfectly.\n3. **Calculate Time:** Multiply this pure geometric ratio by the physically given time taken to cover the first segment ($t_{\\\text{travelled}}$) to accurately output the remaining time."
+}
+}
+},
+{
+"cardId": "e7f941be-7e87-4f04-a7b5-0f8fa1f64b92",
+"originalOrder": 10,
+"originalHeading": "The Parallax Method",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to APPLICATION",
+"Pushed to later in the deck as an advanced physical application"
+],
+"vettingNotes": "Enrichment card mapping basic 2D trigonometry to 3D celestial mechanics.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "physics", "real-life"],
+"order": 30,
+"heading": "Real-World Application: The Parallax Method",
+"back": "## Application\nStrictly utilized by astronomers and physicists to measure vast, physically uncrossable distances to celestial bodies (stars, planets).\n\n## Core Mechanism\nIt involves viewing a single distant object from two distinct, widely separated observation positions on Earth (forming a massive baseline).\n\nThe resulting 'parallax angle' is strictly defined as half the total angle formed between the two converging lines of sight.\n\n## Trigonometric Use\nBy combining this measured angle with the known linear baseline distance between the two observation points, trigonometric ratios directly calculate celestial distance without any physical measurement.",
+"standardMeta": {
+"question": "What is the 'Parallax Method' in the context of advanced trigonometric applications, and what specific type of distance is it primarily engineered to measure?"
+}
+}
+},
+{
+"cardId": "dc6a129a-d144-4307-8ccf-20be0e0d438a",
+"originalOrder": 23,
+"originalHeading": "Real-Life Application: Navigation and Bearings",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified language around vector components"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "class-10", "trigonometry", "real-life", "vectors"],
+"order": 31,
+"heading": "Real-World Application: GPS & Bearing Vectors",
+"back": "## Core Concept\nShips, aircraft, and modern GPS algorithms fundamentally execute trigonometry to continuously calculate the shortest viable route between two points and course-correct against drift (e.g., wind, currents).\n\n## Mechanism\nUsing a known physical scalar distance and a specific 'bearing' (an angle of direction relative to true North), navigational systems decompose their linear movement into two strictly independent vector components (forward/North and sideways/East) by utilizing foundational Sine and Cosine functions.",
+"standardMeta": {
+"question": "Outside of basic vertical height measurements, how are trigonometric ratios fundamentally utilized in modern navigation and GPS pathing algorithms?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

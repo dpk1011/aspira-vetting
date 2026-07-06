@@ -1,0 +1,1492 @@
+{
+"deckId": "8237c02a-1dc0-40a4-90c0-496eef4f3e31",
+"cards": [
+{
+"cardId": "f18b22b9-a63f-4c04-a1cb-28d24d3197b1",
+"originalOrder": 1,
+"originalHeading": "Anatomy of a Double-Napped Cone",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized definition structure", "Added explicit domain context"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 1,
+"heading": "Anatomy of a Double-Napped Cone",
+"back": "## Core Anatomical Components\n- **Vertical Axis ($l$):** The fixed straight central vertical line about which rotation occurs.\n- **Generator ($m$):** The intersecting straight line that dynamically rotates around the vertical axis at a constant angle.\n- **Vertex ($V$):** The fixed point of geometric intersection between the vertical axis and the generator.\n- **Semi-Vertical Angle ($\alpha$):** The strictly constant angle geometrically formed between the vertical axis and the generator.\n- **Nappes:** The two hollow cone volumes separated exactly at the vertex (producing an upper nappe and a lower nappe).",
+"standardMeta": {
+"question": "What are the core anatomical components and critical angles that mathematically define a double-napped right circular cone?"
+}
+}
+},
+{
+"cardId": "0ba266b8-ff50-4b2b-9e2a-8f6de83c0865",
+"originalOrder": 6,
+"originalHeading": "Degenerated Conics at the Vertex",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to logically follow cone definition", "Standardized mathematical boundaries"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 2,
+"heading": "Degenerated Conics (Vertex Intersection)",
+"back": "## Boundary Cases (Plane through Vertex)\n- **Point:** Occurs strictly when $\alpha < \beta \leq 90^{\circ}$. The plane cuts purely at the exact vertex node, reducing what would be a circle or ellipse into a zero-dimensional single point.\n- **Straight Line:** Occurs strictly when $\beta = \alpha$. The cutting plane perfectly contains the generator line on the nappe surface, geometrically flattening the parabola locus into a single 1D line.\n- **Intersecting Lines:** Occurs strictly when $0 \leq \beta < \alpha$. The plane cuts vertically across the vertex through both nappes, reducing the hyperbola's dual curves into a pair of perfectly intersecting straight lines.",
+"mnemonic": "Point from Ellipse, Line from Parabola, Cross from Hyperbola",
+"standardMeta": {
+"question": "What three mathematically degenerated geometric loci are formed when the cutting plane strictly passes through the vertex of the double-napped cone?"
+}
+}
+},
+{
+"cardId": "af05bc8a-a9a8-423f-b9dd-f3bbc71f0598",
+"originalOrder": 2,
+"originalHeading": "Section Angle Condition: Circle",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX", "Explicit boundary condition added"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 3,
+"heading": "Section Angle Condition: Circle",
+"back": "## Component Anatomy\n- **$\beta$**: The intersection angle made by the flat cutting plane with the fixed vertical axis of the cone.\n- **$\alpha$**: The constant semi-vertical angle of the cone itself.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The intersecting plane strictly MUST NOT pass through the vertex (which would degenerate the circle into a single point).\n- The resulting plane is perfectly orthogonal to the central vertical axis.",
+"formulaMeta": {
+"formula": "\\beta = 90^{\\circ}",
+"description": "States the precise angular condition for a 2D plane intersecting a 3D cone to mathematically form a Circle locus.",
+"derivation": "When the intersecting geometric plane is exactly perpendicular (normal) to the vertical axis of rotation, the symmetric cross-section formed on a single nappe is a perfect circle with constant radial distance from the axis."
+}
+}
+},
+{
+"cardId": "9e8a6f1d-c827-4a18-8433-c08670d7d2d9",
+"originalOrder": 3,
+"originalHeading": "Section Angle Condition: Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX", "Explicit boundary conditions formalized"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 4,
+"heading": "Section Angle Condition: Ellipse",
+"back": "## Component Anatomy\n- **$\beta$**: The exact angle of the intersecting flat plane against the vertical axis.\n- **$\alpha$**: The fixed semi-vertical angle of the underlying cone.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The plane MUST NOT pass directly through the vertex (which would degenerate it into a single point).\n- The plane must physically cut entirely across exactly *one* closed nappe, forming a bounded continuous locus.",
+"formulaMeta": {
+"formula": "\\alpha < \\beta < 90^{\\circ}",
+"description": "States the strict continuous angular inequality condition for a plane intersecting a cone to form an Ellipse.",
+"derivation": "Geometrically, the cutting plane is tilted away from the horizontal normal but is mathematically constrained (steeper than the generator angle $\alpha$) so that it still cleanly slices completely through opposite sides of a single nappe without breaking open."
+}
+}
+},
+{
+"cardId": "c34f7cb5-c46a-4b7c-888a-66c150609b57",
+"originalOrder": 4,
+"originalHeading": "Section Angle Condition: Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX", "Expanded boundary logic"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 5,
+"heading": "Section Angle Condition: Parabola",
+"back": "## Component Anatomy\n- **$\beta$**: The exact intersection angle of the cutting plane with the vertical axis.\n- **$\alpha$**: The constant semi-vertical angle of the cone.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The plane MUST NOT intersect the vertex (which would degenerate the parabola into a singular straight line).\n- The resultant curve is completely open and unbounded on one side.",
+"mnemonic": "Parallel to the generator",
+"formulaMeta": {
+"formula": "\\beta = \\alpha",
+"description": "States the strict geometric angular identity for a plane intersecting a cone's nappe to mathematically form a Parabola.",
+"derivation": "The cutting plane is oriented perfectly parallel to exactly one of the slant generator lines on the cone's surface. Because they remain mathematically parallel, they never intersect on the opposite side, forcing the section to open up infinitely across one single nappe."
+}
+}
+},
+{
+"cardId": "205a0173-b6a2-4089-b6f4-d0c8dc704010",
+"originalOrder": 5,
+"originalHeading": "Section Angle Condition: Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX", "Emphasized dual-nappe intersection boundary"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 6,
+"heading": "Section Angle Condition: Hyperbola",
+"back": "## Component Anatomy\n- **$\beta$**: The exact intersection angle of the cutting plane against the vertical axis.\n- **$\alpha$**: The fixed semi-vertical angle of the double cone.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The plane MUST NOT pass through the vertex (which would mathematically degenerate the locus into two intersecting cross lines).\n- Because $\beta < \alpha$, the plane is geometrically forced to cut through BOTH the upper and lower nappes simultaneously, forming two disconnected unbounded curves.",
+"formulaMeta": {
+"formula": "0 \\leq \\beta < \\alpha",
+"description": "States the strict continuous angular inequality condition for a plane to form a Hyperbola locus upon intersection.",
+"derivation": "The geometric cutting plane is extremely steep (its angle with the vertical axis is less than the cone's slant angle). Consequently, it slices into both halves of the infinite double-napped cone, generating the distinct symmetric branches of a hyperbola."
+}
+}
+},
+{
+"cardId": "e892d0f0-1a99-4431-840b-53f52e26e274",
+"originalOrder": 7,
+"originalHeading": "Geometric Definition of a Circle",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DEFINITION", "Formalized mathematical locus wording"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "circle", "jee-main", "class-11"],
+"order": 7,
+"heading": "Geometric Locus Definition of a Circle",
+"back": "## Geometric Definition\nA circle is precisely defined as the mathematical locus (set) of all continuous points in a 2D Euclidean plane that strictly maintain a constant, equidistant separation from one distinct fixed point within that identical plane.\n\n## Anatomical Components\n- **Centre**: The fixed reference coordinate point.\n- **Radius**: The constant, rigidly maintained scalar distance.",
+"standardMeta": {
+"question": "What is the formal and precise geometric locus definition of a Circle in a two-dimensional plane?"
+}
+}
+},
+{
+"cardId": "2f81cb77-933f-4f75-bd34-ec54c7eaa467",
+"originalOrder": 8,
+"originalHeading": "Centre-Radius Form of a Circle",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Added strict radius > 0 constraint"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "circle", "jee-main", "class-11"],
+"order": 8,
+"heading": "Standard Centre-Radius Form of a Circle",
+"back": "## Component Anatomy\n- **$(x, y)$**: Variables representing any dynamic coordinate point perfectly lying on the circle locus.\n- **$(h, k)$**: The fixed central coordinates of the circle.\n- **$r$**: The strictly fixed geometric radius.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $r > 0$. \n- If $r = 0$, the algebraic equation physically degenerates into a single point coordinate $(h,k)$.\n- The value $(x - h)^2 + (y - k)^2$ can never be negative in the real plane.",
+"formulaMeta": {
+"formula": "(x - h)^2 + (y - k)^2 = r^2",
+"description": "Standard Cartesian algebraic equation modeling a circle given its exact geometric centre and radial length.",
+"derivation": "This is a direct application of the Euclidean Distance Formula. The absolute spatial distance between a dynamic point $(x,y)$ and the rigid centre $(h,k)$ is constrained to identically equal $r$. Squaring both sides of $\sqrt{(x-h)^2 + (y-k)^2} = r$ completely removes the radical."
+}
+}
+},
+{
+"cardId": "bb1a791c-ffd0-4e6b-8e78-a2076c1a3117",
+"originalOrder": 9,
+"originalHeading": "SOP: General Equation of a Circle",
+"action": "SPLIT",
+"modificationsSummary": ["Split formula from procedural proof", "Classified as CONCEPT", "Double-escaped LaTeX multi-line formatting"],
+"vettingNotes": "Formula card isolated for quick review of properties.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "circle", "jee-main", "class-11"],
+"order": 9,
+"heading": "General Equation of a Circle",
+"back": "## Component Anatomy\n- **$g, f$**: Exactly half the algebraic coefficients of the linear $x$ and $y$ terms, respectively.\n- **$c$**: The constant numerical term.\n\n## Boundary Conditions / Domain\n- The scalar coefficients attached to $x^2$ and $y^2$ MUST be perfectly equal (and non-zero, commonly normalized strictly to 1).\n- The equation MUST NEVER contain a cross-product $xy$ term.\n- **Real Circle Constraint:** $g^2 + f^2 - c > 0$. If $= 0$, it is a point circle. If $< 0$, the radius is strictly imaginary.",
+"mnemonic": "Centre strictly flips the signs, Radius takes the square root",
+"formulaMeta": {
+"formula": "\\begin{aligned} &x^2 + y^2 + 2gx + 2fy + c = 0 \\ &\\text{Centre} = (-g, -f) \\ &\\text{Radius} = \\sqrt{g^2 + f^2 - c} \\end{aligned}",
+"description": "The standardized expanded polynomial equation of a circle, along with the direct formulas to extract its geometry.",
+"derivation": "Derived via algebraic expansion of the standard centre-radius form and matching equivalent coefficients."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 9,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created procedural SOP card for completing the square on the general circle equation"],
+"vettingNotes": "SOP isolated to prevent cognitive bloat on the formula card.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "circle", "jee-advanced", "class-11"],
+"order": 10,
+"heading": "SOP: Deriving Centre/Radius from General Equation",
+"back": "## Component Anatomy\n- **$x^2 + y^2 + 2gx + 2fy + c = 0$**: The base equation to convert.\n- **$(x-h)^2 + (y-k)^2 = r^2$**: The target format to extract variables.\n\n## Boundary Conditions / Domain\n- Verify coefficients of $x^2$ and $y^2$ are 1 before starting. If they are $A$, divide the entire equation by $A$ first.",
+"formulaMeta": {
+"formula": "(x+g)^2 + (y+f)^2 = g^2 + f^2 - c",
+"description": "The algebraic procedure to convert a general circle equation strictly back into standard centre-radius form using completion of squares.",
+"derivation": "**Standard Operating Procedure:**\n1. Algebraically group the $x$ terms and $y$ terms, and move the constant to the RHS: $(x^2 + 2gx) + (y^2 + 2fy) = -c$.\n2. Execute strict 'Completion of the Square' by adding $(2g/2)^2 = g^2$ and $(2f/2)^2 = f^2$ simultaneously to both sides.\n3. The equation cleanly collapses into: $(x+g)^2 + (y+f)^2 = g^2 + f^2 - c$.\n4. Map this identically to $(x-h)^2 + (y-k)^2 = r^2$ to instantly determine centre $(-g, -f)$ and radius $\sqrt{g^2 + f^2 - c}$."
+}
+}
+},
+{
+"cardId": "ecc4831a-b444-428d-9d18-abee7c15fe22",
+"originalOrder": 10,
+"originalHeading": "Circle Touching Both Axes",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Explicit modulus boundaries added"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "circle", "jee-main", "class-11"],
+"order": 11,
+"heading": "Equation of Circle Touching Both Cartesian Axes",
+"back": "## Component Anatomy\n- **$a$**: The strict fixed magnitude of the circle's radius.\n- **$(a, a)$**: The centre coordinate of the circle (assuming it resides strictly in the 1st geometric quadrant).\n\n## Boundary Conditions / Domain\n- The absolute magnitude of both the centre's $x$ and $y$ coordinates must strictly equal the exact radius: $|h| = |k| = r$.\n- If located in other quadrants, the signs of the centre adapt (e.g., $(-a, a)$ for Q2), modifying the inner signs of the algebraic equation.",
+"formulaMeta": {
+"formula": "(x - a)^2 + (y - a)^2 = a^2",
+"description": "Standard equation of a circle strictly situated in Quadrant I that is geometrically tangent to both the x and y axes.",
+"derivation": "Geometrically, if the circle perfectly touches the y-axis, the horizontal distance to the centre equals the radius ($h=a$). Simultaneously, if it touches the x-axis, the vertical distance equals the radius ($k=a$). Substituting $(a,a)$ strictly into the centre-radius form generates the equation."
+}
+}
+},
+{
+"cardId": "79b48e98-ea59-4d13-a776-262114e5d2b3",
+"originalOrder": 60,
+"originalHeading": "SOP: Circle Circumscribing Axis Intercept Triangle",
+"action": "SPLIT",
+"modificationsSummary": ["Moved to Order 12 to group with circle theorems", "Classified as APPLICATION", "Split derivation to new card", "Double-escaped KaTeX"],
+"vettingNotes": "Moved from EOF to group with Circle properties. Split to reduce bloat.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "circle", "jee-advanced", "class-11"],
+"order": 12,
+"heading": "Circumcircle of Axes Intercept Triangle",
+"back": "## Component Anatomy\n- **$l, m$**: The strictly given algebraic constants of the bounding straight line $lx + my = 1$.\n- **$x=0, y=0$**: The fixed standard coordinate axes acting as the remaining two boundaries.\n\n## Boundary Conditions / Domain\n- The base line $lx + my = 1$ MUST strictly intersect both standard axes (neither $l$ nor $m$ can physically evaluate to $0$).",
+"mnemonic": "The strict hypotenuse forms the exact diameter",
+"formulaMeta": {
+"formula": "x^2 + y^2 - \\frac{1}{l}x - \\frac{1}{m}y = 0",
+"description": "Algebraic equation of the unique circle perfectly circumscribing the right-angled triangle formed between the coordinate axes and a general line.",
+"derivation": "Because the axes always form a $90^{\circ}$ angle at the origin, the resulting triangle is right-angled. Basic geometry dictates the circumcircle's diameter is exactly the hypotenuse (the line segment between the axes intercepts)."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 60,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card for Circumcircle of Intercept Triangle derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "circle", "jee-advanced", "class-11"],
+"order": 13,
+"heading": "SOP: Deriving Circumcircle of Intercept Triangle",
+"back": "## Component Anatomy\n- **Diametric Form**: $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$.\n\n## Boundary Conditions / Domain\n- Only valid for strictly right-angled triangles where the right angle rests natively on the circle's circumference (Thales's Theorem).",
+"formulaMeta": {
+"formula": "(x - \\frac{1}{l})(x - 0) + (y - 0)(y - \\frac{1}{m}) = 0",
+"description": "Algorithmic proof generating the circumcircle equation using the diametric endpoints of the hypotenuse.",
+"derivation": "**Standard Operating Procedure:**\n1. Confirm the triangle is strictly right-angled at the origin node $(0,0)$.\n2. By standard circle theorems, the circumcircle of a right triangle possesses the hypotenuse as its exact diameter.\n3. Algebraically calculate the endpoints of the hypotenuse (the line's axes intercepts): set $y=0$ to get $(1/l, 0)$, set $x=0$ to get $(0, 1/m)$.\n4. Apply the standard diametric form of a circle equation: $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$.\n5. Expand $(x - 1/l)(x) + (y)(y - 1/m) = 0$ strictly to yield $x^2 - x/l + y^2 - y/m = 0$."
+}
+}
+},
+{
+"cardId": "fae61299-ed6a-46c9-8858-e38fd5eee9c4",
+"originalOrder": 37,
+"originalHeading": "Condition of Tangency (Line to Circle)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 14", "Classified as APPLICATION", "Double-escaped LaTeX", "Clarified center origin requirement"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "circle", "jee-main", "class-11"],
+"order": 14,
+"heading": "Condition of Tangency (Line to Origin Circle)",
+"back": "## Component Anatomy\n- **$c$**: The algebraic Y-intercept of the testing line $y = mx + c$.\n- **$m$**: The defined slope of the line.\n- **$r$**: The constant radius of the target circle $x^2 + y^2 = r^2$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This specific formula is ONLY valid if the circle is perfectly centred precisely at the origin $(0,0)$. If the center is shifted to $(h,k)$, the $y$ and $x$ components in the line equation must be adjusted before solving for distance.",
+"formulaMeta": {
+"formula": "c = \\pm r\\sqrt{1 + m^2}",
+"description": "States the strict algebraic condition bounding the y-intercept $c$ for the line $y = mx + c$ to act as a perfect tangent to the standard circle.",
+"derivation": "Geometrically, a straight line solely touches a circle if and only if the absolute perpendicular shortest distance from the centre $(0,0)$ to the given line equation $mx - y + c = 0$ is exactly mathematically equal to the radius.\nSetting up the distance formula: $\frac{|c|}{\sqrt{m^2 + (-1)^2}} = r$, which algebraically isolates to the final $c$ formula."
+}
+}
+},
+{
+"cardId": "d56c79de-8a45-4d11-8656-d1e5d755897e",
+"originalOrder": 41,
+"originalHeading": "Director Circle of a Circle",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 15", "Classified as APPLICATION", "Double-escaped LaTeX", "Strengthened locus explanation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "circle", "jee-advanced", "class-11"],
+"order": 15,
+"heading": "Director Circle Locus",
+"back": "## Component Anatomy\n- **$r$**: The rigid radius of the original base circle.\n- **$2r^2$**: The exact square of the newly generated Director Circle's radius (meaning $r_{\text{new}} = r\sqrt{2}$).\n\n## Boundary Conditions / Domain\n- The original base circle MUST be exactly $x^2 + y^2 = r^2$ (centered at origin) for this exact equation to apply. If shifted, the Director Circle shifts concentrically by the exact same vector.",
+"mnemonic": "Radius expands exactly by Root 2",
+"formulaMeta": {
+"formula": "x^2 + y^2 = 2r^2",
+"description": "States the geometric equation of the Director Circle, defined as the continuous locus of all coordinate points from which two strictly perpendicular tangents can be drawn to the original circle.",
+"derivation": "The arbitrary point of intersection $(x,y)$ of two strictly perpendicular tangents drawn to a circle mathematically forms a perfect square alongside the origin $(0,0)$ and the two points of tangency.\nThe spatial diagonal stretching from the origin to $(x,y)$ represents the new radius. Its length is $\sqrt{r^2 + r^2} = r\sqrt{2}$. Squaring this yields a new circle equation with constant $2r^2$."
+}
+}
+},
+{
+"cardId": "6499c765-25af-4e01-abf6-5ff12e5e490b",
+"originalOrder": 51,
+"originalHeading": "General Focus-Directrix (Eccentricity) Equation",
+"action": "SPLIT",
+"modificationsSummary": ["Moved to order 16 as universal foundation", "Classified as CONCEPT", "Double-escaped LaTeX", "Split heavy derivation"],
+"vettingNotes": "Moved before individual conic explorations as the universal master equation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 16,
+"heading": "Universal Conic Focus-Directrix Equation",
+"back": "## Component Anatomy\n- **$(h,k)$**: The absolute fixed coordinate point representing the Focus.\n- **$Ax + By + C = 0$**: The strictly fixed straight line representing the Directrix.\n- **$e$**: The scalar Eccentricity.\n- **$(x,y)$**: Any arbitrary coordinate dynamically moving along the conic.\n\n## Boundary Conditions / Domain\n- **Parabola:** $e = 1$.\n- **Ellipse:** $0 < e < 1$.\n- **Hyperbola:** $e > 1$.",
+"formulaMeta": {
+"formula": "\\sqrt{(x-h)^2 + (y-k)^2} = e \\left| \\frac{Ax + By + C}{\\sqrt{A^2 + B^2}} \\right|",
+"description": "The master algebraic locus equation mathematically unifying all standard conic sections utilizing their focus, directrix, and geometric eccentricity.",
+"derivation": "Derived explicitly from the universal definition of a conic: the ratio of spatial distance from a locus point to the focus ($PF$) versus the perpendicular distance to the directrix ($PM$) strictly equals the constant $e$ ($PF / PM = e$)."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 51,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card for expanding Focus-Directrix into General 2nd Degree"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "geometry", "jee-advanced", "class-11"],
+"order": 17,
+"heading": "SOP: Expanding to General 2nd-Degree Equation",
+"back": "## Component Anatomy\n- **$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$**: The resulting standardized expanded form.\n\n## Boundary Conditions / Domain\n- The directrix line MUST NOT pass strictly through the focus coordinate $(h,k)$. If it does, the mathematical locus degenerates entirely into a pair of straight lines (real, coincident, or imaginary).",
+"formulaMeta": {
+"formula": "(x-h)^2 + (y-k)^2 = e^2 \\frac{(Ax + By + C)^2}{A^2 + B^2}",
+"description": "The procedural step of converting the radical focus-directrix locus into a general second-degree polynomial.",
+"derivation": "**Standard Operating Procedure:**\n1. Establish the universal definition constraint: $PF = e \cdot PM$.\n2. Substitute the Euclidean distance formula for $PF$ and the perpendicular line-distance formula for $PM$.\n3. Geometrically square both entire sides to completely eliminate all algebraic radicals and absolute value operators.\n4. Expand the resulting binomials and trinomials, forcefully grouping the like coefficients to structure the classic $ax^2 + 2hxy + by^2 + ... = 0$ form."
+}
+}
+},
+{
+"cardId": "0cd46f1b-80a5-451d-ab32-14ff96303adc",
+"originalOrder": 59,
+"originalHeading": "General 2nd-Degree Equation: Parabola Condition",
+"action": "MODIFIED",
+"modificationsSummary": ["Moved to Order 18 to follow general equation", "Classified as OBSERVATION", "Double-escaped LaTeX", "Expanded to include Ellipse and Hyperbola bounds"],
+"vettingNotes": "Expanded discriminant bounds for complete pedagogical coverage.",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 18,
+"heading": "Conic Identification (Discriminant Condition)",
+"back": "## Component Anatomy\n- **$a, h, b$**: Extracted strictly from the 2nd-degree $x^2$, $xy$, and $y^2$ terms of $ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$.\n*(Note: NCERT sometimes uses $b^2-4ac$ ignoring $2h$, but standard JEE notation uses $h^2 - ab$. Assume $h^2 - ab$ notation here).* \n\n## Boundary Conditions / Domain\n- **Strict Prerequisite:** The primary determinant of the entire conic matrix ($\Delta$) MUST be strictly non-zero ($abc + 2fgh - af^2 - bg^2 - ch^2 \neq 0$). If $\Delta = 0$, the equation degenerates into lines.\n- **Parabola:** $h^2 - ab = 0$.\n- **Ellipse:** $h^2 - ab < 0$.\n- **Hyperbola:** $h^2 - ab > 0$.",
+"mnemonic": "Parabola sits perfectly at zero boundary.",
+"formulaMeta": {
+"formula": "h^2 - ab = 0",
+"description": "States the strict algebraic discriminant condition on the coefficients of a general second-degree equation for it to geometrically represent a Parabola.",
+"derivation": "In conic classification geometry, the asymptotic structural nature of the curve is strictly dominated by the quadratic terms. If the discriminant evaluates exactly to zero, the conic touches the rigid boundary between elliptical (closed) and hyperbolic (open/multi-branch) behavior."
+}
+}
+},
+{
+"cardId": "e0a7ecfc-c627-4797-b0d6-c8d59f5d25cd",
+"originalOrder": 11,
+"originalHeading": "Geometric Definition of a Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 19", "Classified as DEFINITION", "Formalized language"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 19,
+"heading": "Geometric Locus Definition of a Parabola",
+"back": "## Geometric Definition\nA parabola is precisely defined as the mathematical locus of all points in a 2D plane that are strictly **equidistant** from one fixed straight line and one distinct fixed coordinate point in that same plane.\n\n## Anatomical Components\n- **Focus ($F$):** The fixed mathematical coordinate point.\n- **Directrix ($l$):** The fixed straight mathematical boundary line.\n- **Constraint:** The Focus MUST NOT lie strictly on the Directrix.",
+"mnemonic": "Absolute Distance to Focus perfectly equals Perpendicular Distance to Directrix",
+"standardMeta": {
+"question": "What is the formal geometric locus definition of a Parabola, and what are its two fixed reference components titled?"
+}
+}
+},
+{
+"cardId": "d768c11f-e308-4f4d-a55f-438d55f50df4",
+"originalOrder": 12,
+"originalHeading": "Standard Parabola: Opening Right",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 20", "Classified as CONCEPT", "Double-escaped LaTeX", "Explicit boundary conditions formalized"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 20,
+"heading": "Standard Parabola: Horizontal (Right Opening)",
+"back": "## Component Anatomy\n- **Vertex:** $(0,0)$.\n- **Focus:** $(a, 0)$.\n- **Directrix Equation:** $x = -a$.\n- **Axis of Symmetry:** $y = 0$ (The fixed Cartesian x-axis).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a > 0$.\n- The spatial domain is strictly restricted to $x \geq 0$. The curve physically exists only in the right half-plane because squaring a real number ($y^2$) fundamentally cannot produce a negative result.",
+"formulaMeta": {
+"formula": "y^2 = 4ax",
+"description": "Standard Cartesian algebraic equation and primary coordinates for the simplest parabola opening strictly horizontally to the right.",
+"derivation": "Let generic point $P(x,y)$ exist on the locus. Euclidean distance to focus $(a,0)$ is $\sqrt{(x-a)^2 + y^2}$. Perpendicular distance to directrix $x=-a$ is $|x+a|$. Equating both strictly yields: $(x-a)^2 + y^2 = (x+a)^2 \implies y^2 = 4ax$."
+}
+}
+},
+{
+"cardId": "aaeb34cd-9f20-44a4-9ab7-409016e52c2c",
+"originalOrder": 13,
+"originalHeading": "Standard Parabola: Opening Upwards",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 21", "Classified as CONCEPT", "Double-escaped LaTeX", "Formalized bounds"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 21,
+"heading": "Standard Parabola: Vertical (Upward Opening)",
+"back": "## Component Anatomy\n- **Vertex:** $(0,0)$.\n- **Focus:** $(0, a)$.\n- **Directrix Equation:** $y = -a$.\n- **Axis of Symmetry:** $x = 0$ (The fixed Cartesian y-axis).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a > 0$.\n- The spatial range is strictly restricted to $y \geq 0$ (Upper half-plane).",
+"formulaMeta": {
+"formula": "x^2 = 4ay",
+"description": "Standard Cartesian algebraic equation and primary coordinates for a parabola geometrically opening strictly upwards.",
+"derivation": "Mathematically swap the structural roles of $x$ and $y$ variables from the horizontal right-opening parabola, strictly translating the geometric focus directly onto the y-axis locus."
+}
+}
+},
+{
+"cardId": "9c1cdd36-4528-4d04-9153-11cbf9bcf4d5",
+"originalOrder": 14,
+"originalHeading": "Latus Rectum of a Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 22", "Classified as DEFINITION", "Formalized geometric constraints"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 22,
+"heading": "Definition: Latus Rectum of a Parabola",
+"back": "## Geometric Definition\nThe Latus Rectum is defined as a highly specific, strictly constrained line segment (chord) operating within a parabola.\n\n## Structural Conditions\nTo mathematically qualify as the Latus Rectum, the chord MUST perfectly satisfy three rules:\n1. It MUST strictly pass directly through the **Focus**.\n2. It MUST be geometrically **perpendicular** to the primary Axis of Symmetry.\n3. Both of its defined geometric endpoints MUST terminate strictly on the locus curve of the parabola.",
+"standardMeta": {
+"question": "What is the strict geometric property definition identifying the 'Latus Rectum' of a standard parabola?"
+}
+}
+},
+{
+"cardId": "aa948542-97e7-4d46-8249-afc40e23afd2",
+"originalOrder": 15,
+"originalHeading": "Length of Latus Rectum (Parabola)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 23", "Classified as APPLICATION", "Double-escaped LaTeX", "Added multi-orientation domain validity"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 23,
+"heading": "Total Length of the Latus Rectum",
+"back": "## Component Anatomy\n- **$a$**: The strict spatial distance measured from the geometric vertex down to the focus.\n\n## Boundary Conditions / Domain\n- The resulting length $4a$ is universally valid for ALL four standard orientations of the foundational parabola ($y^2 = \pm 4ax$ and $x^2 = \pm 4ay$), provided $a$ is taken as a strictly positive magnitude.",
+"mnemonic": "Exactly Four times the parameter 'a'",
+"formulaMeta": {
+"formula": "\\text{Length} = 4a",
+"description": "Calculates the total geometric absolute length of the Latus Rectum chord bounding any standard parabola.",
+"derivation": "For $y^2 = 4ax$, the latus rectum chord is strictly constrained to pass through the focus $(a, 0)$ vertically. \nSubstitute $x=a$ into the curve equation: $y^2 = 4a(a) = 4a^2 \implies y = \pm 2a$.\nThe two resulting coordinate endpoints are exactly $(a, 2a)$ and $(a, -2a)$. Evaluating the Euclidean distance between them yields strictly $4a$."
+}
+}
+},
+{
+"cardId": "b3b34b03-6b28-4cd7-be6e-82229ee27a31",
+"originalOrder": 16,
+"originalHeading": "Focal Distance of a Point on a Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 24", "Classified as APPLICATION", "Double-escaped LaTeX", "Clarified variation by orientation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 24,
+"heading": "Focal Distance of an Arbitrary Parabola Point",
+"back": "## Component Anatomy\n- **$(x_1, y_1)$**: A specific dynamic coordinate point verified to lie ON the locus of parabola $y^2 = 4ax$.\n- **$a$**: Standard absolute distance from vertex to focus.\n\n## Boundary Conditions / Domain\n- The formula strictly varies according to the curve's fundamental orientation.\n- For horizontal $y^2 = 4ax$, the distance is precisely $x_1 + a$.\n- For vertical $x^2 = 4ay$, the distance converts strictly to $y_1 + a$.",
+"mnemonic": "Focal Distance equals Directrix Distance",
+"formulaMeta": {
+"formula": "\\text{Focal Distance} = x_1 + a",
+"description": "Provides the algebraically simplified shortcut formula for the spatial distance from the focus to any point on $y^2 = 4ax$.",
+"derivation": "By the strict fundamental locus definition of a parabola, the distance from any spatial point to the focus is EXACTLY equal to its absolute perpendicular distance to the defining directrix line.\nThe directrix sits at $x = -a$, so the horizontal scalar distance from $(x_1, y_1)$ to the line $x = -a$ simply computes as $x_1 - (-a) = x_1 + a$."
+}
+}
+},
+{
+"cardId": "d5c750b2-1c39-41ef-885c-2f456117012a",
+"originalOrder": 17,
+"originalHeading": "Parametric Coordinates of a Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 25", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "Ends the batch exactly on the 25th concept.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 25,
+"heading": "Standard Parametric Form of a Parabola",
+"back": "## Component Anatomy\n- **$t$**: An arbitrary dynamic real scalar parameter.\n- **$a$**: The constant geometry parameter derived from the base parabola equation.\n\n## Boundary Conditions / Domain\n- **Strict Domain:** $t \in \mathbb{R}$. \n- Every single unique continuous real value of $t$ perfectly maps to one unique corresponding physical point on the upper or lower branch of the parabola locus $y^2 = 4ax$.",
+"mnemonic": "a t-squared, two a t",
+"formulaMeta": {
+"formula": "P(t) = (at^2, 2at)",
+"description": "Establishes the standard dynamic parametric coordinate representation allowing any point on $y^2 = 4ax$ to be defined entirely by a single variable 't'.",
+"derivation": "Algebraically substitute the parametric definitions $x = at^2$ and $y = 2at$ strictly into the foundational Cartesian equation $y^2 = 4ax$.\nEvaluating the LHS gives $(2at)^2 = 4a^2t^2$. Evaluating the RHS gives $4a(at^2) = 4a^2t^2$. The identity cleanly resolves as $4a^2t^2 = 4a^2t^2$, proving it mathematically satisfies the locus continuously."
+}
+}
+},
+{
+"cardId": "af3628d8-24b8-415d-998a-b5ed4d609239",
+"originalOrder": 38,
+"originalHeading": "Condition of Tangency (Line to Parabola)",
+"action": "SPLIT",
+"modificationsSummary": ["Split heavy discriminant derivation from the core condition formula", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "Formula isolated for quick recall.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 26,
+"heading": "Condition of Tangency (Line to Parabola)",
+"back": "## Component Anatomy\n- **$c$**: The y-intercept of the test line $y = mx + c$.\n- **$m$**: The defined slope of the line.\n- **$a$**: The focal parameter of the standard parabola $y^2 = 4ax$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $m \neq 0$. If $m=0$, the line is perfectly horizontal, which mathematically intersects the standard horizontal parabola at infinity, acting as a secant or non-intersecting line, never a finite tangent.",
+"mnemonic": "c equals a over m",
+"formulaMeta": {
+"formula": "c = \\frac{a}{m}",
+"description": "Algebraic condition determining when a straight line perfectly acts as a tangent to a horizontal parabola.",
+"derivation": "Derived by substituting the linear equation into the parabola equation and rigorously forcing the roots of the resulting quadratic to be mathematically identical."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 38,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created strictly procedural derivation card from Condition of Tangency original text"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 27,
+"heading": "SOP: Deriving Tangency Condition (Parabola)",
+"back": "## Component Anatomy\n- **$D = 0$**: The strictly required Discriminant condition for equal roots (tangency).\n\n## Boundary Conditions / Domain\n- The substitution must structurally generate a purely quadratic equation in $x$.",
+"formulaMeta": {
+"formula": "(2mc-4a)^2 - 4m^2c^2 = 0",
+"description": "The exact algebraic procedure verifying the condition of tangency.",
+"derivation": "**Standard Operating Procedure:**\n1. Substitute $y = mx + c$ entirely into $y^2 = 4ax$.\n2. Expand to form a quadratic in $x$: $(mx+c)^2 - 4ax = 0 \implies m^2x^2 + 2(mc-2a)x + c^2 = 0$.\n3. For tangency, the line must touch the curve at exactly one point, meaning the quadratic MUST have identical roots.\n4. Set the Discriminant $D = 0$: $4(mc-2a)^2 - 4m^2c^2 = 0$.\n5. Expanding $(m^2c^2 - 4amc + 4a^2) - m^2c^2 = 0$ perfectly cancels the leading terms, isolating $4a^2 = 4amc$, strictly yielding $c = \frac{a}{m}$."
+}
+}
+},
+{
+"cardId": "6c6e0846-9ce9-49be-83e9-101407840316",
+"originalOrder": 42,
+"originalHeading": "Tangent to Parabola (Point Form)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as PROCEDURAL", "Formalized replacement rule (T=0)"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 28,
+"heading": "Tangent Equation to Parabola (Point Form)",
+"back": "## Component Anatomy\n- **$(x_1, y_1)$**: A specifically known, fixed coordinate point strictly lying ON the parabola.\n- **$a$**: The constant parameter of the parabola $y^2 = 4ax$.\n- **$x, y$**: The dynamic spatial variables of the resulting tangent line.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The point $(x_1, y_1)$ MUST physically exist on the curve ($y_1^2 = 4ax_1$ must evaluate to true). If the point is external, this formula generates the Chord of Contact, not the tangent.",
+"mnemonic": "Replace y-squared with y*y1, replace 2x with x+x1",
+"formulaMeta": {
+"formula": "yy_1 = 2a(x + x_1)",
+"description": "Calculates the exact linear equation of the tangent touching the parabola at a specific surface point.",
+"derivation": "Apply the standard Cartesian $T=0$ substitution rule universally valid for second-degree conics: mathematically replace $y^2$ directly with $yy_1$, and replace the linear $2x$ component with $(x + x_1)$."
+}
+}
+},
+{
+"cardId": "cb6859b9-9345-428c-836b-2aa257b1bb11",
+"originalOrder": 43,
+"originalHeading": "Tangent to Parabola (Parametric Form)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 29,
+"heading": "Tangent Equation to Parabola (Parametric Form)",
+"back": "## Component Anatomy\n- **$t$**: The continuous parametric coordinate identifier defining the specific point $(at^2, 2at)$.\n- **$a$**: The constant parameter of the base parabola.\n- **$x, y$**: The spatial variables defining the straight tangent line.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $t \neq 0$. If $t=0$, the tangent equation physically collapses to exactly the vertical y-axis ($x=0$), touching the parabola at its $(0,0)$ vertex.",
+"mnemonic": "ty equals x plus at squared",
+"formulaMeta": {
+"formula": "ty = x + at^2",
+"description": "Determines the precise linear equation of the tangent line touching the parabola at a given parametric coordinate 't'.",
+"derivation": "Substitute the exact parametric point variables $(x_1, y_1) = (at^2, 2at)$ strictly into the previously derived Cartesian point-form tangent equation $yy_1 = 2a(x+x_1)$.\nThis substitution yields $y(2at) = 2a(x + at^2)$. Algebraically dividing out the common $2a$ factor rigorously provides the final result."
+}
+}
+},
+{
+"cardId": "a731fdce-8447-4e5a-9b41-fdbe28094d12",
+"originalOrder": 44,
+"originalHeading": "Tangents at the Endpoints of a Focal Chord",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as FACT", "Reformatted markdown structure"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 30,
+"heading": "Properties: Tangents at Focal Chord Endpoints",
+"back": "## Geometric Intersection Point\nThe two distinct tangents drawn at the absolute extremities of ANY valid focal chord of a standard parabola ALWAYS strictly intersect on the **Directrix** line.\n\n## Angle of Intersection\nFurthermore, these two generated tangent lines ALWAYS strictly intersect each other at a perfect **Right Angle ($90^{\circ}$)**.\n\n## Mathematical Proof\nIf the parametric endpoints of the chord are $t_1$ and $t_2$, we established that for a focal chord, $t_1t_2 = -1$.\nThe geometric slopes of the two respective tangents are exactly $1/t_1$ and $1/t_2$.\nTheir algebraic product evaluates strictly to $(1/t_1)(1/t_2) = 1 / (t_1t_2) = -1$, definitively proving they are mutually perpendicular.",
+"standardMeta": {
+"question": "Geometrically, where do the two tangents drawn exactly at the extremities of any focal chord of a parabola strictly intersect, and at what specific angle?"
+}
+}
+},
+{
+"cardId": "d76cb9ca-1284-4515-9ca4-da2cdc823dfc",
+"originalOrder": 45,
+"originalHeading": "SOP: Normal to Parabola (Parametric Form)",
+"action": "SPLIT",
+"modificationsSummary": ["Split algorithmic proof from the formula", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 31,
+"heading": "Normal Equation to Parabola (Parametric Form)",
+"back": "## Component Anatomy\n- **$t$**: The continuous parametric coordinate identifier denoting the point $(at^2, 2at)$.\n- **$a$**: The constant parameter defining the width of the standard parabola $y^2 = 4ax$.\n\n## Boundary Conditions / Domain\n- **Domain:** $t \in \mathbb{R}$. The normal line exists and is well-defined continuously for every single point residing on the entire parabola locus.",
+"formulaMeta": {
+"formula": "y + tx = 2at + at^3",
+"description": "Calculates the strict linear equation of the normal line (perpendicular to the tangent) evaluated at the parametric coordinate 't'.",
+"derivation": "Derived structurally by identifying the tangent's exact slope, executing the negative reciprocal to find the normal's slope, and forcing the new line exactly through the origin parametric point $(at^2, 2at)$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 45,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created strict procedural SOP card for deriving the Parametric Normal"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 32,
+"heading": "SOP: Deriving the Parametric Normal (Parabola)",
+"back": "## Component Anatomy\n- **$m = 1/t$**: The initial slope of the tangent line.\n- **$m_{normal} = -t$**: The derived slope of the perpendicular normal line.\n\n## Boundary Conditions / Domain\n- For the vertex where $t=0$, the algebraic slope $-t$ equates to $0$, logically identifying the normal as the horizontal x-axis ($y=0$).",
+"formulaMeta": {
+"formula": "y - y_1 = m_{normal}(x - x_1)",
+"description": "The exact step-by-step methodology to algebraically extract the normal equation utilizing point-slope principles.",
+"derivation": "**Standard Operating Procedure:**\n1. Recall the tangent equation at parameter $t$ is structurally $ty = x + at^2$. Isolating $y$ identifies its slope as strictly $m = 1/t$.\n2. The normal line is defined as perfectly perpendicular, so its slope is geometrically the negative reciprocal: $-t$.\n3. Apply the foundational point-slope form $y - y_1 = m(x - x_1)$ utilizing slope $-t$ and passing through point $(at^2, 2at)$.\n4. Expand: $y - 2at = -t(x - at^2)$.\n5. Distribute and rearrange strictly to isolate constants: $y + tx = 2at + at^3$."
+}
+}
+},
+{
+"cardId": "8a3a7751-ca9f-4910-9b62-8a5cf4d5affb",
+"originalOrder": 46,
+"originalHeading": "Condition for Normal Rejoining Parabola",
+"action": "SPLIT",
+"modificationsSummary": ["Split heavy algebraic derivation from the core relation", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 33,
+"heading": "Condition for a Normal Rejoining the Parabola",
+"back": "## Component Anatomy\n- **$t_1$**: The parametric coordinate of the initial point where the normal line originates.\n- **$t_2$**: The parametric coordinate of the exact secondary point where the infinitely extended normal geometric line strikes the parabola locus again.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $t_1 \neq 0$. If $t_1=0$, the normal originates at the exact vertex (creating the axis of symmetry $y=0$), which mathematically NEVER intersects the standard parabola again (it remains fully bounded inside the curve).",
+"formulaMeta": {
+"formula": "t_2 = -t_1 - \\frac{2}{t_1}",
+"description": "Establishes the strict algebraic parametric relationship between the origination point of a normal and its secondary intersection point.",
+"derivation": "Mathematically substituting the spatial coordinates of the secondary point strictly into the linear equation of the initial normal line."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 46,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card for deriving normal rejoining intersection"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 34,
+"heading": "SOP: Deriving Normal Rejoining Parameter",
+"back": "## Component Anatomy\n- **$(at_2^2, 2at_2)$**: The coordinates of the secondary strike point.\n\n## Boundary Conditions / Domain\n- The derivation structurally factors out $(t_2 - t_1)$ assuming $t_2 \neq t_1$ (they are physically distinct points on the curve).",
+"formulaMeta": {
+"formula": "t_2^2 - t_1^2 = -\\frac{2}{t_1}(t_2 - t_1)",
+"description": "Algorithmic proof calculating the secondary intersection parameter of a normal line.",
+"derivation": "**Standard Operating Procedure:**\n1. State the linear equation of the normal strictly at $t_1$: $y + t_1x = 2at_1 + at_1^3$.\n2. Because the continuous line strikes point $(at_2^2, 2at_2)$, substitute these rigorously for $(x, y)$: $2at_2 + t_1(at_2^2) = 2at_1 + at_1^3$.\n3. Algebraically divide out the universal common non-zero factor $a$.\n4. Group the terms structurally: $2(t_2 - t_1) = -t_1(t_2^2 - t_1^2)$.\n5. Mathematically factor the explicit difference of squares: $2(t_2 - t_1) = -t_1(t_2 - t_1)(t_2 + t_1)$.\n6. Since the points are physically distinct, $(t_2 - t_1) \neq 0$. Cancel it perfectly from both sides.\n7. Rearrange to strictly isolate $t_2$: $t_2 = -t_1 - \frac{2}{t_1}$."
+}
+}
+},
+{
+"cardId": "0316a50c-32cb-45a5-8d95-6dcb9eeca386",
+"originalOrder": 50,
+"originalHeading": "Sum of Slopes of Three Concurrent Normals",
+"action": "SPLIT",
+"modificationsSummary": ["Split proof from concept", "Classified as OBSERVATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 35,
+"heading": "Property: Sum of Slopes of Concurrent Normals",
+"back": "## Component Anatomy\n- **$m_1, m_2, m_3$**: The individual distinct slopes of three specific normal lines drawn rigorously from a single external spatial point to the parabola surface.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** A maximum of exactly 3 real, distinct normals can mathematically be drawn from any general arbitrary coordinate point $(h,k)$ to a standard parabola.\n- The sum holds identically zero regardless of whether the specific coordinates of $(h,k)$ generate 1 real or 3 real normal lines.",
+"mnemonic": "Concurrent Normals sum to Zero",
+"formulaMeta": {
+"formula": "m_1 + m_2 + m_3 = 0",
+"description": "States the inviolable algebraic property that the slopes of all concurrent normal lines intersecting a parabola identically sum to zero.",
+"derivation": "Derived entirely by structuring the standard normal equation to pass through a fixed generic point, which generates a cubic polynomial strictly missing its squared term."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 50,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing the cubic polynomial derivation of concurrent normals"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 36,
+"heading": "SOP: Deriving Concurrent Normal Slope Sum",
+"back": "## Component Anatomy\n- **$(h,k)$**: The arbitrary external passing point forcing concurrency.\n\n## Boundary Conditions / Domain\n- The absence of the $m^2$ algebraic term fundamentally forces the sum of the roots to evaluate identically to $0$, based strictly on Vieta's formulas.",
+"formulaMeta": {
+"formula": "am^3 + 0m^2 + (2a-h)m + k = 0",
+"description": "Algorithmic proof generating the cubic polynomial that governs the concurrent normal slopes.",
+"derivation": "**Standard Operating Procedure:**\n1. State the standard algebraic equation of a normal to $y^2 = 4ax$ in pure slope form: $y = mx - 2am - am^3$.\n2. Force this line geometrically to pass directly through a specific known external point $(h,k)$ by substituting $x=h, y=k$: $k = mh - 2am - am^3$.\n3. Rearrange strictly into a standard descending cubic polynomial in terms of variable $m$: $am^3 + (2a-h)m + k = 0$.\n4. Recognize that the $m^2$ algebraic term is entirely absent (coefficient is $0$).\n5. Apply standard root polynomial theory: the algebraic sum of its roots ($m_1+m_2+m_3$) is strictly $-(\text{Coefficient of } m^2) / (\text{Coefficient of } m^3) = -0/a = 0$."
+}
+}
+},
+{
+"cardId": "d9927908-dbbe-46fd-9211-98318418fa8b",
+"originalOrder": 53,
+"originalHeading": "SOP: Equilateral Triangle Inscribed in a Parabola",
+"action": "SPLIT",
+"modificationsSummary": ["Split formula from procedural step-by-step derivation", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 37,
+"heading": "Side Length of Inscribed Equilateral Triangle",
+"back": "## Component Anatomy\n- **$l$**: The absolute geometric length of the side of the fully equilateral triangle.\n- **$a$**: The focal parameter of the standard enclosing parabola $y^2 = 4ax$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This formula ONLY geometrically applies if exactly ONE vertex of the equilateral triangle is pinned mathematically at the origin vertex $(0,0)$ of the parabola.",
+"formulaMeta": {
+"formula": "l = 8a\\sqrt{3}",
+"description": "Provides the direct algebraic scalar formula for the side length of an equilateral triangle cleanly inscribed inside a parabola originating at its vertex.",
+"derivation": "Utilizes the geometric symmetry of the parabola to bisect the triangle's vertex angle, mapping standard trigonometric projections onto the parabolic curve locus."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 53,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card for inscribed equilateral triangle"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 38,
+"heading": "SOP: Deriving Inscribed Triangle Side Length",
+"back": "## Component Anatomy\n- **$l$**: Unknown side length.\n- **$30^{\circ}$**: The geometrically bisected angle generated strictly by the parabola's axis of symmetry.\n\n## Boundary Conditions / Domain\n- Requires the parabola strictly to be symmetric about the x-axis ($y^2 = 4ax$).",
+"formulaMeta": {
+"formula": "\\left(\\frac{l}{2}\\right)^2 = 4a\\left(\\frac{l\\sqrt{3}}{2}\\right)",
+"description": "The exact trigonometric substitution process to algebraically solve for the triangle's side length.",
+"derivation": "**Standard Operating Procedure:**\n1. By geometric symmetry, the x-axis of the parabola perfectly bisects the $60^\circ$ origin vertex angle of the triangle, projecting $30^\circ$ precisely with each sloped side.\n2. The specific spatial coordinates of the upper right vertex of the triangle lying in Quadrant I are purely trigonometrically mapped as $(l\cos 30^\circ, l\sin 30^\circ)$.\n3. Evaluate the trig constants: $x = \frac{l\sqrt{3}}{2}$ and $y = \frac{l}{2}$.\n4. Because this vertex physically sits ON the parabola, substitute strictly into $y^2 = 4ax$.\n5. $\frac{l^2}{4} = 4a \left( \frac{l\sqrt{3}}{2} \right) \implies \frac{l^2}{4} = 2a l \sqrt{3}$.\n6. Assuming $l > 0$, divide algebraically by $l$ and isolate: $l = 8a\sqrt{3}$."
+}
+}
+},
+{
+"cardId": "fd831d6a-6085-4dfe-935e-4e91afe5bd33",
+"originalOrder": 54,
+"originalHeading": "Area of Triangle: Vertex and Latus Rectum",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Reformatted derivation clarity"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "parabola", "jee-main", "class-11"],
+"order": 39,
+"heading": "Area of Triangle (Vertex to Latus Rectum)",
+"back": "## Component Anatomy\n- **$a$**: The parameter defining the spatial width and focal depth of the parabola.\n- **Base**: The entire Latus Rectum chord (geometric length $4a$).\n- **Height**: The perpendicular orthogonal distance strictly from Vertex to Focus (geometric length $a$).\n\n## Boundary Conditions / Domain\n- This precise area evaluation is universally valid for ANY standard orientation of the structural parabola (e.g., $y^2 = \pm 4ax$, $x^2 = \pm 4ay$).",
+"mnemonic": "Half of 4a times a is exactly 2a-squared",
+"formulaMeta": {
+"formula": "\\text{Area} = 2a^2",
+"description": "Calculates the exact enclosed geometric spatial area of the triangle formed by connecting the vertex of a parabola strictly to the two absolute endpoints of its latus rectum.",
+"derivation": "The Latus Rectum acts physically as the base of the triangle, measuring total length $4a$. The perpendicular orthogonal height strictly extending from the vertex $(0,0)$ to the Latus Rectum (which identically rests on the focus $(a,0)$) evaluates exactly to $a$. Using Euclidean area: $\frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2}(4a)(a) = 2a^2$."
+}
+}
+},
+{
+"cardId": "6e967696-0b12-4dfc-8778-ceb6bad8672f",
+"originalOrder": 55,
+"originalHeading": "SOP: Locus of Trisection of a Double Ordinate",
+"action": "SPLIT",
+"modificationsSummary": ["Split final locus formula from the procedural proof", "Classified as OBSERVATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 40,
+"heading": "Locus of Trisection (Double Ordinate)",
+"back": "## Component Anatomy\n- **$y^2 = 4ax$**: The original bounding standard parabola curve.\n- **Double Ordinate**: A geometric chord strictly constrained to be perpendicular to the parabolic axis of symmetry.\n\n## Boundary Conditions / Domain\n- The locus mathematically represents the exact path of spatial points that constantly divide *any* moving double ordinate into three perfectly equal physical segments (a 1:2 or 2:1 section ratio).",
+"mnemonic": "Trisection forces the y-squared coefficient strictly to 9",
+"formulaMeta": {
+"formula": "9y^2 = 4ax",
+"description": "States the resulting geometric equation mapping the locus of the points of trisection of a double ordinate inside $y^2 = 4ax$.",
+"derivation": "Algebraically proven by applying the standard coordinate section formula in a 1:2 geometric ratio between symmetric coordinates $(x_1, y_1)$ and $(x_1, -y_1)$, then substituting back into the parent parabola."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 55,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing the locus derivation for trisection"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "parabola", "jee-advanced", "class-11"],
+"order": 41,
+"heading": "SOP: Deriving Double Ordinate Trisection Locus",
+"back": "## Component Anatomy\n- **$P(h,k)$**: The arbitrary dynamic trisection point tracking the locus.\n\n## Boundary Conditions / Domain\n- The internal section formula relies on a strict $1:2$ ratio. (Symmetry guarantees the $2:1$ ratio on the opposite side traces the exact same identical locus equation).",
+"formulaMeta": {
+"formula": "k = \\frac{1(-y_1) + 2(y_1)}{1+2}",
+"description": "The exact mathematical algorithm utilized to construct the trisection locus equation.",
+"derivation": "**Standard Operating Procedure:**\n1. Let the spatial endpoints of the arbitrary double ordinate be strictly $(x_1, y_1)$ and $(x_1, -y_1)$. Because they rest on the curve, $y_1^2 = 4ax_1$ is strictly true.\n2. Let the trisection locus point $P(h,k)$ divide this purely vertical segment geometrically in a strict $1:2$ internal ratio.\n3. Utilizing the Cartesian section formula: the x-coordinate evaluates to $h = x_1$. The y-coordinate evaluates to $k = \frac{1(-y_1) + 2(y_1)}{1+2} = \frac{y_1}{3}$.\n4. Algebraically isolate the known curve variable: $y_1 = 3k$.\n5. Substitute the mappings $x_1=h$ and $y_1=3k$ entirely into the parent parabola equation $y_1^2 = 4ax_1$.\n6. This evaluates to $(3k)^2 = 4ah \implies 9k^2 = 4ah$.\n7. Generalize strictly replacing $(h,k)$ with structural variables $(x,y)$ to finalize $9y^2 = 4ax$."
+}
+}
+},
+{
+"cardId": "d7cc73df-d2af-4c41-870e-6e471c054ef2",
+"originalOrder": 19,
+"originalHeading": "Geometric Definition of an Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 42", "Classified as DEFINITION", "Formalized geometric locus constraints"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 42,
+"heading": "Geometric Locus Definition of an Ellipse",
+"back": "## Geometric Definition\nAn ellipse is precisely defined as the spatial locus of all continuous points in a 2D Euclidean plane where the absolute mathematical **sum** of their Euclidean distances from two strictly fixed spatial points in that plane remains perfectly **constant**.\n\n## Anatomical Components\n- **Foci ($F_1$ and $F_2$)**: The two distinct fixed mathematical spatial points defining the shape.\n- **Constant Sum**: This scalar distance sum is universally denoted mathematically as strictly **$2a$**.",
+"mnemonic": "Ellipse strictly mandates SUM, Hyperbola strictly mandates DIFFERENCE",
+"standardMeta": {
+"question": "What is the formal and precise geometric locus definition of an Ellipse, and what are its reference coordinate points titled?"
+}
+}
+},
+{
+"cardId": "f364c165-a583-4af0-a13c-4a78a6265641",
+"originalOrder": 20,
+"originalHeading": "Relationship Between a, b, and c in an Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 43", "Classified as CONCEPT", "Double-escaped LaTeX", "Emphasized strict hierarchical bounds"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 43,
+"heading": "Pythagorean Relationship in an Ellipse",
+"back": "## Component Anatomy\n- **$a$**: The absolute scalar length of the geometric semi-major axis.\n- **$b$**: The absolute scalar length of the geometric semi-minor axis.\n- **$c$**: The absolute spatial distance strictly from the centre coordinate to either focus.\n\n## Boundary Conditions / Domain\n- **Strict Hierarchical Bounds:** $a > b > 0$ and $a > c > 0$.\n- In any valid ellipse, the semi-major axis parameter '$a$' is ALWAYS structurally the largest mathematical value, serving geometrically as the Pythagorean hypotenuse.",
+"mnemonic": "'a' acts strictly as the dominant hypotenuse (c^2 = a^2 - b^2)",
+"formulaMeta": {
+"formula": "c^2 = a^2 - b^2 \\implies a^2 = b^2 + c^2",
+"description": "Establishes the foundational Pythagorean trigonometric relationship permanently binding a, b, and c inside any valid standard ellipse.",
+"derivation": "Place an arbitrary point $P$ perfectly at the vertex of the minor axis $(0, b)$. Its spatial Euclidean distance to the right focus $(c, 0)$ is $\sqrt{b^2+c^2}$. By the rigid foundational definition of the locus, the absolute sum of distances to both foci identically equals $2a$. Therefore, strictly $2\sqrt{b^2+c^2} = 2a$, which algebraically squares and simplifies directly to $a^2 = b^2+c^2$."
+}
+}
+},
+{
+"cardId": "7aada9ec-6926-48c7-9624-41394a826e2e",
+"originalOrder": 21,
+"originalHeading": "Eccentricity of an Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 44", "Classified as CONCEPT", "Double-escaped LaTeX", "Clarified derivation steps"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 44,
+"heading": "Eccentricity of an Ellipse",
+"back": "## Component Anatomy\n- **$e$**: The calculated Eccentricity (a dimensionless mathematical ratio measuring the geometric 'flatness' of the curve).\n- **$c$**: The absolute scalar distance strictly from the centre to either focus.\n- **$a$**: The length of the semi-major axis.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $0 < e < 1$. \n- If $e$ analytically reaches exactly $1$, the curve opens unbounded into a parabola. If $e$ evaluates identically to $0$, the foci completely merge and form a perfect circle.",
+"formulaMeta": {
+"formula": "e = \\frac{c}{a} = \\sqrt{1 - \\frac{b^2}{a^2}}",
+"description": "Provides the explicit mathematical formula and boundary constraint dictating the Eccentricity (e) of any standard ellipse.",
+"derivation": "By universal geometric definition, $e = c/a$. Utilizing the established foundational identity, we rigorously know $c = \sqrt{a^2 - b^2}$. Algebraically substituting this numerator immediately yields $e = \frac{\sqrt{a^2 - b^2}}{a}$. Distributing the denominator under the radical rigorously generates $\sqrt{\frac{a^2}{a^2} - \frac{b^2}{a^2}}$, finalizing the theorem."
+}
+}
+},
+{
+"cardId": "ea443024-e773-4fcf-9964-24a3d832d6cd",
+"originalOrder": 22,
+"originalHeading": "Special Cases of an Ellipse (c limits)",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 45", "Classified as DISTINCTION", "Enhanced boundary descriptions"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 45,
+"heading": "Degenerate Edge Cases of an Ellipse",
+"back": "## When $c \to 0$\nThe two geometric foci continuously migrate inwards until they perfectly merge at the absolute centre. \nConsequently, the structural parameters mathematically equate ($a = b$) and the calculated eccentricity $e$ strictly collapses to $0$. The ellipse perfectly degenerates into a **Circle**.\n\n## When $c \to a$\nThe geometric foci push maximally outwards toward the absolute vertices. The structural minor axis parameter $b \to 0$.\nThe ellipse mathematically flattens completely, geometrically collapsing into a simple bounded 1D **line segment** perfectly bridging the two focus points.",
+"mnemonic": "c=0 defines a perfectly round circle, c=a defines a perfectly flat line segment",
+"standardMeta": {
+"question": "Geometrically and mathematically, what distinct terminal shapes do the extreme boundary conditions of an ellipse strictly degenerate into when $c \to 0$ and when $c \to a$?"
+}
+}
+},
+{
+"cardId": "0576afca-2865-4434-88a0-58047bcbeec8",
+"originalOrder": 23,
+"originalHeading": "Standard Ellipse: Horizontal Major Axis",
+"action": "SPLIT",
+"modificationsSummary": ["Split locus proof from formula", "Classified as CONCEPT", "Double-escaped LaTeX"],
+"vettingNotes": "Heavy double-squaring proof moved to a procedural card.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 46,
+"heading": "Standard Ellipse: Horizontal Major Axis",
+"back": "## Component Anatomy\n- **Foci:** Geometrically located at strictly $(\pm c, 0)$ or substituting to $(\pm ae, 0)$.\n- **Vertices:** The extreme boundaries strictly at $(\pm a, 0)$.\n- **Length of Major Axis:** Evaluating to exactly $2a$.\n- **Length of Minor Axis:** Evaluating to exactly $2b$.\n\n## Boundary Conditions / Domain\n- **Crucial Diagnostic Check:** The parameter $a^2$ must strictly be situated geometrically beneath the $x^2$ variable term in the fraction (i.e., the numerically larger denominator strictly defines the dominant horizontal axis).",
+"formulaMeta": {
+"formula": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\quad (a > b)",
+"description": "States the universal standard Cartesian polynomial equation for an ellipse strictly possessing a horizontal major axis resting identically on the x-axis.",
+"derivation": "Derived mathematically by establishing a locus point $P(x,y)$ and aggressively enforcing the absolute spatial constraint $PF_1 + PF_2 = 2a$ across the Cartesian plane."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 23,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing the massive algebraic locus derivation of the ellipse"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "ellipse", "jee-advanced", "class-11"],
+"order": 47,
+"heading": "SOP: Deriving Standard Ellipse Equation",
+"back": "## Component Anatomy\n- **$PF_1 + PF_2 = 2a$**: The strictly required starting locus constraint.\n\n## Boundary Conditions / Domain\n- The intense algebraic manipulation relies strictly on substituting the constant $b^2 = a^2 - c^2$ to successfully terminate the derivation into the standard $a^2, b^2$ format.",
+"formulaMeta": {
+"formula": "\\sqrt{(x+c)^2 + y^2} + \\sqrt{(x-c)^2 + y^2} = 2a",
+"description": "Algorithmic proof generating the standard horizontal ellipse equation from the fundamental geometric distance definition.",
+"derivation": "**Standard Operating Procedure:**\n1. Let $P(x,y)$ dynamically exist on the bounded ellipse. Set Foci structurally at $(-c,0)$ and $(c,0)$.\n2. Establish the rigid geometric constraint: $\sqrt{(x+c)^2 + y^2} + \sqrt{(x-c)^2 + y^2} = 2a$.\n3. Algebraically isolate one single radical to the RHS: $\sqrt{(x+c)^2 + y^2} = 2a - \sqrt{(x-c)^2 + y^2}$.\n4. Rigorously square both entire sides to remove the primary radical. Expanding and mathematically cancelling shared $x^2, c^2, y^2$ terms yields an intermediate equation containing one remaining radical.\n5. Isolate that remaining radical expression, divide by common numerical constants, and aggressively square the entire equation a second time.\n6. Group all variables ($x, y$) geometrically onto the LHS. The resulting algebraic coefficients strictly form $(a^2 - c^2)$.\n7. Substitute the core spatial identity $b^2 = a^2 - c^2$ directly into the equation.\n8. Divide all terms rigorously by the constant scalar $a^2b^2$ to force a $1$ on the RHS, resulting identically in $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$."
+}
+}
+},
+{
+"cardId": "b811e66a-e5f0-469a-b8fe-c7f0fa42d32a",
+"originalOrder": 24,
+"originalHeading": "Standard Ellipse: Vertical Major Axis",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX", "Formalized component anatomy bounds"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 48,
+"heading": "Standard Ellipse: Vertical Major Axis",
+"back": "## Component Anatomy\n- **Foci:** Geometrically located vertically at strictly $(0, \pm c)$ or substituting to $(0, \pm ae)$.\n- **Vertices:** The extreme vertical boundaries strictly at $(0, \pm a)$.\n- **Length of Major Axis:** Evaluating to exactly $2a$ (extending fully along the y-axis).\n- **Length of Minor Axis:** Evaluating to exactly $2b$ (extending fully along the x-axis).\n\n## Boundary Conditions / Domain\n- **Crucial Diagnostic Check:** The parameter $a^2$ (which inherently must be the numerically larger scalar value) is mathematically forced strictly beneath the $y^2$ variable term.",
+"formulaMeta": {
+"formula": "\\frac{x^2}{b^2} + \\frac{y^2}{a^2} = 1 \\quad (a > b)",
+"description": "States the standard universal Cartesian equation for an ellipse strictly oriented with its dominant major axis lying directly on the y-axis.",
+"derivation": "Geometrically rotating the primary orientation of the foci directly onto the vertical y-axis fundamentally mathematically swaps the $x$ and $y$ variable dependencies in the locus derivation, strictly placing the dominant parameter constraint $a^2$ entirely beneath $y^2$."
+}
+}
+},
+{
+"cardId": "95bdfe0d-57d4-4f54-86b6-47ddb93df59d",
+"originalOrder": 25,
+"originalHeading": "Length of Latus Rectum (Ellipse)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Strengthened derivation wording"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 49,
+"heading": "Length of Latus Rectum (Ellipse)",
+"back": "## Component Anatomy\n- **$b$**: The algebraic parameter representing the semi-minor axis.\n- **$a$**: The algebraic parameter representing the semi-major axis.\n\n## Boundary Conditions / Domain\n- This precise structural scalar formula is universally mathematically valid for BOTH horizontally and vertically standard oriented ellipses, provided $b$ represents the structurally minor parameter and $a$ strictly represents the structurally major parameter.",
+"mnemonic": "Exactly two b-squared divided strictly by a",
+"formulaMeta": {
+"formula": "\\text{Length} = \\frac{2b^2}{a}",
+"description": "Provides the exact algebraic equation calculating the total spatial length of the Latus Rectum chord inside an ellipse.",
+"derivation": "The geometric latus rectum chord is strictly vertically constrained to pass through the specific focus coordinate $(c, 0)$. Substitute strictly $x=c$ directly into the bounded equation $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.\nAlgebraic isolation yields $\frac{y^2}{b^2} = 1 - \frac{c^2}{a^2} = \frac{a^2-c^2}{a^2} = \frac{b^2}{a^2}$.\nThus $y^2 = \frac{b^4}{a^2} \implies y = \pm \frac{b^2}{a}$.\nThe total geometric distance spanning between these exact two symmetric vertical endpoints is mathematically strictly $2 \times \frac{b^2}{a}$."
+}
+}
+},
+{
+"cardId": "20e345f2-6720-429c-ad85-f5b0fbc41236",
+"originalOrder": 33,
+"originalHeading": "Focal Distances of a Point on an Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 50", "Classified as APPLICATION", "Double-escaped LaTeX"],
+"vettingNotes": "Ends the batch exactly on the 50th suggested index limit.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 50,
+"heading": "Focal Distances of an Ellipse Surface Point",
+"back": "## Component Anatomy\n- **$PF_1$**: The absolute geometric distance strictly to the left (or bottom) focus coordinate.\n- **$PF_2$**: The absolute geometric distance strictly to the right (or top) focus coordinate.\n- **$e$**: The scalar structural eccentricity of the ellipse.\n- **$x_1$**: The exact horizontal spatial x-coordinate of the targeted point $P$.\n\n## Boundary Conditions / Domain\n- The formula structurally guarantees validity exclusively for the standard horizontal ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.\n- The strict addition of the two algebraic outputs mathematically proves they identically sum to exactly: $PF_1 + PF_2 = (a + ex_1) + (a - ex_1) = 2a$.",
+"formulaMeta": {
+"formula": "PF_1 = a + ex_1 \\quad \\text{and} \\quad PF_2 = a - ex_1",
+"description": "Calculates algebraically the two exact individual spatial focal distances extending from any arbitrary coordinate point $P(x_1, y_1)$ residing on an ellipse.",
+"derivation": "Mined algebraically directly from the fundamental geometric locus derivation, the raw distance from spatial point $P(x,y)$ to the focus $(c,0)$ simplifies robustly to $a - \frac{c}{a}x_1$.\nSince the identity $e = c/a$ is universally fixed, this directly and cleanly substitutes identically to $a - ex_1$."
+}
+}
+},
+{
+"cardId": "d9dc265e-7ca1-4d4b-8289-1e04fffdeccd",
+"originalOrder": 35,
+"originalHeading": "Parametric Form of an Ellipse",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Explicit boundary conditions on theta"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 51,
+"heading": "Standard Parametric Form of an Ellipse",
+"back": "## Component Anatomy\n- **$\theta$**: The eccentric angle (parametric variable) of the corresponding point.\n- **$a, b$**: The absolute semi-major and semi-minor axes of the standard ellipse.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $0 \leq \theta < 2\pi$.\n- Every unique eccentric angle perfectly and continuously maps to exactly one geometric point on the full closed perimeter of the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.",
+"mnemonic": "Cos handles x, Sin handles y",
+"formulaMeta": {
+"formula": "P(\\theta) = (a \\cos \\theta, b \\sin \\theta)",
+"description": "Standard parametric spatial coordinate representation mapping any arbitrary point on a standard ellipse.",
+"derivation": "Mathematically substitute the coordinates into the Cartesian ellipse equation: $\frac{a^2 \cos^2 \theta}{a^2} + \frac{b^2 \sin^2 \theta}{b^2}$. The parametric axes terms perfectly cancel, strictly leaving $\cos^2 \theta + \sin^2 \theta = 1$, unconditionally satisfying the fundamental trigonometric identity."
+}
+}
+},
+{
+"cardId": "5442c906-70ac-4384-b840-68f41efa5db0",
+"originalOrder": 39,
+"originalHeading": "Condition of Tangency (Line to Ellipse)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Strengthened discriminant explanation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 52,
+"heading": "Condition of Tangency (Line to Ellipse)",
+"back": "## Component Anatomy\n- **$c$**: The geometric y-intercept of the intersecting test line $y = mx + c$.\n- **$m$**: The defined linear slope of the line.\n- **$a, b$**: The semi-major and semi-minor axes of the standard ellipse.\n\n## Boundary Conditions / Domain\n- Strictly valid only for the standard horizontal ellipse perfectly centred at the origin $(0,0)$.",
+"formulaMeta": {
+"formula": "c^2 = a^2m^2 + b^2",
+"description": "States the precise algebraic boundary condition for the straight line $y = mx + c$ to tangentially touch the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.",
+"derivation": "Substitute the linear expression $y = mx+c$ fully into the ellipse equation to generate a composite quadratic in $x$. Force the discriminant of this resulting algebraic quadratic to be strictly $0$ (ensuring a single tangential root). Simplifying the heavy algebra strictly isolates $c^2$."
+}
+}
+},
+{
+"cardId": "59b76597-fd4c-46bf-8fb5-a9522fa6b1f1",
+"originalOrder": 52,
+"originalHeading": "The 'Endless String' Ellipse Modeler (Miscellaneous Trap)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Refined markdown formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-main", "class-11"],
+"order": 53,
+"heading": "The 'Endless String' Locus Model",
+"back": "## The Geometric Archetype\nAn ellipse is physically drawn by placing a taut endless string (closed continuous loop) over two fixed pins and tracing the physical path with a pencil.\n\n## The Mathematical Translation\n1. The two fixed pins strictly represent the geometric **Foci** ($F_1$ and $F_2$).\n2. The constant Euclidean distance strictly between the pins is $2c$ (or $2ae$).\n3. Because the string forms a continuous closed bounding loop connecting $F_1$, $F_2$, and the dynamic pencil point $P$, its total perimeter is mathematically constrained identically to $PF_1 + PF_2 + F_1F_2$.\n4. By the ellipse definition, $PF_1 + PF_2 = 2a$, so the **Total Length of the String** is algebraically strictly **$2a + 2ae$**.",
+"standardMeta": {
+"question": "In standard miscellaneous word problems, what do the physical 'two pins' and the 'endless string' mathematically represent in an ellipse generation setup?"
+}
+}
+},
+{
+"cardId": "40389111-d5c3-4667-9ad2-ab7c01f829b4",
+"originalOrder": 47,
+"originalHeading": "SOP: Locus of a Point on a Sliding Rod",
+"action": "SPLIT",
+"modificationsSummary": ["Split proof from concept", "Classified as OBSERVATION", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-advanced", "class-11"],
+"order": 54,
+"heading": "Locus of a Point on a Sliding Rod",
+"back": "## Component Anatomy\n- **$a, b$**: The fixed linear geometric segments into which the target point perfectly divides the total length of the sliding rod.\n- **$x, y$**: The dynamic spatial coordinate variables tracing the resulting locus path.\n\n## Boundary Conditions / Domain\n- The rod must strictly continuously slide with its absolute endpoints perfectly touching the perpendicular $x$ and $y$ Cartesian coordinate axes.",
+"mnemonic": "A divided sliding rod ALWAYS traces an Ellipse",
+"formulaMeta": {
+"formula": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\implies \\text{Ellipse}",
+"description": "States that the mathematical locus of a specific point dividing a sliding rod of fixed constant length between orthogonal coordinate axes is strictly an Ellipse.",
+"derivation": "Geometrically established by parameterizing the angle the sliding rod makes with the axes, resolving the locus coordinates trigonometrically, and mathematically eliminating the parameter using $\cos^2\theta + \sin^2\theta = 1$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 47,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing the trig elimination for the sliding rod locus"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "ellipse", "jee-advanced", "class-11"],
+"order": 55,
+"heading": "SOP: Deriving the Sliding Rod Ellipse Locus",
+"back": "## Component Anatomy\n- **$\theta$**: The arbitrary dynamic angle the rod creates with the x-axis.\n\n## Boundary Conditions / Domain\n- The derivation relies strictly on the axes being perfectly orthogonal ($90^{\circ}$) to allow standard right-triangle trigonometric projections.",
+"formulaMeta": {
+"formula": "\\cos^2\\theta + \\sin^2\\theta = 1",
+"description": "The exact algorithmic sequence proving the sliding rod point traces an ellipse.",
+"derivation": "**Standard Operating Procedure:**\n1. Let the dynamic sliding rod make an angle $\theta$ with the Cartesian x-axis.\n2. Drop perpendiculars geometrically from the locus point $P(x,y)$ to both coordinate axes, forming two similar right triangles.\n3. Using right-angle trigonometry on the specific divided segments $a$ and $b$, strictly map the spatial coordinates as $x = a\cos\theta$ and $y = b\sin\theta$.\n4. Algebraically isolate the trigonometric terms: $\frac{x}{a} = \cos\theta$ and $\frac{y}{b} = \sin\theta$.\n5. Square both resulting equations and sum them together to mathematically eliminate the parameter $\theta$: $(\frac{x}{a})^2 + (\frac{y}{b})^2 = \cos^2\theta + \sin^2\theta$.\n6. Substitute the fundamental identity $=1$ to yield strictly $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$."
+}
+}
+},
+{
+"cardId": "913de677-fa61-42fb-9b30-d07abfc46646",
+"originalOrder": 56,
+"originalHeading": "Latus Rectum Subtending a Right Angle at Centre (Ellipse)",
+"action": "SPLIT",
+"modificationsSummary": ["Split heavy algebraic proof from the concept", "Classified as OBSERVATION", "Double-escaped LaTeX"],
+"vettingNotes": "Formula isolated.",
+"cardData": {
+"type": "FORMULA",
+"classification": "OBSERVATION",
+"tags": ["math", "conic-sections", "ellipse", "jee-advanced", "class-11"],
+"order": 56,
+"heading": "Latus Rectum Subtending a Right Angle",
+"back": "## Component Anatomy\n- **$e$**: The scalar eccentricity of the unique ellipse.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Valid exclusively for the standard ellipse perfectly centered at the origin, where the geometric vectors drawn from $(0,0)$ to the extremities of the Latus Rectum strictly intersect at exactly $90^{\circ}$.",
+"mnemonic": "Golden ratio conjugate",
+"formulaMeta": {
+"formula": "e = \\frac{\\sqrt{5}-1}{2}",
+"description": "States the specific constant numeric eccentricity of an ellipse forced into the configuration where its latus rectum subtends exactly a right angle at the centre.",
+"derivation": "Mathematically proven by defining the precise coordinates of the Latus Rectum extremities, forming their position vectors, and forcing their algebraic dot product to equal strictly $0$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 56,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing the dot product derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "ellipse", "jee-advanced", "class-11"],
+"order": 57,
+"heading": "SOP: Deriving Right-Angled Latus Rectum Eccentricity",
+"back": "## Component Anatomy\n- **$(ae, \pm b^2/a)$**: The exact coordinate extremities of the Latus Rectum.\n\n## Boundary Conditions / Domain\n- Solves for $e^2$, rejecting the negative root because eccentricity mathematically must remain real and $e > 0$.",
+"formulaMeta": {
+"formula": "e^4 + e^2 - 1 = 0",
+"description": "The exact step-by-step vector algebra utilized to isolate the golden ratio conjugate eccentricity.",
+"derivation": "**Standard Operating Procedure:**\n1. The absolute endpoints of the Latus Rectum are strictly $(ae, \frac{b^2}{a})$ and $(ae, -\frac{b^2}{a})$.\n2. The spatial vectors from the origin $(0,0)$ to these endpoints are geometrically perpendicular. Force their dot product to $0$: $(ae)(ae) + (\frac{b^2}{a})(-\frac{b^2}{a}) = 0$.\n3. This yields $a^2e^2 = \frac{b^4}{a^2} \implies b^4 = a^4e^2$.\n4. Substitute the universal ellipse identity $b^2 = a^2(1-e^2)$ to get $a^4(1-e^2)^2 = a^4e^2$.\n5. Assuming $a \neq 0$, strictly cancel $a^4$ to yield $(1-e^2)^2 = e^2$.\n6. Expanding gives $1 - 2e^2 + e^4 = e^2 \implies e^4 - 3e^2 + 1 = 0$.\n7. Let $u = e^2$. Applying the quadratic formula for $u$ strictly yields the golden ratio conjugate."
+}
+}
+},
+{
+"cardId": "a79f2f90-6ce1-4bb0-9c45-0b75adc628ec",
+"originalOrder": 26,
+"originalHeading": "Geometric Definition of a Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DEFINITION", "Formalized language"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 58,
+"heading": "Geometric Locus Definition of a Hyperbola",
+"back": "## Geometric Definition\nA hyperbola is precisely defined as the spatial locus of all continuous points in a 2D Euclidean plane where the absolute mathematical **difference** of their Euclidean distances from two strictly fixed spatial points in that plane remains perfectly **constant**.\n\n## Anatomical Components\n- **Foci ($F_1$ and $F_2$)**: The two distinct fixed mathematical spatial points defining the branches.\n- **Constant Difference**: This absolute scalar distance difference is universally mathematically denoted as strictly **$2a$**.",
+"mnemonic": "Ellipse is strictly SUM, Hyperbola is strictly DIFFERENCE",
+"standardMeta": {
+"question": "What is the formal and precise geometric locus definition of a Hyperbola, and what is its constant difference?"
+}
+}
+},
+{
+"cardId": "84054d23-64cc-4487-8595-7d93df01007b",
+"originalOrder": 27,
+"originalHeading": "Relationship Between a, b, and c in a Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 59,
+"heading": "Pythagorean Relationship in a Hyperbola",
+"back": "## Component Anatomy\n- **$a$**: Distance from the strict geometric centre to either vertex (semi-transverse axis).\n- **$b$**: Absolute length of the semi-conjugate axis.\n- **$c$**: Spatial distance from the strict centre to either geometric focus.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $c > a > 0$.\n- Unlike an ellipse, the true geometric foci of a hyperbola are strictly positioned further from the mathematical centre than the defining vertices.",
+"mnemonic": "In a Hyperbola, 'c' is the dominant hypotenuse (c^2 = a^2 + b^2)",
+"formulaMeta": {
+"formula": "c^2 = a^2 + b^2 \\implies b^2 = c^2 - a^2",
+"description": "Establishes the foundational Pythagorean trigonometric relationship permanently binding a, b, and c inside any valid standard hyperbola.",
+"derivation": "By definition, the strict absolute difference in distances to the foci is exactly $2a$. Geometrically defining the asymptotic bounds and aligning the conjugate axis mathematically forces the parameter relationship $b^2 = c^2 - a^2$ to stabilize the equations."
+}
+}
+},
+{
+"cardId": "9ae45b13-535d-42de-a282-d52226f8a860",
+"originalOrder": 28,
+"originalHeading": "Standard Hyperbola: Horizontal Transverse Axis",
+"action": "SPLIT",
+"modificationsSummary": ["Split proof from standard equation", "Classified as CONCEPT", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 60,
+"heading": "Standard Hyperbola: Horizontal Transverse Axis",
+"back": "## Component Anatomy\n- **Foci:** Located strictly at $(\pm c, 0)$ or substituting to $(\pm ae, 0)$.\n- **Vertices:** Located strictly at $(\pm a, 0)$.\n- **Length of Transverse Axis:** Evaluating strictly to $2a$.\n- **Length of Conjugate Axis:** Evaluating strictly to $2b$.\n\n## Boundary Conditions / Domain\n- **Crucial Diagnostic Check:** The mathematically *positive* algebraic term strictly determines the primary transverse axis (in this standard case, $x^2$ is strictly positive).",
+"formulaMeta": {
+"formula": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+"description": "States the universal standard Cartesian polynomial equation for a hyperbola strictly oriented with its transverse axis lying perfectly on the horizontal x-axis.",
+"derivation": "Mathematically derived by expanding the geometric absolute difference condition $|PF_1 - PF_2| = 2a$ utilizing the Euclidean distance formulas."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created SOP card detailing hyperbola locus derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "conic-sections", "hyperbola", "jee-advanced", "class-11"],
+"order": 61,
+"heading": "SOP: Deriving Standard Hyperbola Equation",
+"back": "## Component Anatomy\n- **$|PF_1 - PF_2| = 2a$**: The foundational geometric absolute distance constraint.\n\n## Boundary Conditions / Domain\n- Must enforce substitution $b^2 = c^2 - a^2$ rigorously at the end of the algebraic expansion to successfully yield standard format.",
+"formulaMeta": {
+"formula": "\\sqrt{(x+c)^2 + y^2} - \\sqrt{(x-c)^2 + y^2} = \\pm 2a",
+"description": "Algorithmic proof generating the standard horizontal hyperbola equation from the fundamental geometric distance definition.",
+"derivation": "**Standard Operating Procedure:**\n1. Let $P(x,y)$ continuously trace the hyperbola. Place geometric Foci at $(-c,0)$ and $(c,0)$.\n2. Establish the rigid geometric definition constraint: $\sqrt{(x+c)^2 + y^2} - \sqrt{(x-c)^2 + y^2} = \pm 2a$.\n3. Algebraically isolate one radical: $\sqrt{(x+c)^2 + y^2} = \pm 2a + \sqrt{(x-c)^2 + y^2}$.\n4. Square both entire sides perfectly to remove the isolated radical. Cancel shared $x^2, c^2, y^2$ terms.\n5. Isolate the remaining singular radical, simplify constant scalar divisors, and aggressively square the entire equation a second time.\n6. Group structural coefficients for $x^2$ and $y^2$. They strictly evaluate to $(c^2 - a^2)$.\n7. Substitute the core spatial identity $b^2 = c^2 - a^2$ directly into the algebraic mess.\n8. Divide all terms rigorously by $a^2b^2$ to strictly yield $1$ on the RHS, generating $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$."
+}
+}
+},
+{
+"cardId": "0ad8fe2f-ce00-42a9-a6d3-44a3b83e98ec",
+"originalOrder": 29,
+"originalHeading": "Standard Hyperbola: Vertical Transverse Axis",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 62,
+"heading": "Standard Hyperbola: Vertical Transverse Axis",
+"back": "## Component Anatomy\n- **Foci:** Located strictly at $(0, \pm c)$ or substituting to $(0, \pm ae)$.\n- **Vertices:** Located strictly at $(0, \pm a)$.\n- **Length of Transverse Axis:** Evaluating strictly to $2a$ (running precisely along the y-axis).\n- **Length of Conjugate Axis:** Evaluating strictly to $2b$ (running precisely along the x-axis).\n\n## Boundary Conditions / Domain\n- **Crucial Diagnostic Check:** The strictly mathematically *positive* polynomial term in the standard equation determines the transverse axis. Here, $y^2/a^2$ is strictly positive.",
+"formulaMeta": {
+"formula": "\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1",
+"description": "States the universal standard Cartesian polynomial equation for a hyperbola vertically oriented with its transverse axis lying strictly on the y-axis.",
+"derivation": "Geometrically rotating the primary Cartesian coordinate axes perfectly by $90^{\circ}$ mathematically swaps the $x$ and $y$ variables, unconditionally placing the positive algebraic variable constraint strictly on $y^2$."
+}
+}
+},
+{
+"cardId": "81dc08b5-6d9a-4591-bdeb-36ff9341c269",
+"originalOrder": 30,
+"originalHeading": "Eccentricity of a Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double-escaped LaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 63,
+"heading": "Eccentricity of a Hyperbola",
+"back": "## Component Anatomy\n- **$e$**: The strict structural Eccentricity (a measure of geometric curve 'spread').\n- **$c$**: The absolute spatial centre-to-focus linear distance.\n- **$a$**: The absolute spatial centre-to-vertex linear distance.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $e > 1$. \n- If $e$ mathematically converges downward towards $1$, the hyperbola flattens into an infinitely narrow pair of parallel branches. As $e \to \infty$, it flattens into a completely horizontal straight line.",
+"formulaMeta": {
+"formula": "e = \\frac{c}{a} = \\sqrt{1 + \\frac{b^2}{a^2}}",
+"description": "Provides the explicit mathematical formula and boundary constraint governing the Eccentricity (e) of any standard hyperbola.",
+"derivation": "Initiate from the fundamental hyperbola Pythagorean identity $c^2 = a^2 + b^2$. Algebraically divide both entire sides identically by the scalar $a^2$: $\frac{c^2}{a^2} = 1 + \frac{b^2}{a^2}$. Extracting the positive principal square root strictly yields the finalized formula for $e$."
+}
+}
+},
+{
+"cardId": "cf4151bd-9fce-4e01-a0aa-1d3c4f69af04",
+"originalOrder": 31,
+"originalHeading": "Length of Latus Rectum (Hyperbola)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Highlighted symmetry with ellipse"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 64,
+"heading": "Length of Latus Rectum (Hyperbola)",
+"back": "## Component Anatomy\n- **$b$**: The scalar length representing the semi-conjugate geometric axis.\n- **$a$**: The scalar length representing the semi-transverse geometric axis.\n\n## Boundary Conditions / Domain\n- This precise structural scalar formula is universally mathematically valid for BOTH horizontally and vertically standard oriented hyperbolas.\n- **Crucial Observation:** Notice it is mathematically completely identical to the corresponding Latus Rectum formula derived for the ellipse.",
+"formulaMeta": {
+"formula": "\\text{Length} = \\frac{2b^2}{a}",
+"description": "Calculates the total geometric spatial length of the strictly perpendicular Latus Rectum chord inside any standard hyperbola.",
+"derivation": "The geometric latus rectum chord is strictly constrained to pass identically through the focus coordinate $(c, 0)$. Substitute strictly $x=c$ directly into the bounded equation $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$.\nThis implies $\frac{y^2}{b^2} = \frac{c^2}{a^2} - 1 = \frac{c^2-a^2}{a^2} = \frac{b^2}{a^2}$.\nAlgebraically solving for $y$ strictly yields $\pm \frac{b^2}{a}$, creating a total end-to-end length of strictly $\frac{2b^2}{a}$."
+}
+}
+},
+{
+"cardId": "8ead1a63-2f6c-4e32-9651-b3608c9fffdb",
+"originalOrder": 32,
+"originalHeading": "Equilateral (Rectangular) Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DISTINCTION", "Double-escaped LaTeX", "Explicitly mentioned asymptote orthogonality"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "DISTINCTION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 65,
+"heading": "Equilateral (Rectangular) Hyperbola",
+"back": "## Component Anatomy\n- **$a$**: The solitary geometric scale parameter where the spatial transverse and conjugate axes lengths are forced to be perfectly equal ($a = b$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a = b$.\n- **Geometric Consequence:** The two standard asymptotes mapping this specific boundary hyperbola are strictly mathematically perpendicular (orthogonal, intercepting at exactly $90^{\circ}$) to each other.",
+"mnemonic": "Rectangular mathematically enforces a=b; eccentricity is identically root 2",
+"formulaMeta": {
+"formula": "x^2 - y^2 = a^2 \\implies e = \\sqrt{2}",
+"description": "States the standard collapsed equation and the strict constant numerical eccentricity uniquely defining an Equilateral (Rectangular) Hyperbola.",
+"derivation": "Algebraically substitute $b = a$ entirely into the general standard hyperbola equation $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, yielding strictly $x^2 - y^2 = a^2$.\nUtilizing the generic eccentricity equation, $e = \sqrt{1 + \frac{a^2}{a^2}} = \sqrt{1 + 1} = \sqrt{2}$."
+}
+}
+},
+{
+"cardId": "57d97229-0f55-46c0-89f7-45870ec634e8",
+"originalOrder": 34,
+"originalHeading": "Focal Distances of a Point on a Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Clarified absolute difference"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 66,
+"heading": "Focal Distances of a Hyperbola Surface Point",
+"back": "## Component Anatomy\n- **$PF_1$**: The absolute geometric distance strictly to the left focus coordinate.\n- **$PF_2$**: The absolute geometric distance strictly to the right focus coordinate.\n- **$e$**: The scalar structural eccentricity of the hyperbola.\n- **$x_1$**: The exact horizontal spatial x-coordinate of the targeted point $P$.\n\n## Boundary Conditions / Domain\n- The given coordinates strictly assume the spatial point $P$ is physically located exclusively on the **right branch** of the standard hyperbola ($x_1 > 0$).\n- The strict absolute algebraic difference rigorously confirms: $|PF_1 - PF_2| = |(ex_1 + a) - (ex_1 - a)| = |2a| = 2a$.",
+"formulaMeta": {
+"formula": "PF_1 = ex_1 + a \\quad \\text{and} \\quad PF_2 = ex_1 - a",
+"description": "Calculates algebraically the two exact individual spatial focal distances extending from an arbitrary coordinate point $P(x_1, y_1)$ perfectly residing on the right branch of a hyperbola.",
+"derivation": "Derived mathematically identically to the standard ellipse locus, but structurally compensating for the fact that $c > a$. Furthermore, because the point resides strictly outside the absolute vertex bounds, the term $ex_1$ is guaranteed to be mathematically strictly larger than $a$, maintaining positive real distance values."
+}
+}
+},
+{
+"cardId": "59560cf6-7b87-444e-a41e-b02059c34bb7",
+"originalOrder": 36,
+"originalHeading": "Parametric Form of a Hyperbola",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Formalized trigonometric discontinuities"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 67,
+"heading": "Standard Parametric Form of a Hyperbola",
+"back": "## Component Anatomy\n- **$\theta$**: The continuous eccentric geometric angle (parameter) characterizing the coordinate.\n- **$a, b$**: The absolute semi-transverse and semi-conjugate structural axes.\n\n## Boundary Conditions / Domain\n- **Strict Discontinuity Constraints:** $\theta \neq \frac{\pi}{2}$ and $\theta \neq \frac{3\pi}{2}$. \n- At these specific singular mathematical angles, the secant and tangent trigonometric functions perfectly diverge to infinity, correctly aligning with the unbounded asymptotic branches of the hyperbola.",
+"mnemonic": "Sec handles x, Tan handles y",
+"formulaMeta": {
+"formula": "P(\\theta) = (a \\sec \\theta, b \\tan \\theta)",
+"description": "Standard parametric spatial coordinate representation mapping any arbitrary point natively onto a standard horizontal hyperbola.",
+"derivation": "Mathematically substitute the explicit coordinates into the Cartesian hyperbola equation: $\frac{a^2 \sec^2 \theta}{a^2} - \frac{b^2 \tan^2 \theta}{b^2}$. The parametric scalar axes terms perfectly cancel, isolating $\sec^2 \theta - \tan^2 \theta = 1$, which universally satisfies the fundamental secant-tangent trigonometric identity."
+}
+}
+},
+{
+"cardId": "2bfa69a3-3a32-4ef7-be68-438ea6838d94",
+"originalOrder": 40,
+"originalHeading": "Condition of Tangency (Line to Hyperbola)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Added positive bound constraint"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "hyperbola", "jee-main", "class-11"],
+"order": 68,
+"heading": "Condition of Tangency (Line to Hyperbola)",
+"back": "## Component Anatomy\n- **$c$**: The geometric y-intercept of the intersecting test line $y = mx + c$.\n- **$m$**: The defined linear slope of the line.\n- **$a, b$**: The strictly defined semi-transverse and semi-conjugate axes of the base hyperbola.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** To generate real, geometrically valid tangent lines, the algebraic condition $a^2m^2 - b^2 > 0$ must mathematically hold true. If the expression is negative, $c$ becomes imaginary.",
+"mnemonic": "Ellipse mandates strictly PLUS b-squared, Hyperbola mandates strictly MINUS b-squared",
+"formulaMeta": {
+"formula": "c^2 = a^2m^2 - b^2",
+"description": "States the precise algebraic boundary condition for the straight line $y = mx + c$ to tangentially touch the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$.",
+"derivation": "Substitute the linear expression $y = mx+c$ completely into the base hyperbola equation. Setting the derived discriminant of the polynomial structurally to $0$ maps exactly and identically to the equivalent ellipse tangency proof, completely retaining the algebraic steps, except the structural $+b^2$ geometry term is strictly replaced by $-b^2$."
+}
+}
+},
+{
+"cardId": "46f5819f-550e-4cc3-ad57-918ac0c43b51",
+"originalOrder": 48,
+"originalHeading": "Equation of Chord with a Given Midpoint",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Strengthened universal conic identity explanation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 69,
+"heading": "Universal Equation of a Chord Given Its Midpoint",
+"back": "## Component Anatomy\n- **$T$**: The mathematically standard linear tangent-like substitution expression (e.g., $xx_1/a^2 + yy_1/b^2 - 1$).\n- **$S_1$**: The standard base full conic equation geometrically evaluated strictly at the known midpoint coordinate values $(x_1, y_1)$.\n- **$(x_1, y_1)$**: The exact, fixed spatial coordinate identically representing the strict midpoint bisecting the chord.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The mathematically given midpoint $(x_1, y_1)$ MUST lie strictly INSIDE the physical continuous boundaries of the 2D conic curve. If placed outside, a chord cannot geometrically be bisected by it.",
+"formulaMeta": {
+"formula": "T = S_1",
+"description": "States the universal, invariant mathematical linear equation mapping a chord of absolutely any standard conic section that is perfectly bisected at a specific known coordinate point.",
+"derivation": "This identity universally and flawlessly applies across all standard circles, parabolas, ellipses, and hyperbolas. It is derived fundamentally by mathematically shifting the spatial origin directly to the target midpoint and rigidly setting the symmetric conjugate roots of the resulting intersection quadratic to algebraically sum to identically $0$."
+}
+}
+},
+{
+"cardId": "dd1ff48a-daa7-48a7-b3ff-2b18d58f8f85",
+"originalOrder": 49,
+"originalHeading": "Equation of Chord of Contact",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Double-escaped LaTeX", "Clarified external point requirement"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "conic-sections", "geometry", "jee-main", "class-11"],
+"order": 70,
+"heading": "Universal Equation of the Chord of Contact",
+"back": "## Component Anatomy\n- **$T$**: The mathematically standard linear tangency substitution expansion (e.g., $xx_1 + yy_1 - r^2 = 0$).\n- **$(x_1, y_1)$**: The strictly fixed external spatial coordinate from which the two valid tangents are mathematically projected.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The designated geometric point $(x_1, y_1)$ MUST explicitly lie strictly OUTSIDE the solid continuous boundary of the targeted conic section, otherwise projecting two valid tangents is physically impossible.",
+"formulaMeta": {
+"formula": "T = 0",
+"description": "States the universal mathematical linear equation characterizing the Chord of Contact (the continuous straight line seamlessly joining the exact two points of tangency drawn from a single external point).",
+"derivation": "Assume tangents projected from an external point $P(x_1,y_1)$ strictly touch the geometric curve at absolute coordinate nodes $A(x_2, y_2)$ and $B(x_3, y_3)$. The independent tangent equations $xx_2+yy_2 = r^2$ and $xx_3+yy_3=r^2$ both perfectly and mathematically satisfy substituting $P$'s coordinates (e.g., $x_1x_2+y_1y_2=r^2$). Thus, structurally reversing this, the single linear equation $xx_1+yy_1 = r^2$ ($T=0$) mathematically and flawlessly forces the resulting single line to intersect and pass directly through both locus points $A$ and $B$ simultaneously."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"originalOrder": null,
+"originalHeading": null,
+"action": "SYSTEM",
+"modificationsSummary": [],
+"vettingNotes": "Successfully processed all remaining flashcards generated in the routing map.",
+"cardData": null
+}
+]
+}

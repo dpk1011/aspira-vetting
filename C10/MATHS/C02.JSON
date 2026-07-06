@@ -1,0 +1,707 @@
+{
+"deckId": "4109d765-3cad-4d86-9a04-a9f212b3a326",
+"cards": [
+{
+"cardId": "e24952d1-cd12-4909-a0fb-dcecd37d7a7d",
+"originalOrder": 1,
+"originalHeading": "Definition of a Polynomial",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated to DEFINITION", "Injected boundary conditions on exponents"],
+"vettingNotes": "Axiomatic baseline.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "polynomials", "algebra", "class-10", "jee-main"],
+"order": 1,
+"heading": "Algebraic Definition of a Polynomial",
+"back": "## Explanation:\n- **Core Concept:** A polynomial is a specific type of algebraic expression composed of variables, constants, and mathematical operators.\n\n## Boundary Conditions / Domain:\n- **The Strict Rule:** The exponent (power) on any variable in every individual term MUST strictly be a **whole number** ($0, 1, 2, \dots$).\n- **Trap Alert:** Expressions with negative exponents (e.g., $x^{-1}$) or fractional exponents (e.g., $\sqrt{x}$ or $x^{1/2}$) are algebraic expressions, but mathematically **NOT** polynomials.",
+"mnemonic": "Polynomials want WHOLE slices, no fractions, no negatives.",
+"standardMeta": {
+"question": "What mathematically distinguishes a polynomial from a general algebraic expression, specifically regarding the boundary constraints on its variables' exponents?"
+}
+}
+},
+{
+"cardId": "c8ab17d6-76c4-479a-9d0b-c8abc309e45c",
+"originalOrder": 2,
+"originalHeading": "Degree of a Polynomial",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "polynomials", "algebra", "class-10"],
+"order": 2,
+"heading": "Degree of a Polynomial in One Variable",
+"back": "## Explanation:\n- **Definition:** For a polynomial in one variable, the **degree** is defined as the absolute highest exponent (power) present on the variable across all terms with non-zero coefficients.\n\n## Examples:\n- $x^2 + 2x + 3 \implies$ Degree is $2$.\n- $x^8 + 2x^6 - 3x + 9 \implies$ Degree is $8$.",
+"standardMeta": {
+"question": "How is the 'degree' of a polynomial in a single variable mathematically determined?"
+}
+}
+},
+{
+"cardId": "b8aa9a6c-1163-4e60-98d4-e9b20e34ccdb",
+"originalOrder": 25,
+"originalHeading": "Zero Polynomial and its Degree",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to group with degree concepts", "Classified as DISTINCTION"],
+"vettingNotes": "Classic conceptual trap for MCQs.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "polynomials", "algebra", "class-10"],
+"order": 3,
+"heading": "Trap: Degree of the Zero Polynomial",
+"back": "## Explanation:\n- **Definition:** The polynomial exactly equal to zero, $p(x) = 0$, is strictly known as the **Zero Polynomial**.\n- **Degree:** The degree of the zero polynomial is mathematically **undefined**.\n\n## Boundary Conditions / Domain:\n- **Reasoning:** The term can technically be written as $0 \cdot x^0, 0 \cdot x^1, 0 \cdot x^n$. Since the leading coefficient is zero for any power, there is no determinable 'highest power' associated with a non-zero coefficient.",
+"standardMeta": {
+"question": "What is the specific mathematical degree of the 'Zero Polynomial' ($p(x) = 0$), and what is the algebraic reasoning behind this?"
+}
+}
+},
+{
+"cardId": "073e6025-5f13-4681-b368-18f3649be9a0",
+"originalOrder": 3,
+"originalHeading": "Classification of Polynomials by Degree",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as FACT", "Refined KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "polynomials", "algebra", "class-10"],
+"order": 4,
+"heading": "Nomenclature: Polynomial Classification by Degree",
+"back": "## Explanation:\n- **Degree 1:** Linear Polynomial (e.g., $2x + 1$)\n- **Degree 2:** Quadratic Polynomial (e.g., $3x^2 + 8x + 5$)\n- **Degree 3:** Cubic Polynomial (e.g., $2x^3 + 5x^2 + 9x + 15$)",
+"standardMeta": {
+"question": "What are the specific mathematical names assigned to polynomials of degree 1, degree 2, and degree 3?"
+}
+}
+},
+{
+"cardId": "b2529487-fb94-45ed-9811-43f7bdac5d0e",
+"originalOrder": 4,
+"originalHeading": "Zero of a Polynomial (Algebraic Meaning)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DEFINITION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "polynomials", "roots", "class-10"],
+"order": 5,
+"heading": "Algebraic Definition of a Polynomial's Zero",
+"back": "## Explanation:\n- **Definition:** A real number $k$ is called a **zero** (or root) of a polynomial $p(x)$ if, when you directly substitute $k$ for the variable $x$, the value of the entire polynomial evaluates to exactly zero.\n\n## Boundary Conditions / Domain:\n- **Mathematical Condition:** $k$ is a zero $\\iff p(k) = 0$.",
+"standardMeta": {
+"question": "What is the strict algebraic condition for a real number $k$ to be considered a 'zero' of a polynomial $p(x)$?"
+}
+}
+},
+{
+"cardId": "ccc7a3c3-91ce-49dd-9f9e-fefb6174ddd2",
+"originalOrder": 6,
+"originalHeading": "Maximum Number of Zeroes Theorem",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT"],
+"vettingNotes": "Fundamental theorem of algebra subset.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "roots", "class-10"],
+"order": 6,
+"heading": "Upper Bound Theorem for Real Zeroes",
+"back": "## Explanation:\n- **The Rule:** A polynomial of degree $n$ can have **at most $n$ real zeroes**.\n\n## Implications:\n- A linear polynomial (degree $1$) has exactly $1$ zero.\n- A quadratic polynomial (degree $2$) has at most $2$ zeroes (can mathematically be $2$ distinct, $1$ repeated, or $0$ real zeroes).\n- A cubic polynomial (degree $3$) has at most $3$ zeroes.",
+"mnemonic": "Degree dictates the ceiling.",
+"standardMeta": {
+"question": "What is the fundamental algebraic theorem restricting the maximum number of real zeroes a polynomial of degree $n$ can possess?"
+}
+}
+},
+{
+"cardId": "a6c4261a-48c9-419c-b040-a1d4b9ce1a57",
+"originalOrder": 5,
+"originalHeading": "Zero of a Polynomial (Geometrical Meaning)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Reordered"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "graphs", "class-10"],
+"order": 7,
+"heading": "Geometrical Interpretation of Zeroes",
+"back": "## Explanation:\n- **Geometrical Truth:** Geometrically, the zeroes of a polynomial $p(x)$ correspond precisely to the **x-coordinates** of the specific points where the graph of $y = p(x)$ intersects or touches the **x-axis**.",
+"standardMeta": {
+"question": "If you are given the Cartesian graph of $y = p(x)$, how do you visually and geometrically identify the real zeroes of the polynomial?"
+}
+}
+},
+{
+"cardId": "ff3ca4e9-f0aa-413e-a789-273648612171",
+"originalOrder": 23,
+"originalHeading": "Geometric Trap: y-axis Intersections",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as DISTINCTION", "Grouped with geometric zeroes"],
+"vettingNotes": "Common misinterpretation by students on graphical counting problems.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "polynomials", "graphs", "class-10"],
+"order": 8,
+"heading": "Trap: Graph Intersections with the y-axis",
+"back": "## Explanation:\n- **The Rule:** The number of zeroes is determined **exclusively** by the number of intersections with the **x-axis**.\n- **The Trap:** A common exam mistake is counting the number of times the curve intersects the y-axis.\n\n## Mathematical Reasoning:\n- A zero is defined strictly as a value of $x$ where $p(x) = 0$ (which means $y = 0$). The line $y = 0$ is exactly the x-axis.\n- Intersecting the y-axis (where $x = 0$) merely gives the y-intercept (the constant term $c$), not a polynomial zero.",
+"mnemonic": "Zeroes live strictly on the X-axis flatline.",
+"standardMeta": {
+"question": "When extracting the number of real zeroes from a polynomial's graph, why must you strictly ignore any points where the curve intersects the y-axis?"
+}
+}
+},
+{
+"cardId": "2ae865d3-2f42-44e5-b10b-2c20fcdcdafb",
+"originalOrder": 26,
+"originalHeading": "Graphical Behavior of Standard Power Polynomials (y = x^n)",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Reordered for general graphing intro"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "graphs", "class-10", "jee-main"],
+"order": 9,
+"heading": "Quadrant Behavior of Power Polynomials ($y = x^n$)",
+"back": "## Explanation:\n- **Even Power ($n$ is even):** The graph lies strictly in the **First and Second Quadrants** (it forms a U-shape that never drops below the x-axis, e.g., $y=x^2, y=x^4$).\n- **Odd Power ($n$ is odd):** The graph lies strictly in the **First and Third Quadrants** (it passes straight through the origin into negative y-values, e.g., $y=x^3$).\n\n## Boundary Conditions / Domain:\n- **Reflection Symmetry:** The graph of $y = -x^n$ is a perfect geometric reflection of $y = x^n$ mirrored across the x-axis.",
+"mnemonic": "Even powers smile up (Q1/Q2). Odd powers cross the origin (Q1/Q3).",
+"standardMeta": {
+"question": "How does the mathematical parity (even vs. odd) of the degree $n$ algebraically dictate the quadrants occupied by the basic polynomial graph $y = x^n$?"
+}
+}
+},
+{
+"cardId": "25227d98-5cdc-4d9e-a4eb-aabe6c8354ee",
+"originalOrder": 7,
+"originalHeading": "Shape of a Quadratic Polynomial Graph",
+"action": "MODIFIED",
+"modificationsSummary": ["Added domain restriction a!=0"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "quadratics", "graphs", "class-10"],
+"order": 10,
+"heading": "Geometric Shape of a Quadratic Function",
+"back": "## Explanation:\n- **The Shape:** The Cartesian graph of any generic quadratic polynomial $y = ax^2 + bx + c$ is always a symmetric U-shaped or inverted U-shaped curve mathematically known as a **Parabola**.\n\n## Boundary Conditions / Domain:\n- The leading coefficient MUST satisfy $a \neq 0$. (If $a = 0$, it collapses into a straight line).",
+"standardMeta": {
+"question": "What is the specific geometric name for the mathematical curve produced by graphing a quadratic polynomial?"
+}
+}
+},
+{
+"cardId": "0f22665b-9fa7-45e5-9fb5-9f404c429732",
+"originalOrder": 8,
+"originalHeading": "Orientation of the Quadratic Parabola",
+"action": "MODIFIED",
+"modificationsSummary": ["Added explicit a!=0 boundary constraint"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "quadratics", "graphs", "class-10"],
+"order": 11,
+"heading": "Parabolic Orientation Criteria",
+"back": "## Explanation:\nThe vertical orientation of the parabola $y = ax^2 + bx + c$ depends entirely on the algebraic sign of the leading coefficient **$a$**.\n- **Condition 1:** If $a > 0$ (positive), the parabola strictly opens **upwards** ($\cup$).\n- **Condition 2:** If $a < 0$ (negative), the parabola strictly opens **downwards** ($\cap$).\n\n## Boundary Conditions / Domain:\n- $a \neq 0$.",
+"mnemonic": "Positive 'a' smiles (up). Negative 'a' frowns (down).",
+"standardMeta": {
+"question": "What single algebraic coefficient completely dictates whether the parabola of a quadratic polynomial opens upwards or downwards, and what are the exact threshold conditions?"
+}
+}
+},
+{
+"cardId": "6558f2f1-f75a-4357-9751-6e0044412b7b",
+"originalOrder": 31,
+"originalHeading": "Graphical Trap: Cubic Polynomial Zeroes Count",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sit with graphing", "Classified as DISTINCTION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "polynomials", "graphs", "class-10"],
+"order": 12,
+"heading": "Trap: Exact Zero Count of a Cubic Graph",
+"back": "## Explanation:\n- **The Rule:** A cubic polynomial has **at most** $3$ real zeroes. It is mathematically FALSE to assume it intersects exactly $3$ times every time.\n\n## Geometric Edge Cases:\n- **Case 1 ($1$ Real Zero):** The graph intersects the x-axis exactly once and continues monotonically (e.g., $y = x^3$, the only real zero is $0$).\n- **Case 2 ($2$ Real Zeroes):** The graph intersects the x-axis once, loops back to **touch** the x-axis at a local extremum (a repeated root), and turns away (e.g., $y = x^3 - x^2$, distinct real zeroes are $0$ and $1$).\n- **Case 3 ($3$ Real Zeroes):** The graph cleanly crosses the x-axis at three distinct Cartesian coordinates.",
+"mnemonic": "Cubic ceiling is 3, but the floor is 1.",
+"standardMeta": {
+"question": "Is it mathematically guaranteed that every cubic polynomial graph will intersect the x-axis at exactly three distinct points? Explain the geometric edge cases."
+}
+}
+},
+{
+"cardId": "00a0e81d-d739-4d04-a713-863b09b23eb6",
+"originalOrder": 9,
+"originalHeading": "Sum of Zeroes (Quadratic Polynomial)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to strictly formatted FORMULA card", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "algebra", "class-10", "formula"],
+"order": 13,
+"heading": "Algebraic Formula: Sum of Zeroes (Quadratic)",
+"back": "## Component Anatomy:\n- **$\alpha, \beta$**: The two real or complex zeroes of the quadratic polynomial.\n- **$a$**: Coefficient of the $x^2$ term.\n- **$b$**: Coefficient of the $x$ term.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$. If $a=0$, it is not a quadratic polynomial and the formula implies division by zero.",
+"formulaMeta": {
+"formula": "\alpha + \beta = \frac{-b}{a}",
+"description": "The fundamental identity relating the sum of the zeroes of a quadratic polynomial $ax^2 + bx + c$ directly to its coefficients.",
+"derivation": "This identity is derived algebraically from expanding the generalized factorized form $k(x - \alpha)(x - \beta) = k[x^2 - (\alpha + \beta)x + \alpha\beta]$ and directly comparing the resulting coefficients with the standard form $ax^2 + bx + c$."
+}
+}
+},
+{
+"cardId": "786666b2-cff0-4748-a3e3-4cbac9051752",
+"originalOrder": 10,
+"originalHeading": "Product of Zeroes (Quadratic Polynomial)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA card", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "algebra", "class-10", "formula"],
+"order": 14,
+"heading": "Algebraic Formula: Product of Zeroes (Quadratic)",
+"back": "## Component Anatomy:\n- **$\alpha, \beta$**: The two real or complex zeroes of the quadratic polynomial.\n- **$a$**: Coefficient of the $x^2$ term.\n- **$c$**: The constant term.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$.",
+"formulaMeta": {
+"formula": "\alpha\beta = \frac{c}{a}",
+"description": "The fundamental identity relating the absolute product of the zeroes of a quadratic polynomial $ax^2 + bx + c$ to its coefficients.",
+"derivation": "Derived from expanding $k(x - \alpha)(x - \beta) = k[x^2 - (\alpha + \beta)x + \alpha\beta]$ and directly comparing the isolated constant term with $c$ in the standard form."
+}
+}
+},
+{
+"cardId": "7970993a-6288-4837-84ef-181e9742ba73",
+"originalOrder": 11,
+"originalHeading": "SOP: Constructing a Quadratic Polynomial from Zeroes",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to PROCEDURAL FORMULA", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "algebra", "class-10", "formula"],
+"order": 15,
+"heading": "SOP: Quadratic Construction via Roots",
+"back": "## Component Anatomy:\n- **$k$**: An arbitrary non-zero real constant multiplier representing the family of polynomials.\n- **$S$**: The calculated sum of the given zeroes ($\alpha + \beta$).\n- **$P$**: The calculated product of the given zeroes ($\alpha\beta$).\n\n## Boundary Conditions / Domain:\n- **Constraint:** $k \neq 0$.\n- In standard textbook exercises, if only 'a' single polynomial is requested, $k$ is typically set to $1$ or chosen specifically as the LCM of denominators to clear any fractional coefficients.",
+"mnemonic": "x squared MINUS Sum x PLUS Product",
+"formulaMeta": {
+"formula": "p(x) = k[x^2 - S x + P]",
+"description": "The template formula required to algebraically reconstruct a quadratic polynomial when the sum and product of its zeroes are known.",
+"derivation": "1. **Calculate the components:** Compute Sum ($S = \alpha + \beta$) and Product ($P = \alpha\beta$) from the given data.\n2. **Substitute:** Drop them directly into the algebraic template $x^2 - (S)x + (P)$. Pay strict attention to the negative sign before the sum term.\n3. **Scale:** Multiply the entire expression by a constant $k$ to remove any fractional coefficients if a purely integer polynomial is desired."
+}
+}
+},
+{
+"cardId": "c236b825-b401-4100-97eb-361070f9c68f",
+"originalOrder": 24,
+"originalHeading": "Converse of the Zero-Coefficient Relationship",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered adjacent to the construction SOP", "Classified as DISTINCTION"],
+"vettingNotes": "Addresses the 'k' parameter in the construction formula.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "polynomials", "algebra", "class-10"],
+"order": 16,
+"heading": "Trap: Uniqueness of a Constructed Polynomial",
+"back": "## Explanation:\n- **The Mathematical Reality:** If you are given only the sum and product of zeroes, you can form a quadratic polynomial, but it is **NOT uniquely determined**.\n- **The Family of Polynomials:** There exist infinitely many scaled polynomials that share the exact same zeroes (and thus the exact same sum and product).\n- **Algebraic Representation:** They all strictly take the scaled form **$k(x^2 - Sx + P)$**, where $k$ is any non-zero real number. Changing $k$ stretches the parabola vertically but does not move its x-intercepts.",
+"standardMeta": {
+"question": "Is a quadratic polynomial uniquely determined if you only know the algebraic sum and product of its zeroes? Why or why not?"
+}
+}
+},
+{
+"cardId": "2487a0a8-2fc3-4a32-a228-04834288bdc7",
+"originalOrder": 16,
+"originalHeading": "SOP: Splitting the Middle Term Factorization",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA card for algorithm", "Added strict discriminant boundary condition"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "factorization", "class-10"],
+"order": 17,
+"heading": "SOP: Splitting the Middle Term Algorithm",
+"back": "## Component Anatomy:\n- **$a, b, c$**: The real coefficients of the standard quadratic $ax^2 + bx + c$.\n- **$p, q$**: Two targeted numbers systematically chosen to split the middle term.\n\n## Boundary Conditions / Domain:\n- **Real Roots Constraint:** The polynomial discriminant $D = b^2 - 4ac$ MUST be $\geq 0$ for this method to yield real factors.",
+"mnemonic": "Multiply A & C, Sum to B.",
+"formulaMeta": {
+"formula": "p + q = b \quad \text{and} \quad p \cdot q = a \cdot c",
+"description": "The algebraic standard operating procedure to factorize a quadratic polynomial by decomposing its linear term.",
+"derivation": "1. **Multiply:** Calculate the product of the leading coefficient '$a$' and the constant term '$c$'.\n2. **Search:** Find two distinct numbers '$p$' and '$q$' such that their product equals exactly $(a \times c)$ AND their algebraic sum equals the middle coefficient '$b$'.\n3. **Split:** Rewrite the middle linear term '$bx$' identically as '$px + qx$'.\n4. **Group:** Factor out common terms by grouping the first two terms together and the last two terms together, revealing a common binomial factor."
+}
+}
+},
+{
+"cardId": "7cbc6cbc-b3ab-4a95-8840-cfc07ad023f9",
+"originalOrder": 20,
+"originalHeading": "Equal Roots Condition for Quadratic Polynomials",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Explicit mathematical deduction in derivation"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "quadratics", "class-10"],
+"order": 18,
+"heading": "Coefficient Constraint for Equal Roots",
+"back": "## Component Anatomy:\n- **$a, b, c$**: Real coefficients of $ax^2 + bx + c$.\n- **$D$**: The Discriminant ($b^2 - 4ac$).\n\n## Boundary Conditions / Domain:\n- For equal roots to exist, the discriminant must strictly evaluate to zero: $D = 0$.\n- **Crucial Edge-Case Constraint:** Since $b^2 = 4ac$ and $b^2$ is inherently positive for any real non-zero $b$, the product $ac$ MUST also be strictly positive. This mandates that **$a$ and $c$ must share the exact SAME sign** (either both positive or both negative).",
+"formulaMeta": {
+"formula": "b^2 - 4ac = 0 \implies a \text{ and } c \text{ have the SAME sign}",
+"description": "The strict algebraic coefficient condition enforcing a quadratic polynomial to touch the x-axis exactly once (equal real zeroes).",
+"derivation": "1. Equal real roots imply the discriminant $D = 0$.\n2. $b^2 - 4ac = 0 \implies b^2 = 4ac$.\n3. Since the mathematical square of any non-zero real number ($b^2$) must be positive, the right side $4ac$ must also strictly be $> 0$.\n4. Therefore, the product $a \times c$ is positive, meaning $a$ and $c$ must either both be positive or both be negative."
+}
+}
+},
+{
+"cardId": "b7e5985e-db26-42b2-a44b-a830b7991d24",
+"originalOrder": 21,
+"originalHeading": "Trap: Coefficients with the Same Sign",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified DISTINCTION", "Grouped with sign-based properties"],
+"vettingNotes": "Frequent logical reasoning MCQ.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "polynomials", "roots", "class-10"],
+"order": 19,
+"heading": "Trap: Inferring Root Signs from Same-Sign Coefficients",
+"back": "## Explanation:\n- **Rule:** If all three coefficients ($a, b, c$) of a quadratic polynomial $ax^2 + bx + c$ have the **same sign** (either all strictly positive or all strictly negative).\n- **Conclusion:** Both real zeroes of the polynomial are mathematically guaranteed to be **negative**.\n\n## Algebraic Proof:\n- The Sum of zeroes $= -b/a$. If $a$ and $b$ share a sign, $b/a$ is positive, making the sum strictly **negative**.\n- The Product of zeroes $= c/a$. If $c$ and $a$ share a sign, the product is strictly **positive**.\n- The absolute mathematical reality: The only way two numbers multiply to yield a positive value but sum to yield a negative value is if they are **both negative numbers**.",
+"mnemonic": "All signs same = Both zeroes negative.",
+"standardMeta": {
+"question": "If a quadratic polynomial $ax^2 + bx + c$ has coefficients $a, b, c$ that are all strictly positive (or all strictly negative), what can be definitively mathematically proven about the signs of its zeroes?"
+}
+}
+},
+{
+"cardId": "73fab13e-034f-4f57-a1ec-58f49fe1d9e0",
+"originalOrder": 28,
+"originalHeading": "Coefficient Condition for Equal & Opposite Zeroes",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "roots", "class-10"],
+"order": 20,
+"heading": "Coefficient Constraint: Equal and Opposite Zeroes",
+"back": "## Component Anatomy:\n- **$b$:** The coefficient of the linear $x$ term in the polynomial $ax^2 + bx + c$.\n\n## Boundary Conditions / Domain:\n- Constraint: $a \neq 0$.\n- **Discriminant Requirement:** The roots must strictly be real numbers, which requires the discriminant $D > 0$. Since $b=0$, this means $-4ac > 0$, implicitly forcing $a$ and $c$ to have strictly opposite signs.",
+"mnemonic": "Opposite roots kill the middle term.",
+"formulaMeta": {
+"formula": "b = 0",
+"description": "The precise algebraic condition dictating that a quadratic polynomial's zeroes are identical in magnitude but inverted in sign.",
+"derivation": "1. Let the two geometric zeroes be $\alpha$ and $-\alpha$.\n2. The total sum of these zeroes is mathematically guaranteed to be $0$ ($\alpha + (-\alpha) = 0$).\n3. Applying the standard sum of zeroes formula: $\frac{-b}{a} = 0$.\n4. Since the definition of a quadratic demands $a \neq 0$, the equation strictly forces the numerator $b = 0$. The resulting polynomial reduces to the symmetric form $ax^2 + c$."
+}
+}
+},
+{
+"cardId": "96568472-b115-4c95-a5aa-d03d77062c20",
+"originalOrder": 29,
+"originalHeading": "Coefficient Condition for Reciprocal Zeroes",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Added boundary condition that c!=0"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "roots", "class-10"],
+"order": 21,
+"heading": "Coefficient Constraint: Reciprocal Zeroes",
+"back": "## Component Anatomy:\n- **$a$:** The leading coefficient of the $x^2$ term.\n- **$c$:** The constant term in the polynomial $ax^2 + bx + c$.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$.\n- Neither zero can be $0$ (as the reciprocal of $0$ is undefined), which implicitly mandates that **$c \neq 0$**.",
+"mnemonic": "Reciprocal roots make 'a' and 'c' twins.",
+"formulaMeta": {
+"formula": "c = a",
+"description": "The exact algebraic condition ensuring one zero of a quadratic polynomial is the multiplicative inverse of the other.",
+"derivation": "1. Let the two zeroes be $\alpha$ and its reciprocal $\frac{1}{\alpha}$.\n2. The mathematical product of these zeroes is strictly $1$ ($\alpha \times \frac{1}{\alpha} = 1$).\n3. Applying the algebraic product of zeroes identity: $\frac{c}{a} = 1$.\n4. Multiplying both sides by the non-zero leading coefficient $a$ strictly yields $c = a$."
+}
+}
+},
+{
+"cardId": "b5b7606f-0a12-4ba7-b25a-ead1e8db7e2d",
+"originalOrder": 12,
+"originalHeading": "Sum of Zeroes (Cubic Polynomial)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "cubic", "class-10"],
+"order": 22,
+"heading": "Algebraic Formula: Sum of Zeroes (Cubic)",
+"back": "## Component Anatomy:\n- **$\alpha, \beta, \gamma$**: The three mathematical zeroes of the cubic polynomial.\n- **$a$**: The leading coefficient of the $x^3$ term.\n- **$b$**: The coefficient of the $x^2$ term.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$.",
+"formulaMeta": {
+"formula": "\alpha + \beta + \gamma = \frac{-b}{a}",
+"description": "Identity relating the linear sum of all roots of a cubic polynomial $ax^3 + bx^2 + cx + d$ to its coefficients.",
+"derivation": "Derived structurally from expanding $k(x-\alpha)(x-\beta)(x-\gamma)$ and directly matching the coefficient of the $x^2$ term with the standard form."
+}
+}
+},
+{
+"cardId": "9ffa8f85-b00f-4220-80a6-a703a8b09403",
+"originalOrder": 13,
+"originalHeading": "Sum of Products of Zeroes Two at a Time (Cubic)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "cubic", "class-10"],
+"order": 23,
+"heading": "Algebraic Formula: Sum of Pairwise Products (Cubic)",
+"back": "## Component Anatomy:\n- **$\alpha, \beta, \gamma$**: The three mathematical zeroes of the cubic polynomial.\n- **$a$**: The leading coefficient of the $x^3$ term.\n- **$c$**: The coefficient of the linear $x$ term.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$.",
+"formulaMeta": {
+"formula": "\alpha\beta + \beta\gamma + \gamma\alpha = \frac{c}{a}",
+"description": "Identity relating the sum of the roots taken two at a time for a cubic polynomial $ax^3 + bx^2 + cx + d$ to its coefficients.",
+"derivation": "Derived structurally from expanding $k(x-\alpha)(x-\beta)(x-\gamma)$ and isolating the coefficient of the linear $x$ term."
+}
+}
+},
+{
+"cardId": "62705cb9-b5d1-457f-9014-29083b5c9e0c",
+"originalOrder": 14,
+"originalHeading": "Product of Zeroes (Cubic Polynomial)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to FORMULA", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "cubic", "class-10"],
+"order": 24,
+"heading": "Algebraic Formula: Product of Zeroes (Cubic)",
+"back": "## Component Anatomy:\n- **$\alpha, \beta, \gamma$**: The three mathematical zeroes of the cubic polynomial.\n- **$a$**: The leading coefficient of the $x^3$ term.\n- **$d$**: The absolute constant term.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $a \neq 0$.",
+"formulaMeta": {
+"formula": "\alpha\beta\gamma = \frac{-d}{a}",
+"description": "Identity relating the full product of all three roots of a cubic polynomial $ax^3 + bx^2 + cx + d$ to its coefficients.",
+"derivation": "Derived structurally by taking the product of the constant terms when expanding $k(x-\alpha)(x-\beta)(x-\gamma)$ and matching it to $d$."
+}
+}
+},
+{
+"cardId": "fa90789c-4ffd-4791-9c88-2945f014ff64",
+"originalOrder": 15,
+"originalHeading": "SOP: Constructing a Cubic Polynomial from Zeroes",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to PROCEDURAL FORMULA", "Double escaped KaTeX including summation symbols"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "cubic", "class-10"],
+"order": 25,
+"heading": "SOP: Cubic Polynomial Construction Template",
+"back": "## Component Anatomy:\n- **$k$**: An arbitrary non-zero real constant multiplier.\n- **$\sum\alpha$**: The sum of all zeroes ($\alpha + \beta + \gamma$).\n- **$\sum\alpha\beta$**: The sum of pairwise products ($\alpha\beta + \beta\gamma + \gamma\alpha$).\n- **$\alpha\beta\gamma$**: The total product of all three zeroes.\n\n## Boundary Conditions / Domain:\n- **Constraint:** $k \neq 0$.",
+"mnemonic": "Signs alternate strictly: +, -, +, -",
+"formulaMeta": {
+"formula": "p(x) = k[x^3 - (\sum\alpha)x^2 + (\sum\alpha\beta)x - (\alpha\beta\gamma)]",
+"description": "The exact algebraic template required to construct a cubic polynomial given the three foundational relationships of its zeroes.",
+"derivation": "Substitute the calculated summation relationships directly into the template, maintaining strict attention to the alternating signs for the $x^2$ and constant terms."
+}
+}
+},
+{
+"cardId": "85383119-03bb-4049-b9e2-64b78bc44a68",
+"originalOrder": 17,
+"originalHeading": "Division Algorithm for Polynomials",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as CONCEPT", "Double escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "polynomials", "division", "class-10", "formula"],
+"order": 26,
+"heading": "Algebraic Formula: Division Algorithm for Polynomials",
+"back": "## Component Anatomy:\n- **$p(x)$**: Dividend polynomial.\n- **$g(x)$**: Divisor polynomial.\n- **$q(x)$**: Quotient polynomial.\n- **$r(x)$**: Remainder polynomial.\n\n## Boundary Conditions / Domain:\n- **Divisor Constraint:** $g(x) \neq 0$.\n- **Remainder Constraint:** The strict mathematical constraint on the remainder is that either **$r(x) = 0$** OR **$\text{degree}(r(x)) < \text{degree}(g(x))$**.",
+"mnemonic": "Dividend = Divisor x Quotient + Remainder",
+"formulaMeta": {
+"formula": "p(x) = g(x) \cdot q(x) + r(x)",
+"description": "The fundamental algebraic theorem governing the long division of one polynomial by another.",
+"derivation": "This axiomatic principle guarantees that for any given dividend $p(x)$ and non-zero divisor $g(x)$, there exist unique polynomials $q(x)$ and $r(x)$ satisfying this equation."
+}
+}
+},
+{
+"cardId": "58d32bd5-76eb-4202-89e2-54576b70f8de",
+"originalOrder": 18,
+"originalHeading": "Degree Rule When Quotient is Zero",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION", "Standardized markdown"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "division", "class-10"],
+"order": 27,
+"heading": "Boundary Condition: Zero Quotient in Polynomial Division",
+"back": "## Explanation:\n- **Premise:** If a polynomial $p(x)$ is divided by $g(x)$ and the resulting quotient strictly evaluates to $q(x) = 0$.\n- **Mathematical Truth:** This mathematically implies that the long division process cannot even begin. Therefore, substituting $q(x)=0$ into the division algorithm yields $p(x) = r(x)$. The remainder is simply the original dividend.\n\n## Boundary Conditions / Domain:\n- **Degree Constraint:** For this edge case to mathematically occur, the degree of the dividend must be strictly less than the degree of the divisor: **$\text{degree}(p(x)) < \text{degree}(g(x))$**.\n- $g(x) \neq 0$.",
+"standardMeta": {
+"question": "In polynomial long division, under what strict degree condition will the quotient $q(x)$ evaluate to exactly zero?"
+}
+}
+},
+{
+"cardId": "62a47230-8151-4b8d-9d00-95b8146b4dfd",
+"originalOrder": 19,
+"originalHeading": "Constant Remainder Condition",
+"action": "MODIFIED",
+"modificationsSummary": ["Classified as APPLICATION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "polynomials", "division", "class-10"],
+"order": 28,
+"heading": "Degree Implication of a Constant Remainder",
+"back": "## Explanation:\n- **The Rule:** Based on the fundamental division algorithm, the degree of the remainder $r(x)$ must strictly be less than the degree of the divisor $g(x)$.\n- **Application:** If the remainder evaluates to a constant numerical value (meaning its algebraic degree is exactly $0$), the divisor $g(x)$ must possess a **degree of $1$ or higher**.\n- *Corollary:* If the divisor $g(x)$ is a linear polynomial (degree $1$), the remainder is mathematically forced to be a constant (or zero).",
+"standardMeta": {
+"question": "If the remainder of a polynomial long division is a constant numerical value (degree 0), what does this strictly imply about the degree of the divisor?"
+}
+}
+},
+{
+"cardId": "NEW_SPLIT_29",
+"originalOrder": 22,
+"originalHeading": "SOP: Finding Remaining Zeroes using Given Zeroes (Part 1)",
+"action": "SPLIT",
+"modificationsSummary": ["Split massive algorithm to reduce cognitive bloat", "Focused solely on divisor formation"],
+"vettingNotes": "First half of the classic Biquadratic root-finding board question.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "roots", "algorithm", "class-10"],
+"order": 29,
+"heading": "SOP Part 1: Forming the Divisor from Known Zeroes",
+"back": "## Component Anatomy:\n- **$\alpha, \beta$**: The two given, known zeroes of the higher-degree polynomial.\n- **$g(x)$**: The constructed quadratic divisor.\n\n## Boundary Conditions / Domain:\n- The known roots must be exactly evaluated to construct a valid divisor without remainders.",
+"formulaMeta": {
+"formula": "g(x) = (x - \alpha)(x - \beta)",
+"description": "The initial algorithmic setup to reduce a higher-degree polynomial (like a biquadratic) when a subset of its zeroes is provided.",
+"derivation": "1. **Identify Roots:** Extract the known zeroes $\alpha$ and $\beta$.\n2. **Form Linear Factors:** By the Factor Theorem, $(x - \alpha)$ and $(x - \beta)$ must perfectly divide the main polynomial.\n3. **Construct Divisor:** Multiply these two linear factors together: $g(x) = (x - \alpha)(x - \beta)$.\n4. **Expand:** Distribute and expand this into a standard quadratic form $x^2 - (\alpha+\beta)x + \alpha\beta$ to prepare for long division."
+}
+}
+},
+{
+"cardId": "e57fc17c-984c-4fd3-9290-f1fbaa474d47",
+"originalOrder": 22,
+"originalHeading": "SOP: Finding Remaining Zeroes using Given Zeroes (Part 2)",
+"action": "SPLIT",
+"modificationsSummary": ["Split algorithm", "Focused on division and secondary factorization"],
+"vettingNotes": "Second half of the Biquadratic root-finding algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "roots", "algorithm", "class-10"],
+"order": 30,
+"heading": "SOP Part 2: Extracting Unknown Zeroes via Division",
+"back": "## Component Anatomy:\n- **$p(x)$**: The original higher-degree polynomial (e.g., biquadratic).\n- **$g(x)$**: The constructed quadratic divisor from the known zeroes.\n- **$q(x)$**: The resulting quotient polynomial containing the remaining zeroes.\n\n## Boundary Conditions / Domain:\n- **Critical Check:** Because $g(x)$ is formed from exact zeroes of $p(x)$, the long division **MUST yield a remainder of exactly $0$**. If $r(x) \neq 0$, a calculation error has occurred.",
+"formulaMeta": {
+"formula": "p(x) \div g(x) \implies q(x) = 0",
+"description": "The execution phase to extract and solve the remaining roots from a partially solved polynomial.",
+"derivation": "1. **Long Division:** Perform standard polynomial long division: divide the main polynomial $p(x)$ by the constructed quadratic divisor $g(x)$.\n2. **Extract Quotient:** Isolate the resulting quotient $q(x)$, which will be a quadratic polynomial (if $p(x)$ was biquadratic).\n3. **Find Remaining Roots:** Set the quotient to zero ($q(x) = 0$).\n4. **Factorize:** Solve for $x$ by splitting the middle term or using the quadratic formula to extract the final, unknown zeroes."
+}
+}
+},
+{
+"cardId": "NEW_SPLIT_31",
+"originalOrder": 27,
+"originalHeading": "SOP: Forming a Divisor from Conjugate Irrational Zeroes (Part 1)",
+"action": "SPLIT",
+"modificationsSummary": ["Split algorithm to isolate the algebraic setup trick"],
+"vettingNotes": "Crucial setup trick for JEE and advanced boards.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "roots", "irrational", "class-10"],
+"order": 31,
+"heading": "SOP Part 1: Algebraic Setup for Conjugate Irrational Divisors",
+"back": "## Component Anatomy:\n- **$a$**: The rational integer portion of the given conjugate root.\n- **$\sqrt{b}$**: The irrational surd portion of the given root.\n\n## Boundary Conditions / Domain:\n- The zeroes must strictly be given as a conjugate pair ($a + \sqrt{b}$ and $a - \sqrt{b}$) for this specific difference of squares grouping to function.",
+"formulaMeta": {
+"formula": "[(x - a) - \sqrt{b}] \times [(x - a) + \sqrt{b}]",
+"description": "The algebraic grouping strategy used to efficiently construct a divisor from a pair of complex or irrational conjugate roots.",
+"derivation": "1. **Express Linear Factors:** Write out the raw factors using the given roots: $[x - (a + \sqrt{b})] \times [x - (a - \sqrt{b})]$.\n2. **Group Rational Terms:** Distribute the negative sign and algebraically group the rational terms together to artificially create a 'Difference of Squares' framework: $[(x - a) - \sqrt{b}] \times [(x - a) + \sqrt{b}]$."
+}
+}
+},
+{
+"cardId": "a40ca9f2-51ac-4b1d-a61a-95174c7338a5",
+"originalOrder": 27,
+"originalHeading": "SOP: Forming a Divisor from Conjugate Irrational Zeroes (Part 2)",
+"action": "SPLIT",
+"modificationsSummary": ["Split algorithm to isolate the final expansion"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "roots", "irrational", "class-10"],
+"order": 32,
+"heading": "SOP Part 2: Expanding the Conjugate Irrational Divisor",
+"back": "## Component Anatomy:\n- **$(x-a)$**: The grouped rational binomial acting as term 'A'.\n- **$\sqrt{b}$**: The isolated surd acting as term 'B'.\n\n## Boundary Conditions / Domain:\n- The final resulting polynomial divisor must strictly have purely rational coefficients. If a surd remains, the expansion was executed incorrectly.",
+"mnemonic": "(x-a)^2 - b",
+"formulaMeta": {
+"formula": "(x - a)^2 - (\sqrt{b})^2 \implies x^2 - 2ax + a^2 - b",
+"description": "The execution phase applying the difference of squares identity to finalize a rational quadratic divisor.",
+"derivation": "1. **Apply Identity:** Using the setup $[(x - a) - \sqrt{b}] \times [(x - a) + \sqrt{b}]$, apply the standard identity $(A-B)(A+B) = A^2 - B^2$.\n2. **Substitute:** This yields $(x - a)^2 - (\sqrt{b})^2$.\n3. **Square the Surd:** The square of the square root cancels out, leaving exactly $-b$.\n4. **Expand Fully:** Expand the perfect square $(x-a)^2$ to yield the final, rational quadratic divisor: $x^2 - 2ax + a^2 - b$."
+}
+}
+},
+{
+"cardId": "NEW_SPLIT_33",
+"originalOrder": 30,
+"originalHeading": "SOP: Finding Unknowns in Polynomial Division (The 'k and a' Archetype) (Part 1)",
+"action": "SPLIT",
+"modificationsSummary": ["Split complex miscellaneous board exam archetype", "Focused on the raw long division extraction"],
+"vettingNotes": "Heavy 4-marker pattern in CBSE.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "division", "class-10"],
+"order": 33,
+"heading": "SOP Part 1: Remainder Extraction for Divisor Unknowns",
+"back": "## Component Anatomy:\n- **$k$**: An unknown constant intentionally embedded inside the divisor by the examiner.\n- **$R_{calc}(x)$**: The raw, linear remainder obtained mathematically from performing long division.\n- **$C_1, C_2$**: Algebraic expressions containing $k$ that act as coefficients in the remainder.\n\n## Boundary Conditions / Domain:\n- During long division, the variable $k$ must be treated strictly as a normal integer constant, not an algebraic variable like $x$.",
+"formulaMeta": {
+"formula": "R_{calc}(x) = (C_1)x + C_2",
+"description": "The initial division step to extract a workable algebraic remainder containing an unknown divisor constant $k$.",
+"derivation": "1. **Execute Long Division:** Perform standard polynomial long division of the dividend by the divisor containing $k$.\n2. **Carry the Constant:** Meticulously carry the $k$ terms through the subtraction steps, grouping them alongside their respective powers of $x$.\n3. **Halt and Extract:** Stop division exactly when the degree of the working remainder is strictly less than the divisor.\n4. **Format Remainder:** Algebraically group the final calculated remainder into a strict linear format: $(C_1)x + (C_2)$, where $C_1$ represents all coefficients of $x$, and $C_2$ represents all constant terms."
+}
+}
+},
+{
+"cardId": "927467d3-c275-41cf-a614-1bd1c7d44361",
+"originalOrder": 30,
+"originalHeading": "SOP: Finding Unknowns in Polynomial Division (The 'k and a' Archetype) (Part 2)",
+"action": "SPLIT",
+"modificationsSummary": ["Split algorithm", "Focused on the coefficient comparison logic"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "polynomials", "division", "class-10"],
+"order": 34,
+"heading": "SOP Part 2: Equating Coefficients to Solve Unknowns",
+"back": "## Component Anatomy:\n- **$R_{calc}(x)$**: Your calculated remainder $(C_1)x + (C_2)$.\n- **$R_{given}(x)$**: The target remainder explicitly provided in the question prompt (e.g., $1x + a$).\n- **$a$**: The second unknown constant embedded inside the target remainder.\n\n## Boundary Conditions / Domain:\n- This identity mapping is only mathematically valid because polynomials are equal if and only if their corresponding coefficients of identical degree are exactly equal.",
+"mnemonic": "Equate the X's, then Equate the Constants.",
+"formulaMeta": {
+"formula": "(C_1)x + C_2 \equiv 1x + a",
+"description": "The final execution phase of mapping the calculated algebraic remainder to the given target remainder to solve for unknown variables.",
+"derivation": "1. **Establish Identity:** Set your raw calculated remainder strictly equal to the given remainder: $(C_1)x + (C_2) = 1x + a$.\n2. **Compare Linear Terms:** Equate the coefficients of the $x$ term. Set $C_1 = 1$ and solve this algebraic equation to uniquely determine the value of $k$.\n3. **Compare Constants:** Equate the standalone constant terms. Set $C_2 = a$.\n4. **Final Substitution:** Substitute the numerical value of $k$ you just found into the equation for $C_2$ to successfully calculate the numerical value of $a$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

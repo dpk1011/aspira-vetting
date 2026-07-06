@@ -1,0 +1,668 @@
+{
+"deckId": "fe027bc6-8ceb-416e-ba7b-d1d1e859cb9e",
+"cards": [
+{
+"cardId": "68966e6e-267e-4256-8dac-9dc0e9c2bc1a",
+"originalOrder": 1,
+"originalHeading": "Origin and Need for Binomial Theorem",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Refined markdown formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 1,
+"heading": "Origin and Purpose of the Binomial Theorem",
+"back": "## Limitation of Direct Expansion\nWhile $(a+b)^2$ and $(a+b)^3$ are easily computed by repeated algebraic multiplication, evaluating higher powers like $(98)^5$ or $(1.01)^{1000000}$ iteratively becomes mathematically tedious and highly error-prone.\n\n## The Binomial Solution\nThe Binomial Theorem provides an efficient, systematic mathematical formula to directly expand $(a+b)^n$ for any integer index $n$ without requiring iterative repeated multiplication, allowing immediate access to any specific term or coefficient.",
+"standardMeta": {
+"question": "What structural algebraic limitation mathematically necessitated the development of the Binomial Theorem?"
+}
+}
+},
+{
+"cardId": "8632e6d8-077f-44c8-8873-8bb309424cc0",
+"originalOrder": 2,
+"originalHeading": "Pascal's Triangle Row Generation",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Converted to PROCEDURAL"],
+"vettingNotes": "Classified as procedural due to the algorithmic generation steps.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 2,
+"heading": "Algorithmic Generation of Pascal's Triangle",
+"back": "## Boundary Setup\nEvery single row strictly begins and ends with the integer `1`.\n\n## Internal Generation Algorithm\nEach internal numerical coefficient is strictly obtained by adding the two coefficients located directly above it in the preceding row (one on the immediate top-left, one on the immediate top-right).\n\n## Combinatorial Equivalence\nThis visual addition pattern perfectly mimics the core combinatorial identity: $^{n}C_r + ^{n}C_{r-1} = ^{n+1}C_r$.",
+"mnemonic": "1 on the outside, sum on the inside.",
+"standardMeta": {
+"question": "What are the core geometric and arithmetic rules for generating a new row of coefficients in Pascal's Triangle?"
+}
+}
+},
+{
+"cardId": "21a2b364-0068-423d-ac63-ea9361552f76",
+"originalOrder": 3,
+"originalHeading": "Binomial Theorem for Positive Integral Indices",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Refined boundary conditions"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 3,
+"heading": "Binomial Theorem for Positive Integral Indices",
+"back": "## Component Anatomy\n- **$n$:** A strictly positive integer index.\n- **$a, b$:** Any real or complex algebraic terms.\n- **$^nC_k$:** The binomial coefficient mathematically equivalent to $\frac{n!}{k!(n-k)!}$.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{Z}^+$ (must be a strictly positive integer for this finite expansion format).\n- $k$ increments strictly by integers from $0$ to $n$.",
+"formulaMeta": {
+"formula": "(a + b)^n = \sum_{k=0}^{n} {}^nC_k a^{n-k} b^k",
+"description": "The complete expansion formula for a binomial (a + b)^n using standard summation notation.",
+"derivation": "The algebraic expansion sequentially evaluates to: $^nC_0 a^n b^0 + ^nC_1 a^{n-1} b^1 + \dots + ^nC_n a^0 b^n$."
+}
+}
+},
+{
+"cardId": "bcecc63d-aaa1-479c-898c-561a727e06b1",
+"originalOrder": 4,
+"originalHeading": "Anatomy of a Binomial Expansion (Terms & Indices)",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 4,
+"heading": "Anatomical Rules of a Standard Binomial Expansion",
+"back": "## Total Terms\nThe total number of generated terms in the expansion is always strictly **one more than the index** (i.e., exactly $n+1$ terms).\n\n## Variable Progression\nThe exponent power of the first variable ($a$) strictly decreases by 1 per term from $n$ down to $0$, while the power of the second variable ($b$) strictly increases by 1 per term from $0$ up to $n$.\n\n## Index Sum Law\nIn every single generated term of the expansion, the arithmetic sum of the indices (powers) of both variables is strictly and constantly equal to the original index $n$.",
+"mnemonic": "Powers cross paths, sum stays constant.",
+"standardMeta": {
+"question": "What are the three strict anatomical rules regarding the total number of terms and the behavior of variable indices in the expansion of $(a+b)^n$?"
+}
+}
+},
+{
+"cardId": "29c33f13-22a4-4282-a39d-f8f38393268a",
+"originalOrder": 5,
+"originalHeading": "Standard Expansion of (x - y)^n",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 5,
+"heading": "Standard Alternating Expansion of (x - y)^n",
+"back": "## Component Anatomy\n- **$n$:** Positive integral index.\n- **$x, y$:** Real or complex variables.\n- **$(-1)^k$:** The alternating sign generator.\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{Z}^+$.",
+"mnemonic": "Alternating signs, starting with positive.",
+"formulaMeta": {
+"formula": "(x - y)^n = \sum_{k=0}^{n} (-1)^k {}^nC_k x^{n-k} y^k",
+"description": "Standard alternating expansion formula for a binomial difference (x - y)^n.",
+"derivation": "Substitute $a = x$ and $b = -y$ into the base binomial theorem. The $(-y)^k$ component algebraically factors into $(-1)^k y^k$. For even $k$, the resulting term is strictly positive; for odd $k$, the term is strictly negative, mathematically creating an alternating sequence."
+}
+}
+},
+{
+"cardId": "765447d5-43ed-4c99-898c-9ea3fc29fed0",
+"originalOrder": 6,
+"originalHeading": "Standard Base Expansion of (1+x)^n",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 6,
+"heading": "Standard Base Expansion Identity of (1 + x)^n",
+"back": "## Component Anatomy\n- **$n$:** Positive integral index.\n- **$x$:** Variable term.\n\n## Boundary Conditions / Domain\n- Valid for $n \in \mathbb{N}$.\n- This form is foundational for calculus approximations and combinatorial proofs because the base coefficient $a=1$ neutralizes one variable.",
+"formulaMeta": {
+"formula": "(1 + x)^n = \sum_{r=0}^{n} {}^nC_r x^r = 1 + nx + \frac{n(n-1)}{2}x^2 + \dots + x^n",
+"description": "The standard base expansion identity for (1 + x)^n, frequently used in series and approximations.",
+"derivation": "Substitute strictly $a = 1$ and $b = x$ into the binomial theorem. Since $1^{n-r}$ mathematically evaluates to strictly $1$ for all real powers, the $a$ term completely disappears, leaving only the combinatorial coefficients acting directly on the powers of $x$."
+}
+}
+},
+{
+"cardId": "606346ac-4005-4429-a786-a9d4b4f0e0d4",
+"originalOrder": 7,
+"originalHeading": "Standard Base Expansion of (1-x)^n",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 7,
+"heading": "Standard Alternating Base Identity of (1 - x)^n",
+"back": "## Component Anatomy\n- **$n$:** Positive integral index.\n- **$x$:** Variable term.\n- **$(-1)^r$:** Forces alternating signs.\n\n## Boundary Conditions / Domain\n- Valid for $n \in \mathbb{N}$.",
+"mnemonic": "Odd powers take the minus sign.",
+"formulaMeta": {
+"formula": "(1 - x)^n = \sum_{r=0}^{n} (-1)^r {}^nC_r x^r",
+"description": "The standard alternating base expansion identity for (1 - x)^n.",
+"derivation": "Substitute strictly $a = 1$ and $b = -x$. The negative sign is factored out algebraically as $(-1)^r$. This rule strictly forces all expanded terms containing an odd power of $x$ to be negative, creating a perfect alternating sequence."
+}
+}
+},
+{
+"cardId": "7192b210-e2d9-4b9d-bb4b-cb7dfb30730b",
+"originalOrder": 8,
+"originalHeading": "General Term Formula",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Emphasized offset trap"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 8,
+"heading": "General Term Formula ($T_{r+1}$)",
+"back": "## Component Anatomy\n- **$r$:** The combinatorial step index, strictly beginning from $0$.\n- **$T_{r+1}$:** The specific $(r+1)^{\text{th}}$ term position in the expanded sequence.\n\n## Boundary Conditions / Domain\n- $0 \le r \le n$.\n- $r \in \mathbb{W}$ (Whole numbers).\n- **CRITICAL TRAP:** To calculate the 5th term ($T_5$), you MUST strictly set $r = 4$, not $5$.",
+"mnemonic": "The 'r' is always one less than the term number.",
+"formulaMeta": {
+"formula": "T_{r+1} = {}^nC_r a^{n-r} b^r",
+"description": "Formula used to extract a singular, specific term from the expansion of (a+b)^n without expanding the whole series.",
+"derivation": "Because the full expansion's first term starts structurally with $^nC_0$ (where $r=0$), the physical position of the term is always completely offset by $+1$ from the actual mathematical $r$ index used in the formula."
+}
+}
+},
+{
+"cardId": "a5cc4ee5-cbba-46ba-bfdf-040f9a00f7de",
+"originalOrder": 9,
+"originalHeading": "Middle Term (Even Index)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 9,
+"heading": "Position of the Middle Term (Even Binomial Index)",
+"back": "## Component Anatomy\n- **$n$:** The integer index of the binomial expression.\n\n## Boundary Conditions / Domain\n- $n$ must be strictly **EVEN**.\n- Because $n$ is even, the total generated number of terms ($n+1$) is mathematically strictly **ODD**, guaranteeing the existence of exactly **one** singular central middle term.",
+"formulaMeta": {
+"formula": "\text{Middle Term Position} = \left(\frac{n}{2} + 1\right)^{\text{th}} \text{ term}",
+"description": "Algebraic position formula to locate the single middle term when the binomial index n is an even integer.",
+"derivation": "If $n=4$, total terms = 5 (odd count). The middle of 5 items is the 3rd term. Algebraically: $4/2 + 1 = 3$."
+}
+}
+},
+{
+"cardId": "4c1945f4-8fea-44fb-96cf-a28316f17161",
+"originalOrder": 10,
+"originalHeading": "Middle Terms (Odd Index)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 10,
+"heading": "Positions of the Middle Terms (Odd Binomial Index)",
+"back": "## Component Anatomy\n- **$n$:** The integer index of the binomial expression.\n\n## Boundary Conditions / Domain\n- $n$ must be strictly **ODD**.\n- Because $n$ is odd, the total generated number of terms ($n+1$) is mathematically strictly **EVEN**. An even-length discrete sequence mathematically guarantees the existence of exactly **two** adjacent central middle terms.",
+"formulaMeta": {
+"formula": "\text{Middle Terms} = \left(\frac{n+1}{2}\right)^{\text{th}} \text{ and } \left(\frac{n+3}{2}\right)^{\text{th}} \text{ terms}",
+"description": "Algebraic position formulas to locate the two central middle terms when the binomial index n is an odd integer.",
+"derivation": "If $n=5$, total terms = 6 (even count). The middle terms are the 3rd and 4th terms. Algebraically: $(5+1)/2 = 3$ and $(5+3)/2 = 4$."
+}
+}
+},
+{
+"cardId": "a8add7d7-7296-4d8f-bec4-04c86c1e05e0",
+"originalOrder": 11,
+"originalHeading": "Finding the p-th Term from the End",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Converted to PROCEDURAL"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 11,
+"heading": "SOP: Finding the p-th Term from the End",
+"back": "## Component Anatomy\n- **$n$:** The binomial index.\n- **$p$:** The target position counting strictly backwards from the final term.\n\n## Boundary Conditions / Domain\n- $1 \le p \le n+1$ (You mathematically cannot query a term position larger than the absolute total number of terms).\n\n## Critical SOP Shortcut\nInstead of applying the complex position conversion formula, simply **SWAP** the internal binomial terms: $(a+b)^n \to (b+a)^n$. The original $p$-th term from the end is mathematically identical to finding the standard $p$-th term from the *beginning* of the swapped binomial.",
+"mnemonic": "Swap a and b, then just find the p-th term normally.",
+"formulaMeta": {
+"formula": "\text{Position from Start} = (n - p + 2)^{\text{th}} \text{ term}",
+"description": "Positional translation formula to convert the 'p-th term from the end' into its corresponding integer position from the beginning.",
+"derivation": "Total expansion terms = $n+1$. The $p$-th term from the end physically leaves $(n+1-p)$ terms sequenced before it. Therefore, its absolute integer position counting from the front is $(n+1-p) + 1 = n - p + 2$."
+}
+}
+},
+{
+"cardId": "fe3e1916-2b2e-44b8-9bef-8656b7fd9753",
+"originalOrder": 17,
+"originalHeading": "SOP: Finding the Coefficient of x^k",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Shifted order to follow General Term"],
+"vettingNotes": "Moved up in sequence to directly follow general term concepts.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 12,
+"heading": "SOP: Extracting the Coefficient of a Specific Power $x^k$",
+"back": "## Component Anatomy\n- **$T_{r+1}$:** The standard general term formula.\n- **$k$:** The target numerical exponent of $x$ specified in the problem.\n\n## Boundary Conditions / Domain\n- The solved variable $r$ must strictly evaluate to a **non-negative integer** ($0 \le r \le n$).\n- **TRAP:** If algebraically solving for $r$ yields a fraction or negative number, the term $x^k$ strictly DOES NOT EXIST in the expansion (meaning its coefficient is $0$).",
+"formulaMeta": {
+"formula": "T_{r+1} = {}^nC_r a^{n-r} b^r",
+"description": "Standard algorithmic steps (SOP) to systematically isolate and extract the numerical coefficient of a specific power x^k in a binomial expansion.",
+"derivation": "1. Write out the standard General Term $T_{r+1}$ for the specific binomial.\n2. Algebraically combine all distributed instances of $x$ into a single base with a unified exponent expression (e.g., $x^{12-3r}$).\n3. Strictly equate this unified exponent to the target power $k$ (e.g., set $12-3r = k$).\n4. Solve the linear equation for $r$.\n5. Substitute the integer $r$ back into the General Term, stripping away the variable $x$ to leave only the resultant constant numerical coefficient."
+}
+}
+},
+{
+"cardId": "d9d4dc44-62f8-4d3f-a865-0102eec7a9cd",
+"originalOrder": 18,
+"originalHeading": "The 'Term Independent of x'",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Changed class to DEFINITION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 13,
+"heading": "Definition: The 'Term Independent of $x$'",
+"back": "## Mathematical Definition\nA term that contains absolutely no variables after simplification. It is a pure numerical constant.\n\n## Mathematical Translation\n'Independent of $x$' strictly means the effective power of the variable $x$ is algebraically $0$ (since $x^0 = 1$ for $x \neq 0$).\n\n## Algorithmic Execution\nFollow the exact SOP for finding the coefficient of $x^k$, but strictly force the unified exponent equation to equal **$0$**.",
+"mnemonic": "Independent means Power Zero.",
+"standardMeta": {
+"question": "In binomial expansions, what is strictly mathematically meant by a 'term independent of x', and what exact boundary equation must be set to find it?"
+}
+}
+},
+{
+"cardId": "2ee2247f-9d28-4287-8123-e9d0e05d4302",
+"originalOrder": 12,
+"originalHeading": "Sum of All Binomial Coefficients",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 14,
+"heading": "Identity: Sum of All Binomial Coefficients",
+"back": "## Component Anatomy\n- **$^nC_r$:** The individual binomial coefficients.\n- **$n$:** The integer power of the originating binomial.\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{N}$.",
+"formulaMeta": {
+"formula": "\sum_{r=0}^{n} {}^nC_r = 2^n",
+"description": "Fundamental identity for the arithmetic sum of all combinatorial coefficients from ^nC_0 to ^nC_n.",
+"derivation": "Substitute strictly $x = 1$ into the standard expansion base of $(1 + x)^n = ^nC_0 + ^nC_1 x + ^nC_2 x^2 + \dots + ^nC_n x^n$. The LHS perfectly simplifies to $(1 + 1)^n = 2^n$, and the RHS collapses into the pure arithmetic sum of the numerical coefficients."
+}
+}
+},
+{
+"cardId": "0ee29cce-5a00-40e6-a6e7-28953d1dfb24",
+"originalOrder": 13,
+"originalHeading": "Sum of Alternating Binomial Coefficients",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 15,
+"heading": "Identity: Sum of Alternating Binomial Coefficients",
+"back": "## Component Anatomy\n- **$^nC_r$:** The individual binomial coefficients.\n- **$(-1)^r$:** Generates the required alternating signs.\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{Z}^+$.",
+"formulaMeta": {
+"formula": "\sum_{r=0}^{n} (-1)^r {}^nC_r = 0",
+"description": "Identity for the strict alternating sum of binomial coefficients (^nC_0 - ^nC_1 + ^nC_2 - ^nC_3 + ...).",
+"derivation": "Substitute strictly $x = -1$ into the standard expansion of $(1 + x)^n$. The LHS mathematically collapses to $(1 - 1)^n = 0^n = 0$, while the RHS algebraically generates the perfect alternating coefficient sequence due to the odd/even powers of -1."
+}
+}
+},
+{
+"cardId": "65e3385c-bd2d-495a-924c-2fde5079c2de",
+"originalOrder": 14,
+"originalHeading": "Sum of Odd and Even Positioned Coefficients",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 16,
+"heading": "Identity: Sum of Odd and Even Positioned Coefficients",
+"back": "## Component Anatomy\n- **$^nC_r$:** The binomial coefficients partitioned by their parity (odd/even $r$).\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{Z}^+$.",
+"mnemonic": "Even and Odd series perfectly share the 2^n pie equally.",
+"formulaMeta": {
+"formula": "\sum_{\text{even } r} {}^nC_r = \sum_{\text{odd } r} {}^nC_r = 2^{n-1}",
+"description": "Identity proving that the sum of strictly even-indexed binomial coefficients is perfectly equal to the sum of strictly odd-indexed binomial coefficients.",
+"derivation": "Add the two master equations for the total sum ($2^n$) and the alternating sum ($0$). This isolates the evens: $2 \times (\text{Sum of Evens}) = 2^n \implies \text{Sum of Evens} = 2^{n-1}$. Since the total aggregate sum is exactly $2^n$, the remaining odd sum must logically also strictly be $2^{n-1}$."
+}
+}
+},
+{
+"cardId": "42b9505f-e9fa-4e0d-8493-12c235bd352e",
+"originalOrder": 26,
+"originalHeading": "Odd and Even Terms Identity (P and Q)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX using aligned", "Standardized tags", "Shifted order to align with coefficient logic"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 17,
+"heading": "Algebraic Identity of Odd ($P$) and Even ($Q$) Terms",
+"back": "## Component Anatomy\n- **$P$:** The algebraic sum of strictly ODD positioned terms ($T_1 + T_3 + T_5 + \dots$) in the binomial expansion of $(x+a)^n$.\n- **$Q$:** The algebraic sum of strictly EVEN positioned terms ($T_2 + T_4 + T_6 + \dots$) in the binomial expansion of $(x+a)^n$.\n\n## Boundary Conditions / Domain\n- Valid for $n \in \mathbb{N}$.\n- Must not confuse $P$ and $Q$ with pure coefficients; they include the variable powers.",
+"formulaMeta": {
+"formula": "\begin{aligned} P^2 - Q^2 &= (x^2 - a^2)^n \\ 4PQ &= (x+a)^{2n} - (x-a)^{2n} \end{aligned}",
+"description": "Two standard algebraic identities relating P (sum of odd terms) and Q (sum of even terms) back to the base binomials.",
+"derivation": "1. Express $(x+a)^n = P + Q$.\n2. Express $(x-a)^n = P - Q$ (because the even positioned terms exactly take the negative sign).\n3. Multiply the two equations to structurally prove the first identity: $(P+Q)(P-Q) = P^2 - Q^2 = (x+a)^n(x-a)^n = (x^2 - a^2)^n$.\n4. Square both starting equations independently and mathematically subtract them to prove the second identity."
+}
+}
+},
+{
+"cardId": "c02bb9e2-fb1b-494c-a28c-0ac5e0bc029b",
+"originalOrder": 15,
+"originalHeading": "Addition of Conjugate Binomials",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 18,
+"heading": "Expansion: Addition of Conjugate Binomials",
+"back": "## Component Anatomy\n- **$a, b$:** Real or complex terms.\n- **$n$:** Positive integer index.\n\n## Boundary Conditions / Domain\n- Valid for any $n \in \mathbb{N}$.\n- This algebraic operation strictly isolates and preserves the terms occurring at **ODD** physical places (1st, 3rd, 5th...) in the expansion, which structurally correspond to **EVEN** $r$ indices ($r=0, 2, 4$).",
+"mnemonic": "Adding Conjugates keeps the Evens (r=0,2,4).",
+"formulaMeta": {
+"formula": "(a+b)^n + (a-b)^n = 2 \left[ {}^nC_0 a^n b^0 + {}^nC_2 a^{n-2} b^2 + {}^nC_4 a^{n-4} b^4 + \dots \right]",
+"description": "The simplified expansion obtained by algebraically adding two conjugate binomials together.",
+"derivation": "The terms expanded in $(a-b)^n$ strictly possess alternating signs. When algebraically added directly to $(a+b)^n$, all negative terms (where index $r$ is odd: $^nC_1, ^nC_3, \dots$) perfectly cancel out to zero, while the remaining positive terms (where index $r$ is even: $^nC_0, ^nC_2, \dots$) combine and double."
+}
+}
+},
+{
+"cardId": "92ef3a41-bfbc-4018-97a1-a2945b27fa4b",
+"originalOrder": 16,
+"originalHeading": "Subtraction of Conjugate Binomials",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 19,
+"heading": "Expansion: Subtraction of Conjugate Binomials",
+"back": "## Component Anatomy\n- **$a, b$:** Real or complex terms.\n- **$n$:** Positive integer index.\n\n## Boundary Conditions / Domain\n- Valid for any $n \in \mathbb{N}$.\n- This algebraic operation strictly isolates and preserves the terms occurring at **EVEN** physical places (2nd, 4th, 6th...) in the expansion, which structurally correspond to **ODD** $r$ indices ($r=1, 3, 5$).",
+"mnemonic": "Subtracting Conjugates keeps the Odds (r=1,3,5).",
+"formulaMeta": {
+"formula": "(a+b)^n - (a-b)^n = 2 \left[ {}^nC_1 a^{n-1} b^1 + {}^nC_3 a^{n-3} b^3 + {}^nC_5 a^{n-5} b^5 + \dots \right]",
+"description": "The simplified expansion obtained by algebraically subtracting two conjugate binomials.",
+"derivation": "When strictly subtracting the $(a-b)^n$ series from $(a+b)^n$, the internal mathematical signs of its alternating sequence flip. Consequently, the positive terms (even $r$) entirely cancel out to zero, while the negative terms (odd $r$) mathematically become positive and double in value."
+}
+}
+},
+{
+"cardId": "232b1111-03a5-42af-b45f-e3a3dd916308",
+"originalOrder": 25,
+"originalHeading": "The Maximum Binomial Coefficient",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Refined markdown formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 20,
+"heading": "Location of the Maximum Binomial Coefficient",
+"back": "## Core Property (Pascal's Curve)\nIn any standard binomial expansion, the coefficients strictly increase in numerical value as they approach the center sequence and strictly decrease as they move away, graphically forming a perfect discrete symmetrical bell curve.\n\n## The Rule of Maximums\nThe numerically greatest individual binomial coefficient is **ALWAYS** the exact coefficient of the **Middle Term**.\n\n## Application by Index ($n$)\n- If $n$ is strictly **even**, $^nC_{n/2}$ is the absolute maximum.\n- If $n$ is strictly **odd**, the two central coefficients $^nC_{(n-1)/2}$ and $^nC_{(n+1)/2}$ share the absolute maximum value and are mathematically equal.",
+"mnemonic": "The biggest piece is in the middle of the Pascal sandwich.",
+"standardMeta": {
+"question": "Which specific combinatorial coefficient in a binomial expansion is mathematically guaranteed to be the largest, and how does the Pascal's triangle distribution inherently prove this?"
+}
+}
+},
+{
+"cardId": "e75e9753-3673-4905-892e-e414ed5f6c3d",
+"originalOrder": 24,
+"originalHeading": "SOP: Finding Numerically Greatest Term",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Converted to PROCEDURAL"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 21,
+"heading": "SOP: Finding the Numerically Greatest Term (NGT)",
+"back": "## Component Anatomy\n- **$T_{r+1}$ / $T_r$:** The sequential algebraic ratio of two consecutive expansion terms.\n- **$x$:** The given, specific numeric value of the target variable to be substituted.\n\n## Boundary Conditions / Domain\n- You MUST strictly apply absolute values $|x|$ if the substituted term is negative. 'Numerically greatest' mathematically defines strictly the highest absolute magnitude, completely disregarding the algebraic sign (+/-).",
+"mnemonic": "Ratio must be strictly greater than or equal to 1.",
+"formulaMeta": {
+"formula": "\left| \frac{T_{r+1}}{T_r} \right| \ge 1",
+"description": "Standard algorithmic steps (SOP) utilized to mathematically isolate the numerically greatest term in a specific binomial expansion evaluated at a given variable x.",
+"derivation": "1. Express the general sequential ratio $\frac{T_{r+1}}{T_r}$ algebraically utilizing the standard expansion format (which generates $\frac{n-r+1}{r} |\frac{x}{a}|$).\n2. Substitute the given numeric value of $x$.\n3. Establish the absolute value inequality $\left| \frac{T_{r+1}}{T_r} \right| \ge 1$.\n4. Algebraically solve the resulting linear inequality strictly for the integer $r$.\n5. The integer floor part of $r$ indicates the specific term $T_{r+1}$ that mathematically holds the maximum absolute magnitude."
+}
+}
+},
+{
+"cardId": "a5b5a744-f496-4446-9dd9-3a706fddd2e2",
+"originalOrder": 22,
+"originalHeading": "Coefficients in Arithmetic Progression (A.P.)",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Changed classification to APPLICATION"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "sequences", "jee-main", "jee-advanced", "class-11"],
+"order": 22,
+"heading": "Binomial Coefficients in Arithmetic Progression (A.P.)",
+"back": "## Component Anatomy\n- **$T_{r-1}, T_r, T_{r+1}$:** Three consecutive expansion terms.\n- **$^nC_{r-2}, ^nC_{r-1}, ^nC_r$:** Their strictly corresponding sequential binomial coefficients.\n\n## Boundary Conditions / Domain\n- You must strictly apply the fundamental A.P. algebraic condition: $2 \times (\text{Middle Term}) = \text{First Term} + \text{Last Term}$.\n- Valid for $n \in \mathbb{Z}^+$ and $r \le n$.",
+"formulaMeta": {
+"formula": "2(^{n}C_{r-1}) = ^{n}C_{r-2} + ^{n}C_{r}",
+"description": "The core algebraic equation utilized to solve parameters when three consecutive binomial coefficients are mathematically given to be in Arithmetic Progression.",
+"derivation": "1. Set up the A.P. relationship: $2(^{n}C_{r-1}) = ^{n}C_{r-2} + ^{n}C_{r}$.\n2. Expand the combinations strictly into their factorial components.\n3. Divide the entire mathematical equation by the smallest factorial components present to forcefully reduce it into a strict quadratic equation in terms of $n$ and $r$.\n4. Factor the quadratic to solve for $n$ or $r$."
+}
+}
+},
+{
+"cardId": "ff11f87e-f740-4d49-b2f3-fca1037b3e1c",
+"originalOrder": 23,
+"originalHeading": "Equal Coefficients Trap in (1+x)^n",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Changed classification to DISTINCTION"],
+"vettingNotes": "Classified as DISTINCTION to clearly highlight the student logical trap regarding term position vs r index.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11", "ncert"],
+"order": 23,
+"heading": "Trap: Equal Coefficients given in $(1+x)^n$",
+"back": "## The Core Rule\nIn the standardized base expansion of $(1+x)^n$, the algebraic coefficient of the $r$-th term ($T_r$) is mathematically strictly $^nC_{r-1}$.\n\n## The Student Trap\nIf the coefficients of the physical $p$-th term and $q$-th term are mathematically provided as equal, students frequently falsely assume $p = q$.\n\n## The Real Algebraic Condition\nSince the coefficients must be equal, $^nC_{p-1} = ^nC_{q-1}$. \nApplying the complementary combination property ($^nC_x = ^nC_y \implies x+y = n$), it is almost universally the case that: \n$(p-1) + (q-1) = n \implies p + q = n + 2$.",
+"standardMeta": {
+"question": "If the combinatorial coefficients of the $p$-th term and $q$-th term in the expansion of $(1+x)^n$ are given as equal, what is the strict hidden algebraic relationship between $p, q,$ and $n$?"
+}
+}
+},
+{
+"cardId": "25969a96-1981-4fe8-b474-ae62442380c5",
+"originalOrder": 21,
+"originalHeading": "Total Terms in a Trinomial Expansion",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "combinatorics", "jee-main", "jee-advanced", "class-11"],
+"order": 24,
+"heading": "Total Distinct Terms in a Trinomial Expansion",
+"back": "## Component Anatomy\n- **$n$:** The integer power applied to the trinomial expression.\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{Z}^+$.\n- The three individual variables inside the bracket ($a, b, c$) must be strictly distinct and non-combinable (e.g., $x, y, z$). If they can be added (e.g., $x, 2x$), the formula structurally collapses.",
+"mnemonic": "Sum of the first n+1 integers.",
+"formulaMeta": {
+"formula": "\frac{(n+1)(n+2)}{2}",
+"description": "Algebraic formula calculating the absolute total number of distinct separated terms inside the final expansion of (a + b + c)^n.",
+"derivation": "1. Artificially group two terms to form a pseudo-binomial: $(a + (b+c))^n$.\n2. The first term of the binomial expansion contains $a^n (b+c)^0$ (yielding strictly 1 term).\n3. The second contains $(b+c)^1$ (which expands linearly into 2 terms).\n4. The last contains $(b+c)^n$ (which expands strictly into $n+1$ terms).\n5. Total distinct terms equals the arithmetic sum $1 + 2 + 3 + \dots + (n+1) = \frac{(n+1)(n+2)}{2}$."
+}
+}
+},
+{
+"cardId": "1c401c21-dee8-4d0a-ae7f-d41c125593a1",
+"originalOrder": 29,
+"originalHeading": "Total Terms in a Generalized Multinomial Expansion",
+"action": "MODIFIED",
+"modificationsSummary": ["Double-escaped KaTeX", "Standardized tags", "Shifted order to group with multinomials"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "binomial-theorem", "combinatorics", "jee-main", "jee-advanced", "class-11"],
+"order": 25,
+"heading": "Total Terms in a Generalized Multinomial Expansion",
+"back": "## Component Anatomy\n- **$n$:** The strict integral power of the overall expansion.\n- **$k$:** The exact quantity of distinct internal terms inside the base bracket (e.g., strictly $k=3$ for a trinomial).\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{Z}^+$.\n- All $k$ variables must physically be strictly distinct and non-combinable algebraically.",
+"mnemonic": "Stars and Bars for Multinomials.",
+"formulaMeta": {
+"formula": "^{n+k-1}C_{k-1}",
+"description": "The generalized combinatorial formula utilized to calculate the absolute total number of mathematically distinct terms in the multinomial expansion of (x_1 + x_2 + ... + x_k)^n.",
+"derivation": "This relies directly on the combinatorial 'Stars and Bars' theorem. Finding the absolute number of distinct terms is mathematically identical to finding the total number of non-negative integer solutions to the internal exponent equation $p_1 + p_2 + \dots + p_k = n$ (where each $p_i$ represents the discrete power of each specific variable in the expansion)."
+}
+}
+},
+{
+"cardId": "d91599d8-3ad8-436c-9456-e949187f959c",
+"originalOrder": 27,
+"originalHeading": "Binomial Theorem for Rational or Negative Indices",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 26", "Double-escaped KaTeX", "Emphasized strict divergence constraints"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "algebra", "binomial-theorem", "series", "jee-main", "jee-advanced", "class-11"],
+"order": 26,
+"heading": "Binomial Theorem for Rational or Negative Indices",
+"back": "## Component Anatomy\n- **$n$:** Any rational number (fraction) or negative integer.\n- **$x$:** The variable term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|x| < 1$ (i.e., $-1 < x < 1$).\n- If this condition is structurally violated ($|x| \ge 1$), the infinite series diverges and mathematically collapses, meaning the sum is undefined.\n- $n$ must not be a positive integer (if it is, the series simply terminates normally after $n+1$ terms).",
+"formulaMeta": {
+"formula": "(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \dots",
+"description": "The infinite series expansion formula for (1+x)^n when the index n is a rational fraction or negative integer.",
+"derivation": "Unlike positive integral indices, this expansion strictly does NOT terminate. It continues infinitely because the numerator factorial equivalent structure $n(n-1)(n-2)\dots$ will never algebraically reach zero when $n$ is a fraction or negative number."
+}
+}
+},
+{
+"cardId": "0a2fb9e9-99f1-4934-b63b-c626d1914465",
+"originalOrder": 28,
+"originalHeading": "SOP: Expanding (a+x)^n for Rational Indices",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 27", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "series", "jee-main", "jee-advanced", "class-11"],
+"order": 27,
+"heading": "SOP: Expanding $(a+x)^n$ for Rational Indices",
+"back": "## Component Anatomy\n- **$a$:** The constant base term.\n- **$x$:** The variable term.\n- **$n$:** A rational or negative index.\n\n## Boundary Conditions / Domain\n- The infinite expansion is strictly valid ONLY if $\left|\frac{x}{a}\right| < 1$, which algebraically means $|x| < |a|$.",
+"mnemonic": "Factor the base to mathematically force a 1.",
+"formulaMeta": {
+"formula": "(a+x)^n = a^n \left(1 + \frac{x}{a}\right)^n",
+"description": "The mandatory algebraic restructuring step strictly required before expanding (a+x)^n for rational or negative indices.",
+"derivation": "1. The standard rational binomial theorem mathematically ONLY functions for the strict format $(1 + y)^n$.\n2. To artificially force this format, factor out $a$ entirely from the binomial base.\n3. The power $n$ applies symmetrically to the factored $a$, leaving $a^n$ outside the bracket.\n4. Apply the infinite series expansion formula to $\left(1 + \frac{x}{a}\right)^n$ by substituting $y = \frac{x}{a}$."
+}
+}
+},
+{
+"cardId": "d49896a4-f94f-4b03-ad51-5b2ad8ff4efc",
+"originalOrder": 30,
+"originalHeading": "SOP: Finding Coefficients in a Product of Inverse Binomials",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 28", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "jee-main", "jee-advanced", "class-11"],
+"order": 28,
+"heading": "SOP: Target Coefficients in a Product of Inverse Binomials",
+"back": "## Component Anatomy\n- **$n$:** The integral power.\n- **$k$:** The specific target power whose coefficient you seek (e.g., $x^{-1}$). \n\n## Boundary Conditions / Domain\n- $x \neq 0$ (must avoid division by zero in the inverted base).",
+"mnemonic": "LCM merges the brackets, shifting the target exponent.",
+"formulaMeta": {
+"formula": "(1+x)^n \left(1 + \frac{1}{x}\right)^n = \frac{(1+x)^{2n}}{x^n}",
+"description": "An algorithmic shortcut to systematically extract the coefficient of a specific power in the combined product of two inverse binomials.",
+"derivation": "1. DO NOT expand both brackets independently and cross-multiply (causes massive cognitive bloat).\n2. Instead, take the LCM structurally inside the second bracket: $\left(\frac{x+1}{x}\right)^n$.\n3. Multiply the numerators algebraically: $(1+x)^n \times (1+x)^n = (1+x)^{2n}$.\n4. Divide by the isolated denominator $x^n$.\n5. To mathematically find the coefficient of $x^k$ in the total expression, merely extract the coefficient of $x^{n+k}$ strictly from the numerator's expansion $(1+x)^{2n}$."
+}
+}
+},
+{
+"cardId": "50a037f9-9242-4826-8bd7-e9860aba8b8e",
+"originalOrder": 19,
+"originalHeading": "SOP: Proving Divisibility and Remainders",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 29", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Moved to group with advanced algebraic proofs.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "proofs", "jee-main", "jee-advanced", "class-11"],
+"order": 29,
+"heading": "SOP: Proving Divisibility and Calculating Remainders",
+"back": "## Component Anatomy\n- **$k$:** The constant integer divisor you are testing for.\n- **$a$:** A specific base split such that $a$ is a direct multiple of the target divisor.\n\n## Boundary Conditions / Domain\n- Valid strictly for integer exponent $n \in \mathbb{N}$.\n- This proof inherently relies on all higher-order terms in the expansion being strictly divisible by the target divisor squared ($a^2, a^3, \dots$).",
+"mnemonic": "Split the base, isolate the constant, factor out the divisor.",
+"formulaMeta": {
+"formula": "(1 + a)^n = 1 + na + a^2(^{n}C_2 + \dots)",
+"description": "Algorithmic steps used to strictly prove an exponential expression leaves a specific remainder when divided by a constant.",
+"derivation": "1. Identify the primary exponential base (e.g., $6^n$) and algebraically split it to include the linear coefficient (e.g., $6 = 1+5$).\n2. Expand $(1+5)^n$ fully using the Binomial Theorem.\n3. The mathematical expansion evaluates as: $1 + 5n + 25(^{n}C_2) + 125(^{n}C_3) + \dots$\n4. Move any given linear terms (like $5n$) to the LHS: $6^n - 5n = 1 + 25(^{n}C_2 + 5(^{n}C_3) + \dots)$.\n5. Factor out the required divisor ($25$) strictly from the remaining terms, proving the rigorous structural format $25k + 1$ (Divisible by 25 with a precise remainder of 1)."
+}
+}
+},
+{
+"cardId": "d8f3f131-29d9-4c24-842a-1b2cdeef329f",
+"originalOrder": 31,
+"originalHeading": "SOP: Proving Factors using Binomial Restructuring",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 30", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "proofs", "jee-main", "jee-advanced", "class-11"],
+"order": 30,
+"heading": "SOP: Proving Polynomial Factors via Restructuring",
+"back": "## Component Anatomy\n- **$a, b$:** Distinct real integers or variables.\n- **$n$:** A positive integer index.\n\n## Boundary Conditions / Domain\n- Valid strictly for $n \in \mathbb{Z}^+$.\n- Proves that $(a-b)$ perfectly divides $(a^n - b^n)$ for ALL integers $n$.",
+"mnemonic": "Add and subtract to synthetically create the target factor.",
+"formulaMeta": {
+"formula": "a^n = ((a-b) + b)^n",
+"description": "A structural algebraic substitution trick strictly used to prove that (a-b) is a mathematical factor of (a^n - b^n).",
+"derivation": "1. Rewrite the isolated term $a$ algebraically as $((a-b) + b)$.\n2. Expand $((a-b) + b)^n$ completely using the Binomial Theorem.\n3. Every single term in the resulting expanded series will explicitly contain the factor $(a-b)$ raised to a power EXCEPT for the very last term, which evaluates strictly to $b^n$.\n4. Substituting this derived expansion back into the original expression $(a^n - b^n)$ perfectly mathematically cancels out the trailing $b^n$, leaving an expression where $(a-b)$ can be factored out completely."
+}
+}
+},
+{
+"cardId": "99d47a89-f207-4425-aa24-3815d7dba94c",
+"originalOrder": 20,
+"originalHeading": "SOP: Inequality Proofs for Huge Exponents",
+"action": "MODIFIED",
+"modificationsSummary": ["Updated order to 31", "Converted to PROCEDURAL", "Double-escaped KaTeX"],
+"vettingNotes": "Moved to end of chapter as a final approximation logic application.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "binomial-theorem", "inequalities", "jee-main", "jee-advanced", "class-11"],
+"order": 31,
+"heading": "SOP: Binomial Inequalities & Approximations",
+"back": "## Component Anatomy\n- **$(1 + x)^n$:** The split base format used for evaluating large decimals.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ and $n > 1$.\n- $x$ must strictly be a positive real number ($x > 0$) for this specific truncation logic, ensuring all subsequent combinatorial terms are strictly positive, mathematically allowing you to safely truncate the series into a definitive lower-bound inequality ($>$).",
+"mnemonic": "Expand the first two terms and discard the positive tail.",
+"formulaMeta": {
+"formula": "(1 + x)^n = 1 + nx + \text{Positive Terms} > 1 + nx",
+"description": "Algorithmic truncation steps to mathematically prove which number is larger between a massive exponent and a constant.",
+"derivation": "1. Split the decimal base algebraically into $(1 + \text{decimal})$ (e.g., $1.01 = 1 + 0.01$).\n2. Expand using the standard binomial theorem for $(1+x)^n$.\n3. Calculate only the first two exact terms ($^{n}C_0 + ^{n}C_1 x = 1 + nx$).\n4. Group all remaining terms algebraically as '+ other strictly positive terms'.\n5. Because removing positive terms makes the sum smaller, $(1+x)^n > 1+nx$. Compare this guaranteed numerical lower bound against the given constant to finalize the inequality proof."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

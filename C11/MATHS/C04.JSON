@@ -1,0 +1,1034 @@
+{
+"deckId": "9005450e-3710-4249-8d41-bd656bab831e",
+"cards": [
+{
+"cardId": "688f2ada-bda7-4a2c-a9b9-b83db276b6ed",
+"originalOrder": 1,
+"originalHeading": "Origin and Need for Complex Numbers",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 1,
+"heading": "Origin and Need for Complex Numbers",
+"back": "Synthesised Answer in Markdown:\n- **Point 1:** In the real number system, the square of any real number is non-negative, meaning equations like $x^2 + 1 = 0$ (which gives $x^2 = -1$) have no real solution.\n- **Point 2:** Complex numbers extend the real number system to mathematically accommodate the square roots of negative numbers.",
+"standardMeta": {
+"question": "What fundamental mathematical limitation in the real number system necessitated the introduction of complex numbers?"
+}
+}
+},
+{
+"cardId": "4658aa98-00b6-43c3-9ab2-dfe950743b10",
+"originalOrder": 2,
+"originalHeading": "The Imaginary Unit (i)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 2,
+"heading": "The Imaginary Unit (i)",
+"back": "Synthesised Answer in Markdown:\n- **Definition:** The imaginary unit is denoted by the symbol $i$ (iota).\n- **Value:** It is strictly defined as the positive square root of $-1$, i.e., $i = \sqrt{-1}$.\n- **Property:** Its square evaluates to $-1$, i.e., $i^2 = -1$.",
+"standardMeta": {
+"question": "How is the fundamental imaginary unit mathematically defined, and what is the value of its square?"
+}
+}
+},
+{
+"cardId": "b6eebe97-2891-49f9-823f-891dc95ce786",
+"originalOrder": 6,
+"originalHeading": "Integral Powers of i (Iota)",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 3", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 3,
+"heading": "Integral Powers of i (Iota)",
+"back": "## Component Anatomy:\n- **$k$:** Any integer ($k \in \mathbb{Z}$).\n\n## Boundary Conditions / Domain:\n- Valid for all integer powers.",
+"mnemonic": "1, i, -1, -i (Cycles every 4)",
+"formulaMeta": {
+"formula": "\\begin{aligned} i^{4k} &= 1 \\\\ i^{4k+1} &= i \\\\ i^{4k+2} &= -1 \\\\ i^{4k+3} &= -i \\end{aligned}",
+"description": "State the generalized outcomes for the integral powers of i (i.e., exponents 4k, 4k+1, 4k+2, 4k+3).",
+"derivation": "To compute $i^n$ for $n > 4$, divide $n$ by $4$ to find the remainder $r$.\nThe expression simplifies entirely to $i^r$ because $(i^4)^k = 1^k = 1$."
+}
+}
+},
+{
+"cardId": "14f4d39a-e9ea-47e0-9b70-6a71ccf73ddc",
+"originalOrder": 3,
+"originalHeading": "Components of a Complex Number",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 4"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 4,
+"heading": "Components of a Complex Number",
+"back": "Synthesised Answer in Markdown:\n- **Point 1:** A complex number $z = a + ib$ consists of two parts: a real part $\text{Re}(z) = a$, and an imaginary part $\text{Im}(z) = b$.\n- **Point 2:** **Strict Constraint:** Both $a$ and $b$ MUST strictly belong to the set of Real Numbers ($a, b \in \mathbb{R}$).\nThe imaginary part $b$ itself is a real number; it is only called 'imaginary' because it acts as the coefficient of $i$.",
+"standardMeta": {
+"question": "For a complex number $z = a + ib$, how are its components strictly classified, and what is the domain of $a$ and $b$?"
+}
+}
+},
+{
+"cardId": "8c8680bd-740f-4d38-a48c-3216f2fa78da",
+"originalOrder": 4,
+"originalHeading": "Purely Real vs Purely Imaginary Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 5", "Set classification to DISTINCTION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 5,
+"heading": "Purely Real vs Purely Imaginary Numbers",
+"back": "Synthesised Answer in Markdown:\n- **Purely Real:** A complex number $z = a + ib$ is purely real if its imaginary part is exactly zero ($\text{Im}(z) = b = 0$).\n- **Purely Imaginary:** It is purely imaginary if its real part is exactly zero ($\text{Re}(z) = a = 0$).\n- **Note:** The number $0$ ($0 + i0$) is mathematically considered both purely real and purely imaginary.",
+"standardMeta": {
+"question": "What are the strict mathematical conditions for a complex number to be classified as 'purely real' or 'purely imaginary'?"
+}
+}
+},
+{
+"cardId": "e7b8f381-f090-42d5-a1b0-fa7faa78645c",
+"originalOrder": 5,
+"originalHeading": "Equality of Complex Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 6", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 6,
+"heading": "Equality of Complex Numbers",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Two complex numbers where $z_1 = a + ib$ and $z_2 = c + id$.\n\n## Boundary Conditions / Domain:\n- $a, b, c, d \in \mathbb{R}$.\n- Inequality ($<$ or $>$) is mathematically meaningless for complex numbers unless their imaginary parts are strictly zero.",
+"mnemonic": "Reals match Reals, Imaginaries match Imaginaries.",
+"formulaMeta": {
+"formula": "z_1 = z_2 \\iff a = c \\text{ and } b = d",
+"description": "State the strict mathematical condition required for two complex numbers to be considered exactly equal.",
+"derivation": "Equality strictly implies identical real components and identical imaginary components simultaneously."
+}
+}
+},
+{
+"cardId": "aff063f7-5f58-45ac-8e7e-1ade58e1097f",
+"originalOrder": 7,
+"originalHeading": "Product Trap of Negative Square Roots",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 7,
+"heading": "Product Trap of Negative Square Roots",
+"back": "Synthesised Answer in Markdown:\n- **The Trap:** The identity $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$ is ONLY valid if at least one of the real numbers $a$ or $b$ is non-negative.\n- **The Proof:** If $a < 0$ and $b < 0$, let $a = -x$ and $b = -y$ (where $x, y > 0$).\nThen $\sqrt{-x} \times \sqrt{-y} = (i\sqrt{x}) \times (i\sqrt{y}) = i^2 \sqrt{xy} = -\sqrt{xy}$.\n- **Conclusion:** Therefore, $\sqrt{-1} \times \sqrt{-1} = i \times i = -1$, NOT $\sqrt{(-1)(-1)} = \sqrt{1} = 1$.",
+"mnemonic": "If both are negative, 'i' squares and throws a minus out.",
+"standardMeta": {
+"question": "Why is the common identity $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$ strictly invalid when both $a$ and $b$ are negative real numbers?"
+}
+}
+},
+{
+"cardId": "e2a7bacc-4bc4-42c2-82b3-eb600cb735aa",
+"originalOrder": 8,
+"originalHeading": "Product of Two Complex Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 8,
+"heading": "Product of Two Complex Numbers",
+"back": "## Component Anatomy:\n- **$a, c$:** Real parts.\n- **$b, d$:** Imaginary coefficients.\n\n## Boundary Conditions / Domain:\n- Valid for all $a,b,c,d \in \mathbb{R}$.",
+"mnemonic": "(RealxReal - ImgxImg) + i(Cross Multiply)",
+"formulaMeta": {
+"formula": "z_1 z_2 = (ac - bd) + i(ad + bc)",
+"description": "State the expanded algebraic form of the product of two complex numbers $z_1 = a+ib$ and $z_2 = c+id$.",
+"derivation": "Expand $(a + ib)(c + id)$ using the distributive law.\nGroup the real terms $ac$ and $i^2bd$ (which becomes $-bd$), and the imaginary terms $i(ad + bc)$."
+}
+}
+},
+{
+"cardId": "bc475e60-9737-4086-9682-2a3e9df5c728",
+"originalOrder": 11,
+"originalHeading": "Conjugate of a Complex Number",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 9"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 9,
+"heading": "Conjugate of a Complex Number",
+"back": "Synthesised Answer in Markdown:\n- **Definition:** The conjugate of a complex number $z = a + ib$ is obtained by simply changing the mathematical sign of its imaginary part.\n- **Notation:** It is denoted by $\bar{z}$.\n- **Expression:** $\bar{z} = a - ib$.",
+"standardMeta": {
+"question": "How is the conjugate of a complex number algebraically defined, and how is it denoted?"
+}
+}
+},
+{
+"cardId": "41162e2a-77c6-4618-8eaa-cafbe7d9ea23",
+"originalOrder": 12,
+"originalHeading": "Modulus of a Complex Number",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 10", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 10,
+"heading": "Modulus of a Complex Number",
+"back": "## Component Anatomy:\n- **$a$:** Real part of the complex number.\n- **$b$:** Imaginary part (coefficient of $i$).\n\n## Boundary Conditions / Domain:\n- The modulus $|z|$ is always a non-negative real number ($|z| \geq 0$).\n- $|z| = 0 \\iff z = 0$.",
+"formulaMeta": {
+"formula": "|z| = \\sqrt{a^2 + b^2}",
+"description": "State the algebraic formula for calculating the modulus |z| of a complex number z = a + ib.",
+"derivation": "Geometrically, the modulus represents the distance of the point $(a, b)$ from the origin $(0, 0)$ in the Argand plane, derived using the distance formula."
+}
+}
+},
+{
+"cardId": "075cd4bc-3309-4602-b691-d435734b4daf",
+"originalOrder": 13,
+"originalHeading": "Modulus-Conjugate Relationship",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 11", "Double escaped KaTeX in formula field", "Classification set to APPLICATION"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 11,
+"heading": "Modulus-Conjugate Relationship",
+"back": "## Component Anatomy:\n- **$z$:** Complex number.\n- **$\bar{z}$:** Conjugate of $z$.\n- **$|z|$:** Modulus of $z$.\n\n## Boundary Conditions / Domain:\n- Valid for all $z \in \mathbb{C}$.",
+"mnemonic": "z times z-bar gives magnitude squared.",
+"formulaMeta": {
+"formula": "z \\bar{z} = |z|^2",
+"description": "State the fundamental algebraic identity connecting a complex number, its conjugate, and its modulus.",
+"derivation": "Multiply $(a + ib)$ by $(a - ib)$. Using difference of squares, this becomes $a^2 - (ib)^2 = a^2 - i^2b^2 = a^2 - (-1)b^2 = a^2 + b^2$, which is strictly $|z|^2$."
+}
+}
+},
+{
+"cardId": "403a095e-ee01-41f5-b7c0-660acacb8076",
+"originalOrder": 9,
+"originalHeading": "Multiplicative Inverse of a Complex Number",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 12", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 12,
+"heading": "Multiplicative Inverse of a Complex Number",
+"back": "## Component Anatomy:\n- **$z$:** A non-zero complex number $a + ib$.\n- **$\bar{z}$:** The conjugate of $z$.\n- **$|z|^2$:** The square of the modulus ($a^2 + b^2$).\n\n## Boundary Conditions / Domain:\n- $z \neq 0$ (i.e., $a$ and $b$ cannot both be exactly zero).",
+"mnemonic": "Conjugate over Modulus Squared.",
+"formulaMeta": {
+"formula": "z^{-1} = \\frac{a}{a^2 + b^2} + i\\left(\\frac{-b}{a^2 + b^2}\\right) = \\frac{\\bar{z}}{|z|^2}",
+"description": "State the formula for the multiplicative inverse (reciprocal) $z^{-1}$ of a complex number $z = a + ib$.",
+"derivation": "1. Write the inverse as $\frac{1}{a + ib}$.\n2. Rationalize the denominator by multiplying the numerator and denominator by the conjugate $(a - ib)$.\n3. The denominator becomes $a^2 - (ib)^2 = a^2 + b^2$."
+}
+}
+},
+{
+"cardId": "78a673ea-e2ae-4e4a-91c7-dac453b4136f",
+"originalOrder": 10,
+"originalHeading": "SOP: Division of Complex Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 13", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 13,
+"heading": "SOP: Division of Complex Numbers",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Complex numbers.\n- **$\bar{z}_2$:** Conjugate of the denominator.\n\n## Boundary Conditions / Domain:\n- $z_2 \neq 0$ ($|z_2|^2 > 0$).",
+"formulaMeta": {
+"formula": "\\frac{z_1}{z_2} = \\frac{z_1 \\bar{z}_2}{|z_2|^2}",
+"description": "State the procedural identity used to divide two complex numbers $z_1$ by $z_2$.",
+"derivation": "To divide $z_1$ by $z_2$, multiply $z_1$ by the multiplicative inverse of $z_2$.\nThis is practically executed by multiplying both the numerator and denominator by the complex conjugate of the denominator, $\bar{z}_2$."
+}
+}
+},
+{
+"cardId": "311ba8cc-5919-4423-9b07-ac56780a0006",
+"originalOrder": 14,
+"originalHeading": "Distribution Properties of Conjugates",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 14", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 14,
+"heading": "Distribution Properties of Conjugates",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Complex numbers.\n\n## Boundary Conditions / Domain:\n- For the division property, $z_2 \neq 0$.",
+"mnemonic": "Conjugate splits over everything (+, -, *, /).",
+"formulaMeta": {
+"formula": "\\begin{aligned} \\overline{z_1 \\pm z_2} &= \\bar{z}_1 \\pm \\bar{z}_2 \\\\ \\overline{z_1 z_2} &= \\bar{z}_1 \\bar{z}_2 \\\\ \\overline{\\left(\\frac{z_1}{z_2}\\right)} &= \\frac{\\bar{z}_1}{\\bar{z}_2} \\end{aligned}",
+"description": "State the three distribution rules for the complex conjugate over addition/subtraction, multiplication, and division.",
+"derivation": "Derived algebraically by expanding $z_1 = a + ib$ and $z_2 = c + id$ and applying basic arithmetic operations before applying the conjugate."
+}
+}
+},
+{
+"cardId": "ecd152e0-ce64-4473-8c2b-079af799cf39",
+"originalOrder": 15,
+"originalHeading": "Distribution Properties of Modulus",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 15", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 15,
+"heading": "Distribution Properties of Modulus",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Complex numbers.\n\n## Boundary Conditions / Domain:\n- For the division property, $z_2 \neq 0$.\n- Note: Modulus does NOT distribute linearly over addition or subtraction (i.e., $|z_1 + z_2| \neq |z_1| + |z_2|$).",
+"mnemonic": "Modulus splits over multiplication and division, NOT addition.",
+"formulaMeta": {
+"formula": "\\begin{aligned} |z_1 z_2| &= |z_1| |z_2| \\\\ \\left|\\frac{z_1}{z_2}\\right| &= \\frac{|z_1|}{|z_2|} \\end{aligned}",
+"description": "State the distribution rules for the modulus over multiplication and division.",
+"derivation": "Squaring both sides and using $|Z|^2 = Z\bar{Z}$ proves these multiplicatively: $|z_1 z_2|^2 = (z_1 z_2)(\overline{z_1 z_2}) = (z_1\bar{z}_1)(z_2\bar{z}_2) = |z_1|^2|z_2|^2$."
+}
+}
+},
+{
+"cardId": "b73b9ee8-36f7-46fc-9146-073b762ec307",
+"originalOrder": 33,
+"originalHeading": "Modulus Equivalence Property",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 16", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 16,
+"heading": "Modulus Equivalence Property",
+"back": "## Component Anatomy:\n- **$z$:** A complex number $x + iy$.\n- **$\bar{z}$:** Its conjugate $x - iy$.\n- **$-z$:** Its additive inverse $-x - iy$.\n\n## Boundary Conditions / Domain:\n- Valid for all $z \in \mathbb{C}$.",
+"formulaMeta": {
+"formula": "|z| = |\\bar{z}| = |-z| = |-\\bar{z}|",
+"description": "State the property demonstrating the equivalence of the modulus of a complex number, its conjugate, its negative, and the negative of its conjugate.",
+"derivation": "All forms mathematically square their real and imaginary components. Since $x^2 = (-x)^2$ and $y^2 = (-y)^2$, the resulting sum $\sqrt{x^2 + y^2}$ is identical for all four variations."
+}
+}
+},
+{
+"cardId": "b8d110a0-9df9-4177-a396-a365a3be68f0",
+"originalOrder": 36,
+"originalHeading": "Extracting the Real Part via Conjugates",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 17", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 17,
+"heading": "Extracting the Real Part via Conjugates",
+"back": "## Component Anatomy:\n- **$\text{Re}(z)$:** The real part of $z$.\n- **$z$:** Complex number $x + iy$.\n- **$\bar{z}$:** Conjugate $x - iy$.\n\n## Boundary Conditions / Domain:\n- Valid for all $z \in \mathbb{C}$.",
+"mnemonic": "Add them up to kill the imaginary.",
+"formulaMeta": {
+"formula": "\\text{Re}(z) = \\frac{z + \\bar{z}}{2}",
+"description": "State the algebraic formula to extract the strictly real part of a complex number using the number and its conjugate.",
+"derivation": "Substitute $z = x + iy$ and $\bar{z} = x - iy$.\nAdding the two equations eliminates the imaginary terms, yielding $z + \bar{z} = 2x$. Divide by 2 to isolate $x$."
+}
+}
+},
+{
+"cardId": "c91a42bc-2655-48d5-bb72-ff33b1dbaebe",
+"originalOrder": 37,
+"originalHeading": "Extracting the Imaginary Part via Conjugates",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 18", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 18,
+"heading": "Extracting the Imaginary Part via Conjugates",
+"back": "## Component Anatomy:\n- **$\text{Im}(z)$:** The imaginary part of $z$ (a strictly real number coefficient).\n- **$z$:** Complex number $x + iy$.\n- **$\bar{z}$:** Conjugate $x - iy$.\n- **$i$:** The imaginary unit in the denominator.\n\n## Boundary Conditions / Domain:\n- Valid for all $z \in \mathbb{C}$.\n- Must divide by strictly $2i$, not just $2$.",
+"mnemonic": "Subtract to kill the real, divide by 2i to clean it up.",
+"formulaMeta": {
+"formula": "\\text{Im}(z) = \\frac{z - \\bar{z}}{2i}",
+"description": "State the algebraic formula to extract the strictly imaginary coefficient of a complex number using the number and its conjugate.",
+"derivation": "Substitute $z = x + iy$ and $\bar{z} = x - iy$.\nSubtracting the two equations eliminates the real terms, yielding $z - \bar{z} = 2iy$.\nDivide by strictly $2i$ to isolate the real coefficient $y$."
+}
+}
+},
+{
+"cardId": "8ffbfdb1-55b9-4275-8d92-5a2af5a1c7c1",
+"originalOrder": 16,
+"originalHeading": "The Argand Plane",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 19"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 19,
+"heading": "The Argand Plane",
+"back": "Synthesised Answer in Markdown:\n- **Definition:** The Argand Plane (or complex plane) is a 2D coordinate system used to visually map complex numbers.\n- **Axes:** The horizontal $x$-axis strictly represents the **Real Part**, and the vertical $y$-axis strictly represents the **Imaginary Part**.\n- **Representation:** A complex number $z = x + iy$ is mapped to the unique coordinate point $(x, y)$.",
+"standardMeta": {
+"question": "What is the Argand plane, and how do its mathematical axes differ from a standard Cartesian plane?"
+}
+}
+},
+{
+"cardId": "03827ecd-6537-455d-8d1e-c7e4adede310",
+"originalOrder": 17,
+"originalHeading": "Geometric Interpretation of the Conjugate",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 20", "Updated classification to FACT"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 20,
+"heading": "Geometric Interpretation of the Conjugate",
+"back": "Synthesised Answer in Markdown:\n- **Point 1:** If $z = x + iy$ is mapped to $(x, y)$ on the Argand plane, its conjugate $\bar{z} = x - iy$ maps to $(x, -y)$.\n- **Point 2:** Geometrically, $(x, -y)$ is the exact **mirror image (reflection)** of the point $(x, y)$ across the horizontal Real Axis.",
+"mnemonic": "Conjugate reflects across the Real river.",
+"standardMeta": {
+"question": "How is the conjugate of a complex number $\bar{z}$ visually represented on the Argand plane in relation to the original number $z$?"
+}
+}
+},
+{
+"cardId": "afee47b1-8cc0-4e8a-bc06-d1c1f6e968f4",
+"originalOrder": 18,
+"originalHeading": "Geometric Distance in the Argand Plane",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 21", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 21,
+"heading": "Geometric Distance in the Argand Plane",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Two unique complex numbers representing two points in the Argand plane.\n\n## Boundary Conditions / Domain:\n- Valid for any two points in $\mathbb{C}$.\n- Distance is strictly non-negative.",
+"formulaMeta": {
+"formula": "\\text{Distance} = |z_1 - z_2|",
+"description": "State the algebraic expression representing the absolute geometric distance between two complex numbers $z_1$ and $z_2$ in the Argand plane.",
+"derivation": "If $z_1 = x_1 + iy_1$ and $z_2 = x_2 + iy_2$, then $|z_1 - z_2| = |(x_1 - x_2) + i(y_1 - y_2)| = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$, which perfectly matches the 2D Cartesian distance formula."
+}
+}
+},
+{
+"cardId": "d90bc1f4-c3a3-4a13-b730-6f846edea782",
+"originalOrder": 39,
+"originalHeading": "Geometric Interpretation of Multiplication by i",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 22"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 22,
+"heading": "Geometric Interpretation of Multiplication by i",
+"back": "Synthesised Answer in Markdown:\n- **Core Property:** Multiplying any complex number $z$ by the imaginary unit $i$ strictly rotates its position vector in the Argand plane.\n- **The Rotation:** The rotation is exactly **$90^{\circ}$ ($\frac{\pi}{2}$ radians) counter-clockwise** around the origin.\n- **Magnitude:** The distance from the origin remains unchanged because the modulus of $i$ is exactly 1 ($|iz| = |i||z| = 1 \cdot |z| = |z|$).",
+"mnemonic": "i is a 90-degree left turn.",
+"standardMeta": {
+"question": "What is the exact geometric effect on a complex number's position in the Argand plane when it is multiplied by the imaginary unit $i$?"
+}
+}
+},
+{
+"cardId": "3d71c28e-a984-446f-aca6-f41db3a4fafa",
+"originalOrder": 38,
+"originalHeading": "Area of Triangle Formed by z, iz, and z+iz",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 23", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 23,
+"heading": "Area of Triangle Formed by z, iz, and z+iz",
+"back": "## Component Anatomy:\n- **$z$:** The base vertex in the Argand plane.\n- **$iz$:** The second vertex, formed by rotating $z$ exactly $90^\circ$ counter-clockwise.\n- **$z + iz$:** The third vertex, formed by vector addition.\n\n## Boundary Conditions / Domain:\n- $z \neq 0$.\n- If $z=0$, the area is strictly 0.",
+"formulaMeta": {
+"formula": "\\text{Area} = \\frac{1}{2}|z|^2",
+"description": "State the formula for the geometric area of the triangle formed by the points 0, z, and iz (or equivalently z, iz, and z+iz).",
+"derivation": "Multiplying a complex number $z$ by $i$ rotates it by $90^\circ$.\nThus, the vectors $z$ and $iz$ are strictly perpendicular, forming a right-angled triangle.\nThe length of the base is $|z|$ and the height is $|iz| = |z|$.\nThe area is $\frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2}|z||z| = \frac{1}{2}|z|^2$."
+}
+}
+},
+{
+"cardId": "5345a55a-7bd2-4dd9-b74f-f61bb6582910",
+"originalOrder": 19,
+"originalHeading": "Polar Form of a Complex Number",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 24", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 24,
+"heading": "Polar Form of a Complex Number",
+"back": "## Component Anatomy:\n- **$r$:** Modulus of $z$ ($r = |z| = \sqrt{x^2+y^2}$), representing the radial distance from the origin.\n- **$\theta$:** Argument of $z$ ($\arg(z)$), representing the counter-clockwise angle from the positive real axis.\n\n## Boundary Conditions / Domain:\n- $r \geq 0$.\n- $\theta$ is usually given as the Principal Argument.",
+"formulaMeta": {
+"formula": "z = r(\\cos \\theta + i \\sin \\theta)",
+"description": "State the standard equation for expressing a complex number z = x + iy in its trigonometric polar form.",
+"derivation": "From the Argand diagram right triangle, $x = r \cos \theta$ and $y = r \sin \theta$.\nSubstituting these into $z = x + iy$ yields the polar form."
+}
+}
+},
+{
+"cardId": "ed3805d0-17e7-466e-9acf-7df4336bcca4",
+"originalOrder": 20,
+"originalHeading": "Principal Argument Domain",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 25", "Updated classification to DEFINITION"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 25,
+"heading": "Principal Argument Domain",
+"back": "Synthesised Answer in Markdown:\n- **Definition:** The Principal Argument of a complex number $z$, denoted as $\arg(z)$, is the unique angle $\theta$ that prevents infinite periodicity.\n- **Boundary Condition:** It is strictly bounded by $-\pi < \theta \leq \pi$.\n- **Why?** Angles greater than $\pi$ or less than $-\pi$ cross the real axis and must be normalized back into this primary interval to ensure a unique answer.",
+"standardMeta": {
+"question": "What is the strict mathematical boundary condition (range) that uniquely defines the 'Principal Argument' $\arg(z)$ of a complex number?"
+}
+}
+},
+{
+"cardId": "e8113cd6-3a78-481d-9614-3666b1889840",
+"originalOrder": 21,
+"originalHeading": "SOP: Base Angle (Alpha) for Argument",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 26", "Double escaped KaTeX in formula field", "Injected boundary condition missing from original"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 26,
+"heading": "SOP: Base Angle (Alpha) for Argument",
+"back": "## Component Anatomy:\n- **$\alpha$:** The acute base reference angle in the first quadrant.\n- **$y$:** Imaginary part of $z$.\n- **$x$:** Real part of $z$.\n\n## Boundary Conditions / Domain:\n- $x \neq 0$. If $x = 0$ and $y > 0$, $\theta = \pi/2$. If $x = 0$ and $y < 0$, $\theta = -\pi/2$.\n- $\alpha$ is strictly bounded by $0 \leq \alpha < \pi/2$.",
+"formulaMeta": {
+"formula": "\\alpha = \\tan^{-1}\\left|\\frac{y}{x}\\right|",
+"description": "State the formula used to find the acute base reference angle (α) prior to determining the exact argument of a complex number z = x + iy.",
+"derivation": "1. Ignore the algebraic signs of $x$ and $y$ to isolate the right triangle in the first quadrant.\n2. Use standard trigonometry $\tan \alpha = \frac{\text{Opposite}}{\text{Adjacent}} = \left|\frac{y}{x}\right|$ to find the absolute acute angle."
+}
+}
+},
+{
+"cardId": "66349058-0d77-475f-bfa6-9af1ccf02c24",
+"originalOrder": 22,
+"originalHeading": "Quadrant Rules for Principal Argument",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 27", "Double escaped KaTeX in formula field", "Swapped to APPLICATION classification"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 27,
+"heading": "Quadrant Rules for Principal Argument",
+"back": "## Component Anatomy:\n- **$\theta$:** The final Principal Argument.\n- **$\alpha$:** The acute base angle calculated via $\tan^{-1}|y/x|$.\n\n## Boundary Conditions / Domain:\n- The final output $\theta$ will strictly fall within $-\pi < \theta \leq \pi$.",
+"mnemonic": "Q1: Alpha. Q2: Pi minus Alpha. Q3: Negative of Q2. Q4: Negative of Q1.",
+"formulaMeta": {
+"formula": "\\begin{aligned} \\text{Quad I: } \\theta &= \\alpha \\\\ \\text{Quad II: } \\theta &= \\pi - \\alpha \\\\ \\text{Quad III: } \\theta &= -\\pi + \\alpha \\\\ \\text{Quad IV: } \\theta &= -\\alpha \\end{aligned}",
+"description": "State the mathematical formulas to find the principal argument θ from the base angle α across all four Argand quadrants.",
+"derivation": "In Quadrants III and IV, the angle is measured clockwise (negative) to avoid violating the strict boundary condition of $\theta \leq \pi$."
+}
+}
+},
+{
+"cardId": "b7685d3b-3126-4af4-8357-e8ec60e71221",
+"originalOrder": 23,
+"originalHeading": "Euler's Exponential Form",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 28", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 28,
+"heading": "Euler's Exponential Form",
+"back": "## Component Anatomy:\n- **$r$:** Modulus of the complex number ($|z|$).\n- **$e$:** Euler's constant (approx 2.718).\n- **$\theta$:** Argument of the complex number in radians.\n\n## Boundary Conditions / Domain:\n- $\theta$ must be strictly measured in radians, not degrees.",
+"formulaMeta": {
+"formula": "z = r e^{i\\theta}",
+"description": "State Euler's highly compact formula representing a complex number in exponential form using its modulus and argument.",
+"derivation": "Stemming from Taylor series expansions, $e^{i\theta}$ is mathematically identical to $\cos \theta + i \sin \theta$.\nTherefore, $r(\cos \theta + i \sin \theta)$ condenses into $r e^{i\theta}$."
+}
+}
+},
+{
+"cardId": "cef09694-0d06-4764-b995-43e89d10b419",
+"originalOrder": 24,
+"originalHeading": "De Moivre's Theorem",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 29", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 29,
+"heading": "De Moivre's Theorem",
+"back": "## Component Anatomy:\n- **$r$:** Modulus of $z$.\n- **$\theta$:** Argument of $z$.\n- **$n$:** The integer power the complex number is raised to.\n\n## Boundary Conditions / Domain:\n- The formula holds beautifully for any integer $n$, drastically simplifying $z^n$ without requiring massive binomial expansions.",
+"mnemonic": "Power drops down and multiplies the angle.",
+"formulaMeta": {
+"formula": "(r(\\cos \\theta + i \\sin \\theta))^n = r^n(\\cos n\\theta + i \\sin n\\theta)",
+"description": "State De Moivre's Theorem for calculating the $n$-th integral power of a complex number expressed in polar form.",
+"derivation": "Most easily derived using Euler's exponential form: $(r e^{i\theta})^n = r^n e^{i(n\theta)} = r^n(\cos n\theta + i \sin n\theta)$."
+}
+}
+},
+{
+"cardId": "e35988dc-f956-44df-bae2-f414f6b8e0ea",
+"originalOrder": 30,
+"originalHeading": "Argument of a Product",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 30", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 30,
+"heading": "Argument of a Product",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Complex numbers.\n- **$\arg(z)$:** The principal argument of the complex number.\n\n## Boundary Conditions / Domain:\n- $z_1 \neq 0$ and $z_2 \neq 0$.\n- **Critical Trap:** The raw sum might exceed the Principal Argument range $(-\pi, \pi]$. You must mathematically adjust the final result by $\pm 2\pi$ to bring it back into the principal domain.",
+"mnemonic": "Multiplying complex numbers ADDS their angles (arguments).",
+"formulaMeta": {
+"formula": "\\arg(z_1 z_2) = \\arg(z_1) + \\arg(z_2)",
+"description": "State the identity for finding the argument of the product of two complex numbers (arg(z_1 * z_2)).",
+"derivation": "Convert to Euler's exponential form: $(r_1 e^{i\theta_1}) \times (r_2 e^{i\theta_2}) = (r_1 r_2)e^{i(\theta_1 + \theta_2)}$.\nThe new angle is the sum of the original angles."
+}
+}
+},
+{
+"cardId": "fd6ea6e8-263e-41e9-84ff-8d167cd7baa7",
+"originalOrder": 31,
+"originalHeading": "Argument of a Quotient",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 31", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 31,
+"heading": "Argument of a Quotient",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Complex numbers.\n- **$\arg(z)$:** The principal argument of the complex number.\n\n## Boundary Conditions / Domain:\n- $z_2 \neq 0$.\n- Similar to products, adjust the final result by $\pm 2\pi$ if it falls outside the Principal Argument range $(-\pi, \pi]$.",
+"mnemonic": "Dividing complex numbers SUBTRACTS their angles (arguments).",
+"formulaMeta": {
+"formula": "\\arg\\left(\\frac{z_1}{z_2}\\right) = \\arg(z_1) - \\arg(z_2)",
+"description": "State the identity for finding the argument of the quotient of two complex numbers (arg(z_1 / z_2)).",
+"derivation": "Using exponential form: $\frac{r_1 e^{i\theta_1}}{r_2 e^{i\theta_2}} = \left(\frac{r_1}{r_2}\right)e^{i(\theta_1 - \theta_2)}$. The exponents subtract."
+}
+}
+},
+{
+"cardId": "29f467da-324e-4b7f-8c09-dee74c2a3d94",
+"originalOrder": 32,
+"originalHeading": "Argument of a Conjugate",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 32", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 32,
+"heading": "Argument of a Conjugate",
+"back": "## Component Anatomy:\n- **$z$:** A complex number.\n- **$\bar{z}$:** Its complex conjugate.\n\n## Boundary Conditions / Domain:\n- $z \neq 0$. If $z$ lies exactly on the negative real axis ($\arg(z) = \pi$), its conjugate argument remains $\pi$ (since $-\pi$ is not in the principal domain).",
+"formulaMeta": {
+"formula": "\\arg(\\bar{z}) = -\\arg(z)",
+"description": "State the algebraic relationship between the principal argument of a complex number and the principal argument of its conjugate.",
+"derivation": "Geometrically, the conjugate is a strict reflection across the real (horizontal) axis. A counter-clockwise angle $\theta$ perfectly reflects into a clockwise angle $-\theta$."
+}
+}
+},
+{
+"cardId": "efd4ea22-261f-452b-bc3a-8b3044ec2adf",
+"originalOrder": 25,
+"originalHeading": "SOP: Finding the Square Root of a Complex Number",
+"action": "SPLIT",
+"modificationsSummary": ["Split into Setup and Evaluation steps to reduce cognitive load", "Converted to strictly PROCEDURAL SOP"],
+"vettingNotes": "Split into 2 cards: Part 1 handles defining the system, Part 2 handles identity application.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 33,
+"heading": "SOP: Square Root of a Complex Number (Part 1: Algebraic System)",
+"back": "## Component Anatomy:\n- **$a + ib$:** The original complex number.\n- **$x + iy$:** The assumed square root.\n\n## Boundary Conditions / Domain:\n- $a, b, x, y \in \mathbb{R}$.",
+"formulaMeta": {
+"formula": "x^2 - y^2 = a \\quad \\text{and} \\quad 2xy = b",
+"description": "State the initial algebraic equations derived when equating the real and imaginary parts for the square root.",
+"derivation": "1. Let $\sqrt{a + ib} = x + iy$.\n2. Square both sides: $a + ib = (x^2 - y^2) + i(2xy)$.\n3. Equate the strict real and imaginary parts."
+}
+}
+},
+{
+"cardId": "NEW_SOP_SQUAREROOT_PART2",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from split of original finding square root card to handle evaluation."],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 34,
+"heading": "SOP: Square Root of a Complex Number (Part 2: Identity & Evaluation)",
+"back": "## Component Anatomy:\n- **$a, b$:** Real components of original number.\n- **$x, y$:** Unsolved real components of the square root.\n\n## Boundary Conditions / Domain:\n- Ensure the algebraic sign of the product $xy$ identically matches the sign of $b$ to determine the correct pairing of root coordinates.",
+"formulaMeta": {
+"formula": "(x^2 + y^2)^2 = (x^2 - y^2)^2 + (2xy)^2 = a^2 + b^2",
+"description": "State the algebraic identity and final steps used to solve the system for x and y.",
+"derivation": "1. Use the identity to solve strictly for $x^2 + y^2$ (which equals $\sqrt{a^2+b^2}$).\n2. Add and subtract this result with the equation $x^2 - y^2 = a$ to solve for $x$ and $y$ independently."
+}
+}
+},
+{
+"cardId": "fc09bb1c-ed07-4886-a0f5-2be6b7479020",
+"originalOrder": 26,
+"originalHeading": "Roots of a Quadratic Equation with Negative Discriminant",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 35", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "quadratic-equations", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 35,
+"heading": "Roots of a Quadratic Equation with Negative Discriminant",
+"back": "## Component Anatomy:\n- **$a, b, c$:** Real coefficients of the equation $ax^2 + bx + c = 0$.\n- **$D$:** Discriminant ($b^2 - 4ac$).\n- **$i$:** The imaginary unit.\n\n## Boundary Conditions / Domain:\n- $D < 0$.\n- $a, b, c \in \mathbb{R}$ and $a \neq 0$.",
+"formulaMeta": {
+"formula": "x = \\frac{-b \\pm i\\sqrt{|D|}}{2a}",
+"description": "State the formula for finding the complex roots of a quadratic equation when the discriminant is strictly negative.",
+"derivation": "Since $D < 0$, the square root of $D$ is undefined in the real number system.\nWe extract $-1$ from the discriminant: $\sqrt{D} = \sqrt{-|D|} = \sqrt{-1}\sqrt{|D|} = i\sqrt{|D|}$."
+}
+}
+},
+{
+"cardId": "8661d3e3-62d5-4382-8dc1-f64967c84846",
+"originalOrder": 27,
+"originalHeading": "Conjugate Pairs Theorem for Complex Roots",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 36", "Retained strictly as FACT classification"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["math", "complex-numbers", "quadratic-equations", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 36,
+"heading": "Conjugate Pairs Theorem for Complex Roots",
+"back": "Synthesised Answer in Markdown:\n- **The Theorem:** If a quadratic equation has **strictly real coefficients** and its discriminant is negative, its complex roots will always occur in strict conjugate pairs.\n- **Application:** If $a + ib$ is one root of the equation, you automatically know that $a - ib$ is the other root without performing any calculations.",
+"mnemonic": "Real coefficients mean Complex roots travel in mirror pairs.",
+"standardMeta": {
+"question": "What strict mathematical condition guarantees that the complex roots of a quadratic equation will appear in exact conjugate pairs?"
+}
+}
+},
+{
+"cardId": "85d92271-e01f-4a2c-9521-f045bd51e499",
+"originalOrder": 45,
+"originalHeading": "Failure of Conjugate Pairs Theorem",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 37 to group logically with Conjugate Pairs Theorem", "Retained DISTINCTION classification"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "complex-numbers", "quadratic-equations", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 37,
+"heading": "Failure of Conjugate Pairs Theorem",
+"back": "Synthesised Answer in Markdown:\n- **The Standard Rule:** Complex roots occur in conjugate pairs ($a \pm ib$).\n- **Strict Condition for Validity:** This theorem is ONLY valid if the quadratic equation has **purely real coefficients** ($A, B, C \in \mathbb{R}$).\n- **The Failure Trap:** If the coefficients of the polynomial themselves contain complex numbers or imaginary units (e.g., $z^2 - iz + 1 = 0$), the roots will **NOT** necessarily occur in conjugate pairs.\nYou must manually calculate the roots using the quadratic formula.",
+"mnemonic": "Real coefficients mirror the roots. Complex coefficients break the mirror.",
+"standardMeta": {
+"question": "Under what specific algebraic condition does the rule 'complex roots occur in conjugate pairs' completely fail to apply?"
+}
+}
+},
+{
+"cardId": "b9e7856f-8a58-4189-a53d-74ca528f917b",
+"originalOrder": 28,
+"originalHeading": "Triangle Inequality of Modulus (Addition)",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 38", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 38,
+"heading": "Triangle Inequality of Modulus (Addition)",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Any two complex numbers in the Argand plane.\n- **$|z_1 + z_2|$:** The modulus of their sum (the length of the third side of the vector triangle).\n\n## Boundary Conditions / Domain:\n- Valid for all $z_1, z_2 \in \mathbb{C}$.\n- Equality holds strictly when $z_1$ and $z_2$ are collinear and point in the exact same direction from the origin.",
+"mnemonic": "The sum of the parts is greater than or equal to the whole.",
+"formulaMeta": {
+"formula": "|z_1 + z_2| \\leq |z_1| + |z_2|",
+"description": "State the Triangle Inequality theorem relating the modulus of the sum of two complex numbers to the sum of their individual moduli.",
+"derivation": "Geometrically, complex addition forms a triangle in the Argand plane.\nThe length of any one side of a geometric triangle ($|z_1 + z_2|$) must be less than or equal to the sum of the lengths of the other two sides ($|z_1|$ and $|z_2|$)."
+}
+}
+},
+{
+"cardId": "0b5a962e-f3b4-4a63-ab0a-719e9936572d",
+"originalOrder": 29,
+"originalHeading": "Triangle Inequality of Modulus (Subtraction)",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 39", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 39,
+"heading": "Triangle Inequality of Modulus (Subtraction)",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Any two complex numbers in the Argand plane.\n\n## Boundary Conditions / Domain:\n- Valid for all $z_1, z_2 \in \mathbb{C}$.\n- Must use the absolute difference $||z_1| - |z_2||$ to ensure non-negativity.",
+"formulaMeta": {
+"formula": "|z_1 - z_2| \\geq ||z_1| - |z_2||",
+"description": "State the Triangle Inequality theorem relating the modulus of the difference of two complex numbers to the absolute difference of their individual moduli.",
+"derivation": "Derived from the geometric property of a triangle: The length of any single side must be strictly greater than or equal to the absolute difference of the lengths of the remaining two sides."
+}
+}
+},
+{
+"cardId": "5038a05f-e4d6-4275-8e53-e1bc3ee59586",
+"originalOrder": 40,
+"originalHeading": "Modulus Squared of Sum/Difference of Complex Numbers",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 40", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 40,
+"heading": "Modulus Squared of Sum/Difference of Complex Numbers",
+"back": "## Component Anatomy:\n- **$z_1, z_2$:** Any two complex numbers.\n- **$\text{Re}(z_1 \bar{z}_2)$:** The real part of the product of $z_1$ and the conjugate of $z_2$.\n\n## Boundary Conditions / Domain:\n- Valid for all $z_1, z_2 \in \mathbb{C}$.",
+"mnemonic": "Law of Cosines for Complex Numbers",
+"formulaMeta": {
+"formula": "|z_1 \\pm z_2|^2 = |z_1|^2 + |z_2|^2 \\pm 2\\text{Re}(z_1 \\bar{z}_2)",
+"description": "State the expansion identity for the squared modulus of the sum or difference of two complex numbers (|z_1 ± z_2|^2).",
+"derivation": "1. Use the fundamental property $|Z|^2 = Z \bar{Z}$.\n2. Expand $|z_1 + z_2|^2 = (z_1 + z_2)(\overline{z_1 + z_2}) = (z_1 + z_2)(\bar{z}_1 + \bar{z}_2)$.\n3. Multiply out to get $z_1\bar{z}_1 + z_2\bar{z}_2 + z_1\bar{z}_2 + z_2\bar{z}_1$.\n4. Substitute $|z_1|^2$ and $|z_2|^2$.\nRecognize that $z_2\bar{z}_1 = \overline{z_1\bar{z}_2}$.\n5. Since $Z + \bar{Z} = 2\text{Re}(Z)$, the middle terms strictly collapse to $2\text{Re}(z_1\bar{z}_2)$."
+}
+}
+},
+{
+"cardId": "46c44d5d-e343-4a33-949d-bcc768dc5590",
+"originalOrder": 34,
+"originalHeading": "Geometric Locus: Equation of a Circle",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 41", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "geometry", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 41,
+"heading": "Geometric Locus: Equation of a Circle",
+"back": "## Component Anatomy:\n- **$z$:** A variable point $(x, y)$ in the Argand plane.\n- **$z_0$:** A fixed complex number representing the **center** of the circle.\n- **$r$:** A positive real number representing the **radius**.\n\n## Boundary Conditions / Domain:\n- $r > 0$.\n- If $r = 0$, the locus collapses to exactly the single point $z_0$.",
+"formulaMeta": {
+"formula": "|z - z_0| = r",
+"description": "State the mathematical equation defining the geometric locus of a circle in the Argand plane.",
+"derivation": "The expression $|z - z_0|$ strictly represents the absolute geometric distance between the variable point $z$ and the fixed center point $z_0$.\nForcing this distance to remain constant at $r$ traces a perfect circle."
+}
+}
+},
+{
+"cardId": "5999313d-d5d6-418e-b502-96fb43ab280a",
+"originalOrder": 35,
+"originalHeading": "Geometric Locus: Perpendicular Bisector",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 42", "Double escaped KaTeX in formula field"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "geometry", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 42,
+"heading": "Geometric Locus: Perpendicular Bisector",
+"back": "## Component Anatomy:\n- **$z$:** A variable point in the Argand plane.\n- **$z_1, z_2$:** Two strictly fixed complex numbers.\n\n## Boundary Conditions / Domain:\n- $z_1 \neq z_2$.",
+"formulaMeta": {
+"formula": "|z - z_1| = |z - z_2|",
+"description": "State the mathematical equation defining the geometric locus of a perpendicular bisector between two points in the Argand plane.",
+"derivation": "The equation demands that the geometric distance from $z$ to $z_1$ is perfectly equal to the distance from $z$ to $z_2$.\nThe set of all such equidistant points geometrically forms the perpendicular bisector of the line segment joining $z_1$ and $z_2$."
+}
+}
+},
+{
+"cardId": "be8d50af-f23e-438a-a11f-357f3d4357e9",
+"originalOrder": 41,
+"originalHeading": "SOP: Exponential Equations with Modulus Bases",
+"action": "SPLIT",
+"modificationsSummary": ["Split into Modulus Evaluation and Exponent Comparison to prevent cognitive bloat"],
+"vettingNotes": "Split into 2 sequential procedural cards.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 43,
+"heading": "SOP: Mixed Modulus-Exponential Equations (Part 1 - Base Modulus)",
+"back": "## Component Anatomy:\n- **$1 - i$:** The complex base inside the modulus.\n\n## Boundary Conditions / Domain:\n- Applies to equations of the form $|a + ib|^x = c^x$.",
+"formulaMeta": {
+"formula": "|1 - i| = \\sqrt{2}",
+"description": "State the first algorithmic step to solve mixed modulus-exponential equations of the form |1 - i|^x = 2^x.",
+"derivation": "1. Do not manipulate the exponent first.\n2. Evaluate the modulus of the complex base strictly first: $|1 - i| = \sqrt{1^2 + (-1)^2} = \sqrt{2}$."
+}
+}
+},
+{
+"cardId": "NEW_SOP_MODEXP_PART2",
+"originalOrder": 41,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from split of mixed modulus-exponential equations card"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 44,
+"heading": "SOP: Mixed Modulus-Exponential Equations (Part 2 - Exponent Solving)",
+"back": "## Component Anatomy:\n- **$x$:** The unknown integer power.\n\n## Boundary Conditions / Domain:\n- $x$ must be a real number, generally asked as an integer solution.",
+"formulaMeta": {
+"formula": "(\\sqrt{2})^x = 2^x \\implies 2^{x/2} = 2^x",
+"description": "State the final algebraic steps to solve for x after evaluating the modulus base.",
+"derivation": "1. Substitute the evaluated modulus back into the equation: $(\sqrt{2})^x = 2^x$.\n2. Convert radicals to rational exponents to match bases: $2^{x/2} = 2^x$.\n3. Equate the exponents: $\frac{x}{2} = x$.\n4. Solve the linear equation: $x - \frac{x}{2} = 0 \implies \frac{x}{2} = 0 \implies x = 0$."
+}
+}
+},
+{
+"cardId": "3d9bcc34-d995-4b9d-ba04-61c1debc5347",
+"originalOrder": 42,
+"originalHeading": "SOP: Least Positive Integer for Unit Complex Fractions",
+"action": "SPLIT",
+"modificationsSummary": ["Split into Rationalization and Periodicity evaluation to prevent bloat"],
+"vettingNotes": "Split into 2 sequential procedural cards.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 45,
+"heading": "SOP: Complex Fractions to Powers (Part 1 - Rationalization)",
+"back": "## Component Anatomy:\n- **$1+i$ / $1-i$:** The internal complex fraction.\n\n## Boundary Conditions / Domain:\n- Denominator $\neq 0$.",
+"formulaMeta": {
+"formula": "\\frac{1+i}{1-i} = i",
+"description": "State the first algorithmic step to solve fractional complex power equations of the archetype ((1+i)/(1-i))^m = 1.",
+"derivation": "1. Do NOT apply the power $m$ immediately. Always rationalize the internal fraction first.\n2. Multiply numerator and denominator by the conjugate of the denominator: $\frac{(1+i)(1+i)}{(1-i)(1+i)}$.\n3. The numerator expands to $1 + i^2 + 2i$. Since $i^2 = -1$, it collapses strictly to $2i$.\n4. The denominator evaluates to $1^2 - i^2 = 1 - (-1) = 2$.\n5. The fraction simplifies to $\frac{2i}{2} = i$."
+}
+}
+},
+{
+"cardId": "NEW_SOP_COMPLEXFRACPWR_PART2",
+"originalOrder": 42,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from split to handle the integer and periodicity logic"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 46,
+"heading": "SOP: Complex Fractions to Powers (Part 2 - Periodicity)",
+"back": "## Component Anatomy:\n- **$m$:** The unknown positive integer power.\n- **$k$:** Any integer multiplier.\n\n## Boundary Conditions / Domain:\n- The question specifically demands the **least positive integer** ($m > 0$).",
+"formulaMeta": {
+"formula": "i^m = 1 \\implies m = 4k",
+"description": "State the final step utilizing periodicity to solve for the least positive integer m.",
+"derivation": "1. Substitute the simplified interior fraction back into the equation: $i^m = 1$.\n2. Since $i^4 = 1$, $m$ must strictly be a multiple of 4.\n3. The least strictly positive integer is 4."
+}
+}
+},
+{
+"cardId": "02705627-3810-4de1-b364-eaf0af066c61",
+"originalOrder": 43,
+"originalHeading": "Infinite Solutions Trap in Mixed Modulus Equations",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered to sequential position 47"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert"],
+"order": 47,
+"heading": "Infinite Solutions Trap in Mixed Modulus Equations",
+"back": "Synthesised Answer in Markdown:\n- **The Trap:** Students often assume algebraic equations like $z^2 + |z|^2 = 0$ have only one or two finite roots (like $z=0$).\n- **The Reality:** This archetype yields **infinitely many solutions**.\n- **Mathematical Proof:** Let $z = x + iy$.\nThen $z^2 + |z|^2 = 0 \implies (x^2 - y^2 + i2xy) + (x^2 + y^2) = 0$.\n- **Simplification:** The $-y^2$ and $+y^2$ cancel, leaving $2x^2 + i2xy = 0$.\n- **Conclusion:** Equating real and imaginary parts gives $2x^2 = 0 \implies x = 0$.\nHowever, the imaginary part $2xy = 0$ is automatically satisfied when $x=0$, leaving **$y$ completely unrestricted**.\nThus, any purely imaginary number ($z = iy$) is a valid solution.",
+"standardMeta": {
+"question": "Why does the equation $z^2 + |z|^2 = 0$ have infinitely many solutions rather than a finite set of roots?"
+}
+}
+},
+{
+"cardId": "0ccfa79a-55b9-4eff-a320-c1b5f74f1abf",
+"originalOrder": 44,
+"originalHeading": "Extracting Real Relations from Complex Fractions",
+"action": "SPLIT",
+"modificationsSummary": ["Split into Modulus distribution shortcut and final squaring steps"],
+"vettingNotes": "Split into 2 cards.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 48,
+"heading": "SOP: Real Relations via Modulus (Part 1 - Application)",
+"back": "## Component Anatomy:\n- **$x, y, a, b, c, d$:** Real numbers.\n\n## Boundary Conditions / Domain:\n- The denominator terms $c^2 + d^2 \neq 0$.",
+"mnemonic": "Modulus kills the 'i' and squares the reals.",
+"formulaMeta": {
+"formula": "|x - iy| = \\left| \\frac{a - ib}{c - id} \\right|",
+"description": "State the algorithmic shortcut step to prove a purely real relation like x^2 + y^2 = (a^2+b^2)/(c^2+d^2) given x - iy = (a-ib)/(c-id).",
+"derivation": "1. Do NOT cross-multiply and compare real/imaginary parts (this leads to massive cognitive bloat).\n2. Take the strict modulus of both sides to eliminate the imaginary unit.\n3. Apply the modulus division distribution rule: $|x - iy| = \frac{|a - ib|}{|c - id|}$."
+}
+}
+},
+{
+"cardId": "NEW_SOP_REALRELATIONS_PART2",
+"originalOrder": 44,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Created from split to isolate the final evaluation steps"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "complex-numbers", "jee-main", "jeeadvanced", "class-11", "ncert", "formula"],
+"order": 49,
+"heading": "SOP: Real Relations via Modulus (Part 2 - Squaring)",
+"back": "## Component Anatomy:\n- **$x, y, a, b, c, d$:** Real numbers.\n\n## Boundary Conditions / Domain:\n- The denominator $c^2 + d^2 \neq 0$.",
+"formulaMeta": {
+"formula": "x^2 + y^2 = \\frac{a^2 + b^2}{c^2 + d^2}",
+"description": "State the final evaluation step to arrive at the purely real polynomial relation.",
+"derivation": "1. Evaluate the modulus definitions for all components: $\sqrt{x^2 + y^2} = \frac{\sqrt{a^2 + b^2}}{\sqrt{c^2 + d^2}}$.\n2. Square both sides to eliminate radicals, yielding the final purely real relation."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

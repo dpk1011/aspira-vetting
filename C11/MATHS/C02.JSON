@@ -1,0 +1,1106 @@
+{
+"deckId": "50c04ab4-c4bd-4e8d-b36f-155ff9ff218d",
+"cards": [
+{
+"cardId": "1890d61b-def3-40ec-9739-8fd142135541",
+"originalOrder": 1,
+"originalHeading": "Cartesian Product of Sets ($A \times B$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized tags", "Enhanced markdown formatting in explanation"],
+"vettingNotes": "Axiomatic foundation. Good definition structure.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "sets", "relations-functions", "jee-main", "class-11"],
+"order": 1,
+"heading": "Cartesian Product of Sets ($A \times B$)",
+"back": "### Definition\nThe set of all possible ordered pairs where the first element strictly belongs to set $A$ and the second element strictly belongs to set $B$.\n\n### Set-Builder Notation\n$A \times B = \\{(a,b) : a \in A, b \in B\\}$\n\n### Boundary Condition\nIf either $A$ or $B$ is the empty set ($\emptyset$), then their Cartesian product is also the empty set: $A \times \emptyset = \emptyset$.",
+"standardMeta": {
+"question": "Define the Cartesian Product of two non-empty sets A and B, and state the strict result if one of the sets is empty."
+}
+}
+},
+{
+"cardId": "7cf8e068-6c36-4f02-aa64-ed5a2c434dcd",
+"originalOrder": 2,
+"originalHeading": "Equality of Ordered Pairs",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted classification to DEFINITION", "Double-escaped KaTeX", "Restructured back for Component Anatomy"],
+"vettingNotes": "Mathematical axiom, changed from APPLICATION to DEFINITION.",
+"cardData": {
+"type": "FORMULA",
+"classification": "DEFINITION",
+"tags": ["math", "sets", "relations-functions", "jee-main", "class-11"],
+"order": 2,
+"heading": "Condition for Equality of Ordered Pairs",
+"back": "## Component Anatomy:\n- **$(x_1, y_1)$ & $(x_2, y_2)$**: Two distinct ordered pairs.\n- **Equality**: Implies strict position-wise matching of elements.\n\n## Boundary Conditions / Domain:\n- The elements must correspond to the exact same position (first to first, second to second).\n- The internal ordering is strictly non-commutative. $(a,b) \neq (b,a)$ unless $a=b$.",
+"formulaMeta": {
+"formula": "(x_1, y_1) = (x_2, y_2) \iff x_1 = x_2 \text{ and } y_1 = y_2",
+"description": "The mathematical condition required for two ordered pairs to be strictly equal.",
+"derivation": "Equality strictly implies $x_1 = x_2$ simultaneously with $y_1 = y_2$."
+}
+}
+},
+{
+"cardId": "650564f0-fd08-4759-a530-0d02a6cff6a0",
+"originalOrder": 3,
+"originalHeading": "Cardinality of Cartesian Product",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to CONCEPT", "Structured back"],
+"vettingNotes": "Fundamental theorem of counting applied to Cartesian products.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "combinatorics", "relations-functions", "jee-main", "class-11"],
+"order": 3,
+"heading": "Cardinality of a Cartesian Product",
+"back": "## Component Anatomy:\n- **$n(A), n(B)$**: Cardinalities of individual sets.\n- **$n(A \times B)$**: The total number of ordered pairs in the Cartesian product.\n\n## Boundary Conditions / Domain:\n- Sets A and B must be finite.\n- If either A or B is an infinite set (and the other is non-empty), then $A \times B$ is strictly infinite.",
+"formulaMeta": {
+"formula": "n(A \times B) = n(A) \cdot n(B) = pq",
+"description": "Calculates the total number of elements in the Cartesian product $A \times B$, given $n(A) = p$ and $n(B) = q$.",
+"derivation": "By the Fundamental Principle of Counting:\n1. There are $p$ independent ways to choose the first element.\n2. There are $q$ independent ways to choose the second element.\n3. Total ordered pairs mathematically equals $p \times q$."
+}
+}
+},
+{
+"cardId": "6e0c930c-d1cb-4185-96d0-7acd50eb082d",
+"originalOrder": 4,
+"originalHeading": "Ordered Triplet ($A \times A \times A$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Refined standard tags"],
+"vettingNotes": "Standard definition extension.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["math", "geometry", "relations-functions", "jee-main", "class-11"],
+"order": 4,
+"heading": "Ordered Triplet ($A \times A \times A$)",
+"back": "### Definition\nThe Cartesian product of a set with itself three times, yielding a set of ordered triplets.\n\n### Set-Builder Notation\n$A \times A \times A = \\{(a,b,c) : a, b, c \in A\\}$\n\n### Geometric Application\nThe product $\mathbb{R} \times \mathbb{R} \times \mathbb{R}$ represents the coordinates of all points in three-dimensional space.",
+"standardMeta": {
+"question": "What is an ordered triplet, and what does the specific Cartesian product $\mathbb{R} \times \mathbb{R} \times \mathbb{R}$ geometrically represent?"
+}
+}
+},
+{
+"cardId": "b2995f59-d0af-4e9e-8288-614f9a7716f0",
+"originalOrder": 43,
+"originalHeading": "Non-Commutativity of the Cartesian Product",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered for cognitive sequencing", "Formatted markdown lists"],
+"vettingNotes": "Moved to follow immediately after Cartesian definitions to address the common associative/commutative trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "logic", "relations-functions", "jee-advanced", "class-11"],
+"order": 5,
+"heading": "Non-Commutativity of the Cartesian Product",
+"back": "- **Concept:** The Cartesian product operation is strictly non-commutative. Mathematically, $A \times B \neq B \times A$.\n- **Reasoning:** Ordered pairs are strictly position-dependent. The coordinate pair $(a, b)$ is fundamentally distinct from $(b, a)$ unless $a = b$.\n- **The Absolute Exceptions:** $A \times B = B \times A$ if and only if:\n  1. Sets $A$ and $B$ are strictly identical sets ($A = B$).\n  2. At least one of the component sets is the empty set ($\emptyset$).",
+"standardMeta": {
+"question": "Is the Cartesian product of two sets mathematically commutative? If not, what are the only two strict exceptions where $A \times B = B \times A$?"
+}
+}
+},
+{
+"cardId": "f411bee8-5b0f-4ba0-96c9-6795c6c03cdc",
+"originalOrder": 5,
+"originalHeading": "Mathematical Definition of a Relation",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "relations", "relations-functions", "jee-main", "class-11"],
+"order": 6,
+"heading": "Mathematical Definition of a Relation",
+"back": "- **Definition:** A relation $R$ from a non-empty set $A$ to a non-empty set $B$ is structurally any **subset** of the Cartesian product $A \times B$.\n- **Derivation:** It is derived by describing a specific mathematical or logical relationship between the first element $x$ and the second element $y$ of the ordered pairs in $A \times B$.\n- **Notation:** If $(x,y) \in R$, we say $x$ is related to $y$ under $R$ (often written $x R y$).",
+"standardMeta": {
+"question": "How is a mathematical 'Relation' strictly defined in terms of a Cartesian product?"
+}
+}
+},
+{
+"cardId": "7130c725-0295-4544-987a-e7f1ff1d001d",
+"originalOrder": 6,
+"originalHeading": "Relation Anatomy: Domain vs. Range vs. Codomain",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "relations", "relations-functions", "jee-main", "class-11"],
+"order": 7,
+"heading": "Relation Anatomy: Domain vs. Range vs. Codomain",
+"back": "- **Domain:** The set of all **first elements** $x$ of the ordered pairs that strictly belong to the relation $R$. (Domain $\subseteq A$).\n- **Range:** The set of all **second elements** $y$ (images) of the ordered pairs that strictly belong to $R$. (Range $\subseteq B$).\n- **Codomain:** The entirety of set $B$. The range is always a subset (or equal to) the codomain.\n- **Image/Pre-image:** In $(x,y)$, $y$ is the image of $x$, and $x$ is the pre-image of $y$.",
+"mnemonic": "Domain drives first, Range reacts second. Codomain is the entire target board.",
+"standardMeta": {
+"question": "Differentiate between the Domain, Range, and Codomain of a mathematical relation R from set A to set B."
+}
+}
+},
+{
+"cardId": "30e377fe-c727-429c-929b-c6e81194a591",
+"originalOrder": 7,
+"originalHeading": "Total Number of Possible Relations",
+"action": "MODIFIED",
+"modificationsSummary": ["Standardized as APPLICATION"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "combinatorics", "relations-functions", "jee-main", "class-11"],
+"order": 8,
+"heading": "Total Number of Possible Relations",
+"back": "## Component Anatomy:\n- **$p, q$**: Cardinalities of sets A and B respectively.\n- **$2^{pq}$**: The total possible subset combinations forming unique relations.\n\n## Boundary Conditions / Domain:\n- A and B must strictly be finite sets.",
+"formulaMeta": {
+"formula": "2^{pq}",
+"description": "Calculates the total number of distinct relations possible from a set A of order p to a set B of order q.",
+"derivation": "1. A relation is simply a subset of $A \times B$.\n2. The number of elements in $A \times B$ is exactly $p \times q = pq$.\n3. The total number of subsets of any set with $n$ elements is strictly $2^n$.\n4. Therefore, total relations = $2^{pq}$."
+}
+}
+},
+{
+"cardId": "cda75c83-246d-4f13-ad96-dde065d2ae41",
+"originalOrder": 40,
+"originalHeading": "Total Number of Non-Empty Relations",
+"action": "MODIFIED",
+"modificationsSummary": ["Reordered after total relations card"],
+"vettingNotes": "Logical mathematical sequence.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "combinatorics", "relations-functions", "jee-main", "class-11"],
+"order": 9,
+"heading": "Total Number of Non-Empty Relations",
+"back": "## Component Anatomy:\n- **$m, n$**: Cardinalities of set A and set B.\n- **$2^{mn}$**: Total possible relations (subsets of $A \times B$).\n- **$- 1$**: The exclusion of the strict null relation (empty set).\n\n## Boundary Conditions / Domain:\n- Sets A and B must strictly be finite sets.",
+"formulaMeta": {
+"formula": "2^{mn} - 1",
+"description": "Calculates the total number of strictly non-empty relations from a finite set A (order m) to a finite set B (order n).",
+"derivation": "The total number of relations is $2^{mn}$. Since the empty set $\emptyset$ is considered a valid subset, it forms exactly one 'empty relation'. Subtracting this yields $2^{mn} - 1$ non-empty relations."
+}
+}
+},
+{
+"cardId": "72ed4ebe-c382-47f9-863e-5460409094fa",
+"originalOrder": 8,
+"originalHeading": "Inverse Relation ($R^{-1}$)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "relations", "relations-functions", "jee-main", "class-11"],
+"order": 10,
+"heading": "Inverse Relation ($R^{-1}$)",
+"back": "- **Definition:** If $R$ is a relation from set $A$ to set $B$, its inverse $R^{-1}$ is the relation from $B$ to $A$ obtained by flipping the ordered pairs.\n- **Mathematical Notation:** $R^{-1} = \\{(b,a) : (a,b) \in R\\}$.\n- **Property 1:** The Domain of $R^{-1}$ is exactly the Range of $R$.\n- **Property 2:** The Range of $R^{-1}$ is exactly the Domain of $R$.",
+"standardMeta": {
+"question": "Define the Inverse Relation $R^{-1}$ and state how its Domain and Range correspond to the original relation R."
+}
+}
+},
+{
+"cardId": "bb9ed3ba-3b33-4767-b6e7-0f7422b9b4ae",
+"originalOrder": 9,
+"originalHeading": "Strict Mathematical Definition of a Function",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["math", "functions", "relations-functions", "jee-advanced", "class-11"],
+"order": 11,
+"heading": "Strict Mathematical Definition of a Function",
+"back": "- **Definition:** A relation $f$ from set $A$ to set $B$ is a function if and only if **every** element of set $A$ has **one and only one** image in set $B$.\n- **Condition 1 (Exhaustion):** The domain of the function must be the entirety of set $A$.\n- **Condition 2 (Uniqueness):** No two distinct ordered pairs in $f$ can have the same first element.",
+"mnemonic": "Every child (Input) must have exactly one biological mother (Output).",
+"standardMeta": {
+"question": "What are the two strict boundary conditions a relation must satisfy to be mathematically classified as a Function?"
+}
+}
+},
+{
+"cardId": "27a037a8-07c9-4af1-b5f1-28dcc7c07ecf",
+"originalOrder": 10,
+"originalHeading": "Functions vs. Relations (The Convergence/Divergence Trap)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "functions", "trap", "jee-main", "class-11"],
+"order": 12,
+"heading": "Functions vs. Relations (The Convergence/Divergence Trap)",
+"back": "- **Valid Function (Many-to-One):** Multiple inputs can share the exact same output (e.g., $f(x) = x^2$ where $f(2)=4$ and $f(-2)=4$). This is mathematically permitted.\n- **Invalid Function (One-to-Many):** A single input CANNOT produce multiple distinct outputs (e.g., $f(4) = 2$ and $f(4) = -2$). This breaks the definition of a function; it is merely a relation.\n- **Vertical Line Test:** Graphically, if any vertical line intersects a curve more than once, it fails the function test (One-to-Many).",
+"mnemonic": "Many inputs can CONVERGE to one output. One input CANNOT DIVERGE to many outputs.",
+"standardMeta": {
+"question": "Explain the difference between 'Many-to-One' and 'One-to-Many' mappings, and state which one strictly violates the definition of a function."
+}
+}
+},
+{
+"cardId": "31df7832-fccf-4c77-b062-a618efc1cf47",
+"originalOrder": 31,
+"originalHeading": "Multiplicative Trap in Function Definitions ($ab, a+b$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced after functions vs relations card"],
+"vettingNotes": "Perfect practical application of the one-to-many trap.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "functions", "trap", "jee-advanced", "class-11"],
+"order": 13,
+"heading": "Multiplicative Trap in Function Definitions ($ab, a+b$)",
+"back": "- **The Trap:** A relation defined as ordered pairs $(ab, a+b)$ for integers $a, b$ looks like a legitimate mathematical mapping formula, but completely fails the strict definition of a function.\n- **Counter-example (NCERT):** Let the domain input be $6$. The integer factors of $6$ could be $a=1, b=6$ or $a=2, b=3$.\n- **The Failure:** If $a=1, b=6$, the pair mapped is $(6, 7)$. If $a=2, b=3$, the pair mapped is $(6, 5)$.\n- **Conclusion:** Since the single isolated input $6$ definitively maps to two entirely distinct outputs ($7$ and $5$), this is a **One-to-Many** relationship. It is strictly a relation, NOT a function.",
+"standardMeta": {
+"question": "Mathematically prove via a counter-example why the integer relation $f = \\{(ab, a+b)\\}$ strictly fails the definition of a function."
+}
+}
+},
+{
+"cardId": "c292cb1b-8dd6-4282-aa96-c9e566951972",
+"originalOrder": 38,
+"originalHeading": "Piecewise Definitions: Function vs. Relation Boundary Check",
+"action": "MODIFIED",
+"modificationsSummary": ["Sequenced after multiplicative trap"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "functions", "edge-case", "jee-main", "class-11"],
+"order": 14,
+"heading": "Piecewise Definitions: Function vs. Relation Boundary Check",
+"back": "- **Concept:** When a mapping is defined piecewise, the critical boundary points where the rules switch must yield a mathematically identical output to remain a function.\n- **Example (Function):** $f(x) = x^2$ for $0 \le x \le 3$, and $f(x) = 3x$ for $3 \le x \le 10$. At the boundary $x=3$, $3^2 = 9$ and $3(3) = 9$. It yields a unique image, so it is a valid function.\n- **Example (Relation Only):** $g(x) = x^2$ for $0 \le x \le 2$, and $g(x) = 3x$ for $2 \le x \le 10$. At the boundary $x=2$, $2^2 = 4$ but $3(2) = 6$. A single input yields two distinct outputs, which strictly violates the mathematical definition of a function.",
+"standardMeta": {
+"question": "How do you algebraically determine if a continuous piecewise relation is mathematically classified as a function at its boundary points?"
+}
+}
+},
+{
+"cardId": "88cbba6a-b027-4e92-9c15-62d05f6a745e",
+"originalOrder": 11,
+"originalHeading": "Total Number of Functions",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to APPLICATION"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "combinatorics", "functions", "jee-main", "class-11"],
+"order": 15,
+"heading": "Total Number of Functions",
+"back": "## Component Anatomy:\n- **$p$**: Cardinality of the Domain (set A).\n- **$q$**: Cardinality of the Codomain (set B).\n\n## Boundary Conditions / Domain:\n- Both sets must be strictly finite.\n- Not every relation is a function, thus $q^p \le 2^{pq}$.",
+"mnemonic": "Outputs to the power of Inputs (Codomain ^ Domain).",
+"formulaMeta": {
+"formula": "q^p",
+"description": "Calculates the total number of valid functions that can be mapped from a finite set A (order p) to a finite set B (order q).",
+"derivation": "By the Fundamental Principle of Counting: Every single element in Set A (total $p$ elements) MUST be mapped (exhaustion rule), and each has exactly $q$ independent choices in Set B. Therefore, total combinations = $q \times q \times \dots \times q$ ($p$ times) = $q^p$."
+}
+}
+},
+{
+"cardId": "b13068ad-0c14-4169-a62b-59a3a0fdc24c",
+"originalOrder": 12,
+"originalHeading": "Real-Valued Function vs. Real Function",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["math", "functions", "nomenclature", "class-11"],
+"order": 16,
+"heading": "Real-Valued Function vs. Real Function",
+"back": "- **Real-Valued Function:** A function where only the **Range** is strictly a subset of the Real Numbers ($\mathbb{R}$). The inputs (Domain) could theoretically be anything (e.g., matrices, complex numbers).\n- **Real Function:** A function where **BOTH** the Domain and the Range are strictly $\mathbb{R}$ or subsets of $\mathbb{R}$.",
+"mnemonic": "Real-Valued = Real Output. Real Function = Real In AND Real Out.",
+"standardMeta": {
+"question": "What is the strict mathematical distinction between a Real-Valued Function and a Real Function?"
+}
+}
+},
+{
+"cardId": "15c0b493-305a-4c1d-a4b7-d5b1de7965ee",
+"originalOrder": 13,
+"originalHeading": "The Identity Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Injected detailed boundary conditions and anatomical breakdown"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "functions", "jee-main", "class-11"],
+"order": 17,
+"heading": "The Identity Function",
+"back": "## Component Anatomy:\n- **$f(x) = x$**: The output is identically equal to the input.\n\n## Boundary Conditions / Domain:\n- **Domain**: $\mathbb{R}$\n- **Range**: $\mathbb{R}$\n- **Graph**: A straight continuous line passing strictly through the origin $(0,0)$ making a 45-degree angle with both positive coordinate axes ($y=x$).",
+"formulaMeta": {
+"formula": "f(x) = x",
+"description": "The algebraic equation for the Identity Function on real numbers.",
+"derivation": "Output simply maps mathematically to itself."
+}
+}
+},
+{
+"cardId": "5142e80b-89b6-4e1e-b96d-eaa486f6c890",
+"originalOrder": 14,
+"originalHeading": "The Constant Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Injected detailed boundary conditions"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "functions", "class-11"],
+"order": 18,
+"heading": "The Constant Function",
+"back": "## Component Anatomy:\n- **$c$**: A specific real constant mapped to all inputs.\n\n## Boundary Conditions / Domain:\n- **Domain**: $\mathbb{R}$ (Accepts any real number).\n- **Range**: $\\{c\\}$ (A singleton set containing strictly only the constant $c$).\n- **Graph**: A straight horizontal line perfectly parallel to the x-axis, intersecting the y-axis exactly at $(0,c)$.",
+"formulaMeta": {
+"formula": "f(x) = c",
+"description": "The algebraic equation for the Constant Function on real numbers.",
+"derivation": "Output ignores input entirely, remaining at fixed value $c$."
+}
+}
+},
+{
+"cardId": "923ac645-8a6a-442f-a98a-92293247c53c",
+"originalOrder": 16,
+"originalHeading": "The Modulus (Absolute Value) Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Formatted piecewise function in LaTeX"],
+"vettingNotes": "Ensure standard formatting for absolute value equations.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "functions", "jee-main", "class-11"],
+"order": 19,
+"heading": "The Modulus (Absolute Value) Function",
+"back": "## Component Anatomy:\n- **$x$**: When input is $\ge 0$, it passes through unchanged.\n- **$-x$**: When input is $< 0$, applying a negative sign algebraically flips it to positive.\n\n## Boundary Conditions / Domain:\n- **Domain**: $\mathbb{R}$\n- **Range**: $\mathbb{R}^+ \cup \\{0\\}$ (Strictly $[0, \infty)$). Non-negative reals.\n- **Graph**: A V-shaped continuous curve meeting precisely at a vertex at the origin.",
+"formulaMeta": {
+"formula": "f(x) = \begin{cases} x, & \text{if } x \ge 0 \\ -x, & \text{if } x < 0 \end{cases}",
+"description": "The complete piecewise algebraic definition of the Modulus Function $f(x) = |x|$.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "e40e66ac-584d-4ff1-a624-c0ee75e5ae6e",
+"originalOrder": 42,
+"originalHeading": "Graphical Shift of the Modulus Function ($f(x) = |x-a|$)",
+"action": "MODIFIED",
+"modificationsSummary": ["Converted to APPLICATION", "Sequenced to follow Modulus intro"],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "graphs", "transformations", "jee-main", "class-11"],
+"order": 20,
+"heading": "Graphical Shift of the Modulus Function ($f(x) = |x-a|$)",
+"back": "- **Property:** The standard modulus function $f(x) = |x|$ has its absolute minimum and sharp geometric non-differentiable turn (vertex) precisely at the origin $(0,0)$.\n- **Horizontal Shift:** For the transformed function $f(x) = |x-a|$, the entire V-shaped graph shifts strictly horizontally by $a$ units along the x-axis.\n- **Critical Point:** The sharp turn occurs precisely at $(a, 0)$, representing the mathematical root of the internal expression.\n- **Domain & Range:** Domain remains unchanged as $\mathbb{R}$. Range remains strictly $[0, \infty)$.",
+"standardMeta": {
+"question": "How does the geometric graph of $f(x) = |x-a|$ differ from $f(x) = |x|$, and where is its critical point of non-differentiability located?"
+}
+}
+},
+{
+"cardId": "8f946bea-d168-4972-aeba-9b70d5ea2f5d",
+"originalOrder": 17,
+"originalHeading": "The Signum Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped Piecewise LaTeX formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "functions", "jee-main", "class-11"],
+"order": 21,
+"heading": "The Signum Function",
+"back": "## Component Anatomy:\n- **$\frac{|x|}{x}$**: Yields strictly $+1$ for any positive number, and $-1$ for any negative number.\n- **$0$**: A forced discrete piecewise condition at the origin to prevent division by zero.\n\n## Boundary Conditions / Domain:\n- **Domain**: $\mathbb{R}$\n- **Range**: $\\{-1, 0, 1\\}$ (Strictly a finite set of three integers).",
+"mnemonic": "Signum just reads the SIGN. +1, 0, or -1.",
+"formulaMeta": {
+"formula": "f(x) = \begin{cases} 1, & \text{if } x > 0 \\ 0, & \text{if } x = 0 \\ -1, & \text{if } x < 0 \end{cases}",
+"description": "The complete piecewise algebraic definition of the Signum function.",
+"derivation": "Alternatively represented as $f(x) = \frac{|x|}{x}$ when $x \neq 0$."
+}
+}
+},
+{
+"cardId": "0860078d-38c0-4bb5-9325-53b05c7de056",
+"originalOrder": 18,
+"originalHeading": "The Greatest Integer (Step) Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Corrected formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["math", "graphs", "functions", "trap", "jee-advanced", "class-11"],
+"order": 22,
+"heading": "The Greatest Integer (Step) Function",
+"back": "## Component Anatomy:\n- **$[x]$**: Assumes the value of the greatest integer that is strictly less than or equal to $x$.\n\n## Boundary Conditions / Domain:\n- **Domain**: $\mathbb{R}$\n- **Range**: $\mathbb{Z}$ (The set of all integers).\n- **Trap**: For negative decimals, it inherently steps DOWN to the more negative integer. $[ -1.5 ] = -2$, NOT $-1$.",
+"mnemonic": "Always step DOWN the number line to the nearest whole integer.",
+"formulaMeta": {
+"formula": "f(x) = [x]",
+"description": "The Greatest Integer Function notation and its strict evaluation rule.",
+"derivation": "Examples:\n$[1.99] = 1$\n$[2] = 2$\n$[0.5] = 0$\n$[-1.2] = -2$"
+}
+}
+},
+{
+"cardId": "04e69d1c-21ff-436e-97e0-34746cdfc86d",
+"originalOrder": 19,
+"originalHeading": "Algebra of Real Functions: Addition & Multiplication",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped aligned KaTeX block", "Restructured back format"],
+"vettingNotes": "Corrected LaTeX array.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "functions", "class-11"],
+"order": 23,
+"heading": "Algebra of Real Functions: Addition & Multiplication",
+"back": "## Component Anatomy:\n- **$(f+g)(x)$**: Pointwise addition of outputs.\n- **$(fg)(x)$**: Pointwise multiplication of outputs.\n\n## Boundary Conditions / Domain:\n- The operations are mathematically valid ONLY where **BOTH** functions simultaneously exist.\n- **Strict Domain**: $D_f \cap D_g$.",
+"formulaMeta": {
+"formula": "\begin{aligned} (f+g)(x) &= f(x) + g(x) \\ (fg)(x) &= f(x)g(x) \end{aligned}",
+"description": "The algebraic definition for the sum and product of two real functions.",
+"derivation": "To safely evaluate $f(x) + g(x)$, the input $x$ must be permissible in $f$ AND permissible in $g$. Therefore, the new domain is their strict intersection."
+}
+}
+},
+{
+"cardId": "98d6ff77-6c4f-41e6-891e-9c148c0f8a2c",
+"originalOrder": 20,
+"originalHeading": "Algebra of Real Functions: Quotient Domain",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting", "Made domain restrictions robust"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 24,
+"heading": "Algebra of Real Functions: Quotient Domain",
+"back": "## Component Anatomy:\n- **$f(x) / g(x)$**: Pointwise mathematical division of outputs.\n\n## Boundary Conditions / Domain:\n- The input $x$ must be valid for both original functions $f$ and $g$ ($D_f \cap D_g$).\n- **Critical Restriction**: The denominator function strictly evaluated at $x$ cannot be zero ($g(x) \neq 0$).",
+"formulaMeta": {
+"formula": "\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)} \quad \implies \quad \text{Domain} = D_f \cap D_g - \{x : g(x) = 0\}",
+"description": "The algebraic definition for the quotient of two real functions and its strict domain constraint.",
+"derivation": "Zero in the denominator mathematically evaluates to an undefined operation, creating asymptotes or geometric holes."
+}
+}
+},
+{
+"cardId": "b0a84dcc-fa86-45b1-9a21-df95bc2f120d",
+"originalOrder": 15,
+"originalHeading": "Domain of a Rational Function",
+"action": "MODIFIED",
+"modificationsSummary": ["Escaped LaTeX formatting"],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 25,
+"heading": "Domain Algorithm for a Rational Function",
+"back": "## Component Anatomy:\n- **$p(x)$**: The numerator polynomial.\n- **$q(x)$**: The denominator polynomial.\n\n## Boundary Conditions / Domain:\n- The function mathematically crashes (approaches undefined/infinity) precisely at roots of the denominator.\n- **Domain**: $\mathbb{R} - \\{x : q(x) = 0\\}$.",
+"formulaMeta": {
+"formula": "f(x) = \frac{p(x)}{q(x)} \quad \implies \quad q(x) \neq 0",
+"description": "The exact algebraic condition used to algorithmically evaluate the domain of a rational function.",
+"derivation": "Algorithmic SOP to find Domain:\n1. Isolate the denominator expression $q(x)$.\n2. Set $q(x) = 0$ and solve for $x$ to find the critical crash points.\n3. The Domain strictly spans all Real Numbers excluding these crash points: $\mathbb{R} - \\{\text{roots}\\}$."
+}
+}
+},
+{
+"cardId": "bd83e9cf-89b6-4199-9fc7-ef3865c7108a",
+"originalOrder": 21,
+"originalHeading": "Domain of a Square Root Function ($y = \sqrt{g(x)}$)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 26,
+"heading": "Domain of a Square Root Function ($y = \sqrt{g(x)}$)",
+"back": "## Component Anatomy:\n- **$g(x)$**: The internal function (radicand) strictly under the even root.\n\n## Boundary Conditions / Domain:\n- Under the scope of real functions, the radicand of an even root must strictly be non-negative to avoid complex numbers.",
+"formulaMeta": {
+"formula": "g(x) \ge 0",
+"description": "The fundamental inequality required to algebraically find the domain of a square root function.",
+"derivation": "Algorithmic SOP:\n1. Extract the inner expression $g(x)$.\n2. Set up the strict inequality $g(x) \ge 0$.\n3. Solve the inequality using the wavy curve method (number line).\n4. Express the valid intervals using appropriate brackets $[a, b]$, ensuring roots of the inequality are included."
+}
+}
+},
+{
+"cardId": "f555e484-ef1a-4953-bb4d-2bf96595e8ec",
+"originalOrder": 22,
+"originalHeading": "Domain of Denominator Square Root ($y = \frac{1}{\sqrt{g(x)}}$)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 27,
+"heading": "Domain of Denominator Square Root ($y = \frac{1}{\sqrt{g(x)}}$)",
+"back": "## Component Anatomy:\n- **$\sqrt{g(x)}$**: Located purely in the denominator.\n\n## Boundary Conditions / Domain:\n- Normal root rule is $g(x) \ge 0$.\n- Normal fraction rule is $\sqrt{g(x)} \neq 0 \implies g(x) \neq 0$.\n- Combining these forces strict inequality.",
+"formulaMeta": {
+"formula": "g(x) > 0",
+"description": "The fundamental inequality required to find the domain of a function with a square root in the denominator.",
+"derivation": "Algorithmic SOP:\n1. Extract inner expression $g(x)$.\n2. Set up strict inequality $g(x) > 0$ (Equal to zero is rejected to prevent undefined division).\n3. Solve using the number line.\n4. Use strictly open brackets $(a, b)$ for the boundary roots since they are geometrically excluded."
+}
+}
+},
+{
+"cardId": "5c3a4659-1850-41b7-b359-aedc09dff8bf",
+"originalOrder": 23,
+"originalHeading": "Domain of a Logarithmic Function ($y = \log_{a} g(x)$)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-main", "class-11"],
+"order": 28,
+"heading": "Domain of a Logarithmic Function ($y = \log_{a} g(x)$)",
+"back": "## Component Anatomy:\n- **$g(x)$**: The argument of the logarithm.\n\n## Boundary Conditions / Domain:\n- A fundamental rule of mathematics: Logarithms only accept strictly positive real inputs.",
+"formulaMeta": {
+"formula": "g(x) > 0",
+"description": "The mathematical inequality required to evaluate the domain of a logarithmic function.",
+"derivation": "Strictly set the argument $g(x) > 0$ and solve the resulting algebraic inequality."
+}
+}
+},
+{
+"cardId": "9ea15812-3c3c-41ac-8846-13b4d8105ee7",
+"originalOrder": 26,
+"originalHeading": "Domain of Reciprocal Square Root with Subtractive Modulus",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "edge-case", "jee-advanced", "class-11"],
+"order": 29,
+"heading": "Domain of Reciprocal Square Root with Subtractive Modulus",
+"back": "## Component Anatomy:\n- **$\sqrt{x - |x|}$**: A root expression strictly in the denominator.\n\n## Boundary Conditions / Domain:\n- A fundamental property of absolute values states that $|x| \ge x$ for all real numbers.\n- Thus, the expression inside the root $(x - |x|)$ will always evaluate to $\le 0$.",
+"formulaMeta": {
+"formula": "\text{Domain} = \emptyset",
+"description": "The exact algebraic domain for the function $f(x) = \frac{1}{\sqrt{x - |x|}}.$",
+"derivation": "Algorithmic SOP:\n1. Since the root is in the denominator, set up a strict inequality: $x - |x| > 0$.\n2. Rearrange the inequality: $x > |x|$.\n3. Mathematically evaluate: The absolute value of any number is always greater than or equal to the number itself.\n4. Conclusion: There exists no real number $x$ that is strictly greater than its absolute value. The domain is strictly the empty set."
+}
+}
+},
+{
+"cardId": "58d8ad3e-e9b4-431f-880b-9f67092a5011",
+"originalOrder": 27,
+"originalHeading": "Domain of Reciprocal Square Root with Additive Modulus",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "edge-case", "jee-advanced", "class-11"],
+"order": 30,
+"heading": "Domain of Reciprocal Square Root with Additive Modulus",
+"back": "## Component Anatomy:\n- **$\sqrt{x + |x|}$**: A root expression strictly in the denominator.\n\n## Boundary Conditions / Domain:\n- Since the expression must strictly be positive, negative numbers will annihilate the expression.",
+"formulaMeta": {
+"formula": "\text{Domain} = (0, \infty)",
+"description": "The exact algebraic domain for the function $f(x) = \frac{1}{\sqrt{x + |x|}}.$",
+"derivation": "Algorithmic SOP:\n1. Set strict denominator root condition: $x + |x| > 0$.\n2. Case 1 ($x \le 0$): $|x| = -x$. The expression becomes $x - x = 0$. Since $0 > 0$ is false, all negative numbers and zero are strictly rejected.\n3. Case 2 ($x > 0$): $|x| = x$. The expression becomes $x + x = 2x$. Solving $2x > 0 \implies x > 0$.\n4. Conclusion: The valid interval is strictly positive real numbers."
+}
+}
+},
+{
+"cardId": "c8d33b23-e97d-401b-bf77-07fb95c912bb",
+"originalOrder": 28,
+"originalHeading": "Domain via Greatest Integer Function (GIF) Inequalities",
+"action": "SPLIT",
+"modificationsSummary": ["Split massive 6-step SOP into Part 1 (Factorization)"],
+"vettingNotes": "Split to prevent cognitive bloat.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-advanced", "class-11"],
+"order": 31,
+"heading": "Domain via GIF Inequalities: Part 1 (Factorization)",
+"back": "## Component Anatomy:\n- **$[x]$**: The greatest integer less than or equal to $x$.\n- **$[x]^2 - [x] - 6$**: A quadratic expression constructed with the GIF.\n\n## Boundary Conditions / Domain:\n- A strict inequality inside a denominator root $>0$.",
+"formulaMeta": {
+"formula": "[x] < -2 \text{ or } [x] > 3",
+"description": "Step 1 of evaluating the domain of $f(x) = \frac{1}{\sqrt{[x]^2 - [x] - 6}}$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Establish boundary condition for denominator root: $[x]^2 - [x] - 6 > 0$.\n2. Factorize quadratic: $([x] - 3)([x] + 2) > 0$.\n3. Apply wavy curve rules purely to the GIF block: $[x] < -2$ or $[x] > 3$."
+}
+}
+},
+{
+"cardId": "NEW_GIF_SPLIT_2",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split massive 6-step SOP into Part 2 (Integer Constraint Mapping)"],
+"vettingNotes": "Second half of the GIF domain evaluation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "domain", "jee-advanced", "class-11"],
+"order": 32,
+"heading": "Domain via GIF Inequalities: Part 2 (Integer Mapping)",
+"back": "## Component Anatomy:\n- **$[x]$**: Output is strictly confined to Integers ($\mathbb{Z}$).\n\n## Boundary Conditions / Domain:\n- Must map discrete integer steps back to continuous real $x$ intervals.",
+"formulaMeta": {
+"formula": "(-\infty, -2) \cup [4, \infty)",
+"description": "Step 2: Mapping GIF bounds back to x-intervals for $f(x) = \frac{1}{\sqrt{[x]^2 - [x] - 6}}$.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume from: $[x] < -2$ or $[x] > 3$.\n2. Apply Integer Constraint: Since $[x] \in \mathbb{Z}$, the condition $[x] < -2$ strictly means $[x] \le -3$. The condition $[x] > 3$ strictly means $[x] \ge 4$.\n3. Translate GIF bounds back to continuous $x$:\n   - If $[x] \le -3 \implies x < -2$.\n   - If $[x] \ge 4 \implies x \ge 4$.\n4. Combine for final domain: $(-\infty, -2) \cup [4, \infty)$."
+}
+}
+},
+{
+"cardId": "4a14cd38-1ce0-42a0-bafc-a6e223c1c695",
+"originalOrder": 24,
+"originalHeading": "Standard Algorithm for Finding the Range of a Rational Function",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-main", "class-11"],
+"order": 33,
+"heading": "Standard Algorithm for Finding Range via Inversion",
+"back": "## Component Anatomy:\n- **$y = f(x)$**: We shift perspective to treat the output variable $y$ as the independent parameter.\n\n## Boundary Conditions / Domain:\n- Must cross-reference the final Range answers with any strict Domain restrictions initially placed on $x$ (e.g., if $x \neq 3$, ensure $y$ does not assume the value that would require $x=3$).",
+"formulaMeta": {
+"formula": "x = h(y)",
+"description": "The Standard Operating Procedure (SOP) to analytically determine the Range of a basic rational function.",
+"derivation": "Algorithmic SOP:\n1. Set the function equal to $y$: $y = f(x)$.\n2. Algebraically cross-multiply and rearrange the equation to express $x$ entirely in terms of $y$ (i.e., find $x = h(y)$).\n3. Find the 'Domain' of this new inverted function $h(y)$ (e.g., if $x = \frac{2y}{y-1}$, then $y \neq 1$).\n4. This calculated 'Domain' constraint on $y$ represents the true Range of the original function $f(x)$."
+}
+}
+},
+{
+"cardId": "f2b8a800-ee8e-4c68-85ca-5a1e945a1c87",
+"originalOrder": 25,
+"originalHeading": "Range via Quadratic Discriminant Method",
+"action": "SPLIT",
+"modificationsSummary": ["Split procedural bloat into Setup"],
+"vettingNotes": "Splitting the Discriminant method into Formulation and Execution.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 34,
+"heading": "Range via Quadratic Discriminant: Part 1 (Formulation)",
+"back": "## Component Anatomy:\n- **$Ay^2 + By + C = 0$**: A quadratic equation mapped in terms of $x$, with algebraic coefficients containing $y$.\n\n## Boundary Conditions / Domain:\n- Strictly used when the function is a rational function of the form $\frac{\text{Quadratic}}{\text{Quadratic}}$ or $\frac{\text{Linear}}{\text{Quadratic}}$.",
+"formulaMeta": {
+"formula": "(yp-a)x^2 + (yq-b)x + (yr-c) = 0",
+"description": "Step 1 of the discriminant method for finding the range of a quadratic rational function.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Let $y = \frac{ax^2+bx+c}{px^2+qx+r}$.\n2. Cross multiply to clear the denominator.\n3. Algebraically group terms to form a standard quadratic equation strictly in terms of $x$: $(yp-a)x^2 + (yq-b)x + (yr-c) = 0$."
+}
+}
+},
+{
+"cardId": "NEW_DISCRIMINANT_SPLIT_2",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split procedural bloat into Execution"],
+"vettingNotes": "Part 2 of Discriminant method.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 35,
+"heading": "Range via Quadratic Discriminant: Part 2 (Execution)",
+"back": "## Component Anatomy:\n- **$D \ge 0$**: The strictly required mathematical discriminant condition guaranteeing real roots for $x$.\n\n## Boundary Conditions / Domain:\n- Enforcing real roots guarantees that the corresponding output $y$ can actually be reached by a valid real input $x$.",
+"formulaMeta": {
+"formula": "b^2 - 4ac \ge 0",
+"description": "Step 2 of the discriminant method for finding the range of a quadratic rational function.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume from the generated quadratic: $Ax^2 + Bx + C = 0$ (where A, B, C contain $y$).\n2. Since $x$ must be a valid Real Number (Domain $\subseteq \mathbb{R}$), this quadratic MUST possess real roots.\n3. Impose the strict condition $D \ge 0 \implies B^2 - 4AC \ge 0$.\n4. Solve this resultant inequality for $y$. The solution set explicitly defines the Range."
+}
+}
+},
+{
+"cardId": "0c9d2f57-8130-4ece-8f7b-1694ab7a96df",
+"originalOrder": 33,
+"originalHeading": "Range of a Rational Function with a "Hole" (Removable Discontinuity)",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed to DISTINCTION"],
+"vettingNotes": "Clarifies this is a conceptual trap, not a standard algorithm.",
+"cardData": {
+"type": "FORMULA",
+"classification": "DISTINCTION",
+"tags": ["math", "graphs", "range", "trap", "jee-main", "class-11"],
+"order": 36,
+"heading": "Range of a Rational Function with a Removable Discontinuity",
+"back": "## Component Anatomy:\n- **$x - a$**: Present in both numerator and denominator, algebraically canceling but leaving a permanent topological constraint.\n\n## Boundary Conditions / Domain:\n- A function's strict Domain is irrevocably defined by its RAW original form, not its simplified algebraic form. Therefore, $x \neq a$ carries over universally.",
+"formulaMeta": {
+"formula": "\text{Range} = \mathbb{R} - \{2a\}",
+"description": "The step-by-step mathematical trap evaluation for the Range of $f(x) = \frac{x^2 - a^2}{x - a}$.",
+"derivation": "Algorithmic SOP:\n1. **Lock the Domain**: The original denominator strictly dictates $x \neq a$. Therefore, Domain = $\mathbb{R} - \\{a\\}$.\n2. **Algebraic Simplification**: Factor and cancel: $\frac{(x-a)(x+a)}{x-a} = x + a$.\n3. **The Trap Execution**: The simplified function operates as a straight line $y = x + a$. However, because $x$ is explicitly forbidden from being exactly $a$, $y$ is mathematically forbidden from being exactly $a + a = 2a$.\n4. **Conclusion**: The range spans all reals except the geometric hole at $y = 2a$."
+}
+}
+},
+{
+"cardId": "05766876-f61e-4df9-a643-0194b6138f42",
+"originalOrder": 34,
+"originalHeading": "Range of a Bounded Rational Function (Linear / Quadratic)",
+"action": "SPLIT",
+"modificationsSummary": ["Split 6-step SOP into Part 1 (Setup)"],
+"vettingNotes": "Applying the Discriminant method to a specific bounded function.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 37,
+"heading": "Range of a Bounded Rational Function: Part 1",
+"back": "## Component Anatomy:\n- **$x$ over $1+x^2$**: A classic function that grows linearly but is eventually crushed asymptotically by a higher power denominator.\n\n## Boundary Conditions / Domain:\n- Since $1+x^2$ can never mathematically equal $0$, the Domain is universally $\mathbb{R}$.",
+"formulaMeta": {
+"formula": "yx^2 - x + y = 0",
+"description": "Setup steps to calculate the exact bounded Range interval for $f(x) = \frac{x}{1+x^2}$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Set up standard range variable: $y = \frac{x}{1+x^2}$.\n2. Cross-multiply to generate a quadratic equation strictly in terms of $x$: $y(1+x^2) = x \implies yx^2 - x + y = 0$."
+}
+}
+},
+{
+"cardId": "NEW_BOUNDED_SPLIT_2",
+"originalOrder": 34,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split 6-step SOP into Part 2 (Execution)"],
+"vettingNotes": "Execution step for the bounded function range.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 38,
+"heading": "Range of a Bounded Rational Function: Part 2",
+"back": "## Component Anatomy:\n- **$y \in \left[-\frac{1}{2}, \frac{1}{2}\right]$**: The strictly bounded codomain interval output.\n\n## Boundary Conditions / Domain:\n- Assumes $D \ge 0$ to guarantee that real $x$ inputs successfully map to the calculated $y$ outputs.",
+"formulaMeta": {
+"formula": "y \in \left[-\frac{1}{2}, \frac{1}{2}\right]",
+"description": "Execution steps to finalize the Range interval for $f(x) = \frac{x}{1+x^2}$.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume from: $yx^2 - x + y = 0$.\n2. To ensure real inputs exist, enforce the Discriminant condition for real roots: $D \ge 0$.\n3. Substitute coefficients ($a=y, b=-1, c=y$): $(-1)^2 - 4(y)(y) \ge 0 \implies 1 - 4y^2 \ge 0$.\n4. Solve inequality: $4y^2 \le 1 \implies y^2 \le \frac{1}{4}$.\n5. The final geometric bounds are strictly $-\frac{1}{2} \le y \le \frac{1}{2}$."
+}
+}
+},
+{
+"cardId": "9defeb7e-0d62-4239-bf7c-5c89ab5bfdc9",
+"originalOrder": 41,
+"originalHeading": "Range of a Rational Function with Strictly Non-Negative Terms",
+"action": "SPLIT",
+"modificationsSummary": ["Split massive 6-step derivation"],
+"vettingNotes": "Range calculation for a specific bounded case.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 39,
+"heading": "Range of Non-Negative Rational: Part 1 (Isolation)",
+"back": "## Component Anatomy:\n- **$x^2$**: Forces all domain inputs algebraically into purely non-negative outputs.\n- **$1+x^2$**: Ensures the denominator is strictly greater than the numerator, preventing the value from ever geometrically reaching $1$.\n\n## Boundary Conditions / Domain:\n- The Domain is universally $\mathbb{R}$ because $1+x^2 \neq 0$.",
+"formulaMeta": {
+"formula": "x^2 = \frac{y}{1-y}",
+"description": "Setup steps to isolate $x^2$ for the function $f(x) = \frac{x^2}{1+x^2}$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Set $y = \frac{x^2}{1+x^2}$.\n2. Cross-multiply and algebraically solve purely for $x^2$: $y + yx^2 = x^2$.\n3. Factor $x^2$: $x^2(1-y) = y \implies x^2 = \frac{y}{1-y}$."
+}
+}
+},
+{
+"cardId": "NEW_NONNEGATIVE_SPLIT_2",
+"originalOrder": 41,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split massive 6-step derivation (Wavy curve part)"],
+"vettingNotes": "Second half of non-negative rational.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "range", "jee-advanced", "class-11"],
+"order": 40,
+"heading": "Range of Non-Negative Rational: Part 2 (Wavy Curve)",
+"back": "## Component Anatomy:\n- **$x^2 \ge 0$**: The universal mathematical reality that real squares cannot be negative.\n\n## Boundary Conditions / Domain:\n- Evaluating the wavy curve must strictly respect the denominator's zero crash at $y=1$.",
+"formulaMeta": {
+"formula": "y \in [0, 1)",
+"description": "Execution steps evaluating the wavy curve constraint for $f(x) = \frac{x^2}{1+x^2}$.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume from isolated state: $x^2 = \frac{y}{1-y}$.\n2. Enforce the universal Domain property that the square of any real number must strictly be non-negative: $\frac{y}{1-y} \ge 0$.\n3. Rewrite algebraically strictly for the wavy curve method (multiply by -1): $\frac{y}{y-1} \le 0$.\n4. The critical roots are $0$ and $1$. The denominator inherently restricts $y \neq 1$.\n5. The valid mapping interval is strictly $[0, 1)$."
+}
+}
+},
+{
+"cardId": "0361708a-e26f-45ff-96ae-23e5550f8195",
+"originalOrder": 30,
+"originalHeading": "Range of a Trigonometric Rational Function",
+"action": "SPLIT",
+"modificationsSummary": ["Split 5-step SOP"],
+"vettingNotes": "First half covers the bounding of the denominator.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "trigonometry", "range", "jee-main", "class-11"],
+"order": 41,
+"heading": "Range of Trig Rational: Part 1 (Universal Bounding)",
+"back": "## Component Anatomy:\n- **$\cos x$**: The core continuous oscillatory function strictly bounded between $-1$ and $1$.\n- **$1 - 2\cos x$**: The linear mathematical transformation of the core function located precisely in the denominator.\n\n## Boundary Conditions / Domain:\n- While $\cos x$ sweeps continuously, the full denominator fundamentally cannot equal zero.",
+"formulaMeta": {
+"formula": "3 \ge 1 - 2\cos x \ge -1",
+"description": "Step 1: Bounding the denominator for $f(x) = \frac{1}{1 - 2\cos x}$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Establish the universal mathematical bound: $-1 \le \cos x \le 1$.\n2. Multiply universally by $-2$ (strictly flips inequality signs): $2 \ge -2\cos x \ge -2$.\n3. Add $1$ algebraically to all sides: $3 \ge 1 - 2\cos x \ge -1$. (This establishes the raw continuous range of the denominator)."
+}
+}
+},
+{
+"cardId": "NEW_TRIG_SPLIT_2",
+"originalOrder": 30,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split 5-step SOP (Reciprocation)"],
+"vettingNotes": "Second half handling the zero-crash exclusion and reciprocation.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "trigonometry", "range", "jee-main", "class-11"],
+"order": 42,
+"heading": "Range of Trig Rational: Part 2 (Zero Exclusion & Reciprocal)",
+"back": "## Component Anatomy:\n- **Zero-Crash exclusion**: Divides the continuous bound into two distinct hyperbolic branches.\n\n## Boundary Conditions / Domain:\n- Strictly splitting intervals precisely at zero prevents mathematically undefined states.",
+"formulaMeta": {
+"formula": "(-\infty, -1] \cup \left[\frac{1}{3}, \infty\right)",
+"description": "Step 2: Reciprocating intervals to find the final Range of $f(x) = \frac{1}{1 - 2\cos x}$.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with denominator bounds: $[-1, 3]$.\n2. Acknowledge the critical zero-crash: The denominator covers $[-1, 3]$, but must strictly exclude $0$. Break it algebraically into two intervals: $[-1, 0)$ and $(0, 3]$.\n3. Reciprocate both intervals to analytically map the final Range:\n   - $y = \frac{1}{[-1, 0)} \implies (-\infty, -1]$\n   - $y = \frac{1}{(0, 3]} \implies \left[\frac{1}{3}, \infty\right)$."
+}
+}
+},
+{
+"cardId": "931e6ed5-8e1c-4910-97e3-255cb5d0a2ba",
+"originalOrder": 29,
+"originalHeading": "Solution Set of a Greatest Integer Function Equation",
+"action": "SPLIT",
+"modificationsSummary": ["Split procedural bloat"],
+"vettingNotes": "First half finds the GIF roots.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "equations", "jee-main", "class-11"],
+"order": 43,
+"heading": "GIF Equation Solution Set: Part 1 (Roots)",
+"back": "## Component Anatomy:\n- **Roots of $[x]$**: Treating the entire greatest integer block strictly as an independent algebraic variable to find discrete integer solutions.\n\n## Boundary Conditions / Domain:\n- Ensure the roots found for $[x]$ are mathematically integers. If a fractional root emerges for a GIF, that specific branch yields no solution.",
+"formulaMeta": {
+"formula": "[x] = 2, \quad [x] = 3",
+"description": "Step 1: Finding discrete integer roots for $[x]^2 - 5[x] + 6 = 0$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Treat $[x]$ as an algebraic variable (like $u$).\n2. Factorize the quadratic equation: $([x] - 2)([x] - 3) = 0$.\n3. Extract the integer roots purely for the GIF block: $[x] = 2$ and $[x] = 3$."
+}
+}
+},
+{
+"cardId": "NEW_GIF_EQUATION_SPLIT_2",
+"originalOrder": 29,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split procedural bloat (Mapping)"],
+"vettingNotes": "Second half maps the discrete roots to continuous x intervals.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "equations", "jee-main", "class-11"],
+"order": 44,
+"heading": "GIF Equation Solution Set: Part 2 (Interval Mapping)",
+"back": "## Component Anatomy:\n- **Continuous Mapping**: Merging multiple discrete $[x]$ bounds into a single contiguous domain interval.\n\n## Boundary Conditions / Domain:\n- Finding a distinct numerical value for $[x] = c$ implies an exact inequality interval for the original real variable: $c \le x < c + 1$.",
+"formulaMeta": {
+"formula": "x \in [2, 4)",
+"description": "Step 2: Mapping discrete roots back to continuous intervals.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with extracted roots: $[x] = 2$ and $[x] = 3$.\n2. Map Root 1 back to an $x$-interval: $[x] = 2 \implies 2 \le x < 3$.\n3. Map Root 2 back to an $x$-interval: $[x] = 3 \implies 3 \le x < 4$.\n4. Form the mathematical union of the continuous intervals: $[2, 3) \cup [3, 4) = [2, 4)$."
+}
+}
+},
+{
+"cardId": "e4eaf824-12dd-4fb0-9cc1-2fc043f3caa8",
+"originalOrder": 32,
+"originalHeading": "Domain and Range of a Semi-Circle Function",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "FACT",
+"tags": ["math", "geometry", "domain-range", "jee-main", "class-11"],
+"order": 45,
+"heading": "Domain and Range of a Semi-Circle Function",
+"back": "## Component Anatomy:\n- **$a^2 - x^2$**: A downward opening parabola inside a root, geometrically representing the strict upper half of a circle of radius $a$ centered at the origin.\n\n## Boundary Conditions / Domain:\n- Radicand constraint rigorously requires $a^2 - x^2 \ge 0$ to stay firmly in the real number plane.",
+"mnemonic": "Domain stretches Left-Right (-a to a). Range stretches Floor-Ceiling (0 to a).",
+"formulaMeta": {
+"formula": "\begin{aligned} \text{Domain} &= [-a, a] \\ \text{Range} &= [0, a] \end{aligned}",
+"description": "Determine the exact Domain and Range for the generic semi-circle function $f(x) = \sqrt{a^2 - x^2}$.",
+"derivation": "**Domain**: Radicand must be strictly non-negative: $a^2 - x^2 \ge 0 \implies x^2 \le a^2 \implies x \in [-a, a]$.\n**Range**:\n1. The mathematical minimum possible valid value of $x^2$ is $0$, which maximizes the output: $\sqrt{a^2 - 0} = a$.\n2. The mathematical maximum possible valid value of $x^2$ is $a^2$, which minimizes the output: $\sqrt{a^2 - a^2} = 0$.\n3. Therefore, output bounds span strictly $[0, a]$."
+}
+}
+},
+{
+"cardId": "ed29600c-ab68-420d-9501-619b4e1bdb91",
+"originalOrder": 36,
+"originalHeading": "Evaluating Word Rule Functions (Highest Prime Factor)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["math", "number-theory", "functions", "class-11"],
+"order": 46,
+"heading": "Evaluating Word Rule Functions (Highest Prime Factor)",
+"back": "- **Concept:** Converting an English descriptive algorithmic rule strictly into mathematical mapped outputs.\n- **Execution SOP:** Break down each domain element strictly into its prime factorization tree, then isolate the largest value.\n  - $9 = 3^2 \implies f(9) = 3$\n  - $10 = 2 \times 5 \implies f(10) = 5$\n  - $11 = 11^1 \implies f(11) = 11$\n  - $12 = 2^2 \times 3 \implies f(12) = 3$\n  - $13 = 13^1 \implies f(13) = 13$\n- **Range Consolidation:** The set of outputs is strictly written as distinct, non-repeating mathematical elements: $\\{3, 5, 11, 13\\}$. (The duplicate output 3 from inputs 9 and 12 merges).",
+"standardMeta": {
+"question": "Given the Domain $\\{9, 10, 11, 12, 13\\}$, how do you algorithmically determine the exact Range for the descriptive function $f(n) =$ 'highest prime factor of n'?"
+}
+}
+},
+{
+"cardId": "6a590525-5b92-4eab-b98a-1a71c65fe057",
+"originalOrder": 44,
+"originalHeading": "Determining Linear Function Parameters from Ordered Pairs",
+"action": "SPLIT",
+"modificationsSummary": ["Split 4-step SOP"],
+"vettingNotes": "Extracting linear equations part 1.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "linear-equations", "class-11"],
+"order": 47,
+"heading": "Linear Function Parameters: Part 1 (Setup)",
+"back": "## Component Anatomy:\n- **$x_i, y_i$**: The specific domain and range mathematical values provided by the relation's given coordinate points.\n- **$a, b$**: The unknown coefficients strictly defining the linear mapping.\n\n## Boundary Conditions / Domain:\n- A straight geometric line mathematically requires exactly two distinct valid points to lock in its algebraic formula.",
+"formulaMeta": {
+"formula": "y_i = ax_i + b",
+"description": "Step 1: Setting up equations to analytically find constants $a$ and $b$ given a relation $f = \\{(x_1, y_1), (x_2, y_2)\\}$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Extract exactly two given ordered pairs $(x_1, y_1)$ and $(x_2, y_2)$ directly from the relation set.\n2. Substitute the first coordinate pair directly into the linear function equation: $y_1 = ax_1 + b$.\n3. Substitute the second coordinate pair directly into the linear function equation: $y_2 = ax_2 + b$."
+}
+}
+},
+{
+"cardId": "NEW_LINEAR_PARAMS_SPLIT_2",
+"originalOrder": 44,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split 4-step SOP"],
+"vettingNotes": "Extracting linear equations part 2.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "linear-equations", "class-11"],
+"order": 48,
+"heading": "Linear Function Parameters: Part 2 (Execution)",
+"back": "## Component Anatomy:\n- **$2 \times 2$ System**: A standard algebraic matrix requiring simultaneous solution.\n\n## Boundary Conditions / Domain:\n- The points cannot share the exact same $x$-coordinate, otherwise the slope $a$ approaches mathematically undefined infinity.",
+"formulaMeta": {
+"formula": "a = \frac{y_2 - y_1}{x_2 - x_1}",
+"description": "Step 2: Solving the generated system.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with the mathematically generated linear system:\n   - $y_1 = ax_1 + b$\n   - $y_2 = ax_2 + b$\n2. Solve the resulting system of two linear equations simultaneously (via direct substitution or subtraction elimination) to algebraically extract the exact constants $a$ and $b$."
+}
+}
+},
+{
+"cardId": "347efb65-8c59-45f5-a482-2066a354bb1e",
+"originalOrder": 35,
+"originalHeading": "The Self-Inverse Rational Function Identity",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "identities", "jee-main", "class-11"],
+"order": 49,
+"heading": "The Self-Inverse Rational Function Identity",
+"back": "## Component Anatomy:\n- **$f(f(x))$**: The strict composition of a mathematical function precisely with itself.\n- **Coefficient Symmetry**: Notice that the constant in the denominator ($-a$) is the exact algebraic negative of the leading coefficient of the numerator ($a$).\n\n## Boundary Conditions / Domain:\n- This identity algebraically proves that the function is functionally its own identical inverse.\n- Requires $cx - a \neq 0$.",
+"formulaMeta": {
+"formula": "f(f(x)) = x",
+"description": "If $f(x) = \frac{ax - b}{cx - a}$, what does the composite evaluation mathematically collapse down to?",
+"derivation": "Direct algebraic substitution of $f(x)$ into itself strictly yields total cancellation, leaving only $x$."
+}
+}
+},
+{
+"cardId": "90d667df-caac-4cdd-953f-a20c7f13980c",
+"originalOrder": 37,
+"originalHeading": "Functional Equation Identity for Logarithms",
+"action": "MODIFIED",
+"modificationsSummary": ["Changed classification to FACT"],
+"vettingNotes": "Fundamental logarithmic property.",
+"cardData": {
+"type": "FORMULA",
+"classification": "FACT",
+"tags": ["math", "logarithms", "identities", "jee-main", "class-11"],
+"order": 50,
+"heading": "Functional Equation Identity for Logarithms",
+"back": "## Component Anatomy:\n- **$f(xy)$**: Evaluating the mathematical function on an algebraic product.\n- **$f(x) + f(y)$**: The arithmetic sum of distinct independent function evaluations.\n\n## Boundary Conditions / Domain:\n- Holds mathematically exclusively for strictly positive real inputs ($x > 0, y > 0$).",
+"mnemonic": "Logarithms mathematically break Multiplication strictly into Addition.",
+"formulaMeta": {
+"formula": "f(xy) = f(x) + f(y)",
+"description": "Given that $f(x) = \log x$, state the fundamental functional equation linking $f(xy)$ with $f(x)$ and $f(y)$.",
+"derivation": "Step-by-step substitution:\n1. Insert the mathematical product $(xy)$ into the core function definition: $\log(xy)$.\n2. Invoke the foundational Product Rule property of logarithms: $\log(xy) = \log(x) + \log(y)$.\n3. Substitute the functional notations strictly back in: $f(x) + f(y)$."
+}
+}
+},
+{
+"cardId": "a2b818d0-be08-46bf-bddb-e9fd13b6e566",
+"originalOrder": 39,
+"originalHeading": "Functional Equations via Reciprocal Substitution",
+"action": "SPLIT",
+"modificationsSummary": ["Split 4-step SOP"],
+"vettingNotes": "Reciprocal substitution method part 1.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "functional-equations", "jee-advanced", "class-11"],
+"order": 51,
+"heading": "Functional Equations via Reciprocal Sub: Part 1",
+"back": "## Component Anatomy:\n- **$x \to \frac{1}{x}$**: Replacing every single algebraic instance of the independent variable with its mathematical reciprocal.\n\n## Boundary Conditions / Domain:\n- Strictly valid only when $x \neq 0$.",
+"formulaMeta": {
+"formula": "x \to \frac{1}{x}",
+"description": "Step 1: Generating a secondary equation for a composite linear functional equation like $2f(x) - 3f(1/x) = x^2$.",
+"derivation": "Algorithmic SOP (Part 1):\n1. Write the primary functional equation strictly as given: e.g., $2f(x) - 3f(1/x) = x^2$.\n2. Substitute $x$ with $1/x$ globally to mathematically generate a distinct secondary equation: $2f(1/x) - 3f(x) = \frac{1}{x^2}$."
+}
+}
+},
+{
+"cardId": "NEW_RECIPROCAL_SPLIT_2",
+"originalOrder": 39,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": ["Split 4-step SOP"],
+"vettingNotes": "Reciprocal substitution method part 2.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["math", "algebra", "functional-equations", "jee-advanced", "class-11"],
+"order": 52,
+"heading": "Functional Equations via Reciprocal Sub: Part 2",
+"back": "## Component Anatomy:\n- **$2 \times 2$ System**: Treating function terms strictly as unified algebraic variables.\n\n## Boundary Conditions / Domain:\n- The newly isolated $f(x)$ must be checked against the universal $x \neq 0$ restriction.",
+"formulaMeta": {
+"formula": "\text{Solve strictly for } f(x)",
+"description": "Step 2: Eliminating the reciprocal term to isolate $f(x)$.",
+"derivation": "Algorithmic SOP (Part 2):\n1. Resume with the mathematical system of two equations generated in Part 1.\n2. Treat $f(x)$ and $f(1/x)$ strictly as two distinct algebraic variables (like $u$ and $v$).\n3. Solve the resulting $2 \times 2$ system of linear equations using standard elimination (e.g., multiply the first equation by 2, the second by 3, and strictly add) to completely isolate and solve for $f(x)$."
+}
+}
+},
+{
+"cardId": "eb1cb248-8f41-41cb-8067-93c790e26c2a",
+"originalOrder": 45,
+"originalHeading": "The Polynomial Reciprocal Null Identity",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["math", "algebra", "identities", "jee-advanced", "class-11"],
+"order": 53,
+"heading": "The Polynomial Reciprocal Null Identity",
+"back": "## Component Anatomy:\n- **$f(1/x)$**: Evaluating the mathematical function strictly using the mathematical reciprocal of the continuous input.\n- **Cancellation**: The specific alternating signs of the polynomial powers mathematically force a perfect algebraic cancellation symmetry.\n\n## Boundary Conditions / Domain:\n- The continuous input $x$ is strictly bounded to $x \neq 0$.",
+"formulaMeta": {
+"formula": "f(x) + f\left(\frac{1}{x}\right) = 0",
+"description": "State the exact algebraic result of the functional addition specifically when evaluating $f(x) = x^3 - \frac{1}{x^3}$.",
+"derivation": "Step 1: Mathematically evaluate the reciprocal input: $f(1/x) = (1/x)^3 - \frac{1}{(1/x)^3} = \frac{1}{x^3} - x^3$.\nStep 2: Add this resultant strictly to the original $f(x)$: $\left(x^3 - \frac{1}{x^3}\right) + \left(\frac{1}{x^3} - x^3\right)$.\nStep 3: All mathematical terms perfectly cancel out, algebraically yielding exactly $0$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
