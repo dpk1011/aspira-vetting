@@ -1,0 +1,895 @@
+{
+"deckId": "af824c1d-8491-4ff9-b9d7-f5051c6b3cfc",
+"cards": [
+{
+"cardId": "85246bce-988f-4e34-9265-4a475da9eb11",
+"originalOrder": 1,
+"originalHeading": "Linear Programming Problem (LPP)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined heading to be more specific",
+"Rationalized tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 1,
+"heading": "Definition: Linear Programming Problem (LPP)",
+"back": "A **Linear Programming Problem (LPP)** seeks to strictly optimise (maximise or minimise) a linear function of variables subject to a set of linear inequalities and non-negative restrictions.\n\n- Used for finding maximum profit, minimum cost, or optimal resource allocation.",
+"standardMeta": {
+"question": "What mathematical components and constraints formally define a Linear Programming Problem?"
+}
+}
+},
+{
+"cardId": "84b7a8f4-7197-4f6c-b58f-dfd781a31cb9",
+"originalOrder": 2,
+"originalHeading": "Linear Objective Function",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX",
+"Added explicit boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 2,
+"heading": "Linear Objective Function",
+"back": "## Component Anatomy:\n- **$Z$**: The quantity to be optimised (e.g., profit or cost).\n- **$a, b$**: Known constant real coefficients.\n- **$x, y$**: Decision variables.\n\n## Boundary Conditions / Domain:\n- The function MUST be strictly linear (degree 1).\n- Expressions like $xy$, $x^2$, or $\sqrt{x}$ are strictly prohibited.",
+"formulaMeta": {
+"formula": "Z = ax + by",
+"description": "State the general algebraic form of the objective function in a two-variable LPP.",
+"derivation": "Constructed by summing the individual unit contributions ($a$ and $b$) multiplied by their respective quantities ($x$ and $y$)."
+}
+}
+},
+{
+"cardId": "d3abdd17-347c-401c-8b28-e5e433361fc0",
+"originalOrder": 3,
+"originalHeading": "Decision Variables",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Rationalized tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 3,
+"heading": "Decision Variables in LPP",
+"back": "In the objective function $Z = ax + by$, the unknowns **$x$** and **$y$** are called **decision variables**.\n\n- They represent the actual physical quantities the decision-maker has control over (e.g., number of chairs to build, kg of food to buy).",
+"standardMeta": {
+"question": "In the context of LPP, what do the variables $x$ and $y$ represent, and what are they formally called?"
+}
+}
+},
+{
+"cardId": "b34100c4-0707-4111-8a68-21abef22d4f2",
+"originalOrder": 4,
+"originalHeading": "The Non-Negative Restriction Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 4,
+"heading": "The Non-Negative Restriction Trap",
+"back": "You MUST always explicitly write the non-negative constraints **$x \ge 0, y \ge 0$** when formulating an LPP.\n\n- **Trap:** Even if it is physically obvious in the word problem (e.g., 'you cannot manufacture a negative number of tables'), failing to state this mathematically restricts the graph to the first quadrant and will result in deducted marks.",
+"standardMeta": {
+"question": "What implicit physical constraint must be explicitly written out algebraically at the end of every LPP formulation?"
+}
+}
+},
+{
+"cardId": "d1be8633-9abf-4320-9bb7-a734d4cce4bd",
+"originalOrder": 5,
+"originalHeading": "Translating 'At Most' vs 'At Least'",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Rationalized tags",
+"Escaped KaTeX inequalities"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 5,
+"heading": "Translating Constraints: 'At Most' vs 'At Least'",
+"back": "- **At most $k$**: Translates to **$\le k$**. Usually seen in resource/budget limitations (Maximisation problems).\n- **At least $k$**: Translates to **$\ge k$**. Usually seen in minimum requirement/diet problems (Minimisation problems).\n\n- **Trap:** Reading 'most' and writing $>$ is the most common formulation error. Always translate 'at most' to 'less than or equal to'.",
+"standardMeta": {
+"question": "How do the English phrases 'at most $k$' and 'at least $k$' strictly translate into mathematical inequalities?"
+}
+}
+},
+{
+"cardId": "f3a6704f-08a5-48df-84ab-ad875bf3211b",
+"originalOrder": 19,
+"originalHeading": "LPP Formulation Strategy (DOC-N)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to follow definition cards",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"board-exam"
+],
+"order": 6,
+"heading": "LPP Formulation Strategy (DOC-N)",
+"back": "To ensure zero marks are lost in the formulation step, strictly follow the DOC-N order:\n1. **D (Decision Variables):** 'Let $x = \dots$ and $y = \dots$'\n2. **O (Objective Function):** 'Maximise/Minimise $Z = ax + by$'\n3. **C (Constraints):** Write each inequality based on resource limits.\n4. **N (Non-negativity):** Conclude with $x \ge 0, y \ge 0$.\n\n**Trap:** Never write a constraint inequality without defining $x$ and $y$ first.",
+"mnemonic": "DOC-N",
+"standardMeta": {
+"question": "What is the optimal four-step sequence for writing out the mathematical formulation of a word problem in LPP?"
+}
+}
+},
+{
+"cardId": "01a6a15a-a6f8-4a57-8ffb-8ad9577a61b2",
+"originalOrder": 25,
+"originalHeading": "Tabular Presentation of Data",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to immediately follow formulation"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"board-exam"
+],
+"order": 7,
+"heading": "Tabular Presentation of Formulation Data",
+"back": "For complex word problems, immediately translate the text into a matrix table before writing inequalities.\n\n- Make **Rows = Items/Products** ($x, y$).\n- Make **Columns = Resources** (Machine A, Machine B, Profit).\n- Doing this maps the coefficients perfectly so you don't accidentally mix a Machine A constraint with a Machine B limit.",
+"standardMeta": {
+"question": "What is the most robust exam strategy to avoid coefficient mixing when translating a complex LPP word problem into inequalities?"
+}
+}
+},
+{
+"cardId": "e6f7b959-173d-46f7-94f2-32a2f325ae22",
+"originalOrder": 20,
+"originalHeading": "Diet Problem Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 8,
+"heading": "Diet Problem Archetype",
+"back": "Diet problems typically aim to **Minimise Cost** while meeting specific nutritional requirements.\n\n- Therefore, the constraints usually read **'at least' ($\ge$)** to establish a nutritional floor.\n- This geometric setup typically generates an **unbounded feasible region** extending outward from the origin toward infinity.",
+"standardMeta": {
+"question": "In a standard 'Diet Problem', what is the typical objective, constraint inequality direction, and resulting feasible region type?"
+}
+}
+},
+{
+"cardId": "f6fc0860-fed3-4d2e-9f6b-58dde528b717",
+"originalOrder": 21,
+"originalHeading": "Manufacturing Problem Archetype",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 9,
+"heading": "Manufacturing Problem Archetype",
+"back": "Manufacturing problems typically aim to **Maximise Profit** while dealing with limited resources (machine time, labour, materials).\n\n- Therefore, the constraints usually read **'at most' ($\le$)** to establish a hard resource ceiling.\n- This geometric setup almost always generates a **bounded feasible region** hugging the origin.",
+"standardMeta": {
+"question": "In a standard 'Manufacturing Problem', what is the typical objective, constraint inequality direction, and resulting feasible region type?"
+}
+}
+},
+{
+"cardId": "66836520-878b-4844-8ffe-e13f4bc0cc23",
+"originalOrder": 6,
+"originalHeading": "Feasible Region",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 10,
+"heading": "Geometric Definition: Feasible Region",
+"back": "The **Feasible Region** is the common geometric region determined by intersecting all constraints, including the non-negative restrictions.\n\n- Geometrically, it is always a **convex polygon**.\n- Every coordinate point strictly inside or exactly on the boundary of this region represents a permissible plan.",
+"standardMeta": {
+"question": "Define the 'Feasible Region' of an LPP and identify its strict geometric shape."
+}
+}
+},
+{
+"cardId": "c208a63d-ce6f-4cda-9ddc-282d1567ffcb",
+"originalOrder": 27,
+"originalHeading": "Convexity of the Feasible Region",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-advanced"
+],
+"order": 11,
+"heading": "Convexity of the Feasible Region",
+"back": "The feasible region of a linear programming problem is mathematically guaranteed to be a **convex set** (specifically, a convex polygon).\n\n- **Geometric Meaning:** If you take *any* two points strictly inside the feasible region and draw a straight line segment connecting them, that entire line segment will lie entirely inside the region.\n- **Significance:** This convexity is the fundamental mathematical reason why the extreme values (optima) are forced to occur at the vertices rather than curving inward.",
+"standardMeta": {
+"question": "What is the defining geometric property of every valid LPP feasible region, and why is it structurally crucial for the Corner Point Method?"
+}
+}
+},
+{
+"cardId": "761926c2-ad9e-441c-9447-b6e921b22009",
+"originalOrder": 7,
+"originalHeading": "Feasible vs. Infeasible Solutions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 12,
+"heading": "Feasible vs. Infeasible Solutions",
+"back": "- **Feasible Solution:** Any coordinate point strictly inside or on the boundary of the feasible region. It successfully satisfies *every* formulation constraint.\n- **Infeasible Solution:** Any point located outside the feasible region. It mathematically violates *at least one* constraint.",
+"standardMeta": {
+"question": "What distinguishes a Feasible Solution from an Infeasible Solution in a Linear Programming Problem?"
+}
+}
+},
+{
+"cardId": "3935e4fe-90aa-4cd4-be0c-0839b37e74b8",
+"originalOrder": 14,
+"originalHeading": "Empty Feasible Region (Infeasible Problem)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 13,
+"heading": "Empty Feasible Region (Infeasible Problem)",
+"back": "If the mathematical half-planes of the constraints do not intersect to form any common region (e.g., $x+y \ge 8$ and $3x+5y \le 15$ with $x,y \ge 0$), the feasible region is completely empty.\n\n- **Conclusion:** The LPP has strictly **no feasible solution**, meaning no optimal maximum or minimum value can exist.",
+"standardMeta": {
+"question": "What is the mathematical conclusion if the constraint inequalities of an LPP yield no common intersecting region?"
+}
+}
+},
+{
+"cardId": "c1cfeca7-e3ed-4c15-a7c4-b5b023f7b32a",
+"originalOrder": 17,
+"originalHeading": "The Origin Test for Shading",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX strictly"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 14,
+"heading": "The Origin Test for Shading Inequalities",
+"back": "## Component Anatomy:\n- **$a, b, c$**: Real constraint coefficients.\n- **$(0,0)$**: The geometric origin acting as the test point.\n\n## Boundary Conditions / Domain:\n- This test strictly **fails** if the constraint boundary line passes exactly through the origin ($c=0$).\n- In that case, test using a different obvious point not on the line, such as $(1,0)$ or $(0,1)$.",
+"mnemonic": "True = Towards, False = Far away",
+"formulaMeta": {
+"formula": "a(0) + b(0) \le c \quad \text{(or } \ge c)",
+"description": "State the algebraic test used to determine which side of a constraint line ax + by = c to formally shade.",
+"derivation": "1. Take the original inequality $ax + by \le c$.\n2. Substitute $(0,0)$ into $x$ and $y$.\n3. If the resulting statement ($0 \le c$) is mathematically TRUE, shade the half-plane containing the origin.\n4. If FALSE, shade the half-plane facing away from the origin."
+}
+}
+},
+{
+"cardId": "5b03b870-1734-4292-bc00-4c9458956291",
+"originalOrder": 8,
+"originalHeading": "Fundamental Theorem of LPP (Theorem 1)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 15,
+"heading": "Fundamental Theorem of LPP (Theorem 1)",
+"back": "If the objective function $Z = ax + by$ attains an optimal value (maximum or minimum) over a defined feasible region, that optimal value MUST mathematically occur at a **corner point (vertex)** of the feasible region.\n\n*(This theorem is the entire foundation for the Corner Point Method).* ",
+"standardMeta": {
+"question": "According to Theorem 1 of LPP, where exactly must the optimal value of the objective function occur within the feasible region?"
+}
+}
+},
+{
+"cardId": "f73bb55a-333f-4a51-8478-5a6ff79d2597",
+"originalOrder": 9,
+"originalHeading": "Guarantee of Optima (Theorem 2)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to CONCEPT",
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 16,
+"heading": "Guarantee of Optima (Theorem 2)",
+"back": "If the feasible region is strictly **bounded** (meaning it is a closed polygon that can theoretically be completely enclosed within a finite circle), the objective function is mathematically guaranteed to attain **both a maximum and a minimum value** at the corner points.",
+"standardMeta": {
+"question": "What is mathematically guaranteed about the objective function if the feasible region is strictly bounded?"
+}
+}
+},
+{
+"cardId": "939ceb40-f9d5-4f64-8c4a-9922794eb237",
+"originalOrder": 10,
+"originalHeading": "Corner-Point Method (Bounded Region)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX",
+"Rationalized component anatomy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 17,
+"heading": "Corner-Point Method (CPM) SOP",
+"back": "## Component Anatomy:\n- **$Z(x_i, y_i)$**: The objective function evaluated exactly at vertex $i$.\n- **$Z_{\text{opt}}$**: The targeted absolute maximum or minimum value.\n\n## Boundary Conditions / Domain:\n- This simplified sequence strictly applies ONLY if the feasible region is visually confirmed to be completely enclosed (bounded). If unbounded, further inequality testing is required.",
+"formulaMeta": {
+"formula": "Z_{\text{opt}} = \max \text{ or } \min \{Z(x_1, y_1), Z(x_2, y_2), \dots \}",
+"description": "State the standard operating procedure (CPM) for finding the optimal value of an LPP with a bounded feasible region.",
+"derivation": "1. Graph all constraint boundary lines.\n2. Shade the feasible region and confirm it is completely bounded.\n3. Identify the exact $(x,y)$ coordinates of all corner points.\n4. Evaluate $Z = ax + by$ at each specific corner point.\n5. The largest value is the absolute maximum; the smallest is the absolute minimum."
+}
+}
+},
+{
+"cardId": "58754427-7db2-4e9a-be31-6bce8f7af746",
+"originalOrder": 16,
+"originalHeading": "Exact Vertex Calculation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX \begin{aligned}"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 18,
+"heading": "Exact Vertex Calculation via System of Equations",
+"back": "## Component Anatomy:\n- **$a_1, a_2$**: X-coefficients of the two intersecting constraint lines.\n- **$b_1, b_2$**: Y-coefficients.\n- **$c_1, c_2$**: Constants.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Never rely purely on visual graph reading to find corner coordinates. Thick pencil lines or poor axis scaling can easily cause wrong estimates. Always verify algebraically.",
+"formulaMeta": {
+"formula": "\begin{aligned} a_1x + b_1y &= c_1 \\ a_2x + b_2y &= c_2 \end{aligned}",
+"description": "How must you strictly determine the exact coordinates of a corner point formed by two constraint lines?",
+"derivation": "1. Geometrically identify which two constraint boundary lines cross to form the specific vertex.\n2. Solve them algebraically as a system of simultaneous linear equations (via substitution or elimination).\n3. The resulting $(x, y)$ ordered pair is the exact mathematical corner point."
+}
+}
+},
+{
+"cardId": "d957651b-05fc-4c6f-ac5d-df501006816d",
+"originalOrder": 22,
+"originalHeading": "The Integer Solution Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"logical-trap"
+],
+"order": 19,
+"heading": "The Integer Solution Rounding Trap",
+"back": "In Class 12 standard continuous LPP, the optimal corner point can strictly have **fractional coordinates** (e.g., $x = 3.6, y = 2.8$).\n\n- **Trap:** Do NOT manually round these numbers to integers just because the problem talks about discrete items like 'chairs' or 'TV sets'.\n- Integer restriction arguments belong to advanced Operations Research (Integer Programming), not the basic continuous LPP taught in boards.",
+"standardMeta": {
+"question": "If your corner point calculation yields fractional items like $3.6$ tables, should you round it to $4$ for the final answer in a standard LPP exam?"
+}
+}
+},
+{
+"cardId": "438aad55-981d-42ac-90e6-886b3a2e21f3",
+"originalOrder": 29,
+"originalHeading": "The Origin Minimum Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"shortcut"
+],
+"order": 20,
+"heading": "The Origin Minimum Shortcut Trap",
+"back": "If the origin $(0,0)$ is geometrically included in the feasible region (which is extremely common in 'at most' bounded manufacturing problems) AND the objective function is $Z = ax + by$ where both coefficients $a \ge 0, b \ge 0$, then the absolute minimum value is mathematically forced to be exactly **$0$** at the origin.\n\n- **Shortcut:** You can immediately write $Z_{min} = 0$ at $(0,0)$ without testing other corners if the question explicitly asks for a minimum in this specific bounded setup.",
+"standardMeta": {
+"question": "Under what specific constraint and coefficient conditions can you instantly state that the minimum value of an LPP is 0 without calculating all corner points?"
+}
+}
+},
+{
+"cardId": "5d792bb0-e475-47b6-8674-7fdb132f6af7",
+"originalOrder": 11,
+"originalHeading": "The Unbounded Region Uncertainty",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 21,
+"heading": "The Unbounded Region Uncertainty",
+"back": "If the feasible region is **unbounded** (extends infinitely in one or more geometric directions), a maximum or minimum value **may or may not exist**.\n\n- The largest or smallest value calculated at the corner points is merely a *candidate*.\n- It MUST be rigorously verified using the open half-plane inequality test to confirm if it is the true mathematical optimum.",
+"standardMeta": {
+"question": "If an LPP feasible region is mathematically unbounded, can you guarantee that the corner point yields the true optimum? Explain."
+}
+}
+},
+{
+"cardId": "b71d7e52-f909-4991-9c5b-46791c41d297",
+"originalOrder": 12,
+"originalHeading": "Verifying Maximum in Unbounded Regions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Changed classification to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 22,
+"heading": "Verifying Maximum in Unbounded Regions",
+"back": "## Component Anatomy:\n- **$M$**: The largest value of $Z$ found exclusively among the calculated corner points.\n- **$ax + by$**: The linear objective function.\n\n## Boundary Conditions / Domain:\n- You MUST draw the test line strictly as dotted (open boundary), because it represents a strict mathematical inequality ($>$).",
+"formulaMeta": {
+"formula": "ax + by > M",
+"description": "State the strict inequality test required to confirm that a candidate corner value M is the true maximum of an unbounded LPP.",
+"derivation": "1. Plot the open half-plane $ax + by > M$ using a dotted line.\n2. If this half-plane has **NO point in common** with the established feasible region, then $M$ is confirmed as the true maximum.\n3. If they share even a single spatial point, the LPP has no bounded maximum value."
+}
+}
+},
+{
+"cardId": "c891d5b4-0c98-4d5d-94cf-573b0c6e3a50",
+"originalOrder": 13,
+"originalHeading": "Verifying Minimum in Unbounded Regions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Changed classification to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 23,
+"heading": "Verifying Minimum in Unbounded Regions",
+"back": "## Component Anatomy:\n- **$m$**: The smallest scalar value of $Z$ found among the corner points.\n- **$ax + by$**: The objective function.\n\n## Boundary Conditions / Domain:\n- This verification step is highly common in Diet/Minimisation problems where constraints intrinsically push the feasible region outward towards infinity.",
+"formulaMeta": {
+"formula": "ax + by < m",
+"description": "State the strict inequality test required to confirm a candidate corner value m is the true minimum of an unbounded LPP.",
+"derivation": "1. Plot the open half-plane $ax + by < m$ strictly using a dotted line.\n2. If it has **NO common point** intersecting with the feasible region, $m$ is the mathematically confirmed minimum.\n3. If they intersect anywhere, there is no minimum value."
+}
+}
+},
+{
+"cardId": "6669292b-b924-4a78-89a4-09bb101eae65",
+"originalOrder": 23,
+"originalHeading": "Open Half-Plane Intersection Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced",
+"Changed classification to DISTINCTION",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"logical-trap"
+],
+"order": 24,
+"heading": "Open Half-Plane Intersection Trap",
+"back": "When verifying an unbounded minimum using $ax + by < m$, you draw a dotted (open) boundary line.\n\n- If this dotted line passes exactly *through* a corner point of the feasible region, it is **NOT considered a mathematical intersection** because points residing perfectly on the dotted line are excluded by the strict inequality ($<$).\n- Therefore, the candidate minimum $m$ remains completely mathematically valid.",
+"standardMeta": {
+"question": "When verifying an unbounded region, what happens if the open half-plane test line passes exactly through a corner of the feasible region?"
+}
+}
+},
+{
+"cardId": "3b093038-8c1a-42a8-9935-c05f620b429f",
+"originalOrder": 15,
+"originalHeading": "Multiple Optimal Solutions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 25,
+"heading": "Multiple Optimal Solutions (Tied Corners)",
+"back": "If two adjacent corner points yield the exact same optimal scalar value for $Z$, then **every single geometric point on the line segment** joining those two corners is also a completely valid optimal solution.\n\n- **Geometrically:** This occurs uniquely when the objective function line $Z = ax + by$ is perfectly parallel to that specific constraint boundary line.",
+"mnemonic": "Tied Corners = Full Edge",
+"standardMeta": {
+"question": "If evaluating $Z$ reveals a tie for the maximum value at two adjacent corner points, what is the final conclusion regarding the optimal solution?"
+}
+}
+},
+{
+"cardId": "8423f5b4-6e0b-47da-8d30-134032241d43",
+"originalOrder": 30,
+"originalHeading": "Slope Condition for Multiple Optimal Solutions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX",
+"Injected boundary condition for zero denominator"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 26,
+"heading": "Slope Condition for Multiple Optimal Solutions",
+"back": "## Component Anatomy:\n- **$-\frac{a}{b}$**: The algebraic slope of the objective function $Z = ax + by$.\n- **$-\frac{c_1}{c_2}$**: The slope of the binding constraint boundary line $c_1x + c_2y = d$.\n\n## Boundary Conditions / Domain:\n- This strictly applies only when the optimal value geometrically occurs along a full edge of the feasible polygon.\n- **Domain Restriction:** $b \neq 0$ and $c_2 \neq 0$ to prevent undefined slopes (vertical lines). If both are vertical, the slope ratio is trivially matched.",
+"formulaMeta": {
+"formula": "\frac{a}{b} = \frac{c_1}{c_2}",
+"description": "State the exact slope condition required for a linear programming problem to have infinite (multiple) optimal solutions along a segment.",
+"derivation": "1. Identify the objective function $Z = ax + by$. Its gradient is strictly $-\frac{a}{b}$.\n2. Identify the boundary line segment connecting the two tied optimal corner points: $c_1x + c_2y = d$. Its gradient is $-\frac{c_1}{c_2}$.\n3. For multiple optima to exist along that segment, the objective function level curve must be perfectly parallel to the constraint line: $-\frac{a}{b} = -\frac{c_1}{c_2} \implies \frac{a}{b} = \frac{c_1}{c_2}."
+}
+}
+},
+{
+"cardId": "4615d091-172b-4725-85e8-64ed3c97d7b8",
+"originalOrder": 26,
+"originalHeading": "Objective Parameter Equality (Multiple Optima)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX",
+"Refined classification"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main",
+"mcq-trap"
+],
+"order": 27,
+"heading": "Objective Parameter Equality (MCQ Trap)",
+"back": "## Component Anatomy:\n- $p, q$: Unknown scalar coefficients of the objective function $Z = px + qy$.\n- $(x_1, y_1), (x_2, y_2)$: Two distinct spatial corner points yielding the exact same optimal value.\n\n## Boundary Conditions / Domain:\n- Since both points mathematically produce the exact same optimal value, their evaluated objective functions must be equated directly. This frequently appears in 1-mark Board MCQs asking for a linear relation between $p$ and $q$.",
+"formulaMeta": {
+"formula": "px_1 + qy_1 = px_2 + qy_2",
+"description": "State the algebraic condition required to find the relationship between parameters p and q if the maximum of Z = px + qy occurs at both (x_1, y_1) and (x_2, y_2).",
+"derivation": "1. Algebraically evaluate $Z$ at the first geometric point: $Z_1 = px_1 + qy_1$.\n2. Evaluate $Z$ at the second point: $Z_2 = px_2 + qy_2$.\n3. Equate them structurally: $px_1 + qy_1 = px_2 + qy_2$.\n4. Algebraically simplify the resulting linear equation to extract the strict ratio or relationship between $p$ and $q$."
+}
+}
+},
+{
+"cardId": "d66471ef-ac9f-409e-b2b5-ee33ef2f8432",
+"originalOrder": 28,
+"originalHeading": "Redundant Constraints",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified exam strategy"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-advanced"
+],
+"order": 28,
+"heading": "Geometric Trap: Redundant Constraints",
+"back": "A constraint in an LPP is mathematically classified as redundant if its complete removal does not alter the geometric shape, area, boundaries, or vertices of the feasible region.\n\n- Exam Trap: In JEE and advanced Board questions, extra inequalities are frequently thrown in to waste your time.\n- If a constraint line graphically lies entirely outside the limiting boundary formed by tighter constraints, it is strictly redundant and its intersection points should absolutely not be calculated or tested.",
+"standardMeta": {
+"question": "In the context of Linear Programming, what constitutes a 'redundant constraint', and what is the mathematical exam strategy when you spot one?"
+}
+}
+},
+{
+"cardId": "2ab60455-c4d6-4692-b793-766fbfdea023",
+"originalOrder": 24,
+"originalHeading": "Objective Function Level Curves",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Escaped KaTeX",
+"Injected domain restriction for division by zero"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 29,
+"heading": "Objective Function Level Curves",
+"back": "## Component Anatomy:\n- $-a/b$: The strictly fixed, constant geometric slope of the objective function line.\n- **$Z/b$**: The algebraic Y-intercept, which shifts dynamically as $Z$ is actively optimised.\n\n## Boundary Conditions / Domain:\n- **Domain Restriction:** $b \neq 0$ must strictly hold. If $b = 0$, the objective function is a vertical line ($x = Z/a$) and evaluating a Y-intercept is mathematically undefined.\n- This structurally proves that changing the target value $Z$ does not change the angle of the line; it merely slides the entire line across the plane completely parallel to itself.",
+"formulaMeta": {
+"formula": "y = -\left(\frac{a}{b}\right)x + \frac{Z}{b}",
+"description": "Rewrite the general objective function Z = ax + by to explicitly show how varying Z geometrically acts as a shifting y-intercept.",
+"derivation": "Start with $Z = ax + by$. Isolate the $y$ variable by subtracting $ax$ to the other side: $by = -ax + Z$. Divide the entire equation algebraically by $b$ to achieve the standard slope-intercept form $y = mx + c$."
+}
+}
+},
+{
+"cardId": "06a5e5f4-df9e-40ea-8e67-a4fcc8a34a37",
+"originalOrder": 18,
+"originalHeading": "Iso-Cost / Iso-Profit Method",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Iso-Profit Maximisation)",
+"Escaped KaTeX"
+],
+"vettingNotes": "Split due to combined SOPs creating cognitive bloat.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"board-exam"
+],
+"order": 30,
+"heading": "Iso-Profit Method SOP (Maximisation)",
+"back": "## Component Anatomy:\n- **$Z$**: The objective function strictly set up for a maximisation goal.\n- **$k$**: An arbitrary, convenient constant physically plottable on the graph.\n\n## Boundary Conditions / Domain:\n- This graphical method requires maintaining strict parallelism using a ruler or set-square. Small rotational errors can completely ruin the identified optimal vertex.",
+"formulaMeta": {
+"formula": "ax + by = k",
+"description": "State the standard operating procedure for visually determining the absolute maximum of an LPP using the Iso-Profit graphical method.",
+"derivation": "1. Assign $Z$ a convenient value $k$ (usually the LCM of the coefficients $a$ and $b$) and algebraically draw this baseline: $ax + by = k$.\n2. Geometrically slide a ruler parallel to this line strictly **away from the origin**.\n3. Identify the absolute last coordinate point the ruler touches exactly before completely leaving the geometric feasible region. This corner point yields the true maximum."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 18,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Iso-Cost Minimisation)"
+],
+"vettingNotes": "Generated from splitting 06a5e5f4-df9e-40ea-8e67-a4fcc8a34a37",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"linear-programming",
+"ncert",
+"class-12",
+"board-exam"
+],
+"order": 31,
+"heading": "Iso-Cost Method SOP (Minimisation)",
+"back": "## Component Anatomy:\n- **$Z$**: The objective function strictly set up for a minimisation goal (e.g., Diet constraints).\n- **$k$**: A convenient plottable baseline scalar.\n\n## Boundary Conditions / Domain:\n- Frequently applied to unbounded feasible regions extending to infinity, where evaluating all mathematical 'corners' visually is non-trivial.",
+"formulaMeta": {
+"formula": "ax + by = k",
+"description": "State the standard operating procedure for visually determining the absolute minimum of an LPP using the Iso-Cost graphical method.",
+"derivation": "1. Substitute $Z$ with a convenient plotting value $k$ to draw the foundational reference line $ax + by = k$.\n2. Geometrically slide a ruler strictly parallel to this reference line **towards the origin** (or towards the feasible lower bounds).\n3. The exact first (or geometrically lowest) point the parallel line touches within the strict feasible region dictates the absolute minimum coordinate."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

@@ -1,0 +1,1672 @@
+{
+"deckId": "bb94b15b-59f0-4ad2-8dfb-771d15c9173a",
+"cards": [
+{
+"cardId": "20898b3c-3412-4666-b902-2832e75721d7",
+"originalOrder": 1,
+"originalHeading": "Need for Domain Restriction in Trigonometric Functions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated tags to reflect math and exam focus",
+"Reformatted back explanation for structural clarity"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 1,
+"heading": "Necessity of Domain Restriction for Invertibility",
+"back": "## The Problem\nNatural trigonometric functions are periodic, making them many-to-one over their natural domains.\n\n## The Mathematical Rule\nAn inverse function ($f^{-1}$) mathematically exists if and only if the original function $f$ is perfectly bijective (strictly one-one and onto).\n\n## The Required Operation\nWe must artificially **shrink the domain** of the trigonometric function to a specific continuous interval where it is strictly monotonic (purely increasing or purely decreasing). This operation forces the function to become one-one, allowing its inverse to be properly defined.",
+"standardMeta": {
+"question": "Why do natural trigonometric functions fundamentally lack inverses, and what mathematical operation is strictly required to force invertibility?"
+}
+}
+},
+{
+"cardId": "1ef762dc-6f6c-45fc-a6e9-294425added6",
+"originalOrder": 2,
+"originalHeading": "Principal Value Branch",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 2,
+"heading": "Definition: Principal Value Branch",
+"back": "## Definition\nWhen restricting the domain of a periodic trigonometric function to make it bijective, infinitely many valid intervals exist. The universally accepted, standard restricted interval used by mathematical convention is called the **Principal Value Branch**.\n\n## Significance\nIt ensures a single, deterministic, single-valued output (the Principal Value) for any given inverse trigonometric input, standardizing calculations globally.",
+"standardMeta": {
+"question": "Define the 'Principal Value Branch' in the context of inverse trigonometric functions and explain its mathematical significance."
+}
+}
+},
+{
+"cardId": "c03fd812-62cd-4682-953d-dc15aaedecb1",
+"originalOrder": 3,
+"originalHeading": "Domain and Principal Range of Inverse Sine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 3,
+"heading": "Domain and Principal Range: Inverse Sine",
+"back": "- **Domain (Input):** $[-1, 1]$\n- **Principal Range (Output):** $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$\n- **Nature:** The function $y = \\\sin^{-1} x$ is strictly increasing across this entire branch.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse sine function, $y = \\\sin^{-1} x$."
+}
+}
+},
+{
+"cardId": "65d5914e-ef8f-42a7-bfcc-e47f9edab01d",
+"originalOrder": 4,
+"originalHeading": "Domain and Principal Range of Inverse Cosine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 4,
+"heading": "Domain and Principal Range: Inverse Cosine",
+"back": "- **Domain (Input):** $[-1, 1]$\n- **Principal Range (Output):** $[0, \\\pi]$\n- **Nature:** The function $y = \\\cos^{-1} x$ is strictly decreasing across this entire branch.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse cosine function, $y = \\\cos^{-1} x$."
+}
+}
+},
+{
+"cardId": "5b130ccc-1665-4827-ad40-38e1f281bbd4",
+"originalOrder": 5,
+"originalHeading": "Domain and Principal Range of Inverse Tangent",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping",
+"Removed emojis from mnemonic"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 5,
+"heading": "Domain and Principal Range: Inverse Tangent",
+"back": "- **Domain (Input):** $\\\mathbb{R}$ (All real numbers, $-\\\infty < x < \\\infty$)\n- **Principal Range (Output):** $(-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2})$\n\n## Boundary Trap\nNote the **open brackets**. The extreme limits $-\\\frac{\\\pi}{2}$ and $\\\frac{\\\pi}{2}$ are strictly excluded because the natural tangent function reaches infinity at these vertical asymptotes.",
+"mnemonic": "Tan is Open.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse tangent function, $y = \\\tan^{-1} x$."
+}
+}
+},
+{
+"cardId": "de2102f9-4b6c-49c8-b59c-60e2d704af8d",
+"originalOrder": 6,
+"originalHeading": "Domain and Principal Range of Inverse Cotangent",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 6,
+"heading": "Domain and Principal Range: Inverse Cotangent",
+"back": "- **Domain (Input):** $\\\mathbb{R}$ (All real numbers)\n- **Principal Range (Output):** $(0, \\\pi)$\n\n## Boundary Trap\nSimilar to inverse tangent, the boundary points $0$ and $\\\pi$ use open brackets because the natural cotangent function is undefined (vertical asymptotes) at these angles.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse cotangent function, $y = \\\cot^{-1} x$."
+}
+}
+},
+{
+"cardId": "40fc8933-df0c-4829-aefc-381207da7db7",
+"originalOrder": 7,
+"originalHeading": "Domain and Principal Range of Inverse Secant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 7,
+"heading": "Domain and Principal Range: Inverse Secant",
+"back": "- **Domain (Input):** $\\\mathbb{R} \\\setminus (-1, 1)$ or equivalently $(-\\\infty, -1] \\\cup [1, \\\infty)$\n- **Principal Range (Output):** $[0, \\\pi] \\\setminus \\\\{\\\frac{\\\pi}{2}\\\\}\$\n\n## Boundary Trap\nThe angle $\\\frac{\\\pi}{2}$ is explicitly removed from the closed interval because $\\\sec(\\\frac{\\\pi}{2})$ is mathematically undefined (asymptote).",
+"mnemonic": "Secant drops the 90.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse secant function, $y = \\\sec^{-1} x$."
+}
+}
+},
+{
+"cardId": "40846fec-ce9d-4b55-a260-6dc83ceec6b8",
+"originalOrder": 8,
+"originalHeading": "Domain and Principal Range of Inverse Cosecant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Fixed KaTeX escaping"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 8,
+"heading": "Domain and Principal Range: Inverse Cosecant",
+"back": "- Domain (Input): $\\\mathbb{R} \\\setminus (-1, 1)$ or equivalently $(-\\\infty, -1] \\\cup [1, \\\infty)$\n- Principal Range (Output): $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}] \\\setminus \\\\{0\\\\}$\n\n## Boundary Trap\nThe angle $0$ is explicitly removed from the interval because $\\\csc(0)$ is undefined (division by zero).",
+"mnemonic": "Cosecant drops the Zero.",
+"standardMeta": {
+"question": "State the strict domain and the principal value branch (range) for the inverse cosecant function, $y = \\\csc^{-1} x$."
+}
+}
+},
+{
+"cardId": "c7651766-3baf-4707-8541-13f0af33de07",
+"originalOrder": 9,
+"originalHeading": "Notation Trap: Inverse vs. Reciprocal",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 9,
+"heading": "Notation Trap: Inverse vs. Algebraic Reciprocal",
+"back": "- $\\sin^{-1} x$ (Arcus Sine): This denotes the strictly defined **inverse function** of sine. It eats a numerical ratio $x$ and outputs an *angle* $\\\theta$.\n- **$(\\\sin x)^{-1}$ (Reciprocal):** This denotes the algebraic reciprocal of the sine function, which equals $\\\frac{1}{\\\sin x} = \\\csc x$. It eats an angle and outputs a ratio.\n\n## Trap Avoidance\nThe superscript $-1$ on the function name denotes functional inversion, *not* a negative exponent. If confusing, use the `arcsin x` notation instead.",
+"standardMeta": {
+"question": "Explain the fundamental mathematical distinction between $\\\sin^{-1} x$ and $(\\\sin x)^{-1}$."
+}
+}
+},
+{
+"cardId": "24266c0c-389f-4dd0-8d2d-2863c9a0a5a9",
+"originalOrder": 10,
+"originalHeading": "Trigonometric Composition: sin(arcsin x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in formula field",
+"Structured back field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 10,
+"heading": "Trigonometric Composition: Outer Sine, Inner Arcsine",
+"back": "## Component Anatomy\n- **$x$:** The numeric ratio serving as the initial input to the inverse sine function.\n- **Output:** The identity mapping directly back to the ratio $x$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in [-1, 1]$.\n- **Trap:** If $x$ is outside this strict domain (e.g., trying to evaluate $\\\sin(\\\sin^{-1} 2)$), the inner inverse function is immediately undefined, making the entire composition invalid.",
+"formulaMeta": {
+"formula": "\\sin(\\sin^{-1} x) = x",
+"description": "The identity mapping for composing an outer sine function with an inner inverse sine function.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "83235efc-f2c3-4452-95eb-470ab97683d9",
+"originalOrder": 11,
+"originalHeading": "Trigonometric Composition: arcsin(sin x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Separated derivation into algorithmic SOP"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 11,
+"heading": "Trigonometric Composition: Outer Arcsine, Inner Sine",
+"back": "## Component Anatomy\n- **$\\\theta$:** The angle serving as the initial input to the sine function.\n- **Output:** The identity mapping back to the angle, *only if* it lies perfectly within the principal branch.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $\\\theta \\\in [-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$.\n- **Trap:** If $\\\theta$ is outside the principal value branch, you CANNOT simply cancel the functions to output $\\\theta$. You must use the SOP to fold it back in.",
+"formulaMeta": {
+"formula": "\\sin^{-1}(\\sin \\theta) = \\theta",
+"description": "The identity mapping for composing an outer inverse sine function with an inner sine function.",
+"derivation": "## Algorithmic SOP (Out-of-Bounds Angle Folding):\nWhen evaluating $\\\sin^{-1}(\\\sin \\\theta)$ where $\\\theta$ is out of bounds:\n1. Check if the given angle $\\\theta$ lies strictly inside $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$. If yes, output $\\\theta$.\n2. If outside, use ASTC quadrant rules and periodic identities (like $\\\sin(\\\pi - \\\theta) = \\\sin \\\theta$) to construct an equivalent angle $\\\alpha$ that yields the exact same sine ratio.\n3. Verify that your newly constructed $\\\alpha$ lies strictly inside $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$.\n4. Apply the inverse function to output $\\\alpha$ safely."
+}
+}
+},
+{
+"cardId": "a12f841d-7d5c-4a09-b167-32dde9e0b4b5",
+"originalOrder": 42,
+"originalHeading": "Out-of-Bounds Evaluation Trap (Inverse Cosine)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up in order sequence per Phase 1 routing",
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 12,
+"heading": "Out-of-Bounds Evaluation Trap: Outer Arccosine, Inner Cosine",
+"back": "## The Trap\nCarelessly writing $\\\cos^{-1}(\\\cos \\\theta) = \\\theta$ when $\\\theta$ is outside the principal value branch $[0, \\\pi]$.\n\n## The Fix (Folding Procedure)\nIf $\\\theta > \\\pi$ or $\\\theta < 0$, use the periodic and even nature of cosine (e.g., $\\\cos(2\\\pi - x) = \\\cos x$ or $\\\cos(-x) = \\\cos x$) to fold the angle back into the valid $[0, \\\pi]$ interval.\n\n## Example\n$\\cos^{-1}(\\cos \\frac{13\\pi}{6})$ is NOT $\\\frac{13\\\pi}{6}$. Since $\\\frac{13\\\pi}{6} = 2\\\pi + \\\frac{\\\pi}{6}$, it evaluates to $\\\cos^{-1}(\\\cos \\\frac{\\\pi}{6}) = \\\frac{\\\pi}{6}$.",
+"mnemonic": "Fold it before you cancel it.",
+"standardMeta": {
+"question": "Why does $\\\cos^{-1}(\\\cos \\\frac{13\\\pi}{6})$ evaluate to $\\\frac{\\\pi}{6}$ instead of $\\\frac{13\\\pi}{6}$?"
+}
+}
+},
+{
+"cardId": "5f25d0e8-2664-490b-bf6e-40281567ddd9",
+"originalOrder": 54,
+"originalHeading": "Graph Properties of y = arcsin(sin x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up in order sequence",
+"Updated classification to OBSERVATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced",
+"graph"
+],
+"order": 13,
+"heading": "Graph Properties: y = arcsin(sin x)",
+"back": "- **Shape:** A continuous, repeating 'sawtooth' or zig-zag wave.\n- **Period:** $2\\\pi$.\n- **Range:** Bounded strictly between $y = -\\\frac{\\\pi}{2}$ and $y = \\\frac{\\\pi}{2}$.\n- **Slopes:** The lines alternate strictly between a slope of $+1$ (e.g., $y = x$) and a slope of $-1$ (e.g., $y = \\\pi - x$).\n- **Non-differentiability:** Sharp turns (corners) occur at odd multiples of $\\\frac{\\\pi}{2}$ (e.g., $\\\pm\\\frac{\\\pi}{2}, \\\pm\\\frac{3\\\pi}{2}$), where the function is continuous but non-differentiable.",
+"mnemonic": "Sine wave inverted becomes a rigid Sawtooth.",
+"standardMeta": {
+"question": "Describe the graphical shape, period, range, and points of non-differentiability for the function $y = \\\sin^{-1}(\\\sin x)$."
+}
+}
+},
+{
+"cardId": "4d115815-f9d9-486d-b16b-d1c8fc0bdaa1",
+"originalOrder": 55,
+"originalHeading": "Graph Properties of y = arctan(tan x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Moved up in order sequence",
+"Updated classification to OBSERVATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "OBSERVATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced",
+"graph"
+],
+"order": 14,
+"heading": "Graph Properties: y = arctan(tan x)",
+"back": "- **Shape:** A series of disconnected, parallel straight lines.\n- **Period:** $\\\pi$.\n- **Range:** Open interval $(-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2})$.\n- **Slopes:** Every single line segment has a slope of exactly $+1$ (e.g., $y = x$, $y = x - \\\pi$).\n- **Discontinuities:** The graph breaks entirely (vertical asymptotes in the parent function become open-circle discontinuities) at odd multiples of $\\\frac{\\\pi}{2}$.",
+"mnemonic": "Tan lines are parallel ladders, never touching 90.",
+"standardMeta": {
+"question": "Describe the graphical shape, period, range, and points of discontinuity for the function $y = \\\tan^{-1}(\\\tan x)$."
+}
+}
+},
+{
+"cardId": "56f642fd-12e7-4a00-ac9f-2fec3e445dfe",
+"originalOrder": 16,
+"originalHeading": "Negative Argument Identity (Odd Family: Inverse Sine)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in formula",
+"Moved derivation to dedicated field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 15,
+"heading": "Negative Argument Identity: Inverse Sine (Odd Family)",
+"back": "## Component Anatomy\n- **$-x$:** The negative input ratio.\n- The negative sign is factored completely outside the function.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in [-1, 1]$.\n- **Family Rule:** Inverse Sine, Inverse Tangent, and Inverse Cosecant all share this simple negative pull-out behavior, acting similar to 'odd' functions.",
+"mnemonic": "Sine, Tan, Cosec simply spit out the negative.",
+"formulaMeta": {
+"formula": "\\sin^{-1}(-x) = -\\sin^{-1} x",
+"description": "The negative argument reflection rule for the inverse sine function.",
+"derivation": "## Algebraic Proof:\n1. Let $y = \\\sin^{-1}(-x)$.\n2. By definition, $-x = \\\sin y$, which implies $x = -\\\sin y$.\n3. Using the odd property of sine, $x = \\\sin(-y)$.\n4. Take the inverse sine of both sides: $\\\sin^{-1} x = -y$.\n5. Isolate $y$: $y = -\\\sin^{-1} x$."
+}
+}
+},
+{
+"cardId": "a0ddb446-e20c-4724-a50c-829dff411fd6",
+"originalOrder": 18,
+"originalHeading": "Negative Argument Identity (Inverse Tangent)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 16,
+"heading": "Negative Argument Identity: Inverse Tangent",
+"back": "## Component Anatomy\n- Part of the 'Odd' extraction family.\n- The negative sign cleanly moves outside the function.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in \\\mathbb{R}$.",
+"formulaMeta": {
+"formula": "\\tan^{-1}(-x) = -\\tan^{-1} x",
+"description": "The negative argument reflection rule for the inverse tangent function.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "363b48ec-91a0-4779-a924-1c451868a749",
+"originalOrder": 17,
+"originalHeading": "Negative Argument Identity (Pi-Minus Family: Inverse Cosine)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Moved derivation to proper field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 17,
+"heading": "Negative Argument Identity: Inverse Cosine (Pi-Minus Family)",
+"back": "## Component Anatomy\n- **$\\\pi$:** The mandatory shift factor.\n- **$-x$:** The negative input ratio.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in [-1, 1]$.\n- **Family Rule:** Inverse Cosine, Inverse Cotangent, and Inverse Secant DO NOT simply spit out the negative. You must subtract from $\\\pi$. This mathematically forces the output to reside in their correct principal branches (Quadrants I and II, $0$ to $\\\pi$).",
+"mnemonic": "Cos, Cot, Sec are the Pi-Minus Family.",
+"formulaMeta": {
+"formula": "\\cos^{-1}(-x) = \\pi - \\cos^{-1} x",
+"description": "The negative argument reflection rule for the inverse cosine function.",
+"derivation": "## Algebraic Proof:\n1. Let $y = \\\cos^{-1}(-x)$.\n2. By definition, $-x = \\\cos y$, which means $x = -\\\cos y$.\n3. To absorb the negative while keeping the output in $[0, \\\pi]$, use the 2nd quadrant identity: $x = \\\cos(\\\pi - y)$.\n4. Take the inverse cosine of both sides: $\\\cos^{-1} x = \\\pi - y$.\n5. Rearrange for $y$: $y = \\\pi - \\\cos^{-1} x$."
+}
+}
+},
+{
+"cardId": "64af7e4e-7dd6-4342-afcc-edef97e268a7",
+"originalOrder": 19,
+"originalHeading": "Negative Argument Identity (Inverse Cotangent)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 18,
+"heading": "Negative Argument Identity: Inverse Cotangent",
+"back": "## Component Anatomy\n- Part of the 'Pi-Minus' family.\n- Requires subtracting from $\\\pi$ to map correctly to its strictly positive $(0, \\\pi)$ principal range.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in \\\mathbb{R}$.",
+"formulaMeta": {
+"formula": "\\cot^{-1}(-x) = \\pi - \\cot^{-1} x",
+"description": "The negative argument reflection rule for the inverse cotangent function.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "794f94bd-07ac-4aaa-8a14-aaa96f65d23d",
+"originalOrder": 12,
+"originalHeading": "Reciprocal Argument Identity (Sine to Cosecant)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Clarified boundary conditions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 19,
+"heading": "Reciprocal Argument Identity: Sine to Cosecant",
+"back": "## Component Anatomy\n- **$\\\frac{1}{x}$:** The inverted ratio argument for the inverse sine function.\n- **$\\\csc^{-1}$:** The corresponding inverse cosecant function.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in (-\infty, -1] \\\cup [1, \infty)$ or equivalently, $|x| \\\ge 1$ and $x \\\neq 0$.\n- **Reasoning:** The internal argument $\\\frac{1}{x}$ must map to a valid sine output, meaning $\\\frac{1}{x}$ must lie securely between $-1$ and $1$.",
+"formulaMeta": {
+"formula": "\\sin^{-1}\\left(\\frac{1}{x}\\right) = \\csc^{-1} x",
+"description": "Converts the inverse sine of a reciprocal argument into its inverse cosecant equivalent.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "1cad54c7-1239-4ba0-b747-a48c43a82444",
+"originalOrder": 13,
+"originalHeading": "Reciprocal Argument Identity (Cosine to Secant)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Injected x != 0 boundary condition check implicitly via domain"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 20,
+"heading": "Reciprocal Argument Identity: Cosine to Secant",
+"back": "## Component Anatomy\n- **$\\\frac{1}{x}$:** The inverted ratio argument for the inverse cosine function.\n- **$\\\sec^{-1}$:** The corresponding inverse secant function.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in (-\infty, -1] \\\cup [1, \infty)$ or equivalently, $|x| \\\ge 1$.",
+"formulaMeta": {
+"formula": "\\cos^{-1}\\left(\\frac{1}{x}\\right) = \\sec^{-1} x",
+"description": "Converts the inverse cosine of a reciprocal argument into its inverse secant equivalent.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "a08301b6-49b5-42bd-bd27-3c34e76d5475",
+"originalOrder": 14,
+"originalHeading": "Reciprocal Argument Identity (Tangent to Cotangent - Positive)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 21,
+"heading": "Reciprocal Argument Identity: Tangent to Cotangent (Positive)",
+"back": "## Component Anatomy\n- **$\\\frac{1}{x}$:** The inverted ratio argument.\n- **$\\\cot^{-1}$:** The resulting inverse cotangent function.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x > 0$.\n- This clean conversion strictly works because both inverse functions output to the first quadrant $(0, \\\frac{\\\pi}{2})$ when $x$ is positive.",
+"formulaMeta": {
+"formula": "\\tan^{-1}\\left(\\frac{1}{x}\\right) = \\cot^{-1} x",
+"description": "Converts the inverse tangent of a reciprocal argument into its inverse cotangent equivalent for strictly positive inputs.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "b2c19485-2875-436d-9fca-73e6de2fe3a7",
+"originalOrder": 15,
+"originalHeading": "Reciprocal Argument Edge Case (Tangent to Cotangent - Negative)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 22,
+"heading": "Reciprocal Argument Edge Case: Tangent to Cotangent (Negative)",
+"back": "## Component Anatomy\n- **$-\\\pi$:** The required phase shift to correctly align the quadrants.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x < 0$.\n- **Why the shift?** For negative $x$, $\\\tan^{-1}(1/x)$ yields an angle in the 4th quadrant $(-\\\frac{\\\pi}{2}, 0)$. However, $\\\cot^{-1}(x)$ natively yields an angle in the 2nd quadrant $(\\\frac{\\\pi}{2}, \\\pi)$. Subtracting $\\\pi$ correctly maps the 2nd quadrant result down into the required 4th quadrant space.",
+"mnemonic": "For Tan reciprocal with negative x, drop it down by Pi.",
+"formulaMeta": {
+"formula": "\\tan^{-1}\\left(\\frac{1}{x}\\right) = -\\pi + \\cot^{-1} x",
+"description": "Highly tested edge-case for converting the inverse tangent of a reciprocal argument when the input is negative.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "e69d8774-8cea-48df-be51-db264e00217c",
+"originalOrder": 20,
+"originalHeading": "Complementary Identity (Sine and Cosine)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Separated derivation into specific field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 23,
+"heading": "Complementary Identity: Inverse Sine and Cosine",
+"back": "## Component Anatomy\n- **$\\\frac{\\\pi}{2}$:** The complementary angle sum ($90^\\\circ$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in [-1, 1]$.\n- Both individual domains must strictly overlap for the identity to be valid.",
+"mnemonic": "Sine and Cosine complete each other to 90.",
+"formulaMeta": {
+"formula": "\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}",
+"description": "The complementary angle sum identity linking inverse sine and inverse cosine.",
+"derivation": "## Algebraic Proof:\n1. Let $\\\sin^{-1} x = \\\theta$, which implies $x = \\\sin \\\theta$.\n2. Convert sine to cosine using standard complementary angles: $x = \\\cos(\\\frac{\\\pi}{2} - \\\theta)$.\n3. Take $\\\cos^{-1}$ of both sides: $\\\cos^{-1} x = \\\frac{\\\pi}{2} - \\\theta$.\n4. Substitute $\\\theta$ back into the equation: $\\\cos^{-1} x = \\\frac{\\\pi}{2} - \\\sin^{-1} x$.\n5. Rearrange terms to yield: $\\\sin^{-1} x + \\\cos^{-1} x = \\\frac{\\\pi}{2}$."
+}
+}
+},
+{
+"cardId": "455d5ceb-a2ff-49c9-86e8-0e7873f96e2b",
+"originalOrder": 21,
+"originalHeading": "Complementary Identity (Tangent and Cotangent)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 24,
+"heading": "Complementary Identity: Inverse Tangent and Cotangent",
+"back": "## Component Anatomy\n- **$\\\frac{\\\pi}{2}$:** The complementary angle sum ($90^\\\circ$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in \\\mathbb{R}$.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x + \\cot^{-1} x = \\frac{\\pi}{2}",
+"description": "The complementary angle sum identity linking inverse tangent and inverse cotangent.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "fb80f3e6-a839-4efa-9766-5f64f9ba91d9",
+"originalOrder": 22,
+"originalHeading": "Complementary Identity (Secant and Cosecant)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 25,
+"heading": "Complementary Identity: Inverse Secant and Cosecant",
+"back": "## Component Anatomy\n- **$\\\frac{\\\pi}{2}$:** The complementary angle sum ($90^\\\circ$).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|x| \\\ge 1$ (or $x \\\le -1$ and $x \\\ge 1$).",
+"formulaMeta": {
+"formula": "\\sec^{-1} x + \\csc^{-1} x = \\frac{\\pi}{2}",
+"description": "The complementary angle sum identity linking inverse secant and inverse cosecant.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "711b28e8-1917-4e75-af43-9144ec43a45d",
+"originalOrder": 37,
+"originalHeading": "The Right Triangle Method for Function Conversion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated tags",
+"Updated classification to PROCEDURAL",
+"Refined SOP structure"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 26,
+"heading": "SOP: The Right Triangle Method for Inverse Function Conversion",
+"back": "## Concept\nA universal algebraic SOP to convert any inverse trigonometric function into another (e.g., changing $\\\sin^{-1}$ to $\\\tan^{-1}$).\n\n## Step-by-Step SOP\n1. **Assign:** Let the given inverse function equal $\\\theta$ (e.g., $\\\theta = \\\sin^{-1} x \\\implies \\\sin \\\theta = \\\frac{x}{1}$).\n2. **Draw:** Sketch a right-angled triangle. Assign the ratio to the appropriate sides (e.g., Opposite = $x$, Hypotenuse = $1$).\n3. **Pythagoras:** Use the Pythagorean theorem to algebraically find the third side (e.g., Adjacent = $\\\sqrt{1-x^2}$).\n4. **Extract:** Read off the desired new trigonometric ratio from the triangle (e.g., $\\\tan \\\theta = \\\frac{\\\text{Opp}}{\\\text{Adj}} = \\\frac{x}{\\\sqrt{1-x^2}}$) and apply the appropriate new inverse function.",
+"mnemonic": "Draw it, Pythagoras it, Read it.",
+"standardMeta": {
+"question": "Describe the 4-step 'Right Triangle Method' used to algebraically convert one inverse trigonometric function into another."
+}
+}
+},
+{
+"cardId": "f4e69497-aa7e-40d5-a3ae-d5fa35a05eec",
+"originalOrder": 43,
+"originalHeading": "Combined Evaluation Pattern: sin(arctan x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated classification to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 27,
+"heading": "Combined Evaluation Pattern: sin(arctan x)",
+"back": "## Component Anatomy\n- **$x$:** The numerical ratio input for the tangent inverse.\n- **$\\\frac{x}{\\\sqrt{1+x^2}}$:** The resulting algebraic expression completely free of trigonometric functions.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in \\\mathbb{R}$.",
+"formulaMeta": {
+"formula": "\\sin(\\tan^{-1} x) = \\frac{x}{\\sqrt{1+x^2}}",
+"description": "Algebraic equivalent expression for the combined trigonometric evaluation sin(arctan x).",
+"derivation": "## Right Triangle Method SOP:\n1. Let $\\\theta = \\\tan^{-1} x \\\implies \\\tan \\\theta = \\\frac{x}{1}$.\n2. Draw a right triangle: set Opposite = $x$, Adjacent = $1$.\n3. Calculate Hypotenuse = $\\\sqrt{1^2 + x^2} = \\\sqrt{1+x^2}$.\n4. Extract required ratio: $\\\sin \\\theta = \\\frac{\\\text{Opp}}{\\\text{Hyp}} = \\\frac{x}{\\\sqrt{1+x^2}}$."
+}
+}
+},
+{
+"cardId": "14cc8cae-d3e9-4685-ac65-a7c4173cec27",
+"originalOrder": 44,
+"originalHeading": "Combined Evaluation Pattern: cos(arcsin x)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated classification to PROCEDURAL"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 28,
+"heading": "Combined Evaluation Pattern: cos(arcsin x)",
+"back": "## Component Anatomy\n- **$x$:** The ratio input for the sine inverse.\n- **$\\\sqrt{1-x^2}$:** The resulting algebraic expression.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\in [-1, 1]$.",
+"formulaMeta": {
+"formula": "\\cos(\\sin^{-1} x) = \\sqrt{1-x^2}",
+"description": "Algebraic equivalent expression for the combined trigonometric evaluation cos(arcsin x).",
+"derivation": "## Right Triangle Method SOP:\n1. Let $\\\theta = \\\sin^{-1} x \\\implies \\\sin \\\theta = \\\frac{x}{1}$.\n2. Draw a right triangle: set Opposite = $x$, Hypotenuse = $1$.\n3. Calculate Adjacent = $\\\sqrt{1^2 - x^2} = \\\sqrt{1-x^2}$.\n4. Extract required ratio: $\\\cos \\\theta = \\\frac{\\\text{Adj}}{\\\text{Hyp}} = \\\frac{\\\sqrt{1-x^2}}{1} = \\\sqrt{1-x^2}$."
+}
+}
+},
+{
+"cardId": "083801f2-f7ce-4f6d-9e15-8f293d41e3ca",
+"originalOrder": 45,
+"originalHeading": "The 'Undefined' Trick Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 29,
+"heading": "The 'Undefined' Complementary Identity Trap",
+"back": "## The Trap\nQuestions asking to evaluate expressions like $\\\tan(\\\sin^{-1} x + \\\cos^{-1} x)$ for valid $x \\\in [-1, 1]$.\n\n## The Logic\nBy the standard complementary identity, the inner argument perfectly sums to $\\\frac{\\\pi}{2}$.\n\n## The Resolution\n$\\tan(\\frac{\\pi}{2})$ is mathematically **undefined** (approaches infinity). Students often waste time trying to build complex triangles to convert functions when the answer is simply 'undefined'.",
+"standardMeta": {
+"question": "What is the evaluated value of $\\\tan(\\\sin^{-1} x + \\\cos^{-1} x)$ for valid $x$, and why is this considered a classic exam trick question?"
+}
+}
+},
+{
+"cardId": "6cd0da26-444f-458e-9dd1-5e70f489974f",
+"originalOrder": 23,
+"originalHeading": "Sum of Two Inverse Tangents (Standard Case)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 30,
+"heading": "Sum of Two Inverse Tangents (Standard Case)",
+"back": "## Component Anatomy\n- **$x + y$:** Sum of the individual inputs in the numerator.\n- **$1 - xy$:** Difference derived from the standard $\\\tan(A+B)$ compound angle formula.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $xy < 1$.\n- If $xy < 1$, the algebraic result perfectly maps within the standard $(-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2})$ principal value branch, requiring no phase shifts.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x + \\tan^{-1} y = \\tan^{-1}\\left(\\frac{x + y}{1 - xy}\\right)",
+"description": "The standard addition formula for combining two inverse tangent functions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "c5085179-6136-4b5e-94c4-6f34435ee96c",
+"originalOrder": 28,
+"originalHeading": "Difference of Two Inverse Tangents",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 31,
+"heading": "Difference of Two Inverse Tangents",
+"back": "## Component Anatomy\n- **$x - y$:** Difference of inputs in the numerator.\n- **$1 + xy$:** Derived from the standard $\\\tan(A-B)$ formula.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $xy > -1$.",
+"mnemonic": "Tan Difference matches Tan(A-B) signs: Minus top, Plus bottom.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x - \\tan^{-1} y = \\tan^{-1}\\left(\\frac{x - y}{1 + xy}\\right)",
+"description": "The standard formula for subtracting two inverse tangent functions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "14f6edb4-764a-40fa-b5f0-9fbf8fdd5374",
+"originalOrder": 24,
+"originalHeading": "Sum of Two Inverse Tangents Edge Case (Product > 1)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 32,
+"heading": "Sum of Two Inverse Tangents Edge Case: Positive Inputs, Product > 1",
+"back": "## Component Anatomy\n- **$\\\pi$:** The mandatory mathematical phase shift required to correct the quadrant.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x > 0$, $y > 0$, AND crucially **$xy > 1$**.\n- **Why the shift?** If $x$ and $y$ are positive but their product $xy > 1$, the denominator $1-xy$ becomes negative. The raw inner formula would spit out a negative angle in the 4th quadrant. However, two positive angles added together MUST lie in the 2nd quadrant (since each is $>0$). Adding $\\\pi$ corrects this quadrant misalignment.",
+"mnemonic": "If the product beats 1, Pi jumps in.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x + \\tan^{-1} y = \\pi + \\tan^{-1}\\left(\\frac{x + y}{1 - xy}\\right)",
+"description": "The advanced addition formula for two inverse tangents when their inputs are strictly positive and their product exceeds 1.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "4f2ad93a-b9be-4ed2-a529-a199f96f287d",
+"originalOrder": 47,
+"originalHeading": "Sum of Two Inverse Tangents Extreme Edge Case (Negative Inputs)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 33,
+"heading": "Sum of Two Inverse Tangents Edge Case: Negative Inputs, Product > 1",
+"back": "## Component Anatomy\n- **$-\\\pi$:** The mandatory phase shift required to mathematically correct the quadrant.\n- **$\\\frac{x+y}{1-xy}$:** The standard trigonometric argument.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x < 0$, $y < 0$, AND **$xy > 1$**.\n- **Why the shift?** Both $x$ and $y$ are negative, so their inverse tangents lie in $(-\\\frac{\\\pi}{2}, 0)$. Their sum must lie strictly in $(-\\\pi, 0)$. However, because $xy > 1$, the denominator $1-xy$ is negative, and the numerator $x+y$ is negative, making the entire internal ratio positive. The raw $\\\tan^{-1}$ would incorrectly output a 1st quadrant positive angle. Subtracting $\\\pi$ accurately forces it into the required 3rd quadrant negative space.",
+"mnemonic": "Negative inputs with product > 1 pull you down by Pi.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x + \\tan^{-1} y = -\\pi + \\tan^{-1}\\left(\\frac{x + y}{1 - xy}\\right)",
+"description": "The advanced addition formula for two inverse tangents when both inputs are strictly negative and their product exceeds 1.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "fe1e8961-e41f-4040-95e3-b2d12cfd9f66",
+"originalOrder": 48,
+"originalHeading": "Sum of Three Inverse Tangents",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added full equation to formula field (LHS + RHS)",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 34,
+"heading": "Sum of Three Inverse Tangents",
+"back": "## Component Anatomy\n- **$x+y+z-xyz$:** Matches the numerator of the standard $\\\tan(A+B+C)$ identity.\n- **$1-xy-yz-zx$:** Matches the denominator of the standard $\\\tan(A+B+C)$ identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x, y, z > 0$ and $xy + yz + zx < 1$.",
+"formulaMeta": {
+"formula": "\\tan^{-1} x + \\tan^{-1} y + \\tan^{-1} z = \\tan^{-1}\\left(\\frac{x + y + z - xyz}{1 - xy - yz - zx}\\right)",
+"description": "The formula for the sum of three distinct inverse tangent functions.",
+"derivation": "## Algorithmic Application SOP:\n1. Verify all three inputs are positive.\n2. Calculate the pairwise sum of products: $xy + yz + zx$.\n3. Ensure this sum is strictly less than $1$ to directly apply the formula without needing complex quadrant phase shifts."
+}
+}
+},
+{
+"cardId": "df5ff49c-0ad7-4487-96fd-f08dcadf98c0",
+"originalOrder": 49,
+"originalHeading": "Conditional Identity: Sum of Three Inverse Tangents = Pi",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 35,
+"heading": "Conditional Identity: Sum of Three Inverse Tangents = Pi",
+"back": "## The Relation\n$x + y + z = xyz$.\n\n## Derivation Logic\nFor the sum of three inverse tangents to equal exactly $\\\pi$, the numerator of the compound $\\\tan$ argument must equal exactly $0$ (since $\\\tan \\\pi = 0$).\nSetting the numerator $x+y+z-xyz = 0$ yields the relation.",
+"mnemonic": "If the sum is Pi, the sum of variables equals their product.",
+"standardMeta": {
+"question": "If $\\\tan^{-1} x + \\\tan^{-1} y + \\\tan^{-1} z = \\\pi$, what specific algebraic relationship must exist between $x$, $y$, and $z$?"
+}
+}
+},
+{
+"cardId": "33ca580e-4caf-4167-aa29-01e764906c0b",
+"originalOrder": 50,
+"originalHeading": "Conditional Identity: Sum of Three Inverse Tangents = Pi/2",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 36,
+"heading": "Conditional Identity: Sum of Three Inverse Tangents = Pi/2",
+"back": "## The Relation\n$xy + yz + zx = 1$.\n\n## Derivation Logic\nFor the combined sum to be exactly $\\\frac{\\\pi}{2}$, the compound $\\\tan$ argument must be undefined (approaching infinity). This strictly occurs when the denominator of the compound formula is $0$.\nSetting $1 - xy - yz - zx = 0$ directly yields the required relation.",
+"mnemonic": "If the sum is Pi/2, the pairwise product sum equals 1.",
+"standardMeta": {
+"question": "If $\\\tan^{-1} x + \\\tan^{-1} y + \\\tan^{-1} z = \\\frac{\\\pi}{2}$, what specific algebraic relationship must exist between $x$, $y$, and $z$?"
+}
+}
+},
+{
+"cardId": "cedf8a1c-6385-46f0-99bf-5460dd5670b0",
+"originalOrder": 57,
+"originalHeading": "Famous Integral Triplet of Inverse Tangents",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 37,
+"heading": "Famous Integral Triplet of Inverse Tangents",
+"back": "## The Identity\n$\\tan^{-1} 1 + \\tan^{-1} 2 + \\tan^{-1} 3 = \\pi$.\n\n## Why this occurs\nNotice that the inputs $1, 2, 3$ sum to $6$. Their product $1 \\\times 2 \\\times 3$ also equals $6$. Because $x+y+z = xyz$, they perfectly satisfy the strict mathematical condition for three inverse tangents to sum to $\\\pi$.\n\n## Significance\nThis is a highly tested 'trick' identity in Board Exams and JEE to bypass heavy algebraic additions.",
+"mnemonic": "1, 2, 3 sums up to Pi.",
+"standardMeta": {
+"question": "What is the widely tested constant value of the sum $\\\tan^{-1} 1 + \\\tan^{-1} 2 + \\\tan^{-1} 3$?"
+}
+}
+},
+{
+"cardId": "97bc6e1d-c7a8-4216-b71b-169acaa1dc7c",
+"originalOrder": 29,
+"originalHeading": "Addition Formula for Two Inverse Sines",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 38,
+"heading": "Addition Formula for Two Inverse Sines",
+"back": "## Component Anatomy\n- **$x\\\sqrt{1-y^2} + y\\\sqrt{1-x^2}$:** This perfectly mirrors the internal structure of the $\\\sin(A+B) = \\\sin A \\\cos B + \\\cos A \\\sin B$ trigonometric identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x, y \\\ge 0$ and $x^2 + y^2 \\\le 1$.\n- If $x^2 + y^2 > 1$, the sum falls outside the principal branch $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$ and requires a phase shift.",
+"formulaMeta": {
+"formula": "\\sin^{-1} x + \\sin^{-1} y = \\sin^{-1}\\left(x\\sqrt{1-y^2} + y\\sqrt{1-x^2}\\right)",
+"description": "The compound angle addition formula for combining two inverse sine functions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "781b57a9-edee-4c90-bb78-4946ed6ba490",
+"originalOrder": 30,
+"originalHeading": "Difference Formula for Two Inverse Sines",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 39,
+"heading": "Difference Formula for Two Inverse Sines",
+"back": "## Component Anatomy\n- **$x\\\sqrt{1-y^2} - y\\\sqrt{1-x^2}$:** Perfectly matches the $\\\sin(A-B)$ expansion pattern.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x, y \\\ge 0$.",
+"formulaMeta": {
+"formula": "\\sin^{-1} x - \\sin^{-1} y = \\sin^{-1}\\left(x\\sqrt{1-y^2} - y\\sqrt{1-x^2}\\right)",
+"description": "The compound angle difference formula for subtracting two inverse sine functions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "2c0d62cb-4614-4dec-8790-624c6553ca64",
+"originalOrder": 31,
+"originalHeading": "Addition Formula for Two Inverse Cosines",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 40,
+"heading": "Addition Formula for Two Inverse Cosines",
+"back": "## Component Anatomy\n- **$xy - \\\sqrt{1-x^2}\\\sqrt{1-y^2}$:** Matches the $\\\cos(A+B) = \\\cos A \\\cos B - \\\sin A \\\sin B$ structural identity.\n- **Sign Flip:** Notice how the sum of inverse cosines uses a strictly MINUS sign inside the algebraic argument.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $x, y \\\ge 0$.",
+"mnemonic": "Cosine Addition = Minus inside.",
+"formulaMeta": {
+"formula": "\\cos^{-1} x + \\cos^{-1} y = \\cos^{-1}\\left(xy - \\sqrt{1-x^2}\\sqrt{1-y^2}\\right)",
+"description": "The compound angle addition formula for combining two inverse cosine functions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "1e4e72f6-bc20-429d-8a3f-2c3541ea228f",
+"originalOrder": 25,
+"originalHeading": "Double Angle Identity: Inverse Tangent to Inverse Sine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Separated derivation into algorithmic proof"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 41,
+"heading": "Double Angle Identity: Inverse Tangent to Inverse Sine",
+"back": "## Component Anatomy\n- **$2\\\tan^{-1} x$:** The double inverse angle.\n- **$\\\frac{2x}{1+x^2}$:** The internal algebraic expression matching the standard $\\\sin(2\\\theta)$ identity formatted in terms of $\\\tan(\\\theta)$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|x| \\\le 1$ (or $-1 \\\le x \\\le 1$).",
+"formulaMeta": {
+"formula": "2\\tan^{-1} x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)",
+"description": "The double angle identity converting a $2\\\tan^{-1} x$ expression into an inverse sine function.",
+"derivation": "## Proof SOP:\n1. Substitute $x = \\\tan \\\theta$, meaning $\\\theta = \\\tan^{-1} x$.\n2. The expression inside the inverse sine algebraically becomes $\\\frac{2\\\tan \\\theta}{1+\\\tan^2 \\\theta}$.\n3. Recognize this is the standard trigonometric identity for $\\\sin(2\\\theta)$.\n4. Evaluate the composition (assuming constraints hold): $\\\sin^{-1}(\\\sin(2\\\theta)) = 2\\\theta$.\n5. Replace $\\\theta$ to conclude the result is exactly $2\\\tan^{-1} x$."
+}
+}
+},
+{
+"cardId": "f774f403-cd1f-43c9-b6be-819c0418793f",
+"originalOrder": 26,
+"originalHeading": "Double Angle Identity: Inverse Tangent to Inverse Cosine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Separated derivation into algorithmic proof"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 42,
+"heading": "Double Angle Identity: Inverse Tangent to Inverse Cosine",
+"back": "## Component Anatomy\n- **$2\\\tan^{-1} x$:** The double angle of the inverse tangent.\n- **$\\\frac{1-x^2}{1+x^2}$:** The algebraic argument explicitly matching the $\\\cos(2\\\theta)$ trigonometric identity in terms of $\\\tan(\\\theta)$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\\ge 0$.",
+"mnemonic": "Tan to Cos: Minus on top, Plus on bottom.",
+"formulaMeta": {
+"formula": "2\\tan^{-1} x = \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)",
+"description": "The double angle identity converting a $2\\\tan^{-1} x$ expression into an inverse cosine function.",
+"derivation": "## Proof SOP:\n1. Let $x = \\\tan \\\theta$, which implies $\\\theta = \\\tan^{-1} x$.\n2. Substitute $x$ into the argument: $\\\frac{1-\\\tan^2 \\\theta}{1+\\\tan^2 \\\theta}$.\n3. Recognise this explicitly as the standard identity for $\\\cos(2\\\theta)$.\n4. Apply the outer function: $\\\cos^{-1}(\\\cos(2\\\theta)) = 2\\\theta$.\n5. Replace $\\\theta$ to yield $2\\\tan^{-1} x$."
+}
+}
+},
+{
+"cardId": "18c95970-281b-426e-bbf0-110d9d52ca02",
+"originalOrder": 27,
+"originalHeading": "Double Angle Identity: Inverse Tangent to Inverse Tangent",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 43,
+"heading": "Double Angle Identity: Inverse Tangent to Inverse Tangent",
+"back": "## Component Anatomy\n- **$\\\frac{2x}{1-x^2}$:** The algebraic argument explicitly matching the standard $\\\tan(2\\\theta)$ identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $-1 < x < 1$.\n- **Trap:** If $x=1$ or $x=-1$, the denominator $1-x^2$ becomes strictly zero, rendering the internal argument undefined (asymptote).",
+"formulaMeta": {
+"formula": "2\\tan^{-1} x = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)",
+"description": "The double angle identity strictly condensing a $2\\\tan^{-1} x$ expression into a single inverse tangent function.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "64fcb03e-7357-454d-a503-a286ec132f8b",
+"originalOrder": 32,
+"originalHeading": "Double Angle Identity for Inverse Sine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 44,
+"heading": "Double Angle Identity: Inverse Sine",
+"back": "## Component Anatomy\n- **$2x\\\sqrt{1-x^2}$:** Perfectly matches the algebraic structure of the $\\\sin(2\\\theta) = 2\\\sin\\\theta\\\cos\\\theta$ identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $-\\\frac{1}{\\\sqrt{2}} \\\le x \\\le \\\frac{1}{\\\sqrt{2}}$.\n- **Why:** If $x$ is evaluated outside this restricted domain, the constructed angle $2\\\theta$ mathematically falls out of the principal value branch $[-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$, requiring a phase shift correction.",
+"formulaMeta": {
+"formula": "2\\sin^{-1} x = \\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right)",
+"description": "The double angle identity for converting a $2\\\sin^{-1} x$ expression into a single inverse sine.",
+"derivation": "## Derivation SOP:\n1. Let $x = \\\sin \\\theta$.\n2. Using trigonometric identities, the term $\\\sqrt{1-x^2}$ simplifies to $\\\cos \\\theta$.\n3. The raw argument $2x\\\sqrt{1-x^2}$ becomes $2\\\sin\\\theta\\\cos\\\theta$, which identically equals $\\\sin(2\\\theta)$.\n4. Apply the inverse mapping: $\\\sin^{-1}(\\\sin(2\\\theta)) = 2\\\theta = 2\\\sin^{-1} x$."
+}
+}
+},
+{
+"cardId": "b715098c-86db-4810-9976-a4e87306e804",
+"originalOrder": 33,
+"originalHeading": "Double Angle Identity for Inverse Cosine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 45,
+"heading": "Double Angle Identity: Inverse Cosine",
+"back": "## Component Anatomy\n- **$2x^2 - 1$:** Perfectly matches the algebraic form of the $\\\cos(2\\\theta) = 2\\\cos^2\\\theta - 1$ identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $0 \\\le x \\\le 1$.\n- **Trap:** If $x < 0$, the initial expression $2\\\cos^{-1} x$ strictly exceeds $\\\pi$. This mathematically violates the established principal range $[0, \\\pi]$ of the outer $\\\cos^{-1}$ function.",
+"formulaMeta": {
+"formula": "2\\cos^{-1} x = \\cos^{-1}(2x^2 - 1)",
+"description": "The double angle identity for converting a $2\\\cos^{-1} x$ expression into a single inverse cosine.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "1eed159f-2a40-4e09-83a9-016dd5fc5567",
+"originalOrder": 34,
+"originalHeading": "Triple Angle Identity for Inverse Sine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 46,
+"heading": "Triple Angle Identity: Inverse Sine",
+"back": "## Component Anatomy\n- **$3x - 4x^3$:** Directly models the standard $\\\sin(3\\\theta) = 3\\\sin\\\theta - 4\\\sin^3\\\theta$ trigonometric identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $-\\\frac{1}{2} \\\le x \\\le \\\frac{1}{2}$.",
+"mnemonic": "Sine Triple: 3 comes before 4.",
+"formulaMeta": {
+"formula": "3\\sin^{-1} x = \\sin^{-1}(3x - 4x^3)",
+"description": "The standard triple angle expansion identity for $3\\\sin^{-1} x$.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "0e39e61c-e96a-4233-b410-0f5013985a08",
+"originalOrder": 35,
+"originalHeading": "Triple Angle Identity for Inverse Cosine",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 47,
+"heading": "Triple Angle Identity: Inverse Cosine",
+"back": "## Component Anatomy\n- **$4x^3 - 3x$:** Directly models the standard $\\\cos(3\\\theta) = 4\\\cos^3\\\theta - 3\\\cos\\\theta$ trigonometric identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $\\\frac{1}{2} \\\le x \\\le 1$.",
+"mnemonic": "Cosine Triple: 4 comes before 3.",
+"formulaMeta": {
+"formula": "3\\cos^{-1} x = \\cos^{-1}(4x^3 - 3x)",
+"description": "The standard triple angle expansion identity for $3\\\cos^{-1} x$.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "f5451718-e405-4f02-96c7-bba7099a9a3a",
+"originalOrder": 36,
+"originalHeading": "Triple Angle Identity for Inverse Tangent",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Updated tags"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 48,
+"heading": "Triple Angle Identity: Inverse Tangent",
+"back": "## Component Anatomy\n- **$\\\frac{3x - x^3}{1 - 3x^2}$:** Directly models the $\\\tan(3\\\theta)$ algebraic identity.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $-\\\frac{1}{\\\sqrt{3}} < x < \\\frac{1}{\\\sqrt{3}}$.\n- **Trap:** The boundaries strictly avoid values where the denominator $1 - 3x^2$ becomes $0$.",
+"formulaMeta": {
+"formula": "3\\tan^{-1} x = \\tan^{-1}\\left(\\frac{3x - x^3}{1 - 3x^2}\\right)",
+"description": "The standard triple angle expansion identity for $3\\\tan^{-1} x$.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "107af0bf-3b25-4e68-929d-b6e895ec29eb",
+"originalOrder": 38,
+"originalHeading": "Algebraic Substitution Dictionary: \u221a(a\u00b2 - x\u00b2)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Injected domain restrictions"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 49,
+"heading": "Algebraic Substitution Dictionary: \u221a(a\u00b2 - x\u00b2)",
+"back": "## The Substitution SOP\nLet $x = a\\\sin\\\theta$ or $x = a\\\cos\\\theta$.\n\n## Why it works algebraically\nIt leverages the fundamental identity $1 - \\\sin^2\\\theta = \\\cos^2\\\theta$, which perfectly absorbs the negative sign difference and destroys the overarching square root entirely.\n\n## Boundary Conditions / Domain\n- Strictly valid only when $-a \\\le x \\\le a$ (assuming $a > 0$) to keep the radical argument strictly non-negative ($a^2 - x^2 \\\ge 0$).",
+"mnemonic": "Sine for the small (1 minus x-squared).",
+"standardMeta": {
+"question": "When simplifying an inverse trigonometric expression containing the radical pattern $\\\sqrt{a^2 - x^2}$, what is the standard algebraic substitution procedure?"
+}
+}
+},
+{
+"cardId": "6d08f784-7b09-423b-98e7-81c409b1fdff",
+"originalOrder": 39,
+"originalHeading": "Algebraic Substitution Dictionary: \u221a(a\u00b2 + x\u00b2)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Injected domain constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 50,
+"heading": "Algebraic Substitution Dictionary: \u221a(a\u00b2 + x\u00b2)",
+"back": "## The Substitution SOP\nLet $x = a\\\tan\\\theta$ or $x = a\\\cot\\\theta$.\n\n## Why it works algebraically\nIt leverages the Pythagorean identity $1 + \\\tan^2\\\theta = \\\sec^2\\\theta$, completely resolving the sum into a perfect square inside the radical, allowing it to collapse.\n\n## Boundary Conditions / Domain\n- Strictly valid for $x \\\in \\\mathbb{R}$, as the sum of squares $a^2 + x^2$ is inherently strictly positive for real $x$.",
+"mnemonic": "Tan for the sum.",
+"standardMeta": {
+"question": "When simplifying an inverse trigonometric expression containing the radical pattern $\\\sqrt{a^2 + x^2}$, what is the standard algebraic substitution procedure?"
+}
+}
+},
+{
+"cardId": "2ab7c7e4-1667-4a64-ac5b-dcd802f1502a",
+"originalOrder": 40,
+"originalHeading": "Algebraic Substitution Dictionary: \u221a(x\u00b2 - a\u00b2)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Injected absolute value boundary constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 51,
+"heading": "Algebraic Substitution Dictionary: \u221a(x\u00b2 - a\u00b2)",
+"back": "## The Substitution SOP\nLet $x = a\\\sec\\\theta$ or $x = a\\\csc\\\theta$.\n\n## Why it works algebraically\nIt leverages the fundamental identity $\\\sec^2\\\theta - 1 = \\\tan^2\\\theta$, transforming the 'gap' above 1 into a clean perfect square that absorbs the square root.\n\n## Boundary Conditions / Domain\n- Strictly valid only when $|x| \\\ge a$ (assuming $a > 0$) to keep the radical argument strictly non-negative ($x^2 - a^2 \\\ge 0$).",
+"mnemonic": "Sec for the gap (x-squared minus 1).",
+"standardMeta": {
+"question": "When simplifying an inverse trigonometric expression containing the radical pattern $\\\sqrt{x^2 - a^2}$, what is the standard algebraic substitution procedure?"
+}
+}
+},
+{
+"cardId": "5a99bdf7-574c-4eea-9d67-d1b066e6832c",
+"originalOrder": 41,
+"originalHeading": "Half-Angle Radical Substitution",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Injected strict domain constraints preventing division by zero"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 52,
+"heading": "SOP: Half-Angle Rational Radical Substitution",
+"back": "## The Substitution SOP\nLet $x = a\\\cos(2\\\theta)$.\n\n## Why it works algebraically\nIt activates the half-angle identities simultaneously:\n- Numerator: $a - a\\\cos(2\\\theta) = a(1-\\\cos(2\\\theta)) = a(2\\\sin^2\\\theta)$\n- Denominator: $a + a\\\cos(2\\\theta) = a(1+\\\cos(2\\\theta)) = a(2\\\cos^2\\\theta)$\nThe entire radical algebraically collapses into a clean $\\\tan\\\theta$ or $\\\cot\\\theta$.\n\n## Boundary Conditions / Domain\n- **Strict Constraints:** $-a \\\le x \\\le a$ (assuming $a > 0$) for radical non-negativity.\n- **Asymptote Trap:** $x \\\neq -a$ to prevent catastrophic division by zero in the denominator.",
+"standardMeta": {
+"question": "What is the most efficient algebraic substitution procedure when simplifying an inverse trigonometric expression containing the rational radical $\\\sqrt{\\\frac{a-x}{a+x}}$?"
+}
+}
+},
+{
+"cardId": "854d7428-f0ee-478f-9789-d703e1793c30",
+"originalOrder": 46,
+"originalHeading": "Extraneous Roots in Inverse Trig Equations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to PROCEDURAL",
+"Refined constraints terminology"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 53,
+"heading": "Procedural Rule: Extraneous Roots in Inverse Equations",
+"back": "## The Rule\nWhenever solving an algebraic equation involving inverse trigonometric functions (e.g., $2\\\tan^{-1}(\\\cos x) = \\\tan^{-1}(2\\\csc x)$), operations like squaring both sides or wrapping the equation in standard trigonometric functions often generate **extraneous roots**.\n\n## Mandatory Final Step\nYou MUST substitute every candidate solution back into the original equation to mathematically verify that it does not violate the principal value branch domains or result in structurally impossible equalities (e.g., negative expressions equated to principal positive branches).",
+"mnemonic": "Solve, then Verify.",
+"standardMeta": {
+"question": "What is the mandatory final step when solving algebraic equations involving inverse trigonometric functions to prevent mark deduction?"
+}
+}
+},
+{
+"cardId": "075d8ba7-4e1d-4039-8756-457e1cf93290",
+"originalOrder": 51,
+"originalHeading": "Extreme Values Principle (Inverse Sine Equations)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added strict domain boundary constraint for variables"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 54,
+"heading": "Extreme Values Principle: Inverse Sine Equality",
+"back": "## The Concept\nThe absolute maximum possible output for any single inverse sine function is exactly $\\\frac{\\\pi}{2}$ (occurring strictly at $x=1$).\n\n## The Resolution Logic\nBecause the maximum value of each individual term is $\\\frac{\\\pi}{2}$, the ONLY mathematical way their sum can equal $\\\frac{3\\\pi}{2}$ is if **every single term** operates simultaneously at its absolute maximum.\n\n## Conclusion\n$x = 1$, $y = 1$, and $z = 1$ simultaneously.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x, y, z \\\in [-1, 1]$.",
+"mnemonic": "If the sum is maxed out, every piece is maxed out.",
+"standardMeta": {
+"question": "What is the mathematical Extreme Values Principle resolution for an equation identically structured as $\\\sin^{-1} x + \\\sin^{-1} y + \\\sin^{-1} z = \\\frac{3\\\pi}{2}$?"
+}
+}
+},
+{
+"cardId": "f33bc34f-cc00-4c06-aa0d-8b41539bbaf7",
+"originalOrder": 52,
+"originalHeading": "Extreme Values Principle (Inverse Cosine Equations)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Added strict domain boundary constraint"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 55,
+"heading": "Extreme Values Principle: Inverse Cosine Equality",
+"back": "## The Concept\nThe absolute maximum possible output for any single inverse cosine function is exactly $\\\pi$ (occurring strictly at $x=-1$).\n\n## The Resolution Logic\nBecause the maximum value of each individual term is $\\\pi$, the total sum can only reach $3\\\pi$ if every single function outputs its absolute maximum simultaneously.\n\n## Conclusion\n$x = -1$, $y = -1$, and $z = -1$ simultaneously.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x, y, z \\\in [-1, 1]$.",
+"mnemonic": "Cosine maxes out at Pi when the input is negative one.",
+"standardMeta": {
+"question": "What is the mathematical Extreme Values Principle resolution for an equation identically structured as $\\\cos^{-1} x + \\\cos^{-1} y + \\\cos^{-1} z = 3\\\pi$?"
+}
+}
+},
+{
+"cardId": "3755066d-5900-47d7-8701-5822bba0e757",
+"originalOrder": 53,
+"originalHeading": "Telescopic Series Simplification (Inverse Tangent)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted pure formula identity to remove cognitive bloat from procedural steps"
+],
+"vettingNotes": "Split into Formula card (Order 56) and SOP card (Order 57) for atomic review.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 56,
+"heading": "Telescopic Difference Identity (Inverse Tangent)",
+"back": "## Component Anatomy\n- **$a_2 - a_1$:** The numerical difference mapping to the numerator (representing the common difference $d$ in an AP, or simply consecutive terms).\n- **$1 + a_1a_2$:** The product of those same two terms added to 1, perfectly matching the $\\\tan(A-B)$ compound structure.\n\n## Boundary Conditions / Domain\n- $a_1, a_2 > 0$ generally applies to prevent quadrant issues, heavily utilized in Miscellaneous series summation evaluations.",
+"mnemonic": "Split the top, multiply the bottom.",
+"formulaMeta": {
+"formula": "\\tan^{-1}\\left(\\frac{a_2 - a_1}{1 + a_1a_2}\\right) = \\tan^{-1}(a_2) - \\tan^{-1}(a_1)",
+"description": "The algebraic difference identity utilized to convert a complex inverse tangent series term into a telescopic format.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 53,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created isolated SOP card mapped from previous SPLIT"
+],
+"vettingNotes": "Second half of the telescopic split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 57,
+"heading": "SOP: Evaluating Telescopic Inverse Tangent Series",
+"back": "## Procedural SOP\n1. **Identify:** Isolate a generic term in the infinite/finite series, typically of the form $\\\tan^{-1}\\\left(\\\frac{d}{1 + a_n a_{n-1}}\\\right)$.\n2. **Rewrite:** Mathematically rewrite the numerator $d$ strictly as the explicit difference of the multiplicative factors found in the denominator: $(a_n - a_{n-1})$.\n3. **Split:** Apply the reverse difference identity to split the single term into two distinct functions: $\\\tan^{-1}(a_n) - \\\tan^{-1}(a_{n-1})$.\n4. **Collapse:** Write out the first few terms (e.g., $n=1, n=2, n=3$) and observe the diagonal mathematical cancellation (telescoping), leaving only the first and last boundary terms.",
+"standardMeta": {
+"question": "What is the 4-step step-by-step algebraic procedure to evaluate a complex summation series involving inverse tangent functions using the telescopic method?"
+}
+}
+},
+{
+"cardId": "80d5a0e8-e296-49c6-9b44-c640fe4d3f97",
+"originalOrder": 56,
+"originalHeading": "Inequality Solving (arcsin x > arccos x)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split heavy procedural derivation into separate atomic card"
+],
+"vettingNotes": "Split into Identity (Order 58) and Algorithmic SOP (Order 59).",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 58,
+"heading": "Inequality Resolution: arcsin x > arccos x",
+"back": "## Component Anatomy\n- **$x$:** The numerical ratio bound strictly by the natural domain of inverse sine and cosine.\n\n## Boundary Conditions / Domain\n- **Strict Absolute Domain:** $x \\\in [-1, 1]$.\n- The mathematical cross-over point where $\\\sin^{-1} x = \\\cos^{-1} x$ occurs exactly at $x = \\\frac{1}{\\\sqrt{2}}$ (corresponding to the angle $\\\frac{\\\pi}{4}$). Because inverse sine is strictly increasing and inverse cosine is strictly decreasing, the sine inverse graph takes the algebraic lead past this root.",
+"formulaMeta": {
+"formula": "x \\in \\left(\\frac{1}{\\sqrt{2}}, 1\\right]",
+"description": "The algebraically solved bounding interval for the fundamental inequality $\\\sin^{-1} x > \\\cos^{-1} x$.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 56,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created isolated SOP card for solving inverse trigonometric inequalities"
+],
+"vettingNotes": "Second half of the inequality split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 59,
+"heading": "SOP: Solving Inverse Trigonometric Inequalities",
+"back": "## Algorithmic SOP\n1. **Homogenize:** Start with the inequality (e.g., $\\\sin^{-1} x > \\\cos^{-1} x$) and use the complementary identity to rewrite it strictly in terms of one function: $\\\sin^{-1} x > \\\frac{\\\pi}{2} - \\\sin^{-1} x$.\n2. **Isolate:** Combine algebraic terms and isolate the inverse function: $2\\\sin^{-1} x > \\\frac{\\\pi}{2} \\\implies \\\sin^{-1} x > \\\frac{\\\pi}{4}$.\n3. **Map:** Apply the corresponding standard trigonometric function to both sides. *Warning:* Ensure you verify whether the applied function is increasing or decreasing to manage the inequality sign properly: $x > \\\sin(\\\frac{\\\pi}{4}) \\\implies x > \\\frac{1}{\\\sqrt{2}}$.\n4. **Intersect (CRITICAL):** Mathematically intersect your resulting inequality with the **absolute natural domain** of the original functions (e.g., $x \\\le 1$). Final Result: $x \\\in (\\\frac{1}{\\\sqrt{2}}, 1]$.",
+"standardMeta": {
+"question": "What is the algorithmic Standard Operating Procedure for formally solving an inequality linking disparate inverse trigonometric functions?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

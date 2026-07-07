@@ -1,0 +1,1653 @@
+{
+"deckId": "acd3fd80-15bb-4927-8d75-a5627706cfb4",
+"cards": [
+{
+"cardId": "3c099c1b-5b7c-492a-967f-15ee9618c3a2",
+"originalOrder": 1,
+"originalHeading": "Definition of a Determinant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated tags",
+"Refined heading"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 1,
+"heading": "Formal Definition of a Determinant",
+"back": "## Definition\nA determinant is a unique scalar mathematical function that associates a specific real or complex number to a given square matrix.\n\n## Notation\nFor a square matrix $A$, its determinant is strictly denoted by $|A|$, $\det(A)$, or $\Delta$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Determinants are algebraically defined **only** for square matrices ($n \times n$). Rectangular matrices mathematically do not possess a determinant.",
+"mnemonic": "Determinants demand squares.",
+"standardMeta": {
+"question": "What is the formal mathematical definition of a determinant, and what strict structural constraint is placed on its input matrix?"
+}
+}
+},
+{
+"cardId": "cbd70f41-8262-41a7-bca8-f51c2e68ebf2",
+"originalOrder": 2,
+"originalHeading": "Notation Trap: Determinant vs. Modulus",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 2,
+"heading": "Notation Trap: Determinant vs. Absolute Value (Modulus)",
+"back": "## The Trap\nThe notation $|A|$ visually looks exactly identical to the algebraic absolute value (modulus) function $|x|$.\n\n## The Rule\nIn matrix algebra, if $A$ is a matrix, the notation $|A|$ MUST be read exclusively as 'the determinant of A'.\n\n## Significance\nA determinant computation can absolutely evaluate to a **negative scalar number**, whereas a mathematical modulus is inherently non-negative. You must never arbitrarily drop negative signs when evaluating determinant brackets.",
+"mnemonic": "Bars on a matrix mean compute, not make positive.",
+"standardMeta": {
+"question": "Why is it a critical mathematical error to interpret the matrix notation $|A|$ as an absolute value or modulus?"
+}
+}
+},
+{
+"cardId": "8d185775-5100-47dd-b924-ab31df038919",
+"originalOrder": 3,
+"originalHeading": "Evaluating a 2x2 Determinant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Structured back field"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 3,
+"heading": "Evaluating a 2x2 Determinant",
+"back": "## Component Anatomy\n- **$a, d$:** Elements belonging to the main (leading) diagonal.\n- **$b, c$:** Elements belonging to the anti-diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The order of operations is rigid. The product of the main diagonal MUST be computed first, strictly subtracting the product of the anti-diagonal. Reversing this yields the negative of the correct answer.",
+"mnemonic": "Main minus Anti (Down-Right minus Up-Right).",
+"formulaMeta": {
+"formula": "\\begin{vmatrix} a & b \\ c & d \\end{vmatrix} = ad - bc",
+"description": "The foundational algebraic formula utilized for evaluating the scalar determinant of any 2x2 square matrix.",
+"derivation": "## Algorithmic SOP:\n1. Multiply the top-left element algebraically by the bottom-right element ($a \times d$).\n2. Multiply the bottom-left element algebraically by the top-right element ($c \times b$).\n3. Strictly subtract the second computed product from the first computed product."
+}
+}
+},
+{
+"cardId": "044f54a2-0831-40b4-90d3-dace6adb2923",
+"originalOrder": 4,
+"originalHeading": "Sign Convention for Determinant Expansion",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 4,
+"heading": "Sign Convention Pre-Factor for Determinant Expansion",
+"back": "## Component Anatomy\n- **$i$:** The structural row index of the specific matrix element.\n- **$j$:** The structural column index of the specific matrix element.\n\n## Boundary Conditions / Domain\n- This alternating sign rule mathematically acts as a mandatory pre-factor when multiplying an extracted element by its corresponding minor during a full determinant expansion.\n- Visually creates a checkered pattern starting with `+` at $(1,1)$.",
+"mnemonic": "Checkered flag of plus and minus.",
+"formulaMeta": {
+"formula": "(-1)^{i+j}",
+"description": "The algebraic expression determining the alternating positive/negative sign pre-factor for an element during determinant expansion.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "199d8de5-4665-4a47-bdfb-c9356cba3415",
+"originalOrder": 5,
+"originalHeading": "Optimal Expansion Strategy for Determinants",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 5,
+"heading": "Strategy: Optimal Determinant Expansion",
+"back": "## The Concept\nA determinant of order $n$ can legally be expanded algebraically along any of its $n$ rows or $n$ columns, and every path is mathematically guaranteed to yield the exact same final scalar value.\n\n## Optimal Strategy\nTo minimize cognitive load, computational time, and arithmetic errors, ALWAYS choose to expand along the specific row or column that contains the **maximum number of zeros**.\n\n## Why?\nExpanding along an element with a value of $0$ mathematically zeroes out that entire term, completely bypassing the need to compute its corresponding, often complex, minor determinant.",
+"mnemonic": "Follow the Zeros.",
+"standardMeta": {
+"question": "What is the optimal mathematical strategy when deciding which row or column to expand a determinant along, and what is the underlying algebraic reason?"
+}
+}
+},
+{
+"cardId": "7dd5ce0f-9722-4edc-bb46-b3da29ac28c4",
+"originalOrder": 6,
+"originalHeading": "Determinant Property 1: Transpose Invariance",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 6,
+"heading": "Determinant Property 1: Transpose Invariance",
+"back": "## Component Anatomy\n- **$A$:** A valid square matrix.\n- **$A^T$ or $A'$:** The geometric transpose of the matrix where rows systematically become columns.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Strict equality holds. Geometrically turning the rows into columns does not alter the underlying scalar value of the determinant in any way.",
+"formulaMeta": {
+"formula": "\\det(A) = \\det(A^T)",
+"description": "Property stating that the determinant of a square matrix A evaluates to the exact same scalar as the determinant of its transpose.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "c619947b-fdc9-48f6-8a8f-5a5a402360c3",
+"originalOrder": 7,
+"originalHeading": "Determinant Property 2: Row/Column Switching",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 7,
+"heading": "Determinant Property 2: Row/Column Interchanging",
+"back": "## The Algebraic Rule\nIf ANY two rows (or any two columns) of a determinant are explicitly interchanged, the final scalar value of the determinant strictly **flips its sign** (it is mathematically multiplied by $-1$).\n\n## Notation\nIf $R_1 \leftrightarrow R_2$, then $\Delta_{new} = -\Delta_{old}$.\n\n## Repeated Application\nIf you perform two distinct, sequential swaps, the sign algebraically flips twice ($-1 \times -1 = +1$), perfectly restoring the original sign of the determinant.",
+"mnemonic": "Every swap costs a minus sign.",
+"standardMeta": {
+"question": "What happens mathematically to the scalar value of a determinant if you explicitly interchange two of its rows or two of its columns?"
+}
+}
+},
+{
+"cardId": "13e64955-a3e3-435c-b9a0-fad343e442ca",
+"originalOrder": 8,
+"originalHeading": "Determinant Property 3: Identical or Proportional Rows",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split 4-step derivation into a separate procedural card to reduce bloat",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation SOP split to Order 9.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 8,
+"heading": "Determinant Property 3: Identical or Proportional Rows",
+"back": "## Component Anatomy\n- **$R_i, R_j$:** Any two distinct geometric rows (or distinct columns) structurally present within the determinant.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This condition is immediately satisfied if the corresponding elements are perfectly identical ($R_i = R_j$) OR if they are simply exact scalar multiples of each other ($R_i = k R_j$).",
+"mnemonic": "Twins cancel out to zero.",
+"formulaMeta": {
+"formula": "\\det(A) = 0",
+"description": "The evaluation result of a determinant if any two of its rows (or columns) are perfectly identical or proportional.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 8,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card specifically for the algebraic proof of Property 3"
+],
+"vettingNotes": "Second half of Property 3 split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 9,
+"heading": "SOP: Proof of Zero Determinant for Identical Rows",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically assume a determinant structurally denoted as $\Delta$ possesses two perfectly identical rows.\n2. Geometrically swap those two identical rows. By Determinant Property 2, the newly formed determinant must equal $-\Delta$.\n3. However, since the swapped rows were physically identical, the mathematical matrix hasn't changed at all. Therefore, $\Delta = -\Delta$.\n4. Algebraically rearranging this equation yields $2\Delta = 0$, which mathematically mandates that $\Delta = 0$.",
+"standardMeta": {
+"question": "What is the formal 4-step algebraic proof demonstrating that a determinant with two perfectly identical rows must evaluate strictly to zero?"
+}
+}
+},
+{
+"cardId": "ef661dac-a2d4-433f-a060-9a073ff5b9f6",
+"originalOrder": 9,
+"originalHeading": "Scalar Multiplication Trap: Matrices vs. Determinants",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 10,
+"heading": "Scalar Multiplication: Matrices vs. Determinants",
+"back": "## In Matrix Algebra\nMultiplying a mathematical matrix by a scalar $k$ algebraically multiplies **every single element** residing inside the entire geometric grid by $k$.\n\n## In Determinant Algebra (Property 4)\nA scalar multiplier $k$ existing outside a determinant strictly multiplies the elements of **only ONE single row** (or one single column).\n\n## Corollary (Factoring Trap)\nWhen mathematically extracting a common factor *out* of a determinant, you extract it from a single row or column at a time, NEVER from the entire grid at once.",
+"mnemonic": "Matrix = Carpet Bombing. Determinant = Sniper Rifle (One row at a time).",
+"standardMeta": {
+"question": "Explain the strict mathematical distinction between algebraically multiplying a Matrix by a scalar 'k' versus multiplying a Determinant by a scalar 'k'."
+}
+}
+},
+{
+"cardId": "a9775448-943a-4108-bd4e-627755181715",
+"originalOrder": 10,
+"originalHeading": "Determinant of a Scaled Matrix",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 4-step derivation into a dedicated procedural SOP card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation SOP split to Order 12.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 11,
+"heading": "Determinant of a Scaled Matrix",
+"back": "## Component Anatomy\n- **$k$:** The external scalar multiplier applied to the matrix structure.\n- **$n$:** The exact geometric order (dimension) of the square matrix $A$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A$ must structurally be a square matrix of order $n \times n$.\n- This is a highly tested 1-mark objective question archetype across board exams and JEE.",
+"mnemonic": "Scalar escapes with a power.",
+"formulaMeta": {
+"formula": "\\det(kA) = k^n \\det(A)",
+"description": "The algebraic formula relating the determinant of a scaled matrix |kA| to the original determinant |A|.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 10,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card for the formal derivation of the scaled determinant formula"
+],
+"vettingNotes": "Second half of the scaled matrix split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 12,
+"heading": "SOP: Derivation of the Scaled Matrix Determinant",
+"back": "## Step-by-Step Formal Proof\n1. By definition, the matrix $kA$ signifies that *every* single element in the geometric $n \times n$ grid is algebraically multiplied by $k$.\n2. When converting this matrix structurally into a determinant, we must extract the common factor $k$ strictly one row at a time (via Determinant Property 4).\n3. Because the matrix inherently possesses exactly $n$ rows, we are mathematically forced to extract $k$ exactly $n$ distinct times.\n4. This continuous extraction algebraically results in $k \times k \times \dots \times k = k^n$ factoring completely outside the newly formed determinant.",
+"standardMeta": {
+"question": "What is the 4-step algebraic derivation proving the scalar extraction formula $\det(kA) = k^n \det(A)$?"
+}
+}
+},
+{
+"cardId": "409c56ce-b6e3-4235-b1d8-52680070ce55",
+"originalOrder": 11,
+"originalHeading": "Determinant Property 5: Row/Column Splitting",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX in massive formula block"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 13,
+"heading": "Determinant Property 5: Row/Column Splitting",
+"back": "## Component Anatomy\n- If scalar elements of a single row or column are algebraically expressed as sums (e.g., $a_i + \lambda_i$).\n- The main determinant can mathematically split into a strict addition sum of two distinct determinants.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** Linearity algebraically holds **strictly one row at a time**.\n- When splitting based on one designated row, all the *other* rows MUST remain perfectly identical in both of the newly generated determinants.\n- Do NOT attempt to split multiple rows simultaneously in a single step.",
+"formulaMeta": {
+"formula": "\\begin{vmatrix} a_1+\\lambda_1 & b_1 & c_1 \\ a_2+\\lambda_2 & b_2 & c_2 \\ a_3+\\lambda_3 & b_3 & c_3 \\end{vmatrix} = \\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \\end{vmatrix} + \\begin{vmatrix} \\lambda_1 & b_1 & c_1 \\ \\lambda_2 & b_2 & c_2 \\ \\lambda_3 & b_3 & c_3 \\end{vmatrix}",
+"description": "Property 5: The formula demonstrating how a determinant can be split into a sum of two determinants if a specific row is expressed as a sum of two terms.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "cbf88dff-cca6-4aa8-acb7-dafdc8f84554",
+"originalOrder": 12,
+"originalHeading": "Determinant Property 6: Operation Invariance",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 4-step proof SOP into a dedicated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation SOP split to Order 15.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 14,
+"heading": "Determinant Property 6: Elementary Operation Invariance",
+"back": "## Component Anatomy\n- **$R_i$:** The structural target row being algebraically modified.\n- **$kR_j$:** The scaled reference row being added to the target.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $j \neq i$. You mathematically cannot add a scalar multiple of a row directly to itself as an elementary operation.\n- **Application:** This is the ultimate 'workhorse' algebraic property used to intentionally generate multiple zeros in a row/column before performing final determinant expansion.",
+"mnemonic": "Adding a scaled row doesn't rock the boat.",
+"formulaMeta": {
+"formula": "R_i \\to R_i + kR_j \\implies \\Delta_{new} = \\Delta_{old}",
+"description": "The elementary row operation identity that absolutely does not mathematically alter the scalar value of the determinant.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 12,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card specifically for the proof of Property 6"
+],
+"vettingNotes": "Second half of the Operation Invariance split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 15,
+"heading": "SOP: Proof of Elementary Operation Invariance",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically apply the transformation $R_1 \to R_1 + kR_2$ to an initial determinant $\Delta$.\n2. By Property 5 (Row Splitting), mathematically split this newly generated determinant into a sum of two separate determinants: the original $\Delta$ plus a secondary determinant whose first row is strictly $kR_2$.\n3. In the secondary determinant, algebraically extract the scalar $k$ from $R_1$. The matrix now possesses $R_1$ and $R_2$ as identical rows.\n4. By Property 3 (Identical Rows), the secondary determinant strictly evaluates to 0. Thus, the total sum mathematically remains exactly $\Delta$.",
+"standardMeta": {
+"question": "What is the 4-step algebraic proof demonstrating that the elementary operation $R_i \to R_i + kR_j$ does not alter the value of a determinant?"
+}
+}
+},
+{
+"cardId": "a53e6fb0-fc96-467a-ba58-86b968926447",
+"originalOrder": 13,
+"originalHeading": "Determinant of a Triangular Matrix",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 16,
+"heading": "Determinant of a Triangular Matrix",
+"back": "## Component Anatomy\n- **$a_{11}, a_{22}, \dots, a_{nn}$:** The specific scalar elements residing exactly upon the main leading diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be an upper-triangular, lower-triangular, or pure diagonal matrix (meaning all elements either completely above or completely below the main diagonal must identically evaluate to zero).",
+"mnemonic": "Triangles collapse to their diagonal.",
+"formulaMeta": {
+"formula": "\\det(A) = a_{11} \\cdot a_{22} \\cdots a_{nn}",
+"description": "The algebraic shortcut formula for evaluating the determinant of any formally triangular or diagonal matrix.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "7b678452-18da-4d82-b21e-3bd41d058e96",
+"originalOrder": 14,
+"originalHeading": "Product Rule for Determinants",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 17,
+"heading": "Product Rule for Determinants",
+"back": "## Component Anatomy\n- **$AB$:** The mathematical matrix product of structures $A$ and $B$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A$ and $B$ must strictly be square matrices possessing the **exact same structural order**.\n- **Application:** This rule allows you to mathematically evaluate determinants separately before multiplying, which heavily reduces the geometric algebraic bloat of computing the raw matrix product $AB$ first.",
+"mnemonic": "Determinant of the product is the product of determinants.",
+"formulaMeta": {
+"formula": "\\det(AB) = \\det(A)\\det(B)",
+"description": "The Product Rule linking the determinant of a matrix product directly to the determinants of the individual initial matrices.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "96a635fd-230c-4616-b162-f132b92f7388",
+"originalOrder": 15,
+"originalHeading": "Area of Triangle via Determinant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX in massive array format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"geometry"
+],
+"order": 18,
+"heading": "Area of a Triangle via Determinants",
+"back": "## Component Anatomy\n- **$(x_1, y_1), (x_2, y_2), (x_3, y_3)$:** The exact Cartesian coordinates mapping the three spatial vertices.\n- **$\frac{1}{2}$:** The standard geometric triangle area multiplier.\n- **$1, 1, 1$:** The mathematical dummy column strictly required to structurally form a valid 3x3 square matrix for determinant evaluation.\n\n## Boundary Conditions / Domain\n- **CRITICAL CONSTRAINT:** The raw algebraic evaluation of this determinant can easily yield a negative number. Because physical area is a strictly non-negative quantity, you **MUST mathematically take the absolute value** of the final determinant computation.",
+"formulaMeta": {
+"formula": "\\text{Area} = \\frac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \\end{vmatrix} \\right|",
+"description": "The foundational determinant formula utilized to algebraically compute the physical area of a triangle given its three coordinate vertices.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "759f9672-2acf-4720-a2a1-ca687799a132",
+"originalOrder": 16,
+"originalHeading": "Reverse Engineering Coordinates from Triangle Area",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 19,
+"heading": "Reverse Engineering Coordinates from Triangle Area Trap",
+"back": "## The Trap Context\nWhen an exam problem explicitly provides the absolute Area of a triangle (e.g., 35 sq units) and tasks you to algebraically find an unknown vertex coordinate (like variable $k$).\n\n## The Mathematical Rule\nYou MUST algebraically equate the structural determinant formula to **BOTH the positive and negative** values of the provided area (e.g., $\Delta = \pm 35$).\n\n## Why?\nThe raw determinant computation could have internally algebraically generated $-35$ or $+35$ before the mandatory absolute value was applied. Testing only the positive case will mathematically cause you to drop a perfectly valid spatial root.",
+"mnemonic": "Given area? Plus/Minus it.",
+"standardMeta": {
+"question": "When algebraically solving for an unknown vertex coordinate given a specific physical triangle area, what critical step must be taken with the determinant equation to avoid dropping mathematical roots?"
+}
+}
+},
+{
+"cardId": "91400408-c1f7-45b3-aea1-30f75b6bb782",
+"originalOrder": 17,
+"originalHeading": "Collinearity Test via Determinants",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Structured derivation into explicit steps"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"geometry"
+],
+"order": 20,
+"heading": "Collinearity Test via Determinants",
+"back": "## Component Anatomy\n- **$(x_1, y_1), (x_2, y_2), (x_3, y_3)$:** The Cartesian coordinates of the three points actively being spatially tested.\n\n## Boundary Conditions / Domain\n- If the determinant algebraically evaluates to exactly 0, the three spatial points strictly lie on a single 1D straight line, forming no polygon.",
+"mnemonic": "Zero area = Flat line.",
+"formulaMeta": {
+"formula": "\\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \\end{vmatrix} = 0",
+"description": "The specific algebraic determinant condition required to geometrically prove that three points are collinear.",
+"derivation": "## Geometric Derivation:\n1. Three spatial points are strictly collinear if they physically cannot form a valid 2D triangle.\n2. Mathematically, this dictates that the Area of the theoretical triangle formed by them must be identically 0.\n3. Substituting Area = 0 into the standard determinant area formula (and dividing out the 1/2) yields this exact condition."
+}
+}
+},
+{
+"cardId": "b3e9d4fc-6b12-47dc-9f75-8bc1f72f56d5",
+"originalOrder": 18,
+"originalHeading": "Equation of a Line via Determinants",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split procedural algorithmic SOP into its own card to respect cognitive boundaries",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 22.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"geometry"
+],
+"order": 21,
+"heading": "Equation of a Line via Determinants",
+"back": "## Component Anatomy\n- **$(x, y)$:** An arbitrary, variable locus coordinate point existing strictly on the line.\n- **$(x_1, y_1), (x_2, y_2)$:** The two explicitly fixed, geometrically known points constructing the line.\n\n## Boundary Conditions / Domain\n- **Application:** Mathematically expanding this determinant equation equates perfectly to deriving the standard two-point Cartesian form of a linear equation.",
+"formulaMeta": {
+"formula": "\\begin{vmatrix} x & y & 1 \\ x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\end{vmatrix} = 0",
+"description": "The determinant equation specifically utilized to algebraically derive the equation of a straight line passing strictly through two fixed known points.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 18,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card for the line derivation SOP"
+],
+"vettingNotes": "Second half of the line equation split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"geometry"
+],
+"order": 22,
+"heading": "SOP: Deriving the Equation of a Line via Determinants",
+"back": "## Step-by-Step Derivation\n1. Geometrically force the unknown line to be defined by a set of three strictly collinear points.\n2. Utilize the two structurally known fixed points $(x_1, y_1), (x_2, y_2)$ and assign one mathematically arbitrary variable point $(x,y)$ to act as the locus.\n3. Algebraically apply the strict collinearity determinant condition (set determinant identically = 0).\n4. Expand the determinant algebraically along the first row (containing the variables $x$ and $y$) to automatically generate the formal linear equation.",
+"standardMeta": {
+"question": "What is the algebraic Standard Operating Procedure (SOP) used to derive the linear equation of a straight line using determinant matrices?"
+}
+}
+},
+{
+"cardId": "d53b0f61-386d-4668-aa42-b5deedce52fc",
+"originalOrder": 19,
+"originalHeading": "Definition of a Minor",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected mathematical order constraints"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 23,
+"heading": "Definition of a Minor ($M_{ij}$)",
+"back": "## Definition\nThe minor of an individual element $a_{ij}$ residing within a determinant is strictly defined as the newly formed smaller determinant obtained by physically **deleting its entire structural $i$-th row and its entire $j$-th column**.\n\n## Mathematical Notation\nUniversally denoted by the symbol $M_{ij}$.\n\n## Boundary Conditions (Order Drop)\nIf the original primary determinant is of geometric order $n$ (where $n \ge 2$), its extracted minor $M_{ij}$ is mathematically guaranteed to be a determinant of strictly order $(n - 1)$.",
+"standardMeta": {
+"question": "What is the formal mathematical definition of the Minor ($M_{ij}$) of an element located inside a determinant?"
+}
+}
+},
+{
+"cardId": "298f6f96-2d30-4557-a129-07ef1621f4ad",
+"originalOrder": 20,
+"originalHeading": "Definition of a Cofactor",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 24,
+"heading": "Definition of a Cofactor ($A_{ij}$)",
+"back": "## Component Anatomy\n- **$A_{ij}$ (or $C_{ij}$):** The algebraic cofactor belonging to the specific element.\n- **$(-1)^{i+j}$:** The alternating sign positional pre-factor.\n- **$M_{ij}$:** The corresponding pure minor of the element.\n\n## Boundary Conditions / Domain\n- Algebraically, cofactors inherently package both the raw scalar value of the minor AND the mathematically proper sign convention required for a legal matrix expansion.",
+"mnemonic": "Cofactor is a Minor with a plus/minus badge.",
+"formulaMeta": {
+"formula": "A_{ij} = (-1)^{i+j} M_{ij}",
+"description": "The algebraic formula mathematically converting the raw Minor of an element ($M_{ij}$) strictly into its corresponding Cofactor ($A_{ij}$).",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "7ffe94aa-588c-40e2-b829-1fe0ab5f791f",
+"originalOrder": 21,
+"originalHeading": "Determinant Expansion via Cofactors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 25,
+"heading": "Determinant Expansion via Cofactors",
+"back": "## Component Anatomy\n- **$a_{11}, a_{12}, a_{13}$:** The raw scalar elements extracted from the chosen row (e.g., Row 1).\n- **$A_{11}, A_{12}, A_{13}$:** Their exact mathematically corresponding cofactors.\n\n## Boundary Conditions / Domain\n- **Universal Truth:** This algebraic identity holds strictly true for ANY chosen row or ANY chosen column.\n- The mathematical sum of the products of the scalar elements of any geometric line multiplied directly with their *own* identically indexed cofactors perfectly yields the determinant $\Delta$.",
+"mnemonic": "Match the element with its own cofactor.",
+"formulaMeta": {
+"formula": "\\Delta = a_{11}A_{11} + a_{12}A_{12} + a_{13}A_{13}",
+"description": "The structural formula representing the mathematical expansion of a 3x3 determinant $\Delta$ strictly using the elements and cofactors of its first row.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "06924815-0954-4a87-9840-6ca4401f1c66",
+"originalOrder": 22,
+"originalHeading": "Cross-Cofactor Zero Property",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 26,
+"heading": "Cross-Cofactor Zero Property",
+"back": "## The Property\nIf the scalar elements of a specific row (or column) are algebraically multiplied by the exact corresponding cofactors of **ANY OTHER** row (or column), their mathematical sum is strictly zero.\n\n## Mathematical Example\n$a_{11}A_{21} + a_{12}A_{22} + a_{13}A_{23} = 0$.\n\n## Boundary Conditions / Domain\n- **Why?** Substituting the formal cofactor expansions mathematically generates a determinant containing two perfectly identical rows. By Determinant Property 3, this always exactly evaluates to zero.",
+"mnemonic": "Mix and match rows = Zero.",
+"standardMeta": {
+"question": "What is the strict mathematical result when the elements of one row in a determinant are algebraically multiplied by the cofactors of a completely different row and summed?"
+}
+}
+},
+{
+"cardId": "9e7db721-6696-4f53-8cde-c46d041d5e09",
+"originalOrder": 23,
+"originalHeading": "Adjoint of a Matrix",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected boundary conditions for matrix order"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 27,
+"heading": "Definition: Adjoint of a Matrix",
+"back": "## Definition\nThe adjoint of a square matrix $A$ is formally defined as the **geometric transpose of the cofactor matrix** of $A$.\n\n## Notation\nUniversally denoted by $\\\text{adj}(A)$.\n\n## Execution\nTo build $\\\text{adj}(A)$, you must strictly compute the algebraic cofactor $A_{ij}$ for every single scalar element, structure them into a matrix grid, and then geometrically transpose the entire grid (swap rows and columns).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be a square matrix. Rectangular matrices do not possess adjoints.",
+"mnemonic": "Adjoint = Cofactor Matrix flipped.",
+"standardMeta": {
+"question": "What is the formal mathematical definition and structural procedure required to generate the Adjoint of a square matrix?"
+}
+}
+},
+{
+"cardId": "09e45084-0d88-4e45-bb79-ce73c26e6ce5",
+"originalOrder": 24,
+"originalHeading": "The Adjoint Product Theorem",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX",
+"Moved intuitive derivation to back field to keep derivation reserved for SOPs"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 28,
+"heading": "Theorem: The Adjoint Product",
+"back": "## Component Anatomy\n- **$A$:** A square matrix of order $n$.\n- **$\\\text{adj}(A)$:** Its corresponding generated adjoint matrix.\n- **$|A|$:** The computed scalar determinant of $A$.\n- **$I$:** The identity matrix of order $n$.\n\n## Boundary Conditions / Domain\n- **Intuitive Proof:** Multiplying row elements of $A$ with columns of $\\\text{adj}(A)$ matches elements with their *own* cofactors on the diagonal (yielding $|A|$), and matches them with *different* cofactors off-diagonal (yielding $0$).\n- The product intrinsically creates a scalar matrix where every leading diagonal element evaluates exactly to $|A|$.",
+"formulaMeta": {
+"formula": "A(\\text{adj } A) = (\\text{adj } A)A = |A|I",
+"description": "The fundamental algebraic theorem directly linking the multiplicative product of a square matrix A and its Adjoint to its determinant and the identity matrix.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "b2b3b5e0-f247-4636-b183-21391e69d3bc",
+"originalOrder": 25,
+"originalHeading": "Determinant of the Adjoint Matrix",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted lengthy 5-step derivation to an isolated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 30.",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 29,
+"heading": "Formula: Determinant of an Adjoint Matrix",
+"back": "## Component Anatomy\n- **$|A|$:** The computed scalar determinant of the original matrix.\n- **$n$:** The exact geometric order of the square matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ must be a square matrix of order $n \\\ge 2$.\n- **Shortcut Warning:** You should virtually NEVER manually compute the full adjoint grid just to find its determinant. Use this shortcut algebraically.\n- For a standard $3 \\\times 3$ matrix ($n=3$), the formula simplifies instantly to $|\\\text{adj } A| = |A|^2$.",
+"formulaMeta": {
+"formula": "|\\text{adj } A| = |A|^{n-1}",
+"description": "The algebraic shortcut formula utilized to directly compute the scalar determinant of an adjoint matrix without building the adjoint itself.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 25,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card explicitly detailing the algebraic proof"
+],
+"vettingNotes": "Second half of the adjoint determinant split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 30,
+"heading": "SOP: Deriving the Determinant of an Adjoint Matrix",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically initiate with the fundamental Adjoint Product Theorem: $A(\\\text{adj } A) = |A|I$.\n2. Apply the mathematical determinant operation to both entire sides: $|A(\\\text{adj } A)| = ||A|I|$.\n3. Utilize the determinant product rule ($|AB| = |A||B|$) on the LHS: $|A| \\\cdot |\\\text{adj } A| = ||A|I|$.\n4. Extract the scalar quantity $|A|$ geometrically from the $n \\\times n$ identity matrix using the scalar expansion rule ($|kI| = k^n|I|$): $|A| \\\cdot |\\\text{adj } A| = |A|^n |I|$.\n5. Since the determinant of the identity matrix $|I| = 1$, divide both sides algebraically by $|A|$ to cleanly isolate the target: $|\\\text{adj } A| = |A|^{n-1}$.",
+"standardMeta": {
+"question": "What is the 5-step formal algebraic proof demonstrating that the determinant of an adjoint matrix $|\\\text{adj } A|$ is equal to $|A|^{n-1}$?"
+}
+}
+},
+{
+"cardId": "fd1e1716-7141-4f4d-9960-cc5764623983",
+"originalOrder": 26,
+"originalHeading": "Adjoint of a 2x2 Matrix (Shortcut)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX array format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 31,
+"heading": "Shortcut: Adjoint of a 2x2 Matrix",
+"back": "## Component Anatomy\n- **$a, d$:** The original main diagonal elements.\n- **$b, c$:** The original anti-diagonal elements.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This geometric shortcut is strictly mathematically valid ONLY for exactly $2 \\\times 2$ matrices. Attempting to apply a similar visual rule to $3 \\\times 3$ matrices will fail completely.",
+"mnemonic": "Swap the Main, Negate the Anti.",
+"formulaMeta": {
+"formula": "\\text{adj } A = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}",
+"description": "The direct algebraic shortcut formula utilized to bypass cofactor calculations and instantly write the adjoint of a 2x2 matrix.",
+"derivation": "## Algorithmic SOP:\n1. Physically swap the geometric positions of the scalar elements residing on the main diagonal ($a$ and $d$).\n2. Retain the exact original positions of the scalar elements resting on the anti-diagonal ($b$ and $c$), but algebraically multiply both of them by $-1$."
+}
+}
+},
+{
+"cardId": "b2d51c1a-91f3-4a29-8434-304976c2577a",
+"originalOrder": 27,
+"originalHeading": "Singular vs. Non-Singular Matrices",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Changed classification to DEFINITION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 32,
+"heading": "Definition: Singular vs. Non-Singular Matrices",
+"back": "## Singular Matrix\nA square matrix $A$ is formally defined as **singular** if its evaluated determinant is identically zero ($|A| = 0$).\n\n## Non-Singular Matrix\nA square matrix $A$ is formally defined as **non-singular** if its evaluated determinant is strictly a non-zero value ($|A| \\\neq 0$).\n\n## Mathematical Significance\nA matrix is invertible (i.e., mathematically possesses an inverse) **if and only if** it is officially classified as a non-singular matrix. Singular matrices completely destroy independent vector information and cannot be inverted.",
+"mnemonic": "Singular = Single point (Zero determinant).",
+"standardMeta": {
+"question": "What is the strict determinant-based mathematical condition that distinguishes a singular matrix from a non-singular matrix, and why is it critical for linear algebra?"
+}
+}
+},
+{
+"cardId": "c602a71a-1ba4-4e15-b748-885977d9d61e",
+"originalOrder": 28,
+"originalHeading": "Inverse of a Matrix via Adjoint",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 4-step proof SOP into a separate procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 34.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 33,
+"heading": "Inverse of a Matrix via Adjoint",
+"back": "## Component Anatomy\n- **$A^{-1}$:** The unique mathematical inverse of matrix $A$.\n- **$|A|$:** The scalar determinant of the original matrix $A$.\n- **$\\\text{adj}(A)$:** The adjoint matrix grid.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|A| \\\neq 0$. If the determinant evaluates to exactly zero, the algebraic scalar division fails, proving the matrix is singular and technically has no inverse.",
+"mnemonic": "Inverse is Adjoint divided by Determinant.",
+"formulaMeta": {
+"formula": "A^{-1} = \\frac{1}{|A|} \\text{adj}(A)",
+"description": "The standard algebraic formula heavily utilized to explicitly calculate the inverse of a non-singular square matrix A using its adjoint and determinant.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created isolated procedural card for inverse derivation"
+],
+"vettingNotes": "Second half of the inverse formula split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 34,
+"heading": "SOP: Proof of Inverse via Adjoint",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically recall the foundational Adjoint Product Theorem: $A(\\\text{adj } A) = |A|I$.\n2. Divide both complete sides by the algebraic scalar $|A|$ (operating strictly under the constraint that $|A| \\\neq 0$): $A \\\left( \\\frac{1}{|A|} \\\text{adj } A \\\right) = I$.\n3. Leverage the fundamental definition of an inverse ($AB = I \\\implies B = A^{-1}$). Since matrix $A$ multiplied by the bracketed term yields the identity $I$, the bracketed term MUST algebraically equal $A^{-1}$.\n4. Therefore, it is conclusively proven that $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$.",
+"standardMeta": {
+"question": "What is the 4-step formal algebraic proof used to definitively derive the inverse matrix formula $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$?"
+}
+}
+},
+{
+"cardId": "a2e39e52-eca2-47c2-b138-741e8fad8a14",
+"originalOrder": 29,
+"originalHeading": "Closed-Form Inverse of a 2x2 Matrix",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX array format"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 35,
+"heading": "Closed-Form Inverse of a 2x2 Matrix",
+"back": "## Component Anatomy\n- **$ad - bc$:** The expanded determinant value of the initial $2 \\\times 2$ matrix.\n- **$\\\begin{bmatrix} d & -b \\\\\\\\ -c & a \\\end{bmatrix}$:** The rapidly assembled shortcut adjoint matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $ad - bc \\\neq 0$. The geometric matrix must structurally be non-singular to permit the scalar division.",
+"formulaMeta": {
+"formula": "A^{-1} = \\frac{1}{ad - bc} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}",
+"description": "The complete, closed-form algebraic formula utilized to rapidly calculate the inverse of a generic 2x2 matrix.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "5ebe15ef-169f-4d2b-afab-ec1c3695922e",
+"originalOrder": 30,
+"originalHeading": "Determinant of an Inverse Matrix",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 4-step derivation into an isolated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 37.",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 36,
+"heading": "Formula: Determinant of an Inverse Matrix",
+"back": "## Component Anatomy\n- **$|A^{-1}|$:** The evaluated scalar determinant of the fully inverted matrix.\n- **$|A|$:** The evaluated scalar determinant of the original non-inverted matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix ($|A| \\\neq 0$). Otherwise, the inverse mathematically does not exist, and the fraction is strictly undefined.",
+"mnemonic": "Determinant of inverse is inverse of determinant.",
+"formulaMeta": {
+"formula": "|A^{-1}| = \\frac{1}{|A|}",
+"description": "The identity formula directly linking the mathematical determinant of an inverted matrix to the reciprocal of the determinant of its original matrix.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 30,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card explicitly detailing the inverse determinant proof"
+],
+"vettingNotes": "Second half of the inverse determinant split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 37,
+"heading": "SOP: Proof of the Determinant of an Inverse Matrix",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically start strictly with the foundational definition of an inverse matrix: $A A^{-1} = I$.\n2. Apply the determinant operation to both entire geometric sides: $|A A^{-1}| = |I|$.\n3. Apply the determinant product separation rule ($|AB| = |A||B|$) and recognize that the determinant of an identity matrix $|I| = 1$. The equation becomes: $|A| \\\cdot |A^{-1}| = 1$.\n4. Algebraically divide by $|A|$ to isolate the target: $|A^{-1}| = \\\frac{1}{|A|}$.",
+"standardMeta": {
+"question": "What is the 4-step formal mathematical proof demonstrating that the determinant of an inverse matrix evaluates to exactly $1/|A|$?"
+}
+}
+},
+{
+"cardId": "617118c1-74b8-4439-946e-d03674785b01",
+"originalOrder": 31,
+"originalHeading": "Adjoint of an Adjoint Matrix",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "MEMORY",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 38,
+"heading": "Formula: Adjoint of an Adjoint Matrix",
+"back": "## Component Anatomy\n- **$|A|^{n-2}$:** The determinant raised strictly to the geometric order minus two, mathematically acting purely as a scalar multiplier.\n- **$A$:** The original initial matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix of order $n \\\ge 2$.\n- **Derivation Logic:** It is derived algebraically from replacing $A$ with $\\\text{adj } A$ in the standard adjoint product theorem and substituting $|\\\text{adj } A| = |A|^{n-1}$.\n- This is heavily tested as an immediate shortcut in JEE objective formats.",
+"mnemonic": "Double adjoint scales the original.",
+"formulaMeta": {
+"formula": "\\text{adj}(\\text{adj } A) = |A|^{n-2} A",
+"description": "The advanced algebraic identity shortcut for rapidly finding the resultant matrix when taking the adjoint of an already adjointed matrix.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "f4eaf2fc-fe6d-446e-a1ea-4e0868803438",
+"originalOrder": 32,
+"originalHeading": "Inverse of a Transposed Matrix",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 39,
+"heading": "Identity: Inverse of a Transposed Matrix",
+"back": "## Component Anatomy\n- **$(A^T)^{-1}$:** The mathematical inverse of the transposed matrix.\n- **$(A^{-1})^T$:** The geometric transpose of the inverted matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a formally non-singular square matrix. If it is singular, neither operational side algebraically exists.",
+"mnemonic": "Transpose and Inverse commute.",
+"formulaMeta": {
+"formula": "(A^T)^{-1} = (A^{-1})^T",
+"description": "The fundamental algebraic identity dictating that the operations of matrix transposition and matrix inversion can be safely commuted.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "429b260b-35ea-40c6-a00a-6f99fb276eff",
+"originalOrder": 33,
+"originalHeading": "Matrix Form of a Linear System",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to CONCEPT",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 40,
+"heading": "Matrix Form of a Linear System",
+"back": "## Component Anatomy\n- **$A$:** The isolated coefficient matrix (containing strictly the algebraic multipliers of the variables).\n- **$X$:** The geometric column matrix of unknowns (e.g., $[x, y, z]^T$).\n- **$B$:** The geometric column matrix of constant terms explicitly extracted from the RHS of the equations.\n\n## Boundary Conditions / Domain\n- **Procedural Trap:** The equations MUST be strictly algebraically arranged into standard formal order ($ax + by + cz = d$) before safely extracting coefficients into matrix $A$. Missing variables must be assigned a coefficient of $0$.",
+"formulaMeta": {
+"formula": "AX = B",
+"description": "The standard universal matrix equation used to compactly represent any full system of linear equations.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "072e7e61-c5b3-4662-8c86-a11a2cb0e966",
+"originalOrder": 34,
+"originalHeading": "Matrix Method for Unique Solution",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 5-step computational SOP into an isolated procedural card to adhere to atomic knowledge rules",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Algorithmic SOP split to Order 42.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 41,
+"heading": "Matrix Method: Solving for a Unique Solution",
+"back": "## Component Anatomy\n- **$X$:** The targeted solution column matrix housing the evaluated values of the variables.\n- **$A^{-1}$:** The inverse of the structural coefficient matrix.\n- **$B$:** The column matrix containing the equation constants.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This unique exact solution mathematically ONLY exists if matrix $A$ is non-singular ($|A| \\\neq 0$).",
+"mnemonic": "X marks the spot, Inverse hits the B.",
+"formulaMeta": {
+"formula": "X = A^{-1}B",
+"description": "The foundational algebraic formula used to definitively solve a linear system AX = B when the coefficient matrix A is non-singular.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 34,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card explicitly detailing the full matrix solution algorithm"
+],
+"vettingNotes": "Second half of the Unique Solution split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 42,
+"heading": "SOP: Solving a System via Matrix Method",
+"back": "## Algorithmic SOP\n1. Algebraically compute the exact determinant $\\\Delta = |A|$. Strictly verify it evaluates to a non-zero number.\n2. Build the full geometric adjoint matrix $\\\text{adj}(A)$ by calculating and transposing all corresponding cofactors.\n3. Algebraically calculate the inverse matrix utilizing $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$.\n4. Execute formal matrix dot-product multiplication specifically between the square matrix $A^{-1}$ and the column matrix $B$.\n5. Geometrically equate the newly computed elements within the resultant column directly to the variable elements located in column matrix $X$.",
+"standardMeta": {
+"question": "What is the 5-step Standard Operating Procedure (SOP) utilized to fully solve a 3x3 system of linear equations using the standard Matrix Method?"
+}
+}
+},
+{
+"cardId": "2d3afd49-6946-4d57-a602-d8b7744edcc1",
+"originalOrder": 35,
+"originalHeading": "Consistency Test: Inconsistent System (No Solution)",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 43,
+"heading": "Consistency Test: Inconsistent System (No Solution)",
+"back": "## The Setup\nGiven the system $AX = B$, you algorithmically evaluate the coefficient matrix to find it is purely singular ($|A| = 0$).\n\n## The Secondary Test\nYou MUST then compute the specific matrix product **$(\\\text{adj } A)B$**.\n\n## The Failure Condition\nIf $(\\\text{adj } A)B \\\neq O$ (meaning the mathematical product does NOT yield a pure zero matrix), then the system is strictly classified as **inconsistent**.\n\n## Physical Result\nThe algebraic system possesses absolutely **no solution** (this is the geometric equivalent of physically parallel, non-intersecting planes or lines).",
+"mnemonic": "Determinant zero, Adjoint-B non-zero = Broken system.",
+"standardMeta": {
+"question": "What is the mandatory two-part mathematical test required to definitively algebraically prove that a system of linear equations is inconsistent and possesses no solution?"
+}
+}
+},
+{
+"cardId": "59bc44bd-5258-408f-8137-d4600701d639",
+"originalOrder": 36,
+"originalHeading": "Consistency Test: Infinite Solutions",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 44,
+"heading": "Consistency Test: Infinite Solutions",
+"back": "## The Setup\nGiven the specific system $AX = B$, you mathematically evaluate the coefficient matrix and determine it is singular ($|A| = 0$).\n\n## The Secondary Test\nYou execute the computation for the product **$(\\\text{adj } A)B$**.\n\n## The Overlap Condition\nIf $(\\\text{adj } A)B = O$ (meaning it perfectly yields a pure zero matrix), then the system may be logically either **consistent (with infinitely many solutions)** or strictly inconsistent.\n\n## Physical Result\nWithin standard NCERT boundaries, this evaluation primarily models structurally overlapping lines or planes, predictably yielding mathematically infinite distinct solutions.",
+"mnemonic": "Double Zero (Det=0, Product=0) = Infinite possibilities.",
+"standardMeta": {
+"question": "Under what precise two-part mathematical condition is a singular system of linear equations heavily considered to possess infinitely many valid solutions?"
+}
+}
+},
+{
+"cardId": "b01573d4-c68d-4f2b-836a-d17313396f4a",
+"originalOrder": 37,
+"originalHeading": "Homogeneous Linear Systems",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 45,
+"heading": "Homogeneous Linear Systems vs Non-Trivial Solutions",
+"back": "## Definition\nA linear system $AX = B$ is strictly classified as homogeneous if the constants column matrix is purely filled with zeros ($B = O$).\n\n## Trivial Solution\nBecause $B=O$, the algebraic system will ALWAYS fundamentally possess the trivial solution $X = O$ (i.e., exactly $x=0, y=0, z=0$). Therefore, homogeneous systems are mathematically *always* consistent.\n\n## Non-Trivial Solutions Condition\nThe system will break out and possess infinite non-trivial solutions (valid geometric solutions other than origin 0) **if and only if** the evaluated coefficient determinant is identically zero ($|A| = 0$).",
+"mnemonic": "Homogeneous is always consistent. Det = 0 unlocks the non-zeros.",
+"standardMeta": {
+"question": "In a purely homogeneous system of linear equations (AX = O), what strict determinant condition must be algebraically met to guarantee the existence of non-trivial solutions?"
+}
+}
+},
+{
+"cardId": "bf036913-d8bf-4c1d-8e2b-4db5af9b5298",
+"originalOrder": 38,
+"originalHeading": "Bounding the Determinant of a Trigonometric Matrix",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 5-step calculation SOP into an isolated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 47.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 46,
+"heading": "Bounding the Determinant of a Trigonometric Matrix",
+"back": "## Component Anatomy\n- **$\\\theta$:** The pure angular variable strictly bounded by $0 \\\le \\\theta \\\le 2\\\pi$.\n- **$1 + \\\sin^2\\\theta$:** The algebraically derived determinant core structure.\n\n## Boundary Conditions / Domain\n- Because the algebraic constraint $0 \\\le \\\sin^2\\\theta \\\le 1$ universally holds true, the scaled mathematical expression $2(1 + \\\sin^2\\\theta)$ must strictly reside within the closed interval $[2, 4]$.\n- This specific matrix forms a highly tested, classic Miscellaneous Exercise objective archetype.",
+"formulaMeta": {
+"formula": "\\det(A) \\in [2, 4]",
+"description": "Given the specific matrix A consisting of 1s and ±sin(\u03b8), this dictates the strict bounded interval range of its evaluated determinant.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 38,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card explicitly detailing the calculation of the trigonometric bound"
+],
+"vettingNotes": "Second half of the bounding determinant split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 47,
+"heading": "SOP: Bounding a Trigonometric Determinant",
+"back": "## Derivation SOP\n1. Algebraically expand the raw determinant along $R_1$: $1(1 + \\\sin^2\\\theta) - \\\sin\\\theta(-\\\sin\\\theta + \\\sin\\\theta) + 1(\\\sin^2\\\theta + 1)$.\n2. Note that the entire middle trigonometric term perfectly cancels out to 0.\n3. Algebraically combine the remaining outer terms: $(1 + \\\sin^2\\\theta) + (1 + \\\sin^2\\\theta) = 2(1 + \\\sin^2\\\theta)$.\n4. Apply the fundamental trigonometric mathematical bound: $0 \\\le \\\sin^2\\\theta \\\le 1$.\n5. Algebraically multiply the entire bounded inequality by 2 to finalize: $2 \\\le 2(1+\\\sin^2\\\theta) \\\le 4$.",
+"standardMeta": {
+"question": "What is the explicit 5-step algebraic procedure used to evaluate and mathematically bound the determinant interval for the matrix $A$ containing $\\\sin\\\theta$ and $1$s?"
+}
+}
+},
+{
+"cardId": "e456fba1-abe7-44fa-ac1f-6c280bfad333",
+"originalOrder": 39,
+"originalHeading": "Cyclic Difference Determinant",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to APPLICATION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 48,
+"heading": "Evaluation: Cyclic Difference Determinant",
+"back": "## The Property\nA highly tested cyclic difference determinant structure always evaluates strictly to **zero**.\n\n## The Matrix Pattern\nThe explicit structure $\\\begin{vmatrix} a-b & b-c & c-a \\\\ b-c & c-a & a-b \\\\ c-a & a-b & b-c \\\end{vmatrix}$ perfectly collapses to $0$.\n\n## Derivation Logic\nBy cleanly applying the elementary algebraic column operation $C_1 \\\to C_1 + C_2 + C_3$, every single element residing in the first geometric column becomes exactly $(a-b) + (b-c) + (c-a) = 0$. Because an entire column mathematically zeroes out, the entire determinant formally collapses to zero.",
+"mnemonic": "Cyclic differences cancel to zero.",
+"standardMeta": {
+"question": "What is the standard algebraic value of the cyclic difference determinant formed entirely by the rows (a-b, b-c, c-a), (b-c, c-a, a-b), and (c-a, a-b, b-c)?"
+}
+}
+},
+{
+"cardId": "16c47a85-c1dc-49a7-9b38-e42df06c43f5",
+"originalOrder": 40,
+"originalHeading": "Sum of Cyclic Permutations Condition",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the heavy 6-step algebraic proof into a dedicated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 50.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 49,
+"heading": "Sum of Cyclic Permutations Condition",
+"back": "## Component Anatomy\n- **$a, b, c$:** The real scalar numbers forming the continuous cyclic permutations structurally inside the determinant.\n- **$0$:** The strict condition that legally forces the algebraic mathematical deduction.\n\n## Boundary Conditions / Domain\n- This exact pattern acts as a classic Miscellaneous Exercise archetype in Board Exams.\n- If the evaluated determinant identically equals zero, it geometrically restricts the relationships between variables $a, b,$ and $c$ to two very explicit states.",
+"mnemonic": "Cyclic sum zero means they sum to zero, or they are all identical.",
+"formulaMeta": {
+"formula": "a + b + c = 0 \\quad \\text{or} \\quad a = b = c",
+"description": "If a determinant comprising cyclic additive permutations of a, b, c equals zero, these are the ONLY two valid mathematical algebraic conclusions.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 40,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card mapping out the formal 6-step derivation"
+],
+"vettingNotes": "Second half of the Cyclic Permutations split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 50,
+"heading": "SOP: Deriving the Cyclic Permutations Condition",
+"back": "## Step-by-Step Formal Proof\n1. Apply the algebraic column transformation $C_1 \\\to C_1 + C_2 + C_3$. The first column identically becomes $2(a+b+c)$.\n2. Extract the common scalar factor $2(a+b+c)$ fully out of the determinant.\n3. Expand the remaining modified 3x3 determinant to extract the trailing quadratic algebraic factor: $-(a^2+b^2+c^2-ab-bc-ca)$.\n4. Algebraically multiply the entire expression by an artificial $-2$ strictly to force the formation of perfect squares: $(a-b)^2 + (b-c)^2 + (c-a)^2$.\n5. The final factored product is exactly $-(a+b+c)[(a-b)^2 + (b-c)^2 + (c-a)^2] = 0$.\n6. Consequently, by the Zero Product Property, either $(a+b+c)=0$, or all the squared differences must equal 0 simultaneously (strictly implying $a=b=c$).",
+"standardMeta": {
+"question": "What is the 6-step algebraic derivation utilized to prove that if the cyclic sum determinant of a, b, c equals zero, then either a+b+c=0 or a=b=c?"
+}
+}
+},
+{
+"cardId": "59f01367-a1d3-4822-b5a5-13bbceee21ac",
+"originalOrder": 41,
+"originalHeading": "Arithmetic Progression (A.P.) Determinant Trick",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 51,
+"heading": "Arithmetic Progression (A.P.) Determinant Trick",
+"back": "## The Setup\nA determinant where rows or columns contain linear terms whose constants are consecutive terms of an Arithmetic Progression (e.g., $x+2a, x+2b, x+2c$ where $a,b,c$ are in A.P.).\n\n## The Value\nThe determinant evaluates exactly to **0**.\n\n## Execution Logic\nApply the elementary row operation $R_1 \to R_1 + R_3 - 2R_2$. Because $a, b, c$ are strictly in A.P., the defining property $a + c - 2b = 0$ causes the A.P. terms to perfectly cancel out. The locus variables (like $x$) also cancel ($x + x - 2x = 0$), mathematically leaving an entire row of pure zeros.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The variables $a, b, c$ must form a valid real Arithmetic Progression.",
+"mnemonic": "A.P. in the rows makes the determinant zero.",
+"standardMeta": {
+"question": "If a, b, and c are strictly in Arithmetic Progression, what is the value of a determinant containing rows of the form (x+2a), (x+2b), (x+2c), and how is it algebraically derived?"
+}
+}
+},
+{
+"cardId": "5ddcbc8d-5ba9-4cce-a03b-70906dd27128",
+"originalOrder": 42,
+"originalHeading": "Geometric Progression (G.P.) Determinant Breakdown",
+"action": "UNCHANGED",
+"modificationsSummary": [],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 52,
+"heading": "Geometric Progression (G.P.) Determinant Breakdown",
+"back": "## The Setup\nA determinant populated entirely by consecutive sequential terms of a Geometric Progression ($a_r = AR^{r-1}$).\n\n## The Value\nIt evaluates strictly to **0** and is entirely **independent of r**.\n\n## Execution Logic\nWhen you algebraically substitute the explicit G.P. formula into the elements and systematically extract the common ratio powers ($R^k$) from each respective row and column, you will inherently generate two perfectly identical rows or columns. By Determinant Property 3, the entire structure identically vanishes.",
+"standardMeta": {
+"question": "If the scalar elements of a 3x3 determinant are sequential patterned terms strictly from a Geometric Progression (G.P.), what does the determinant evaluate to, and why?"
+}
+}
+},
+{
+"cardId": "aff5fe69-c492-4957-b5a1-64b77bfad72d",
+"originalOrder": 43,
+"originalHeading": "Inverse of a Diagonal Matrix",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split the 4-step derivation into an isolated procedural card to reduce cognitive bloat",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 54.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 53,
+"heading": "Inverse of a Diagonal Matrix",
+"back": "## Component Anatomy\n- **$x, y, z$:** The non-zero scalar elements resting exclusively on the main geometric diagonal.\n- **$x^{-1}, y^{-1}, z^{-1}$:** Their respective independent mathematical reciprocals.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \neq 0, y \neq 0, z \neq 0$. If any single diagonal element evaluates to exactly zero, the overall matrix is singular ($|A| = 0$) and the inverse mathematically does not exist.",
+"mnemonic": "Just flip the diagonal.",
+"formulaMeta": {
+"formula": "A^{-1} = \\begin{bmatrix} x^{-1} & 0 & 0 \\\\ 0 & y^{-1} & 0 \\\\ 0 & 0 & z^{-1} \\end{bmatrix}",
+"description": "The direct algebraic shortcut formula utilized to find the inverse of a pure Diagonal Matrix A = diag(x, y, z).",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 43,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card detailing the algebraic proof for the diagonal inverse"
+],
+"vettingNotes": "Second half of the Diagonal Matrix Inverse split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main"
+],
+"order": 54,
+"heading": "SOP: Deriving the Inverse of a Diagonal Matrix",
+"back": "## Step-by-Step Formal Proof\n1. The mathematical determinant of a diagonal matrix is strictly the product of its diagonal elements: $|A| = xyz$.\n2. The computed cofactor matrix of a diagonal matrix inherently remains a diagonal matrix, specifically populated with elements $yz, xz, xy$.\n3. The adjoint is geometrically the transpose of the cofactor matrix. Since it is diagonal, transposing it leaves it structurally unchanged.\n4. Divide the adjoint algebraically by $|A|$: $\frac{yz}{xyz} = x^{-1}$, $\frac{xz}{xyz} = y^{-1}$, $\frac{xy}{xyz} = z^{-1}$.",
+"standardMeta": {
+"question": "What is the 4-step formal algebraic procedure demonstrating why the inverse of a diagonal matrix simply reciprocates its diagonal elements?"
+}
+}
+},
+{
+"cardId": "ae5fbd1b-1295-4be7-adf3-178d1853c140",
+"originalOrder": 44,
+"originalHeading": "Equilateral Triangle Area Determinant Edge-Case",
+"action": "SPLIT",
+"modificationsSummary": [
+"Extracted the 5-step algebraic derivation to an isolated procedural card",
+"Double-escaped KaTeX"
+],
+"vettingNotes": "Derivation split to Order 56.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 55,
+"heading": "Identity: Equilateral Triangle Area Determinant",
+"back": "## Component Anatomy\n- **$x_i, y_i$:** The Cartesian geometric coordinates of the three vertices belonging to the equilateral triangle.\n- **$a$:** The strict uniform side length of the equilateral triangle.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This highly specific algebraic identity fundamentally links the coordinate-geometry determinant area formula directly to the pure geometric area formula. It operates strictly under the boundary condition that all three sides are geometrically equal ($a$).",
+"formulaMeta": {
+"formula": "\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}^2 = \\frac{3a^4}{4}",
+"description": "The advanced edge-case identity equating the squared coordinate determinant of an equilateral triangle directly to its side length 'a'.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 44,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created an isolated procedural card mapping the algebraic derivation for the equilateral identity"
+],
+"vettingNotes": "Second half of the Equilateral Triangle Area split.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 56,
+"heading": "SOP: Deriving the Equilateral Triangle Area Identity",
+"back": "## Step-by-Step Formal Proof\n1. Establish the standard determinant formula for the area of a coordinate triangle: $\Delta = \frac{1}{2} \begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \end{vmatrix}$.\n2. Establish the standard pure geometric area for a structurally equilateral triangle: $\Delta = \frac{\sqrt{3}}{4} a^2$.\n3. Equate both mathematically: $\frac{1}{2} \text{Det} = \frac{\sqrt{3}}{4} a^2$.\n4. Algebraically multiply both sides by 2 to isolate the determinant: $\text{Det} = \frac{\sqrt{3}}{2} a^2$.\n5. Square both entire sides algebraically to completely eliminate the radical and finalize the identity: $\text{Det}^2 = \frac{3}{4} a^4$.",
+"standardMeta": {
+"question": "What is the 5-step algebraic derivation linking the standard coordinate determinant formula to the purely geometric area of an equilateral triangle?"
+}
+}
+},
+{
+"cardId": "53b55fb3-b840-4399-ad2d-454b7b9ae76a",
+"originalOrder": 45,
+"originalHeading": "Trigonometric Determinant for Isosceles Triangle",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected specific domain constraints for triangle angles"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"math",
+"algebra",
+"determinants",
+"class-12",
+"jee-main",
+"jee-advanced"
+],
+"order": 57,
+"heading": "Trigonometric Determinant for Isosceles Triangle",
+"back": "## The Setup\nGiven a valid geometric triangle $ABC$ with angles $A, B, C$, and the determinant algebraic condition $\begin{vmatrix} 1 & \cos C & \cos B \\\\ \cos C & 1 & \cos A \\\\ \cos B & \cos A & 1 \end{vmatrix} = 0$.\n\n## The Conclusion\nThe triangle must structurally strictly be an **Isosceles Triangle**.\n\n## Execution Logic\nExpanding this 3x3 determinant yields the scalar expression $1 - \cos^2 A - \cos^2 B - \cos^2 C + 2\cos A \cos B \cos C = 0$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A, B, C > 0$ and $A+B+C = \pi$ (sum of angles in a triangle).\n- Under these precise trigonometric bounds, the algebraic expression uniquely factors into conditions where at least two interior angles must be perfectly equal (e.g., $\cos A = \cos B$).",
+"mnemonic": "Cosine matrix zero = Isosceles.",
+"standardMeta": {
+"question": "If the determinant of the 3x3 matrix composed of 1s on the main diagonal and the cosines of the angles of a triangle off-diagonal equals identically 0, what specific type of triangle is formed?"
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

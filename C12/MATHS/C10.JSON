@@ -1,0 +1,1447 @@
+{
+"deckId": "8e6a3d37-b60a-4b5b-922a-4abbc1cebc4a",
+"cards": [
+{
+"cardId": "f0a9741a-2a87-4a78-8606-7b174b1be22c",
+"originalOrder": 1,
+"originalHeading": "Scalars vs. Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated classification to DEFINITION",
+"Refined heading for precision"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 1,
+"heading": "Fundamental Distinction: Scalars vs. Vectors",
+"back": "A **scalar** is a physical quantity that has only magnitude (e.g., mass, length, time, temperature, work).\n\nA **vector** is a physical quantity that has both magnitude AND a specific direction (e.g., displacement, velocity, acceleration, force).",
+"standardMeta": {
+"question": "What is the fundamental mathematical distinction between a scalar quantity and a vector quantity?"
+}
+}
+},
+{
+"cardId": "6e79fac3-99d9-4671-a48f-47a7136145de",
+"originalOrder": 38,
+"originalHeading": "Free Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 2 as foundational concept",
+"Updated classification to DEFINITION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 2,
+"heading": "Property of Free Vectors (Parallel Displacement)",
+"back": "In NCERT vector algebra, all standard vectors are considered **free vectors**.\n\nThis means a vector can be subjected to a parallel displacement anywhere in 3D space. As long as its **magnitude** and **direction** remain completely unchanged, it is considered the exact same mathematical vector.",
+"standardMeta": {
+"question": "What is the defining property of a 'free vector' regarding parallel displacement?"
+}
+}
+},
+{
+"cardId": "26dae665-f740-4ac2-bf4c-b1a3f326a39c",
+"originalOrder": 6,
+"originalHeading": "Collinear vs. Equal Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 3",
+"Refined heading"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 3,
+"heading": "Geometric Distinction: Collinear vs. Equal Vectors",
+"back": "- **Collinear Vectors:** Two or more vectors are parallel to the same line, irrespective of their magnitudes and directions.\n- **Equal Vectors:** Two vectors must have the exact same magnitude AND the exact same direction.\n\n*(Note: All equal vectors are collinear, but not all collinear vectors are equal).* \n\n## Boundary Conditions / Domain:\n- Vectors must be evaluated from their parallel support. Direction sense matters strictly for equality.",
+"standardMeta": {
+"question": "What is the critical distinction between 'Collinear Vectors' and 'Equal Vectors'?"
+}
+}
+},
+{
+"cardId": "51dcadd1-3a88-4e5f-a41c-6bc21339a118",
+"originalOrder": 2,
+"originalHeading": "Position Vector Anatomy",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 4",
+"Applied double-escaped KaTeX \begin{aligned} formatting"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 4,
+"heading": "Position Vector Algebraic Anatomy",
+"back": "## Component Anatomy:\n- **$x, y, z$**: Scalar components representing distances along the respective axes.\n- **$\hat{i}, \hat{j}, \hat{k}$**: Unit vectors along the positive X, Y, and Z axes.\n- **$r$**: The magnitude (length) of the vector from the origin to the point $P(x,y,z)$.\n\n## Boundary Conditions / Domain:\n- The origin $O$ strictly has coordinates $(0,0,0)$.\n- Magnitude is strictly non-negative: $|\vec{OP}| \geq 0$.",
+"formulaMeta": {
+"formula": "\begin{aligned} \vec{OP} &= x\hat{i} + y\hat{j} + z\hat{k} \\ |\vec{OP}| &= \sqrt{x^2 + y^2 + z^2} \end{aligned}",
+"description": "State the algebraic form of a position vector for point P(x, y, z) and the formula for its magnitude.",
+"derivation": "By applying the 3D Pythagorean theorem from the origin $(0,0,0)$ to the coordinate $(x,y,z)$."
+}
+}
+},
+{
+"cardId": "9119098c-3c53-4829-bba5-42313a162cf2",
+"originalOrder": 9,
+"originalHeading": "Vector Joining Two Points",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 5",
+"Double-escaped KaTeX applied"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 5,
+"heading": "Vector Joining Two Points",
+"back": "## Component Anatomy:\n- **$(x_1, y_1, z_1)$**: Coordinates of the initial point $P_1$.\n- **$(x_2, y_2, z_2)$**: Coordinates of the terminal point $P_2$.\n\n## Boundary Conditions / Domain:\n- Direction strictly matters. $\vec{P_1P_2}$ is terminal minus initial. $\vec{P_2P_1}$ would reverse all algebraic signs.",
+"mnemonic": "Terminal MINUS Initial",
+"formulaMeta": {
+"formula": "\vec{P_1P_2} = (x_2 - x_1)\hat{i} + (y_2 - y_1)\hat{j} + (z_2 - z_1)\hat{k}",
+"description": "State the formula to construct the vector pointing from initial point P_1 to terminal point P_2.",
+"derivation": "1. Identify the position vectors of the endpoints: $\vec{OP_1}$ and $\vec{OP_2}$.\n2. Apply the triangle law: $\vec{OP_1} + \vec{P_1P_2} = \vec{OP_2}$.\n3. Rearrange: $\vec{P_1P_2} = \vec{OP_2} - \vec{OP_1}$.\n4. Subtract the corresponding scalar components sequentially."
+}
+}
+},
+{
+"cardId": "502e57ce-c0fb-4ee1-a67c-d28b7a674b8b",
+"originalOrder": 45,
+"originalHeading": "Unit Basis Projection Identity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 6 as part of fundamental component form properties"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-advanced"
+],
+"order": 6,
+"heading": "Unit Basis Projection Identity",
+"back": "## Component Anatomy:\n- **$\vec{a}$**: Any general vector in 3D space.\n- **$\hat{i}, \hat{j}, \hat{k}$**: Standard mutually perpendicular unit basis vectors.\n- **$(\vec{a} \cdot \hat{i})$**: The scalar projection (shadow) of $\vec{a}$ onto the X-axis (its x-component).\n\n## Boundary Conditions / Domain:\n- This identity mathematically formalizes how a vector is reconstructed entirely from its orthogonal projections onto the standard basis.",
+"formulaMeta": {
+"formula": "\vec{a} = (\vec{a} \cdot \hat{i})\hat{i} + (\vec{a} \cdot \hat{j})\hat{j} + (\vec{a} \cdot \hat{k})\hat{k}",
+"description": "State the identity that expresses any vector a as a linear combination of the standard unit basis vectors using dot products.",
+"derivation": "Let $\vec{a} = x\hat{i} + y\hat{j} + z\hat{k}$.\nCompute dot product with $\hat{i}$: $\vec{a} \cdot \hat{i} = (x\hat{i} + y\hat{j} + z\hat{k}) \cdot \hat{i} = x(1) + 0 + 0 = x$.\nRepeat for $\hat{j}$ to get $y$, and $\hat{k}$ to get $z$.\nSubstitute back into original equation."
+}
+}
+},
+{
+"cardId": "6185b292-e3b2-4cee-a592-d8b505a786b7",
+"originalOrder": 5,
+"originalHeading": "Unit Vector Normalisation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 7"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 7,
+"heading": "Unit Vector Normalisation",
+"back": "## Component Anatomy:\n- **$\hat{a}$**: The unit vector strictly parallel and in the exact direction of $\vec{a}$.\n- **$\vec{a}$**: The original vector.\n- **$|\vec{a}|$**: The magnitude (length) of the original vector.\n\n## Boundary Conditions / Domain:\n- $\vec{a} \neq \vec{0}$ (Division by zero; one cannot normalize a null vector).\n- The magnitude of the resulting vector $\hat{a}$ is strictly equal to $1$.",
+"formulaMeta": {
+"formula": "\hat{a} = \frac{\vec{a}}{|\vec{a}|}",
+"description": "State the algebraic formula to find the unit vector in the direction of a given non-zero vector a.",
+"derivation": "A vector represents both magnitude and direction. By dividing the vector by its own total magnitude, the scalar magnitude becomes 1, isolating the pure direction component as a new unit vector."
+}
+}
+},
+{
+"cardId": "2d646478-2655-4152-94bc-d54cec582248",
+"originalOrder": 3,
+"originalHeading": "Direction Cosines vs. Direction Ratios",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 8",
+"Refined classification to DISTINCTION"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 8,
+"heading": "Direction Cosines vs. Direction Ratios",
+"back": "- **Direction Cosines ($l, m, n$):** The exact cosines of the angles ($\alpha, \beta, \gamma$) the vector makes with the positive X, Y, and Z axes respectively.\n  - They strictly satisfy $l^2 + m^2 + n^2 = 1$.\n- **Direction Ratios ($a, b, c$):** Any three numbers that are strictly proportional to the direction cosines.\n  - In a standard vector $\vec{r} = a\hat{i} + b\hat{j} + c\hat{k}$, the scalar components $a, b, c$ are inherently the direction ratios.\n  - Generally, $a^2 + b^2 + c^2 \neq 1$.\n\n## Boundary Conditions / Domain:\n- Direction cosines are uniquely bounded: $-1 \leq l,m,n \leq 1$.\n- Direction ratios can be any real number proportional to $l, m, n$.",
+"standardMeta": {
+"question": "Differentiate between Direction Cosines and Direction Ratios, particularly regarding the sum of their squares."
+}
+}
+},
+{
+"cardId": "5f6af291-f53e-43aa-bcfa-4f6d332e4b96",
+"originalOrder": 4,
+"originalHeading": "Extracting Direction Cosines",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 9"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 9,
+"heading": "Extracting Direction Cosines",
+"back": "## Component Anatomy:\n- **$l, m, n$**: Direction cosines (equal to $\cos\alpha, \cos\beta, \cos\gamma$).\n- **$a, b, c$**: Scalar components (direction ratios) of the vector $\vec{r}$.\n- **$|\vec{r}|$**: Magnitude of the vector.\n\n## Boundary Conditions / Domain:\n- The vector must be strictly non-zero ($|\vec{r}| > 0$) to avoid division by zero.",
+"formulaMeta": {
+"formula": "l = \frac{a}{|\vec{r}|}, \quad m = \frac{b}{|\vec{r}|}, \quad n = \frac{c}{|\vec{r}|}",
+"description": "State the formula to find the Direction Cosines (l, m, n) of a vector given its scalar components a, b, and c.",
+"derivation": "1. Calculate the magnitude of the vector: $|\vec{r}| = \sqrt{a^2 + b^2 + c^2}$.\n2. Divide each scalar component ($a, b, c$) by the magnitude $|\vec{r}|$. (This is mathematically identical to finding the components of the normalized unit vector $\hat{r}$)."
+}
+}
+},
+{
+"cardId": "9cd55fd6-db73-41fb-94e9-d47dfcd0a2b1",
+"originalOrder": 30,
+"originalHeading": "Vectors Equally Inclined to Axes",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 10"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 10,
+"heading": "Vectors Equally Inclined to Axes",
+"back": "Any vector that is equally inclined to the positive X, Y, and Z axes makes the exact same angle $\alpha$ with all three axes.\n\n- Therefore, its direction cosines are equal: $l = m = n$.\n- Using the identity $l^2 + m^2 + n^2 = 1$, we get $3l^2 = 1$.\n- The strict direction cosines are **$\pm \frac{1}{\sqrt{3}}$**.\n\n## Boundary Conditions / Domain:\n- 'Equally inclined' implies equal acute OR equal obtuse angles, hence the $\pm$ sign is required to capture all 8 vectors in the 8 octants.",
+"standardMeta": {
+"question": "If a vector is equally inclined to the coordinate axes OX, OY, and OZ, what are the strict, exact values of its direction cosines?"
+}
+}
+},
+{
+"cardId": "ed142b63-355f-4477-a8e7-6bc53cdf78b3",
+"originalOrder": 7,
+"originalHeading": "Triangle Law of Vector Addition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 11"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 11,
+"heading": "Triangle Law of Vector Addition",
+"back": "If two vectors are represented by two sides of a triangle taken in sequential order (head-to-tail), then their sum (or resultant) is given by the third side taken in the **opposite order** (tail-to-head).\n\n- Formally: $\vec{AB} + \vec{BC} = \vec{AC}$.\n\n## Boundary Conditions / Domain:\n- This law applies fundamentally to free vectors. The initial point of the second vector must be placed exactly on the terminal point of the first vector.",
+"standardMeta": {
+"question": "State the Triangle Law of Vector Addition."
+}
+}
+},
+{
+"cardId": "5efa4ffc-e16e-47b5-a245-1fd7b569a96f",
+"originalOrder": 8,
+"originalHeading": "Closed Polygon / Null Vector Loop",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 12"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 12,
+"heading": "Closed Polygon Null Vector Loop",
+"back": "## Component Anatomy:\n- **$\vec{AB}, \vec{BC}, \vec{CA}$**: Vectors forming the closed sequential perimeter of a triangle.\n- **$\vec{0}$**: The zero (null) vector.\n\n## Boundary Conditions / Domain:\n- The vectors must be taken in a continuous, cyclic order around the polygon (head-to-tail continuously).\n- **Trap:** The RHS is strictly the vector $\vec{0}$, not the scalar $0$.",
+"formulaMeta": {
+"formula": "\vec{AB} + \vec{BC} + \vec{CA} = \vec{0}",
+"description": "What is the resultant sum of vectors representing the sides of a triangle when taken in a continuous cyclic order?",
+"derivation": "1. By Triangle Law, $\vec{AB} + \vec{BC} = \vec{AC}$.\n2. Add $\vec{CA}$ to both sides: $\vec{AB} + \vec{BC} + \vec{CA} = \vec{AC} + \vec{CA}$.\n3. Since reversing direction negates the vector, $\vec{CA} = -\vec{AC}$.\n4. The RHS becomes $\vec{AC} - \vec{AC} = \vec{0}$."
+}
+}
+},
+{
+"cardId": "3a8b60b8-6f5c-4cda-af94-20d5205eae13",
+"originalOrder": 10,
+"originalHeading": "Internal Section Formula",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 13"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 13,
+"heading": "Internal Section Formula (Vectors)",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}$**: Position vectors of the known endpoints P and Q respectively.\n- **$m, n$**: Positive scalar ratio parts ($m:n$).\n- **$\vec{r}$**: Position vector of the dividing point R.\n\n## Boundary Conditions / Domain:\n- Point R lies strictly *between* P and Q on the line segment.\n- $m > 0$ and $n > 0$.",
+"mnemonic": "Cross-multiply the scalar ratios with the FAR position vectors.",
+"formulaMeta": {
+"formula": "\vec{r} = \frac{m\vec{b} + n\vec{a}}{m + n}",
+"description": "State the position vector of a point R that divides the line segment joining points with position vectors a and b internally in the ratio m:n.",
+"derivation": "By mapping collinear vectors: $\vec{PR} = \frac{m}{m+n}\vec{PQ}$. Substitute position vectors $\vec{r}-\vec{a} = \frac{m}{m+n}(\vec{b}-\vec{a})$ and isolate $\vec{r}$."
+}
+}
+},
+{
+"cardId": "7e101887-729f-431e-b66d-7722fc522b10",
+"originalOrder": 11,
+"originalHeading": "External Section Formula",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 14"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 14,
+"heading": "External Section Formula (Vectors)",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}$**: Position vectors of endpoints P and Q.\n- **$m, n$**: Positive scalar ratio parts ($m:n$ from the two endpoints).\n- **$\vec{r}$**: Position vector of the dividing point R.\n\n## Boundary Conditions / Domain:\n- $m \neq n$ (to strictly avoid division by zero). If $m=n$, the point R is at infinity.\n- R lies on the line extended strictly *outside* the segment PQ.",
+"formulaMeta": {
+"formula": "\vec{r} = \frac{m\vec{b} - n\vec{a}}{m - n}",
+"description": "State the position vector of a point R that divides the line segment joining points with position vectors a and b externally in the ratio m:n.",
+"derivation": "Similar to the internal section, but the distance ratio is modeled as an external subtraction: $\frac{PR}{QR} = \frac{m}{n} \implies n(\vec{r}-\vec{a}) = m(\vec{r}-\vec{b})$. Solve for $\vec{r}$."
+}
+}
+},
+{
+"cardId": "8e565d2b-ff99-4b81-90d9-b765fdb09f51",
+"originalOrder": 40,
+"originalHeading": "3-Point Collinearity Test (Vector Form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 15 as logical conclusion to segment/addition properties"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 15,
+"heading": "3-Point Collinearity Test",
+"back": "## Component Anatomy:\n- **$\vec{AB}, \vec{AC}$**: Vectors formed connecting the three given points $A, B$, and $C$.\n- **$\lambda$**: A strictly non-zero scalar real number.\n\n## Boundary Conditions / Domain:\n- A common vertex (e.g., exactly point $A$) MUST be mathematically shared between the two constructed vectors to prove the points lie on the *same line*, rather than merely forming parallel lines.",
+"formulaMeta": {
+"formula": "\vec{AB} = \lambda \vec{AC} \quad \text{OR} \quad \vec{AB} \times \vec{AC} = \vec{0}",
+"description": "State the standard algorithmic procedure to prove three distinct points A, B, and C are collinear using vectors.",
+"derivation": "1. Calculate the position vector of $\vec{AB} = \vec{OB} - \vec{OA}$.\n2. Calculate the position vector of $\vec{AC} = \vec{OC} - \vec{OA}$.\n3. Show that their scalar components are exactly proportional ($\frac{a_1}{b_1} = \frac{a_2}{b_2} = \frac{a_3}{b_3}$) yielding scalar $\lambda$, OR that their cross product yields the null vector."
+}
+}
+},
+{
+"cardId": "2bed2004-854e-4de8-83a0-d46c523d62b4",
+"originalOrder": 12,
+"originalHeading": "Scalar (Dot) Product Definition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 16"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 16,
+"heading": "Scalar (Dot) Product Geometric Definition",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}$**: Two vectors.\n- **$\theta$**: The angle between the two vectors when placed tail-to-tail.\n\n## Boundary Conditions / Domain:\n- The angle domain is bounded strictly as $0 \leq \theta \leq \pi$.\n- If either vector is the zero vector, the angle $\theta$ is completely undefined, and the dot product is defined arbitrarily as exactly the scalar $0$.\n- The output is strictly a SCALAR real number, not a vector.",
+"formulaMeta": {
+"formula": "\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta",
+"description": "State the geometric definition of the Scalar (Dot) Product of two vectors a and b.",
+"derivation": "Geometrically, it represents the product of the magnitude of one vector and the magnitude of the projection of the other vector onto it: $|\vec{a}|(|\vec{b}|\cos\theta)$."
+}
+}
+},
+{
+"cardId": "667f0cd6-5143-4c92-b4e5-aa8dd1e93e80",
+"originalOrder": 14,
+"originalHeading": "Angle Between Two Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 17"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 17,
+"heading": "Cosine of Angle Between Two Vectors",
+"back": "## Component Anatomy:\n- **$\vec{a} \cdot \vec{b}$**: Algebraic dot product evaluated as $(a_1b_1 + a_2b_2 + a_3b_3)$.\n- **$|\vec{a}|, |\vec{b}|$**: Magnitudes of the respective vectors.\n\n## Boundary Conditions / Domain:\n- Requires $\vec{a} \neq \vec{0}$ and $\vec{b} \neq \vec{0}$ to prevent division by zero.\n- Resulting angle $\theta$ is bounded strictly within $[0, \pi]$.",
+"formulaMeta": {
+"formula": "\cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|} = \frac{a_1b_1 + a_2b_2 + a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}",
+"description": "State the algebraic formula to find the cosine of the angle between two non-zero vectors a and b.",
+"derivation": "Derived directly from rearranging the geometric definition of the dot product: $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$."
+}
+}
+},
+{
+"cardId": "a19fea52-6b39-43cc-bc93-e19e96022062",
+"originalOrder": 13,
+"originalHeading": "Orthogonality Test (Dot Product)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 18"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 18,
+"heading": "Orthogonality Test (Dot Product)",
+"back": "Two strictly non-zero vectors are perpendicular (orthogonal) if and only if their scalar (dot) product is strictly equal to zero.\n\n- Mathematically: $\vec{a} \cdot \vec{b} = 0 \\iff \vec{a} \perp \vec{b}$.\n- This occurs fundamentally because $\cos(90^\circ) = \cos(\frac{\pi}{2}) = 0$.\n\n## Boundary Conditions / Domain:\n- Both vectors must be non-zero. If one is $\vec{0}$, the dot product is $0$ trivially, but the angle is undefined, so orthogonality loses its geometric meaning.",
+"standardMeta": {
+"question": "What is the mathematical condition for two non-zero vectors to be strictly perpendicular?"
+}
+}
+},
+{
+"cardId": "76821438-75f3-4fca-9e0b-47c8a210541b",
+"originalOrder": 15,
+"originalHeading": "Scalar Projection",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 19"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 19,
+"heading": "Scalar Projection of a Vector",
+"back": "## Component Anatomy:\n- **$\vec{a}$**: The vector being projected.\n- **$\vec{b}$**: The vector serving as the base (the line of projection).\n- **$\hat{b}$**: The normalized unit vector of the base direction.\n\n## Boundary Conditions / Domain:\n- Requires $\vec{b} \neq \vec{0}$ (cannot project onto a point).\n- The output is purely a SCALAR representing the 'shadow's' length. It can be algebraically negative if the angle between them is obtuse ($90^\circ < \theta \leq 180^\circ$).",
+"formulaMeta": {
+"formula": "\text{Scalar Projection} = \vec{a} \cdot \hat{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}",
+"description": "State the formula for the Scalar Projection of vector a ON vector b.",
+"derivation": "Geometrically, the projection length is $|\vec{a}|\cos\theta$. Multiplying and dividing by $|\vec{b}|$ gives $\frac{|\vec{a}||\vec{b}|\cos\theta}{|\vec{b}|}$, which substitutes to $\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}$."
+}
+}
+},
+{
+"cardId": "54da7a54-6365-4e7a-8f67-8e797be2cf0e",
+"originalOrder": 16,
+"originalHeading": "Vector Projection",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 20"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 20,
+"heading": "Vector Projection",
+"back": "## Component Anatomy:\n- **$\vec{a}$**: The vector being projected.\n- **$\vec{b}$**: The base vector.\n- **$\hat{b}$**: Unit direction of the base vector.\n\n## Boundary Conditions / Domain:\n- Requires $\vec{b} \neq \vec{0}$.\n- The output is strictly a VECTOR representing both the magnitude of the shadow and its precise orientation along the line of $\vec{b}$.",
+"mnemonic": "Magnitude (Scalar Projection) times Direction (Unit Vector of Base).",
+"formulaMeta": {
+"formula": "\text{Vector Projection} = \left(\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}\right)\hat{b} = \left(\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2}\right)\vec{b}",
+"description": "State the formula for the Vector Projection of vector a ON vector b.",
+"derivation": "1. Calculate the scalar projection magnitude: $\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}$.\n2. Multiply this scalar by the unit direction vector of the base: $\hat{b} = \frac{\vec{b}}{|\vec{b}|}$.\n3. The $|\vec{b}|$ terms in the denominator multiply to give $|\vec{b}|^2$."
+}
+}
+},
+{
+"cardId": "10c7f874-0abd-4b75-9f2c-c55598de3dbb",
+"originalOrder": 19,
+"originalHeading": "Vector (Cross) Product Definition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 21"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 21,
+"heading": "Vector (Cross) Product Geometric Definition",
+"back": "## Component Anatomy:\n- **$|\vec{a}|, |\vec{b}|$**: Magnitudes of the constituent vectors.\n- **$\theta$**: The enclosed angle strictly between them ($0 \leq \theta \leq \pi$).\n- **$\hat{n}$**: A unit vector completely perpendicular to the plane containing BOTH $\vec{a}$ and $\vec{b}$, strictly obeying the Right-Hand Rule.\n\n## Boundary Conditions / Domain:\n- If vectors are parallel or anti-parallel ($\theta = 0, \pi$), the cross product equates to the null vector $\vec{0}$.\n- The output is strictly a VECTOR quantity.",
+"formulaMeta": {
+"formula": "\vec{a} \times \vec{b} = |\vec{a}||\vec{b}|\sin\theta \, \hat{n}",
+"description": "State the geometric definition of the Vector (Cross) Product.",
+"derivation": "Geometrically, the magnitude $|\vec{a}||\vec{b}|\sin\theta$ represents the area of the parallelogram spanned by vectors $\vec{a}$ and $\vec{b}$, oriented in the normal direction $\hat{n}$."
+}
+}
+},
+{
+"cardId": "c35d1877-6c79-463b-a711-e188ec39da1a",
+"originalOrder": 22,
+"originalHeading": "Determinant Form of Cross Product",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 22",
+"Added explicit determinant expansion"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 22,
+"heading": "Determinant Form of Cross Product",
+"back": "## Component Anatomy:\n- **Row 1**: Standard basis unit vectors ($\hat{i}, \hat{j}, \hat{k}$).\n- **Row 2**: Scalar components of the first vector $\vec{a}$ (order matters).\n- **Row 3**: Scalar components of the second vector $\vec{b}$.\n\n## Boundary Conditions / Domain:\n- The determinant inherently captures the anti-commutative property. Swapping row 2 and row 3 effectively computes $\vec{b} \times \vec{a}$, reversing the algebraic signs of the entire resulting vector.",
+"formulaMeta": {
+"formula": "\vec{a} \times \vec{b} = \left| \begin{matrix} \hat{i} & \hat{j} & \hat{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{matrix} \right|",
+"description": "State the 3x3 determinant setup used to calculate the cross product of two vectors algebraically.",
+"derivation": "1. Set up the determinant with $\hat{i}, \hat{j}, \hat{k}$ in Row 1.\n2. Expand along Row 1.\n3. **CRITICAL TRAP:** Ensure the $\hat{j}$ cofactor has a negative sign: $\hat{i}(a_2b_3 - a_3b_2) - \hat{j}(a_1b_3 - a_3b_1) + \hat{k}(a_1b_2 - a_2b_1)$."
+}
+}
+},
+{
+"cardId": "7e526065-fbe3-4b9c-9475-8200bd50e89e",
+"originalOrder": 20,
+"originalHeading": "Anti-Commutativity of Cross Product",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 23"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 23,
+"heading": "Commutativity: Dot vs. Cross Product",
+"back": "Unlike the dot product which is purely commutative ($\vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a}$), the cross product is strictly **anti-commutative**.\n\n- Mathematical relation: $\vec{a} \times \vec{b} = -(\vec{b} \times \vec{a})$.\n\n## Boundary Conditions / Domain:\n- Reversing the order of vectors geometrically flips the normal unit vector $\hat{n}$ upside down ($180^\circ$ reversal) to obey the right-hand rule.",
+"standardMeta": {
+"question": "How does the commutative property uniquely differ between the Dot Product and the Cross Product?"
+}
+}
+},
+{
+"cardId": "73dca07d-cf0f-4977-a30b-36db118ad17f",
+"originalOrder": 21,
+"originalHeading": "Parallel Vector Test (Cross Product)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 24"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 24,
+"heading": "Parallel Vector Test (Cross Product)",
+"back": "Two strictly non-zero vectors $\vec{a}$ and $\vec{b}$ are collinear/parallel if and only if their cross product yields the null vector $\vec{0}$.\n\n- Mathematical condition: $\vec{a} \times \vec{b} = \vec{0}$.\n- This occurs because $\sin(0^\circ) = 0$ and $\sin(180^\circ) = 0$.\n\n## Boundary Conditions / Domain:\n- This implies their corresponding scalar components must be strictly proportional: $\frac{a_1}{b_1} = \frac{a_2}{b_2} = \frac{a_3}{b_3}$.",
+"standardMeta": {
+"question": "What is the specific mathematical condition involving the Cross Product that proves two non-zero vectors are parallel?"
+}
+}
+},
+{
+"cardId": "80e53bd2-2273-4e1d-9b97-bc1d00eddd2f",
+"originalOrder": 29,
+"originalHeading": "Sine of Angle Between Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 25"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 25,
+"heading": "Sine of Angle Between Two Vectors",
+"back": "## Component Anatomy:\n- **$|\vec{a} \times \vec{b}|$**: The scalar magnitude of the cross product vector.\n- **$|\vec{a}|, |\vec{b}|$**: Magnitudes of the individual vectors.\n- **$\theta$**: The angle between them.\n\n## Boundary Conditions / Domain:\n- $\vec{a} \neq \vec{0}$ and $\vec{b} \neq \vec{0}$ (to prevent division by zero).\n- Since $0 \leq \theta \leq \pi$, the output for $\sin\theta$ will strictly be non-negative ($0 \leq \sin\theta \leq 1$).",
+"formulaMeta": {
+"formula": "\sin\theta = \frac{|\vec{a} \times \vec{b}|}{|\vec{a}||\vec{b}|}",
+"description": "State the formula used to directly extract the sine of the angle between two non-zero vectors using the cross product.",
+"derivation": "From the definition: $\vec{a} \times \vec{b} = |\vec{a}||\vec{b}|\sin\theta \\, \hat{n}$.\nTaking the magnitude of both sides: $|\vec{a} \times \vec{b}| = |\vec{a}||\vec{b}|\sin\theta |\hat{n}|$.\nSince $|\hat{n}| = 1$ and $\sin\theta \geq 0$, we divide to isolate $\sin\theta$."
+}
+}
+},
+{
+"cardId": "451d9a69-6a67-4814-831a-8e024cd9f459",
+"originalOrder": 23,
+"originalHeading": "Unit Vector Perpendicular to Two Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 26",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 26,
+"heading": "Unit Vector Perpendicular to Two Vectors",
+"back": "## Component Anatomy:\n- **$\vec{a} \times \vec{b}$**: Cross product vector, mathematically orthogonal to the plane containing $\vec{a}$ and $\vec{b}$.\n- **$|\vec{a} \times \vec{b}|$**: Magnitude of the cross product.\n\n## Boundary Conditions / Domain:\n- $\vec{a}$ and $\vec{b}$ must strictly not be collinear (otherwise the cross product is $\vec{0}$, causing division by zero).\n- There are exactly TWO such unique unit vectors (pointing in strictly opposite directions, hence the $\pm$).",
+"formulaMeta": {
+"formula": "\hat{n} = \pm \frac{\vec{a} \times \vec{b}}{|\vec{a} \times \vec{b}|}",
+"description": "State the formula to find a unit vector that is perpendicular to both given vectors a and b.",
+"derivation": "The cross product $\vec{a} \times \vec{b}$ generates a perpendicular vector. Dividing it by its own magnitude normalizes it to length 1."
+}
+}
+},
+{
+"cardId": "dc189a2c-d12c-4e38-86c0-f8f94e37bc09",
+"originalOrder": 41,
+"originalHeading": "The Two-Normal Theorem for Planes",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 27",
+"Classification changed to CONCEPT"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main"
+],
+"order": 27,
+"heading": "The Two-Normal Theorem for Planes",
+"back": "For any given plane containing two strictly non-collinear vectors $\vec{a}$ and $\vec{b}$, there are exactly **TWO** unit vectors perpendicular to it.\n\n- They point in strictly opposite directions along the normal axis.\n- Calculated mathematically as $\pm \frac{\vec{a} \times \vec{b}}{|\vec{a} \times \vec{b}|}$.\n\n## Boundary Conditions / Domain:\n- The vectors defining the plane must be non-zero and non-parallel.",
+"standardMeta": {
+"question": "Geometrically, how many unique unit vectors are perpendicular to the plane formed by two non-collinear vectors?"
+}
+}
+},
+{
+"cardId": "e1fb5bb8-a4d5-4436-b27a-72e390105338",
+"originalOrder": 26,
+"originalHeading": "Lagrange's Identity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 28",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-advanced"
+],
+"order": 28,
+"heading": "Lagrange's Identity (Vector Algebra)",
+"back": "## Component Anatomy:\n- **$|\vec{a} \times \vec{b}|^2$**: Squared scalar magnitude of the cross product.\n- **$(\vec{a} \cdot \vec{b})^2$**: Squared scalar dot product.\n- **$|\vec{a}|^2 |\vec{b}|^2$**: Product of the squared magnitudes of the individual vectors.\n\n## Boundary Conditions / Domain:\n- Valid strictly for any two vectors $\vec{a}$ and $\vec{b}$ in 3D space.",
+"formulaMeta": {
+"formula": "|\vec{a} \times \vec{b}|^2 + (\vec{a} \cdot \vec{b})^2 = |\vec{a}|^2 |\vec{b}|^2",
+"description": "State Lagrange's Identity, which algebraically connects the dot product, the cross product, and the magnitudes of two vectors.",
+"derivation": "1. Expand cross product magnitude: $(|\vec{a}||\vec{b}|\sin\theta)^2$.\n2. Expand dot product: $(|\vec{a}||\vec{b}|\cos\theta)^2$.\n3. Factor out $|\vec{a}|^2|\vec{b}|^2$, leaving $(\sin^2\theta + \cos^2\theta) = 1$."
+}
+}
+},
+{
+"cardId": "0e1609fd-e7a3-4803-942b-f24c2f7c2da8",
+"originalOrder": 33,
+"originalHeading": "Simultaneous Orthogonality and Parallelism",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 29"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main",
+"logical-trap"
+],
+"order": 29,
+"heading": "Simultaneous Orthogonality and Parallelism Trap",
+"back": "If both equations hold true simultaneously, the strict mathematical conclusion is that **at least one of the vectors must be the zero vector** ($\vec{a} = \vec{0}$ or $\vec{b} = \vec{0}$).\n\n- Two strictly non-zero vectors cannot simultaneously have an angle of $\theta = \pi/2$ (to satisfy dot product = 0) AND $\theta = 0, \pi$ (to satisfy cross product = 0).\n\n## Boundary Conditions / Domain:\n- This principle relies heavily on the domain of $\theta \in [0, \pi]$ where $\sin\theta$ and $\cos\theta$ cannot simultaneously equal $0$.",
+"standardMeta": {
+"question": "If you are given that $\vec{a} \cdot \vec{b} = 0$ AND $\vec{a} \times \vec{b} = \vec{0}$, what strict mathematical conclusion MUST be drawn?"
+}
+}
+},
+{
+"cardId": "03567fc2-e4ea-4493-a9e8-adf6e5661cd1",
+"originalOrder": 34,
+"originalHeading": "The Cross Product Zero Converse Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 30"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"ncert",
+"class-12",
+"jee-main",
+"logical-trap"
+],
+"order": 30,
+"heading": "The Cross Product Zero Converse Trap",
+"back": "**False.** The converse states: 'If $\vec{a} \times \vec{b} = \vec{0}$, then $\vec{a} = \vec{0}$ or $\vec{b} = \vec{0}$.'\n\n- This is algebraically false because the cross product of two strictly non-zero vectors will also equal the null vector if they are **parallel or collinear**.\n- Example: $\hat{i} \times 2\hat{i} = \vec{0}$. Both vectors are non-zero, but their cross product is the null vector.",
+"standardMeta": {
+"question": "If $\vec{a} = \vec{0}$ or $\vec{b} = \vec{0}$, then $\vec{a} \times \vec{b} = \vec{0}$. Is the converse of this statement strictly true? Justify."
+}
+}
+},
+{
+"cardId": "e56061aa-9f37-4a0f-b514-74546e3513b4",
+"originalOrder": 32,
+"originalHeading": "Cross Product of Sum and Difference",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 31",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"algebra-analogue",
+"class-12",
+"jee-main"
+],
+"order": 31,
+"heading": "Cross Product of Sum and Difference",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}$**: Any two free vectors.\n\n## Boundary Conditions / Domain:\n- Unlike standard scalar algebra where $(a-b)(a+b) = a^2 - b^2$, vector anti-commutativity strictly transforms the inner terms into a doubled cross product instead of canceling them out.",
+"formulaMeta": {
+"formula": "(\vec{a} - \vec{b}) \times (\vec{a} + \vec{b}) = 2(\vec{a} \times \vec{b})",
+"description": "Simplify the cross product expression (a - b) x (a + b) to its minimal algebraic form.",
+"derivation": "1. Distribute: $\vec{a} \times \vec{a} + \vec{a} \times \vec{b} - \vec{b} \times \vec{a} - \vec{b} \times \vec{b}$.\n2. Cancel self-cross products (parallel vectors): $\vec{0} + \vec{a} \times \vec{b} - \vec{b} \times \vec{a} - \vec{0}$.\n3. Apply strict anti-commutativity ($- \vec{b} \times \vec{a} = \vec{a} \times \vec{b}$).\n4. Sum the identical terms: $\vec{a} \times \vec{b} + \vec{a} \times \vec{b} = 2(\vec{a} \times \vec{b})$."
+}
+}
+},
+{
+"cardId": "d1f5d62d-396f-44ff-8f22-a9d75fad0a2c",
+"originalOrder": 31,
+"originalHeading": "Cyclic Cross Product Identity (Zero Sum)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Formula Statement)",
+"Re-sequenced to order 32"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-main"
+],
+"order": 32,
+"heading": "Cyclic Cross Product Identity (Zero Sum Constraint)",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}, \vec{c}$**: Three vectors that algebraically form a closed continuous loop.\n\n## Boundary Conditions / Domain:\n- This identity is strictly conditional. It REQUIRES the explicit boundary condition: $\vec{a} + \vec{b} + \vec{c} = \vec{0}$.",
+"formulaMeta": {
+"formula": "\vec{a} \times \vec{b} = \vec{b} \times \vec{c} = \vec{c} \times \vec{a}",
+"description": "If the sum of three vectors is the zero vector (a + b + c = 0), what cyclic relationship holds true for their pairwise cross products?",
+"derivation": "This is established by left-cross-multiplying the zero-sum equation by each constituent vector successively."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 31,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Algorithmic Proof for Cyclic Cross Product)"
+],
+"vettingNotes": "Generated from splitting card d1f5d62d-396f-44ff-8f22-a9d75fad0a2c",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-advanced"
+],
+"order": 33,
+"heading": "Proof: Cyclic Cross Product Identity",
+"back": "## Component Anatomy:\n- **$\vec{a} \times \vec{a} = \vec{0}$**: Self-cross product elimination.\n- **$-(\vec{a} \times \vec{c}) = \vec{c} \times \vec{a}$**: Anti-commutativity flip.\n\n## Boundary Conditions / Domain:\n- Sequence matters. You must strictly cross-multiply from the *same side* (e.g., left multiply) across the entire equation.",
+"formulaMeta": {
+"formula": "\vec{a} \times (\vec{a} + \vec{b} + \vec{c}) = \vec{0}",
+"description": "State the step-by-step SOP to prove a x b = b x c = c x a given a + b + c = 0.",
+"derivation": "1. Start with $\vec{a} + \vec{b} + \vec{c} = \vec{0}$.\n2. Cross-multiply the entire equation by $\vec{a}$ strictly from the left: $\vec{a} \times (\vec{a} + \vec{b} + \vec{c}) = \vec{a} \times \vec{0}$.\n3. Expand using distributivity: $\vec{a} \times \vec{a} + \vec{a} \times \vec{b} + \vec{a} \times \vec{c} = \vec{0}$.\n4. Since $\vec{a} \times \vec{a} = \vec{0}$, we isolate: $\vec{a} \times \vec{b} = -(\vec{a} \times \vec{c})$.\n5. Apply anti-commutativity: $\vec{a} \times \vec{b} = \vec{c} \times \vec{a}$.\n6. Repeat by left-crossing with $\vec{b}$ to complete the cycle."
+}
+}
+},
+{
+"cardId": "8e78c3b2-16e5-4e2e-9ce8-bf81b1ab0107",
+"originalOrder": 35,
+"originalHeading": "Sum of Squared Cross Products with Basis Vectors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 34",
+"Escaped KaTeX"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-main"
+],
+"order": 34,
+"heading": "Squared Cross Products with Basis Vectors",
+"back": "## Component Anatomy:\n- **$\hat{i}, \hat{j}, \hat{k}$**: Standard unit basis vectors.\n- **$\vec{a}$**: Any free vector in 3D space.\n\n## Boundary Conditions / Domain:\n- This identity highlights how a vector's orthogonal cross-products onto the coordinate axes mathematically scale against its total squared magnitude.",
+"formulaMeta": {
+"formula": "|\vec{a} \times \hat{i}|^2 + |\vec{a} \times \hat{j}|^2 + |\vec{a} \times \hat{k}|^2 = 2|\vec{a}|^2",
+"description": "State the simplified identity for the sum of the squared magnitudes of a vector's cross products with the coordinate axes.",
+"derivation": "1. Let $\vec{a} = x\hat{i} + y\hat{j} + z\hat{k}$.\n2. Compute individual cross products: $\vec{a} \times \hat{i} = (y\hat{j} \times \hat{i}) + (z\hat{k} \times \hat{i}) = -y\hat{k} + z\hat{j}$.\n3. Magnitude squared: $|\vec{a} \times \hat{i}|^2 = y^2 + z^2$.\n4. Repeat for $\hat{j}$ ($x^2+z^2$) and $\hat{k}$ ($x^2+y^2$).\n5. Sum them: $2x^2 + 2y^2 + 2z^2 = 2(x^2 + y^2 + z^2) = 2|\vec{a}|^2$."
+}
+}
+},
+{
+"cardId": "23ff5b4e-89bb-417d-a991-71fcac409cc3",
+"originalOrder": 37,
+"originalHeading": "Solving Simultaneous Dot and Cross Equations",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Cross Product Setup)",
+"Re-sequenced to order 35"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-advanced"
+],
+"order": 35,
+"heading": "SOP Part 1: Setting up Cross Product Constraints",
+"back": "## Component Anatomy:\n- **$\vec{c}$**: The unknown vector dynamically assigned as $x\hat{i} + y\hat{j} + z\hat{k}$.\n- **$\vec{a}, \vec{b}$**: Known static vectors.\n\n## Boundary Conditions / Domain:\n- For a mathematically valid solution to exist, $\vec{a}$ and $\vec{b}$ MUST be strictly perpendicular ($\vec{a} \cdot \vec{b} = 0$). This is because the equation $\vec{a} \times \vec{c} = \vec{b}$ inherently forces vector $\vec{b}$ to be perpendicular to vector $\vec{a}$.",
+"formulaMeta": {
+"formula": "\vec{a} \times (x\hat{i} + y\hat{j} + z\hat{k}) = \vec{b}",
+"description": "State the initial procedural steps to define linear equations for an unknown vector c when constrained by a x c = b.",
+"derivation": "1. Explicitly let the unknown vector be $\vec{c} = x\hat{i} + y\hat{j} + z\hat{k}$.\n2. Compute the 3x3 determinant for $\vec{a} \times \vec{c}$ using components of $\vec{a}$ and $(x,y,z)$.\n3. Equate the resulting $\hat{i}, \hat{j}, \hat{k}$ scalar coefficients to the corresponding known components of $\vec{b}$ to extract a system of linear equations."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 37,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Dot Product Substitution)"
+],
+"vettingNotes": "Generated from splitting card 23ff5b4e-89bb-417d-a991-71fcac409cc3",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-advanced"
+],
+"order": 36,
+"heading": "SOP Part 2: Dot Product System Substitution",
+"back": "## Component Anatomy:\n- **$k$**: A strictly known scalar value.\n- **$x, y, z$**: The unknowns to be solved.\n\n## Boundary Conditions / Domain:\n- This step requires a non-singular system of equations derived from the Part 1 setup.",
+"formulaMeta": {
+"formula": "\vec{a} \cdot (x\hat{i} + y\hat{j} + z\hat{k}) = k",
+"description": "State the final procedural steps to solve for unknown vector c when constrained by a . c = k, integrated with the cross product equations.",
+"derivation": "1. Expand the algebraic dot product $\vec{a} \cdot \vec{c} = k$ to yield a direct linear equation: $a_1x + a_2y + a_3z = k$.\n2. Substitute the linear relationships for $x, y,$ and $z$ derived from the cross product determinant (Part 1) into this dot product equation.\n3. Solve algebraically for the independent variables to construct final vector $\vec{c}$."
+}
+}
+},
+{
+"cardId": "953e66a8-7b03-4691-9220-d935fd2c5e82",
+"originalOrder": 44,
+"originalHeading": "Vector Polynomial Expansion Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 37"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"algebra-analogue",
+"class-12",
+"jee-main"
+],
+"order": 37,
+"heading": "Vector Polynomial Expansion Trap",
+"back": "When algebraically expanding vector polynomials, the specific operator strictly dictates the mathematical outcome:\n\n- **Dot Product:** $(\vec{a}+\vec{b})^2 = (\vec{a}+\vec{b}) \cdot (\vec{a}+\vec{b}) = |\vec{a}|^2 + |\vec{b}|^2 + 2(\vec{a} \cdot \vec{b})$. This mimics standard scalar algebra.\n- **Cross Product Trap:** $(\vec{a}+\vec{b}) \times (\vec{a}+\vec{b})$ is strictly the **null vector $\vec{0}$**, because the cross product of any mathematical vector with itself inherently yields zero.",
+"standardMeta": {
+"question": "How does the algebraic expansion of $(\vec{a}+\vec{b})^2$ critically differ depending on whether the implied operational context is a dot product or a cross product?"
+}
+}
+},
+{
+"cardId": "b65b8e66-8b0a-4748-8965-8b6a7cc9f4e9",
+"originalOrder": 39,
+"originalHeading": "Modulus Scaling Bounds Trap",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 38"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"boundary-condition",
+"class-12",
+"jee-main"
+],
+"order": 38,
+"heading": "Modulus Scaling Interval Trap",
+"back": "The total magnitude of a scalar-multiplied vector is mathematically $|\lambda \vec{a}| = |\lambda| |\vec{a}|$.\n\n- **Trap:** If the scalar multiplier $\lambda$ belongs to a closed interval that actively crosses zero (e.g., $-1 \leq \lambda \leq 2$), the strict minimum magnitude is **$0$** (occurring when $\lambda = 0$), NOT the magnitude evaluated at the negative lower bound.\n- The maximum magnitude is evaluated strictly as $\max(|\text{lower}|, |\text{upper}|) \times |\vec{a}|$.\n\n## Boundary Conditions / Domain:\n- Ensure the interval $\lambda \in [m, n]$ is tested against $0$. If $m \leq 0 \leq n$, minimum magnitude is $0$.",
+"standardMeta": {
+"question": "If $|\vec{a}| = 3$ and a real scalar $\lambda$ lies in the interval $[-1, 2]$, what is the strict mathematical range of the output magnitude $|\lambda \vec{a}|$?"
+}
+}
+},
+{
+"cardId": "54fdd89b-f452-40be-99f8-bb23eda68069",
+"originalOrder": 36,
+"originalHeading": "General Unit Vector in XY-Plane",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 39"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"class-12",
+"jee-main"
+],
+"order": 39,
+"heading": "General Unit Vector (XY-Plane)",
+"back": "## Component Anatomy:\n- **$\theta$**: The angle the vector makes with the positive X-axis, strictly measured in the counter-clockwise direction.\n- **$\hat{i}, \hat{j}$**: Unit vectors along X and Y axes.\n\n## Boundary Conditions / Domain:\n- The Z-component is strictly defined as $0$ ($0\hat{k}$) because it resides entirely in the XY-plane.\n- As domain $\theta$ varies from $0$ to $2\pi$, this specific formula geometrically traces the entire boundary of the unit circle $x^2 + y^2 = 1$.",
+"formulaMeta": {
+"formula": "\vec{r} = \cos\theta \hat{i} + \sin\theta \hat{j}",
+"description": "State the general parametric algebraic formula for any unit vector lying completely within the 2D XY-plane.",
+"derivation": "By projecting a vector of magnitude 1 onto the X and Y axes, basic trigonometry dictates the X-component is $1 \cdot \cos\theta$ and the Y-component is $1 \cdot \sin\theta$."
+}
+}
+},
+{
+"cardId": "a0823465-80c1-420c-8990-49cb419e21a3",
+"originalOrder": 17,
+"originalHeading": "Cauchy-Schwarz Inequality",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 40",
+"Escaped KaTeX strictly"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"inequality",
+"class-12",
+"jee-advanced"
+],
+"order": 40,
+"heading": "Cauchy-Schwarz Vector Inequality",
+"back": "## Component Anatomy:\n- **$\vec{a} \cdot \vec{b}$**: The algebraic scalar dot product.\n- **$|\vec{a}|, |\vec{b}|$**: Absolute magnitudes of the constituent vectors.\n\n## Boundary Conditions / Domain:\n- Mathematical Equality strictly holds ONLY when $\vec{a}$ and $\vec{b}$ are completely collinear (either parallel or anti-parallel, $\theta = 0$ or $\pi$).\n- The inequality behaves trivially (evaluates to $0 = 0$) if either constituent vector is strictly $\vec{0}$.",
+"formulaMeta": {
+"formula": "|\vec{a} \cdot \vec{b}| \leq |\vec{a}||\vec{b}|",
+"description": "State the Cauchy-Schwarz inequality relating the absolute dot product to vector magnitudes.",
+"derivation": "1. Recall the geometric dot product: $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$.\n2. We mathematically know that $|\cos\theta| \leq 1$ for strictly any real angle $\theta$.\n3. Taking absolute values on both sides: $|\vec{a} \cdot \vec{b}| = |\vec{a}||\vec{b}||\cos\theta| \leq |\vec{a}||\vec{b}|(1)$."
+}
+}
+},
+{
+"cardId": "630e87ea-8dfc-4203-8dc9-69374d5570f7",
+"originalOrder": 18,
+"originalHeading": "Triangle Inequality",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 41",
+"Escaped KaTeX strictly"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": [
+"mathematics",
+"vector-algebra",
+"inequality",
+"class-12",
+"jee-main"
+],
+"order": 41,
+"heading": "Triangle Inequality (Vectors)",
+"back": "## Component Anatomy:\n- **$|\vec{a} + \vec{b}|$**: Magnitude of the summed resultant vector.\n- **$|\vec{a}| + |\vec{b}|$**: The direct arithmetic sum of the individual scalar magnitudes.\n\n## Boundary Conditions / Domain:\n- Equality strictly holds ONLY when vectors $\vec{a}$ and $\vec{b}$ are purely collinear AND point in the **exact same direction** ($\theta = 0$). If they point in opposite directions, it acts as a strict inequality.",
+"mnemonic": "The geometric shortcut (resultant) is always shorter than or equal to the combined detour.",
+"formulaMeta": {
+"formula": "|\vec{a} + \vec{b}| \leq |\vec{a}| + |\vec{b}|",
+"description": "State the mathematical Triangle Inequality for vector addition.",
+"derivation": "1. Expand algebraically: $|\vec{a} + \vec{b}|^2 = (\vec{a} + \vec{b}) \cdot (\vec{a} + \vec{b})$.\n2. Distribute: $= |\vec{a}|^2 + 2(\vec{a}\cdot\vec{b}) + |\vec{b}|^2$.\n3. Apply Cauchy-Schwarz constraint: $\vec{a}\cdot\vec{b} \leq |\vec{a}||\vec{b}|$.\n4. Substitute inequality: $\leq |\vec{a}|^2 + 2|\vec{a}||\vec{b}| + |\vec{b}|^2 = (|\vec{a}| + |\vec{b}|)^2$.\n5. Take the principal square roots of both sides."
+}
+}
+},
+{
+"cardId": "59b8ef55-99b7-4ca6-8fc1-d33e141fc07e",
+"originalOrder": 24,
+"originalHeading": "Area of a Triangle (Vector Form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 42"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"geometry",
+"class-12",
+"jee-main"
+],
+"order": 42,
+"heading": "Area of Triangle (Edge Vector Form)",
+"back": "## Component Anatomy:\n- **$\vec{AB}, \vec{AC}$**: Two completely adjacent edge vectors mathematically originating from the exact same vertex ($A$).\n\n## Boundary Conditions / Domain:\n- **TRAP:** You must mathematically calculate and use derived *edge vectors*, NOT the raw position vectors of the vertices directly.\n- If given position points $A, B, C$, you must strictly pre-calculate $\vec{AB} = \vec{B} - \vec{A}$ and $\vec{AC} = \vec{C} - \vec{A}$ before applying the formula.",
+"formulaMeta": {
+"formula": "\text{Area} = \frac{1}{2}|\vec{AB} \times \vec{AC}|",
+"description": "State the vector formula to calculate the Area of a Triangle with adjacent sides represented by vectors AB and AC.",
+"derivation": "1. Find two edge vectors dynamically sharing an initial point.\n2. Compute their vector cross product utilizing the 3x3 determinant.\n3. Compute the strictly non-negative magnitude of the resulting vector.\n4. Multiply the magnitude by the scalar $\frac{1}{2}$ (as a triangle is half a parallelogram)."
+}
+}
+},
+{
+"cardId": "8f3e891e-fd9f-40ce-a682-4be905ab2bae",
+"originalOrder": 28,
+"originalHeading": "Area of Triangle (Position Vectors Form)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Symmetric Formula)",
+"Re-sequenced to order 43"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"geometry",
+"class-12",
+"jee-advanced"
+],
+"order": 43,
+"heading": "Area of Triangle (Position Vectors Form)",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}, \vec{c}$**: The raw coordinate Position Vectors of the three absolute vertices A, B, and C modeled with respect to the common origin $O$.\n\n## Boundary Conditions / Domain:\n- The terms MUST strictly maintain cyclic order ($\vec{a}\times\vec{b}$, $\vec{b}\times\vec{c}$, $\vec{c}\times\vec{a}$) to ensure mathematical sign consistency before calculating absolute magnitude.",
+"formulaMeta": {
+"formula": "\text{Area} = \frac{1}{2}|\vec{a} \times \vec{b} + \vec{b} \times \vec{c} + \vec{c} \times \vec{a}|",
+"description": "State the expanded, symmetric formula for the area of a triangle given strictly the position vectors of its vertices a, b, and c.",
+"derivation": "1. Invoke standard edge vector formula: $\text{Area} = \frac{1}{2}|\vec{AB} \times \vec{AC}|$.\n2. Substitute the raw position vectors: $\vec{AB} = \vec{b} - \vec{a}$ and $\vec{AC} = \vec{c} - \vec{a}$.\n3. Expand strictly using distributive and anti-commutative properties: $(\vec{b} - \vec{a}) \times (\vec{c} - \vec{a}) = \vec{b}\times\vec{c} - \vec{b}\times\vec{a} - \vec{a}\times\vec{c} + \vec{a}\times\vec{a}$.\n4. Zero out $\vec{a}\times\vec{a}$ and flip signs: $\vec{b}\times\vec{c} + \vec{a}\times\vec{b} + \vec{c}\times\vec{a}$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 28,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Collinearity Constraint Derivation)"
+],
+"vettingNotes": "Generated from splitting card 8f3e891e-fd9f-40ce-a682-4be905ab2bae",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"geometry",
+"class-12",
+"jee-main"
+],
+"order": 44,
+"heading": "3-Point Collinearity via Triangle Area",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}, \vec{c}$**: Position vectors of three points in 3D space.\n\n## Boundary Conditions / Domain:\n- This behaves as a strict logical equivalency. If the area evaluates to exactly $0$, the three distinct points inherently collapse into a single 1D line.",
+"formulaMeta": {
+"formula": "\vec{a} \times \vec{b} + \vec{b} \times \vec{c} + \vec{c} \times \vec{a} = \vec{0}",
+"description": "What is the vector constraint derived from the area formula that definitively proves three position points are collinear?",
+"derivation": "If three points are completely collinear, the mathematical triangle they attempt to form possesses an area of $0$. Equating the position vector area formula strictly to $0$ zeroes out the scalar $\frac{1}{2}$ and the magnitude bars, leaving the zero vector sum constraint."
+}
+}
+},
+{
+"cardId": "a14d41fa-5a88-4b0d-a27d-99848e58b3a9",
+"originalOrder": 25,
+"originalHeading": "Area of a Parallelogram (Adjacent Sides)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 45"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"geometry",
+"class-12",
+"jee-main"
+],
+"order": 45,
+"heading": "Area of Parallelogram (Adjacent Edges)",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}$**: Two vector quantities algebraically representing completely adjacent outer edges of the parallelogram (sharing a common geometric vertex).\n\n## Boundary Conditions / Domain:\n- This explicit formula is strictly restricted to *adjacent sides*. Using opposite parallel sides is mathematically invalid (cross product would be strictly $\vec{0}$).",
+"formulaMeta": {
+"formula": "\text{Area} = |\vec{a} \times \vec{b}|",
+"description": "State the vector formula to calculate the geometric Area of a Parallelogram explicitly given its adjacent sides a and b.",
+"derivation": "1. Compute the algebraic cross product $\vec{a} \times \vec{b}$ using a determinant.\n2. Calculate the total scalar magnitude of this resultant vector. (Unlike a triangle, absolutely no $\frac{1}{2}$ multiplier is applied)."
+}
+}
+},
+{
+"cardId": "94481a59-6223-4603-8514-737816ccc40a",
+"originalOrder": 27,
+"originalHeading": "Area of Parallelogram (Using Diagonals)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Re-sequenced to order 46"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": [
+"mathematics",
+"vector-algebra",
+"geometry",
+"class-12",
+"jee-main"
+],
+"order": 46,
+"heading": "Area of Parallelogram (Using Diagonals)",
+"back": "## Component Anatomy:\n- **$\vec{d_1}, \vec{d_2}$**: Vectors mathematically representing the strictly internal diagonals of the parallelogram crossing one another.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Do not computationally confuse this variant with the formula for outer adjacent sides ($|\vec{a} \times \vec{b}|$). When feeding internal diagonals into the cross product, you MUST mathematically re-introduce the scalar $\frac{1}{2}$ multiplier.",
+"formulaMeta": {
+"formula": "\text{Area} = \frac{1}{2}|\vec{d_1} \times \vec{d_2}|",
+"description": "State the vector formula to calculate the Area of a Parallelogram when strictly provided its two diagonal vectors, d_1 and d_2.",
+"derivation": "The diagonals mathematically decompose the parallelogram into 4 constituent triangles. Vector substitution of $\vec{d_1} = \vec{a}+\vec{b}$ and $\vec{d_2} = \vec{b}-\vec{a}$ into the cross product expansion isolates the $\frac{1}{2}$ scalar algebraically."
+}
+}
+},
+{
+"cardId": "d73c9d6f-3c0b-4be8-9997-a55be6a80dec",
+"originalOrder": 42,
+"originalHeading": "Proving the Sine Rule via Cross Product",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Cyclic Vector Setup)",
+"Re-sequenced to order 47"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"jee-advanced",
+"class-12"
+],
+"order": 47,
+"heading": "Sine Rule Proof: Cyclic Setup Phase",
+"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}, \vec{c}$**: Vectors formed by traveling head-to-tail continuously along the perimeter of the triangle.\n\n## Boundary Conditions / Domain:\n- The vectors MUST strictly establish a closed sequence mapping back to the origin vertex: $\vec{a} + \vec{b} + \vec{c} = \vec{0}$. Failure to trace a loop invalidates the null sum constraint.",
+"formulaMeta": {
+"formula": "\vec{a} \times \vec{b} = \vec{c} \times \vec{a}",
+"description": "State the initial vector equation extraction required to mathematically prove the Sine Rule for triangles.",
+"derivation": "1. Enforce a cyclic triangle perimeter sum: $\vec{a} + \vec{b} + \vec{c} = \vec{0}$.\n2. Multiply across by vector $\vec{a}$ using the cross product operator: $\vec{a} \times (\vec{a} + \vec{b} + \vec{c}) = \vec{0}$.\n3. Expand and apply self-cross elimination ($\vec{a} \times \vec{a} = \vec{0}$): $\vec{a} \times \vec{b} = -(\vec{a} \times \vec{c})$.\n4. Apply anti-commutativity to yield exactly $\vec{a} \times \vec{b} = \vec{c} \times \vec{a}$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 42,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Magnitude Substitution for Sine Rule)"
+],
+"vettingNotes": "Generated from splitting card d73c9d6f-3c0b-4be8-9997-a55be6a80dec",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"jee-advanced",
+"class-12"
+],
+"order": 48,
+"heading": "Sine Rule Proof: Magnitude Expansion",
+"back": "## Component Anatomy:\n- **$a, b, c$**: Scalar scalar lengths (magnitudes) of the corresponding triangle edges.\n- **$\pi - C$**: The exact *exterior* angle between continuous sequential vectors $\vec{a}$ and $\vec{b}$ when shifted to share a common origin tail-to-tail.\n\n## Boundary Conditions / Domain:\n- The internal angle domain of a triangle mandates $0 < A, B, C < \pi$, which ensures all scalar $\sin$ values rigorously remain positive and non-zero.",
+"formulaMeta": {
+"formula": "\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}",
+"description": "State the final procedural expansion steps to deduce the Sine Rule from equated cross products.",
+"derivation": "1. Begin with the extracted cyclic identity: $\vec{a} \times \vec{b} = \vec{c} \times \vec{a}$.\n2. Extract absolute magnitudes strictly: $|\vec{a}||\vec{b}|\sin(\pi - C) = |\vec{c}||\vec{a}|\sin(\pi - B)$.\n3. Apply trigonometric reduction ($\sin(\pi - \theta) = \sin\theta$): $ab\sin C = ca\sin B$.\n4. Algebraically divide both sides globally by the non-zero scalar product $abc$ to isolate the ratios."
+}
+}
+},
+{
+"cardId": "50ac2d30-2232-4723-8631-cf9491298d6d",
+"originalOrder": 43,
+"originalHeading": "Proving the Cosine Rule via Dot Product",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split into Part 1 (Vector Isolation Setup)",
+"Re-sequenced to order 49"
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"jee-advanced",
+"class-12"
+],
+"order": 49,
+"heading": "Cosine Rule Proof: Vector Isolation Phase",
+"back": "## Component Anatomy:\n- **$\vec{a}$**: The isolated vector representing the explicit side length being targeted.\n- **$-(\vec{b} + \vec{c})$**: The sum of the remaining two vectors, negated.\n\n## Boundary Conditions / Domain:\n- The geometry absolutely requires isolation of precisely ONE vector before applying algebraic operators, unlike the Sine Rule proof which cross-multiplies the entire untouched zero-sum equation.",
+"formulaMeta": {
+"formula": "\vec{a} \cdot \vec{a} = (\vec{b} + \vec{c}) \cdot (\vec{b} + \vec{c})",
+"description": "State the initial vector setup and self-dot operator required to prove the Cosine Rule.",
+"derivation": "1. Initialize a cyclic continuous perimeter triangle: $\vec{a} + \vec{b} + \vec{c} = \vec{0}$.\n2. Isolate the exact side of interest algebraically across the equality: $\vec{a} = -(\vec{b} + \vec{c})$.\n3. Square both strictly by executing a self-dot product on both sides: $\vec{a} \cdot \vec{a} = [-(\vec{b} + \vec{c})] \cdot [-(\vec{b} + \vec{c})]$."
+}
+}
+},
+{
+"cardId": "NEW",
+"originalOrder": 43,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Split into Part 2 (Dot Product Expansion)"
+],
+"vettingNotes": "Generated from splitting card 50ac2d30-2232-4723-8631-cf9491298d6d",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": [
+"mathematics",
+"vector-algebra",
+"jee-advanced",
+"class-12"
+],
+"order": 50,
+"heading": "Cosine Rule Proof: Dot Product Expansion",
+"back": "## Component Anatomy:\n- **$a, b, c$**: Absolute magnitudes of the bounding triangle edges.\n- **$\pi - A$**: The mathematically exact angle STRICTLY between vectors $\vec{b}$ and $\vec{c}$ when forcibly aligned tail-to-tail.\n\n## Boundary Conditions / Domain:\n- A common student error assumes the internal angle $A$ is directly inserted. The vector dot product maps to the exterior angle $(\pi - A)$, which strictly induces the final negative sign upon trig evaluation ($\cos(\pi - A) = -\cos A$).",
+"formulaMeta": {
+"formula": "a^2 = b^2 + c^2 - 2bc \cos A",
+"description": "State the algebraic expansion steps to deduce the final Cosine formula from a squared vector equation.",
+"derivation": "1. Expand the self-dot product: $\vec{a} \cdot \vec{a} = |\vec{a}|^2 = a^2$.\n2. Expand the RHS completely: $(\vec{b} + \vec{c}) \cdot (\vec{b} + \vec{c}) = |\vec{b}|^2 + |\vec{c}|^2 + 2(\vec{b} \cdot \vec{c})$.\n3. Substitute the geometric definition into the dot product constraint: $\vec{b} \cdot \vec{c} = |\vec{b}||\vec{c}| \cos(\pi - A)$.\n4. Trigonometric reduction dictates $\cos(\pi - A) = -\cos A$, converting the addition step to a subtraction: $a^2 = b^2 + c^2 - 2bc \cos A$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}

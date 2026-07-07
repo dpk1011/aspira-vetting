@@ -1,0 +1,1237 @@
+{
+"deckId": "062b1cf2-950c-498b-b815-70ea76a484ab",
+"cards": [
+{
+"cardId": "8429a256-5a84-4a17-be23-101cabb206d8",
+"originalOrder": 1,
+"originalHeading": "Differential Equation Basics",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Updated formatting.",
+"Refined heading for pedagogical precision."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 1,
+"heading": "Definition of a Differential Equation",
+"back": "A **differential equation** is an equation that mathematically links an independent variable, a dependent variable, and the derivatives of the dependent variable with respect to the independent variable.\n- **Example:** $x \frac{dy}{dx} + y = 0$",
+"standardMeta": {
+"question": "What mathematical components must be strictly present for an equation to be classified as a Differential Equation?"
+}
+}
+},
+{
+"cardId": "e6832078-7272-4d37-abff-447a25d9de0f",
+"originalOrder": 2,
+"originalHeading": "Ordinary vs. Partial Differential Equations",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined heading.",
+"Clarified definitions."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 2,
+"heading": "Distinction: Ordinary vs. Partial Differential Equations",
+"back": "- **Ordinary Differential Equation (ODE):** Involves derivatives with respect to strictly **one** independent variable. (This is the sole scope of the Class 12 syllabus).\n- **Partial Differential Equation (PDE):** Involves partial derivatives with respect to **multiple** independent variables.",
+"standardMeta": {
+"question": "How do you precisely distinguish between an Ordinary Differential Equation (ODE) and a Partial Differential Equation (PDE)?"
+}
+}
+},
+{
+"cardId": "9c21e215-88e6-44dc-8574-c6e5336d49ca",
+"originalOrder": 3,
+"originalHeading": "Order of a Differential Equation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected explicit boundary conditions (definedness and domain)."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 3,
+"heading": "Order of a Differential Equation",
+"back": "The **order** of a differential equation is strictly defined as the order of the **highest derivative** mathematically present in the equation.\n\n**Boundary Conditions / Domain:**\n- The order is always perfectly defined for every valid differential equation.\n- The order is strictly a positive integer ($1, 2, 3, \dots$).",
+"standardMeta": {
+"question": "Define the 'order' of a differential equation, and state whether it can ever be mathematically undefined."
+}
+}
+},
+{
+"cardId": "254378f7-2c98-4a78-aef3-dd8cb8017107",
+"originalOrder": 4,
+"originalHeading": "Degree of a Differential Equation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Injected domain restrictions regarding rationalisation."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 4,
+"heading": "Degree of a Differential Equation",
+"back": "The **degree** of a differential equation is the highest power (positive integer exponent) raised to the highest-order derivative present in the equation.\n\n**Boundary Conditions / Domain:**\n- This parameter is evaluated **only after** the equation is fully rationalised and written as a finite polynomial specifically in terms of its derivatives.",
+"standardMeta": {
+"question": "How is the 'degree' of a differential equation mathematically defined?"
+}
+}
+},
+{
+"cardId": "9fde872a-475e-4965-93db-f55e34bc3be1",
+"originalOrder": 5,
+"originalHeading": "Conditions for Undefined Degree",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified transcendental trap definition."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 5,
+"heading": "Condition for Undefined Degree",
+"back": "The degree is strictly **not defined** if a derivative sits trapped inside a transcendental function, meaning the differential equation cannot be expressed as a finite polynomial in terms of its derivatives.\n- **Examples of Traps:** $\sin(y'), e^{y''}, \ln(dy/dx)$ all render the degree mathematically undefined.",
+"standardMeta": {
+"question": "Under what strict mathematical condition is the degree of a differential equation considered 'not defined'?"
+}
+}
+},
+{
+"cardId": "7e4b6cae-1e74-4152-b766-5be7a5801acb",
+"originalOrder": 6,
+"originalHeading": "Rationalisation for Degree Determination",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Applied double-escaped KaTeX in formula.",
+"Structured into Component Anatomy and Boundary Conditions."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 6,
+"heading": "SOP: Rationalisation for Degree Determination",
+"back": "## Component Anatomy:\n- **Radicals / Fractional Powers:** Expressions like $\sqrt{y''}$ or $(y')^{1/3}$.\n\n## Boundary Conditions / Domain:\n- You must mathematically eliminate all fractional powers explicitly on **derivatives** before attempting to read the degree.\n- **Trap:** Fractional powers placed on independent variables (e.g., $x^{1/5}$) do NOT affect the degree and can be completely ignored.",
+"formulaMeta": {
+"formula": "(y'')^{\\frac{1}{2}} = x \\implies y'' = x^2",
+"description": "What algorithmic step must be performed before determining the degree of a DE containing fractional powers of derivatives?",
+"derivation": "**SOP:**\n1. Isolate the term containing the fractional power of the derivative on one side of the equation.\n2. Raise both sides to an integer power to clear the fraction entirely.\n3. Verify the DE is now a valid polynomial strictly in its derivatives.\n4. Read the exponent of the highest-order derivative."
+}
+}
+},
+{
+"cardId": "bbc3bb87-4f4c-46eb-a277-6b47f449155d",
+"originalOrder": 7,
+"originalHeading": "General vs. Particular Solution",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined heading and structured distinction."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 7,
+"heading": "Distinction: General vs. Particular Solution",
+"back": "- **General Solution:** Represents an entire family of curves and mathematically contains independent arbitrary constants. It is the general mathematical rule governing the system.\n- **Particular Solution:** Represents a single specific curve obtained by applying initial or boundary conditions to strictly fix the values of all arbitrary constants. It represents the specific experiment.",
+"standardMeta": {
+"question": "Differentiate between a General Solution and a Particular Solution conceptually."
+}
+}
+},
+{
+"cardId": "1db4e5f1-023c-4979-83a6-6e2ff09db586",
+"originalOrder": 8,
+"originalHeading": "Arbitrary Constants in General Solutions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Clarified text for precision."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 8,
+"heading": "Arbitrary Constants in General Solutions",
+"back": "The number of independent arbitrary constants in the general solution of a differential equation is exactly equal to the **order** of that differential equation.\n- *Example:* A 3rd-order DE strictly has exactly 3 arbitrary constants in its general solution.",
+"standardMeta": {
+"question": "How does the order of a differential equation strictly relate to the number of arbitrary constants in its general solution?"
+}
+}
+},
+{
+"cardId": "4b04572b-412d-47b2-b1ee-e889b152cd9c",
+"originalOrder": 9,
+"originalHeading": "Arbitrary Constants in Particular Solutions",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Refined explanation."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "FACT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 9,
+"heading": "Arbitrary Constants in Particular Solutions",
+"back": "The number of arbitrary constants in a particular solution of **any** order differential equation is strictly **ZERO**.\n- **Reasoning:** The initial/boundary conditions perfectly pin down the numerical value of every single arbitrary constant.",
+"standardMeta": {
+"question": "How many arbitrary constants are present in the particular solution of a 4th-order differential equation?"
+}
+}
+},
+{
+"cardId": "f078ee62-dbdf-4c19-ac90-c9c007964aea",
+"originalOrder": 10,
+"originalHeading": "Forming a DE from a Family of Curves",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Applied double-escaped KaTeX.",
+"Structured into Anatomy and Boundary Conditions."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 10,
+"heading": "SOP: Forming a DE from a Family of Curves",
+"back": "## Component Anatomy:\n- **$n$**: Exact number of independent arbitrary constants.\n- **$y^{(n)}$**: The $n$-th order derivative.\n\n## Boundary Conditions / Domain:\n- The final differential equation must strictly **not** contain any of the original arbitrary constants.\n- The order of the resulting DE must exactly equal the number of independent arbitrary constants initially present.",
+"formulaMeta": {
+"formula": "f(x, y, a_1, a_2, \\dots, a_n) = 0 \\implies F(x, y, y', \\dots, y^{(n)}) = 0",
+"description": "State the standard operating procedure for mathematically forming a differential equation from a given family of curves.",
+"derivation": "**SOP:**\n1. Count the precise number of independent arbitrary constants ($n$) in the given algebraic equation.\n2. Differentiate the equation exactly $n$ times with respect to $x$.\n3. Use algebraic substitution across the original and derived equations to completely eliminate all arbitrary constants.\n4. The final constant-free expression is the required differential equation."
+}
+}
+},
+{
+"cardId": "d5eefa17-11f7-45d4-ae6c-a0d2264a7bac",
+"originalOrder": 30,
+"originalHeading": "Geometry Translation: Tangent Slope",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 11 to group with curve formation.",
+"Refined textual explanation."
+],
+"vettingNotes": "Moved from 30 to 11.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 11,
+"heading": "Geometry Translation: Tangent Slope",
+"back": "In curve-finding geometry problems, the phrase **'the slope of the tangent to the curve at any point $(x, y)$'** strictly translates to the first derivative **$\frac{dy}{dx}$**.\n- **SOP:** You must mathematically equate $\frac{dy}{dx}$ to the specific algebraic expression provided in the word problem to successfully form the required differential equation.",
+"standardMeta": {
+"question": "In geometric DE problems, what does the phrase 'the slope of the tangent to the curve at any point $(x, y)$' mathematically translate to?"
+}
+}
+},
+{
+"cardId": "a3a664fe-2bf2-4b4d-b8d7-985c4a8edb19",
+"originalOrder": 31,
+"originalHeading": "Geometric Elimination Trick (Circles)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 12.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 31 to 12.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "geometry"],
+"order": 12,
+"heading": "Geometric Elimination Shortcut: Circles",
+"back": "## Component Anatomy:\n- **$\frac{dy}{dx}$**: Slope of the tangent line.\n- **$\frac{y - k}{x - h}$**: The geometric slope of the radius connecting the fixed center $(h,k)$ to the point of tangency $(x,y)$.\n\n## Boundary Conditions / Domain:\n- Strictly valid for any 1-parameter family of circles where the center $(h,k)$ is fixed and mathematically known.",
+"formulaMeta": {
+"formula": "\\left(\\frac{dy}{dx}\\right)*{\\text{tangent}} \\times \\left(\\frac{y - k}{x - h}\\right)*{\\text{radius}} = -1",
+"description": "How can you quickly form the differential equation for a family of circles centered at $(h, k)$ using the geometric property of tangents?",
+"derivation": "**SOP:**\n1. Identify the fixed center $(h,k)$ of the circle family.\n2. Write the slope of the radius vector to any point $(x,y)$ as $m_1 = \frac{y - k}{x - h}$.\n3. The slope of the tangent is universally $m_2 = \frac{dy}{dx}$.\n4. Apply the perpendicularity condition $m_1 m_2 = -1$ to instantly generate the eliminated DE, bypassing the need to differentiate the circle equation directly."
+}
+}
+},
+{
+"cardId": "78a05298-b33e-4ff8-a82f-ddb4bb36382f",
+"originalOrder": 49,
+"originalHeading": "Geometric Translation: Tangent Midpoint on Axes",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 13.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 49 to 13 to complete the geometry block.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "geometry"],
+"order": 13,
+"heading": "Geometric Translation: Tangent Midpoint on Axes",
+"back": "## Component Anatomy:\n- **$(x, y)$**: The exact point of tangency on the curve.\n- **$X, Y$**: Variables representing the coordinate axes framework.\n\n## Boundary Conditions / Domain:\n- This strictly applies ONLY when the problem states: 'The tangent at point P meets the axes at A and B such that P is the midpoint of AB.'\n- **Trap:** Do not confuse $(X, Y)$ intercept variables with the tangency point $(x, y)$.",
+"formulaMeta": {
+"formula": "\\frac{X}{2x} + \\frac{Y}{2y} = 1 \\implies \\frac{dy}{dx} = -\\frac{y}{x}",
+"description": "If a tangent at point P(x,y) meets the coordinate axes such that P is the midpoint of the intercepted segment, what is the immediate differential equation?",
+"derivation": "**SOP:**\n1. If $P(x,y)$ is the midpoint, the axes intercepts are exactly $A(2x, 0)$ and $B(0, 2y)$.\n2. Write the intercept form of the line: $\frac{X}{2x} + \frac{Y}{2y} = 1$.\n3. The geometric slope of this line is $-\frac{\text{Y-intercept}}{\text{X-intercept}} = -\frac{2y}{2x} = -\frac{y}{x}$.\n4. Equate this to $\frac{dy}{dx}$ to obtain the DE."
+}
+}
+},
+{
+"cardId": "fd9b035c-894f-47f2-9019-3a04908077d6",
+"originalOrder": 11,
+"originalHeading": "Spotting Variable Separable Form",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 14."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 14,
+"heading": "Identification: Variable Separable Form",
+"back": "- **Concept:** A first-order DE is variable separable if the RHS can be completely algebraically factored into the strict product of two single-variable functions: $g(x) \cdot h(y)$.\n- This specific mathematical structure allows clean algebraic separation, moving all $x$-terms exclusively with $dx$ and all $y$-terms exclusively with $dy$ to opposite sides of the equals sign.",
+"standardMeta": {
+"question": "What algebraic condition must the RHS of a first-order DE satisfy to apply the Variable Separable method?"
+}
+}
+},
+{
+"cardId": "48249d5b-5596-400b-8a57-a01bb10f9cc1",
+"originalOrder": 12,
+"originalHeading": "Variable Separable Method Integration",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 15.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 15,
+"heading": "SOP: Variable Separable Integration",
+"back": "## Component Anatomy:\n- **$f(y)$**: Function purely of $y$.\n- **$g(x)$**: Function purely of $x$.\n- **$C$**: Single arbitrary constant of integration.\n\n## Boundary Conditions / Domain:\n- **Division by Zero Check:** If separation involves dividing by $h(y)$, the roots where $h(y) = 0$ must be evaluated, as they may represent valid singular or trivial constant solutions (e.g., $y=0$) that the integration process loses.",
+"formulaMeta": {
+"formula": "\\int f(y) \\, dy = \\int g(x) \\, dx + C",
+"description": "State the core integration formula and algorithmic steps for solving a Variable Separable DE.",
+"derivation": "**SOP:**\n1. Algebraically rearrange the DE to completely isolate $\frac{dy}{dx}$.\n2. Cross-multiply to strictly gather all $y$-terms with $dy$ on the LHS and $x$-terms with $dx$ on the RHS.\n3. Integrate both sides simultaneously.\n4. Add a single constant of integration $+C$ strictly on the RHS immediately after integration is performed."
+}
+}
+},
+{
+"cardId": "a6ea2924-f5de-4511-bb2f-191a500cbbb2",
+"originalOrder": 38,
+"originalHeading": "Logarithm-Folding in Separable DEs",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 16 to pair directly with separation outputs.",
+"Improved markdown structure."
+],
+"vettingNotes": "Moved from 38 to 16.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 16,
+"heading": "SOP: Logarithm-Folding in Separable DEs",
+"back": "When integration yields multiple logarithmic terms and an arbitrary constant (e.g., $\ln|f(x)| + \ln|g(y)| = C_1$), you must **fold the logarithms together** to achieve the final standard algebraic form required by marking schemes.\n\n**Standard Operating Procedure:**\n1. Use logarithmic properties: $\ln a + \ln b = \ln(ab)$ or $\ln a - \ln b = \ln(a/b)$.\n2. Rewrite the arbitrary constant $C_1$ mathematically as $\ln|k|$ for seamless folding, OR simply exponentiate both sides to absorb $e^{C_1}$ into a new multiplicative constant $K$.\n- **Example:** $\ln|x| + \ln|y| = C_1 \implies \ln|xy| = C_1 \implies xy = K$.",
+"standardMeta": {
+"question": "When integrating a separable DE results in $\ln|f(x)| + \ln|g(y)| = C_1$, what algebraic simplification is required to reach the final standard mathematical form?"
+}
+}
+},
+{
+"cardId": "9f393fb1-d3dc-4c0f-b5e3-3252e381fdc3",
+"originalOrder": 39,
+"originalHeading": "Partial Fractions Cover-Up Trick",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 17.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 39 to 17.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 17,
+"heading": "Integration Trick: 1/(x(x+1)) Partial Fraction",
+"back": "## Component Anatomy:\n- **$x(x+1)$**: A highly common quadratic denominator featuring distinct linear factors.\n\n## Boundary Conditions / Domain:\n- Strict domain constraint: $x \neq 0, x \neq -1$.\n- Essential shortcut for rapidly integrating rational functions that routinely emerge after separating variables.",
+"formulaMeta": {
+"formula": "\\frac{1}{x(x+1)} = \\frac{1}{x} - \\frac{1}{x+1}",
+"description": "State the partial fraction decomposition identity for the term 1/(x(x+1)) commonly found in separable DEs.",
+"derivation": "**SOP:**\n1. Identify the factored denominator $x(x+1)$.\n2. Algebraically split into $\frac{1}{x} - \frac{1}{x+1}$ (bypassing full A/B equation setup).\n3. Mentally verify using cross-multiplication: $(x+1) - x = 1$, which perfectly matches the required numerator.\n4. Integrate term-by-term to yield $\ln|x| - \ln|x+1|$."
+}
+}
+},
+{
+"cardId": "7e3a3d56-d95d-4891-a806-2d7220b16fa7",
+"originalOrder": 52,
+"originalHeading": "Logarithmic Derivative Pattern Recognition",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 18.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 52 to 18.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "integration-shortcut"],
+"order": 18,
+"heading": "Integration Pattern: Logarithmic Derivative",
+"back": "## Component Anatomy:\n- **$f(x)$**: The function located strictly in the denominator.\n- **$f'(x)$**: The exact derivative of the denominator present entirely in the numerator.\n\n## Boundary Conditions / Domain:\n- Constraint: $f(x) \neq 0$.\n- Highly common in Separable DEs involving trigonometric ratios (e.g., integrating $\frac{\sec^2 x}{\tan x} \\, dx$).",
+"formulaMeta": {
+"formula": "\\int \\frac{f'(x)}{f(x)} \\, dx = \\ln|f(x)| + C",
+"description": "State the standard integration template when the numerator of a fraction is the exact derivative of the denominator.",
+"derivation": "**SOP:**\n1. Scan fractional integrands before defaulting to lengthy $u$-substitution.\n2. If the top is the exact mathematical derivative of the bottom, immediately write $\ln|\text{bottom}|$.\n3. *Example:* $\int \frac{\sec^2 y}{\tan y} dy = \ln|\tan y|$."
+}
+}
+},
+{
+"cardId": "48ab7d10-f551-43bb-a9ec-932b778fbcec",
+"originalOrder": 13,
+"originalHeading": "Substitution for Linear Argument Separable DEs",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 19.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 13 to 19.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 19,
+"heading": "Substitution: Linear Argument Separable DEs",
+"back": "## Component Anatomy:\n- **$v$**: Substituted composite variable.\n- **$a, b, c$**: Known constant coefficients from the linear argument.\n\n## Boundary Conditions / Domain:\n- Used strictly when $\frac{dy}{dx}$ equals a function where $x$ and $y$ are permanently locked in a linear combination, e.g., $f(x+y)$ or $\cos(x-y)$.",
+"formulaMeta": {
+"formula": "v = ax + by + c \\implies \\frac{dv}{dx} = a + b\\frac{dy}{dx}",
+"description": "State the substitution mapping technique to solve DEs of the difficult form dy/dx = f(ax + by + c).",
+"derivation": "**SOP:**\n1. Let $v = ax + by + c$.\n2. Differentiate w.r.t $x$ to get $\frac{dv}{dx} = a + b\\\frac{dy}{dx}$.\n3. Algebraically isolate $\frac{dy}{dx}$: $\frac{dy}{dx} = \frac{1}{b}\\\left(\\\frac{dv}{dx} - a\\\right)$.\n4. Substitute back into the original DE to obtain a standard Variable Separable equation strictly in terms of $v$ and $x$."
+}
+}
+},
+{
+"cardId": "b017e66d-01a7-47ee-bd26-47ecadb73bdb",
+"originalOrder": 36,
+"originalHeading": "The Exponent Split Trick (a^{u+v})",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 20.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 36 to 20.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 20,
+"heading": "Algebraic Setup: The Exponent Split Trick",
+"back": "## Component Anatomy:\n- **$e, a$**: Exponent bases.\n- **$x, y$**: Independent variables trapped in the exponent.\n\n## Boundary Conditions / Domain:\n- Highly common in separable equations where $x$ and $y$ are trapped in a single exponent.\n- **Trap:** This method fails entirely if the exponent is a mathematical product like $e^{xy}$.",
+"formulaMeta": {
+"formula": "e^{x-y} = e^x \\cdot e^{-y} = \\frac{e^x}{e^y}",
+"description": "State the algebraic manipulation required to separate a differential equation containing a composite exponent like e^{x-y}.",
+"derivation": "**SOP:**\n1. Identify composite exponents like $e^{x-y}$ or $2^{y-x}$.\n2. Split using index laws: $a^{u+v} = a^u a^v$.\n3. Cross-multiply the $y$-terms to the $dy$ side and $x$-terms to the $dx$ side.\n4. Integrate using standard rules: $\int e^{ky} dy = \frac{1}{k}e^{ky}$ or $\int a^{ky} dy = \frac{a^{ky}}{k \ln a}$."
+}
+}
+},
+{
+"cardId": "ade51fcf-ccbb-472a-bb14-6214e72fcab6",
+"originalOrder": 37,
+"originalHeading": "Factoring Before Separating",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 21.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 37 to 21.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 21,
+"heading": "Algebraic Setup: Factoring Before Separating",
+"back": "## Component Anatomy:\n- **$e^{-y}$**: The common factor hiding within multiple mixed terms.\n\n## Boundary Conditions / Domain:\n- Deploy this algorithm when a DE appears to have mixed non-linear terms (e.g., $e^{x-y} + x^2e^{-y}$) that initially look impossible to separate or classify as homogeneous.",
+"formulaMeta": {
+"formula": "e^{x-y} + x^2e^{-y} = e^{-y}(e^x + x^2)",
+"description": "State the required algebraic step to separate variables for the DE: dy/dx = e^{x-y} + x^2e^{-y}.",
+"derivation": "**SOP:**\n1. Split any composite exponent terms: $e^x e^{-y} + x^2 e^{-y}$.\n2. Algebraically factor out the common $y$-term: $e^{-y}(e^x + x^2)$.\n3. The equation is now perfectly Variable Separable: $e^y \\, dy = (e^x + x^2) \\, dx$."
+}
+}
+},
+{
+"cardId": "6cff7bed-6047-4fa7-b992-1891e87cb627",
+"originalOrder": 14,
+"originalHeading": "Homogeneous Function of Degree Zero",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 22."
+],
+"vettingNotes": "Moved from 14 to 22.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 22,
+"heading": "Definition: Homogeneous Function of Degree Zero",
+"back": "A function $F(x,y)$ is mathematically homogeneous of degree zero if replacing $x$ with $\lambda x$ and $y$ with $\lambda y$ leaves the function entirely unaltered:\n$F(\lambda x, \lambda y) = \lambda^0 F(x,y) = F(x,y)$ for any non-zero constant $\lambda$.",
+"standardMeta": {
+"question": "How do you formally prove that a function $F(x,y)$ is mathematically a homogeneous function of degree zero?"
+}
+}
+},
+{
+"cardId": "8961f449-5f3b-4279-a678-84e346a0152b",
+"originalOrder": 15,
+"originalHeading": "Spotting a Homogeneous Differential Equation",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 23."
+],
+"vettingNotes": "Moved from 15 to 23.",
+"cardData": {
+"type": "STANDARD",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 23,
+"heading": "Visual Check: Homogeneous Differential Equation",
+"back": "- **Concept:** A polynomial differential equation is Homogeneous if every single polynomial term in both the numerator and denominator has the **same total algebraic degree** (the sum of exponents of $x$ and $y$).\n- **Consequence:** This guarantees the equation can be algebraically factored and written as a function strictly of $(y/x)$ or $(x/y)$.",
+"standardMeta": {
+"question": "What is the fastest visual test to determine if a polynomial differential equation is strictly Homogeneous?"
+}
+}
+},
+{
+"cardId": "45a23a72-8492-4886-8f1e-7b38ad8d6ac9",
+"originalOrder": 16,
+"originalHeading": "Solving Homogeneous DE (y/x form)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split massive homogeneous algorithm into substitution and execution phases.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Split Part 1: Focuses strictly on substitution setup.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 24,
+"heading": "SOP: Homogeneous DE Substitution ($y/x$ form)",
+"back": "## Component Anatomy:\n- **$v$**: Substituted ratio strictly representing $y/x$.\n- **$x, y$**: Original variables.\n\n## Boundary Conditions / Domain:\n- Constraint: $x \neq 0$.\n- Ensure the DE is cleanly algebraically expressed as $\frac{dy}{dx} = F(y/x)$ before applying this differential substitution.",
+"formulaMeta": {
+"formula": "y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}",
+"description": "State the required substitution and its derivative mapping for a Homogeneous DE where dy/dx = F(y/x).",
+"derivation": "**SOP Setup:**\n1. Confirm homogeneity and isolate the derivative: $\frac{dy}{dx} = F(y/x)$.\n2. Substitute $y = vx$.\n3. Differentiate using the product rule: $\frac{dy}{dx} = v + x\\\frac{dv}{dx}$.\n4. Substitute both expressions into the original DE to eliminate $y$ entirely."
+}
+}
+},
+{
+"cardId": "NEW_HOMOGENEOUS_YX_EXECUTION",
+"originalOrder": 16,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created execution card for Homogeneous DEs (y/x form)."
+],
+"vettingNotes": "Split Part 2: Focuses strictly on integration and execution.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 25,
+"heading": "SOP: Homogeneous DE Execution ($y/x$ form)",
+"back": "**Standard Operating Procedure (Execution Phase):**\n1. Following substitution, reduce the equation to the form $v + x\\\frac{dv}{dx} = F(v)$.\n2. Algebraically isolate the derivative term: $x\\\frac{dv}{dx} = F(v) - v$.\n3. The equation is now in strict Variable Separable form. Separate $x$ and $v$: $\frac{dv}{F(v) - v} = \frac{dx}{x}$.\n4. Integrate both sides.\n5. In the final step, you MUST restore $v = y/x$ to express the general solution in terms of the original variables.",
+"standardMeta": {
+"question": "After substituting $y = vx$ into a Homogeneous DE, what is the strict algebraic procedure to execute the integration and find the final solution?"
+}
+}
+},
+{
+"cardId": "3c7ade9a-17d6-436d-9c9f-92f9154cc9ed",
+"originalOrder": 17,
+"originalHeading": "Solving Homogeneous DE (x/y form)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 26 to complete the 25-card source batch mapping.",
+"Applied double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 17 to 26.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 26,
+"heading": "SOP: Homogeneous DE ($x/y$ Mirror Form)",
+"back": "## Component Anatomy:\n- **$v$**: Substituted ratio strictly representing $x/y$.\n- **$x, y$**: Original variables.\n\n## Boundary Conditions / Domain:\n- Constraint: $y \neq 0$.\n- This form is strictly mandated when the equation features expressions like $e^{x/y}$, or when isolating $\frac{dx}{dy}$ bypasses messy algebra.",
+"formulaMeta": {
+"formula": "x = vy \\implies \\frac{dx}{dy} = v + y\\frac{dv}{dy}",
+"description": "State the substitution and derivative mapping for a Homogeneous DE where dx/dy = G(x/y).",
+"derivation": "**SOP:**\n1. Write DE as $\frac{dx}{dy} = G(x/y)$.\n2. Substitute $x = vy$ and apply product rule: $\frac{dx}{dy} = v + y\\\frac{dv}{dy}$.\n3. Reduce to separable form: $y\\\frac{dv}{dy} = G(v) - v$.\n4. Integrate and restore $v = x/y$."
+}
+}
+},
+{
+"cardId": "2218680f-0960-4782-8c8a-fe49268a1c09",
+"originalOrder": 19,
+"originalHeading": "Standard First-Order Linear DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 27.",
+"Structured explanation for clarity."
+],
+"vettingNotes": "Moved from 19 to 27.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DEFINITION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 27,
+"heading": "Standard First-Order Linear DE",
+"back": "A **Linear Differential Equation** of the first order takes the strict algebraic mathematical form:\n\n$\frac{dy}{dx} + P(x)y = Q(x)$\n\nBoundary Conditions / Domain:\n- The functions $P(x)$ and $Q(x)$ must be purely functions of $x$ (or constants).\n- The dependent variable $y$ and its derivative $\frac{dy}{dx}$ must have a strict algebraic degree of exactly $1$ and cannot be multiplied together.",
+"standardMeta": {
+"question": "What is the formal definition and standard mathematical form of a first-order Linear Differential Equation in $y$?"
+}
+}
+},
+{
+"cardId": "be977c49-0606-4f17-a27e-bc85f753bdcc",
+"originalOrder": 20,
+"originalHeading": "Normalising the Linear DE (The P-Trap)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 28.",
+"Clarified boundary condition importance."
+],
+"vettingNotes": "Moved from 20 to 28.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 28,
+"heading": "Normalising the Linear DE (The P-Trap)",
+"back": "Before reading off the coefficient $P(x)$, you MUST algebraically normalise the equation so the coefficient of $\frac{dy}{dx}$ is exactly 1.\n\n- Example: If the equation is $x\frac{dy}{dx} + 2y = x^2$, you must divide every term by $x$ to reveal the true $P(x) = \frac{2}{x}$.\n- Trap: Failing this normalisation step results in a totally incorrect Integrating Factor.",
+"standardMeta": {
+"question": "What crucial algebraic safety check must mathematically precede the identification of $P(x)$ in a Linear Differential Equation?"
+}
+}
+},
+{
+"cardId": "8830ac84-0dd3-4bf6-bd2b-31db4c332805",
+"originalOrder": 21,
+"originalHeading": "Integrating Factor (I.F.) for Standard Linear DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 29.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 21 to 29.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 29,
+"heading": "Integrating Factor (I.F.)",
+"back": "## Component Anatomy:\n- $P(x)$: The exact coefficient of $y$ after strict equation normalisation (including its algebraic sign).\n- $e$: Base of the natural logarithm.\n\n## Boundary Conditions / Domain:\n- You must NOT include a general constant of integration $+C$ when computing the sub-integral $\int P(x) dx$ for the Integrating Factor.",
+"formulaMeta": {
+"formula": "\\\text{I.F.} = e^{\\\int P(x) \\\\, dx}",
+"description": "State the formula for the Integrating Factor (I.F.) used to solve a standard linear DE: dy/dx + P(x)y = Q(x).",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "56206fbb-76b5-4010-b03c-ff242eb1a360",
+"originalOrder": 22,
+"originalHeading": "PIE Strategy: General Solution of a Linear DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 30.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 22 to 30.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 30,
+"heading": "PIE Strategy: General Solution of a Linear DE",
+"back": "## Component Anatomy:\n- $y$: The dependent variable.\n- I.F.: The exact Integrating Factor.\n- $Q(x)$: The non-homogeneous RHS function of $x$ (after normalisation).\n- $C$: The final constant of integration.\n\n## Boundary Conditions / Domain:\n- This formula works because multiplying the raw DE by the I.F. perfectly collapses the LHS into the exact product rule derivative $\frac{d}{dx}[y \cdot \text{I.F.}]$.",
+"mnemonic": "P-I-E: Parameter, Integrating Factor, Equation.",
+"formulaMeta": {
+"formula": "y \\\cdot \\\text{I.F.} = \\\int Q(x) \\\cdot \\\text{I.F.} \\\\, dx + C",
+"description": "State the final solution equation for a linear DE dy/dx + P(x)y = Q(x) once the Integrating Factor is found.",
+"derivation": "SOP (PIE Strategy):\n1. Parameters: Normalise DE. Read off $P(x)$ and $Q(x)$.\n2. Integrating Factor: Compute I.F. $= e^{\int P(x) dx}$.\n3. Equation: Plug components directly into the algebraic template $y \cdot \text{I.F.} = \int Q(x) \cdot \text{I.F.} \\, dx + C$ and integrate."
+}
+}
+},
+{
+"cardId": "ecd5eb0d-8a1d-4dab-abb3-ce980222959d",
+"originalOrder": 40,
+"originalHeading": "The Negative Sign Trap in Integrating Factors",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 31 to group immediately with I.F. evaluation."
+],
+"vettingNotes": "Moved from 40 to 31.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 31,
+"heading": "The Negative Sign Trap in Integrating Factors",
+"back": "When normalising a Linear DE, the negative sign attached to the $y$-term MUST be explicitly included in $P(x)$.\n\n- Example: If the DE is $x \frac{dy}{dx} - y = x^4$, dividing by $x$ gives $\frac{dy}{dx} - \frac{1}{x}y = x^3$.\n- The Trap: Students erroneously read $P(x) = \frac{1}{x}$. \n- The Correction: $P(x) = -\frac{1}{x}$, resulting in a correct Integrating Factor of $e^{-\ln x} = \frac{1}{x}$, NOT $x$.",
+"standardMeta": {
+"question": "When calculating the Integrating Factor for a Linear DE like $x \frac{dy}{dx} - y = x^4$, what common sign error must be strictly mathematically avoided during normalisation?"
+}
+}
+},
+{
+"cardId": "ab907783-c963-4edf-a022-31c338bf3717",
+"originalOrder": 35,
+"originalHeading": "Spotting Perfect Derivatives in Linear DEs",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 32.",
+"Clarified derivative matching logic."
+],
+"vettingNotes": "Moved from 35 to 32.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 32,
+"heading": "Shortcut: Perfect Derivatives in Linear DEs",
+"back": "In any un-normalised Linear DE of the algebraic form $u(x)y' + v(x)y = Q(x)$, if you verify that the coefficient of $y$ is exactly the analytical derivative of the coefficient of $y'$ (i.e., $v(x) = u'(x)$), stop.\n\n- The LHS is already the exact derivative $\frac{d}{dx}[u(x)y]$ resulting directly from the Product Rule.\n- SOP: You can skip calculating the Integrating Factor entirely. Just integrate both sides immediately: $u(x)y = \int Q(x) dx + C$.",
+"standardMeta": {
+"question": "In a first-order Linear DE, if the coefficient of $y$ is exactly the mathematical derivative of the coefficient of $y'$, what immediate algebraic shortcut should you take?"
+}
+}
+},
+{
+"cardId": "5e8bf98e-a4c2-495b-ac2d-967472c957a0",
+"originalOrder": 23,
+"originalHeading": "Mirror Form of Linear DE (dx/dy)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 33."
+],
+"vettingNotes": "Moved from 23 to 33.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 33,
+"heading": "Mirror Form of Linear DE ($dx/dy$)",
+"back": "Use the Mirror Form when the equation cannot be algebraically written linearly in $y$ (e.g., $y$ is trapped inside transcendental functions like $e^y$, $\sin y$, or non-linear terms like $y^2$), but $x$ appears purely linearly with degree exactly 1.\n\n- Algebraic Swap: The roles of independent and dependent variables strictly swap: $\frac{dx}{dy} + P_1(y)x = Q_1(y)$.",
+"standardMeta": {
+"question": "Under what precise algebraic conditions must you abandon the standard Linear DE form and use the 'Mirror Form' ($dx/dy$)?"
+}
+}
+},
+{
+"cardId": "f01162bb-6247-4e4d-b1c8-818a40b303fe",
+"originalOrder": 24,
+"originalHeading": "I.F. and Solution for Mirror Linear DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 34.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 24 to 34.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 34,
+"heading": "Solution Template: Mirror Linear DE",
+"back": "## Component Anatomy:\n- $P_1(y), Q_1(y)$: Functions mathematically composed of $y$ strictly.\n- $x$: The dependent variable.\n\n## Boundary Conditions / Domain:\n- You must strictly integrate with respect to $y$ (using $dy$), NOT $dx$, when calculating the Integrating Factor and the final integral.",
+"formulaMeta": {
+"formula": "\\\begin{aligned} \\\text{I.F.} &= e^{\\\int P_1(y) \\\\, dy} \\\\\\\\ x \\\cdot \\\text{I.F.} &= \\\int Q_1(y) \\\cdot \\\text{I.F.} \\\\, dy + C \\\end{aligned}",
+"description": "State the Integrating Factor and Solution template for the mirror linear DE: dx/dy + P_1(y)x = Q_1(y).",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "4afac501-e44c-4476-ab9c-1a92cdaee3c7",
+"originalOrder": 25,
+"originalHeading": "The 'SHL' Decision Flow Strategy",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 35."
+],
+"vettingNotes": "Moved from 25 to 35.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 35,
+"heading": "The 'SHL' Decision Flow Strategy",
+"back": "For any unknown first-order DE, march strictly through the SHL hierarchy:\n1. S (Separable): Can you algebraically factor the RHS as $g(x) \cdot h(y)$? This is the fastest method. Do this first.\n2. H (Homogeneous): Check if every polynomial term has the exact same total degree. If yes, substitute $y = vx$.\n3. L (Linear): Force the equation into $y' + Py = Q$ or $x' + P_1x = Q_1$ by dividing out leading coefficients and calculate the I.F.",
+"mnemonic": "SHL: Separable -> Homogeneous -> Linear",
+"standardMeta": {
+"question": "What is the optimal 'SHL' algorithmic decision flow hierarchy for selecting a method to solve an unknown first-order differential equation?"
+}
+}
+},
+{
+"cardId": "c58e833e-b3ab-45b7-b78f-612cf9c77ae8",
+"originalOrder": 51,
+"originalHeading": "The 'Reverse-Engineering' Verification Trick",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 36."
+],
+"vettingNotes": "Moved from 51 to 36.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "exam-strategy"],
+"order": 36,
+"heading": "Verification Trick: Reverse-Engineering Solutions",
+"back": "If a differential equation is too algebraically hostile to integrate natively, or if you are checking your final answer in an MCQ format, do not integrate.\n\n- SOP: Instead, implicitly differentiate the candidate solution $F(x,y) = C$.\n- Rearrange the resulting derivative algebraically to isolate $\frac{dy}{dx}$ or equivalent forms.\n- If you successfully mathematically recover the original DE, the candidate is verified. This entirely bypasses complex sign-errors and integration traps.",
+"standardMeta": {
+"question": "What is the most robust algebraic strategy to verify a candidate solution to a complex differential equation without actually attempting to integrate it natively?"
+}
+}
+},
+{
+"cardId": "6a04477c-6499-463e-bdc1-99a0b942f3d9",
+"originalOrder": 18,
+"originalHeading": "Quotient Differential Trap (Hidden Exact Differential)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 37 to start exact differentials block.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 18 to 37.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 37,
+"heading": "Exact Differential: Quotient Form",
+"back": "## Component Anatomy:\n- $x, y$: Original variables.\n- $d(y/x)$: Exact differential of the quotient.\n\n## Boundary Conditions / Domain:\n- Constraint: $x \neq 0$.\n- Highly effective for mixed-differential DEs. Bypasses the lengthy standard homogeneous substitution entirely by spotting the Quotient Rule in reverse.",
+"formulaMeta": {
+"formula": "\\\frac{y \\\\, dx - x \\\\, dy}{x^2} = -d\\\left(\\\frac{y}{x}\\\right)",
+"description": "State the exact differential identity that perfectly collapses the quotient form (y dx - x dy) / x^2.",
+"derivation": "SOP:\n1. Spot the specific pattern $y \\, dx - x \\, dy$ anywhere in the equation.\n2. Divide the entire mathematical equation by $x^2$.\n3. Replace the resulting mixed expression completely with $-d(y/x)$.\n4. Substitute $u = y/x$ and integrate directly."
+}
+}
+},
+{
+"cardId": "5e464d26-12a1-4e88-a42e-f13cf4dc512d",
+"originalOrder": 34,
+"originalHeading": "Spotting the Exact Differential: d(xy)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 38.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 34 to 38.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 38,
+"heading": "Exact Differential: Product Form $d(xy)$",
+"back": "## Component Anatomy:\n- $x, y$: Dependent and independent variables.\n- $d(xy)$: The exact differential of the analytical product, derived directly from the Product Rule.\n\n## Boundary Conditions / Domain:\n- If this pattern forms the entire Left Hand Side (LHS) of the equation, you strictly do NOT need to calculate an Integrating Factor.",
+"formulaMeta": {
+"formula": "x \\\\, dy + y \\\\, dx = d(xy)",
+"description": "State the exact differential identity for the expression (x dy + y dx) and explain how it bypasses the Integrating Factor method.",
+"derivation": "SOP:\n1. Notice the LHS of the DE contains $x \frac{dy}{dx} + y$ or $x \\, dy + y \\, dx$.\n2. Immediately rewrite this combination structurally as $d(xy)$.\n3. Integrate both sides directly: $\int d(xy) = \int \text{RHS}$.\n4. The result strictly simplifies to $xy = \int \text{RHS} + C$."
+}
+}
+},
+{
+"cardId": "80652adf-0db9-4a1b-825b-86d0b73df0a4",
+"originalOrder": 41,
+"originalHeading": "Inverse Trig Exact Differential Form",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 39.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 41 to 39.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 39,
+"heading": "Exact Differential: Inverse Tangent Sum",
+"back": "## Component Anatomy:\n- $x, y$: Independent variables mathematically separated into distinct differentials.\n- $\tan^{-1}$: Inverse tangent function.\n\n## Boundary Conditions / Domain:\n- Always systematically check if complex algebraic fractional sums can be grouped into exact differentials of inverse functions before attempting messy rational integrations.",
+"formulaMeta": {
+"formula": "d(\\\tan^{-1} x) + d(\\\tan^{-1} y) = 0 \\\implies \\\tan^{-1} x + \\\tan^{-1} y = C",
+"description": "State the exact differential form and integrated solution for the mathematical expression dx/(1+x^2) + dy/(1+y^2) = 0.",
+"derivation": "SOP:\n1. Recognise that $\frac{dx}{1+x^2}$ is exactly the standard derivative of $\tan^{-1} x$.\n2. Recognise that $\frac{dy}{1+y^2}$ is exactly the standard derivative of $\tan^{-1} y$.\n3. Integrate the equation directly to sum the inverse tangents."
+}
+}
+},
+{
+"cardId": "4f9215d9-9280-4065-b935-4fd1e7253881",
+"originalOrder": 50,
+"originalHeading": "Hyperbolic Tangent Integral Shortcut",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 40.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 50 to 40.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "integration-shortcut"],
+"order": 40,
+"heading": "Integration Shortcut: Inverse Hyperbolic Tangent",
+"back": "## Component Anatomy:\n- $v$: Variable of integration.\n- $\tanh^{-1} v$: Inverse hyperbolic tangent function.\n\n## Boundary Conditions / Domain:\n- Strictly valid for domain $|v| < 1$.\n- Highly useful for cleanly collapsing the complex algebraic fraction that emerges after applying the linear argument substitution $v = x - y$.",
+"formulaMeta": {
+"formula": "\\int \\frac{dv}{1-v^2} = \\tanh^{-1} v",
+"description": "State the inverse hyperbolic integral shortcut that bypasses partial fractions for the rational expression 1/(1-v^2).",
+"derivation": "**SOP Shortcut:**\nThis completely replaces the slower partial fraction expansion route: $\frac{1}{2}\int(\frac{1}{1-v} + \frac{1}{1+v})dv$.\nConverting the final equation via $\tanh^{-1} v = x + C$ yields a significantly cleaner closed-form locus."
+}
+}
+},
+{
+"cardId": "5e99fbf9-d2a8-477d-931f-dfef5b34e9e1",
+"originalOrder": 46,
+"originalHeading": "Initial Value Problem at a Singularity",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 41."
+],
+"vettingNotes": "Moved from 46 to 41.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "boundary-condition"],
+"order": 41,
+"heading": "Initial Value Problem at a Mathematical Singularity",
+"back": "If the given initial condition $(x_0, y_0)$ causes the differential equation $\frac{dy}{dx} = F(x,y)$ to become algebraically undefined (e.g., division by zero), the initial value problem mathematically has **zero** valid solutions.\n\n- **Example Trap:** The DE $\frac{dy}{dx} = \frac{y+1}{x-1}$ with an initial condition $y(1) = 2$ yields a slope of $3/0$ (undefined).\n- No particular continuous solution curve can graphically pass through this explicit singularity.",
+"standardMeta": {
+"question": "Under what specific boundary condition will a first-order initial value problem strictly yield exactly zero solutions?"
+}
+}
+},
+{
+"cardId": "8ed9e14b-ff91-4b2c-a018-0cb54401aa43",
+"originalOrder": 26,
+"originalHeading": "Translating 'Rate Proportional to Amount'",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 42."
+],
+"vettingNotes": "Moved from 26 to 42.",
+"cardData": {
+"type": "STANDARD",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "word-problems"],
+"order": 42,
+"heading": "Translation: Rate Proportional to Amount",
+"back": "Whenever a word problem mathematically states 'the rate of change of $X$ is proportional to $X$', it implies an **exponential** relationship governs the system.\n\n- **Shortcut:** You can skip the formal DE integration steps entirely during MCQs and immediately jump to the closed-form equation $X(t) = X_0 e^{kt}$.\n- This strictly applies to population growth, radioactive decay, and uninhibited bacterial cultures.",
+"standardMeta": {
+"question": "In applied word problems, what is the immediate mathematical translation and equation shortcut for the phrase 'the rate of change of a quantity is strictly proportional to the quantity itself'?"
+}
+}
+},
+{
+"cardId": "2469bc15-3d8b-4651-a66a-337070d35d74",
+"originalOrder": 27,
+"originalHeading": "Exponential Growth and Decay DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 43.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 27 to 43.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "word-problems"],
+"order": 43,
+"heading": "Exponential Growth and Decay Equation",
+"back": "## Component Anatomy:\n- **$N$**: Amount of substance measured at time $t$.\n- **$k$ (or $\lambda$)**: Constant of proportionality (specific growth/decay rate).\n- **$N_0$**: Initial amount of substance at time boundary $t=0$.\n\n## Boundary Conditions / Domain:\n- $k > 0$ strictly denotes growth; $k < 0$ denotes decay.\n- Constraint: $N > 0$ strictly for measurable physical quantities.",
+"formulaMeta": {
+"formula": "\\frac{dN}{dt} = k N \\implies N(t) = N_0 e^{kt}",
+"description": "State the standard differential equation and its integrated general solution for exponential growth/decay.",
+"derivation": "**SOP:**\n1. Write DE: $\frac{dN}{dt} = k N$.\n2. Separate variables algebraically: $\frac{dN}{N} = k \\, dt$.\n3. Integrate: $\ln|N| = kt + C$.\n4. Exponentiate to cancel log: $N = e^{kt+C} = e^C e^{kt}$.\n5. Apply the initial physical boundary condition $N(0) = N_0$ to find the constant $e^C = N_0$."
+}
+}
+},
+{
+"cardId": "dd219d1a-005f-49ba-865e-5101e8823a8d",
+"originalOrder": 28,
+"originalHeading": "Continuously Compounded Interest",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 44.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 28 to 44.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "word-problems"],
+"order": 44,
+"heading": "Continuously Compounded Interest DE",
+"back": "## Component Anatomy:\n- **$P$**: Principal financial amount evaluated at time $t$.\n- **$r$**: Annual interest rate (entered as a percentage integer, e.g., $r=5$ means $5\\%$).\n- **$P_0$**: Initial starting principal deposited at $t=0$.\n\n## Boundary Conditions / Domain:\n- Valid domain: $t \geq 0$.\n- Used *strictly* only when the problem explicitly states interest is compounded 'continuously'.",
+"formulaMeta": {
+"formula": "\\frac{dP}{dt} = \\frac{r}{100}P \\implies P(t) = P_0 e^{\\frac{rt}{100}}",
+"description": "State the differential equation and its integrated solution for a principal P compounding continuously at r% per year.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "0ce08add-cd1d-4ab1-a5c5-c723f5668821",
+"originalOrder": 29,
+"originalHeading": "Newton's Law of Cooling",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split massive cognitive bloat into two atomic cards.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Split Part 1: Focuses exclusively on the formula and anatomical components.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "word-problems"],
+"order": 45,
+"heading": "Formula: Newton's Law of Cooling",
+"back": "## Component Anatomy:\n- **$T$**: Temperature of the dynamic body at time $t$.\n- **$T_s$**: Constant ambient temperature of the fixed surroundings.\n- **$k$**: Positive cooling constant.\n- **$T_0$**: Initial fixed temperature of the body at $t=0$.\n\n## Boundary Conditions / Domain:\n- Typically requires $T > T_s$ for standard cooling (the mathematical equation auto-adjusts sign differences, but standard convention uses $-k$ for decay).",
+"formulaMeta": {
+"formula": "\\frac{dT}{dt} = -k(T - T_s) \\implies T(t) = T_s + (T_0 - T_s)e^{-kt}",
+"description": "State the standard differential equation and the integrated closed-form solution for Newton's Law of Cooling.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW_NEWTONS_COOLING_EXECUTION",
+"originalOrder": 29,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created card for the specific integration steps of Newton's Law of Cooling."
+],
+"vettingNotes": "Split Part 2: Focuses strictly on deriving the closed-form solution.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "word-problems"],
+"order": 46,
+"heading": "SOP: Deriving Newton's Law of Cooling",
+"back": "**Standard Operating Procedure (Integration Phase):**\n1. Write the base DE: $\frac{dT}{dt} = -k(T - T_s)$.\n2. Separate variables algebraically: $\frac{dT}{T - T_s} = -k \\, dt$.\n3. Integrate both sides: $\ln|T - T_s| = -kt + C$.\n4. Exponentiate to eliminate the logarithm: $T - T_s = A e^{-kt}$ (where $A = e^C$).\n5. Apply the specific physical boundary condition $T(0) = T_0$ to find the constant $A = T_0 - T_s$, then substitute it back.",
+"standardMeta": {
+"question": "What is the step-by-step mathematical procedure (SOP) to integrate the differential equation for Newton's Law of Cooling to find its closed-form solution?"
+}
+}
+},
+{
+"cardId": "0cb872d6-4bf9-4675-8e45-6bc627e88aff",
+"originalOrder": 32,
+"originalHeading": "Bernoulli's Equation (Reducible to Linear)",
+"action": "SPLIT",
+"modificationsSummary": [
+"Split Bernoulli definition/substitution from execution.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Split Part 1: Bernoulli Definition and target Substitution.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "jee-extension"],
+"order": 47,
+"heading": "Substitution: Bernoulli's Equation",
+"back": "## Component Anatomy:\n- **$P(x), Q(x)$**: Functions strictly composed of $x$ alone.\n- **$n$**: A real mathematical number where $n \neq 0, n \neq 1$.\n- **$v$**: The substituted linearizing variable.\n\n## Boundary Conditions / Domain:\n- This is exclusively a competitive extension topic (JEE/NEET). Do not use this to solve standard CBSE board exam problems unless explicitly forced.",
+"formulaMeta": {
+"formula": "\\frac{dy}{dx} + P(x)y = Q(x)y^n \\implies \\text{Substitute } v = y^{1-n}",
+"description": "State the algebraic mathematical form of Bernoulli's equation and the exact substitution parameter required to linearise it.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "NEW_BERNOULLI_EXECUTION",
+"originalOrder": 32,
+"originalHeading": "NEW_CARD_TOPIC",
+"action": "NEW",
+"modificationsSummary": [
+"Created card for the specific algebraic execution of Bernoulli's linearisation."
+],
+"vettingNotes": "Split Part 2: Focuses strictly on executing the Bernoulli transformation.",
+"cardData": {
+"type": "STANDARD",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "jee-extension"],
+"order": 48,
+"heading": "SOP: Executing Bernoulli's Linearisation",
+"back": "**Standard Operating Procedure (Linearisation Phase):**\n1. Divide the entire Bernoulli equation strictly by $y^n$ to get $y^{-n} \frac{dy}{dx} + P(x)y^{1-n} = Q(x)$.\n2. Let the substitution variable $v = y^{1-n}$.\n3. Differentiate $v$ with respect to $x$ using the chain rule: $\frac{dv}{dx} = (1-n)y^{-n} \frac{dy}{dx}$.\n4. Rearrange and substitute back into the modified equation to obtain a standard First-Order Linear DE perfectly structured in terms of $v$ and $x$.\n5. Solve using the standard Integrating Factor (I.F.) method.",
+"standardMeta": {
+"question": "After substituting $v = y^{1-n}$ into Bernoulli's equation, what is the step-by-step mathematical procedure to fully linearise the DE?"
+}
+}
+},
+{
+"cardId": "a374deb2-9e8a-46d1-bc64-3587e855b9c3",
+"originalOrder": 33,
+"originalHeading": "Board Exam Warning: Extension Methods",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 49 to follow the Bernoulli technique directly."
+],
+"vettingNotes": "Moved from 33 to 49.",
+"cardData": {
+"type": "STANDARD",
+"classification": "DISTINCTION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main"],
+"order": 49,
+"heading": "Exam Strategy: Extension Methods in Boards",
+"back": "The CBSE board explicitly assumes students will solve DEs using strictly only the three rationalised core methods: **Variable Separable, Homogeneous, or standard Linear (I.F.)**.\n\n- **The Trap:** Solving a standard board problem using Bernoulli's substitution or Variation of Parameters is technically mathematically correct, but severely risks losing marks. Graders strictly follow rigid step-by-step marking schemes exclusively based on the NCERT syllabus limits.",
+"standardMeta": {
+"question": "Why should you strictly avoid using Bernoulli's equation or Variation of Parameters to solve differential equations in standard CBSE Board exams?"
+}
+}
+},
+{
+"cardId": "2fc92b06-45f7-4cda-850b-61f86094f3df",
+"originalOrder": 42,
+"originalHeading": "Second-Order Linear ODE (Complex Roots)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 50.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 42 to 50.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "jee-extension"],
+"order": 50,
+"heading": "2nd-Order Linear ODE: Complex Roots mapping",
+"back": "## Component Anatomy:\n- **$\alpha$**: The real part of the complex root (controlling exponential growth/decay).\n- **$\beta$**: The imaginary part of the complex root (controlling oscillatory frequency).\n\n## Boundary Conditions / Domain:\n- This is exclusively a JEE/NEET Extension concept detailing how specific solution families map recursively back to their characteristic polynomials.",
+"formulaMeta": {
+"formula": "\\frac{d^2y}{dx^2} - 2\\alpha \\frac{dy}{dx} + (\\alpha^2 + \\beta^2)y = 0",
+"description": "State the second-order linear differential equation that is generated by the complex roots $\alpha \pm i\beta$ and the solution $y = e^{\alpha x}(A \cos \beta x + B \sin \beta x)$.",
+"derivation": "**SOP:**\n1. Identify the roots $r = \alpha \pm i\beta$.\n2. Form the algebraic characteristic polynomial: $(r - (\alpha + i\beta))(r - (\alpha - i\beta)) = 0$.\n3. Expand and simplify to: $r^2 - 2\\\alpha r + (\\\alpha^2 + \\\beta^2) = 0$.\n4. Replace $r^2$ with $y''$ and $r$ with $y'$ to mathematically reconstruct the original DE."
+}
+}
+},
+{
+"cardId": "33a149ab-bf66-44fb-a58a-1b9af6f8e8b5",
+"originalOrder": 47,
+"originalHeading": "2nd-Order Linear ODE (Repeated Real Root)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 51.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 47 to 51.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "jee-extension"],
+"order": 51,
+"heading": "2nd-Order ODE Solution: Repeated Real Roots",
+"back": "## Component Anatomy:\n- **$r$**: The mathematically repeated real root of the characteristic polynomial.\n- **$A, B$**: Arbitrary integration constants.\n- **$x$**: Independent variable multiplier.\n\n## Boundary Conditions / Domain:\n- To maintain mathematical validity, the second term MUST strictly be multiplied by $x$ to guarantee linear independence from the first exponential term.",
+"formulaMeta": {
+"formula": "r_1 = r_2 = r \\implies y = (Ax + B)e^{rx}",
+"description": "State the general mathematical solution for a second-order linear homogeneous DE when its characteristic equation has a repeated real root.",
+"derivation": "**SOP:**\n1. Algebraically form the characteristic quadratic equation $r^2 + br + c = 0$.\n2. Identify the perfectly repeated real root $r$.\n3. Construct the solution space by combining the base $e^{rx}$ and the linearly independent $x e^{rx}$."
+}
+}
+},
+{
+"cardId": "27a7c1e6-323d-41b4-9c75-8c5753fa39e3",
+"originalOrder": 48,
+"originalHeading": "2nd-Order Linear ODE (Distinct Real Roots)",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 52.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 48 to 52.",
+"cardData": {
+"type": "FORMULA",
+"classification": "CONCEPT",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "jee-extension"],
+"order": 52,
+"heading": "2nd-Order ODE Solution: Distinct Real Roots",
+"back": "## Component Anatomy:\n- **$r_1, r_2$**: Two distinct real roots derived from the characteristic polynomial.\n- **$A, B$**: Two arbitrary constants associated with the two roots.\n\n## Boundary Conditions / Domain:\n- Constraint: $r_1 \neq r_2$.\n- Both roots must be purely real numbers for this specific exponential format to apply.",
+"formulaMeta": {
+"formula": "y = A e^{r_1 x} + B e^{r_2 x}",
+"description": "State the general mathematical solution for a second-order linear homogeneous DE when its characteristic equation yields two distinct real roots.",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "7ea8992f-705b-478e-84fd-c7c5cf26741f",
+"originalOrder": 43,
+"originalHeading": "Simple Harmonic Motion (SHM) DE",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 53.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 43 to 53.",
+"cardData": {
+"type": "FORMULA",
+"classification": "APPLICATION",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula", "physics-crossover"],
+"order": 53,
+"heading": "Simple Harmonic Motion (SHM) Differential Equation",
+"back": "## Component Anatomy:\n- **$y$**: Physical displacement.\n- **$\omega$**: Angular frequency (where strictly $\omega^2 > 0$).\n- **$A, B$**: Arbitrary constants determined strictly by initial position and initial velocity boundary conditions.\n\n## Boundary Conditions / Domain:\n- This represents a cross-over concept linking Class 11/12 Physics (Oscillations) with Maths. It mathematically models a purely restorative force without any damping component.",
+"formulaMeta": {
+"formula": "\\frac{d^2y}{dx^2} + \\omega^2 y = 0 \\implies y = A \\cos \\omega x + B \\sin \\omega x",
+"description": "State the defining second-order differential equation and general analytical solution for Simple Harmonic Motion (SHM).",
+"derivation": ""
+}
+}
+},
+{
+"cardId": "fdbf18f7-7ca2-4b23-a624-c4a4a19bb364",
+"originalOrder": 44,
+"originalHeading": "Constant Trial Solution Trick",
+"action": "MODIFIED",
+"modificationsSummary": [
+"Reordered to sequence 54.",
+"Applied strict double-escaped KaTeX."
+],
+"vettingNotes": "Moved from 44 to 54.",
+"cardData": {
+"type": "FORMULA",
+"classification": "PROCEDURAL",
+"tags": ["mathematics", "calculus", "differential-equations", "class-12", "jee-main", "formula"],
+"order": 54,
+"heading": "Integration Shortcut: Constant Trial Solution",
+"back": "## Component Anatomy:\n- **$y_h$**: The homogeneous solution piece (where RHS algebraically equals 0).\n- **$y_p$**: The particular trial solution (a constant response to a constant forcing).\n- **$a, k$**: Known constants from the original DE.\n\n## Boundary Conditions / Domain:\n- This mathematically only works for linear ODEs with constant coefficients strictly when the forcing function (RHS) is a simple, unchanging constant.",
+"formulaMeta": {
+"formula": "y = C e^{-ax} + \\frac{k}{a}",
+"description": "State the algebraic shortcut for finding the general mathematical solution to a linear DE with constant forcing: dy/dx + ay = k.",
+"derivation": "**SOP:**\n1. Find the homogeneous solution $y_h$ for $y' + ay = 0$, yielding $C e^{-ax}$.\n2. Since the mathematical RHS is a constant $k$, guess a constant particular solution $y_p = K$.\n3. Substitute $y_p$ directly into the DE: $0 + aK = k \implies K = \frac{k}{a}$.\n4. The final general solution is the linear sum: $y = y_h + y_p$."
+}
+}
+},
+{
+"cardId": "END_OF_CHAPTER",
+"action": "SYSTEM",
+"cardData": null
+}
+]
+}
