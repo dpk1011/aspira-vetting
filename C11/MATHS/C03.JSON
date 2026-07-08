@@ -34,9 +34,9 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 2,
 "heading": "Arc Length and Radian Measure",
-"back": "## Component Anatomy\n- **$l$:** Length of the intercepted arc.\n- **$r$:** Radius of the circle.\n- **$\theta$:** Subtended central angle.\n\n## Boundary Conditions / Domain\n- $\theta$ MUST be strictly measured in **radians**, not degrees.\n- $r > 0$.",
+"back": "## Component Anatomy\n- **$l$:** Length of the intercepted arc.\n- **$r$:** Radius of the circle.\n- **$\\theta$:** Subtended central angle.\n\n## Boundary Conditions / Domain\n- $\\theta$ MUST be strictly measured in **radians**, not degrees.\n- $r > 0$.",
 "formulaMeta": {
-"formula": "l = r \theta",
+"formula": "l = r \\theta",
 "description": "State the formula relating the length of an arc, the radius of the circle, and the angle subtended at the center.",
 "derivation": "1. Verify the angle is given in radians. If given in degrees, strictly convert to radians first.\n2. Multiply the radius by the radian angle to compute the arc length directly."
 }
@@ -55,11 +55,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 3,
 "heading": "Degree and Radian Conversion Formula",
-"back": "## Component Anatomy\n- **$\pi$ radian:** Exact mathematical equivalent to $180^{\circ}$.\n\n## Boundary Conditions / Domain\n- Angles can be any real number ($-\infty < \theta < \infty$).",
+"back": "## Component Anatomy\n- **$\\pi$ radian:** Exact mathematical equivalent to $180^{\\circ}$.\n\n## Boundary Conditions / Domain\n- Angles can be any real number ($-\\infty < \\theta < \\infty$).",
 "formulaMeta": {
-"formula": "\pi \text{ radian} = 180^{\circ}",
+"formula": "\\pi \\text{ radian} = 180^{\\circ}",
 "description": "State the fundamental equivalence equation connecting degree measure and radian measure.",
-"derivation": "- **Degrees to Radians:** Multiply the degree value by $\frac{\pi}{180}$.\n- **Radians to Degrees:** Multiply the radian value by $\frac{180}{\pi}$."
+"derivation": "- **Degrees to Radians:** Multiply the degree value by $\\frac{\\pi}{180}$.\n- **Radians to Degrees:** Multiply the radian value by $\\frac{180}{\\pi}$."
 }
 }
 },
@@ -76,7 +76,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 4,
 "heading": "Approximate Values of 1 Radian and 1 Degree",
-"back": "## Core Approximations\n- **1 radian** $\approx 57^{\circ} 16'$ (approx $57.27^{\circ}$)\n- **$1^{\circ}$** $\approx 0.01746$ radians\n\n## Boundary Conditions / Domain\n- These are strictly approximations for quick estimation; exact calculations must use $\pi$.",
+"back": "## Core Approximations\n- **1 radian** $\\approx 57^{\\circ} 16'$ (approx $57.27^{\\circ}$)\n- **$1^{\\circ}$** $\\approx 0.01746$ radians\n\n## Boundary Conditions / Domain\n- These are strictly approximations for quick estimation; exact calculations must use $\\pi$.",
 "standardMeta": {
 "question": "What are the approximate numerical values for 1 radian in degrees/minutes and 1 degree in radians?"
 }
@@ -95,7 +95,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 5,
 "heading": "Zeroes of Sine and Cosine Functions",
-"back": "## Core Zeroes\n- **$\sin x = 0$** implies $x = n\pi$, where $n \in \mathbb{Z}$ (integral multiples of $\pi$).\n- **$\cos x = 0$** implies $x = (2n + 1)\frac{\pi}{2}$, where $n \in \mathbb{Z}$ (odd multiples of $\frac{\pi}{2}$).\n\n## Boundary Conditions / Domain\n- The parameter $n$ must strictly be an integer.",
+"back": "## Core Zeroes\n- **$\\sin x = 0$** implies $x = n\\pi$, where $n \\in \\mathbb{Z}$ (integral multiples of $\\pi$).\n- **$\\cos x = 0$** implies $x = (2n + 1)\\frac{\\pi}{2}$, where $n \\in \\mathbb{Z}$ (odd multiples of $\\frac{\\pi}{2}$).\n\n## Boundary Conditions / Domain\n- The parameter $n$ must strictly be an integer.",
 "mnemonic": "Sine crosses at integers of pi, Cosine crosses at odds of pi/2.",
 "standardMeta": {
 "question": "At what precise mathematical values of $x$ do the sine and cosine functions evaluate to zero?"
@@ -115,7 +115,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 6,
 "heading": "Domain and Range of Sine and Cosine",
-"back": "## Properties\n- **Domain:** All real numbers $\mathbb{R}$ for both functions.\n- **Range:** Closed interval $[-1, 1]$ for both functions.\n\n## Boundary Conditions / Domain\n- Because the range is strictly $[-1, 1]$, equations like $\sin x = 2$ have no real solutions.",
+"back": "## Properties\n- **Domain:** All real numbers $\\mathbb{R}$ for both functions.\n- **Range:** Closed interval $[-1, 1]$ for both functions.\n\n## Boundary Conditions / Domain\n- Because the range is strictly $[-1, 1]$, equations like $\\sin x = 2$ have no real solutions.",
 "standardMeta": {
 "question": "What are the strict mathematical domains and ranges for the sine and cosine functions?"
 }
@@ -134,7 +134,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 7,
 "heading": "Domain and Range of Tangent Function",
-"back": "## Properties\n- **Domain:** $\mathbb{R} - \\{x : x = (2n + 1)\frac{\pi}{2}, n \in \mathbb{Z}\\}$.\n- **Range:** All real numbers $\mathbb{R}$.\n\n## Boundary Conditions / Domain\n- The domain restriction exists strictly because $\tan x = \frac{\sin x}{\cos x}$, meaning it is undefined wherever the denominator $\cos x = 0$.",
+"back": "## Properties\n- **Domain:** $\\mathbb{R} - \\{x : x = (2n + 1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}\\}$.\n- **Range:** All real numbers $\\mathbb{R}$.\n\n## Boundary Conditions / Domain\n- The domain restriction exists strictly because $\\tan x = \\frac{\\sin x}{\\cos x}$, meaning it is undefined wherever the denominator $\\cos x = 0$.",
 "standardMeta": {
 "question": "Why is the domain of the tangent function not all real numbers, and what is its specific mathematical range?"
 }
@@ -153,7 +153,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 8,
 "heading": "Domain and Range of Cotangent Function",
-"back": "## Properties\n- **Domain:** $\mathbb{R} - \\{x : x = n\pi, n \in \mathbb{Z}\\}$.\n- **Range:** All real numbers $\mathbb{R}$.\n\n## Boundary Conditions / Domain\n- The domain restriction exists strictly because $\cot x = \frac{\cos x}{\sin x}$, meaning it is undefined wherever the denominator $\sin x = 0$.",
+"back": "## Properties\n- **Domain:** $\\mathbb{R} - \\{x : x = n\\pi, n \\in \\mathbb{Z}\\}$.\n- **Range:** All real numbers $\\mathbb{R}$.\n\n## Boundary Conditions / Domain\n- The domain restriction exists strictly because $\\cot x = \\frac{\\cos x}{\\sin x}$, meaning it is undefined wherever the denominator $\\sin x = 0$.",
 "standardMeta": {
 "question": "What are the strict boundary conditions for the domain of the cotangent function, and what is its specific mathematical range?"
 }
@@ -172,7 +172,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 9,
 "heading": "Domain and Range of Secant and Cosecant",
-"back": "## Properties\n- **Domain of $\sec x$:** $\mathbb{R} - \\{x : x = (2n + 1)\frac{\pi}{2}, n \in \mathbb{Z}\\}$\n- **Domain of $\csc x$:** $\mathbb{R} - \\{x : x = n\pi, n \in \mathbb{Z}\\}$\n- **Range:** $\mathbb{R} - (-1, 1)$ which translates to $y \leq -1$ or $y \geq 1$.\n\n## Boundary Conditions / Domain\n- They cannot mathematically take values strictly between -1 and 1 because their reciprocals ($\cos x$ and $\sin x$) are strictly bounded by $[-1, 1]$.",
+"back": "## Properties\n- **Domain of $\\sec x$:** $\\mathbb{R} - \\{x : x = (2n + 1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}\\}$\n- **Domain of $\\csc x$:** $\\mathbb{R} - \\{x : x = n\\pi, n \\in \\mathbb{Z}\\}$\n- **Range:** $\\mathbb{R} - (-1, 1)$ which translates to $y \\leq -1$ or $y \\geq 1$.\n\n## Boundary Conditions / Domain\n- They cannot mathematically take values strictly between -1 and 1 because their reciprocals ($\\cos x$ and $\\sin x$) are strictly bounded by $[-1, 1]$.",
 "standardMeta": {
 "question": "What is the specific mathematical range of the secant and cosecant functions, and why is there a gap between -1 and 1?"
 }
@@ -191,7 +191,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 10,
 "heading": "Asymptotic Behavior of Tangent and Cotangent Graphs",
-"back": "## Asymptotes\n- **Tangent ($y = \tan x$):** Vertical asymptotes strictly occur at odd multiples of $\frac{\pi}{2}$ (i.e., $x = (2n+1)\frac{\pi}{2}, n \in \mathbb{Z}$). This is triggered because the denominator $\cos x = 0$.\n- **Cotangent ($y = \cot x$):** Vertical asymptotes strictly occur at integer multiples of $\pi$ (i.e., $x = n\pi, n \in \mathbb{Z}$). This is triggered because the denominator $\sin x = 0$.\n\n## Boundary Conditions / Domain\n- The functions approach $\pm\infty$ precisely at these asymptotic boundaries.",
+"back": "## Asymptotes\n- **Tangent ($y = \\tan x$):** Vertical asymptotes strictly occur at odd multiples of $\\frac{\\pi}{2}$ (i.e., $x = (2n+1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}$). This is triggered because the denominator $\\cos x = 0$.\n- **Cotangent ($y = \\cot x$):** Vertical asymptotes strictly occur at integer multiples of $\\pi$ (i.e., $x = n\\pi, n \\in \\mathbb{Z}$). This is triggered because the denominator $\\sin x = 0$.\n\n## Boundary Conditions / Domain\n- The functions approach $\\pm\\infty$ precisely at these asymptotic boundaries.",
 "standardMeta": {
 "question": "Where do the vertical asymptotes strictly occur for the graphs of the tangent and cotangent functions, and what mathematical condition triggers them?"
 }
@@ -210,7 +210,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 11,
 "heading": "Signs of Trigonometric Functions Across Quadrants",
-"back": "## Quadrant Rules (Positive Functions)\n- **Quadrant I ($0$ to $\frac{\pi}{2}$):** All trigonometric functions are positive.\n- **Quadrant II ($\frac{\pi}{2}$ to $\pi$):** Sine & Cosecant are positive.\n- **Quadrant III ($\pi$ to $\frac{3\pi}{2}$):** Tangent & Cotangent are positive.\n- **Quadrant IV ($\frac{3\pi}{2}$ to $2\pi$):** Cosine & Secant are positive.\n\n## Boundary Conditions / Domain\n- Quadrant boundaries ($0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}$) evaluate to 0, 1, -1, or undefined, strictly separating the sign regions.",
+"back": "## Quadrant Rules (Positive Functions)\n- **Quadrant I ($0$ to $\\frac{\\pi}{2}$):** All trigonometric functions are positive.\n- **Quadrant II ($\\frac{\\pi}{2}$ to $\\pi$):** Sine & Cosecant are positive.\n- **Quadrant III ($\\pi$ to $\\frac{3\\pi}{2}$):** Tangent & Cotangent are positive.\n- **Quadrant IV ($\\frac{3\\pi}{2}$ to $2\\pi$):** Cosine & Secant are positive.\n\n## Boundary Conditions / Domain\n- Quadrant boundaries ($0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$) evaluate to 0, 1, -1, or undefined, strictly separating the sign regions.",
 "mnemonic": "ASTC: All Sin Tan Cos (Add Sugar To Coffee)",
 "standardMeta": {
 "question": "What is the strict quadrant rule for determining the positive and negative signs of the 6 trigonometric functions?"
@@ -230,10 +230,10 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 12,
 "heading": "Even and Odd Nature of Sine and Cosine",
-"back": "## Component Anatomy\n- **$x$:** Input angle in radians or degrees.\n\n## Boundary Conditions / Domain\n- Valid for all $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Input angle in radians or degrees.\n\n## Boundary Conditions / Domain\n- Valid for all $x \\in \\mathbb{R}$.",
 "mnemonic": "Cosine is a 'strong' even function (eats the minus). Sine is an odd function (spits it out).",
 "formulaMeta": {
-"formula": "\begin{aligned} \sin(-x) &= -\sin x \\ \cos(-x) &= \cos x \end{aligned}",
+"formula": "\\begin{aligned} \\sin(-x) &= -\\sin x \\ \\cos(-x) &= \\cos x \\end{aligned}",
 "description": "State the even/odd mathematical identities for sine and cosine functions when given a negative argument (-x).",
 "derivation": "Derived from coordinates on the unit circle. A clockwise rotation to ($-x$) yields the same x-coordinate (cosine) but exactly negates the y-coordinate (sine)."
 }
@@ -252,11 +252,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 13,
 "heading": "Complementary Angles (First Quadrant Aliases)",
-"back": "## Component Anatomy\n- **$x$:** Input angle.\n- **$\frac{\pi}{2}$:** $90^{\circ}$ phase shift boundary.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Input angle.\n- **$\\frac{\\pi}{2}$:** $90^{\\circ}$ phase shift boundary.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \sin\left(\frac{\pi}{2} - x\right) &= \cos x \\ \cos\left(\frac{\pi}{2} - x\right) &= \sin x \end{aligned}",
+"formula": "\\begin{aligned} \\sin\\left(\\frac{\\pi}{2} - x\\right) &= \\cos x \\ \\cos\\left(\\frac{\\pi}{2} - x\\right) &= \\sin x \\end{aligned}",
 "description": "State the complementary angle identities for sine and cosine of (pi/2 - x).",
-"derivation": "Replace $y$ with $x$ and $x$ with $\frac{\pi}{2}$ strictly in the $\cos(x-y)$ and $\sin(x-y)$ expansion formulas."
+"derivation": "Replace $y$ with $x$ and $x$ with $\\frac{\\pi}{2}$ strictly in the $\\cos(x-y)$ and $\\sin(x-y)$ expansion formulas."
 }
 }
 },
@@ -273,11 +273,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 14,
 "heading": "Supplementary Angles (Second Quadrant Aliases)",
-"back": "## Component Anatomy\n- **$x$:** Input angle.\n- **$\frac{\pi}{2}$:** $90^{\circ}$ phase shift boundary bridging into the second quadrant.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Input angle.\n- **$\\frac{\\pi}{2}$:** $90^{\\circ}$ phase shift boundary bridging into the second quadrant.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \sin\left(\frac{\pi}{2} + x\right) &= \cos x \\ \cos\left(\frac{\pi}{2} + x\right) &= -\sin x \end{aligned}",
+"formula": "\\begin{aligned} \\sin\\left(\\frac{\\pi}{2} + x\\right) &= \\cos x \\ \\cos\\left(\\frac{\\pi}{2} + x\\right) &= -\\sin x \\end{aligned}",
 "description": "State the quadrant-shifted identities for sine and cosine of (pi/2 + x).",
-"derivation": "Expands directly from $\sin(A+B)$ and $\cos(A+B)$. Note cosine is strictly negative in the 2nd quadrant."
+"derivation": "Expands directly from $\\sin(A+B)$ and $\\cos(A+B)$. Note cosine is strictly negative in the 2nd quadrant."
 }
 }
 },
@@ -294,10 +294,10 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 15,
 "heading": "Cosine of Sum of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Cosines stay together, Sines stay together, sign flips in the middle.",
 "formulaMeta": {
-"formula": "\cos(x + y) = \cos x \cos y - \sin x \sin y",
+"formula": "\\cos(x + y) = \\cos x \\cos y - \\sin x \\sin y",
 "description": "State the primary expansion identity for cos(x + y).",
 "derivation": "Derived geometrically using the distance formula between coordinate points on the unit circle separated by angles $x$ and $y$."
 }
@@ -316,12 +316,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 16,
 "heading": "Cosine of Difference of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Cosines stay together, Sines stay together, minus becomes plus.",
 "formulaMeta": {
-"formula": "\cos(x - y) = \cos x \cos y + \sin x \sin y",
+"formula": "\\cos(x - y) = \\cos x \\cos y + \\sin x \\sin y",
 "description": "State the expansion identity for cos(x - y).",
-"derivation": "Substitute $y$ with $-y$ strictly in the $\cos(x+y)$ formula and apply the even/odd properties of sine and cosine."
+"derivation": "Substitute $y$ with $-y$ strictly in the $\\cos(x+y)$ formula and apply the even/odd properties of sine and cosine."
 }
 }
 },
@@ -338,12 +338,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 17,
 "heading": "Sine of Sum of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Sine mixes (sin-cos, cos-sin) and keeps the same sign.",
 "formulaMeta": {
-"formula": "\sin(x + y) = \sin x \cos y + \cos x \sin y",
+"formula": "\\sin(x + y) = \\sin x \\cos y + \\cos x \\sin y",
 "description": "State the expansion identity for sin(x + y).",
-"derivation": "Derived using the complementary angle relation: $\sin(x+y) = \cos(\frac{\pi}{2} - (x+y)) = \cos((\frac{\pi}{2} - x) - y)$ and expanding."
+"derivation": "Derived using the complementary angle relation: $\\sin(x+y) = \\cos(\\frac{\\pi}{2} - (x+y)) = \\cos((\\frac{\\pi}{2} - x) - y)$ and expanding."
 }
 }
 },
@@ -360,12 +360,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 18,
 "heading": "Sine of Difference of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Sine mixes terms and keeps the minus sign.",
 "formulaMeta": {
-"formula": "\sin(x - y) = \sin x \cos y - \cos x \sin y",
+"formula": "\\sin(x - y) = \\sin x \\cos y - \\cos x \\sin y",
 "description": "State the expansion identity for sin(x - y).",
-"derivation": "Substitute $y$ with $-y$ strictly in the $\sin(x+y)$ formula and apply odd/even mathematical rules."
+"derivation": "Substitute $y$ with $-y$ strictly in the $\\sin(x+y)$ formula and apply odd/even mathematical rules."
 }
 }
 },
@@ -382,11 +382,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 19,
 "heading": "Tangent of Sum of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x + y)$ can be an odd multiple of $\frac{\pi}{2}$ (i.e., $\cos x \neq 0$, $\cos y \neq 0$, $\cos(x+y) \neq 0$).",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x + y)$ can be an odd multiple of $\\frac{\\pi}{2}$ (i.e., $\\cos x \\neq 0$, $\\cos y \\neq 0$, $\\cos(x+y) \\neq 0$).",
 "formulaMeta": {
-"formula": "\tan(x + y) = \frac{\tan x + \tan y}{1 - \tan x \tan y}",
+"formula": "\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}",
 "description": "State the expansion identity for tan(x + y) and define its strict domain constraints.",
-"derivation": "Divide $\sin(x+y)$ by $\cos(x+y)$, then mathematically divide both the numerator and denominator strictly by $(\cos x \cos y)$."
+"derivation": "Divide $\\sin(x+y)$ by $\\cos(x+y)$, then mathematically divide both the numerator and denominator strictly by $(\\cos x \\cos y)$."
 }
 }
 },
@@ -403,11 +403,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 20,
 "heading": "Tangent of Difference of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x - y)$ can be an odd multiple of $\frac{\pi}{2}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x - y)$ can be an odd multiple of $\\frac{\\pi}{2}$.",
 "formulaMeta": {
-"formula": "\tan(x - y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}",
+"formula": "\\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x \\tan y}",
 "description": "State the expansion identity for tan(x - y) and define its strict domain constraints.",
-"derivation": "Substitute $-y$ for $y$ strictly in the $\tan(x+y)$ identity, applying the property that $\tan(-y) = -\tan y$."
+"derivation": "Substitute $-y$ for $y$ strictly in the $\\tan(x+y)$ identity, applying the property that $\\tan(-y) = -\\tan y$."
 }
 }
 },
@@ -424,12 +424,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 21,
 "heading": "Cotangent of Sum of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x + y)$ can be an integral multiple of $\pi$ (i.e., $\sin x \neq 0$, $\sin y \neq 0$, $\sin(x+y) \neq 0$).",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x + y)$ can be an integral multiple of $\\pi$ (i.e., $\\sin x \\neq 0$, $\\sin y \\neq 0$, $\\sin(x+y) \\neq 0$).",
 "mnemonic": "Cotangent looks upside down compared to Tangent. Minus sign sits on top.",
 "formulaMeta": {
-"formula": "\cot(x + y) = \frac{\cot x \cot y - 1}{\cot y + \cot x}",
+"formula": "\\cot(x + y) = \\frac{\\cot x \\cot y - 1}{\\cot y + \\cot x}",
 "description": "State the expansion identity for cot(x + y) and define its strict domain constraints.",
-"derivation": "Divide $\cos(x+y)$ by $\sin(x+y)$, then divide both numerator and denominator strictly by $(\sin x \sin y)$."
+"derivation": "Divide $\\cos(x+y)$ by $\\sin(x+y)$, then divide both numerator and denominator strictly by $(\\sin x \\sin y)$."
 }
 }
 },
@@ -446,11 +446,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 22,
 "heading": "Cotangent of Difference of Two Angles",
-"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x - y)$ can be an integral multiple of $\pi$.",
+"back": "## Component Anatomy\n- **$x, y$:** Two independent angles.\n\n## Boundary Conditions / Domain\n- None of the angles $x$, $y$, and $(x - y)$ can be an integral multiple of $\\pi$.",
 "formulaMeta": {
-"formula": "\cot(x - y) = \frac{\cot x \cot y + 1}{\cot y - \cot x}",
+"formula": "\\cot(x - y) = \\frac{\\cot x \\cot y + 1}{\\cot y - \\cot x}",
 "description": "State the expansion identity for cot(x - y) and define its strict domain constraints.",
-"derivation": "Substitute $-y$ for $y$ strictly in the $\cot(x+y)$ identity, utilizing $\cot(-y) = -\cot y$."
+"derivation": "Substitute $-y$ for $y$ strictly in the $\\cot(x+y)$ identity, utilizing $\\cot(-y) = -\\cot y$."
 }
 }
 },
@@ -467,11 +467,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 23,
 "heading": "Double Angle Identity for Cosine",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- For the tan-based form exclusively, $x \neq (2n+1)\frac{\pi}{2}, n \in \mathbb{Z}$. The other forms are valid for all $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- For the tan-based form exclusively, $x \\neq (2n+1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}$. The other forms are valid for all $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \cos 2x &= \cos^2 x - \sin^2 x \\ &= 2\cos^2 x - 1 \\ &= 1 - 2\sin^2 x \\ &= \frac{1 - \tan^2 x}{1 + \tan^2 x} \end{aligned}",
+"formula": "\\begin{aligned} \\cos 2x &= \\cos^2 x - \\sin^2 x \\ &= 2\\cos^2 x - 1 \\ &= 1 - 2\\sin^2 x \\ &= \\frac{1 - \\tan^2 x}{1 + \\tan^2 x} \\end{aligned}",
 "description": "State the four different mathematical forms of the cos(2x) double angle identity.",
-"derivation": "Set $y = x$ strictly in the expansion of $\cos(x+y)$. Substitute $\sin^2 x + \cos^2 x = 1$ repeatedly to derive the first three sub-forms."
+"derivation": "Set $y = x$ strictly in the expansion of $\\cos(x+y)$. Substitute $\\sin^2 x + \\cos^2 x = 1$ repeatedly to derive the first three sub-forms."
 }
 }
 },
@@ -488,11 +488,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 24,
 "heading": "Double Angle Identity for Sine",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- For the tan-based form exclusively, $x \neq (2n+1)\frac{\pi}{2}, n \in \mathbb{Z}$. The first form is valid for all $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- For the tan-based form exclusively, $x \\neq (2n+1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}$. The first form is valid for all $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \sin 2x &= 2\sin x \cos x \\ &= \frac{2\tan x}{1 + \tan^2 x} \end{aligned}",
+"formula": "\\begin{aligned} \\sin 2x &= 2\\sin x \\cos x \\ &= \\frac{2\\tan x}{1 + \\tan^2 x} \\end{aligned}",
 "description": "State the two mathematical forms of the sin(2x) double angle identity.",
-"derivation": "Set $y = x$ strictly in the expansion of $\sin(x+y)$. To extract the tan form, divide the result by $\cos^2 x / \cos^2 x$ and utilize secant identities."
+"derivation": "Set $y = x$ strictly in the expansion of $\\sin(x+y)$. To extract the tan form, divide the result by $\\cos^2 x / \\cos^2 x$ and utilize secant identities."
 }
 }
 },
@@ -509,11 +509,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 25,
 "heading": "Double Angle Identity for Tangent",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- $2x \neq (2n+1)\frac{\pi}{2}$ and $x \neq (2n+1)\frac{\pi}{2}$, for any $n \in \mathbb{Z}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- $2x \\neq (2n+1)\\frac{\\pi}{2}$ and $x \\neq (2n+1)\\frac{\\pi}{2}$, for any $n \\in \\mathbb{Z}$.",
 "formulaMeta": {
-"formula": "\tan 2x = \frac{2\tan x}{1 - \tan^2 x}",
+"formula": "\\tan 2x = \\frac{2\\tan x}{1 - \\tan^2 x}",
 "description": "State the double angle identity for tan(2x).",
-"derivation": "Substitute $y = x$ strictly into the expansion formula for $\tan(x + y)$."
+"derivation": "Substitute $y = x$ strictly into the expansion formula for $\\tan(x + y)$."
 }
 }
 },
@@ -530,12 +530,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 26,
 "heading": "Triple Angle Identity for Sine",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \\in \\mathbb{R}$.",
 "mnemonic": "3 sine minus 4 sine cubed (3-43)",
 "formulaMeta": {
 "formula": "\\sin 3x = 3\\sin x - 4\\sin^3 x",
 "description": "State the triple angle identity for sin(3x) expressed entirely in terms of sin(x).",
-"derivation": "1. Express $\\\sin 3x$ as $\\\sin(2x + x)$.\n2. Expand strictly using $\\\sin(A+B)$.\n3. Substitute $\\\sin 2x = 2\\\sin x \\\cos x$ and $\\\cos 2x = 1 - 2\\\sin^2 x$.\n4. Convert any remaining $\\\cos^2 x$ mathematically into $1 - \\\sin^2 x$."
+"derivation": "1. Express $\\\\sin 3x$ as $\\\\sin(2x + x)$.\n2. Expand strictly using $\\\\sin(A+B)$.\n3. Substitute $\\\\sin 2x = 2\\\\sin x \\\\cos x$ and $\\\\cos 2x = 1 - 2\\\\sin^2 x$.\n4. Convert any remaining $\\\\cos^2 x$ mathematically into $1 - \\\\sin^2 x$."
 }
 }
 },
@@ -552,12 +552,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 27,
 "heading": "Triple Angle Identity for Cosine",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x \\in \\mathbb{R}$.",
 "mnemonic": "4 cosine cubed minus 3 cosine (43-3)",
 "formulaMeta": {
 "formula": "\\cos 3x = 4\\cos^3 x - 3\\cos x",
 "description": "State the triple angle identity for cos(3x) expressed entirely in terms of cos(x).",
-"derivation": "1. Express $\\\cos 3x$ as $\\\cos(2x + x)$.\n2. Expand strictly using the $\\\cos(A+B)$ formula.\n3. Substitute $\\\cos 2x = 2\\\cos^2 x - 1$ and $\\\sin 2x = 2\\\sin x \\\cos x$.\n4. Convert the remaining $\\\sin^2 x$ mathematically into $1 - \\\cos^2 x$ and simplify."
+"derivation": "1. Express $\\\\cos 3x$ as $\\\\cos(2x + x)$.\n2. Expand strictly using the $\\\\cos(A+B)$ formula.\n3. Substitute $\\\\cos 2x = 2\\\\cos^2 x - 1$ and $\\\\sin 2x = 2\\\\sin x \\\\cos x$.\n4. Convert the remaining $\\\\sin^2 x$ mathematically into $1 - \\\\cos^2 x$ and simplify."
 }
 }
 },
@@ -574,11 +574,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 28,
 "heading": "Triple Angle Identity for Tangent",
-"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- $x \neq (2n+1)\\\frac{\\\pi}{2}$ and $3x \neq (2n+1)\\\frac{\\\pi}{2}$ for any integer $n \in \mathbb{Z}$.",
+"back": "## Component Anatomy\n- **$x$:** Base angle.\n\n## Boundary Conditions / Domain\n- $x \\neq (2n+1)\\\\frac{\\\\pi}{2}$ and $3x \\neq (2n+1)\\\\frac{\\\\pi}{2}$ for any integer $n \\in \\mathbb{Z}$.",
 "formulaMeta": {
 "formula": "\\tan 3x = \\frac{3\\tan x - \\tan^3 x}{1 - 3\\tan^2 x}",
 "description": "State the triple angle identity for tan(3x) expressed entirely in terms of tan(x).",
-"derivation": "1. Express $\\\tan 3x$ as $\\\tan(2x + x)$.\n2. Expand using the $\\\tan(A+B)$ algebraic formula.\n3. Substitute the identity for $\\\tan 2x$ and systematically simplify the resulting complex fraction."
+"derivation": "1. Express $\\\\tan 3x$ as $\\\\tan(2x + x)$.\n2. Expand using the $\\\\tan(A+B)$ algebraic formula.\n3. Substitute the identity for $\\\\tan 2x$ and systematically simplify the resulting complex fraction."
 }
 }
 },
@@ -595,12 +595,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 29,
 "heading": "Sum to Product Transformations (Cosine)",
-"back": "## Component Anatomy\n- **$x, y$:** Input angles being mathematically added or subtracted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Input angles being mathematically added or subtracted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Cos+Cos gives Cos-Cos. Cos-Cos gives Sin-Sin (with a strict minus prefix!).",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\cos x + \\cos y &= 2\\cos\\left(\\frac{x+y}{2}\\right)\\cos\\left(\\frac{x-y}{2}\\right) \\\\ \\cos x - \\cos y &= -2\\sin\\left(\\frac{x+y}{2}\\right)\\sin\\left(\\frac{x-y}{2}\\right) \\end{aligned}",
 "description": "State the sum-to-product algebraic identities for (cos x + cos y) and (cos x - cos y).",
-"derivation": "Substitute $A = \\\frac{x+y}{2}$ and $B = \\\frac{x-y}{2}$ systematically into the standard expansions of $\\\cos(A+B)$ and $\\\cos(A-B)$, then compute their sum and difference."
+"derivation": "Substitute $A = \\\\frac{x+y}{2}$ and $B = \\\\frac{x-y}{2}$ systematically into the standard expansions of $\\\\cos(A+B)$ and $\\\\cos(A-B)$, then compute their sum and difference."
 }
 }
 },
@@ -617,12 +617,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 30,
 "heading": "Sum to Product Transformations (Sine)",
-"back": "## Component Anatomy\n- **$x, y$:** Input angles being added or mathematically subtracted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Input angles being added or mathematically subtracted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \\in \\mathbb{R}$.",
 "mnemonic": "Sin+Sin gives Sin-Cos. Sin-Sin gives Cos-Sin.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\sin x + \\sin y &= 2\\sin\\left(\\frac{x+y}{2}\\right)\\cos\\left(\\frac{x-y}{2}\\right) \\\\ \\sin x - \\sin y &= 2\\cos\\left(\\frac{x+y}{2}\\right)\\sin\\left(\\frac{x-y}{2}\\right) \\end{aligned}",
 "description": "State the sum-to-product algebraic identities for (sin x + sin y) and (sin x - sin y).",
-"derivation": "Substitute $A = \\\frac{x+y}{2}$ and $B = \\\frac{x-y}{2}$ systematically into the expansions of $\\\sin(A+B)$ and $\\\sin(A-B)$, then compute their sum and difference."
+"derivation": "Substitute $A = \\\\frac{x+y}{2}$ and $B = \\\\frac{x-y}{2}$ systematically into the expansions of $\\\\sin(A+B)$ and $\\\\sin(A-B)$, then compute their sum and difference."
 }
 }
 },
@@ -639,11 +639,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 31,
 "heading": "Product to Sum Transformations (Cosine & Sine pairs)",
-"back": "## Component Anatomy\n- **$x, y$:** Input angles forming the mathematical product.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Input angles forming the mathematical product.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \\in \\mathbb{R}$.",
 "formulaMeta": {
 "formula": "\\begin{aligned} 2\\cos x \\cos y &= \\cos(x+y) + \\cos(x-y) \\\\ -2\\sin x \\sin y &= \\cos(x+y) - \\cos(x-y) \\end{aligned}",
 "description": "State the product-to-sum identities for strictly matching function pairs (2 cos x cos y) and (-2 sin x sin y).",
-"derivation": "Mathematically add or subtract the known sum and difference expansion formulas for $\\\cos(x+y)$ and $\\\cos(x-y)$."
+"derivation": "Mathematically add or subtract the known sum and difference expansion formulas for $\\\\cos(x+y)$ and $\\\\cos(x-y)$."
 }
 }
 },
@@ -660,11 +660,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 32,
 "heading": "Product to Sum Transformations (Mixed pairs)",
-"back": "## Component Anatomy\n- **$x, y$:** Input angles forming the mathematical product.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x, y$:** Input angles forming the mathematical product.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x, y \\in \\mathbb{R}$.",
 "formulaMeta": {
 "formula": "\\begin{aligned} 2\\sin x \\cos y &= \\sin(x+y) + \\sin(x-y) \\\\ 2\\cos x \\sin y &= \\sin(x+y) - \\sin(x-y) \\end{aligned}",
 "description": "State the product-to-sum identities for strictly mixed function pairs (2 sin x cos y) and (2 cos x sin y).",
-"derivation": "Mathematically add or subtract the known sum and difference expansion formulas for $\\\sin(x+y)$ and $\\\sin(x-y)$."
+"derivation": "Mathematically add or subtract the known sum and difference expansion formulas for $\\\\sin(x+y)$ and $\\\\sin(x-y)$."
 }
 }
 },
@@ -681,12 +681,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 33,
 "heading": "Difference of Squares Trigonometric Identities",
-"back": "## Component Anatomy\n- **$A, B$:** Any two real angles.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $A, B \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$A, B$:** Any two real angles.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $A, B \\in \\mathbb{R}$.",
 "mnemonic": "Sine stays pure (sin-sin). Cosine mixes it up (cos-sin).",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\sin^2 A - \\sin^2 B &= \\sin(A+B)\\sin(A-B) \\\\ \\cos^2 A - \\sin^2 B &= \\cos(A+B)\\cos(A-B) \\end{aligned}",
 "description": "State the algebraic expansion identities for the difference of two squared sine functions, and the mixed difference of a squared cosine and squared sine function.",
-"derivation": "Derived strictly by multiplying the standard expansions of $\\\sin(A+B)$ and $\\\sin(A-B)$, then applying the algebraic difference of squares and substituting the Pythagorean identity $\\\sin^2 \\\theta + \\\cos^2 \\\theta = 1$ to isolate variables."
+"derivation": "Derived strictly by multiplying the standard expansions of $\\\\sin(A+B)$ and $\\\\sin(A-B)$, then applying the algebraic difference of squares and substituting the Pythagorean identity $\\\\sin^2 \\\\theta + \\\\cos^2 \\\\theta = 1$ to isolate variables."
 }
 }
 },
@@ -703,12 +703,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 34,
 "heading": "Algebraic Reduction of High-Power Trig Sums",
-"back": "## Component Anatomy\n- **$x$:** Any real angle.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$x$:** Any real angle.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all $x \\in \\mathbb{R}$.",
 "mnemonic": "Power 4 subtracts 2, Power 6 subtracts 3.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\sin^4 x + \\cos^4 x &= 1 - 2\\sin^2 x \\cos^2 x \\\\ \\sin^6 x + \\cos^6 x &= 1 - 3\\sin^2 x \\cos^2 x \\end{aligned}",
 "description": "State the highly tested procedural algebraic reductions for the expressions (sin^4 x + cos^4 x) and (sin^6 x + cos^6 x).",
-"derivation": "Apply strict algebraic identities: $a^2+b^2 = (a+b)^2 - 2ab$ and $a^3+b^3 = (a+b)(a^2-ab+b^2)$ by setting $a = \\\sin^2 x$ and $b = \\\cos^2 x$. Because the specific term $(a+b) = \\\sin^2 x + \\\cos^2 x = 1$, the complex polynomials collapse seamlessly."
+"derivation": "Apply strict algebraic identities: $a^2+b^2 = (a+b)^2 - 2ab$ and $a^3+b^3 = (a+b)(a^2-ab+b^2)$ by setting $a = \\\\sin^2 x$ and $b = \\\\cos^2 x$. Because the specific term $(a+b) = \\\\sin^2 x + \\\\cos^2 x = 1$, the complex polynomials collapse seamlessly."
 }
 }
 },
@@ -725,7 +725,7 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 35,
 "heading": "Principal Solutions of Trigonometric Equations",
-"back": "## Core Definition\n- **Definition:** The strictly bounded solutions of a trigonometric equation for an unknown angle $x$ that lie within a specific, single primary interval.\n\n## Boundary Conditions / Domain\n- **Interval Requirement:** The principal domain is strictly defined as $0 \leq x < 2\\\pi$ (or exactly $0^{\\\circ} \leq x < 360^{\\\circ}$). Negative angles or values $\geq 2\\\pi$ are excluded.",
+"back": "## Core Definition\n- **Definition:** The strictly bounded solutions of a trigonometric equation for an unknown angle $x$ that lie within a specific, single primary interval.\n\n## Boundary Conditions / Domain\n- **Interval Requirement:** The principal domain is strictly defined as $0 \\leq x < 2\\\\pi$ (or exactly $0^{\\\\circ} \\leq x < 360^{\\\\circ}$). Negative angles or values $\\geq 2\\\\pi$ are excluded.",
 "standardMeta": {
 "question": "What mathematical interval strictly defines the 'Principal Solutions' of a trigonometric equation?"
 }
@@ -763,12 +763,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 37,
 "heading": "General Solution for Sine Function",
-"back": "## Component Anatomy\n- **$\\\theta$:** The unknown target variable.\n- **$\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \in \mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\alpha$ must strictly be chosen such that $\\\alpha \in [-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2}]$.",
+"back": "## Component Anatomy\n- **$\\\\theta$:** The unknown target variable.\n- **$\\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \\in \\mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\\alpha$ must strictly be chosen such that $\\\\alpha \\in [-\\\\frac{\\\\pi}{2}, \\\\frac{\\\\pi}{2}]$.",
 "mnemonic": "Sine's general solution oscillates with (-1)^n.",
 "formulaMeta": {
 "formula": "\\theta = n\\pi + (-1)^n \\alpha",
 "description": "State the general mathematical solution formula for the trigonometric equation sin(θ) = sin(α).",
-"derivation": "Derived by solving $\\\sin \\\theta - \\\sin \\\alpha = 0$ using sum-to-product transformations, equating factors to zero, and combining the resulting conditions."
+"derivation": "Derived by solving $\\\\sin \\\\theta - \\\\sin \\\\alpha = 0$ using sum-to-product transformations, equating factors to zero, and combining the resulting conditions."
 }
 }
 },
@@ -785,12 +785,12 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 38,
 "heading": "General Solution for Cosine Function",
-"back": "## Component Anatomy\n- **$\\\theta$:** The unknown target variable.\n- **$\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \in \mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\alpha$ must strictly be chosen such that $\\\alpha \in [0, \\\pi]$.",
+"back": "## Component Anatomy\n- **$\\\\theta$:** The unknown target variable.\n- **$\\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \\in \\mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\\alpha$ must strictly be chosen such that $\\\\alpha \\in [0, \\\\pi]$.",
 "mnemonic": "Cosine reflects evenly around 2n(pi), hence the +/-.",
 "formulaMeta": {
 "formula": "\\theta = 2n\\pi \\pm \\alpha",
 "description": "State the general mathematical solution formula for the trigonometric equation cos(θ) = cos(α).",
-"derivation": "Derived by solving $\\\cos \\\theta - \\\cos \\\alpha = 0$ using sum-to-product transformations and isolating $\\\theta$."
+"derivation": "Derived by solving $\\\\cos \\\\theta - \\\\cos \\\\alpha = 0$ using sum-to-product transformations and isolating $\\\\theta$."
 }
 }
 },
@@ -807,11 +807,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "ncert"],
 "order": 39,
 "heading": "General Solution for Tangent Function",
-"back": "## Component Anatomy\n- **$\\\theta$:** The unknown target variable.\n- **$\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \in \mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\alpha$ must strictly be chosen such that $\\\alpha \in (-\\\frac{\\\pi}{2}, \\\frac{\\\pi}{2})$.\n- Domain restriction: $\\\theta \neq (2n+1)\\\frac{\\\pi}{2}$.",
+"back": "## Component Anatomy\n- **$\\\\theta$:** The unknown target variable.\n- **$\\\\alpha$:** The principal base angle satisfying the specific equation.\n- **$n$:** Any mathematical integer ($n \\in \\mathbb{Z}$).\n\n## Boundary Conditions / Domain\n- The principal angle $\\\\alpha$ must strictly be chosen such that $\\\\alpha \\in (-\\\\frac{\\\\pi}{2}, \\\\frac{\\\\pi}{2})$.\n- Domain restriction: $\\\\theta \\neq (2n+1)\\\\frac{\\\\pi}{2}$.",
 "formulaMeta": {
 "formula": "\\theta = n\\pi + \\alpha",
 "description": "State the general mathematical solution formula for the trigonometric equation tan(θ) = tan(α).",
-"derivation": "Derived by expressing $\\\tan \\\theta - \\\tan \\\alpha = 0$ as $\\\frac{\\\sin(\\\theta - \\\alpha)}{\\\cos \\\theta \\\cos \\\alpha} = 0$, requiring the numerator to be strictly zero."
+"derivation": "Derived by expressing $\\\\tan \\\\theta - \\\\tan \\\\alpha = 0$ as $\\\\frac{\\\\sin(\\\\theta - \\\\alpha)}{\\\\cos \\\\theta \\\\cos \\\\alpha} = 0$, requiring the numerator to be strictly zero."
 }
 }
 },
@@ -828,11 +828,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "archetype"],
 "order": 40,
 "heading": "SOP: Transforming a cos(θ) + b sin(θ)",
-"back": "## Component Anatomy\n- **$a, b, c$:** Real equation constants.\n- **$r$:** The substitution magnitude strictly defined as $\\\sqrt{a^2 + b^2}$.\n- **$\\\alpha$:** The phase angle defined where $\\\cos \\\alpha = \\\frac{a}{r}$ and $\\\sin \\\alpha = \\\frac{b}{r}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any linear trigonometric summation of sine and cosine.",
+"back": "## Component Anatomy\n- **$a, b, c$:** Real equation constants.\n- **$r$:** The substitution magnitude strictly defined as $\\\\sqrt{a^2 + b^2}$.\n- **$\\\\alpha$:** The phase angle defined where $\\\\cos \\\\alpha = \\\\frac{a}{r}$ and $\\\\sin \\\\alpha = \\\\frac{b}{r}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any linear trigonometric summation of sine and cosine.",
 "formulaMeta": {
 "formula": "a \\cos \\theta + b \\sin \\theta = r \\cos(\\theta - \\alpha)",
 "description": "State Step 1 of the algorithmic procedure to transform the expression a cos(θ) + b sin(θ).",
-"derivation": "**SOP Step 1 (Transformation):**\n1. Divide and strictly multiply the entire expression by the magnitude $r = \\\sqrt{a^2 + b^2}$.\n2. Let $\\\cos \\\alpha = \\\frac{a}{r}$ and $\\\sin \\\alpha = \\\frac{b}{r}$.\n3. Rewrite the expression algebraically as $r(\\\cos \\\alpha \\\cos \\\theta + \\\sin \\\alpha \\\sin \\\theta)$.\n4. Collapse this using the cosine difference identity to strictly yield $r \\\cos(\\\theta - \\\alpha)$."
+"derivation": "**SOP Step 1 (Transformation):**\n1. Divide and strictly multiply the entire expression by the magnitude $r = \\\\sqrt{a^2 + b^2}$.\n2. Let $\\\\cos \\\\alpha = \\\\frac{a}{r}$ and $\\\\sin \\\\alpha = \\\\frac{b}{r}$.\n3. Rewrite the expression algebraically as $r(\\\\cos \\\\alpha \\\\cos \\\\theta + \\\\sin \\\\alpha \\\\sin \\\\theta)$.\n4. Collapse this using the cosine difference identity to strictly yield $r \\\\cos(\\\\theta - \\\\alpha)$."
 }
 }
 },
@@ -849,11 +849,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "archetype"],
 "order": 41,
 "heading": "SOP: Solving transformed equation r cos(θ - α) = c",
-"back": "## Component Anatomy\n- **$c$:** Target constant value.\n- **$r$:** The evaluated magnitude $\\\sqrt{a^2 + b^2}$.\n- **$\\\alpha$:** The computed phase angle.\n\n## Boundary Conditions / Domain\n- **Strict Feasibility Constraint:** The equation strictly only possesses real solutions if mathematically $|c| \leq \\\sqrt{a^2 + b^2}$ (i.e., $|c| \leq r$).",
+"back": "## Component Anatomy\n- **$c$:** Target constant value.\n- **$r$:** The evaluated magnitude $\\\\sqrt{a^2 + b^2}$.\n- **$\\\\alpha$:** The computed phase angle.\n\n## Boundary Conditions / Domain\n- **Strict Feasibility Constraint:** The equation strictly only possesses real solutions if mathematically $|c| \\leq \\\\sqrt{a^2 + b^2}$ (i.e., $|c| \\leq r$).",
 "formulaMeta": {
 "formula": "\\cos(\\theta - \\alpha) = \\frac{c}{r}",
 "description": "State Step 2 of the algorithmic procedure to solve an equation of the form a cos(θ) + b sin(θ) = c after transforming it.",
-"derivation": "**SOP Step 2 (Solving):**\n1. Substitute the transformed left side to get $r \\\cos(\\\theta - \\\alpha) = c$.\n2. Isolate the trigonometric term: $\\\cos(\\\theta - \\\alpha) = \\\frac{c}{r}$.\n3. Calculate the principal angle $\\\beta$ where $\\\cos \\\beta = \\\frac{c}{r}$.\n4. Apply the general cosine solution formula: $\\\theta - \\\alpha = 2n\\\pi \\\pm \\\beta$, and explicitly solve for $\\\theta$."
+"derivation": "**SOP Step 2 (Solving):**\n1. Substitute the transformed left side to get $r \\\\cos(\\\\theta - \\\\alpha) = c$.\n2. Isolate the trigonometric term: $\\\\cos(\\\\theta - \\\\alpha) = \\\\frac{c}{r}$.\n3. Calculate the principal angle $\\\\beta$ where $\\\\cos \\\\beta = \\\\frac{c}{r}$.\n4. Apply the general cosine solution formula: $\\\\theta - \\\\alpha = 2n\\\\pi \\\\pm \\\\beta$, and explicitly solve for $\\\\theta$."
 }
 }
 },
@@ -870,11 +870,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 42,
 "heading": "Extrema of a cos(θ) + b sin(θ)",
-"back": "## Component Anatomy\n- **$a, b$:** Constant real coefficients.\n\n## Boundary Conditions / Domain\n- Valid for all real bounded values of $\\\theta$.",
+"back": "## Component Anatomy\n- **$a, b$:** Constant real coefficients.\n\n## Boundary Conditions / Domain\n- Valid for all real bounded values of $\\\\theta$.",
 "formulaMeta": {
 "formula": "\\text{Max} = \\sqrt{a^2 + b^2}, \\quad \\text{Min} = -\\sqrt{a^2 + b^2}",
 "description": "State the standard mathematical formula for the maximum and minimum values of the generic expression a cos(θ) + b sin(θ).",
-"derivation": "The algebraic expression can strictly be transformed into $R \\\cos(\\\theta - \\\alpha)$ where $R = \\\sqrt{a^2 + b^2}$. Since the standalone cosine function is strictly bounded by $[-1, 1]$, the entirely multiplied expression is strictly bounded by $[-R, R]$."
+"derivation": "The algebraic expression can strictly be transformed into $R \\\\cos(\\\\theta - \\\\alpha)$ where $R = \\\\sqrt{a^2 + b^2}$. Since the standalone cosine function is strictly bounded by $[-1, 1]$, the entirely multiplied expression is strictly bounded by $[-R, R]$."
 }
 }
 },
@@ -891,11 +891,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "properties-of-triangles"],
 "order": 43,
 "heading": "Law of Sines (Sine Rule)",
-"back": "## Component Anatomy\n- **$a, b, c$:** Strict side lengths of the specific triangle.\n- **$A, B, C$:** Respective angles strictly opposite to those specific sides.\n- **$R$:** Circumradius (radius of the circumscribed circle) of the geometric triangle $\\\triangle ABC$.\n\n## Boundary Conditions / Domain\n- Mathematically applies unconditionally to any valid geometric planar triangle.",
+"back": "## Component Anatomy\n- **$a, b, c$:** Strict side lengths of the specific triangle.\n- **$A, B, C$:** Respective angles strictly opposite to those specific sides.\n- **$R$:** Circumradius (radius of the circumscribed circle) of the geometric triangle $\\\\triangle ABC$.\n\n## Boundary Conditions / Domain\n- Mathematically applies unconditionally to any valid geometric planar triangle.",
 "formulaMeta": {
 "formula": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R",
 "description": "State the Law of Sines systematically relating the sides, angles, and circumradius of a triangle.",
-"derivation": "Geometrically proven by evaluating the area of the triangle via three different altitudes, equating them, and dividing by $\\\frac{1}{2}abc$."
+"derivation": "Geometrically proven by evaluating the area of the triangle via three different altitudes, equating them, and dividing by $\\\\frac{1}{2}abc$."
 }
 }
 },
@@ -938,7 +938,7 @@
 "formulaMeta": {
 "formula": "\\tan\\left(\\frac{A-B}{2}\\right) = \\frac{a-b}{a+b} \\cot\\left(\\frac{C}{2}\\right)",
 "description": "State Napier's Analogy (Law of Tangents) mathematically relating sides a, b and interior angles A, B, C.",
-"derivation": "Strictly substitute $a = 2R\\\sin A$ and $b = 2R\\\sin B$ derived from the Sine Rule directly into the quotient $\\\frac{a-b}{a+b}$. Systematically apply sum-to-product algebraic formulas for sine strictly in the numerator and denominator, then simplify."
+"derivation": "Strictly substitute $a = 2R\\\\sin A$ and $b = 2R\\\\sin B$ derived from the Sine Rule directly into the quotient $\\\\frac{a-b}{a+b}$. Systematically apply sum-to-product algebraic formulas for sine strictly in the numerator and denominator, then simplify."
 }
 }
 },
@@ -955,11 +955,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "properties-of-triangles"],
 "order": 46,
 "heading": "Half-Angle Formula for Sine (Properties of Triangles)",
-"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- The physical triangle must be strictly valid in Euclidean geometry (i.e., obeying triangle inequality $s > a, s > b, s > c$).",
+"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- The physical triangle must be strictly valid in Euclidean geometry (i.e., obeying triangle inequality $s > a, s > b, s > c$).",
 "formulaMeta": {
 "formula": "\\sin\\left(\\frac{A}{2}\\right) = \\sqrt{\\frac{(s-b)(s-c)}{bc}}",
 "description": "State the mathematical half-angle formula for sin(A/2) entirely in terms of the triangle sides and semi-perimeter (s).",
-"derivation": "Systematically derived from isolating the Cosine Rule $\\\cos A = \\\frac{b^2+c^2-a^2}{2bc}$ and directly substituting it into the standard half-angle identity $2\\\sin^2(\\\frac{A}{2}) = 1 - \\\cos A$."
+"derivation": "Systematically derived from isolating the Cosine Rule $\\\\cos A = \\\\frac{b^2+c^2-a^2}{2bc}$ and directly substituting it into the standard half-angle identity $2\\\\sin^2(\\\\frac{A}{2}) = 1 - \\\\cos A$."
 }
 }
 },
@@ -976,11 +976,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "properties-of-triangles"],
 "order": 47,
 "heading": "Half-Angle Formula for Cosine (Properties of Triangles)",
-"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any valid Euclidean triangle.",
+"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any valid Euclidean triangle.",
 "formulaMeta": {
 "formula": "\\cos\\left(\\frac{A}{2}\\right) = \\sqrt{\\frac{s(s-a)}{bc}}",
 "description": "State the mathematical half-angle formula for cos(A/2) entirely in terms of the triangle sides and semi-perimeter (s).",
-"derivation": "Systematically derived from isolating the Cosine Rule $\\\cos A = \\\frac{b^2+c^2-a^2}{2bc}$ and directly substituting it into the standard half-angle identity $2\\\cos^2(\\\frac{A}{2}) = 1 + \\\cos A$."
+"derivation": "Systematically derived from isolating the Cosine Rule $\\\\cos A = \\\\frac{b^2+c^2-a^2}{2bc}$ and directly substituting it into the standard half-angle identity $2\\\\cos^2(\\\\frac{A}{2}) = 1 + \\\\cos A$."
 }
 }
 },
@@ -997,11 +997,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "properties-of-triangles"],
 "order": 48,
 "heading": "Half-Angle Formula for Tangent (Properties of Triangles)",
-"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any valid Euclidean triangle.",
+"back": "## Component Anatomy\n- **$a, b, c$:** Side lengths of the geometric triangle.\n- **$A$:** Specific internal angle of the triangle.\n- **$s$:** Semi-perimeter of the triangle, strictly defined mathematically as $s = \\\\frac{a+b+c}{2}$.\n\n## Boundary Conditions / Domain\n- Applies universally to any valid Euclidean triangle.",
 "formulaMeta": {
 "formula": "\\tan\\left(\\frac{A}{2}\\right) = \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}}",
 "description": "State the mathematical half-angle formula for tan(A/2) entirely in terms of the triangle sides and semi-perimeter (s).",
-"derivation": "Mathematically divide the derived formula for $\\\sin(\\\frac{A}{2})$ strictly by the derived formula for $\\\cos(\\\frac{A}{2})$."
+"derivation": "Mathematically divide the derived formula for $\\\\sin(\\\\frac{A}{2})$ strictly by the derived formula for $\\\\cos(\\\\frac{A}{2})$."
 }
 }
 },
@@ -1018,10 +1018,10 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 49,
 "heading": "Exact Values of 15 and 75 Degrees",
-"back": "## Core Values\n- **$\\\sin 15^\\\circ$** (or $\\\cos 75^\\\circ$): $\\\frac{\\\sqrt{3}-1}{2\\\sqrt{2}}$\n- **$\\\cos 15^\\\circ$** (or $\\\sin 75^\\\circ$): $\\\frac{\\\sqrt{3}+1}{2\\\sqrt{2}}$\n- **$\\\tan 15^\\\circ$** (or $\\\cot 75^\\\circ$): $2 - \\\sqrt{3}$\n- **$\\\cot 15^\\\circ$** (or $\\\tan 75^\\\circ$): $2 + \\\sqrt{3}$\n\n## Boundary Conditions / Domain\n- Derived cleanly using compound angle formulas (e.g., $45^\\\circ - 30^\\\circ$).",
+"back": "## Core Values\n- **$\\\\sin 15^\\\\circ$** (or $\\\\cos 75^\\\\circ$): $\\\\frac{\\\\sqrt{3}-1}{2\\\\sqrt{2}}$\n- **$\\\\cos 15^\\\\circ$** (or $\\\\sin 75^\\\\circ$): $\\\\frac{\\\\sqrt{3}+1}{2\\\\sqrt{2}}$\n- **$\\\\tan 15^\\\\circ$** (or $\\\\cot 75^\\\\circ$): $2 - \\\\sqrt{3}$\n- **$\\\\cot 15^\\\\circ$** (or $\\\\tan 75^\\\\circ$): $2 + \\\\sqrt{3}$\n\n## Boundary Conditions / Domain\n- Derived cleanly using compound angle formulas (e.g., $45^\\\\circ - 30^\\\\circ$).",
 "mnemonic": "Tan 15 is small, so it's a minus (2 - root 3). Cot 15 is big, so it's a plus (2 + root 3).",
 "standardMeta": {
-"question": "What are the exact irrational fractional values for the sine, cosine, tangent, and cotangent of $15^\\\circ$?"
+"question": "What are the exact irrational fractional values for the sine, cosine, tangent, and cotangent of $15^\\\\circ$?"
 }
 }
 },
@@ -1038,10 +1038,10 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 50,
 "heading": "Exact Values of 18 and 36 Degrees (JEE Edge-Case)",
-"back": "## Core Values\n- **$\\\sin 18^\\\circ$:** $\\\frac{\\\sqrt{5}-1}{4}$ (This is mathematically identical directly to $\\\cos 72^\\\circ$)\n- **$\\\cos 36^\\\circ$:** $\\\frac{\\\sqrt{5}+1}{4}$ (This is mathematically identical directly to $\\\sin 54^\\\circ$)\n\n## Boundary Conditions / Domain\n- These specific values are heavily tested in algorithmic substitution loops.",
+"back": "## Core Values\n- **$\\\\sin 18^\\\\circ$:** $\\\\frac{\\\\sqrt{5}-1}{4}$ (This is mathematically identical directly to $\\\\cos 72^\\\\circ$)\n- **$\\\\cos 36^\\\\circ$:** $\\\\frac{\\\\sqrt{5}+1}{4}$ (This is mathematically identical directly to $\\\\sin 54^\\\\circ$)\n\n## Boundary Conditions / Domain\n- These specific values are heavily tested in algorithmic substitution loops.",
 "mnemonic": "18 is negative (-1), 36 is positive (+1). Both have root 5 over 4.",
 "standardMeta": {
-"question": "What are the exact irrational mathematically derived values for $\\\sin 18^\\\circ$ and $\\\cos 36^\\\circ$?"
+"question": "What are the exact irrational mathematically derived values for $\\\\sin 18^\\\\circ$ and $\\\\cos 36^\\\\circ$?"
 }
 }
 },
@@ -1058,11 +1058,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "archetype"],
 "order": 51,
 "heading": "Product Series of Cosines: Folding Step",
-"back": "## Component Anatomy\n- **$A$:** The initial base angle in the geometric progression product.\n- **$2\\\sin A$:** The strictly required mathematical trigger to initiate the identity collapse.\n\n## Boundary Conditions / Domain\n- Requires $\\\sin A \neq 0$, strictly meaning $A \neq k\\\pi$ for $k \in \mathbb{Z}$.",
+"back": "## Component Anatomy\n- **$A$:** The initial base angle in the geometric progression product.\n- **$2\\\\sin A$:** The strictly required mathematical trigger to initiate the identity collapse.\n\n## Boundary Conditions / Domain\n- Requires $\\\\sin A \\neq 0$, strictly meaning $A \\neq k\\\\pi$ for $k \\in \\mathbb{Z}$.",
 "formulaMeta": {
 "formula": "\\cos A \\cos 2A \\cos 4A \\dots = \\frac{1}{2\\sin A}(\\sin 2A \\cos 2A \\cos 4A \\dots)",
 "description": "State the initial mathematical setup step for simplifying a product of cosines whose internal angles are in a geometric progression.",
-"derivation": "**SOP Step 1 (Triggering the Chain):**\n1. Multiply and strictly divide the entire expression simultaneously by $2\\\sin A$.\n2. Group the first terms as $(2\\\sin A \\\cos A)$.\n3. Apply the double angle identity strictly to condense this into $\\\sin 2A$."
+"derivation": "**SOP Step 1 (Triggering the Chain):**\n1. Multiply and strictly divide the entire expression simultaneously by $2\\\\sin A$.\n2. Group the first terms as $(2\\\\sin A \\\\cos A)$.\n3. Apply the double angle identity strictly to condense this into $\\\\sin 2A$."
 }
 }
 },
@@ -1079,11 +1079,11 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "archetype"],
 "order": 52,
 "heading": "Product Series of Cosines: Final Generalization",
-"back": "## Component Anatomy\n- **$n$:** The exact total count of cosine terms existing in the initial product.\n- **$2^n A$:** The mathematically folded final angle.\n- **$2^n \\\sin A$:** The explicitly grown denominator resulting from the chain reaction.\n\n## Boundary Conditions / Domain\n- Strictly applies only when internal angles uniformly double (Geometric Progression with $r=2$).",
+"back": "## Component Anatomy\n- **$n$:** The exact total count of cosine terms existing in the initial product.\n- **$2^n A$:** The mathematically folded final angle.\n- **$2^n \\\\sin A$:** The explicitly grown denominator resulting from the chain reaction.\n\n## Boundary Conditions / Domain\n- Strictly applies only when internal angles uniformly double (Geometric Progression with $r=2$).",
 "formulaMeta": {
 "formula": "\\cos A \\cos 2A \\dots \\cos(2^{n-1}A) = \\frac{\\sin(2^n A)}{2^n \\sin A}",
 "description": "State the final generalized algebraic identity after completing the cosine product chain collapse.",
-"derivation": "**SOP Step 2 (Chain Reaction):**\n1. The term $\\\sin 2A$ naturally pairs with the next term $\\\cos 2A$. Multiply the numerator and denominator by 2 to collapse it into $\\\sin 4A$.\n2. Repeat this doubling loop $n$ distinct times.\n3. The final collapsed numerator becomes $\\\sin(2^n A)$, while the denominator has successfully gathered a factor of 2 during every step, yielding strictly $2^n \\\sin A$."
+"derivation": "**SOP Step 2 (Chain Reaction):**\n1. The term $\\\\sin 2A$ naturally pairs with the next term $\\\\cos 2A$. Multiply the numerator and denominator by 2 to collapse it into $\\\\sin 4A$.\n2. Repeat this doubling loop $n$ distinct times.\n3. The final collapsed numerator becomes $\\\\sin(2^n A)$, while the denominator has successfully gathered a factor of 2 during every step, yielding strictly $2^n \\\\sin A$."
 }
 }
 },
@@ -1100,9 +1100,9 @@
 "tags": ["math", "trigonometry", "class-11", "jee-main", "jee-advanced", "inequalities"],
 "order": 53,
 "heading": "Bounding Trigonometric Expressions using AM-GM Inequality",
-"back": "## Algorithmic Procedure\n- **Core Concept:** Because exponential mathematical outputs (like $2^{\\\sin \\\theta}$) and squared functions (like $\\\tan^2 \\\theta$) behave as strictly positive real numbers, you must apply the **AM $\\\geq$ GM** (Arithmetic Mean $\\\geq$ Geometric Mean) mathematical inequality.\n- **Algorithmic Step Example:** $\\\frac{2^{\\\sin \\\theta} + 2^{\\\cos \\\theta}}{2} \\\geq \\\sqrt{2^{\\\sin \\\theta} \\\cdot 2^{\\\cos \\\theta}} = \\\sqrt{2^{\\\sin \\\theta + \\\cos \\\theta}}$.\n\n## Boundary Conditions / Domain\n- **Boundary Evaluation:** To mathematically identify the true operational minimum, evaluate the strict boundaries of the derived exponent. Since explicitly $-\\\sqrt{2} \\\leq \\\sin \\\theta + \\\cos \\\theta \\\leq \\\sqrt{2}$, substitute $-\\\sqrt{2}$ structurally into the GM side.",
+"back": "## Algorithmic Procedure\n- **Core Concept:** Because exponential mathematical outputs (like $2^{\\\\sin \\\\theta}$) and squared functions (like $\\\\tan^2 \\\\theta$) behave as strictly positive real numbers, you must apply the **AM $\\\\geq$ GM** (Arithmetic Mean $\\\\geq$ Geometric Mean) mathematical inequality.\n- **Algorithmic Step Example:** $\\\\frac{2^{\\\\sin \\\\theta} + 2^{\\\\cos \\\\theta}}{2} \\\\geq \\\\sqrt{2^{\\\\sin \\\\theta} \\\\cdot 2^{\\\\cos \\\\theta}} = \\\\sqrt{2^{\\\\sin \\\\theta + \\\\cos \\\\theta}}$.\n\n## Boundary Conditions / Domain\n- **Boundary Evaluation:** To mathematically identify the true operational minimum, evaluate the strict boundaries of the derived exponent. Since explicitly $-\\\\sqrt{2} \\\\leq \\\\sin \\\\theta + \\\\cos \\\\theta \\\\leq \\\\sqrt{2}$, substitute $-\\\\sqrt{2}$ structurally into the GM side.",
 "standardMeta": {
-"question": "How do you mathematically and systematically discover the absolute minimum bounded value of exponential or squared trigonometric sum archetypes, such as $2^{\\\sin \\\theta} + 2^{\\\cos \\\theta}$?"
+"question": "How do you mathematically and systematically discover the absolute minimum bounded value of exponential or squared trigonometric sum archetypes, such as $2^{\\\\sin \\\\theta} + 2^{\\\\cos \\\\theta}$?"
 }
 }
 },

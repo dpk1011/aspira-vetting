@@ -53,9 +53,9 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 3,
 "heading": "Equally Likely Outcomes Assumption",
-"back": "- **Concept:** An experiment has equally likely outcomes if there is absolutely no reason or bias for any one outcome to occur in preference to another.\n- **Crucial Condition:** The standard theoretical probability formula $P(E) = \frac{\text{Favorable}}{\text{Total}}$ is **strictly invalid** if the outcomes are not equally likely (e.g., a biased coin or a car failing to start based on engine conditions).",
+"back": "- **Concept:** An experiment has equally likely outcomes if there is absolutely no reason or bias for any one outcome to occur in preference to another.\n- **Crucial Condition:** The standard theoretical probability formula $P(E) = \\frac{\\text{Favorable}}{\\text{Total}}$ is **strictly invalid** if the outcomes are not equally likely (e.g., a biased coin or a car failing to start based on engine conditions).",
 "standardMeta": {
-"question": "What strict underlying assumption must be met to apply the classical probability formula $P(E) = \frac{\text{Favorable}}{\text{Total}}$?"
+"question": "What strict underlying assumption must be met to apply the classical probability formula $P(E) = \\frac{\\text{Favorable}}{\\text{Total}}$?"
 }
 }
 },
@@ -72,9 +72,9 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 4,
 "heading": "Theoretical Probability Formula",
-"back": "## Component Anatomy:\n- **$P(E)$:** The probability of a specific event $E$ occurring.\n\n## Boundary Conditions / Domain:\n- This formula strictly assumes that all possible outcomes of the experiment are **equally likely**.\n- The total number of possible outcomes must strictly be greater than zero ($\text{Total} > 0$).",
+"back": "## Component Anatomy:\n- **$P(E)$:** The probability of a specific event $E$ occurring.\n\n## Boundary Conditions / Domain:\n- This formula strictly assumes that all possible outcomes of the experiment are **equally likely**.\n- The total number of possible outcomes must strictly be greater than zero ($\\text{Total} > 0$).",
 "formulaMeta": {
-"formula": "P(E) = \frac{\text{Number of outcomes favourable to } E}{\text{Number of all possible outcomes}}",
+"formula": "P(E) = \\frac{\\text{Number of outcomes favourable to } E}{\\text{Number of all possible outcomes}}",
 "description": "Master formula for the Theoretical (Classical) Probability of an event.",
 "derivation": "Derived from the assumption that the total sample space probability is exactly $1$ and is divided uniformly among all equally likely elementary outcomes."
 }
@@ -114,7 +114,7 @@
 "heading": "Sum of Probabilities of Elementary Events",
 "back": "## Component Anatomy:\n- **$P(E_i)$:** The probability of the $i^{th}$ uniquely distinct elementary event.\n\n## Boundary Conditions / Domain:\n- The summation must strictly include *every* possible elementary event comprising the total sample space of the experiment.\n- Events must be mutually exclusive.",
 "formulaMeta": {
-"formula": "\sum P(E_i) = 1",
+"formula": "\\sum P(E_i) = 1",
 "description": "Mathematical identity regarding the sum of the probabilities of all elementary events.",
 "derivation": "Since the sample space represents all possible outcomes (a sure event), the sum of the probabilities of all distinct, non-overlapping elementary outcomes strictly evaluates to $1$."
 }
@@ -173,7 +173,7 @@
 "heading": "Mathematical Domain (Range) of Probability",
 "back": "## Component Anatomy:\n- **$P(E)$:** The calculated probability of an event $E$.\n\n## Boundary Conditions / Domain:\n- A probability can **never** be negative ($P < 0$ is invalid).\n- A probability can **never** exceed $1$ or $100\\%$ ($P > 1$ is invalid).",
 "formulaMeta": {
-"formula": "0 \le P(E) \le 1",
+"formula": "0 \\le P(E) \\le 1",
 "description": "Defines the strict numerical boundaries within which any probability must lie.",
 "derivation": "Axiomatic boundary stemming from Kolmogorov's probability foundations, where probability is a normalized measure of a subset relative to the total sample space."
 }
@@ -211,12 +211,12 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 11,
 "heading": "Complementary Events Formulation",
-"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the event occurring.\n- **$P(\bar{E})$:** Probability of the event *not* occurring (often denoted as 'not E' or $E'$).\n\n## Boundary Conditions / Domain:\n- $E$ and $\bar{E}$ must be purely mutually exclusive and collectively exhaustive (they cover the entire sample space together).",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the event occurring.\n- **$P(\\bar{E})$:** Probability of the event *not* occurring (often denoted as 'not E' or $E'$).\n\n## Boundary Conditions / Domain:\n- $E$ and $\\bar{E}$ must be purely mutually exclusive and collectively exhaustive (they cover the entire sample space together).",
 "mnemonic": "Happening + Not Happening = 1",
 "formulaMeta": {
-"formula": "P(E) + P(\bar{E}) = 1 \implies P(\bar{E}) = 1 - P(E)",
+"formula": "P(E) + P(\\bar{E}) = 1 \\implies P(\\bar{E}) = 1 - P(E)",
 "description": "Algebraic relationship between the probability of an event happening and not happening.",
-"derivation": "Based on the axiom that the entire sample space sum equals $1$. Since $E$ and $\bar{E}$ form the entire sample space and do not overlap, their probabilities strictly add to $1$."
+"derivation": "Based on the axiom that the entire sample space sum equals $1$. Since $E$ and $\\bar{E}$ form the entire sample space and do not overlap, their probabilities strictly add to $1$."
 }
 }
 },
@@ -253,7 +253,7 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 13,
 "heading": "Inequality Bounds: At Least vs. At Most",
-"back": "- **At Least ($x$):** The *minimum* boundary is $x$. You must strictly include $x$ and everything **greater** than $x$ ($ \ge x $).\n- At Most ($x$): The *maximum* boundary is $x$. You must strictly include $x$ and everything less than $x$ ($ \le x $).",
+"back": "- **At Least ($x$):** The *minimum* boundary is $x$. You must strictly include $x$ and everything **greater** than $x$ ($ \\ge x $).\n- At Most ($x$): The *maximum* boundary is $x$. You must strictly include $x$ and everything less than $x$ ($ \\le x $).",
 "mnemonic": "At least = Floor, At most = Ceiling.",
 "standardMeta": {
 "question": "What is the mathematical distinction between finding the probability of 'At Least x' versus 'At Most x'?"
@@ -312,7 +312,7 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "cards"],
 "order": 16,
 "heading": "The Face Cards Definition Trap",
-"back": "- Definition: Cards with a \"face\" or person printed on them: Jack (J), Queen (Q), and King (K).\n- Total Count: $3 \times 4 \text{ suits} = 12$ Face Cards.\n- CRITICAL EXAM TRAP: The Ace (A) is strictly NOT a face card.",
+"back": "- Definition: Cards with a \"face\" or person printed on them: Jack (J), Queen (Q), and King (K).\n- Total Count: $3 \\times 4 \\text{ suits} = 12$ Face Cards.\n- CRITICAL EXAM TRAP: The Ace (A) is strictly NOT a face card.",
 "mnemonic": "JQK have faces, Aces are just letters.",
 "standardMeta": {
 "question": "Which specific playing cards constitute the 'Face Cards', how many are there in total, and what common card is explicitly excluded?"
@@ -332,11 +332,11 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "combinatorics"],
 "order": 17,
 "heading": "Total Outcomes for 'n' Coin Tosses",
-"back": "## Component Anatomy:\n- $\text{Total}$: The total size of the sample space.\n- $n$: The number of coins tossed simultaneously (or one coin tossed $n$ times successively).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$, where $n$ is an integer.",
+"back": "## Component Anatomy:\n- $\\text{Total}$: The total size of the sample space.\n- $n$: The number of coins tossed simultaneously (or one coin tossed $n$ times successively).\n\n## Boundary Conditions / Domain:\n- $n \\ge 1$, where $n$ is an integer.",
 "formulaMeta": {
-"formula": "\text{Total} = 2^n",
+"formula": "\\text{Total} = 2^n",
 "description": "Formula to find the total number of possible outcomes when a coin is tossed $n$ times.",
-"derivation": "A single coin has 2 outcomes (H, T). By the fundamental principle of counting, independent coin tosses multiply their individual outcome sets: $2 \times 2 \times 2 \dots n \text{ times} = 2^n$."
+"derivation": "A single coin has 2 outcomes (H, T). By the fundamental principle of counting, independent coin tosses multiply their individual outcome sets: $2 \\times 2 \\times 2 \\dots n \\text{ times} = 2^n$."
 }
 }
 },
@@ -391,9 +391,9 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 20,
 "heading": "The 'One of Each' Coin Toss Fallacy",
-"back": "- The Trap: When tossing two coins, one might hastily assume the outcomes are 'Two Heads', 'Two Tails', and 'One of Each', and incorrectly assign a probability of $\frac{1}{3}$ to each group.\n- Correction: 'One of Each' is a compound event, strictly consisting of two distinct elementary ordered outcomes: $(H, T)$ and $(T, H)$. The true sample space has $4$ equally likely outcomes, making the correct probability of 'One of Each' strictly $\frac{2}{4} = \frac{1}{2}$.",
+"back": "- The Trap: When tossing two coins, one might hastily assume the outcomes are 'Two Heads', 'Two Tails', and 'One of Each', and incorrectly assign a probability of $\\frac{1}{3}$ to each group.\n- Correction: 'One of Each' is a compound event, strictly consisting of two distinct elementary ordered outcomes: $(H, T)$ and $(T, H)$. The true sample space has $4$ equally likely outcomes, making the correct probability of 'One of Each' strictly $\\frac{2}{4} = \\frac{1}{2}$.",
 "standardMeta": {
-"question": "What is the logical flaw in arguing that the probability of getting exactly one head and one tail when tossing two coins is $\frac{1}{3}$?"
+"question": "What is the logical flaw in arguing that the probability of getting exactly one head and one tail when tossing two coins is $\\frac{1}{3}$?"
 }
 }
 },
@@ -429,11 +429,11 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "combinatorics"],
 "order": 22,
 "heading": "Total Outcomes for 'n' Dice Throws",
-"back": "## Component Anatomy:\n- $\text{Total}$: The total size of the sample space.\n- **$n$:** The number of dice thrown simultaneously (or one die thrown $n$ times).\n\n## Boundary Conditions / Domain:\n- $n \ge 1$, where $n$ is a strict integer.\n- Applies strictly to standard 6-sided uniform cubical dice.",
+"back": "## Component Anatomy:\n- $\\text{Total}$: The total size of the sample space.\n- **$n$:** The number of dice thrown simultaneously (or one die thrown $n$ times).\n\n## Boundary Conditions / Domain:\n- $n \\ge 1$, where $n$ is a strict integer.\n- Applies strictly to standard 6-sided uniform cubical dice.",
 "formulaMeta": {
-"formula": "\text{Total} = 6^n",
+"formula": "\\text{Total} = 6^n",
 "description": "Formula to find the total number of possible outcomes when a standard 6-sided die is thrown $n$ times.",
-"derivation": "A single die has 6 possible elementary outcomes. By the fundamental principle of counting, independent dice rolls multiply: $6 \times 6 \times \dots (n \text{ times}) = 6^n$."
+"derivation": "A single die has 6 possible elementary outcomes. By the fundamental principle of counting, independent dice rolls multiply: $6 \\times 6 \\times \\dots (n \\text{ times}) = 6^n$."
 }
 }
 },
@@ -469,7 +469,7 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 24,
 "heading": "Definition of Doublets (Two Dice)",
-"back": "- **Definition:** When both dice show the exact same numerical face value.\n- **Favorable Outcomes:** $\\{ (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\}$.\n- **Probability:** $\frac{6}{36} = \frac{1}{6}$.",
+"back": "- **Definition:** When both dice show the exact same numerical face value.\n- **Favorable Outcomes:** $\\{ (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\}$.\n- **Probability:** $\\frac{6}{36} = \\frac{1}{6}$.",
 "mnemonic": "Twins on the table.",
 "standardMeta": {
 "question": "What is a 'doublet' in the specific context of throwing two dice, and what is the theoretical probability of obtaining one?"
@@ -489,9 +489,9 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 25,
 "heading": "The Sum of Two Dice Equiprobability Fallacy",
-"back": "- **The Trap:** Students often assume that since there are $11$ possible sums ($2, 3, 4, \dots, 12$) when rolling two dice, the probability of getting any specific sum is $\frac{1}{11}$.\n- **Correction:** These $11$ distinct sums are strictly **NOT equally likely**. For example, a sum of $2$ can only happen in $1$ distinct way $(1,1)$, whereas a sum of $7$ can happen in $6$ different ways. The classical probability formula strictly requires the underlying elementary outcomes (the 36 pairs) to be equally likely, not the compound sums.",
+"back": "- **The Trap:** Students often assume that since there are $11$ possible sums ($2, 3, 4, \\dots, 12$) when rolling two dice, the probability of getting any specific sum is $\\frac{1}{11}$.\n- **Correction:** These $11$ distinct sums are strictly **NOT equally likely**. For example, a sum of $2$ can only happen in $1$ distinct way $(1,1)$, whereas a sum of $7$ can happen in $6$ different ways. The classical probability formula strictly requires the underlying elementary outcomes (the 36 pairs) to be equally likely, not the compound sums.",
 "standardMeta": {
-"question": "Why is it mathematically incorrect to state that the probability of getting a sum of 7 when rolling two dice is exactly $\frac{1}{11}$?"
+"question": "Why is it mathematically incorrect to state that the probability of getting a sum of 7 when rolling two dice is exactly $\\frac{1}{11}$?"
 }
 }
 },
@@ -510,9 +510,9 @@
 "heading": "SOP: Favorable Outcomes via Inequalities",
 "back": "## Component Anatomy:\n- **Constraint:** A specific mathematical inequality or condition (e.g., Product $xy < 9$).\n- **Variables:** Elements selected from defined numerical sets.\n\n## Boundary Conditions / Domain:\n- The total possible pairs (sample space) must strictly be finite and discrete to allow for manual or combinatorial counting.\n- You must systematically map every single discrete combination before counting. You cannot assume linear proportionality in probability distributions for non-linear constraints like multiplication.",
 "formulaMeta": {
-"formula": "P(\text{Condition}) = \frac{\sum (\text{Pairs meeting condition})}{\text{Total Pairs generated}}",
+"formula": "P(\\text{Condition}) = \\frac{\\sum (\\text{Pairs meeting condition})}{\\text{Total Pairs generated}}",
 "description": "Standard operating procedure (SOP) to find the probability of a numerical condition being met across multiple sets.",
-"derivation": "**Algorithmic SOP:**\n1. Identify the total sample space by listing out all possible combinations (e.g., $(x, y)$ pairs) from the given discrete sets.\n2. Apply the given algebraic constraint (e.g., multiply $x \times y$) to every single pair systematically.\n3. Count exactly how many pairs yield a result that algebraically satisfies the inequality (e.g., $< 9$).\n4. Divide the favorable count strictly by the total possible pairs generated."
+"derivation": "**Algorithmic SOP:**\n1. Identify the total sample space by listing out all possible combinations (e.g., $(x, y)$ pairs) from the given discrete sets.\n2. Apply the given algebraic constraint (e.g., multiply $x \\times y$) to every single pair systematically.\n3. Count exactly how many pairs yield a result that algebraically satisfies the inequality (e.g., $< 9$).\n4. Divide the favorable count strictly by the total possible pairs generated."
 }
 }
 },
@@ -529,11 +529,11 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main"],
 "order": 27,
 "heading": "SOP: Probability of Same Birthday",
-"back": "## Component Anatomy:\n- **$P(\text{Different})$:** Probability two independent people have non-matching birthdays.\n- **$P(\text{Same})$:** Probability two independent people share the exact same birthday (complementary event).\n\n## Boundary Conditions / Domain:\n- Standard mathematical convention **ignores leap years** unless explicitly stated in the problem (strictly assume a $365$-day year).\n- Assumes all 365 days are perfectly equally likely to be a birthday.",
+"back": "## Component Anatomy:\n- **$P(\\text{Different})$:** Probability two independent people have non-matching birthdays.\n- **$P(\\text{Same})$:** Probability two independent people share the exact same birthday (complementary event).\n\n## Boundary Conditions / Domain:\n- Standard mathematical convention **ignores leap years** unless explicitly stated in the problem (strictly assume a $365$-day year).\n- Assumes all 365 days are perfectly equally likely to be a birthday.",
 "formulaMeta": {
-"formula": "P(\text{Same}) = 1 - P(\text{Different}) = 1 - \frac{364}{365} = \frac{1}{365}",
+"formula": "P(\\text{Same}) = 1 - P(\\text{Different}) = 1 - \\frac{364}{365} = \\frac{1}{365}",
 "description": "Calculates the probability of two individuals sharing a birthday using complementary logic.",
-"derivation": "**Algorithmic SOP:**\n1. Recognize that 'same birthday' and 'different birthdays' are perfectly complementary and mutually exclusive events.\n2. Apply the complementary identity: $P(E) = 1 - P(\bar{E})$.\n3. Calculate the difference: $1 - \frac{364}{365}$."
+"derivation": "**Algorithmic SOP:**\n1. Recognize that 'same birthday' and 'different birthdays' are perfectly complementary and mutually exclusive events.\n2. Apply the complementary identity: $P(E) = 1 - P(\\bar{E})$.\n3. Calculate the difference: $1 - \\frac{364}{365}$."
 }
 }
 },
@@ -550,11 +550,11 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "time"],
 "order": 28,
 "heading": "SOP: 53 Sundays in a Non-Leap Year",
-"back": "## Component Anatomy:\n- **$365$ days:** Breaks down strictly into $52$ complete weeks ($52 \times 7 = 364$ days) + **$1$ extra day**.\n\n## Boundary Conditions / Domain:\n- Strictly applies only to a standard $365$-day year.\n- The residual $1$ day follows a perfectly uniform distribution across the $7$ days of the week.",
+"back": "## Component Anatomy:\n- **$365$ days:** Breaks down strictly into $52$ complete weeks ($52 \\times 7 = 364$ days) + **$1$ extra day**.\n\n## Boundary Conditions / Domain:\n- Strictly applies only to a standard $365$-day year.\n- The residual $1$ day follows a perfectly uniform distribution across the $7$ days of the week.",
 "formulaMeta": {
-"formula": "P(53\text{ Sundays}) = \frac{1}{7}",
+"formula": "P(53\\text{ Sundays}) = \\frac{1}{7}",
 "description": "Calculates the probability that a standard non-leap year contains exactly 53 Sundays (or any specific day).",
-"derivation": "**Algorithmic SOP:**\n1. Divide $365$ by $7$. Quotient = $52$, Remainder = $1$.\n2. The $52$ complete weeks logically guarantee exactly $52$ Sundays.\n3. The $1$ extra day can be any of the $7$ days of the week $\\{\text{Mon, Tue, Wed, Thu, Fri, Sat, Sun}\\}$.\n4. There is exactly $1$ favorable outcome (Sunday) out of the $7$ equally likely possible residual days."
+"derivation": "**Algorithmic SOP:**\n1. Divide $365$ by $7$. Quotient = $52$, Remainder = $1$.\n2. The $52$ complete weeks logically guarantee exactly $52$ Sundays.\n3. The $1$ extra day can be any of the $7$ days of the week $\\{\\text{Mon, Tue, Wed, Thu, Fri, Sat, Sun}\\}$.\n4. There is exactly $1$ favorable outcome (Sunday) out of the $7$ equally likely possible residual days."
 }
 }
 },
@@ -574,9 +574,9 @@
 "back": "## Component Anatomy:\n- **$366$ days:** Breaks down strictly into $52$ complete weeks ($364$ days) + **$2$ extra days**.\n\n## Boundary Conditions / Domain:\n- Strictly applies only to a $366$-day leap year.\n- The $2$ residual days are strictly dependent and MUST be sequential (consecutive).",
 "mnemonic": "Leap year has 2 extra days, so 2/7.",
 "formulaMeta": {
-"formula": "P(53\text{ Sundays}) = \frac{2}{7}",
+"formula": "P(53\\text{ Sundays}) = \\frac{2}{7}",
 "description": "Calculates the probability that a leap year contains exactly 53 Sundays (or any specific day).",
-"derivation": "**Algorithmic SOP:**\n1. Divide $366$ by $7$. Quotient = $52$, Remainder = $2$.\n2. The $2$ extra days must be consecutive. Sample Space: $\\{(\text{Su,M}), (\text{M,T}), (\text{T,W}), (\text{W,Th}), (\text{Th,F}), (\text{F,Sa}), (\text{Sa,Su})\\}$. Total consecutive pairs = $7$.\n3. Pairs containing Sunday = $\\{(\text{Sa,Su}), (\text{Su,M})\\}$. Favorable outcomes = $2$.\n4. Result: Strictly $\frac{2}{7}$."
+"derivation": "**Algorithmic SOP:**\n1. Divide $366$ by $7$. Quotient = $52$, Remainder = $2$.\n2. The $2$ extra days must be consecutive. Sample Space: $\\{(\\text{Su,M}), (\\text{M,T}), (\\text{T,W}), (\\text{W,Th}), (\\text{Th,F}), (\\text{F,Sa}), (\\text{Sa,Su})\\}$. Total consecutive pairs = $7$.\n3. Pairs containing Sunday = $\\{(\\text{Sa,Su}), (\\text{Su,M})\\}$. Favorable outcomes = $2$.\n4. Result: Strictly $\\frac{2}{7}$."
 }
 }
 },
@@ -593,10 +593,10 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "geometry"],
 "order": 30,
 "heading": "2D Geometric Probability (Area-Based)",
-"back": "## Component Anatomy:\n- **$P(E)$:** Probability of a dropped object landing in the specific target region.\n- **$\text{Area}_{\text{target}}$:** The total mathematical area of the favorable inner region.\n- **$\text{Area}_{\text{total}}$:** The total mathematical area of the entire 2D sample space (the outer boundary).\n\n## Boundary Conditions / Domain:\n- The object must drop completely at random with zero directional bias (uniform continuous distribution).\n- The target area must strictly be a subset of (contained entirely within) the total area.\n- $\text{Area}_{\text{total}} > 0$.",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of a dropped object landing in the specific target region.\n- **$\\text{Area}_{\\text{target}}$:** The total mathematical area of the favorable inner region.\n- **$\\text{Area}_{\\text{total}}$:** The total mathematical area of the entire 2D sample space (the outer boundary).\n\n## Boundary Conditions / Domain:\n- The object must drop completely at random with zero directional bias (uniform continuous distribution).\n- The target area must strictly be a subset of (contained entirely within) the total area.\n- $\\text{Area}_{\\text{total}} > 0$.",
 "mnemonic": "Small Area over Big Area.",
 "formulaMeta": {
-"formula": "P(E) = \frac{\text{Area}*{\text{target}}}{\text{Area}*{\text{total}}}",
+"formula": "P(E) = \\frac{\\text{Area}*{\\text{target}}}{\\text{Area}*{\\text{total}}}",
 "description": "Calculates the theoretical probability of a randomly dropped object landing inside a specific 2-dimensional geometric region.",
 "derivation": "Derived by extending the classical probability formula from discrete counting to continuous 2D space, where infinite coordinate points are represented proportionally by geometric area."
 }
@@ -615,11 +615,11 @@
 "tags": ["math", "probability", "class-10", "ncert", "jee-main", "geometry"],
 "order": 31,
 "heading": "SOP: 1D Geometric Probability (Continuous Time/Length)",
-"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the random event occurring within a specific continuous 1D interval.\n- **$L_{\text{target}}$:** The length (or time duration) of the strictly favourable continuous interval.\n- **$L_{\text{total}}$:** The absolute length (or time duration) of the entire sample space interval.\n\n## Boundary Conditions / Domain:\n- All numerical points within the continuous total interval must be completely random and strictly uniformly distributed.\n- $L_{\text{total}} > 0$.\n- Used for problems involving a random point dropped on a linear line segment or an event happening randomly within a given continuous time frame.",
+"back": "## Component Anatomy:\n- **$P(E)$:** Probability of the random event occurring within a specific continuous 1D interval.\n- **$L_{\\text{target}}$:** The length (or time duration) of the strictly favourable continuous interval.\n- **$L_{\\text{total}}$:** The absolute length (or time duration) of the entire sample space interval.\n\n## Boundary Conditions / Domain:\n- All numerical points within the continuous total interval must be completely random and strictly uniformly distributed.\n- $L_{\\text{total}} > 0$.\n- Used for problems involving a random point dropped on a linear line segment or an event happening randomly within a given continuous time frame.",
 "formulaMeta": {
-"formula": "P(E) = \frac{L_{\text{target}}}{L_{\text{total}}}",
+"formula": "P(E) = \\frac{L_{\\text{target}}}{L_{\\text{total}}}",
 "description": "Geometric probability formula applied to 1-dimensional continuous variables.",
-"derivation": "**Algorithmic SOP (e.g., Musical Chair Time Problem):**\n1. Identify the mathematical bounds of the total possible time duration (e.g., $0$ to $2$ minutes $\implies L_{\text{total}} = 2$).\n2. Identify the exact continuous boundaries for the target time duration constraint (e.g., stops within the first half-minute $\implies L_{\text{target}} = 0.5$).\n3. Divide the target linear length by the total linear length: $\frac{0.5}{2} = \frac{1}{4}$."
+"derivation": "**Algorithmic SOP (e.g., Musical Chair Time Problem):**\n1. Identify the mathematical bounds of the total possible time duration (e.g., $0$ to $2$ minutes $\\implies L_{\\text{total}} = 2$).\n2. Identify the exact continuous boundaries for the target time duration constraint (e.g., stops within the first half-minute $\\implies L_{\\text{target}} = 0.5$).\n3. Divide the target linear length by the total linear length: $\\frac{0.5}{2} = \\frac{1}{4}$."
 }
 }
 },

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const targetDir = path.join(__dirname, "C9/MATHS");
+const targetDir = path.join(__dirname, "C12/MATHS");
 const files = fs
   .readdirSync(targetDir)
   .filter((f) => f.toUpperCase().endsWith(".JSON"));

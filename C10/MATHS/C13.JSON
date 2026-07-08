@@ -17,7 +17,7 @@
 "back": "## Component Anatomy:\n- **Upper Limit:** The maximum boundary of the specific continuous class interval.\n- **Lower Limit:** The minimum boundary of the specific continuous class interval.\n\n## Boundary Conditions / Domain:\n- Mandatory first step for calculating the mean of grouped frequency distributions. Assumes the frequency of a class is perfectly centered at its mid-point.\n- Class intervals must be continuous before calculation if not already.",
 "mnemonic": "Average the boundaries",
 "formulaMeta": {
-"formula": "x_i = \frac{\text{Upper Limit} + \text{Lower Limit}}{2}",
+"formula": "x_i = \\frac{\\text{Upper Limit} + \\text{Lower Limit}}{2}",
 "description": "Calculates the class mark (mid-point) for a given class interval.",
 "derivation": "This represents the exact mid-point of the class interval, acting as the mathematical representative $x_i$ for all observations falling within that class."
 }
@@ -36,11 +36,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 2,
 "heading": "Mean of Grouped Data: Direct Method",
-"back": "## Component Anatomy:\n- **$\bar{x}$:** The arithmetic mean.\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$x_i$:** The class mark (mid-point) of the $i^{th}$ class.\n- **$\sum f_i$:** Total number of observations ($N$).\n\n## Boundary Conditions / Domain:\n- Best applied strictly when the numerical values of $f_i$ and $x_i$ are small, making direct multiplication computationally easy.\n- $\sum f_i > 0$ (Total frequency must be greater than zero).",
+"back": "## Component Anatomy:\n- **$\\bar{x}$:** The arithmetic mean.\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$x_i$:** The class mark (mid-point) of the $i^{th}$ class.\n- **$\\sum f_i$:** Total number of observations ($N$).\n\n## Boundary Conditions / Domain:\n- Best applied strictly when the numerical values of $f_i$ and $x_i$ are small, making direct multiplication computationally easy.\n- $\\sum f_i > 0$ (Total frequency must be greater than zero).",
 "formulaMeta": {
-"formula": "\bar{x} = \frac{\sum f_i x_i}{\sum f_i}",
+"formula": "\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}",
 "description": "Calculates the Mean of grouped data using direct multiplication of frequencies and class marks.",
-"derivation": "**Algorithmic SOP:**\n1. Calculate the class mark $x_i$ for each interval.\n2. Multiply each $x_i$ by its corresponding frequency $f_i$.\n3. Sum all the products ($\sum f_i x_i$).\n4. Divide by the total frequency ($\sum f_i$)."
+"derivation": "**Algorithmic SOP:**\n1. Calculate the class mark $x_i$ for each interval.\n2. Multiply each $x_i$ by its corresponding frequency $f_i$.\n3. Sum all the products ($\\sum f_i x_i$).\n4. Divide by the total frequency ($\\sum f_i$)."
 }
 }
 },
@@ -79,11 +79,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 4,
 "heading": "Mean of Grouped Data: Assumed Mean Method",
-"back": "## Component Anatomy:\n- **$a$:** The Assumed Mean (usually chosen as a central $x_i$).\n- **$d_i$:** The deviation of the $i^{th}$ class mark ($x_i - a$).\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$\sum f_i$:** Total frequency.\n\n## Boundary Conditions / Domain:\n- Highly recommended when the values of $x_i$ or $f_i$ are numerically large.\n- $\sum f_i > 0$.",
+"back": "## Component Anatomy:\n- **$a$:** The Assumed Mean (usually chosen as a central $x_i$).\n- **$d_i$:** The deviation of the $i^{th}$ class mark ($x_i - a$).\n- **$f_i$:** The frequency of the $i^{th}$ class.\n- **$\\sum f_i$:** Total frequency.\n\n## Boundary Conditions / Domain:\n- Highly recommended when the values of $x_i$ or $f_i$ are numerically large.\n- $\\sum f_i > 0$.",
 "formulaMeta": {
-"formula": "\bar{x} = a + \frac{\sum f_i d_i}{\sum f_i}",
+"formula": "\\bar{x} = a + \\frac{\\sum f_i d_i}{\\sum f_i}",
 "description": "Master formula for calculating the Mean using shifted origin via Assumed Mean.",
-"derivation": "**Algorithmic SOP:**\n1. Find class marks ($x_i$).\n2. Select a central $x_i$ to act as the Assumed Mean ($a$).\n3. Calculate deviations $d_i = x_i - a$ for each class.\n4. Multiply $f_i \times d_i$ and sum them.\n5. Divide by $\sum f_i$ and strictly add back the assumed mean $a$."
+"derivation": "**Algorithmic SOP:**\n1. Find class marks ($x_i$).\n2. Select a central $x_i$ to act as the Assumed Mean ($a$).\n3. Calculate deviations $d_i = x_i - a$ for each class.\n4. Multiply $f_i \\times d_i$ and sum them.\n5. Divide by $\\sum f_i$ and strictly add back the assumed mean $a$."
 }
 }
 },
@@ -100,7 +100,7 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 5,
 "heading": "Independence of Assumed Mean '$a$'",
-"back": "- **Fact:** The final calculated Mean ($\bar{x}$) is strictly **independent** of the choice of the Assumed Mean '$a$'. \n- **Significance:** While choosing the central $x_i$ minimizes calculations, choosing ANY $x_i$ (or even a number not in the dataset) as '$a$' will yield the exact same final arithmetic mean.",
+"back": "- **Fact:** The final calculated Mean ($\\bar{x}$) is strictly **independent** of the choice of the Assumed Mean '$a$'. \n- **Significance:** While choosing the central $x_i$ minimizes calculations, choosing ANY $x_i$ (or even a number not in the dataset) as '$a$' will yield the exact same final arithmetic mean.",
 "standardMeta": {
 "question": "How does the choice of the Assumed Mean '$a$' affect the final calculated value of the arithmetic mean?"
 }
@@ -119,7 +119,7 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 6,
 "heading": "Assumed Mean Mid-Point Fallacy",
-"back": "- **Fallacy:** Students often believe the Assumed Mean '$a$' MUST strictly be chosen as the exact middle class mark of the table.\n- **Correction:** While picking the central value simplifies mental math by balancing positive and negative deviations, '$a$' can technically be chosen as **any class mark**, or even any real number. The formula mathematically compensates and will return the exact same $\bar{x}$.",
+"back": "- **Fallacy:** Students often believe the Assumed Mean '$a$' MUST strictly be chosen as the exact middle class mark of the table.\n- **Correction:** While picking the central value simplifies mental math by balancing positive and negative deviations, '$a$' can technically be chosen as **any class mark**, or even any real number. The formula mathematically compensates and will return the exact same $\\bar{x}$.",
 "standardMeta": {
 "question": "Is it a strict mathematical requirement that the Assumed Mean '$a$' must be the exact central mid-point of the given classes?"
 }
@@ -138,9 +138,9 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 7,
 "heading": "Step Deviation Parameter ($u_i$)",
-"back": "## Component Anatomy:\n- **$u_i$:** The scaled step-deviation.\n- **$x_i$:** Class mark.\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or any chosen common divisor of the deviations $d_i$).\n\n## Boundary Conditions / Domain:\n- $h \neq 0$ (Divisor cannot be zero).",
+"back": "## Component Anatomy:\n- **$u_i$:** The scaled step-deviation.\n- **$x_i$:** Class mark.\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or any chosen common divisor of the deviations $d_i$).\n\n## Boundary Conditions / Domain:\n- $h \\neq 0$ (Divisor cannot be zero).",
 "formulaMeta": {
-"formula": "u_i = \frac{x_i - a}{h} = \frac{d_i}{h}",
+"formula": "u_i = \\frac{x_i - a}{h} = \\frac{d_i}{h}",
 "description": "Calculates the step-deviation parameter to further scale down large values.",
 "derivation": "By dividing the deviation $d_i$ by a common factor $h$, the variance in class marks is transformed into small, manageable integers."
 }
@@ -159,11 +159,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 8,
 "heading": "Mean of Grouped Data: Step-Deviation Method",
-"back": "## Component Anatomy:\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or common divisor of deviations).\n- **$u_i$:** Step deviation ($u_i = \frac{x_i - a}{h}$).\n- **$f_i$:** Frequency.\n\n## Boundary Conditions / Domain:\n- Most efficient when the deviations $d_i$ have a large common factor.\n- $\sum f_i > 0$ and $h \neq 0$.",
+"back": "## Component Anatomy:\n- **$a$:** Assumed Mean.\n- **$h$:** Class size (or common divisor of deviations).\n- **$u_i$:** Step deviation ($u_i = \\frac{x_i - a}{h}$).\n- **$f_i$:** Frequency.\n\n## Boundary Conditions / Domain:\n- Most efficient when the deviations $d_i$ have a large common factor.\n- $\\sum f_i > 0$ and $h \\neq 0$.",
 "formulaMeta": {
-"formula": "\bar{x} = a + \left( \frac{\sum f_i u_i}{\sum f_i} \right) \times h",
+"formula": "\\bar{x} = a + \\left( \\frac{\\sum f_i u_i}{\\sum f_i} \\right) \\times h",
 "description": "Master formula for calculating the Mean using scaled step-deviations.",
-"derivation": "**Algorithmic SOP:**\n1. Find $x_i$, choose $a$.\n2. Calculate $u_i = \frac{x_i - a}{h}$. For uniform class sizes, these will simply be integers centered at $a$.\n3. Multiply $f_i \times u_i$ and sum.\n4. Divide by total frequency, multiply the result strictly by $h$, then add $a$."
+"derivation": "**Algorithmic SOP:**\n1. Find $x_i$, choose $a$.\n2. Calculate $u_i = \\frac{x_i - a}{h}$. For uniform class sizes, these will simply be integers centered at $a$.\n3. Multiply $f_i \\times u_i$ and sum.\n4. Divide by total frequency, multiply the result strictly by $h$, then add $a$."
 }
 }
 },
@@ -219,11 +219,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 11,
 "heading": "Sum of Deviations from the True Mean",
-"back": "## Component Anatomy:\n- **$f_i$:** Frequency.\n- **$x_i$:** Class Mark.\n- **$\bar{x}$:** The exact Arithmetic Mean of the dataset.\n\n## Boundary Conditions / Domain:\n- This identity strictly holds only when measuring deviation from the exact arithmetic mean $\bar{x}$, not an assumed mean $a$.",
+"back": "## Component Anatomy:\n- **$f_i$:** Frequency.\n- **$x_i$:** Class Mark.\n- **$\\bar{x}$:** The exact Arithmetic Mean of the dataset.\n\n## Boundary Conditions / Domain:\n- This identity strictly holds only when measuring deviation from the exact arithmetic mean $\\bar{x}$, not an assumed mean $a$.",
 "formulaMeta": {
-"formula": "\sum f_i (x_i - \bar{x}) = 0",
+"formula": "\\sum f_i (x_i - \\bar{x}) = 0",
 "description": "The algebraic sum of the deviations of all observations from their true arithmetic mean is always exactly zero.",
-"derivation": "**Proof:**\n1. $\sum f_i (x_i - \bar{x}) = \sum f_i x_i - \sum f_i \bar{x}$\n2. Since $\bar{x} = \frac{\sum f_i x_i}{n}$, we know $\sum f_i x_i = n \bar{x}$.\n3. And $\sum f_i \bar{x} = \bar{x} \sum f_i = n \bar{x}$.\n4. Therefore, $n \bar{x} - n \bar{x} = 0$."
+"derivation": "**Proof:**\n1. $\\sum f_i (x_i - \\bar{x}) = \\sum f_i x_i - \\sum f_i \\bar{x}$\n2. Since $\\bar{x} = \\frac{\\sum f_i x_i}{n}$, we know $\\sum f_i x_i = n \\bar{x}$.\n3. And $\\sum f_i \\bar{x} = \\bar{x} \\sum f_i = n \\bar{x}$.\n4. Therefore, $n \\bar{x} - n \\bar{x} = 0$."
 }
 }
 },
@@ -240,11 +240,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main", "sequences"],
 "order": 12,
 "heading": "Mean of First '$n$' Natural Numbers",
-"back": "## Component Anatomy:\n- **$\bar{x}$:** The arithmetic mean.\n- **$n$:** The total count of consecutive natural numbers starting strictly from $1$.\n\n## Boundary Conditions / Domain:\n- $n$ must be a strict positive integer ($n \in \mathbb{Z}^+$).\n- The sequence must strictly start at $1$.",
+"back": "## Component Anatomy:\n- **$\\bar{x}$:** The arithmetic mean.\n- **$n$:** The total count of consecutive natural numbers starting strictly from $1$.\n\n## Boundary Conditions / Domain:\n- $n$ must be a strict positive integer ($n \\in \\mathbb{Z}^+$).\n- The sequence must strictly start at $1$.",
 "formulaMeta": {
-"formula": "\bar{x} = \frac{n+1}{2}",
+"formula": "\\bar{x} = \\frac{n+1}{2}",
 "description": "Algebraic shortcut formula for the arithmetic mean of the first $n$ natural numbers.",
-"derivation": "**Algorithmic Proof:**\n1. The sum of the first $n$ natural numbers ($1 + 2 + 3 + \dots + n$) is mathematically defined as $S_n = \frac{n(n+1)}{2}$.\n2. The total number of observations is strictly $n$.\n3. $\text{Mean} = \frac{\text{Sum of Observations}}{\text{Total Count}} = \frac{\frac{n(n+1)}{2}}{n}$.\n4. The $n$ in the numerator and denominator cancel out, leaving strictly $\frac{n+1}{2}$."
+"derivation": "**Algorithmic Proof:**\n1. The sum of the first $n$ natural numbers ($1 + 2 + 3 + \\dots + n$) is mathematically defined as $S_n = \\frac{n(n+1)}{2}$.\n2. The total number of observations is strictly $n$.\n3. $\\text{Mean} = \\frac{\\text{Sum of Observations}}{\\text{Total Count}} = \\frac{\\frac{n(n+1)}{2}}{n}$.\n4. The $n$ in the numerator and denominator cancel out, leaving strictly $\\frac{n+1}{2}$."
 }
 }
 },
@@ -282,7 +282,7 @@
 "heading": "Mode Formula for Grouped Data",
 "back": "## Component Anatomy:\n- **$l$:** Lower limit of the modal class.\n- **$h$:** Size of the continuous class interval.\n- **$f_1$:** Frequency of the modal class.\n- **$f_0$:** Frequency of the class immediately preceding the modal class.\n- **$f_2$:** Frequency of the class immediately succeeding the modal class.\n\n## Boundary Conditions / Domain:\n- The class intervals MUST be continuous. If they are discontinuous, they must strictly be converted first.\n- The distribution must be unimodal.",
 "formulaMeta": {
-"formula": "\text{Mode} = l + \left( \frac{f_1 - f_0}{2f_1 - f_0 - f_2} \right) \times h",
+"formula": "\\text{Mode} = l + \\left( \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\right) \\times h",
 "description": "Master formula for interpolating the Mode within the modal class of grouped data.",
 "derivation": "**Algorithmic SOP:**\n1. Locate the class with the highest frequency ($f_1$). This is the Modal Class.\n2. Identify $l$ (lower limit) and $h$ (class width).\n3. Identify $f_0$ (frequency of class above it) and $f_2$ (frequency of class below it).\n4. Plug into the formula. The fraction dynamically adjusts the position of the mode inside the modal class based on the pull of adjacent frequencies."
 }
@@ -340,10 +340,10 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 17,
 "heading": "SOP: Converting Discontinuous Classes",
-"back": "## Component Anatomy:\n- **Discontinuous Limits:** e.g., $118-126$ followed by $127-135$.\n- **Gap:** Difference between the lower limit of a class and the upper limit of the preceding class (e.g., $127 - 126 = 1$).\n- **Adjustment Factor:** $\frac{\text{Gap}}{2}$ (usually $0.5$).\n\n## Boundary Conditions / Domain:\n- **MANDATORY** before calculating Median or Mode to preserve continuous mapping.\n- NOT technically required for Mean (as class marks mathematically remain unchanged).",
+"back": "## Component Anatomy:\n- **Discontinuous Limits:** e.g., $118-126$ followed by $127-135$.\n- **Gap:** Difference between the lower limit of a class and the upper limit of the preceding class (e.g., $127 - 126 = 1$).\n- **Adjustment Factor:** $\\frac{\\text{Gap}}{2}$ (usually $0.5$).\n\n## Boundary Conditions / Domain:\n- **MANDATORY** before calculating Median or Mode to preserve continuous mapping.\n- NOT technically required for Mean (as class marks mathematically remain unchanged).",
 "mnemonic": "Subtract half below, add half above",
 "formulaMeta": {
-"formula": "\begin{aligned} \text{New Lower Limit} &= \text{Old Lower Limit} - 0.5 \\ \text{New Upper Limit} &= \text{Old Upper Limit} + 0.5 \end{aligned}",
+"formula": "\\begin{aligned} \\text{New Lower Limit} &= \\text{Old Lower Limit} - 0.5 \\ \\text{New Upper Limit} &= \\text{Old Upper Limit} + 0.5 \\end{aligned}",
 "description": "Standard algorithmic procedure (SOP) to convert discontinuous class intervals into continuous bounds.",
 "derivation": "**Algorithmic SOP:**\n1. Identify the gap between consecutive classes (e.g., $1$).\n2. Divide the gap by 2 (e.g., $0.5$).\n3. Strictly subtract $0.5$ from every Lower Limit.\n4. Strictly add $0.5$ to every Upper Limit.\n5. Classes are now continuous (e.g., $117.5-126.5$, $126.5-135.5$)."
 }
@@ -400,7 +400,7 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 20,
 "heading": "SOP: Identifying the Median Class",
-"back": "- **SOP:**\n  1. Calculate the total frequency $N = \sum f_i$.\n  2. Compute the exact value of $\frac{N}{2}$.\n  3. Construct a Cumulative Frequency ($cf$) column (strictly 'less than' type).\n  4. Locate the specific class whose cumulative frequency is **strictly greater than and nearest to** $\frac{N}{2}$.\n- **Conclusion:** This specific continuous class is mathematically designated as the **Median Class**.",
+"back": "- **SOP:**\n  1. Calculate the total frequency $N = \\sum f_i$.\n  2. Compute the exact value of $\\frac{N}{2}$.\n  3. Construct a Cumulative Frequency ($cf$) column (strictly 'less than' type).\n  4. Locate the specific class whose cumulative frequency is **strictly greater than and nearest to** $\\frac{N}{2}$.\n- **Conclusion:** This specific continuous class is mathematically designated as the **Median Class**.",
 "standardMeta": {
 "question": "What is the step-by-step procedure to identify the 'Median Class' in a grouped frequency distribution?"
 }
@@ -419,11 +419,11 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 21,
 "heading": "Median Formula for Grouped Data",
-"back": "## Component Anatomy:\n- **$l$:** Lower limit of the median class.\n- **$N$:** Total number of observations ($\sum f_i$).\n- **$cf$:** Cumulative frequency of the class strictly **PRECEDING** the median class.\n- **$f$:** Frequency of the median class itself.\n- **$h$:** Class size.\n\n## Boundary Conditions / Domain:\n- Class intervals MUST be mathematically continuous.\n- The distribution is assumed to be uniform within the median class.",
+"back": "## Component Anatomy:\n- **$l$:** Lower limit of the median class.\n- **$N$:** Total number of observations ($\\sum f_i$).\n- **$cf$:** Cumulative frequency of the class strictly **PRECEDING** the median class.\n- **$f$:** Frequency of the median class itself.\n- **$h$:** Class size.\n\n## Boundary Conditions / Domain:\n- Class intervals MUST be mathematically continuous.\n- The distribution is assumed to be uniform within the median class.",
 "formulaMeta": {
-"formula": "\text{Median} = l + \left( \frac{\frac{N}{2} - cf}{f} \right) \times h",
+"formula": "\\text{Median} = l + \\left( \\frac{\\frac{N}{2} - cf}{f} \\right) \\times h",
 "description": "Master formula for interpolating the exact Median within the bounds of the median class.",
-"derivation": "**Algorithmic SOP:**\n1. Convert to continuous classes if needed.\n2. Create a Cumulative Frequency column.\n3. Find $\frac{N}{2}$ and identify the Median Class.\n4. Extract $l, h, f$ from the median class.\n5. CAREFUL: Extract $cf$ from the row directly ABOVE the median class.\n6. Compute the formula."
+"derivation": "**Algorithmic SOP:**\n1. Convert to continuous classes if needed.\n2. Create a Cumulative Frequency column.\n3. Find $\\frac{N}{2}$ and identify the Median Class.\n4. Extract $l, h, f$ from the median class.\n5. CAREFUL: Extract $cf$ from the row directly ABOVE the median class.\n6. Compute the formula."
 }
 }
 },
@@ -440,7 +440,7 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main"],
 "order": 22,
 "heading": "The '$cf$' Cognitive Trap in the Median Formula",
-"back": "- **Trap:** Students frequently substitute the cumulative frequency of the median class itself into the $cf$ variable.\n- **Correction:** The $cf$ in the standard Median formula strictly stands for the cumulative frequency of the class **immediately preceding (before)** the median class.\n- **Why?** It represents all data points accumulated *before* entering the median class interval, allowing the formula to interpolate strictly within the remaining $\frac{N}{2} - cf$ elements.",
+"back": "- **Trap:** Students frequently substitute the cumulative frequency of the median class itself into the $cf$ variable.\n- **Correction:** The $cf$ in the standard Median formula strictly stands for the cumulative frequency of the class **immediately preceding (before)** the median class.\n- **Why?** It represents all data points accumulated *before* entering the median class interval, allowing the formula to interpolate strictly within the remaining $\\frac{N}{2} - cf$ elements.",
 "mnemonic": "cf looks backward, f looks present",
 "standardMeta": {
 "question": "What is the most common cognitive trap regarding the '$cf$' variable when applying the Median formula for grouped data?"
@@ -520,7 +520,7 @@
 "back": "## Component Anatomy:\n- Relates Mean, Median, and Mode of moderately skewed distributions.\n\n## Boundary Conditions / Domain:\n- This relationship is an **approximation** derived by Karl Pearson for moderately asymmetrical distributions. It is strictly not an exact identity for all arbitrary datasets.\n- Highly useful when two of the measures are known and the third is required without having access to the raw dataset.",
 "mnemonic": "3 Medians equal 1 Mode plus 2 Means.",
 "formulaMeta": {
-"formula": "3 \text{ Median} = \text{Mode} + 2 \text{ Mean}",
+"formula": "3 \\text{ Median} = \\text{Mode} + 2 \\text{ Mean}",
 "description": "Empirical formula defining the mathematical relationship between the Mean, Median, and Mode.",
 "derivation": "Derived via observational heuristics showing that for moderately skewed data, the distance from the Mean to the Mode is approximately three times the distance from the Mean to the Median."
 }
@@ -654,7 +654,7 @@
 "tags": ["math", "statistics", "class-10", "ncert", "jee-main", "graphs"],
 "order": 33,
 "heading": "SOP: Finding Median via a Single Ogive",
-"back": "- **SOP:**\n  1. Calculate $N$ (total cumulative frequency).\n  2. Locate the exact numerical value of $\frac{N}{2}$ on the **y-axis**.\n  3. Draw a straight line strictly parallel to the x-axis from $\frac{N}{2}$ until it geometrically intersects the Ogive curve.\n  4. From that intersection point on the curve, drop a perpendicular strictly down to the **x-axis**.\n  5. The intercept value on the x-axis is exactly the Median.",
+"back": "- **SOP:**\n  1. Calculate $N$ (total cumulative frequency).\n  2. Locate the exact numerical value of $\\frac{N}{2}$ on the **y-axis**.\n  3. Draw a straight line strictly parallel to the x-axis from $\\frac{N}{2}$ until it geometrically intersects the Ogive curve.\n  4. From that intersection point on the curve, drop a perpendicular strictly down to the **x-axis**.\n  5. The intercept value on the x-axis is exactly the Median.",
 "standardMeta": {
 "question": "Explain the step-by-step graphical procedure to algebraically map and find the Median using only a single Ogive (either less than or more than)."
 }

@@ -24,10 +24,10 @@
 ],
 "order": 1,
 "heading": "Derivative as a Rate Measurer",
-"back": "### Component Anatomy\n- **$\frac{dy}{dx}$ or $f'(x)$:** The instantaneous rate of change of quantity $y$ strictly with respect to quantity $x$.\n- **$\left. \frac{dy}{dx} \right|_{x=x_0}$:** The specific rate of change evaluated precisely at the instant $x = x_0$.\n\n### Boundary Conditions / Domain\n- The limit defining the derivative must exist and evaluate to a finite real number.\n- A positive derivative indicates $y$ strictly increases as $x$ increases. A negative derivative indicates $y$ strictly decreases as $x$ increases.",
+"back": "### Component Anatomy\n- **$\\frac{dy}{dx}$ or $f'(x)$:** The instantaneous rate of change of quantity $y$ strictly with respect to quantity $x$.\n- **$\\left. \\frac{dy}{dx} \\right|_{x=x_0}$:** The specific rate of change evaluated precisely at the instant $x = x_0$.\n\n### Boundary Conditions / Domain\n- The limit defining the derivative must exist and evaluate to a finite real number.\n- A positive derivative indicates $y$ strictly increases as $x$ increases. A negative derivative indicates $y$ strictly decreases as $x$ increases.",
 "mnemonic": "Derivative = Rate of Change.",
 "formulaMeta": {
-"formula": "\frac{dy}{dx} = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}",
+"formula": "\\frac{dy}{dx} = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x}",
 "description": "Mathematical representation for the instantaneous rate of change.",
 "derivation": "Derived from the First Principle of derivatives, tracking the limit of the average rate of change as the interval shrinks to zero."
 }
@@ -54,9 +54,9 @@
 ],
 "order": 2,
 "heading": "The Chain-Rule Bridge for Related Rates",
-"back": "### Component Anatomy\n- **$\frac{dy}{dt}$:** Rate of change of dependent variable $y$ w.r.t time $t$.\n- **$\frac{dx}{dt}$:** Rate of change of independent variable $x$ w.r.t time $t$.\n- **$\frac{dy}{dx}$:** The geometric or physical mathematical link between $y$ and $x$ (e.g., Area and radius).\n\n### Boundary Conditions / Domain\n- The function connecting $y$ and $x$ must be strictly differentiable.\n- $\frac{dx}{dt} \neq 0$ if rearranging to isolate and solve for $\frac{dy}{dx}$.",
+"back": "### Component Anatomy\n- **$\\frac{dy}{dt}$:** Rate of change of dependent variable $y$ w.r.t time $t$.\n- **$\\frac{dx}{dt}$:** Rate of change of independent variable $x$ w.r.t time $t$.\n- **$\\frac{dy}{dx}$:** The geometric or physical mathematical link between $y$ and $x$ (e.g., Area and radius).\n\n### Boundary Conditions / Domain\n- The function connecting $y$ and $x$ must be strictly differentiable.\n- $\\frac{dx}{dt} \\neq 0$ if rearranging to isolate and solve for $\\frac{dy}{dx}$.",
 "formulaMeta": {
-"formula": "\frac{dy}{dt} = \frac{dy}{dx} \cdot \frac{dx}{dt}",
+"formula": "\\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt}",
 "description": "Chain Rule formula connecting the time-rates of two related dynamic variables.",
 "derivation": ""
 }
@@ -83,7 +83,7 @@
 ],
 "order": 3,
 "heading": "Related Rates: Execution SOP",
-"back": "### Algorithmic SOP\n1. **Model:** Identify the geometric or physical equation relating the variables (e.g., $A = \pi r^2$).\n2. **Differentiate:** Differentiate the entire relation implicitly strictly with respect to time $t$.\n3. **Substitute:** **CRITICAL:** Substitute the instantaneous numerical values for variables *only after* differentiating, never before (as plugging in constants prematurely forces their derivative to zero).\n\n### Boundary Conditions / Domain\n- Variables substituted in the final step must correspond to the exact same instant in time $t$.",
+"back": "### Algorithmic SOP\n1. **Model:** Identify the geometric or physical equation relating the variables (e.g., $A = \\pi r^2$).\n2. **Differentiate:** Differentiate the entire relation implicitly strictly with respect to time $t$.\n3. **Substitute:** **CRITICAL:** Substitute the instantaneous numerical values for variables *only after* differentiating, never before (as plugging in constants prematurely forces their derivative to zero).\n\n### Boundary Conditions / Domain\n- Variables substituted in the final step must correspond to the exact same instant in time $t$.",
 "standardMeta": {
 "question": "What is the strict step-by-step Standard Operating Procedure (SOP) for solving Related Rates problems?"
 }
@@ -111,10 +111,10 @@
 ],
 "order": 4,
 "heading": "Shadow Tip Velocity: Formulation",
-"back": "### Component Anatomy\n- **$H$:** Fixed height of the static lamp post.\n- **$h$:** Fixed height of the moving man.\n- **$\frac{dy}{dt}$:** Velocity of the shadow's tip.\n- **$\frac{dx}{dt}$:** Velocity of the man ($v_{man}$).\n\n### Boundary Conditions / Domain\n- The lamp post must be strictly taller than the man ($H > h$) to ensure the denominator is positive and the shadow tip exists in the real plane.",
+"back": "### Component Anatomy\n- **$H$:** Fixed height of the static lamp post.\n- **$h$:** Fixed height of the moving man.\n- **$\\frac{dy}{dt}$:** Velocity of the shadow's tip.\n- **$\\frac{dx}{dt}$:** Velocity of the man ($v_{man}$).\n\n### Boundary Conditions / Domain\n- The lamp post must be strictly taller than the man ($H > h$) to ensure the denominator is positive and the shadow tip exists in the real plane.",
 "mnemonic": "Similar triangles link the tip to the man.",
 "formulaMeta": {
-"formula": "\frac{dy}{dt} = \left( \frac{H}{H-h} \right) \frac{dx}{dt}",
+"formula": "\\frac{dy}{dt} = \\left( \\frac{H}{H-h} \\right) \\frac{dx}{dt}",
 "description": "Relates the velocity of a shadow's tip to the velocity of a person walking strictly away from a light source.",
 "derivation": ""
 }
@@ -141,7 +141,7 @@
 ],
 "order": 5,
 "heading": "Shadow Tip Velocity: Geometric Derivation SOP",
-"back": "### Algorithmic Derivation SOP\n1. **Similar Triangles:** Let $x$ be the man's distance from the lamp, and $y$ be the shadow tip's total distance from the lamp. Set up the ratio: $\frac{y}{H} = \frac{y-x}{h}$.\n2. **Algebraic Isolation:** Cross-multiply to yield $yh = H(y-x)$. Isolate $y$ completely: $y = \frac{H}{H-h} x$.\n3. **Calculus Application:** Differentiate implicitly w.r.t time $t$ to directly relate the velocities: $\frac{dy}{dt} = \frac{H}{H-h} \frac{dx}{dt}$.\n\n### Boundary Conditions / Domain\n- The derivation strictly requires a flat, horizontal ground plane for the similar triangles to remain geometrically valid.",
+"back": "### Algorithmic Derivation SOP\n1. **Similar Triangles:** Let $x$ be the man's distance from the lamp, and $y$ be the shadow tip's total distance from the lamp. Set up the ratio: $\\frac{y}{H} = \\frac{y-x}{h}$.\n2. **Algebraic Isolation:** Cross-multiply to yield $yh = H(y-x)$. Isolate $y$ completely: $y = \\frac{H}{H-h} x$.\n3. **Calculus Application:** Differentiate implicitly w.r.t time $t$ to directly relate the velocities: $\\frac{dy}{dt} = \\frac{H}{H-h} \\frac{dx}{dt}$.\n\n### Boundary Conditions / Domain\n- The derivation strictly requires a flat, horizontal ground plane for the similar triangles to remain geometrically valid.",
 "standardMeta": {
 "question": "What is the geometric and calculus setup sequence to derive the velocity of a shadow's tip when a person walks away from a lamp?"
 }
@@ -169,7 +169,7 @@
 ],
 "order": 6,
 "heading": "Marginal Cost and Marginal Revenue",
-"back": "- **Marginal Cost (MC):** The instantaneous rate of change of total cost $C(x)$ strictly with respect to the number of items produced $x$. Mathematically: $MC = \frac{dC}{dx}$.\n- **Marginal Revenue (MR):** The instantaneous rate of change of total revenue $R(x)$ strictly with respect to the number of items sold $x$. Mathematically: $MR = \frac{dR}{dx}$.\n- **Application:** At absolute maximum profit, $MR = MC$.\n\n### Boundary Conditions / Domain\n- $x$ strictly represents a non-negative quantity ($x \ge 0$).",
+"back": "- **Marginal Cost (MC):** The instantaneous rate of change of total cost $C(x)$ strictly with respect to the number of items produced $x$. Mathematically: $MC = \\frac{dC}{dx}$.\n- **Marginal Revenue (MR):** The instantaneous rate of change of total revenue $R(x)$ strictly with respect to the number of items sold $x$. Mathematically: $MR = \\frac{dR}{dx}$.\n- **Application:** At absolute maximum profit, $MR = MC$.\n\n### Boundary Conditions / Domain\n- $x$ strictly represents a non-negative quantity ($x \\ge 0$).",
 "mnemonic": "Marginal means Derivative.",
 "standardMeta": {
 "question": "Define Marginal Cost (MC) and Marginal Revenue (MR) in strict calculus terms, and state the condition for theoretical maximum profit."
@@ -198,7 +198,7 @@
 ],
 "order": 7,
 "heading": "Strictly Increasing vs. Increasing Functions",
-"back": "- **Increasing:** For any $x_1 < x_2$ in an interval, $f(x_1) \leq f(x_2)$. The graph is permitted to level off (be completely flat/constant) for a sub-interval.\n- **Strictly Increasing:** For any $x_1 < x_2$ in an interval, $f(x_1) < f(x_2)$. The graph must continually rise and can mathematically never be perfectly flat over any interval.\n\n### Boundary Conditions / Domain\n- The conditions must hold true for *all* $x_1, x_2$ strictly within the specified domain interval.",
+"back": "- **Increasing:** For any $x_1 < x_2$ in an interval, $f(x_1) \\leq f(x_2)$. The graph is permitted to level off (be completely flat/constant) for a sub-interval.\n- **Strictly Increasing:** For any $x_1 < x_2$ in an interval, $f(x_1) < f(x_2)$. The graph must continually rise and can mathematically never be perfectly flat over any interval.\n\n### Boundary Conditions / Domain\n- The conditions must hold true for *all* $x_1, x_2$ strictly within the specified domain interval.",
 "mnemonic": "Strict means no resting.",
 "standardMeta": {
 "question": "What is the strict algebraic difference between a function that is 'Increasing' and one that is 'Strictly Increasing' on a given interval?"
@@ -229,9 +229,9 @@
 "heading": "Monotonicity Theorem via First Derivative",
 "back": "### Component Anatomy\n- **$f'(x) > 0$:** Strictly increasing.\n- **$f'(x) < 0$:** Strictly decreasing.\n- **$f'(x) = 0$:** Identifies a stationary point or constant function (if true over a full interval).\n\n### Boundary Conditions / Domain\n- $f(x)$ MUST be strictly continuous on the closed interval $[a, b]$ and differentiable on the open interval $(a, b)$.\n- If $f'(x) > 0$ except at a finite number of points where $f'(x) = 0$, the function is still considered strictly increasing.",
 "formulaMeta": {
-"formula": "\begin{aligned} f'(x) &> 0 \implies \text{Strictly Increasing} \\ f'(x) &< 0 \implies \text{Strictly Decreasing} \end{aligned}",
+"formula": "\\begin{aligned} f'(x) &> 0 \\implies \\text{Strictly Increasing} \\ f'(x) &< 0 \\implies \\text{Strictly Decreasing} \\end{aligned}",
 "description": "Calculus conditions mapping derivative signs to functional monotonic behavior.",
-"derivation": "Derived directly from the Mean Value Theorem: $\frac{f(x_2) - f(x_1)}{x_2 - x_1} = f'(c)$. If $f'(c) > 0$ and $x_2 > x_1$, then $f(x_2) - f(x_1) > 0$."
+"derivation": "Derived directly from the Mean Value Theorem: $\\frac{f(x_2) - f(x_1)}{x_2 - x_1} = f'(c)$. If $f'(c) > 0$ and $x_2 > x_1$, then $f(x_2) - f(x_1) > 0$."
 }
 }
 },
@@ -311,7 +311,7 @@
 ],
 "order": 11,
 "heading": "Open vs. Closed Intervals in Monotonicity",
-"back": "- **The General Rule:** Intervals of monotonicity are mathematically reported using **closed** brackets `[a, b]` at the boundary endpoints where $f'(x) = 0$.\n- **Strict Constraint:** You can ONLY close the bracket if the original function $f(x)$ is defined and strictly **continuous** at that specific endpoint.\n\n### Boundary Conditions / Domain\n- If an endpoint represents a vertical asymptote, an undefined point, or $\pm \infty$, the bracket MUST remain strictly open `(` or `)`.",
+"back": "- **The General Rule:** Intervals of monotonicity are mathematically reported using **closed** brackets `[a, b]` at the boundary endpoints where $f'(x) = 0$.\n- **Strict Constraint:** You can ONLY close the bracket if the original function $f(x)$ is defined and strictly **continuous** at that specific endpoint.\n\n### Boundary Conditions / Domain\n- If an endpoint represents a vertical asymptote, an undefined point, or $\\pm \\infty$, the bracket MUST remain strictly open `(` or `)`.",
 "standardMeta": {
 "question": "When stating the final mathematical interval for an increasing or decreasing function, when must you use closed brackets vs open brackets for the endpoints?"
 }
@@ -426,10 +426,10 @@
 ],
 "order": 15,
 "heading": "Slopes of Tangent and Normal Lines",
-"back": "### Component Anatomy\n- **$m_T$:** Geometric slope of the Tangent line directly at point $(x_0, y_0)$.\n- **$m_N$:** Geometric slope of the strictly perpendicular Normal line at point $(x_0, y_0)$.\n\n### Boundary Conditions / Domain\n- The function must be strictly differentiable at $x_0$.\n- For the normal slope $m_N$, $\left. \frac{dy}{dx} \right|_{x_0} \neq 0$. If the derivative evaluates to zero, the tangent is horizontal, mathematically forcing the normal to be a vertical line with an undefined slope ($x = x_0$).",
+"back": "### Component Anatomy\n- **$m_T$:** Geometric slope of the Tangent line directly at point $(x_0, y_0)$.\n- **$m_N$:** Geometric slope of the strictly perpendicular Normal line at point $(x_0, y_0)$.\n\n### Boundary Conditions / Domain\n- The function must be strictly differentiable at $x_0$.\n- For the normal slope $m_N$, $\\left. \\frac{dy}{dx} \\right|_{x_0} \\neq 0$. If the derivative evaluates to zero, the tangent is horizontal, mathematically forcing the normal to be a vertical line with an undefined slope ($x = x_0$).",
 "mnemonic": "Normal is the Negative Reciprocal.",
 "formulaMeta": {
-"formula": "\begin{aligned} m_T &= \left. \frac{dy}{dx} \right|*{x=x_0} \\ m_N &= \frac{-1}{\left. \frac{dy}{dx} \right|*{x=x_0}} \end{aligned}",
+"formula": "\\begin{aligned} m_T &= \\left. \\frac{dy}{dx} \\right|*{x=x_0} \\ m_N &= \\frac{-1}{\\left. \\frac{dy}{dx} \\right|*{x=x_0}} \\end{aligned}",
 "description": "Calculus formulas linking derivatives to the geometric slopes of tangents and normals.",
 "derivation": "The tangent slope is the instantaneous derivative. The normal is orthogonal, demanding $m_1 m_2 = -1$."
 }
@@ -457,7 +457,7 @@
 ],
 "order": 16,
 "heading": "Horizontal and Vertical Tangent Conditions",
-"back": "- **Horizontal Tangent:** Occurs when the tangent line is perfectly parallel to the x-axis. Mathematically, set the numerator of $\frac{dy}{dx} = 0$.\n- **Vertical Tangent:** Occurs when the tangent line is perfectly parallel to the y-axis (perpendicular to x-axis). Mathematically, set the denominator of $\frac{dy}{dx} = 0$ (or equivalently evaluate $\frac{dx}{dy} = 0$).\n\n### Boundary Conditions / Domain\n- For a horizontal tangent, the denominator of $\frac{dy}{dx}$ must NOT simultaneously be zero.\n- For a vertical tangent, the numerator of $\frac{dy}{dx}$ must NOT simultaneously be zero (as $\frac{0}{0}$ requires L'Hôpital limits to resolve).",
+"back": "- **Horizontal Tangent:** Occurs when the tangent line is perfectly parallel to the x-axis. Mathematically, set the numerator of $\\frac{dy}{dx} = 0$.\n- **Vertical Tangent:** Occurs when the tangent line is perfectly parallel to the y-axis (perpendicular to x-axis). Mathematically, set the denominator of $\\frac{dy}{dx} = 0$ (or equivalently evaluate $\\frac{dx}{dy} = 0$).\n\n### Boundary Conditions / Domain\n- For a horizontal tangent, the denominator of $\\frac{dy}{dx}$ must NOT simultaneously be zero.\n- For a vertical tangent, the numerator of $\\frac{dy}{dx}$ must NOT simultaneously be zero (as $\\frac{0}{0}$ requires L'Hôpital limits to resolve).",
 "mnemonic": "Horizontal = Numerator zero. Vertical = Denominator zero.",
 "standardMeta": {
 "question": "What are the specific rational calculus conditions to locate points on a curve where the tangent is perfectly horizontal, or perfectly vertical?"
@@ -486,9 +486,9 @@
 ],
 "order": 17,
 "heading": "Implicit Tangents: Differentiation Phase",
-"back": "### The Conceptual Strategy\nWhen evaluating slopes for closed implicit curves like ellipses ($\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$) or hyperbolas, mathematically isolating $y$ generates messy $\pm$ square roots that complicate derivatives.\n\n### The Setup SOP\nInstead of isolating, differentiate the entire equation implicitly strictly with respect to $x$. Treat $y$ as a chain-rule variable, attaching $\frac{dy}{dx}$ to any differentiated $y$-term.\n\n### Boundary Conditions / Domain\n- The implicit equation must form a locally differentiable curve around the target coordinate.",
+"back": "### The Conceptual Strategy\nWhen evaluating slopes for closed implicit curves like ellipses ($\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$) or hyperbolas, mathematically isolating $y$ generates messy $\\pm$ square roots that complicate derivatives.\n\n### The Setup SOP\nInstead of isolating, differentiate the entire equation implicitly strictly with respect to $x$. Treat $y$ as a chain-rule variable, attaching $\\frac{dy}{dx}$ to any differentiated $y$-term.\n\n### Boundary Conditions / Domain\n- The implicit equation must form a locally differentiable curve around the target coordinate.",
 "standardMeta": {
-"question": "What is the mandatory initial algebraic strategy to find the tangent slope $\frac{dy}{dx}$ for implicit conics (circles, ellipses) to avoid messy radical derivatives?"
+"question": "What is the mandatory initial algebraic strategy to find the tangent slope $\\frac{dy}{dx}$ for implicit conics (circles, ellipses) to avoid messy radical derivatives?"
 }
 }
 },
@@ -513,7 +513,7 @@
 ],
 "order": 18,
 "heading": "Implicit Tangents: Evaluation Phase",
-"back": "### Algorithmic Execution SOP\n1. Following implicit differentiation, group all terms containing $\frac{dy}{dx}$ on one side of the equation.\n2. Algebraically isolate $\frac{dy}{dx}$ to form a rational expression in terms of both $x$ and $y$.\n3. Plug in the specific given point coordinates $(x_0, y_0)$ into both variables simultaneously to compute the final numerical tangent slope $m_T$.\n\n### Boundary Conditions / Domain\n- The plugged-in point $(x_0, y_0)$ MUST mathematically satisfy the original curve equation.\n- The denominator of the isolated $\frac{dy}{dx}$ cannot evaluate to zero, unless a vertical tangent is intended.",
+"back": "### Algorithmic Execution SOP\n1. Following implicit differentiation, group all terms containing $\\frac{dy}{dx}$ on one side of the equation.\n2. Algebraically isolate $\\frac{dy}{dx}$ to form a rational expression in terms of both $x$ and $y$.\n3. Plug in the specific given point coordinates $(x_0, y_0)$ into both variables simultaneously to compute the final numerical tangent slope $m_T$.\n\n### Boundary Conditions / Domain\n- The plugged-in point $(x_0, y_0)$ MUST mathematically satisfy the original curve equation.\n- The denominator of the isolated $\\frac{dy}{dx}$ cannot evaluate to zero, unless a vertical tangent is intended.",
 "standardMeta": {
 "question": "After generating an implicit differential equation, how do you algebraically isolate and evaluate the specific tangent slope $m_T$ at point $(x_0, y_0)$?"
 }
@@ -543,7 +543,7 @@
 "back": "### Component Anatomy\n- **$m_1, m_2$:** The instantaneous slopes of the tangents of the two respective curves, evaluated exactly at their shared coordinate of intersection.\n\n### Boundary Conditions / Domain\n- Strict Constraint: Neither tangent can be perfectly vertical (undefined slope), or the algebraic formula breaks. If one tangent is perfectly horizontal ($m=0$), orthogonality mathematically demands the other is perfectly vertical ($x = c$).",
 "mnemonic": "Product is minus one.",
 "formulaMeta": {
-"formula": "m_1 \cdot m_2 = -1",
+"formula": "m_1 \\cdot m_2 = -1",
 "description": "Mathematical condition establishing that two differentiable curves intersect at right angles.",
 "derivation": "Derived from coordinate geometry slopes of strictly perpendicular lines."
 }
@@ -570,7 +570,7 @@
 ],
 "order": 20,
 "heading": "Orthogonal Intersection: Execution SOP",
-"back": "### Algorithmic Proof SOP\n1. **Locate Intersection:** Algebraically solve the equations of both curves simultaneously to explicitly find the intersection coordinate $(x_0, y_0)$.\n2. **Derive Slopes:** Differentiate both curve equations independently to extract expressions for their respective slopes, $\frac{dy_1}{dx}$ and $\frac{dy_2}{dx}$.\n3. **Evaluate:** Plug $(x_0, y_0)$ into both derivatives to find the numerical values $m_1$ and $m_2$.\n4. **Verify Orthogonality:** Multiply the values to strictly prove $m_1 \cdot m_2 = -1$.\n\n### Boundary Conditions / Domain\n- The coordinates $(x_0, y_0)$ must strictly satisfy both original function equations.",
+"back": "### Algorithmic Proof SOP\n1. **Locate Intersection:** Algebraically solve the equations of both curves simultaneously to explicitly find the intersection coordinate $(x_0, y_0)$.\n2. **Derive Slopes:** Differentiate both curve equations independently to extract expressions for their respective slopes, $\\frac{dy_1}{dx}$ and $\\frac{dy_2}{dx}$.\n3. **Evaluate:** Plug $(x_0, y_0)$ into both derivatives to find the numerical values $m_1$ and $m_2$.\n4. **Verify Orthogonality:** Multiply the values to strictly prove $m_1 \\cdot m_2 = -1$.\n\n### Boundary Conditions / Domain\n- The coordinates $(x_0, y_0)$ must strictly satisfy both original function equations.",
 "standardMeta": {
 "question": "What is the 4-step algebraic and calculus SOP to strictly prove that two given curves intersect orthogonally?"
 }
@@ -598,11 +598,11 @@
 ],
 "order": 21,
 "heading": "Normal to Parametric Involute Curve",
-"back": "### Component Anatomy\n- **$x = a(\cos\theta + \theta\sin\theta)$**\n- **$y = a(\sin\theta - \theta\cos\theta)$**\n- **$a$:** The strict constant radius parameter of the involute.\n\n### Boundary Conditions / Domain\n- Mathematically valid for any real parameter $\theta \in \mathbb{R}$.",
+"back": "### Component Anatomy\n- **$x = a(\\cos\\theta + \\theta\\sin\\theta)$**\n- **$y = a(\\sin\\theta - \\theta\\cos\\theta)$**\n- **$a$:** The strict constant radius parameter of the involute.\n\n### Boundary Conditions / Domain\n- Mathematically valid for any real parameter $\\theta \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\text{Distance to Origin} = a",
+"formula": "\\text{Distance to Origin} = a",
 "description": "Unique geometric property defining the normal line of a standard parametric involute.",
-"derivation": "Differentiating parametrically yields tangent slope $\tan \theta$. The normal slope becomes $-\cot \theta$. Using the point-slope form to build the normal equation, the perpendicular distance formula strictly collapses to constant $a$, completely eliminating parameter $\theta$."
+"derivation": "Differentiating parametrically yields tangent slope $\\tan \\theta$. The normal slope becomes $-\\cot \\theta$. Using the point-slope form to build the normal equation, the perpendicular distance formula strictly collapses to constant $a$, completely eliminating parameter $\\theta$."
 }
 }
 },
@@ -660,7 +660,7 @@
 "back": "### Component Anatomy\n- **$c$:** A verified critical point where $f'(c) = 0$ or mathematically is undefined.\n- **$+$ to $-$:** The sign of the tangent slope physically changes from positive (rising curve) to negative (falling curve).\n\n### Boundary Conditions / Domain\n- The function $f(x)$ MUST be strictly continuous at point $c$. If it is discontinuous, the sign change implies an asymptote or break, not a maximum.",
 "mnemonic": "Rise then Fall creates a Peak.",
 "formulaMeta": {
-"formula": "f'(x) \text{ changes sign from } + \text{ to } - \text{ as } x \text{ increases through } c",
+"formula": "f'(x) \\text{ changes sign from } + \\text{ to } - \\text{ as } x \\text{ increases through } c",
 "description": "Calculus condition classifying a critical point as a Local Maximum.",
 "derivation": ""
 }
@@ -691,7 +691,7 @@
 "back": "### Component Anatomy\n- **$c$:** A verified critical point.\n- **$-$ to $+$:** The sign of the tangent slope physically changes from negative (falling curve) to positive (rising curve).\n\n### Boundary Conditions / Domain\n- The function $f(x)$ MUST be strictly continuous at coordinate $c$ for a minimum to structurally exist there.",
 "mnemonic": "Fall then Rise creates a Valley.",
 "formulaMeta": {
-"formula": "f'(x) \text{ changes sign from } - \text{ to } + \text{ as } x \text{ increases through } c",
+"formula": "f'(x) \\text{ changes sign from } - \\text{ to } + \\text{ as } x \\text{ increases through } c",
 "description": "Calculus condition classifying a critical point as a Local Minimum.",
 "derivation": ""
 }
@@ -747,10 +747,10 @@
 ],
 "order": 26,
 "heading": "Second Derivative Test for Local Extrema",
-"back": "### Component Anatomy\n- **$f''(c) < 0$:** Curve is Concave Down $\implies$ Local Maximum.\n- **$f''(c) > 0$:** Curve is Concave Up $\implies$ Local Minimum.\n- **$f''(c) = 0$:** The test fails mathematically and yields an Inconclusive result.\n\n### Boundary Conditions / Domain\n- The original function MUST be twice-differentiable at $c$.\n- $f'(c)$ MUST strictly equal $0$. \n- **CRITICAL:** This test completely fails and cannot be used for 'pointy' critical points (corners/cusps) where $f'(x)$ is undefined.",
+"back": "### Component Anatomy\n- **$f''(c) < 0$:** Curve is Concave Down $\\implies$ Local Maximum.\n- **$f''(c) > 0$:** Curve is Concave Up $\\implies$ Local Minimum.\n- **$f''(c) = 0$:** The test fails mathematically and yields an Inconclusive result.\n\n### Boundary Conditions / Domain\n- The original function MUST be twice-differentiable at $c$.\n- $f'(c)$ MUST strictly equal $0$. \n- **CRITICAL:** This test completely fails and cannot be used for 'pointy' critical points (corners/cusps) where $f'(x)$ is undefined.",
 "mnemonic": "Frown (< 0) is Max, Smile (> 0) is Min.",
 "formulaMeta": {
-"formula": "\begin{aligned} f''(c) < 0 &\implies \text{Local Maximum} \\ f''(c) > 0 &\implies \text{Local Minimum} \end{aligned}",
+"formula": "\\begin{aligned} f''(c) < 0 &\\implies \\text{Local Maximum} \\ f''(c) > 0 &\\implies \\text{Local Minimum} \\end{aligned}",
 "description": "Calculus conditions mapping concavity to local maxima and minima.",
 "derivation": ""
 }
@@ -862,7 +862,7 @@
 "heading": "Absolute Extrema: Critical Point Extraction",
 "back": "### Component Anatomy\n- **$c_i$:** The set of all valid interior critical points derived strictly from $f'(x) = 0$ or undefined.\n- **$f(c_i)$:** The numerical evaluation of the primary function at those exact coordinates.\n\n### Boundary Conditions / Domain\n- The critical points MUST strictly belong to the open interval $(a, b)$. Any roots discovered outside this domain must be entirely discarded.",
 "formulaMeta": {
-"formula": "\{ f(c_1), f(c_2), \dots, f(c_n) \}",
+"formula": "\\{ f(c_1), f(c_2), \\dots, f(c_n) \\}",
 "description": "The initial mathematical pool of potential absolute extremum candidates.",
 "derivation": "### SOP Phase 1:\n1. Derive $f'(x)$.\n2. Solve $f'(x) = 0$ and locate undefined points to extract all valid internal critical points $c_i$.\n3. Substitute each valid $c_i$ explicitly back into the *original* function $f(x)$ to establish peak heights."
 }
@@ -1003,7 +1003,7 @@
 ],
 "order": 35,
 "heading": "Trigonometric Substitution Heuristic",
-"back": "### Conceptual Strategy\nIn complex inscribed geometry problems (e.g., deriving the largest cylinder inside a fixed sphere), utilizing standard Pythagorean constraints like $r^2 + h^2 = R^2$ forces messy radical (square root) chains during differentiation.\n\n### The Algorithmic Trick\nIntroduce a parametric angle $\theta$. Define variables using standard trigonometric ratios against the fixed hypotenuse $R$ (e.g., $r = R \sin \theta$ and $h = R \cos \theta$).\n\n### Result\nThe target volume or area function condenses into a clean trigonometric polynomial, completely eliminating the need for radical derivatives.\n\n### Boundary Conditions / Domain\n- The introduced parametric angle must be bounded geometrically, typically strictly restricted to the first quadrant: $\theta \in (0, \frac{\pi}{2})$.",
+"back": "### Conceptual Strategy\nIn complex inscribed geometry problems (e.g., deriving the largest cylinder inside a fixed sphere), utilizing standard Pythagorean constraints like $r^2 + h^2 = R^2$ forces messy radical (square root) chains during differentiation.\n\n### The Algorithmic Trick\nIntroduce a parametric angle $\\theta$. Define variables using standard trigonometric ratios against the fixed hypotenuse $R$ (e.g., $r = R \\sin \\theta$ and $h = R \\cos \\theta$).\n\n### Result\nThe target volume or area function condenses into a clean trigonometric polynomial, completely eliminating the need for radical derivatives.\n\n### Boundary Conditions / Domain\n- The introduced parametric angle must be bounded geometrically, typically strictly restricted to the first quadrant: $\\theta \\in (0, \\frac{\\pi}{2})$.",
 "mnemonic": "Trig kills the radical.",
 "standardMeta": {
 "question": "In advanced geometric optimisation problems, what specific substitution heuristic should be employed to completely bypass differentiating messy square root constraints?"
@@ -1031,7 +1031,7 @@
 ],
 "order": 36,
 "heading": "Optimising Profit: Marginal Setup Phase",
-"back": "### Conceptual SOP (Phase 1)\n1. **Define Core Functions:** Extract or algebraically construct the Total Revenue $R(x)$ and Total Cost $C(x)$ functions, where $x$ represents the distinct number of items.\n2. **Profit Construction:** Construct the master Profit function mathematically as $P(x) = R(x) - C(x)$.\n3. **Marginal Derivation:** Compute the Marginal Profit $P'(x)$ by differentiating the master equation strictly with respect to $x$.\n\n### Boundary Conditions / Domain\n- Production quantities $x$ represent physical items and therefore MUST strictly remain non-negative integers ($x \ge 0$).",
+"back": "### Conceptual SOP (Phase 1)\n1. **Define Core Functions:** Extract or algebraically construct the Total Revenue $R(x)$ and Total Cost $C(x)$ functions, where $x$ represents the distinct number of items.\n2. **Profit Construction:** Construct the master Profit function mathematically as $P(x) = R(x) - C(x)$.\n3. **Marginal Derivation:** Compute the Marginal Profit $P'(x)$ by differentiating the master equation strictly with respect to $x$.\n\n### Boundary Conditions / Domain\n- Production quantities $x$ represent physical items and therefore MUST strictly remain non-negative integers ($x \\ge 0$).",
 "standardMeta": {
 "question": "When required to optimise a company's financial profit, what is the initial calculus procedure to establish the Marginal Profit function?"
 }
@@ -1116,7 +1116,7 @@
 ],
 "order": 39,
 "heading": "Maximum Area of an Inscribed Rectangle",
-"back": "### Geometric Theorem\nOf all the possible rectangles that can be inscribed inside a given fixed boundary circle, the **perfect square** strictly possesses the absolute maximum internal area.\n\n### Algorithmic Shortcut\nIn objective or competitive questions, skip the lengthy differentiation sequences and immediately deploy the property $l = b = \sqrt{2}r$ (where $r$ is the fixed radius of the circle) to instantly calculate the maximal dimensions.\n\n### Boundary Conditions / Domain\n- The vertices of the rectangle must strictly lie on the circumference of the circle, imposing the constraint $l^2 + b^2 = 4r^2$.",
+"back": "### Geometric Theorem\nOf all the possible rectangles that can be inscribed inside a given fixed boundary circle, the **perfect square** strictly possesses the absolute maximum internal area.\n\n### Algorithmic Shortcut\nIn objective or competitive questions, skip the lengthy differentiation sequences and immediately deploy the property $l = b = \\sqrt{2}r$ (where $r$ is the fixed radius of the circle) to instantly calculate the maximal dimensions.\n\n### Boundary Conditions / Domain\n- The vertices of the rectangle must strictly lie on the circumference of the circle, imposing the constraint $l^2 + b^2 = 4r^2$.",
 "mnemonic": "A perfect circle demands a perfect rectangle (a square).",
 "standardMeta": {
 "question": "When a rectangle is bounded inside a fixed circle, what specific geometric configuration must the rectangle take to strictly maximise its area?"
@@ -1148,9 +1148,9 @@
 "heading": "Maximum Cylinder Inscribed in a Sphere",
 "back": "### Component Anatomy\n- **$h$:** The resulting height of the inscribed cylinder mapping to maximum volume.\n- **$R$:** The explicitly fixed radius of the outer bounding sphere.\n\n### Boundary Conditions / Domain\n- The geometric dimensions must be strictly positive: $h > 0, R > 0$.",
 "formulaMeta": {
-"formula": "h = \frac{2R}{\sqrt{3}}",
+"formula": "h = \\frac{2R}{\\sqrt{3}}",
 "description": "Standard memory identity for the height of a maximum volume cylinder inscribed inside a fixed sphere.",
-"derivation": "Utilize the central right triangle linking the sphere's radius $R$, the cylinder's radius $r$, and half the cylinder's height $\frac{h}{2}$. Execute Pythagoras: $r^2 + \left(\frac{h}{2}\right)^2 = R^2$. Substitute $r^2$ out of the volume formula $V = \pi r^2 h$ and differentiate w.r.t $h$."
+"derivation": "Utilize the central right triangle linking the sphere's radius $R$, the cylinder's radius $r$, and half the cylinder's height $\\frac{h}{2}$. Execute Pythagoras: $r^2 + \\left(\\frac{h}{2}\\right)^2 = R^2$. Substitute $r^2$ out of the volume formula $V = \\pi r^2 h$ and differentiate w.r.t $h$."
 }
 }
 },
@@ -1180,7 +1180,7 @@
 "back": "### Component Anatomy\n- **$h$:** The optimal height of the inscribed cone.\n- **$R$:** The strictly fixed radius of the outer boundary sphere.\n- **$V_{cone}, V_{sphere}$:** Their respective mathematical volumes.\n\n### Boundary Conditions / Domain\n- The sphere radius must be strictly positive ($R > 0$).",
 "mnemonic": "Four-thirds height, Eight-twenty-sevenths volume.",
 "formulaMeta": {
-"formula": "\begin{aligned} h &= \frac{4R}{3} \\ V_{cone} &= \frac{8}{27} V_{sphere} \end{aligned}",
+"formula": "\\begin{aligned} h &= \\frac{4R}{3} \\ V_{cone} &= \\frac{8}{27} V_{sphere} \\end{aligned}",
 "description": "Standard mathematical identity specifying the height and specific volume ratio of the absolute largest right circular cone inscribed in a sphere.",
 "derivation": ""
 }
@@ -1212,7 +1212,7 @@
 "back": "### Component Anatomy\n- **$y$:** The optimal height of the internal cylinder.\n- **$h$:** The given, strictly fixed height of the outer bounding cone.\n\n### Boundary Conditions / Domain\n- Structurally demands $h > 0$.\n- Derivation relies strictly on similar triangles to interrelate the cylinder's changing radius $x$ to the cone's fixed baseline dimensions.",
 "mnemonic": "Cylinder height is one-third the Cone height.",
 "formulaMeta": {
-"formula": "y = \frac{h}{3}",
+"formula": "y = \\frac{h}{3}",
 "description": "Geometric identity for the optimal height of a cylinder inscribed in a fixed cone for maximum volume.",
 "derivation": ""
 }
@@ -1240,7 +1240,7 @@
 ],
 "order": 43,
 "heading": "Cone Optima (Fixed Slant Height): Parametric Setup",
-"back": "### Conceptual Strategy\nWhen tasked to optimise the volume of a cone possessing a strictly fixed slant height $l$, directly differentiating $V$ relative to $r$ or $h$ algebraically enforces messy Pythagorean square roots.\n\n### Algorithmic Setup SOP\n1. Introduce a parametric semi-vertical angle $\theta$.\n2. Substitute internal dimensions using base trigonometric identities: set $r = l \sin\theta$ and $h = l \cos\theta$.\n3. Construct the unifying Volume function strictly mapped to $\theta$: $V(\theta) = \frac{1}{3}\pi (l \sin\theta)^2 (l \cos\theta)$.\n4. Differentiate purely with respect to $\theta$ and set to zero to extract the critical optimal angle.\n\n### Boundary Conditions / Domain\n- The internal angle is mathematically restricted to the first quadrant: $\theta \in (0, \frac{\pi}{2})$.",
+"back": "### Conceptual Strategy\nWhen tasked to optimise the volume of a cone possessing a strictly fixed slant height $l$, directly differentiating $V$ relative to $r$ or $h$ algebraically enforces messy Pythagorean square roots.\n\n### Algorithmic Setup SOP\n1. Introduce a parametric semi-vertical angle $\\theta$.\n2. Substitute internal dimensions using base trigonometric identities: set $r = l \\sin\\theta$ and $h = l \\cos\\theta$.\n3. Construct the unifying Volume function strictly mapped to $\\theta$: $V(\\theta) = \\frac{1}{3}\\pi (l \\sin\\theta)^2 (l \\cos\\theta)$.\n4. Differentiate purely with respect to $\\theta$ and set to zero to extract the critical optimal angle.\n\n### Boundary Conditions / Domain\n- The internal angle is mathematically restricted to the first quadrant: $\\theta \\in (0, \\frac{\\pi}{2})$.",
 "standardMeta": {
 "question": "What is the optimal parametric setup procedure for maximising the volume of a right circular cone given a strictly fixed slant height $l$?"
 }
@@ -1268,11 +1268,11 @@
 ],
 "order": 44,
 "heading": "Cone Optima: Optimal Angle for Fixed Slant Height",
-"back": "### Component Anatomy\n- **$\theta$:** The interior semi-vertical angle of the cone yielding maximum volume.\n- **$\tan^{-1}\sqrt{2}$:** The explicit angular value (approximately $54.7^\circ$).\n\n### Boundary Conditions / Domain\n- The exterior slant height $l$ MUST be structurally locked (constant) for this specific ratio to apply.",
+"back": "### Component Anatomy\n- **$\\theta$:** The interior semi-vertical angle of the cone yielding maximum volume.\n- **$\\tan^{-1}\\sqrt{2}$:** The explicit angular value (approximately $54.7^\\circ$).\n\n### Boundary Conditions / Domain\n- The exterior slant height $l$ MUST be structurally locked (constant) for this specific ratio to apply.",
 "formulaMeta": {
-"formula": "\theta = \tan^{-1}\sqrt{2}",
+"formula": "\\theta = \\tan^{-1}\\sqrt{2}",
 "description": "Standard memory identity defining the optimal semi-vertical angle for a cone with a fixed slant height.",
-"derivation": "Evaluate $V'(\theta) = 0$ from the parametric formula $V(\theta) = \frac{1}{3}\pi l^3 \sin^2\theta \cos\theta$, which simplifies via product rule to $2\sin\theta\cos^2\theta - \sin^3\theta = 0$, dividing by $\cos^3\theta$ gives $\tan^2\theta = 2$."
+"derivation": "Evaluate $V'(\\theta) = 0$ from the parametric formula $V(\\theta) = \\frac{1}{3}\\pi l^3 \\sin^2\\theta \\cos\\theta$, which simplifies via product rule to $2\\sin\\theta\\cos^2\\theta - \\sin^3\\theta = 0$, dividing by $\\cos^3\\theta$ gives $\\tan^2\\theta = 2$."
 }
 }
 },
@@ -1299,9 +1299,9 @@
 ],
 "order": 45,
 "heading": "Cone Optima: Given Fixed Surface Area",
-"back": "### Component Anatomy\n- **$\alpha$:** The optimal semi-vertical angle of the cone maximizing volume.\n- **$\sin^{-1}\left(\frac{1}{3}\right)$:** The precise angle yielding the maximum state.\n\n### Boundary Conditions / Domain\n- The total structural surface area $S = \pi r l + \pi r^2$ MUST be strictly fixed (constant).",
+"back": "### Component Anatomy\n- **$\\alpha$:** The optimal semi-vertical angle of the cone maximizing volume.\n- **$\\sin^{-1}\\left(\\frac{1}{3}\\right)$:** The precise angle yielding the maximum state.\n\n### Boundary Conditions / Domain\n- The total structural surface area $S = \\pi r l + \\pi r^2$ MUST be strictly fixed (constant).",
 "formulaMeta": {
-"formula": "\alpha = \sin^{-1}\left(\frac{1}{3}\right)",
+"formula": "\\alpha = \\sin^{-1}\\left(\\frac{1}{3}\\right)",
 "description": "Standard memory identity defining the optimal semi-vertical angle for a cone with a fixed total surface area.",
 "derivation": ""
 }
@@ -1330,17 +1330,17 @@
 ],
 "order": 46,
 "heading": "Maximum of the Logarithmic Ratio",
-"back": "### Calculus Proof\n- **The Function:** $f(x) = \frac{\log_e x}{x}$\n- **The Critical Point:** Differentiating utilizing the explicit quotient rule yields $f'(x) = \frac{1 - \log_e x}{x^2}$. \n- Equating $f'(x) = 0$ implies the numerator must be zero: $\log_e x = 1$, which strictly enforces **$x = e$**.\n- **Conclusion:** By the First Derivative Test (changing sign from $+$ to $-$ across $e$), the curve attains its strict absolute maximum at $x = e$.\n\n### Boundary Conditions / Domain\n- Requires strict adherence to the natural log domain: $x > 0$.",
+"back": "### Calculus Proof\n- **The Function:** $f(x) = \\frac{\\log_e x}{x}$\n- **The Critical Point:** Differentiating utilizing the explicit quotient rule yields $f'(x) = \\frac{1 - \\log_e x}{x^2}$. \n- Equating $f'(x) = 0$ implies the numerator must be zero: $\\log_e x = 1$, which strictly enforces **$x = e$**.\n- **Conclusion:** By the First Derivative Test (changing sign from $+$ to $-$ across $e$), the curve attains its strict absolute maximum at $x = e$.\n\n### Boundary Conditions / Domain\n- Requires strict adherence to the natural log domain: $x > 0$.",
 "mnemonic": "Log over x peaks at e.",
 "standardMeta": {
-"question": "At what exact mathematical value of $x$ does the standard curve $f(x) = \frac{\log_e x}{x}$ attain its absolute maximum value?"
+"question": "At what exact mathematical value of $x$ does the standard curve $f(x) = \\frac{\\log_e x}{x}$ attain its absolute maximum value?"
 }
 }
 },
 {
 "cardId": "f7781567-31e8-44fe-9044-e7fafdec5233",
 "originalOrder": 41,
-"originalHeading": "Extrema of $f(x) = \sin x + \cos x$",
+"originalHeading": "Extrema of $f(x) = \\sin x + \\cos x$",
 "action": "SPLIT",
 "modificationsSummary": [
 "Split 4-step SOP bloat into Procedural Setup phase"
@@ -1358,9 +1358,9 @@
 ],
 "order": 47,
 "heading": "Extrema of Sine + Cosine: Evaluation Phase",
-"back": "### Algorithmic Evaluation SOP\n1. **Differentiate:** Compute the first derivative: $f'(x) = \cos x - \sin x$.\n2. **Locate Roots:** Set $f'(x) = 0$, leading algebraically to $\sin x = \cos x$, forcing $\tan x = 1$.\n3. **Critical Point:** In the primary first quadrant domain, this uniquely maps to $x = \frac{\pi}{4}$.\n4. **Verify:** Calculate the second derivative $f''(x) = -\sin x - \cos x$. Evaluated at $\frac{\pi}{4}$, $f'' < 0$ (confirming a local maximum peak).\n\n### Boundary Conditions / Domain\n- The critical point analysis strictly assumes the standard primary periodic domain $[0, 2\pi]$.",
+"back": "### Algorithmic Evaluation SOP\n1. **Differentiate:** Compute the first derivative: $f'(x) = \\cos x - \\sin x$.\n2. **Locate Roots:** Set $f'(x) = 0$, leading algebraically to $\\sin x = \\cos x$, forcing $\\tan x = 1$.\n3. **Critical Point:** In the primary first quadrant domain, this uniquely maps to $x = \\frac{\\pi}{4}$.\n4. **Verify:** Calculate the second derivative $f''(x) = -\\sin x - \\cos x$. Evaluated at $\\frac{\\pi}{4}$, $f'' < 0$ (confirming a local maximum peak).\n\n### Boundary Conditions / Domain\n- The critical point analysis strictly assumes the standard primary periodic domain $[0, 2\\pi]$.",
 "standardMeta": {
-"question": "What is the specific 4-step calculus SOP to isolate and verify the peak maximum of the function $f(x) = \sin x + \cos x$ in the first quadrant?"
+"question": "What is the specific 4-step calculus SOP to isolate and verify the peak maximum of the function $f(x) = \\sin x + \\cos x$ in the first quadrant?"
 }
 }
 },
@@ -1385,11 +1385,11 @@
 ],
 "order": 48,
 "heading": "Maximum of Sine + Cosine Identity",
-"back": "### Component Anatomy\n- **$f(x)$:** The standard algebraic sum of primary sine and cosine waves.\n- **$\sqrt{2}$:** The strict absolute maximum scalar value attained.\n- **$\frac{\pi}{4}$:** The explicit radian critical coordinate hosting the maximum peak.\n\n### Boundary Conditions / Domain\n- Max evaluation strictly applies to the primary continuous domain interval $[0, \pi]$.",
+"back": "### Component Anatomy\n- **$f(x)$:** The standard algebraic sum of primary sine and cosine waves.\n- **$\\sqrt{2}$:** The strict absolute maximum scalar value attained.\n- **$\\frac{\\pi}{4}$:** The explicit radian critical coordinate hosting the maximum peak.\n\n### Boundary Conditions / Domain\n- Max evaluation strictly applies to the primary continuous domain interval $[0, \\pi]$.",
 "formulaMeta": {
-"formula": "\max(f) = \sqrt{2} \quad \text{at} \quad x = \frac{\pi}{4}",
-"description": "Standard memory identity for the peak magnitude and location of the combined $\sin x + \cos x$ wave.",
-"derivation": "Substitute the evaluated critical point $\frac{\pi}{4}$ back into the parent function: $f(\frac{\pi}{4}) = \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{2}} = \frac{2}{\sqrt{2}} = \sqrt{2}$."
+"formula": "\\max(f) = \\sqrt{2} \\quad \\text{at} \\quad x = \\frac{\\pi}{4}",
+"description": "Standard memory identity for the peak magnitude and location of the combined $\\sin x + \\cos x$ wave.",
+"derivation": "Substitute the evaluated critical point $\\frac{\\pi}{4}$ back into the parent function: $f(\\frac{\\pi}{4}) = \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}} = \\frac{2}{\\sqrt{2}} = \\sqrt{2}$."
 }
 }
 },
@@ -1415,12 +1415,12 @@
 ],
 "order": 49,
 "heading": "Linear Approximation (Differentials)",
-"back": "### Component Anatomy\n- **$f(x+\Delta x)$:** The complex or awkward value requiring approximation (e.g., $\sqrt{25.3}$).\n- **$f(x)$:** The perfectly known integer base value strictly nearby (e.g., $\sqrt{25} = 5$).\n- **$\Delta x$:** The tiny arithmetic difference between the target and base (e.g., $0.3$).\n- **$f'(x)$:** The derivative mathematically evaluated at the known base value $x$.\n\n### Boundary Conditions / Domain\n- The deviation step $\Delta x$ MUST be infinitesimally small. If $\Delta x$ is excessively large, the linear tangent severely deviates from the true curve, rendering the approximation useless.",
+"back": "### Component Anatomy\n- **$f(x+\\Delta x)$:** The complex or awkward value requiring approximation (e.g., $\\sqrt{25.3}$).\n- **$f(x)$:** The perfectly known integer base value strictly nearby (e.g., $\\sqrt{25} = 5$).\n- **$\\Delta x$:** The tiny arithmetic difference between the target and base (e.g., $0.3$).\n- **$f'(x)$:** The derivative mathematically evaluated at the known base value $x$.\n\n### Boundary Conditions / Domain\n- The deviation step $\\Delta x$ MUST be infinitesimally small. If $\\Delta x$ is excessively large, the linear tangent severely deviates from the true curve, rendering the approximation useless.",
 "mnemonic": "New Value = Old Value + (Slope times Step)",
 "formulaMeta": {
-"formula": "f(x + \Delta x) \approx f(x) + f'(x) \Delta x",
+"formula": "f(x + \\Delta x) \\approx f(x) + f'(x) \\Delta x",
 "description": "Linear Approximation formula utilizing differentials to estimate adjacent function values.",
-"derivation": "Derived explicitly from the limit definition of the derivative: $f'(x) \approx \frac{f(x + \Delta x) - f(x)}{\Delta x}$. Rearranging isolating the target function maps to the formula."
+"derivation": "Derived explicitly from the limit definition of the derivative: $f'(x) \\approx \\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$. Rearranging isolating the target function maps to the formula."
 }
 }
 },
@@ -1445,10 +1445,10 @@
 ],
 "order": 50,
 "heading": "Exact Change vs Differential Approximation",
-"back": "- **Exact Change ($\Delta y$):** The mathematically true, strict difference between the two function states. Computed directly as $\Delta y = f(x + \Delta x) - f(x)$.\n- **Differential ($dy$):** The *linear geometric approximation* of that change, assuming the gradient remains perfectly constant over the tiny step $\Delta x$. Computed as $dy = f'(x)\Delta x$.\n- **Conclusion:** $dy \approx \Delta y$ is mathematically valid ONLY when the step size $\Delta x$ approaches $0$. The two parameters strictly diverge for large arithmetic steps.",
+"back": "- **Exact Change ($\\Delta y$):** The mathematically true, strict difference between the two function states. Computed directly as $\\Delta y = f(x + \\Delta x) - f(x)$.\n- **Differential ($dy$):** The *linear geometric approximation* of that change, assuming the gradient remains perfectly constant over the tiny step $\\Delta x$. Computed as $dy = f'(x)\\Delta x$.\n- **Conclusion:** $dy \\approx \\Delta y$ is mathematically valid ONLY when the step size $\\Delta x$ approaches $0$. The two parameters strictly diverge for large arithmetic steps.",
 "mnemonic": "Delta is Exact, d is Approximate.",
 "standardMeta": {
-"question": "What is the strict mathematical distinction between the exact change $\Delta y$ and the functional differential $dy$?"
+"question": "What is the strict mathematical distinction between the exact change $\\Delta y$ and the functional differential $dy$?"
 }
 }
 },
@@ -1474,12 +1474,12 @@
 ],
 "order": 51,
 "heading": "Relative Error Propagation Formula",
-"back": "### Component Anatomy\n- **$\frac{\Delta Q}{Q}$:** The relative (or percentage) error mathematically propagating into the calculated total quantity.\n- **$\frac{\Delta x}{x}$:** The relative (or percentage) error originating directly from the measured base dimension.\n- **$n$:** The strict algebraic power the measured dimension is raised to within the model.\n\n### Boundary Conditions / Domain\n- The formula strictly demands $x \neq 0$ to prevent division by zero.\n- Mathematically assumes $\Delta x$ is a sufficiently small measurement deviation.",
+"back": "### Component Anatomy\n- **$\\frac{\\Delta Q}{Q}$:** The relative (or percentage) error mathematically propagating into the calculated total quantity.\n- **$\\frac{\\Delta x}{x}$:** The relative (or percentage) error originating directly from the measured base dimension.\n- **$n$:** The strict algebraic power the measured dimension is raised to within the model.\n\n### Boundary Conditions / Domain\n- The formula strictly demands $x \\neq 0$ to prevent division by zero.\n- Mathematically assumes $\\Delta x$ is a sufficiently small measurement deviation.",
 "mnemonic": "Errors multiply by the power.",
 "formulaMeta": {
-"formula": "\frac{\Delta Q}{Q} \approx n \cdot \frac{\Delta x}{x}",
+"formula": "\\frac{\\Delta Q}{Q} \\approx n \\cdot \\frac{\\Delta x}{x}",
 "description": "Approximation mapping the propagation of relative measurement error into a strictly proportional calculated quantity $Q = k x^n$.",
-"derivation": "### Algorithmic Example:\nFor a solid sphere's volume $V = \frac{4}{3}\pi r^3$ (where $n=3$), a $3\\%$ error measured in the radius $r$ will directly propagate as a $3 \times 3\\% = 9\\%$ error in the final Volume."
+"derivation": "### Algorithmic Example:\nFor a solid sphere's volume $V = \\frac{4}{3}\\pi r^3$ (where $n=3$), a $3\\%$ error measured in the radius $r$ will directly propagate as a $3 \\times 3\\% = 9\\%$ error in the final Volume."
 }
 }
 },

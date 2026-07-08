@@ -22,7 +22,7 @@
 "formulaMeta": {
 "formula": "\\begin{aligned} V &= lbh \\\\ CSA &= 2h(l + b) \\\\ TSA &= 2(lb + bh + hl) \\end{aligned}",
 "description": "Fundamental equations defining the capacity and surface areas of a standard cuboid.",
-"derivation": "1. Volume is derived fundamentally by multiplying the base area ($l \\\times b$) by the perpendicular height ($h$).\n2. CSA (Lateral Area) is the perimeter of the base ($2l + 2b$) multiplied by the height $h$.\n3. TSA is the sum of the areas of the 3 distinct opposite pairs of rectangles forming the cuboid."
+"derivation": "1. Volume is derived fundamentally by multiplying the base area ($l \\\\times b$) by the perpendicular height ($h$).\n2. CSA (Lateral Area) is the perimeter of the base ($2l + 2b$) multiplied by the height $h$.\n3. TSA is the sum of the areas of the 3 distinct opposite pairs of rectangles forming the cuboid."
 }
 }
 },
@@ -69,7 +69,7 @@
 "formulaMeta": {
 "formula": "\\begin{aligned} V &= \\pi r^2 h \\\\ CSA &= 2\\pi rh \\\\ TSA &= 2\\pi r(h + r) \\end{aligned}",
 "description": "Formulas defining the Volume, Curved Surface Area, and Total Surface Area of a solid cylinder.",
-"derivation": "1. **Volume:** Area of the circular base ($\\\pi r^2$) extruded along the height ($h$).\n2. **TSA Algorithmic SOP:** Add the completely unrolled curved rectangular surface ($2\\\pi rh$) to the areas of the two enclosed circular bases ($2 \\\times \\\pi r^2$).\n3. Algebraically factor out $2\\\pi r$ to yield the condensed formula $2\\\pi r(h + r)$."
+"derivation": "1. **Volume:** Area of the circular base ($\\\\pi r^2$) extruded along the height ($h$).\n2. **TSA Algorithmic SOP:** Add the completely unrolled curved rectangular surface ($2\\\\pi rh$) to the areas of the two enclosed circular bases ($2 \\\\times \\\\pi r^2$).\n3. Algebraically factor out $2\\\\pi r$ to yield the condensed formula $2\\\\pi r(h + r)$."
 }
 }
 },
@@ -93,7 +93,7 @@
 "formulaMeta": {
 "formula": "\\begin{aligned} V &= \\frac{1}{3}\\pi r^2 h \\\\ CSA &= \\pi rl \\\\ TSA &= \\pi r(l + r) \\end{aligned}",
 "description": "Formulas defining the Volume, Curved Surface Area, and Total Surface Area of a solid cone.",
-"derivation": "1. **TSA Algorithmic SOP:** Add the outer curved surface area ($\\\pi rl$) to the single solid circular base ($\\\pi r^2$).\n2. Algebraically factor out $\\\pi r$ to yield $\\\pi r(l + r)$."
+"derivation": "1. **TSA Algorithmic SOP:** Add the outer curved surface area ($\\\\pi rl$) to the single solid circular base ($\\\\pi r^2$).\n2. Algebraically factor out $\\\\pi r$ to yield $\\\\pi r(l + r)$."
 }
 }
 },
@@ -137,7 +137,7 @@
 "order": 6,
 "heading": "Core Formula: Properties of a Sphere",
 "back": "## Component Anatomy\n- **$r$:** Radius of the sphere (uniform distance from the center to any point on the boundary).\n\n## Boundary Conditions / Domain\n- $r > 0$ strictly. A radius of zero yields a dimensionless point.",
-"mnemonic": "Four distinct circles can mathematically wrap a sphere ($4\\\pi r^2$).",
+"mnemonic": "Four distinct circles can mathematically wrap a sphere ($4\\\\pi r^2$).",
 "formulaMeta": {
 "formula": "\\begin{aligned} V &= \\frac{4}{3}\\pi r^3 \\\\ SA &= 4\\pi r^2 \\end{aligned}",
 "description": "Standard formulas calculating the 3D Volume and 2D Surface Area of a perfect sphere.",
@@ -160,7 +160,7 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "geometry", "edge-case"],
 "order": 7,
 "heading": "Terminology Trap: Sphere Surface Areas",
-"back": "## The Concept\nA complete geometric sphere possesses absolutely no flat surfaces or distinct bases. Its entire outer boundary acts as a single, contiguous curved shell.\n\n## Mathematical Rule\nFor a full sphere, the Total Surface Area (TSA) and Curved Surface Area (CSA) are strictly and mathematically identical.\nTherefore, the isolated term used in formal geometry is simply **Surface Area** ($4\pi r^2$).",
+"back": "## The Concept\nA complete geometric sphere possesses absolutely no flat surfaces or distinct bases. Its entire outer boundary acts as a single, contiguous curved shell.\n\n## Mathematical Rule\nFor a full sphere, the Total Surface Area (TSA) and Curved Surface Area (CSA) are strictly and mathematically identical.\nTherefore, the isolated term used in formal geometry is simply **Surface Area** ($4\\pi r^2$).",
 "standardMeta": {
 "question": "Why is the fractional term 'Curved Surface Area' (CSA) strictly avoided when describing a complete sphere?"
 }
@@ -186,7 +186,7 @@
 "formulaMeta": {
 "formula": "\\begin{aligned} V &= \\frac{2}{3}\\pi r^3 \\\\ CSA &= 2\\pi r^2 \\\\ TSA &= 3\\pi r^2 \\end{aligned}",
 "description": "Formulas defining the Volume, Curved Surface Area, and Total Surface Area of a solid Hemisphere.",
-"derivation": "1. **Algorithmic SOP for TSA:** Slicing a sphere physically exposes a newly created flat circular base possessing an area of $\\\pi r^2$.\n2. Add this exposed flat base to the remaining halved CSA ($2\\\pi r^2$).\n3. $\\\pi r^2 + 2\\\pi r^2$ yields strictly $3\\\pi r^2$."
+"derivation": "1. **Algorithmic SOP for TSA:** Slicing a sphere physically exposes a newly created flat circular base possessing an area of $\\\\pi r^2$.\n2. Add this exposed flat base to the remaining halved CSA ($2\\\\pi r^2$).\n3. $\\\\pi r^2 + 2\\\\pi r^2$ yields strictly $3\\\\pi r^2$."
 }
 }
 },
@@ -249,7 +249,7 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "combinations", "geometry-trap"],
 "order": 11,
 "heading": "Trap Application: Stacked Cylinders TSA",
-"back": "## The Concept\nIf a solid cylinder (radius $r$, height $h$) is placed exactly over another identical cylinder, the resulting TSA is strictly **NOT** double the TSA of the original single cylinder.\n\n## Mathematical Reasoning\nThe top flat circular base of the bottom cylinder and the bottom flat circular base of the top cylinder perfectly overlap. These two distinct circular faces ($2 \times \pi r^2$) become physically hidden inside the core of the new solid. You must explicitly subtract $2\pi r^2$ from the combined theoretical sum.",
+"back": "## The Concept\nIf a solid cylinder (radius $r$, height $h$) is placed exactly over another identical cylinder, the resulting TSA is strictly **NOT** double the TSA of the original single cylinder.\n\n## Mathematical Reasoning\nThe top flat circular base of the bottom cylinder and the bottom flat circular base of the top cylinder perfectly overlap. These two distinct circular faces ($2 \\times \\pi r^2$) become physically hidden inside the core of the new solid. You must explicitly subtract $2\\pi r^2$ from the combined theoretical sum.",
 "standardMeta": {
 "question": "Why is the Total Surface Area (TSA) of two identical solid cylinders stacked precisely on top of each other strictly less than double the TSA of one individual cylinder?"
 }
@@ -339,7 +339,7 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "geometry", "limits"],
 "order": 15,
 "heading": "Geometric Constraint: Maximum Surmounted Diameter",
-"back": "## Core Concept\nIf a hemisphere is mathematically surmounted (placed flat) onto the square face of a cubical block, the absolute greatest possible diameter it can possess without physically overhanging the flat edge is strictly equal to the edge length of the host cube.\n\n## Mathematical Translation\n- Maximum Geometric Diameter: $d = a$\n- Resulting Maximum Radius: $r = \frac{a}{2}$",
+"back": "## Core Concept\nIf a hemisphere is mathematically surmounted (placed flat) onto the square face of a cubical block, the absolute greatest possible diameter it can possess without physically overhanging the flat edge is strictly equal to the edge length of the host cube.\n\n## Mathematical Translation\n- Maximum Geometric Diameter: $d = a$\n- Resulting Maximum Radius: $r = \\frac{a}{2}$",
 "standardMeta": {
 "question": "What is the absolute maximum mathematical limit for the diameter of a hemisphere that is perfectly surmounted onto the face of a cubical block with edge 'a'?"
 }
@@ -362,12 +362,12 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "combinations", "tsa-traps"],
 "order": 16,
 "heading": "Algorithmic SOP: Solid with a Hemispherical Depression",
-"back": "## Component Anatomy\n- **$a$:** Uniform edge length of the primary base cube.\n- **$r$:** Radius of the spherically scooped-out hemispherical depression.\n\n## Boundary Conditions / Domain\n- The hemisphere must be carved strictly out of exactly one bounding face of the solid.\n- The depression cannot exceed the bounds of the face: $2r \leq a$.",
+"back": "## Component Anatomy\n- **$a$:** Uniform edge length of the primary base cube.\n- **$r$:** Radius of the spherically scooped-out hemispherical depression.\n\n## Boundary Conditions / Domain\n- The hemisphere must be carved strictly out of exactly one bounding face of the solid.\n- The depression cannot exceed the bounds of the face: $2r \\leq a$.",
 "mnemonic": "Mathematically: Add the newly exposed bowl, subtract the missing flat lid.",
 "formulaMeta": {
 "formula": "TSA = 6a^2 + \\pi r^2",
 "description": "Procedural formula calculating the Total Surface Area of a cubical block possessing a hemispherical void scooped out from one face.",
-"derivation": "1. Initialize with the theoretical TSA of the full solid cube: $6a^2$.\n2. The base of the hemisphere physically removes a flat circular area from the top square face. Subtract this void: $-\\\pi r^2$.\n3. A new curved internal 'bowl' surface is now exposed inside the block. Add the geometric CSA of this hemisphere: $+2\\\pi r^2$.\n4. Algebraically synthesise the components: $6a^2 - \\\pi r^2 + 2\\\pi r^2 = 6a^2 + \\\pi r^2$."
+"derivation": "1. Initialize with the theoretical TSA of the full solid cube: $6a^2$.\n2. The base of the hemisphere physically removes a flat circular area from the top square face. Subtract this void: $-\\\\pi r^2$.\n3. A new curved internal 'bowl' surface is now exposed inside the block. Add the geometric CSA of this hemisphere: $+2\\\\pi r^2$.\n4. Algebraically synthesise the components: $6a^2 - \\\\pi r^2 + 2\\\\pi r^2 = 6a^2 + \\\\pi r^2$."
 }
 }
 },
@@ -386,7 +386,7 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "recasting", "volume"],
 "order": 17,
 "heading": "Core Principle: Conservation of Recasting",
-"back": "## Core Principle\nWhen a solid geometric object is melted and recast, forged, or reshaped into a completely different physical form, the **Total Volume** remains strictly mathematically conserved (constant).\n\n## Crucial Distinction\nThe Total Surface Area will almost always undergo a drastic mathematical change, but the core spatial capacity remains untouched: $V_{\text{initial}} = V_{\text{final}}$.\nThis principle is a direct geometric application of the physical Law of Conservation of Mass (assuming material density remains rigidly constant).",
+"back": "## Core Principle\nWhen a solid geometric object is melted and recast, forged, or reshaped into a completely different physical form, the **Total Volume** remains strictly mathematically conserved (constant).\n\n## Crucial Distinction\nThe Total Surface Area will almost always undergo a drastic mathematical change, but the core spatial capacity remains untouched: $V_{\\text{initial}} = V_{\\text{final}}$.\nThis principle is a direct geometric application of the physical Law of Conservation of Mass (assuming material density remains rigidly constant).",
 "standardMeta": {
 "question": "When a solid geometric object is physically melted and reshaped into a completely different geometric form, which specific mathematical property remains strictly constant?"
 }
@@ -408,11 +408,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "recasting", "algebra"],
 "order": 18,
 "heading": "Algorithmic SOP: Recasting into Multiple Solids",
-"back": "## Component Anatomy\n- **$n$:** The integer count of smaller identical solids successfully produced.\n- **$V_{\text{original}}$:** Total volume of the initial large parent solid.\n- **$V_{\text{small}}$:** Internal volume of exactly *one* single newly formed smaller solid.\n\n## Boundary Conditions / Domain\n- Assumes absolutely zero physical material wastage, spilling, or density change during the melting/forging process.",
+"back": "## Component Anatomy\n- **$n$:** The integer count of smaller identical solids successfully produced.\n- **$V_{\\text{original}}$:** Total volume of the initial large parent solid.\n- **$V_{\\text{small}}$:** Internal volume of exactly *one* single newly formed smaller solid.\n\n## Boundary Conditions / Domain\n- Assumes absolutely zero physical material wastage, spilling, or density change during the melting/forging process.",
 "formulaMeta": {
 "formula": "n = \\frac{V_{\\text{original}}}{V_{\\text{small}}}",
 "description": "Standard algorithmic equation utilized to determine the exact number of identical smaller objects ('n') manufactured by melting a larger base object.",
-"derivation": "1. Mathematically calculate the total contiguous volume of the original large solid.\n2. Independently calculate the geometric volume of exactly ONE of the targeted smaller solids.\n3. Apply the conservation of volume principle: $V_{\\\text{original}} = n \\\times V_{\\\text{small}}$.\n4. Algebraically rearrange the equation to isolate and solve strictly for the integer $n$."
+"derivation": "1. Mathematically calculate the total contiguous volume of the original large solid.\n2. Independently calculate the geometric volume of exactly ONE of the targeted smaller solids.\n3. Apply the conservation of volume principle: $V_{\\\\text{original}} = n \\\\times V_{\\\\text{small}}$.\n4. Algebraically rearrange the equation to isolate and solve strictly for the integer $n$."
 }
 }
 },
@@ -438,7 +438,7 @@
 "formulaMeta": {
 "formula": "V = \\frac{4}{3}\\pi(R^3 - r^3)",
 "description": "Procedural formula determining the exact volume of physical material utilized to construct a hollow spherical shell.",
-"derivation": "1. Mathematically calculate the volume of the entire outer sphere assuming it were completely solid: $\\\frac{4}{3}\\\pi R^3$.\n2. Separately calculate the geometric volume of the hollow inner void: $\\\frac{4}{3}\\\pi r^3$.\n3. Algebraically subtract the void volume strictly from the total apparent volume to isolate the volume of the metallic/shell boundary itself.\n4. Factor out the common $\\\frac{4}{3}\\\pi$ multiplier."
+"derivation": "1. Mathematically calculate the volume of the entire outer sphere assuming it were completely solid: $\\\\frac{4}{3}\\\\pi R^3$.\n2. Separately calculate the geometric volume of the hollow inner void: $\\\\frac{4}{3}\\\\pi r^3$.\n3. Algebraically subtract the void volume strictly from the total apparent volume to isolate the volume of the metallic/shell boundary itself.\n4. Factor out the common $\\\\frac{4}{3}\\\\pi$ multiplier."
 }
 }
 },
@@ -459,11 +459,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "spheres", "cubes"],
 "order": 20,
 "heading": "Algorithmic SOP: Maximum Sphere Inscribed in a Cube",
-"back": "## Component Anatomy\n- **$V_{\text{ball}}$:** Maximum contained volume of the spherical ball.\n- **$a$:** Uniform edge length of the host cubical box.\n\n## Boundary Conditions / Domain\n- The ball must be mathematically *exactly fitted* (inscribed) perfectly inside the box, meaning it must simultaneously touch all 6 internal flat faces.\n- $a > 0$.",
+"back": "## Component Anatomy\n- **$V_{\\text{ball}}$:** Maximum contained volume of the spherical ball.\n- **$a$:** Uniform edge length of the host cubical box.\n\n## Boundary Conditions / Domain\n- The ball must be mathematically *exactly fitted* (inscribed) perfectly inside the box, meaning it must simultaneously touch all 6 internal flat faces.\n- $a > 0$.",
 "formulaMeta": {
 "formula": "V_{\\text{ball}} = \\frac{1}{6} \\pi a^3",
 "description": "Calculates the absolute maximum volume of a solid sphere capable of being perfectly inscribed within a cubical box.",
-"derivation": "1. For the spherical ball to exactly fit inside the geometric boundaries of the cube, its maximum diameter must strictly equal the edge length of the cube ($2r = a$).\n2. Extract the resulting radius: $r = \\\frac{a}{2}$.\n3. Substitute this radius directly into the standard sphere volume formula: $V = \\\frac{4}{3}\\\pi r^3 = \\\frac{4}{3}\\\pi \\\left(\\\frac{a}{2}\\\right)^3$.\n4. Algebraically simplify the cubic exponent: $V = \\\frac{4}{3}\\\pi \\\left(\\\frac{a^3}{8}\\\right) = \\\frac{1}{6}\\\pi a^3$."
+"derivation": "1. For the spherical ball to exactly fit inside the geometric boundaries of the cube, its maximum diameter must strictly equal the edge length of the cube ($2r = a$).\n2. Extract the resulting radius: $r = \\\\frac{a}{2}$.\n3. Substitute this radius directly into the standard sphere volume formula: $V = \\\\frac{4}{3}\\\\pi r^3 = \\\\frac{4}{3}\\\\pi \\\\left(\\\\frac{a}{2}\\\\right)^3$.\n4. Algebraically simplify the cubic exponent: $V = \\\\frac{4}{3}\\\\pi \\\\left(\\\\frac{a^3}{8}\\\\right) = \\\\frac{1}{6}\\\\pi a^3$."
 }
 }
 },
@@ -488,7 +488,7 @@
 "formulaMeta": {
 "formula": "\\frac{S_1}{S_2} = \\left( \\frac{V_1}{V_2} \\right)^{\\frac{2}{3}}",
 "description": "Direct algebraic formula shortcut mapping the known volume ratio of two spheres instantly to their surface area ratio.",
-"derivation": "1. The volume of a sphere inherently scales proportionately with the mathematical cube of its radius ($r^3$). Therefore, the base ratio of their radii is strictly the cube root of the given volume ratio: $\\\frac{r_1}{r_2} = \\\left(\\\frac{V_1}{V_2}\\\right)^{\\\frac{1}{3}}$.\n2. The surface area scales proportionately with the mathematical square of the radius ($r^2$).\n3. Substitute the derived radii ratio into the square: $\\\frac{S_1}{S_2} = \\\left(\\\frac{r_1}{r_2}\\\right)^2 = \\\left( \\\left(\\\frac{V_1}{V_2}\\\right)^{\\\frac{1}{3}} \\\right)^2$.\n4. Multiply exponents to yield: $\\\left(\\\frac{V_1}{V_2}\\\right)^{\\\frac{2}{3}}$."
+"derivation": "1. The volume of a sphere inherently scales proportionately with the mathematical cube of its radius ($r^3$). Therefore, the base ratio of their radii is strictly the cube root of the given volume ratio: $\\\\frac{r_1}{r_2} = \\\\left(\\\\frac{V_1}{V_2}\\\\right)^{\\\\frac{1}{3}}$.\n2. The surface area scales proportionately with the mathematical square of the radius ($r^2$).\n3. Substitute the derived radii ratio into the square: $\\\\frac{S_1}{S_2} = \\\\left(\\\\frac{r_1}{r_2}\\\\right)^2 = \\\\left( \\\\left(\\\\frac{V_1}{V_2}\\\\right)^{\\\\frac{1}{3}} \\\\right)^2$.\n4. Multiply exponents to yield: $\\\\left(\\\\frac{V_1}{V_2}\\\\right)^{\\\\frac{2}{3}}$."
 }
 }
 },
@@ -513,7 +513,7 @@
 "formulaMeta": {
 "formula": "L = v \\times t",
 "description": "Procedural step to convert the flow speed of liquid into a static geometric length for volume modeling.",
-"derivation": "1. To evaluate flowing water geometrically, we must freeze it into a static 3D solid.\n2. Utilize the foundational physics equation connecting velocity and distance: $\\\text{Distance} = \\\text{Speed} \\\times \\\text{Time}$.\n3. Multiply the velocity of the water ($v$) by the total time it flows ($t$) to calculate the physical linear length ($L$) of the imaginary extruded water column."
+"derivation": "1. To evaluate flowing water geometrically, we must freeze it into a static 3D solid.\n2. Utilize the foundational physics equation connecting velocity and distance: $\\\\text{Distance} = \\\\text{Speed} \\\\times \\\\text{Time}$.\n3. Multiply the velocity of the water ($v$) by the total time it flows ($t$) to calculate the physical linear length ($L$) of the imaginary extruded water column."
 }
 }
 },
@@ -532,12 +532,12 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "water-flow", "algebra"],
 "order": 23,
 "heading": "Algorithmic SOP: Flowing Water Volume (Part 2 - Volume Mapping)",
-"back": "## Component Anatomy\n- **$V$:** Total internal volume of water discharged over the calculated time period.\n- **$A_{\text{cross-section}}$:** The 2D area of the pipe/canal opening (e.g., $\pi r^2$ for a circular pipe, $l \times b$ for a rectangular canal).\n- **$L$:** The length of the water column derived from kinematics ($v \times t$).\n\n## Boundary Conditions / Domain\n- The cross-sectional area must remain perfectly uniform throughout the entire length.",
+"back": "## Component Anatomy\n- **$V$:** Total internal volume of water discharged over the calculated time period.\n- **$A_{\\text{cross-section}}$:** The 2D area of the pipe/canal opening (e.g., $\\pi r^2$ for a circular pipe, $l \\times b$ for a rectangular canal).\n- **$L$:** The length of the water column derived from kinematics ($v \\times t$).\n\n## Boundary Conditions / Domain\n- The cross-sectional area must remain perfectly uniform throughout the entire length.",
 "mnemonic": "Volume = Geometric Base Area times Extruded Length.",
 "formulaMeta": {
 "formula": "V = A_{\\text{cross-section}} \\times L",
 "description": "Procedural step mapping the kinematic length to standard 3D volume capacities.",
-"derivation": "1. Treat the previously calculated linear water column as a perfect geometric solid (a solid cylinder for pipes, or a solid cuboid for canals).\n2. Standard 3D volume for uniform extruded shapes is universally defined as $\\\text{Base Area} \\\times \\\text{Perpendicular Length}$.\n3. Multiply the cross-sectional area of the opening by the kinematic length $L$ to compute the total discharged volume."
+"derivation": "1. Treat the previously calculated linear water column as a perfect geometric solid (a solid cylinder for pipes, or a solid cuboid for canals).\n2. Standard 3D volume for uniform extruded shapes is universally defined as $\\\\text{Base Area} \\\\times \\\\text{Perpendicular Length}$.\n3. Multiply the cross-sectional area of the opening by the kinematic length $L$ to compute the total discharged volume."
 }
 }
 },
@@ -558,11 +558,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "water-flow", "applications"],
 "order": 24,
 "heading": "Algorithmic SOP: Area Irrigated by Discharged Water",
-"back": "## Component Anatomy\n- **$A_{\text{irrigated}}$:** The 2D agricultural land area mathematically capable of being irrigated.\n- **$V_{\text{water}}$:** Total previously calculated volume of water supplied by the canal/pipe system.\n- **$h_{\text{standing}}$:** The specifically required vertical height of the standing water on the field.\n\n## Boundary Conditions / Domain\n- **Crucial Trap:** The standing height $h_{\text{standing}}$ (often given in cm) MUST strictly be mathematically converted to match the volumetric units (e.g., meters) before division.",
+"back": "## Component Anatomy\n- **$A_{\\text{irrigated}}$:** The 2D agricultural land area mathematically capable of being irrigated.\n- **$V_{\\text{water}}$:** Total previously calculated volume of water supplied by the canal/pipe system.\n- **$h_{\\text{standing}}$:** The specifically required vertical height of the standing water on the field.\n\n## Boundary Conditions / Domain\n- **Crucial Trap:** The standing height $h_{\\text{standing}}$ (often given in cm) MUST strictly be mathematically converted to match the volumetric units (e.g., meters) before division.",
 "formulaMeta": {
 "formula": "A_{\\text{irrigated}} = \\frac{V_{\\text{water}}}{h_{\\text{standing}}}",
 "description": "Algebraic mapping between the total volume of supplied water, the 2D area of a field, and the necessary height of standing water.",
-"derivation": "1. Conceptually model the flooded agricultural field as a massive, flat cuboid constructed entirely of standing water.\n2. Apply the fundamental cuboid volume principle: $\\\text{Volume} = \\\text{Area of Base} \\\times \\\text{Height}$.\n3. Equate this to the calculated volume delivered: $V_{\\\text{water}} = A_{\\\text{irrigated}} \\\times h_{\\\text{standing}}$.\n4. Algebraically rearrange the equation to isolate the target Area."
+"derivation": "1. Conceptually model the flooded agricultural field as a massive, flat cuboid constructed entirely of standing water.\n2. Apply the fundamental cuboid volume principle: $\\\\text{Volume} = \\\\text{Area of Base} \\\\times \\\\text{Height}$.\n3. Equate this to the calculated volume delivered: $V_{\\\\text{water}} = A_{\\\\text{irrigated}} \\\\times h_{\\\\text{standing}}$.\n4. Algebraically rearrange the equation to isolate the target Area."
 }
 }
 },
@@ -583,11 +583,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "recasting", "embankment"],
 "order": 25,
 "heading": "Algorithmic SOP: Embankment Height (Part 1 - Geometric Setup)",
-"back": "## Component Anatomy\n- **$r_{\text{well}}, h_{\text{well}}$:** Inner radius and depth of the primary dug well.\n- **$V_{\text{dug}}$:** Geometric volume of the earth physically excavated from the well.\n- **$R_{\text{outer}}$:** Absolute outer radius of the embankment ring ($r_{\text{well}} + \text{embankment width}$).\n\n## Boundary Conditions / Domain\n- The excavated well acts mathematically as a perfect Solid Cylinder ($r > 0, h > 0$).\n- The raised embankment is explicitly modeled as a Hollow Cylinder strictly surrounding the well.",
+"back": "## Component Anatomy\n- **$r_{\\text{well}}, h_{\\text{well}}$:** Inner radius and depth of the primary dug well.\n- **$V_{\\text{dug}}$:** Geometric volume of the earth physically excavated from the well.\n- **$R_{\\text{outer}}$:** Absolute outer radius of the embankment ring ($r_{\\text{well}} + \\text{embankment width}$).\n\n## Boundary Conditions / Domain\n- The excavated well acts mathematically as a perfect Solid Cylinder ($r > 0, h > 0$).\n- The raised embankment is explicitly modeled as a Hollow Cylinder strictly surrounding the well.",
 "formulaMeta": {
 "formula": "V_{\\text{dug}} = \\pi r_{\\text{well}}^2 h_{\\text{well}}",
 "description": "Procedural modeling of the extracted earth and mapping the geometric boundaries of the resulting hollow embankment.",
-"derivation": "1. Calculate the raw volume of earth dug out of the ground by modeling the well as a solid right circular cylinder: $V_{\\\text{dug}} = \\\pi r_{\\\text{well}}^2 h_{\\\text{well}}$.\n2. Geometrically model the structural footprint of the raised embankment. It forms a circular ring (annulus) directly around the hole.\n3. Calculate the 2D area of this embankment ring base by subtracting the inner well area from the outer total boundary area: $\\\text{Base Area} = \\\pi R_{\\\text{outer}}^2 - \\\pi r_{\\\text{well}}^2 = \\\pi(R_{\\\text{outer}}^2 - r_{\\\text{well}}^2)$."
+"derivation": "1. Calculate the raw volume of earth dug out of the ground by modeling the well as a solid right circular cylinder: $V_{\\\\text{dug}} = \\\\pi r_{\\\\text{well}}^2 h_{\\\\text{well}}$.\n2. Geometrically model the structural footprint of the raised embankment. It forms a circular ring (annulus) directly around the hole.\n3. Calculate the 2D area of this embankment ring base by subtracting the inner well area from the outer total boundary area: $\\\\text{Base Area} = \\\\pi R_{\\\\text{outer}}^2 - \\\\pi r_{\\\\text{well}}^2 = \\\\pi(R_{\\\\text{outer}}^2 - r_{\\\\text{well}}^2)$."
 }
 }
 },
@@ -606,11 +606,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "recasting", "algebra"],
 "order": 26,
 "heading": "Algorithmic SOP: Embankment Height (Part 2 - Volume Equating)",
-"back": "## Component Anatomy\n- **$V_{\text{dug}}$:** The volume of the excavated earth (calculated in Part 1).\n- **$\text{Base Area}$:** The 2D area of the hollow embankment ring.\n- **$H_{\text{embankment}}$:** The final targeted vertical height of the raised platform.\n\n## Boundary Conditions / Domain\n- The volume of earth is strictly conserved during the reshaping process: $V_{\text{dug}} = V_{\text{embankment}}$.",
+"back": "## Component Anatomy\n- **$V_{\\text{dug}}$:** The volume of the excavated earth (calculated in Part 1).\n- **$\\text{Base Area}$:** The 2D area of the hollow embankment ring.\n- **$H_{\\text{embankment}}$:** The final targeted vertical height of the raised platform.\n\n## Boundary Conditions / Domain\n- The volume of earth is strictly conserved during the reshaping process: $V_{\\text{dug}} = V_{\\text{embankment}}$.",
 "formulaMeta": {
-"formula": "H_{\text{embankment}} = \frac{r_{\text{well}}^2 h_{\text{well}}}{R_{\text{outer}}^2 - r_{\text{well}}^2}",
+"formula": "H_{\\text{embankment}} = \\frac{r_{\\text{well}}^2 h_{\\text{well}}}{R_{\\text{outer}}^2 - r_{\\text{well}}^2}",
 "description": "Algebraic execution to solve for the vertical height of the embankment.",
-"derivation": "1. Equate the two geometric volumes using the principle of conservation: $V_{\text{dug}} = V_{\text{embankment}}$.\n2. Expand the embankment side: $\pi r_{\text{well}}^2 h_{\text{well}} = \text{Base Area} \times H_{\text{embankment}}$.\n3. Substitute the ring area: $\pi r_{\text{well}}^2 h_{\text{well}} = \pi (R_{\text{outer}}^2 - r_{\text{well}}^2) \times H_{\text{embankment}}$.\n4. Cancel the constant $\pi$ from both sides.\n5. Algebraically isolate $H_{\text{embankment}}$ by dividing the left side by the radius difference term."
+"derivation": "1. Equate the two geometric volumes using the principle of conservation: $V_{\\text{dug}} = V_{\\text{embankment}}$.\n2. Expand the embankment side: $\\pi r_{\\text{well}}^2 h_{\\text{well}} = \\text{Base Area} \\times H_{\\text{embankment}}$.\n3. Substitute the ring area: $\\pi r_{\\text{well}}^2 h_{\\text{well}} = \\pi (R_{\\text{outer}}^2 - r_{\\text{well}}^2) \\times H_{\\text{embankment}}$.\n4. Cancel the constant $\\pi$ from both sides.\n5. Algebraically isolate $H_{\\text{embankment}}$ by dividing the left side by the radius difference term."
 }
 }
 },
@@ -630,11 +630,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "voids", "algebra"],
 "order": 27,
 "heading": "Algorithmic SOP: Interstitial Voids (Part 1 - Available Volume)",
-"back": "## Component Anatomy\n- **$V_{\text{total}}$:** Gross macroscopic volume of the target container or bounding wall.\n- **$f$:** The fractional or percentage space strictly occupied by the filler/mortar (e.g., $1/10$).\n- **$V_{\text{available}}$:** The net volume remaining strictly for the solid objects.\n\n## Boundary Conditions / Domain\n- The fractional void space must be bounded as $0 \leq f < 1$.",
+"back": "## Component Anatomy\n- **$V_{\\text{total}}$:** Gross macroscopic volume of the target container or bounding wall.\n- **$f$:** The fractional or percentage space strictly occupied by the filler/mortar (e.g., $1/10$).\n- **$V_{\\text{available}}$:** The net volume remaining strictly for the solid objects.\n\n## Boundary Conditions / Domain\n- The fractional void space must be bounded as $0 \\leq f < 1$.",
 "formulaMeta": {
-"formula": "V_{\text{available}} = V_{\text{total}} \times (1 - f)",
+"formula": "V_{\\text{available}} = V_{\\text{total}} \\times (1 - f)",
 "description": "Procedural step to geometrically remove filler material from a macroscopic volume.",
-"derivation": "1. Calculate the gross $V_{\text{total}}$ of the bounding 3D shape (e.g., a cuboidal wall utilizing $L \times B \times H$).\n2. Calculate the strict volume occupied exclusively by the filler material: $V_{\text{filler}} = f \times V_{\text{total}}$.\n3. Subtract the filler volume from the gross volume to isolate the available object space: $V_{\text{total}} - (f \times V_{\text{total}})$.\n4. Factor out $V_{\text{total}}$ to yield the streamlined equation."
+"derivation": "1. Calculate the gross $V_{\\text{total}}$ of the bounding 3D shape (e.g., a cuboidal wall utilizing $L \\times B \\times H$).\n2. Calculate the strict volume occupied exclusively by the filler material: $V_{\\text{filler}} = f \\times V_{\\text{total}}$.\n3. Subtract the filler volume from the gross volume to isolate the available object space: $V_{\\text{total}} - (f \\times V_{\\text{total}})$.\n4. Factor out $V_{\\text{total}}$ to yield the streamlined equation."
 }
 }
 },
@@ -653,11 +653,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "counts", "algebra"],
 "order": 28,
 "heading": "Algorithmic SOP: Interstitial Voids (Part 2 - Discrete Object Count)",
-"back": "## Component Anatomy\n- **$V_{\text{available}}$:** The net void-free volume calculated in Part 1.\n- **$V_{\text{unit}}$:** The discrete geometric volume of one single solid item (e.g., one brick).\n- **$n$:** The integer count of discrete items required.\n\n## Boundary Conditions / Domain\n- $V_{\text{unit}} > 0$. Must be converted to the exact same units as $V_{\text{available}}$.",
+"back": "## Component Anatomy\n- **$V_{\\text{available}}$:** The net void-free volume calculated in Part 1.\n- **$V_{\\text{unit}}$:** The discrete geometric volume of one single solid item (e.g., one brick).\n- **$n$:** The integer count of discrete items required.\n\n## Boundary Conditions / Domain\n- $V_{\\text{unit}} > 0$. Must be converted to the exact same units as $V_{\\text{available}}$.",
 "formulaMeta": {
-"formula": "n = \frac{V_{\text{available}}}{V_{\text{unit}}}",
+"formula": "n = \\frac{V_{\\text{available}}}{V_{\\text{unit}}}",
 "description": "Algebraic execution to determine the total number of objects required to fill the remaining available space.",
-"derivation": "1. Independently calculate the volume of a single discrete geometric unit ($V_{\text{unit}}$) using standard formulas.\n2. Ensure the units of the unit volume perfectly match the macroscopic available volume.\n3. Divide the total available pure space by the volume consumed per single object to determine the necessary count."
+"derivation": "1. Independently calculate the volume of a single discrete geometric unit ($V_{\\text{unit}}$) using standard formulas.\n2. Ensure the units of the unit volume perfectly match the macroscopic available volume.\n3. Divide the total available pure space by the volume consumed per single object to determine the necessary count."
 }
 }
 },
@@ -677,11 +677,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "displacement", "algebra"],
 "order": 29,
 "heading": "Algorithmic SOP: Porous Displacement (Part 1 - Gross Solid Volume)",
-"back": "## Component Anatomy\n- **$n$:** The exact number of discrete objects dropped into the liquid reservoir.\n- **$V_{\text{unit}}$:** The geometric bounding volume of a single solid object.\n- **$V_{\text{solid}}$:** The gross combined geometric volume of all inserted objects.\n\n## Boundary Conditions / Domain\n- $n$ must be a positive integer ($n \geq 1$).\n- Objects must be fully submerged to displace their true geometric volume.",
+"back": "## Component Anatomy\n- **$n$:** The exact number of discrete objects dropped into the liquid reservoir.\n- **$V_{\\text{unit}}$:** The geometric bounding volume of a single solid object.\n- **$V_{\\text{solid}}$:** The gross combined geometric volume of all inserted objects.\n\n## Boundary Conditions / Domain\n- $n$ must be a positive integer ($n \\geq 1$).\n- Objects must be fully submerged to displace their true geometric volume.",
 "formulaMeta": {
-"formula": "V_{\text{solid}} = n \times V_{\text{unit}}",
+"formula": "V_{\\text{solid}} = n \\times V_{\\text{unit}}",
 "description": "Initial procedural step calculating the raw spatial volume of the inserted objects before accounting for porosity.",
-"derivation": "1. Determine the fundamental geometric volume of a single object ($V_{\text{unit}}$).\n2. Multiply this unit volume strictly by the quantity of identical objects ($n$) dropped into the tank to find the gross geometric footprint."
+"derivation": "1. Determine the fundamental geometric volume of a single object ($V_{\\text{unit}}$).\n2. Multiply this unit volume strictly by the quantity of identical objects ($n$) dropped into the tank to find the gross geometric footprint."
 }
 }
 },
@@ -700,11 +700,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "displacement", "porosity"],
 "order": 30,
 "heading": "Algorithmic SOP: Porous Displacement (Part 2 - Net Effective Volume)",
-"back": "## Component Anatomy\n- **$V_{\text{solid}}$:** The gross volumetric footprint calculated in Part 1.\n- **$f$:** The specific fraction of the object's volume that it intrinsically absorbs as liquid.\n- **$V_{\text{effective}}$:** The actual net volume of liquid successfully displaced upwards.\n\n## Boundary Conditions / Domain\n- The porosity fraction must be bounded: $0 \leq f < 1$. If $f = 1$, the object is entirely hollow and displaces zero net liquid.",
+"back": "## Component Anatomy\n- **$V_{\\text{solid}}$:** The gross volumetric footprint calculated in Part 1.\n- **$f$:** The specific fraction of the object's volume that it intrinsically absorbs as liquid.\n- **$V_{\\text{effective}}$:** The actual net volume of liquid successfully displaced upwards.\n\n## Boundary Conditions / Domain\n- The porosity fraction must be bounded: $0 \\leq f < 1$. If $f = 1$, the object is entirely hollow and displaces zero net liquid.",
 "formulaMeta": {
-"formula": "V_{\text{effective}} = V_{\text{solid}} \times (1 - f)",
+"formula": "V_{\\text{effective}} = V_{\\text{solid}} \\times (1 - f)",
 "description": "Algebraic execution subtracting the absorbed liquid to find the true effective displacement.",
-"derivation": "1. Calculate the raw volume of water the porous objects absorb internally from the tank: $V_{\text{absorbed}} = f \times V_{\text{solid}}$.\n2. The net positive displacement of the water level is strictly the gross solid footprint minus the absorbed liquid: $V_{\text{effective}} = V_{\text{solid}} - V_{\text{absorbed}}$.\n3. Factor the equation to yield $V_{\text{solid}}(1 - f)$."
+"derivation": "1. Calculate the raw volume of water the porous objects absorb internally from the tank: $V_{\\text{absorbed}} = f \\times V_{\\text{solid}}$.\n2. The net positive displacement of the water level is strictly the gross solid footprint minus the absorbed liquid: $V_{\\text{effective}} = V_{\\text{solid}} - V_{\\text{absorbed}}$.\n3. Factor the equation to yield $V_{\\text{solid}}(1 - f)$."
 }
 }
 },
@@ -767,10 +767,10 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "frustum", "volume"],
 "order": 33,
 "heading": "Core Formula: Volume of a Frustum",
-"back": "## Component Anatomy\n- **$h$:** The strict perpendicular height of the frustum segment.\n- **$r_1, r_2$:** The geometric radii of the two distinct flat circular ends.\n- **$V$:** Total 3D capacity.\n\n## Boundary Conditions / Domain\n- The radii $r_1$ and $r_2$ cannot be equal ($r_1 \neq r_2$); if they are equal, the shape degenerates into a perfect cylinder.",
+"back": "## Component Anatomy\n- **$h$:** The strict perpendicular height of the frustum segment.\n- **$r_1, r_2$:** The geometric radii of the two distinct flat circular ends.\n- **$V$:** Total 3D capacity.\n\n## Boundary Conditions / Domain\n- The radii $r_1$ and $r_2$ cannot be equal ($r_1 \\neq r_2$); if they are equal, the shape degenerates into a perfect cylinder.",
 "mnemonic": "One-third Pi H times the sum of their squares and their product.",
 "formulaMeta": {
-"formula": "V = \frac{1}{3}\pi h (r_1^2 + r_2^2 + r_1 r_2)",
+"formula": "V = \\frac{1}{3}\\pi h (r_1^2 + r_2^2 + r_1 r_2)",
 "description": "The exact algebraic formula utilized to calculate the 3D volume of a right circular cone frustum.",
 "derivation": "Mathematically derived by calculating the theoretical volume of the complete original large cone and strictly subtracting the volume of the smaller 'chopped off' tip cone, utilizing similar triangles to relate heights to radii."
 }
@@ -792,9 +792,9 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "frustum", "geometry"],
 "order": 34,
 "heading": "Geometric Relationship: Slant Height of a Frustum",
-"back": "## Component Anatomy\n- **$l$:** Slant height traversing along the outer curved edge.\n- **$h$:** Strict perpendicular vertical height.\n- **$r_1, r_2$:** Radii of the two distinct circular ends.\n\n## Boundary Conditions / Domain\n- $h > 0$ and $r_1 \neq r_2$.",
+"back": "## Component Anatomy\n- **$l$:** Slant height traversing along the outer curved edge.\n- **$h$:** Strict perpendicular vertical height.\n- **$r_1, r_2$:** Radii of the two distinct circular ends.\n\n## Boundary Conditions / Domain\n- $h > 0$ and $r_1 \\neq r_2$.",
 "formulaMeta": {
-"formula": "l = \sqrt{h^2 + (r_1 - r_2)^2}",
+"formula": "l = \\sqrt{h^2 + (r_1 - r_2)^2}",
 "description": "The exact equation calculating the outer slant height ($l$) of a frustum of a cone.",
 "derivation": "1. Physically draw a 2D vertical cross-section of the frustum, yielding an isosceles trapezoid.\n2. Drop a strict perpendicular $h$ from the top circular edge straight down to the bottom base.\n3. This spatially creates an internal right-angled triangle featuring height $h$, hypotenuse $l$, and a shorter base strictly equivalent to the difference in the radii $(r_1 - r_2)$.\n4. Apply the Pythagorean Theorem to isolate $l$."
 }
@@ -817,11 +817,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "frustum", "area"],
 "order": 35,
 "heading": "Core Formula: Curved Surface Area (CSA) of a Frustum",
-"back": "## Component Anatomy\n- **$l$:** The calculated slant height of the frustum.\n- **$r_1, r_2$:** The two specific radii of the top and bottom circular bases.\n- **$CSA$:** The area covering exclusively the lateral curved shell.\n\n## Boundary Conditions / Domain\n- If slant height $l$ is completely omitted, it must be explicitly derived first using $l = \sqrt{h^2 + (r_1 - r_2)^2}$.",
+"back": "## Component Anatomy\n- **$l$:** The calculated slant height of the frustum.\n- **$r_1, r_2$:** The two specific radii of the top and bottom circular bases.\n- **$CSA$:** The area covering exclusively the lateral curved shell.\n\n## Boundary Conditions / Domain\n- If slant height $l$ is completely omitted, it must be explicitly derived first using $l = \\sqrt{h^2 + (r_1 - r_2)^2}$.",
 "formulaMeta": {
-"formula": "CSA = \pi l (r_1 + r_2)",
+"formula": "CSA = \\pi l (r_1 + r_2)",
 "description": "Standard formula strictly calculating the Lateral/Curved Surface Area of a frustum.",
-"derivation": "Geometrically derived by taking the general cone CSA formula ($\pi r l$) and substituting a structurally modified 'average' radius term generated by the truncation of the top cone."
+"derivation": "Geometrically derived by taking the general cone CSA formula ($\\pi r l$) and substituting a structurally modified 'average' radius term generated by the truncation of the top cone."
 }
 }
 },
@@ -840,11 +840,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "frustum", "area"],
 "order": 36,
 "heading": "Core Formula: Total Surface Area (TSA) of a Frustum",
-"back": "## Component Anatomy\n- **$CSA$:** The Curved Surface Area strictly defining the lateral walls.\n- **$\pi r_1^2, \pi r_2^2$:** The explicit 2D areas of the two distinct flat circular bases.\n\n## Boundary Conditions / Domain\n- Applies only when the frustum is a perfectly closed, solid object. If it is hollow (like a bucket), omit the top missing lid from the calculation.",
+"back": "## Component Anatomy\n- **$CSA$:** The Curved Surface Area strictly defining the lateral walls.\n- **$\\pi r_1^2, \\pi r_2^2$:** The explicit 2D areas of the two distinct flat circular bases.\n\n## Boundary Conditions / Domain\n- Applies only when the frustum is a perfectly closed, solid object. If it is hollow (like a bucket), omit the top missing lid from the calculation.",
 "formulaMeta": {
-"formula": "TSA = \pi l (r_1 + r_2) + \pi r_1^2 + \pi r_2^2",
+"formula": "TSA = \\pi l (r_1 + r_2) + \\pi r_1^2 + \\pi r_2^2",
 "description": "Standard formula calculating the complete Total Surface Area including both distinct flat bases.",
-"derivation": "1. Note that structurally, unlike a standard cone, a frustum explicitly possesses TWO distinct flat circular bases.\n2. Calculate the Lateral/Curved Surface Area utilizing the sum of the radii.\n3. Add the exact geometric area of both the upper base ($\pi r_1^2$) and the lower base ($\pi r_2^2$) to the CSA to seal the solid."
+"derivation": "1. Note that structurally, unlike a standard cone, a frustum explicitly possesses TWO distinct flat circular bases.\n2. Calculate the Lateral/Curved Surface Area utilizing the sum of the radii.\n3. Add the exact geometric area of both the upper base ($\\pi r_1^2$) and the lower base ($\\pi r_2^2$) to the CSA to seal the solid."
 }
 }
 },
@@ -865,11 +865,11 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "cones", "geometry"],
 "order": 37,
 "heading": "Algorithmic SOP: Bisected Cone (Part 1 - Radius Derivation)",
-"back": "## Component Anatomy\n- **$h, r$:** Height and radius of the massive original base cone.\n- **$r_{\text{top}}$:** The newly formed radius of the small cut-off cone.\n\n## Boundary Conditions / Domain\n- The cutting geometric plane must strictly be perfectly parallel to the base.\n- The cut must physically pass exactly through the **mid-point** of the cone's vertical axis (height).",
+"back": "## Component Anatomy\n- **$h, r$:** Height and radius of the massive original base cone.\n- **$r_{\\text{top}}$:** The newly formed radius of the small cut-off cone.\n\n## Boundary Conditions / Domain\n- The cutting geometric plane must strictly be perfectly parallel to the base.\n- The cut must physically pass exactly through the **mid-point** of the cone's vertical axis (height).",
 "formulaMeta": {
-"formula": "r_{\text{top}} = \frac{1}{2} r",
+"formula": "r_{\\text{top}} = \\frac{1}{2} r",
 "description": "Procedural geometric setup utilizing similar triangles to determine the radius of the newly formed top cone.",
-"derivation": "1. Define the original massive cone with total height $h$ and base radius $r$.\n2. The bisection cut is executed exactly at height $\frac{h}{2}$.\n3. Viewing the 2D cross-section, this forms two nested right-angled triangles sharing the top apex angle.\n4. Because the cutting plane is strictly parallel to the base, the two triangles are mathematically similar (AA similarity).\n5. Applying similarity ratios: If height is exactly halved, the corresponding radius $r_{\text{top}}$ must also strictly be halved: $\frac{r}{2}$."
+"derivation": "1. Define the original massive cone with total height $h$ and base radius $r$.\n2. The bisection cut is executed exactly at height $\\frac{h}{2}$.\n3. Viewing the 2D cross-section, this forms two nested right-angled triangles sharing the top apex angle.\n4. Because the cutting plane is strictly parallel to the base, the two triangles are mathematically similar (AA similarity).\n5. Applying similarity ratios: If height is exactly halved, the corresponding radius $r_{\\text{top}}$ must also strictly be halved: $\\frac{r}{2}$."
 }
 }
 },
@@ -888,12 +888,12 @@
 "tags": ["math", "class-10", "surface-areas-volumes", "cones", "ratios"],
 "order": 38,
 "heading": "Algorithmic SOP: Bisected Cone (Part 2 - Volume Ratio)",
-"back": "## Component Anatomy\n- **$V_{\text{original}}$:** Total volume of the initial massive cone.\n- **$V_{\text{top}}$:** Volume of the smaller extracted top cone.\n- **$V_{\text{frustum}}$:** Volume of the remaining base frustum segment.\n\n## Boundary Conditions / Domain\n- Requires accurate extraction of $r_{\text{top}} = \frac{r}{2}$ and $h_{\text{top}} = \frac{h}{2}$.",
+"back": "## Component Anatomy\n- **$V_{\\text{original}}$:** Total volume of the initial massive cone.\n- **$V_{\\text{top}}$:** Volume of the smaller extracted top cone.\n- **$V_{\\text{frustum}}$:** Volume of the remaining base frustum segment.\n\n## Boundary Conditions / Domain\n- Requires accurate extraction of $r_{\\text{top}} = \\frac{r}{2}$ and $h_{\\text{top}} = \\frac{h}{2}$.",
 "mnemonic": "One piece on top, Seven pieces firmly on the bottom.",
 "formulaMeta": {
-"formula": "V_{\text{top}} : V_{\text{frustum}} = 1 : 7",
+"formula": "V_{\\text{top}} : V_{\\text{frustum}} = 1 : 7",
 "description": "Algebraic execution calculating the strict volume ratio between the cut cone and the remaining frustum.",
-"derivation": "1. Calculate the volume of the small top cone by substituting the halved dimensions: $V_{\text{top}} = \frac{1}{3}\pi \left(\frac{r}{2}\right)^2 \left(\frac{h}{2}\right) = \frac{1}{3}\pi \left(\frac{r^2}{4}\right) \left(\frac{h}{2}\right) = \frac{1}{8} \left(\frac{1}{3}\pi r^2 h\right)$.\n2. Note that the term inside the bracket is exactly $V_{\text{original}}$. Thus, $V_{\text{top}} = \frac{1}{8} V_{\text{original}}$.\n3. The remaining frustum volume is the total minus the top: $V_{\text{frustum}} = V_{\text{original}} - \frac{1}{8}V_{\text{original}} = \frac{7}{8}V_{\text{original}}$.\n4. The final mathematical ratio is therefore $\frac{1}{8} : \frac{7}{8}$, which simplifies cleanly to $1 : 7$."
+"derivation": "1. Calculate the volume of the small top cone by substituting the halved dimensions: $V_{\\text{top}} = \\frac{1}{3}\\pi \\left(\\frac{r}{2}\\right)^2 \\left(\\frac{h}{2}\\right) = \\frac{1}{3}\\pi \\left(\\frac{r^2}{4}\\right) \\left(\\frac{h}{2}\\right) = \\frac{1}{8} \\left(\\frac{1}{3}\\pi r^2 h\\right)$.\n2. Note that the term inside the bracket is exactly $V_{\\text{original}}$. Thus, $V_{\\text{top}} = \\frac{1}{8} V_{\\text{original}}$.\n3. The remaining frustum volume is the total minus the top: $V_{\\text{frustum}} = V_{\\text{original}} - \\frac{1}{8}V_{\\text{original}} = \\frac{7}{8}V_{\\text{original}}$.\n4. The final mathematical ratio is therefore $\\frac{1}{8} : \\frac{7}{8}$, which simplifies cleanly to $1 : 7$."
 }
 }
 },

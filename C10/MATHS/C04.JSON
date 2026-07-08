@@ -14,7 +14,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 1,
 "heading": "Standard Form of a Quadratic Equation",
-"back": "## Standard Form\nA quadratic equation in the variable $x$ is strictly written in the descending order of its degrees as **$ax^2 + bx + c = 0$**.\n\n## Boundary Conditions / Domain\n- The leading coefficient of $x^2$ must strictly be non-zero (**$a \neq 0$**).\n- If $a = 0$, the $x^2$ term vanishes, mathematically reducing it to a linear equation.\n- Coefficients $a, b$, and $c$ must be real numbers.",
+"back": "## Standard Form\nA quadratic equation in the variable $x$ is strictly written in the descending order of its degrees as **$ax^2 + bx + c = 0$**.\n\n## Boundary Conditions / Domain\n- The leading coefficient of $x^2$ must strictly be non-zero (**$a \\neq 0$**).\n- If $a = 0$, the $x^2$ term vanishes, mathematically reducing it to a linear equation.\n- Coefficients $a, b$, and $c$ must be real numbers.",
 "standardMeta": {
 "question": "What is the standard algebraic form of a quadratic equation, and what is the strict boundary condition applied to its leading coefficient?"
 }
@@ -33,7 +33,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10"],
 "order": 2,
 "heading": "Pure vs. Complete Quadratic Equations",
-"back": "## Complete Quadratic Equation\nTakes the form $ax^2 + bx + c = 0$ where all coefficients are strictly non-zero ($a \neq 0, b \neq 0, c \neq 0$).\n\n## Pure Quadratic Equation\nTakes the specific form **$ax^2 + c = 0$**.\n- It strictly lacks the linear $x$ term because its coefficient is zero (**$b = 0$**).\n- **Significance:** Pure quadratic equations don't require the quadratic formula or splitting the middle term; they can be solved by direct square rooting.",
+"back": "## Complete Quadratic Equation\nTakes the form $ax^2 + bx + c = 0$ where all coefficients are strictly non-zero ($a \\neq 0, b \\neq 0, c \\neq 0$).\n\n## Pure Quadratic Equation\nTakes the specific form **$ax^2 + c = 0$**.\n- It strictly lacks the linear $x$ term because its coefficient is zero (**$b = 0$**).\n- **Significance:** Pure quadratic equations don't require the quadratic formula or splitting the middle term; they can be solved by direct square rooting.",
 "mnemonic": "Pure means purely squares and constants.",
 "standardMeta": {
 "question": "What is the mathematical distinction between a Complete Quadratic Equation and a Pure Quadratic Equation, specifically regarding their coefficients?"
@@ -53,7 +53,7 @@
 "tags": ["math", "quadratic-equations", "polynomials", "class-10"],
 "order": 3,
 "heading": "Roots vs. Zeroes Concept",
-"back": "## Zeroes\nAssociated with a quadratic *polynomial* $p(x) = ax^2 + bx + c$.\nIt is the mathematical value of $x$ that makes the polynomial evaluate to zero.\n\n## Roots (or Solutions)\nAssociated with a quadratic *equation* $ax^2 + bx + c = 0$.\nIt is the value of $\alpha$ such that $a\alpha^2 + b\alpha + c = 0$.\n\n## The Connection\nThe zeroes of a quadratic polynomial are mathematically identical to the roots of its corresponding quadratic equation.",
+"back": "## Zeroes\nAssociated with a quadratic *polynomial* $p(x) = ax^2 + bx + c$.\nIt is the mathematical value of $x$ that makes the polynomial evaluate to zero.\n\n## Roots (or Solutions)\nAssociated with a quadratic *equation* $ax^2 + bx + c = 0$.\nIt is the value of $\\alpha$ such that $a\\alpha^2 + b\\alpha + c = 0$.\n\n## The Connection\nThe zeroes of a quadratic polynomial are mathematically identical to the roots of its corresponding quadratic equation.",
 "mnemonic": "Polynomials have Zeroes; Equations have Roots (but they are the exact same numbers).",
 "standardMeta": {
 "question": "What is the specific mathematical distinction and connection between the 'zeroes' of a quadratic polynomial and the 'roots' of a quadratic equation?"
@@ -73,7 +73,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10"],
 "order": 4,
 "heading": "The Zero Product Property",
-"back": "## The Rule\nIf the product of two mathematical expressions is strictly zero ($A \times B = 0$), then mathematically, either **$A = 0$**, or **$B = 0$**, or **both**.\n\n## Application\nThis is the core logical foundation used when solving quadratic equations by the factorisation method. After splitting the middle term to get $(x - p)(x - q) = 0$, this property allows us to equate each linear factor to zero independently to extract the roots.",
+"back": "## The Rule\nIf the product of two mathematical expressions is strictly zero ($A \\times B = 0$), then mathematically, either **$A = 0$**, or **$B = 0$**, or **both**.\n\n## Application\nThis is the core logical foundation used when solving quadratic equations by the factorisation method. After splitting the middle term to get $(x - p)(x - q) = 0$, this property allows us to equate each linear factor to zero independently to extract the roots.",
 "standardMeta": {
 "question": "What is the 'Zero Product Property', and why is it the logical foundation for solving quadratic equations via factorisation?"
 }
@@ -92,10 +92,10 @@
 "tags": ["math", "quadratic-equations", "factorisation", "class-10"],
 "order": 5,
 "heading": "SOP: Splitting the Middle Term (Factorisation)",
-"back": "## Component Anatomy\n- **$a, b, c$**: Coefficients of $ax^2 + bx + c = 0$.\n- **$p, q$**: Two strategically chosen real numbers.\n\n## Boundary Conditions / Domain\n- The quadratic equation must possess strictly real and rational roots for this algorithm to yield simple linear factors.\n- $a \neq 0$.",
+"back": "## Component Anatomy\n- **$a, b, c$**: Coefficients of $ax^2 + bx + c = 0$.\n- **$p, q$**: Two strategically chosen real numbers.\n\n## Boundary Conditions / Domain\n- The quadratic equation must possess strictly real and rational roots for this algorithm to yield simple linear factors.\n- $a \\neq 0$.",
 "mnemonic": "Product is AC, Sum is B.",
 "formulaMeta": {
-"formula": "p + q = b \quad \text{and} \quad p \times q = a \times c",
+"formula": "p + q = b \\quad \\text{and} \\quad p \\times q = a \\times c",
 "description": "Algorithmic conditions required to factorise a quadratic equation by splitting its middle term.",
 "derivation": "1. **Multiply** the leading coefficient '$a$' and the constant '$c$' to get the target product ($ac$).\n2. **Find** two numbers $p$ and $q$ that multiply to this target product ($ac$) AND add up to the middle coefficient ($b$).\n3. **Rewrite** the middle term $bx$ as $px + qx$.\n4. **Factor** by grouping the first two terms and the last two terms to extract common linear brackets.\n5. **Equate** each bracket to zero (Zero Product Property) to find the roots."
 }
@@ -114,11 +114,11 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10"],
 "order": 6,
 "heading": "SOP: Solving Pure Quadratic Equations",
-"back": "## Component Anatomy\n- **$a$**: Coefficient of $x^2$.\n- **$c$**: Constant term.\n\n## Boundary Conditions / Domain\n- The fraction $\frac{-c}{a}$ MUST be strictly $\geq 0$ to stay within the domain of real numbers.\n- If $a$ and $c$ have the *same* sign, the fraction becomes negative, leading strictly to imaginary/no real roots.",
+"back": "## Component Anatomy\n- **$a$**: Coefficient of $x^2$.\n- **$c$**: Constant term.\n\n## Boundary Conditions / Domain\n- The fraction $\\frac{-c}{a}$ MUST be strictly $\\geq 0$ to stay within the domain of real numbers.\n- If $a$ and $c$ have the *same* sign, the fraction becomes negative, leading strictly to imaginary/no real roots.",
 "formulaMeta": {
-"formula": "x = \pm \sqrt{\frac{-c}{a}}",
+"formula": "x = \\pm \\sqrt{\\frac{-c}{a}}",
 "description": "Direct formula and algebraic procedure to solve a Pure Quadratic Equation ($ax^2 + c = 0$).",
-"derivation": "1. Isolate the $x^2$ term by moving the constant to the other side: $ax^2 = -c$.\n2. Divide by the leading coefficient: $x^2 = \frac{-c}{a}$.\n3. Take the square root of both sides, ensuring you strictly place a $\pm$ symbol to capture both the positive and negative real roots: $x = \pm \sqrt{\frac{-c}{a}}$."
+"derivation": "1. Isolate the $x^2$ term by moving the constant to the other side: $ax^2 = -c$.\n2. Divide by the leading coefficient: $x^2 = \\frac{-c}{a}$.\n3. Take the square root of both sides, ensuring you strictly place a $\\pm$ symbol to capture both the positive and negative real roots: $x = \\pm \\sqrt{\\frac{-c}{a}}$."
 }
 }
 },
@@ -135,7 +135,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 7,
 "heading": "The Discriminant",
-"back": "## Component Anatomy\n- **$D$**: The Discriminant.\n- **$a$**: Coefficient of $x^2$.\n- **$b$**: Coefficient of $x$.\n- **$c$**: Constant term.\n\n## Boundary Conditions / Domain\n- The equation must strictly be aligned in standard form $ax^2 + bx + c = 0$ before extracting $a, b$, and $c$.\n- The leading coefficient $a \neq 0$.",
+"back": "## Component Anatomy\n- **$D$**: The Discriminant.\n- **$a$**: Coefficient of $x^2$.\n- **$b$**: Coefficient of $x$.\n- **$c$**: Constant term.\n\n## Boundary Conditions / Domain\n- The equation must strictly be aligned in standard form $ax^2 + bx + c = 0$ before extracting $a, b$, and $c$.\n- The leading coefficient $a \\neq 0$.",
 "formulaMeta": {
 "formula": "D = b^2 - 4ac",
 "description": "Algebraic formula for the Discriminant of a quadratic equation.",
@@ -156,7 +156,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 8,
 "heading": "Nature of Roots: Two Distinct Real Roots",
-"back": "## Mathematical Condition\nThe discriminant must be strictly greater than zero (**$D > 0$**).\n\n## Algebraic Meaning\n$b^2 - 4ac > 0$. Evaluating the quadratic formula yields two unique real answers due to the $\pm$ operation on a positive radical.\n\n## Geometric Meaning\nThe parabolic graph of the quadratic polynomial intersects the x-axis at **exactly two distinct points**.",
+"back": "## Mathematical Condition\nThe discriminant must be strictly greater than zero (**$D > 0$**).\n\n## Algebraic Meaning\n$b^2 - 4ac > 0$. Evaluating the quadratic formula yields two unique real answers due to the $\\pm$ operation on a positive radical.\n\n## Geometric Meaning\nThe parabolic graph of the quadratic polynomial intersects the x-axis at **exactly two distinct points**.",
 "mnemonic": "Positive D = Two distinct roots.",
 "standardMeta": {
 "question": "What is the exact strict mathematical condition involving the discriminant for a quadratic equation to possess two distinct real roots?"
@@ -196,7 +196,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 10,
 "heading": "Nature of Roots: No Real Roots",
-"back": "## Mathematical Condition\nThe discriminant must be strictly less than zero (**$D < 0$**).\n\n## Algebraic Meaning\n$b^2 - 4ac < 0$. Taking the square root of a negative number yields imaginary/complex numbers, hence no *real* roots exist in $\mathbb{R}$.\n\n## Geometric Meaning\nThe parabolic graph of the quadratic polynomial **never intersects or touches** the x-axis (it lies entirely above or entirely below it).",
+"back": "## Mathematical Condition\nThe discriminant must be strictly less than zero (**$D < 0$**).\n\n## Algebraic Meaning\n$b^2 - 4ac < 0$. Taking the square root of a negative number yields imaginary/complex numbers, hence no *real* roots exist in $\\mathbb{R}$.\n\n## Geometric Meaning\nThe parabolic graph of the quadratic polynomial **never intersects or touches** the x-axis (it lies entirely above or entirely below it).",
 "mnemonic": "Negative D = No real roots.",
 "standardMeta": {
 "question": "What is the exact strict mathematical condition involving the discriminant for a quadratic equation to possess no real roots?"
@@ -216,10 +216,10 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 11,
 "heading": "The Quadratic Formula (Sridharacharya Formula)",
-"back": "## Component Anatomy\n- **$x$**: The roots of the quadratic equation.\n- **$a, b, c$**: The coefficients from the standard form $ax^2 + bx + c = 0$.\n\n## Boundary Conditions / Domain\n- **$a \neq 0$** (Otherwise division by zero occurs).\n- **$b^2 - 4ac \geq 0$** (Strict requirement for the roots to exist in the real number system $\mathbb{R}$).",
+"back": "## Component Anatomy\n- **$x$**: The roots of the quadratic equation.\n- **$a, b, c$**: The coefficients from the standard form $ax^2 + bx + c = 0$.\n\n## Boundary Conditions / Domain\n- **$a \\neq 0$** (Otherwise division by zero occurs).\n- **$b^2 - 4ac \\geq 0$** (Strict requirement for the roots to exist in the real number system $\\mathbb{R}$).",
 "mnemonic": "Negative boy could not decide whether to go to a radical party, but he was square and missed out on 4 awesome chicks. All over 2 apples.",
 "formulaMeta": {
-"formula": "x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}",
+"formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
 "description": "The general Quadratic Formula used to compute the exact real roots of a quadratic equation.",
 "derivation": "Derived algebraically by applying the method of 'completing the square' to the standard general form $ax^2 + bx + c = 0$."
 }
@@ -238,11 +238,11 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10"],
 "order": 12,
 "heading": "Direct Formula for Equal Roots ($D=0$)",
-"back": "## Component Anatomy\n- **$x$**: The singular mathematically repeated root.\n- **$a, b$**: Coefficients from $ax^2 + bx + c = 0$.\n\n## Boundary Conditions / Domain\n- This algebraic shortcut formula is mathematically valid **ONLY IF** the discriminant $b^2 - 4ac = 0$.\n- Leading coefficient $a \neq 0$.",
+"back": "## Component Anatomy\n- **$x$**: The singular mathematically repeated root.\n- **$a, b$**: Coefficients from $ax^2 + bx + c = 0$.\n\n## Boundary Conditions / Domain\n- This algebraic shortcut formula is mathematically valid **ONLY IF** the discriminant $b^2 - 4ac = 0$.\n- Leading coefficient $a \\neq 0$.",
 "formulaMeta": {
-"formula": "x = \frac{-b}{2a}",
+"formula": "x = \\frac{-b}{2a}",
 "description": "Simplified Quadratic Formula when a quadratic equation has two equal real roots.",
-"derivation": "1. Start with the full Quadratic Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.\n2. Apply the equal roots boundary condition: $b^2 - 4ac = 0$.\n3. The square root term vanishes entirely, leaving exactly $x = \frac{-b \pm 0}{2a}$, which simplifies directly to $x = \frac{-b}{2a}$."
+"derivation": "1. Start with the full Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\n2. Apply the equal roots boundary condition: $b^2 - 4ac = 0$.\n3. The square root term vanishes entirely, leaving exactly $x = \\frac{-b \\pm 0}{2a}$, which simplifies directly to $x = \\frac{-b}{2a}$."
 }
 }
 },
@@ -281,12 +281,12 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 14,
 "heading": "Condition for Equal but Opposite Roots",
-"back": "## Component Anatomy\n- **$b$**: Coefficient of the linear $x$ term.\n- **$a, c$**: Leading coefficient and constant term.\n\n## Boundary Conditions / Domain\n- $a \neq 0$.\n- To yield *real* roots that are equal and mathematically opposite, the discriminant must be $>0$, which strictly requires **$a$ and $c$ to have opposite signs** ($ac < 0$).",
+"back": "## Component Anatomy\n- **$b$**: Coefficient of the linear $x$ term.\n- **$a, c$**: Leading coefficient and constant term.\n\n## Boundary Conditions / Domain\n- $a \\neq 0$.\n- To yield *real* roots that are equal and mathematically opposite, the discriminant must be $>0$, which strictly requires **$a$ and $c$ to have opposite signs** ($ac < 0$).",
 "mnemonic": "Opposite roots annihilate the middle.",
 "formulaMeta": {
-"formula": "b = 0 \quad \text{with} \quad ac < 0",
+"formula": "b = 0 \\quad \\text{with} \\quad ac < 0",
 "description": "Algebraic coefficient condition for a quadratic equation to possess roots that are numerically equal but opposite in sign.",
-"derivation": "1. Let the two roots be $\alpha$ and $-\alpha$.\n2. The sum of the roots is $\alpha + (-\alpha) = 0$.\n3. Using the sum of roots formula: $-b/a = 0 \implies b = 0$.\n4. The equation physically reduces to the pure quadratic form $ax^2 + c = 0$, giving $x^2 = -c/a$.\n5. For $x$ to be real, $-c/a$ must strictly be positive, requiring opposite signs for $a$ and $c$."
+"derivation": "1. Let the two roots be $\\alpha$ and $-\\alpha$.\n2. The sum of the roots is $\\alpha + (-\\alpha) = 0$.\n3. Using the sum of roots formula: $-b/a = 0 \\implies b = 0$.\n4. The equation physically reduces to the pure quadratic form $ax^2 + c = 0$, giving $x^2 = -c/a$.\n5. For $x$ to be real, $-c/a$ must strictly be positive, requiring opposite signs for $a$ and $c$."
 }
 }
 },
@@ -305,7 +305,7 @@
 "heading": "SOP: Completing the Square (Step 1 - Normalization)",
 "back": "## Component Anatomy\n- **$a, b, c$**: Original coefficients from $ax^2 + bx + c = 0$.\n\n## Boundary Conditions / Domain\n- The leading coefficient $a$ MUST mathematically be factored out or divided away so that the coefficient of $x^2$ is exactly $1$ before attempting to construct the perfect square.",
 "formulaMeta": {
-"formula": "x^2 + \frac{b}{a}x + \frac{c}{a} = 0",
+"formula": "x^2 + \\frac{b}{a}x + \\frac{c}{a} = 0",
 "description": "The crucial first normalization step before completing the square.",
 "derivation": "1. Ensure the equation is aligned in standard form $ax^2 + bx + c = 0$.\n2. Divide every single term on both sides by the leading coefficient $a$ to force the $x^2$ term to have a coefficient of $1$."
 }
@@ -324,12 +324,12 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10"],
 "order": 16,
 "heading": "SOP: Completing the Square (Step 2 - Perfect Square Formation)",
-"back": "## Component Anatomy\n- **$b/a$**: The new linear coefficient of $x$ after normalization.\n- **$\left(\frac{b}{2a}\right)^2$**: The exact algebraic term added and subtracted to complete the identity.\n\n## Boundary Conditions / Domain\n- This step strictly assumes the $x^2$ coefficient has already been normalized to 1.",
+"back": "## Component Anatomy\n- **$b/a$**: The new linear coefficient of $x$ after normalization.\n- **$\\left(\\frac{b}{2a}\\right)^2$**: The exact algebraic term added and subtracted to complete the identity.\n\n## Boundary Conditions / Domain\n- This step strictly assumes the $x^2$ coefficient has already been normalized to 1.",
 "mnemonic": "Half it, square it, add it, subtract it.",
 "formulaMeta": {
-"formula": "\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 + \frac{c}{a} = 0",
+"formula": "\\left(x + \\frac{b}{2a}\\right)^2 - \\left(\\frac{b}{2a}\\right)^2 + \\frac{c}{a} = 0",
 "description": "The exact algebraic execution to form the perfect square.",
-"derivation": "1. Take the coefficient of the middle term $x$ (which is now $\frac{b}{a}$).\n2. Halve it: $\frac{b}{2a}$.\n3. Square it: $\left(\frac{b}{2a}\right)^2$.\n4. Add and immediately subtract this term to mathematically form the perfect square without changing the equation's value."
+"derivation": "1. Take the coefficient of the middle term $x$ (which is now $\\frac{b}{a}$).\n2. Halve it: $\\frac{b}{2a}$.\n3. Square it: $\\left(\\frac{b}{2a}\\right)^2$.\n4. Add and immediately subtract this term to mathematically form the perfect square without changing the equation's value."
 }
 }
 },
@@ -346,9 +346,9 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 17,
 "heading": "Equation Trap: Hidden Fractional Variables",
-"back": "## The Trap\nAn equation like $x + \frac{1}{x} = 3$ looks linear or non-quadratic because the highest visible degree is 1, and there is a variable embedded in the denominator.\n\n## The Resolution\nYou must multiply the entire equation by the LCD (here, $x$) to completely clear the denominator.\n- **Result:** $x^2 + 1 = 3x \implies x^2 - 3x + 1 = 0$.\n- It mathematically transforms into a standard quadratic equation.\n\n## Boundary Conditions / Domain\n- Strictly **$x \neq 0$**. If the resulting quadratic yields a root of $x=0$, it must be instantly rejected as an extraneous root since it violates the original fractional domain.",
+"back": "## The Trap\nAn equation like $x + \\frac{1}{x} = 3$ looks linear or non-quadratic because the highest visible degree is 1, and there is a variable embedded in the denominator.\n\n## The Resolution\nYou must multiply the entire equation by the LCD (here, $x$) to completely clear the denominator.\n- **Result:** $x^2 + 1 = 3x \\implies x^2 - 3x + 1 = 0$.\n- It mathematically transforms into a standard quadratic equation.\n\n## Boundary Conditions / Domain\n- Strictly **$x \\neq 0$**. If the resulting quadratic yields a root of $x=0$, it must be instantly rejected as an extraneous root since it violates the original fractional domain.",
 "standardMeta": {
-"question": "If presented with an equation containing a variable in the denominator, such as $x + \frac{1}{x} = 3$, how do you correctly deduce whether it is a quadratic equation?"
+"question": "If presented with an equation containing a variable in the denominator, such as $x + \\frac{1}{x} = 3$, how do you correctly deduce whether it is a quadratic equation?"
 }
 }
 },
@@ -385,10 +385,10 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 19,
 "heading": "Pre-Conditioning Domain in Rational Equations",
-"back": "## The Procedure\nBefore performing LCM or cross-multiplying, you must explicitly write down the mathematically undefined boundary conditions where the denominators equal zero (e.g., strictly **$x \neq -4$** and **$x \neq 7$**).\n\n## The Trap (Extraneous Roots)\nDuring algebraic expansion, equations transform, losing their original rational constraints. If the resulting quadratic yields a root like $x = 7$, it is an **extraneous root** created purely by the cross-multiplication process. It MUST be rejected to prevent a mathematically undefined $1/0$ state in the original problem statement.",
+"back": "## The Procedure\nBefore performing LCM or cross-multiplying, you must explicitly write down the mathematically undefined boundary conditions where the denominators equal zero (e.g., strictly **$x \\neq -4$** and **$x \\neq 7$**).\n\n## The Trap (Extraneous Roots)\nDuring algebraic expansion, equations transform, losing their original rational constraints. If the resulting quadratic yields a root like $x = 7$, it is an **extraneous root** created purely by the cross-multiplication process. It MUST be rejected to prevent a mathematically undefined $1/0$ state in the original problem statement.",
 "mnemonic": "Check the basement before you multiply the house.",
 "standardMeta": {
-"question": "When solving fractional equations reducible to quadratics, like $\frac{1}{x+4} - \frac{1}{x-7} = \frac{11}{30}$, what is the mandatory algebraic first step before cross-multiplying, and why?"
+"question": "When solving fractional equations reducible to quadratics, like $\\frac{1}{x+4} - \\frac{1}{x-7} = \\frac{11}{30}$, what is the mandatory algebraic first step before cross-multiplying, and why?"
 }
 }
 },
@@ -407,9 +407,9 @@
 "heading": "SOP: Biquadratic Equations (Reducible Forms)",
 "back": "## Component Anatomy\n- **$x$**: The original variable in the degree 4 polynomial equation.\n- **$y$**: The temporary substitution variable utilized to reduce the degree.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Since $y = x^2$ and the square of any real number is strictly non-negative, any calculated root where **$y < 0$ MUST be rejected** if you are asked to find strictly real values for $x$.",
 "formulaMeta": {
-"formula": "x^2 = y \implies ay^2 + by + c = 0",
+"formula": "x^2 = y \\implies ay^2 + by + c = 0",
 "description": "Standard Operating Procedure to extract the real roots of a biquadratic polynomial equation.",
-"derivation": "1. **Substitute:** Let $x^2 = y$. This transforms the degree 4 equation down into a standard quadratic: $ay^2 + by + c = 0$.\n2. **Solve:** Use factorisation or the quadratic formula to find the two roots for $y$ ($y_1, y_2$).\n3. **Filter:** Strict Domain check; discard any $y$ roots that are negative.\n4. **Invert:** Set $x^2 = y_1$ and $x^2 = y_2$ for the valid positive roots. Take the square root (including $\pm$) to compute the final (up to 4) real values for $x$."
+"derivation": "1. **Substitute:** Let $x^2 = y$. This transforms the degree 4 equation down into a standard quadratic: $ay^2 + by + c = 0$.\n2. **Solve:** Use factorisation or the quadratic formula to find the two roots for $y$ ($y_1, y_2$).\n3. **Filter:** Strict Domain check; discard any $y$ roots that are negative.\n4. **Invert:** Set $x^2 = y_1$ and $x^2 = y_2$ for the valid positive roots. Take the square root (including $\\pm$) to compute the final (up to 4) real values for $x$."
 }
 }
 },
@@ -426,7 +426,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 21,
 "heading": "The Quadratic Identity Exception",
-"back": "## The Core Rule\nA standard quadratic equation mathematically strictly has at most 2 distinct roots.\n\n## The Exception\nIf a mathematical premise states that an equation of the form $ax^2 + bx + c = 0$ is satisfied by **more than two distinct values** of $x$, it ceases to be an equation and structurally becomes an **Identity** (a statement true for all real numbers $\mathbb{R}$).\n\n## Coefficient Consequence\nFor a quadratic expression to evaluate to zero for all possible values of $x$, every single coefficient must individually be strictly zero: **$a = 0, b = 0, c = 0$**.",
+"back": "## The Core Rule\nA standard quadratic equation mathematically strictly has at most 2 distinct roots.\n\n## The Exception\nIf a mathematical premise states that an equation of the form $ax^2 + bx + c = 0$ is satisfied by **more than two distinct values** of $x$, it ceases to be an equation and structurally becomes an **Identity** (a statement true for all real numbers $\\mathbb{R}$).\n\n## Coefficient Consequence\nFor a quadratic expression to evaluate to zero for all possible values of $x$, every single coefficient must individually be strictly zero: **$a = 0, b = 0, c = 0$**.",
 "mnemonic": "More than two? It's an identity, all coeffs are zero.",
 "standardMeta": {
 "question": "Under what strict algebraic coefficient condition can an equation of the form $ax^2 + bx + c = 0$ be satisfied by MORE than two distinct real values of $x$?"
@@ -446,7 +446,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 22,
 "heading": "Conjugate Pair Theorem for Irrational Roots",
-"back": "## The Theorem\nIf a quadratic equation $ax^2 + bx + c = 0$ has strictly **rational coefficients** ($a, b, c \in \mathbb{Q}$), and one of its roots is an irrational surd of the form $p + \sqrt{q}$, then the other root is mathematically guaranteed to be its exact algebraic conjugate, **$p - \sqrt{q}$**.\n\n## The Exam Trap / Boundary Condition\nThis theorem strictly fails if the coefficients themselves are irrational numbers (e.g., $x^2 - \sqrt{3}x = 0$). You must ALWAYS logically verify that the coefficients are rational before automatically assuming roots exist in conjugate pairs.",
+"back": "## The Theorem\nIf a quadratic equation $ax^2 + bx + c = 0$ has strictly **rational coefficients** ($a, b, c \\in \\mathbb{Q}$), and one of its roots is an irrational surd of the form $p + \\sqrt{q}$, then the other root is mathematically guaranteed to be its exact algebraic conjugate, **$p - \\sqrt{q}$**.\n\n## The Exam Trap / Boundary Condition\nThis theorem strictly fails if the coefficients themselves are irrational numbers (e.g., $x^2 - \\sqrt{3}x = 0$). You must ALWAYS logically verify that the coefficients are rational before automatically assuming roots exist in conjugate pairs.",
 "mnemonic": "Rational coeffs keep surds in pairs.",
 "standardMeta": {
 "question": "Under what strict mathematical condition regarding its coefficients will a quadratic equation's irrational roots always appear in conjugate pairs?"
@@ -466,7 +466,7 @@
 "tags": ["math", "quadratic-equations", "algebra", "class-10", "jee-main"],
 "order": 23,
 "heading": "Edge-Case: Sum of Positive Powers Trap",
-"back": "## The Trap\nEquations like $(x^2 + 1)^2 - x^2 = 0$ appear to have roots upon initial graphical inspection.\n\n## Algebraic Expansion\nExpanding logically yields $x^4 + 2x^2 + 1 - x^2 = 0 \implies x^4 + x^2 + 1 = 0$.\n\n## Logical Proof\n- For any real number $x$, the terms $x^4 \ge 0$ and $x^2 \ge 0$.\n- Adding a strict positive constant ($+1$) guarantees the expression is strictly $\ge 1$.\n- **Conclusion:** It can never physically equal zero. Therefore, it possesses **absolutely no real roots**, circumventing the entire need for the discriminant formula.",
+"back": "## The Trap\nEquations like $(x^2 + 1)^2 - x^2 = 0$ appear to have roots upon initial graphical inspection.\n\n## Algebraic Expansion\nExpanding logically yields $x^4 + 2x^2 + 1 - x^2 = 0 \\implies x^4 + x^2 + 1 = 0$.\n\n## Logical Proof\n- For any real number $x$, the terms $x^4 \\ge 0$ and $x^2 \\ge 0$.\n- Adding a strict positive constant ($+1$) guarantees the expression is strictly $\\ge 1$.\n- **Conclusion:** It can never physically equal zero. Therefore, it possesses **absolutely no real roots**, circumventing the entire need for the discriminant formula.",
 "standardMeta": {
 "question": "Without mathematically calculating a discriminant, how do you logically prove that the equation $(x^2 + 1)^2 - x^2 = 0$ possesses absolutely zero real roots?"
 }
@@ -505,9 +505,9 @@
 "tags": ["math", "quadratic-equations", "word-problems", "class-10", "jee-main"],
 "order": 25,
 "heading": "Word Problem Archetype: Consecutive Integers",
-"back": "## Component Anatomy\n- **$x$**: The base first integer.\n- **$x+1$**: The strictly next sequential integer.\n\n## Boundary Conditions / Domain\n- $x \in \mathbb{Z}$ (Must strictly mathematically evaluate to an integer).\n- If the specific problem requests 'positive integers', discard any negative root found during final evaluation.",
+"back": "## Component Anatomy\n- **$x$**: The base first integer.\n- **$x+1$**: The strictly next sequential integer.\n\n## Boundary Conditions / Domain\n- $x \\in \\mathbb{Z}$ (Must strictly mathematically evaluate to an integer).\n- If the specific problem requests 'positive integers', discard any negative root found during final evaluation.",
 "formulaMeta": {
-"formula": "x \quad \text{and} \quad x + 1",
+"formula": "x \\quad \\text{and} \\quad x + 1",
 "description": "Standard algebraic assignment for modeling 'two consecutive integers' in quadratic word problems.",
 "derivation": "1. Set the first unknown integer as $x$.\n2. Set the consecutive integer as $x + 1$.\n3. If the problem states the product is $P$, structurally form the equation $x(x+1) = P$.\n4. If it says the sum of their squares is $S$, structurally form $x^2 + (x+1)^2 = S$."
 }
@@ -526,9 +526,9 @@
 "tags": ["math", "quadratic-equations", "word-problems", "class-10", "jee-main"],
 "order": 26,
 "heading": "Word Problem Archetype: Consecutive Odd/Even Integers",
-"back": "## Component Anatomy\n- **$x$**: The base first odd or even integer.\n- **$x+2$**: The strictly next consecutive odd or even integer.\n\n## Boundary Conditions / Domain\n- $x \in \mathbb{Z}$ (Must strictly evaluate to an integer).\n- Note that whether the problem asks for EVEN or ODD integers, the algebraic jump between them is mathematically identical (+2). Reject any root that does not match the requested parity (odd/even).",
+"back": "## Component Anatomy\n- **$x$**: The base first odd or even integer.\n- **$x+2$**: The strictly next consecutive odd or even integer.\n\n## Boundary Conditions / Domain\n- $x \\in \\mathbb{Z}$ (Must strictly evaluate to an integer).\n- Note that whether the problem asks for EVEN or ODD integers, the algebraic jump between them is mathematically identical (+2). Reject any root that does not match the requested parity (odd/even).",
 "formulaMeta": {
-"formula": "x \quad \text{and} \quad x + 2",
+"formula": "x \\quad \\text{and} \\quad x + 2",
 "description": "Standard algebraic assignment for modeling 'two consecutive EVEN integers' or 'two consecutive ODD integers'.",
 "derivation": "1. Odd numbers (e.g., 3, 5, 7) and even numbers (e.g., 4, 6, 8) both intrinsically skip by 2.\n2. Set the first integer as $x$.\n3. Set the next consecutive integer as $x + 2$.\n4. Apply the given condition (e.g., setting the product as $P$ yields $x(x+2) = P$)."
 }
@@ -549,7 +549,7 @@
 "heading": "Word Problem Archetype: Ages and their Product",
 "back": "## Component Anatomy\n- **$x$**: Present age of the first individual.\n- **$S - x$**: Present age of the second individual (derived from a given sum $S$).\n- **$t$**: Time shift in years (e.g., '4 years ago' translates to $-4$).\n- **$P$**: The given constant product of their shifted ages.\n\n## Boundary Conditions / Domain\n- All calculated present ages must strictly be positive ($x > 0$ and $S - x > 0$).\n- **Physical Reality Check:** Verify if mathematically valid shifted past ages are physically possible (e.g., a child cannot have an age of -2 four years ago).",
 "formulaMeta": {
-"formula": "(x \pm t) \times ((S - x) \pm t) = P",
+"formula": "(x \\pm t) \\times ((S - x) \\pm t) = P",
 "description": "Standard algebraic equation framework for a problem involving the product of two individuals' ages shifted to the past or future.",
 "derivation": "1. Express both present ages in terms of a single variable $x$ (often using a given sum $S$).\n2. Shift both ages uniformly by adding or subtracting the specific time gap $t$.\n3. Multiply the two new shifted age expressions together.\n4. Set the resulting quadratic expression equal to the given product $P$."
 }
@@ -572,7 +572,7 @@
 "formulaMeta": {
 "formula": "x^2 + (x - k)^2 = H^2",
 "description": "Fundamental theorem application to model quadratic equations based on the sides of a right-angled triangle.",
-"derivation": "1. Identify the base and altitude in terms of a single variable $x$.\n2. Apply the Pythagorean Theorem rigidly: $(\text{Base})^2 + (\text{Altitude})^2 = (\text{Hypotenuse})^2$.\n3. Expand the binomial $(x-k)^2$ bracket.\n4. Collect all terms to one side to form the standard $ax^2+bx+c=0$ equation."
+"derivation": "1. Identify the base and altitude in terms of a single variable $x$.\n2. Apply the Pythagorean Theorem rigidly: $(\\text{Base})^2 + (\\text{Altitude})^2 = (\\text{Hypotenuse})^2$.\n3. Expand the binomial $(x-k)^2$ bracket.\n4. Collect all terms to one side to form the standard $ax^2+bx+c=0$ equation."
 }
 }
 },
@@ -591,9 +591,9 @@
 "heading": "Word Problem Archetype: Rectangle from Perimeter & Area",
 "back": "## Component Anatomy\n- **$P$**: Given constant perimeter.\n- **$A$**: Given constant area.\n- **$l$**: Unknown length.\n- **$b$**: Unknown breadth.\n\n## Boundary Conditions / Domain\n- Dimensions must strictly be positive: $l > 0$ and $b > 0$.",
 "formulaMeta": {
-"formula": "l \times \left(\frac{P}{2} - l\right) = A",
+"formula": "l \\times \\left(\\frac{P}{2} - l\\right) = A",
 "description": "Standard algebraic procedure to form a single-variable quadratic equation for a rectangle when both Perimeter and Area are given.",
-"derivation": "1. **Start with Perimeter:** The formula is $2(l + b) = P \implies l + b = \frac{P}{2}$.\n2. **Isolate Breadth:** Express breadth algebraically as $b = \frac{P}{2} - l$.\n3. **Substitute:** Plug this expression strictly into the Area formula: $\text{Area} = l \times b \implies A = l \times \left(\frac{P}{2} - l\right)$.\n4. **Expand:** Multiply out the terms to derive a standard quadratic equation in terms of $l$."
+"derivation": "1. **Start with Perimeter:** The formula is $2(l + b) = P \\implies l + b = \\frac{P}{2}$.\n2. **Isolate Breadth:** Express breadth algebraically as $b = \\frac{P}{2} - l$.\n3. **Substitute:** Plug this expression strictly into the Area formula: $\\text{Area} = l \\times b \\implies A = l \\times \\left(\\frac{P}{2} - l\\right)$.\n4. **Expand:** Multiply out the terms to derive a standard quadratic equation in terms of $l$."
 }
 }
 },
@@ -610,12 +610,12 @@
 "tags": ["math", "quadratic-equations", "word-problems", "kinematics", "class-10", "jee-main"],
 "order": 30,
 "heading": "Word Problem Archetype: Speed, Distance, and Time Delay",
-"back": "## Component Anatomy\n- **$D$**: Fixed constant distance.\n- **$v_{slow}$**: The slower traveling speed.\n- **$v_{fast}$**: The faster traveling speed.\n- **$\Delta t$**: The time difference or delay (e.g., 'takes 3 hours less').\n\n## Boundary Conditions / Domain\n- All velocities must be strictly positive: $v > 0$. Reject any negative speed roots.\n- **Crucial Rule:** Time = Distance / Speed.\n- Because a smaller denominator yields a larger fraction, the fraction with the **SLOWER speed strictly represents a LARGER time**.",
+"back": "## Component Anatomy\n- **$D$**: Fixed constant distance.\n- **$v_{slow}$**: The slower traveling speed.\n- **$v_{fast}$**: The faster traveling speed.\n- **$\\Delta t$**: The time difference or delay (e.g., 'takes 3 hours less').\n\n## Boundary Conditions / Domain\n- All velocities must be strictly positive: $v > 0$. Reject any negative speed roots.\n- **Crucial Rule:** Time = Distance / Speed.\n- Because a smaller denominator yields a larger fraction, the fraction with the **SLOWER speed strictly represents a LARGER time**.",
 "mnemonic": "Slow Time MINUS Fast Time = Delay.",
 "formulaMeta": {
-"formula": "\frac{D}{v_{slow}} - \frac{D}{v_{fast}} = \Delta t",
+"formula": "\\frac{D}{v_{slow}} - \\frac{D}{v_{fast}} = \\Delta t",
 "description": "Standard fractional equation structure for word problems where a vehicle changes speed, resulting in a time delay.",
-"derivation": "1. Express the 'Usual Time' taken as $D/v$.\n2. Express the 'New Time' taken with altered speed (e.g., $D/(v+8)$ if increased).\n3. Identify which time is physically larger (the one with the slower speed).\n4. Always strictly set up the equation as $(Large Time) - (Small Time) = \Delta t$ to ensure $\Delta t$ remains positive."
+"derivation": "1. Express the 'Usual Time' taken as $D/v$.\n2. Express the 'New Time' taken with altered speed (e.g., $D/(v+8)$ if increased).\n3. Identify which time is physically larger (the one with the slower speed).\n4. Always strictly set up the equation as $(Large Time) - (Small Time) = \\Delta t$ to ensure $\\Delta t$ remains positive."
 }
 }
 },
@@ -634,9 +634,9 @@
 "heading": "Word Problem Archetype: Upstream & Downstream",
 "back": "## Component Anatomy\n- **$D$**: The uniform distance travelled each way.\n- **$x$**: Speed of the boat in completely still water.\n- **$y$**: Speed of the water current/stream.\n- **$T_{total}$**: Total cumulative time taken for the round trip.\n\n## Boundary Conditions / Domain\n- **Strict Velocity Constraint:** $x > y$. The boat speed must strictly be greater than the stream speed, otherwise it mathematically and physically cannot travel upstream.\n- Slower upstream effective speed = $(x - y)$.\n- Faster downstream effective speed = $(x + y)$.",
 "formulaMeta": {
-"formula": "\frac{D}{x - y} + \frac{D}{x + y} = T_{total}",
+"formula": "\\frac{D}{x - y} + \\frac{D}{x + y} = T_{total}",
 "description": "Standard algebraic framework for modeling total time taken for a round trip involving upstream and downstream travel.",
-"derivation": "1. Formulate the time taken upstream algebraically as Distance / Upstream Speed: $\frac{D}{x - y}$.\n2. Formulate the time taken downstream algebraically as Distance / Downstream Speed: $\frac{D}{x + y}$.\n3. The sum of these two individual fractional times must rigorously equal the total round-trip time given in the problem."
+"derivation": "1. Formulate the time taken upstream algebraically as Distance / Upstream Speed: $\\frac{D}{x - y}$.\n2. Formulate the time taken downstream algebraically as Distance / Downstream Speed: $\\frac{D}{x + y}$.\n3. The sum of these two individual fractional times must rigorously equal the total round-trip time given in the problem."
 }
 }
 },
@@ -656,9 +656,9 @@
 "back": "## Component Anatomy\n- **$x$**: Total independent hours taken by the smaller tap alone to fill the tank.\n- **$x+d$**: Total independent hours taken by the larger tap alone (where $d$ is negative if it takes less time).\n- **$T_{total}$**: Total cumulative time taken when both taps are open simultaneously.\n\n## Boundary Conditions / Domain\n- Strictly $x > 0$ and $x+d > 0$. Time evaluated cannot be negative.\n- Note that you CANNOT simply add their total times (e.g., 2 hrs + 3 hrs = 5 hrs); you must strictly add their reciprocal *rates*.",
 "mnemonic": "Invert times to add their power.",
 "formulaMeta": {
-"formula": "\frac{1}{x} + \frac{1}{x+d} = \frac{1}{T_{total}}",
+"formula": "\\frac{1}{x} + \\frac{1}{x+d} = \\frac{1}{T_{total}}",
 "description": "Standard algebraic framework using work-rate for problems where two taps (or workers) complete a task together.",
-"derivation": "1. If a tap takes $x$ total hours to fill 1 tank, its hourly 'rate' is strictly $\frac{1}{x}$ of the tank per hour.\n2. The second tap's hourly rate is similarly modeled as $\frac{1}{x+d}$ per hour.\n3. Together, their combined simultaneous rate is $\frac{1}{T_{total}}$ per hour.\n4. Equate the sum of their individual rates to their combined rate."
+"derivation": "1. If a tap takes $x$ total hours to fill 1 tank, its hourly 'rate' is strictly $\\frac{1}{x}$ of the tank per hour.\n2. The second tap's hourly rate is similarly modeled as $\\frac{1}{x+d}$ per hour.\n3. Together, their combined simultaneous rate is $\\frac{1}{T_{total}}$ per hour.\n4. Equate the sum of their individual rates to their combined rate."
 }
 }
 },

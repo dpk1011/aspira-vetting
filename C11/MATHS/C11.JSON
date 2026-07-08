@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Intersection of 3D Coordinate Axes",
-"back": "## Geometric Relationship\n- **Point 1:** The three coordinate axes (X, Y, and Z) intersect strictly at a single spatial point called the **origin** $O(0,0,0)$.\n- **Point 2:** The axes are **mutually perpendicular** to each other in 3-dimensional space (each pair forms a rigorous $90^\circ$ angle).",
+"back": "## Geometric Relationship\n- **Point 1:** The three coordinate axes (X, Y, and Z) intersect strictly at a single spatial point called the **origin** $O(0,0,0)$.\n- **Point 2:** The axes are **mutually perpendicular** to each other in 3-dimensional space (each pair forms a rigorous $90^\\circ$ angle).",
 "standardMeta": {
 "question": "What is the geometric relationship and intersection property of the X, Y, and Z axes in three-dimensional space?"
 }
@@ -133,7 +133,7 @@
 ],
 "order": 5,
 "heading": "Equation of Parallel Coordinate Planes",
-"back": "## Geometric Representation\n- **$x = a$:** Represents a plane parallel to the **YZ-plane** at a perpendicular distance of $|a|$ from it.\n- **$y = b$:** Represents a plane parallel to the **ZX-plane** at a perpendicular distance of $|b|$ from it.\n- **$z = c$:** Represents a plane parallel to the **XY-plane** at a perpendicular distance of $|c|$ from it.\n\n## Boundary Conditions / Domain\n- The distance is strictly positive $|k|$, but the constants $a, b, c \in \mathbb{R}$ dictate the directional intercept.",
+"back": "## Geometric Representation\n- **$x = a$:** Represents a plane parallel to the **YZ-plane** at a perpendicular distance of $|a|$ from it.\n- **$y = b$:** Represents a plane parallel to the **ZX-plane** at a perpendicular distance of $|b|$ from it.\n- **$z = c$:** Represents a plane parallel to the **XY-plane** at a perpendicular distance of $|c|$ from it.\n\n## Boundary Conditions / Domain\n- The distance is strictly positive $|k|$, but the constants $a, b, c \\in \\mathbb{R}$ dictate the directional intercept.",
 "standardMeta": {
 "question": "Geometrically, what do the linear equations $x = a$, $y = b$, and $z = c$ represent in 3D space?"
 }
@@ -245,7 +245,7 @@
 "heading": "Coordinates of a Point strictly on the Axes",
 "back": "## Component Anatomy\n- **$(x, 0, 0)$:** The generic point strictly on the **X-axis**.\n- **$(0, y, 0)$:** The generic point strictly on the **Y-axis**.\n- **$(0, 0, z)$:** The generic point strictly on the **Z-axis**.\n\n## Boundary Conditions / Domain\n- To mathematically guarantee the point lies *exclusively* on the axis (and not floating in a plane or space), the two orthogonal non-axis coordinates MUST be rigorously equal to $0$.",
 "formulaMeta": {
-"formula": "(x, 0, 0), \quad (0, y, 0), \quad (0, 0, z)",
+"formula": "(x, 0, 0), \\quad (0, y, 0), \\quad (0, 0, z)",
 "description": "General coordinate forms for a point lying on the X-axis, Y-axis, and Z-axis.",
 "derivation": "Deduced from the locus definitions: X-axis is $y=0$ and $z=0$."
 }
@@ -272,9 +272,9 @@
 ],
 "order": 10,
 "heading": "Coordinates of a Point strictly on the Planes",
-"back": "## Component Anatomy\n- **$(x, y, 0)$:** The generic point strictly on the **XY-plane**.\n- **$(0, y, z)$:** The generic point strictly on the **YZ-plane**.\n- **$(x, 0, z)$:** The generic point strictly on the **ZX-plane**.\n\n## Boundary Conditions / Domain\n- The single orthogonal missing axis coordinate MUST be strictly equal to $0$. Variables can span $\mathbb{R}$.",
+"back": "## Component Anatomy\n- **$(x, y, 0)$:** The generic point strictly on the **XY-plane**.\n- **$(0, y, z)$:** The generic point strictly on the **YZ-plane**.\n- **$(x, 0, z)$:** The generic point strictly on the **ZX-plane**.\n\n## Boundary Conditions / Domain\n- The single orthogonal missing axis coordinate MUST be strictly equal to $0$. Variables can span $\\mathbb{R}$.",
 "formulaMeta": {
-"formula": "(x, y, 0), \quad (0, y, z), \quad (x, 0, z)",
+"formula": "(x, y, 0), \\quad (0, y, z), \\quad (x, 0, z)",
 "description": "General coordinate forms for a point lying on the XY-plane, YZ-plane, and ZX-plane.",
 "derivation": "Deduced from the locus definitions of the coordinate planes."
 }
@@ -328,12 +328,12 @@
 ],
 "order": 12,
 "heading": "Perpendicular Distance from Coordinate Planes",
-"back": "## Component Anatomy\n- **$|z|$:** The orthogonal distance from the **XY-plane**.\n- **$|x|$:** The orthogonal distance from the **YZ-plane**.\n- **$|y|$:** The orthogonal distance from the **ZX-plane**.\n\n## Boundary Conditions / Domain\n- Spatial distance MUST be strictly positive or zero ($d \geq 0$). The raw coordinate $(x,y,z)$ may be negative, which mathematically mandates the absolute value modulus $|k|$.",
+"back": "## Component Anatomy\n- **$|z|$:** The orthogonal distance from the **XY-plane**.\n- **$|x|$:** The orthogonal distance from the **YZ-plane**.\n- **$|y|$:** The orthogonal distance from the **ZX-plane**.\n\n## Boundary Conditions / Domain\n- Spatial distance MUST be strictly positive or zero ($d \\geq 0$). The raw coordinate $(x,y,z)$ may be negative, which mathematically mandates the absolute value modulus $|k|$.",
 "mnemonic": "The distance is the absolute value of the coordinate missing from the plane's name.",
 "formulaMeta": {
-"formula": "d_{xy} = |z|, \quad d_{yz} = |x|, \quad d_{zx} = |y|",
+"formula": "d_{xy} = |z|, \\quad d_{yz} = |x|, \\quad d_{zx} = |y|",
 "description": "Formulas for the perpendicular distances of a point P(x,y,z) from the standard coordinate planes.",
-"derivation": "Derived using the 3D distance formula from $P(x,y,z)$ to its projected foot $(x,y,0)$ on the XY-plane: $\sqrt{(x-x)^2 + (y-y)^2 + (z-0)^2} = \sqrt{z^2} = |z|$."
+"derivation": "Derived using the 3D distance formula from $P(x,y,z)$ to its projected foot $(x,y,0)$ on the XY-plane: $\\sqrt{(x-x)^2 + (y-y)^2 + (z-0)^2} = \\sqrt{z^2} = |z|$."
 }
 }
 },
@@ -359,11 +359,11 @@
 ],
 "order": 13,
 "heading": "Perpendicular Distance from Coordinate Axes",
-"back": "## Component Anatomy\n- **$y, z$:** Coordinates orthogonal to the X-axis.\n- **$x, z$:** Coordinates orthogonal to the Y-axis.\n- **$x, y$:** Coordinates orthogonal to the Z-axis.\n\n## Boundary Conditions / Domain\n- The internal radicand must be $\geq 0$, which is trivially satisfied over $\mathbb{R}$ by the sum of squares.\n- The principal square root ensures the physical distance is strictly positive or zero ($d \geq 0$).",
+"back": "## Component Anatomy\n- **$y, z$:** Coordinates orthogonal to the X-axis.\n- **$x, z$:** Coordinates orthogonal to the Y-axis.\n- **$x, y$:** Coordinates orthogonal to the Z-axis.\n\n## Boundary Conditions / Domain\n- The internal radicand must be $\\geq 0$, which is trivially satisfied over $\\mathbb{R}$ by the sum of squares.\n- The principal square root ensures the physical distance is strictly positive or zero ($d \\geq 0$).",
 "formulaMeta": {
-"formula": "d_x = \sqrt{y^2 + z^2}, \quad d_y = \sqrt{x^2 + z^2}, \quad d_z = \sqrt{x^2 + y^2}",
+"formula": "d_x = \\sqrt{y^2 + z^2}, \\quad d_y = \\sqrt{x^2 + z^2}, \\quad d_z = \\sqrt{x^2 + y^2}",
 "description": "Formula for the perpendicular distance of a point P(x, y, z) from the coordinate axes.",
-"derivation": "The foot of the perpendicular from $P(x,y,z)$ to the X-axis is $(x, 0, 0)$. Apply the 3D distance formula: $d = \sqrt{(x-x)^2 + (y-0)^2 + (z-0)^2} = \sqrt{y^2 + z^2}$."
+"derivation": "The foot of the perpendicular from $P(x,y,z)$ to the X-axis is $(x, 0, 0)$. Apply the 3D distance formula: $d = \\sqrt{(x-x)^2 + (y-0)^2 + (z-0)^2} = \\sqrt{y^2 + z^2}$."
 }
 }
 },
@@ -388,7 +388,7 @@
 ],
 "order": 14,
 "heading": "Reflection / Image of a Point in 3D Planes",
-"back": "## Image Transformation Rules\n- **In XY-plane:** The sign of the orthogonal $z$-coordinate is inverted $\rightarrow (x, y, -z)$.\n- **In YZ-plane:** The sign of the orthogonal $x$-coordinate is inverted $\rightarrow (-x, y, z)$.\n- **In ZX-plane:** The sign of the orthogonal $y$-coordinate is inverted $\rightarrow (x, -y, z)$.",
+"back": "## Image Transformation Rules\n- **In XY-plane:** The sign of the orthogonal $z$-coordinate is inverted $\\rightarrow (x, y, -z)$.\n- **In YZ-plane:** The sign of the orthogonal $x$-coordinate is inverted $\\rightarrow (-x, y, z)$.\n- **In ZX-plane:** The sign of the orthogonal $y$-coordinate is inverted $\\rightarrow (x, -y, z)$.",
 "mnemonic": "The plane acts as a mirror; only the missing coordinate passes 'through' the mirror and flips its sign.",
 "standardMeta": {
 "question": "Algorithmic SOP: How do you instantly find the coordinates of the mathematical image (reflection) of a point $P(x,y,z)$ with respect to the coordinate planes?"
@@ -417,9 +417,9 @@
 ],
 "order": 15,
 "heading": "3D Distance Formula",
-"back": "## Component Anatomy\n- **$x_1, y_1, z_1$:** Real coordinates of the first point $P$.\n- **$x_2, y_2, z_2$:** Real coordinates of the second point $Q$.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y, z \in \mathbb{R}$.\n- Radicand $\geq 0$ is naturally guaranteed by the summation of squared differences.\n- Resulting physical distance $PQ \geq 0$.",
+"back": "## Component Anatomy\n- **$x_1, y_1, z_1$:** Real coordinates of the first point $P$.\n- **$x_2, y_2, z_2$:** Real coordinates of the second point $Q$.\n\n## Boundary Conditions / Domain\n- Valid for all real numbers $x, y, z \\in \\mathbb{R}$.\n- Radicand $\\geq 0$ is naturally guaranteed by the summation of squared differences.\n- Resulting physical distance $PQ \\geq 0$.",
 "formulaMeta": {
-"formula": "PQ = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}",
+"formula": "PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}",
 "description": "The fundamental mathematical formula to find the Euclidean distance between two points in 3-dimensional space.",
 "derivation": "Derived via a double application of the Pythagorean theorem across the spatial diagonal of a right rectangular prism bridging $P$ and $Q$."
 }
@@ -447,9 +447,9 @@
 ],
 "order": 16,
 "heading": "Distance from the Origin",
-"back": "## Component Anatomy\n- **$x, y, z$:** Real coordinates of the spatial point $P$.\n\n## Boundary Conditions / Domain\n- Variables $x, y, z \in \mathbb{R}$.\n- Resulting mathematical distance is strictly $d \geq 0$.",
+"back": "## Component Anatomy\n- **$x, y, z$:** Real coordinates of the spatial point $P$.\n\n## Boundary Conditions / Domain\n- Variables $x, y, z \\in \\mathbb{R}$.\n- Resulting mathematical distance is strictly $d \\geq 0$.",
 "formulaMeta": {
-"formula": "OP = \sqrt{x^2 + y^2 + z^2}",
+"formula": "OP = \\sqrt{x^2 + y^2 + z^2}",
 "description": "Simplified corollary formula for the Euclidean distance of point P(x, y, z) from the Origin (0, 0, 0).",
 "derivation": "Substitute $(x_1, y_1, z_1) = (0, 0, 0)$ and $(x_2, y_2, z_2) = (x, y, z)$ into the standard 3D distance formula."
 }
@@ -478,7 +478,7 @@
 "heading": "Longest Diagonal of a Rectangular Parallelepiped",
 "back": "## Component Anatomy\n- **$a, b, c$:** The strictly scalar lengths of the orthogonal edges of the cuboid (length, width, height).\n- **$d$:** The spatial principal diagonal (represents the longest vector or physical piece of string that can fit internally).\n\n## Boundary Conditions / Domain\n- Edge lengths must be strictly positive parameters: $a > 0, b > 0, c > 0$.",
 "formulaMeta": {
-"formula": "d = \sqrt{a^2 + b^2 + c^2}",
+"formula": "d = \\sqrt{a^2 + b^2 + c^2}",
 "description": "Formula for the length of the principal spatial diagonal inside a rectangular parallelepiped (cuboid).",
 "derivation": "Derived elegantly by projecting the 3D distance formula between the vertex at the origin $(0,0,0)$ and the diametrically opposed maximal vertex $(a,b,c)$."
 }
@@ -505,7 +505,7 @@
 ],
 "order": 18,
 "heading": "Extrapolating Cuboid Vertices from a Principal Diagonal",
-"back": "Given a rectangular parallelepiped with one vertex at the origin $(0,0,0)$, an opposite principal vertex $P(a,b,c)$, and edges along the coordinate axes, generate the 6 remaining vertices systematically:\n\n- **Step 1 (The Axis Intercept Vertices):** Isolate each spatial dimension by strictly setting the other two variables to zero.\n  - $\rightarrow (a,0,0), (0,b,0), (0,0,c)$\n- **Step 2 (The Coordinate Plane Vertices):** Drop exactly one spatial dimension to zero to find vertices resting flatly on the 2D coordinate planes.\n  - $\rightarrow (a,b,0), (0,b,c), (a,0,c)$",
+"back": "Given a rectangular parallelepiped with one vertex at the origin $(0,0,0)$, an opposite principal vertex $P(a,b,c)$, and edges along the coordinate axes, generate the 6 remaining vertices systematically:\n\n- **Step 1 (The Axis Intercept Vertices):** Isolate each spatial dimension by strictly setting the other two variables to zero.\n  - $\\rightarrow (a,0,0), (0,b,0), (0,0,c)$\n- **Step 2 (The Coordinate Plane Vertices):** Drop exactly one spatial dimension to zero to find vertices resting flatly on the 2D coordinate planes.\n  - $\\rightarrow (a,b,0), (0,b,c), (a,0,c)$",
 "standardMeta": {
 "question": "What is the systematic algorithmic SOP to mathematically deduce the coordinates of all 8 vertices of a rectangular parallelepiped if given only the origin and its opposite principal vertex $P(a,b,c)$?"
 }
@@ -532,7 +532,7 @@
 ],
 "order": 19,
 "heading": "Circumcenter of a Right Tetrahedron",
-"back": "## Geometric Setup\n- A circumcenter point $P(x,y,z)$ is mathematically equidistant from the origin $(0,0,0)$ and the three specific axis intercept points $A(a,0,0), B(0,b,0),$ and $C(0,0,c)$.\n\n## Algebraic Resolution\n- Equating squared distances eliminates radicals: $OP^2 = AP^2 \implies x^2 + y^2 + z^2 = (x-a)^2 + y^2 + z^2$.\n- Expanding forces cancellation: $x^2 = x^2 - 2ax + a^2 \implies 2ax = a^2 \implies x = \frac{a}{2}$.\n- **The Resulting Coordinates:** The uniquely equidistant point is strictly **$\left(\frac{a}{2}, \frac{b}{2}, \frac{c}{2}\right)$**.",
+"back": "## Geometric Setup\n- A circumcenter point $P(x,y,z)$ is mathematically equidistant from the origin $(0,0,0)$ and the three specific axis intercept points $A(a,0,0), B(0,b,0),$ and $C(0,0,c)$.\n\n## Algebraic Resolution\n- Equating squared distances eliminates radicals: $OP^2 = AP^2 \\implies x^2 + y^2 + z^2 = (x-a)^2 + y^2 + z^2$.\n- Expanding forces cancellation: $x^2 = x^2 - 2ax + a^2 \\implies 2ax = a^2 \\implies x = \\frac{a}{2}$.\n- **The Resulting Coordinates:** The uniquely equidistant point is strictly **$\\left(\\frac{a}{2}, \\frac{b}{2}, \\frac{c}{2}\\right)$**.",
 "mnemonic": "The 3D circumcenter is exactly halfway to everywhere.",
 "standardMeta": {
 "question": "What are the exact coordinates of a point that is uniquely equidistant from the origin (0,0,0) and the three axis intercepts $A(a,0,0)$, $B(0,b,0)$, and $C(0,0,c)$?"
@@ -671,7 +671,7 @@
 ],
 "order": 24,
 "heading": "Equidistant Point Locus (Setup Phase)",
-"back": "## Component Anatomy\n- **$PA$:** Euclidean distance from a moving locus point $P(x,y,z)$ to fixed point $A$.\n- **$PB$:** Euclidean distance from moving locus point $P(x,y,z)$ to fixed point $B$.\n\n## Boundary Conditions / Domain\n- The moving point $P(x,y,z)$ inherently exists in unrestricted $\mathbb{R}^3$.\n- The strict initial equality $PA = PB$ mathematically forces the locus to geometrically act as the perpendicular bisector plane of segment $AB$.",
+"back": "## Component Anatomy\n- **$PA$:** Euclidean distance from a moving locus point $P(x,y,z)$ to fixed point $A$.\n- **$PB$:** Euclidean distance from moving locus point $P(x,y,z)$ to fixed point $B$.\n\n## Boundary Conditions / Domain\n- The moving point $P(x,y,z)$ inherently exists in unrestricted $\\mathbb{R}^3$.\n- The strict initial equality $PA = PB$ mathematically forces the locus to geometrically act as the perpendicular bisector plane of segment $AB$.",
 "formulaMeta": {
 "formula": "PA^2 = PB^2",
 "description": "The initial algorithmic setup to find the locus equation of points strictly equidistant from two given points.",
@@ -700,7 +700,7 @@
 ],
 "order": 25,
 "heading": "Equidistant Point Locus (Expansion Phase)",
-"back": "## Component Anatomy\n- **$x^2, y^2, z^2$:** The symmetric quadratic terms that manifest on both sides of the expansion.\n- **$Ax + By + Cz + D = 0$:** The terminal linear planar equation.\n\n## Boundary Conditions / Domain\n- Variables exist in $\mathbb{R}^3$. Because all quadratic constraints symmetrically cancel out, the terminal shape inherently degrades from a quadric surface into a strictly linear plane.",
+"back": "## Component Anatomy\n- **$x^2, y^2, z^2$:** The symmetric quadratic terms that manifest on both sides of the expansion.\n- **$Ax + By + Cz + D = 0$:** The terminal linear planar equation.\n\n## Boundary Conditions / Domain\n- Variables exist in $\\mathbb{R}^3$. Because all quadratic constraints symmetrically cancel out, the terminal shape inherently degrades from a quadric surface into a strictly linear plane.",
 "formulaMeta": {
 "formula": "Ax + By + Cz + D = 0",
 "description": "The algebraic simplification phase yielding the terminal plane locus.",
@@ -730,11 +730,11 @@
 ],
 "order": 26,
 "heading": "Double Radical Locus (Trap Avoidance)",
-"back": "## Component Anatomy\n- **$\sqrt{A}$ & $\sqrt{B}$:** The raw distance formulation representing $PA$ and $PB$.\n- **$k$:** The scalar sum constraint parameter.\n\n## Boundary Conditions / Domain\n- The scalar sum constraint strictly demands $k > AB$ (Triangle Inequality). If $k < AB$, locus is mathematically imaginary/null. If $k = AB$, locus degenerates to line segment $AB$.",
+"back": "## Component Anatomy\n- **$\\sqrt{A}$ & $\\sqrt{B}$:** The raw distance formulation representing $PA$ and $PB$.\n- **$k$:** The scalar sum constraint parameter.\n\n## Boundary Conditions / Domain\n- The scalar sum constraint strictly demands $k > AB$ (Triangle Inequality). If $k < AB$, locus is mathematically imaginary/null. If $k = AB$, locus degenerates to line segment $AB$.",
 "formulaMeta": {
-"formula": "\sqrt{A} = k - \sqrt{B}",
+"formula": "\\sqrt{A} = k - \\sqrt{B}",
 "description": "The critical isolation maneuver to avoid unmanageable quartic explosions when solving $PA + PB = k$.",
-"derivation": "Step 1: Write the raw algebraic sum distance equation: $\sqrt{A} + \sqrt{B} = k$.\nStep 2 (The Trap Avoidance): **Do NOT square immediately.** A direct square yields a chaotic mixed radical $2\sqrt{AB}$.\nStep 3: Strictly move exactly one radical to the RHS: $\sqrt{A} = k - \sqrt{B}$ before proceeding."
+"derivation": "Step 1: Write the raw algebraic sum distance equation: $\\sqrt{A} + \\sqrt{B} = k$.\nStep 2 (The Trap Avoidance): **Do NOT square immediately.** A direct square yields a chaotic mixed radical $2\\sqrt{AB}$.\nStep 3: Strictly move exactly one radical to the RHS: $\\sqrt{A} = k - \\sqrt{B}$ before proceeding."
 }
 }
 },
@@ -759,12 +759,12 @@
 ],
 "order": 27,
 "heading": "Double Radical Locus (Expansion Phase)",
-"back": "## Component Anatomy\n- **$- 2k\sqrt{B}$:** The single residual radical after the first squaring maneuver.\n\n## Boundary Conditions / Domain\n- Requires rigorous expansion. The terminal locus typically represents an ellipsoid in strictly 3D space.",
+"back": "## Component Anatomy\n- **$- 2k\\sqrt{B}$:** The single residual radical after the first squaring maneuver.\n\n## Boundary Conditions / Domain\n- Requires rigorous expansion. The terminal locus typically represents an ellipsoid in strictly 3D space.",
 "mnemonic": "Isolate, Square, Isolate again, Square again.",
 "formulaMeta": {
-"formula": "A = k^2 + B - 2k\sqrt{B}",
+"formula": "A = k^2 + B - 2k\\sqrt{B}",
 "description": "The double-squaring execution phase for advanced $PA + PB = k$ locus problems.",
-"derivation": "Step 1: Given isolated state $\sqrt{A} = k - \sqrt{B}$, square both sides. LHS becomes polynomial $A$, RHS strictly expands to $k^2 + B - 2k\sqrt{B}$.\nStep 2: Isolate the single remaining radical term ($- 2k\sqrt{B}$) on one side, shifting all polynomial terms to the other.\nStep 3: Square both sides a *second time*. This finally destroys the radical, yielding the terminal ellipsoid locus polynomial."
+"derivation": "Step 1: Given isolated state $\\sqrt{A} = k - \\sqrt{B}$, square both sides. LHS becomes polynomial $A$, RHS strictly expands to $k^2 + B - 2k\\sqrt{B}$.\nStep 2: Isolate the single remaining radical term ($- 2k\\sqrt{B}$) on one side, shifting all polynomial terms to the other.\nStep 3: Square both sides a *second time*. This finally destroys the radical, yielding the terminal ellipsoid locus polynomial."
 }
 }
 },
@@ -790,9 +790,9 @@
 ],
 "order": 28,
 "heading": "Internal Section Formula",
-"back": "## Component Anatomy\n- **$m, n$:** The strictly positive scalar ratio $m:n$ in which point R divides the segment PQ.\n- **$(x_1, y_1, z_1)$:** Coordinates of the origin point P.\n- **$(x_2, y_2, z_2)$:** Coordinates of the terminal point Q.\n\n## Boundary Conditions / Domain\n- The scalar ratio components must be strictly positive ($m > 0, n > 0$) for true internal division.\n- The sum of the ratio components cannot be zero: $m + n \neq 0$.",
+"back": "## Component Anatomy\n- **$m, n$:** The strictly positive scalar ratio $m:n$ in which point R divides the segment PQ.\n- **$(x_1, y_1, z_1)$:** Coordinates of the origin point P.\n- **$(x_2, y_2, z_2)$:** Coordinates of the terminal point Q.\n\n## Boundary Conditions / Domain\n- The scalar ratio components must be strictly positive ($m > 0, n > 0$) for true internal division.\n- The sum of the ratio components cannot be zero: $m + n \\neq 0$.",
 "formulaMeta": {
-"formula": "\left( \frac{mx_2 + nx_1}{m + n}, \frac{my_2 + ny_1}{m + n}, \frac{mz_2 + nz_1}{m + n} \right)",
+"formula": "\\left( \\frac{mx_2 + nx_1}{m + n}, \\frac{my_2 + ny_1}{m + n}, \\frac{mz_2 + nz_1}{m + n} \\right)",
 "description": "State the Section Formula for a coordinate point R(x,y,z) dividing a 3D line segment joining $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$ INTERNALLY in the ratio m:n.",
 "derivation": "Derived via similar triangles constructed by projecting the 3D line segment onto the respective coordinate planes."
 }
@@ -820,9 +820,9 @@
 ],
 "order": 29,
 "heading": "External Section Formula",
-"back": "## Component Anatomy\n- **$m, n$:** The scalar ratio $m:n$ in which the external point R divides the projected segment PQ.\n- **$(x_1, y_1, z_1)$:** Coordinates of the origin point P.\n- **$(x_2, y_2, z_2)$:** Coordinates of the terminal point Q.\n\n## Boundary Conditions / Domain\n- The denominator MUST NOT equal zero: $m - n \neq 0$ (i.e., $m \neq n$).\n- **The Trap:** If $m = n$, external division is mathematically impossible. The ratio implies the point is equidistant from both endpoints while lying strictly outside the segment, which would require the point to be at infinity (parallel lines).",
+"back": "## Component Anatomy\n- **$m, n$:** The scalar ratio $m:n$ in which the external point R divides the projected segment PQ.\n- **$(x_1, y_1, z_1)$:** Coordinates of the origin point P.\n- **$(x_2, y_2, z_2)$:** Coordinates of the terminal point Q.\n\n## Boundary Conditions / Domain\n- The denominator MUST NOT equal zero: $m - n \\neq 0$ (i.e., $m \\neq n$).\n- **The Trap:** If $m = n$, external division is mathematically impossible. The ratio implies the point is equidistant from both endpoints while lying strictly outside the segment, which would require the point to be at infinity (parallel lines).",
 "formulaMeta": {
-"formula": "\left( \frac{mx_2 - nx_1}{m - n}, \frac{my_2 - ny_1}{m - n}, \frac{mz_2 - nz_1}{m - n} \right)",
+"formula": "\\left( \\frac{mx_2 - nx_1}{m - n}, \\frac{my_2 - ny_1}{m - n}, \\frac{mz_2 - nz_1}{m - n} \\right)",
 "description": "State the Section Formula for a coordinate point R(x,y,z) dividing a 3D line segment joining $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$ EXTERNALLY in the ratio m:n.",
 "derivation": "Mathematically identical to the Internal Section Formula by strictly substituting the ratio $n$ with its algebraic negative $-n$."
 }
@@ -877,9 +877,9 @@
 ],
 "order": 31,
 "heading": "Mid-Point Formula",
-"back": "## Component Anatomy\n- **$x, y, z$:** Coordinate pairs of the two spatial endpoints forming the line segment.\n\n## Boundary Conditions / Domain\n- Valid for any two points in $\mathbb{R}^3$.\n- Geometrically represents the strict spatial center of mass for a uniform 1D segment connecting the endpoints.",
+"back": "## Component Anatomy\n- **$x, y, z$:** Coordinate pairs of the two spatial endpoints forming the line segment.\n\n## Boundary Conditions / Domain\n- Valid for any two points in $\\mathbb{R}^3$.\n- Geometrically represents the strict spatial center of mass for a uniform 1D segment connecting the endpoints.",
 "formulaMeta": {
-"formula": "\left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}, \frac{z_1 + z_2}{2} \right)",
+"formula": "\\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}, \\frac{z_1 + z_2}{2} \\right)",
 "description": "State the specialized Mid-Point corollary formula for a 3D line segment joining two points.",
 "derivation": "Derived directly from the primary Internal Section formula by strictly enforcing an equidistant ratio of $m:n = 1:1$."
 }
@@ -910,7 +910,7 @@
 "back": "## Component Anatomy\n- **$(x_1, y_1, z_1), (x_2, y_2, z_2), (x_3, y_3, z_3)$:** The three distinct spatial vertices of the triangle.\n\n## Boundary Conditions / Domain\n- The three constituent points MUST be mathematically non-collinear to guarantee the formation of a valid non-degenerate spatial triangle. If collinear, the formula mathematically yields merely a 1D center of mass.",
 "mnemonic": "The Centroid is strictly the arithmetic average of the Vertices.",
 "formulaMeta": {
-"formula": "\left( \frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}, \frac{z_1 + z_2 + z_3}{3} \right)",
+"formula": "\\left( \\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}, \\frac{z_1 + z_2 + z_3}{3} \\right)",
 "description": "State the standard formula for calculating the centroid coordinate of a triangle situated in 3D space.",
 "derivation": "Apply the internal section formula. The centroid (intersection of medians) rigorously divides any geometric median spanning a vertex to the opposite side's midpoint in the strict ratio of $2:1$."
 }
@@ -994,9 +994,9 @@
 ],
 "order": 35,
 "heading": "Internal Angle Bisector Theorem (3D Coordinates)",
-"back": "## Component Anatomy\n- **$AB$ & $AC$:** The calculated scalar lengths (Euclidean distances) of the structural sides adjacent to the bisected internal angle.\n- **$BD$ & $DC$:** The fractional ratio segments into which the opposite structural side is geometrically divided.\n- **$D$:** The target coordinate intersection point where the bisector line connects with the opposite side.\n\n## Boundary Conditions / Domain\n- The vertices $A, B,$ and $C$ must fundamentally form a non-degenerate spatial triangle (points mathematically cannot be collinear, otherwise the internal angle is $0$ or $180^\circ$).",
+"back": "## Component Anatomy\n- **$AB$ & $AC$:** The calculated scalar lengths (Euclidean distances) of the structural sides adjacent to the bisected internal angle.\n- **$BD$ & $DC$:** The fractional ratio segments into which the opposite structural side is geometrically divided.\n- **$D$:** The target coordinate intersection point where the bisector line connects with the opposite side.\n\n## Boundary Conditions / Domain\n- The vertices $A, B,$ and $C$ must fundamentally form a non-degenerate spatial triangle (points mathematically cannot be collinear, otherwise the internal angle is $0$ or $180^\\circ$).",
 "formulaMeta": {
-"formula": "\frac{BD}{DC} = \frac{AB}{AC}",
+"formula": "\\frac{BD}{DC} = \\frac{AB}{AC}",
 "description": "State the strict proportional relationship used algebraically to find the specific coordinates of point D, where the internal bisector of spatial angle A meets the opposite side BC.",
 "derivation": "Step 1: Calculate the exact Euclidean distance of side AB.\nStep 2: Calculate the exact Euclidean distance of side AC.\nStep 3: The division ratio $m:n$ mapped onto side BC is strictly equal to the geometric proportion $AB:AC$.\nStep 4: Execute the Internal Section Formula exclusively on points B and C substituting this ratio to isolate point D."
 }

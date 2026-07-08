@@ -33,7 +33,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 2,
 "heading": "Standard Mathematical Set Notations",
-"back": "- **$\mathbb{N}$:** Set of all natural numbers.\n- **$\mathbb{Z}$:** Set of all integers.\n- **$\mathbb{Q}$:** Set of all rational numbers.\n- **$\mathbb{R}$:** Set of all real numbers.\n- **$\mathbb{C}$:** Set of all complex numbers.\n- **$\mathbb{W}$:** Set of all whole numbers.\n\n## Boundary Conditions / Domain\n- Superscripts like $+$ or $-$ (e.g., $\mathbb{Z}^+$) strictly restrict the domain to positive or negative elements respectively.",
+"back": "- **$\\mathbb{N}$:** Set of all natural numbers.\n- **$\\mathbb{Z}$:** Set of all integers.\n- **$\\mathbb{Q}$:** Set of all rational numbers.\n- **$\\mathbb{R}$:** Set of all real numbers.\n- **$\\mathbb{C}$:** Set of all complex numbers.\n- **$\\mathbb{W}$:** Set of all whole numbers.\n\n## Boundary Conditions / Domain\n- Superscripts like $+$ or $-$ (e.g., $\\mathbb{Z}^+$) strictly restrict the domain to positive or negative elements respectively.",
 "standardMeta": {
 "question": "State the standard mathematical notations for the sets of natural numbers, integers, rational numbers, and complex numbers."
 }
@@ -90,9 +90,9 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 5,
 "heading": "The Empty (Null or Void) Set",
-"back": "## Core Definition\n- **Definition:** A set which contains absolutely no elements.\n- **Notation:** Denoted strictly by the symbol $\emptyset$ or empty braces $\\{ \\}$.\n\n## Boundary Conditions / Domain\n- **Conceptual Trap:** $\\{\emptyset\\}$ or $\\{0\\}$ are strictly **NOT** empty sets. They are singleton sets containing the element $\emptyset$ and the element $0$, respectively.",
+"back": "## Core Definition\n- **Definition:** A set which contains absolutely no elements.\n- **Notation:** Denoted strictly by the symbol $\\emptyset$ or empty braces $\\{ \\}$.\n\n## Boundary Conditions / Domain\n- **Conceptual Trap:** $\\{\\emptyset\\}$ or $\\{0\\}$ are strictly **NOT** empty sets. They are singleton sets containing the element $\\emptyset$ and the element $0$, respectively.",
 "standardMeta": {
-"question": "Define the Empty Set, provide its standard notations, and mathematically explain why $\\{\emptyset\\}$ is not an empty set."
+"question": "Define the Empty Set, provide its standard notations, and mathematically explain why $\\{\\emptyset\\}$ is not an empty set."
 }
 }
 },
@@ -109,7 +109,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 6,
 "heading": "Finite vs. Infinite Sets",
-"back": "## Core Distinctions\n- **Finite Set:** A set containing a specific, countable number of elements, or no elements at all (the empty set is finite). The process of counting definitively terminates.\n- **Infinite Set:** A set where the process of counting elements never ends (e.g., the set of real numbers $\mathbb{R}$).\n\n## Boundary Conditions / Domain\n- **Limitation:** All infinite sets cannot be expressed in Roster form (e.g., $\mathbb{R}$ lacks a clear step-pattern to list).",
+"back": "## Core Distinctions\n- **Finite Set:** A set containing a specific, countable number of elements, or no elements at all (the empty set is finite). The process of counting definitively terminates.\n- **Infinite Set:** A set where the process of counting elements never ends (e.g., the set of real numbers $\\mathbb{R}$).\n\n## Boundary Conditions / Domain\n- **Limitation:** All infinite sets cannot be expressed in Roster form (e.g., $\\mathbb{R}$ lacks a clear step-pattern to list).",
 "standardMeta": {
 "question": "What is the strict mathematical distinction between a Finite Set and an Infinite Set?"
 }
@@ -128,7 +128,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 7,
 "heading": "Cardinality (Cardinal Number) of a Finite Set",
-"back": "## Core Definition\n- **Definition:** The exact number of distinct elements present in a given finite set $A$.\n- **Notation:** Denoted mathematically as $n(A)$.\n\n## Boundary Conditions / Domain\n- Cardinality is always a non-negative integer ($n(A) \in \mathbb{W}$).\n- For an empty set $\emptyset$, $n(\emptyset) = 0$.",
+"back": "## Core Definition\n- **Definition:** The exact number of distinct elements present in a given finite set $A$.\n- **Notation:** Denoted mathematically as $n(A)$.\n\n## Boundary Conditions / Domain\n- Cardinality is always a non-negative integer ($n(A) \\in \\mathbb{W}$).\n- For an empty set $\\emptyset$, $n(\\emptyset) = 0$.",
 "standardMeta": {
 "question": "What does the notation $n(A)$ represent, and what is its strict value for an empty set?"
 }
@@ -167,7 +167,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 9,
 "heading": "Mathematical Definition of a Subset",
-"back": "## Core Definition\n- **Definition:** A set $A$ is a subset of $B$ (denoted $A \subset B$) if and only if every element of $A$ is also an element of $B$.\n- **Logical Condition:** $A \subset B \\iff (a \in A \implies a \in B)$.\n\n## Boundary Conditions / Domain\n- **Proper Subset:** If $A \subset B$ and $A \neq B$, then $A$ is a 'proper subset', and $B$ is a 'superset'.",
+"back": "## Core Definition\n- **Definition:** A set $A$ is a subset of $B$ (denoted $A \\subset B$) if and only if every element of $A$ is also an element of $B$.\n- **Logical Condition:** $A \\subset B \\iff (a \\in A \\implies a \\in B)$.\n\n## Boundary Conditions / Domain\n- **Proper Subset:** If $A \\subset B$ and $A \\neq B$, then $A$ is a 'proper subset', and $B$ is a 'superset'.",
 "standardMeta": {
 "question": "State the formal logical condition for a set A to be considered a subset of set B."
 }
@@ -185,11 +185,11 @@
 "classification": "DISTINCTION",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 10,
-"heading": "Element Membership vs. Subset Containment ($\in$ vs $\subset$)",
-"back": "## Core Distinctions\n- **$\in$ (Belongs to):** Used exclusively to denote that an *individual element* is a member of a set (e.g., $1 \in \\{1, 2, 3\\}$).\n- **$\subset$ (Subset):** Used exclusively to denote that a *set* is entirely contained within another set (e.g., $\\{1\\} \subset \\{1, 2, 3\\}$).\n\n## Boundary Conditions / Domain\n- **Cognitive Trap:** Writing $\\{1\\} \in \\{1, 2, 3\\}$ is mathematically FALSE because the set $\\{1\\}$ is not an element of the right-hand set.",
+"heading": "Element Membership vs. Subset Containment ($\\in$ vs $\\subset$)",
+"back": "## Core Distinctions\n- **$\\in$ (Belongs to):** Used exclusively to denote that an *individual element* is a member of a set (e.g., $1 \\in \\{1, 2, 3\\}$).\n- **$\\subset$ (Subset):** Used exclusively to denote that a *set* is entirely contained within another set (e.g., $\\{1\\} \\subset \\{1, 2, 3\\}$).\n\n## Boundary Conditions / Domain\n- **Cognitive Trap:** Writing $\\{1\\} \\in \\{1, 2, 3\\}$ is mathematically FALSE because the set $\\{1\\}$ is not an element of the right-hand set.",
 "mnemonic": "Elements go IN, Sets are SUB",
 "standardMeta": {
-"question": "What is the strict mathematical distinction in usage between the symbols $\in$ and $\subset$?"
+"question": "What is the strict mathematical distinction in usage between the symbols $\\in$ and $\\subset$?"
 }
 }
 },
@@ -206,7 +206,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 11,
 "heading": "Fundamental Axioms of Subsets",
-"back": "- **Axiom 1:** Every set is trivially a subset of itself. Mathematically: $A \subset A$.\n- **Axiom 2:** The empty set contains no elements to contradict subset logic, so it is universally a subset of every set. Mathematically: $\emptyset \subset A$.",
+"back": "- **Axiom 1:** Every set is trivially a subset of itself. Mathematically: $A \\subset A$.\n- **Axiom 2:** The empty set contains no elements to contradict subset logic, so it is universally a subset of every set. Mathematically: $\\emptyset \\subset A$.",
 "standardMeta": {
 "question": "What are the two universal subset axioms applicable to any given mathematical set?"
 }
@@ -215,7 +215,7 @@
 {
 "cardId": "a7924dc3-2992-4dbc-bb00-6f8f065b05c1",
 "originalOrder": 12,
-"originalHeading": "Intervals as Subsets of \mathbb{R}: Open vs Closed",
+"originalHeading": "Intervals as Subsets of \\mathbb{R}: Open vs Closed",
 "action": "MODIFIED",
 "modificationsSummary": ["Double escaped KaTeX", "Updated tags", "Reordered to suggested sequence"],
 "vettingNotes": "",
@@ -224,8 +224,8 @@
 "classification": "DISTINCTION",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 12,
-"heading": "Intervals as Subsets of $\mathbb{R}$: Open vs Closed",
-"back": "## Core Distinctions\n- **Open Interval $(a, b)$:** The set of all real numbers between $a$ and $b$, **strictly excluding** the endpoints $a$ and $b$. Set-builder: $\\{x : a < x < b\\}$.\n- **Closed Interval $[a, b]$:** The set of all real numbers between $a$ and $b$, **strictly including** the endpoints $a$ and $b$. Set-builder: $\\{x : a \le x \le b\\}$.\n\n## Boundary Conditions / Domain\n- The endpoints $a$ and $b$ must strictly be real numbers where $a < b$.",
+"heading": "Intervals as Subsets of $\\mathbb{R}$: Open vs Closed",
+"back": "## Core Distinctions\n- **Open Interval $(a, b)$:** The set of all real numbers between $a$ and $b$, **strictly excluding** the endpoints $a$ and $b$. Set-builder: $\\{x : a < x < b\\}$.\n- **Closed Interval $[a, b]$:** The set of all real numbers between $a$ and $b$, **strictly including** the endpoints $a$ and $b$. Set-builder: $\\{x : a \\le x \\le b\\}$.\n\n## Boundary Conditions / Domain\n- The endpoints $a$ and $b$ must strictly be real numbers where $a < b$.",
 "standardMeta": {
 "question": "Differentiate between open $(a, b)$ and closed $[a, b]$ intervals in terms of endpoint boundaries and set-builder notation."
 }
@@ -234,7 +234,7 @@
 {
 "cardId": "d33326de-27e0-45eb-8d9d-facf85b4cdff",
 "originalOrder": 13,
-"originalHeading": "Intervals as Subsets of \mathbb{R}: Semi-Open / Semi-Closed",
+"originalHeading": "Intervals as Subsets of \\mathbb{R}: Semi-Open / Semi-Closed",
 "action": "MODIFIED",
 "modificationsSummary": ["Double escaped KaTeX", "Updated tags", "Reordered to suggested sequence"],
 "vettingNotes": "",
@@ -243,8 +243,8 @@
 "classification": "CONCEPT",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 13,
-"heading": "Intervals as Subsets of $\mathbb{R}$: Semi-Open / Semi-Closed",
-"back": "## Core Concept\n- **Left-closed, Right-open $[a, b)$:** Includes $a$ but strictly excludes $b$. $\\{x : a \le x < b\\}$.\n- **Left-open, Right-closed $(a, b]$:** Strictly excludes $a$ but includes $b$. $\\{x : a < x \le b\\}$.\n\n## Boundary Conditions / Domain\n- **Interval Length Axiom:** The mathematical length of *any* of these intervals bounded by $a$ and $b$ is exactly $(b - a)$, regardless of boundary inclusion.",
+"heading": "Intervals as Subsets of $\\mathbb{R}$: Semi-Open / Semi-Closed",
+"back": "## Core Concept\n- **Left-closed, Right-open $[a, b)$:** Includes $a$ but strictly excludes $b$. $\\{x : a \\le x < b\\}$.\n- **Left-open, Right-closed $(a, b]$:** Strictly excludes $a$ but includes $b$. $\\{x : a < x \\le b\\}$.\n\n## Boundary Conditions / Domain\n- **Interval Length Axiom:** The mathematical length of *any* of these intervals bounded by $a$ and $b$ is exactly $(b - a)$, regardless of boundary inclusion.",
 "standardMeta": {
 "question": "How are semi-open intervals represented mathematically, and how is the geometric length of any real interval calculated?"
 }
@@ -263,11 +263,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 14,
 "heading": "Total Number of Subsets of a Finite Set",
-"back": "## Component Anatomy\n- **$n$:** The cardinality $n(A)$ (total number of elements) of the finite set $A$.\n- **$2^n$:** The total number of possible subsets.\n\n## Boundary Conditions / Domain\n- $n$ must be a non-negative integer ($n \in \mathbb{W}$).\n- The number of **Proper Subsets** is strictly $2^n - 1$ (subtracting the original set itself).",
+"back": "## Component Anatomy\n- **$n$:** The cardinality $n(A)$ (total number of elements) of the finite set $A$.\n- **$2^n$:** The total number of possible subsets.\n\n## Boundary Conditions / Domain\n- $n$ must be a non-negative integer ($n \\in \\mathbb{W}$).\n- The number of **Proper Subsets** is strictly $2^n - 1$ (subtracting the original set itself).",
 "formulaMeta": {
 "formula": "2^n",
 "description": "Calculates the total number of subsets of a finite set of order n.",
-"derivation": "By the Fundamental Principle of Counting: When forming a subset, every single element in the set has exactly 2 independent choices—either it is IN the subset, or OUT of the subset. For $n$ elements, the total combinatorial configurations are $2 \times 2 \times \dots \times 2$ ($n$ times) = $2^n$."
+"derivation": "By the Fundamental Principle of Counting: When forming a subset, every single element in the set has exactly 2 independent choices—either it is IN the subset, or OUT of the subset. For $n$ elements, the total combinatorial configurations are $2 \\times 2 \\times \\dots \\times 2$ ($n$ times) = $2^n$."
 }
 }
 },
@@ -284,7 +284,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 15,
 "heading": "The Universal Set ($U$)",
-"back": "## Core Definition\n- **Definition:** The fundamental, overarching base set that contains all elements and subsets relevant to a specific mathematical context or problem.\n- **Notation:** Denoted typically by the capital letter $U$.\n\n## Boundary Conditions / Domain\n- **Example Context:** If discussing sets of integers $\mathbb{Z}$ and rationals $\mathbb{Q}$, the set of Real Numbers $\mathbb{R}$ acts as the Universal Set.",
+"back": "## Core Definition\n- **Definition:** The fundamental, overarching base set that contains all elements and subsets relevant to a specific mathematical context or problem.\n- **Notation:** Denoted typically by the capital letter $U$.\n\n## Boundary Conditions / Domain\n- **Example Context:** If discussing sets of integers $\\mathbb{Z}$ and rationals $\\mathbb{Q}$, the set of Real Numbers $\\mathbb{R}$ acts as the Universal Set.",
 "standardMeta": {
 "question": "What defines a Universal Set in a specific mathematical problem context?"
 }
@@ -321,12 +321,12 @@
 "classification": "APPLICATION",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 17,
-"heading": "Power Set of an Empty Set ($P(\emptyset)$)",
-"back": "## Component Anatomy\n- **$\emptyset$:** The empty set (contains 0 elements).\n- **$P(\emptyset)$:** The power set of the empty set.\n- **$n(P(\emptyset))$:** The cardinality of the power set.\n\n## Boundary Conditions / Domain\n- While $\emptyset$ has exactly 0 elements, its Power Set contains exactly ONE element: the empty set itself. It is strictly never empty.",
+"heading": "Power Set of an Empty Set ($P(\\emptyset)$)",
+"back": "## Component Anatomy\n- **$\\emptyset$:** The empty set (contains 0 elements).\n- **$P(\\emptyset)$:** The power set of the empty set.\n- **$n(P(\\emptyset))$:** The cardinality of the power set.\n\n## Boundary Conditions / Domain\n- While $\\emptyset$ has exactly 0 elements, its Power Set contains exactly ONE element: the empty set itself. It is strictly never empty.",
 "formulaMeta": {
-"formula": "\begin{aligned} P(\emptyset) &= \{\emptyset\} \\\\ n(P(\emptyset)) &= 2^0 = 1 \end{aligned}",
+"formula": "\\begin{aligned} P(\\emptyset) &= \\{\\emptyset\\} \\\\ n(P(\\emptyset)) &= 2^0 = 1 \\end{aligned}",
 "description": "Defines the elements and calculates the cardinality of the Power Set of an empty set.",
-"derivation": "By definition, the power set is the set of all subsets. The only subset of an empty set is the empty set itself. Therefore, the power set is a singleton set containing $\emptyset$."
+"derivation": "By definition, the power set is the set of all subsets. The only subset of an empty set is the empty set itself. Therefore, the power set is a singleton set containing $\\emptyset$."
 }
 }
 },
@@ -343,7 +343,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 18,
 "heading": "Comparable vs. Non-Comparable Sets",
-"back": "## Core Definition\n- **Comparable Sets:** Two sets $A$ and $B$ are mathematically comparable if and only if one is a subset of the other (i.e., strictly $A \subset B$ or $B \subset A$).\n- **Non-Comparable Sets:** If neither set is a subset of the other (i.e., $A \not\subset B$ and $B \not\subset A$), they are non-comparable.\n\n## Boundary Conditions / Domain\n- **Significance:** This property establishes a 'partial order' among sets, crucial for advanced relation theory.",
+"back": "## Core Definition\n- **Comparable Sets:** Two sets $A$ and $B$ are mathematically comparable if and only if one is a subset of the other (i.e., strictly $A \\subset B$ or $B \\subset A$).\n- **Non-Comparable Sets:** If neither set is a subset of the other (i.e., $A \\not\\subset B$ and $B \\not\\subset A$), they are non-comparable.\n\n## Boundary Conditions / Domain\n- **Significance:** This property establishes a 'partial order' among sets, crucial for advanced relation theory.",
 "standardMeta": {
 "question": "Under what strict mathematical condition are two sets A and B classified as 'Comparable'?"
 }
@@ -361,11 +361,11 @@
 "classification": "DISTINCTION",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 19,
-"heading": "Transitivity Trap: Membership ($\in$) vs. Subset ($\subset$)",
-"back": "## Core Distinctions\n- **Valid Transitivity:** If $x \in A$ and $A \subset B$, it is mathematically guaranteed that $x \in B$.\n- **The Trap (Invalid Transitivity):** If a set is an *element* of another set ($A \in B$), and $B \subset C$, it does **NOT** guarantee that $A \subset C$.\n\n## Boundary Conditions / Domain\n- **Counter-example:** Let $A = \\{1\\}$, $B = \\{\\{1\\}, 2\\}$, and $C = \\{\\{1\\}, 2, 3\\}$. Here, $A \in B$ and $B \subset C$ are TRUE. However, $A \subset C$ is strictly FALSE because the integer $1 \notin C$.",
+"heading": "Transitivity Trap: Membership ($\\in$) vs. Subset ($\\subset$)",
+"back": "## Core Distinctions\n- **Valid Transitivity:** If $x \\in A$ and $A \\subset B$, it is mathematically guaranteed that $x \\in B$.\n- **The Trap (Invalid Transitivity):** If a set is an *element* of another set ($A \\in B$), and $B \\subset C$, it does **NOT** guarantee that $A \\subset C$.\n\n## Boundary Conditions / Domain\n- **Counter-example:** Let $A = \\{1\\}$, $B = \\{\\{1\\}, 2\\}$, and $C = \\{\\{1\\}, 2, 3\\}$. Here, $A \\in B$ and $B \\subset C$ are TRUE. However, $A \\subset C$ is strictly FALSE because the integer $1 \\notin C$.",
 "mnemonic": "Elements fall IN, Subsets sit UNDER. Don't mix the streams!",
 "standardMeta": {
-"question": "If set A is an element of set B ($A \in B$), and set B is a subset of set C ($B \subset C$), does this mathematically imply $A \subset C$? Provide a counter-example if false."
+"question": "If set A is an element of set B ($A \\in B$), and set B is a subset of set C ($B \\subset C$), does this mathematically imply $A \\subset C$? Provide a counter-example if false."
 }
 }
 },
@@ -381,8 +381,8 @@
 "classification": "CONCEPT",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 20,
-"heading": "Union of Sets ($A \cup B$)",
-"back": "## Core Concept\n- **Definition:** The set of all elements which belong to $A$, or to $B$, or to both.\n- **Set-Builder Logic:** $A \cup B = \\{x : x \in A \text{ or } x \in B\\}$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented by the entire region covered by the combined area of circles $A$ and $B$.",
+"heading": "Union of Sets ($A \\cup B$)",
+"back": "## Core Concept\n- **Definition:** The set of all elements which belong to $A$, or to $B$, or to both.\n- **Set-Builder Logic:** $A \\cup B = \\{x : x \\in A \\text{ or } x \\in B\\}$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented by the entire region covered by the combined area of circles $A$ and $B$.",
 "standardMeta": {
 "question": "Define the Union of two sets and state its strict mathematical representation in set-builder form."
 }
@@ -400,8 +400,8 @@
 "classification": "CONCEPT",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 21,
-"heading": "Intersection of Sets ($A \cap B$)",
-"back": "## Core Concept\n- **Definition:** The set of all elements which are exclusively common to both sets $A$ and $B$.\n- **Set-Builder Logic:** $A \cap B = \\{x : x \in A \text{ and } x \in B\\}$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented strictly by the overlapping intersection region between circles $A$ and $B$.",
+"heading": "Intersection of Sets ($A \\cap B$)",
+"back": "## Core Concept\n- **Definition:** The set of all elements which are exclusively common to both sets $A$ and $B$.\n- **Set-Builder Logic:** $A \\cap B = \\{x : x \\in A \\text{ and } x \\in B\\}$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented strictly by the overlapping intersection region between circles $A$ and $B$.",
 "standardMeta": {
 "question": "Define the Intersection of two sets and state its strict mathematical representation in set-builder form."
 }
@@ -420,7 +420,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 22,
 "heading": "Disjoint Sets",
-"back": "## Core Definition\n- **Definition:** Two sets $A$ and $B$ are classified as disjoint if they share absolutely no elements in common.\n- **Mathematical Condition:** $A \cap B = \emptyset$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented by two totally separate, non-overlapping circles.",
+"back": "## Core Definition\n- **Definition:** Two sets $A$ and $B$ are classified as disjoint if they share absolutely no elements in common.\n- **Mathematical Condition:** $A \\cap B = \\emptyset$.\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Visually represented by two totally separate, non-overlapping circles.",
 "standardMeta": {
 "question": "What is the strict mathematical condition required for two sets to be classified as 'Disjoint'?"
 }
@@ -439,7 +439,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 23,
 "heading": "Difference of Sets ($A - B$)",
-"back": "## Core Procedure\n- **Definition:** The set of all elements which belong to $A$ but do **NOT** belong to $B$.\n- **Set-Builder Logic:** $A - B = \\{x : x \in A \text{ and } x \notin B\\}$.\n- **Intersection Equivalent:** $A - B = A \cap B'$, where $B'$ is the complement of $B$.\n\n## Boundary Conditions / Domain\n- **Trap:** Set difference is strictly non-commutative. $A - B \neq B - A$ (unless $A = B$).",
+"back": "## Core Procedure\n- **Definition:** The set of all elements which belong to $A$ but do **NOT** belong to $B$.\n- **Set-Builder Logic:** $A - B = \\{x : x \\in A \\text{ and } x \\notin B\\}$.\n- **Intersection Equivalent:** $A - B = A \\cap B'$, where $B'$ is the complement of $B$.\n\n## Boundary Conditions / Domain\n- **Trap:** Set difference is strictly non-commutative. $A - B \\neq B - A$ (unless $A = B$).",
 "standardMeta": {
 "question": "Define the difference of two sets $A - B$ and state an equivalent operation using set intersection and a complement."
 }
@@ -457,8 +457,8 @@
 "classification": "DEFINITION",
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 24,
-"heading": "Symmetric Difference of Sets ($A \Delta B$)",
-"back": "## Core Definition\n- **Definition:** The set of elements belonging to either set A or set B, but strictly **not both**.\n- **Formula 1 (Union of Differences):** $A \Delta B = (A - B) \cup (B - A)$\n- **Formula 2 (Difference of Union and Intersection):** $A \Delta B = (A \cup B) - (A \cap B)$\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Two circles with only the non-overlapping outer regions shaded.",
+"heading": "Symmetric Difference of Sets ($A \\Delta B$)",
+"back": "## Core Definition\n- **Definition:** The set of elements belonging to either set A or set B, but strictly **not both**.\n- **Formula 1 (Union of Differences):** $A \\Delta B = (A - B) \\cup (B - A)$\n- **Formula 2 (Difference of Union and Intersection):** $A \\Delta B = (A \\cup B) - (A \\cap B)$\n\n## Boundary Conditions / Domain\n- **Venn Diagram Visual:** Two circles with only the non-overlapping outer regions shaded.",
 "mnemonic": "Symmetric Difference = The 'Exclusive OR' (XOR) of Sets.",
 "standardMeta": {
 "question": "Define the Symmetric Difference of two sets A and B, and state its two standard mathematical representations."
@@ -478,7 +478,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 25,
 "heading": "Complement of a Set ($A'$ or $A^c$)",
-"back": "## Core Definition\n- **Definition:** The set of all elements existing in the universal set $U$ that are strictly **not** present in set $A$.\n- **Mathematical Formula:** $A' = U - A$.\n- **Set-Builder Logic:** $A' = \\{x : x \in U \text{ and } x \notin A\\}$.\n\n## Boundary Conditions / Domain\n- A complement $A'$ is absolutely meaningless without a strictly pre-defined Universal Set $U$.",
+"back": "## Core Definition\n- **Definition:** The set of all elements existing in the universal set $U$ that are strictly **not** present in set $A$.\n- **Mathematical Formula:** $A' = U - A$.\n- **Set-Builder Logic:** $A' = \\{x : x \\in U \\text{ and } x \\notin A\\}$.\n\n## Boundary Conditions / Domain\n- A complement $A'$ is absolutely meaningless without a strictly pre-defined Universal Set $U$.",
 "standardMeta": {
 "question": "Define the mathematical complement of a set $A$ relative to a universal set $U$."
 }
@@ -497,9 +497,9 @@
 "tags": ["math", "sets", "class-11", "jee-main", "ncert", "identities"],
 "order": 26,
 "heading": "Fundamental Laws of Complement Sets",
-"back": "## Component Anatomy\n- **$A \cup A'$:** Union of a set and its complement (yields the entire Universal Set).\n- **$A \cap A'$:** Intersection of a set and its complement (yields the empty set).\n- **$(A')'$:** The complement of a complement returns the original set.\n\n## Boundary Conditions / Domain\n- All complement operations are strictly meaningless unless bounded within a pre-defined finite or infinite Universal Set $U$.",
+"back": "## Component Anatomy\n- **$A \\cup A'$:** Union of a set and its complement (yields the entire Universal Set).\n- **$A \\cap A'$:** Intersection of a set and its complement (yields the empty set).\n- **$(A')'$:** The complement of a complement returns the original set.\n\n## Boundary Conditions / Domain\n- All complement operations are strictly meaningless unless bounded within a pre-defined finite or infinite Universal Set $U$.",
 "formulaMeta": {
-"formula": "\begin{aligned} A \cup A' &= U \\\\ A \cap A' &= \emptyset \\\\ (A')' &= A \\\\ \emptyset' &= U \\\\ U' &= \emptyset \end{aligned}",
+"formula": "\\begin{aligned} A \\cup A' &= U \\\\ A \\cap A' &= \\emptyset \\\\ (A')' &= A \\\\ \\emptyset' &= U \\\\ U' &= \\emptyset \\end{aligned}",
 "description": "State the Complement Laws for Union and Intersection, the Law of Double Complementation, and the Laws of Empty/Universal Sets.",
 "derivation": "Axiomatic definitions directly stemming from the logic of elements belonging, or not belonging, to a predefined space $U$."
 }
@@ -520,7 +520,7 @@
 "heading": "Algebraic Laws of Union and Intersection (Commutative, Associative, Idempotent)",
 "back": "## Component Anatomy\n- **Commutative Law:** The procedural order of sets does not alter the result.\n- **Associative Law:** The procedural grouping of sets does not alter the result.\n- **Idempotent Law:** Applying union or intersection of a set with itself yields the original set.\n\n## Boundary Conditions / Domain\n- These laws universally govern all operations over finite, infinite, and empty sets within any mathematical space.",
 "formulaMeta": {
-"formula": "\begin{aligned} A \cup B &= B \cup A \quad \text{(Commutative)} \\\\ A \cap B &= B \cap A \\\\ (A \cup B) \cup C &= A \cup (B \cup C) \quad \text{(Associative)} \\\\ (A \cap B) \cap C &= A \cap (B \cap C) \\\\ A \cup A &= A \quad \text{(Idempotent)} \\\\ A \cap A &= A \end{aligned}",
+"formula": "\\begin{aligned} A \\cup B &= B \\cup A \\quad \\text{(Commutative)} \\\\ A \\cap B &= B \\cap A \\\\ (A \\cup B) \\cup C &= A \\cup (B \\cup C) \\quad \\text{(Associative)} \\\\ (A \\cap B) \\cap C &= A \\cap (B \\cap C) \\\\ A \\cup A &= A \\quad \\text{(Idempotent)} \\\\ A \\cap A &= A \\end{aligned}",
 "description": "State the Commutative, Associative, and Idempotent algebraic laws for both Set Union and Set Intersection.",
 "derivation": "Derived via fundamental logic of 'and' / 'or' operators which themselves exhibit commutativity and associativity."
 }
@@ -539,11 +539,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "ncert", "identities"],
 "order": 28,
 "heading": "Distributive Laws of Sets",
-"back": "## Component Anatomy\n- **Intersection over Union:** Spreading the $\cap$ operation across elements grouped by $\cup$.\n- **Union over Intersection:** Spreading the $\cup$ operation across elements grouped by $\cap$.\n\n## Boundary Conditions / Domain\n- Critical algebraic operation for expanding complex set expressions, directly mirroring the distributive property of multiplication over addition in algebra.",
+"back": "## Component Anatomy\n- **Intersection over Union:** Spreading the $\\cap$ operation across elements grouped by $\\cup$.\n- **Union over Intersection:** Spreading the $\\cup$ operation across elements grouped by $\\cap$.\n\n## Boundary Conditions / Domain\n- Critical algebraic operation for expanding complex set expressions, directly mirroring the distributive property of multiplication over addition in algebra.",
 "formulaMeta": {
-"formula": "\begin{aligned} A \cap (B \cup C) &= (A \cap B) \cup (A \cap C) \\\\ A \cup (B \cap C) &= (A \cup B) \cap (A \cup C) \end{aligned}",
+"formula": "\\begin{aligned} A \\cap (B \\cup C) &= (A \\cap B) \\cup (A \\cap C) \\\\ A \\cup (B \\cap C) &= (A \\cup B) \\cap (A \\cup C) \\end{aligned}",
 "description": "State the two Distributive Laws demonstrating how intersection distributes over union, and how union distributes over intersection.",
-"derivation": "Proven logically by taking an arbitrary element $x$ and showing that $x \in \text{LHS} \\iff x \in \text{RHS}$ using logical conjunction (and) distributing over disjunction (or)."
+"derivation": "Proven logically by taking an arbitrary element $x$ and showing that $x \\in \\text{LHS} \\iff x \\in \\text{RHS}$ using logical conjunction (and) distributing over disjunction (or)."
 }
 }
 },
@@ -560,10 +560,10 @@
 "tags": ["math", "sets", "class-11", "jee-main", "ncert", "identities"],
 "order": 29,
 "heading": "De Morgan's Laws of Sets",
-"back": "## Component Anatomy\n- **$(A \cup B)'$:** The complement of the entire union of A and B.\n- **$(A \cap B)'$:** The complement of the entire intersection of A and B.\n\n## Boundary Conditions / Domain\n- Fully applicable to any sets $A$ and $B$ that are strictly subsets of the same Universal Set $U$.",
+"back": "## Component Anatomy\n- **$(A \\cup B)'$:** The complement of the entire union of A and B.\n- **$(A \\cap B)'$:** The complement of the entire intersection of A and B.\n\n## Boundary Conditions / Domain\n- Fully applicable to any sets $A$ and $B$ that are strictly subsets of the same Universal Set $U$.",
 "mnemonic": "Break the line, change the sign (Union becomes Intersection, Intersection becomes Union)",
 "formulaMeta": {
-"formula": "\begin{aligned} (A \cup B)' &= A' \cap B' \\\\ (A \cap B)' &= A' \cup B' \end{aligned}",
+"formula": "\\begin{aligned} (A \\cup B)' &= A' \\cap B' \\\\ (A \\cap B)' &= A' \\cup B' \\end{aligned}",
 "description": "State the two mathematical equations defining De Morgan's Laws for the complements of unions and intersections.",
 "derivation": "Visual proof via Venn Diagrams: The area strictly outside the union of A and B is identically the overlapping region of everything outside A and everything outside B."
 }
@@ -582,12 +582,12 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "identities"],
 "order": 30,
 "heading": "Difference Distributive Laws (De Morgan's for Difference)",
-"back": "## Component Anatomy\n- **$A - (B \cup C)$:** Elements in A strictly excluding anything in either B or C.\n- **$A - (B \cap C)$:** Elements in A strictly excluding anything shared by B and C.\n\n## Boundary Conditions / Domain\n- Highly useful for breaking down complex set subtractions algebraically without resorting to Venn Diagrams.",
+"back": "## Component Anatomy\n- **$A - (B \\cup C)$:** Elements in A strictly excluding anything in either B or C.\n- **$A - (B \\cap C)$:** Elements in A strictly excluding anything shared by B and C.\n\n## Boundary Conditions / Domain\n- Highly useful for breaking down complex set subtractions algebraically without resorting to Venn Diagrams.",
 "mnemonic": "Break the bracket, flip the inner sign (Union flips to Intersection).",
 "formulaMeta": {
-"formula": "\begin{aligned} A - (B \cup C) &= (A - B) \cap (A - C) \\\\ A - (B \cap C) &= (A - B) \cup (A - C) \end{aligned}",
+"formula": "\\begin{aligned} A - (B \\cup C) &= (A - B) \\cap (A - C) \\\\ A - (B \\cap C) &= (A - B) \\cup (A - C) \\end{aligned}",
 "description": "State the two mathematical laws distributing the difference operation over union and intersection.",
-"derivation": "Using Set-Builder Algebra:\n1. $A - (B \cup C) = A \cap (B \cup C)'$\n2. Apply De Morgan's Law: $= A \cap (B' \cap C')$\n3. Associative/Commutative Property: $= (A \cap B') \cap (A \cap C')$\n4. Convert back to Difference: $= (A - B) \cap (A - C)$"
+"derivation": "Using Set-Builder Algebra:\n1. $A - (B \\cup C) = A \\cap (B \\cup C)'$\n2. Apply De Morgan's Law: $= A \\cap (B' \\cap C')$\n3. Associative/Commutative Property: $= (A \\cap B') \\cap (A \\cap C')$\n4. Convert back to Difference: $= (A - B) \\cap (A - C)$"
 }
 }
 },
@@ -604,7 +604,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 31,
 "heading": "Difference and Intersection Equivalency Identity",
-"back": "- **Equivalency:** $A - B = A \cap B'$\n- **Logical Reasoning:** The difference $A - B$ dictates taking all elements that exist in A, **AND** strictly intersecting them with the set of all elements that are **NOT** in B.\n- **Symmetric Application:** $B - A = B \cap A'$\n\n## Boundary Conditions / Domain\n- **Strategic Value:** Converting subtraction to intersection is the absolute most critical algorithmic step in solving advanced Miscellaneous Exercise set identity proofs.",
+"back": "- **Equivalency:** $A - B = A \\cap B'$\n- **Logical Reasoning:** The difference $A - B$ dictates taking all elements that exist in A, **AND** strictly intersecting them with the set of all elements that are **NOT** in B.\n- **Symmetric Application:** $B - A = B \\cap A'$\n\n## Boundary Conditions / Domain\n- **Strategic Value:** Converting subtraction to intersection is the absolute most critical algorithmic step in solving advanced Miscellaneous Exercise set identity proofs.",
 "mnemonic": "Minus becomes Intersect-Prime.",
 "standardMeta": {
 "question": "How do you mathematically rewrite the set difference $A - B$ strictly using the intersection and complement operations?"
@@ -624,10 +624,10 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 32,
 "heading": "Subset/Superset Algebraic Simplifications",
-"back": "Given strict condition $A \subset B$:\n- **Union ($A \cup B = B$):** Evaluates strictly to the superset ($B$). Since all elements of A are already completely swallowed by B, adding A yields nothing new.\n- **Intersection ($A \cap B = A$):** Evaluates strictly to the subset ($A$). Since A is entirely inside B, the only shared elements are A itself.\n- **Difference ($A - B = \emptyset$):** Evaluates to the empty set. Since nothing in A exists outside of B, subtracting B completely annihilates A.",
+"back": "Given strict condition $A \\subset B$:\n- **Union ($A \\cup B = B$):** Evaluates strictly to the superset ($B$). Since all elements of A are already completely swallowed by B, adding A yields nothing new.\n- **Intersection ($A \\cap B = A$):** Evaluates strictly to the subset ($A$). Since A is entirely inside B, the only shared elements are A itself.\n- **Difference ($A - B = \\emptyset$):** Evaluates to the empty set. Since nothing in A exists outside of B, subtracting B completely annihilates A.",
 "mnemonic": "Union takes the Big (Superset). Intersection takes the Small (Subset).",
 "standardMeta": {
-"question": "If set A is a strict subset of set B ($A \subset B$), what do the mathematical operations $A \cup B$, $A \cap B$, and $A - B$ respectively evaluate to?"
+"question": "If set A is a strict subset of set B ($A \\subset B$), what do the mathematical operations $A \\cup B$, $A \\cap B$, and $A - B$ respectively evaluate to?"
 }
 }
 },
@@ -644,12 +644,12 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 33,
 "heading": "Disjoint Set Equivalency via Set Difference",
-"back": "## Component Anatomy\n- **$A - B = A$:** Subtracting B from A leaves A completely unaffected.\n- **$A \cap B = \emptyset$:** A and B share absolutely no elements.\n\n## Boundary Conditions / Domain\n- Applies universally to all sets within a defined universal set.",
+"back": "## Component Anatomy\n- **$A - B = A$:** Subtracting B from A leaves A completely unaffected.\n- **$A \\cap B = \\emptyset$:** A and B share absolutely no elements.\n\n## Boundary Conditions / Domain\n- Applies universally to all sets within a defined universal set.",
 "mnemonic": "If taking B away does nothing, B was never there.",
 "formulaMeta": {
-"formula": "A - B = A \iff A \cap B = \emptyset",
+"formula": "A - B = A \\iff A \\cap B = \\emptyset",
 "description": "State the strict intersection condition that must be true if the difference of set A and set B evaluates simply to set A.",
-"derivation": "We know $A - B = A \cap B'$. If $A \cap B = \emptyset$, it implies that all elements of A are strictly outside B (meaning $A \subset B'$). Therefore, intersecting A with $B'$ yields all of A. Hence, $A - B = A$."
+"derivation": "We know $A - B = A \\cap B'$. If $A \\cap B = \\emptyset$, it implies that all elements of A are strictly outside B (meaning $A \\subset B'$). Therefore, intersecting A with $B'$ yields all of A. Hence, $A - B = A$."
 }
 }
 },
@@ -666,11 +666,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 34,
 "heading": "Absorption of Difference into Union",
-"back": "## Component Anatomy\n- **$A \cup (B - A)$:** Combining set A with elements strictly exclusive to B.\n- **$A \cup B$:** The standard union of both sets.\n\n## Boundary Conditions / Domain\n- This serves as a critical algebraic simplification SOP for Miscellaneous Exercise proofs.",
+"back": "## Component Anatomy\n- **$A \\cup (B - A)$:** Combining set A with elements strictly exclusive to B.\n- **$A \\cup B$:** The standard union of both sets.\n\n## Boundary Conditions / Domain\n- This serves as a critical algebraic simplification SOP for Miscellaneous Exercise proofs.",
 "formulaMeta": {
-"formula": "A \cup (B - A) = A \cup B",
+"formula": "A \\cup (B - A) = A \\cup B",
 "description": "State the simplified equivalency for the expression combining A with the difference of B and A.",
-"derivation": "**SOP:**\n1. Convert difference to intersection: $A \cup (B \cap A')$.\n2. Apply the Distributive Law: $(A \cup B) \cap (A \cup A')$.\n3. Apply Complement Law ($A \cup A' = U$): $(A \cup B) \cap U$.\n4. Apply Identity Law: $(A \cup B)$."
+"derivation": "**SOP:**\n1. Convert difference to intersection: $A \\cup (B \\cap A')$.\n2. Apply the Distributive Law: $(A \\cup B) \\cap (A \\cup A')$.\n3. Apply Complement Law ($A \\cup A' = U$): $(A \\cup B) \\cap U$.\n4. Apply Identity Law: $(A \\cup B)$."
 }
 }
 },
@@ -687,11 +687,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert"],
 "order": 35,
 "heading": "Annihilation of Intersection by Difference",
-"back": "## Component Anatomy\n- **$(A - B) \cap B$:** Finding common elements strictly between 'A excluding B' and 'B'.\n\n## Boundary Conditions / Domain\n- Evaluates universally to the empty set $\emptyset$ for any sets A and B.",
+"back": "## Component Anatomy\n- **$(A - B) \\cap B$:** Finding common elements strictly between 'A excluding B' and 'B'.\n\n## Boundary Conditions / Domain\n- Evaluates universally to the empty set $\\emptyset$ for any sets A and B.",
 "formulaMeta": {
-"formula": "(A - B) \cap B = \emptyset",
+"formula": "(A - B) \\cap B = \\emptyset",
 "description": "State the simplified mathematical evaluation for the intersection of $(A - B)$ with set $B$.",
-"derivation": "**SOP:**\n1. Convert difference strictly to intersection: $(A \cap B') \cap B$.\n2. Apply Associative Law: $A \cap (B' \cap B)$.\n3. Apply Complement Law ($B' \cap B = \emptyset$): $A \cap \emptyset$.\n4. Apply Domination Law: $\emptyset$."
+"derivation": "**SOP:**\n1. Convert difference strictly to intersection: $(A \\cap B') \\cap B$.\n2. Apply Associative Law: $A \\cap (B' \\cap B)$.\n3. Apply Complement Law ($B' \\cap B = \\emptyset$): $A \\cap \\emptyset$.\n4. Apply Domination Law: $\\emptyset$."
 }
 }
 },
@@ -708,7 +708,7 @@
 "tags": ["math", "sets", "class-11", "jee-main", "word-problems", "ncert"],
 "order": 36,
 "heading": "Decoding Set Word Problems (Keywords)",
-"back": "- **'At least one' (A or B):** Translates strictly to the Union: $n(A \cup B)$.\n- **'Both' (A and B):** Translates strictly to the Intersection: $n(A \cap B)$.\n- **'Neither' (Not A and Not B):** Translates to the Complement of Union: $n(A' \cap B')$ or $n((A \cup B)')$.\n- **'A only' (A but not B):** Translates to Difference: $n(A - B)$ or $n(A \cap B')$.\n\n## Boundary Conditions / Domain\n- Word problems often disguise logical operations; converting English strictly to set-builder notation prevents algebraic overlapping errors.",
+"back": "- **'At least one' (A or B):** Translates strictly to the Union: $n(A \\cup B)$.\n- **'Both' (A and B):** Translates strictly to the Intersection: $n(A \\cap B)$.\n- **'Neither' (Not A and Not B):** Translates to the Complement of Union: $n(A' \\cap B')$ or $n((A \\cup B)')$.\n- **'A only' (A but not B):** Translates to Difference: $n(A - B)$ or $n(A \\cap B')$.\n\n## Boundary Conditions / Domain\n- Word problems often disguise logical operations; converting English strictly to set-builder notation prevents algebraic overlapping errors.",
 "standardMeta": {
 "question": "In set theory word problems, what mathematical operations strictly correspond to the English phrases 'At least one', 'Both', and 'Neither'?"
 }
@@ -727,11 +727,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 37,
 "heading": "Principle of Inclusion-Exclusion (Two Sets)",
-"back": "## Component Anatomy\n- **$n(A \cup B)$:** Total distinct elements in either set A, set B, or both.\n- **$n(A)$ & $n(B)$:** Total elements in individual sets.\n- **$n(A \cap B)$:** Elements shared by both sets.\n\n## Boundary Conditions / Domain\n- Sets A and B must strictly be **finite sets**.",
+"back": "## Component Anatomy\n- **$n(A \\cup B)$:** Total distinct elements in either set A, set B, or both.\n- **$n(A)$ & $n(B)$:** Total elements in individual sets.\n- **$n(A \\cap B)$:** Elements shared by both sets.\n\n## Boundary Conditions / Domain\n- Sets A and B must strictly be **finite sets**.",
 "formulaMeta": {
-"formula": "n(A \cup B) = n(A) + n(B) - n(A \cap B)",
+"formula": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)",
 "description": "State the general mathematical formula for the cardinality of the union of two finite sets A and B.",
-"derivation": "When you add $n(A)$ and $n(B)$, the intersection region $(A \cap B)$ is counted exactly twice. You must subtract $n(A \cap B)$ once to mathematically correct the overlap and find the exact union cardinality."
+"derivation": "When you add $n(A)$ and $n(B)$, the intersection region $(A \\cap B)$ is counted exactly twice. You must subtract $n(A \\cap B)$ once to mathematically correct the overlap and find the exact union cardinality."
 }
 }
 },
@@ -748,11 +748,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "ncert", "cardinality"],
 "order": 38,
 "heading": "Cardinality of Union for Disjoint Sets",
-"back": "## Component Anatomy\n- **$n(A \cup B)$:** Total distinct elements.\n- **$n(A)$ & $n(B)$:** Elements in individual sets.\n\n## Boundary Conditions / Domain\n- A and B must strictly be finite sets.\n- **Strict Condition:** A and B must be entirely **disjoint** (meaning exactly $n(A \cap B) = 0$).",
+"back": "## Component Anatomy\n- **$n(A \\cup B)$:** Total distinct elements.\n- **$n(A)$ & $n(B)$:** Elements in individual sets.\n\n## Boundary Conditions / Domain\n- A and B must strictly be finite sets.\n- **Strict Condition:** A and B must be entirely **disjoint** (meaning exactly $n(A \\cap B) = 0$).",
 "formulaMeta": {
-"formula": "n(A \cup B) = n(A) + n(B)",
+"formula": "n(A \\cup B) = n(A) + n(B)",
 "description": "State the formula for the cardinality of the union of two finite sets A and B if they are strictly disjoint.",
-"derivation": "For strictly disjoint sets, $A \cap B = \emptyset$. Therefore, the cardinality of the intersection is exactly zero: $n(A \cap B) = 0$. Substituting this boundary condition into the standard inclusion-exclusion formula yields the simplified addition rule."
+"derivation": "For strictly disjoint sets, $A \\cap B = \\emptyset$. Therefore, the cardinality of the intersection is exactly zero: $n(A \\cap B) = 0$. Substituting this boundary condition into the standard inclusion-exclusion formula yields the simplified addition rule."
 }
 }
 },
@@ -769,11 +769,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 39,
 "heading": "Cardinality of the Difference of Two Sets",
-"back": "## Component Anatomy\n- **$n(A - B)$:** The absolute number of elements exclusively in set A, strictly excluding anything shared with B.\n- **$n(A \cap B)$:** The intersection overlap.\n\n## Boundary Conditions / Domain\n- A and B must strictly be finite sets.",
+"back": "## Component Anatomy\n- **$n(A - B)$:** The absolute number of elements exclusively in set A, strictly excluding anything shared with B.\n- **$n(A \\cap B)$:** The intersection overlap.\n\n## Boundary Conditions / Domain\n- A and B must strictly be finite sets.",
 "formulaMeta": {
-"formula": "n(A - B) = n(A) - n(A \cap B)",
+"formula": "n(A - B) = n(A) - n(A \\cap B)",
 "description": "State the mathematical formula to find the number of elements exclusively in set A but not in set B.",
-"derivation": "Geometrically via Venn diagram: The entire circle A is composed of the region exclusive to A ($A - B$) plus the overlapping region ($A \cap B$). Algebraically subtracting the overlap from the total $n(A)$ isolates the exclusive difference region."
+"derivation": "Geometrically via Venn diagram: The entire circle A is composed of the region exclusive to A ($A - B$) plus the overlapping region ($A \\cap B$). Algebraically subtracting the overlap from the total $n(A)$ isolates the exclusive difference region."
 }
 }
 },
@@ -790,11 +790,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 40,
 "heading": "Cardinality of Symmetric Difference",
-"back": "## Component Anatomy\n- **$n(A \Delta B)$:** Number of elements in exactly one of the two sets (exclusive OR).\n- **$n(A) + n(B)$:** Sum of individual elements.\n- **$2n(A \cap B)$:** The intersection subtracted twice.\n\n## Boundary Conditions / Domain\n- Sets A and B must strictly be finite.",
+"back": "## Component Anatomy\n- **$n(A \\Delta B)$:** Number of elements in exactly one of the two sets (exclusive OR).\n- **$n(A) + n(B)$:** Sum of individual elements.\n- **$2n(A \\cap B)$:** The intersection subtracted twice.\n\n## Boundary Conditions / Domain\n- Sets A and B must strictly be finite.",
 "formulaMeta": {
-"formula": "n(A \Delta B) = n(A) + n(B) - 2n(A \cap B)",
+"formula": "n(A \\Delta B) = n(A) + n(B) - 2n(A \\cap B)",
 "description": "State the formula to calculate the exact number of elements in the symmetric difference of two finite sets A and B.",
-"derivation": "Since $A \Delta B$ is mathematically the union of disjoint sets $(A - B)$ and $(B - A)$, its cardinality is $n(A - B) + n(B - A)$. Substituting the difference formula: $[n(A) - n(A \cap B)] + [n(B) - n(A \cap B)] = n(A) + n(B) - 2n(A \cap B)$."
+"derivation": "Since $A \\Delta B$ is mathematically the union of disjoint sets $(A - B)$ and $(B - A)$, its cardinality is $n(A - B) + n(B - A)$. Substituting the difference formula: $[n(A) - n(A \\cap B)] + [n(B) - n(A \\cap B)] = n(A) + n(B) - 2n(A \\cap B)$."
 }
 }
 },
@@ -811,11 +811,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 41,
 "heading": "Cardinality of the Complement of Union (Neither A nor B)",
-"back": "## Component Anatomy\n- **$n(A' \cap B')$:** The number of elements that are strictly outside both A and B.\n- **$n(U)$:** Cardinality of the defined Universal Set.\n- **$n(A \cup B)$:** Elements inside either A, B, or both.\n\n## Boundary Conditions / Domain\n- A and B must be finite sets defined strictly within a finite Universal Set $U$. Without $U$, this calculation is mathematically impossible.",
+"back": "## Component Anatomy\n- **$n(A' \\cap B')$:** The number of elements that are strictly outside both A and B.\n- **$n(U)$:** Cardinality of the defined Universal Set.\n- **$n(A \\cup B)$:** Elements inside either A, B, or both.\n\n## Boundary Conditions / Domain\n- A and B must be finite sets defined strictly within a finite Universal Set $U$. Without $U$, this calculation is mathematically impossible.",
 "formulaMeta": {
-"formula": "n(A' \cap B') = n(U) - n(A \cup B)",
+"formula": "n(A' \\cap B') = n(U) - n(A \\cup B)",
 "description": "State the formula to find the number of elements belonging to 'neither set A nor set B' using the Universal Set.",
-"derivation": "**SOP:**\n1. Apply De Morgan's Law to strictly rewrite the intersection of complements: $A' \cap B' = (A \cup B)'$. \n2. Use the standard complement cardinality axiom: $n(X') = n(U) - n(X)$. Here, $X$ is substituted with the entire union."
+"derivation": "**SOP:**\n1. Apply De Morgan's Law to strictly rewrite the intersection of complements: $A' \\cap B' = (A \\cup B)'$. \n2. Use the standard complement cardinality axiom: $n(X') = n(U) - n(X)$. Here, $X$ is substituted with the entire union."
 }
 }
 },
@@ -832,10 +832,10 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 42,
 "heading": "Principle of Inclusion-Exclusion (Three Sets)",
-"back": "## Component Anatomy\n- **$n(A \cup B \cup C)$:** Total elements across all three sets.\n- **Singles:** $+n(A) + n(B) + n(C)$\n- **Pairs:** $-n(A \cap B) - n(B \cap C) - n(A \cap C)$\n- **Triple:** $+n(A \cap B \cap C)$\n\n## Boundary Conditions / Domain\n- All three sets must strictly be finite.",
+"back": "## Component Anatomy\n- **$n(A \\cup B \\cup C)$:** Total elements across all three sets.\n- **Singles:** $+n(A) + n(B) + n(C)$\n- **Pairs:** $-n(A \\cap B) - n(B \\cap C) - n(A \\cap C)$\n- **Triple:** $+n(A \\cap B \\cap C)$\n\n## Boundary Conditions / Domain\n- All three sets must strictly be finite.",
 "mnemonic": "Add singles, Subtract pairs, Add triple back.",
 "formulaMeta": {
-"formula": "n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(B \cap C) - n(A \cap C) + n(A \cap B \cap C)",
+"formula": "n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(B \\cap C) - n(A \\cap C) + n(A \\cap B \\cap C)",
 "description": "State the mathematical formula for the cardinality of the union of three finite sets A, B, and C.",
 "derivation": "Adding the three individual sets overcounts all pairwise intersections. Subtracting the three pairwise intersections correctly adjusts those overlapping regions, but inadvertently subtracts the central triple intersection completely out. Thus, it must be mathematically added back exactly once at the end."
 }
@@ -854,11 +854,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 43,
 "heading": "Number of Elements in Exactly Two of Three Sets",
-"back": "## Component Anatomy\n- **Pairwise Intersections:** $n(A \cap B)$, $n(B \cap C)$, $n(C \cap A)$ represent overlapping areas.\n- **Triple Intersection Penalty:** $-3n(A \cap B \cap C)$ strictly removes the center core entirely.\n\n## Boundary Conditions / Domain\n- All sets must strictly be finite.",
+"back": "## Component Anatomy\n- **Pairwise Intersections:** $n(A \\cap B)$, $n(B \\cap C)$, $n(C \\cap A)$ represent overlapping areas.\n- **Triple Intersection Penalty:** $-3n(A \\cap B \\cap C)$ strictly removes the center core entirely.\n\n## Boundary Conditions / Domain\n- All sets must strictly be finite.",
 "formulaMeta": {
-"formula": "n(A \cap B) + n(B \cap C) + n(C \cap A) - 3n(A \cap B \cap C)",
+"formula": "n(A \\cap B) + n(B \\cap C) + n(C \\cap A) - 3n(A \\cap B \\cap C)",
 "description": "State the formula for calculating the exact number of elements belonging to strictly TWO out of three finite sets A, B, and C.",
-"derivation": "Each standard pairwise intersection (e.g., $A \cap B$) naturally includes the triple intersection area ($A \cap B \cap C$). If we sum all three pairs, the triple intersection is counted exactly 3 times. Since we only want elements in *exactly* two sets, we must completely subtract out the triple intersection, utilizing $-3$ times."
+"derivation": "Each standard pairwise intersection (e.g., $A \\cap B$) naturally includes the triple intersection area ($A \\cap B \\cap C$). If we sum all three pairs, the triple intersection is counted exactly 3 times. Since we only want elements in *exactly* two sets, we must completely subtract out the triple intersection, utilizing $-3$ times."
 }
 }
 },
@@ -875,11 +875,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "ncert", "cardinality"],
 "order": 44,
 "heading": "Number of Elements in Exactly One of Three Sets",
-"back": "## Component Anatomy\n- **Singles:** Sum of individual cardinalities.\n- **Pairwise Penalty:** $-2 \times$ (each pairwise intersection).\n- **Triple Compensation:** $+3 \times$ (triple intersection).\n\n## Boundary Conditions / Domain\n- All sets must strictly be finite.",
+"back": "## Component Anatomy\n- **Singles:** Sum of individual cardinalities.\n- **Pairwise Penalty:** $-2 \\times$ (each pairwise intersection).\n- **Triple Compensation:** $+3 \\times$ (triple intersection).\n\n## Boundary Conditions / Domain\n- All sets must strictly be finite.",
 "formulaMeta": {
-"formula": "n(A) + n(B) + n(C) - 2n(A \cap B) - 2n(B \cap C) - 2n(A \cap C) + 3n(A \cap B \cap C)",
+"formula": "n(A) + n(B) + n(C) - 2n(A \\cap B) - 2n(B \\cap C) - 2n(A \\cap C) + 3n(A \\cap B \\cap C)",
 "description": "State the formula for calculating the exact number of elements belonging to strictly ONE out of three finite sets A, B, and C.",
-"derivation": "Summing the individuals counts pairwise overlaps twice and the triple overlap three times. Subtracting $2 \times$ each pair completely removes the pure pair regions, but severely over-subtracts the triple center (added 3 times, subtracted $2 \times 3 = 6$ times, netting $-3$). Mathematically adding $+3n(A \cap B \cap C)$ strictly zeroes out the center, leaving only the outer singular regions."
+"derivation": "Summing the individuals counts pairwise overlaps twice and the triple overlap three times. Subtracting $2 \\times$ each pair completely removes the pure pair regions, but severely over-subtracts the triple center (added 3 times, subtracted $2 \\times 3 = 6$ times, netting $-3$). Mathematically adding $+3n(A \\cap B \\cap C)$ strictly zeroes out the center, leaving only the outer singular regions."
 }
 }
 },
@@ -898,7 +898,7 @@
 "heading": "Subset Difference Equation: Factorization Step",
 "back": "## Component Anatomy\n- **$m, n$:** Cardinalities of two finite sets where $m > n$.\n- **$K$:** The given numerical difference between their total subsets.\n\n## Boundary Conditions / Domain\n- $m, n$ must strictly be positive integers.\n- $K$ must be factorable into a power of 2 and an odd number.",
 "formulaMeta": {
-"formula": "2^m - 2^n = K \implies 2^n(2^{m-n} - 1) = K",
+"formula": "2^m - 2^n = K \\implies 2^n(2^{m-n} - 1) = K",
 "description": "State the algebraic factorization setup required when given that the number of subsets of one set is K more than the number of subsets of another.",
 "derivation": "**SOP Step 1 (Setup & Factor):**\n1. Translate the problem into the equation: $2^m - 2^n = K$.\n2. Because $m > n$, we strictly factor out the smaller power of 2 ($2^n$).\n3. This yields $2^n(2^{m-n} - 1) = K$, separating the expression into an even multiplier ($2^n$) and an odd multiplier ($2^{m-n} - 1$)."
 }
@@ -917,11 +917,11 @@
 "tags": ["math", "sets", "class-11", "jee-main", "jee-advanced", "archetype"],
 "order": 46,
 "heading": "Subset Difference Equation: Solving the Factors",
-"back": "## Component Anatomy\n- **$2^n$:** The even component of the algebraic factorization.\n- **$(2^{m-n} - 1)$:** The odd component of the algebraic factorization.\n- **$2^x \times Y$:** The prime factorization of $K$ (even $\times$ odd).\n\n## Boundary Conditions / Domain\n- Relies on the Fundamental Theorem of Arithmetic (unique prime factorization).",
+"back": "## Component Anatomy\n- **$2^n$:** The even component of the algebraic factorization.\n- **$(2^{m-n} - 1)$:** The odd component of the algebraic factorization.\n- **$2^x \\times Y$:** The prime factorization of $K$ (even $\\times$ odd).\n\n## Boundary Conditions / Domain\n- Relies on the Fundamental Theorem of Arithmetic (unique prime factorization).",
 "formulaMeta": {
-"formula": "\begin{aligned} 2^n &= 2^x \\\\ 2^{m-n} - 1 &= Y \end{aligned}",
+"formula": "\\begin{aligned} 2^n &= 2^x \\\\ 2^{m-n} - 1 &= Y \\end{aligned}",
 "description": "State how to equate and solve for variables m and n after factoring the subset difference equation into $2^n(2^{m-n} - 1) = K$.",
-"derivation": "**SOP Step 2 (Equate & Solve):**\n1. Prime factorize $K$ strictly into a power of 2 and an odd integer: $K = 2^x \times Y$.\n2. Equate the even components: $2^n = 2^x \implies n = x$.\n3. Equate the strictly odd components: $2^{m-n} - 1 = Y \implies 2^{m-n} = Y + 1$.\n4. Solve the resulting exponential equation for $m$."
+"derivation": "**SOP Step 2 (Equate & Solve):**\n1. Prime factorize $K$ strictly into a power of 2 and an odd integer: $K = 2^x \\times Y$.\n2. Equate the even components: $2^n = 2^x \\implies n = x$.\n3. Equate the strictly odd components: $2^{m-n} - 1 = Y \\implies 2^{m-n} = Y + 1$.\n4. Solve the resulting exponential equation for $m$."
 }
 }
 },

@@ -14,7 +14,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 1,
 "heading": "Condition for Continuity at a Point",
-"back": "A function $f(x)$ is continuous at a point $x = c$ in its domain if and only if:\n- **Left-Hand Limit (LHL)** = **Right-Hand Limit (RHL)** = **Value of the function at c**\n- Mathematically: $\lim_{x \to c^-} f(x) = \lim_{x \to c^+} f(x) = f(c)$\n- The graph of $f$ can be drawn through the point $(c, f(c))$ without lifting the pen.\n\n### Boundary Conditions / Domain\n- The limit must evaluate to a finite real number.\n- The point $x = c$ must lie in the domain of $f(x)$.",
+"back": "A function $f(x)$ is continuous at a point $x = c$ in its domain if and only if:\n- **Left-Hand Limit (LHL)** = **Right-Hand Limit (RHL)** = **Value of the function at c**\n- Mathematically: $\\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c)$\n- The graph of $f$ can be drawn through the point $(c, f(c))$ without lifting the pen.\n\n### Boundary Conditions / Domain\n- The limit must evaluate to a finite real number.\n- The point $x = c$ must lie in the domain of $f(x)$.",
 "mnemonic": "Limit equals Value (L=V)",
 "standardMeta": {
 "question": "What is the strict mathematical condition for a function to be continuous at a specific point $x = c$?"
@@ -54,7 +54,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 3,
 "heading": "Standard Continuous Families",
-"back": "The following standard families of functions are continuous everywhere on their respective natural domains:\n- **Polynomials, Constants, Modulus $|x|$, $e^x$, $\sin(x)$, $\cos(x)$:** Continuous on all of $\mathbb{R}$.\n- **Logarithm ($\log x$):** Continuous on $(0, \infty)$.\n\n### Boundary Conditions / Domain\n- $x \in \mathbb{R}$ for polynomials, exponentials, sine, cosine.\n- $x > 0$ strictly for logarithmic functions.",
+"back": "The following standard families of functions are continuous everywhere on their respective natural domains:\n- **Polynomials, Constants, Modulus $|x|$, $e^x$, $\\sin(x)$, $\\cos(x)$:** Continuous on all of $\\mathbb{R}$.\n- **Logarithm ($\\log x$):** Continuous on $(0, \\infty)$.\n\n### Boundary Conditions / Domain\n- $x \\in \\mathbb{R}$ for polynomials, exponentials, sine, cosine.\n- $x > 0$ strictly for logarithmic functions.",
 "standardMeta": {
 "question": "Identify the natural domains over which polynomial, exponential, modulus, and logarithmic functions are universally continuous."
 }
@@ -73,9 +73,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 4,
 "heading": "Continuity Boundaries of Rational Trig Functions",
-"back": "- **$\tan x$ and $\sec x$:** Continuous everywhere EXCEPT at odd multiples of $\frac{\pi}{2}$. Domain: $x \in \mathbb{R} - \\{ (2n+1)\frac{\pi}{2} \\}$, where $n \in \mathbb{Z}$.\n- **$\cot x$ and $\csc x$:** Continuous everywhere EXCEPT at multiples of $\pi$. Domain: $x \in \mathbb{R} - \\{ n\pi \\}$, where $n \in \mathbb{Z}$.\n\n### Boundary Conditions / Domain\n- The discontinuity arises strictly where the respective denominator ($\cos x$ or $\sin x$) equals zero.",
+"back": "- **$\\tan x$ and $\\sec x$:** Continuous everywhere EXCEPT at odd multiples of $\\frac{\\pi}{2}$. Domain: $x \\in \\mathbb{R} - \\{ (2n+1)\\frac{\\pi}{2} \\}$, where $n \\in \\mathbb{Z}$.\n- **$\\cot x$ and $\\csc x$:** Continuous everywhere EXCEPT at multiples of $\\pi$. Domain: $x \\in \\mathbb{R} - \\{ n\\pi \\}$, where $n \\in \\mathbb{Z}$.\n\n### Boundary Conditions / Domain\n- The discontinuity arises strictly where the respective denominator ($\\cos x$ or $\\sin x$) equals zero.",
 "standardMeta": {
-"question": "What are the specific boundary conditions (domain restrictions) where $\tan(x)$, $\sec(x)$, $\cot(x)$, and $\csc(x)$ lose their continuity?"
+"question": "What are the specific boundary conditions (domain restrictions) where $\\tan(x)$, $\\sec(x)$, $\\cot(x)$, and $\\csc(x)$ lose their continuity?"
 }
 }
 },
@@ -92,11 +92,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 5,
 "heading": "Algebra of Continuous Functions",
-"back": "### Component Anatomy\n- **$f \pm g$, $c \cdot f$, $f \cdot g$:** Guaranteed continuous at $c$.\n- **$\frac{f}{g}$:** Guaranteed continuous at $c$.\n\n### Boundary Conditions / Domain\n- Functions $f$ and $g$ MUST both be continuous individually at $x = c$.\n- For the quotient $\frac{f}{g}$, the strict condition is **$g(c) \neq 0$**.",
+"back": "### Component Anatomy\n- **$f \\pm g$, $c \\cdot f$, $f \\cdot g$:** Guaranteed continuous at $c$.\n- **$\\frac{f}{g}$:** Guaranteed continuous at $c$.\n\n### Boundary Conditions / Domain\n- Functions $f$ and $g$ MUST both be continuous individually at $x = c$.\n- For the quotient $\\frac{f}{g}$, the strict condition is **$g(c) \\neq 0$**.",
 "formulaMeta": {
-"formula": "\begin{aligned} (f \pm g)(x) &= f(x) \pm g(x) \\ \left(\frac{f}{g}\right)(x) &= \frac{f(x)}{g(x)} \end{aligned}",
+"formula": "\\begin{aligned} (f \\pm g)(x) &= f(x) \\pm g(x) \\ \\left(\\frac{f}{g}\\right)(x) &= \\frac{f(x)}{g(x)} \\end{aligned}",
 "description": "Rules for the algebra of continuous functions (sum, product, quotient).",
-"derivation": "These properties follow directly from the algebraic limit laws. Since $\lim_{x \to c} f(x) = f(c)$ and $\lim_{x \to c} g(x) = g(c)$, their sums, products, and valid quotients maintain equality between limits and functional values."
+"derivation": "These properties follow directly from the algebraic limit laws. Since $\\lim_{x \\to c} f(x) = f(c)$ and $\\lim_{x \\to c} g(x) = g(c)$, their sums, products, and valid quotients maintain equality between limits and functional values."
 }
 }
 },
@@ -113,9 +113,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 6,
 "heading": "Continuity of Composite Functions",
-"back": "If $f$ is continuous at $c$ and $g$ is continuous at $f(c)$, then the composite function **$(g \circ f)(x)$ is continuous at $c$**.\n\n### Boundary Conditions / Domain\n- $x = c$ must be in the domain of $f$.\n- $f(c)$ must be strictly inside the domain of $g$.\n\n### Application Example\nTo prove $h(x) = \sin(x^2)$ is continuous, decompose it into $f(x) = x^2$ (continuous polynomial) and $g(u) = \sin(u)$ (continuous trigonometric function), and cite this composition rule.",
+"back": "If $f$ is continuous at $c$ and $g$ is continuous at $f(c)$, then the composite function **$(g \\circ f)(x)$ is continuous at $c$**.\n\n### Boundary Conditions / Domain\n- $x = c$ must be in the domain of $f$.\n- $f(c)$ must be strictly inside the domain of $g$.\n\n### Application Example\nTo prove $h(x) = \\sin(x^2)$ is continuous, decompose it into $f(x) = x^2$ (continuous polynomial) and $g(u) = \\sin(u)$ (continuous trigonometric function), and cite this composition rule.",
 "standardMeta": {
-"question": "What is the condition for a composite function $(g \circ f)(x)$ to be continuous at $x = c$?"
+"question": "What is the condition for a composite function $(g \\circ f)(x)$ to be continuous at $x = c$?"
 }
 }
 },
@@ -132,7 +132,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 7,
 "heading": "Discontinuities of the Greatest Integer Function",
-"back": "- **Locations:** The function $f(x) = [x]$ is discontinuous at **every single integer point** ($x \in \mathbb{Z}$).\n- **Type of Discontinuity:** Jump Discontinuity.\n\n### Mathematical Proof\nFor any integer $c$:\n- LHL: $\lim_{x \to c^-} [x] = c - 1$\n- RHL: $\lim_{x \to c^+} [x] = c$\n\nBecause the left and right limits do not match, the limit does not exist, causing a vertical jump in the graph.\n\n### Boundary Conditions / Domain\n- The domain is all real numbers ($\mathbb{R}$), but continuity holds only on open intervals between integers: $(n, n+1)$.",
+"back": "- **Locations:** The function $f(x) = [x]$ is discontinuous at **every single integer point** ($x \\in \\mathbb{Z}$).\n- **Type of Discontinuity:** Jump Discontinuity.\n\n### Mathematical Proof\nFor any integer $c$:\n- LHL: $\\lim_{x \\to c^-} [x] = c - 1$\n- RHL: $\\lim_{x \\to c^+} [x] = c$\n\nBecause the left and right limits do not match, the limit does not exist, causing a vertical jump in the graph.\n\n### Boundary Conditions / Domain\n- The domain is all real numbers ($\\mathbb{R}$), but continuity holds only on open intervals between integers: $(n, n+1)$.",
 "mnemonic": "Steps jump at integers.",
 "standardMeta": {
 "question": "At what specific points is the greatest integer function $f(x) = [x]$ discontinuous, and what specific type of discontinuity does it exhibit?"
@@ -152,9 +152,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 8,
 "heading": "Oscillatory Discontinuity Edge Case",
-"back": "Functions like $f(x) = \sin\left(\frac{1}{x}\right)$ or $\cos\left(\frac{1}{x}\right)$ exhibit a unique edge-case discontinuity at $x = 0$.\n\n### Reasoning\nAs $x \to 0$, the argument $\frac{1}{x} \to \infty$. The trigonometric function oscillates infinitely fast between $-1$ and $1$.\n\n### Conclusion\nBecause the function never settles on a single value, $\lim_{x \to 0} f(x)$ **does not exist**, making it a non-removable oscillatory discontinuity.\n\n### Boundary Conditions / Domain\n- The domain is strictly $x \in \mathbb{R} - \\{0\\}$.",
+"back": "Functions like $f(x) = \\sin\\left(\\frac{1}{x}\\right)$ or $\\cos\\left(\\frac{1}{x}\\right)$ exhibit a unique edge-case discontinuity at $x = 0$.\n\n### Reasoning\nAs $x \\to 0$, the argument $\\frac{1}{x} \\to \\infty$. The trigonometric function oscillates infinitely fast between $-1$ and $1$.\n\n### Conclusion\nBecause the function never settles on a single value, $\\lim_{x \\to 0} f(x)$ **does not exist**, making it a non-removable oscillatory discontinuity.\n\n### Boundary Conditions / Domain\n- The domain is strictly $x \\in \\mathbb{R} - \\{0\\}$.",
 "standardMeta": {
-"question": "Why do functions like $f(x) = \sin\left(\frac{1}{x}\right)$ fail to be continuous at $x = 0$, and what specific type of discontinuity is this?"
+"question": "Why do functions like $f(x) = \\sin\\left(\\frac{1}{x}\\right)$ fail to be continuous at $x = 0$, and what specific type of discontinuity is this?"
 }
 }
 },
@@ -171,7 +171,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 9,
 "heading": "Nullifying Discontinuity via Multiplication",
-"back": "### The Trap\nA continuous function multiplied by a discontinuous function is NOT automatically discontinuous.\n\n### The Resolution\nIf $f(x)$ is continuous and evaluates to $0$ at $x=a$, and $g(x)$ is strictly bounded but discontinuous, their product $f(x)g(x)$ can be continuous.\n\n### Classic JEE Example\nLet $h(x) = x \sin\left(\frac{1}{x}\right)$ for $x \neq 0$, and $h(0) = 0$. \nWhile $\sin\left(\frac{1}{x}\right)$ oscillates wildly, the multiplier $x$ forces the limit to $0$ via the Squeeze (Sandwich) Theorem. Thus, $h(x)$ is **continuous** at $x=0$.\n\n### Boundary Conditions / Domain\n- The multiplier must approach exactly $0$.\n- The discontinuous function must be bounded (e.g., between $-1$ and $1$).",
+"back": "### The Trap\nA continuous function multiplied by a discontinuous function is NOT automatically discontinuous.\n\n### The Resolution\nIf $f(x)$ is continuous and evaluates to $0$ at $x=a$, and $g(x)$ is strictly bounded but discontinuous, their product $f(x)g(x)$ can be continuous.\n\n### Classic JEE Example\nLet $h(x) = x \\sin\\left(\\frac{1}{x}\\right)$ for $x \\neq 0$, and $h(0) = 0$. \nWhile $\\sin\\left(\\frac{1}{x}\\right)$ oscillates wildly, the multiplier $x$ forces the limit to $0$ via the Squeeze (Sandwich) Theorem. Thus, $h(x)$ is **continuous** at $x=0$.\n\n### Boundary Conditions / Domain\n- The multiplier must approach exactly $0$.\n- The discontinuous function must be bounded (e.g., between $-1$ and $1$).",
 "mnemonic": "Zero multiplied by bounded chaos equals zero.",
 "standardMeta": {
 "question": "How can the product of a continuous function and a discontinuous function still result in a continuous function? Give the classic algebraic example at $x=0$."
@@ -193,7 +193,7 @@
 "heading": "First Principle of Derivatives",
 "back": "### Component Anatomy\n- **$f'(c)$:** The derivative (instantaneous rate of change) of $f$ at $x = c$.\n- **$h$:** An infinitesimally small step size approaching $0$.\n- **Numerator:** The change in the function value.\n- **Denominator:** The change in the input value.\n\n### Boundary Conditions / Domain\n- The limit MUST exist and evaluate to a finite real number.\n- The function $f(x)$ MUST be continuous at $c$ for the derivative to potentially exist.",
 "formulaMeta": {
-"formula": "f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}",
+"formula": "f'(c) = \\lim_{h \\to 0} \\frac{f(c+h) - f(c)}{h}",
 "description": "The limit definition for the differentiability of a function $f(x)$ at $x = c$.",
 "derivation": "The derivative is geometrically derived by taking the secant line between points $(c, f(c))$ and $(c+h, f(c+h))$, and finding the limit of its slope as $h$ approaches zero, yielding the tangent slope."
 }
@@ -212,9 +212,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 11,
 "heading": "Left and Right Hand Derivatives (LHD & RHD)",
-"back": "### Component Anatomy\n- **$Lf'(c)$:** Left Hand Derivative (slope approaching the point from the left side).\n- **$Rf'(c)$:** Right Hand Derivative (slope approaching the point from the right side).\n- **$h \to 0^-$ and $h \to 0^+$:** Directional approach vectors for the step size.\n\n### Boundary Conditions / Domain\n- The function $f$ is strictly differentiable at $c \\iff Lf'(c) = Rf'(c)$.\n- Both individual limits MUST evaluate to a **finite real value**.",
+"back": "### Component Anatomy\n- **$Lf'(c)$:** Left Hand Derivative (slope approaching the point from the left side).\n- **$Rf'(c)$:** Right Hand Derivative (slope approaching the point from the right side).\n- **$h \\to 0^-$ and $h \\to 0^+$:** Directional approach vectors for the step size.\n\n### Boundary Conditions / Domain\n- The function $f$ is strictly differentiable at $c \\iff Lf'(c) = Rf'(c)$.\n- Both individual limits MUST evaluate to a **finite real value**.",
 "formulaMeta": {
-"formula": "\begin{aligned} Lf'(c) &= \lim_{h \to 0^-} \frac{f(c+h) - f(c)}{h} \\ Rf'(c) &= \lim_{h \to 0^+} \frac{f(c+h) - f(c)}{h} \end{aligned}",
+"formula": "\\begin{aligned} Lf'(c) &= \\lim_{h \\to 0^-} \\frac{f(c+h) - f(c)}{h} \\ Rf'(c) &= \\lim_{h \\to 0^+} \\frac{f(c+h) - f(c)}{h} \\end{aligned}",
 "description": "Formulas for computing Left Hand Derivative and Right Hand Derivative.",
 "derivation": "Apply the First Principle limit separately from values strictly less than $c$ and strictly greater than $c$ to handle piecewise or non-smooth functions."
 }
@@ -233,7 +233,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 12,
 "heading": "Relationship Between Continuity and Differentiability",
-"back": "- **Differentiable $\Rightarrow$ Continuous:** If a function is differentiable at a point, it is mathematically guaranteed to be continuous there.\n- **Continuous $\nRightarrow$ Differentiable:** Continuity does NOT imply differentiability. A function can be continuous but fail to be differentiable at points where it has a sharp corner, cusp, or vertical tangent (e.g., $f(x) = |x|$ at $x=0$).\n\n### Boundary Conditions / Domain\n- Differentiability is a strictly stronger condition than continuity. It implies continuity, but the converse is false.",
+"back": "- **Differentiable $\\Rightarrow$ Continuous:** If a function is differentiable at a point, it is mathematically guaranteed to be continuous there.\n- **Continuous $\nRightarrow$ Differentiable:** Continuity does NOT imply differentiability. A function can be continuous but fail to be differentiable at points where it has a sharp corner, cusp, or vertical tangent (e.g., $f(x) = |x|$ at $x=0$).\n\n### Boundary Conditions / Domain\n- Differentiability is a strictly stronger condition than continuity. It implies continuity, but the converse is false.",
 "mnemonic": "D implies C, but C does not imply D.",
 "standardMeta": {
 "question": "What is the logical relationship between a function's continuity and its differentiability at a point? Does one imply the other?"
@@ -253,7 +253,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 13,
 "heading": "Non-Differentiability of the Modulus Function",
-"back": "### Continuity Check\n$\lim_{x \to 0^-} |x| = \lim_{x \to 0^+} |x| = f(0) = 0$. The function is perfectly continuous.\n\n### Differentiability Check\n- Left Hand Derivative (LHD): $\lim_{h \to 0^-} \frac{|0+h|-0}{h} = \frac{-h}{h} = -1$.\n- Right Hand Derivative (RHD): $\lim_{h \to 0^+} \frac{|0+h|-0}{h} = \frac{h}{h} = 1$.\n\n### Conclusion\nSince $LHD \neq RHD$, $f(x) = |x|$ forms a sharp corner (kink) at $x = 0$ and is strictly non-differentiable there.\n\n### Boundary Conditions / Domain\n- Modulus functions $f(x) = |g(x)|$ fail to be differentiable anywhere $g(x) = 0$ (assuming $g'(x) \neq 0$).",
+"back": "### Continuity Check\n$\\lim_{x \\to 0^-} |x| = \\lim_{x \\to 0^+} |x| = f(0) = 0$. The function is perfectly continuous.\n\n### Differentiability Check\n- Left Hand Derivative (LHD): $\\lim_{h \\to 0^-} \\frac{|0+h|-0}{h} = \\frac{-h}{h} = -1$.\n- Right Hand Derivative (RHD): $\\lim_{h \\to 0^+} \\frac{|0+h|-0}{h} = \\frac{h}{h} = 1$.\n\n### Conclusion\nSince $LHD \\neq RHD$, $f(x) = |x|$ forms a sharp corner (kink) at $x = 0$ and is strictly non-differentiable there.\n\n### Boundary Conditions / Domain\n- Modulus functions $f(x) = |g(x)|$ fail to be differentiable anywhere $g(x) = 0$ (assuming $g'(x) \\neq 0$).",
 "mnemonic": "Corners cut differentiability.",
 "standardMeta": {
 "question": "Why is the absolute value function $f(x) = |x|$ continuous at $x = 0$, yet strictly non-differentiable at that same point?"
@@ -273,9 +273,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 14,
 "heading": "Constructing Multi-Point Non-Differentiable Functions",
-"back": "### SOP / Algorithm\nSum $n$ distinct linear modulus functions strictly centered at the target points.\n\n### Application Example\nTo algebraically construct a function non-differentiable at exactly $x = a$ and $x = b$, write $f(x) = |x - a| + |x - b|$. \n\nThe resulting graph will be completely continuous over $\mathbb{R}$ but will feature sharp non-differentiable corners exactly at roots $a$ and $b$.\n\n### Boundary Conditions / Domain\n- Valid for creating non-differentiable points for any distinct set of real numbers $a_1, a_2, \dots, a_n$.",
+"back": "### SOP / Algorithm\nSum $n$ distinct linear modulus functions strictly centered at the target points.\n\n### Application Example\nTo algebraically construct a function non-differentiable at exactly $x = a$ and $x = b$, write $f(x) = |x - a| + |x - b|$. \n\nThe resulting graph will be completely continuous over $\\mathbb{R}$ but will feature sharp non-differentiable corners exactly at roots $a$ and $b$.\n\n### Boundary Conditions / Domain\n- Valid for creating non-differentiable points for any distinct set of real numbers $a_1, a_2, \\dots, a_n$.",
 "standardMeta": {
-"question": "What is the standard algebraic procedure to construct a function that is continuous everywhere in $\mathbb{R}$ but fails to be differentiable at exactly two specific points, $x = a$ and $x = b$?"
+"question": "What is the standard algebraic procedure to construct a function that is continuous everywhere in $\\mathbb{R}$ but fails to be differentiable at exactly two specific points, $x = a$ and $x = b$?"
 }
 }
 },
@@ -292,7 +292,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 15,
 "heading": "Higher Order Differentiability of Modulus Powers",
-"back": "### The Trap\nStudents assume any modulus function has a non-differentiable corner at its root. This is only true for power 1.\n\n### The Reality for $f(x) = |x|^3$\nThe function is algebraically equivalent to $x^2|x|$ or $x^3 \text{sgn}(x)$. The higher power smooths out the corner completely.\n\n### Derivative Analysis\n1. $f'(x) = 3x|x|$\n2. $f''(x) = 6|x|$\n\n### Conclusion\n$f(x) = |x|^3$ is **twice differentiable** everywhere (including $x=0$), but fails to have a third derivative at $x=0$ because $f''(x) = 6|x|$ has a sharp corner.\n\n### Boundary Conditions / Domain\n- General Rule: $f(x) = |x|^n$ is $(n-1)$ times differentiable at $x = 0$.",
+"back": "### The Trap\nStudents assume any modulus function has a non-differentiable corner at its root. This is only true for power 1.\n\n### The Reality for $f(x) = |x|^3$\nThe function is algebraically equivalent to $x^2|x|$ or $x^3 \\text{sgn}(x)$. The higher power smooths out the corner completely.\n\n### Derivative Analysis\n1. $f'(x) = 3x|x|$\n2. $f''(x) = 6|x|$\n\n### Conclusion\n$f(x) = |x|^3$ is **twice differentiable** everywhere (including $x=0$), but fails to have a third derivative at $x=0$ because $f''(x) = 6|x|$ has a sharp corner.\n\n### Boundary Conditions / Domain\n- General Rule: $f(x) = |x|^n$ is $(n-1)$ times differentiable at $x = 0$.",
 "mnemonic": "Powers smooth the corners.",
 "standardMeta": {
 "question": "While $f(x) = |x|$ is non-differentiable at $x = 0$, what is the differentiability status of $f(x) = |x|^3$ at the origin? How many times can it be differentiated?"
@@ -312,10 +312,10 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 16,
 "heading": "Product Rule of Differentiation",
-"back": "### Component Anatomy\n- **$u, v$:** Two distinct differentiable functions of $x$.\n- **$\frac{du}{dx}, \frac{dv}{dx}$:** The respective derivatives of $u$ and $v$ with respect to $x$.\n\n### Boundary Conditions / Domain\n- Both $u(x)$ and $v(x)$ must be independently differentiable at the point of interest.",
+"back": "### Component Anatomy\n- **$u, v$:** Two distinct differentiable functions of $x$.\n- **$\\frac{du}{dx}, \\frac{dv}{dx}$:** The respective derivatives of $u$ and $v$ with respect to $x$.\n\n### Boundary Conditions / Domain\n- Both $u(x)$ and $v(x)$ must be independently differentiable at the point of interest.",
 "mnemonic": "First d-Second plus Second d-First",
 "formulaMeta": {
-"formula": "\frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}",
+"formula": "\\frac{d}{dx}(uv) = u \\frac{dv}{dx} + v \\frac{du}{dx}",
 "description": "Rule for differentiating the product of two functions.",
 "derivation": "Derived via First Principle: Apply the limit definition to $f(x)g(x)$ and add/subtract $f(x+h)g(x)$ in the numerator to split the limit into the sum of two recognizable derivatives."
 }
@@ -334,12 +334,12 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 17,
 "heading": "Quotient Rule of Differentiation",
-"back": "### Component Anatomy\n- **$u$ (High):** Numerator function.\n- **$v$ (Low):** Denominator function.\n\n### Boundary Conditions / Domain\n- Strictly requires $v(x) \neq 0$. If the denominator function evaluates to zero at a point, the derivative is undefined.\n- Both $u(x)$ and $v(x)$ must be differentiable.",
+"back": "### Component Anatomy\n- **$u$ (High):** Numerator function.\n- **$v$ (Low):** Denominator function.\n\n### Boundary Conditions / Domain\n- Strictly requires $v(x) \\neq 0$. If the denominator function evaluates to zero at a point, the derivative is undefined.\n- Both $u(x)$ and $v(x)$ must be differentiable.",
 "mnemonic": "Low d-High minus High d-Low, over Low squared",
 "formulaMeta": {
-"formula": "\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v \frac{du}{dx} - u \frac{dv}{dx}}{v^2}",
+"formula": "\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{v \\frac{du}{dx} - u \\frac{dv}{dx}}{v^2}",
 "description": "Rule for differentiating a quotient of two functions.",
-"derivation": "Can be derived by applying the Product Rule to $u \cdot v^{-1}$ alongside the Chain Rule for $v^{-1}$."
+"derivation": "Can be derived by applying the Product Rule to $u \\cdot v^{-1}$ alongside the Chain Rule for $v^{-1}$."
 }
 }
 },
@@ -359,7 +359,7 @@
 "back": "### Component Anatomy\n- **$f$:** The outer function.\n- **$g$:** The inner function.\n- **$f'(g(x))$:** Derivative of the outer function mathematically evaluated at the original inner function.\n\n### Boundary Conditions / Domain\n- $g$ must be strictly differentiable at $x$.\n- $f$ must be strictly differentiable at $g(x)$.",
 "mnemonic": "Peel the Onion: Outer derivative (leave inner alone) times Inner derivative.",
 "formulaMeta": {
-"formula": "\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)",
+"formula": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)",
 "description": "Rule for differentiating a composite (nested) function.",
 "derivation": "### Algorithmic SOP:\n1. Differentiate the outermost function.\n2. Keep the inner argument exactly the same.\n3. Multiply the result by the derivative of the inner argument.\n4. Repeat recursively for deeply nested functions."
 }
@@ -378,11 +378,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 19,
 "heading": "Derivatives of Inverse Sine and Cosine",
-"back": "### Component Anatomy\n- **$x$:** The argument of the inverse trigonometric function.\n- The 'co-' partner (cosine) always carries the negative sign.\n\n### Boundary Conditions / Domain\n- Strict domain constraint: $|x| < 1$ (i.e., $x \in (-1, 1)$).\n- The derivatives are strictly undefined at boundary points $x = \pm 1$ due to the presence of vertical tangents on their graphs.",
+"back": "### Component Anatomy\n- **$x$:** The argument of the inverse trigonometric function.\n- The 'co-' partner (cosine) always carries the negative sign.\n\n### Boundary Conditions / Domain\n- Strict domain constraint: $|x| < 1$ (i.e., $x \\in (-1, 1)$).\n- The derivatives are strictly undefined at boundary points $x = \\pm 1$ due to the presence of vertical tangents on their graphs.",
 "formulaMeta": {
-"formula": "\begin{aligned} \frac{d}{dx}(\sin^{-1} x) &= \frac{1}{\sqrt{1 - x^2}} \\ \frac{d}{dx}(\cos^{-1} x) &= -\frac{1}{\sqrt{1 - x^2}} \end{aligned}",
+"formula": "\\begin{aligned} \\frac{d}{dx}(\\sin^{-1} x) &= \\frac{1}{\\sqrt{1 - x^2}} \\ \\frac{d}{dx}(\\cos^{-1} x) &= -\\frac{1}{\\sqrt{1 - x^2}} \\end{aligned}",
 "description": "Formulas and domains for the derivatives of inverse sine and cosine.",
-"derivation": "Derived via Implicit Differentiation. For $y = \sin^{-1}x$, take $\sin y = x$, differentiate implicitly to get $\cos y \cdot y' = 1$, and substitute $\cos y = \sqrt{1 - x^2}$ based on the principal branch."
+"derivation": "Derived via Implicit Differentiation. For $y = \\sin^{-1}x$, take $\\sin y = x$, differentiate implicitly to get $\\cos y \\cdot y' = 1$, and substitute $\\cos y = \\sqrt{1 - x^2}$ based on the principal branch."
 }
 }
 },
@@ -399,11 +399,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 20,
 "heading": "Derivatives of Inverse Tangent and Cotangent",
-"back": "### Component Anatomy\n- **$x$:** The input argument.\n- The 'co-' partner (cotangent) always carries the negative sign.\n\n### Boundary Conditions / Domain\n- These specific derivatives are universally valid for all real numbers: $x \in \mathbb{R}$.",
+"back": "### Component Anatomy\n- **$x$:** The input argument.\n- The 'co-' partner (cotangent) always carries the negative sign.\n\n### Boundary Conditions / Domain\n- These specific derivatives are universally valid for all real numbers: $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \frac{d}{dx}(\tan^{-1} x) &= \frac{1}{1 + x^2} \\ \frac{d}{dx}(\cot^{-1} x) &= -\frac{1}{1 + x^2} \end{aligned}",
+"formula": "\\begin{aligned} \\frac{d}{dx}(\\tan^{-1} x) &= \\frac{1}{1 + x^2} \\ \\frac{d}{dx}(\\cot^{-1} x) &= -\\frac{1}{1 + x^2} \\end{aligned}",
 "description": "Formulas and domains for the derivatives of inverse tangent and cotangent.",
-"derivation": "Derived via Implicit Differentiation. For $y = \tan^{-1}x$, differentiate $\tan y = x$ implicitly to get $\sec^2 y \cdot y' = 1$, and apply identity $\sec^2 y = 1 + \tan^2 y = 1 + x^2$."
+"derivation": "Derived via Implicit Differentiation. For $y = \\tan^{-1}x$, differentiate $\\tan y = x$ implicitly to get $\\sec^2 y \\cdot y' = 1$, and apply identity $\\sec^2 y = 1 + \\tan^2 y = 1 + x^2$."
 }
 }
 },
@@ -420,12 +420,12 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 21,
 "heading": "Derivatives of Inverse Secant and Cosecant",
-"back": "### Component Anatomy\n- **$|x|$:** The absolute value in the denominator is mathematically crucial to ensure the final derivative maintains the correct sign for values where $x < -1$.\n- The 'co-' partner (cosecant) carries the negative sign.\n\n### Boundary Conditions / Domain\n- Strict domain constraint: $|x| > 1$.\n- The derivative is explicitly undefined for $x \in [-1, 1]$.",
+"back": "### Component Anatomy\n- **$|x|$:** The absolute value in the denominator is mathematically crucial to ensure the final derivative maintains the correct sign for values where $x < -1$.\n- The 'co-' partner (cosecant) carries the negative sign.\n\n### Boundary Conditions / Domain\n- Strict domain constraint: $|x| > 1$.\n- The derivative is explicitly undefined for $x \\in [-1, 1]$.",
 "mnemonic": "Don't drop the bars! |x| protects the sign.",
 "formulaMeta": {
-"formula": "\begin{aligned} \frac{d}{dx}(\sec^{-1} x) &= \frac{1}{|x|\sqrt{x^2 - 1}} \\ \frac{d}{dx}(\csc^{-1} x) &= -\frac{1}{|x|\sqrt{x^2 - 1}} \end{aligned}",
+"formula": "\\begin{aligned} \\frac{d}{dx}(\\sec^{-1} x) &= \\frac{1}{|x|\\sqrt{x^2 - 1}} \\ \\frac{d}{dx}(\\csc^{-1} x) &= -\\frac{1}{|x|\\sqrt{x^2 - 1}} \\end{aligned}",
 "description": "Formulas and strict domains for the derivatives of inverse secant and cosecant.",
-"derivation": "Derived via Implicit Differentiation of $\sec y = x$. Because the range of $\sec^{-1}x$ mandates that $\tan y$ is positive for $x > 1$ and negative for $x < -1$, $|x|$ forces the formula to yield the correct slope."
+"derivation": "Derived via Implicit Differentiation of $\\sec y = x$. Because the range of $\\sec^{-1}x$ mandates that $\\tan y$ is positive for $x > 1$ and negative for $x < -1$, $|x|$ forces the formula to yield the correct slope."
 }
 }
 },
@@ -442,11 +442,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 22,
 "heading": "Derivative of Exponential Functions",
-"back": "### Component Anatomy\n- **$e$:** Euler's number (the natural base).\n- **$a$:** Any positive real constant base.\n- **$\log a$:** Natural logarithm of $a$ (base $e$).\n\n### Boundary Conditions / Domain\n- For general exponential $a^x$: Base $a > 0, a \neq 1$.\n- Variable constraint: Valid for all $x \in \mathbb{R}$.",
+"back": "### Component Anatomy\n- **$e$:** Euler's number (the natural base).\n- **$a$:** Any positive real constant base.\n- **$\\log a$:** Natural logarithm of $a$ (base $e$).\n\n### Boundary Conditions / Domain\n- For general exponential $a^x$: Base $a > 0, a \\neq 1$.\n- Variable constraint: Valid for all $x \\in \\mathbb{R}$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \frac{d}{dx}(e^x) &= e^x \\ \frac{d}{dx}(a^x) &= a^x \log_e a \end{aligned}",
+"formula": "\\begin{aligned} \\frac{d}{dx}(e^x) &= e^x \\ \\frac{d}{dx}(a^x) &= a^x \\log_e a \\end{aligned}",
 "description": "Derivative of the natural exponential and the general exponential function.",
-"derivation": "To find $\frac{d}{dx}(a^x)$, utilize Logarithmic Differentiation: $y = a^x \implies \ln y = x \ln a \implies \frac{1}{y}y' = \ln a \implies y' = a^x \ln a$."
+"derivation": "To find $\\frac{d}{dx}(a^x)$, utilize Logarithmic Differentiation: $y = a^x \\implies \\ln y = x \\ln a \\implies \\frac{1}{y}y' = \\ln a \\implies y' = a^x \\ln a$."
 }
 }
 },
@@ -463,11 +463,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 23,
 "heading": "Derivative of Logarithmic Functions",
-"back": "### Component Anatomy\n- **$\log x$:** Natural logarithm (base $e$, frequently written in texts as $\ln x$).\n- **$\log_a x$:** Logarithm to the arbitrary base $a$.\n\n### Boundary Conditions / Domain\n- Strict argument constraint: $x > 0$ (logarithms are undefined for zero and negative real numbers).\n- For $\log_a x$: Base constraint $a > 0, a \neq 1$.",
+"back": "### Component Anatomy\n- **$\\log x$:** Natural logarithm (base $e$, frequently written in texts as $\\ln x$).\n- **$\\log_a x$:** Logarithm to the arbitrary base $a$.\n\n### Boundary Conditions / Domain\n- Strict argument constraint: $x > 0$ (logarithms are undefined for zero and negative real numbers).\n- For $\\log_a x$: Base constraint $a > 0, a \\neq 1$.",
 "formulaMeta": {
-"formula": "\begin{aligned} \frac{d}{dx}(\log x) &= \frac{1}{x} \\ \frac{d}{dx}(\log_a x) &= \frac{1}{x \log_e a} \end{aligned}",
+"formula": "\\begin{aligned} \\frac{d}{dx}(\\log x) &= \\frac{1}{x} \\ \\frac{d}{dx}(\\log_a x) &= \\frac{1}{x \\log_e a} \\end{aligned}",
 "description": "Derivative of the natural logarithm and general logarithm.",
-"derivation": "For base $a$, apply the Change of Base formula: $\log_a x = \frac{\ln x}{\ln a}$. Since $\frac{1}{\ln a}$ is constant, differentiating yields $\frac{1}{x \ln a}$."
+"derivation": "For base $a$, apply the Change of Base formula: $\\log_a x = \\frac{\\ln x}{\\ln a}$. Since $\\frac{1}{\\ln a}$ is constant, differentiating yields $\\frac{1}{x \\ln a}$."
 }
 }
 },
@@ -484,11 +484,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 24,
 "heading": "Second-Order Derivative Notation",
-"back": "### Component Anatomy\n- **$f''(x)$ or $\frac{d^2y}{dx^2}$:** Represents the derivative of the first derivative w.r.t $x$.\n- Represents physical acceleration (rate of change of velocity) and geometric concavity.\n\n### Boundary Conditions / Domain\n- The first derivative $\frac{dy}{dx}$ must be a differentiable function itself at $x$.",
+"back": "### Component Anatomy\n- **$f''(x)$ or $\\frac{d^2y}{dx^2}$:** Represents the derivative of the first derivative w.r.t $x$.\n- Represents physical acceleration (rate of change of velocity) and geometric concavity.\n\n### Boundary Conditions / Domain\n- The first derivative $\\frac{dy}{dx}$ must be a differentiable function itself at $x$.",
 "formulaMeta": {
-"formula": "\frac{d^2y}{dx^2} = \frac{d}{dx}\left(\frac{dy}{dx}\right)",
+"formula": "\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
 "description": "Fundamental notation and mathematical operation for computing a second-order derivative.",
-"derivation": "Applying the differential operator $\frac{d}{dx}$ iteratively to an already differentiated function $\frac{dy}{dx}$."
+"derivation": "Applying the differential operator $\\frac{d}{dx}$ iteratively to an already differentiated function $\\frac{dy}{dx}$."
 }
 }
 },
@@ -505,11 +505,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 25,
 "heading": "Derivative of a Function w.r.t. Another Function",
-"back": "### Component Anatomy\n- **$u$:** The primary function $f(x)$ to be differentiated.\n- **$v$:** The base reference function $g(x)$.\n- **$\frac{du}{dv}$:** The rate of change of $u$ strictly with respect to changes in $v$.\n\n### Boundary Conditions / Domain\n- Strict constraint: $\frac{dv}{dx} \neq 0$ (or equivalently $g'(x) \neq 0$). division by zero creates a vertical tangent in the $u$-$v$ plane.",
+"back": "### Component Anatomy\n- **$u$:** The primary function $f(x)$ to be differentiated.\n- **$v$:** The base reference function $g(x)$.\n- **$\\frac{du}{dv}$:** The rate of change of $u$ strictly with respect to changes in $v$.\n\n### Boundary Conditions / Domain\n- Strict constraint: $\\frac{dv}{dx} \\neq 0$ (or equivalently $g'(x) \\neq 0$). division by zero creates a vertical tangent in the $u$-$v$ plane.",
 "formulaMeta": {
-"formula": "\frac{du}{dv} = \frac{\frac{du}{dx}}{\frac{dv}{dx}} = \frac{f'(x)}{g'(x)}",
+"formula": "\\frac{du}{dv} = \\frac{\\frac{du}{dx}}{\\frac{dv}{dx}} = \\frac{f'(x)}{g'(x)}",
 "description": "Formula for finding the derivative of $u = f(x)$ with respect to $v = g(x)$.",
-"derivation": "### Algorithmic SOP:\n1. Differentiate the first function $u$ w.r.t $x$ to acquire $\frac{du}{dx}$.\n2. Differentiate the second function $v$ w.r.t $x$ to acquire $\frac{dv}{dx}$.\n3. Divide the first differential result strictly by the second."
+"derivation": "### Algorithmic SOP:\n1. Differentiate the first function $u$ w.r.t $x$ to acquire $\\frac{du}{dx}$.\n2. Differentiate the second function $v$ w.r.t $x$ to acquire $\\frac{dv}{dx}$.\n3. Divide the first differential result strictly by the second."
 }
 }
 },
@@ -526,7 +526,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 26,
 "heading": "Pre-Substitution for Inverse Trigonometry: Identification",
-"back": "### Concept Strategy\nDifferentiating complex nested inverse-trigonometric expressions directly via the chain rule (e.g., $\sin^{-1}(2x\sqrt{1-x^2})$) leads to massive, intractable algebraic expansion.\n\n### The Resolution\nBefore applying any derivative operators, analyze the algebraic structure inside the inverse function and apply a trigonometric substitution to collapse it into a simpler form.\n\n### Boundary Conditions / Domain\n- The substitution must be strictly bijective over the domain of $x$ being evaluated to prevent loss of principal value branches.",
+"back": "### Concept Strategy\nDifferentiating complex nested inverse-trigonometric expressions directly via the chain rule (e.g., $\\sin^{-1}(2x\\sqrt{1-x^2})$) leads to massive, intractable algebraic expansion.\n\n### The Resolution\nBefore applying any derivative operators, analyze the algebraic structure inside the inverse function and apply a trigonometric substitution to collapse it into a simpler form.\n\n### Boundary Conditions / Domain\n- The substitution must be strictly bijective over the domain of $x$ being evaluated to prevent loss of principal value branches.",
 "mnemonic": "Simplify before you differentiate.",
 "standardMeta": {
 "question": "Why is direct differentiation via the chain rule avoided for heavily nested inverse-trig expressions, and what is the overarching strategy?"
@@ -546,7 +546,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 27,
 "heading": "Pre-Substitution for Inverse Trigonometry: Execution SOP",
-"back": "### Algorithmic SOP\n1. **Identify Pattern:** Look at the algebraic structure inside the inverse trig function.\n2. **Substitute:** Replace $x$ with a trigonometric function (e.g., $x = \sin \theta$ or $x = \tan \theta$) that explicitly completes a standard trigonometric identity.\n3. **Collapse:** Simplify the internal expression so the inverse function cancels out, leaving a multiple of $\theta$.\n4. **Revert and Differentiate:** Substitute $\theta$ back in terms of $x$ (e.g., $\theta = \sin^{-1} x$) and then compute the final derivative.\n\n### Boundary Conditions / Domain\n- When substituting back, ensure $\theta$ remains within the principal value range of the inverse trigonometric function.",
+"back": "### Algorithmic SOP\n1. **Identify Pattern:** Look at the algebraic structure inside the inverse trig function.\n2. **Substitute:** Replace $x$ with a trigonometric function (e.g., $x = \\sin \\theta$ or $x = \\tan \\theta$) that explicitly completes a standard trigonometric identity.\n3. **Collapse:** Simplify the internal expression so the inverse function cancels out, leaving a multiple of $\\theta$.\n4. **Revert and Differentiate:** Substitute $\\theta$ back in terms of $x$ (e.g., $\\theta = \\sin^{-1} x$) and then compute the final derivative.\n\n### Boundary Conditions / Domain\n- When substituting back, ensure $\\theta$ remains within the principal value range of the inverse trigonometric function.",
 "standardMeta": {
 "question": "What is the 4-step execution algorithm for differentiating nested inverse-trigonometric expressions via substitution?"
 }
@@ -584,9 +584,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 29,
 "heading": "Implicit Differentiation: Execution SOP",
-"back": "### Algorithmic SOP\n1. **Differentiate:** Apply the differential operator $\frac{d}{dx}$ to both sides of the equation.\n2. **Chain Rule on y:** Treat $y$ as a nested function of $x$. Every time you differentiate a term containing $y$, you MUST apply the chain rule and multiply the result by $\frac{dy}{dx}$.\n3. **Isolate Terms:** Algebraically collect all terms containing $\frac{dy}{dx}$ on one side of the equation, and move all other terms to the opposite side.\n4. **Factor and Divide:** Factor out $\frac{dy}{dx}$ and divide to completely isolate the derivative.\n\n### Boundary Conditions / Domain\n- The final expression for $\frac{dy}{dx}$ will often depend on both $x$ and $y$. The denominator must not evaluate to zero at the evaluated coordinate.",
+"back": "### Algorithmic SOP\n1. **Differentiate:** Apply the differential operator $\\frac{d}{dx}$ to both sides of the equation.\n2. **Chain Rule on y:** Treat $y$ as a nested function of $x$. Every time you differentiate a term containing $y$, you MUST apply the chain rule and multiply the result by $\\frac{dy}{dx}$.\n3. **Isolate Terms:** Algebraically collect all terms containing $\\frac{dy}{dx}$ on one side of the equation, and move all other terms to the opposite side.\n4. **Factor and Divide:** Factor out $\\frac{dy}{dx}$ and divide to completely isolate the derivative.\n\n### Boundary Conditions / Domain\n- The final expression for $\\frac{dy}{dx}$ will often depend on both $x$ and $y$. The denominator must not evaluate to zero at the evaluated coordinate.",
 "standardMeta": {
-"question": "What are the standard operational steps (SOP) for performing implicit differentiation to find $\frac{dy}{dx}$ from an equation $F(x, y) = 0$?"
+"question": "What are the standard operational steps (SOP) for performing implicit differentiation to find $\\frac{dy}{dx}$ from an equation $F(x, y) = 0$?"
 }
 }
 },
@@ -603,7 +603,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 30,
 "heading": "Archetypes for Logarithmic Differentiation",
-"back": "### Archetype 1: The Variable-to-Variable Form\nWhenever the function has a variable base strictly raised to a variable power (e.g., $y = [f(x)]^{g(x)}$). Standard polynomial power rules or exponential rules mathematically fail here.\n\n### Archetype 2: Heavy Multiplication/Division\nWhen the function is a massive complex product, quotient, or sequence of radicals (e.g., $y = \frac{\sqrt{x-1}(x+2)}{(x-3)^2}$). Taking the natural logarithm algebraically splits the complex products into simple sums and brings down powers.\n\n### Boundary Conditions / Domain\n- Logarithmic differentiation strictly requires the function outputs to be positive ($y > 0$) to ensure the real natural logarithm is defined.",
+"back": "### Archetype 1: The Variable-to-Variable Form\nWhenever the function has a variable base strictly raised to a variable power (e.g., $y = [f(x)]^{g(x)}$). Standard polynomial power rules or exponential rules mathematically fail here.\n\n### Archetype 2: Heavy Multiplication/Division\nWhen the function is a massive complex product, quotient, or sequence of radicals (e.g., $y = \\frac{\\sqrt{x-1}(x+2)}{(x-3)^2}$). Taking the natural logarithm algebraically splits the complex products into simple sums and brings down powers.\n\n### Boundary Conditions / Domain\n- Logarithmic differentiation strictly requires the function outputs to be positive ($y > 0$) to ensure the real natural logarithm is defined.",
 "standardMeta": {
 "question": "Identify the two specific mathematical scenarios (archetypes) where Logarithmic Differentiation is strictly required or highly recommended."
 }
@@ -622,11 +622,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 31,
 "heading": "Logarithmic Differentiation: Log Application Phase",
-"back": "### Component Anatomy\n- **$y = f(x)^{g(x)}$:** The target function featuring a variable base and variable exponent.\n- **$\log y$:** Natural logarithm applied to isolate the exponent.\n\n### Boundary Conditions / Domain\n- Strict constraint: $f(x) > 0$. The natural logarithm is undefined for zero or negative real inputs.",
+"back": "### Component Anatomy\n- **$y = f(x)^{g(x)}$:** The target function featuring a variable base and variable exponent.\n- **$\\log y$:** Natural logarithm applied to isolate the exponent.\n\n### Boundary Conditions / Domain\n- Strict constraint: $f(x) > 0$. The natural logarithm is undefined for zero or negative real inputs.",
 "formulaMeta": {
-"formula": "\log y = g(x) \cdot \log(f(x))",
+"formula": "\\log y = g(x) \\cdot \\log(f(x))",
 "description": "The initial algebraic transformation step for differentiating a variable-to-variable function.",
-"derivation": "### Algorithmic Setup SOP:\n1. Define the equation as $y = f(x)^{g(x)}$.\n2. Apply the natural logarithm to both sides.\n3. Utilize the logarithmic power rule $\log(a^b) = b \log a$ to pull the exponent $g(x)$ down, converting the exponential relationship into a standard product."
+"derivation": "### Algorithmic Setup SOP:\n1. Define the equation as $y = f(x)^{g(x)}$.\n2. Apply the natural logarithm to both sides.\n3. Utilize the logarithmic power rule $\\log(a^b) = b \\log a$ to pull the exponent $g(x)$ down, converting the exponential relationship into a standard product."
 }
 }
 },
@@ -643,11 +643,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 32,
 "heading": "Logarithmic Differentiation: Implicit Isolation Phase",
-"back": "### Component Anatomy\n- **$\frac{1}{y} \frac{dy}{dx}$:** The implicit derivative of the left-hand side $\log y$.\n- **$y$:** The original function $f(x)^{g(x)}$ that must be substituted back at the final step.\n\n### Boundary Conditions / Domain\n- The right side must be differentiated rigorously using the Product Rule and Chain Rule.",
+"back": "### Component Anatomy\n- **$\\frac{1}{y} \\frac{dy}{dx}$:** The implicit derivative of the left-hand side $\\log y$.\n- **$y$:** The original function $f(x)^{g(x)}$ that must be substituted back at the final step.\n\n### Boundary Conditions / Domain\n- The right side must be differentiated rigorously using the Product Rule and Chain Rule.",
 "formulaMeta": {
-"formula": "\frac{dy}{dx} = y \cdot \frac{d}{dx} [g(x) \cdot \log(f(x))]",
+"formula": "\\frac{dy}{dx} = y \\cdot \\frac{d}{dx} [g(x) \\cdot \\log(f(x))]",
 "description": "The calculus execution phase to finalize the logarithmic differentiation procedure.",
-"derivation": "### Algorithmic Execution SOP:\n1. Differentiate the transformed equation implicitly w.r.t $x$. The LHS becomes $\frac{1}{y} \frac{dy}{dx}$.\n2. Apply the Product Rule on the RHS: $g(x) \cdot \frac{f'(x)}{f(x)} + g'(x) \log(f(x))$.\n3. Multiply the entire RHS by $y$ to strictly isolate $\frac{dy}{dx}$.\n4. Substitute the original expression $f(x)^{g(x)}$ back in place of $y$ to finish."
+"derivation": "### Algorithmic Execution SOP:\n1. Differentiate the transformed equation implicitly w.r.t $x$. The LHS becomes $\\frac{1}{y} \\frac{dy}{dx}$.\n2. Apply the Product Rule on the RHS: $g(x) \\cdot \\frac{f'(x)}{f(x)} + g'(x) \\log(f(x))$.\n3. Multiply the entire RHS by $y$ to strictly isolate $\\frac{dy}{dx}$.\n4. Substitute the original expression $f(x)^{g(x)}$ back in place of $y$ to finish."
 }
 }
 },
@@ -664,11 +664,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 33,
 "heading": "Logarithmic Product-to-Sum Transformation",
-"back": "### Component Anatomy\n- **$\prod f_i(x)$:** A massive continuous product of multiple functions.\n- **$\sum \log f_i(x)$:** The product algebraically expanded into a straightforward sum of independent logarithms.\n\n### Boundary Conditions / Domain\n- Strictly requires all sub-functions $f_i(x) > 0$ to ensure the individual logarithms exist over the real numbers. If dealing with negative values, absolute values $|f_i(x)|$ must be applied prior to log transformation.",
+"back": "### Component Anatomy\n- **$\\prod f_i(x)$:** A massive continuous product of multiple functions.\n- **$\\sum \\log f_i(x)$:** The product algebraically expanded into a straightforward sum of independent logarithms.\n\n### Boundary Conditions / Domain\n- Strictly requires all sub-functions $f_i(x) > 0$ to ensure the individual logarithms exist over the real numbers. If dealing with negative values, absolute values $|f_i(x)|$ must be applied prior to log transformation.",
 "formulaMeta": {
-"formula": "\log y = \sum_{i=1}^{n} \log(f_i(x))",
+"formula": "\\log y = \\sum_{i=1}^{n} \\log(f_i(x))",
 "description": "The algebraic transformation required before differentiating a massive continuous product.",
-"derivation": "### Algorithmic SOP:\n1. Apply natural logarithm to both sides to convert products and quotients into sums and differences.\n2. Differentiate implicitly: $\frac{1}{y} \frac{dy}{dx} = \sum \frac{f_i'(x)}{f_i(x)}$.\n3. Multiply the result by the original function $y$ to solve for $\frac{dy}{dx}$."
+"derivation": "### Algorithmic SOP:\n1. Apply natural logarithm to both sides to convert products and quotients into sums and differences.\n2. Differentiate implicitly: $\\frac{1}{y} \\frac{dy}{dx} = \\sum \\frac{f_i'(x)}{f_i(x)}$.\n3. Multiply the result by the original function $y$ to solve for $\\frac{dy}{dx}$."
 }
 }
 },
@@ -685,11 +685,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 34,
 "heading": "Change of Base Algorithm for Differentiation",
-"back": "### Component Anatomy\n- **$\log_a x$:** Logarithm of $x$ featuring a non-standard constant base $a$.\n- **$\log_e x$ or $\ln x$:** Natural logarithm. (Standard calculus derivative rules ONLY apply to base $e$).\n\n### Boundary Conditions / Domain\n- Argument Constraint: $x > 0$.\n- Base Constraints: $a > 0$ and $a \neq 1$.\n- **Warning:** You cannot directly apply $\frac{1}{x}$ to $\log_7(\dots)$ without explicitly converting the base to $e$ first.",
+"back": "### Component Anatomy\n- **$\\log_a x$:** Logarithm of $x$ featuring a non-standard constant base $a$.\n- **$\\log_e x$ or $\\ln x$:** Natural logarithm. (Standard calculus derivative rules ONLY apply to base $e$).\n\n### Boundary Conditions / Domain\n- Argument Constraint: $x > 0$.\n- Base Constraints: $a > 0$ and $a \\neq 1$.\n- **Warning:** You cannot directly apply $\\frac{1}{x}$ to $\\log_7(\\dots)$ without explicitly converting the base to $e$ first.",
 "formulaMeta": {
-"formula": "\log_a x = \frac{\log_e x}{\log_e a}",
+"formula": "\\log_a x = \\frac{\\log_e x}{\\log_e a}",
 "description": "The mandatory algebraic formula required before differentiating logarithms featuring a non-e base.",
-"derivation": "### Execution Example for $y = \log_7(\log x)$:\n1. Convert outer log: $y = \frac{\ln(\log x)}{\ln 7}$.\n2. Factor out constant denominator: $y = \frac{1}{\ln 7} \cdot \ln(\log x)$.\n3. Apply Chain Rule normally: $y' = \frac{1}{\ln 7} \cdot \frac{1}{\log x} \cdot \frac{1}{x}$."
+"derivation": "### Execution Example for $y = \\log_7(\\log x)$:\n1. Convert outer log: $y = \\frac{\\ln(\\log x)}{\\ln 7}$.\n2. Factor out constant denominator: $y = \\frac{1}{\\ln 7} \\cdot \\ln(\\log x)$.\n3. Apply Chain Rule normally: $y' = \\frac{1}{\\ln 7} \\cdot \\frac{1}{\\log x} \\cdot \\frac{1}{x}$."
 }
 }
 },
@@ -706,11 +706,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 35,
 "heading": "First Order Parametric Differentiation",
-"back": "### Component Anatomy\n- **$t$ or $\theta$:** The third bridging variable (parameter) linking $x$ and $y$.\n- **$\frac{dy}{dt}, \frac{dx}{dt}$:** Independent derivatives of $y$ and $x$ computed strictly with respect to the parameter.\n\n### Boundary Conditions / Domain\n- Strict Constraint: $\frac{dx}{dt} \neq 0$. If the parameter derivative of $x$ equals zero, the geometric slope is mathematically undefined (representing a vertical tangent).",
+"back": "### Component Anatomy\n- **$t$ or $\\theta$:** The third bridging variable (parameter) linking $x$ and $y$.\n- **$\\frac{dy}{dt}, \\frac{dx}{dt}$:** Independent derivatives of $y$ and $x$ computed strictly with respect to the parameter.\n\n### Boundary Conditions / Domain\n- Strict Constraint: $\\frac{dx}{dt} \\neq 0$. If the parameter derivative of $x$ equals zero, the geometric slope is mathematically undefined (representing a vertical tangent).",
 "formulaMeta": {
-"formula": "\frac{dy}{dx} = \frac{\left(\frac{dy}{dt}\right)}{\left(\frac{dx}{dt}\right)}",
-"description": "Standard formula for finding $\frac{dy}{dx}$ when a curve is defined parametrically as $x = f(t)$ and $y = g(t)$.",
-"derivation": "Derived via the Chain Rule. Since $y$ is a function of $t$, and $t$ can be seen as a function of $x$ (locally), $\frac{dy}{dx} = \frac{dy}{dt} \cdot \frac{dt}{dx}$. Taking the reciprocal yields the division format."
+"formula": "\\frac{dy}{dx} = \\frac{\\left(\\frac{dy}{dt}\\right)}{\\left(\\frac{dx}{dt}\\right)}",
+"description": "Standard formula for finding $\\frac{dy}{dx}$ when a curve is defined parametrically as $x = f(t)$ and $y = g(t)$.",
+"derivation": "Derived via the Chain Rule. Since $y$ is a function of $t$, and $t$ can be seen as a function of $x$ (locally), $\\frac{dy}{dx} = \\frac{dy}{dt} \\cdot \\frac{dt}{dx}$. Taking the reciprocal yields the division format."
 }
 }
 },
@@ -727,12 +727,12 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 36,
 "heading": "Second Order Parametric Derivative Trap",
-"back": "### Component Anatomy\n- **$\frac{d^2y}{dx^2}$:** The second derivative of $y$ strictly with respect to $x$.\n- **$\frac{d}{dt} \left( \frac{dy}{dx} \right)$:** The parameter-derivative of the previously computed first derivative.\n\n### Boundary Conditions / Domain\n- **FATAL TRAP:** You must NOT simply compute $\frac{d^2y}{dt^2}$ and divide it by $\frac{d^2x}{dt^2}$. This mathematically fails chain rule dependencies.\n- Strict Constraint: $\frac{dx}{dt} \neq 0$.",
+"back": "### Component Anatomy\n- **$\\frac{d^2y}{dx^2}$:** The second derivative of $y$ strictly with respect to $x$.\n- **$\\frac{d}{dt} \\left( \\frac{dy}{dx} \\right)$:** The parameter-derivative of the previously computed first derivative.\n\n### Boundary Conditions / Domain\n- **FATAL TRAP:** You must NOT simply compute $\\frac{d^2y}{dt^2}$ and divide it by $\\frac{d^2x}{dt^2}$. This mathematically fails chain rule dependencies.\n- Strict Constraint: $\\frac{dx}{dt} \\neq 0$.",
 "mnemonic": "Differentiate w.r.t 't', then DIVIDE by dx/dt.",
 "formulaMeta": {
-"formula": "\frac{d^2y}{dx^2} = \frac{\frac{d}{dt} \left( \frac{dy}{dx} \right)}{\frac{dx}{dt}}",
+"formula": "\\frac{d^2y}{dx^2} = \\frac{\\frac{d}{dt} \\left( \\frac{dy}{dx} \\right)}{\\frac{dx}{dt}}",
 "description": "The exact chain-rule compliant formula for the second-order derivative of parametric equations.",
-"derivation": "Apply the operator $\frac{d}{dx}$ to $\frac{dy}{dx}$. By the Chain Rule, $\frac{d}{dx}[f(t)] = \frac{d}{dt}[f(t)] \cdot \frac{dt}{dx}$. Substitute $f(t) = \frac{dy}{dx}$ and use $\frac{dt}{dx} = \frac{1}{\frac{dx}{dt}}$ to yield the final form."
+"derivation": "Apply the operator $\\frac{d}{dx}$ to $\\frac{dy}{dx}$. By the Chain Rule, $\\frac{d}{dx}[f(t)] = \\frac{d}{dt}[f(t)] \\cdot \\frac{dt}{dx}$. Substitute $f(t) = \\frac{dy}{dx}$ and use $\\frac{dt}{dx} = \\frac{1}{\\frac{dx}{dt}}$ to yield the final form."
 }
 }
 },
@@ -752,7 +752,7 @@
 "back": "### Component Anatomy\n- **$y$:** The entire infinite repeating square root series.\n- **$f(x)$:** The recurring base function strictly nested inside the radical.\n\n### Boundary Conditions / Domain\n- The infinite series must strictly converge to a finite real value for the original $x$ domain.",
 "mnemonic": "Substitute 'y' into the tail.",
 "formulaMeta": {
-"formula": "y = \sqrt{f(x) + y} \implies y^2 - y = f(x)",
+"formula": "y = \\sqrt{f(x) + y} \\implies y^2 - y = f(x)",
 "description": "The standard algebraic simplification step required before differentiating an infinite root series.",
 "derivation": "### Algorithmic SOP:\n1. Identify the infinitely repeating tail sub-expression.\n2. Because the series is strictly infinite, the tail itself is mathematically identical to the original function $y$. Replace the tail with $y$.\n3. Square both sides to algebraically eliminate the outermost radical entirely."
 }
@@ -771,11 +771,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 38,
 "heading": "Infinite Repeating Roots: Implicit Execution Phase",
-"back": "### Component Anatomy\n- **$2y - 1$:** The universally generated denominator for this specific archetype after implicit isolation.\n- **$f'(x)$:** The standard derivative of the base recurring function.\n\n### Boundary Conditions / Domain\n- The denominator strictly requires $2y - 1 \neq 0$, implying the limit value of the series $y \neq \frac{1}{2}$.",
+"back": "### Component Anatomy\n- **$2y - 1$:** The universally generated denominator for this specific archetype after implicit isolation.\n- **$f'(x)$:** The standard derivative of the base recurring function.\n\n### Boundary Conditions / Domain\n- The denominator strictly requires $2y - 1 \\neq 0$, implying the limit value of the series $y \\neq \\frac{1}{2}$.",
 "formulaMeta": {
-"formula": "\frac{dy}{dx} = \frac{f'(x)}{2y - 1}",
+"formula": "\\frac{dy}{dx} = \\frac{f'(x)}{2y - 1}",
 "description": "The final isolated derivative resulting from an infinite repeating square root function.",
-"derivation": "### Algorithmic Execution SOP:\n1. Begin with the algebraically simplified form: $y^2 - y = f(x)$.\n2. Differentiate implicitly w.r.t $x$: $2y \frac{dy}{dx} - \frac{dy}{dx} = f'(x)$.\n3. Factor out $\frac{dy}{dx}$ on the left hand side: $\frac{dy}{dx}(2y - 1) = f'(x)$.\n4. Divide to isolate the final derivative."
+"derivation": "### Algorithmic Execution SOP:\n1. Begin with the algebraically simplified form: $y^2 - y = f(x)$.\n2. Differentiate implicitly w.r.t $x$: $2y \\frac{dy}{dx} - \\frac{dy}{dx} = f'(x)$.\n3. Factor out $\\frac{dy}{dx}$ on the left hand side: $\\frac{dy}{dx}(2y - 1) = f'(x)$.\n4. Divide to isolate the final derivative."
 }
 }
 },
@@ -792,11 +792,11 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 39,
 "heading": "Differentiation of Matrix Determinants",
-"back": "### Component Anatomy\n- **$\Delta(x)$:** A determinant where elements are explicitly functions of $x$.\n- **$\Delta_{Ri}'(x)$:** The resulting determinant with only the $i$-th row differentiated, while all other rows remain exactly in their original states.\n\n### Boundary Conditions / Domain\n- All scalar functions nested inside the matrix elements must be strictly differentiable w.r.t $x$ at the evaluated point.",
+"back": "### Component Anatomy\n- **$\\Delta(x)$:** A determinant where elements are explicitly functions of $x$.\n- **$\\Delta_{Ri}'(x)$:** The resulting determinant with only the $i$-th row differentiated, while all other rows remain exactly in their original states.\n\n### Boundary Conditions / Domain\n- All scalar functions nested inside the matrix elements must be strictly differentiable w.r.t $x$ at the evaluated point.",
 "mnemonic": "One row at a time.",
 "formulaMeta": {
-"formula": "\Delta'(x) = \Delta_{R1}'(x) + \Delta_{R2}'(x) + \Delta_{R3}'(x)",
-"description": "Procedural formula for differentiating a $3 \times 3$ determinant.",
+"formula": "\\Delta'(x) = \\Delta_{R1}'(x) + \\Delta_{R2}'(x) + \\Delta_{R3}'(x)",
+"description": "Procedural formula for differentiating a $3 \\times 3$ determinant.",
 "derivation": "### Algorithmic Execution:\n1. Differentiate the first row exclusively, leaving rows 2 and 3 unchanged.\n2. Add this to a new determinant where only row 2 is differentiated, leaving rows 1 and 3 unchanged.\n3. Add this to a final determinant where only row 3 is differentiated.\n(Note: This operation can identically be performed column-by-column instead of row-by-row)."
 }
 }
@@ -814,10 +814,10 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 40,
 "heading": "Implicit Trig Inversion Trick (HOTS): Isolation Phase",
-"back": "### The Conceptual Trap\nWhen given a cyclic implicit equation like $\cos y = x \cos(a+y)$, directly differentiating implicitly w.r.t $x$ causes massive algebraic tangles when trying to isolate $\frac{dy}{dx}$.\n\n### The Inverse Strategy SOP\nInstead of finding $\frac{dy}{dx}$ directly, isolate the strictly lone variable ($x$) algebraically.\n\n**Isolation Step:**\nRearrange the equation to express $x$ as an explicit function of $y$: \n$x = \frac{\cos y}{\cos(a+y)}$\n\n### Boundary Conditions / Domain\n- The denominator $\cos(a+y) \neq 0$.",
+"back": "### The Conceptual Trap\nWhen given a cyclic implicit equation like $\\cos y = x \\cos(a+y)$, directly differentiating implicitly w.r.t $x$ causes massive algebraic tangles when trying to isolate $\\frac{dy}{dx}$.\n\n### The Inverse Strategy SOP\nInstead of finding $\\frac{dy}{dx}$ directly, isolate the strictly lone variable ($x$) algebraically.\n\n**Isolation Step:**\nRearrange the equation to express $x$ as an explicit function of $y$: \n$x = \\frac{\\cos y}{\\cos(a+y)}$\n\n### Boundary Conditions / Domain\n- The denominator $\\cos(a+y) \\neq 0$.",
 "mnemonic": "If 'x' is alone, differentiate w.r.t 'y' and flip.",
 "standardMeta": {
-"question": "In cyclic implicit equations like $\cos y = x \cos(a+y)$, what is the mandatory first algebraic step to bypass messy standard implicit differentiation?"
+"question": "In cyclic implicit equations like $\\cos y = x \\cos(a+y)$, what is the mandatory first algebraic step to bypass messy standard implicit differentiation?"
 }
 }
 },
@@ -834,9 +834,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 41,
 "heading": "Implicit Trig Inversion Trick (HOTS): Inversion Phase",
-"back": "### Algorithmic Execution SOP\n1. Starting with the isolated form $x = f(y)$, strictly differentiate $x$ **with respect to $y$** to compute $\frac{dx}{dy}$ using the standard Quotient Rule.\n2. Expand the resulting numerator and apply compound angle trig identities (e.g., $\sin(A-B) = \sin A \cos B - \cos A \sin B$) to collapse the terms into a single constant or simplified trig term.\n3. The result is now a simplified expression for $\frac{dx}{dy}$.\n4. Take the mathematical reciprocal of both sides to yield the final desired target $\frac{dy}{dx}$.\n\n### Boundary Conditions / Domain\n- $\frac{dx}{dy} \neq 0$ is required so that the reciprocal $\frac{dy}{dx}$ remains defined and finite.",
+"back": "### Algorithmic Execution SOP\n1. Starting with the isolated form $x = f(y)$, strictly differentiate $x$ **with respect to $y$** to compute $\\frac{dx}{dy}$ using the standard Quotient Rule.\n2. Expand the resulting numerator and apply compound angle trig identities (e.g., $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$) to collapse the terms into a single constant or simplified trig term.\n3. The result is now a simplified expression for $\\frac{dx}{dy}$.\n4. Take the mathematical reciprocal of both sides to yield the final desired target $\\frac{dy}{dx}$.\n\n### Boundary Conditions / Domain\n- $\\frac{dx}{dy} \\neq 0$ is required so that the reciprocal $\\frac{dy}{dx}$ remains defined and finite.",
 "standardMeta": {
-"question": "Once $x$ is isolated in terms of $y$ (e.g. $x = f(y)$), what are the remaining operational steps to extract a simplified $\frac{dy}{dx}$?"
+"question": "Once $x$ is isolated in terms of $y$ (e.g. $x = f(y)$), what are the remaining operational steps to extract a simplified $\\frac{dy}{dx}$?"
 }
 }
 },
@@ -853,7 +853,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 42,
 "heading": "Proving Second Order DEs (HOTS): Quotient Rule Bypass",
-"back": "### The Conceptual Trap\nDirectly applying the quotient rule to compute $\frac{d^2y}{dx^2}$ and plugging it blindly into a target proof equation creates an intractable algebraic nightmare.\n\n### The Bypass Setup SOP\n1. Compute the first derivative $\frac{dy}{dx}$ (or $y_1$).\n2. **Crucial Bypass:** Immediately cross-multiply any denominator from the RHS over to the LHS (e.g., forming $\sqrt{1-x^2} \cdot y' = a$).\n3. If the cross-multiplied term features a square root radical, **square both sides** of the entire equation to eliminate it completely.\n\n### Boundary Conditions / Domain\n- Squaring equations can theoretically introduce extraneous solutions, but in DE proofs, it strictly serves to smooth out the subsequent implicit derivative.",
+"back": "### The Conceptual Trap\nDirectly applying the quotient rule to compute $\\frac{d^2y}{dx^2}$ and plugging it blindly into a target proof equation creates an intractable algebraic nightmare.\n\n### The Bypass Setup SOP\n1. Compute the first derivative $\\frac{dy}{dx}$ (or $y_1$).\n2. **Crucial Bypass:** Immediately cross-multiply any denominator from the RHS over to the LHS (e.g., forming $\\sqrt{1-x^2} \\cdot y' = a$).\n3. If the cross-multiplied term features a square root radical, **square both sides** of the entire equation to eliminate it completely.\n\n### Boundary Conditions / Domain\n- Squaring equations can theoretically introduce extraneous solutions, but in DE proofs, it strictly serves to smooth out the subsequent implicit derivative.",
 "mnemonic": "Cross-multiply, Square, then Differentiate.",
 "standardMeta": {
 "question": "When proving complex second-order differential equations, what specific algebraic operations must you perform immediately after finding the first derivative to avoid the quotient rule?"
@@ -873,7 +873,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 43,
 "heading": "Proving Second Order DEs (HOTS): Implicit Execution",
-"back": "### Algorithmic Execution SOP\n1. After cross-multiplying and squaring to clear denominators and radicals, you will possess an equation typically linking $(f(x)) \cdot (y_1)^2 = g(x, y)$.\n2. Differentiate this new equation **implicitly** with respect to $x$.\n3. On the LHS, strictly apply the Product Rule. Treat $(y_1)^2$ via the chain rule as $2 y_1 \cdot y_2$ (where $y_2$ is the second derivative).\n4. Divide the entire resulting equation by the common factor (which is almost always $2y_1$) to yield the final target differential equation directly.\n\n### Boundary Conditions / Domain\n- Division by $2y_1$ rigorously assumes the first derivative $y_1 \neq 0$.",
+"back": "### Algorithmic Execution SOP\n1. After cross-multiplying and squaring to clear denominators and radicals, you will possess an equation typically linking $(f(x)) \\cdot (y_1)^2 = g(x, y)$.\n2. Differentiate this new equation **implicitly** with respect to $x$.\n3. On the LHS, strictly apply the Product Rule. Treat $(y_1)^2$ via the chain rule as $2 y_1 \\cdot y_2$ (where $y_2$ is the second derivative).\n4. Divide the entire resulting equation by the common factor (which is almost always $2y_1$) to yield the final target differential equation directly.\n\n### Boundary Conditions / Domain\n- Division by $2y_1$ rigorously assumes the first derivative $y_1 \\neq 0$.",
 "standardMeta": {
 "question": "After rearranging a first derivative to remove denominators and radicals, what are the final calculus steps to directly generate the target second-order differential equation?"
 }
@@ -895,7 +895,7 @@
 "back": "### Component Anatomy\n- **$f(x)$:** A real-valued function.\n- **$[a, b]$:** The closed interval required for continuity checks.\n- **$(a, b)$:** The open interval required for differentiability checks.\n- **$c$:** At least one interior point where the tangent is perfectly horizontal.\n\n### Boundary Conditions / Domain\n1. $f(x)$ MUST be strictly continuous on the closed interval $[a, b]$.\n2. $f(x)$ MUST be strictly differentiable on the open interval $(a, b)$.\n3. Equal Ends Constraint: $f(a) = f(b)$.",
 "mnemonic": "C.D.E. (Continuous, Differentiable, Equal Ends) implies Flat Tangent.",
 "formulaMeta": {
-"formula": "\exists c \in (a, b) \text{ such that } f'(c) = 0",
+"formula": "\\exists c \\in (a, b) \\text{ such that } f'(c) = 0",
 "description": "The mathematical conclusion of Rolle's Theorem proving the existence of a horizontal tangent.",
 "derivation": "Geometrically, if a smooth curve starts and ends at the exact same y-coordinate, it must turn around at least once in between. At that turning point (maxima or minima), the slope $f'(c)$ evaluates to $0$."
 }
@@ -914,12 +914,12 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 45,
 "heading": "Lagrange's Mean Value Theorem (MVT)",
-"back": "### Component Anatomy\n- **$\frac{f(b) - f(a)}{b - a}$:** The average rate of change; geometrically the slope of the secant line strictly connecting endpoints $(a, f(a))$ and $(b, f(b))$.\n- **$f'(c)$:** The instantaneous rate of change; geometrically the tangent slope at an interior point $c$.\n\n### Boundary Conditions / Domain\n1. $f(x)$ MUST be strictly continuous on the closed interval $[a, b]$.\n2. $f(x)$ MUST be strictly differentiable on the open interval $(a, b)$.\n- Unlike Rolle's Theorem, there is NO restriction that $f(a)$ must equal $f(b)$.",
+"back": "### Component Anatomy\n- **$\\frac{f(b) - f(a)}{b - a}$:** The average rate of change; geometrically the slope of the secant line strictly connecting endpoints $(a, f(a))$ and $(b, f(b))$.\n- **$f'(c)$:** The instantaneous rate of change; geometrically the tangent slope at an interior point $c$.\n\n### Boundary Conditions / Domain\n1. $f(x)$ MUST be strictly continuous on the closed interval $[a, b]$.\n2. $f(x)$ MUST be strictly differentiable on the open interval $(a, b)$.\n- Unlike Rolle's Theorem, there is NO restriction that $f(a)$ must equal $f(b)$.",
 "mnemonic": "Tangent slope equals Secant slope.",
 "formulaMeta": {
-"formula": "\exists c \in (a, b) \text{ such that } f'(c) = \frac{f(b) - f(a)}{b - a}",
+"formula": "\\exists c \\in (a, b) \\text{ such that } f'(c) = \\frac{f(b) - f(a)}{b - a}",
 "description": "The mathematical conclusion of the MVT proving the existence of a tangent parallel to the secant.",
-"derivation": "MVT is essentially Rolle's Theorem applied to the tilted axis of the secant line. Construct $h(x) = f(x) - \text{secant\\_line}(x)$. $h(x)$ satisfies Rolle's conditions, yielding $h'(c) = 0 \implies f'(c) - m_{\text{secant}} = 0$."
+"derivation": "MVT is essentially Rolle's Theorem applied to the tilted axis of the secant line. Construct $h(x) = f(x) - \\text{secant\\_line}(x)$. $h(x)$ satisfies Rolle's conditions, yielding $h'(c) = 0 \\implies f'(c) - m_{\\text{secant}} = 0$."
 }
 }
 },
@@ -955,9 +955,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 47,
 "heading": "Inequality Proofs via MVT: Setup Phase",
-"back": "### The Concept\nThe Mean Value Theorem is the standard rigorous tool for proving bounding inequalities for trigonometric and algebraic functions (e.g., proving $|\sin a - \sin b| \leq |a - b|$).\n\n### The Setup SOP\n1. Extract a base continuous function from the inequality structure (e.g., let $f(x) = \sin x$).\n2. Define an arbitrary closed interval $[a, b]$ where the function satisfies MVT conditions.\n3. Apply MVT to algebraically extract the equality: $f'(c) = \frac{f(b)-f(a)}{b-a}$.\n\n### Boundary Conditions / Domain\n- The assumed interval boundaries $a$ and $b$ must be distinct real numbers ($a < b$).",
+"back": "### The Concept\nThe Mean Value Theorem is the standard rigorous tool for proving bounding inequalities for trigonometric and algebraic functions (e.g., proving $|\\sin a - \\sin b| \\leq |a - b|$).\n\n### The Setup SOP\n1. Extract a base continuous function from the inequality structure (e.g., let $f(x) = \\sin x$).\n2. Define an arbitrary closed interval $[a, b]$ where the function satisfies MVT conditions.\n3. Apply MVT to algebraically extract the equality: $f'(c) = \\frac{f(b)-f(a)}{b-a}$.\n\n### Boundary Conditions / Domain\n- The assumed interval boundaries $a$ and $b$ must be distinct real numbers ($a < b$).",
 "standardMeta": {
-"question": "In JEE and Board HOTS questions, what are the initial setup steps to leverage the Mean Value Theorem for proving function inequalities like $|\sin a - \sin b| \leq |a - b|$?"
+"question": "In JEE and Board HOTS questions, what are the initial setup steps to leverage the Mean Value Theorem for proving function inequalities like $|\\sin a - \\sin b| \\leq |a - b|$?"
 }
 }
 },
@@ -974,10 +974,10 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 48,
 "heading": "Inequality Proofs via MVT: Bounding Phase",
-"back": "### Algorithmic Execution SOP\n1. From the MVT equation $f'(c) = \frac{f(b)-f(a)}{b-a}$, apply an absolute value operator strictly to both sides.\n2. Mathematically evaluate the derivative function $f'(c)$.\n3. Substitute the universally known mathematical limit/bound of that derivative. (For example, if $f'(x) = \cos x$, we universally know $|\cos c| \leq 1$).\n4. Cross-multiply the denominator $|b - a|$ to finalize the proof without ever calculating the exact positional value of $c$.\n\n### Boundary Conditions / Domain\n- Ensure the applied bound is strictly valid over the chosen interval $(a, b)$.",
+"back": "### Algorithmic Execution SOP\n1. From the MVT equation $f'(c) = \\frac{f(b)-f(a)}{b-a}$, apply an absolute value operator strictly to both sides.\n2. Mathematically evaluate the derivative function $f'(c)$.\n3. Substitute the universally known mathematical limit/bound of that derivative. (For example, if $f'(x) = \\cos x$, we universally know $|\\cos c| \\leq 1$).\n4. Cross-multiply the denominator $|b - a|$ to finalize the proof without ever calculating the exact positional value of $c$.\n\n### Boundary Conditions / Domain\n- Ensure the applied bound is strictly valid over the chosen interval $(a, b)$.",
 "mnemonic": "Don't find 'c', just bound 'f'(c)'.",
 "standardMeta": {
-"question": "Once the MVT equation $f'(c) = \frac{f(b)-f(a)}{b-a}$ is established, how do you mathematically execute the bounding phase to prove a target inequality?"
+"question": "Once the MVT equation $f'(c) = \\frac{f(b)-f(a)}{b-a}$ is established, how do you mathematically execute the bounding phase to prove a target inequality?"
 }
 }
 },
@@ -997,9 +997,9 @@
 "back": "### Component Anatomy\n- **$f(x)$:** A continuous real-valued function.\n- **$[a, b]$:** A valid closed interval.\n- **$N$:** Any real number value strictly lying between $f(a)$ and $f(b)$.\n- **$c$:** An interior point belonging to $(a, b)$ where the function evaluates exactly to $N$.\n\n### Boundary Conditions / Domain\n- $f(x)$ MUST be strictly continuous everywhere on the closed interval $[a, b]$. Discontinuities allow the graph to 'skip' over intermediate values.",
 "mnemonic": "Continuous graphs can't skip values.",
 "formulaMeta": {
-"formula": "\exists c \in (a, b) \text{ such that } f(c) = N",
+"formula": "\\exists c \\in (a, b) \\text{ such that } f(c) = N",
 "description": "Mathematical statement of the Intermediate Value Theorem.",
-"derivation": "### Root Existence Corollary:\nIf $f(a)$ and $f(b)$ possess strictly opposite mathematical signs (i.e., $f(a) \cdot f(b) < 0$), then $N=0$ lies between them. The continuous graph MUST cross the x-axis, mathematically guaranteeing at least one real root for $f(x) = 0$ inside $(a, b)$."
+"derivation": "### Root Existence Corollary:\nIf $f(a)$ and $f(b)$ possess strictly opposite mathematical signs (i.e., $f(a) \\cdot f(b) < 0$), then $N=0$ lies between them. The continuous graph MUST cross the x-axis, mathematically guaranteeing at least one real root for $f(x) = 0$ inside $(a, b)$."
 }
 }
 },
@@ -1016,12 +1016,12 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 50,
 "heading": "L'Hôpital's Rule for Indeterminate Limits",
-"back": "### Component Anatomy\n- **$f(x), g(x)$:** The numerator and denominator functions composing the limit.\n- **$f'(x), g'(x)$:** Their independent calculus derivatives w.r.t $x$.\n\n### Boundary Conditions / Domain\n- **CRITICAL:** The initial limit substitution must evaluate strictly to a recognized indeterminate form: $\frac{0}{0}$ or $\frac{\infty}{\infty}$. Applying it to standard limits yields mathematically fatal errors.\n- The denominator derivative $g'(x) \neq 0$ near $x = a$ (except possibly at $a$).",
+"back": "### Component Anatomy\n- **$f(x), g(x)$:** The numerator and denominator functions composing the limit.\n- **$f'(x), g'(x)$:** Their independent calculus derivatives w.r.t $x$.\n\n### Boundary Conditions / Domain\n- **CRITICAL:** The initial limit substitution must evaluate strictly to a recognized indeterminate form: $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$. Applying it to standard limits yields mathematically fatal errors.\n- The denominator derivative $g'(x) \\neq 0$ near $x = a$ (except possibly at $a$).",
 "mnemonic": "Derive top, derive bottom, try again.",
 "formulaMeta": {
-"formula": "\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}",
+"formula": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}",
 "description": "Rule for resolving limits that evaluate to indeterminate fractional forms.",
-"derivation": "### Algorithmic Execution SOP:\n1. Plug in $x=a$. If it yields strictly $\frac{0}{0}$ or $\frac{\pm \infty}{\pm \infty}$, proceed.\n2. Differentiate the numerator and the denominator completely independently (Do NOT apply the Quotient Rule).\n3. Re-evaluate the limit. If it remains indeterminate, L'Hôpital's Rule may be recursively applied again."
+"derivation": "### Algorithmic Execution SOP:\n1. Plug in $x=a$. If it yields strictly $\\frac{0}{0}$ or $\\frac{\\pm \\infty}{\\pm \\infty}$, proceed.\n2. Differentiate the numerator and the denominator completely independently (Do NOT apply the Quotient Rule).\n3. Re-evaluate the limit. If it remains indeterminate, L'Hôpital's Rule may be recursively applied again."
 }
 }
 },
@@ -1038,7 +1038,7 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 51,
 "heading": "Asymptotic Growth: Exponential vs Polynomial",
-"back": "### Mathematical Property\nFor sufficiently large values of $x$, an exponential function $a^x$ (where $a > 1$) will ALWAYS eventually dominate and grow strictly faster than any polynomial function $x^n$ (for any finite integer $n$).\n\n### Limit Implication\nBecause the exponential denominator grows aggressively faster, the mathematical limit at infinity resolves to zero: \n$\lim_{x \to \infty} \frac{x^n}{e^x} = 0$\n\n### Boundary Conditions / Domain\n- This strictly applies as $x \to \infty$. For small values of $x$, a high-degree polynomial (like $x^{100}$) may temporarily yield larger values than $10^x$.",
+"back": "### Mathematical Property\nFor sufficiently large values of $x$, an exponential function $a^x$ (where $a > 1$) will ALWAYS eventually dominate and grow strictly faster than any polynomial function $x^n$ (for any finite integer $n$).\n\n### Limit Implication\nBecause the exponential denominator grows aggressively faster, the mathematical limit at infinity resolves to zero: \n$\\lim_{x \\to \\infty} \\frac{x^n}{e^x} = 0$\n\n### Boundary Conditions / Domain\n- This strictly applies as $x \\to \\infty$. For small values of $x$, a high-degree polynomial (like $x^{100}$) may temporarily yield larger values than $10^x$.",
 "mnemonic": "Exponentials always beat polynomials in a marathon.",
 "standardMeta": {
 "question": "Between an exponential function $f(x) = 10^x$ and a high-degree polynomial function $g(x) = x^{100}$, which function will strictly dominate and grow asymptotically faster for large values of $x$?"
@@ -1058,9 +1058,9 @@
 "tags": ["math", "calculus", "continuity-and-differentiability", "jee-main", "jee-advanced", "class-12"],
 "order": 52,
 "heading": "Radius of Curvature Invariant for a Circle",
-"back": "### Component Anatomy\n- **$y_1$ or $\frac{dy}{dx}$:** First derivative of the circle equation.\n- **$y_2$ or $\frac{d^2y}{dx^2}$:** Second derivative of the circle equation.\n- **$c$:** The explicit geometric radius of the defined circle.\n\n### Boundary Conditions / Domain\n- Strict constraint: The second derivative $y_2 \neq 0$. For a circle, $y_2$ is strictly non-zero everywhere except where undefined (at horizontal extremities).",
+"back": "### Component Anatomy\n- **$y_1$ or $\\frac{dy}{dx}$:** First derivative of the circle equation.\n- **$y_2$ or $\\frac{d^2y}{dx^2}$:** Second derivative of the circle equation.\n- **$c$:** The explicit geometric radius of the defined circle.\n\n### Boundary Conditions / Domain\n- Strict constraint: The second derivative $y_2 \\neq 0$. For a circle, $y_2$ is strictly non-zero everywhere except where undefined (at horizontal extremities).",
 "formulaMeta": {
-"formula": "\frac{\left[1 + \left(\frac{dy}{dx}\right)^2\right]^{\frac{3}{2}}}{\frac{d^2y}{dx^2}} = -c",
+"formula": "\\frac{\\left[1 + \\left(\\frac{dy}{dx}\\right)^2\\right]^{\\frac{3}{2}}}{\\frac{d^2y}{dx^2}} = -c",
 "description": "Evaluation of a specific differential expression based on the general circle equation $(x-a)^2 + (y-b)^2 = c^2$.",
 "derivation": "### Insight:\nThis complex fractional ratio represents the mathematical formula for the Radius of Curvature of any curve. For a perfect mathematical circle, this curvature value is strictly constant (equal to the radius) and structurally completely independent of the spatial center coordinates $(a, b)$."
 }

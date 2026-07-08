@@ -53,9 +53,9 @@
 "tags": ["math", "coordinate-geometry", "distance", "class-10"],
 "order": 3,
 "heading": "Distance from the Origin",
-"back": "## Component Anatomy:\n- **$x$:** The abscissa of the target point.\n- **$y$:** The ordinate of the target point.\n\n## Boundary Conditions / Domain:\n- The reference origin point MUST strictly be $O(0, 0)$.\n- The distance $d$ is always strictly non-negative ($d \geq 0$).",
+"back": "## Component Anatomy:\n- **$x$:** The abscissa of the target point.\n- **$y$:** The ordinate of the target point.\n\n## Boundary Conditions / Domain:\n- The reference origin point MUST strictly be $O(0, 0)$.\n- The distance $d$ is always strictly non-negative ($d \\geq 0$).",
 "formulaMeta": {
-"formula": "d = \sqrt{x^2 + y^2}",
+"formula": "d = \\sqrt{x^2 + y^2}",
 "description": "Formula for the absolute scalar distance of a point P(x,y) from the Cartesian origin.",
 "derivation": ""
 }
@@ -76,7 +76,7 @@
 "heading": "The Cartesian Distance Formula",
 "back": "## Component Anatomy:\n- **$x_1, y_1$:** Coordinates of the first spatial point.\n- **$x_2, y_2$:** Coordinates of the second spatial point.\n\n## Boundary Conditions / Domain:\n- The internal subtraction order inside the squares does not algebraically matter because $(a-b)^2 = (b-a)^2$.\n- However, pairing strictly $x$ with $x$ and $y$ with $y$ is mandatory.\n- Distance $d$ strictly evaluates to a real, non-negative number.",
 "formulaMeta": {
-"formula": "d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+"formula": "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
 "description": "General formula computing the shortest linear distance between two points A and B.",
 "derivation": "Derived explicitly using the Pythagoras Theorem on the Cartesian plane. The horizontal base is given by the difference in abscissas $(x_2-x_1)$, and the perpendicular vertical height is the difference in ordinates $(y_2-y_1)$. The hypotenuse is the resulting distance $d$."
 }
@@ -115,7 +115,7 @@
 "tags": ["math", "coordinate-geometry", "locus", "jee", "class-10"],
 "order": 6,
 "heading": "Locus of an Equidistant Point",
-"back": "- **Geometric Fact:** The resulting linear equation (e.g., $ax + by + c = 0$) derived from $PA^2 = PB^2$ strictly represents the **perpendicular bisector** of the fixed line segment $AB$.\n- **Why:** By strict mathematical definition, the infinite locus of any arbitrary point $(x,y)$ equidistant from two fixed spatial points is a straight continuous line that bisects the interconnecting segment at a perfect $90^\circ$ angle.",
+"back": "- **Geometric Fact:** The resulting linear equation (e.g., $ax + by + c = 0$) derived from $PA^2 = PB^2$ strictly represents the **perpendicular bisector** of the fixed line segment $AB$.\n- **Why:** By strict mathematical definition, the infinite locus of any arbitrary point $(x,y)$ equidistant from two fixed spatial points is a straight continuous line that bisects the interconnecting segment at a perfect $90^\\circ$ angle.",
 "standardMeta": {
 "question": "When you algebraically equate the distances from an unknown point $P(x,y)$ to two fixed points $A$ and $B$ (i.e., setting $PA^2 = PB^2$), what specific geometric entity does the resulting linear equation actually represent?"
 }
@@ -210,10 +210,10 @@
 "tags": ["math", "coordinate-geometry", "section-formula", "class-10"],
 "order": 11,
 "heading": "Section Formula (Internal Division)",
-"back": "## Component Anatomy:\n- **$m_1, m_2$:** The scalar integer/fractional parts of the internal division ratio.\n- **$x_1, y_1$:** Coordinates of the starting endpoint.\n- **$x_2, y_2$:** Coordinates of the terminal endpoint.\n\n## Boundary Conditions / Domain:\n- The denominator sum must be strictly non-zero ($m_1 + m_2 \neq 0$).\n- The given ratio must strictly apply to a point $P$ mathematically dividing the segment *internally* (between points A and B).",
+"back": "## Component Anatomy:\n- **$m_1, m_2$:** The scalar integer/fractional parts of the internal division ratio.\n- **$x_1, y_1$:** Coordinates of the starting endpoint.\n- **$x_2, y_2$:** Coordinates of the terminal endpoint.\n\n## Boundary Conditions / Domain:\n- The denominator sum must be strictly non-zero ($m_1 + m_2 \\neq 0$).\n- The given ratio must strictly apply to a point $P$ mathematically dividing the segment *internally* (between points A and B).",
 "mnemonic": "Cross-multiply the ratios with opposite boundary coordinates.",
 "formulaMeta": {
-"formula": "P(x, y) = \left( \frac{m_1x_2 + m_2x_1}{m_1 + m_2}, \frac{m_1y_2 + m_2y_1}{m_1 + m_2} \right)",
+"formula": "P(x, y) = \\left( \\frac{m_1x_2 + m_2x_1}{m_1 + m_2}, \\frac{m_1y_2 + m_2y_1}{m_1 + m_2} \\right)",
 "description": "Calculates the coordinate point P that internally divides a line segment in a specified ratio.",
 "derivation": ""
 }
@@ -234,9 +234,9 @@
 "heading": "SOP: Deriving the Section Formula via Similarity",
 "back": "## Setup\nGiven endpoints $A(x_1, y_1)$ and $B(x_2, y_2)$ and point $P(x,y)$ dividing $AB$ internally in ratio $m_1:m_2$.\n\n## Component Anatomy:\n- **Perpendiculars:** Drop geometric perpendiculars from $A, P, B$ to the x-axis, and draw parallel horizontals to form right triangles.\n\n## Boundary Conditions / Domain:\n- Triangles must be strictly similar by AA criterion.",
 "formulaMeta": {
-"formula": "\text{Prove: } x = \frac{m_1x_2 + m_2x_1}{m_1 + m_2}",
+"formula": "\\text{Prove: } x = \\frac{m_1x_2 + m_2x_1}{m_1 + m_2}",
 "description": "Algorithmic geometric proof deriving the internal section formula.",
-"derivation": "1. Construct perpendiculars to the axes to form two distinct right-angled triangles sharing vertex $P$.\n2. Prove the two triangles are mathematically similar (AA Similarity).\n3. Set up the proportional equality: The ratio of their hypotenuses ($\frac{PA}{PB} = \frac{m_1}{m_2}$) strictly equals the ratio of their horizontal bases ($\frac{x - x_1}{x_2 - x}$) and vertical heights.\n4. Cross-multiply the $x$-coordinate proportion: $m_1(x_2 - x) = m_2(x - x_1)$.\n5. Expand and algebraically isolate $x$ to yield the final $x$-coordinate formula. Repeat for $y$."
+"derivation": "1. Construct perpendiculars to the axes to form two distinct right-angled triangles sharing vertex $P$.\n2. Prove the two triangles are mathematically similar (AA Similarity).\n3. Set up the proportional equality: The ratio of their hypotenuses ($\\frac{PA}{PB} = \\frac{m_1}{m_2}$) strictly equals the ratio of their horizontal bases ($\\frac{x - x_1}{x_2 - x}$) and vertical heights.\n4. Cross-multiply the $x$-coordinate proportion: $m_1(x_2 - x) = m_2(x - x_1)$.\n5. Expand and algebraically isolate $x$ to yield the final $x$-coordinate formula. Repeat for $y$."
 }
 }
 },
@@ -253,10 +253,10 @@
 "tags": ["math", "coordinate-geometry", "section-formula", "jee", "class-11"],
 "order": 13,
 "heading": "Section Formula (External Division)",
-"back": "## Component Anatomy:\n- **$m, n$:** The scalar parts of the external division ratio.\n- **$x_1, y_1$ & $x_2, y_2$:** Coordinates of the segment endpoints.\n\n## Boundary Conditions / Domain:\n- The denominator difference cannot evaluate to zero ($m \neq n$, hence $m - n \neq 0$).\n- Used specifically when the coordinate point $P$ lies on the infinitely extended line vector strictly *outside* the bounded segment $AB$.",
+"back": "## Component Anatomy:\n- **$m, n$:** The scalar parts of the external division ratio.\n- **$x_1, y_1$ & $x_2, y_2$:** Coordinates of the segment endpoints.\n\n## Boundary Conditions / Domain:\n- The denominator difference cannot evaluate to zero ($m \\neq n$, hence $m - n \\neq 0$).\n- Used specifically when the coordinate point $P$ lies on the infinitely extended line vector strictly *outside* the bounded segment $AB$.",
 "mnemonic": "External strictly means subtract.",
 "formulaMeta": {
-"formula": "P(x, y) = \left( \frac{mx_2 - nx_1}{m - n}, \frac{my_2 - ny_1}{m - n} \right)",
+"formula": "P(x, y) = \\left( \\frac{mx_2 - nx_1}{m - n}, \\frac{my_2 - ny_1}{m - n} \\right)",
 "description": "Calculates the coordinate point P that externally divides a line segment extended beyond its endpoints.",
 "derivation": ""
 }
@@ -275,7 +275,7 @@
 "tags": ["math", "coordinate-geometry", "algebra", "class-10"],
 "order": 14,
 "heading": "SOP: The Algebraic $k:1$ Ratio Optimization",
-"back": "- **Cognitive Load:** Assuming a raw ratio of $m_1:m_2$ structurally creates an equation with two distinct variables, which is algebraically tedious and error-prone.\n- **Efficiency:** Letting the ratio universally be $k:1$ (where $k = \frac{m_1}{m_2}$) strictly reduces the geometric problem to solving a linear equation for a single variable $k$.\n- **Interpretation:** Solve for $k$. If $k = \frac{2}{3}$, the ratio is $2:3$ internally. If $k$ mathematically evaluates to a **negative** fraction, the division is proven to be strictly **external**.",
+"back": "- **Cognitive Load:** Assuming a raw ratio of $m_1:m_2$ structurally creates an equation with two distinct variables, which is algebraically tedious and error-prone.\n- **Efficiency:** Letting the ratio universally be $k:1$ (where $k = \\frac{m_1}{m_2}$) strictly reduces the geometric problem to solving a linear equation for a single variable $k$.\n- **Interpretation:** Solve for $k$. If $k = \\frac{2}{3}$, the ratio is $2:3$ internally. If $k$ mathematically evaluates to a **negative** fraction, the division is proven to be strictly **external**.",
 "standardMeta": {
 "question": "When a coordinate geometry problem asks to arbitrarily 'find the ratio' in which a point divides a line segment, why should you algebraically assume the ratio is $k:1$ instead of $m_1:m_2$?"
 }
@@ -337,7 +337,7 @@
 "back": "## Component Anatomy:\n- **$x_1, x_2$:** The abscissas (x-coordinates) of the segment boundaries.\n- **$y_1, y_2$:** The ordinates (y-coordinates) of the segment boundaries.\n\n## Boundary Conditions / Domain:\n- The target coordinate point $P$ must be exactly equidistant from $A$ and $B$, strictly lying centrally on the internal line segment.",
 "mnemonic": "Average the x's, average the y's.",
 "formulaMeta": {
-"formula": "P(x, y) = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)",
+"formula": "P(x, y) = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)",
 "description": "Calculates the exact coordinate center (midpoint) of a line segment.",
 "derivation": "Derived strictly from the main Section Formula by substituting the perfectly equal division ratio $m_1:m_2 = 1:1$."
 }
@@ -417,7 +417,7 @@
 "back": "## Component Anatomy:\n- **Vertex:** The distinct corner of the triangle where a specific median originates.\n- **Centroid:** The unique point of intersection of all three geometric medians.\n- **Midpoint:** The exact bisection center of the opposite terminal side.\n\n## Boundary Conditions / Domain:\n- This division ratio is strictly a **directed vector**. It must ALWAYS be measured from the top Vertex traveling downwards to the base Midpoint.",
 "mnemonic": "Vertex to Center is mathematically twice the Center to Edge.",
 "formulaMeta": {
-"formula": "\text{Vertex to Centroid} : \text{Centroid to Midpoint} = 2:1",
+"formula": "\\text{Vertex to Centroid} : \\text{Centroid to Midpoint} = 2:1",
 "description": "The fundamental numerical ratio in which the centroid of a triangle mathematically divides each of its internal medians.",
 "derivation": ""
 }
@@ -439,7 +439,7 @@
 "back": "## Component Anatomy:\n- **$x_1, x_2, x_3$:** The specific abscissas (x-coordinates) of the 3 spatial vertices.\n- **$y_1, y_2, y_3$:** The specific ordinates (y-coordinates) of the 3 spatial vertices.\n\n## Boundary Conditions / Domain:\n- Mathematically valid and universally applicable for strictly ANY 2D triangle defined on the Cartesian plane.",
 "mnemonic": "Mathematical average of all three vertices.",
 "formulaMeta": {
-"formula": "(x, y) = \left( \frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3} \right)",
+"formula": "(x, y) = \\left( \\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3} \\right)",
 "description": "Calculates the geometric center (centroid) of a triangle utilizing its three vertices.",
 "derivation": ""
 }
@@ -458,11 +458,11 @@
 "tags": ["math", "coordinate-geometry", "proofs", "triangles", "class-10"],
 "order": 23,
 "heading": "SOP: Deriving the Centroid Formula",
-"back": "## Setup\nGiven $\Delta ABC$ with known coordinate vertices. We must locate intersection point $G$.\n\n## Component Anatomy:\n- **Median $AD$:** The line segment dropping from vertex $A$ to the exact midpoint of $BC$.\n\n## Boundary Conditions / Domain:\n- The proof fundamentally relies on the strict $2:1$ division property of a centroid.",
+"back": "## Setup\nGiven $\\Delta ABC$ with known coordinate vertices. We must locate intersection point $G$.\n\n## Component Anatomy:\n- **Median $AD$:** The line segment dropping from vertex $A$ to the exact midpoint of $BC$.\n\n## Boundary Conditions / Domain:\n- The proof fundamentally relies on the strict $2:1$ division property of a centroid.",
 "formulaMeta": {
-"formula": "\text{Prove: } G_x = \frac{x_1 + x_2 + x_3}{3}",
+"formula": "\\text{Prove: } G_x = \\frac{x_1 + x_2 + x_3}{3}",
 "description": "Algorithmic proof generating the centroid coordinate formula using the section formula.",
-"derivation": "1. Mathematically calculate the exact coordinates of midpoint $D$ on the base side $BC$ using the Mid-Point formula: $D = \left( \frac{x_2 + x_3}{2}, \frac{y_2 + y_3}{2} \right)$.\n2. Geometrically, the centroid strictly divides the linear median $AD$ uniformly in the ratio $2:1$.\n3. Apply the internal Section Formula on points $A(x_1, y_1)$ and $D$, strictly substituting $m_1 = 2$ and $m_2 = 1$.\n4. Algebraically expand the terms; the denominator $2$ in point $D$ perfectly cancels the scalar multiplier $2$, yielding the simplified average summation formula."
+"derivation": "1. Mathematically calculate the exact coordinates of midpoint $D$ on the base side $BC$ using the Mid-Point formula: $D = \\left( \\frac{x_2 + x_3}{2}, \\frac{y_2 + y_3}{2} \\right)$.\n2. Geometrically, the centroid strictly divides the linear median $AD$ uniformly in the ratio $2:1$.\n3. Apply the internal Section Formula on points $A(x_1, y_1)$ and $D$, strictly substituting $m_1 = 2$ and $m_2 = 1$.\n4. Algebraically expand the terms; the denominator $2$ in point $D$ perfectly cancels the scalar multiplier $2$, yielding the simplified average summation formula."
 }
 }
 },
@@ -479,10 +479,10 @@
 "tags": ["math", "coordinate-geometry", "area", "class-10"],
 "order": 24,
 "heading": "Area of a Triangle (Vertices)",
-"back": "## Component Anatomy:\n- **$x_1, x_2, x_3$:** Strict sequence of abscissas of the 3 vertices.\n- **$| \dots |$:** The absolute value modulus wrapper. Required because geometric area intrinsically cannot be a negative scalar.\n\n## Boundary Conditions / Domain:\n- Must structurally maintain a strict cyclic order of indices ($123 \rightarrow 231 \rightarrow 312$) to avoid critical internal algebraic sign errors before evaluating the overarching absolute value.",
+"back": "## Component Anatomy:\n- **$x_1, x_2, x_3$:** Strict sequence of abscissas of the 3 vertices.\n- **$| \\dots |$:** The absolute value modulus wrapper. Required because geometric area intrinsically cannot be a negative scalar.\n\n## Boundary Conditions / Domain:\n- Must structurally maintain a strict cyclic order of indices ($123 \\rightarrow 231 \\rightarrow 312$) to avoid critical internal algebraic sign errors before evaluating the overarching absolute value.",
 "mnemonic": "Cyclic symmetry: 1(2-3) + 2(3-1) + 3(1-2)",
 "formulaMeta": {
-"formula": "\text{Area} = \frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|",
+"formula": "\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|",
 "description": "Calculates the total physical 2D area enclosed by a triangle using coordinate geometry.",
 "derivation": ""
 }
@@ -501,11 +501,11 @@
 "tags": ["math", "coordinate-geometry", "proofs", "area", "class-10"],
 "order": 25,
 "heading": "SOP: Deriving the Area of a Triangle Formula",
-"back": "## Setup\nGiven an arbitrary $\Delta ABC$ defined entirely on the upper Cartesian plane.\n\n## Component Anatomy:\n- **Trapeziums:** Geometric 2D shapes possessing strictly two parallel sides.\n\n## Boundary Conditions / Domain:\n- Heights of the resulting trapeziums are uniquely determined by the absolute differences in the $x$-coordinates.",
+"back": "## Setup\nGiven an arbitrary $\\Delta ABC$ defined entirely on the upper Cartesian plane.\n\n## Component Anatomy:\n- **Trapeziums:** Geometric 2D shapes possessing strictly two parallel sides.\n\n## Boundary Conditions / Domain:\n- Heights of the resulting trapeziums are uniquely determined by the absolute differences in the $x$-coordinates.",
 "formulaMeta": {
-"formula": "\text{Prove cyclic polynomial equation for Area}",
+"formula": "\\text{Prove cyclic polynomial equation for Area}",
 "description": "Derivation using geometric area addition and subtraction of vertically dropped trapeziums.",
-"derivation": "1. From vertices $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$, rigidly drop perpendiculars to the $x$-axis, forming three distinct vertical trapeziums.\n2. The total target triangular area mathematically equals: (Area of Trap under AB) + (Area of Trap under AC) - (Area of Trap strictly under BC).\n3. Apply standard trapezium formula $\frac{1}{2}(\text{Sum of parallels}) \times \text{height}$. E.g., for Trap AB: $\frac{1}{2}(y_1+y_2)(x_1-x_2)$.\n4. Algebraically expand all three macroscopic binomial products.\n5. Group variables tightly by common factors $x_1, x_2, x_3$ to yield the final condensed cyclic formula."
+"derivation": "1. From vertices $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$, rigidly drop perpendiculars to the $x$-axis, forming three distinct vertical trapeziums.\n2. The total target triangular area mathematically equals: (Area of Trap under AB) + (Area of Trap under AC) - (Area of Trap strictly under BC).\n3. Apply standard trapezium formula $\\frac{1}{2}(\\text{Sum of parallels}) \\times \\text{height}$. E.g., for Trap AB: $\\frac{1}{2}(y_1+y_2)(x_1-x_2)$.\n4. Algebraically expand all three macroscopic binomial products.\n5. Group variables tightly by common factors $x_1, x_2, x_3$ to yield the final condensed cyclic formula."
 }
 }
 },
@@ -522,7 +522,7 @@
 "tags": ["math", "coordinate-geometry", "algebra", "class-10", "jee"],
 "order": 26,
 "heading": "SOP: Reverse-Solving the Area Modulus",
-"back": "- **The Trap:** The standard Area Formula fundamentally acts as an **absolute value** modulus function $| \dots |$. Students algebraically drop this modulus implicitly and only solve for the singular positive root.\n- **SOP:** When deliberately removing the geometric modulus algebraically, you MUST set the internal cyclic polynomial strictly to both **positive and negative** boundary values (e.g., polynomial = $\pm 15$).\n- **Result:** This dual-equation approach will typically yield **two distinct, mathematically valid answers** for the unknown coordinate variable.",
+"back": "- **The Trap:** The standard Area Formula fundamentally acts as an **absolute value** modulus function $| \\dots |$. Students algebraically drop this modulus implicitly and only solve for the singular positive root.\n- **SOP:** When deliberately removing the geometric modulus algebraically, you MUST set the internal cyclic polynomial strictly to both **positive and negative** boundary values (e.g., polynomial = $\\pm 15$).\n- **Result:** This dual-equation approach will typically yield **two distinct, mathematically valid answers** for the unknown coordinate variable.",
 "mnemonic": "Absolute value absolutely has two parallel answers.",
 "standardMeta": {
 "question": "If the exact target area of a triangle is predefined (e.g., $15$ sq units), and you must solve for an unknown variable $k$ located within one of the coordinates, what is the critical algebraic trap to avoid?"
@@ -542,7 +542,7 @@
 "tags": ["math", "coordinate-geometry", "collinearity", "class-10", "jee"],
 "order": 27,
 "heading": "Proving Collinearity via Geometric Area",
-"back": "- **Core Logic:** If three spatial points are strictly mathematically collinear on a single axis, they physically cannot form a closed 2D geometric polygon.\n- **Conclusion:** Thus, the resulting scalar area of the hypothetical 'triangle' they geometrically form must mathematically evaluate to exactly **zero**.\n- **SOP:** Plug the three coordinate data sets directly into the Area of a Triangle formula, omit the $\frac{1}{2}$ multiplier, and equate the core interior polynomial strictly to $0$.",
+"back": "- **Core Logic:** If three spatial points are strictly mathematically collinear on a single axis, they physically cannot form a closed 2D geometric polygon.\n- **Conclusion:** Thus, the resulting scalar area of the hypothetical 'triangle' they geometrically form must mathematically evaluate to exactly **zero**.\n- **SOP:** Plug the three coordinate data sets directly into the Area of a Triangle formula, omit the $\\frac{1}{2}$ multiplier, and equate the core interior polynomial strictly to $0$.",
 "standardMeta": {
 "question": "What is the most efficient algebraic computational test to decisively prove three given coordinate points are perfectly collinear without calculating any multi-variable Euclidean distances?"
 }
@@ -561,7 +561,7 @@
 "tags": ["math", "coordinate-geometry", "quadrilaterals", "class-10"],
 "order": 28,
 "heading": "SOP: Area of a Generic Quadrilateral",
-"back": "- **Step 1:** Construct a single continuous diagonal connecting two specifically opposite vertices (e.g., $AC$).\n- **Step 2:** This action strictly and cleanly splits the macroscopic quadrilateral into two distinct, mathematically non-overlapping triangles ($\Delta ABC$ and $\Delta ADC$).\n- **Step 3:** Calculate the scalar absolute area of each triangle completely separately using the standard Area Formula.\n- **Step 4 (Critical Boundary):** Add the two strictly positive scalar areas together. NEVER algebraically sum the raw determinant values before independently applying the absolute modulus $| \dots |$ to each.",
+"back": "- **Step 1:** Construct a single continuous diagonal connecting two specifically opposite vertices (e.g., $AC$).\n- **Step 2:** This action strictly and cleanly splits the macroscopic quadrilateral into two distinct, mathematically non-overlapping triangles ($\\Delta ABC$ and $\\Delta ADC$).\n- **Step 3:** Calculate the scalar absolute area of each triangle completely separately using the standard Area Formula.\n- **Step 4 (Critical Boundary):** Add the two strictly positive scalar areas together. NEVER algebraically sum the raw determinant values before independently applying the absolute modulus $| \\dots |$ to each.",
 "mnemonic": "Split, Solve, Sum securely.",
 "standardMeta": {
 "question": "How do you systematically and algebraically calculate the total area of a generic, irregular quadrilateral when given its four specific vertices in sequential order?"
@@ -583,7 +583,7 @@
 "heading": "Area of a Rhombus via Diagonals",
 "back": "## Component Anatomy:\n- **$d_1, d_2$:** The scalar lengths of the two internal intersecting diagonals.\n\n## Boundary Conditions / Domain:\n- The enclosed 2D figure MUST be strictly mathematically proven as a rhombus (or a square, which acts as a specialized rhombus).\n- The lengths $d_1$ and $d_2$ are strictly positive non-zero scalars derived via the standard distance formula.",
 "formulaMeta": {
-"formula": "\text{Area} = \frac{1}{2} \times d_1 \times d_2",
+"formula": "\\text{Area} = \\frac{1}{2} \\times d_1 \\times d_2",
 "description": "Calculates the total geometric area of a rhombus directly utilizing the scalar lengths of its diagonals.",
 "derivation": "1. Mathematically calculate the exact lengths of the two diagonals $d_1 = AC$ and $d_2 = BD$ using the standard coordinate distance formula.\n2. Algebraically multiply their scalar lengths and divide by $2$ to yield the total area."
 }
@@ -602,7 +602,7 @@
 "tags": ["math", "coordinate-geometry", "triangles", "area", "class-10"],
 "order": 30,
 "heading": "The Median Area Property",
-"back": "- **Geometric Fact:** A continuous median of a triangle strictly divides the main shape into two distinct sub-triangles of **exactly equal areas**.\n- **SOP for Verification:** First, utilize the Mid-Point Formula on a selected base side to generate the median's coordinate endpoint. Next, independently apply the standard Area Formula on both resulting sub-triangles to algebraically prove that $ar(\Delta_1) = ar(\Delta_2)$.",
+"back": "- **Geometric Fact:** A continuous median of a triangle strictly divides the main shape into two distinct sub-triangles of **exactly equal areas**.\n- **SOP for Verification:** First, utilize the Mid-Point Formula on a selected base side to generate the median's coordinate endpoint. Next, independently apply the standard Area Formula on both resulting sub-triangles to algebraically prove that $ar(\\Delta_1) = ar(\\Delta_2)$.",
 "standardMeta": {
 "question": "If you are provided with the Cartesian vertices of a triangle and asked to algebraically verify the primary geometric property of a median, what specific mathematical fact are you strictly verifying?"
 }
@@ -621,7 +621,7 @@
 "tags": ["math", "coordinate-geometry", "triangles", "area", "class-10", "jee"],
 "order": 31,
 "heading": "Area Ratio: The Inner Midpoint Triangle",
-"back": "- **Rule:** The 2D area of the smaller enclosed sub-triangle formed by strictly joining the midpoints is exactly **one-fourth** ($\frac{1}{4}$) the total area of the original larger triangle.\n- **Mathematical Ratio:** $ar(\Delta_{\text{mid}}) : ar(\Delta_{\text{large}}) = 1 : 4$.\n- **Why:** The fundamental mid-point theorem guarantees the inner sub-triangle is geometrically similar to the larger macroscopic triangle with a strict side ratio of $1:2$. By the area of similar triangles theorem, scalar areas scale squarely ($1^2 : 2^2 = 1:4$).",
+"back": "- **Rule:** The 2D area of the smaller enclosed sub-triangle formed by strictly joining the midpoints is exactly **one-fourth** ($\\frac{1}{4}$) the total area of the original larger triangle.\n- **Mathematical Ratio:** $ar(\\Delta_{\\text{mid}}) : ar(\\Delta_{\\text{large}}) = 1 : 4$.\n- **Why:** The fundamental mid-point theorem guarantees the inner sub-triangle is geometrically similar to the larger macroscopic triangle with a strict side ratio of $1:2$. By the area of similar triangles theorem, scalar areas scale squarely ($1^2 : 2^2 = 1:4$).",
 "standardMeta": {
 "question": "If a smaller secondary triangle is explicitly formed by joining the exact coordinate midpoints of the three sides of a larger triangle, what is the strict proportional ratio of their scalar areas?"
 }
@@ -640,7 +640,7 @@
 "tags": ["math", "coordinate-geometry", "algebra", "class-10", "jee"],
 "order": 32,
 "heading": "Constraint Resolution: Root Selection",
-"back": "- **The Mathematical Trap:** Algebraically squaring coordinate distances routinely yields a quadratic equation that produces two seemingly valid numerical roots (e.g., $y = 3 + 4\sqrt{3}$ and $y = 3 - 4\sqrt{3}$).\n- **The Resolution SOP:** You MUST quickly and roughly plot the known geometric vertices onto a Cartesian plane sketch.\n- **Conclusion:** Visually evaluate the physical coordinate placement of both potential roots. Strictly reject the algebraic root that physically places the origin outside the defined polygon, retaining exclusively the coordinate that geometrically bounds the specified point (e.g., $(0,0)$) securely in its 2D interior.",
+"back": "- **The Mathematical Trap:** Algebraically squaring coordinate distances routinely yields a quadratic equation that produces two seemingly valid numerical roots (e.g., $y = 3 + 4\\sqrt{3}$ and $y = 3 - 4\\sqrt{3}$).\n- **The Resolution SOP:** You MUST quickly and roughly plot the known geometric vertices onto a Cartesian plane sketch.\n- **Conclusion:** Visually evaluate the physical coordinate placement of both potential roots. Strictly reject the algebraic root that physically places the origin outside the defined polygon, retaining exclusively the coordinate that geometrically bounds the specified point (e.g., $(0,0)$) securely in its 2D interior.",
 "standardMeta": {
 "question": "In complex coordinate geometry problems, if solving an algebraic equation yields two possible coordinate points, how do you mathematically resolve which root to definitively select if a strict boundary condition like 'the origin lies in the interior of the triangle' is explicitly given?"
 }

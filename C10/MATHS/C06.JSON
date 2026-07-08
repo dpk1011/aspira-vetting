@@ -34,7 +34,7 @@
 "tags": ["math", "geometry", "polygons", "similarity", "class-10"],
 "order": 2,
 "heading": "Mandatory Conditions for Polygon Similarity",
-"back": "Two polygons are mathematically similar if and only if BOTH conditions are met simultaneously:\n- **Condition 1:** All their corresponding angles are strictly equal.\n- **Condition 2:** All their corresponding sides are strictly in the same ratio (proportional).\n\n## Boundary Conditions / Domain\n- Both polygons MUST have the same number of sides ($n \geq 3$).\n- **Trap:** For polygons with $n > 3$ sides (like quadrilaterals), satisfying only one condition is NOT sufficient. (e.g., A square and a rectangle have equal angles but are not similar because side ratios differ).",
+"back": "Two polygons are mathematically similar if and only if BOTH conditions are met simultaneously:\n- **Condition 1:** All their corresponding angles are strictly equal.\n- **Condition 2:** All their corresponding sides are strictly in the same ratio (proportional).\n\n## Boundary Conditions / Domain\n- Both polygons MUST have the same number of sides ($n \\geq 3$).\n- **Trap:** For polygons with $n > 3$ sides (like quadrilaterals), satisfying only one condition is NOT sufficient. (e.g., A square and a rectangle have equal angles but are not similar because side ratios differ).",
 "standardMeta": {
 "question": "What are the two mandatory, simultaneous conditions required for two polygons of the same number of sides to be deemed similar?"
 }
@@ -72,10 +72,10 @@
 "tags": ["math", "geometry", "triangles", "bpt", "theorems", "class-10"],
 "order": 4,
 "heading": "Basic Proportionality Theorem (BPT) Statement",
-"back": "## Component Anatomy:\n- **$\Delta ABC$:** The reference triangle.\n- **$DE \parallel BC$:** A line parallel to one base side.\n- **$AD, DB$ & $AE, EC$:** The segmented parts of the other two sides intersected by the parallel line.\n\n## Boundary Conditions / Domain:\n- The intersecting line $DE$ MUST be strictly parallel to the third side $BC$.\n- The line must intersect the other two sides $AB$ and $AC$ at two distinct points.",
+"back": "## Component Anatomy:\n- **$\\Delta ABC$:** The reference triangle.\n- **$DE \\parallel BC$:** A line parallel to one base side.\n- **$AD, DB$ & $AE, EC$:** The segmented parts of the other two sides intersected by the parallel line.\n\n## Boundary Conditions / Domain:\n- The intersecting line $DE$ MUST be strictly parallel to the third side $BC$.\n- The line must intersect the other two sides $AB$ and $AC$ at two distinct points.",
 "mnemonic": "Parallel cuts Proportionally.",
 "formulaMeta": {
-"formula": "\frac{AD}{DB} = \frac{AE}{EC}",
+"formula": "\\frac{AD}{DB} = \\frac{AE}{EC}",
 "description": "Mathematical formula for the Basic Proportionality Theorem when a line DE is drawn parallel to side BC of triangle ABC.",
 "derivation": ""
 }
@@ -94,11 +94,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "bpt", "class-10"],
 "order": 5,
 "heading": "SOP: Derivation of the Basic Proportionality Theorem",
-"back": "## Setup\nGiven $\Delta ABC$ with line $DE \parallel BC$ intersecting $AB$ at $D$ and $AC$ at $E$.\n\n## Component Anatomy:\n- **Perpendiculars:** $EM \perp AB$ and $DN \perp AC$.\n- **Sub-triangles:** $\Delta ADE, \Delta BDE, \Delta CDE$.\n\n## Boundary Conditions / Domain:\n- Triangles on the same base and between the same parallel lines are strictly equal in area.",
+"back": "## Setup\nGiven $\\Delta ABC$ with line $DE \\parallel BC$ intersecting $AB$ at $D$ and $AC$ at $E$.\n\n## Component Anatomy:\n- **Perpendiculars:** $EM \\perp AB$ and $DN \\perp AC$.\n- **Sub-triangles:** $\\Delta ADE, \\Delta BDE, \\Delta CDE$.\n\n## Boundary Conditions / Domain:\n- Triangles on the same base and between the same parallel lines are strictly equal in area.",
 "formulaMeta": {
-"formula": "\text{Prove: } \frac{AD}{DB} = \frac{AE}{EC}",
+"formula": "\\text{Prove: } \\frac{AD}{DB} = \\frac{AE}{EC}",
 "description": "Step-by-step geometric proof for the BPT.",
-"derivation": "1. Draw perpendiculars $EM \perp AB$ and $DN \perp AC$.\n2. Join points $BE$ and $CD$.\n3. Express area of the top triangle twice using different bases: $ar(\Delta ADE) = \frac{1}{2} \times AD \times EM = \frac{1}{2} \times AE \times DN$.\n4. Express areas of bottom triangles: $ar(\Delta BDE) = \frac{1}{2} \times DB \times EM$ and $ar(\Delta CDE) = \frac{1}{2} \times EC \times DN$.\n5. Notice that $\Delta BDE$ and $\Delta CDE$ are on the same base $DE$ and between the same parallels $BC \parallel DE$. Therefore, $ar(\Delta BDE) = ar(\Delta CDE)$.\n6. Divide $ar(\Delta ADE)$ by $ar(\Delta BDE)$ and $ar(\Delta CDE)$ respectively to equate the ratios: $\frac{AD}{DB} = \frac{AE}{EC}$."
+"derivation": "1. Draw perpendiculars $EM \\perp AB$ and $DN \\perp AC$.\n2. Join points $BE$ and $CD$.\n3. Express area of the top triangle twice using different bases: $ar(\\Delta ADE) = \\frac{1}{2} \\times AD \\times EM = \\frac{1}{2} \\times AE \\times DN$.\n4. Express areas of bottom triangles: $ar(\\Delta BDE) = \\frac{1}{2} \\times DB \\times EM$ and $ar(\\Delta CDE) = \\frac{1}{2} \\times EC \\times DN$.\n5. Notice that $\\Delta BDE$ and $\\Delta CDE$ are on the same base $DE$ and between the same parallels $BC \\parallel DE$. Therefore, $ar(\\Delta BDE) = ar(\\Delta CDE)$.\n6. Divide $ar(\\Delta ADE)$ by $ar(\\Delta BDE)$ and $ar(\\Delta CDE)$ respectively to equate the ratios: $\\frac{AD}{DB} = \\frac{AE}{EC}$."
 }
 }
 },
@@ -115,11 +115,11 @@
 "tags": ["math", "geometry", "triangles", "bpt", "class-10"],
 "order": 6,
 "heading": "Converse of the Basic Proportionality Theorem",
-"back": "## Component Anatomy:\n- **$\frac{AD}{DB} = \frac{AE}{EC}$:** The given identical ratio of the divided line segments.\n- **$DE \parallel BC$:** The resultant mathematically proven parallel condition.\n\n## Boundary Conditions / Domain:\n- The ratio of division on both sides must be precisely equal.\n- Used exclusively in proofs to definitively establish that two lines are parallel.",
+"back": "## Component Anatomy:\n- **$\\frac{AD}{DB} = \\frac{AE}{EC}$:** The given identical ratio of the divided line segments.\n- **$DE \\parallel BC$:** The resultant mathematically proven parallel condition.\n\n## Boundary Conditions / Domain:\n- The ratio of division on both sides must be precisely equal.\n- Used exclusively in proofs to definitively establish that two lines are parallel.",
 "formulaMeta": {
-"formula": "DE \parallel BC",
+"formula": "DE \\parallel BC",
 "description": "The formulaic consequence if a line segment DE divides two sides AB and AC of triangle ABC in the exact same ratio.",
-"derivation": "Proved via contradiction. Assume $DE$ is not parallel to $BC$. Draw a dummy line $DE' \parallel BC$. By standard BPT, $\frac{AD}{DB} = \frac{AE'}{E'C}$. Equating this to the given ratio $\frac{AD}{DB} = \frac{AE}{EC}$ algebraically forces point $E$ and $E'$ to strictly coincide, proving $DE$ must be parallel to $BC$."
+"derivation": "Proved via contradiction. Assume $DE$ is not parallel to $BC$. Draw a dummy line $DE' \\parallel BC$. By standard BPT, $\\frac{AD}{DB} = \\frac{AE'}{E'C}$. Equating this to the given ratio $\\frac{AD}{DB} = \\frac{AE}{EC}$ algebraically forces point $E$ and $E'$ to strictly coincide, proving $DE$ must be parallel to $BC$."
 }
 }
 },
@@ -136,7 +136,7 @@
 "tags": ["math", "geometry", "triangles", "proofs", "class-10"],
 "order": 7,
 "heading": "Deriving the Mid-Point Theorem via BPT",
-"back": "- **Concept:** A line joining the midpoints of two sides of a triangle is strictly parallel to the third side.\n- **BPT Connection:** If $D$ and $E$ are exact midpoints of $AB$ and $AC$, then their division ratios are $1$. $\frac{AD}{DB} = 1$ and $\frac{AE}{EC} = 1$.\n- **Conclusion:** Since $\frac{AD}{DB} = \frac{AE}{EC} = 1$, by the **Converse of BPT**, line $DE$ MUST be strictly parallel to line $BC$.",
+"back": "- **Concept:** A line joining the midpoints of two sides of a triangle is strictly parallel to the third side.\n- **BPT Connection:** If $D$ and $E$ are exact midpoints of $AB$ and $AC$, then their division ratios are $1$. $\\frac{AD}{DB} = 1$ and $\\frac{AE}{EC} = 1$.\n- **Conclusion:** Since $\\frac{AD}{DB} = \\frac{AE}{EC} = 1$, by the **Converse of BPT**, line $DE$ MUST be strictly parallel to line $BC$.",
 "standardMeta": {
 "question": "How is the Mid-Point Theorem directly proven using the Basic Proportionality Theorem (BPT) logic?"
 }
@@ -155,7 +155,7 @@
 "tags": ["math", "geometry", "quadrilaterals", "bpt", "class-10"],
 "order": 8,
 "heading": "Proportionality of Trapezium Diagonals",
-"back": "- **Rule:** The diagonals of a trapezium intersect each other strictly proportionally.\n- **Mathematical Setup:** If Trapezium $ABCD$ (where $AB \parallel DC$) has diagonals intersecting at point $O$, then $\frac{AO}{BO} = \frac{CO}{DO}$. (This algebraically rearranges to $\frac{AO}{CO} = \frac{BO}{DO}$).\n- **Proof Strategy:** Draw an auxiliary line $EO \parallel AB \parallel DC$ passing through intersection $O$ and apply the BPT to the constituent sub-triangles.",
+"back": "- **Rule:** The diagonals of a trapezium intersect each other strictly proportionally.\n- **Mathematical Setup:** If Trapezium $ABCD$ (where $AB \\parallel DC$) has diagonals intersecting at point $O$, then $\\frac{AO}{BO} = \\frac{CO}{DO}$. (This algebraically rearranges to $\\frac{AO}{CO} = \\frac{BO}{DO}$).\n- **Proof Strategy:** Draw an auxiliary line $EO \\parallel AB \\parallel DC$ passing through intersection $O$ and apply the BPT to the constituent sub-triangles.",
 "standardMeta": {
 "question": "What specific proportional relationship exists at the intersection point of the diagonals in a Trapezium?"
 }
@@ -174,10 +174,10 @@
 "tags": ["math", "geometry", "quadrilaterals", "similarity", "class-10"],
 "order": 9,
 "heading": "Proving a Trapezium via Diagonal Proportionality",
-"back": "- **Conclusion:** The quadrilateral $ABCD$ is strictly a **Trapezium**.\n- **Logical Proof:** Rearrange the given proportional ratio to $\frac{AO}{CO} = \frac{BO}{DO}$. This intersection ratio, combined with the vertically opposite angles $\angle AOB = \angle COD$, guarantees that $\Delta AOB \sim \Delta COD$ (via the SAS Similarity Criterion).\n- **Final Step:** Since the two triangles are geometrically similar, their alternate interior angles must match ($\angle OAB = \angle OCD$), proving that line $AB$ is strictly parallel to line $DC$.",
+"back": "- **Conclusion:** The quadrilateral $ABCD$ is strictly a **Trapezium**.\n- **Logical Proof:** Rearrange the given proportional ratio to $\\frac{AO}{CO} = \\frac{BO}{DO}$. This intersection ratio, combined with the vertically opposite angles $\\angle AOB = \\angle COD$, guarantees that $\\Delta AOB \\sim \\Delta COD$ (via the SAS Similarity Criterion).\n- **Final Step:** Since the two triangles are geometrically similar, their alternate interior angles must match ($\\angle OAB = \\angle OCD$), proving that line $AB$ is strictly parallel to line $DC$.",
 "mnemonic": "Proportional Diagonals guarantee Parallel Bases.",
 "standardMeta": {
-"question": "If the diagonals $AC$ and $BD$ of a generic quadrilateral $ABCD$ intersect at point $O$ such that $\frac{AO}{BO} = \frac{CO}{DO}$, what specific type of quadrilateral is $ABCD$ and why?"
+"question": "If the diagonals $AC$ and $BD$ of a generic quadrilateral $ABCD$ intersect at point $O$ such that $\\frac{AO}{BO} = \\frac{CO}{DO}$, what specific type of quadrilateral is $ABCD$ and why?"
 }
 }
 },
@@ -194,9 +194,9 @@
 "tags": ["math", "geometry", "triangles", "similarity", "class-10"],
 "order": 10,
 "heading": "AAA Similarity Criterion",
-"back": "## Component Anatomy:\n- **$\angle A = \angle D, \angle B = \angle E, \angle C = \angle F$:** All three corresponding interior angles match exactly.\n- **$\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF}$:** The resultant strictly proportional sides.\n\n## Boundary Conditions / Domain:\n- Requires all three pairs of corresponding angles to be mathematically equal, which guarantees side proportionality and thus perfect similarity.",
+"back": "## Component Anatomy:\n- **$\\angle A = \\angle D, \\angle B = \\angle E, \\angle C = \\angle F$:** All three corresponding interior angles match exactly.\n- **$\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF}$:** The resultant strictly proportional sides.\n\n## Boundary Conditions / Domain:\n- Requires all three pairs of corresponding angles to be mathematically equal, which guarantees side proportionality and thus perfect similarity.",
 "formulaMeta": {
-"formula": "\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} \implies \Delta ABC \sim \Delta DEF",
+"formula": "\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF} \\implies \\Delta ABC \\sim \\Delta DEF",
 "description": "Mathematical consequence if the three corresponding angles of two triangles are equal (AAA criterion).",
 "derivation": ""
 }
@@ -215,7 +215,7 @@
 "tags": ["math", "geometry", "triangles", "similarity", "class-10"],
 "order": 11,
 "heading": "The AA Similarity Shortcut",
-"back": "- **Concept:** If only TWO interior angles of one triangle are equal to TWO corresponding angles of another triangle, the triangles are strictly similar.\n- **Why?** Due to the rigid **Angle Sum Property** of a triangle ($180^\circ$), the third corresponding angles mathematically *must* be equal by default.\n- **SOP:** Always use AA instead of AAA in formal proofs to save time.",
+"back": "- **Concept:** If only TWO interior angles of one triangle are equal to TWO corresponding angles of another triangle, the triangles are strictly similar.\n- **Why?** Due to the rigid **Angle Sum Property** of a triangle ($180^\\circ$), the third corresponding angles mathematically *must* be equal by default.\n- **SOP:** Always use AA instead of AAA in formal proofs to save time.",
 "mnemonic": "Two is enough; the third is a given.",
 "standardMeta": {
 "question": "Why is it mathematically sufficient to prove only two corresponding angles are equal (AA) to establish similarity between two triangles, instead of all three (AAA)?"
@@ -235,9 +235,9 @@
 "tags": ["math", "geometry", "triangles", "similarity", "class-10"],
 "order": 12,
 "heading": "SSS Similarity Criterion",
-"back": "## Component Anatomy:\n- **$\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF}$:** Ratios of all three corresponding sides are equal.\n- **$\angle A = \angle D, \dots$:** The resulting equal corresponding interior angles.\n\n## Boundary Conditions / Domain:\n- Side proportions must hold mathematically true for all three pairs simultaneously.\n- Unlike SSS Congruence, the physical sides do not need to be strictly equal in length, just identical in their simplified ratio.",
+"back": "## Component Anatomy:\n- **$\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF}$:** Ratios of all three corresponding sides are equal.\n- **$\\angle A = \\angle D, \\dots$:** The resulting equal corresponding interior angles.\n\n## Boundary Conditions / Domain:\n- Side proportions must hold mathematically true for all three pairs simultaneously.\n- Unlike SSS Congruence, the physical sides do not need to be strictly equal in length, just identical in their simplified ratio.",
 "formulaMeta": {
-"formula": "\text{If } \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF}, \text{ then } \Delta ABC \sim \Delta DEF",
+"formula": "\\text{If } \\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF}, \\text{ then } \\Delta ABC \\sim \\Delta DEF",
 "description": "Criteria and resultant similarity for SSS between two triangles.",
 "derivation": ""
 }
@@ -256,10 +256,10 @@
 "tags": ["math", "geometry", "triangles", "similarity", "class-10"],
 "order": 13,
 "heading": "SAS Similarity Criterion",
-"back": "## Component Anatomy:\n- **$\angle A = \angle D$:** One pair of corresponding interior angles is strictly equal.\n- **$\frac{AB}{DE} = \frac{AC}{DF}$:** The specific pair of sides that *physically include* the angle are proportional.\n\n## Boundary Conditions / Domain:\n- The verified equal angle MUST be strictly included (sandwiched) between the two verified proportional sides. Any other angle pairing mathematically invalidates the criterion.",
+"back": "## Component Anatomy:\n- **$\\angle A = \\angle D$:** One pair of corresponding interior angles is strictly equal.\n- **$\\frac{AB}{DE} = \\frac{AC}{DF}$:** The specific pair of sides that *physically include* the angle are proportional.\n\n## Boundary Conditions / Domain:\n- The verified equal angle MUST be strictly included (sandwiched) between the two verified proportional sides. Any other angle pairing mathematically invalidates the criterion.",
 "mnemonic": "Sandwiched Angle Secures Similarity",
 "formulaMeta": {
-"formula": "\text{If } \angle A = \angle D \text{ and } \frac{AB}{DE} = \frac{AC}{DF}, \text{ then } \Delta ABC \sim \Delta DEF",
+"formula": "\\text{If } \\angle A = \\angle D \\text{ and } \\frac{AB}{DE} = \\frac{AC}{DF}, \\text{ then } \\Delta ABC \\sim \\Delta DEF",
 "description": "Specific mathematical condition required to prove similarity using the SAS Criterion.",
 "derivation": ""
 }
@@ -278,7 +278,7 @@
 "tags": ["math", "geometry", "triangles", "similarity", "conceptual-trap", "class-10"],
 "order": 14,
 "heading": "The Non-Included Angle Trap in SAS",
-"back": "- **The Rule:** For SAS similarity, the verified equal angle MUST be formed strictly by the intersection of the two verified proportional sides.\n- **The Trap:** If $\frac{AB}{DE} = \frac{AC}{DF}$, the strictly required equal angle is $\angle A = \angle D$. If a test problem states $\angle B = \angle E$ instead, the triangles are **NOT** necessarily similar.\n- **Takeaway:** Always trace the perimeter to verify the vertex of the equal angle sits precisely between the ratio-tested sides.",
+"back": "- **The Rule:** For SAS similarity, the verified equal angle MUST be formed strictly by the intersection of the two verified proportional sides.\n- **The Trap:** If $\\frac{AB}{DE} = \\frac{AC}{DF}$, the strictly required equal angle is $\\angle A = \\angle D$. If a test problem states $\\angle B = \\angle E$ instead, the triangles are **NOT** necessarily similar.\n- **Takeaway:** Always trace the perimeter to verify the vertex of the equal angle sits precisely between the ratio-tested sides.",
 "mnemonic": "SAS means the Angle is strictly Sandwiched.",
 "standardMeta": {
 "question": "If the ratio of two sides of a triangle equals the ratio of two sides of another triangle, but a pair of non-included angles is given as equal, are the triangles mathematically similar?"
@@ -317,7 +317,7 @@
 "tags": ["math", "geometry", "triangles", "similarity", "class-10"],
 "order": 16,
 "heading": "Linear Scaling: Perimeter Ratio",
-"back": "- **Rule:** If two triangles are mathematically similar, the ratio of their perimeters is strictly equal to the linear ratio of their corresponding sides.\n- **Algebraic Proof:** If $\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = k$, then $(AB+BC+CA) = k(DE+EF+DF)$.\n- **Application:** Vastly speeds up MCQ calculations when the total perimeter and a single side ratio are given.",
+"back": "- **Rule:** If two triangles are mathematically similar, the ratio of their perimeters is strictly equal to the linear ratio of their corresponding sides.\n- **Algebraic Proof:** If $\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF} = k$, then $(AB+BC+CA) = k(DE+EF+DF)$.\n- **Application:** Vastly speeds up MCQ calculations when the total perimeter and a single side ratio are given.",
 "standardMeta": {
 "question": "What is the exact mathematical relationship between the ratio of the perimeters of two similar triangles and the ratio of their corresponding sides?"
 }
@@ -336,10 +336,10 @@
 "tags": ["math", "geometry", "triangles", "area", "similarity", "class-10"],
 "order": 17,
 "heading": "Area of Similar Triangles Theorem",
-"back": "## Component Anatomy:\n- **$ar(\Delta ABC)$ and $ar(\Delta PQR)$:** The calculated 2D areas of the two triangles.\n- **$AB, BC, CA$:** Linear sides of the first triangle.\n- **$PQ, QR, RP$:** Corresponding linear sides of the second triangle.\n\n## Boundary Conditions / Domain:\n- This quadratic formula is strictly valid ONLY if $\Delta ABC \sim \Delta PQR$ is explicitly given or already proven.",
+"back": "## Component Anatomy:\n- **$ar(\\Delta ABC)$ and $ar(\\Delta PQR)$:** The calculated 2D areas of the two triangles.\n- **$AB, BC, CA$:** Linear sides of the first triangle.\n- **$PQ, QR, RP$:** Corresponding linear sides of the second triangle.\n\n## Boundary Conditions / Domain:\n- This quadratic formula is strictly valid ONLY if $\\Delta ABC \\sim \\Delta PQR$ is explicitly given or already proven.",
 "mnemonic": "Area is 2D, so square the 1D sides.",
 "formulaMeta": {
-"formula": "\frac{ar(\Delta ABC)}{ar(\Delta PQR)} = \left(\frac{AB}{PQ}\right)^2 = \left(\frac{BC}{QR}\right)^2 = \left(\frac{CA}{RP}\right)^2",
+"formula": "\\frac{ar(\\Delta ABC)}{ar(\\Delta PQR)} = \\left(\\frac{AB}{PQ}\\right)^2 = \\left(\\frac{BC}{QR}\\right)^2 = \\left(\\frac{CA}{RP}\\right)^2",
 "description": "Formula relating the ratio of the areas of two strictly similar triangles to their corresponding sides.",
 "derivation": ""
 }
@@ -358,11 +358,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "area", "class-10"],
 "order": 18,
 "heading": "SOP: Derivation of the Similar Triangles Area Theorem",
-"back": "## Setup\nGiven $\Delta ABC \sim \Delta PQR$. We need to prove the ratio of their areas equals the square of the ratio of their sides.\n\n## Component Anatomy:\n- **Altitudes:** $AM \perp BC$ and $PN \perp QR$.\n\n## Boundary Conditions / Domain:\n- The altitude must be dropped to the same corresponding base used in the area calculation.",
+"back": "## Setup\nGiven $\\Delta ABC \\sim \\Delta PQR$. We need to prove the ratio of their areas equals the square of the ratio of their sides.\n\n## Component Anatomy:\n- **Altitudes:** $AM \\perp BC$ and $PN \\perp QR$.\n\n## Boundary Conditions / Domain:\n- The altitude must be dropped to the same corresponding base used in the area calculation.",
 "formulaMeta": {
-"formula": "\text{Prove: } \frac{ar(\Delta ABC)}{ar(\Delta PQR)} = \left(\frac{AB}{PQ}\right)^2",
+"formula": "\\text{Prove: } \\frac{ar(\\Delta ABC)}{ar(\\Delta PQR)} = \\left(\\frac{AB}{PQ}\\right)^2",
 "description": "Step-by-step geometric derivation establishing the Area Theorem for Similar Triangles.",
-"derivation": "1. Draw internal altitudes $AM \perp BC$ and $PN \perp QR$.\n2. The standard area ratio is expressed as $\frac{\frac{1}{2} \times BC \times AM}{\frac{1}{2} \times QR \times PN} = \left(\frac{BC}{QR}\right) \times \left(\frac{AM}{PN}\right)$.\n3. Next, prove sub-triangles $\Delta ABM \sim \Delta PQN$ (by AA similarity, since $\angle B = \angle Q$ and $\angle M = \angle N = 90^\circ$).\n4. Thus, their sides are proportional: $\frac{AM}{PN} = \frac{AB}{PQ}$.\n5. Since $\Delta ABC \sim \Delta PQR$, we also know $\frac{AB}{PQ} = \frac{BC}{QR}$.\n6. Substitute the altitude ratio ($\frac{AM}{PN}$) with the base side ratio ($\frac{BC}{QR}$) into the equation from step 2 to yield the finalized squared term: $\left(\frac{BC}{QR}\right)^2$."
+"derivation": "1. Draw internal altitudes $AM \\perp BC$ and $PN \\perp QR$.\n2. The standard area ratio is expressed as $\\frac{\\frac{1}{2} \\times BC \\times AM}{\\frac{1}{2} \\times QR \\times PN} = \\left(\\frac{BC}{QR}\\right) \\times \\left(\\frac{AM}{PN}\\right)$.\n3. Next, prove sub-triangles $\\Delta ABM \\sim \\Delta PQN$ (by AA similarity, since $\\angle B = \\angle Q$ and $\\angle M = \\angle N = 90^\\circ$).\n4. Thus, their sides are proportional: $\\frac{AM}{PN} = \\frac{AB}{PQ}$.\n5. Since $\\Delta ABC \\sim \\Delta PQR$, we also know $\\frac{AB}{PQ} = \\frac{BC}{QR}$.\n6. Substitute the altitude ratio ($\\frac{AM}{PN}$) with the base side ratio ($\\frac{BC}{QR}$) into the equation from step 2 to yield the finalized squared term: $\\left(\\frac{BC}{QR}\\right)^2$."
 }
 }
 },
@@ -399,7 +399,7 @@
 "tags": ["math", "geometry", "triangles", "similarity", "congruence", "class-10"],
 "order": 20,
 "heading": "Congruence via Similar Equal Areas",
-"back": "- **Core Logic:** If two similar triangles have strictly equal 2D areas, their mathematical area ratio is strictly $1$.\n- **Algebraic Steps:** $\frac{ar(\Delta ABC)}{ar(\Delta DEF)} = \left(\frac{AB}{DE}\right)^2 = 1 \implies AB^2 = DE^2 \implies AB = DE$.\n- **Conclusion:** Because all corresponding perimeter sides become exactly equal in a $1:1$ ratio, the two initially similar triangles are absolutely **congruent** (by SSS Congruence).",
+"back": "- **Core Logic:** If two similar triangles have strictly equal 2D areas, their mathematical area ratio is strictly $1$.\n- **Algebraic Steps:** $\\frac{ar(\\Delta ABC)}{ar(\\Delta DEF)} = \\left(\\frac{AB}{DE}\\right)^2 = 1 \\implies AB^2 = DE^2 \\implies AB = DE$.\n- **Conclusion:** Because all corresponding perimeter sides become exactly equal in a $1:1$ ratio, the two initially similar triangles are absolutely **congruent** (by SSS Congruence).",
 "standardMeta": {
 "question": "If you are given two similar triangles that also possess strictly equal areas, what powerful conclusion can you definitively draw about the relationship between the two triangles?"
 }
@@ -418,7 +418,7 @@
 "tags": ["math", "geometry", "pythagoras", "areas", "similarity", "class-10", "jee"],
 "order": 21,
 "heading": "Generalized Pythagorean Area Extensions",
-"back": "- **The Core Rule:** The 2D area of any similar figure constructed on the **hypotenuse** of a right-angled triangle is strictly equal to the **sum of the areas** of the equivalent similar figures constructed on the other two perpendicular sides.\n- **Mathematical Proof Basis:** If the areas of the figures are $A_1, A_2, A_3$, their areas scale proportionally with the square of the corresponding bases. Thus, $k \cdot AB^2 + k \cdot BC^2 = k(AB^2+BC^2) = k \cdot AC^2$.\n- **Edge-Case Scope:** This is highly tested in competitive exams. It holds mathematically true not just for squares, but for **semicircles**, **equilateral triangles**, and **regular polygons**.",
+"back": "- **The Core Rule:** The 2D area of any similar figure constructed on the **hypotenuse** of a right-angled triangle is strictly equal to the **sum of the areas** of the equivalent similar figures constructed on the other two perpendicular sides.\n- **Mathematical Proof Basis:** If the areas of the figures are $A_1, A_2, A_3$, their areas scale proportionally with the square of the corresponding bases. Thus, $k \\cdot AB^2 + k \\cdot BC^2 = k(AB^2+BC^2) = k \\cdot AC^2$.\n- **Edge-Case Scope:** This is highly tested in competitive exams. It holds mathematically true not just for squares, but for **semicircles**, **equilateral triangles**, and **regular polygons**.",
 "mnemonic": "Pythagoras works for Areas, not just lengths.",
 "standardMeta": {
 "question": "If geometrically similar 2D figures (like semicircles or equilateral triangles) are constructed taking the three sides of a right-angled triangle as their corresponding bases, what is the exact algebraic relationship between their areas?"
@@ -438,11 +438,11 @@
 "tags": ["math", "geometry", "triangles", "right-triangles", "similarity", "class-10"],
 "order": 22,
 "heading": "Altitude to the Hypotenuse Theorem",
-"back": "## Component Anatomy:\n- **$\Delta ABC$:** The primary right-angled triangle (right-angled at vertex $B$).\n- **$BD \perp AC$:** The internal altitude originating from the right angle and intersecting the hypotenuse.\n\n## Boundary Conditions / Domain:\n- The primary triangle MUST be strictly a right-angled triangle.\n- The perpendicular MUST originate exclusively from the $90^\circ$ vertex and drop perfectly onto the hypotenuse.",
+"back": "## Component Anatomy:\n- **$\\Delta ABC$:** The primary right-angled triangle (right-angled at vertex $B$).\n- **$BD \\perp AC$:** The internal altitude originating from the right angle and intersecting the hypotenuse.\n\n## Boundary Conditions / Domain:\n- The primary triangle MUST be strictly a right-angled triangle.\n- The perpendicular MUST originate exclusively from the $90^\\circ$ vertex and drop perfectly onto the hypotenuse.",
 "formulaMeta": {
-"formula": "\Delta ADB \sim \Delta BDC \sim \Delta ABC",
+"formula": "\\Delta ADB \\sim \\Delta BDC \\sim \\Delta ABC",
 "description": "The triple similarity relationship generated when a perpendicular altitude is drawn from the right angle vertex to the hypotenuse.",
-"derivation": "Proved using the AA similarity corollary. E.g., for sub-triangle $\Delta ADB$ and main $\Delta ABC$: $\angle A$ is entirely common, and $\angle ADB = \angle ABC = 90^\circ$. Repeating this logic for the other sub-triangle proves all three are mutually similar."
+"derivation": "Proved using the AA similarity corollary. E.g., for sub-triangle $\\Delta ADB$ and main $\\Delta ABC$: $\\angle A$ is entirely common, and $\\angle ADB = \\angle ABC = 90^\\circ$. Repeating this logic for the other sub-triangle proves all three are mutually similar."
 }
 }
 },
@@ -462,9 +462,9 @@
 "back": "## Component Anatomy:\n- **$BD$:** The internal altitude dropped to the hypotenuse.\n- **$AD$ & $DC$:** The two distinct base segments the hypotenuse is mathematically split into.\n\n## Boundary Conditions / Domain:\n- Strictly requires a right triangle with an altitude dropped specifically from the right angle to the hypotenuse.",
 "mnemonic": "The Altitude squared is the product of the base pieces.",
 "formulaMeta": {
-"formula": "BD^2 = AD \cdot DC",
+"formula": "BD^2 = AD \\cdot DC",
 "description": "Formula relating the square of the altitude BD to the product of the hypotenuse segments AD and DC.",
-"derivation": "1. Using the established altitude similarity theorem, we know $\Delta ADB \sim \Delta BDC$.\n2. Take the strict ratio of their corresponding sides: $\frac{AD}{BD} = \frac{BD}{DC}$.\n3. Cross-multiply algebraically to yield $BD^2 = AD \cdot DC$."
+"derivation": "1. Using the established altitude similarity theorem, we know $\\Delta ADB \\sim \\Delta BDC$.\n2. Take the strict ratio of their corresponding sides: $\\frac{AD}{BD} = \\frac{BD}{DC}$.\n3. Cross-multiply algebraically to yield $BD^2 = AD \\cdot DC$."
 }
 }
 },
@@ -481,7 +481,7 @@
 "tags": ["math", "geometry", "triangles", "pythagoras", "class-10"],
 "order": 24,
 "heading": "The Pythagoras Theorem Statement",
-"back": "## Component Anatomy:\n- **$AC$:** The Hypotenuse (the longest side strictly opposite the $90^\circ$ angle).\n- **$AB$ & $BC$:** The perpendicular base and perpendicular height sides.\n\n## Boundary Conditions / Domain:\n- The reference triangle MUST be strictly right-angled ($90^\circ$).",
+"back": "## Component Anatomy:\n- **$AC$:** The Hypotenuse (the longest side strictly opposite the $90^\\circ$ angle).\n- **$AB$ & $BC$:** The perpendicular base and perpendicular height sides.\n\n## Boundary Conditions / Domain:\n- The reference triangle MUST be strictly right-angled ($90^\\circ$).",
 "formulaMeta": {
 "formula": "AC^2 = AB^2 + BC^2",
 "description": "The foundational mathematical equation for a right-angled triangle (right-angled at B).",
@@ -502,11 +502,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "pythagoras", "class-10"],
 "order": 25,
 "heading": "SOP: Deriving Pythagoras via Similarity",
-"back": "## Setup\nGiven $\Delta ABC$ is strictly right-angled at $B$. We need to prove the sum of squares of perpendicular sides equals the square of the hypotenuse.\n\n## Component Anatomy:\n- **$BD \perp AC$:** Internal altitude constructed for proof.",
+"back": "## Setup\nGiven $\\Delta ABC$ is strictly right-angled at $B$. We need to prove the sum of squares of perpendicular sides equals the square of the hypotenuse.\n\n## Component Anatomy:\n- **$BD \\perp AC$:** Internal altitude constructed for proof.",
 "formulaMeta": {
-"formula": "\text{Prove: } AC^2 = AB^2 + BC^2",
+"formula": "\\text{Prove: } AC^2 = AB^2 + BC^2",
 "description": "Step-by-step mathematical derivation of the Pythagoras Theorem utilizing similar triangles.",
-"derivation": "1. Construct an internal altitude $BD \perp AC$.\n2. Apply similarity theorem for the upper triangle: $\Delta ADB \sim \Delta ABC \implies \frac{AD}{AB} = \frac{AB}{AC}$. Cross-multiply to obtain equation (1): $AB^2 = AD \cdot AC$.\n3. Apply similarity theorem for the lower triangle: $\Delta BDC \sim \Delta ABC \implies \frac{CD}{BC} = \frac{BC}{AC}$. Cross-multiply to obtain equation (2): $BC^2 = CD \cdot AC$.\n4. Algebraically add equations (1) and (2): $AB^2 + BC^2 = (AD \cdot AC) + (CD \cdot AC)$.\n5. Factor out $AC$: $AB^2 + BC^2 = AC(AD+CD)$.\n6. Since segments $AD + CD$ perfectly form the hypotenuse $AC$, substitute to finalize: $AB^2 + BC^2 = AC \cdot AC = AC^2$."
+"derivation": "1. Construct an internal altitude $BD \\perp AC$.\n2. Apply similarity theorem for the upper triangle: $\\Delta ADB \\sim \\Delta ABC \\implies \\frac{AD}{AB} = \\frac{AB}{AC}$. Cross-multiply to obtain equation (1): $AB^2 = AD \\cdot AC$.\n3. Apply similarity theorem for the lower triangle: $\\Delta BDC \\sim \\Delta ABC \\implies \\frac{CD}{BC} = \\frac{BC}{AC}$. Cross-multiply to obtain equation (2): $BC^2 = CD \\cdot AC$.\n4. Algebraically add equations (1) and (2): $AB^2 + BC^2 = (AD \\cdot AC) + (CD \\cdot AC)$.\n5. Factor out $AC$: $AB^2 + BC^2 = AC(AD+CD)$.\n6. Since segments $AD + CD$ perfectly form the hypotenuse $AC$, substitute to finalize: $AB^2 + BC^2 = AC \\cdot AC = AC^2$."
 }
 }
 },
@@ -523,11 +523,11 @@
 "tags": ["math", "geometry", "triangles", "pythagoras", "class-10"],
 "order": 26,
 "heading": "Converse of Pythagoras Theorem",
-"back": "## Component Anatomy:\n- **$AC^2 = AB^2 + BC^2$:** The explicitly given condition relating the sum of squares.\n- **$\angle B = 90^\circ$:** The resulting proved right angle.\n\n## Boundary Conditions / Domain:\n- The angle logically proven to be exactly $90^\circ$ is strictly the angle opposite to the single isolated longest side ($AC$).",
+"back": "## Component Anatomy:\n- **$AC^2 = AB^2 + BC^2$:** The explicitly given condition relating the sum of squares.\n- **$\\angle B = 90^\\circ$:** The resulting proved right angle.\n\n## Boundary Conditions / Domain:\n- The angle logically proven to be exactly $90^\\circ$ is strictly the angle opposite to the single isolated longest side ($AC$).",
 "formulaMeta": {
-"formula": "\text{If } AC^2 = AB^2 + BC^2, \text{ then } \angle B = 90^\circ",
+"formula": "\\text{If } AC^2 = AB^2 + BC^2, \\text{ then } \\angle B = 90^\\circ",
 "description": "Mathematical outcome if the square of one side of a triangle is equal to the sum of the squares of the other two sides.",
-"derivation": "Construct a dummy right $\Delta PQR$ right-angled at $Q$, with $PQ = AB$ and $QR = BC$. By Pythagoras on $\Delta PQR$, $PR^2 = PQ^2 + QR^2 = AB^2 + BC^2$. Thus $PR^2 = AC^2 \implies PR = AC$. By SSS congruence, $\Delta ABC \cong \Delta PQR$, guaranteeing $\angle B = \angle Q = 90^\circ$."
+"derivation": "Construct a dummy right $\\Delta PQR$ right-angled at $Q$, with $PQ = AB$ and $QR = BC$. By Pythagoras on $\\Delta PQR$, $PR^2 = PQ^2 + QR^2 = AB^2 + BC^2$. Thus $PR^2 = AC^2 \\implies PR = AC$. By SSS congruence, $\\Delta ABC \\cong \\Delta PQR$, guaranteeing $\\angle B = \\angle Q = 90^\\circ$."
 }
 }
 },
@@ -544,9 +544,9 @@
 "tags": ["math", "geometry", "triangles", "pythagoras", "class-10", "jee"],
 "order": 27,
 "heading": "Pythagoras Extension: Obtuse Angled Triangle",
-"back": "## Component Anatomy:\n- **$\Delta ABC$:** The primary triangle, strictly obtuse-angled at $B$.\n- **$AD \perp CB$:** An altitude artificially dropped onto the extended baseline $CB$.\n\n## Boundary Conditions / Domain:\n- The enclosed angle $B$ must be strictly $> 90^\circ$.\n- The altitude MUST be dropped outside the main triangle onto the mathematically extended base line.",
+"back": "## Component Anatomy:\n- **$\\Delta ABC$:** The primary triangle, strictly obtuse-angled at $B$.\n- **$AD \\perp CB$:** An altitude artificially dropped onto the extended baseline $CB$.\n\n## Boundary Conditions / Domain:\n- The enclosed angle $B$ must be strictly $> 90^\\circ$.\n- The altitude MUST be dropped outside the main triangle onto the mathematically extended base line.",
 "formulaMeta": {
-"formula": "AC^2 = AB^2 + BC^2 + 2BC \cdot BD",
+"formula": "AC^2 = AB^2 + BC^2 + 2BC \\cdot BD",
 "description": "Extended Pythagorean equation calculating the side opposite an obtuse angle.",
 "derivation": ""
 }
@@ -565,11 +565,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "pythagoras", "class-10"],
 "order": 28,
 "heading": "SOP: Deriving the Obtuse Pythagoras Extension",
-"back": "## Setup\nGiven $\Delta ABC$ is obtuse at $B$. We need to find $AC^2$. \n\n## Component Anatomy:\n- **Altitude:** Draw $AD \perp CB$ (extended).\n\n## Boundary Conditions / Domain:\n- The segment $DC$ is the sum of $DB$ and $BC$ ($DC = DB + BC$).",
+"back": "## Setup\nGiven $\\Delta ABC$ is obtuse at $B$. We need to find $AC^2$. \n\n## Component Anatomy:\n- **Altitude:** Draw $AD \\perp CB$ (extended).\n\n## Boundary Conditions / Domain:\n- The segment $DC$ is the sum of $DB$ and $BC$ ($DC = DB + BC$).",
 "formulaMeta": {
-"formula": "\text{Prove: } AC^2 = AB^2 + BC^2 + 2BC \cdot BD",
+"formula": "\\text{Prove: } AC^2 = AB^2 + BC^2 + 2BC \\cdot BD",
 "description": "Step-by-step mathematical derivation for the obtuse angle Pythagoras extension.",
-"derivation": "1. Apply standard Pythagoras in the large right $\Delta ADC$: $AC^2 = AD^2 + DC^2$.\n2. Since $DC = DB + BC$, substitute this binomial: $AC^2 = AD^2 + (DB + BC)^2$.\n3. Expand the binomial algebraically: $AC^2 = AD^2 + DB^2 + BC^2 + 2DB \cdot BC$.\n4. Apply standard Pythagoras in the small right $\Delta ADB$: $AD^2 + DB^2 = AB^2$.\n5. Substitute $AB^2$ back into the expanded equation to get the final formula: $AC^2 = AB^2 + BC^2 + 2DB \cdot BC$."
+"derivation": "1. Apply standard Pythagoras in the large right $\\Delta ADC$: $AC^2 = AD^2 + DC^2$.\n2. Since $DC = DB + BC$, substitute this binomial: $AC^2 = AD^2 + (DB + BC)^2$.\n3. Expand the binomial algebraically: $AC^2 = AD^2 + DB^2 + BC^2 + 2DB \\cdot BC$.\n4. Apply standard Pythagoras in the small right $\\Delta ADB$: $AD^2 + DB^2 = AB^2$.\n5. Substitute $AB^2$ back into the expanded equation to get the final formula: $AC^2 = AB^2 + BC^2 + 2DB \\cdot BC$."
 }
 }
 },
@@ -586,9 +586,9 @@
 "tags": ["math", "geometry", "triangles", "pythagoras", "class-10", "jee"],
 "order": 29,
 "heading": "Pythagoras Extension: Acute Angled Triangle",
-"back": "## Component Anatomy:\n- **$\Delta ABC$:** The primary triangle, specifically analyzed at acute angle $B$.\n- **$AD \perp BC$:** An altitude dropped entirely inside the triangle.\n\n## Boundary Conditions / Domain:\n- The specific analyzed angle $B$ must be strictly $< 90^\circ$.\n- The altitude MUST fall strictly on the internal segment $BC$.",
+"back": "## Component Anatomy:\n- **$\\Delta ABC$:** The primary triangle, specifically analyzed at acute angle $B$.\n- **$AD \\perp BC$:** An altitude dropped entirely inside the triangle.\n\n## Boundary Conditions / Domain:\n- The specific analyzed angle $B$ must be strictly $< 90^\\circ$.\n- The altitude MUST fall strictly on the internal segment $BC$.",
 "formulaMeta": {
-"formula": "AC^2 = AB^2 + BC^2 - 2BC \cdot BD",
+"formula": "AC^2 = AB^2 + BC^2 - 2BC \\cdot BD",
 "description": "Extended Pythagorean equation calculating the side opposite an acute angle.",
 "derivation": ""
 }
@@ -607,11 +607,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "pythagoras", "class-10"],
 "order": 30,
 "heading": "SOP: Deriving the Acute Pythagoras Extension",
-"back": "## Setup\nGiven $\Delta ABC$ is acute at $B$. We need to find $AC^2$. \n\n## Component Anatomy:\n- **Altitude:** Draw $AD \perp BC$.\n\n## Boundary Conditions / Domain:\n- The segment $DC$ is the mathematical difference of $BC$ and $BD$ ($DC = BC - BD$).",
+"back": "## Setup\nGiven $\\Delta ABC$ is acute at $B$. We need to find $AC^2$. \n\n## Component Anatomy:\n- **Altitude:** Draw $AD \\perp BC$.\n\n## Boundary Conditions / Domain:\n- The segment $DC$ is the mathematical difference of $BC$ and $BD$ ($DC = BC - BD$).",
 "formulaMeta": {
-"formula": "\text{Prove: } AC^2 = AB^2 + BC^2 - 2BC \cdot BD",
+"formula": "\\text{Prove: } AC^2 = AB^2 + BC^2 - 2BC \\cdot BD",
 "description": "Step-by-step mathematical derivation for the acute angle Pythagoras extension.",
-"derivation": "1. Apply standard Pythagoras in right $\Delta ADC$: $AC^2 = AD^2 + DC^2$.\n2. Since $DC = BC - BD$, substitute this binomial: $AC^2 = AD^2 + (BC - BD)^2$.\n3. Expand the binomial algebraically: $AC^2 = AD^2 + BC^2 + BD^2 - 2BC \cdot BD$.\n4. Apply standard Pythagoras in right $\Delta ADB$: $AD^2 + BD^2 = AB^2$.\n5. Substitute $AB^2$ back into the expanded equation to get the final formula: $AC^2 = AB^2 + BC^2 - 2BC \cdot BD$."
+"derivation": "1. Apply standard Pythagoras in right $\\Delta ADC$: $AC^2 = AD^2 + DC^2$.\n2. Since $DC = BC - BD$, substitute this binomial: $AC^2 = AD^2 + (BC - BD)^2$.\n3. Expand the binomial algebraically: $AC^2 = AD^2 + BC^2 + BD^2 - 2BC \\cdot BD$.\n4. Apply standard Pythagoras in right $\\Delta ADB$: $AD^2 + BD^2 = AB^2$.\n5. Substitute $AB^2$ back into the expanded equation to get the final formula: $AC^2 = AB^2 + BC^2 - 2BC \\cdot BD$."
 }
 }
 },
@@ -649,11 +649,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "class-10", "jee"],
 "order": 32,
 "heading": "SOP: Deriving Apollonius Theorem via Pythagoras",
-"back": "## Setup\nGiven $\Delta ABC$ with true median $AD$. We need to link the sides to the median.\n\n## Component Anatomy:\n- **Altitude:** Draw an auxiliary altitude $AM \perp BC$.\n\n## Boundary Conditions / Domain:\n- Since $AD$ is not perpendicular, it forms one obtuse triangle ($\Delta ABD$) and one acute triangle ($\Delta ADC$) inside the main figure.",
+"back": "## Setup\nGiven $\\Delta ABC$ with true median $AD$. We need to link the sides to the median.\n\n## Component Anatomy:\n- **Altitude:** Draw an auxiliary altitude $AM \\perp BC$.\n\n## Boundary Conditions / Domain:\n- Since $AD$ is not perpendicular, it forms one obtuse triangle ($\\Delta ABD$) and one acute triangle ($\\Delta ADC$) inside the main figure.",
 "formulaMeta": {
-"formula": "\text{Prove: } AB^2 + AC^2 = 2(AD^2 + BD^2)",
+"formula": "\\text{Prove: } AB^2 + AC^2 = 2(AD^2 + BD^2)",
 "description": "Algebraic proof of Apollonius Theorem by adding acute and obtuse Pythagorean extensions.",
-"derivation": "1. Drop an auxiliary altitude $AM \perp BC$.\n2. Recognize $\Delta ABD$ is obtuse at $D$ and $\Delta ADC$ is acute at $D$ (or vice versa).\n3. Apply the obtuse Pythagoras extension: $AB^2 = AD^2 + BD^2 + 2BD \cdot DM$.\n4. Apply the acute Pythagoras extension: $AC^2 = AD^2 + DC^2 - 2DC \cdot DM$.\n5. Because $AD$ is a strict median, substitute $DC = BD$ into the acute equation.\n6. Algebraically add the two equations together. The $+2BD \cdot DM$ and $-2BD \cdot DM$ terms perfectly cancel out, yielding $AB^2 + AC^2 = 2AD^2 + 2BD^2$."
+"derivation": "1. Drop an auxiliary altitude $AM \\perp BC$.\n2. Recognize $\\Delta ABD$ is obtuse at $D$ and $\\Delta ADC$ is acute at $D$ (or vice versa).\n3. Apply the obtuse Pythagoras extension: $AB^2 = AD^2 + BD^2 + 2BD \\cdot DM$.\n4. Apply the acute Pythagoras extension: $AC^2 = AD^2 + DC^2 - 2DC \\cdot DM$.\n5. Because $AD$ is a strict median, substitute $DC = BD$ into the acute equation.\n6. Algebraically add the two equations together. The $+2BD \\cdot DM$ and $-2BD \\cdot DM$ terms perfectly cancel out, yielding $AB^2 + AC^2 = 2AD^2 + 2BD^2$."
 }
 }
 },
@@ -670,11 +670,11 @@
 "tags": ["math", "geometry", "quadrilaterals", "pythagoras", "class-10"],
 "order": 33,
 "heading": "Rhombus Diagonals to Side Formula",
-"back": "## Component Anatomy:\n- **$d_1, d_2$:** The linear lengths of the two internal diagonals.\n- **$a$:** The uniform side length of the rhombus.\n\n## Boundary Conditions / Domain:\n- The 2D figure MUST be strictly a rhombus (or a square), which guarantees its diagonals mathematically bisect each other at strict $90^\circ$ angles.",
+"back": "## Component Anatomy:\n- **$d_1, d_2$:** The linear lengths of the two internal diagonals.\n- **$a$:** The uniform side length of the rhombus.\n\n## Boundary Conditions / Domain:\n- The 2D figure MUST be strictly a rhombus (or a square), which guarantees its diagonals mathematically bisect each other at strict $90^\\circ$ angles.",
 "formulaMeta": {
 "formula": "4a^2 = d_1^2 + d_2^2",
 "description": "Formula algebraically relating the four sides of a rhombus to its two internal diagonals.",
-"derivation": "1. Diagonals of a rhombus mathematically bisect each other at $90^\circ$. The half-diagonals are $\frac{d_1}{2}$ and $\frac{d_2}{2}$.\n2. Form an internal right triangle with the side $a$ as the hypotenuse.\n3. Apply Pythagoras: $a^2 = \left(\frac{d_1}{2}\right)^2 + \left(\frac{d_2}{2}\right)^2$.\n4. Multiply the entire equation by $4$ to yield $4a^2 = d_1^2 + d_2^2$."
+"derivation": "1. Diagonals of a rhombus mathematically bisect each other at $90^\\circ$. The half-diagonals are $\\frac{d_1}{2}$ and $\\frac{d_2}{2}$.\n2. Form an internal right triangle with the side $a$ as the hypotenuse.\n3. Apply Pythagoras: $a^2 = \\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2$.\n4. Multiply the entire equation by $4$ to yield $4a^2 = d_1^2 + d_2^2$."
 }
 }
 },
@@ -693,9 +693,9 @@
 "heading": "Altitude of an Equilateral Triangle",
 "back": "## Component Anatomy:\n- **$h$:** The perpendicular height (altitude) of the triangle.\n- **$a$:** The uniform perimeter side length of the equilateral triangle.\n\n## Boundary Conditions / Domain:\n- The triangle MUST be strictly equilateral (all three sides exactly equal to $a$).\n- Because of strict symmetry, the altitude is simultaneously the exact median, angle bisector, and perpendicular bisector.",
 "formulaMeta": {
-"formula": "h = \frac{\sqrt{3}}{2}a",
+"formula": "h = \\frac{\\sqrt{3}}{2}a",
 "description": "Exact mathematical formula to calculate the altitude of an equilateral triangle given side 'a'.",
-"derivation": "1. Drop an altitude from a vertex to the opposite side.\n2. By symmetry, it bisects the base into two strict segments of length $\frac{a}{2}$.\n3. Apply Pythagoras Theorem in the right-angled sub-triangle: $h^2 + \left(\frac{a}{2}\right)^2 = a^2$.\n4. Solve algebraically for $h^2$: $h^2 = a^2 - \frac{a^2}{4} = \frac{3a^2}{4}$.\n5. Square root both sides to yield $h = \frac{\sqrt{3}}{2}a$."
+"derivation": "1. Drop an altitude from a vertex to the opposite side.\n2. By symmetry, it bisects the base into two strict segments of length $\\frac{a}{2}$.\n3. Apply Pythagoras Theorem in the right-angled sub-triangle: $h^2 + \\left(\\frac{a}{2}\\right)^2 = a^2$.\n4. Solve algebraically for $h^2$: $h^2 = a^2 - \\frac{a^2}{4} = \\frac{3a^2}{4}$.\n5. Square root both sides to yield $h = \\frac{\\sqrt{3}}{2}a$."
 }
 }
 },
@@ -712,7 +712,7 @@
 "tags": ["math", "geometry", "triangles", "pythagoras", "class-10", "jee"],
 "order": 35,
 "heading": "Interior Point Perpendiculars Identity",
-"back": "## Component Anatomy:\n- **$O$:** An arbitrary point located strictly inside the triangle.\n- **$D, E, F$:** The respective feet of the perpendiculars algebraically dropped from $O$ to sides $BC, AC, AB$.\n- **$OA, OB, OC$:** Distances from the interior point to the three vertices.\n- **$AF, BD, CE$:** Alternate, mathematically disjoint segments on the perimeter of the triangle.\n\n## Boundary Conditions / Domain:\n- Point $O$ must exist strictly in the 2D interior of the triangle.\n- The lines dropped to the sides MUST form strict $90^\circ$ perpendicular angles.",
+"back": "## Component Anatomy:\n- **$O$:** An arbitrary point located strictly inside the triangle.\n- **$D, E, F$:** The respective feet of the perpendiculars algebraically dropped from $O$ to sides $BC, AC, AB$.\n- **$OA, OB, OC$:** Distances from the interior point to the three vertices.\n- **$AF, BD, CE$:** Alternate, mathematically disjoint segments on the perimeter of the triangle.\n\n## Boundary Conditions / Domain:\n- Point $O$ must exist strictly in the 2D interior of the triangle.\n- The lines dropped to the sides MUST form strict $90^\\circ$ perpendicular angles.",
 "mnemonic": "Vertices minus Perpendiculars equals Alternating Segments squared.",
 "formulaMeta": {
 "formula": "OA^2 + OB^2 + OC^2 - OD^2 - OE^2 - OF^2 = AF^2 + BD^2 + CE^2",
@@ -734,11 +734,11 @@
 "tags": ["math", "geometry", "triangles", "proofs", "pythagoras", "class-10"],
 "order": 36,
 "heading": "SOP: Deriving the Interior Point Perpendiculars Identity",
-"back": "## Setup\nGiven $\Delta ABC$ with interior point $O$ and perpendiculars $OD \perp BC$, $OE \perp AC$, $OF \perp AB$.\n\n## Component Anatomy:\n- **Vertices Lines:** Join lines $OA$, $OB$, $OC$.\n\n## Boundary Conditions / Domain:\n- Creating the vertices lines generates exactly 6 internal right-angled sub-triangles.",
+"back": "## Setup\nGiven $\\Delta ABC$ with interior point $O$ and perpendiculars $OD \\perp BC$, $OE \\perp AC$, $OF \\perp AB$.\n\n## Component Anatomy:\n- **Vertices Lines:** Join lines $OA$, $OB$, $OC$.\n\n## Boundary Conditions / Domain:\n- Creating the vertices lines generates exactly 6 internal right-angled sub-triangles.",
 "formulaMeta": {
-"formula": "\text{Prove Cyclic Sum Equality}",
+"formula": "\\text{Prove Cyclic Sum Equality}",
 "description": "Step-by-step algebraic manipulation to prove the interior point identity using Pythagoras.",
-"derivation": "1. Join points $OA, OB, OC$ to create 6 right-angled sub-triangles sharing common hypotenuses.\n2. Apply the Pythagoras theorem isolated to alternating sub-triangles: $\Delta OAF, \Delta OBD, \text{ and } \Delta OCE$.\n3. For $\Delta OAF$: $OA^2 = OF^2 + AF^2 \implies OA^2 - OF^2 = AF^2$.\n4. For $\Delta OBD$: $OB^2 = OD^2 + BD^2 \implies OB^2 - OD^2 = BD^2$.\n5. For $\Delta OCE$: $OC^2 = OE^2 + CE^2 \implies OC^2 - OE^2 = CE^2$.\n6. Algebraically add the three resulting equations together to strictly yield the final identity."
+"derivation": "1. Join points $OA, OB, OC$ to create 6 right-angled sub-triangles sharing common hypotenuses.\n2. Apply the Pythagoras theorem isolated to alternating sub-triangles: $\\Delta OAF, \\Delta OBD, \\text{ and } \\Delta OCE$.\n3. For $\\Delta OAF$: $OA^2 = OF^2 + AF^2 \\implies OA^2 - OF^2 = AF^2$.\n4. For $\\Delta OBD$: $OB^2 = OD^2 + BD^2 \\implies OB^2 - OD^2 = BD^2$.\n5. For $\\Delta OCE$: $OC^2 = OE^2 + CE^2 \\implies OC^2 - OE^2 = CE^2$.\n6. Algebraically add the three resulting equations together to strictly yield the final identity."
 }
 }
 },
@@ -758,9 +758,9 @@
 "back": "## Component Anatomy:\n- **$PA, PB$:** The two mathematically segmented parts of chord $AB$.\n- **$PC, PD$:** The two mathematically segmented parts of chord $CD$.\n- **$P$:** The geometric point of intersection.\n\n## Boundary Conditions / Domain:\n- The two chords MUST intersect strictly **inside** the 2D boundary of the circle at point $P$.",
 "mnemonic": "Pieces of a chord multiply to equal the pieces of the other.",
 "formulaMeta": {
-"formula": "PA \cdot PB = PC \cdot PD",
+"formula": "PA \\cdot PB = PC \\cdot PD",
 "description": "Resulting product relationship if two chords of a circle intersect internally.",
-"derivation": "1. Construct lines $AC$ and $BD$.\n2. Prove sub-triangles $\Delta APC \sim \Delta DPB$ via AA Similarity: $\angle APC = \angle DPB$ (vertically opposite) and $\angle CAP = \angle BDP$ (angles perfectly subtended by the identical arc $CB$).\n3. Take the ratio of corresponding proportional sides: $\frac{AP}{DP} = \frac{PC}{PB}$.\n4. Cross-multiply algebraically to get $PA \cdot PB = PC \cdot PD$."
+"derivation": "1. Construct lines $AC$ and $BD$.\n2. Prove sub-triangles $\\Delta APC \\sim \\Delta DPB$ via AA Similarity: $\\angle APC = \\angle DPB$ (vertically opposite) and $\\angle CAP = \\angle BDP$ (angles perfectly subtended by the identical arc $CB$).\n3. Take the ratio of corresponding proportional sides: $\\frac{AP}{DP} = \\frac{PC}{PB}$.\n4. Cross-multiply algebraically to get $PA \\cdot PB = PC \\cdot PD$."
 }
 }
 },
@@ -780,9 +780,9 @@
 "back": "## Component Anatomy:\n- **$P$:** The external geometric intersection point.\n- **$PA, PC$:** The entire lengths of the secant segments from external point $P$ to the far boundary of the circle.\n- **$PB, PD$:** The external lengths of the secant segments from point $P$ to the near boundary of the circle.\n\n## Boundary Conditions / Domain:\n- Points $A, B$ and $C, D$ must lie exactly on the 1D perimeter (boundary) of the circle.\n- Point $P$ MUST lie strictly **outside** the 2D area of the circle.",
 "mnemonic": "Whole times Outside equals Whole times Outside.",
 "formulaMeta": {
-"formula": "PA \cdot PB = PC \cdot PD",
+"formula": "PA \\cdot PB = PC \\cdot PD",
 "description": "Resulting segment product formula if two secants intersect each other externally at point P.",
-"derivation": "1. Construct lines $AC$ and $BD$.\n2. Prove $\Delta PAC \sim \Delta PDB$ via AA Similarity: $\angle P$ is completely common, and the exterior angle of a cyclic quadrilateral strictly equals the interior opposite angle ($\angle PAC = \angle PDB$).\n3. Take the strict ratio of corresponding sides: $\frac{PA}{PD} = \frac{PC}{PB}$.\n4. Cross-multiply algebraically."
+"derivation": "1. Construct lines $AC$ and $BD$.\n2. Prove $\\Delta PAC \\sim \\Delta PDB$ via AA Similarity: $\\angle P$ is completely common, and the exterior angle of a cyclic quadrilateral strictly equals the interior opposite angle ($\\angle PAC = \\angle PDB$).\n3. Take the strict ratio of corresponding sides: $\\frac{PA}{PD} = \\frac{PC}{PB}$.\n4. Cross-multiply algebraically."
 }
 }
 },
@@ -799,7 +799,7 @@
 "tags": ["math", "geometry", "triangles", "similarity", "applications", "class-10"],
 "order": 39,
 "heading": "SOP: Calculating Heights via Shadows",
-"back": "- **Step 1:** Model the vertical object (e.g., pole/tower) and its shadow geometrically as a right-angled triangle. (The Sun's rays represent the hypotenuse).\n- **Step 2 (Domain Constraint):** Ensure the two real-world objects cast shadows at the **exact same mathematical time** of day. This guarantees the angle of elevation of the sun is strictly identical for both models.\n- **Step 3:** Prove $\Delta_1 \sim \Delta_2$ using the **AA Criterion** (both possess $90^\circ$ vertical angles, and mathematically equal sun elevation angles).\n- **Step 4:** Equate proportional ratios: $\frac{\text{Height}_1}{\text{Height}_2} = \frac{\text{Shadow}_1}{\text{Shadow}_2}$.",
+"back": "- **Step 1:** Model the vertical object (e.g., pole/tower) and its shadow geometrically as a right-angled triangle. (The Sun's rays represent the hypotenuse).\n- **Step 2 (Domain Constraint):** Ensure the two real-world objects cast shadows at the **exact same mathematical time** of day. This guarantees the angle of elevation of the sun is strictly identical for both models.\n- **Step 3:** Prove $\\Delta_1 \\sim \\Delta_2$ using the **AA Criterion** (both possess $90^\\circ$ vertical angles, and mathematically equal sun elevation angles).\n- **Step 4:** Equate proportional ratios: $\\frac{\\text{Height}_1}{\\text{Height}_2} = \\frac{\\text{Shadow}_1}{\\text{Shadow}_2}$.",
 "mnemonic": "Same Sun, Same Ratio.",
 "standardMeta": {
 "question": "What is the mathematical Standard Operating Procedure (SOP) for calculating the unknown height of an object using its shadow and a smaller reference object's shadow?"
@@ -819,10 +819,10 @@
 "tags": ["math", "geometry", "triangles", "proofs", "similarity", "class-10", "jee"],
 "order": 40,
 "heading": "SOP: Resolving Side Mismatches via Isosceles Logic",
-"back": "- **Step 1:** Scan the geometric figure and the problem statement for explicitly given angle equalities (e.g., $\angle 1 = \angle 2$) that lie entirely within a single sub-triangle, revealing a **hidden isosceles triangle**.\n- **Step 2:** Apply the fundamental theorem that 'sides mathematically opposite to equal angles are equal' to establish a strict geometric equivalence (e.g., $PR = PQ$).\n- **Step 3:** Algebraically substitute the problematic mismatch side in the given proportional ratio with its newly proven equivalent side.\n- **Step 4:** The algebraic ratio will now perfectly align with the target triangles, allowing you to seamlessly apply the **SAS Similarity Criterion**.",
+"back": "- **Step 1:** Scan the geometric figure and the problem statement for explicitly given angle equalities (e.g., $\\angle 1 = \\angle 2$) that lie entirely within a single sub-triangle, revealing a **hidden isosceles triangle**.\n- **Step 2:** Apply the fundamental theorem that 'sides mathematically opposite to equal angles are equal' to establish a strict geometric equivalence (e.g., $PR = PQ$).\n- **Step 3:** Algebraically substitute the problematic mismatch side in the given proportional ratio with its newly proven equivalent side.\n- **Step 4:** The algebraic ratio will now perfectly align with the target triangles, allowing you to seamlessly apply the **SAS Similarity Criterion**.",
 "mnemonic": "Swap the outlier side using the hidden isosceles.",
 "standardMeta": {
-"question": "In complex similarity proofs, if you are explicitly given a side ratio like $\frac{QR}{QS} = \frac{QT}{PR}$ where $PR$ does NOT structurally belong to the target triangle you are trying to prove similar, what is the standard algebraic procedure to resolve this mismatch?"
+"question": "In complex similarity proofs, if you are explicitly given a side ratio like $\\frac{QR}{QS} = \\frac{QT}{PR}$ where $PR$ does NOT structurally belong to the target triangle you are trying to prove similar, what is the standard algebraic procedure to resolve this mismatch?"
 }
 }
 },

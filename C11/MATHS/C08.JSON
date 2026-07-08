@@ -14,7 +14,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 1,
 "heading": "Strict Distinction: Sequence vs. Series",
-"back": "## Sequence\nAn ordered list of numbers following a specific mathematical pattern (e.g., $a_1, a_2, a_3, \dots$). The strict positional order of elements matters.\n\n## Series\nThe mathematical arithmetic sum of the elements of a given sequence (e.g., $a_1 + a_2 + a_3 + \dots$).",
+"back": "## Sequence\nAn ordered list of numbers following a specific mathematical pattern (e.g., $a_1, a_2, a_3, \\dots$). The strict positional order of elements matters.\n\n## Series\nThe mathematical arithmetic sum of the elements of a given sequence (e.g., $a_1 + a_2 + a_3 + \\dots$).",
 "mnemonic": "Sequence is the List. Series is the Sum.",
 "standardMeta": {
 "question": "What is the strict mathematical distinction between a 'Sequence' and a 'Series'?"
@@ -55,7 +55,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 3,
 "heading": "General Term of an Arithmetic Progression (A.P.)",
-"back": "## Component Anatomy\n- **$a$:** The absolute first term of the sequence.\n- **$d$:** The common difference between any two consecutive terms.\n- **$n$:** The positional integer index of the target term.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (The position index must be a strictly positive integer).",
+"back": "## Component Anatomy\n- **$a$:** The absolute first term of the sequence.\n- **$d$:** The common difference between any two consecutive terms.\n- **$n$:** The positional integer index of the target term.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (The position index must be a strictly positive integer).",
 "formulaMeta": {
 "formula": "a_n = a + (n - 1)d",
 "description": "Standard formula for the general n-th term (a_n) of an Arithmetic Progression.",
@@ -76,11 +76,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main", "jee-advanced"],
 "order": 4,
 "heading": "Sum of the First n Terms of an A.P. ($S_n$)",
-"back": "## Component Anatomy\n- **$n$:** The total number of terms being summed.\n- **$a$:** The first term of the sequence.\n- **$d$:** The common difference.\n- **$l$:** The literal last term of the finite sequence (equivalent to $a_n$).\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$n$:** The total number of terms being summed.\n- **$a$:** The first term of the sequence.\n- **$d$:** The common difference.\n- **$l$:** The literal last term of the finite sequence (equivalent to $a_n$).\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$.",
 "formulaMeta": {
 "formula": "\\begin{aligned} S_n &= \\frac{n}{2}[2a + (n - 1)d] \\\\ &= \\frac{n}{2}(a + l) \\end{aligned}",
 "description": "The two primary mathematical forms for calculating the arithmetic sum of the first n terms of an A.P.",
-"derivation": "Write the sum sequence forward: $S_n = a + (a+d) + \dots + l$. Write it backward: $S_n = l + (l-d) + \dots + a$. Adding both equations vertically cancels out all $d$ terms, yielding $2S_n = n(a+l)$. Dividing by 2 gives the formula."
+"derivation": "Write the sum sequence forward: $S_n = a + (a+d) + \\dots + l$. Write it backward: $S_n = l + (l-d) + \\dots + a$. Adding both equations vertically cancels out all $d$ terms, yielding $2S_n = n(a+l)$. Dividing by 2 gives the formula."
 }
 }
 },
@@ -97,7 +97,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main", "jee-advanced"],
 "order": 5,
 "heading": "Extracting the Individual n-th Term from a Sum Formula",
-"back": "## Component Anatomy\n- **$a_n$:** The isolated individual $n$-th term.\n- **$S_n$:** The given formula/value for the sum of the first $n$ terms.\n- **$S_{n-1}$:** The sum of the first $(n-1)$ terms, found by substituting $(n-1)$ into the $S_n$ formula.\n\n## Boundary Conditions / Domain\n- Formula strictly valid for $n \ge 2$.\n- For the boundary condition $n=1$, the first term $a_1$ is strictly algebraically equal to $S_1$.",
+"back": "## Component Anatomy\n- **$a_n$:** The isolated individual $n$-th term.\n- **$S_n$:** The given formula/value for the sum of the first $n$ terms.\n- **$S_{n-1}$:** The sum of the first $(n-1)$ terms, found by substituting $(n-1)$ into the $S_n$ formula.\n\n## Boundary Conditions / Domain\n- Formula strictly valid for $n \\ge 2$.\n- For the boundary condition $n=1$, the first term $a_1$ is strictly algebraically equal to $S_1$.",
 "formulaMeta": {
 "formula": "a_n = S_n - S_{n-1}",
 "description": "The algebraic formula used to extract an individual sequence term when only the overarching Sum formula (S_n) is provided.",
@@ -118,7 +118,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 6,
 "heading": "Equidistant Terms Property of an A.P.",
-"back": "## The Property\nIn any finite Arithmetic Progression, the arithmetic sum of terms strictly equidistant from the beginning and the end is always a **constant value**.\n\n## The Equality Limit\nThis constant is exactly equal to the mathematical sum of the first and last terms of the sequence.\n\n## Algebraic Identity\n$a_1 + a_n = a_2 + a_{n-1} = a_3 + a_{n-2} = \dots = \text{Constant}$",
+"back": "## The Property\nIn any finite Arithmetic Progression, the arithmetic sum of terms strictly equidistant from the beginning and the end is always a **constant value**.\n\n## The Equality Limit\nThis constant is exactly equal to the mathematical sum of the first and last terms of the sequence.\n\n## Algebraic Identity\n$a_1 + a_n = a_2 + a_{n-1} = a_3 + a_{n-2} = \\dots = \\text{Constant}$",
 "mnemonic": "A.P. ends fold perfectly to the center by ADDITION.",
 "standardMeta": {
 "question": "What is the invariable structural property regarding the sum of terms strictly equidistant from the start and end of a finite Arithmetic Progression?"
@@ -138,11 +138,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main", "jee-advanced"],
 "order": 7,
 "heading": "Linear Transformations of an Arithmetic Progression",
-"back": "## Component Anatomy\n- **$a_n$:** The terms of the original Arithmetic Progression.\n- **$k$:** Any non-zero real constant multiplier.\n- **$c$:** Any real constant being added or subtracted.\n\n## Boundary Conditions / Domain\n- Multiplier constraint: $k \neq 0$. If $k=0$, the sequence collapses into a trivial constant sequence of identical terms (which technically has $d=0$, but loses its original progression).",
+"back": "## Component Anatomy\n- **$a_n$:** The terms of the original Arithmetic Progression.\n- **$k$:** Any non-zero real constant multiplier.\n- **$c$:** Any real constant being added or subtracted.\n\n## Boundary Conditions / Domain\n- Multiplier constraint: $k \\neq 0$. If $k=0$, the sequence collapses into a trivial constant sequence of identical terms (which technically has $d=0$, but loses its original progression).",
 "formulaMeta": {
 "formula": "A_n = k a_n \\pm c \\implies \\text{Strictly a new A.P.}",
 "description": "Rule dictating that applying a uniform linear transformation (multiplying by a constant and adding a constant) to an A.P. strictly preserves its arithmetic nature.",
-"derivation": "Evaluate the common difference of the new sequence: $A_{n+1} - A_n = (ka_{n+1} \pm c) - (ka_n \pm c) = k(a_{n+1} - a_n) = k(d)$. Because this new difference evaluates to a strict constant ($k \cdot d$), the transformed sequence is mathematically guaranteed to remain an A.P."
+"derivation": "Evaluate the common difference of the new sequence: $A_{n+1} - A_n = (ka_{n+1} \\pm c) - (ka_n \\pm c) = k(a_{n+1} - a_n) = k(d)$. Because this new difference evaluates to a strict constant ($k \\cdot d$), the transformed sequence is mathematically guaranteed to remain an A.P."
 }
 }
 },
@@ -201,12 +201,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "jee-main", "jee-advanced"],
 "order": 10,
 "heading": "SOP: Formulating the Common Sequence of Two Intersecting A.P.s",
-"back": "## Component Anatomy\n- **$d_1, d_2$:** The distinct common differences of the two original Arithmetic Progressions.\n- **$D_{\text{new}}$:** The calculated common difference of the resulting intersection sequence.\n\n## Boundary Conditions / Domain\n- A shared common term must mathematically exist between the two sets.\n- If the sets are completely disjoint (e.g., one contains exclusively evens, the other exclusively odds), the mathematical intersection evaluates strictly to the empty set $\emptyset$.",
+"back": "## Component Anatomy\n- **$d_1, d_2$:** The distinct common differences of the two original Arithmetic Progressions.\n- **$D_{\\text{new}}$:** The calculated common difference of the resulting intersection sequence.\n\n## Boundary Conditions / Domain\n- A shared common term must mathematically exist between the two sets.\n- If the sets are completely disjoint (e.g., one contains exclusively evens, the other exclusively odds), the mathematical intersection evaluates strictly to the empty set $\\emptyset$.",
 "mnemonic": "Intersection A.P. steps to the beat of the LCM.",
 "formulaMeta": {
 "formula": "D_{\\text{new}} = \\text{LCM}(d_1, d_2)",
 "description": "The algorithmic formula used to determine the common difference of a new sequence formed strictly by extracting the identical overlapping terms of two distinct A.P.s.",
-"derivation": "1. Physically list out the first few terms of both given A.P. sequences.\n2. Manually identify the very first numerical value that appears identical in both lists. This becomes the foundation term $a_{\text{new}}$.\n3. Calculate the new constant common difference strictly by finding the Least Common Multiple (LCM) of the original differences: $D_{\text{new}} = \text{LCM}(d_1, d_2)$.\n4. Construct the complete intersection A.P. utilizing $a_{\text{new}}$ and $D_{\text{new}}$."
+"derivation": "1. Physically list out the first few terms of both given A.P. sequences.\n2. Manually identify the very first numerical value that appears identical in both lists. This becomes the foundation term $a_{\\text{new}}$.\n3. Calculate the new constant common difference strictly by finding the Least Common Multiple (LCM) of the original differences: $D_{\\text{new}} = \\text{LCM}(d_1, d_2)$.\n4. Construct the complete intersection A.P. utilizing $a_{\\text{new}}$ and $D_{\\text{new}}$."
 }
 }
 },
@@ -223,7 +223,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "applications"],
 "order": 11,
 "heading": "SOP: Decreasing A.P. in Loan Balance Instalments",
-"back": "## The Financial Archetype\nA loan (e.g., a tractor or house purchase) is structurally paid back via fixed principal instalments PLUS the accrued interest calculated strictly on the outstanding unpaid balance for that period.\n\n## The Hidden Sequence\nBecause the outstanding loan balance strictly decreases by a perfectly constant principal amount every single period, the mathematical sequence of the interest payments forms a perfect **decreasing Arithmetic Progression (A.P.)**.\n\n## Algorithmic SOP\n1. Do NOT attempt to sum the entire mixed sequence at once.\n2. Separately isolate and sum the fixed principal payments (which evaluates simply to $n \times \text{Fixed Instalment}$).\n3. Independently apply the standard $S_n$ formula for the A.P. formed strictly by the sequentially decreasing interest payments.\n4. Add the two separated sums together.",
+"back": "## The Financial Archetype\nA loan (e.g., a tractor or house purchase) is structurally paid back via fixed principal instalments PLUS the accrued interest calculated strictly on the outstanding unpaid balance for that period.\n\n## The Hidden Sequence\nBecause the outstanding loan balance strictly decreases by a perfectly constant principal amount every single period, the mathematical sequence of the interest payments forms a perfect **decreasing Arithmetic Progression (A.P.)**.\n\n## Algorithmic SOP\n1. Do NOT attempt to sum the entire mixed sequence at once.\n2. Separately isolate and sum the fixed principal payments (which evaluates simply to $n \\times \\text{Fixed Instalment}$).\n3. Independently apply the standard $S_n$ formula for the A.P. formed strictly by the sequentially decreasing interest payments.\n4. Add the two separated sums together.",
 "mnemonic": "Fixed payments kill the principal. Interest dies in an A.P.",
 "standardMeta": {
 "question": "How does the interest portion of a loan repayment mathematically behave when paying a fixed principal instalment plus interest evaluated strictly on the remaining unpaid balance?"
@@ -243,11 +243,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert"],
 "order": 12,
 "heading": "Single Arithmetic Mean (A.M.) Between Two Numbers",
-"back": "## Component Anatomy\n- **$A$:** The calculated Arithmetic Mean.\n- **$a, b$:** The two distinct boundary numbers.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all real numbers $a, b \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$A$:** The calculated Arithmetic Mean.\n- **$a, b$:** The two distinct boundary numbers.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all real numbers $a, b \\in \\mathbb{R}$.",
 "formulaMeta": {
 "formula": "A = \\frac{a + b}{2}",
 "description": "The formula calculating the single Arithmetic Mean (A) structurally positioned between two numbers a and b.",
-"derivation": "If the sequence $a, A, b$ is strictly defined as an A.P., then the common difference is mathematically constant across terms: $A - a = b - A$. Rearranging this yields $2A = a + b$, which isolates to $A = \frac{a+b}{2}$."
+"derivation": "If the sequence $a, A, b$ is strictly defined as an A.P., then the common difference is mathematically constant across terms: $A - a = b - A$. Rearranging this yields $2A = a + b$, which isolates to $A = \\frac{a+b}{2}$."
 }
 }
 },
@@ -264,12 +264,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 13,
 "heading": "SOP: Inserting $n$ Arithmetic Means Between Two Bounds",
-"back": "## Component Anatomy\n- **$d$:** The resulting calculated common difference required to form the new continuous A.P.\n- **$a, b$:** The strict boundary numbers acting as the first and last terms respectively.\n- **$n$:** The exact integer quantity of arithmetic means being inserted internally.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$ (The quantity of means inserted must be a positive whole number).",
+"back": "## Component Anatomy\n- **$d$:** The resulting calculated common difference required to form the new continuous A.P.\n- **$a, b$:** The strict boundary numbers acting as the first and last terms respectively.\n- **$n$:** The exact integer quantity of arithmetic means being inserted internally.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$ (The quantity of means inserted must be a positive whole number).",
 "mnemonic": "Difference over count plus one.",
 "formulaMeta": {
 "formula": "d = \\frac{b - a}{n + 1}",
 "description": "The algebraic formula used to strictly calculate the required common difference 'd' when actively inserting n Arithmetic Means between two boundary numbers a and b.",
-"derivation": "When $n$ means are inserted, the total number of terms in the complete sequence $a, A_1, A_2, \dots, A_n, b$ expands to exactly $(n+2)$ terms. Applying the general term formula for the literal last term yields $b = a + ((n+2) - 1)d$, which simplifies to $b = a + (n+1)d$. Rearranging and solving completely isolates $d$."
+"derivation": "When $n$ means are inserted, the total number of terms in the complete sequence $a, A_1, A_2, \\dots, A_n, b$ expands to exactly $(n+2)$ terms. Applying the general term formula for the literal last term yields $b = a + ((n+2) - 1)d$, which simplifies to $b = a + (n+1)d$. Rearranging and solving completely isolates $d$."
 }
 }
 },
@@ -286,12 +286,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 14,
 "heading": "Theorem: The Algebraic Sum of $n$ Inserted Arithmetic Means",
-"back": "## Component Anatomy\n- **$A_i$:** The individual inserted Arithmetic Means making up the internal sequence.\n- **$A$:** The single, absolute Arithmetic Mean strictly evaluated between $a$ and $b$ (i.e., $\frac{a+b}{2}$).\n- **$n$:** The integer quantity of means inserted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all real bounds $a, b \in \mathbb{R}$.",
+"back": "## Component Anatomy\n- **$A_i$:** The individual inserted Arithmetic Means making up the internal sequence.\n- **$A$:** The single, absolute Arithmetic Mean strictly evaluated between $a$ and $b$ (i.e., $\\frac{a+b}{2}$).\n- **$n$:** The integer quantity of means inserted.\n\n## Boundary Conditions / Domain\n- Valid unconditionally for all real bounds $a, b \\in \\mathbb{R}$.",
 "mnemonic": "n times the middleman.",
 "formulaMeta": {
 "formula": "\\sum_{i=1}^{n} A_i = n A = n \\left( \\frac{a+b}{2} \\right)",
 "description": "Theorem equating the aggregated sum of all n Arithmetic Means inserted between two bounds strictly to n times their singular, centralized Arithmetic Mean.",
-"derivation": "The sum of the strict A.P. formed entirely by the $n$ inserted means is $\frac{n}{2}(\text{First Inserted Term} + \text{Last Inserted Term}) = \frac{n}{2}(A_1 + A_n)$. Based on the equidistant terms property, $A_1 + A_n$ is strictly equivalent to the bounds $a + b$. Substituting this yields $n \times \frac{a+b}{2}$."
+"derivation": "The sum of the strict A.P. formed entirely by the $n$ inserted means is $\\frac{n}{2}(\\text{First Inserted Term} + \\text{Last Inserted Term}) = \\frac{n}{2}(A_1 + A_n)$. Based on the equidistant terms property, $A_1 + A_n$ is strictly equivalent to the bounds $a + b$. Substituting this yields $n \\times \\frac{a+b}{2}$."
 }
 }
 },
@@ -308,11 +308,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 15,
 "heading": "General Term of a Geometric Progression (G.P.)",
-"back": "## Component Anatomy\n- **$a$:** The first structural term of the sequence.\n- **$r$:** The common geometric ratio acting as a multiplier between consecutive terms.\n- **$n$:** The positional integer index of the specific term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a \neq 0$ and $r \neq 0$ (Standard terms of a valid G.P. are strictly non-zero; a zero ratio collapses the sequence to endless zeros).\n- $n \in \mathbb{N}$ (The index must strictly be a positive integer).",
+"back": "## Component Anatomy\n- **$a$:** The first structural term of the sequence.\n- **$r$:** The common geometric ratio acting as a multiplier between consecutive terms.\n- **$n$:** The positional integer index of the specific term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $a \\neq 0$ and $r \\neq 0$ (Standard terms of a valid G.P. are strictly non-zero; a zero ratio collapses the sequence to endless zeros).\n- $n \\in \\mathbb{N}$ (The index must strictly be a positive integer).",
 "formulaMeta": {
 "formula": "a_n = a r^{n-1}",
 "description": "The fundamental formula used to isolate the general n-th term (a_n) of a Geometric Progression.",
-"derivation": "By definition, the first term is $a$. The second term is $a \times r$, the third is $a \times r^2$. The exponent acting on the common ratio $r$ is always mathematically exactly one less than the structural positional index $n$."
+"derivation": "By definition, the first term is $a$. The second term is $a \\times r$, the third is $a \\times r^2$. The exponent acting on the common ratio $r$ is always mathematically exactly one less than the structural positional index $n$."
 }
 }
 },
@@ -328,12 +328,12 @@
 "classification": "MEMORY",
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 16,
-"heading": "Sum of First $n$ Terms of a G.P. ($r \neq 1$)",
-"back": "## Component Anatomy\n- **$a$:** The first term of the sequence.\n- **$r$:** The constant common ratio.\n- **$n$:** The total integer number of terms being summed.\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** $r \neq 1$.\n- If $r = 1$ is substituted, the formula's denominator entirely collapses to zero, rendering the expression mathematically undefined. (Note: If $r=1$, the sequence is trivial: $a, a, a\dots$, and the sum is simply $S_n = na$).",
+"heading": "Sum of First $n$ Terms of a G.P. ($r \\neq 1$)",
+"back": "## Component Anatomy\n- **$a$:** The first term of the sequence.\n- **$r$:** The constant common ratio.\n- **$n$:** The total integer number of terms being summed.\n\n## Boundary Conditions / Domain\n- **Critical Constraint:** $r \\neq 1$.\n- If $r = 1$ is substituted, the formula's denominator entirely collapses to zero, rendering the expression mathematically undefined. (Note: If $r=1$, the sequence is trivial: $a, a, a\\dots$, and the sum is simply $S_n = na$).",
 "formulaMeta": {
 "formula": "S_n = \\frac{a(r^n - 1)}{r - 1} = \\frac{a(1 - r^n)}{1 - r}",
 "description": "The mathematical formula for the arithmetic sum of the first n terms of a G.P. strictly when the common ratio does not equal 1.",
-"derivation": "Write the sum equation: $S_n = a + ar + \dots + ar^{n-1}$. Multiply this entire equation structurally by $r$ to yield: $rS_n = ar + ar^2 + \dots + ar^n$. Subtract the new equation from the original to perfectly cancel out all intermediate terms, leaving $S_n(1-r) = a(1-r^n)$. Divide by $(1-r)$ to isolate $S_n$."
+"derivation": "Write the sum equation: $S_n = a + ar + \\dots + ar^{n-1}$. Multiply this entire equation structurally by $r$ to yield: $rS_n = ar + ar^2 + \\dots + ar^n$. Subtract the new equation from the original to perfectly cancel out all intermediate terms, leaving $S_n(1-r) = a(1-r^n)$. Divide by $(1-r)$ to isolate $S_n$."
 }
 }
 },
@@ -350,11 +350,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "limits", "class-11", "ncert", "jee-main"],
 "order": 17,
 "heading": "Sum to Infinity of a Convergent G.P.",
-"back": "## Component Anatomy\n- **$a$:** The absolute first term of the sequence.\n- **$r$:** The common ratio.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|r| < 1$ (which algebraically evaluates to $-1 < r < 1$).\n- If this domain condition is structurally violated ($|r| \ge 1$), the geometric series diverges completely to infinity (or oscillates) and holds absolutely no finite sum limit.",
+"back": "## Component Anatomy\n- **$a$:** The absolute first term of the sequence.\n- **$r$:** The common ratio.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|r| < 1$ (which algebraically evaluates to $-1 < r < 1$).\n- If this domain condition is structurally violated ($|r| \\ge 1$), the geometric series diverges completely to infinity (or oscillates) and holds absolutely no finite sum limit.",
 "formulaMeta": {
 "formula": "S_{\\infty} = \\frac{a}{1 - r}",
 "description": "The convergence limit formula for evaluating the absolute sum of an infinite Geometric Progression.",
-"derivation": "Initiate with the finite sum formula: $S_n = \frac{a(1 - r^n)}{1 - r}$. As the limit $n \to \infty$ is applied, the specific component term $r^n$ strictly approaches exactly $0$ exclusively because the domain constraint requires $|r| < 1$. Substituting $0$ for $r^n$ collapses the structural expression to strictly $\frac{a}{1-r}$."
+"derivation": "Initiate with the finite sum formula: $S_n = \\frac{a(1 - r^n)}{1 - r}$. As the limit $n \\to \\infty$ is applied, the specific component term $r^n$ strictly approaches exactly $0$ exclusively because the domain constraint requires $|r| < 1$. Substituting $0$ for $r^n$ collapses the structural expression to strictly $\\frac{a}{1-r}$."
 }
 }
 },
@@ -371,7 +371,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 18,
 "heading": "Equidistant Terms Property of a G.P.",
-"back": "## The Property\nIn any finite Geometric Progression, the strict mathematical **product** of terms located perfectly equidistant from the beginning and the end of the sequence is always a **constant value**.\n\n## The Equality Limit\nThis derived constant is exactly equal to the direct geometric product of the absolute first and absolute last terms.\n\n## Algebraic Identity\n$a_1 \times a_n = a_2 \times a_{n-1} = a_3 \times a_{n-2} = \dots = \text{Constant}$",
+"back": "## The Property\nIn any finite Geometric Progression, the strict mathematical **product** of terms located perfectly equidistant from the beginning and the end of the sequence is always a **constant value**.\n\n## The Equality Limit\nThis derived constant is exactly equal to the direct geometric product of the absolute first and absolute last terms.\n\n## Algebraic Identity\n$a_1 \\times a_n = a_2 \\times a_{n-1} = a_3 \\times a_{n-2} = \\dots = \\text{Constant}$",
 "mnemonic": "G.P. ends fold perfectly to the center by MULTIPLICATION.",
 "standardMeta": {
 "question": "What is the invariable structural property regarding the mathematical product of terms strictly equidistant from the start and end of a finite Geometric Progression?"
@@ -395,7 +395,7 @@
 "formulaMeta": {
 "formula": "A_n = (a_n)^k \\implies \\text{Strictly a new G.P.}",
 "description": "Rule defining the surviving sequence structure when every individual term of an existing G.P. is raised uniformly to a non-zero power 'k'.",
-"derivation": "Evaluate the structural common ratio of the resulting sequence: $\frac{A_{n+1}}{A_n} = \frac{(a_{n+1})^k}{(a_n)^k} = \left(\frac{a_{n+1}}{a_n}\right)^k = r^k$. Since the result $r^k$ evaluates to a strict mathematical constant, the transformed sequence structurally remains a perfect G.P. operating with the new common ratio $R = r^k$."
+"derivation": "Evaluate the structural common ratio of the resulting sequence: $\\frac{A_{n+1}}{A_n} = \\frac{(a_{n+1})^k}{(a_n)^k} = \\left(\\frac{a_{n+1}}{a_n}\\right)^k = r^k$. Since the result $r^k$ evaluates to a strict mathematical constant, the transformed sequence structurally remains a perfect G.P. operating with the new common ratio $R = r^k$."
 }
 }
 },
@@ -412,7 +412,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 20,
 "heading": "Sequence Structure: Term-by-Term Product of Two G.P.s",
-"back": "## Component Anatomy\n- **$a_n$:** A primary geometric progression governed by common ratio $r$.\n- **$b_n$:** A secondary geometric progression governed by common ratio $R$.\n- **$C_n$:** The resultant synthesized product sequence where strictly $C_n = a_n \times b_n$.\n\n## Boundary Conditions / Domain\n- Valid strictly for any two mathematically non-zero G.P.s.",
+"back": "## Component Anatomy\n- **$a_n$:** A primary geometric progression governed by common ratio $r$.\n- **$b_n$:** A secondary geometric progression governed by common ratio $R$.\n- **$C_n$:** The resultant synthesized product sequence where strictly $C_n = a_n \\times b_n$.\n\n## Boundary Conditions / Domain\n- Valid strictly for any two mathematically non-zero G.P.s.",
 "mnemonic": "Products of G.P.s breed a G.P.",
 "formulaMeta": {
 "formula": "C_n \\in \\text{G.P. with new common ratio } (r \\times R)",
@@ -434,7 +434,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 21,
 "heading": "SOP: Assuming Symmetrical Unknown Terms in a G.P.",
-"back": "## The Symmetrical Assumptions\n- **3 Terms:** Use $\frac{a}{r},\\; a,\\; ar$. (The structural common ratio here is strictly $r$).\n- **4 Terms:** Use $\frac{a}{r^3},\\; \frac{a}{r},\\; ar,\\; ar^3$. (The structural common ratio here is strictly **$r^2$**).\n- **5 Terms:** Use $\frac{a}{r^2},\\; \frac{a}{r},\\; a,\\; ar,\\; ar^2$. (The structural common ratio here is strictly $r$).\n\n## Algorithmic Justification\nThis symmetric fractional alignment mathematically forces the common ratio variables ($r$) to completely cancel out and collapse to $1$ when the structural *product* of the sequence terms is multiplied together, immediately isolating the variable $a$.",
+"back": "## The Symmetrical Assumptions\n- **3 Terms:** Use $\\frac{a}{r},\\; a,\\; ar$. (The structural common ratio here is strictly $r$).\n- **4 Terms:** Use $\\frac{a}{r^3},\\; \\frac{a}{r},\\; ar,\\; ar^3$. (The structural common ratio here is strictly **$r^2$**).\n- **5 Terms:** Use $\\frac{a}{r^2},\\; \\frac{a}{r},\\; a,\\; ar,\\; ar^2$. (The structural common ratio here is strictly $r$).\n\n## Algorithmic Justification\nThis symmetric fractional alignment mathematically forces the common ratio variables ($r$) to completely cancel out and collapse to $1$ when the structural *product* of the sequence terms is multiplied together, immediately isolating the variable $a$.",
 "standardMeta": {
 "question": "What is the standard algebraic Standard Operating Procedure (SOP) for assuming 3, 4, or 5 unknown sequence terms in a G.P. to drastically simplify algebraic product calculations?"
 }
@@ -453,12 +453,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "logarithms", "class-11", "jee-main", "jee-advanced"],
 "order": 22,
 "heading": "Logarithmic Transformation of a Geometric Progression",
-"back": "## Component Anatomy\n- **$a_n$:** A sequence of mathematical terms actively existing in a G.P.\n- **$\log_b$:** A mathematical logarithm operating with any valid base $b$.\n\n## Boundary Conditions / Domain\n- $a_n > 0$ strictly. Logarithms evaluated at negative numbers or zero are structurally undefined in standard real-number algebra. The original G.P. must consist entirely of positive terms.",
+"back": "## Component Anatomy\n- **$a_n$:** A sequence of mathematical terms actively existing in a G.P.\n- **$\\log_b$:** A mathematical logarithm operating with any valid base $b$.\n\n## Boundary Conditions / Domain\n- $a_n > 0$ strictly. Logarithms evaluated at negative numbers or zero are structurally undefined in standard real-number algebra. The original G.P. must consist entirely of positive terms.",
 "mnemonic": "Logs flatten Geometric hills into Arithmetic stairs.",
 "formulaMeta": {
 "formula": "a_n \\in \\text{G.P.} \\iff \\log_b(a_n) \\in \\text{A.P.}",
 "description": "The fundamental mathematical property establishing a mapping bridge between a Geometric Progression and an Arithmetic Progression via logarithmic application.",
-"derivation": "Initialize the G.P. sequence structurally as $a, ar, ar^2, \dots$. Applying the log universally yields the sequence $\log a, \log(ar), \log(ar^2)$. Relying strictly on standard log multiplication expansion properties (e.g., $\log(xy) = \log x + \log y$), this sequence expands algebraically to $\log a, \log a + \log r, \log a + 2\log r$. This output sequence perfectly mimics an A.P. operating with a constant common difference of exactly $\log r$."
+"derivation": "Initialize the G.P. sequence structurally as $a, ar, ar^2, \\dots$. Applying the log universally yields the sequence $\\log a, \\log(ar), \\log(ar^2)$. Relying strictly on standard log multiplication expansion properties (e.g., $\\log(xy) = \\log x + \\log y$), this sequence expands algebraically to $\\log a, \\log a + \\log r, \\log a + 2\\log r$. This output sequence perfectly mimics an A.P. operating with a constant common difference of exactly $\\log r$."
 }
 }
 },
@@ -475,11 +475,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "inequalities", "jee-main", "jee-advanced", "class-11"],
 "order": 23,
 "heading": "Inequality Trap: Identifying Hidden Geometric Progressions",
-"back": "## Component Anatomy\n- **$a, b, c, d$:** Distinct real numbers forming the coefficients of the polynomial inequality.\n- **$p$:** A real parameter variable.\n\n## Boundary Conditions / Domain\n- The trap relies on the inequality being given as $\le 0$.\n- Since the absolute sum of strictly real squares can mathematically NEVER evaluate to less than zero, it forces the absolute boundary condition constraint of being exactly $= 0$.",
+"back": "## Component Anatomy\n- **$a, b, c, d$:** Distinct real numbers forming the coefficients of the polynomial inequality.\n- **$p$:** A real parameter variable.\n\n## Boundary Conditions / Domain\n- The trap relies on the inequality being given as $\\le 0$.\n- Since the absolute sum of strictly real squares can mathematically NEVER evaluate to less than zero, it forces the absolute boundary condition constraint of being exactly $= 0$.",
 "formulaMeta": {
 "formula": "(a^2+b^2+c^2)p^2 - 2(ab+bc+cd)p + (b^2+c^2+d^2) \\le 0 \\implies a, b, c, d \\text{ are strictly in G.P.}",
 "description": "The strict sequence relationship logically implied when a specific polynomial inequality evaluates to less than or equal to zero.",
-"derivation": "1. Expand and strictly regroup terms by polynomial degree: $(a^2 p^2 - 2abp + b^2) + (b^2 p^2 - 2bcp + c^2) + (c^2 p^2 - 2cdp + d^2) \le 0$.\n2. Factor the regrouped blocks into perfect squares: $(ap - b)^2 + (bp - c)^2 + (cp - d)^2 \le 0$.\n3. Since the sum of any real squares cannot mathematically be negative, each independent square must strictly equal 0 to satisfy the constraint.\n4. Solving yields $ap=b$, $bp=c$, and $cp=d$. Rearranging these equations implies $\frac{b}{a} = \frac{c}{b} = \frac{d}{c} = p$, perfectly defining a Geometric Progression."
+"derivation": "1. Expand and strictly regroup terms by polynomial degree: $(a^2 p^2 - 2abp + b^2) + (b^2 p^2 - 2bcp + c^2) + (c^2 p^2 - 2cdp + d^2) \\le 0$.\n2. Factor the regrouped blocks into perfect squares: $(ap - b)^2 + (bp - c)^2 + (cp - d)^2 \\le 0$.\n3. Since the sum of any real squares cannot mathematically be negative, each independent square must strictly equal 0 to satisfy the constraint.\n4. Solving yields $ap=b$, $bp=c$, and $cp=d$. Rearranging these equations implies $\\frac{b}{a} = \\frac{c}{b} = \\frac{d}{c} = p$, perfectly defining a Geometric Progression."
 }
 }
 },
@@ -496,7 +496,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "proofs", "ncert", "jee-main", "class-11"],
 "order": 24,
 "heading": "Lagrange's G.P. Identity",
-"back": "## Component Anatomy\n- **$a, b, c, d$:** Distinct real numbers structurally bound by the algebraic equation.\n\n## Boundary Conditions / Domain\n- Valid for any variables $a,b,c,d \in \mathbb{R}$.\n- If any singular number evaluates to $0$, the sequence trivially collapses to a string of zeros, technically remaining a G.P.",
+"back": "## Component Anatomy\n- **$a, b, c, d$:** Distinct real numbers structurally bound by the algebraic equation.\n\n## Boundary Conditions / Domain\n- Valid for any variables $a,b,c,d \\in \\mathbb{R}$.\n- If any singular number evaluates to $0$, the sequence trivially collapses to a string of zeros, technically remaining a G.P.",
 "mnemonic": "Sum of squares times sum of squares equals square of sums strictly means G.P.",
 "formulaMeta": {
 "formula": "(a^2+b^2+c^2)(b^2+c^2+d^2) = (ab+bc+cd)^2 \\implies a, b, c, d \\text{ are strictly in G.P.}",
@@ -522,7 +522,7 @@
 "formulaMeta": {
 "formula": "G = \\sqrt{ab}",
 "description": "The formula used to structurally calculate the single Geometric Mean (G) positioned mathematically between two positive numbers a and b.",
-"derivation": "If the specific sequence $a, G, b$ is strictly mathematically defined as being in a G.P., then the extracted common ratio must remain perfectly constant across transitions: $\frac{G}{a} = \frac{b}{G}$. Cross-multiplying this equation immediately yields $G^2 = ab$, which simplifies to isolate $G$."
+"derivation": "If the specific sequence $a, G, b$ is strictly mathematically defined as being in a G.P., then the extracted common ratio must remain perfectly constant across transitions: $\\frac{G}{a} = \\frac{b}{G}$. Cross-multiplying this equation immediately yields $G^2 = ab$, which simplifies to isolate $G$."
 }
 }
 },
@@ -539,12 +539,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 26,
 "heading": "SOP: Inserting n Geometric Means Between Two Bounds",
-"back": "## Component Anatomy\n- **$r$:** The resulting calculated common ratio required for the new continuous G.P.\n- **$a, b$:** The strict boundary numbers acting as the first and last terms.\n- **$n$:** The exact integer quantity of geometric means being inserted internally.\n\n## Boundary Conditions / Domain\n- $a > 0$ and $b > 0$. If bounds have opposite signs, real geometric means cannot be inserted.\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$r$:** The resulting calculated common ratio required for the new continuous G.P.\n- **$a, b$:** The strict boundary numbers acting as the first and last terms.\n- **$n$:** The exact integer quantity of geometric means being inserted internally.\n\n## Boundary Conditions / Domain\n- $a > 0$ and $b > 0$. If bounds have opposite signs, real geometric means cannot be inserted.\n- $n \\in \\mathbb{N}$.",
 "mnemonic": "Ratio of the bounds to the power of 1 over count plus 1.",
 "formulaMeta": {
-"formula": "r = \left( \frac{b}{a} \right)^{\frac{1}{n+1}}",
+"formula": "r = \\left( \\frac{b}{a} \\right)^{\\frac{1}{n+1}}",
 "description": "The algebraic formula used to strictly calculate the required common ratio 'r' when inserting n Geometric Means between two positive boundary numbers a and b.",
-"derivation": "The total sequence expanded to $a, G_1, G_2, \dots, G_n, b$ contains exactly $(n+2)$ terms. The formula for the literal last term is $b = a r^{(n+2)-1} = a r^{n+1}$. Divide by $a$ and take the $(n+1)$-th root on both sides to successfully isolate $r$."
+"derivation": "The total sequence expanded to $a, G_1, G_2, \\dots, G_n, b$ contains exactly $(n+2)$ terms. The formula for the literal last term is $b = a r^{(n+2)-1} = a r^{n+1}$. Divide by $a$ and take the $(n+1)$-th root on both sides to successfully isolate $r$."
 }
 }
 },
@@ -561,11 +561,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 27,
 "heading": "Theorem: The Product of n Inserted Geometric Means",
-"back": "## Component Anatomy\n- **$G_i$:** The individual inserted Geometric Means making up the internal sequence.\n- **$G$:** The single, absolute Geometric Mean strictly evaluated between $a$ and $b$ (i.e., $\sqrt{ab}$).\n- **$n$:** The integer quantity of means inserted.\n\n## Boundary Conditions / Domain\n- Valid strictly for positive bounds $a, b > 0$.",
+"back": "## Component Anatomy\n- **$G_i$:** The individual inserted Geometric Means making up the internal sequence.\n- **$G$:** The single, absolute Geometric Mean strictly evaluated between $a$ and $b$ (i.e., $\\sqrt{ab}$).\n- **$n$:** The integer quantity of means inserted.\n\n## Boundary Conditions / Domain\n- Valid strictly for positive bounds $a, b > 0$.",
 "formulaMeta": {
-"formula": "\prod_{i=1}^{n} G_i = G^n = (\sqrt{ab})^n",
+"formula": "\\prod_{i=1}^{n} G_i = G^n = (\\sqrt{ab})^n",
 "description": "Theorem equating the cumulative product of all n Geometric Means inserted between two bounds strictly to their singular centralized Geometric Mean raised to the power of n.",
-"derivation": "By the equidistant terms property in a G.P., $G_1 \times G_n = a \times b$, and $G_2 \times G_{n-1} = a \times b$, etc. Multiplying all $n$ means pairs them up perfectly to form $(ab)^{n/2}$, which algebraically restructures to $(\sqrt{ab})^n$, strictly representing $G^n$."
+"derivation": "By the equidistant terms property in a G.P., $G_1 \\times G_n = a \\times b$, and $G_2 \\times G_{n-1} = a \\times b$, etc. Multiplying all $n$ means pairs them up perfectly to form $(ab)^{n/2}$, which algebraically restructures to $(\\sqrt{ab})^n$, strictly representing $G^n$."
 }
 }
 },
@@ -582,12 +582,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "inequalities", "class-11", "jee-main", "jee-advanced"],
 "order": 28,
 "heading": "Relationship Among A.M., G.M., and H.M.",
-"back": "## Component Anatomy\n- **$A$:** Arithmetic Mean ($\frac{a+b}{2}$)\n- **$G$:** Geometric Mean ($\sqrt{ab}$)\n- **$H$:** Harmonic Mean ($\frac{2ab}{a+b}$)\n\n## Boundary Conditions / Domain\n- Valid unconditionally for any two strictly positive real numbers $a, b > 0$.",
+"back": "## Component Anatomy\n- **$A$:** Arithmetic Mean ($\\frac{a+b}{2}$)\n- **$G$:** Geometric Mean ($\\sqrt{ab}$)\n- **$H$:** Harmonic Mean ($\\frac{2ab}{a+b}$)\n\n## Boundary Conditions / Domain\n- Valid unconditionally for any two strictly positive real numbers $a, b > 0$.",
 "mnemonic": "Alphabetical Order: A >= G >= H. And G sits exactly in the geometric middle!",
 "formulaMeta": {
-"formula": "\begin{aligned} A &\ge G \ge H \\ G^2 &= AH \end{aligned}",
+"formula": "\\begin{aligned} A &\\ge G \\ge H \\ G^2 &= AH \\end{aligned}",
 "description": "The fundamental mathematical inequality relating A.M., G.M., and H.M., combined with the geometric sequence equation securely connecting them.",
-"derivation": "Substitute the algebraic definitions $A = \frac{a+b}{2}$ and $H = \frac{2ab}{a+b}$. Mathematically multiplying them yields strictly $\frac{a+b}{2} \times \frac{2ab}{a+b} = ab$. Since $ab$ is strictly defined as $G^2$, this rigorously proves $G^2 = AH$, establishing that A, G, and H themselves structurally form a Geometric Progression."
+"derivation": "Substitute the algebraic definitions $A = \\frac{a+b}{2}$ and $H = \\frac{2ab}{a+b}$. Mathematically multiplying them yields strictly $\\frac{a+b}{2} \\times \\frac{2ab}{a+b} = ab$. Since $ab$ is strictly defined as $G^2$, this rigorously proves $G^2 = AH$, establishing that A, G, and H themselves structurally form a Geometric Progression."
 }
 }
 },
@@ -607,9 +607,9 @@
 "back": "## Component Anatomy\n- **$A$:** The arithmetic average of the elements.\n- **$G$:** The geometric average of the elements.\n- **$a, b$:** Positive real numbers.\n\n## Boundary Conditions / Domain\n- $a > 0, b > 0$ strictly.\n- **Critical Equality Condition:** The absolute equality $A = G$ mathematically holds IF AND ONLY IF all elements are strictly equal ($a = b$).",
 "mnemonic": "Addition is stronger than Multiplication.",
 "formulaMeta": {
-"formula": "A \ge G \implies \frac{a+b}{2} \ge \sqrt{ab}",
+"formula": "A \\ge G \\implies \\frac{a+b}{2} \\ge \\sqrt{ab}",
 "description": "The foundational inequality unconditionally connecting the Arithmetic Mean and Geometric Mean of positive numbers, widely used to find minimum and maximum values.",
-"derivation": "Construct the algebraic difference: $A - G = \frac{a+b}{2} - \sqrt{ab}$. This evaluates to $\frac{a+b-2\sqrt{ab}}{2}$, which perfectly factors into the perfect square $\frac{(\sqrt{a}-\sqrt{b})^2}{2}$. Since any real square is strictly non-negative ($\ge 0$), it guarantees $A - G \ge 0 \implies A \ge G$."
+"derivation": "Construct the algebraic difference: $A - G = \\frac{a+b}{2} - \\sqrt{ab}$. This evaluates to $\\frac{a+b-2\\sqrt{ab}}{2}$, which perfectly factors into the perfect square $\\frac{(\\sqrt{a}-\\sqrt{b})^2}{2}$. Since any real square is strictly non-negative ($\\ge 0$), it guarantees $A - G \\ge 0 \\implies A \\ge G$."
 }
 }
 },
@@ -626,11 +626,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "quadratics", "class-11", "jee-main"],
 "order": 30,
 "heading": "Constructing a Quadratic Equation from A.M. and G.M.",
-"back": "## Component Anatomy\n- **$A$:** The given Arithmetic Mean of the two unknown roots.\n- **$G$:** The given Geometric Mean of the two unknown roots.\n- **$x$:** The variable of the generated quadratic equation.\n\n## Boundary Conditions / Domain\n- Mathematically valid strictly for $A \ge G > 0$. If $A < G$, the roots will evaluate as complex/imaginary numbers.",
+"back": "## Component Anatomy\n- **$A$:** The given Arithmetic Mean of the two unknown roots.\n- **$G$:** The given Geometric Mean of the two unknown roots.\n- **$x$:** The variable of the generated quadratic equation.\n\n## Boundary Conditions / Domain\n- Mathematically valid strictly for $A \\ge G > 0$. If $A < G$, the roots will evaluate as complex/imaginary numbers.",
 "formulaMeta": {
 "formula": "x^2 - 2Ax + G^2 = 0",
 "description": "The standard structured quadratic equation whose explicit roots evaluate to two positive numbers 'a' and 'b', given strictly only their A.M. and G.M.",
-"derivation": "A standard quadratic equation constructed directly from its roots $a, b$ evaluates to $x^2 - (a+b)x + ab = 0$. Since the definitions state $A = \frac{a+b}{2} \implies a+b = 2A$, and $G = \sqrt{ab} \implies ab = G^2$, direct substitution structurally yields $x^2 - 2Ax + G^2 = 0$."
+"derivation": "A standard quadratic equation constructed directly from its roots $a, b$ evaluates to $x^2 - (a+b)x + ab = 0$. Since the definitions state $A = \\frac{a+b}{2} \\implies a+b = 2A$, and $G = \\sqrt{ab} \\implies ab = G^2$, direct substitution structurally yields $x^2 - 2Ax + G^2 = 0$."
 }
 }
 },
@@ -647,12 +647,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "jee-main"],
 "order": 31,
 "heading": "Roots of a Quadratic via A.M. and G.M.",
-"back": "## Component Anatomy\n- **$A$:** The provided Arithmetic Mean of the roots.\n- **$G$:** The provided Geometric Mean of the roots.\n- **$x$:** The explicit algebraic values of the original numbers $a$ and $b$.\n\n## Boundary Conditions / Domain\n- Requires $A \ge G > 0$ to strictly yield real positive numbers.",
+"back": "## Component Anatomy\n- **$A$:** The provided Arithmetic Mean of the roots.\n- **$G$:** The provided Geometric Mean of the roots.\n- **$x$:** The explicit algebraic values of the original numbers $a$ and $b$.\n\n## Boundary Conditions / Domain\n- Requires $A \\ge G > 0$ to strictly yield real positive numbers.",
 "mnemonic": "A plus or minus the square root of A squared minus G squared.",
 "formulaMeta": {
-"formula": "x = A \pm \sqrt{A^2 - G^2} = A \pm \sqrt{(A-G)(A+G)}",
+"formula": "x = A \\pm \\sqrt{A^2 - G^2} = A \\pm \\sqrt{(A-G)(A+G)}",
 "description": "The explicit mathematical formula used to directly calculate two unknown bounding numbers 'a' and 'b' if strictly their A.M. and G.M. are given.",
-"derivation": "Mathematically solve the constructed quadratic equation $x^2 - 2Ax + G^2 = 0$ utilizing the standard quadratic formula: $x = \frac{2A \pm \sqrt{4A^2 - 4G^2}}{2}$. Factoring out the 4 from the discriminant perfectly cancels with the denominator, yielding the simplified result."
+"derivation": "Mathematically solve the constructed quadratic equation $x^2 - 2Ax + G^2 = 0$ utilizing the standard quadratic formula: $x = \\frac{2A \\pm \\sqrt{4A^2 - 4G^2}}{2}$. Factoring out the 4 from the discriminant perfectly cancels with the denominator, yielding the simplified result."
 }
 }
 },
@@ -669,9 +669,9 @@
 "tags": ["math", "algebra", "sequences-and-series", "jee-main", "jee-advanced", "class-11"],
 "order": 32,
 "heading": "Formula: Ratio of Numbers from their A.M. to G.M. Ratio",
-"back": "## Component Anatomy\n- **$a, b$:** The two unknown positive numbers.\n- **$m, n$:** The specific numerical components of the given ratio $m:n$.\n\n## Boundary Conditions / Domain\n- Must strictly uphold $m > n > 0$. \n- Because the fundamental inequality guarantees A.M. $\ge$ G.M., the assigned numerical ratio component corresponding to the A.M. ($m$) must strictly be larger than or equal to $n$.",
+"back": "## Component Anatomy\n- **$a, b$:** The two unknown positive numbers.\n- **$m, n$:** The specific numerical components of the given ratio $m:n$.\n\n## Boundary Conditions / Domain\n- Must strictly uphold $m > n > 0$. \n- Because the fundamental inequality guarantees A.M. $\\ge$ G.M., the assigned numerical ratio component corresponding to the A.M. ($m$) must strictly be larger than or equal to $n$.",
 "formulaMeta": {
-"formula": "\frac{a}{b} = \frac{m + \sqrt{m^2-n^2}}{m - \sqrt{m^2-n^2}}",
+"formula": "\\frac{a}{b} = \\frac{m + \\sqrt{m^2-n^2}}{m - \\sqrt{m^2-n^2}}",
 "description": "The highly tested algebraic shortcut formula utilized to instantly find the absolute ratio of two numbers (a:b) strictly when the ratio of their A.M. to G.M. is given as m:n."
 }
 }
@@ -689,11 +689,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "jee-main", "jee-advanced", "proofs", "class-11"],
 "order": 33,
 "heading": "SOP: Deriving the A.M.-G.M. Ratio via Componendo & Dividendo",
-"back": "## Component Anatomy\n- **Componendo & Dividendo:** If $\frac{x}{y} = \frac{p}{q}$, then mathematically $\frac{x+y}{x-y} = \frac{p+q}{p-q}$.\n\n## Boundary Conditions / Domain\n- Operates strictly under the assumption $a > b > 0$ ensuring positive square roots.",
+"back": "## Component Anatomy\n- **Componendo & Dividendo:** If $\\frac{x}{y} = \\frac{p}{q}$, then mathematically $\\frac{x+y}{x-y} = \\frac{p+q}{p-q}$.\n\n## Boundary Conditions / Domain\n- Operates strictly under the assumption $a > b > 0$ ensuring positive square roots.",
 "formulaMeta": {
-"formula": "\frac{\sqrt{a}+\sqrt{b}}{\sqrt{a}-\sqrt{b}} = \frac{\sqrt{m+n}}{\sqrt{m-n}}",
+"formula": "\\frac{\\sqrt{a}+\\sqrt{b}}{\\sqrt{a}-\\sqrt{b}} = \\frac{\\sqrt{m+n}}{\\sqrt{m-n}}",
 "description": "The step-by-step procedural execution used to extract the variable ratio a/b utilizing Componendo and Dividendo.",
-"derivation": "1. Initialize the given ratio: $\frac{A}{G} = \frac{a+b}{2\sqrt{ab}} = \frac{m}{n}$.\n2. Apply Componendo and Dividendo: $\frac{a+b+2\sqrt{ab}}{a+b-2\sqrt{ab}} = \frac{m+n}{m-n}$.\n3. Restructure the LHS into perfect squares: $\frac{(\sqrt{a}+\sqrt{b})^2}{(\sqrt{a}-\sqrt{b})^2} = \frac{m+n}{m-n}$.\n4. Extract the square root from both sides.\n5. Apply Componendo and Dividendo a second time to entirely isolate the fraction $\frac{\sqrt{a}}{\sqrt{b}}$. Square the final result to obtain exactly $\frac{a}{b}$."
+"derivation": "1. Initialize the given ratio: $\\frac{A}{G} = \\frac{a+b}{2\\sqrt{ab}} = \\frac{m}{n}$.\n2. Apply Componendo and Dividendo: $\\frac{a+b+2\\sqrt{ab}}{a+b-2\\sqrt{ab}} = \\frac{m+n}{m-n}$.\n3. Restructure the LHS into perfect squares: $\\frac{(\\sqrt{a}+\\sqrt{b})^2}{(\\sqrt{a}-\\sqrt{b})^2} = \\frac{m+n}{m-n}$.\n4. Extract the square root from both sides.\n5. Apply Componendo and Dividendo a second time to entirely isolate the fraction $\\frac{\\sqrt{a}}{\\sqrt{b}}$. Square the final result to obtain exactly $\\frac{a}{b}$."
 }
 }
 },
@@ -710,11 +710,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "special-series", "class-11", "ncert"],
 "order": 34,
 "heading": "Special Series: Sum of the First n Natural Numbers",
-"back": "## Component Anatomy\n- **$k$:** The integer step index governing the summation.\n- **$n$:** The strict upper mathematical boundary of the natural number series.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$k$:** The integer step index governing the summation.\n- **$n$:** The strict upper mathematical boundary of the natural number series.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$.",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} k = 1 + 2 + 3 + \dots + n = \frac{n(n+1)}{2}",
+"formula": "\\sum_{k=1}^{n} k = 1 + 2 + 3 + \\dots + n = \\frac{n(n+1)}{2}",
 "description": "The foundational special series identity defining the arithmetic sum of the first n natural numbers.",
-"derivation": "This sequence evaluates strictly as an Arithmetic Progression where $a=1$ and $d=1$. Applying the A.P. sum formula yields $S_n = \frac{n}{2}(2(1) + (n-1)(1)) = \frac{n(n+1)}{2}$."
+"derivation": "This sequence evaluates strictly as an Arithmetic Progression where $a=1$ and $d=1$. Applying the A.P. sum formula yields $S_n = \\frac{n}{2}(2(1) + (n-1)(1)) = \\frac{n(n+1)}{2}$."
 }
 }
 },
@@ -731,9 +731,9 @@
 "tags": ["math", "algebra", "sequences-and-series", "special-series", "class-11", "ncert"],
 "order": 35,
 "heading": "Special Series: Sum of the Squares of the First n Natural Numbers",
-"back": "## Component Anatomy\n- **$k$:** The sequential summation index.\n- **$n$:** The strict upper mathematical limit of the series.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$k$:** The sequential summation index.\n- **$n$:** The strict upper mathematical limit of the series.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$.",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} k^2 = 1^2 + 2^2 + 3^2 + \dots + n^2 = \frac{n(n+1)(2n+1)}{6}",
+"formula": "\\sum_{k=1}^{n} k^2 = 1^2 + 2^2 + 3^2 + \\dots + n^2 = \\frac{n(n+1)(2n+1)}{6}",
 "description": "The frequently utilized special series formula generating the sum of the squares of the first n natural numbers."
 }
 }
@@ -751,10 +751,10 @@
 "tags": ["math", "algebra", "sequences-and-series", "special-series", "class-11", "ncert"],
 "order": 36,
 "heading": "Special Series: Sum of the Cubes of the First n Natural Numbers",
-"back": "## Component Anatomy\n- **$n$:** The discrete upper boundary of the cubic summation.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$n$:** The discrete upper boundary of the cubic summation.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$.",
 "mnemonic": "The absolute sum of cubes is exactly equal to the square of the sum of the linear base numbers.",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} k^3 = 1^3 + 2^3 + \dots + n^3 = \left[ \frac{n(n+1)}{2} \right]^2 = \frac{n^2(n+1)^2}{4}",
+"formula": "\\sum_{k=1}^{n} k^3 = 1^3 + 2^3 + \\dots + n^3 = \\left[ \\frac{n(n+1)}{2} \\right]^2 = \\frac{n^2(n+1)^2}{4}",
 "description": "The special series formula calculating the sum of the cubes of the first n natural numbers."
 }
 }
@@ -772,12 +772,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "special-series", "jee-main", "class-11"],
 "order": 37,
 "heading": "Shortcut: Sum of Products of Two Consecutive Natural Numbers",
-"back": "## Component Anatomy\n- **$k(k+1)$:** The algebraic product structure of two adjacent integers.\n- **$n$:** The total integer quantity of adjacent pairs summed.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{N}$.",
+"back": "## Component Anatomy\n- **$k(k+1)$:** The algebraic product structure of two adjacent integers.\n- **$n$:** The total integer quantity of adjacent pairs summed.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{N}$.",
 "mnemonic": "Two terms multiplied internally sum up to exactly Three terms divided by Three.",
 "formulaMeta": {
-"formula": "\sum_{k=1}^{n} k(k+1) = \frac{n(n+1)(n+2)}{3}",
+"formula": "\\sum_{k=1}^{n} k(k+1) = \\frac{n(n+1)(n+2)}{3}",
 "description": "A highly utilized competitive exam shortcut identity generating the cumulative sum of products of two sequential natural numbers.",
-"derivation": "Expand the summation boundary algebraically: $\sum(k^2 + k) = \sum k^2 + \sum k$. Substitute the fundamental special series formulas: $\frac{n(n+1)(2n+1)}{6} + \frac{n(n+1)}{2}$. Factor out the common structure $\frac{n(n+1)}{2}$, leaving the internal fraction $\frac{2n+1}{3} + 1 = \frac{2n+4}{3} = \frac{2(n+2)}{3}$. Multiply the outer extracted fraction back in to secure the final identity."
+"derivation": "Expand the summation boundary algebraically: $\\sum(k^2 + k) = \\sum k^2 + \\sum k$. Substitute the fundamental special series formulas: $\\frac{n(n+1)(2n+1)}{6} + \\frac{n(n+1)}{2}$. Factor out the common structure $\\frac{n(n+1)}{2}$, leaving the internal fraction $\\frac{2n+1}{3} + 1 = \\frac{2n+4}{3} = \\frac{2(n+2)}{3}$. Multiply the outer extracted fraction back in to secure the final identity."
 }
 }
 },
@@ -794,12 +794,12 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "ncert", "jee-main"],
 "order": 38,
 "heading": "SOP: Sum of Repeated Digit Series",
-"back": "## Component Anatomy\n- **$x$:** The constant repeating numerical digit (e.g., $7$).\n- **$n$:** The exact integer quantity of terms evaluating in the series.\n\n## Boundary Conditions / Domain\n- $x \in \\{1, 2, \dots, 9\\}$.\n- This series structurally fails to be a true A.P. or G.P. until the specific algorithmic transformation is fully executed.",
+"back": "## Component Anatomy\n- **$x$:** The constant repeating numerical digit (e.g., $7$).\n- **$n$:** The exact integer quantity of terms evaluating in the series.\n\n## Boundary Conditions / Domain\n- $x \\in \\{1, 2, \\dots, 9\\}$.\n- This series structurally fails to be a true A.P. or G.P. until the specific algorithmic transformation is fully executed.",
 "mnemonic": "Factor x, divide by 9, convert to 10s, structurally split the series.",
 "formulaMeta": {
-"formula": "S_n = \frac{x}{9} \left[ \frac{10(10^n - 1)}{9} - n \right]",
+"formula": "S_n = \\frac{x}{9} \\left[ \\frac{10(10^n - 1)}{9} - n \\right]",
 "description": "The standard algorithmic execution formula utilized to compute the sum of a repeating identical digit series strictly up to n terms.",
-"derivation": "1. Factor out the base digit $x$ entirely to acquire $x(1 + 11 + 111 + \dots)$.\n2. Multiply and strictly divide the whole sequence by 9 to create the bounds: $\frac{x}{9}(9 + 99 + 999 + \dots)$.\n3. Rewrite the internal 9s as explicit powers of 10: $\frac{x}{9}((10-1) + (10^2-1) + \dots)$.\n4. Structurally separate the sequence into a G.P. of 10s and a flat linear sum of 1s: $\frac{x}{9}[(10 + 10^2 + \dots) - (1 + 1 + \dots)]$.\n5. Rigorously apply the G.P. sum formula to the 10s to yield the final expression."
+"derivation": "1. Factor out the base digit $x$ entirely to acquire $x(1 + 11 + 111 + \\dots)$.\n2. Multiply and strictly divide the whole sequence by 9 to create the bounds: $\\frac{x}{9}(9 + 99 + 999 + \\dots)$.\n3. Rewrite the internal 9s as explicit powers of 10: $\\frac{x}{9}((10-1) + (10^2-1) + \\dots)$.\n4. Structurally separate the sequence into a G.P. of 10s and a flat linear sum of 1s: $\\frac{x}{9}[(10 + 10^2 + \\dots) - (1 + 1 + \\dots)]$.\n5. Rigorously apply the G.P. sum formula to the 10s to yield the final expression."
 }
 }
 },
@@ -816,7 +816,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "jee-main", "jee-advanced"],
 "order": 39,
 "heading": "Concept: The Method of Differences ($V_n$ Method)",
-"back": "## Method Definition\nThe Method of Differences is an algebraic manipulation technique designed to isolate the general $n$-th term ($a_n$) of a complex sequence by evaluating the structural differences between adjacent sequence outputs.\n\n## Boundary Conditions / Domain\n- This specific technique is **strictly utilized** when the primary parent sequence itself is undeniably NOT an A.P. or G.P., but the absolute differences calculated between consecutive internal terms ($a_2-a_1, a_3-a_2, \dots$) perfectly form a standard A.P. or G.P.",
+"back": "## Method Definition\nThe Method of Differences is an algebraic manipulation technique designed to isolate the general $n$-th term ($a_n$) of a complex sequence by evaluating the structural differences between adjacent sequence outputs.\n\n## Boundary Conditions / Domain\n- This specific technique is **strictly utilized** when the primary parent sequence itself is undeniably NOT an A.P. or G.P., but the absolute differences calculated between consecutive internal terms ($a_2-a_1, a_3-a_2, \\dots$) perfectly form a standard A.P. or G.P.",
 "standardMeta": {
 "question": "What mathematical conditions strictly dictate the usage of the Method of Differences to find a sequence's sum?"
 }
@@ -838,9 +838,9 @@
 "back": "## Component Anatomy\n- **$S_n$:** The total cumulative sum of the given sequence.\n- **$a_n$:** The derived general $n$-th term targeted for isolation.\n\n## Boundary Conditions / Domain\n- This step-by-step mechanism fundamentally requires strict spatial alignment when subtracting; misalignment guarantees critical failure in the proof.",
 "mnemonic": "Shift, subtract, and isolate.",
 "formulaMeta": {
-"formula": "S_n - S_n = a_1 + (a_2-a_1) + (a_3-a_2) + \dots - a_n = 0",
+"formula": "S_n - S_n = a_1 + (a_2-a_1) + (a_3-a_2) + \\dots - a_n = 0",
 "description": "The exact algorithmic sequence executed to isolate the general term of a sequence strictly using the Method of Differences.",
-"derivation": "1. Mathematically write out the total sum $S_n = a_1 + a_2 + \dots + a_n$.\n2. Rewrite the exact same $S_n$ equation directly below, but physically shift every term exactly one place to the algebraic right.\n3. Subtract the bottom shifted equation vertically from the top equation.\n4. The resulting LHS becomes exactly $0$. The RHS evaluates strictly to $a_1 + [\text{Sum of enclosed A.P./G.P.}] - a_n$.\n5. Move the isolated $a_n$ across to the LHS to definitively lock the general term formula.\n6. Finally, apply $\sum a_n$ using special series formulas to acquire the final sequence sum."
+"derivation": "1. Mathematically write out the total sum $S_n = a_1 + a_2 + \\dots + a_n$.\n2. Rewrite the exact same $S_n$ equation directly below, but physically shift every term exactly one place to the algebraic right.\n3. Subtract the bottom shifted equation vertically from the top equation.\n4. The resulting LHS becomes exactly $0$. The RHS evaluates strictly to $a_1 + [\\text{Sum of enclosed A.P./G.P.}] - a_n$.\n5. Move the isolated $a_n$ across to the LHS to definitively lock the general term formula.\n6. Finally, apply $\\sum a_n$ using special series formulas to acquire the final sequence sum."
 }
 }
 },
@@ -860,9 +860,9 @@
 "back": "## Component Anatomy\n- **$k$:** The dynamic variable summation index.\n- **$d$:** The absolute constant difference bridging the adjacent algebraic factors in the denominator.\n\n## Boundary Conditions / Domain\n- The internal factors operating in the denominator MUST strictly be in an Arithmetic Progression (A.P.) to successfully invoke uniform cancellation.",
 "mnemonic": "Split the fraction, watch the middle collapse.",
 "formulaMeta": {
-"formula": "\frac{1}{k(k+d)} = \frac{1}{d} \left( \frac{1}{k} - \frac{1}{k+d} \right)",
+"formula": "\\frac{1}{k(k+d)} = \\frac{1}{d} \\left( \\frac{1}{k} - \\frac{1}{k+d} \\right)",
 "description": "The specific algebraic splitting identity utilized to actively fracture rational sequence terms for rapid summation via the telescoping cancellation method.",
-"derivation": "Algebraically split the combined fractional term explicitly into partial fractions. When you execute the total summation $\sum_{k=1}^{n}$, every single intermediate term will strictly collide and cancel out (telescope) with a corresponding mathematically opposed sign, leaving securely intact only the initial boundary term and the terminal boundary term."
+"derivation": "Algebraically split the combined fractional term explicitly into partial fractions. When you execute the total summation $\\sum_{k=1}^{n}$, every single intermediate term will strictly collide and cancel out (telescope) with a corresponding mathematically opposed sign, leaving securely intact only the initial boundary term and the terminal boundary term."
 }
 }
 },
@@ -881,7 +881,7 @@
 "heading": "Formula: Sum of an Infinite Arithmetico-Geometric Progression (A.G.P.)",
 "back": "## Component Anatomy\n- **$a$:** The absolute first term defining the A.P. component.\n- **$d$:** The constant common difference bridging the A.P. component.\n- **$r$:** The constant common ratio driving the G.P. component.\n\n## Boundary Conditions / Domain\n- **Strict Convergence Constraint:** $|r| < 1$. If this ratio constraint is violated, the sequence strictly diverges to infinity and holds absolutely no definable sum.",
 "formulaMeta": {
-"formula": "S_{\infty} = \frac{a}{1 - r} + \frac{dr}{(1 - r)^2}",
+"formula": "S_{\\infty} = \\frac{a}{1 - r} + \\frac{dr}{(1 - r)^2}",
 "description": "The definitive convergence formula applied to exactly calculate the sum of an infinite Arithmetico-Geometric Progression.",
 "derivation": "Derived explicitly via the shift-and-subtract methodology, creating a secondary pure infinite G.P. that resolves to the fractional component."
 }
@@ -903,9 +903,9 @@
 "back": "## Component Anatomy\n- **$S$:** The cumulative target sum of the sequence.\n- **$rS$:** The transformed sum created explicitly for algebraic cancellation.\n\n## Boundary Conditions / Domain\n- This specific proof logic fundamentally operates under the assumption that the absolute ratio $|r| < 1$, permitting infinite terminal limits to evaluate safely to zero.",
 "mnemonic": "Multiply by the ratio, shift right, and meticulously subtract.",
 "formulaMeta": {
-"formula": "S - rS = a + (dr + dr^2 + \dots)",
+"formula": "S - rS = a + (dr + dr^2 + \\dots)",
 "description": "The algorithmic shift-and-subtract procedure rigorously executed to find the sum of an Arithmetico-Geometric Progression.",
-"derivation": "1. Physically write out the base A.G.P. sum: $S = a + (a+d)r + (a+2d)r^2 + \dots$\n2. Multiply the entire sequence algebraically strictly by the ratio $r$: $rS = ar + (a+d)r^2 + \dots$\n3. Shift the newly formed $rS$ sequence exactly one term to the right and subtract it vertically from $S$.\n4. The structural difference evaluates exactly to $S - rS = S(1-r)$, leaving behind the initial term $a$ alongside a perfectly pure infinite G.P.: $dr + dr^2 + dr^3 + \dots$\n5. Formally sum the newly isolated infinite G.P. to acquire $\frac{dr}{1-r}$ and divide the entire master equation by $(1-r)$."
+"derivation": "1. Physically write out the base A.G.P. sum: $S = a + (a+d)r + (a+2d)r^2 + \\dots$\n2. Multiply the entire sequence algebraically strictly by the ratio $r$: $rS = ar + (a+d)r^2 + \\dots$\n3. Shift the newly formed $rS$ sequence exactly one term to the right and subtract it vertically from $S$.\n4. The structural difference evaluates exactly to $S - rS = S(1-r)$, leaving behind the initial term $a$ alongside a perfectly pure infinite G.P.: $dr + dr^2 + dr^3 + \\dots$\n5. Formally sum the newly isolated infinite G.P. to acquire $\\frac{dr}{1-r}$ and divide the entire master equation by $(1-r)$."
 }
 }
 },
@@ -922,7 +922,7 @@
 "tags": ["math", "algebra", "sequences-and-series", "jee-main", "jee-advanced", "class-11"],
 "order": 44,
 "heading": "Mathematical Definition: Harmonic Progression (H.P.)",
-"back": "## The Absolute Definition\nA specified sequence of strictly non-zero numbers $a_1, a_2, a_3, \dots$ is mathematically defined to be a Harmonic Progression (H.P.) IF AND ONLY IF their exact mathematical reciprocals $\frac{1}{a_1}, \frac{1}{a_2}, \frac{1}{a_3}, \dots$ perfectly configure into an Arithmetic Progression (A.P.).\n\n## Boundary Conditions / Domain\n- **Crucial Limitation:** There exists absolutely no general algebraic formula for the cumulative sum of $n$ terms belonging to an H.P.\n- To solve, you MUST actively invert the sequence into an A.P., execute operations in that domain, and invert back ONLY when isolating specific terms.",
+"back": "## The Absolute Definition\nA specified sequence of strictly non-zero numbers $a_1, a_2, a_3, \\dots$ is mathematically defined to be a Harmonic Progression (H.P.) IF AND ONLY IF their exact mathematical reciprocals $\\frac{1}{a_1}, \\frac{1}{a_2}, \\frac{1}{a_3}, \\dots$ perfectly configure into an Arithmetic Progression (A.P.).\n\n## Boundary Conditions / Domain\n- **Crucial Limitation:** There exists absolutely no general algebraic formula for the cumulative sum of $n$ terms belonging to an H.P.\n- To solve, you MUST actively invert the sequence into an A.P., execute operations in that domain, and invert back ONLY when isolating specific terms.",
 "mnemonic": "H.P. is simply an A.P. performing a handstand.",
 "standardMeta": {
 "question": "What is the strict foundational mathematical definition characterizing a Harmonic Progression (H.P.)?"
@@ -942,11 +942,11 @@
 "tags": ["math", "algebra", "sequences-and-series", "class-11", "jee-main", "jee-advanced"],
 "order": 45,
 "heading": "Single Harmonic Mean (H.M.) Between Two Numbers",
-"back": "## Component Anatomy\n- **$H$:** The structurally calculated single Harmonic Mean.\n- **$a, b$:** Two distinct non-zero real bounding numbers.\n\n## Boundary Conditions / Domain\n- $a \neq 0$, $b \neq 0$ (reciprocals require strictly non-zero bounds).\n- The summation $a+b \neq 0$ (if the numbers are exact additive inverses, the H.M. algebraically crashes to undefined).",
+"back": "## Component Anatomy\n- **$H$:** The structurally calculated single Harmonic Mean.\n- **$a, b$:** Two distinct non-zero real bounding numbers.\n\n## Boundary Conditions / Domain\n- $a \\neq 0$, $b \\neq 0$ (reciprocals require strictly non-zero bounds).\n- The summation $a+b \\neq 0$ (if the numbers are exact additive inverses, the H.M. algebraically crashes to undefined).",
 "formulaMeta": {
-"formula": "H = \frac{2ab}{a+b}",
+"formula": "H = \\frac{2ab}{a+b}",
 "description": "The explicit algebraic formula computing the single Harmonic Mean (H) inserted mathematically between two non-zero numbers a and b.",
-"derivation": "If the sequence $a, H, b$ operates structurally in an H.P., then their exact reciprocals $\frac{1}{a}, \frac{1}{H}, \frac{1}{b}$ are rigorously in an A.P. Consequently, the common difference holds algebraically: $\frac{1}{H} - \frac{1}{a} = \frac{1}{b} - \frac{1}{H}$. Rearranging yields $\frac{2}{H} = \frac{a+b}{ab}$. Re-taking the reciprocal completely isolates $H$."
+"derivation": "If the sequence $a, H, b$ operates structurally in an H.P., then their exact reciprocals $\\frac{1}{a}, \\frac{1}{H}, \\frac{1}{b}$ are rigorously in an A.P. Consequently, the common difference holds algebraically: $\\frac{1}{H} - \\frac{1}{a} = \\frac{1}{b} - \\frac{1}{H}$. Rearranging yields $\\frac{2}{H} = \\frac{a+b}{ab}$. Re-taking the reciprocal completely isolates $H$."
 }
 }
 },

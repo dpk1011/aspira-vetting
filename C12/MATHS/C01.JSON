@@ -14,7 +14,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 1,
 "heading": "Definition of a Mathematical Relation",
-"back": "- **Definition:** A relation $R$ from set $A$ to set $B$ is an arbitrary subset of the Cartesian product $A \times B$.\n- **Notation:** $R \subseteq A \times B$. If an element $a$ is related to $b$, we write $aRb$ or $(a, b) \in R$.",
+"back": "- **Definition:** A relation $R$ from set $A$ to set $B$ is an arbitrary subset of the Cartesian product $A \\times B$.\n- **Notation:** $R \\subseteq A \\times B$. If an element $a$ is related to $b$, we write $aRb$ or $(a, b) \\in R$.",
 "mnemonic": "A Relation is just a piece of the Product.",
 "standardMeta": {
 "question": "How is a mathematical relation formally defined between two non-empty sets A and B?"
@@ -34,7 +34,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 2,
 "heading": "Empty Relation",
-"back": "- **Definition:** A relation $R$ in a set $A$ is an empty relation if no element of $A$ is related to any element of $A$.\n- **Notation:** $R = \emptyset \subset A \times A$.",
+"back": "- **Definition:** A relation $R$ in a set $A$ is an empty relation if no element of $A$ is related to any element of $A$.\n- **Notation:** $R = \\emptyset \\subset A \\times A$.",
 "standardMeta": {
 "question": "What is an empty relation on a set A, and what is its strict set-theoretic notation?"
 }
@@ -53,7 +53,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 3,
 "heading": "Universal Relation",
-"back": "- **Definition:** A relation $R$ in a set $A$ is a universal relation if each element of $A$ is related to every element of $A$.\n- **Notation:** $R = A \times A$.",
+"back": "- **Definition:** A relation $R$ in a set $A$ is a universal relation if each element of $A$ is related to every element of $A$.\n- **Notation:** $R = A \\times A$.",
 "mnemonic": "Universal covers the Universe of the set.",
 "standardMeta": {
 "question": "What defines a universal relation on a set A mathematically?"
@@ -73,7 +73,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 4,
 "heading": "Identity Relation vs. Reflexive Relation",
-"back": "- **Identity Relation ($I_A$):** Contains *ONLY* the diagonal pairs $(a,a)$. No other pairs are allowed. $I_A = \\{(a,a) : a \in A\\}$.\n- **Reflexive Relation:** *MUST* contain all diagonal pairs $(a,a)$ to satisfy the core rule, but it *MAY* also contain other distinct non-diagonal pairs $(a,b)$.\n- **Distinction Conclusion:** Every Identity Relation is a reflexive relation, but a reflexive relation is NOT necessarily an Identity Relation.",
+"back": "- **Identity Relation ($I_A$):** Contains *ONLY* the diagonal pairs $(a,a)$. No other pairs are allowed. $I_A = \\{(a,a) : a \\in A\\}$.\n- **Reflexive Relation:** *MUST* contain all diagonal pairs $(a,a)$ to satisfy the core rule, but it *MAY* also contain other distinct non-diagonal pairs $(a,b)$.\n- **Distinction Conclusion:** Every Identity Relation is a reflexive relation, but a reflexive relation is NOT necessarily an Identity Relation.",
 "mnemonic": "Identity is strict (ONLY me). Reflexive is relaxed (Me + maybe others).",
 "standardMeta": {
 "question": "What is the strict mathematical distinction between an Identity Relation and a Reflexive Relation on a set A?"
@@ -93,10 +93,10 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 5,
 "heading": "Reflexive Relation Algebraic Condition",
-"back": "## Component Anatomy:\n- **$a$:** Any arbitrary element belonging to the set $A$.\n- **$R$:** The relation defined on the set.\n\n## Boundary Conditions / Domain:\n- The condition must hold true for **every single** element $a \in A$. If even one element maps to something else but not itself, it is not reflexive.",
+"back": "## Component Anatomy:\n- **$a$:** Any arbitrary element belonging to the set $A$.\n- **$R$:** The relation defined on the set.\n\n## Boundary Conditions / Domain:\n- The condition must hold true for **every single** element $a \\in A$. If even one element maps to something else but not itself, it is not reflexive.",
 "mnemonic": "Reflection = Looking at yourself (a, a).",
 "formulaMeta": {
-"formula": "\forall a \in A, (a, a) \in R",
+"formula": "\\forall a \\in A, (a, a) \\in R",
 "description": "The mathematical condition for a relation R on a set A to be reflexive.",
 "derivation": "## Algorithmic SOP:\n1. Identify the parent set $A$.\n2. For every element $a$ present in $A$, verify if the ordered pair $(a, a)$ exists in $R$.\n3. If verified for all elements without exception, the relation is reflexive."
 }
@@ -115,9 +115,9 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 6,
 "heading": "Symmetric Relation Algebraic Condition",
-"back": "## Component Anatomy:\n- **$(a, b)$:** An ordered pair that already exists in the relation $R$.\n- **$(b, a)$:** The reversed ordered pair that must also exist in $R$.\n\n## Boundary Conditions / Domain:\n- $a, b \in A$.\n- The check is conditional: it is only required if $(a, b)$ is already present in $R$.",
+"back": "## Component Anatomy:\n- **$(a, b)$:** An ordered pair that already exists in the relation $R$.\n- **$(b, a)$:** The reversed ordered pair that must also exist in $R$.\n\n## Boundary Conditions / Domain:\n- $a, b \\in A$.\n- The check is conditional: it is only required if $(a, b)$ is already present in $R$.",
 "formulaMeta": {
-"formula": "(a, b) \in R \implies (b, a) \in R, \forall a, b \in A",
+"formula": "(a, b) \\in R \\implies (b, a) \\in R, \\forall a, b \\in A",
 "description": "The mathematical condition for a relation R on a set A to be symmetric.",
 "derivation": "## Algorithmic SOP:\n1. Pick an existing pair $(a, b)$ from the relation $R$.\n2. Check if the exact reverse pair $(b, a)$ is also present in $R$.\n3. Repeat this check for all pairs in $R$. If true for all, the relation is symmetric."
 }
@@ -136,12 +136,12 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 7,
 "heading": "Transitive Relation Algebraic Condition",
-"back": "## Component Anatomy:\n- **$(a, b)$ and $(b, c)$:** Two linked ordered pairs existing in the relation $R$.\n- **$(a, c)$:** The direct link pair that must exist to satisfy transitivity.\n\n## Boundary Conditions / Domain:\n- $a, b, c \in A$.\n- This is a conditional implication: if the premise is true, the conclusion must follow.",
+"back": "## Component Anatomy:\n- **$(a, b)$ and $(b, c)$:** Two linked ordered pairs existing in the relation $R$.\n- **$(a, c)$:** The direct link pair that must exist to satisfy transitivity.\n\n## Boundary Conditions / Domain:\n- $a, b, c \\in A$.\n- This is a conditional implication: if the premise is true, the conclusion must follow.",
 "mnemonic": "Chain reaction: a -> b and b -> c means a -> c.",
 "formulaMeta": {
-"formula": "(a, b) \in R \text{ and } (b, c) \in R \implies (a, c) \in R, \forall a, b, c \in A",
+"formula": "(a, b) \\in R \\text{ and } (b, c) \\in R \\implies (a, c) \\in R, \\forall a, b, c \\in A",
 "description": "The mathematical condition for a relation R on a set A to be transitive.",
-"derivation": "## Algorithmic SOP:\n1. Identify a pair $(a, b) \in R$.\n2. Search the relation for any pair starting with $b$, such as $(b, c) \in R$.\n3. If such a linked pair is found, verify that the bridging pair $(a, c)$ is also in $R$.\n4. Repeat for all possible linkages."
+"derivation": "## Algorithmic SOP:\n1. Identify a pair $(a, b) \\in R$.\n2. Search the relation for any pair starting with $b$, such as $(b, c) \\in R$.\n3. If such a linked pair is found, verify that the bridging pair $(a, c)$ is also in $R$.\n4. Repeat for all possible linkages."
 }
 }
 },
@@ -178,7 +178,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 9,
 "heading": "The 'Symmetric + Transitive = Reflexive' Fallacy",
-"back": "- **The Flawed Logic:** A common student trap is thinking: 'If $(a,b) \in R$, symmetry gives $(b,a) \in R$. Transitivity on $(a,b)$ and $(b,a)$ gives $(a,a) \in R$, so it must be reflexive!'\n- **The Trap (Boundary Condition):** This logic only proves $(a,a) \in R$ for elements $a$ that are *already related to some $b$*. If an element $a \in A$ is completely isolated and does not appear in ANY ordered pair in $R$, the chain never starts, and $(a,a)$ will be missing.\n- **Conclusion:** Reflexivity cannot be assumed; it must ALWAYS be checked independently for every single element in the parent set.",
+"back": "- **The Flawed Logic:** A common student trap is thinking: 'If $(a,b) \\in R$, symmetry gives $(b,a) \\in R$. Transitivity on $(a,b)$ and $(b,a)$ gives $(a,a) \\in R$, so it must be reflexive!'\n- **The Trap (Boundary Condition):** This logic only proves $(a,a) \\in R$ for elements $a$ that are *already related to some $b$*. If an element $a \\in A$ is completely isolated and does not appear in ANY ordered pair in $R$, the chain never starts, and $(a,a)$ will be missing.\n- **Conclusion:** Reflexivity cannot be assumed; it must ALWAYS be checked independently for every single element in the parent set.",
 "standardMeta": {
 "question": "Why is it mathematically incorrect to claim that if a relation is symmetric and transitive, it must automatically be reflexive?"
 }
@@ -197,7 +197,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 10,
 "heading": "Equivalence Relation Definition",
-"back": "- **Definition:** A relation $R$ on a set $A$ is an equivalence relation if it satisfies three properties simultaneously:\n  1. **Reflexive:** $(a, a) \in R$\n  2. **Symmetric:** $(a, b) \in R \implies (b, a) \in R$\n  3. **Transitive:** $(a, b) \in R \text{ and } (b, c) \in R \implies (a, c) \in R$",
+"back": "- **Definition:** A relation $R$ on a set $A$ is an equivalence relation if it satisfies three properties simultaneously:\n  1. **Reflexive:** $(a, a) \\in R$\n  2. **Symmetric:** $(a, b) \\in R \\implies (b, a) \\in R$\n  3. **Transitive:** $(a, b) \\in R \\text{ and } (b, c) \\in R \\implies (a, c) \\in R$",
 "mnemonic": "RST = Equivalence (Reflexive, Symmetric, Transitive).",
 "standardMeta": {
 "question": "What three specific properties must a relation possess to be classified as an equivalence relation?"
@@ -217,7 +217,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 11,
 "heading": "Extremes of Equivalence Relations",
-"back": "- **Smallest Equivalence Relation:** The **Identity Relation** ($I_A = \\{(a,a) : a \in A\\}$). It contains the absolute minimum number of elements required to satisfy reflexivity, and trivially satisfies symmetry and transitivity since there are no non-diagonal elements to trigger violations.\n- **Largest Equivalence Relation:** The **Universal Relation** ($R = A \times A$). It links every element to every other element, easily satisfying all three properties by sheer brute force of inclusion.",
+"back": "- **Smallest Equivalence Relation:** The **Identity Relation** ($I_A = \\{(a,a) : a \\in A\\}$). It contains the absolute minimum number of elements required to satisfy reflexivity, and trivially satisfies symmetry and transitivity since there are no non-diagonal elements to trigger violations.\n- **Largest Equivalence Relation:** The **Universal Relation** ($R = A \\times A$). It links every element to every other element, easily satisfying all three properties by sheer brute force of inclusion.",
 "standardMeta": {
 "question": "On a non-empty set A, what are the formally defined smallest and largest possible equivalence relations?"
 }
@@ -236,7 +236,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 12,
 "heading": "Equivalence Class Definition",
-"back": "- **Definition:** For an equivalence relation $R$ on set $A$, the equivalence class of an element $a$, denoted by $[a]$, is the set of all elements in $A$ related to $a$.\n- **Property:** $[a] = \\{x \in A : (x, a) \in R\\}$.\n- **Partition:** Equivalence classes are mutually disjoint or identical, and their union forms the entire set $A$.",
+"back": "- **Definition:** For an equivalence relation $R$ on set $A$, the equivalence class of an element $a$, denoted by $[a]$, is the set of all elements in $A$ related to $a$.\n- **Property:** $[a] = \\{x \\in A : (x, a) \\in R\\}$.\n- **Partition:** Equivalence classes are mutually disjoint or identical, and their union forms the entire set $A$.",
 "standardMeta": {
 "question": "What is an equivalence class [a], and how do equivalence classes partition a set?"
 }
@@ -255,7 +255,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 13,
 "heading": "The Partition Theorem for Equivalence Relations",
-"back": "An equivalence relation on a set $X$ induces a partition. This partition must satisfy three strict axioms:\n- **Axiom 1 (Non-Empty):** All equivalence classes are non-empty subsets of $X$.\n- **Axiom 2 (Mutually Exclusive / Disjoint):** Any two equivalence classes are either exactly identical or completely disjoint. Mathematically, $[a] \cap [b] = \emptyset$ if $a \not\sim b$.\n- **Axiom 3 (Exhaustive):** The union of all distinct equivalence classes perfectly reconstructs the entire original set $X$. Mathematically, $\bigcup [a] = X$.",
+"back": "An equivalence relation on a set $X$ induces a partition. This partition must satisfy three strict axioms:\n- **Axiom 1 (Non-Empty):** All equivalence classes are non-empty subsets of $X$.\n- **Axiom 2 (Mutually Exclusive / Disjoint):** Any two equivalence classes are either exactly identical or completely disjoint. Mathematically, $[a] \\cap [b] = \\emptyset$ if $a \\not\\sim b$.\n- **Axiom 3 (Exhaustive):** The union of all distinct equivalence classes perfectly reconstructs the entire original set $X$. Mathematically, $\\bigcup [a] = X$.",
 "standardMeta": {
 "question": "What are the three strict mathematical properties of the partition induced by an equivalence relation on a set X?"
 }
@@ -294,9 +294,9 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 15,
 "heading": "Cross Multiplication Equivalence Rule",
-"back": "## Component Anatomy:\n- **$(a,b)$ and $(c,d)$:** Elements belonging to $\mathbb{N} \times \mathbb{N}$.\n- **$ad = bc$:** The equivalence rule, which essentially models the equality of fractions $\frac{a}{b} = \frac{c}{d}$.\n\n## Boundary Conditions / Domain:\n- $a, b, c, d \in \mathbb{N}$. Since the domain is natural numbers, denominators can never be zero.",
+"back": "## Component Anatomy:\n- **$(a,b)$ and $(c,d)$:** Elements belonging to $\\mathbb{N} \\times \\mathbb{N}$.\n- **$ad = bc$:** The equivalence rule, which essentially models the equality of fractions $\\frac{a}{b} = \\frac{c}{d}$.\n\n## Boundary Conditions / Domain:\n- $a, b, c, d \\in \\mathbb{N}$. Since the domain is natural numbers, denominators can never be zero.",
 "formulaMeta": {
-"formula": "(a,b) R (c,d) \iff ad = bc",
+"formula": "(a,b) R (c,d) \\iff ad = bc",
 "description": "The standard NCERT equivalence rule for pairs of natural numbers modeling equivalent fractions.",
 "derivation": "## Concept:\nThis rule defines when two ordered pairs are related. It fundamentally represents the equality of two rational numbers without explicitly using division, ensuring stability within the domain of natural numbers."
 }
@@ -315,11 +315,11 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 16,
 "heading": "Transitivity SOP for Cross Multiplication Relation",
-"back": "## Component Anatomy:\n- The goal is to prove $(a,b) R (c,d)$ and $(c,d) R (e,f) \implies (a,b) R (e,f)$.\n\n## Boundary Conditions / Domain:\n- Variables belong to $\mathbb{N}$. Division is safely permitted conceptually during the proof because $b, d, f \neq 0$.",
+"back": "## Component Anatomy:\n- The goal is to prove $(a,b) R (c,d)$ and $(c,d) R (e,f) \\implies (a,b) R (e,f)$.\n\n## Boundary Conditions / Domain:\n- Variables belong to $\\mathbb{N}$. Division is safely permitted conceptually during the proof because $b, d, f \\neq 0$.",
 "formulaMeta": {
-"formula": "\frac{a}{b} = \frac{c}{d} \text{ and } \frac{c}{d} = \frac{e}{f} \implies \frac{a}{b} = \frac{e}{f}",
+"formula": "\\frac{a}{b} = \\frac{c}{d} \\text{ and } \\frac{c}{d} = \\frac{e}{f} \\implies \\frac{a}{b} = \\frac{e}{f}",
 "description": "The operational procedure to prove transitivity for the relation defined by ad = bc.",
-"derivation": "## Transitivity SOP:\n1. Assume $(a,b) R (c,d) \implies ad = bc$. Rearrange as fractions: $\frac{a}{b} = \frac{c}{d}$.\n2. Assume $(c,d) R (e,f) \implies cf = de$. Rearrange as fractions: $\frac{c}{d} = \frac{e}{f}$.\n3. Equating both expressions gives $\frac{a}{b} = \frac{e}{f}$.\n4. Cross-multiply back to the original format: $af = be$.\n5. Therefore, $(a,b) R (e,f)$, proving transitivity is satisfied."
+"derivation": "## Transitivity SOP:\n1. Assume $(a,b) R (c,d) \\implies ad = bc$. Rearrange as fractions: $\\frac{a}{b} = \\frac{c}{d}$.\n2. Assume $(c,d) R (e,f) \\implies cf = de$. Rearrange as fractions: $\\frac{c}{d} = \\frac{e}{f}$.\n3. Equating both expressions gives $\\frac{a}{b} = \\frac{e}{f}$.\n4. Cross-multiply back to the original format: $af = be$.\n5. Therefore, $(a,b) R (e,f)$, proving transitivity is satisfied."
 }
 }
 },
@@ -340,7 +340,7 @@
 "formulaMeta": {
 "formula": "2^{mn}",
 "description": "The formula for the total number of distinct relations that can be defined from a finite set A to a finite set B.",
-"derivation": "## Derivation:\n1. The number of elements in the Cartesian product $A \times B$ is $m \times n = mn$.\n2. A relation is defined as any subset of $A \times B$.\n3. The total number of subsets of a set with $mn$ elements is $2^{mn}$."
+"derivation": "## Derivation:\n1. The number of elements in the Cartesian product $A \\times B$ is $m \\times n = mn$.\n2. A relation is defined as any subset of $A \\times B$.\n3. The total number of subsets of a set with $mn$ elements is $2^{mn}$."
 }
 }
 },
@@ -361,7 +361,7 @@
 "formulaMeta": {
 "formula": "2^{n(n-1)}",
 "description": "The formula for calculating the total number of reflexive relations on a finite set A containing n elements.",
-"derivation": "## Derivation:\n1. A relation on $A$ is a subset of $A \times A$, which has $n^2$ total elements.\n2. For a relation to be reflexive, it **must** contain all $n$ diagonal elements $(a, a)$.\n3. The remaining $n^2 - n = n(n-1)$ elements can independently be included or excluded.\n4. Therefore, there are $2^{n(n-1)}$ possible reflexive relations."
+"derivation": "## Derivation:\n1. A relation on $A$ is a subset of $A \\times A$, which has $n^2$ total elements.\n2. For a relation to be reflexive, it **must** contain all $n$ diagonal elements $(a, a)$.\n3. The remaining $n^2 - n = n(n-1)$ elements can independently be included or excluded.\n4. Therefore, there are $2^{n(n-1)}$ possible reflexive relations."
 }
 }
 },
@@ -380,9 +380,9 @@
 "heading": "Total Number of Symmetric Relations",
 "back": "## Component Anatomy:\n- **$n$:** The total number of elements in the set $A$.\n\n## Boundary Conditions / Domain:\n- Set $A$ is a finite set containing $n$ elements.",
 "formulaMeta": {
-"formula": "2^{\frac{n(n+1)}{2}}",
+"formula": "2^{\\frac{n(n+1)}{2}}",
 "description": "The formula for calculating the total number of symmetric relations on a finite set A containing n elements.",
-"derivation": "## Derivation:\n1. The diagonal elements $(a, a)$ are $n$ in number. Each can be independently included or excluded ($2^n$ choices).\n2. The non-diagonal elements come in mirrored pairs: $(a, b)$ and $(b, a)$. There are $\frac{n^2 - n}{2}$ such distinct pairs.\n3. For symmetry, both must be included or excluded together, giving $2^{\frac{n(n-1)}{2}}$ choices for these pairs.\n4. Total choices = $2^n \times 2^{\frac{n(n-1)}{2}} = 2^{\frac{n(n+1)}{2}}$."
+"derivation": "## Derivation:\n1. The diagonal elements $(a, a)$ are $n$ in number. Each can be independently included or excluded ($2^n$ choices).\n2. The non-diagonal elements come in mirrored pairs: $(a, b)$ and $(b, a)$. There are $\\frac{n^2 - n}{2}$ such distinct pairs.\n3. For symmetry, both must be included or excluded together, giving $2^{\\frac{n(n-1)}{2}}$ choices for these pairs.\n4. Total choices = $2^n \\times 2^{\\frac{n(n-1)}{2}} = 2^{\\frac{n(n+1)}{2}}$."
 }
 }
 },
@@ -399,9 +399,9 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 20,
 "heading": "Algebraic Test for One-One (Injective) Function",
-"back": "## Component Anatomy:\n- **$f(x_1)$ and $f(x_2)$:** The respective images of elements $x_1$ and $x_2$ under function $f$.\n- **$x_1, x_2$:** Elements in the domain $X$.\n\n## Boundary Conditions / Domain:\n- $x_1, x_2 \in X$.\n- Alternatively, the contrapositive must hold: $x_1 \neq x_2 \implies f(x_1) \neq f(x_2)$.",
+"back": "## Component Anatomy:\n- **$f(x_1)$ and $f(x_2)$:** The respective images of elements $x_1$ and $x_2$ under function $f$.\n- **$x_1, x_2$:** Elements in the domain $X$.\n\n## Boundary Conditions / Domain:\n- $x_1, x_2 \\in X$.\n- Alternatively, the contrapositive must hold: $x_1 \\neq x_2 \\implies f(x_1) \\neq f(x_2)$.",
 "formulaMeta": {
-"formula": "f(x_1) = f(x_2) \implies x_1 = x_2, \forall x_1, x_2 \in X",
+"formula": "f(x_1) = f(x_2) \\implies x_1 = x_2, \\forall x_1, x_2 \\in X",
 "description": "The strict algebraic condition required to prove that a function f: X -> Y is one-one (injective).",
 "derivation": "## Algorithmic SOP:\n1. Let $x_1, x_2$ be any two arbitrary elements in the domain.\n2. Set their outputs equal: $f(x_1) = f(x_2)$.\n3. Solve the equation algebraically.\n4. If the only mathematical deduction is $x_1 = x_2$, the function is injective."
 }
@@ -440,11 +440,11 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 22,
 "heading": "Algebraic Test for Onto (Surjective) Function",
-"back": "## Component Anatomy:\n- **$y$:** An arbitrary element in the codomain $Y$.\n- **$x$:** An element in the domain $X$.\n\n## Boundary Conditions / Domain:\n- $y \in Y, x \in X$.\n- The Range of $f$ must exactly equal the entire Codomain $Y$.",
+"back": "## Component Anatomy:\n- **$y$:** An arbitrary element in the codomain $Y$.\n- **$x$:** An element in the domain $X$.\n\n## Boundary Conditions / Domain:\n- $y \\in Y, x \\in X$.\n- The Range of $f$ must exactly equal the entire Codomain $Y$.",
 "formulaMeta": {
-"formula": "\forall y \in Y, \exists x \in X \text{ such that } f(x) = y",
+"formula": "\\forall y \\in Y, \\exists x \\in X \\text{ such that } f(x) = y",
 "description": "The strict algebraic definition for a function f: X -> Y to be onto (surjective).",
-"derivation": "## Algorithmic SOP:\n1. Choose an arbitrary element $y$ in the codomain $Y$.\n2. Set up the equation $f(x) = y$.\n3. Solve for $x$ in terms of $y$.\n4. Verify that for every possible valid value of $y \in Y$, the resulting $x$ is defined and belongs to the domain $X$."
+"derivation": "## Algorithmic SOP:\n1. Choose an arbitrary element $y$ in the codomain $Y$.\n2. Set up the equation $f(x) = y$.\n3. Solve for $x$ in terms of $y$.\n4. Verify that for every possible valid value of $y \\in Y$, the resulting $x$ is defined and belongs to the domain $X$."
 }
 }
 },
@@ -461,7 +461,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 23,
 "heading": "Horizontal Line Test for Surjectivity (Onto)",
-"back": "- **Concept:** A graphical method to determine if a function $f: X \to Y$ is onto, heavily reliant on the explicitly defined Codomain.\n- **Execution:** Draw horizontal lines $y = c$ for *every* value $c$ lying strictly within the defined **Codomain** $Y$.\n- **Condition:** If *every* such horizontal line intersects the graph at **at least one point**, the function is onto (surjective).\n- **Trap:** The test is completely meaningless without knowing the codomain. A graph might 'look' onto $\mathbb{R}$, but if the codomain is restricted artificially, the boundary conditions change.",
+"back": "- **Concept:** A graphical method to determine if a function $f: X \\to Y$ is onto, heavily reliant on the explicitly defined Codomain.\n- **Execution:** Draw horizontal lines $y = c$ for *every* value $c$ lying strictly within the defined **Codomain** $Y$.\n- **Condition:** If *every* such horizontal line intersects the graph at **at least one point**, the function is onto (surjective).\n- **Trap:** The test is completely meaningless without knowing the codomain. A graph might 'look' onto $\\mathbb{R}$, but if the codomain is restricted artificially, the boundary conditions change.",
 "mnemonic": "Horizontal hits everywhere in the codomain = Onto.",
 "standardMeta": {
 "question": "How do you graphically determine if a function f: X -> Y is onto (surjective) using the Horizontal Line Test, and what is the common trap?"
@@ -481,7 +481,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 24,
 "heading": "Bijective Function Definition",
-"back": "- **Definition:** A function $f: X \to Y$ is bijective if it explicitly satisfies two conditions:\n  1. **One-One (Injective):** Distinct inputs map to distinct outputs.\n  2. **Onto (Surjective):** Every element in the codomain has a pre-image in the domain.\n- **Significance:** Bijective functions represent a perfect 1:1 mapping and are the **only** functions that possess an inverse ($f^{-1}$).",
+"back": "- **Definition:** A function $f: X \\to Y$ is bijective if it explicitly satisfies two conditions:\n  1. **One-One (Injective):** Distinct inputs map to distinct outputs.\n  2. **Onto (Surjective):** Every element in the codomain has a pre-image in the domain.\n- **Significance:** Bijective functions represent a perfect 1:1 mapping and are the **only** functions that possess an inverse ($f^{-1}$).",
 "standardMeta": {
 "question": "What are the two mandatory conditions for a function to be classified as bijective, and why is this classification significant?"
 }
@@ -500,11 +500,11 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 25,
 "heading": "Inverting Rational Linear Functions for Surjectivity",
-"back": "## Component Anatomy:\n- **$f(x) = \frac{ax+b}{cx+d}$:** A standard rational linear function.\n- **$y$:** An arbitrary element in the defined codomain.\n\n## Boundary Conditions / Domain:\n- **Domain:** $\mathbb{R} - \\{-\frac{d}{c}\\}$. The denominator cannot be zero.\n- **Codomain constraint for surjectivity:** $\mathbb{R} - \\{\frac{a}{c}\\}$.",
+"back": "## Component Anatomy:\n- **$f(x) = \\frac{ax+b}{cx+d}$:** A standard rational linear function.\n- **$y$:** An arbitrary element in the defined codomain.\n\n## Boundary Conditions / Domain:\n- **Domain:** $\\mathbb{R} - \\{-\\frac{d}{c}\\}$. The denominator cannot be zero.\n- **Codomain constraint for surjectivity:** $\\mathbb{R} - \\{\\frac{a}{c}\\}$.",
 "formulaMeta": {
-"formula": "x = \frac{dy - b}{a - cy}",
+"formula": "x = \\frac{dy - b}{a - cy}",
 "description": "The algebraic setup and solved formula for x required to prove that a rational linear function is surjective.",
-"derivation": "## Algorithmic SOP:\n1. Set the function equal to $y$: $y = \frac{ax+b}{cx+d}$.\n2. Cross-multiply to break the fraction: $y(cx+d) = ax+b$.\n3. Group all terms with $x$ on one side: $cxy - ax = b - dy$.\n4. Factor out $x$: $x(cy - a) = b - dy$.\n5. Isolate $x$ to get the final formula: $x = \frac{dy - b}{a - cy}$."
+"derivation": "## Algorithmic SOP:\n1. Set the function equal to $y$: $y = \\frac{ax+b}{cx+d}$.\n2. Cross-multiply to break the fraction: $y(cx+d) = ax+b$.\n3. Group all terms with $x$ on one side: $cxy - ax = b - dy$.\n4. Factor out $x$: $x(cy - a) = b - dy$.\n5. Isolate $x$ to get the final formula: $x = \\frac{dy - b}{a - cy}$."
 }
 }
 },
@@ -521,11 +521,11 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 26,
 "heading": "Codomain Verification for Rational Linear Surjectivity",
-"back": "## Component Anatomy:\n- **$x = \frac{dy - b}{a - cy}$:** The isolated domain element mapped from codomain element $y$.\n- **$a, c$:** The leading coefficients of the original rational function $f(x) = \frac{ax+b}{cx+d}$.\n\n## Boundary Conditions / Domain:\n- **Domain Constraint:** $x \neq -\frac{d}{c}$.\n- **Codomain Constraint:** $y \neq \frac{a}{c}$. The function must explicitly exclude the horizontal asymptote from its codomain to be perfectly surjective.",
+"back": "## Component Anatomy:\n- **$x = \\frac{dy - b}{a - cy}$:** The isolated domain element mapped from codomain element $y$.\n- **$a, c$:** The leading coefficients of the original rational function $f(x) = \\frac{ax+b}{cx+d}$.\n\n## Boundary Conditions / Domain:\n- **Domain Constraint:** $x \\neq -\\frac{d}{c}$.\n- **Codomain Constraint:** $y \\neq \\frac{a}{c}$. The function must explicitly exclude the horizontal asymptote from its codomain to be perfectly surjective.",
 "formulaMeta": {
-"formula": "y \neq \frac{a}{c} \implies x \in \mathbb{R} - \left\{-\frac{d}{c}\right\}",
+"formula": "y \\neq \\frac{a}{c} \\implies x \\in \\mathbb{R} - \\left\\{-\\frac{d}{c}\\right\\}",
 "description": "The mathematical verification required to finalize a surjectivity proof for rational linear functions.",
-"derivation": "## Algorithmic SOP (Verification Phase):\n1. Observe the algebraic inverse formula $x = \frac{dy - b}{a - cy}$.\n2. Note that the expression is undefined if the denominator is zero ($a - cy = 0 \implies y = \frac{a}{c}$).\n3. Confirm that the specified Codomain inherently excludes $y = \frac{a}{c}$.\n4. Conclude that for every valid $y$ in the restricted codomain, a valid pre-image $x$ exists."
+"derivation": "## Algorithmic SOP (Verification Phase):\n1. Observe the algebraic inverse formula $x = \\frac{dy - b}{a - cy}$.\n2. Note that the expression is undefined if the denominator is zero ($a - cy = 0 \\implies y = \\frac{a}{c}$).\n3. Confirm that the specified Codomain inherently excludes $y = \\frac{a}{c}$.\n4. Conclude that for every valid $y$ in the restricted codomain, a valid pre-image $x$ exists."
 }
 }
 },
@@ -546,7 +546,7 @@
 "formulaMeta": {
 "formula": "n^m",
 "description": "The formula for calculating the total number of distinct functions that can be mapped from set A to set B.",
-"derivation": "## Derivation:\n1. Every element in the domain $A$ (which has $m$ elements) must be mapped to exactly one element in the codomain $B$.\n2. Since $B$ has $n$ elements, there are $n$ independent choices for each of the $m$ elements.\n3. Multiplying the choices sequentially: $n \times n \times \dots \text{ (m times)} = n^m$."
+"derivation": "## Derivation:\n1. Every element in the domain $A$ (which has $m$ elements) must be mapped to exactly one element in the codomain $B$.\n2. Since $B$ has $n$ elements, there are $n$ independent choices for each of the $m$ elements.\n3. Multiplying the choices sequentially: $n \\times n \\times \\dots \\text{ (m times)} = n^m$."
 }
 }
 },
@@ -563,9 +563,9 @@
 "tags": ["math", "relations-and-functions", "combinatorics", "class-12", "jee-main", "jee-advanced"],
 "order": 28,
 "heading": "Total Number of One-One (Injective) Functions",
-"back": "## Component Anatomy:\n- **$m$:** Elements in domain $A$.\n- **$n$:** Elements in codomain $B$.\n- **$^nP_m$:** Mathematical permutation of $n$ items taken $m$ at a time.\n\n## Boundary Conditions / Domain:\n- $m \le n$. If the domain is larger than the codomain ($m > n$), it is impossible to map each element uniquely (Pigeonhole Principle), so the answer is strictly 0.",
+"back": "## Component Anatomy:\n- **$m$:** Elements in domain $A$.\n- **$n$:** Elements in codomain $B$.\n- **$^nP_m$:** Mathematical permutation of $n$ items taken $m$ at a time.\n\n## Boundary Conditions / Domain:\n- $m \\le n$. If the domain is larger than the codomain ($m > n$), it is impossible to map each element uniquely (Pigeonhole Principle), so the answer is strictly 0.",
 "formulaMeta": {
-"formula": "\begin{cases} ^nP_m = \frac{n!}{(n-m)!}, & \text{if } m \le n \\ 0, & \text{if } m > n \end{cases}",
+"formula": "\\begin{cases} ^nP_m = \\frac{n!}{(n-m)!}, & \\text{if } m \\le n \\ 0, & \\text{if } m > n \\end{cases}",
 "description": "The formula for the number of one-one (injective) functions from set A (m elements) to set B (n elements).",
 "derivation": "## Derivation:\n1. The 1st element of $A$ has $n$ choices in $B$.\n2. The 2nd element of $A$ has $(n-1)$ choices left (to avoid collision).\n3. The $m$-th element has $(n - m + 1)$ choices.\n4. The continuous product of these choices is exactly the permutation formula $^nP_m$."
 }
@@ -584,9 +584,9 @@
 "tags": ["math", "relations-and-functions", "combinatorics", "class-12", "jee-main", "jee-advanced"],
 "order": 29,
 "heading": "Total Number of Onto (Surjective) Functions Formula",
-"back": "## Component Anatomy:\n- **$n$:** The cardinality of the codomain set $B$.\n- **$m$:** The cardinality of the domain set $A$.\n- **$k$:** The index of summation representing the number of excluded elements in the codomain.\n\n## Boundary Conditions / Domain:\n- $m \ge n$. If the domain has fewer elements than the codomain ($m < n$), it is mathematically impossible to map onto all elements, and the number of onto functions is exactly $0$.",
+"back": "## Component Anatomy:\n- **$n$:** The cardinality of the codomain set $B$.\n- **$m$:** The cardinality of the domain set $A$.\n- **$k$:** The index of summation representing the number of excluded elements in the codomain.\n\n## Boundary Conditions / Domain:\n- $m \\ge n$. If the domain has fewer elements than the codomain ($m < n$), it is mathematically impossible to map onto all elements, and the number of onto functions is exactly $0$.",
 "formulaMeta": {
-"formula": "\sum_{k=0}^{n} (-1)^k \binom{n}{k} (n-k)^m",
+"formula": "\\sum_{k=0}^{n} (-1)^k \\binom{n}{k} (n-k)^m",
 "description": "The general formula for calculating the total number of onto (surjective) functions from set A (m elements) to set B (n elements).",
 "derivation": "## Concept:\nThis formula is a direct algebraic condensation of the Principle of Inclusion-Exclusion (PIE), recursively subtracting non-surjective mappings from the total universal set of mappings."
 }
@@ -605,11 +605,11 @@
 "tags": ["math", "relations-and-functions", "combinatorics", "class-12", "jee-main", "jee-advanced"],
 "order": 30,
 "heading": "PIE Algorithmic Derivation for Onto Functions",
-"back": "## Component Anatomy:\n- **$n^m$:** Total possible functions without constraints.\n- **$\binom{n}{1}$:** Ways to choose 1 codomain element to completely exclude.\n\n## Boundary Conditions / Domain:\n- This algorithm only yields a non-zero, meaningful result if the domain is greater than or equal to the codomain ($m \ge n$).",
+"back": "## Component Anatomy:\n- **$n^m$:** Total possible functions without constraints.\n- **$\\binom{n}{1}$:** Ways to choose 1 codomain element to completely exclude.\n\n## Boundary Conditions / Domain:\n- This algorithm only yields a non-zero, meaningful result if the domain is greater than or equal to the codomain ($m \\ge n$).",
 "formulaMeta": {
-"formula": "|A_1 \cup A_2 \dots \cup A_n| = \sum |A_i| - \sum |A_i \cap A_j| \dots",
+"formula": "|A_1 \\cup A_2 \\dots \\cup A_n| = \\sum |A_i| - \\sum |A_i \\cap A_j| \\dots",
 "description": "The algorithmic SOP utilizing the Principle of Inclusion-Exclusion (PIE) to count onto functions.",
-"derivation": "## Algorithmic SOP:\n1. **Base State:** Start with the total number of all possible functions: $n^m$.\n2. **First Exclusion:** Subtract the functions that strictly fail to map to at least $1$ element: $\binom{n}{1}(n-1)^m$.\n3. **First Inclusion (Correction):** Add back the over-subtracted functions mapping into $(n-2)$ elements: $\binom{n}{2}(n-2)^m$.\n4. **Iteration:** Continue alternating signs until the subset mapping reaches $0$ elements."
+"derivation": "## Algorithmic SOP:\n1. **Base State:** Start with the total number of all possible functions: $n^m$.\n2. **First Exclusion:** Subtract the functions that strictly fail to map to at least $1$ element: $\\binom{n}{1}(n-1)^m$.\n3. **First Inclusion (Correction):** Add back the over-subtracted functions mapping into $(n-2)$ elements: $\\binom{n}{2}(n-2)^m$.\n4. **Iteration:** Continue alternating signs until the subset mapping reaches $0$ elements."
 }
 }
 },
@@ -626,7 +626,7 @@
 "tags": ["math", "relations-and-functions", "combinatorics", "class-12", "jee-main", "jee-advanced"],
 "order": 31,
 "heading": "Number of Onto Functions to a 2-Element Codomain",
-"back": "## Component Anatomy:\n- **$m$:** The total number of elements in the domain set $A$.\n- **$2$:** The fixed number of elements in the codomain set $B$.\n\n## Boundary Conditions / Domain:\n- $m \ge 2$. If $m < 2$, no onto function can exist.",
+"back": "## Component Anatomy:\n- **$m$:** The total number of elements in the domain set $A$.\n- **$2$:** The fixed number of elements in the codomain set $B$.\n\n## Boundary Conditions / Domain:\n- $m \\ge 2$. If $m < 2$, no onto function can exist.",
 "mnemonic": "Total minus the two constants.",
 "formulaMeta": {
 "formula": "2^m - 2",
@@ -652,7 +652,7 @@
 "formulaMeta": {
 "formula": "n!",
 "description": "The formula for the total number of bijective functions from a finite set A to itself (or to another set B of equal cardinality).",
-"derivation": "## Derivation:\n1. For a bijection, $m = n$.\n2. Substituting $m=n$ into the injective function permutation formula $^nP_m$.\n3. $^nP_n = \frac{n!}{(n-n)!} = \frac{n!}{0!} = n!$."
+"derivation": "## Derivation:\n1. For a bijection, $m = n$.\n2. Substituting $m=n$ into the injective function permutation formula $^nP_m$.\n3. $^nP_n = \\frac{n!}{(n-n)!} = \\frac{n!}{0!} = n!$."
 }
 }
 },
@@ -669,7 +669,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 33,
 "heading": "Composition of Functions",
-"back": "- **Definition:** For two functions $f: A \to B$ and $g: B \to C$, their composition is defined as $g \circ f: A \to C$.\n- **Mapping:** $(g \circ f)(x) = g(f(x))$ for all $x \in A$.\n- **Mechanism:** The output of the inner function $f$ serves as the direct input for the outer function $g$.",
+"back": "- **Definition:** For two functions $f: A \\to B$ and $g: B \\to C$, their composition is defined as $g \\circ f: A \\to C$.\n- **Mapping:** $(g \\circ f)(x) = g(f(x))$ for all $x \\in A$.\n- **Mechanism:** The output of the inner function $f$ serves as the direct input for the outer function $g$.",
 "standardMeta": {
 "question": "How is the composition of two functions f: A -> B and g: B -> C defined mathematically, and what is the sequence of mapping?"
 }
@@ -688,9 +688,9 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 34,
 "heading": "Commutativity of Composite Functions",
-"back": "- **Rule:** Function composition is generally **not commutative**.\n- **Distinction:** $g \circ f \neq f \circ g$.\n- **Explanation:** $(g \circ f)(x) = g(f(x))$ applies $f$ first, then $g$. Conversely, $(f \circ g)(x) = f(g(x))$ applies $g$ first. The domains, codomains, and rules of mapping are fundamentally different depending on the order.",
+"back": "- **Rule:** Function composition is generally **not commutative**.\n- **Distinction:** $g \\circ f \\neq f \\circ g$.\n- **Explanation:** $(g \\circ f)(x) = g(f(x))$ applies $f$ first, then $g$. Conversely, $(f \\circ g)(x) = f(g(x))$ applies $g$ first. The domains, codomains, and rules of mapping are fundamentally different depending on the order.",
 "standardMeta": {
-"question": "Is the composition of functions commutative? Distinguish between $g \circ f$ and $f \circ g$."
+"question": "Is the composition of functions commutative? Distinguish between $g \\circ f$ and $f \\circ g$."
 }
 }
 },
@@ -707,11 +707,11 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 35,
 "heading": "Strict Domain of a Composite Function",
-"back": "## Component Anatomy:\n- **$\text{Domain}(f)$:** The set of valid initial inputs for the inner function.\n- **$\text{Domain}(g)$:** The set of valid inputs for the outer function.\n\n## Boundary Conditions / Domain:\n- The output of $f$ must not violate any domain restrictions of $g$ (e.g., negative numbers under a square root or zero in a denominator).",
+"back": "## Component Anatomy:\n- **$\\text{Domain}(f)$:** The set of valid initial inputs for the inner function.\n- **$\\text{Domain}(g)$:** The set of valid inputs for the outer function.\n\n## Boundary Conditions / Domain:\n- The output of $f$ must not violate any domain restrictions of $g$ (e.g., negative numbers under a square root or zero in a denominator).",
 "formulaMeta": {
-"formula": "\text{Domain}(g \circ f) = \{x \in \text{Domain}(f) : f(x) \in \text{Domain}(g)\}",
+"formula": "\\text{Domain}(g \\circ f) = \\{x \\in \\text{Domain}(f) : f(x) \\in \\text{Domain}(g)\\}",
 "description": "The strict mathematical set-builder definition of the domain for the composite function g \u2218 f.",
-"derivation": "## Concept:\nWhen forming a composite function $g \circ f$, the domain is NOT simply the domain of the inner function $f$. It carries a hidden boundary condition imposed by the outer function $g$. The output of $f$ acts as the direct input for $g$. If $f$ outputs a value that $g$ cannot process mathematically, the composition crashes."
+"derivation": "## Concept:\nWhen forming a composite function $g \\circ f$, the domain is NOT simply the domain of the inner function $f$. It carries a hidden boundary condition imposed by the outer function $g$. The output of $f$ acts as the direct input for $g$. If $f$ outputs a value that $g$ cannot process mathematically, the composition crashes."
 }
 }
 },
@@ -728,10 +728,10 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 36,
 "heading": "Properties Implied by Composite Function Behavior",
-"back": "- **If $g \circ f$ is One-One (Injective):** The *inner* function $f$ MUST be one-one. (Proof logic: If $f$ wasn't one-one, two inputs would collapse into one, and $g$ could never un-collapse them. However, $g$ need not be one-one).\n- **If $g \circ f$ is Onto (Surjective):** The *outer* function $g$ MUST be onto. (Proof logic: The final output comes entirely from $g$. If $g$ can't reach a value, $g \circ f$ can't either. However, $f$ need not be onto).\n- **Corollary:** If $g \circ f$ is bijective, $f$ is guaranteed to be one-one and $g$ is guaranteed to be onto.",
+"back": "- **If $g \\circ f$ is One-One (Injective):** The *inner* function $f$ MUST be one-one. (Proof logic: If $f$ wasn't one-one, two inputs would collapse into one, and $g$ could never un-collapse them. However, $g$ need not be one-one).\n- **If $g \\circ f$ is Onto (Surjective):** The *outer* function $g$ MUST be onto. (Proof logic: The final output comes entirely from $g$. If $g$ can't reach a value, $g \\circ f$ can't either. However, $f$ need not be onto).\n- **Corollary:** If $g \\circ f$ is bijective, $f$ is guaranteed to be one-one and $g$ is guaranteed to be onto.",
 "mnemonic": "Inner = Injective (One-One). Outer = Onto.",
 "standardMeta": {
-"question": "If a composite function $g \circ f$ is known to be one-one, what is guaranteed about f or g? What if $g \circ f$ is onto?"
+"question": "If a composite function $g \\circ f$ is known to be one-one, what is guaranteed about f or g? What if $g \\circ f$ is onto?"
 }
 }
 },
@@ -750,7 +750,7 @@
 "heading": "Algebraic Definition of an Invertible Function",
 "back": "## Component Anatomy:\n- **$f$:** The original function mapping from $X$ to $Y$.\n- **$g$:** The inverse function mapping from $Y$ to $X$.\n- **$I_X, I_Y$:** The identity functions on sets $X$ and $Y$.\n\n## Boundary Conditions / Domain:\n- If such a $g$ exists, it is strictly unique and specifically denoted as $f^{-1}$.",
 "formulaMeta": {
-"formula": "\exists g: Y \to X \text{ such that } g \circ f = I_X \text{ and } f \circ g = I_Y",
+"formula": "\\exists g: Y \\to X \\text{ such that } g \\circ f = I_X \\text{ and } f \\circ g = I_Y",
 "description": "The formal algebraic condition for a function f: X -> Y to be considered invertible.",
 "derivation": "## Concept:\nA function $f$ is invertible if there exists a perfect reverse mapping $g$ that nullifies the effect of $f$, returning the original input regardless of the order of composition."
 }
@@ -769,7 +769,7 @@
 "tags": ["math", "relations-and-functions", "class-12", "jee-main", "jee-advanced"],
 "order": 38,
 "heading": "The Invertibility Theorem",
-"back": "- **Theorem:** A function $f: X \to Y$ is invertible **if and only if** $f$ is a bijective function.\n- **Why?** \n  - If it is not one-one, multiple inputs map to a single output, making reverse mapping ambiguous.\n  - If it is not onto, some elements in $Y$ will have no destination in $X$ when reversing.",
+"back": "- **Theorem:** A function $f: X \\to Y$ is invertible **if and only if** $f$ is a bijective function.\n- **Why?** \n  - If it is not one-one, multiple inputs map to a single output, making reverse mapping ambiguous.\n  - If it is not onto, some elements in $Y$ will have no destination in $X$ when reversing.",
 "standardMeta": {
 "question": "What is the mandatory and sufficient condition for a function to be invertible, and mathematically why must this hold?"
 }
@@ -791,9 +791,9 @@
 "back": "## Component Anatomy:\n- **$f$ and $g$:** Two invertible functions with compatible domains and codomains.\n\n## Boundary Conditions / Domain:\n- Both $f$ and $g$ must individually be bijections.\n- Notice the order strictly flips! You unwrap the outermost operation first.",
 "mnemonic": "Socks and Shoes: Put socks on first, but take shoes off first.",
 "formulaMeta": {
-"formula": "(g \circ f)^{-1} = f^{-1} \circ g^{-1}",
+"formula": "(g \\circ f)^{-1} = f^{-1} \\circ g^{-1}",
 "description": "The algebraic property that defines the inverse of the composition of two invertible functions.",
-"derivation": "## Concept (Socks and Shoes Analog):\n1. Putting on: Socks first ($f$), then shoes ($g$). This composition sequence is $g \circ f$.\n2. Taking off (Inverse): Shoes off first ($g^{-1}$), then socks ($f^{-1}$). The resulting unwrapping sequence is $f^{-1} \circ g^{-1}$."
+"derivation": "## Concept (Socks and Shoes Analog):\n1. Putting on: Socks first ($f$), then shoes ($g$). This composition sequence is $g \\circ f$.\n2. Taking off (Inverse): Shoes off first ($g^{-1}$), then socks ($f^{-1}$). The resulting unwrapping sequence is $f^{-1} \\circ g^{-1}$."
 }
 }
 },

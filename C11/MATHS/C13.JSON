@@ -52,7 +52,7 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11"],
 "order": 3,
 "heading": "The Zero Sum Trap of Deviations",
-"back": "- **The Trap:** We cannot measure dispersion by simply taking the arithmetic mean of raw deviations $(x_i - \bar{x})$.\n- **The Mathematical Reality:** The sum of raw deviations of observations strictly from their arithmetic mean is **always exactly zero**: $\sum (x_i - \bar{x}) = 0$.\n- **The Solution:** We must use either **absolute values** (Mean Deviation) or **squares** (Variance) to prevent negative deviations from cancelling positive ones.",
+"back": "- **The Trap:** We cannot measure dispersion by simply taking the arithmetic mean of raw deviations $(x_i - \\bar{x})$.\n- **The Mathematical Reality:** The sum of raw deviations of observations strictly from their arithmetic mean is **always exactly zero**: $\\sum (x_i - \\bar{x}) = 0$.\n- **The Solution:** We must use either **absolute values** (Mean Deviation) or **squares** (Variance) to prevent negative deviations from cancelling positive ones.",
 "mnemonic": "Raw deviations sum to zero.",
 "standardMeta": {
 "question": "Why can we not simply take the mean of raw algebraic deviations from the arithmetic mean to calculate dispersion?"
@@ -72,9 +72,9 @@
 "tags": ["math", "statistics", "range", "jee-main", "class-11"],
 "order": 4,
 "heading": "Range of a Dataset",
-"back": "## Component Anatomy:\n- **Maximum Value:** The absolute largest observation.\n- **Minimum Value:** The absolute smallest observation.\n\n## Boundary Conditions / Domain:\n- Range must be $\geq 0$.",
+"back": "## Component Anatomy:\n- **Maximum Value:** The absolute largest observation.\n- **Minimum Value:** The absolute smallest observation.\n\n## Boundary Conditions / Domain:\n- Range must be $\\geq 0$.",
 "formulaMeta": {
-"formula": "\text{Range} = \text{Maximum Value} - \text{Minimum Value}",
+"formula": "\\text{Range} = \\text{Maximum Value} - \\text{Minimum Value}",
 "description": "Calculate the Range of an ungrouped dataset.",
 "derivation": "Identify max and min elements in the set, then subtract."
 }
@@ -112,7 +112,7 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11"],
 "order": 6,
 "heading": "Mean Deviation Concept",
-"back": "- **Concept:** Mean Deviation about a specific central value $a$ is the **arithmetic mean of the absolute values** of the deviations of all observations from that central value $a$.\n- **Common Anchors:** The central value $a$ is typically either the **Mean** ($\bar{x}$) or the **Median** ($M$).",
+"back": "- **Concept:** Mean Deviation about a specific central value $a$ is the **arithmetic mean of the absolute values** of the deviations of all observations from that central value $a$.\n- **Common Anchors:** The central value $a$ is typically either the **Mean** ($\\bar{x}$) or the **Median** ($M$).",
 "standardMeta": {
 "question": "Conceptually, what does the 'Mean Deviation' of a dataset about a central value 'a' represent?"
 }
@@ -131,9 +131,9 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11"],
 "order": 7,
 "heading": "Mean Deviation about Mean Formula",
-"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$\bar{x}$:** Arithmetic mean of the data.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- Result must be strictly $\geq 0$.",
+"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$\\bar{x}$:** Arithmetic mean of the data.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- Result must be strictly $\\geq 0$.",
 "formulaMeta": {
-"formula": "M.D.(\bar{x}) = \frac{1}{n} \sum_{i=1}^{n} |x_i - \bar{x}|",
+"formula": "M.D.(\\bar{x}) = \\frac{1}{n} \\sum_{i=1}^{n} |x_i - \\bar{x}|",
 "description": "Formula for Mean Deviation about the Mean for ungrouped data.",
 "derivation": "Calculated by averaging the absolute differences from the arithmetic mean."
 }
@@ -152,7 +152,7 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11"],
 "order": 8,
 "heading": "SOP: Calculating Mean Deviation about Mean",
-"back": "**Step 1:** Calculate the Arithmetic Mean $\bar{x}$.\n**Step 2:** Find absolute deviation $|x_i - \bar{x}|$ for each term.\n**Step 3:** Sum these absolute deviations.\n**Step 4:** Divide by total observations $n$.",
+"back": "**Step 1:** Calculate the Arithmetic Mean $\\bar{x}$.\n**Step 2:** Find absolute deviation $|x_i - \\bar{x}|$ for each term.\n**Step 3:** Sum these absolute deviations.\n**Step 4:** Divide by total observations $n$.",
 "standardMeta": {
 "question": "What is the step-by-step SOP to calculate the Mean Deviation about the Mean for an ungrouped dataset?"
 }
@@ -171,9 +171,9 @@
 "tags": ["math", "statistics", "mean-deviation", "median", "jee-main", "class-11"],
 "order": 9,
 "heading": "Mean Deviation about Median Formula",
-"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$M$:** Median of the sorted data.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- Data MUST be sorted in ascending/descending order prior to finding $M$. Result is $\geq 0$.",
+"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$M$:** Median of the sorted data.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- Data MUST be sorted in ascending/descending order prior to finding $M$. Result is $\\geq 0$.",
 "formulaMeta": {
-"formula": "M.D.(M) = \frac{1}{n} \sum_{i=1}^{n} |x_i - M|",
+"formula": "M.D.(M) = \\frac{1}{n} \\sum_{i=1}^{n} |x_i - M|",
 "description": "Formula for Mean Deviation about the Median for ungrouped data.",
 "derivation": "Requires computing the median first, then averaging absolute differences."
 }
@@ -192,7 +192,7 @@
 "tags": ["math", "statistics", "median", "jee-main", "class-11"],
 "order": 10,
 "heading": "SOP: Median of Discrete Frequency Distribution",
-"back": "- **Step 1:** Arrange observations $x_i$ in strictly ascending order alongside their frequencies $f_i$.\n- **Step 2:** Construct a Cumulative Frequency (c.f.) column.\n- **Step 3:** Calculate total frequency strictly as **$N = \sum f_i$**.\n- **Step 4:** Determine the specific observation $x_i$ whose cumulative frequency is strictly **greater than or equal to $N/2$**. This value is the Median.",
+"back": "- **Step 1:** Arrange observations $x_i$ in strictly ascending order alongside their frequencies $f_i$.\n- **Step 2:** Construct a Cumulative Frequency (c.f.) column.\n- **Step 3:** Calculate total frequency strictly as **$N = \\sum f_i$**.\n- **Step 4:** Determine the specific observation $x_i$ whose cumulative frequency is strictly **greater than or equal to $N/2$**. This value is the Median.",
 "standardMeta": {
 "question": "What is the algorithmic SOP to find the Median for a Discrete Frequency Distribution?"
 }
@@ -211,9 +211,9 @@
 "tags": ["math", "statistics", "median", "jee-main", "class-11"],
 "order": 11,
 "heading": "Median Formula (Continuous Distribution)",
-"back": "## Component Anatomy:\n- **$l$:** Lower limit of the median class.\n- **$N$:** Total frequency $\sum f_i$.\n- **$C$:** Cumulative frequency of the class strictly PRECEDING the median class.\n- **$f$:** Simple frequency of the median class itself.\n- **$h$:** Class width (size) of the median class.\n\n## Boundary Conditions / Domain:\n- The classes MUST be continuous (no gaps between class intervals). If discrete gaps exist, convert to continuous boundaries (e.g., subtract $0.5$ from lower, add $0.5$ to upper).",
+"back": "## Component Anatomy:\n- **$l$:** Lower limit of the median class.\n- **$N$:** Total frequency $\\sum f_i$.\n- **$C$:** Cumulative frequency of the class strictly PRECEDING the median class.\n- **$f$:** Simple frequency of the median class itself.\n- **$h$:** Class width (size) of the median class.\n\n## Boundary Conditions / Domain:\n- The classes MUST be continuous (no gaps between class intervals). If discrete gaps exist, convert to continuous boundaries (e.g., subtract $0.5$ from lower, add $0.5$ to upper).",
 "formulaMeta": {
-"formula": "M = l + \frac{\frac{N}{2} - C}{f} \times h",
+"formula": "M = l + \\frac{\\frac{N}{2} - C}{f} \\times h",
 "description": "Standard formula used to compute the Median (M) for a Continuous Frequency Distribution.",
 "derivation": "Utilizes linear interpolation within the median class assuming uniform distribution of frequencies."
 }
@@ -232,7 +232,7 @@
 "tags": ["math", "statistics", "median", "jee-main", "class-11"],
 "order": 12,
 "heading": "SOP: Finding Median Class for Continuous Distribution",
-"back": "**Step 1:** Find Cumulative Frequencies.\n**Step 2:** Find $N/2$.\n**Step 3:** Locate Median Class (class whose c.f. is strictly $\geq N/2$).\n**Step 4:** Plug variables strictly into the Median formula.",
+"back": "**Step 1:** Find Cumulative Frequencies.\n**Step 2:** Find $N/2$.\n**Step 3:** Locate Median Class (class whose c.f. is strictly $\\geq N/2$).\n**Step 4:** Plug variables strictly into the Median formula.",
 "standardMeta": {
 "question": "What is the algorithmic SOP to find the Median Class and compute the Median for a Continuous Frequency Distribution?"
 }
@@ -251,9 +251,9 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11"],
 "order": 13,
 "heading": "Mean Deviation about Mean Formula (Grouped)",
-"back": "## Component Anatomy:\n- **$x_i$:** Observations (or mid-points for continuous data).\n- **$f_i$:** Respective frequencies.\n- **$N$:** Total frequency ($\sum f_i$).\n- **$\bar{x}$:** Arithmetic mean.\n\n## Boundary Conditions / Domain:\n- $N \neq 0$. Result $\geq 0$.",
+"back": "## Component Anatomy:\n- **$x_i$:** Observations (or mid-points for continuous data).\n- **$f_i$:** Respective frequencies.\n- **$N$:** Total frequency ($\\sum f_i$).\n- **$\\bar{x}$:** Arithmetic mean.\n\n## Boundary Conditions / Domain:\n- $N \\neq 0$. Result $\\geq 0$.",
 "formulaMeta": {
-"formula": "M.D.(\bar{x}) = \frac{1}{N} \sum_{i=1}^{n} f_i |x_i - \bar{x}|",
+"formula": "M.D.(\\bar{x}) = \\frac{1}{N} \\sum_{i=1}^{n} f_i |x_i - \\bar{x}|",
 "description": "Formula for Mean Deviation about the Mean for grouped frequency distribution data.",
 "derivation": "Sum of frequency-weighted absolute deviations divided by total frequency."
 }
@@ -272,9 +272,9 @@
 "tags": ["math", "statistics", "mean-deviation", "median", "jee-main", "class-11"],
 "order": 14,
 "heading": "Mean Deviation about Median Formula (Grouped)",
-"back": "## Component Anatomy:\n- **$x_i$:** Observations (or class marks).\n- **$f_i$:** Frequencies.\n- **$N$:** Total frequency ($\sum f_i$).\n- **$M$:** Median.\n\n## Boundary Conditions / Domain:\n- $N > 0$. Result $\geq 0$.",
+"back": "## Component Anatomy:\n- **$x_i$:** Observations (or class marks).\n- **$f_i$:** Frequencies.\n- **$N$:** Total frequency ($\\sum f_i$).\n- **$M$:** Median.\n\n## Boundary Conditions / Domain:\n- $N > 0$. Result $\\geq 0$.",
 "formulaMeta": {
-"formula": "M.D.(M) = \frac{1}{N} \sum_{i=1}^{n} f_i |x_i - M|",
+"formula": "M.D.(M) = \\frac{1}{N} \\sum_{i=1}^{n} f_i |x_i - M|",
 "description": "Formula for Mean Deviation about the Median for grouped frequency distribution data.",
 "derivation": "Sum of frequency-weighted absolute deviations from the median divided by total frequency."
 }
@@ -293,7 +293,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 15,
 "heading": "Variance Concept",
-"back": "- **Concept:** To overcome the zero-sum limitation of raw deviations without using absolute values, we mathematically square the deviations.\n- **Definition:** Variance is strictly defined as the **arithmetic mean of the squared deviations** of observations from their mean.\n- **Notation:** Denoted strictly by **$\sigma^2$**.",
+"back": "- **Concept:** To overcome the zero-sum limitation of raw deviations without using absolute values, we mathematically square the deviations.\n- **Definition:** Variance is strictly defined as the **arithmetic mean of the squared deviations** of observations from their mean.\n- **Notation:** Denoted strictly by **$\\sigma^2$**.",
 "standardMeta": {
 "question": "Conceptually, what is Variance (σ²) and why does it square deviations?"
 }
@@ -312,7 +312,7 @@
 "tags": ["math", "statistics", "variance", "standard-deviation", "jee-main", "class-11"],
 "order": 16,
 "heading": "Standard Deviation vs. Variance",
-"back": "- **Mathematical Relation:** Standard Deviation ($\sigma$) is strictly the **positive square root** of Variance ($\sigma^2$).\n- **The Distinction / Practical Use:** Variance squares the units (e.g., if data is in 'kg', variance is in 'kg²'). Standard Deviation takes the root, thereby bringing the measure of dispersion strictly back to the **original units** of the dataset.",
+"back": "- **Mathematical Relation:** Standard Deviation ($\\sigma$) is strictly the **positive square root** of Variance ($\\sigma^2$).\n- **The Distinction / Practical Use:** Variance squares the units (e.g., if data is in 'kg', variance is in 'kg²'). Standard Deviation takes the root, thereby bringing the measure of dispersion strictly back to the **original units** of the dataset.",
 "mnemonic": "Standard Deviation returns data to Standard Units.",
 "standardMeta": {
 "question": "What is the mathematical relationship between Standard Deviation and Variance, and why is Standard Deviation practically preferred in descriptive statistics?"
@@ -332,9 +332,9 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 17,
 "heading": "Variance Formula (Ungrouped Data)",
-"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$\bar{x}$:** Mean.\n- **$n$:** Number of observations.\n\n## Boundary Conditions / Domain:\n- $\sigma^2 \geq 0$. Variance cannot physically be negative. $n > 0$.",
+"back": "## Component Anatomy:\n- **$x_i$:** Individual observations.\n- **$\\bar{x}$:** Mean.\n- **$n$:** Number of observations.\n\n## Boundary Conditions / Domain:\n- $\\sigma^2 \\geq 0$. Variance cannot physically be negative. $n > 0$.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2",
+"formula": "\\sigma^2 = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^2",
 "description": "Standard definitional formula for the Variance of ungrouped data.",
 "derivation": "Derived directly from the definition: average of squared deviations from the mean."
 }
@@ -353,12 +353,12 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 18,
 "heading": "Expanded Variance Formula (Ungrouped)",
-"back": "## Component Anatomy:\n- **$\sum x_i^2$:** Sum of the squares of the observations.\n- **$\sum x_i$:** Sum of the observations.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- This expanded version is often faster for raw calculations as it avoids dealing with fractional means during intermediate steps. $n > 0$.",
+"back": "## Component Anatomy:\n- **$\\sum x_i^2$:** Sum of the squares of the observations.\n- **$\\sum x_i$:** Sum of the observations.\n- **$n$:** Total number of observations.\n\n## Boundary Conditions / Domain:\n- This expanded version is often faster for raw calculations as it avoids dealing with fractional means during intermediate steps. $n > 0$.",
 "mnemonic": "Mean of squares MINUS square of the mean.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{\sum x_i^2}{n} - \left( \frac{\sum x_i}{n} \right)^2",
+"formula": "\\sigma^2 = \\frac{\\sum x_i^2}{n} - \\left( \\frac{\\sum x_i}{n} \\right)^2",
 "description": "Computational formula for the Variance of ungrouped data.",
-"derivation": "Expand $\sum (x_i - \bar{x})^2$ as $\sum (x_i^2 - 2\bar{x}x_i + \bar{x}^2)$. Applying sum rules gives $\sum x_i^2 - 2\bar{x}\sum x_i + n\bar{x}^2$. Substitute $\sum x_i = n\bar{x}$ to simplify to strictly $\sum x_i^2 - n\bar{x}^2$. Divide by $n$ to reach computational form."
+"derivation": "Expand $\\sum (x_i - \\bar{x})^2$ as $\\sum (x_i^2 - 2\\bar{x}x_i + \\bar{x}^2)$. Applying sum rules gives $\\sum x_i^2 - 2\\bar{x}\\sum x_i + n\\bar{x}^2$. Substitute $\\sum x_i = n\\bar{x}$ to simplify to strictly $\\sum x_i^2 - n\\bar{x}^2$. Divide by $n$ to reach computational form."
 }
 }
 },
@@ -375,9 +375,9 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 19,
 "heading": "Variance Formula (Grouped Frequency)",
-"back": "## Component Anatomy:\n- **$f_i$:** Frequency of the $i$-th class.\n- **$x_i$:** Class mark (mid-point) or discrete observation.\n- **$\bar{x}$:** Mean of the distribution.\n- **$N$:** Total sum of frequencies $\sum f_i$.\n\n## Boundary Conditions / Domain:\n- Result must be strictly $\geq 0$. $N > 0$.",
+"back": "## Component Anatomy:\n- **$f_i$:** Frequency of the $i$-th class.\n- **$x_i$:** Class mark (mid-point) or discrete observation.\n- **$\\bar{x}$:** Mean of the distribution.\n- **$N$:** Total sum of frequencies $\\sum f_i$.\n\n## Boundary Conditions / Domain:\n- Result must be strictly $\\geq 0$. $N > 0$.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{1}{N} \sum_{i=1}^{n} f_i (x_i - \bar{x})^2",
+"formula": "\\sigma^2 = \\frac{1}{N} \\sum_{i=1}^{n} f_i (x_i - \\bar{x})^2",
 "description": "Formula for the Variance (σ²) of a discrete or continuous grouped frequency distribution.",
 "derivation": "Sum of frequency-weighted squared deviations divided by total frequency."
 }
@@ -398,7 +398,7 @@
 "heading": "Step-Deviation Variable (y_i)",
 "back": "## Component Anatomy:\n- **$x_i$:** Original class mark or observation.\n- **$A$:** Assumed Mean (chosen conveniently from the middle of $x_i$ values).\n- **$h$:** Common factor or class width.\n\n## Boundary Conditions / Domain:\n- $h$ MUST be strictly $> 0$.",
 "formulaMeta": {
-"formula": "y_i = \frac{x_i - A}{h}",
+"formula": "y_i = \\frac{x_i - A}{h}",
 "description": "Algebraic transformation formula to create the step-deviation variable y_i.",
 "derivation": "Shift origin by A and scale by 1/h."
 }
@@ -417,9 +417,9 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 21,
 "heading": "Shortcut (Step-Deviation) Variance Formula",
-"back": "## Component Anatomy:\n- **$h$:** The step size / class width.\n- **$N$:** Total frequency $\sum f_i$.\n- **$y_i$:** Step-deviation variable $(x_i - A)/h$.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Do NOT forget to multiply by $h^2$ at the end. Because variance represents squared units, the scalar factor $h$ is strictly squared when pulled out of the summation.",
+"back": "## Component Anatomy:\n- **$h$:** The step size / class width.\n- **$N$:** Total frequency $\\sum f_i$.\n- **$y_i$:** Step-deviation variable $(x_i - A)/h$.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Do NOT forget to multiply by $h^2$ at the end. Because variance represents squared units, the scalar factor $h$ is strictly squared when pulled out of the summation.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{h^2}{N^2} \left[ N \sum_{i=1}^{n} f_i y_i^2 - \left( \sum_{i=1}^{n} f_i y_i \right)^2 \right]",
+"formula": "\\sigma^2 = \\frac{h^2}{N^2} \\left[ N \\sum_{i=1}^{n} f_i y_i^2 - \\left( \\sum_{i=1}^{n} f_i y_i \\right)^2 \\right]",
 "description": "Shortcut (Step-Deviation) computational formula for calculating Variance.",
 "derivation": "Derived by substituting $x_i = h y_i + A$ into the expanded variance formula."
 }
@@ -438,7 +438,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 22,
 "heading": "Variance Property: Shift of Origin",
-"back": "- **Scenario:** Every single observation $x_i$ in a dataset is increased or decreased by a constant scalar $k$ (i.e., $x_i \to x_i \pm k$).\n- **The Effect:** The Variance and Standard Deviation are strictly **UNCHANGED**.\n- **Reason:** While the mean shifts by $k$, the relative distances (deviations) between each observation and the new mean remain absolutely identical.",
+"back": "- **Scenario:** Every single observation $x_i$ in a dataset is increased or decreased by a constant scalar $k$ (i.e., $x_i \\to x_i \\pm k$).\n- **The Effect:** The Variance and Standard Deviation are strictly **UNCHANGED**.\n- **Reason:** While the mean shifts by $k$, the relative distances (deviations) between each observation and the new mean remain absolutely identical.",
 "mnemonic": "Shifting the entire graph doesn't change its shape.",
 "standardMeta": {
 "question": "If every observation in a dataset is increased or decreased by a constant scalar 'k', how does this impact the Variance and Standard Deviation?"
@@ -461,9 +461,9 @@
 "back": "## Component Anatomy:\n- **$k$:** The scalar multiplier applied to every observation.\n- **$Var(x)$:** The original variance.\n\n## Boundary Conditions / Domain:\n- Applicable for any real scalar $k$.\n- **TRAP:** While Standard Deviation multiplies by strictly $|k|$, Variance multiplies by strictly **$k^2$**.",
 "mnemonic": "Scale factors square themselves when entering Variance.",
 "formulaMeta": {
-"formula": "Var(kx) = k^2 \cdot Var(x)",
+"formula": "Var(kx) = k^2 \\cdot Var(x)",
 "description": "Formula relating the new variance to the old variance after multiplication by a scalar.",
-"derivation": "Let $y_i = k x_i$. Then $\bar{y} = k \bar{x}$. $Var(y) = \frac{1}{n} \sum (k x_i - k \bar{x})^2$. Factoring out $k$ inside the square yields strictly $k^2 \cdot \frac{1}{n} \sum (x_i - \bar{x})^2 = k^2 Var(x)$."
+"derivation": "Let $y_i = k x_i$. Then $\\bar{y} = k \\bar{x}$. $Var(y) = \\frac{1}{n} \\sum (k x_i - k \\bar{x})^2$. Factoring out $k$ inside the square yields strictly $k^2 \\cdot \\frac{1}{n} \\sum (x_i - \\bar{x})^2 = k^2 Var(x)$."
 }
 }
 },
@@ -480,10 +480,10 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 24,
 "heading": "Full Linear Transformation Trap",
-"back": "## Component Anatomy:\n- **$a$:** The scalar multiplier (Change of Scale).\n- **$b$:** The additive constant (Change of Origin).\n\n## Boundary Conditions / Domain:\n- $a \neq 0$.\n- **CRITICAL TRAP:** While Mean absorbs both transformations, Variance strictly ignores the shift $b$ and squares $a$. Standard Deviation strictly takes the **absolute value** $|a|$.",
+"back": "## Component Anatomy:\n- **$a$:** The scalar multiplier (Change of Scale).\n- **$b$:** The additive constant (Change of Origin).\n\n## Boundary Conditions / Domain:\n- $a \\neq 0$.\n- **CRITICAL TRAP:** While Mean absorbs both transformations, Variance strictly ignores the shift $b$ and squares $a$. Standard Deviation strictly takes the **absolute value** $|a|$.",
 "mnemonic": "Mean takes all. Variance squares the scale, ignores origin. SD absolutes the scale.",
 "formulaMeta": {
-"formula": "\begin{aligned} \bar{y} &= a\bar{x} + b \\ Var(y) &= a^2 Var(x) \\ SD(y) &= |a| SD(x) \end{aligned}",
+"formula": "\\begin{aligned} \\bar{y} &= a\\bar{x} + b \\ Var(y) &= a^2 Var(x) \\ SD(y) &= |a| SD(x) \\end{aligned}",
 "description": "Resulting formulas for Mean, Variance, and SD after full linear transformation.",
 "derivation": "Combines origin shift (variance unchanged) and scale change (variance scaled by a-squared)."
 }
@@ -502,7 +502,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 25,
 "heading": "Minimization of Squared Deviations",
-"back": "- **The Rule:** The sum of the squares of deviations $\sum (x_i - a)^2$ evaluates to its strictly **minimum possible value** when the deviations are taken about the **Arithmetic Mean** ($\bar{x}$).\n- **Mathematical Consequence:** Therefore, $\sum (x_i - a)^2$ is minimum $\\iff a = \bar{x}$.\n- **Trap / Distinction:** Do not confuse this with the sum of *absolute* deviations $\sum |x_i - a|$, which achieves its minimum when $a$ is the **Median**.",
+"back": "- **The Rule:** The sum of the squares of deviations $\\sum (x_i - a)^2$ evaluates to its strictly **minimum possible value** when the deviations are taken about the **Arithmetic Mean** ($\\bar{x}$).\n- **Mathematical Consequence:** Therefore, $\\sum (x_i - a)^2$ is minimum $\\iff a = \\bar{x}$.\n- **Trap / Distinction:** Do not confuse this with the sum of *absolute* deviations $\\sum |x_i - a|$, which achieves its minimum when $a$ is the **Median**.",
 "mnemonic": "Squares love the Mean, Absolutes love the Median.",
 "standardMeta": {
 "question": "For a given set of data, the sum of the squares of deviations attains its absolute minimum value when 'a' is chosen as what specific statistical measure?"
@@ -522,11 +522,11 @@
 "tags": ["math", "statistics", "mean", "jee-main", "class-11"],
 "order": 26,
 "heading": "Mean of First 'n' Natural Numbers",
-"back": "## Component Anatomy:\n- **$n$:** The final natural number in the sequence (1, 2, 3, ..., n).\n\n## Boundary Conditions / Domain:\n- $n$ must be a strictly positive integer ($n \in \mathbb{Z}^+$).",
+"back": "## Component Anatomy:\n- **$n$:** The final natural number in the sequence (1, 2, 3, ..., n).\n\n## Boundary Conditions / Domain:\n- $n$ must be a strictly positive integer ($n \\in \\mathbb{Z}^+$).",
 "formulaMeta": {
-"formula": "\bar{x} = \frac{n + 1}{2}",
+"formula": "\\bar{x} = \\frac{n + 1}{2}",
 "description": "Simplified formula for the mean of the first 'n' natural numbers.",
-"derivation": "Sum of first n natural numbers is $\frac{n(n+1)}{2}$. Divide by total observations $n$ to get the mean $\frac{n+1}{2}$."
+"derivation": "Sum of first n natural numbers is $\\frac{n(n+1)}{2}$. Divide by total observations $n$ to get the mean $\\frac{n+1}{2}$."
 }
 }
 },
@@ -543,9 +543,9 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 27,
 "heading": "Variance of First 'n' Natural Numbers Formula",
-"back": "## Component Anatomy:\n- **$n$:** The amount of sequential natural numbers.\n\n## Boundary Conditions / Domain:\n- $n \in \mathbb{Z}^+$.",
+"back": "## Component Anatomy:\n- **$n$:** The amount of sequential natural numbers.\n\n## Boundary Conditions / Domain:\n- $n \\in \\mathbb{Z}^+$.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{n^2 - 1}{12}",
+"formula": "\\sigma^2 = \\frac{n^2 - 1}{12}",
 "description": "Standard simplified mathematical formula for the Variance (σ²) of the first 'n' natural numbers.",
 "derivation": "Requires expanding sum of squares formula and subtracting mean squared."
 }
@@ -564,7 +564,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 28,
 "heading": "Derivation: Variance of First 'n' Natural Numbers",
-"back": "**Step 1:** Use expanded variance formula: $\frac{\sum x^2}{n} - (\bar{x})^2$.\n**Step 2:** Substitute $\sum x^2 = \frac{n(n+1)(2n+1)}{6}$ and $\bar{x} = \frac{n+1}{2}$.\n**Step 3:** Algebraically factor and simplify to yield exactly $\frac{n^2 - 1}{12}$.",
+"back": "**Step 1:** Use expanded variance formula: $\\frac{\\sum x^2}{n} - (\\bar{x})^2$.\n**Step 2:** Substitute $\\sum x^2 = \\frac{n(n+1)(2n+1)}{6}$ and $\\bar{x} = \\frac{n+1}{2}$.\n**Step 3:** Algebraically factor and simplify to yield exactly $\\frac{n^2 - 1}{12}$.",
 "standardMeta": {
 "question": "What are the algebraic steps to derive the variance of the first 'n' natural numbers?"
 }
@@ -583,10 +583,10 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 29,
 "heading": "Variance of an Arithmetic Progression (A.P.) Formula",
-"back": "## Component Anatomy:\n- **$n$:** The total number of terms in the Arithmetic Progression.\n- **$d$:** The common difference of the A.P.\n\n## Boundary Conditions / Domain:\n- Valid for any Arithmetic Progression with real terms. $n \geq 1, n \in \mathbb{Z}$.",
+"back": "## Component Anatomy:\n- **$n$:** The total number of terms in the Arithmetic Progression.\n- **$d$:** The common difference of the A.P.\n\n## Boundary Conditions / Domain:\n- Valid for any Arithmetic Progression with real terms. $n \\geq 1, n \\in \\mathbb{Z}$.",
 "mnemonic": "Same as the first 'n' natural numbers variance, but scaled by d-squared.",
 "formulaMeta": {
-"formula": "\sigma^2 = \frac{(n^2 - 1)d^2}{12}",
+"formula": "\\sigma^2 = \\frac{(n^2 - 1)d^2}{12}",
 "description": "Direct shortcut formula to find the Variance of 'n' terms in an A.P.",
 "derivation": "Relies on shifting origin and changing scale of natural numbers."
 }
@@ -605,7 +605,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11"],
 "order": 30,
 "heading": "Derivation: Variance of an Arithmetic Progression",
-"back": "**Step 1:** Since variance is independent of a change of origin, shift the A.P. $\\{a, a+d, a+2d, \dots\\}$ down to strictly $\\{d, 2d, 3d, \dots, nd\\}$.\n**Step 2:** Extract the scale factor $d$. Since variance squares scale, this gives $d^2 \cdot Var(1, 2, \dots, n)$.\n**Step 3:** Substitute $Var(1,2, \dots, n) = \frac{n^2-1}{12}$ to yield the final result.",
+"back": "**Step 1:** Since variance is independent of a change of origin, shift the A.P. $\\{a, a+d, a+2d, \\dots\\}$ down to strictly $\\{d, 2d, 3d, \\dots, nd\\}$.\n**Step 2:** Extract the scale factor $d$. Since variance squares scale, this gives $d^2 \\cdot Var(1, 2, \\dots, n)$.\n**Step 3:** Substitute $Var(1,2, \\dots, n) = \\frac{n^2-1}{12}$ to yield the final result.",
 "standardMeta": {
 "question": "What is the logical derivation to find the Variance of an Arithmetic Progression using scale and origin properties?"
 }
@@ -624,7 +624,7 @@
 "tags": ["math", "statistics", "mean-deviation", "jee-main", "class-11", "exemplar"],
 "order": 31,
 "heading": "Mean Deviation of First 'n' Natural Numbers",
-"back": "- **Case 1 (If $n$ is Odd):** The Mean Deviation about the mean mathematically collapses strictly to **$\frac{n^2 - 1}{4n}$**.\n- **Case 2 (If $n$ is Even):** The Mean Deviation about the mean mathematically collapses strictly to **$\frac{n}{4}$**.\n- **Origin:** This is a heavy algebraic manipulation derived in the NCERT Exemplar and Miscellaneous exercises. Memorising this bypasses massive summation calculations.",
+"back": "- **Case 1 (If $n$ is Odd):** The Mean Deviation about the mean mathematically collapses strictly to **$\\frac{n^2 - 1}{4n}$**.\n- **Case 2 (If $n$ is Even):** The Mean Deviation about the mean mathematically collapses strictly to **$\\frac{n}{4}$**.\n- **Origin:** This is a heavy algebraic manipulation derived in the NCERT Exemplar and Miscellaneous exercises. Memorising this bypasses massive summation calculations.",
 "standardMeta": {
 "question": "What are the two distinct formulas for the Mean Deviation about the Mean for the first 'n' natural numbers, depending on whether 'n' is odd or even?"
 }
@@ -643,9 +643,9 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11", "exemplar"],
 "order": 32,
 "heading": "Combined Standard Deviation / Variance",
-"back": "## Component Anatomy:\n- **$n_1, n_2$:** The number of observations in series 1 and series 2.\n- **$s_1^2, s_2^2$:** The variances of series 1 and series 2.\n- **$\bar{x}_1, \bar{x}_2$:** The arithmetic means of series 1 and series 2.\n\n## Boundary Conditions / Domain:\n- $n_1 > 0$ and $n_2 > 0$.",
+"back": "## Component Anatomy:\n- **$n_1, n_2$:** The number of observations in series 1 and series 2.\n- **$s_1^2, s_2^2$:** The variances of series 1 and series 2.\n- **$\\bar{x}_1, \\bar{x}_2$:** The arithmetic means of series 1 and series 2.\n\n## Boundary Conditions / Domain:\n- $n_1 > 0$ and $n_2 > 0$.",
 "formulaMeta": {
-"formula": "\sqrt{ \frac{n_1 s_1^2 + n_2 s_2^2}{n_1 + n_2} + \frac{n_1 n_2 (\bar{x}_1 - \bar{x}_2)^2}{(n_1 + n_2)^2} }",
+"formula": "\\sqrt{ \\frac{n_1 s_1^2 + n_2 s_2^2}{n_1 + n_2} + \\frac{n_1 n_2 (\\bar{x}_1 - \\bar{x}_2)^2}{(n_1 + n_2)^2} }",
 "description": "Complex formula to calculate the combined Standard Deviation of two distinct merged datasets.",
 "derivation": "Accounts for internal variance within each separate series AND variance introduced by difference between the two series' means."
 }
@@ -664,10 +664,10 @@
 "tags": ["math", "statistics", "coefficient-of-variation", "jee-main", "class-11"],
 "order": 33,
 "heading": "Coefficient of Variation (C.V.) Formula",
-"back": "## Component Anatomy:\n- **$\sigma$:** Standard Deviation of the dataset.\n- **$\bar{x}$:** Arithmetic Mean of the dataset.\n\n## Boundary Conditions / Domain:\n- **CRITICAL:** The arithmetic mean must strictly not equal zero ($\bar{x} \neq 0$).",
+"back": "## Component Anatomy:\n- **$\\sigma$:** Standard Deviation of the dataset.\n- **$\\bar{x}$:** Arithmetic Mean of the dataset.\n\n## Boundary Conditions / Domain:\n- **CRITICAL:** The arithmetic mean must strictly not equal zero ($\\bar{x} \\neq 0$).",
 "mnemonic": "SD over Mean, times a hundred.",
 "formulaMeta": {
-"formula": "C.V. = \frac{\sigma}{\bar{x}} \times 100",
+"formula": "C.V. = \\frac{\\sigma}{\\bar{x}} \\times 100",
 "description": "Formula used to compare the relative dispersion of two different distributions.",
 "derivation": "Scales standard deviation relative to the mean as a percentage."
 }
@@ -686,7 +686,7 @@
 "tags": ["math", "statistics", "coefficient-of-variation", "jee-main", "class-11"],
 "order": 34,
 "heading": "Comparing Consistency via C.V.",
-"back": "- **Rule 1 (More Consistent):** The distribution with the strictly **LESSER** Coefficient of Variation (C.V.) is considered more **consistent, stable, or uniform**.\n- **Rule 2 (More Variable):** The distribution with the strictly **GREATER** Coefficient of Variation is considered more **variable, dispersed, or scattered**.\n- **Shortcut:** If two series have the exact same mean ($\bar{x}$), bypass calculating C.V. entirely; the series with the higher Standard Deviation is directly the more variable one.",
+"back": "- **Rule 1 (More Consistent):** The distribution with the strictly **LESSER** Coefficient of Variation (C.V.) is considered more **consistent, stable, or uniform**.\n- **Rule 2 (More Variable):** The distribution with the strictly **GREATER** Coefficient of Variation is considered more **variable, dispersed, or scattered**.\n- **Shortcut:** If two series have the exact same mean ($\\bar{x}$), bypass calculating C.V. entirely; the series with the higher Standard Deviation is directly the more variable one.",
 "mnemonic": "Less CV = Less Chaos = More Consistent.",
 "standardMeta": {
 "question": "When comparing two different statistical series, what is the strict mathematical rule to determine which series is more consistent using C.V.?"
@@ -706,7 +706,7 @@
 "tags": ["math", "statistics", "variance", "jee-main", "class-11", "miscellaneous"],
 "order": 35,
 "heading": "SOP: Correcting Incorrect Statistical Parameters",
-"back": "**Step 1 (Isolate Incorrect Sums):** Use given incorrect Mean to find incorrect sum $\sum x_i = n \times \bar{x}$. Use incorrect Variance to find incorrect sum of squares $\sum x_i^2$.\n**Step 2 (Apply Corrections):**\n  - Correct $\sum x_i =$ Incorrect $\sum x_i - \text{Wrong Item} + \text{Right Item}$.\n  - Correct $\sum x_i^2 =$ Incorrect $\sum x_i^2 - (\text{Wrong Item})^2 + (\text{Right Item})^2$.\n**Step 3 (Recalculate):** Plug newly corrected sums back into standard Mean and Variance formulas.",
+"back": "**Step 1 (Isolate Incorrect Sums):** Use given incorrect Mean to find incorrect sum $\\sum x_i = n \\times \\bar{x}$. Use incorrect Variance to find incorrect sum of squares $\\sum x_i^2$.\n**Step 2 (Apply Corrections):**\n  - Correct $\\sum x_i =$ Incorrect $\\sum x_i - \\text{Wrong Item} + \\text{Right Item}$.\n  - Correct $\\sum x_i^2 =$ Incorrect $\\sum x_i^2 - (\\text{Wrong Item})^2 + (\\text{Right Item})^2$.\n**Step 3 (Recalculate):** Plug newly corrected sums back into standard Mean and Variance formulas.",
 "mnemonic": "Unpack to sums, swap the bad out for good, repack.",
 "standardMeta": {
 "question": "What is the strict algorithmic SOP to recalculate the Correct Mean and Correct Variance when a misread observation is discovered?"

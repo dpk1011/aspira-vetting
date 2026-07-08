@@ -17,11 +17,11 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 1,
 "heading": "Definition of Conditional Probability",
-"back": "## Component Anatomy:\n- **$P(E | F)$**: Probability of event $E$ given that $F$ has officially occurred.\n- **$P(E \cap F)$**: Probability of the simultaneous occurrence of both $E$ and $F$.\n- **$P(F)$**: Probability of the given event $F$.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint**: Requires $P(F) \neq 0$. You mathematically cannot condition on an impossible event.",
+"back": "## Component Anatomy:\n- **$P(E | F)$**: Probability of event $E$ given that $F$ has officially occurred.\n- **$P(E \\cap F)$**: Probability of the simultaneous occurrence of both $E$ and $F$.\n- **$P(F)$**: Probability of the given event $F$.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint**: Requires $P(F) \\neq 0$. You mathematically cannot condition on an impossible event.",
 "formulaMeta": {
 "formula": "P(E | F) = \\frac{P(E \\cap F)}{P(F)}",
 "description": "State the precise algebraic definition of the Conditional Probability of event E given that event F has already occurred.",
-"derivation": "**SOP (Intuition):**\n1. The given event $F$ becomes the new, restricted sample space.\n2. We divide the favourable overlapping intersection area $P(E \cap F)$ by the new total area $P(F)$ to correctly re-scale the probability."
+"derivation": "**SOP (Intuition):**\n1. The given event $F$ becomes the new, restricted sample space.\n2. We divide the favourable overlapping intersection area $P(E \\cap F)$ by the new total area $P(F)$ to correctly re-scale the probability."
 }
 }
 },
@@ -62,7 +62,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 3,
 "heading": "Conditional Probability of a Complement",
-"back": "## Component Anatomy:\n- **$E'$**: The complement of event $E$ (i.e., the strictly defined event where $E$ does not occur).\n- **$F$**: The governing conditioning event.\n\n## Boundary Conditions / Domain:\n- Constraint: $P(F) \neq 0$.\n- Conditional probability completely obeys standard probability axioms within the new restricted sample space $F$.",
+"back": "## Component Anatomy:\n- **$E'$**: The complement of event $E$ (i.e., the strictly defined event where $E$ does not occur).\n- **$F$**: The governing conditioning event.\n\n## Boundary Conditions / Domain:\n- Constraint: $P(F) \\neq 0$.\n- Conditional probability completely obeys standard probability axioms within the new restricted sample space $F$.",
 "formulaMeta": {
 "formula": "P(E' | F) = 1 - P(E | F)",
 "description": "State the fundamental formula relating the conditional probability of an event E and its complement E', strictly given F.",
@@ -86,10 +86,10 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 4,
 "heading": "Addition Theorem for Conditional Probability",
-"back": "## Component Anatomy:\n- **$A, B$**: Any two generic events belonging to the sample space.\n- **$F$**: The conditioning event.\n\n## Boundary Conditions / Domain:\n- Strict Constraint: $P(F) \neq 0$.\n- **Special Case**: If $A$ and $B$ are strictly disjoint (mutually exclusive), the intersection term $P((A \cap B)|F)$ perfectly collapses to $0$.",
+"back": "## Component Anatomy:\n- **$A, B$**: Any two generic events belonging to the sample space.\n- **$F$**: The conditioning event.\n\n## Boundary Conditions / Domain:\n- Strict Constraint: $P(F) \\neq 0$.\n- **Special Case**: If $A$ and $B$ are strictly disjoint (mutually exclusive), the intersection term $P((A \\cap B)|F)$ perfectly collapses to $0$.",
 "formulaMeta": {
 "formula": "P((A \\cup B) | F) = P(A | F) + P(B | F) - P((A \\cap B) | F)",
-"description": "State the standard addition theorem for calculating the conditional probability of the union of two events, $P((A \cup B) | F)$.",
+"description": "State the standard addition theorem for calculating the conditional probability of the union of two events, $P((A \\cup B) | F)$.",
 "derivation": ""
 }
 }
@@ -109,7 +109,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "logical-trap"],
 "order": 5,
 "heading": "Distinction: $P(E|F)$ vs $P(F|E)$",
-"back": "**No, they are generally NOT equal.**\n- They share the exact same algebraic numerator: $P(E \cap F)$.\n- However, they possess strictly different denominators. $P(E|F)$ is divided by $P(F)$, whereas $P(F|E)$ is divided by $P(E)$.\n- **Real-World Trap:** Confusing 'probability of disease given a positive test' with 'probability of a positive test given the disease'.",
+"back": "**No, they are generally NOT equal.**\n- They share the exact same algebraic numerator: $P(E \\cap F)$.\n- However, they possess strictly different denominators. $P(E|F)$ is divided by $P(F)$, whereas $P(F|E)$ is divided by $P(E)$.\n- **Real-World Trap:** Confusing 'probability of disease given a positive test' with 'probability of a positive test given the disease'.",
 "mnemonic": "The event AFTER the vertical bar ALWAYS strictly divides.",
 "standardMeta": {
 "question": "Are the conditional probabilities $P(E|F)$ and $P(F|E)$ mathematically equivalent? Explain the critical algebraic difference."
@@ -131,7 +131,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 6,
 "heading": "Multiplication Theorem (Two Events)",
-"back": "## Component Anatomy:\n- **$P(E \cap F)$**: Probability that both specific events occur sequentially or simultaneously.\n- **$P(F|E)$**: Updated conditional probability of $F$ after $E$ has already occurred.\n\n## Boundary Conditions / Domain:\n- Strictly requires $P(E) > 0$ and $P(F) > 0$ to avoid mathematically undefined conditions.",
+"back": "## Component Anatomy:\n- **$P(E \\cap F)$**: Probability that both specific events occur sequentially or simultaneously.\n- **$P(F|E)$**: Updated conditional probability of $F$ after $E$ has already occurred.\n\n## Boundary Conditions / Domain:\n- Strictly requires $P(E) > 0$ and $P(F) > 0$ to avoid mathematically undefined conditions.",
 "formulaMeta": {
 "formula": "P(E \\cap F) = P(E) \\cdot P(F | E) = P(F) \\cdot P(E | F)",
 "description": "State the standard Multiplication Theorem for calculating the probability of the intersection of two events E and F.",
@@ -154,7 +154,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 7,
 "heading": "Multiplication Theorem Chain Rule (Three Events)",
-"back": "## Component Anatomy:\n- **$E, F, G$**: Three explicitly sequential events.\n- **$P(G | E \cap F)$**: Probability of event $G$ occurring strictly given that BOTH $E$ and $F$ have already occurred.\n\n## Boundary Conditions / Domain:\n- The intersection probabilities of the prior conditioning events must be strictly greater than zero (i.e., $P(E) > 0$ and $P(E \cap F) > 0$).",
+"back": "## Component Anatomy:\n- **$E, F, G$**: Three explicitly sequential events.\n- **$P(G | E \\cap F)$**: Probability of event $G$ occurring strictly given that BOTH $E$ and $F$ have already occurred.\n\n## Boundary Conditions / Domain:\n- The intersection probabilities of the prior conditioning events must be strictly greater than zero (i.e., $P(E) > 0$ and $P(E \\cap F) > 0$).",
 "formulaMeta": {
 "formula": "P(E \\cap F \\cap G) = P(E) \\cdot P(F | E) \\cdot P(G | E \\cap F)",
 "description": "State the extended Multiplication Theorem chain rule for calculating the joint intersection of three sequential events E, F, and G.",
@@ -198,7 +198,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 9,
 "heading": "Independent Events: Product Rule Test",
-"back": "## Component Anatomy:\n- **$P(E \cap F)$**: The geometric intersection (probability of both occurring).\n- **$P(E) \cdot P(F)$**: The algebraic product of their individual, unconditional probabilities.\n\n## Boundary Conditions / Domain:\n- This is the cleanest mathematical litmus test for independence.\n- It strictly implies that conditionality provides no new information: $P(E|F) = P(E)$ and $P(F|E) = P(F)$ (assuming $P(E), P(F) > 0$).",
+"back": "## Component Anatomy:\n- **$P(E \\cap F)$**: The geometric intersection (probability of both occurring).\n- **$P(E) \\cdot P(F)$**: The algebraic product of their individual, unconditional probabilities.\n\n## Boundary Conditions / Domain:\n- This is the cleanest mathematical litmus test for independence.\n- It strictly implies that conditionality provides no new information: $P(E|F) = P(E)$ and $P(F|E) = P(F)$ (assuming $P(E), P(F) > 0$).",
 "formulaMeta": {
 "formula": "P(E \\cap F) = P(E) \\cdot P(F)",
 "description": "State the definitive algebraic test (the Product Rule) used to mathematically prove that two events E and F are strictly independent.",
@@ -221,7 +221,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "logical-trap"],
 "order": 10,
 "heading": "Trap: Independent vs. Mutually Exclusive",
-"back": "- **Mutually Exclusive (Disjoint):** $P(E \cap F) = 0$. The events physically cannot happen at the same time. This is a relationship regarding physical *outcomes*.\n- **Independent:** $P(E \cap F) = P(E)P(F)$. The occurrence of one event provides absolutely zero information about the likelihood of the other. This is a relationship regarding mathematical *probabilities*.\n- **The Critical Trap:** If $P(E) > 0$ and $P(F) > 0$, two events can **NEVER** be both independent and mutually exclusive simultaneously. If they are mutually exclusive, knowing $E$ happened tells you $F$ definitely did NOT happen (which is massive information, hence highly dependent).",
+"back": "- **Mutually Exclusive (Disjoint):** $P(E \\cap F) = 0$. The events physically cannot happen at the same time. This is a relationship regarding physical *outcomes*.\n- **Independent:** $P(E \\cap F) = P(E)P(F)$. The occurrence of one event provides absolutely zero information about the likelihood of the other. This is a relationship regarding mathematical *probabilities*.\n- **The Critical Trap:** If $P(E) > 0$ and $P(F) > 0$, two events can **NEVER** be both independent and mutually exclusive simultaneously. If they are mutually exclusive, knowing $E$ happened tells you $F$ definitely did NOT happen (which is massive information, hence highly dependent).",
 "mnemonic": "Mutually Exclusive = Disjoint Sets. Independent = Unlinked Probabilities.",
 "standardMeta": {
 "question": "What is the fundamental mathematical distinction between Independent events and Mutually Exclusive events? Can they exist simultaneously?"
@@ -258,7 +258,7 @@
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 12.",
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "Moved up to group tightly with independence conditions.",
 "cardData": {
@@ -291,12 +291,12 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "shortcut"],
 "order": 13,
 "heading": "Shortcut: Probability of 'At Least One'",
-"back": "## Component Anatomy:\n- **$P(A'), P(B')$**: Unconditional probabilities of the events NOT occurring.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** This heavily relies on the events being **independent** so their complements factorise cleanly: $P(A' \cap B') = P(A')P(B')$.\n- For dependent events, you must revert to the standard inclusion-exclusion principle: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.",
+"back": "## Component Anatomy:\n- **$P(A'), P(B')$**: Unconditional probabilities of the events NOT occurring.\n\n## Boundary Conditions / Domain:\n- **Strict Constraint:** This heavily relies on the events being **independent** so their complements factorise cleanly: $P(A' \\cap B') = P(A')P(B')$.\n- For dependent events, you must revert to the standard inclusion-exclusion principle: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
 "mnemonic": "One minus none.",
 "formulaMeta": {
 "formula": "P(A \\cup B) = 1 - P(A') \\cdot P(B')",
 "description": "State the shortcut formula for finding the probability of 'at least one of A or B' occurring, strictly assuming A and B are independent events.",
-"derivation": "**SOP:**\n1. Identify that the logical complement of 'at least one occurs' is exactly 'NONE occur'.\n2. The mathematical probability that none occur is $P(A' \cap B')$.\n3. Because they are strictly independent, $P(A' \cap B') = P(A')P(B')$.\n4. Subtract this product from the total deterministic probability $1$."
+"derivation": "**SOP:**\n1. Identify that the logical complement of 'at least one occurs' is exactly 'NONE occur'.\n2. The mathematical probability that none occur is $P(A' \\cap B')$.\n3. Because they are strictly independent, $P(A' \\cap B') = P(A')P(B')$.\n4. Subtract this product from the total deterministic probability $1$."
 }
 }
 },
@@ -315,9 +315,9 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main"],
 "order": 14,
 "heading": "Definition: Partition of a Sample Space",
-"back": "A set of events $E_1, E_2, \dots, E_n$ mathematically represents a strict partition of the sample space $S$ if it satisfies:\n1. **Pairwise Disjoint:** $E_i \cap E_j = \emptyset$ for all $i \neq j$ (No overlapping events).\n2. **Exhaustive:** $E_1 \cup E_2 \cup \dots \cup E_n = S$ (Their union covers the entire sample space).\n3. **Non-Zero Probability:** $P(E_i) > 0$ for all $i$ (No impossible events).\n\n- *Example:* Any standard event $E$ and its complement $E'$ automatically form the simplest binary partition.",
+"back": "A set of events $E_1, E_2, \\dots, E_n$ mathematically represents a strict partition of the sample space $S$ if it satisfies:\n1. **Pairwise Disjoint:** $E_i \\cap E_j = \\emptyset$ for all $i \\neq j$ (No overlapping events).\n2. **Exhaustive:** $E_1 \\cup E_2 \\cup \\dots \\cup E_n = S$ (Their union covers the entire sample space).\n3. **Non-Zero Probability:** $P(E_i) > 0$ for all $i$ (No impossible events).\n\n- *Example:* Any standard event $E$ and its complement $E'$ automatically form the simplest binary partition.",
 "standardMeta": {
-"question": "What three strict mathematical conditions must a set of events $E_1, E_2, \dots, E_n$ satisfy to officially form a 'Partition' of the sample space?"
+"question": "What three strict mathematical conditions must a set of events $E_1, E_2, \\dots, E_n$ satisfy to officially form a 'Partition' of the sample space?"
 }
 }
 },
@@ -336,12 +336,12 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 15,
 "heading": "Theorem of Total Probability",
-"back": "## Component Anatomy:\n- **$P(A)$**: Total unconditional probability of event A occurring.\n- **$E_j$**: The partition events (acting as mutually exclusive routes to A).\n- **$P(E_j)$**: Probability of taking specific route $j$.\n- **$P(A | E_j)$**: Probability of A occurring strictly given route $j$ was taken.\n\n## Boundary Conditions / Domain:\n- The set $\\{E_1, E_2, \dots, E_n\\}$ MUST form a valid, exhaustive partition of the sample space.",
+"back": "## Component Anatomy:\n- **$P(A)$**: Total unconditional probability of event A occurring.\n- **$E_j$**: The partition events (acting as mutually exclusive routes to A).\n- **$P(E_j)$**: Probability of taking specific route $j$.\n- **$P(A | E_j)$**: Probability of A occurring strictly given route $j$ was taken.\n\n## Boundary Conditions / Domain:\n- The set $\\{E_1, E_2, \\dots, E_n\\}$ MUST form a valid, exhaustive partition of the sample space.",
 "mnemonic": "Sum of (Path Probability x Conditional Probability).",
 "formulaMeta": {
 "formula": "P(A) = \\sum_{j=1}^{n} P(E_j)P(A | E_j)",
 "description": "State the Theorem of Total Probability for evaluating an event A over a partitioned sample space $E_1$ to $E_n$.",
-"derivation": "**Proof Insight:**\n1. Express $A$ structurally as the union of disjoint intersections: $A = (A \cap E_1) \cup (A \cap E_2) \dots$\n2. Apply basic probability axioms: $P(A) = \sum P(A \cap E_j)$.\n3. Expand using the standard Multiplication Theorem to yield the final mathematical formula."
+"derivation": "**Proof Insight:**\n1. Express $A$ structurally as the union of disjoint intersections: $A = (A \\cap E_1) \\cup (A \\cap E_2) \\dots$\n2. Apply basic probability axioms: $P(A) = \\sum P(A \\cap E_j)$.\n3. Expand using the standard Multiplication Theorem to yield the final mathematical formula."
 }
 }
 },
@@ -381,7 +381,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula"],
 "order": 17,
 "heading": "Bayes' Theorem Formula",
-"back": "## Component Anatomy:\n- **$P(E_i | A)$**: The posterior probability (probability of specific cause $E_i$ given the observed effect $A$).\n- **Numerator**: The specific probability of the chosen cause-and-effect path.\n- **Denominator**: The total probability of effect $A$ occurring across all possible partitioned causes.\n\n## Boundary Conditions / Domain:\n- Constraint: $P(A) \neq 0$. Used strictly to invert conditional probabilities from $P(A|E_i)$ to $P(E_i|A)$.",
+"back": "## Component Anatomy:\n- **$P(E_i | A)$**: The posterior probability (probability of specific cause $E_i$ given the observed effect $A$).\n- **Numerator**: The specific probability of the chosen cause-and-effect path.\n- **Denominator**: The total probability of effect $A$ occurring across all possible partitioned causes.\n\n## Boundary Conditions / Domain:\n- Constraint: $P(A) \\neq 0$. Used strictly to invert conditional probabilities from $P(A|E_i)$ to $P(E_i|A)$.",
 "mnemonic": "Posterior = (Specific Path) / (Sum of All Paths)",
 "formulaMeta": {
 "formula": "P(E_i | A) = \\frac{P(E_i)P(A | E_i)}{\\sum_{j=1}^{n} P(E_j)P(A | E_j)}",
@@ -405,7 +405,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main"],
 "order": 18,
 "heading": "SOP: Executing Bayes' Theorem",
-"back": "**Standard Operating Procedure (SOP):**\n1. Identify the specific effect event $A$ that has already deterministically occurred.\n2. Identify all mutually exclusive causes (hypotheses) $E_1, \dots, E_n$ forming the partition.\n3. Write down all individual Priors $P(E_i)$ and Likelihoods $P(A|E_i)$ from the problem text.\n4. Multiply the Priors and Likelihoods to get the individual numerator for the specific target path.\n5. Divide this target path strictly by the sum of all such products (applying the Theorem of Total Probability).",
+"back": "**Standard Operating Procedure (SOP):**\n1. Identify the specific effect event $A$ that has already deterministically occurred.\n2. Identify all mutually exclusive causes (hypotheses) $E_1, \\dots, E_n$ forming the partition.\n3. Write down all individual Priors $P(E_i)$ and Likelihoods $P(A|E_i)$ from the problem text.\n4. Multiply the Priors and Likelihoods to get the individual numerator for the specific target path.\n5. Divide this target path strictly by the sum of all such products (applying the Theorem of Total Probability).",
 "standardMeta": {
 "question": "What is the systematic step-by-step Standard Operating Procedure (SOP) to set up and algebraically solve a reverse probability problem using Bayes' Theorem?"
 }
@@ -451,7 +451,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "jee-extension"],
 "order": 20,
 "heading": "Definition: Random Variable",
-"back": "A **random variable** is mathematically defined as a real-valued function whose domain is the explicit sample space of a random experiment.\n\n- Formally: $X : S \to \mathbb{R}$.\n- It acts as a bridge, converting qualitative experimental physical outcomes (like 'Heads' or 'Tails') into quantitative numerical values (like $1$ or $0$) so standard mathematical and statistical operations can be applied.",
+"back": "A **random variable** is mathematically defined as a real-valued function whose domain is the explicit sample space of a random experiment.\n\n- Formally: $X : S \\to \\mathbb{R}$.\n- It acts as a bridge, converting qualitative experimental physical outcomes (like 'Heads' or 'Tails') into quantitative numerical values (like $1$ or $0$) so standard mathematical and statistical operations can be applied.",
 "standardMeta": {
 "question": "What is the formal mathematical definition and functional purpose of a Random Variable $X$?"
 }
@@ -497,7 +497,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "jee-extension"],
 "order": 22,
 "heading": "Mean (Expectation) of a Random Variable",
-"back": "## Component Anatomy:\n- **$\mu$ or $E(X)$**: The expected average mathematical value if the underlying experiment was repeated infinitely.\n- **$x_i$**: The numerical value taken by the random variable.\n- **$p_i$**: The probability of that specific value occurring.\n\n## Boundary Conditions / Domain:\n- **Distinction Trap:** The mean does *not* have to be a discrete value that the random variable can physically take (e.g., the true mathematical mean of a standard die roll is exactly $3.5$).",
+"back": "## Component Anatomy:\n- **$\\mu$ or $E(X)$**: The expected average mathematical value if the underlying experiment was repeated infinitely.\n- **$x_i$**: The numerical value taken by the random variable.\n- **$p_i$**: The probability of that specific value occurring.\n\n## Boundary Conditions / Domain:\n- **Distinction Trap:** The mean does *not* have to be a discrete value that the random variable can physically take (e.g., the true mathematical mean of a standard die roll is exactly $3.5$).",
 "formulaMeta": {
 "formula": "\\mu = E(X) = \\sum_{i=1}^{n} x_i p_i",
 "description": "State the standard summation formula for calculating the Mean (Expected Value) of a discrete random variable X.",
@@ -521,7 +521,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "jee-extension"],
 "order": 23,
 "heading": "Formula: Variance of a Random Variable",
-"back": "## Component Anatomy:\n- **$E(X^2)$**: The mathematical expectation of the squares: $\sum x_i^2 p_i$.\n- **$[E(X)]^2$**: The square of the calculated mean ($\mu^2$).\n\n## Boundary Conditions / Domain:\n- Variance mathematically measures the geometric spread or dispersion of the random variable around its mean.\n- It strictly is always $\ge 0$.\n- **Standard Deviation ($\sigma$)** is strictly defined as the positive square root of the variance.",
+"back": "## Component Anatomy:\n- **$E(X^2)$**: The mathematical expectation of the squares: $\\sum x_i^2 p_i$.\n- **$[E(X)]^2$**: The square of the calculated mean ($\\mu^2$).\n\n## Boundary Conditions / Domain:\n- Variance mathematically measures the geometric spread or dispersion of the random variable around its mean.\n- It strictly is always $\\ge 0$.\n- **Standard Deviation ($\\sigma$)** is strictly defined as the positive square root of the variance.",
 "mnemonic": "Mean of the squares MINUS square of the mean.",
 "formulaMeta": {
 "formula": "\\text{Var}(X) = E(X^2) - [E(X)]^2 = \\sum_{i=1}^{n} x_i^2 p_i - \\mu^2",
@@ -545,7 +545,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "jee-extension"],
 "order": 24,
 "heading": "SOP: Calculating Variance of a Random Variable",
-"back": "**Standard Operating Procedure (SOP):**\n1. Calculate the standard mean $\mu = \sum x_i p_i$.\n2. Mathematically square each individual $x_i$ value.\n3. Multiply each resulting $x_i^2$ by its corresponding probability weight $p_i$, and sum them completely to get the term $E(X^2)$.\n4. Subtract the square of the mean $\mu^2$ strictly from the $E(X^2)$ value.",
+"back": "**Standard Operating Procedure (SOP):**\n1. Calculate the standard mean $\\mu = \\sum x_i p_i$.\n2. Mathematically square each individual $x_i$ value.\n3. Multiply each resulting $x_i^2$ by its corresponding probability weight $p_i$, and sum them completely to get the term $E(X^2)$.\n4. Subtract the square of the mean $\\mu^2$ strictly from the $E(X^2)$ value.",
 "standardMeta": {
 "question": "What is the systematic 4-step algorithm (SOP) to mathematically calculate the variance of a discrete random variable given its probability distribution?"
 }
@@ -590,7 +590,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "jee-extension"],
 "order": 26,
 "heading": "Binomial Distribution (Probability Mass Function)",
-"back": "## Component Anatomy:\n- **$n$**: Total number of fixed Bernoulli trials.\n- **$r$**: Number of desired successful outcomes.\n- **$p$**: Probability of success in a single trial.\n- **$q$**: Probability of failure in a single trial ($1-p$).\n- **$\binom{n}{r}$**: Combinatorics factor (${}^nC_r$) mathematically accounting for the different possible sequence arrangements of successes and failures.\n\n## Boundary Conditions / Domain:\n- **Strict Domain Constraint:** $r$ can only mathematically take discrete integer values from $0$ up to $n$ ($r \in \\{0, 1, 2, \dots, n\\}$).",
+"back": "## Component Anatomy:\n- **$n$**: Total number of fixed Bernoulli trials.\n- **$r$**: Number of desired successful outcomes.\n- **$p$**: Probability of success in a single trial.\n- **$q$**: Probability of failure in a single trial ($1-p$).\n- **$\\binom{n}{r}$**: Combinatorics factor (${}^nC_r$) mathematically accounting for the different possible sequence arrangements of successes and failures.\n\n## Boundary Conditions / Domain:\n- **Strict Domain Constraint:** $r$ can only mathematically take discrete integer values from $0$ up to $n$ ($r \\in \\{0, 1, 2, \\dots, n\\}$).",
 "formulaMeta": {
 "formula": "P(X = r) = \\binom{n}{r} p^r q^{n-r}",
 "description": "State the standard algebraic formula for finding the probability of obtaining exactly r successes in a Binomial Distribution B(n, p).",
@@ -614,7 +614,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "jee-extension"],
 "order": 27,
 "heading": "Mean and Variance of Binomial Distribution",
-"back": "## Component Anatomy:\n- **$n$**: Number of trials.\n- **$p$**: Probability of success.\n- **$q$**: Probability of failure ($1-p$).\n\n## Boundary Conditions / Domain:\n- **Distinction Trap:** The mean is strictly dependent on the success probability $p$. A common slip is using $\mu = n/2$ universally. For a binomial distribution $B(100, 0.3)$, the true mean is exactly $30$, not $50$.\n- **Mathematical Invariant:** For any valid Binomial Distribution, the Variance is strictly ALWAYS less than the Mean ($npq < np$ because $q < 1$).",
+"back": "## Component Anatomy:\n- **$n$**: Number of trials.\n- **$p$**: Probability of success.\n- **$q$**: Probability of failure ($1-p$).\n\n## Boundary Conditions / Domain:\n- **Distinction Trap:** The mean is strictly dependent on the success probability $p$. A common slip is using $\\mu = n/2$ universally. For a binomial distribution $B(100, 0.3)$, the true mean is exactly $30$, not $50$.\n- **Mathematical Invariant:** For any valid Binomial Distribution, the Variance is strictly ALWAYS less than the Mean ($npq < np$ because $q < 1$).",
 "formulaMeta": {
 "formula": "\\mu = np \\quad , \\quad \\sigma^2 = npq",
 "description": "State the shortcut mathematical identities for calculating the Mean and Variance specifically for a Binomial Distribution B(n, p).",
@@ -637,9 +637,9 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "boundary-condition"],
 "order": 28,
 "heading": "Subset Conditioning and Probability Bounds",
-"back": "- **Geometric Setup:** Because $A \subset B$, their mathematical intersection perfectly collapses to the smaller set itself: $A \cap B = A$.\n- **First Condition:** Therefore, $P(B|A) = \frac{P(A \cap B)}{P(A)} = \frac{P(A)}{P(A)} = 1$. (If $A$ has occurred, $B$ has definitively occurred).\n- **Second Condition (Lower Bound):** For the reverse conditioning, $P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(A)}{P(B)}$.\n- Because probabilities are bounded by $P(B) \le 1$, algebraically dividing $P(A)$ by a number less than or equal to $1$ makes the resulting fraction larger or equal, formally proving that **$P(A|B) \ge P(A)$**.",
+"back": "- **Geometric Setup:** Because $A \\subset B$, their mathematical intersection perfectly collapses to the smaller set itself: $A \\cap B = A$.\n- **First Condition:** Therefore, $P(B|A) = \\frac{P(A \\cap B)}{P(A)} = \\frac{P(A)}{P(A)} = 1$. (If $A$ has occurred, $B$ has definitively occurred).\n- **Second Condition (Lower Bound):** For the reverse conditioning, $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A)}{P(B)}$.\n- Because probabilities are bounded by $P(B) \\le 1$, algebraically dividing $P(A)$ by a number less than or equal to $1$ makes the resulting fraction larger or equal, formally proving that **$P(A|B) \\ge P(A)$**.",
 "standardMeta": {
-"question": "If event A is a strict mathematical subset of event B ($A \subset B$) and $P(A) \neq 0, P(B) \neq 0$, what is the exact value of $P(B|A)$ and the mathematical lower bound of $P(A|B)$?"
+"question": "If event A is a strict mathematical subset of event B ($A \\subset B$) and $P(A) \\neq 0, P(B) \\neq 0$, what is the exact value of $P(B|A)$ and the mathematical lower bound of $P(A|B)$?"
 }
 }
 },
@@ -659,7 +659,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main"],
 "order": 29,
 "heading": "Symmetry of Conditional Probability Bounds",
-"back": "It mathematically forces the exact converse inequality to be true: **$P(B|A) > P(B)$**.\n\n- **Algebraic Proof:** \n  1. Start with the given: $P(A|B) > P(A) \implies \frac{P(A \cap B)}{P(B)} > P(A)$.\n  2. Cross-multiply (safe since probabilities are positive): $P(A \cap B) > P(A)P(B)$.\n  3. Divide both sides strictly by $P(A)$: $\frac{P(A \cap B)}{P(A)} > P(B)$.\n  4. The LHS perfectly matches the definition of $P(B|A)$, proving the relation.",
+"back": "It mathematically forces the exact converse inequality to be true: **$P(B|A) > P(B)$**.\n\n- **Algebraic Proof:** \n  1. Start with the given: $P(A|B) > P(A) \\implies \\frac{P(A \\cap B)}{P(B)} > P(A)$.\n  2. Cross-multiply (safe since probabilities are positive): $P(A \\cap B) > P(A)P(B)$.\n  3. Divide both sides strictly by $P(A)$: $\\frac{P(A \\cap B)}{P(A)} > P(B)$.\n  4. The LHS perfectly matches the definition of $P(B|A)$, proving the relation.",
 "standardMeta": {
 "question": "If generic events A and B are mathematically situated such that $P(A|B) > P(A)$, what strict algebraic inequality must simultaneously hold true for the inverse conditional $P(B|A)$?"
 }
@@ -681,9 +681,9 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "algebra-analogue"],
 "order": 30,
 "heading": "Algebraic Analogue: Hidden Conditional Certainty",
-"back": "It algebraically forces the conditional probability **$P(A|B) = 1$**.\n\n- **Algebraic Proof:** \n  1. The given starting equation is $P(A) + P(B) - P(A \cap B) = P(A)$.\n  2. Canceling the common $P(A)$ term from both sides leaves strictly $P(B) - P(A \cap B) = 0$.\n  3. This simplifies algebraically to $P(A \cap B) = P(B)$.\n  4. Substituting this identity into the conditional formula gives $P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B)}{P(B)} = 1$.",
+"back": "It algebraically forces the conditional probability **$P(A|B) = 1$**.\n\n- **Algebraic Proof:** \n  1. The given starting equation is $P(A) + P(B) - P(A \\cap B) = P(A)$.\n  2. Canceling the common $P(A)$ term from both sides leaves strictly $P(B) - P(A \\cap B) = 0$.\n  3. This simplifies algebraically to $P(A \\cap B) = P(B)$.\n  4. Substituting this identity into the conditional formula gives $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(B)}{P(B)} = 1$.",
 "standardMeta": {
-"question": "If you are provided with the algebraic probability equation $P(A) + P(B) - P(A \cap B) = P(A)$ (with $P(B) > 0$), what hidden conditional probability is strictly implied to be mathematically certain ($1$)?"
+"question": "If you are provided with the algebraic probability equation $P(A) + P(B) - P(A \\cap B) = P(A)$ (with $P(B) > 0$), what hidden conditional probability is strictly implied to be mathematically certain ($1$)?"
 }
 }
 },
@@ -703,7 +703,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "formula", "jee-extension"],
 "order": 31,
 "heading": "Formula: Alternating Turns Game (Infinite G.P.)",
-"back": "## Component Anatomy:\n- **$p$**: Probability of success on a single independent trial.\n- **$q$**: Probability of failure on a single trial ($1-p$).\n\n## Boundary Conditions / Domain:\n- This strictly applies only when players alternate turns infinitely until the very first success occurs.\n- **Convergence Verification:** Because the probability of failure must be strictly $0 < q < 1$, the common ratio $|q^2| < 1$, proving the infinite geometric series sum formula $S_\infty = \frac{a}{1-r}$ is mathematically valid and convergent.",
+"back": "## Component Anatomy:\n- **$p$**: Probability of success on a single independent trial.\n- **$q$**: Probability of failure on a single trial ($1-p$).\n\n## Boundary Conditions / Domain:\n- This strictly applies only when players alternate turns infinitely until the very first success occurs.\n- **Convergence Verification:** Because the probability of failure must be strictly $0 < q < 1$, the common ratio $|q^2| < 1$, proving the infinite geometric series sum formula $S_\\infty = \\frac{a}{1-r}$ is mathematically valid and convergent.",
 "formulaMeta": {
 "formula": "P(\\text{A wins}) = \\frac{p}{1 - q^2}",
 "description": "State the shortcut mathematical formula for the probability of Player A winning a game if A and B take alternate turns, A explicitly starts first, and the game ends on the very first success.",
@@ -726,7 +726,7 @@
 "tags": ["mathematics", "probability", "class-12", "jee-main", "jee-extension"],
 "order": 32,
 "heading": "SOP: Deriving the Alternating Turns Sequence",
-"back": "**Standard Operating Procedure (SOP):**\n1. Establish the winning paths: Player A strictly wins only if they succeed on turn 1, or turn 3, or turn 5, continuing infinitely.\n2. Write out the logical sequence of events for A winning: $A$, or $(A' \cap B' \cap A)$, or $(A' \cap B' \cap A' \cap B' \cap A)$.\n3. Because the trials are independent, convert this logic into algebraic probabilities: $p + (q \cdot q \cdot p) + (q \cdot q \cdot q \cdot q \cdot p) + \dots = p + q^2p + q^4p + \dots$\n4. Mathematically identify this structure as an infinite Geometric Progression (G.P.) with the first term $a = p$ and common ratio $r = q^2$.\n5. Apply the standard infinite sum formula $S = \frac{a}{1 - r}$ to obtain the final probability.",
+"back": "**Standard Operating Procedure (SOP):**\n1. Establish the winning paths: Player A strictly wins only if they succeed on turn 1, or turn 3, or turn 5, continuing infinitely.\n2. Write out the logical sequence of events for A winning: $A$, or $(A' \\cap B' \\cap A)$, or $(A' \\cap B' \\cap A' \\cap B' \\cap A)$.\n3. Because the trials are independent, convert this logic into algebraic probabilities: $p + (q \\cdot q \\cdot p) + (q \\cdot q \\cdot q \\cdot q \\cdot p) + \\dots = p + q^2p + q^4p + \\dots$\n4. Mathematically identify this structure as an infinite Geometric Progression (G.P.) with the first term $a = p$ and common ratio $r = q^2$.\n5. Apply the standard infinite sum formula $S = \\frac{a}{1 - r}$ to obtain the final probability.",
 "standardMeta": {
 "question": "What is the systematic procedure (SOP) to geometrically map out and mathematically sum the probabilities for Player A winning an infinite alternating-turns game?"
 }
@@ -747,10 +747,10 @@
 "classification": "APPLICATION",
 "tags": ["mathematics", "probability", "class-12", "jee-main", "misc-exercise"],
 "order": 33,
-"heading": "Application Trap: The $2\times 2$ Determinant",
-"back": "- **Sample Space Calculation:** A $2 \times 2$ determinant contains exactly 4 distinct matrix entries. With strictly 2 choices ($0$ or $1$) per entry, the total unconstrained sample space is geometrically $2^4 = 16$.\n- **Positive Value Condition:** For a matrix $\begin{bmatrix} a & b \\\\ c & d \end{bmatrix}$, the determinant is $ad - bc$. For this to be strictly positive ($ad - bc > 0$), we MUST have the exact configuration $ad = 1$ and $bc = 0$.\n- **Favourable Outcomes Analysis:** \n  1. For $ad = 1$, we are restricted to exactly $a = 1$ and $d = 1$ (1 valid combination).\n  2. For $bc = 0$, we can choose $(b=0,c=0)$, $(b=0,c=1)$, or $(b=1,c=0)$ (3 valid combinations).\n- **Final Result:** Using the Fundamental Principle of Counting, $1 \times 3 = 3$ total favourable matrices. The absolute probability is strictly **$3/16$**.",
+"heading": "Application Trap: The $2\\times 2$ Determinant",
+"back": "- **Sample Space Calculation:** A $2 \\times 2$ determinant contains exactly 4 distinct matrix entries. With strictly 2 choices ($0$ or $1$) per entry, the total unconstrained sample space is geometrically $2^4 = 16$.\n- **Positive Value Condition:** For a matrix $\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, the determinant is $ad - bc$. For this to be strictly positive ($ad - bc > 0$), we MUST have the exact configuration $ad = 1$ and $bc = 0$.\n- **Favourable Outcomes Analysis:** \n  1. For $ad = 1$, we are restricted to exactly $a = 1$ and $d = 1$ (1 valid combination).\n  2. For $bc = 0$, we can choose $(b=0,c=0)$, $(b=0,c=1)$, or $(b=1,c=0)$ (3 valid combinations).\n- **Final Result:** Using the Fundamental Principle of Counting, $1 \\times 3 = 3$ total favourable matrices. The absolute probability is strictly **$3/16$**.",
 "standardMeta": {
-"question": "If every single element of a $2 \times 2$ matrix determinant is randomly chosen to be either $0$ or $1$, what is the total sample space size, and what is the standard procedure to mathematically find the probability of yielding a strictly positive determinant?"
+"question": "If every single element of a $2 \\times 2$ matrix determinant is randomly chosen to be either $0$ or $1$, what is the total sample space size, and what is the standard procedure to mathematically find the probability of yielding a strictly positive determinant?"
 }
 }
 },

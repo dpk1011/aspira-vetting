@@ -18,7 +18,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 1,
 "heading": "Definite Integral for Area Under a Curve (Vertical Element)",
-"back": "## Component Anatomy:\n- **$y = f(x)$:** The boundary curve.\n- **$[a, b]$:** The interval boundaries on the x-axis.\n- **$y$:** The height of the infinitesimal vertical strip.\n- **$dx$:** The width of the vertical strip.\n\n## Boundary Conditions / Domain:\n- The curve $f(x)$ must be continuous on the interval $[a, b]$.\n- To represent purely positive geometric area without taking absolute values, $f(x) \ge 0$ must hold for all $x \in [a, b]$.",
+"back": "## Component Anatomy:\n- **$y = f(x)$:** The boundary curve.\n- **$[a, b]$:** The interval boundaries on the x-axis.\n- **$y$:** The height of the infinitesimal vertical strip.\n- **$dx$:** The width of the vertical strip.\n\n## Boundary Conditions / Domain:\n- The curve $f(x)$ must be continuous on the interval $[a, b]$.\n- To represent purely positive geometric area without taking absolute values, $f(x) \\ge 0$ must hold for all $x \\in [a, b]$.",
 "mnemonic": "Y tracks the height, dx tracks the width.",
 "formulaMeta": {
 "formula": "A = \\int_{a}^{b} y dx = \\int_{a}^{b} f(x) dx",
@@ -43,7 +43,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 2,
 "heading": "Definite Integral for Area Under a Curve (Horizontal Element)",
-"back": "## Component Anatomy:\n- **$x = g(y)$:** The curve expressed as a function of $y$.\n- **$[c, d]$:** The interval boundaries on the y-axis.\n- **$x$:** The horizontal length of the infinitesimal strip.\n- **$dy$:** The vertical thickness of the strip.\n\n## Boundary Conditions / Domain:\n- The curve $g(y)$ must be continuous on $[c, d]$.\n- To represent purely positive geometric area without absolute values, $g(y) \ge 0$ must hold for all $y \in [c, d]$.",
+"back": "## Component Anatomy:\n- **$x = g(y)$:** The curve expressed as a function of $y$.\n- **$[c, d]$:** The interval boundaries on the y-axis.\n- **$x$:** The horizontal length of the infinitesimal strip.\n- **$dy$:** The vertical thickness of the strip.\n\n## Boundary Conditions / Domain:\n- The curve $g(y)$ must be continuous on $[c, d]$.\n- To represent purely positive geometric area without absolute values, $g(y) \\ge 0$ must hold for all $y \\in [c, d]$.",
 "mnemonic": "X tracks the length, dy tracks the thickness.",
 "formulaMeta": {
 "formula": "A = \\int_{c}^{d} x dy = \\int_{c}^{d} g(y) dy",
@@ -68,7 +68,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 3,
 "heading": "Handling Area Below the Axis",
-"back": "- **Concept:** Definite integrals strictly compute *algebraic* area. If a curve lies strictly below the x-axis (where $f(x) < 0$), the integral evaluates to a negative number.\n- **The Rule:** Because geometric physical area cannot be negative, you MUST take the **absolute value (modulus)** of the definite integral for that specific region.\n- **Formula:** $A = \left| \int_{a}^{b} f(x) dx \right|$",
+"back": "- **Concept:** Definite integrals strictly compute *algebraic* area. If a curve lies strictly below the x-axis (where $f(x) < 0$), the integral evaluates to a negative number.\n- **The Rule:** Because geometric physical area cannot be negative, you MUST take the **absolute value (modulus)** of the definite integral for that specific region.\n- **Formula:** $A = \\left| \\int_{a}^{b} f(x) dx \\right|$",
 "mnemonic": "Area is real, so seal it in a modulus.",
 "standardMeta": {
 "question": "If a curve $y = f(x)$ lies strictly below the x-axis on an interval $[a, b]$, what mathematical operation must be applied to its definite integral to find the true geometric area?"
@@ -90,7 +90,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 4,
 "heading": "SOP: Area of Curves Crossing the Axis",
-"back": "- **The Trap:** If a curve crosses the x-axis (e.g., $y = \cos x$ from $0$ to $\pi$), integrating straight from $a$ to $b$ causes the positive and negative areas to algebraically cancel each other out, yielding an incorrect (often zero) geometric result.\n\n**Standard Operating Procedure (SOP):**\n1. Find the exact interior point(s) $x = c$ where the curve crosses the axis by setting $f(x) = 0$ and solving for $x$.\n2. Split the integral perfectly at $c$: $\int_a^c f(x) dx$ and $\int_c^b f(x) dx$.\n3. Take the absolute value of the negative evaluation and add the magnitudes together: $A = |A_1| + |A_2|$.",
+"back": "- **The Trap:** If a curve crosses the x-axis (e.g., $y = \\cos x$ from $0$ to $\\pi$), integrating straight from $a$ to $b$ causes the positive and negative areas to algebraically cancel each other out, yielding an incorrect (often zero) geometric result.\n\n**Standard Operating Procedure (SOP):**\n1. Find the exact interior point(s) $x = c$ where the curve crosses the axis by setting $f(x) = 0$ and solving for $x$.\n2. Split the integral perfectly at $c$: $\\int_a^c f(x) dx$ and $\\int_c^b f(x) dx$.\n3. Take the absolute value of the negative evaluation and add the magnitudes together: $A = |A_1| + |A_2|$.",
 "mnemonic": "Split at the roots, sum the absolute parts.",
 "standardMeta": {
 "question": "What is the standard procedure (SOP) to find the area bounded by a curve that partially lies above and partially lies below the x-axis on the interval $[a, b]$?"
@@ -112,10 +112,10 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "extension"],
 "order": 5,
 "heading": "The 'Zero Area' Odd Function Trap",
-"back": "- **The Trap:** If a function is perfectly odd (e.g., $f(x) = x^3$) and is integrated over a symmetric interval $[-a, a]$, the definite integral mathematically evaluates to strictly $0$.\n- **The Reality:** Geometric physical area can never be zero or negative. The positive area in the first quadrant and the negative area in the third quadrant cancel each other out algebraically.\n- **The Fix:** To find the true geometric area, you MUST apply an absolute value inside the integral: $A = \int_{-a}^a |x^3| dx = 2 \int_0^a x^3 dx$.",
+"back": "- **The Trap:** If a function is perfectly odd (e.g., $f(x) = x^3$) and is integrated over a symmetric interval $[-a, a]$, the definite integral mathematically evaluates to strictly $0$.\n- **The Reality:** Geometric physical area can never be zero or negative. The positive area in the first quadrant and the negative area in the third quadrant cancel each other out algebraically.\n- **The Fix:** To find the true geometric area, you MUST apply an absolute value inside the integral: $A = \\int_{-a}^a |x^3| dx = 2 \\int_0^a x^3 dx$.",
 "mnemonic": "Algebra cancels, Geometry strictly adds.",
 "standardMeta": {
-"question": "Why does the algebraic definite integral $\int_{-a}^a x^3 dx$ evaluate to $0$, and what is the strict mathematical correction required to find the true geometric area?"
+"question": "Why does the algebraic definite integral $\\int_{-a}^a x^3 dx$ evaluate to $0$, and what is the strict mathematical correction required to find the true geometric area?"
 }
 }
 },
@@ -134,7 +134,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 6,
 "heading": "Exploiting Quadrant Symmetry for Conics",
-"back": "- **Concept:** Standard conic sections (Circles and Ellipses) are perfectly symmetrical across both the x-axis and y-axis.\n- **SOP:** Never integrate across the entire shape (which introduces negative boundaries). Find the area of the **First Quadrant** boundary (where strictly $x \ge 0$ and $y \ge 0$), and multiply the final integral by **4**.\n- **For Parabolas:** A standard parabola (like $y^2 = 4ax$) is perfectly symmetric across its principal axis (x-axis). Find the area of the upper branch and multiply by **2**.",
+"back": "- **Concept:** Standard conic sections (Circles and Ellipses) are perfectly symmetrical across both the x-axis and y-axis.\n- **SOP:** Never integrate across the entire shape (which introduces negative boundaries). Find the area of the **First Quadrant** boundary (where strictly $x \\ge 0$ and $y \\ge 0$), and multiply the final integral by **4**.\n- **For Parabolas:** A standard parabola (like $y^2 = 4ax$) is perfectly symmetric across its principal axis (x-axis). Find the area of the upper branch and multiply by **2**.",
 "mnemonic": "Integrate a quarter, multiply by four.",
 "standardMeta": {
 "question": "What is the most efficient calculus strategy to find the total enclosed area of symmetric shapes like circles and ellipses without dealing with negative integration limits?"
@@ -156,11 +156,11 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula"],
 "order": 7,
 "heading": "The Master Area Integral Formula",
-"back": "## Component Anatomy:\n- **$a$:** The constant radius or semi-axis.\n- **$x$:** The variable of integration.\n- **$\sin^{-1}$:** The inverse sine function.\n\n## Boundary Conditions / Domain:\n- This exact indefinite integral is required to algebraically evaluate the area of virtually every Circle and Ellipse in the syllabus. Memorise it strictly.\n- Valid for domain $|x| \le a$.",
+"back": "## Component Anatomy:\n- **$a$:** The constant radius or semi-axis.\n- **$x$:** The variable of integration.\n- **$\\sin^{-1}$:** The inverse sine function.\n\n## Boundary Conditions / Domain:\n- This exact indefinite integral is required to algebraically evaluate the area of virtually every Circle and Ellipse in the syllabus. Memorise it strictly.\n- Valid for domain $|x| \\le a$.",
 "mnemonic": "Half x root, half a-squared arcsin.",
 "formulaMeta": {
 "formula": "\\int \\sqrt{a^2 - x^2} dx = \\frac{x}{2} \\sqrt{a^2 - x^2} + \\frac{a^2}{2} \\sin^{-1}\\left(\\frac{x}{a}\\right) + C",
-"description": "State the standard indefinite integral formula for $\int \sqrt{a^2 - x^2} dx$, which is the algebraic backbone of Circle and Ellipse area calculations.",
+"description": "State the standard indefinite integral formula for $\\int \\sqrt{a^2 - x^2} dx$, which is the algebraic backbone of Circle and Ellipse area calculations.",
 "derivation": ""
 }
 }
@@ -180,7 +180,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 8,
 "heading": "SOP: Preparing Shifted Conics for Integration",
-"back": "- **Concept:** Board exams frequently present circle equations in expanded polynomial form (e.g., $x^2 + y^2 = 8x$). You cannot reliably identify graphical limits or symmetry from this raw form.\n\n**Standard Operating Procedure (Completing the Square):**\n1. Bring all $x$ and $y$ terms to one side: $x^2 - 8x + y^2 = 0$.\n2. Complete the square for the $x$ terms by adding and subtracting $(\frac{b}{2})^2$. Here, add $16$ to both sides.\n3. Collapse into standard Cartesian form: $(x-4)^2 + y^2 = 16$.\n4. **Crucial Extraction:** The circle is shifted. Its geometric center is strictly at $(4, 0)$ and its radius is $4$.\n5. Use this geometry to accurately draw the sketch and establish your integration limits (e.g., from $x=0$ to $x=8$).",
+"back": "- **Concept:** Board exams frequently present circle equations in expanded polynomial form (e.g., $x^2 + y^2 = 8x$). You cannot reliably identify graphical limits or symmetry from this raw form.\n\n**Standard Operating Procedure (Completing the Square):**\n1. Bring all $x$ and $y$ terms to one side: $x^2 - 8x + y^2 = 0$.\n2. Complete the square for the $x$ terms by adding and subtracting $(\\frac{b}{2})^2$. Here, add $16$ to both sides.\n3. Collapse into standard Cartesian form: $(x-4)^2 + y^2 = 16$.\n4. **Crucial Extraction:** The circle is shifted. Its geometric center is strictly at $(4, 0)$ and its radius is $4$.\n5. Use this geometry to accurately draw the sketch and establish your integration limits (e.g., from $x=0$ to $x=8$).",
 "mnemonic": "Complete the square to find the center.",
 "standardMeta": {
 "question": "What is the mandatory first algebraic step when presented with an uncentered circle equation like $x^2 + y^2 = 8x$ before attempting to set up area integrals?"
@@ -206,7 +206,7 @@
 "formulaMeta": {
 "formula": "A = \\pi a^2",
 "description": "State the total area formula for the circle $x^2 + y^2 = a^2$ and provide the exact definite integral setup used to derive it.",
-"derivation": "**Derivation SOP:**\n1. Isolate $y$ strictly in the first quadrant (taking the positive root): $y = \sqrt{a^2 - x^2}$.\n2. Set up the integral spanning from the origin to the radius, and multiply by 4 to account for all quadrants: $A = 4 \int_0^a \sqrt{a^2 - x^2} dx$.\n3. Apply the master integral formula, evaluate limits, and simplify to $\pi a^2$."
+"derivation": "**Derivation SOP:**\n1. Isolate $y$ strictly in the first quadrant (taking the positive root): $y = \\sqrt{a^2 - x^2}$.\n2. Set up the integral spanning from the origin to the radius, and multiply by 4 to account for all quadrants: $A = 4 \\int_0^a \\sqrt{a^2 - x^2} dx$.\n3. Apply the master integral formula, evaluate limits, and simplify to $\\pi a^2$."
 }
 }
 },
@@ -225,12 +225,12 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula"],
 "order": 10,
 "heading": "Calculus Derivation: Area of a Standard Ellipse",
-"back": "## Component Anatomy:\n- **$a$:** The semi-major axis (assuming $a>b$).\n- **$b$:** The semi-minor axis.\n- **$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$:** Equation of the standard ellipse centered at the origin.\n\n## Boundary Conditions / Domain:\n- The ellipse is perfectly symmetric about both Cartesian axes.",
+"back": "## Component Anatomy:\n- **$a$:** The semi-major axis (assuming $a>b$).\n- **$b$:** The semi-minor axis.\n- **$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$:** Equation of the standard ellipse centered at the origin.\n\n## Boundary Conditions / Domain:\n- The ellipse is perfectly symmetric about both Cartesian axes.",
 "mnemonic": "Pi times a times b.",
 "formulaMeta": {
 "formula": "A = \\pi a b",
-"description": "State the total area formula for the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ and provide the exact definite integral setup used to derive it.",
-"derivation": "**Derivation SOP:**\n1. Isolate $y$ mathematically in the first quadrant: $y = \frac{b}{a}\sqrt{a^2 - x^2}$.\n2. Set up the symmetry integral multiplying by 4: $A = 4 \frac{b}{a} \int_0^a \sqrt{a^2 - x^2} dx$.\n3. Pull the constant $\frac{b}{a}$ out and apply the master integral formula to yield $\pi a b$."
+"description": "State the total area formula for the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ and provide the exact definite integral setup used to derive it.",
+"derivation": "**Derivation SOP:**\n1. Isolate $y$ mathematically in the first quadrant: $y = \\frac{b}{a}\\sqrt{a^2 - x^2}$.\n2. Set up the symmetry integral multiplying by 4: $A = 4 \\frac{b}{a} \\int_0^a \\sqrt{a^2 - x^2} dx$.\n3. Pull the constant $\\frac{b}{a}$ out and apply the master integral formula to yield $\\pi a b$."
 }
 }
 },
@@ -249,7 +249,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 11,
 "heading": "The Positive Root Trap for Parabolas",
-"back": "- **The Trap:** When given a horizontal parabola like $y^2 = 4ax$, algebraically solving for $y$ yields $y = \pm 2\sqrt{a}\sqrt{x}$. Students often accidentally integrate both or arbitrarily keep the $\pm$ sign, creating mathematical chaos.\n- **The Fix:** When setting up your fundamental integral $A = \int y dx$, you are calculating the area under the **upper branch** only (First Quadrant).\nYou MUST strictly use the positive root: $y = +2\sqrt{a}\sqrt{x}$.\n- **Conclusion:** If the problem demands the entire enclosed region mirrored across the x-axis, simply integrate the positive root and multiply the final result by 2.",
+"back": "- **The Trap:** When given a horizontal parabola like $y^2 = 4ax$, algebraically solving for $y$ yields $y = \\pm 2\\sqrt{a}\\sqrt{x}$. Students often accidentally integrate both or arbitrarily keep the $\\pm$ sign, creating mathematical chaos.\n- **The Fix:** When setting up your fundamental integral $A = \\int y dx$, you are calculating the area under the **upper branch** only (First Quadrant).\nYou MUST strictly use the positive root: $y = +2\\sqrt{a}\\sqrt{x}$.\n- **Conclusion:** If the problem demands the entire enclosed region mirrored across the x-axis, simply integrate the positive root and multiply the final result by 2.",
 "mnemonic": "Take the plus, multiply by two.",
 "standardMeta": {
 "question": "When algebraically isolating $y$ from the horizontal parabola equation $y^2 = 4ax$ to substitute into an area integral, what crucial sign trap must you strictly avoid?"
@@ -271,7 +271,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 12,
 "heading": "Integration Strategy: Y-Axis Bounding",
-"back": "- **The Trap:** When finding the area bounded by $y^2 = 4x$, a horizontal line like $y = 3$, and the y-axis, students often mistakenly integrate with respect to $x$ and attempt complex geometry subtractions (rectangles minus area).\n\n**Standard Operating Procedure (Horizontal Strip Method):**\n1. Recognize the geometric bounds are strictly on the y-axis: from $y=0$ to $y=3$.\n2. Rewrite the curve's equation by isolating $x$: $x = \frac{y^2}{4}$.\n3. Integrate strictly with respect to $y$ (using $dy$ strips): $\int_0^3 \frac{y^2}{4} dy$.\n4. This elegantly and directly evaluates the shaded area in one clean step.",
+"back": "- **The Trap:** When finding the area bounded by $y^2 = 4x$, a horizontal line like $y = 3$, and the y-axis, students often mistakenly integrate with respect to $x$ and attempt complex geometry subtractions (rectangles minus area).\n\n**Standard Operating Procedure (Horizontal Strip Method):**\n1. Recognize the geometric bounds are strictly on the y-axis: from $y=0$ to $y=3$.\n2. Rewrite the curve's equation by isolating $x$: $x = \\frac{y^2}{4}$.\n3. Integrate strictly with respect to $y$ (using $dy$ strips): $\\int_0^3 \\frac{y^2}{4} dy$.\n4. This elegantly and directly evaluates the shaded area in one clean step.",
 "mnemonic": "Y-axis boundaries demand y-axis integration.",
 "standardMeta": {
 "question": "What is the most mathematically direct integration strategy to find the area bounded by a parabola $y^2 = 4x$, the y-axis, and the horizontal line $y = 3$?"
@@ -293,7 +293,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula"],
 "order": 13,
 "heading": "Area Between Two Curves (Vertical Strip Method)",
-"back": "## Component Anatomy:\n- **$f(x)$:** The functionally upper curve (Top).\n- **$g(x)$:** The functionally lower curve (Bottom).\n- **$[a, b]$:** The exact x-coordinates of the intersection points.\n\n## Boundary Conditions / Domain:\n- **Strict condition:** $f(x) \ge g(x)$ for all $x$ in the interval $[a, b]$. If the curves intersect and cross over each other within the interval, you MUST split the integral at the intersection point to maintain positive area.\n- The elemental area differential is $dA = (Top - Bottom)dx$.",
+"back": "## Component Anatomy:\n- **$f(x)$:** The functionally upper curve (Top).\n- **$g(x)$:** The functionally lower curve (Bottom).\n- **$[a, b]$:** The exact x-coordinates of the intersection points.\n\n## Boundary Conditions / Domain:\n- **Strict condition:** $f(x) \\ge g(x)$ for all $x$ in the interval $[a, b]$. If the curves intersect and cross over each other within the interval, you MUST split the integral at the intersection point to maintain positive area.\n- The elemental area differential is $dA = (Top - Bottom)dx$.",
 "mnemonic": "Top minus Bottom.",
 "formulaMeta": {
 "formula": "A = \\int_{a}^{b} [f(x) - g(x)] dx",
@@ -317,7 +317,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula"],
 "order": 14,
 "heading": "Area Between Two Curves (Horizontal Strip Method)",
-"back": "## Component Anatomy:\n- **$f(y)$:** The rightmost curve (possessing the greater x-value).\n- **$g(y)$:** The leftmost curve (possessing the lesser x-value).\n- **$[c, d]$:** The exact y-coordinates of the intersection points.\n\n## Boundary Conditions / Domain:\n- **Strict condition:** $f(y) \ge g(y)$ for all $y$ in the interval $[c, d]$. If the curves intersect and crossover, you must split the integral at that y-value.\n- The elemental area differential is $dA = (Right - Left)dy$.",
+"back": "## Component Anatomy:\n- **$f(y)$:** The rightmost curve (possessing the greater x-value).\n- **$g(y)$:** The leftmost curve (possessing the lesser x-value).\n- **$[c, d]$:** The exact y-coordinates of the intersection points.\n\n## Boundary Conditions / Domain:\n- **Strict condition:** $f(y) \\ge g(y)$ for all $y$ in the interval $[c, d]$. If the curves intersect and crossover, you must split the integral at that y-value.\n- The elemental area differential is $dA = (Right - Left)dy$.",
 "mnemonic": "Right minus Left.",
 "formulaMeta": {
 "formula": "A = \\int_{c}^{d} [f(y) - g(y)] dy",
@@ -342,7 +342,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 15,
 "heading": "Heuristic: Strip Selection ($dx$ vs $dy$)",
-"back": "- **Use Vertical Strips ($dx$):** When the functions are easily expressed as $y = f(x)$ (e.g., $y = x^2 + 2$) and the top/bottom boundary curves remain geometrically consistent across the entire integration region.\n- **Use Horizontal Strips ($dy$):** When the functions are easily expressed as $x = g(y)$ (e.g., $y^2 = 4x \implies x = y^2/4$).\n- **Crucial Advantage of $dy$:** Sometimes a region bounded by a parabola and a line requires splitting into two distinct integrals if evaluated via vertical strips (because the 'bottom' boundary changes). However, it can often be solved elegantly in a **single integral** $\int (Right - Left) dy$ using horizontal strips.",
+"back": "- **Use Vertical Strips ($dx$):** When the functions are easily expressed as $y = f(x)$ (e.g., $y = x^2 + 2$) and the top/bottom boundary curves remain geometrically consistent across the entire integration region.\n- **Use Horizontal Strips ($dy$):** When the functions are easily expressed as $x = g(y)$ (e.g., $y^2 = 4x \\implies x = y^2/4$).\n- **Crucial Advantage of $dy$:** Sometimes a region bounded by a parabola and a line requires splitting into two distinct integrals if evaluated via vertical strips (because the 'bottom' boundary changes). However, it can often be solved elegantly in a **single integral** $\\int (Right - Left) dy$ using horizontal strips.",
 "mnemonic": "Choose the strip that avoids a split.",
 "standardMeta": {
 "question": "What is the primary strategic advantage of evaluating a bounded area using horizontal strips ($dy$) instead of vertical strips ($dx$) in complex regions?"
@@ -386,7 +386,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 17,
 "heading": "SOP: Splitting Integrals at Intersections",
-"back": "- **The Trap:** When a straight line intersects a circle or parabola, the upper boundary (the 'roof') of the shaded region frequently switches from the line to the curve at the exact point of intersection. A single integral cannot compute this.\n\n**Standard Operating Procedure (SOP):**\n1. Find the intersection point $x = c$ between the straight line and the curve algebraically.\n2. Geometrically drop a vertical perpendicular dashed line from the intersection point $(c, y)$ down to the x-axis.\n3. Split the integral into two distinct additive parts exactly at $c$: \n   - $Area_1 = \int_0^c (Equation\\ of\\ Line) dx$\n   - $Area_2 = \int_c^a (Equation\\ of\\ Curve) dx$\n4. Evaluate independently and add the two areas together.",
+"back": "- **The Trap:** When a straight line intersects a circle or parabola, the upper boundary (the 'roof') of the shaded region frequently switches from the line to the curve at the exact point of intersection. A single integral cannot compute this.\n\n**Standard Operating Procedure (SOP):**\n1. Find the intersection point $x = c$ between the straight line and the curve algebraically.\n2. Geometrically drop a vertical perpendicular dashed line from the intersection point $(c, y)$ down to the x-axis.\n3. Split the integral into two distinct additive parts exactly at $c$: \n   - $Area_1 = \\int_0^c (Equation\\ of\\ Line) dx$\n   - $Area_2 = \\int_c^a (Equation\\ of\\ Curve) dx$\n4. Evaluate independently and add the two areas together.",
 "mnemonic": "Drop a perpendicular and split the journey.",
 "standardMeta": {
 "question": "When computing the area of a region bounded jointly by a straight line and a curve (e.g., $y=x$ and $x^2+y^2=32$), what is the crucial geometric step required to set up the vertical integrals?"
@@ -408,7 +408,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 18,
 "heading": "SOP: Area of Triangle from Vertices",
-"back": "- **Concept:** You cannot directly integrate standard coordinate points. You must construct the algebraic boundary functions connecting them.\n\n**Standard Operating Procedure (SOP):**\n1. Plot the three given vertices $A, B, C$ accurately on a rough Cartesian plane to identify which vertex sits in the middle horizontally.\n2. Use the standard two-point line formula $y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$ to derive the linear equations for the three sides $AB, BC,$ and $CA$.\n3. Set up the total area as the sum of integrals under the two upper 'roof' lines minus the integral under the lower 'floor' line.\n4. Formula structure: $Area = \int_{x_A}^{x_B} y_{AB} dx + \int_{x_B}^{x_C} y_{BC} dx - \int_{x_A}^{x_C} y_{AC} dx$.",
+"back": "- **Concept:** You cannot directly integrate standard coordinate points. You must construct the algebraic boundary functions connecting them.\n\n**Standard Operating Procedure (SOP):**\n1. Plot the three given vertices $A, B, C$ accurately on a rough Cartesian plane to identify which vertex sits in the middle horizontally.\n2. Use the standard two-point line formula $y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$ to derive the linear equations for the three sides $AB, BC,$ and $CA$.\n3. Set up the total area as the sum of integrals under the two upper 'roof' lines minus the integral under the lower 'floor' line.\n4. Formula structure: $Area = \\int_{x_A}^{x_B} y_{AB} dx + \\int_{x_B}^{x_C} y_{BC} dx - \\int_{x_A}^{x_C} y_{AC} dx$.",
 "mnemonic": "Build the lines, then Top + Top - Bottom.",
 "standardMeta": {
 "question": "What is the standard 4-step algorithm to find the area of a bounded triangle using definite integration when only the coordinates of its three vertices are given?"
@@ -452,7 +452,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 20,
 "heading": "SOP: Integrating Triangle Area from Lines",
-"back": "**Standard Operating Procedure (Integration Phase):**\n1. Following the Vertex Phase (where corners are plotted), isolate the $y$ variable in all three linear equations to obtain functions $f(x), g(x), h(x)$.\n2. Based on your plotted sketch, identify the two functions forming the upper boundary (Roofs) and the one forming the lower boundary (Floor).\n3. Integrate using the standard triangle area splitting method along the x-axis limits derived from the vertices: \n   $Area = \int_{x_1}^{x_2} (Roof\\ 1) dx + \int_{x_2}^{x_3} (Roof\\ 2) dx - \int_{x_1}^{x_3} (Floor) dx$.",
+"back": "**Standard Operating Procedure (Integration Phase):**\n1. Following the Vertex Phase (where corners are plotted), isolate the $y$ variable in all three linear equations to obtain functions $f(x), g(x), h(x)$.\n2. Based on your plotted sketch, identify the two functions forming the upper boundary (Roofs) and the one forming the lower boundary (Floor).\n3. Integrate using the standard triangle area splitting method along the x-axis limits derived from the vertices: \n   $Area = \\int_{x_1}^{x_2} (Roof\\ 1) dx + \\int_{x_2}^{x_3} (Roof\\ 2) dx - \\int_{x_1}^{x_3} (Floor) dx$.",
 "standardMeta": {
 "question": "After simultaneously solving the three line equations to find the triangle's vertices, what is the procedure to set up the definite integrals for the total area?"
 }
@@ -473,10 +473,10 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 21,
 "heading": "SOP: Decoding Area Region Inequalities",
-"back": "- **Concept:** Board questions often present the target area as an algebraic set, e.g., finding the area of the region $\\{(x, y) : x^2 \le y \le x\\}$.\n\n**Standard Operating Procedure (SOP):**\n1. Temporarily replace all inequality signs strictly with equals signs to find the boundary equations: $y = x^2$ and $y = x$.\n2. Solve these equations simultaneously to find exact intersection limits (e.g., $x = 0$ and $x = 1$).\n3. Use the original inequalities strictly to identify the Top and Bottom curves:\n   - $y \ge x^2$ implies the shaded area is *above* the parabola.\n   - $y \le x$ implies the shaded area is *below* the straight line.\n4. Setup the integral using Top minus Bottom: $\int_0^1 (x - x^2) dx$.",
+"back": "- **Concept:** Board questions often present the target area as an algebraic set, e.g., finding the area of the region $\\{(x, y) : x^2 \\le y \\le x\\}$.\n\n**Standard Operating Procedure (SOP):**\n1. Temporarily replace all inequality signs strictly with equals signs to find the boundary equations: $y = x^2$ and $y = x$.\n2. Solve these equations simultaneously to find exact intersection limits (e.g., $x = 0$ and $x = 1$).\n3. Use the original inequalities strictly to identify the Top and Bottom curves:\n   - $y \\ge x^2$ implies the shaded area is *above* the parabola.\n   - $y \\le x$ implies the shaded area is *below* the straight line.\n4. Setup the integral using Top minus Bottom: $\\int_0^1 (x - x^2) dx$.",
 "mnemonic": "Equals finds the crossing, inequalities point the way.",
 "standardMeta": {
-"question": "How do you mathematically decode set-builder notation inequalities, such as $\\{(x, y) : x^2 \le y \le x\\}$, to construct a definite area integral?"
+"question": "How do you mathematically decode set-builder notation inequalities, such as $\\{(x, y) : x^2 \\le y \\le x\\}$, to construct a definite area integral?"
 }
 }
 },
@@ -495,7 +495,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 22,
 "heading": "SOP: Area Under Modulus Functions",
-"back": "- **The Trap:** A modulus function $y = |x + a|$ geometrically creates a sharp 'V' shape corner. Integrating it blindly across its domain without splitting will result in an incorrect algebraic polynomial area.\n\n**Standard Operating Procedure (SOP):**\n1. Find the critical vertex point by setting the inner argument strictly to zero: $x + a = 0 \implies x = -a$.\n2. Split the definite integral perfectly at this critical point $x = -a$.\n3. For the interval strictly to the *left* of $-a$, substitute the modulus with its negative counterpart $-(x+a)$.\n4. For the interval strictly to the *right* of $-a$, substitute the modulus with its positive counterpart $+(x+a)$.\n5. Integrate the two distinct linear expressions separately and sum them.",
+"back": "- **The Trap:** A modulus function $y = |x + a|$ geometrically creates a sharp 'V' shape corner. Integrating it blindly across its domain without splitting will result in an incorrect algebraic polynomial area.\n\n**Standard Operating Procedure (SOP):**\n1. Find the critical vertex point by setting the inner argument strictly to zero: $x + a = 0 \\implies x = -a$.\n2. Split the definite integral perfectly at this critical point $x = -a$.\n3. For the interval strictly to the *left* of $-a$, substitute the modulus with its negative counterpart $-(x+a)$.\n4. For the interval strictly to the *right* of $-a$, substitute the modulus with its positive counterpart $+(x+a)$.\n5. Integrate the two distinct linear expressions separately and sum them.",
 "mnemonic": "Find the V-point and split the integral.",
 "standardMeta": {
 "question": "What is the mandatory algebraic procedure for evaluating the area under a modulus curve like $y = |x + 3|$ between $x = -6$ and $x = 0$?"
@@ -517,7 +517,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 23,
 "heading": "Distinction: $y = |x|$ vs $y^2 = x^2$",
-"back": "- **The Squared Function:** The equation $y^2 = x^2$ algebraically represents two intersecting straight lines ($y = x$ and $y = -x$) forming an 'X' shape extending infinitely into all four quadrants.\n- **The Absolute Function:** The equation $y = |x|$ strictly represents only the positive 'V' shape resting on the x-axis, existing exclusively in quadrants I and II.\n- **Area Computation:** To find the physical area of $y = |x|$ from $-a$ to $a$ bounded by the x-axis, you must split the integral analytically: $\int_{-a}^0 (-x) dx + \int_0^a (x) dx$. By geometric symmetry, this evaluates to exactly $a^2$.",
+"back": "- **The Squared Function:** The equation $y^2 = x^2$ algebraically represents two intersecting straight lines ($y = x$ and $y = -x$) forming an 'X' shape extending infinitely into all four quadrants.\n- **The Absolute Function:** The equation $y = |x|$ strictly represents only the positive 'V' shape resting on the x-axis, existing exclusively in quadrants I and II.\n- **Area Computation:** To find the physical area of $y = |x|$ from $-a$ to $a$ bounded by the x-axis, you must split the integral analytically: $\\int_{-a}^0 (-x) dx + \\int_0^a (x) dx$. By geometric symmetry, this evaluates to exactly $a^2$.",
 "mnemonic": "Modulus is a V, squared is an X.",
 "standardMeta": {
 "question": "Geometrically, what is the strict difference between the boundary curves represented by $y = |x|$ and $y^2 = x^2$, and how does it affect area integration?"
@@ -540,10 +540,10 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 24,
 "heading": "Geometric Fact: Area of Trigonometric Arcs",
-"back": "- **Concept:** The algebraic definite integral of a trigonometric function over a full $2\pi$ period evaluates to $0$ because the positive 'hills' cancel the negative 'valleys'.\n- **The Fix:** To efficiently find the physical geometric area without complex integral splitting, calculate the area of one individual 'bump' and multiply by the total number of bumps.\n- **Standard Fact:** A single continuous arc (bump) of $y = \sin x$ (bounded from $0$ to $\pi$) or $y = \cos x$ (bounded from $-\pi/2$ to $\pi/2$) contains an exact area of **2 square units**.\n- Therefore, the total absolute area enclosed between $x=0$ and $x=2\pi$ is exactly $2 + 2 = $ **4 square units**.",
+"back": "- **Concept:** The algebraic definite integral of a trigonometric function over a full $2\\pi$ period evaluates to $0$ because the positive 'hills' cancel the negative 'valleys'.\n- **The Fix:** To efficiently find the physical geometric area without complex integral splitting, calculate the area of one individual 'bump' and multiply by the total number of bumps.\n- **Standard Fact:** A single continuous arc (bump) of $y = \\sin x$ (bounded from $0$ to $\\pi$) or $y = \\cos x$ (bounded from $-\\pi/2$ to $\\pi/2$) contains an exact area of **2 square units**.\n- Therefore, the total absolute area enclosed between $x=0$ and $x=2\\pi$ is exactly $2 + 2 = $ **4 square units**.",
 "mnemonic": "Every trig bump holds exactly 2 units of area.",
 "standardMeta": {
-"question": "What is the exact physical area of a single continuous 'arc' or 'bump' of the standard $y = \sin x$ or $y = \cos x$ graphs, and how does this rapidly solve $0$ to $2\pi$ boundary problems?"
+"question": "What is the exact physical area of a single continuous 'arc' or 'bump' of the standard $y = \\sin x$ or $y = \\cos x$ graphs, and how does this rapidly solve $0$ to $2\\pi$ boundary problems?"
 }
 }
 },
@@ -563,12 +563,12 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula", "hots"],
 "order": 25,
 "heading": "Standard Result: Area Between Sine, Cosine, and Y-axis",
-"back": "## Component Anatomy:\n- **$y = \cos x$:** The functional upper boundary curve starting at $(0,1)$.\n- **$y = \sin x$:** The functional lower boundary curve starting at $(0,0)$.\n- **$x = 0$:** The y-axis left boundary.\n- **$x = \frac{\pi}{4}$:** The exact geometric intersection point where $\sin x = \cos x$.\n\n## Boundary Conditions / Domain:\n- Evaluated strictly in the first quadrant where $0 \le x \le \frac{\pi}{4}$.",
+"back": "## Component Anatomy:\n- **$y = \\cos x$:** The functional upper boundary curve starting at $(0,1)$.\n- **$y = \\sin x$:** The functional lower boundary curve starting at $(0,0)$.\n- **$x = 0$:** The y-axis left boundary.\n- **$x = \\frac{\\pi}{4}$:** The exact geometric intersection point where $\\sin x = \\cos x$.\n\n## Boundary Conditions / Domain:\n- Evaluated strictly in the first quadrant where $0 \\le x \\le \\frac{\\pi}{4}$.",
 "mnemonic": "Root two minus one.",
 "formulaMeta": {
 "formula": "A = \\sqrt{2} - 1",
-"description": "State the standard numerical area bounded by the y-axis, the curve $y = \cos x$, and the curve $y = \sin x$.",
-"derivation": "**SOP:**\n1. Establish the intersection limit by solving $\sin x = \cos x$, yielding $x = \frac{\pi}{4}$.\n2. Setup Top minus Bottom integration: $A = \int_0^{\frac{\pi}{4}} (\cos x - \sin x) dx$.\n3. Integrate to find the antiderivative: $[\sin x + \cos x]_0^{\frac{\pi}{4}}$.\n4. Evaluate limits: $(\frac{1}{\sqrt{2}} + \frac{1}{\sqrt{2}}) - (0 + 1) = \sqrt{2} - 1$."
+"description": "State the standard numerical area bounded by the y-axis, the curve $y = \\cos x$, and the curve $y = \\sin x$.",
+"derivation": "**SOP:**\n1. Establish the intersection limit by solving $\\sin x = \\cos x$, yielding $x = \\frac{\\pi}{4}$.\n2. Setup Top minus Bottom integration: $A = \\int_0^{\\frac{\\pi}{4}} (\\cos x - \\sin x) dx$.\n3. Integrate to find the antiderivative: $[\\sin x + \\cos x]_0^{\\frac{\\pi}{4}}$.\n4. Evaluate limits: $(\\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}}) - (0 + 1) = \\sqrt{2} - 1$."
 }
 }
 },
@@ -594,7 +594,7 @@
 "formulaMeta": {
 "formula": "A = \\frac{16}{3}a^2",
 "description": "State the standard exact mathematical area bounded by the two symmetric conjugate parabolas $y^2 = 4ax$ and $x^2 = 4ay$.",
-"derivation": "**SOP:**\n1. Solve for intersection points algebraically: $(0,0)$ and $(4a, 4a)$.\n2. Identify boundaries: The upper curve is $y = \sqrt{4ax}$, and the lower curve is $y = \frac{x^2}{4a}$.\n3. Set up the integral: $\int_0^{4a} \left[ \sqrt{4ax} - \frac{x^2}{4a} \right] dx$.\n4. Evaluate using the standard power rule to strictly obtain $\frac{16}{3}a^2$."
+"derivation": "**SOP:**\n1. Solve for intersection points algebraically: $(0,0)$ and $(4a, 4a)$.\n2. Identify boundaries: The upper curve is $y = \\sqrt{4ax}$, and the lower curve is $y = \\frac{x^2}{4a}$.\n3. Set up the integral: $\\int_0^{4a} \\left[ \\sqrt{4ax} - \\frac{x^2}{4a} \\right] dx$.\n4. Evaluate using the standard power rule to strictly obtain $\\frac{16}{3}a^2$."
 }
 }
 },
@@ -619,7 +619,7 @@
 "formulaMeta": {
 "formula": "A = \\frac{8}{3}a^2",
 "description": "State the standard exact area bounded by the parabola $y^2 = 4ax$ and its Latus Rectum.",
-"derivation": "**SOP:**\n1. Isolate $y$ for the upper branch: $y = 2\sqrt{a}\sqrt{x}$.\n2. Because of perfect x-axis symmetry, multiply the integral setup by 2.\n3. Integrate strictly from the vertex to the focus: $A = 2 \int_0^a 2\sqrt{a}\sqrt{x} dx$.\n4. Evaluate to obtain $\frac{8}{3}a^2$."
+"derivation": "**SOP:**\n1. Isolate $y$ for the upper branch: $y = 2\\sqrt{a}\\sqrt{x}$.\n2. Because of perfect x-axis symmetry, multiply the integral setup by 2.\n3. Integrate strictly from the vertex to the focus: $A = 2 \\int_0^a 2\\sqrt{a}\\sqrt{x} dx$.\n4. Evaluate to obtain $\\frac{8}{3}a^2$."
 }
 }
 },
@@ -644,7 +644,7 @@
 "formulaMeta": {
 "formula": "A = \\frac{8a^2}{3m^3}",
 "description": "State the standard, highly-tested shortcut formula for the area bounded between the parabola $y^2 = 4ax$ and the line $y = mx$.",
-"derivation": "**SOP:**\n1. Substitute mathematically: $y = mx$ into $y^2 = 4ax$ to get $m^2x^2 = 4ax$.\n2. Solve for intersection limits: $x=0$ and $x=\frac{4a}{m^2}$.\n3. Integrate Top (Parabola) minus Bottom (Line): $\int_0^{\frac{4a}{m^2}} \left[\sqrt{4ax} - mx\right] dx$.\n4. Evaluate algebraically to strictly obtain $\frac{8a^2}{3m^3}$."
+"derivation": "**SOP:**\n1. Substitute mathematically: $y = mx$ into $y^2 = 4ax$ to get $m^2x^2 = 4ax$.\n2. Solve for intersection limits: $x=0$ and $x=\\frac{4a}{m^2}$.\n3. Integrate Top (Parabola) minus Bottom (Line): $\\int_0^{\\frac{4a}{m^2}} \\left[\\sqrt{4ax} - mx\\right] dx$.\n4. Evaluate algebraically to strictly obtain $\\frac{8a^2}{3m^3}$."
 }
 }
 },
@@ -663,7 +663,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "hots"],
 "order": 29,
 "heading": "Geometric Property: Square Trisection by Parabolas",
-"back": "- **Geometric Property:** The two conjugate parabolas $y^2 = 4ax$ and $x^2 = 4ay$ intersect at exactly $(0,0)$ and $(4a, 4a)$.\n- **The Square:** These intersection points form the main diagonal of a square perfectly bounded by the orthogonal lines $x=0, x=4a, y=0$, and $y=4a$.\n- **The Theorem:** The two interior parabolas divide this specific square into **three exactly equal areas**.\n- **Area Value:** The area of the total square is $(4a)^2 = 16a^2$. The area of each of the three partitioned regions is strictly $\frac{16a^2}{3}$.",
+"back": "- **Geometric Property:** The two conjugate parabolas $y^2 = 4ax$ and $x^2 = 4ay$ intersect at exactly $(0,0)$ and $(4a, 4a)$.\n- **The Square:** These intersection points form the main diagonal of a square perfectly bounded by the orthogonal lines $x=0, x=4a, y=0$, and $y=4a$.\n- **The Theorem:** The two interior parabolas divide this specific square into **three exactly equal areas**.\n- **Area Value:** The area of the total square is $(4a)^2 = 16a^2$. The area of each of the three partitioned regions is strictly $\\frac{16a^2}{3}$.",
 "mnemonic": "Twin parabolas slice the square in three.",
 "standardMeta": {
 "question": "In a classic NCERT geometric proof, the conjugate parabolas $y^2 = 4ax$ and $x^2 = 4ay$ divide the bounding square (defined by $x=0, x=4a, y=0, y=4a$) into how many equal regions?"
@@ -686,19 +686,19 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "formula"],
 "order": 30,
 "heading": "Area: Ellipse Cut by its Chord",
-"back": "## Component Anatomy:\n- **$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$:** The standard ellipse.\n- **$\frac{x}{a} + \frac{y}{b} = 1$:** The linear chord connecting the axes at $(a,0)$ and $(0,b)$.\n\n## Boundary Conditions / Domain:\n- This integral specifically calculates the smaller bounded area strictly contained in the first quadrant.",
+"back": "## Component Anatomy:\n- **$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$:** The standard ellipse.\n- **$\\frac{x}{a} + \\frac{y}{b} = 1$:** The linear chord connecting the axes at $(a,0)$ and $(0,b)$.\n\n## Boundary Conditions / Domain:\n- This integral specifically calculates the smaller bounded area strictly contained in the first quadrant.",
 "mnemonic": "Quarter ellipse minus half a rectangle.",
 "formulaMeta": {
 "formula": "A = \\int_{0}^{a} \\left[ \\frac{b}{a}\\sqrt{a^2 - x^2} - \\frac{b}{a}(a - x) \\right] dx",
-"description": "Set up the integral equation to find the smaller area bounded by the ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ and the straight chord line $\frac{x}{a} + \frac{y}{b} = 1$.",
-"derivation": "**SOP Shortcut:** \nRather than integrating completely, the area is geometrically equivalent to the area of a quarter ellipse minus the area of a standard right triangle bounded by the chord.\n$A = \frac{\pi a b}{4} - \frac{a b}{2}$."
+"description": "Set up the integral equation to find the smaller area bounded by the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ and the straight chord line $\\frac{x}{a} + \\frac{y}{b} = 1$.",
+"derivation": "**SOP Shortcut:** \nRather than integrating completely, the area is geometrically equivalent to the area of a quarter ellipse minus the area of a standard right triangle bounded by the chord.\n$A = \\frac{\\pi a b}{4} - \\frac{a b}{2}$."
 }
 }
 },
 {
 "cardId": "5a9c7dc3-a823-4633-bef6-a66b55aec929",
 "originalOrder": 23,
-"originalHeading": "The x = a/\sqrt{2} Circle Cut",
+"originalHeading": "The x = a/\\sqrt{2} Circle Cut",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 31.",
@@ -711,9 +711,9 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main"],
 "order": 31,
 "heading": "Standard Application: Circle Cut by Vertical Line",
-"back": "- **Concept:** A frequently asked question involves finding the area of the smaller physical part of a circle $x^2 + y^2 = a^2$ cut off by the vertical line $x = \frac{a}{\sqrt{2}}$.\n\n**SOP Setup:**\n1. The smaller region geometrically lies between the vertical line $x = \frac{a}{\sqrt{2}}$ and the far right edge of the circle $x = a$.\n2. Because the circle exists symmetrically both above and below the x-axis, the primary First Quadrant integral MUST be multiplied by 2.\n3. **Integral Setup:** $A = 2 \int_{a/\sqrt{2}}^a \sqrt{a^2 - x^2} dx$.\n4. Apply the master circle formula and evaluate the limits carefully to find the numerical area.",
+"back": "- **Concept:** A frequently asked question involves finding the area of the smaller physical part of a circle $x^2 + y^2 = a^2$ cut off by the vertical line $x = \\frac{a}{\\sqrt{2}}$.\n\n**SOP Setup:**\n1. The smaller region geometrically lies between the vertical line $x = \\frac{a}{\\sqrt{2}}$ and the far right edge of the circle $x = a$.\n2. Because the circle exists symmetrically both above and below the x-axis, the primary First Quadrant integral MUST be multiplied by 2.\n3. **Integral Setup:** $A = 2 \\int_{a/\\sqrt{2}}^a \\sqrt{a^2 - x^2} dx$.\n4. Apply the master circle formula and evaluate the limits carefully to find the numerical area.",
 "standardMeta": {
-"question": "What is the correct definite integral setup to find the total area of the smaller geometric region of the circle $x^2 + y^2 = a^2$ cut off by the vertical line $x = a/\sqrt{2}$?"
+"question": "What is the correct definite integral setup to find the total area of the smaller geometric region of the circle $x^2 + y^2 = a^2$ cut off by the vertical line $x = a/\\sqrt{2}$?"
 }
 }
 },
@@ -732,7 +732,7 @@
 "tags": ["mathematics", "calculus", "integration", "area", "class-12", "jee-main", "extension"],
 "order": 32,
 "heading": "SOP: Calculating 'Exterior' Region Areas",
-"back": "- **The Trap:** When asked for the area of a circle that is strictly 'exterior' to a parabola (e.g., $x^2+y^2=16$ exterior to $y^2=6x$), attempting to set up horizontal or vertical strips for the outer 'wings' creates a mathematical nightmare of split limits and conflicting roots.\n\n**Standard Operating Procedure (The Subtraction Method):**\n1. Completely ignore the word 'exterior' initially to avoid geometry confusion.\n2. Calculate the smaller, standard 'interior' area bounded strictly between the parabola and the circle using standard right-minus-left or top-minus-bottom integration.\n3. Calculate the total geometric area of the entire circle using the basic formula $A = \pi r^2$.\n4. Subtract the evaluated interior area from the total circle area:\n**Exterior Area = Total Circle Area - Interior Area**.",
+"back": "- **The Trap:** When asked for the area of a circle that is strictly 'exterior' to a parabola (e.g., $x^2+y^2=16$ exterior to $y^2=6x$), attempting to set up horizontal or vertical strips for the outer 'wings' creates a mathematical nightmare of split limits and conflicting roots.\n\n**Standard Operating Procedure (The Subtraction Method):**\n1. Completely ignore the word 'exterior' initially to avoid geometry confusion.\n2. Calculate the smaller, standard 'interior' area bounded strictly between the parabola and the circle using standard right-minus-left or top-minus-bottom integration.\n3. Calculate the total geometric area of the entire circle using the basic formula $A = \\pi r^2$.\n4. Subtract the evaluated interior area from the total circle area:\n**Exterior Area = Total Circle Area - Interior Area**.",
 "mnemonic": "Find the bite, subtract it from the pie.",
 "standardMeta": {
 "question": "What is the most efficient procedural strategy to calculate the area of a circle that is strictly 'exterior' to an intersecting parabola?"

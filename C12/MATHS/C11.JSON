@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Fundamental Distinction: Direction Cosines vs. Direction Ratios",
-"back": "- **Direction Cosines ($l, m, n$):** The exact cosines of the angles a line makes with the positive X, Y, and Z axes. They strictly satisfy $l^2 + m^2 + n^2 = 1$.\n- **Direction Ratios ($a, b, c$):** Any three numbers that are directly proportional to the direction cosines. For any non-zero scalar $\lambda$, $(a, b, c) = (\lambda l, \lambda m, \lambda n)$. Generally, $a^2 + b^2 + c^2 \neq 1$.\n\n## Boundary Conditions / Domain:\n- Direction cosines are uniquely bounded: $-1 \leq l, m, n \leq 1$.\n- Direction ratios can be any real number proportional to $l, m, n$, but they cannot all be simultaneously $0$.",
+"back": "- **Direction Cosines ($l, m, n$):** The exact cosines of the angles a line makes with the positive X, Y, and Z axes. They strictly satisfy $l^2 + m^2 + n^2 = 1$.\n- **Direction Ratios ($a, b, c$):** Any three numbers that are directly proportional to the direction cosines. For any non-zero scalar $\\lambda$, $(a, b, c) = (\\lambda l, \\lambda m, \\lambda n)$. Generally, $a^2 + b^2 + c^2 \\neq 1$.\n\n## Boundary Conditions / Domain:\n- Direction cosines are uniquely bounded: $-1 \\leq l, m, n \\leq 1$.\n- Direction ratios can be any real number proportional to $l, m, n$, but they cannot all be simultaneously $0$.",
 "standardMeta": {
 "question": "What is the mathematical distinction between Direction Cosines and Direction Ratios, specifically regarding the sum of their squares?"
 }
@@ -51,7 +51,7 @@
 ],
 "order": 2,
 "heading": "The Direction Cosine Identity",
-"back": "## Component Anatomy:\n- **$l, m, n$**: Direction cosines representing $\cos\alpha, \cos\beta, \cos\gamma$ respectively, where $\alpha, \beta, \gamma$ are the angles made with the positive coordinate axes.\n\n## Boundary Conditions / Domain:\n- Since they are bounded by the cosine function, $l, m, n \in [-1, 1]$.\n- A line has exactly two valid sets of direction cosines: $(l, m, n)$ and $(-l, -m, -n)$, representing its two directed senses.",
+"back": "## Component Anatomy:\n- **$l, m, n$**: Direction cosines representing $\\cos\\alpha, \\cos\\beta, \\cos\\gamma$ respectively, where $\\alpha, \\beta, \\gamma$ are the angles made with the positive coordinate axes.\n\n## Boundary Conditions / Domain:\n- Since they are bounded by the cosine function, $l, m, n \\in [-1, 1]$.\n- A line has exactly two valid sets of direction cosines: $(l, m, n)$ and $(-l, -m, -n)$, representing its two directed senses.",
 "formulaMeta": {
 "formula": "l^2 + m^2 + n^2 = 1",
 "description": "State the fundamental Pythagorean identity relating the three direction cosines of any line in 3D space.",
@@ -107,11 +107,11 @@
 ],
 "order": 4,
 "heading": "Extracting Direction Cosines from Ratios",
-"back": "## Component Anatomy:\n- **$l, m, n$**: The required direction cosines.\n- **$a, b, c$**: The given direction ratios.\n\n## Boundary Conditions / Domain:\n- The direction ratios must strictly not all be zero simultaneously ($a^2+b^2+c^2 > 0$) to avoid division by zero.\n- The $\pm$ sign indicates the two opposite directed senses of the 3D line.",
+"back": "## Component Anatomy:\n- **$l, m, n$**: The required direction cosines.\n- **$a, b, c$**: The given direction ratios.\n\n## Boundary Conditions / Domain:\n- The direction ratios must strictly not all be zero simultaneously ($a^2+b^2+c^2 > 0$) to avoid division by zero.\n- The $\\pm$ sign indicates the two opposite directed senses of the 3D line.",
 "formulaMeta": {
-"formula": "l = \pm \frac{a}{\sqrt{a^2+b^2+c^2}}, \quad m = \pm \frac{b}{\sqrt{a^2+b^2+c^2}}, \quad n = \pm \frac{c}{\sqrt{a^2+b^2+c^2}}",
+"formula": "l = \\pm \\frac{a}{\\sqrt{a^2+b^2+c^2}}, \\quad m = \\pm \\frac{b}{\\sqrt{a^2+b^2+c^2}}, \\quad n = \\pm \\frac{c}{\\sqrt{a^2+b^2+c^2}}",
 "description": "State the algebraic formula to convert a set of Direction Ratios (a, b, c) into Direction Cosines (l, m, n).",
-"derivation": "1. Calculate the magnitude of the vector formed by the DRs: $\sqrt{a^2+b^2+c^2}$.\n2. Divide each individual scalar direction ratio by this overall magnitude to geometrically normalize the vector."
+"derivation": "1. Calculate the magnitude of the vector formed by the DRs: $\\sqrt{a^2+b^2+c^2}$.\n2. Divide each individual scalar direction ratio by this overall magnitude to geometrically normalize the vector."
 }
 }
 },
@@ -138,9 +138,9 @@
 "heading": "Direction Ratios of a Two-Point Segment",
 "back": "## Component Anatomy:\n- **$x_1, y_1, z_1$**: Coordinates of the initial anchor point $P$.\n- **$x_2, y_2, z_2$**: Coordinates of the terminal point $Q$.\n- **$a, b, c$**: The extracted scalar direction ratios.\n\n## Boundary Conditions / Domain:\n- The direction is strictly mathematically defined from point 1 to point 2. If calculating from point 2 to point 1, all algebraic signs must be reversed.",
 "formulaMeta": {
-"formula": "a = x_2 - x_1, \quad b = y_2 - y_1, \quad c = z_2 - z_1",
+"formula": "a = x_2 - x_1, \\quad b = y_2 - y_1, \\quad c = z_2 - z_1",
 "description": "State the formula to find the Direction Ratios (a, b, c) of a line segment connecting two points P(x_1, y_1, z_1) and Q(x_2, y_2, z_2).",
-"derivation": "Derived strictly from vector subtraction: $\vec{PQ} = \vec{OQ} - \vec{OP} = (x_2-x_1)\hat{i} + (y_2-y_1)\hat{j} + (z_2-z_1)\hat{k}$. The scalar components are inherently the direction ratios."
+"derivation": "Derived strictly from vector subtraction: $\\vec{PQ} = \\vec{OQ} - \\vec{OP} = (x_2-x_1)\\hat{i} + (y_2-y_1)\\hat{j} + (z_2-z_1)\\hat{k}$. The scalar components are inherently the direction ratios."
 }
 }
 },
@@ -165,11 +165,11 @@
 ],
 "order": 6,
 "heading": "Vector Equation of a Line (Point-Parallel Form)",
-"back": "## Component Anatomy:\n- **$\vec{r}$**: Position vector of any arbitrary general point $(x,y,z)$ lying on the line.\n- **$\vec{a}$**: Position vector of a strictly known, fixed anchor point on the line.\n- **$\vec{b}$**: A free vector parallel to the line, providing its geometric direction.\n- **$\lambda$**: A real scalar parameter ($\lambda \in \mathbb{R}$).\n\n## Boundary Conditions / Domain:\n- $\vec{b} \neq \vec{0}$ (A mathematical line must possess a defined, strictly non-zero direction vector).",
+"back": "## Component Anatomy:\n- **$\\vec{r}$**: Position vector of any arbitrary general point $(x,y,z)$ lying on the line.\n- **$\\vec{a}$**: Position vector of a strictly known, fixed anchor point on the line.\n- **$\\vec{b}$**: A free vector parallel to the line, providing its geometric direction.\n- **$\\lambda$**: A real scalar parameter ($\\lambda \\in \\mathbb{R}$).\n\n## Boundary Conditions / Domain:\n- $\\vec{b} \\neq \\vec{0}$ (A mathematical line must possess a defined, strictly non-zero direction vector).",
 "formulaMeta": {
-"formula": "\vec{r} = \vec{a} + \lambda\vec{b}",
+"formula": "\\vec{r} = \\vec{a} + \\lambda\\vec{b}",
 "description": "State the vector equation of a line passing through a given point with position vector a and parallel to a given direction vector b.",
-"derivation": "Let $\vec{a}$ be the position vector of a fixed point A and $\vec{r}$ be an arbitrary point P on the line. The segment vector $\vec{AP} = \vec{r} - \vec{a}$. Because the line is strictly parallel to $\vec{b}$, $\vec{AP}$ must be a scalar multiple of $\vec{b}$, so $\vec{r} - \vec{a} = \lambda\vec{b}$."
+"derivation": "Let $\\vec{a}$ be the position vector of a fixed point A and $\\vec{r}$ be an arbitrary point P on the line. The segment vector $\\vec{AP} = \\vec{r} - \\vec{a}$. Because the line is strictly parallel to $\\vec{b}$, $\\vec{AP}$ must be a scalar multiple of $\\vec{b}$, so $\\vec{r} - \\vec{a} = \\lambda\\vec{b}$."
 }
 }
 },
@@ -195,11 +195,11 @@
 ],
 "order": 7,
 "heading": "Cartesian (Symmetric) Equation of a Line",
-"back": "## Component Anatomy:\n- **$(x_1, y_1, z_1)$**: Coordinates of a known fixed point residing on the line.\n- **$a, b, c$**: Direction ratios defining the spatial trajectory of the line.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The coefficients of $x$, $y$, and $z$ in all three numerators MUST be exactly normalized to $+1$ before attempting to read off the anchor point or the direction ratios.\n- For example, $\frac{2x - 4}{3}$ must strictly be rewritten algebraically as $\frac{x - 2}{3/2}$.",
+"back": "## Component Anatomy:\n- **$(x_1, y_1, z_1)$**: Coordinates of a known fixed point residing on the line.\n- **$a, b, c$**: Direction ratios defining the spatial trajectory of the line.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The coefficients of $x$, $y$, and $z$ in all three numerators MUST be exactly normalized to $+1$ before attempting to read off the anchor point or the direction ratios.\n- For example, $\\frac{2x - 4}{3}$ must strictly be rewritten algebraically as $\\frac{x - 2}{3/2}$.",
 "formulaMeta": {
-"formula": "\frac{x - x_1}{a} = \frac{y - y_1}{b} = \frac{z - z_1}{c}",
+"formula": "\\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c}",
 "description": "State the Cartesian (symmetric) equation of a line passing through fixed point (x_1, y_1, z_1) with direction ratios a, b, and c.",
-"derivation": "1. Start with vector form: $x\hat{i} + y\hat{j} + z\hat{k} = (x_1\hat{i} + y_1\hat{j} + z_1\hat{k}) + \lambda(a\hat{i} + b\hat{j} + c\hat{k})$.\n2. Equate the $\hat{i}, \hat{j}, \hat{k}$ components to yield $x = x_1 + \lambda a$, $y = y_1 + \lambda b$, $z = z_1 + \lambda c$.\n3. Algebraically isolate the parameter $\lambda$ in all three equations and equate them."
+"derivation": "1. Start with vector form: $x\\hat{i} + y\\hat{j} + z\\hat{k} = (x_1\\hat{i} + y_1\\hat{j} + z_1\\hat{k}) + \\lambda(a\\hat{i} + b\\hat{j} + c\\hat{k})$.\n2. Equate the $\\hat{i}, \\hat{j}, \\hat{k}$ components to yield $x = x_1 + \\lambda a$, $y = y_1 + \\lambda b$, $z = z_1 + \\lambda c$.\n3. Algebraically isolate the parameter $\\lambda$ in all three equations and equate them."
 }
 }
 },
@@ -223,7 +223,7 @@
 ],
 "order": 8,
 "heading": "The Zero Denominator Trap in Cartesian Form",
-"back": "If a denominator in the symmetric Cartesian form is zero (e.g., $\frac{x-1}{0} = \frac{y-2}{3}$), it does **not** mean the mathematical expression is undefined.\n\n- It is a specific formal notation indicating that the corresponding spatial direction ratio is exactly $0$.\n- In this example, the implied derivation $x - 1 = 0 \cdot \lambda \implies x = 1$ constantly.\n- Geometrically, the line strictly lies within the plane $x=1$ and runs entirely perpendicular to the X-axis.",
+"back": "If a denominator in the symmetric Cartesian form is zero (e.g., $\\frac{x-1}{0} = \\frac{y-2}{3}$), it does **not** mean the mathematical expression is undefined.\n\n- It is a specific formal notation indicating that the corresponding spatial direction ratio is exactly $0$.\n- In this example, the implied derivation $x - 1 = 0 \\cdot \\lambda \\implies x = 1$ constantly.\n- Geometrically, the line strictly lies within the plane $x=1$ and runs entirely perpendicular to the X-axis.",
 "standardMeta": {
 "question": "What is the strict geometric interpretation if one of the denominators in the Cartesian equation of a line is exactly zero?"
 }
@@ -250,11 +250,11 @@
 ],
 "order": 9,
 "heading": "Two-Point Vector Equation of a Line",
-"back": "## Component Anatomy:\n- **$\vec{a}$**: Position vector of the first fixed anchor point.\n- **$\vec{b}$**: Position vector of the second fixed point.\n- **$\vec{b} - \vec{a}$**: The generated direction vector geometrically connecting the two points.\n- **$\lambda$**: A real scalar parameter.\n\n## Boundary Conditions / Domain:\n- $\vec{a} \neq \vec{b}$ (Two distinct, non-overlapping points are strictly required to uniquely define a 1D line in space).",
+"back": "## Component Anatomy:\n- **$\\vec{a}$**: Position vector of the first fixed anchor point.\n- **$\\vec{b}$**: Position vector of the second fixed point.\n- **$\\vec{b} - \\vec{a}$**: The generated direction vector geometrically connecting the two points.\n- **$\\lambda$**: A real scalar parameter.\n\n## Boundary Conditions / Domain:\n- $\\vec{a} \\neq \\vec{b}$ (Two distinct, non-overlapping points are strictly required to uniquely define a 1D line in space).",
 "formulaMeta": {
-"formula": "\vec{r} = \vec{a} + \lambda(\vec{b} - \vec{a})",
+"formula": "\\vec{r} = \\vec{a} + \\lambda(\\vec{b} - \\vec{a})",
 "description": "State the vector equation of a line passing through two given distinct points with position vectors a and b.",
-"derivation": "Substitute the direction vector $\vec{d} = \vec{b} - \vec{a}$ (which connects the two known points) directly into the standard one-point vector equation $\vec{r} = \vec{a} + \lambda\vec{d}$."
+"derivation": "Substitute the direction vector $\\vec{d} = \\vec{b} - \\vec{a}$ (which connects the two known points) directly into the standard one-point vector equation $\\vec{r} = \\vec{a} + \\lambda\\vec{d}$."
 }
 }
 },
@@ -281,7 +281,7 @@
 "heading": "Two-Point Cartesian Equation of a Line",
 "back": "## Component Anatomy:\n- **$(x_1, y_1, z_1)$**: First coordinate point acting as the primary anchor in the numerator.\n- **$(x_2, y_2, z_2)$**: Second coordinate point.\n- **Denominators**: The geometric difference in coordinates forming the explicit direction ratios.\n\n## Boundary Conditions / Domain:\n- The points must be strictly distinct in space.\n- The algebraic order of subtraction in the denominators must be mathematically consistent across all three axes (e.g., all must be strictly terminal minus initial).",
 "formulaMeta": {
-"formula": "\frac{x - x_1}{x_2 - x_1} = \frac{y - y_1}{y_2 - y_1} = \frac{z - z_1}{z_2 - z_1}",
+"formula": "\\frac{x - x_1}{x_2 - x_1} = \\frac{y - y_1}{y_2 - y_1} = \\frac{z - z_1}{z_2 - z_1}",
 "description": "State the Cartesian equation of a line passing through two distinct points (x_1, y_1, z_1) and (x_2, y_2, z_2).",
 "derivation": "Substitute the dynamically calculated direction ratios $a = x_2 - x_1$, $b = y_2 - y_1$, and $c = z_2 - z_1$ directly into the standard symmetric Cartesian equation."
 }
@@ -309,10 +309,10 @@
 ],
 "order": 11,
 "heading": "Angle Between Two Lines (Vector Form)",
-"back": "## Component Anatomy:\n- **$\vec{b}_1, \vec{b}_2$**: The pure direction vectors extracted from the two lines.\n- **$\theta$**: The acute angle geometrically formed between the lines.\n\n## Boundary Conditions / Domain:\n- The spatial angle between two intersecting lines is strictly defined in the domain $[0, \pi/2]$.\n- **TRAP:** You MUST strictly use the absolute value $|\vec{b}_1 \cdot \vec{b}_2|$ in the numerator to ensure $\cos\theta$ remains non-negative, mathematically guaranteeing an acute angle.",
+"back": "## Component Anatomy:\n- **$\\vec{b}_1, \\vec{b}_2$**: The pure direction vectors extracted from the two lines.\n- **$\\theta$**: The acute angle geometrically formed between the lines.\n\n## Boundary Conditions / Domain:\n- The spatial angle between two intersecting lines is strictly defined in the domain $[0, \\pi/2]$.\n- **TRAP:** You MUST strictly use the absolute value $|\\vec{b}_1 \\cdot \\vec{b}_2|$ in the numerator to ensure $\\cos\\theta$ remains non-negative, mathematically guaranteeing an acute angle.",
 "formulaMeta": {
-"formula": "\cos\theta = \frac{|\vec{b}_1 \cdot \vec{b}_2|}{|\vec{b}_1| |\vec{b}_2|}",
-"description": "State the vector formula to find the acute angle \theta between two lines with direction vectors b_1 and b_2.",
+"formula": "\\cos\\theta = \\frac{|\\vec{b}_1 \\cdot \\vec{b}_2|}{|\\vec{b}_1| |\\vec{b}_2|}",
+"description": "State the vector formula to find the acute angle \\theta between two lines with direction vectors b_1 and b_2.",
 "derivation": "Directly applies the fundamental geometric definition of the dot product to the direction vectors, forcing a positive output via absolute value to isolate the acute angle."
 }
 }
@@ -340,9 +340,9 @@
 "heading": "Angle Between Two Lines (Cartesian Form)",
 "back": "## Component Anatomy:\n- **$(a_1, b_1, c_1)$**: Direction ratios extracted from the first line.\n- **$(a_2, b_2, c_2)$**: Direction ratios extracted from the second line.\n\n## Boundary Conditions / Domain:\n- Requires symmetric mathematical normalization first (the coefficients of $x, y, z$ in the line equations must strictly be $+1$ before extracting $a, b, c$).\n- The absolute value operator in the algebraic numerator is completely mandatory to guarantee returning the acute angle.",
 "formulaMeta": {
-"formula": "\cos\theta = \frac{|a_1 a_2 + b_1 b_2 + c_1 c_2|}{\sqrt{a_1^2 + b_1^2 + c_1^2} \sqrt{a_2^2 + b_2^2 + c_2^2}}",
-"description": "State the Cartesian formula to find the acute angle \theta between two lines given their specific direction ratios.",
-"derivation": "If direction cosines $(l_1, m_1, n_1)$ and $(l_2, m_2, n_2)$ are utilized instead of raw direction ratios, the denominators strictly collapse to $1$, yielding the simplified identity $\cos\theta = |l_1 l_2 + m_1 m_2 + n_1 n_2|$."
+"formula": "\\cos\\theta = \\frac{|a_1 a_2 + b_1 b_2 + c_1 c_2|}{\\sqrt{a_1^2 + b_1^2 + c_1^2} \\sqrt{a_2^2 + b_2^2 + c_2^2}}",
+"description": "State the Cartesian formula to find the acute angle \\theta between two lines given their specific direction ratios.",
+"derivation": "If direction cosines $(l_1, m_1, n_1)$ and $(l_2, m_2, n_2)$ are utilized instead of raw direction ratios, the denominators strictly collapse to $1$, yielding the simplified identity $\\cos\\theta = |l_1 l_2 + m_1 m_2 + n_1 n_2|$."
 }
 }
 },
@@ -367,11 +367,11 @@
 ],
 "order": 13,
 "heading": "Algebraic Condition for Perpendicular Lines",
-"back": "## Component Anatomy:\n- **$\vec{b}_1, \vec{b}_2$**: Pure direction vectors of the lines.\n- **$a_i, b_i, c_i$**: Corresponding direction ratios.\n\n## Boundary Conditions / Domain:\n- This exact condition arises because $\cos(90^\circ) = 0$, algebraically forcing the entire numerator of the cosine angle formula to evaluate to exactly zero.\n- Both direction vectors must be strictly non-zero.",
+"back": "## Component Anatomy:\n- **$\\vec{b}_1, \\vec{b}_2$**: Pure direction vectors of the lines.\n- **$a_i, b_i, c_i$**: Corresponding direction ratios.\n\n## Boundary Conditions / Domain:\n- This exact condition arises because $\\cos(90^\\circ) = 0$, algebraically forcing the entire numerator of the cosine angle formula to evaluate to exactly zero.\n- Both direction vectors must be strictly non-zero.",
 "formulaMeta": {
-"formula": "\vec{b}*1 \cdot \vec{b}*2 = 0 \implies a_1 a_2 + b_1 b_2 + c_1 c_2 = 0",
+"formula": "\\vec{b}*1 \\cdot \\vec{b}*2 = 0 \\implies a_1 a_2 + b_1 b_2 + c_1 c_2 = 0",
 "description": "State both the vector and Cartesian algebraic conditions required for two lines to be strictly perpendicular.",
-"derivation": "From the angle formula: $\cos(\pi/2) = 0$. Therefore, the fraction equals zero, meaning the numerator strictly must equal zero."
+"derivation": "From the angle formula: $\\cos(\\pi/2) = 0$. Therefore, the fraction equals zero, meaning the numerator strictly must equal zero."
 }
 }
 },
@@ -396,11 +396,11 @@
 ],
 "order": 14,
 "heading": "Algebraic Condition for Parallel Lines",
-"back": "## Component Anatomy:\n- **$k$**: A strictly non-zero scalar proportionality constant.\n- **$a_i, b_i, c_i$**: Extracted direction ratios of the two lines.\n\n## Boundary Conditions / Domain:\n- This mathematical condition arises because the angle strictly evaluating to $0^\circ$ forces their spatial direction vectors to be exact scalar multiples of one another.\n- None of the active denominator direction ratios can be algebraically zero unless the corresponding numerator is also zero.",
+"back": "## Component Anatomy:\n- **$k$**: A strictly non-zero scalar proportionality constant.\n- **$a_i, b_i, c_i$**: Extracted direction ratios of the two lines.\n\n## Boundary Conditions / Domain:\n- This mathematical condition arises because the angle strictly evaluating to $0^\\circ$ forces their spatial direction vectors to be exact scalar multiples of one another.\n- None of the active denominator direction ratios can be algebraically zero unless the corresponding numerator is also zero.",
 "formulaMeta": {
-"formula": "\vec{b}*1 = k\vec{b}*2 \implies \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}",
+"formula": "\\vec{b}*1 = k\\vec{b}*2 \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}",
 "description": "State both the vector and Cartesian algebraic conditions required for two spatial lines to be strictly parallel.",
-"derivation": "Vectors are parallel if their cross product is $\vec{0}$, which algebraically mandates that all corresponding scalar components must be strictly proportional by the exact same constant ratio."
+"derivation": "Vectors are parallel if their cross product is $\\vec{0}$, which algebraically mandates that all corresponding scalar components must be strictly proportional by the exact same constant ratio."
 }
 }
 },
@@ -426,11 +426,11 @@
 ],
 "order": 15,
 "heading": "3D Line Intersection SOP: Parametrization Phase",
-"back": "## Component Anatomy:\n- **$\lambda, \mu$**: Two strictly independent mathematical scalar parameters, one for each line.\n\n## Boundary Conditions / Domain:\n- **TRAP:** You MUST mathematically assign a *different* parametric variable (e.g., $\lambda$ and $\mu$) to each line. Using the same parameter assumes they reach the intersection point at the exact same 'time', which is mathematically invalid.",
+"back": "## Component Anatomy:\n- **$\\lambda, \\mu$**: Two strictly independent mathematical scalar parameters, one for each line.\n\n## Boundary Conditions / Domain:\n- **TRAP:** You MUST mathematically assign a *different* parametric variable (e.g., $\\lambda$ and $\\mu$) to each line. Using the same parameter assumes they reach the intersection point at the exact same 'time', which is mathematically invalid.",
 "formulaMeta": {
-"formula": "x_1(\lambda) = x_2(\mu) \quad \text{and} \quad y_1(\lambda) = y_2(\mu)",
+"formula": "x_1(\\lambda) = x_2(\\mu) \\quad \\text{and} \\quad y_1(\\lambda) = y_2(\\mu)",
 "description": "State the initial algebraic procedure to begin solving for the intersection of two 3D lines.",
-"derivation": "1. Parametrise Line 1 into a general coordinate point using scalar parameter $\lambda$: $(x_1(\lambda), y_1(\lambda), z_1(\lambda))$.\n2. Parametrise Line 2 into a general coordinate point using an independent parameter $\mu$: $(x_2(\mu), y_2(\mu), z_2(\mu))$.\n3. Equate the $x$ and $y$ coordinates explicitly to formulate a solvable $2 \times 2$ linear system for $\lambda$ and $\mu$.\n4. Solve the system algebraically to find potential values for $\lambda$ and $\mu$."
+"derivation": "1. Parametrise Line 1 into a general coordinate point using scalar parameter $\\lambda$: $(x_1(\\lambda), y_1(\\lambda), z_1(\\lambda))$.\n2. Parametrise Line 2 into a general coordinate point using an independent parameter $\\mu$: $(x_2(\\mu), y_2(\\mu), z_2(\\mu))$.\n3. Equate the $x$ and $y$ coordinates explicitly to formulate a solvable $2 \\times 2$ linear system for $\\lambda$ and $\\mu$.\n4. Solve the system algebraically to find potential values for $\\lambda$ and $\\mu$."
 }
 }
 },
@@ -456,11 +456,11 @@
 ],
 "order": 16,
 "heading": "3D Line Intersection SOP: The Verification Trap",
-"back": "## Component Anatomy:\n- $\lambda*{sol}, \mu*{sol}$: The solved scalar values obtained strictly from equating the $x$ and $y$ coordinates.\n- **$z_1, z_2$**: The parametric equations for the $z$-coordinates of Line 1 and Line 2.\n\n## Boundary Conditions / Domain:\n- If the substitution yields an algebraic contradiction (e.g., $4 = 7$), the lines strictly do NOT intersect anywhere in 3D space. They are mathematically proven to be **skew lines**.",
+"back": "## Component Anatomy:\n- $\\lambda*{sol}, \\mu*{sol}$: The solved scalar values obtained strictly from equating the $x$ and $y$ coordinates.\n- **$z_1, z_2$**: The parametric equations for the $z$-coordinates of Line 1 and Line 2.\n\n## Boundary Conditions / Domain:\n- If the substitution yields an algebraic contradiction (e.g., $4 = 7$), the lines strictly do NOT intersect anywhere in 3D space. They are mathematically proven to be **skew lines**.",
 "formulaMeta": {
-"formula": "z_1(\lambda*{sol}) = z_2(\mu*{sol})",
+"formula": "z_1(\\lambda*{sol}) = z_2(\\mu*{sol})",
 "description": "State the critical final verification step required to prove two 3D lines intersect, and how to find the exact point.",
-"derivation": "1. Take the solved values of $\lambda$ and $\mu$ from the $x$ and $y$ coordinate system.\n2. **Crucial Step:** Substitute both scalars into their respective third $z$-coordinate equations.\n3. If the evaluated $z$ values are strictly equal, the lines are mathematically proven to intersect.\n4. Substitute either parameter back into its full $(x, y, z)$ parametric point to retrieve the exact 3D intersection coordinates."
+"derivation": "1. Take the solved values of $\\lambda$ and $\\mu$ from the $x$ and $y$ coordinate system.\n2. **Crucial Step:** Substitute both scalars into their respective third $z$-coordinate equations.\n3. If the evaluated $z$ values are strictly equal, the lines are mathematically proven to intersect.\n4. Substitute either parameter back into its full $(x, y, z)$ parametric point to retrieve the exact 3D intersection coordinates."
 }
 }
 },
@@ -486,11 +486,11 @@
 ],
 "order": 17,
 "heading": "Foot of Perpendicular to a Line: Parametric Setup",
-"back": "## Component Anatomy:\n- **$P$**: The fixed external anchor point.\n- **$\vec{Q}$**: A mathematically dynamic general point lying on the line, defined by the scalar $\lambda$.\n\n## Boundary Conditions / Domain:\n- The Cartesian line equation must be perfectly normalized to $+1$ coefficients before parametrisation.",
+"back": "## Component Anatomy:\n- **$P$**: The fixed external anchor point.\n- **$\\vec{Q}$**: A mathematically dynamic general point lying on the line, defined by the scalar $\\lambda$.\n\n## Boundary Conditions / Domain:\n- The Cartesian line equation must be perfectly normalized to $+1$ coefficients before parametrisation.",
 "formulaMeta": {
-"formula": "\vec{Q} = (x_1+a\lambda)\hat{i} + (y_1+b\lambda)\hat{j} + (z_1+c\lambda)\hat{k}",
+"formula": "\\vec{Q} = (x_1+a\\lambda)\\hat{i} + (y_1+b\\lambda)\\hat{j} + (z_1+c\\lambda)\\hat{k}",
 "description": "State the initial parametric setup phase to find the foot of a perpendicular dropped from an external point P to a 3D line.",
-"derivation": "1. Mathematically write the general point $Q$ on the line strictly using the scalar parameter $\lambda$: $Q = (x_1+a\lambda, y_1+b\lambda, z_1+c\lambda)$.\n2. Geometrically find the direction vector $\vec{PQ}$ connecting the external fixed point $P$ to the dynamic point $Q$ by subtracting their corresponding spatial coordinates."
+"derivation": "1. Mathematically write the general point $Q$ on the line strictly using the scalar parameter $\\lambda$: $Q = (x_1+a\\lambda, y_1+b\\lambda, z_1+c\\lambda)$.\n2. Geometrically find the direction vector $\\vec{PQ}$ connecting the external fixed point $P$ to the dynamic point $Q$ by subtracting their corresponding spatial coordinates."
 }
 }
 },
@@ -515,11 +515,11 @@
 ],
 "order": 18,
 "heading": "Foot of Perpendicular to a Line: Orthogonal Resolution",
-"back": "## Component Anatomy:\n- **$\vec{PQ}$**: The dynamically formulated vector connecting external point $P$ to the parametric point $Q$.\n- **$\vec{b}$**: The strict parallel direction vector of the line itself.\n\n## Boundary Conditions / Domain:\n- Because $\vec{PQ}$ is formulated using $\lambda$, the dot product equation mathematically collapses into a direct linear equation solving exactly for $\lambda$.",
+"back": "## Component Anatomy:\n- **$\\vec{PQ}$**: The dynamically formulated vector connecting external point $P$ to the parametric point $Q$.\n- **$\\vec{b}$**: The strict parallel direction vector of the line itself.\n\n## Boundary Conditions / Domain:\n- Because $\\vec{PQ}$ is formulated using $\\lambda$, the dot product equation mathematically collapses into a direct linear equation solving exactly for $\\lambda$.",
 "formulaMeta": {
-"formula": "\vec{PQ} \cdot \vec{b} = 0",
+"formula": "\\vec{PQ} \\cdot \\vec{b} = 0",
 "description": "State the final orthogonal constraint used to isolate the exact foot of the perpendicular on a 3D line.",
-"derivation": "1. For the geometric segment $PQ$ to be strictly perpendicular to the line, its vector dot product with the line's direction vector $\vec{b} = \langle a, b, c \rangle$ must perfectly equal zero.\n2. Apply $\vec{PQ} \cdot \vec{b} = 0$ and algebraically solve the resulting single-variable linear equation for $\lambda$.\n3. Substitute the solved scalar $\lambda$ directly back into the generic coordinates of $Q$ to reveal the exact 3D spatial foot."
+"derivation": "1. For the geometric segment $PQ$ to be strictly perpendicular to the line, its vector dot product with the line's direction vector $\\vec{b} = \\langle a, b, c \\rangle$ must perfectly equal zero.\n2. Apply $\\vec{PQ} \\cdot \\vec{b} = 0$ and algebraically solve the resulting single-variable linear equation for $\\lambda$.\n3. Substitute the solved scalar $\\lambda$ directly back into the generic coordinates of $Q$ to reveal the exact 3D spatial foot."
 }
 }
 },
@@ -571,11 +571,11 @@
 ],
 "order": 20,
 "heading": "Shortest Distance Between Skew Lines (Vector Form)",
-"back": "## Component Anatomy:\n- **$\vec{a}_1, \vec{a}_2$**: Fixed position vectors of the anchor points on Line 1 and Line 2 respectively.\n- **$\vec{b}_1, \vec{b}_2$**: Spatial direction vectors of Line 1 and Line 2.\n- **$\vec{b}_1 \times \vec{b}_2$**: A mathematical normal vector perfectly perpendicular to BOTH spatial lines.\n\n## Boundary Conditions / Domain:\n- $\vec{b}_1 \times \vec{b}_2 \neq \vec{0}$ (This specific mathematical formula strictly FAILS if the lines are geometrically parallel, resulting in a division by zero error).",
+"back": "## Component Anatomy:\n- **$\\vec{a}_1, \\vec{a}_2$**: Fixed position vectors of the anchor points on Line 1 and Line 2 respectively.\n- **$\\vec{b}_1, \\vec{b}_2$**: Spatial direction vectors of Line 1 and Line 2.\n- **$\\vec{b}_1 \\times \\vec{b}_2$**: A mathematical normal vector perfectly perpendicular to BOTH spatial lines.\n\n## Boundary Conditions / Domain:\n- $\\vec{b}_1 \\times \\vec{b}_2 \\neq \\vec{0}$ (This specific mathematical formula strictly FAILS if the lines are geometrically parallel, resulting in a division by zero error).",
 "formulaMeta": {
-"formula": "d = \frac{|(\vec{b}_1 \times \vec{b}_2) \cdot (\vec{a}_2 - \vec{a}_1)|}{|\vec{b}_1 \times \vec{b}_2|}",
+"formula": "d = \\frac{|(\\vec{b}_1 \\times \\vec{b}_2) \\cdot (\\vec{a}_2 - \\vec{a}_1)|}{|\\vec{b}_1 \\times \\vec{b}_2|}",
 "description": "State the vector formula to calculate the shortest perpendicular distance 'd' strictly between two skew lines.",
-"derivation": "Geometrically, the shortest spatial distance is calculated exactly as the scalar projection of the arbitrary segment connecting the two known anchor points $(\vec{a}_2 - \vec{a}_1)$ directly onto the common orthogonal normal vector $\hat{n} = \frac{\vec{b}_1 \times \vec{b}_2}{|\vec{b}_1 \times \vec{b}_2|}$."
+"derivation": "Geometrically, the shortest spatial distance is calculated exactly as the scalar projection of the arbitrary segment connecting the two known anchor points $(\\vec{a}_2 - \\vec{a}_1)$ directly onto the common orthogonal normal vector $\\hat{n} = \\frac{\\vec{b}_1 \\times \\vec{b}_2}{|\\vec{b}_1 \\times \\vec{b}_2|}$."
 }
 }
 },
@@ -600,9 +600,9 @@
 ],
 "order": 21,
 "heading": "Shortest Distance Between Skew Lines (Cartesian Form)",
-"back": "## Component Anatomy:\n- **Row 1 of Determinant**: The scalar coordinate differences between the two anchor points $(\vec{a}_2 - \vec{a}_1)$.\n- **Row 2 & 3 of Determinant**: Direction ratios extracted from line 1 and line 2.\n- **Denominator**: The mathematically expanded magnitude of the cross product of the two direction vectors.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Ensure Cartesian equations are correctly algebraically normalized to a $+1$ coefficient on $x,y,z$ before reading the anchor variables or direction ratios.",
+"back": "## Component Anatomy:\n- **Row 1 of Determinant**: The scalar coordinate differences between the two anchor points $(\\vec{a}_2 - \\vec{a}_1)$.\n- **Row 2 & 3 of Determinant**: Direction ratios extracted from line 1 and line 2.\n- **Denominator**: The mathematically expanded magnitude of the cross product of the two direction vectors.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Ensure Cartesian equations are correctly algebraically normalized to a $+1$ coefficient on $x,y,z$ before reading the anchor variables or direction ratios.",
 "formulaMeta": {
-"formula": "d = \frac{\left| \begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \end{vmatrix} \right|}{\sqrt{(b_1 c_2 - b_2 c_1)^2 + (c_1 a_2 - c_2 a_1)^2 + (a_1 b_2 - a_2 b_1)^2}}",
+"formula": "d = \\frac{\\left| \\begin{vmatrix} x_2 - x_1 & y_2 - y_1 & z_2 - z_1 \\ a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\end{vmatrix} \\right|}{\\sqrt{(b_1 c_2 - b_2 c_1)^2 + (c_1 a_2 - c_2 a_1)^2 + (a_1 b_2 - a_2 b_1)^2}}",
 "description": "State the Cartesian determinant formula for calculating the shortest perpendicular distance between two skew lines.",
 "derivation": "This is strictly the expanded scalar mathematical equivalent of the Vector Form formula: the numerator is the Scalar Triple Product (STP) expanded into a 3x3 determinant, and the denominator is the algebraic magnitude of the vector cross product."
 }
@@ -628,7 +628,7 @@
 ],
 "order": 22,
 "heading": "The Skew Formula Division-By-Zero Trap",
-"back": "Always visually check if the two spatial direction vectors are perfectly parallel (i.e., proportional Direction Ratios) **before** plugging them into the Skew Distance formula.\n\n- If the lines are parallel, the cross product mathematically vanishes: $\vec{b}_1 \times \vec{b}_2 = \vec{0}$.\n- Plugging parallel lines blindly into the skew formula strictly results in an undefined division by zero error.\n- You MUST algebraically switch to the distinct Parallel Lines distance formula instead.",
+"back": "Always visually check if the two spatial direction vectors are perfectly parallel (i.e., proportional Direction Ratios) **before** plugging them into the Skew Distance formula.\n\n- If the lines are parallel, the cross product mathematically vanishes: $\\vec{b}_1 \\times \\vec{b}_2 = \\vec{0}$.\n- Plugging parallel lines blindly into the skew formula strictly results in an undefined division by zero error.\n- You MUST algebraically switch to the distinct Parallel Lines distance formula instead.",
 "standardMeta": {
 "question": "What critical safety check MUST you perform before applying the Skew Lines Shortest Distance formula to avoid a mathematical crash?"
 }
@@ -655,7 +655,7 @@
 ],
 "order": 23,
 "heading": "Geometric Interpretation of the Skew Distance Ratio",
-"back": "The algebraic skew distance formula $d = \frac{|(\vec{b}_1 \times \vec{b}_2) \cdot (\vec{a}_2 - \vec{a}_1)|}{|\vec{b}_1 \times \vec{b}_2|}$ possesses a profound 3D geometric meaning:\n\n- **Numerator:** The absolute value of the scalar triple product algebraically represents the total **Volume** of the spatial parallelepiped spanned by the three edges $\vec{b}_1, \vec{b}_2$, and $(\vec{a}_2 - \vec{a}_1)$.\n- **Denominator:** Evaluates to the strict **Base Area** of the parallelogram spanned by vectors $\vec{b}_1$ and $\vec{b}_2$.\n- **Logic:** $\frac{\text{Volume}}{\text{Base Area}} = \text{Perpendicular Height}$ (which mathematically corresponds exactly to the shortest spatial distance).",
+"back": "The algebraic skew distance formula $d = \\frac{|(\\vec{b}_1 \\times \\vec{b}_2) \\cdot (\\vec{a}_2 - \\vec{a}_1)|}{|\\vec{b}_1 \\times \\vec{b}_2|}$ possesses a profound 3D geometric meaning:\n\n- **Numerator:** The absolute value of the scalar triple product algebraically represents the total **Volume** of the spatial parallelepiped spanned by the three edges $\\vec{b}_1, \\vec{b}_2$, and $(\\vec{a}_2 - \\vec{a}_1)$.\n- **Denominator:** Evaluates to the strict **Base Area** of the parallelogram spanned by vectors $\\vec{b}_1$ and $\\vec{b}_2$.\n- **Logic:** $\\frac{\\text{Volume}}{\\text{Base Area}} = \\text{Perpendicular Height}$ (which mathematically corresponds exactly to the shortest spatial distance).",
 "standardMeta": {
 "question": "What is the geometric volume-to-area interpretation of the algebraic numerator and denominator in the Skew Line Shortest Distance vector formula?"
 }
@@ -682,11 +682,11 @@
 ],
 "order": 24,
 "heading": "Shortest Distance Between Parallel Lines",
-"back": "## Component Anatomy:\n- **$\vec{b}$**: The mathematically shared, common direction vector for both parallel lines.\n- **$\vec{a}_1, \vec{a}_2$**: Distinct fixed anchor points situated on Line 1 and Line 2 respectively.\n\n## Boundary Conditions / Domain:\n- You MUST mathematically ensure the direction vectors of both given lines have been factored or equated to exactly the *same* common vector $\vec{b}$ before applying the formula. If they are scaled differently (e.g., $\vec{b}$ and $2\vec{b}$), you must isolate a single consistent vector to avoid scaling errors.",
+"back": "## Component Anatomy:\n- **$\\vec{b}$**: The mathematically shared, common direction vector for both parallel lines.\n- **$\\vec{a}_1, \\vec{a}_2$**: Distinct fixed anchor points situated on Line 1 and Line 2 respectively.\n\n## Boundary Conditions / Domain:\n- You MUST mathematically ensure the direction vectors of both given lines have been factored or equated to exactly the *same* common vector $\\vec{b}$ before applying the formula. If they are scaled differently (e.g., $\\vec{b}$ and $2\\vec{b}$), you must isolate a single consistent vector to avoid scaling errors.",
 "formulaMeta": {
-"formula": "d = \frac{|\vec{b} \times (\vec{a}_2 - \vec{a}_1)|}{|\vec{b}|}",
+"formula": "d = \\frac{|\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)|}{|\\vec{b}|}",
 "description": "State the vector formula to calculate the shortest perpendicular distance 'd' strictly between two parallel lines.",
-"derivation": "Geometrically, the cross product magnitude in the numerator calculates the total Area of the parallelogram spanned by $\vec{b}$ and $(\vec{a}_2-\vec{a}_1)$. Dividing this area by the base length $|\vec{b}|$ strictly returns the perpendicular height."
+"derivation": "Geometrically, the cross product magnitude in the numerator calculates the total Area of the parallelogram spanned by $\\vec{b}$ and $(\\vec{a}_2-\\vec{a}_1)$. Dividing this area by the base length $|\\vec{b}|$ strictly returns the perpendicular height."
 }
 }
 },
@@ -711,11 +711,11 @@
 ],
 "order": 25,
 "heading": "Algebraic Coplanarity Test for Two Lines",
-"back": "## Component Anatomy:\n- **$(\vec{b}_1 \times \vec{b}_2) \cdot (\vec{a}_2 - \vec{a}_1)$**: The mathematically strict scalar triple product representing the spatial volume of the parallelepiped formed by the lines.\n\n## Boundary Conditions / Domain:\n- If the volume evaluated is exactly $0$, it strictly means the spatial parallelepiped has collapsed flat. Therefore, the two lines intersect and exist perfectly within the same 2D plane.",
+"back": "## Component Anatomy:\n- **$(\\vec{b}_1 \\times \\vec{b}_2) \\cdot (\\vec{a}_2 - \\vec{a}_1)$**: The mathematically strict scalar triple product representing the spatial volume of the parallelepiped formed by the lines.\n\n## Boundary Conditions / Domain:\n- If the volume evaluated is exactly $0$, it strictly means the spatial parallelepiped has collapsed flat. Therefore, the two lines intersect and exist perfectly within the same 2D plane.",
 "formulaMeta": {
-"formula": "(\vec{b}_1 \times \vec{b}_2) \cdot (\vec{a}_2 - \vec{a}_1) = 0",
+"formula": "(\\vec{b}_1 \\times \\vec{b}_2) \\cdot (\\vec{a}_2 - \\vec{a}_1) = 0",
 "description": "State the algebraic condition (in vector form) required to definitively prove that two non-parallel lines are coplanar (i.e., they intersect).",
-"derivation": "1. In Cartesian form, algebraically set up the $3 \times 3$ determinant with rows $(x_2-x_1, y_2-y_1, z_2-z_1)$, $(a_1, b_1, c_1)$, and $(a_2, b_2, c_2)$.\n2. Calculate the determinant.\n3. If it equals strictly $0$, the lines are coplanar."
+"derivation": "1. In Cartesian form, algebraically set up the $3 \\times 3$ determinant with rows $(x_2-x_1, y_2-y_1, z_2-z_1)$, $(a_1, b_1, c_1)$, and $(a_2, b_2, c_2)$.\n2. Calculate the determinant.\n3. If it equals strictly $0$, the lines are coplanar."
 }
 }
 },
@@ -741,11 +741,11 @@
 ],
 "order": 26,
 "heading": "Equation of a Plane (Normal Form)",
-"back": "## Component Anatomy:\n- **$\vec{r}$**: Position vector of an arbitrary mathematical point on the plane.\n- **$\hat{n}$**: A normalized UNIT normal vector perfectly perpendicular to the surface of the plane.\n- **$p$**: The strict perpendicular distance evaluated from the spatial origin to the plane.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The RHS variable $p$ strictly represents a physical distance ONLY if the vector $\hat{n}$ is perfectly normalized to length $1$.\n- If the dot product uses a general un-normalized vector $\vec{N}$, the RHS evaluates to just a generic scalar constant, NOT the true distance.",
+"back": "## Component Anatomy:\n- **$\\vec{r}$**: Position vector of an arbitrary mathematical point on the plane.\n- **$\\hat{n}$**: A normalized UNIT normal vector perfectly perpendicular to the surface of the plane.\n- **$p$**: The strict perpendicular distance evaluated from the spatial origin to the plane.\n\n## Boundary Conditions / Domain:\n- **CRITICAL TRAP:** The RHS variable $p$ strictly represents a physical distance ONLY if the vector $\\hat{n}$ is perfectly normalized to length $1$.\n- If the dot product uses a general un-normalized vector $\\vec{N}$, the RHS evaluates to just a generic scalar constant, NOT the true distance.",
 "formulaMeta": {
-"formula": "\vec{r} \cdot \hat{n} = p",
-"description": "State the vector equation of a plane strictly in Normal Form, given its perpendicular distance 'p' from the origin and its unit normal vector \hat{n}.",
-"derivation": "Let the perpendicular foot from origin be N. $\vec{ON} = p\hat{n}$. For any point P($\vec{r}$) on the plane, the vector $\vec{NP} = \vec{r} - p\hat{n}$ lies strictly in the plane. Because $\hat{n}$ is orthogonal to the plane, $\vec{NP} \cdot \hat{n} = 0 \implies (\vec{r} - p\hat{n}) \cdot \hat{n} = 0 \implies \vec{r} \cdot \hat{n} = p(\hat{n} \cdot \hat{n}) = p(1)$."
+"formula": "\\vec{r} \\cdot \\hat{n} = p",
+"description": "State the vector equation of a plane strictly in Normal Form, given its perpendicular distance 'p' from the origin and its unit normal vector \\hat{n}.",
+"derivation": "Let the perpendicular foot from origin be N. $\\vec{ON} = p\\hat{n}$. For any point P($\\vec{r}$) on the plane, the vector $\\vec{NP} = \\vec{r} - p\\hat{n}$ lies strictly in the plane. Because $\\hat{n}$ is orthogonal to the plane, $\\vec{NP} \\cdot \\hat{n} = 0 \\implies (\\vec{r} - p\\hat{n}) \\cdot \\hat{n} = 0 \\implies \\vec{r} \\cdot \\hat{n} = p(\\hat{n} \\cdot \\hat{n}) = p(1)$."
 }
 }
 },
@@ -771,11 +771,11 @@
 ],
 "order": 27,
 "heading": "Converting General Plane to Normal Form",
-"back": "## Component Anatomy:\n- **$A, B, C, D$**: Original un-normalized Cartesian coefficients.\n- **$p$**: The mathematically extracted perpendicular distance strictly from the origin ($p \geq 0$).\n\n## Boundary Conditions / Domain:\n- You MUST check the algebraic sign of $D$ before calculating. The RHS must strictly represent a positive physical distance.",
+"back": "## Component Anatomy:\n- **$A, B, C, D$**: Original un-normalized Cartesian coefficients.\n- **$p$**: The mathematically extracted perpendicular distance strictly from the origin ($p \\geq 0$).\n\n## Boundary Conditions / Domain:\n- You MUST check the algebraic sign of $D$ before calculating. The RHS must strictly represent a positive physical distance.",
 "formulaMeta": {
-"formula": "\frac{A}{\sqrt{A^2+B^2+C^2}}x + \dots = \frac{-D}{\sqrt{A^2+B^2+C^2}}",
+"formula": "\\frac{A}{\\sqrt{A^2+B^2+C^2}}x + \\dots = \\frac{-D}{\\sqrt{A^2+B^2+C^2}}",
 "description": "State the algorithmic steps to convert the general plane equation Ax + By + Cz + D = 0 into strict Normal Form to find the distance from the origin.",
-"derivation": "1. Algebraically isolate the constant on the RHS: $Ax + By + Cz = -D$.\n2. **CRITICAL TRAP:** If $-D$ evaluates to a negative number, strictly multiply the entire equation by $-1$ to force the RHS to be positive.\n3. Divide every term across the equality strictly by the spatial magnitude of the normal vector: $\sqrt{A^2 + B^2 + C^2}$.\n4. The resulting normalized coefficients of $x, y, z$ act mathematically as the direction cosines $(l,m,n)$, and the positive RHS acts as exactly the perpendicular distance $p$ from the origin."
+"derivation": "1. Algebraically isolate the constant on the RHS: $Ax + By + Cz = -D$.\n2. **CRITICAL TRAP:** If $-D$ evaluates to a negative number, strictly multiply the entire equation by $-1$ to force the RHS to be positive.\n3. Divide every term across the equality strictly by the spatial magnitude of the normal vector: $\\sqrt{A^2 + B^2 + C^2}$.\n4. The resulting normalized coefficients of $x, y, z$ act mathematically as the direction cosines $(l,m,n)$, and the positive RHS acts as exactly the perpendicular distance $p$ from the origin."
 }
 }
 },
@@ -801,11 +801,11 @@
 ],
 "order": 28,
 "heading": "Plane Through a Point with Given Normal",
-"back": "## Component Anatomy:\n- **$\vec{a}$**: Position vector of the known, fixed anchor point on the plane.\n- **$\vec{N}$**: The normal vector perpendicular to the plane surface (it is NOT required to be a unit vector).\n- **$\vec{r}$**: Position vector of an arbitrary point on the plane.\n\n## Boundary Conditions / Domain:\n- Converting this strictly to Cartesian form yields $A(x-x_1) + B(y-y_1) + C(z-z_1) = 0$, where $A, B, C$ are exactly the direction ratios of the normal $\vec{N}$.",
+"back": "## Component Anatomy:\n- **$\\vec{a}$**: Position vector of the known, fixed anchor point on the plane.\n- **$\\vec{N}$**: The normal vector perpendicular to the plane surface (it is NOT required to be a unit vector).\n- **$\\vec{r}$**: Position vector of an arbitrary point on the plane.\n\n## Boundary Conditions / Domain:\n- Converting this strictly to Cartesian form yields $A(x-x_1) + B(y-y_1) + C(z-z_1) = 0$, where $A, B, C$ are exactly the direction ratios of the normal $\\vec{N}$.",
 "formulaMeta": {
-"formula": "(\vec{r} - \vec{a}) \cdot \vec{N} = 0",
+"formula": "(\\vec{r} - \\vec{a}) \\cdot \\vec{N} = 0",
 "description": "State the vector equation of a plane passing through a point with position vector a, and strictly perpendicular to a normal vector N.",
-"derivation": "If $\vec{a}$ is on the plane and $\vec{r}$ is any arbitrary point on the plane, the vector connecting them geometrically is $(\vec{r} - \vec{a})$. Since this segment vector lies entirely within the plane, its dot product with the perpendicular normal $\vec{N}$ must strictly equal $0$."
+"derivation": "If $\\vec{a}$ is on the plane and $\\vec{r}$ is any arbitrary point on the plane, the vector connecting them geometrically is $(\\vec{r} - \\vec{a})$. Since this segment vector lies entirely within the plane, its dot product with the perpendicular normal $\\vec{N}$ must strictly equal $0$."
 }
 }
 },
@@ -831,11 +831,11 @@
 ],
 "order": 29,
 "heading": "Intercept Form of a Plane",
-"back": "## Component Anatomy:\n- **$a, b, c$**: The strictly defined $x, y$, and $z$ intercepts respectively, representing the exact geometric locations where the plane cuts the coordinate axes.\n\n## Boundary Conditions / Domain:\n- $a \neq 0$, $b \neq 0$, and $c \neq 0$. The plane must strictly NOT pass through the spatial origin $(0,0,0)$, otherwise, the intercepts collapse to $0$ and division by zero occurs.",
+"back": "## Component Anatomy:\n- **$a, b, c$**: The strictly defined $x, y$, and $z$ intercepts respectively, representing the exact geometric locations where the plane cuts the coordinate axes.\n\n## Boundary Conditions / Domain:\n- $a \\neq 0$, $b \\neq 0$, and $c \\neq 0$. The plane must strictly NOT pass through the spatial origin $(0,0,0)$, otherwise, the intercepts collapse to $0$ and division by zero occurs.",
 "formulaMeta": {
-"formula": "\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1",
+"formula": "\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1",
 "description": "State the Cartesian equation of a plane strictly in intercept form.",
-"derivation": "1. Given general form $Ax + By + Cz + D = 0$, move the constant to the RHS: $Ax + By + Cz = -D$.\n2. Divide the entire algebraic equation by $-D$ to force the RHS to equal exactly $1$.\n3. Rewrite the coefficients into the denominators: $\frac{x}{-D/A} + \frac{y}{-D/B} + \frac{z}{-D/C} = 1$.\n4. Equate denominators to $a, b, c$ respectively."
+"derivation": "1. Given general form $Ax + By + Cz + D = 0$, move the constant to the RHS: $Ax + By + Cz = -D$.\n2. Divide the entire algebraic equation by $-D$ to force the RHS to equal exactly $1$.\n3. Rewrite the coefficients into the denominators: $\\frac{x}{-D/A} + \\frac{y}{-D/B} + \\frac{z}{-D/C} = 1$.\n4. Equate denominators to $a, b, c$ respectively."
 }
 }
 },
@@ -861,11 +861,11 @@
 ],
 "order": 30,
 "heading": "Plane Through Three Points (Vector Equation)",
-"back": "## Component Anatomy:\n- **$\vec{a}, \vec{b}, \vec{c}$**: Position vectors of three distinct, non-collinear spatial points.\n- **$\vec{r}$**: Position vector of an arbitrary point residing on the generated plane.\n\n## Boundary Conditions / Domain:\n- The three input points MUST be strictly non-collinear. If they are collinear, the cross product evaluates to $\vec{0}$, yielding an undefined normal and infinitely many planes intersecting along that line.",
+"back": "## Component Anatomy:\n- **$\\vec{a}, \\vec{b}, \\vec{c}$**: Position vectors of three distinct, non-collinear spatial points.\n- **$\\vec{r}$**: Position vector of an arbitrary point residing on the generated plane.\n\n## Boundary Conditions / Domain:\n- The three input points MUST be strictly non-collinear. If they are collinear, the cross product evaluates to $\\vec{0}$, yielding an undefined normal and infinitely many planes intersecting along that line.",
 "formulaMeta": {
-"formula": "(\vec{r} - \vec{a}) \cdot [(\vec{b} - \vec{a}) \times (\vec{c} - \vec{a})] = 0",
+"formula": "(\\vec{r} - \\vec{a}) \\cdot [(\\vec{b} - \\vec{a}) \\times (\\vec{c} - \\vec{a})] = 0",
 "description": "State the vector equation of a plane passing uniquely through three non-collinear points a, b, and c.",
-"derivation": "1. Select one point (e.g., $\vec{a}$) as the geometric anchor on the plane.\n2. Form two distinct in-plane direction vectors originating from this anchor: $\vec{u} = \vec{b} - \vec{a}$ and $\vec{v} = \vec{c} - \vec{a}$.\n3. Compute the cross product $\vec{N} = \vec{u} \times \vec{v}$ to generate a strict normal vector.\n4. Substitute the anchor $\vec{a}$ and normal $\vec{N}$ into the standard point-normal form: $(\vec{r} - \vec{a}) \cdot \vec{N} = 0$."
+"derivation": "1. Select one point (e.g., $\\vec{a}$) as the geometric anchor on the plane.\n2. Form two distinct in-plane direction vectors originating from this anchor: $\\vec{u} = \\vec{b} - \\vec{a}$ and $\\vec{v} = \\vec{c} - \\vec{a}$.\n3. Compute the cross product $\\vec{N} = \\vec{u} \\times \\vec{v}$ to generate a strict normal vector.\n4. Substitute the anchor $\\vec{a}$ and normal $\\vec{N}$ into the standard point-normal form: $(\\vec{r} - \\vec{a}) \\cdot \\vec{N} = 0$."
 }
 }
 },
@@ -892,7 +892,7 @@
 "heading": "Plane Through Three Points (Cartesian Determinant)",
 "back": "## Component Anatomy:\n- **Row 1**: Arbitrary $(x,y,z)$ coordinates subtracted strictly by the $(x_1,y_1,z_1)$ anchor point.\n- **Row 2 & 3**: The two in-plane direction ratios formed by subtracting the anchor from the remaining two points.\n\n## Boundary Conditions / Domain:\n- Expanding this 3x3 determinant forces the scalar triple product to equal zero, inherently verifying that an arbitrary point $(x,y,z)$ is perfectly coplanar with the three known points.",
 "formulaMeta": {
-"formula": "\begin{vmatrix} x-x_1 & y-y_1 & z-z_1 \\ x_2-x_1 & y_2-y_1 & z_2-z_1 \\ x_3-x_1 & y_3-y_1 & z_3-z_1 \end{vmatrix} = 0",
+"formula": "\\begin{vmatrix} x-x_1 & y-y_1 & z-z_1 \\ x_2-x_1 & y_2-y_1 & z_2-z_1 \\ x_3-x_1 & y_3-y_1 & z_3-z_1 \\end{vmatrix} = 0",
 "description": "State the Cartesian determinant form for the explicit equation of a plane passing through three non-collinear points.",
 "derivation": "This determinant algebraically represents the Scalar Triple Product (Volume) of the three vectors formed from a common origin point. For them to be completely coplanar, the generated volume must strictly equal $0$."
 }
@@ -947,7 +947,7 @@
 "heading": "Perpendicular Distance: Point to Plane",
 "back": "## Component Anatomy:\n- **$(x_0, y_0, z_0)$**: The coordinates of the external 3D point.\n- **$A, B, C, D$**: Real coefficients of the general Cartesian plane equation.\n\n## Boundary Conditions / Domain:\n- **TRAP:** Always mathematically verify the plane equation is arranged exactly as $Ax + By + Cz + D = 0$ before extraction. A constant on the RHS will invert the sign and cause errors if not moved.\n- The numerator must be wrapped in absolute value to ensure physical distance is strictly positive.",
 "formulaMeta": {
-"formula": "d = \frac{|Ax_0 + By_0 + Cz_0 + D|}{\sqrt{A^2 + B^2 + C^2}}",
+"formula": "d = \\frac{|Ax_0 + By_0 + Cz_0 + D|}{\\sqrt{A^2 + B^2 + C^2}}",
 "description": "State the formula to calculate the exact perpendicular distance from an external point (x_0, y_0, z_0) to the plane Ax + By + Cz + D = 0.",
 "derivation": "This formula algebraically projects the vector connecting the external point to any anchor point on the plane directly onto the normalized unit normal vector of the plane."
 }
@@ -977,9 +977,9 @@
 "heading": "Foot of Perpendicular to a Plane (Direct Shortcut)",
 "back": "## Component Anatomy:\n- **$P(x_0, y_0, z_0)$**: The external coordinate point.\n- **$A, B, C$**: The un-normalized normal vector components of the plane.\n- **Denominator**: The strictly squared algebraic magnitude of the normal ($A^2+B^2+C^2$) — **NO square root**.\n\n## Boundary Conditions / Domain:\n- This algorithmic formula generates exact 3D spatial coordinates without the need to parametrically define the perpendicular intersecting line.",
 "formulaMeta": {
-"formula": "\vec{F} = \vec{P} - \left( \frac{Ax_0 + By_0 + Cz_0 + D}{A^2 + B^2 + C^2} \right) \langle A, B, C \rangle",
+"formula": "\\vec{F} = \\vec{P} - \\left( \\frac{Ax_0 + By_0 + Cz_0 + D}{A^2 + B^2 + C^2} \\right) \\langle A, B, C \\rangle",
 "description": "State the direct vector shortcut formula to algebraically find the Foot of the Perpendicular (F) from an external point P(x_0, y_0, z_0) to the plane Ax + By + Cz + D = 0.",
-"derivation": "1. Evaluate the plane's LHS explicitly at the given point $P(x_0, y_0, z_0)$ to obtain a scalar numerator.\n2. Calculate the squared magnitude of the normal vector: $A^2 + B^2 + C^2$.\n3. Divide the numerator strictly by the denominator to generate a scalar projection factor.\n4. Multiply the normal vector $\langle A, B, C \rangle$ by this scalar factor.\n5. Subtract this scaled normal vector algebraically from the original point $P$."
+"derivation": "1. Evaluate the plane's LHS explicitly at the given point $P(x_0, y_0, z_0)$ to obtain a scalar numerator.\n2. Calculate the squared magnitude of the normal vector: $A^2 + B^2 + C^2$.\n3. Divide the numerator strictly by the denominator to generate a scalar projection factor.\n4. Multiply the normal vector $\\langle A, B, C \\rangle$ by this scalar factor.\n5. Subtract this scaled normal vector algebraically from the original point $P$."
 }
 }
 },
@@ -1028,10 +1028,10 @@
 ],
 "order": 36,
 "heading": "Angle Between Two Intersecting Planes",
-"back": "## Component Anatomy:\n- **$\vec{n}_1, \vec{n}_2$**: The perpendicular normal vectors extracted from the respective planes.\n- **$\theta$**: The acute dihedral angle intersecting between the plane surfaces.\n\n## Boundary Conditions / Domain:\n- The spatial angle perfectly between two flat planes is mathematically strictly defined as the geometric angle between their corresponding normal vectors.\n- Applying the absolute value operator in the numerator guarantees the calculation isolates the acute angle $\theta \in [0, \pi/2]$.",
+"back": "## Component Anatomy:\n- **$\\vec{n}_1, \\vec{n}_2$**: The perpendicular normal vectors extracted from the respective planes.\n- **$\\theta$**: The acute dihedral angle intersecting between the plane surfaces.\n\n## Boundary Conditions / Domain:\n- The spatial angle perfectly between two flat planes is mathematically strictly defined as the geometric angle between their corresponding normal vectors.\n- Applying the absolute value operator in the numerator guarantees the calculation isolates the acute angle $\\theta \\in [0, \\pi/2]$.",
 "formulaMeta": {
-"formula": "\cos\theta = \frac{|\vec{n}*1 \cdot \vec{n}*2|}{|\vec{n}*1||\vec{n}*2|}",
-"description": "State the vector formula to calculate the acute dihedral angle \theta between two planes.",
+"formula": "\\cos\\theta = \\frac{|\\vec{n}*1 \\cdot \\vec{n}*2|}{|\\vec{n}*1||\\vec{n}*2|}",
+"description": "State the vector formula to calculate the acute dihedral angle \\theta between two planes.",
 "derivation": "Because the normal vectors are strictly perpendicular to their respective planes, the angle between the normals is geometrically equivalent to the dihedral angle between the planes."
 }
 }
@@ -1059,12 +1059,12 @@
 ],
 "order": 37,
 "heading": "Angle Between a Line and a Plane (Sine Trap)",
-"back": "## Component Anatomy:\n- **$\vec{b}$**: Spatial direction vector of the 1D line.\n- **$\vec{n}$**: Perpendicular normal vector of the 2D plane.\n- **$\theta$**: The resulting acute angle geometrically formed between the line itself and the plane surface.\n\n## Boundary Conditions / Domain:\n- **TRAP:** This formula mathematically specifically utilizes **$\sin\theta$**, unlike standard line-line or plane-plane formulas which strictly use $\cos\theta$.\n- This swap occurs because the targeted angle with the plane is the trigonometric complement ($90^\circ - \alpha$) of the actual angle calculated with the normal vector.",
+"back": "## Component Anatomy:\n- **$\\vec{b}$**: Spatial direction vector of the 1D line.\n- **$\\vec{n}$**: Perpendicular normal vector of the 2D plane.\n- **$\\theta$**: The resulting acute angle geometrically formed between the line itself and the plane surface.\n\n## Boundary Conditions / Domain:\n- **TRAP:** This formula mathematically specifically utilizes **$\\sin\\theta$**, unlike standard line-line or plane-plane formulas which strictly use $\\cos\\theta$.\n- This swap occurs because the targeted angle with the plane is the trigonometric complement ($90^\\circ - \\alpha$) of the actual angle calculated with the normal vector.",
 "mnemonic": "Line-to-Line = Cosine. Plane-to-Plane = Cosine. Line-to-Plane = SINE.",
 "formulaMeta": {
-"formula": "\sin\theta = \frac{|\vec{b} \cdot \vec{n}|}{|\vec{b}||\vec{n}|}",
-"description": "State the formula to geometrically find the acute angle \theta formed strictly between a line (direction b) and a plane (normal n).",
-"derivation": "The dot product calculates the cosine of the angle $\alpha$ relative to the normal vector. Because the normal is $90^\circ$ to the plane, $\theta = 90^\circ - \alpha$. Therefore, $\cos\alpha = \cos(90^\circ - \theta) = \sin\theta$."
+"formula": "\\sin\\theta = \\frac{|\\vec{b} \\cdot \\vec{n}|}{|\\vec{b}||\\vec{n}|}",
+"description": "State the formula to geometrically find the acute angle \\theta formed strictly between a line (direction b) and a plane (normal n).",
+"derivation": "The dot product calculates the cosine of the angle $\\alpha$ relative to the normal vector. Because the normal is $90^\\circ$ to the plane, $\\theta = 90^\\circ - \\alpha$. Therefore, $\\cos\\alpha = \\cos(90^\\circ - \\theta) = \\sin\\theta$."
 }
 }
 },
@@ -1090,11 +1090,11 @@
 ],
 "order": 38,
 "heading": "Family of Planes SOP: Linear Combination Setup",
-"back": "## Component Anatomy:\n- **$P_1, P_2$**: The explicit Cartesian equations of the two base intersecting planes. They MUST strictly be algebraically equated to $0$ before use.\n- **$\lambda$**: An arbitrary real scalar parameter used to sweep through the infinite family of planes.\n\n## Boundary Conditions / Domain:\n- This linear combination mathematically generates *every* possible plane passing through the intersecting line, except exactly $P_2 = 0$ (which corresponds only to the theoretical mathematical limit as $\lambda \to \infty$).",
+"back": "## Component Anatomy:\n- **$P_1, P_2$**: The explicit Cartesian equations of the two base intersecting planes. They MUST strictly be algebraically equated to $0$ before use.\n- **$\\lambda$**: An arbitrary real scalar parameter used to sweep through the infinite family of planes.\n\n## Boundary Conditions / Domain:\n- This linear combination mathematically generates *every* possible plane passing through the intersecting line, except exactly $P_2 = 0$ (which corresponds only to the theoretical mathematical limit as $\\lambda \\to \\infty$).",
 "formulaMeta": {
-"formula": "P_1 + \lambda P_2 = 0",
+"formula": "P_1 + \\lambda P_2 = 0",
 "description": "State the core equation representing the infinite family of planes passing exactly through the line of intersection of two given planes P_1 = 0 and P_2 = 0.",
-"derivation": "1. Verify both plane equations are strictly set to zero: $P_1 = A_1x+B_1y+C_1z+D_1 = 0$.\n2. Linearly combine them using a scalar multiplier $\lambda$: $(A_1x+B_1y+C_1z+D_1) + \lambda(A_2x+B_2y+C_2z+D_2) = 0$."
+"derivation": "1. Verify both plane equations are strictly set to zero: $P_1 = A_1x+B_1y+C_1z+D_1 = 0$.\n2. Linearly combine them using a scalar multiplier $\\lambda$: $(A_1x+B_1y+C_1z+D_1) + \\lambda(A_2x+B_2y+C_2z+D_2) = 0$."
 }
 }
 },
@@ -1119,11 +1119,11 @@
 ],
 "order": 39,
 "heading": "Family of Planes SOP: Parameter Resolution Phase",
-"back": "## Component Anatomy:\n- $\vec{n}*{new}$: The parametrised normal vector dynamically extracted from the combined family equation.\n\n## Boundary Conditions / Domain:\n- To correctly extract $\vec{n}*{new}$, you must rigorously group all variables algebraically. A common failure point is forgetting to properly distribute the $\lambda$ across the $D_2$ constant.",
+"back": "## Component Anatomy:\n- $\\vec{n}*{new}$: The parametrised normal vector dynamically extracted from the combined family equation.\n\n## Boundary Conditions / Domain:\n- To correctly extract $\\vec{n}*{new}$, you must rigorously group all variables algebraically. A common failure point is forgetting to properly distribute the $\\lambda$ across the $D_2$ constant.",
 "formulaMeta": {
-"formula": "\vec{n}*{new} = (A_1+\lambda A_2)\hat{i} + (B_1+\lambda B_2)\hat{j} + (C_1+\lambda C_2)\hat{k}",
-"description": "State the subsequent procedural steps to isolate \lambda and finalize the exact plane equation from the Family of Planes setup.",
-"derivation": "1. Algebraically group the spatial variables from the $P_1 + \lambda P_2 = 0$ equation to extract the new parametrised normal: $\vec{n}*{new}$.\n2. Apply the specific geometric constraint explicitly provided in the question (e.g., perpendicularity to a third plane via dot product $= 0$, or passing through a specific anchor point) to generate a solvable linear equation for $\lambda$.\n3. Solve for scalar $\lambda$ and substitute it strictly back into the original combination equation to yield the final Cartesian plane."
+"formula": "\\vec{n}*{new} = (A_1+\\lambda A_2)\\hat{i} + (B_1+\\lambda B_2)\\hat{j} + (C_1+\\lambda C_2)\\hat{k}",
+"description": "State the subsequent procedural steps to isolate \\lambda and finalize the exact plane equation from the Family of Planes setup.",
+"derivation": "1. Algebraically group the spatial variables from the $P_1 + \\lambda P_2 = 0$ equation to extract the new parametrised normal: $\\vec{n}*{new}$.\n2. Apply the specific geometric constraint explicitly provided in the question (e.g., perpendicularity to a third plane via dot product $= 0$, or passing through a specific anchor point) to generate a solvable linear equation for $\\lambda$.\n3. Solve for scalar $\\lambda$ and substitute it strictly back into the original combination equation to yield the final Cartesian plane."
 }
 }
 },
@@ -1146,7 +1146,7 @@
 ],
 "order": 40,
 "heading": "Intersection Point of a Line and a Plane",
-"back": "SOP:\n1. Algebraically parametrise the 1D line strictly in terms of a scalar $\lambda$: $x = x_1 + a\lambda$, $y = y_1 + b\lambda$, $z = z_1 + c\lambda$.\n2. Substitute these three parametrised coordinate expressions directly into the $x, y, z$ spatial variables of the Cartesian plane equation $Ax + By + Cz + D = 0$.\n3. Solve the resulting single-variable linear algebraic equation entirely for $\lambda$.\n4. Substitute the calculated scalar $\lambda$ back into the line's initial parametric equations to reveal the exact 3D spatial intersection point.\n\n## Boundary Conditions / Domain:\n- If the algebraic substitution results in a strictly false contradiction (e.g., $4 = 0$), the line is perfectly parallel to the plane and never geometrically intersects.",
+"back": "SOP:\n1. Algebraically parametrise the 1D line strictly in terms of a scalar $\\lambda$: $x = x_1 + a\\lambda$, $y = y_1 + b\\lambda$, $z = z_1 + c\\lambda$.\n2. Substitute these three parametrised coordinate expressions directly into the $x, y, z$ spatial variables of the Cartesian plane equation $Ax + By + Cz + D = 0$.\n3. Solve the resulting single-variable linear algebraic equation entirely for $\\lambda$.\n4. Substitute the calculated scalar $\\lambda$ back into the line's initial parametric equations to reveal the exact 3D spatial intersection point.\n\n## Boundary Conditions / Domain:\n- If the algebraic substitution results in a strictly false contradiction (e.g., $4 = 0$), the line is perfectly parallel to the plane and never geometrically intersects.",
 "standardMeta": {
 "question": "What is the strict algebraic standard operating procedure to find the exact spatial coordinate point of intersection between a line and a plane?"
 }
@@ -1171,7 +1171,7 @@
 ],
 "order": 41,
 "heading": "Intersection of a Line and a Coordinate Plane",
-"back": "SOP:\n1. Mathematically write the Cartesian equation of the line strictly in parametric form using a scalar $\lambda$: $(x_1 + a\lambda, y_1 + b\lambda, z_1 + c\lambda)$.\n2. Geometrically identify the specific coordinate plane being crossed. The fundamental defining property of a coordinate plane is that its orthogonal coordinate is strictly algebraic zero.\n   - XY-plane: set $z = 0$.\n   - YZ-plane: set $x = 0$.\n   - ZX-plane: set $y = 0$.\n3. Equate the corresponding parametric expression to $0$ and algebraically solve for $\lambda$.\n4. Substitute this specific scalar $\lambda$ directly back into all three parametric coordinate expressions to extract the exact 3D intersection point.",
+"back": "SOP:\n1. Mathematically write the Cartesian equation of the line strictly in parametric form using a scalar $\\lambda$: $(x_1 + a\\lambda, y_1 + b\\lambda, z_1 + c\\lambda)$.\n2. Geometrically identify the specific coordinate plane being crossed. The fundamental defining property of a coordinate plane is that its orthogonal coordinate is strictly algebraic zero.\n   - XY-plane: set $z = 0$.\n   - YZ-plane: set $x = 0$.\n   - ZX-plane: set $y = 0$.\n3. Equate the corresponding parametric expression to $0$ and algebraically solve for $\\lambda$.\n4. Substitute this specific scalar $\\lambda$ directly back into all three parametric coordinate expressions to extract the exact 3D intersection point.",
 "standardMeta": {
 "question": "What is the precise algebraic standard operating procedure to calculate the exact spatial coordinates where a given 3D line geometrically crosses the XY-plane?"
 }
@@ -1197,11 +1197,11 @@
 ],
 "order": 42,
 "heading": "Direction Vector from Two Intersecting Planes",
-"back": "## Component Anatomy:\n- $\vec{b}$: The strict direction vector of the resulting 1D intersection line.\n- $\vec{n}_1, \vec{n}_2$: The spatial normal vectors of the two planes defining the line.\n\n## Boundary Conditions / Domain:\n- $\vec{n}_1 \times \vec{n}_2 \neq \vec{0}$. The planes must mathematically strictly NOT be parallel, otherwise, they do not intersect to form a valid spatial line.",
+"back": "## Component Anatomy:\n- $\\vec{b}$: The strict direction vector of the resulting 1D intersection line.\n- $\\vec{n}_1, \\vec{n}_2$: The spatial normal vectors of the two planes defining the line.\n\n## Boundary Conditions / Domain:\n- $\\vec{n}_1 \\times \\vec{n}_2 \\neq \\vec{0}$. The planes must mathematically strictly NOT be parallel, otherwise, they do not intersect to form a valid spatial line.",
 "formulaMeta": {
-"formula": "\vec{b} = \vec{n}_1 \times \vec{n}_2",
+"formula": "\\vec{b} = \\vec{n}_1 \\times \\vec{n}_2",
 "description": "State the vector formula to mathematically extract the direction vector of a line that is implicitly given as the intersection of two Cartesian planes.",
-"derivation": "1. A geometric intersection line lies entirely within both plane surfaces.\n2. Therefore, its direction vector $\vec{b}$ must be strictly spatially perpendicular to the normals of both contributing planes.\n3. Extract the normal vectors from the two plane equations: $\vec{n}_1 = \langle A_1, B_1, C_1 \rangle$ and $\vec{n}_2 = \langle A_2, B_2, C_2 \rangle$.\n4. Compute their vector cross product to generate the direction ratios of the line."
+"derivation": "1. A geometric intersection line lies entirely within both plane surfaces.\n2. Therefore, its direction vector $\\vec{b}$ must be strictly spatially perpendicular to the normals of both contributing planes.\n3. Extract the normal vectors from the two plane equations: $\\vec{n}_1 = \\langle A_1, B_1, C_1 \\rangle$ and $\\vec{n}_2 = \\langle A_2, B_2, C_2 \\rangle$.\n4. Compute their vector cross product to generate the direction ratios of the line."
 }
 }
 },
@@ -1226,11 +1226,11 @@
 ],
 "order": 43,
 "heading": "Line Parallel to Two Planes",
-"back": "## Component Anatomy:\n- **$\vec{b}$**: The dynamically generated direction vector of the required line.\n- **$\vec{n}_1, \vec{n}_2$**: Perpendicular normal vectors extracted from the two given bounding planes.\n\n## Boundary Conditions / Domain:\n- If $\vec{n}_1$ and $\vec{n}_2$ are parallel, their algebraic cross product mathematically vanishes to zero. This means the planes are completely parallel to each other, resulting in infinitely many line directions that would geometrically satisfy the condition.",
+"back": "## Component Anatomy:\n- **$\\vec{b}$**: The dynamically generated direction vector of the required line.\n- **$\\vec{n}_1, \\vec{n}_2$**: Perpendicular normal vectors extracted from the two given bounding planes.\n\n## Boundary Conditions / Domain:\n- If $\\vec{n}_1$ and $\\vec{n}_2$ are parallel, their algebraic cross product mathematically vanishes to zero. This means the planes are completely parallel to each other, resulting in infinitely many line directions that would geometrically satisfy the condition.",
 "formulaMeta": {
-"formula": "\vec{b} = \vec{n}_1 \times \vec{n}*2",
+"formula": "\\vec{b} = \\vec{n}_1 \\times \\vec{n}*2",
 "description": "How do you mathematically extract the direction vector of a line given the strict geometric constraint that the line runs perfectly parallel to two distinct planes?",
-"derivation": "1. If a 1D line is parallel to a 2D plane, its direction vector $\vec{b}$ must be strictly algebraically perpendicular to that plane's normal $\vec{n}$.\n2. Since the line is constrained to be parallel to *two* distinct planes, its direction must be simultaneously perpendicular to both $\vec{n}_1$ and $\vec{n}_2$.\n3. Calculate $\vec{b}$ explicitly by computing the vector cross product $\vec{n}_1 \times \vec{n}_2$.\n4. Assemble the final Cartesian line equation using this new $\vec{b}$ and a provided anchor point."
+"derivation": "1. If a 1D line is parallel to a 2D plane, its direction vector $\\vec{b}$ must be strictly algebraically perpendicular to that plane's normal $\\vec{n}$.\n2. Since the line is constrained to be parallel to *two* distinct planes, its direction must be simultaneously perpendicular to both $\\vec{n}_1$ and $\\vec{n}_2$.\n3. Calculate $\\vec{b}$ explicitly by computing the vector cross product $\\vec{n}_1 \\times \\vec{n}_2$.\n4. Assemble the final Cartesian line equation using this new $\\vec{b}$ and a provided anchor point."
 }
 }
 },
@@ -1254,11 +1254,11 @@
 ],
 "order": 44,
 "heading": "Perpendicular Bisector Plane of a Segment",
-"back": "## Component Anatomy:\n- **$\vec{M}$**: The geometric spatial mid-point of the defining line segment.\n- **$\vec{AB}$**: The segment vector connecting the two anchor endpoints, acting perfectly as the plane's normal.\n\n## Boundary Conditions / Domain:\n- Valid for strictly any two distinct mathematical points A and B in 3D space.\n- The resulting plane algebraically represents the locus of all 3D points completely equidistant from A and B.",
+"back": "## Component Anatomy:\n- **$\\vec{M}$**: The geometric spatial mid-point of the defining line segment.\n- **$\\vec{AB}$**: The segment vector connecting the two anchor endpoints, acting perfectly as the plane's normal.\n\n## Boundary Conditions / Domain:\n- Valid for strictly any two distinct mathematical points A and B in 3D space.\n- The resulting plane algebraically represents the locus of all 3D points completely equidistant from A and B.",
 "formulaMeta": {
-"formula": "\vec{AB} \cdot (\vec{r} - \vec{M}) = 0",
+"formula": "\\vec{AB} \\cdot (\\vec{r} - \\vec{M}) = 0",
 "description": "State the underlying vector equation used to dynamically generate the Perpendicular Bisector Plane for a line segment connecting points A and B.",
-"derivation": "1. Algebraically calculate the mid-point anchor $\vec{M} = \frac{\vec{A} + \vec{B}}{2}$. This is a mathematically guaranteed point on the plane.\n2. Calculate the direction vector of the segment $\vec{AB} = \vec{B} - \vec{A}$. Since the bisector plane cuts orthogonally, this segment vector serves exactly as the plane's normal $\vec{n}$.\n3. Substitute anchor $\vec{M}$ and normal $\vec{n}$ into standard normal form: $\vec{n} \cdot (\vec{r} - \vec{M}) = 0$."
+"derivation": "1. Algebraically calculate the mid-point anchor $\\vec{M} = \\frac{\\vec{A} + \\vec{B}}{2}$. This is a mathematically guaranteed point on the plane.\n2. Calculate the direction vector of the segment $\\vec{AB} = \\vec{B} - \\vec{A}$. Since the bisector plane cuts orthogonally, this segment vector serves exactly as the plane's normal $\\vec{n}$.\n3. Substitute anchor $\\vec{M}$ and normal $\\vec{n}$ into standard normal form: $\\vec{n} \\cdot (\\vec{r} - \\vec{M}) = 0$."
 }
 }
 },
@@ -1283,12 +1283,12 @@
 ],
 "order": 45,
 "heading": "Distance of a Point from Coordinate Axes",
-"back": "## Component Anatomy:\n- **$\alpha, \beta, \gamma$**: The strictly defined $x, y, z$ spatial coordinates of the point respectively.\n\n## Boundary Conditions / Domain:\n- Note algebraically that calculating the distance to the Y-axis entirely drops the $\beta$ variable from the radical.\n- By symmetric mathematical extension, the distance to the strictly X-axis is $\sqrt{\beta^2 + \gamma^2}$ and Z-axis is $\sqrt{\alpha^2 + \beta^2}$.",
+"back": "## Component Anatomy:\n- **$\\alpha, \\beta, \\gamma$**: The strictly defined $x, y, z$ spatial coordinates of the point respectively.\n\n## Boundary Conditions / Domain:\n- Note algebraically that calculating the distance to the Y-axis entirely drops the $\\beta$ variable from the radical.\n- By symmetric mathematical extension, the distance to the strictly X-axis is $\\sqrt{\\beta^2 + \\gamma^2}$ and Z-axis is $\\sqrt{\\alpha^2 + \\beta^2}$.",
 "mnemonic": "Drop the specific axis variable you want the distance to.",
 "formulaMeta": {
-"formula": "d*{y\text{-axis}} = \sqrt{\alpha^2 + \gamma^2}",
-"description": "State the mathematical formula for the perpendicular spatial distance of a point P(\alpha, \beta, \gamma) from the strict Y-axis.",
-"derivation": "The geometric foot of the perpendicular dropped directly from point $(\alpha, \beta, \gamma)$ onto the strict Y-axis is exactly $(0, \beta, 0)$. Applying the standard 3D distance formula algebraically yields $\sqrt{(\alpha-0)^2 + (\beta-\beta)^2 + (\gamma-0)^2}$."
+"formula": "d*{y\\text{-axis}} = \\sqrt{\\alpha^2 + \\gamma^2}",
+"description": "State the mathematical formula for the perpendicular spatial distance of a point P(\\alpha, \\beta, \\gamma) from the strict Y-axis.",
+"derivation": "The geometric foot of the perpendicular dropped directly from point $(\\alpha, \\beta, \\gamma)$ onto the strict Y-axis is exactly $(0, \\beta, 0)$. Applying the standard 3D distance formula algebraically yields $\\sqrt{(\\alpha-0)^2 + (\\beta-\\beta)^2 + (\\gamma-0)^2}$."
 }
 }
 },
@@ -1311,9 +1311,9 @@
 ],
 "order": 46,
 "heading": "Point Reflection in Primary Coordinate Planes",
-"back": "Geometric reflection in any primary coordinate plane strictly **negates only the spatial coordinate orthogonal to that plane**, while algebraically preserving the other two coordinates exactly as they are.\n\n- **XY-Plane Reflection:** $(\alpha, \beta, \gamma) \implies (\alpha, \beta, -\gamma)$.\n- **YZ-Plane Reflection:** $(\alpha, \beta, \gamma) \implies (-\alpha, \beta, \gamma)$.\n- **ZX-Plane Reflection:** $(\alpha, \beta, \gamma) \implies (\alpha, -\beta, \gamma)$.\n\n## Boundary Conditions / Domain:\n- If the negated coordinate is originally exactly $0$, the reflection mathematically maps back onto the exact same point, proving it lies precisely ON the reflection plane.",
+"back": "Geometric reflection in any primary coordinate plane strictly **negates only the spatial coordinate orthogonal to that plane**, while algebraically preserving the other two coordinates exactly as they are.\n\n- **XY-Plane Reflection:** $(\\alpha, \\beta, \\gamma) \\implies (\\alpha, \\beta, -\\gamma)$.\n- **YZ-Plane Reflection:** $(\\alpha, \\beta, \\gamma) \\implies (-\\alpha, \\beta, \\gamma)$.\n- **ZX-Plane Reflection:** $(\\alpha, \\beta, \\gamma) \\implies (\\alpha, -\\beta, \\gamma)$.\n\n## Boundary Conditions / Domain:\n- If the negated coordinate is originally exactly $0$, the reflection mathematically maps back onto the exact same point, proving it lies precisely ON the reflection plane.",
 "standardMeta": {
-"question": "What is the specific algorithmic rule for generating the mathematical reflection of a point $(\alpha, \beta, \gamma)$ across any primary 2D coordinate plane (e.g., the XY-plane)?"
+"question": "What is the specific algorithmic rule for generating the mathematical reflection of a point $(\\alpha, \\beta, \\gamma)$ across any primary 2D coordinate plane (e.g., the XY-plane)?"
 }
 }
 },
@@ -1339,11 +1339,11 @@
 ],
 "order": 47,
 "heading": "Angles with the Four Diagonals of a Cube",
-"back": "## Component Anatomy:\n- **$\alpha, \beta, \gamma, \delta$**: The four geometric angles a given random spatial line makes with the four internal main diagonals of a regular cube.\n\n## Boundary Conditions / Domain:\n- A cube has exactly four main internal body diagonals mathematically passing through its spatial center (e.g., from one vertex to the completely opposite vertex).\n- This mathematical identity strictly holds invariant for ANY arbitrary line drawn in that 3D space.",
+"back": "## Component Anatomy:\n- **$\\alpha, \\beta, \\gamma, \\delta$**: The four geometric angles a given random spatial line makes with the four internal main diagonals of a regular cube.\n\n## Boundary Conditions / Domain:\n- A cube has exactly four main internal body diagonals mathematically passing through its spatial center (e.g., from one vertex to the completely opposite vertex).\n- This mathematical identity strictly holds invariant for ANY arbitrary line drawn in that 3D space.",
 "formulaMeta": {
-"formula": "\cos^2\alpha + \cos^2\beta + \cos^2\gamma + \cos^2\delta = \frac{4}{3}",
+"formula": "\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma + \\cos^2\\delta = \\frac{4}{3}",
 "description": "State the standard advanced identity for the sum of the squares of the cosines of the angles an arbitrary line makes with the four main diagonals of a cube.",
-"derivation": "Setting the cube at the origin, the four diagonals possess direction cosines of the form $\pm\frac{1}{\sqrt{3}}, \pm\frac{1}{\sqrt{3}}, \pm\frac{1}{\sqrt{3}}$. Let the arbitrary line have direction cosines $l, m, n$. Applying the angle dot product $\cos\theta = l_1l + m_1m + n_1n$ to all four, squaring, and algebraically summing them cancels all cross-terms, factoring to exactly $\frac{4}{3}(l^2+m^2+n^2) = \frac{4}{3}$."
+"derivation": "Setting the cube at the origin, the four diagonals possess direction cosines of the form $\\pm\\frac{1}{\\sqrt{3}}, \\pm\\frac{1}{\\sqrt{3}}, \\pm\\frac{1}{\\sqrt{3}}$. Let the arbitrary line have direction cosines $l, m, n$. Applying the angle dot product $\\cos\\theta = l_1l + m_1m + n_1n$ to all four, squaring, and algebraically summing them cancels all cross-terms, factoring to exactly $\\frac{4}{3}(l^2+m^2+n^2) = \\frac{4}{3}$."
 }
 }
 },
@@ -1369,7 +1369,7 @@
 "heading": "Invariance of Perpendicular Distance under Axis Rotation",
 "back": "## Component Anatomy:\n- **$a, b, c$**: The geometric intercepts of the plane evaluated on the original set of coordinate axes.\n- **$a', b', c'$**: The resulting intercepts of the exact same plane evaluated on the newly rotated coordinate axes.\n\n## Boundary Conditions / Domain:\n- The spatial origin $(0,0,0)$ MUST remain strictly physically fixed during transformation. Only the angular orientation of the axes is rotated.\n- None of the explicit intercepts can mathematically evaluate to zero.",
 "formulaMeta": {
-"formula": "\frac{1}{a^2} + \frac{1}{b^2} + \frac{1}{c^2} = \frac{1}{a'^2} + \frac{1}{b'^2} + \frac{1}{c'^2}",
+"formula": "\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2} = \\frac{1}{a'^2} + \\frac{1}{b'^2} + \\frac{1}{c'^2}",
 "description": "State the invariant algebraic identity connecting the intercepts of a plane on two different systems of rectangular axes strictly sharing the same origin.",
 "derivation": "1. The mathematical perpendicular distance from the origin to a plane expressed in intercept form is algebraically calculated by $1/p^2 = 1/a^2 + 1/b^2 + 1/c^2$.\n2. A pure rotational transformation of axes strictly preserves all Euclidean spatial distances calculated from the fixed origin.\n3. Therefore, $1/p^2$ calculated mathematically in the new coordinate system MUST exactly equal $1/p^2$ derived in the old system."
 }
@@ -1396,11 +1396,11 @@
 ],
 "order": 49,
 "heading": "Infinitesimal Line Perturbation: Vector Setup",
-"back": "## Component Anatomy:\n- **$\delta l, \delta m, \delta n$**: Mathematically extremely small infinitesimal variations in the direction cosines.\n\n## Boundary Conditions / Domain:\n- Both the original and the perturbed vectors MUST independently satisfy the fundamental direction cosine identity: sum of squares equals exactly $1$.",
+"back": "## Component Anatomy:\n- **$\\delta l, \\delta m, \\delta n$**: Mathematically extremely small infinitesimal variations in the direction cosines.\n\n## Boundary Conditions / Domain:\n- Both the original and the perturbed vectors MUST independently satisfy the fundamental direction cosine identity: sum of squares equals exactly $1$.",
 "formulaMeta": {
-"formula": "2(l\delta l + m\delta m + n\delta n) + \delta l^2 + \delta m^2 + \delta n^2 = 0",
+"formula": "2(l\\delta l + m\\delta m + n\\delta n) + \\delta l^2 + \\delta m^2 + \\delta n^2 = 0",
 "description": "State the foundational expanded constraint equation governing an infinitesimal perturbation of a line's direction cosines.",
-"derivation": "1. Define the initial unit vector: $\hat{u}_1 = (l, m, n)$ enforcing $l^2+m^2+n^2 = 1$.\n2. Define the infinitesimally perturbed vector: $\hat{u}_2 = (l+\delta l, m+\delta m, n+\delta n)$ enforcing $(l+\delta l)^2+(m+\delta m)^2+(n+\delta n)^2 = 1$.\n3. Algebraically expanding the second constraint and isolating the first yields the intermediate equation."
+"derivation": "1. Define the initial unit vector: $\\hat{u}_1 = (l, m, n)$ enforcing $l^2+m^2+n^2 = 1$.\n2. Define the infinitesimally perturbed vector: $\\hat{u}_2 = (l+\\delta l, m+\\delta m, n+\\delta n)$ enforcing $(l+\\delta l)^2+(m+\\delta m)^2+(n+\\delta n)^2 = 1$.\n3. Algebraically expanding the second constraint and isolating the first yields the intermediate equation."
 }
 }
 },
@@ -1424,11 +1424,11 @@
 ],
 "order": 50,
 "heading": "Infinitesimal Angle via Small Angle Approximation",
-"back": "## Component Anatomy:\n- **$\delta\theta$**: The resulting infinitesimally small acute angle geometrically generated between the original line and its new perturbed spatial position.\n\n## Boundary Conditions / Domain:\n- This derivation strictly relies mathematically on the Taylor series small-angle approximation $\cos(\delta\theta) \approx 1 - \frac{1}{2}\delta\theta^2$. It fails catastrophically for macroscopic angle shifts.",
+"back": "## Component Anatomy:\n- **$\\delta\\theta$**: The resulting infinitesimally small acute angle geometrically generated between the original line and its new perturbed spatial position.\n\n## Boundary Conditions / Domain:\n- This derivation strictly relies mathematically on the Taylor series small-angle approximation $\\cos(\\delta\\theta) \\approx 1 - \\frac{1}{2}\\delta\\theta^2$. It fails catastrophically for macroscopic angle shifts.",
 "formulaMeta": {
-"formula": "\delta\theta^2 = \delta l^2 + \delta m^2 + \delta n^2",
-"description": "State the final algebraic formula for the squared small angle \delta\theta^2 derived between a line and its perturbed position.",
-"derivation": "1. Compute the dot product $\cos\delta\theta = \hat{u}_1 \cdot \hat{u}_2 = l(l+\delta l) + m(m+\delta m) + n(n+\delta n)$.\n2. This algebraically expands to $\cos\delta\theta = l^2+m^2+n^2 + (l\delta l + m\delta m + n\delta n) = 1 + (l\delta l + m\delta m + n\delta n)$.\n3. Substitute the first-order term isolated from the Setup constraint: $(l\delta l + m\delta m + n\delta n) = -\frac{1}{2}(\delta l^2 + \delta m^2 + \delta n^2)$.\n4. Apply the small angle approximation $\cos\delta\theta \approx 1 - \frac{1}{2}\delta\theta^2$ and equate strictly to extract $\delta\theta^2$."
+"formula": "\\delta\\theta^2 = \\delta l^2 + \\delta m^2 + \\delta n^2",
+"description": "State the final algebraic formula for the squared small angle \\delta\\theta^2 derived between a line and its perturbed position.",
+"derivation": "1. Compute the dot product $\\cos\\delta\\theta = \\hat{u}_1 \\cdot \\hat{u}_2 = l(l+\\delta l) + m(m+\\delta m) + n(n+\\delta n)$.\n2. This algebraically expands to $\\cos\\delta\\theta = l^2+m^2+n^2 + (l\\delta l + m\\delta m + n\\delta n) = 1 + (l\\delta l + m\\delta m + n\\delta n)$.\n3. Substitute the first-order term isolated from the Setup constraint: $(l\\delta l + m\\delta m + n\\delta n) = -\\frac{1}{2}(\\delta l^2 + \\delta m^2 + \\delta n^2)$.\n4. Apply the small angle approximation $\\cos\\delta\\theta \\approx 1 - \\frac{1}{2}\\delta\\theta^2$ and equate strictly to extract $\\delta\\theta^2$."
 }
 }
 },
@@ -1452,11 +1452,11 @@
 ],
 "order": 51,
 "heading": "Angle with Three Mutually Perpendicular Lines",
-"back": "## Component Anatomy:\n- **$\theta$**: The mathematically fixed, equal angle the newly constructed line geometrically makes with each of the three original basis lines.\n\n## Boundary Conditions / Domain:\n- The three original lines MUST be strictly mutually perpendicular (algebraically forming a perfect orthonormal basis frame, functionally identical to the standard $x, y, z$ axes).\n- The new sum line essentially acts geometrically as the spatial 'body diagonal' within the local coordinate frame uniquely formed by these three constituent lines.",
+"back": "## Component Anatomy:\n- **$\\theta$**: The mathematically fixed, equal angle the newly constructed line geometrically makes with each of the three original basis lines.\n\n## Boundary Conditions / Domain:\n- The three original lines MUST be strictly mutually perpendicular (algebraically forming a perfect orthonormal basis frame, functionally identical to the standard $x, y, z$ axes).\n- The new sum line essentially acts geometrically as the spatial 'body diagonal' within the local coordinate frame uniquely formed by these three constituent lines.",
 "formulaMeta": {
-"formula": "\cos\theta = \frac{1}{\sqrt{3}}",
+"formula": "\\cos\\theta = \\frac{1}{\\sqrt{3}}",
 "description": "If a line possesses direction ratios strictly proportional to the exact sum of the direction cosines of three mutually perpendicular lines, what exact equal angle does it make with all three?",
-"derivation": "1. Let the three mutually perpendicular basis unit vectors be $\hat{e}_1, \hat{e}_2, \hat{e}_3$.\n2. The required sum line has the explicit direction vector $\vec{u} = \hat{e}_1 + \hat{e}_2 + \hat{e}_3$.\n3. Since the basis is strictly orthonormal, $|\vec{u}|^2 = 1^2 + 1^2 + 1^2 = 3$, dictating mathematically that $|\vec{u}| = \sqrt{3}$.\n4. The dot product angle evaluated with $\hat{e}_1$ is strictly $\cos\theta = \frac{\vec{u} \cdot \hat{e}_1}{|\vec{u}| |\hat{e}_1|} = \frac{1}{\sqrt{3}}$."
+"derivation": "1. Let the three mutually perpendicular basis unit vectors be $\\hat{e}_1, \\hat{e}_2, \\hat{e}_3$.\n2. The required sum line has the explicit direction vector $\\vec{u} = \\hat{e}_1 + \\hat{e}_2 + \\hat{e}_3$.\n3. Since the basis is strictly orthonormal, $|\\vec{u}|^2 = 1^2 + 1^2 + 1^2 = 3$, dictating mathematically that $|\\vec{u}| = \\sqrt{3}$.\n4. The dot product angle evaluated with $\\hat{e}_1$ is strictly $\\cos\\theta = \\frac{\\vec{u} \\cdot \\hat{e}_1}{|\\vec{u}| |\\hat{e}_1|} = \\frac{1}{\\sqrt{3}}$."
 }
 }
 },
@@ -1478,7 +1478,7 @@
 ],
 "order": 52,
 "heading": "Geometric Interpretation: 2nd-Degree Homogeneous Equations in 3D",
-"back": "A factorable second-degree homogeneous Cartesian equation mathematically represents a **pair of planes** geometrically intersecting directly at the spatial origin (or continuously along an entire axis).\n\n- **Example:** $xy + yz = 0$ strictly factors algebraically into $y(x + z) = 0$.\n- This specific mathematical locus consists exactly of two distinct intersecting planes: $y = 0$ (the geometric XZ-plane) and $x + z = 0$.\n- To mathematically determine the dihedral angle between them, you simply extract their respective normalized normal vectors (e.g., $(0,1,0)$ and $\frac{1}{\sqrt{2}}(1,0,1)$) and apply the standard vector dot product.\n\n## Boundary Conditions / Domain:\n- If the algebraic equation is strictly non-factorable over real numbers, it instead geometrically represents a 3D conic surface (like a spatial cone) rather than a pair of flat planes.",
+"back": "A factorable second-degree homogeneous Cartesian equation mathematically represents a **pair of planes** geometrically intersecting directly at the spatial origin (or continuously along an entire axis).\n\n- **Example:** $xy + yz = 0$ strictly factors algebraically into $y(x + z) = 0$.\n- This specific mathematical locus consists exactly of two distinct intersecting planes: $y = 0$ (the geometric XZ-plane) and $x + z = 0$.\n- To mathematically determine the dihedral angle between them, you simply extract their respective normalized normal vectors (e.g., $(0,1,0)$ and $\\frac{1}{\\sqrt{2}}(1,0,1)$) and apply the standard vector dot product.\n\n## Boundary Conditions / Domain:\n- If the algebraic equation is strictly non-factorable over real numbers, it instead geometrically represents a 3D conic surface (like a spatial cone) rather than a pair of flat planes.",
 "standardMeta": {
 "question": "What geometric locus does a factorable second-degree homogeneous algebraic equation (like $xy + yz = 0$) strictly represent when plotted in 3D space?"
 }

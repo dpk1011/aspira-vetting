@@ -50,7 +50,7 @@
 ],
 "order": 2,
 "heading": "Domain of the Common Difference (d)",
-"back": "## Mathematical Truth\nThe common difference ($d$) of an AP is NOT strictly restricted to positive integers.\n\n## Boundary Conditions / Domain\nIt mathematically belongs to real numbers ($d \in \mathbb{R}$) and can take three forms:\n- **Positive** ($d > 0$): Represents an increasing AP.\n- **Negative** ($d < 0$): Represents a decreasing AP.\n- **Zero** ($d = 0$): Represents a constant AP (e.g., 2, 2, 2, 2...).",
+"back": "## Mathematical Truth\nThe common difference ($d$) of an AP is NOT strictly restricted to positive integers.\n\n## Boundary Conditions / Domain\nIt mathematically belongs to real numbers ($d \\in \\mathbb{R}$) and can take three forms:\n- **Positive** ($d > 0$): Represents an increasing AP.\n- **Negative** ($d < 0$): Represents a decreasing AP.\n- **Zero** ($d = 0$): Represents a constant AP (e.g., 2, 2, 2, 2...).",
 "standardMeta": {
 "question": "What are the allowed mathematical bounds (domain) for the common difference of an Arithmetic Progression?"
 }
@@ -76,7 +76,7 @@
 ],
 "order": 3,
 "heading": "Finite vs. Infinite Arithmetic Progressions",
-"back": "## Finite AP\nContains a limited, mathematically countable number of terms. It strictly **must possess a last term** (e.g., $2, 4, 6, \dots, 100$). The number of terms $n$ is a finite integer ($n \in \mathbb{Z}^+$).\n\n## Infinite AP\nContinues indefinitely without rightward boundaries. It mathematically **does not have a last term** (e.g., $1, 2, 3, 4, \dots$). The position index $n \to \infty$.",
+"back": "## Finite AP\nContains a limited, mathematically countable number of terms. It strictly **must possess a last term** (e.g., $2, 4, 6, \\dots, 100$). The number of terms $n$ is a finite integer ($n \\in \\mathbb{Z}^+$).\n\n## Infinite AP\nContinues indefinitely without rightward boundaries. It mathematically **does not have a last term** (e.g., $1, 2, 3, 4, \\dots$). The position index $n \\to \\infty$.",
 "standardMeta": {
 "question": "What is the structural difference between a finite and an infinite Arithmetic Progression, specifically regarding its boundaries?"
 }
@@ -103,9 +103,9 @@
 ],
 "order": 4,
 "heading": "General Form of an Arithmetic Progression",
-"back": "## Component Anatomy\n- **$a$:** The strict first term of the sequence.\n- **$d$:** The constant common difference applied iteratively.\n\n## Boundary Conditions / Domain\n- This progression algebraically represents the additive structure moving left to right for discrete indices ($n \ge 1$, $n \in \mathbb{Z}^+$).",
+"back": "## Component Anatomy\n- **$a$:** The strict first term of the sequence.\n- **$d$:** The constant common difference applied iteratively.\n\n## Boundary Conditions / Domain\n- This progression algebraically represents the additive structure moving left to right for discrete indices ($n \\ge 1$, $n \\in \\mathbb{Z}^+$).",
 "formulaMeta": {
-"formula": "a, a + d, a + 2d, a + 3d, \dots",
+"formula": "a, a + d, a + 2d, a + 3d, \\dots",
 "description": "Standard algebraic general form used to visually represent the continuous expansion of an Arithmetic Progression.",
 "derivation": ""
 }
@@ -132,7 +132,7 @@
 ],
 "order": 5,
 "heading": "Formula for the Common Difference (d)",
-"back": "## Component Anatomy\n- **$a_k$:** Any arbitrary $k$-th term in the AP.\n- **$a_{k+1}$:** The immediate mathematically successive term.\n\n## Boundary Conditions / Domain\n- **Strict Index Domain:** $k$ must be a positive integer ($k \ge 1, k \in \mathbb{Z}^+$).\n- **CRITICAL RULE:** It must ALWAYS be calculated as $(\text{Next Term}) - (\text{Previous Term})$. Subtracting backwards inherently yields the opposite sign and ruins all downstream calculations.",
+"back": "## Component Anatomy\n- **$a_k$:** Any arbitrary $k$-th term in the AP.\n- **$a_{k+1}$:** The immediate mathematically successive term.\n\n## Boundary Conditions / Domain\n- **Strict Index Domain:** $k$ must be a positive integer ($k \\ge 1, k \\in \\mathbb{Z}^+$).\n- **CRITICAL RULE:** It must ALWAYS be calculated as $(\\text{Next Term}) - (\\text{Previous Term})$. Subtracting backwards inherently yields the opposite sign and ruins all downstream calculations.",
 "mnemonic": "Next minus Previous. (Right minus Left)",
 "formulaMeta": {
 "formula": "d = a_{k+1} - a_k",
@@ -163,7 +163,7 @@
 ],
 "order": 6,
 "heading": "General Term (n-th Term) of an AP",
-"back": "## Component Anatomy\n- **$a_n$:** The final numerical value of the $n$-th term.\n- **$a$:** The initial first term.\n- **$n$:** The sequential position index of the term.\n- **$d$:** The common difference.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The position index $n$ MUST be a natural number ($n \in \mathbb{Z}^+, n \ge 1$). A term position physically cannot be fractional, zero, or negative.",
+"back": "## Component Anatomy\n- **$a_n$:** The final numerical value of the $n$-th term.\n- **$a$:** The initial first term.\n- **$n$:** The sequential position index of the term.\n- **$d$:** The common difference.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The position index $n$ MUST be a natural number ($n \\in \\mathbb{Z}^+, n \\ge 1$). A term position physically cannot be fractional, zero, or negative.",
 "formulaMeta": {
 "formula": "a_n = a + (n - 1)d",
 "description": "Formula to exactly calculate the specific n-th term (general term) of an AP measured from the beginning.",
@@ -245,7 +245,7 @@
 ],
 "order": 9,
 "heading": "Geometrical / Graphical Representation of an AP",
-"back": "## The Geometric Rule\nIf you plot the specific terms of an Arithmetic Progression on a Cartesian coordinate plane mapping term position ($n$) versus term value ($a_n$), they will strictly align linearly to form a **straight line**.\n\n## Slope Connection\nThe mathematical slope of this formed straight line geometrically equals exactly the **common difference ($d$)** of the Arithmetic Progression.\n\n## Visual Trap / Domain\nThe points must strictly remain as discrete, separate dots. You mathematically **cannot** draw a continuous line through them because the domain of $n$ is restricted to integers ($n \in \mathbb{Z}^+$), making fractional term positions undefined.",
+"back": "## The Geometric Rule\nIf you plot the specific terms of an Arithmetic Progression on a Cartesian coordinate plane mapping term position ($n$) versus term value ($a_n$), they will strictly align linearly to form a **straight line**.\n\n## Slope Connection\nThe mathematical slope of this formed straight line geometrically equals exactly the **common difference ($d$)** of the Arithmetic Progression.\n\n## Visual Trap / Domain\nThe points must strictly remain as discrete, separate dots. You mathematically **cannot** draw a continuous line through them because the domain of $n$ is restricted to integers ($n \\in \\mathbb{Z}^+$), making fractional term positions undefined.",
 "mnemonic": "AP plots are straight lines, climbing by 'd'.",
 "standardMeta": {
 "question": "If you plot the individual terms of an Arithmetic Progression on a Cartesian graph mapping term position $n$ (x-axis) versus term value $a_n$ (y-axis), what exact geometric shape emerges, and what does its slope physically represent?"
@@ -273,9 +273,9 @@
 ],
 "order": 10,
 "heading": "Finding the r-th Term from the End",
-"back": "## Component Anatomy\n- **$l$:** The exact last term of the finite AP.\n- **$r$:** The targeted integer position index measured backward from the end.\n- **$d$:** The original common difference of the AP (when traversing left to right).\n\n## Boundary Conditions / Domain\n- The AP must strictly be a **finite** progression. This formula mathematically breaks and is undefined for infinite APs.\n- $r$ must be a positive integer such that $r \le n$ (where $n$ is the total number of terms).",
+"back": "## Component Anatomy\n- **$l$:** The exact last term of the finite AP.\n- **$r$:** The targeted integer position index measured backward from the end.\n- **$d$:** The original common difference of the AP (when traversing left to right).\n\n## Boundary Conditions / Domain\n- The AP must strictly be a **finite** progression. This formula mathematically breaks and is undefined for infinite APs.\n- $r$ must be a positive integer such that $r \\le n$ (where $n$ is the total number of terms).",
 "formulaMeta": {
-"formula": "\text{Term} = l - (r - 1)d",
+"formula": "\\text{Term} = l - (r - 1)d",
 "description": "Standard shortcut formula to instantly compute the r-th term measured backwards from the END of a finite AP.",
 "derivation": "1. Physically reverse the entire AP sequence. The new first term algebraically becomes $l$.\n2. The new common difference in this reversed orientation becomes strictly $-d$.\n3. Apply the standard general term formula to this new sequence: $a_r = l + (r - 1)(-d)$, which mathematically simplifies to $l - (r - 1)d$."
 }
@@ -303,10 +303,10 @@
 ],
 "order": 11,
 "heading": "Sum of First n Terms (Standard Formula)",
-"back": "## Component Anatomy\n- **$S_n$:** The accumulated total sum of the first $n$ sequential terms.\n- **$n$:** The strict integer count of how many terms are being summed.\n- **$a$:** The initial first term of the sequence.\n- **$d$:** The common difference.\n\n## Boundary Conditions / Domain\n- $n \in \mathbb{Z}^+$ (Must strictly be a positive whole integer).\n- Typically applied optimally when the common difference $d$ is known, but the final boundary term is unknown.",
+"back": "## Component Anatomy\n- **$S_n$:** The accumulated total sum of the first $n$ sequential terms.\n- **$n$:** The strict integer count of how many terms are being summed.\n- **$a$:** The initial first term of the sequence.\n- **$d$:** The common difference.\n\n## Boundary Conditions / Domain\n- $n \\in \\mathbb{Z}^+$ (Must strictly be a positive whole integer).\n- Typically applied optimally when the common difference $d$ is known, but the final boundary term is unknown.",
 "mnemonic": "n over 2, times 2a plus (n-1)d",
 "formulaMeta": {
-"formula": "S_n = \frac{n}{2}[2a + (n - 1)d]",
+"formula": "S_n = \\frac{n}{2}[2a + (n - 1)d]",
 "description": "Standard formula to algebraically calculate the cumulative sum of the first n terms of an AP.",
 "derivation": "Derived structurally via Gauss's method of writing the entire summation equation forwards, then writing it backwards directly underneath, and mathematically adding the two equations together to yield $n$ pairs of identical sums, each evaluating uniformly to $2a + (n-1)d$."
 }
@@ -335,9 +335,9 @@
 "back": "## Component Anatomy\n- **$S_n$:** Cumulative sum of the first $n$ terms.\n- **$n$:** The exact integer count of terms.\n- **$a$:** The initial first term.\n- **$l$:** The exact final term ending the summation (also mathematically denoted as $a_n$).\n\n## Boundary Conditions / Domain\n- Functionally requires explicit knowledge of the terminal bound ($l$).\n- Bypasses the strict need to algebraically know the common difference $d$.",
 "mnemonic": "Average of first and last, multiplied by n.",
 "formulaMeta": {
-"formula": "S_n = \frac{n}{2}(a + l)",
+"formula": "S_n = \\frac{n}{2}(a + l)",
 "description": "Optimized formula for the sum of the first n terms of an AP when the extreme outer bounds (first and last terms) are definitively known.",
-"derivation": "1. Take the expanded standard formula $S_n = \frac{n}{2}[a + a + (n-1)d]$.\n2. Logically recognize that the algebraic segment $a + (n-1)d$ is exactly the definition for the final general term ($l$ or $a_n$).\n3. Substitute $l$ directly into the bracket to yield the contracted formula."
+"derivation": "1. Take the expanded standard formula $S_n = \\frac{n}{2}[a + a + (n-1)d]$.\n2. Logically recognize that the algebraic segment $a + (n-1)d$ is exactly the definition for the final general term ($l$ or $a_n$).\n3. Substitute $l$ directly into the bracket to yield the contracted formula."
 }
 }
 },
@@ -391,7 +391,7 @@
 ],
 "order": 14,
 "heading": "Extracting n-th Term from the Sum of Terms",
-"back": "## Component Anatomy\n- **$a_n$:** The specific requested singular $n$-th term.\n- **$S_n$:** The cumulative total sum evaluated spanning the first $n$ terms.\n- **$S_{n-1}$:** The cumulative total sum evaluated spanning the first $n-1$ terms.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This subtraction formula is strictly mathematically valid only for indices **$n \ge 2$**.\n- **Edge-Case Resolution:** For index $n=1$, the boundary dictates that the first singular term is simply equal to the sum of the first one term ($a_1 = S_1$).",
+"back": "## Component Anatomy\n- **$a_n$:** The specific requested singular $n$-th term.\n- **$S_n$:** The cumulative total sum evaluated spanning the first $n$ terms.\n- **$S_{n-1}$:** The cumulative total sum evaluated spanning the first $n-1$ terms.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This subtraction formula is strictly mathematically valid only for indices **$n \\ge 2$**.\n- **Edge-Case Resolution:** For index $n=1$, the boundary dictates that the first singular term is simply equal to the sum of the first one term ($a_1 = S_1$).",
 "mnemonic": "Term = Sum till here MINUS Sum till before.",
 "formulaMeta": {
 "formula": "a_n = S_n - S_{n-1}",
@@ -423,7 +423,7 @@
 "back": "## Component Anatomy\n- **$S_{n+k}$:** The total sum initiating from the 1st baseline term scaling up to the terminal $(n+k)$-th term.\n- **$S_n$:** The original total sum evaluated from the 1st baseline term up to the $n$-th term.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Standard AP sum formulas strictly calculate starting solely from the **first baseline term** ($a_1$). You absolutely cannot directly apply $S_k$ to the middle of a sequence unless you execute a tedious recalculation defining a completely new first term.",
 "mnemonic": "Total span minus the first part.",
 "formulaMeta": {
-"formula": "\text{Sum of next } k \text{ terms} = S_{n+k} - S_n",
+"formula": "\\text{Sum of next } k \\text{ terms} = S_{n+k} - S_n",
 "description": "Safest and most standard algebraic procedure to calculate the chunk sum of the strictly next k terms.",
 "derivation": "To find the sum of a specific chunk spanning from index $(n+1)$ to $(n+k)$:\n1. Calculate the total sum of the entire sequence from the baseline up to $(n+k)$ using the standard formula: $S_{n+k}$.\n2. Mathematically subtract away the chunk you don't want (the sum of the initial $n$ terms): $S_n$."
 }
@@ -476,11 +476,11 @@
 ],
 "order": 17,
 "heading": "Sum of First n Natural Numbers",
-"back": "## Component Anatomy\n- **$n$:** The exact highest terminal integer boundary in the consecutive sequence being summed ($1 + 2 + 3 + \dots + n$).\n\n## Boundary Conditions / Domain\n- Strictly applies solely to positive consecutive integers (counting numbers) initiating exactly at the baseline of 1.",
+"back": "## Component Anatomy\n- **$n$:** The exact highest terminal integer boundary in the consecutive sequence being summed ($1 + 2 + 3 + \\dots + n$).\n\n## Boundary Conditions / Domain\n- Strictly applies solely to positive consecutive integers (counting numbers) initiating exactly at the baseline of 1.",
 "formulaMeta": {
-"formula": "S_n = \frac{n(n + 1)}{2}",
+"formula": "S_n = \\frac{n(n + 1)}{2}",
 "description": "Direct derived mathematical identity formula to calculate the accumulated sum of the first n positive integers.",
-"derivation": "1. Structurally treat the sequence $1, 2, 3, \dots, n$ as an AP where $a = 1$, common difference $d = 1$, and terminal term $l = n$.\n2. Applying the outer-bounds formula $S_n = \frac{n}{2}(a+l)$ directly yields $S_n = \frac{n}{2}(1+n)$."
+"derivation": "1. Structurally treat the sequence $1, 2, 3, \\dots, n$ as an AP where $a = 1$, common difference $d = 1$, and terminal term $l = n$.\n2. Applying the outer-bounds formula $S_n = \\frac{n}{2}(a+l)$ directly yields $S_n = \\frac{n}{2}(1+n)$."
 }
 }
 },
@@ -505,12 +505,12 @@
 ],
 "order": 18,
 "heading": "Sum of First n Odd Natural Numbers",
-"back": "## Component Anatomy\n- **$n$:** The exact quantity or COUNT of individual odd numbers being accumulated in the sum, mathematically NOT the magnitude of the final odd number itself.\n\n## Boundary Conditions / Domain\n- Progression sequence begins strictly anchored at the integer 1 (e.g., structurally formatted as $1 + 3 + 5 + \dots + (2n-1)$).",
+"back": "## Component Anatomy\n- **$n$:** The exact quantity or COUNT of individual odd numbers being accumulated in the sum, mathematically NOT the magnitude of the final odd number itself.\n\n## Boundary Conditions / Domain\n- Progression sequence begins strictly anchored at the integer 1 (e.g., structurally formatted as $1 + 3 + 5 + \\dots + (2n-1)$).",
 "mnemonic": "Sum of Odds is a Perfect Square.",
 "formulaMeta": {
 "formula": "S_n = n^2",
 "description": "Highly efficient shortcut identity formula to instantly calculate the sum of the first consecutive n odd natural numbers.",
-"derivation": "1. Structurally treat $1, 3, 5, \dots$ as an AP where baseline $a = 1$ and constant difference $d = 2$.\n2. Substitute into standard form: $S_n = \frac{n}{2}[2(1) + (n-1)2]$.\n3. Expand and simplify brackets: $\frac{n}{2}[2 + 2n - 2] = \frac{n}{2}[2n]$.\n4. Cross-cancel to arrive strictly at $n^2$."
+"derivation": "1. Structurally treat $1, 3, 5, \\dots$ as an AP where baseline $a = 1$ and constant difference $d = 2$.\n2. Substitute into standard form: $S_n = \\frac{n}{2}[2(1) + (n-1)2]$.\n3. Expand and simplify brackets: $\\frac{n}{2}[2 + 2n - 2] = \\frac{n}{2}[2n]$.\n4. Cross-cancel to arrive strictly at $n^2$."
 }
 }
 },
@@ -534,11 +534,11 @@
 ],
 "order": 19,
 "heading": "Sum of First n Even Natural Numbers",
-"back": "## Component Anatomy\n- **$n$:** The exact discrete COUNT of sequential even numbers being summed.\n\n## Boundary Conditions / Domain\n- The progression structurally begins strictly anchored at the integer 2 (e.g., $2 + 4 + 6 + \dots + 2n$).",
+"back": "## Component Anatomy\n- **$n$:** The exact discrete COUNT of sequential even numbers being summed.\n\n## Boundary Conditions / Domain\n- The progression structurally begins strictly anchored at the integer 2 (e.g., $2 + 4 + 6 + \\dots + 2n$).",
 "formulaMeta": {
 "formula": "S_n = n(n + 1)",
 "description": "Direct mathematical identity formula to calculate the accumulated sum of the first n sequential even natural numbers.",
-"derivation": "1. Treat the sequence $2, 4, 6, \dots$ structurally as an AP where $a = 2$ and constant difference $d = 2$.\n2. Substitute: $S_n = \frac{n}{2}[2(2) + (n-1)2]$.\n3. Expand terms: $\frac{n}{2}[4 + 2n - 2]$.\n4. Simplify: $\frac{n}{2}[2n + 2]$. Factoring out the 2 mathematically yields $n(n+1)$."
+"derivation": "1. Treat the sequence $2, 4, 6, \\dots$ structurally as an AP where $a = 2$ and constant difference $d = 2$.\n2. Substitute: $S_n = \\frac{n}{2}[2(2) + (n-1)2]$.\n3. Expand terms: $\\frac{n}{2}[4 + 2n - 2]$.\n4. Simplify: $\\frac{n}{2}[2n + 2]$. Factoring out the 2 mathematically yields $n(n+1)$."
 }
 }
 },
@@ -565,7 +565,7 @@
 "heading": "Arithmetic Mean Condition",
 "back": "## Component Anatomy\n- **$a, c$:** The two outer bounds of the 3-term subset.\n- **$b$:** The exact midpoint term, specifically defined mathematically as the singular Arithmetic Mean between bounds $a$ and $c$.\n\n## Boundary Conditions / Domain\n- Algebraically works strictly for any three sequential, consecutive terms locked inside an AP.",
 "formulaMeta": {
-"formula": "2b = a + c \implies b = \frac{a + c}{2}",
+"formula": "2b = a + c \\implies b = \\frac{a + c}{2}",
 "description": "Exact linear identity equation relating three strictly consecutive terms placed in an Arithmetic Progression.",
 "derivation": "1. Because the three terms are structurally in AP, the common differences linking them must equate: $b - a = c - b$.\n2. Algebraically rearranging the terms by shifting $b$ to the left side and $a$ to the right side directly yields the baseline $2b = a + c$."
 }
@@ -595,7 +595,7 @@
 "back": "## Component Anatomy\n- **$T_r$:** The targeted $r$-th term measured iterating from the beginning.\n- **$T_{n-r+1}$:** The corresponding targeted $r$-th term measured converging backward from the end.\n- **$a, l$:** The absolute first and last outermost terms of the progression.\n\n## Boundary Conditions / Domain\n- Structurally requires a strictly finite AP possessing exactly $n$ terms to establish the fixed outer boundaries.",
 "mnemonic": "Outer bounds match the inner bounds.",
 "formulaMeta": {
-"formula": "T_r + T_{n-r+1} = a + l = \text{Constant}",
+"formula": "T_r + T_{n-r+1} = a + l = \\text{Constant}",
 "description": "Symmetrical property connecting the sum of two specific terms positioned equidistant from both opposing ends of a finite AP.",
 "derivation": "1. If you mathematically iterate one step inward from both extreme ends, the left term increases algebraically by $+d$, and the right term decreases algebraically by $-d$.\n2. The net sum change equals zero ($+d - d = 0$), strictly maintaining the original constant outer boundary total of $(a+l)$."
 }
@@ -624,7 +624,7 @@
 "back": "## Component Anatomy\n- **$a$:** Structurally acts as the fixed middle symmetrical anchor term.\n- **$d$:** The standard uniform common difference.\n\n## Boundary Conditions / Domain\n- **Strategic Rule:** Always rigidly deploy this specific structural setup when the **sum** of 3 unknown terms is explicitly provided in a mathematical word problem, as it is engineered to immediately algebraically cancel out $d$.",
 "mnemonic": "Symmetry kills 'd'.",
 "formulaMeta": {
-"formula": "a - d, \quad a, \quad a + d",
+"formula": "a - d, \\quad a, \\quad a + d",
 "description": "Standard symmetrical algebraic representation utilized to vastly simplify equations targeting 3 unknown consecutive terms of an AP.",
 "derivation": "1. When algebraically summing these three formatted terms together, the result is $(a-d) + a + (a+d) = 3a$.\n2. The $+d$ and $-d$ instantly zero out, leaving a pure equation that rapidly isolates and solves the value of $a$."
 }
@@ -654,7 +654,7 @@
 "back": "## Component Anatomy\n- **$a$:** The invisible symmetrical midpoint anchor located strictly between the two inner terms.\n- **$d$:** Formatted as the half-step variable.\n\n## Boundary Conditions / Domain\n- **CRITICAL ALGEBRAIC TRAP:** Because you skipped the true center point, in this specific 4-term setup, the mathematical physical common difference connecting adjacent sequence terms is strictly **$2d$**, NOT $d$. (e.g., $(a-d) - (a-3d) = 2d$). Do not forget to account for this scaling when evaluating final progression answers.",
 "mnemonic": "Even terms jump by two.",
 "formulaMeta": {
-"formula": "a - 3d, \quad a - d, \quad a + d, \quad a + 3d",
+"formula": "a - 3d, \\quad a - d, \\quad a + d, \\quad a + 3d",
 "description": "Standard symmetrical setup heavily utilized to solve word problems involving exactly 4 unknown consecutive terms in an AP.",
 "derivation": "1. Algebraically summing all four terms directly yields $(a-3d) + (a-d) + (a+d) + (a+3d) = 4a$.\n2. This strictly cancels out all $d$ terms uniformly and simultaneously, permitting immediate isolation of variable $a$."
 }
@@ -682,7 +682,7 @@
 "heading": "SOP: Selecting 5 Unknown Terms in AP",
 "back": "## Component Anatomy\n- **$a$:** The absolute central anchor term.\n- **$d$:** The baseline standard common difference separating terms.\n\n## Boundary Conditions / Domain\n- Specifically engineered and deployed when the cumulative algebraic sum of 5 consecutive terms is explicitly provided in an advanced word problem, allowing $d$ to strictly collapse to zero.",
 "formulaMeta": {
-"formula": "a - 2d, \quad a - d, \quad a, \quad a + d, \quad a + 2d",
+"formula": "a - 2d, \\quad a - d, \\quad a, \\quad a + d, \\quad a + 2d",
 "description": "Standard symmetrical algebraic configuration optimized to represent exactly 5 unknown consecutive terms embedded in an AP.",
 "derivation": "1. Summing the terms evaluates to $(a-2d) + (a-d) + a + (a+d) + (a+2d) = 5a$.\n2. All negative differentials structurally cancel their positive counterparts, instantly isolating the center term."
 }
@@ -736,7 +736,7 @@
 ],
 "order": 26,
 "heading": "AP Preservation: Multiplication/Division by Constants",
-"back": "## Mathematical Truth\nIf strictly every single consecutive term of an AP is uniformly multiplied or divided by a mathematically non-zero constant $k$, the resulting newly scaled sequence fundamentally remains a valid AP.\n\n## Effect on Difference (Boundary State)\nUnlike addition, the new structural common difference will aggressively algebraically scale. It mathematically becomes exactly **$kd$** (if the AP is multiplied) or **$\frac{d}{k}$** (if the AP is divided).\n\n## Boundary Conditions / Domain\n- The scalar constant $k$ MUST strictly be non-zero ($k \neq 0$). Multiplying by zero collapses the sequence into a constant zero progression (destroying the original algebraic structure), and dividing by zero is mathematically undefined.",
+"back": "## Mathematical Truth\nIf strictly every single consecutive term of an AP is uniformly multiplied or divided by a mathematically non-zero constant $k$, the resulting newly scaled sequence fundamentally remains a valid AP.\n\n## Effect on Difference (Boundary State)\nUnlike addition, the new structural common difference will aggressively algebraically scale. It mathematically becomes exactly **$kd$** (if the AP is multiplied) or **$\\frac{d}{k}$** (if the AP is divided).\n\n## Boundary Conditions / Domain\n- The scalar constant $k$ MUST strictly be non-zero ($k \\neq 0$). Multiplying by zero collapses the sequence into a constant zero progression (destroying the original algebraic structure), and dividing by zero is mathematically undefined.",
 "standardMeta": {
 "question": "What mathematically structural impact occurs to the nature and common difference of an Arithmetic Progression if you uniformly multiply or divide every single term by a non-zero constant $k$?"
 }
@@ -763,7 +763,7 @@
 ],
 "order": 27,
 "heading": "Sub-Sequence Selection at Regular Intervals",
-"back": "## The Property\nIf you systemically extract terms from an existing continuous Arithmetic Progression at strictly **regular, constant mathematical intervals** (e.g., explicitly selecting every 3rd term: $a_1, a_4, a_7, a_{10} \dots$).\n\n## The Result\nThe newly extracted sub-sequence is mathematically logically guaranteed to **also algebraically form a valid AP**.\n\n## Boundary Conditions / Domain\n- If the baseline original AP possessed a common difference $d$, and you structurally systematically skip counting to select every $k$-th term, the newly generated sub-AP will strictly possess an algebraically scaled common difference of **$k \times d$**.",
+"back": "## The Property\nIf you systemically extract terms from an existing continuous Arithmetic Progression at strictly **regular, constant mathematical intervals** (e.g., explicitly selecting every 3rd term: $a_1, a_4, a_7, a_{10} \\dots$).\n\n## The Result\nThe newly extracted sub-sequence is mathematically logically guaranteed to **also algebraically form a valid AP**.\n\n## Boundary Conditions / Domain\n- If the baseline original AP possessed a common difference $d$, and you structurally systematically skip counting to select every $k$-th term, the newly generated sub-AP will strictly possess an algebraically scaled common difference of **$k \\times d$**.",
 "standardMeta": {
 "question": "If you systematically extract discrete terms from an existing AP at strictly regular integer intervals, what mathematical structural property does the newly formed sequence possess?"
 }
@@ -791,9 +791,9 @@
 ],
 "order": 28,
 "heading": "SOP: Finding the First Negative Term",
-"back": "## Component Anatomy\n- **$a_n$:** The bounding sequence $n$-th term evaluating physically to a negative mathematical state.\n- **$n$:** The exact structural integer position index.\n\n## Boundary Conditions / Domain\n- Physically only dynamically occurs exclusively inside a strictly **decreasing AP** (where structural difference $d$ is mathematically negative, $d < 0$).\n- Index variable $n$ must rigorously be algebraically resolved and rounded up to the very next natural integer greater than the evaluated fractional bound ($n \in \mathbb{Z}^+$).",
+"back": "## Component Anatomy\n- **$a_n$:** The bounding sequence $n$-th term evaluating physically to a negative mathematical state.\n- **$n$:** The exact structural integer position index.\n\n## Boundary Conditions / Domain\n- Physically only dynamically occurs exclusively inside a strictly **decreasing AP** (where structural difference $d$ is mathematically negative, $d < 0$).\n- Index variable $n$ must rigorously be algebraically resolved and rounded up to the very next natural integer greater than the evaluated fractional bound ($n \\in \\mathbb{Z}^+$).",
 "formulaMeta": {
-"formula": "a_n < 0 \implies a + (n - 1)d < 0",
+"formula": "a_n < 0 \\implies a + (n - 1)d < 0",
 "description": "Standard algebraic Standard Operating Procedure to accurately locate the integer position of the exact first negative term inside a decreasing Arithmetic Progression.",
 "derivation": "1. Structurally set the general $n$-th term expression strictly mathematically less than zero ($< 0$).\n2. Substitute the numerically evaluated values for baseline $a$ and common difference $d$.\n3. Algebraically properly solve the resulting linear inequality to completely isolate $n$.\n4. Because position $n$ MUST strictly map to an integer position, explicitly extract the ceiling (the very next whole counting number) of the evaluated decimal/fraction bound."
 }
@@ -822,7 +822,7 @@
 "heading": "SOP: Counting Multiples within a Specified Range",
 "back": "## Component Anatomy\n- **$A, B$:** The inclusive structural lower and upper numerical bounds defining the specified range interval.\n- **$x$:** The target integer divisor or sequence multiple parameter.\n- **$n$:** The absolute integer total discrete count of viable mathematically valid multiples.\n\n## Boundary Conditions / Domain\n- The evaluated mathematically valid initial first term ($a$) and terminal last term ($a_n$) MUST strictly algebraically definitively fall inside the provided bounding span of $A$ and $B$.",
 "formulaMeta": {
-"formula": "a_n = a + (n - 1)d \implies \text{Solve for } n",
+"formula": "a_n = a + (n - 1)d \\implies \\text{Solve for } n",
 "description": "Algorithmic Standard Operating Procedure to accurately calculate exactly how many discrete integer multiples of a number x exist bounded strictly between two limits A and B.",
 "derivation": "1. Logically identify the absolute first integer multiple of $x$ strictly evaluating equal to or greater than lower bound $A$. This algebraically becomes your sequence baseline first term, $a$.\n2. Logically identify the absolute largest integer multiple of $x$ strictly evaluating equal to or less than upper bound $B$. This algebraically maps directly to your final terminal term, $a_n$.\n3. Rigidly assign the sequence common difference $d$ to precisely algebraically equal the target divisor/multiple $x$.\n4. Substitute all established parameters cleanly into the standard $n$-th term formula and algebraically isolate variable $n$ to mathematically extract the complete total discrete count."
 }
@@ -849,7 +849,7 @@
 ],
 "order": 30,
 "heading": "Word Problem Trap: Divisible by 'Both' Conditions",
-"back": "## The Trap\nWhen directly asked in a word problem to quantify sequence numbers cleanly divisible by 'both integer $X$ and integer $Y$', students frequently mistakenly mathematically deploy strictly $X$, strictly $Y$, or the sum $X+Y$ as the AP common difference.\n\n## The Logical Rule / Boundary Condition\nThe logical algebraic condition 'divisible by both' mathematically rigidly enforces that the structural common difference $d$ of your progression sequence MUST perfectly equal the **Least Common Multiple (LCM)** of integer $X$ and integer $Y$.\n\n## Example Execution\nFor successfully extracting valid sequence numbers concurrently divisible by both 2 and 5, you must set the primary driving common difference precisely to $d = \text{LCM}(2,5) = 10$.",
+"back": "## The Trap\nWhen directly asked in a word problem to quantify sequence numbers cleanly divisible by 'both integer $X$ and integer $Y$', students frequently mistakenly mathematically deploy strictly $X$, strictly $Y$, or the sum $X+Y$ as the AP common difference.\n\n## The Logical Rule / Boundary Condition\nThe logical algebraic condition 'divisible by both' mathematically rigidly enforces that the structural common difference $d$ of your progression sequence MUST perfectly equal the **Least Common Multiple (LCM)** of integer $X$ and integer $Y$.\n\n## Example Execution\nFor successfully extracting valid sequence numbers concurrently divisible by both 2 and 5, you must set the primary driving common difference precisely to $d = \\text{LCM}(2,5) = 10$.",
 "mnemonic": "Both means LCM.",
 "standardMeta": {
 "question": "In Arithmetic Progression word problems specifically targeting sequence numbers that are divisible by BOTH integer $X$ and integer $Y$, what must the algorithmic common difference $d$ mathematically strictly be set to?"
@@ -881,7 +881,7 @@
 "back": "## Component Anatomy\n- **$n$:** The exact terminal total integer number of sequence terms contained globally inside the finite AP.\n- **$P$:** The calculated structural index discrete position(s) marking the middle term(s).\n\n## Boundary Conditions / Domain\n- The algorithm strictly mathematically dynamically branches relying absolutely on the parity (odd/even state) of the evaluated integer total count $n$.\n- **Odd $n$:** Algebraically mathematically yields exactly **one** absolute discrete middle term position.\n- **Even $n$:** Algebraically mathematically yields exactly **two** adjacent continuous middle term positions.",
 "mnemonic": "Odd adds one. Even splits and steps.",
 "formulaMeta": {
-"formula": "\begin{aligned} &\text{If } n \text{ is odd: } P = \frac{n+1}{2} \\ &\text{If } n \text{ is even: } P_1 = \frac{n}{2}, P_2 = \frac{n}{2} + 1 \end{aligned}",
+"formula": "\\begin{aligned} &\\text{If } n \\text{ is odd: } P = \\frac{n+1}{2} \\ &\\text{If } n \\text{ is even: } P_1 = \\frac{n}{2}, P_2 = \\frac{n}{2} + 1 \\end{aligned}",
 "description": "Algebraic equations and conditions required to properly determine the exact position(s) of the structural middle term(s) embedded in a finite bounded AP.",
 "derivation": "1. Algebraically safely set the standard $n$-th term formula mathematically equal to the explicitly provided final terminal term to successfully comprehensively calculate total $n$.\n2. Logically evaluate whether numerical integer $n$ is strictly odd or even to dynamically branch to the mathematically correct physical position equation.\n3. Compute the targeted absolute integer position index $P$.\n4. Substitute the evaluated numerical index $P$ back exactly into the $a_P = a + (P-1)d$ sequence expression to successfully extract the physical numerical value of the center term."
 }

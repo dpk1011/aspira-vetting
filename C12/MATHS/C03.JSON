@@ -52,11 +52,11 @@
 ],
 "order": 2,
 "heading": "Formula: Total Elements and Matrix Order",
-"back": "## Component Anatomy\n- **$m$:** The total number of strictly horizontal rows.\n- **$n$:** The total number of strictly vertical columns.\n- **$m \times n$:** The mathematical order of the matrix (read as 'm by n').\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Both $m$ and $n$ must be strictly positive integers ($m, n \in \mathbb{Z}^+$). Matrix dimensions cannot be zero, negative, or fractional.",
+"back": "## Component Anatomy\n- **$m$:** The total number of strictly horizontal rows.\n- **$n$:** The total number of strictly vertical columns.\n- **$m \\times n$:** The mathematical order of the matrix (read as 'm by n').\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Both $m$ and $n$ must be strictly positive integers ($m, n \\in \\mathbb{Z}^+$). Matrix dimensions cannot be zero, negative, or fractional.",
 "formulaMeta": {
 "formula": "\\text{Total Elements} = mn",
 "description": "The formula calculating the total number of elements present in a matrix of order m \u00d7 n.",
-"derivation": "## Algorithmic SOP (Finding Possible Orders):\n1. Given a total fixed number of elements $N$, algebraically identify all possible integer factor pairs $(m, n)$ such that their product $m \times n = N$.\n2. **Example:** If $N=18$, valid factor pairs are $(1,18), (2,9), (3,6), (6,3), (9,2), (18,1)$.\n3. The total number of structurally possible matrix orders equals the number of positive divisors of $N$ (or combinations of factor pairs)."
+"derivation": "## Algorithmic SOP (Finding Possible Orders):\n1. Given a total fixed number of elements $N$, algebraically identify all possible integer factor pairs $(m, n)$ such that their product $m \\times n = N$.\n2. **Example:** If $N=18$, valid factor pairs are $(1,18), (2,9), (3,6), (6,3), (9,2), (18,1)$.\n3. The total number of structurally possible matrix orders equals the number of positive divisors of $N$ (or combinations of factor pairs)."
 }
 }
 },
@@ -82,7 +82,7 @@
 ],
 "order": 3,
 "heading": "Constraint: Prime Number of Matrix Elements",
-"back": "## The Constraint\nIf a matrix contains exactly $p$ total elements, and $p$ is a prime number (e.g., 5, 7, 13), it structurally can **only** exist as a pure 1D Row Matrix or a pure 1D Column Matrix.\n\n## Mathematical Proof Logic\nThe structurally possible orders of any matrix are strictly determined by the integer factors of its total element count. A prime number $p$ has strictly two factors: $1$ and $p$. Therefore, the ONLY mathematically possible matrix orders are $1 \times p$ and $p \times 1$.",
+"back": "## The Constraint\nIf a matrix contains exactly $p$ total elements, and $p$ is a prime number (e.g., 5, 7, 13), it structurally can **only** exist as a pure 1D Row Matrix or a pure 1D Column Matrix.\n\n## Mathematical Proof Logic\nThe structurally possible orders of any matrix are strictly determined by the integer factors of its total element count. A prime number $p$ has strictly two factors: $1$ and $p$. Therefore, the ONLY mathematically possible matrix orders are $1 \\times p$ and $p \\times 1$.",
 "mnemonic": "Prime elements mean straight lines only.",
 "standardMeta": {
 "question": "If the total number of elements in a matrix is mathematically a prime number, what strict structural constraint is imposed on the matrix?"
@@ -110,12 +110,12 @@
 ],
 "order": 4,
 "heading": "Combinatorics: Total Number of Possible Matrices",
-"back": "## Component Anatomy\n- **$k$:** The exact total number of allowed independent choices for each individual matrix entry (e.g., if entries are strictly restricted to 0 or 1, then $k=2$).\n- **$mn$:** The total scalar number of elements existing in a matrix of order $m \times n$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This formula only applies if the selection of an entry for one slot is mathematically independent of the selections for all other slots.\n- **Common Archetype:** A $3 \times 3$ matrix with entries restricted to {0, 1} yields $2^9 = 512$ unique matrices.",
+"back": "## Component Anatomy\n- **$k$:** The exact total number of allowed independent choices for each individual matrix entry (e.g., if entries are strictly restricted to 0 or 1, then $k=2$).\n- **$mn$:** The total scalar number of elements existing in a matrix of order $m \\times n$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This formula only applies if the selection of an entry for one slot is mathematically independent of the selections for all other slots.\n- **Common Archetype:** A $3 \\times 3$ matrix with entries restricted to {0, 1} yields $2^9 = 512$ unique matrices.",
 "mnemonic": "Choices raised to the Elements.",
 "formulaMeta": {
 "formula": "k^{mn}",
 "description": "The combinatorial formula calculating the total distinct matrices of order m \u00d7 n that can be formed using k specific available entry choices.",
-"derivation": "## Algorithmic SOP:\n1. Mathematically determine the exact total number of available slots in the matrix: $m \times n$.\n2. Determine the exact number of independent mathematical choices ($k$) available to fill any single given slot.\n3. Apply the Fundamental Principle of Counting: multiply the number of choices ($k$) by itself exactly $mn$ times ($k \times k \times k \dots$ for $mn$ iterations)."
+"derivation": "## Algorithmic SOP:\n1. Mathematically determine the exact total number of available slots in the matrix: $m \\times n$.\n2. Determine the exact number of independent mathematical choices ($k$) available to fill any single given slot.\n3. Apply the Fundamental Principle of Counting: multiply the number of choices ($k$) by itself exactly $mn$ times ($k \\times k \\times k \\dots$ for $mn$ iterations)."
 }
 }
 },
@@ -140,7 +140,7 @@
 ],
 "order": 5,
 "heading": "Conditions for Matrix Equality",
-"back": "## Condition 1 (Structural Order)\nBoth matrices MUST possess the **exact same order** ($m \times n$). An $m \times n$ matrix can never equal a $p \times q$ matrix unless $m=p$ and $n=q$.\n\n## Condition 2 (Element-wise Identity)\nEvery spatially corresponding element must evaluate to an exactly equal value ($a_{ij} = b_{ij}$ for all structurally valid $i$ and $j$).\n\n## Application\nEquating two valid matrices is the standard operation used to instantly generate a system of simultaneous linear scalar equations to solve for unknown variables located inside the matrix slots.",
+"back": "## Condition 1 (Structural Order)\nBoth matrices MUST possess the **exact same order** ($m \\times n$). An $m \\times n$ matrix can never equal a $p \\times q$ matrix unless $m=p$ and $n=q$.\n\n## Condition 2 (Element-wise Identity)\nEvery spatially corresponding element must evaluate to an exactly equal value ($a_{ij} = b_{ij}$ for all structurally valid $i$ and $j$).\n\n## Application\nEquating two valid matrices is the standard operation used to instantly generate a system of simultaneous linear scalar equations to solve for unknown variables located inside the matrix slots.",
 "standardMeta": {
 "question": "What are the two mandatory mathematical conditions that must be simultaneously satisfied for two matrices A and B to be considered mathematically equal?"
 }
@@ -165,7 +165,7 @@
 ],
 "order": 6,
 "heading": "Definition: Row and Column Matrices",
-"back": "- **Row Matrix:** A matrix that contains exactly one strictly horizontal row.\n  - **Order Constraint:** $1 \times n$\n  - **General Form:** $B = [b_{ij}]_{1 \times n}$\n\n- **Column Matrix:** A matrix that contains exactly one strictly vertical column.\n  - **Order Constraint:** $m \times 1$\n  - **General Form:** $A = [a_{ij}]_{m \times 1}$",
+"back": "- **Row Matrix:** A matrix that contains exactly one strictly horizontal row.\n  - **Order Constraint:** $1 \\times n$\n  - **General Form:** $B = [b_{ij}]_{1 \\times n}$\n\n- **Column Matrix:** A matrix that contains exactly one strictly vertical column.\n  - **Order Constraint:** $m \\times 1$\n  - **General Form:** $A = [a_{ij}]_{m \\times 1}$",
 "standardMeta": {
 "question": "What is the strict structural distinction between a Row Matrix and a Column Matrix, and what are their mathematically respective orders?"
 }
@@ -192,7 +192,7 @@
 ],
 "order": 7,
 "heading": "Definition: Square Matrix",
-"back": "## Definition\nA matrix structurally defined by having a number of horizontal rows perfectly equal to its number of vertical columns.\n\n## Order Representation\nAn $m \times n$ matrix is geometrically square if and only if $m = n$. When this is true, it is simply referred to as a 'square matrix of order n'.\n\n## Mathematical Significance\nAdvanced matrix properties and algebraic operations (like determinants, mathematical inverses, traces, and eigenvalues) mathematically exist **only** for strictly square matrices.",
+"back": "## Definition\nA matrix structurally defined by having a number of horizontal rows perfectly equal to its number of vertical columns.\n\n## Order Representation\nAn $m \\times n$ matrix is geometrically square if and only if $m = n$. When this is true, it is simply referred to as a 'square matrix of order n'.\n\n## Mathematical Significance\nAdvanced matrix properties and algebraic operations (like determinants, mathematical inverses, traces, and eigenvalues) mathematically exist **only** for strictly square matrices.",
 "standardMeta": {
 "question": "When is a matrix officially classified as a square matrix, and how is its order mathematically denoted?"
 }
@@ -217,7 +217,7 @@
 ],
 "order": 8,
 "heading": "Index Condition for Main Diagonal Elements",
-"back": "## Concept\nFor a structurally valid square matrix $A = [a_{ij}]$ of order $n$, the specific elements where the row index strictly equals the column index ($i = j$) mathematically constitute the main diagonal.\n\n## Structural Elements\nThese specific elements trace the path: $a_{11}, a_{22}, a_{33}, \dots, a_{nn}$.\n\n## Boundary Conditions / Domain\nThe algebraic concept of a 'main diagonal' is only formally and strictly defined for **square matrices**. It does not mathematically exist for rectangular matrices.",
+"back": "## Concept\nFor a structurally valid square matrix $A = [a_{ij}]$ of order $n$, the specific elements where the row index strictly equals the column index ($i = j$) mathematically constitute the main diagonal.\n\n## Structural Elements\nThese specific elements trace the path: $a_{11}, a_{22}, a_{33}, \\dots, a_{nn}$.\n\n## Boundary Conditions / Domain\nThe algebraic concept of a 'main diagonal' is only formally and strictly defined for **square matrices**. It does not mathematically exist for rectangular matrices.",
 "mnemonic": "Diagonal = Double Index (11, 22, 33).",
 "standardMeta": {
 "question": "What is the strict mathematical index condition that defines the main diagonal elements of a square matrix?"
@@ -245,7 +245,7 @@
 ],
 "order": 9,
 "heading": "Algebraic Conditions for a Diagonal Matrix",
-"back": "## Component Anatomy\n- **$B = [b_{ij}]_{m \times m}$:** A foundational square matrix.\n- **$b_{ij} = 0$:** The strictly forced value of the non-diagonal elements.\n\n## Boundary Conditions / Domain\n- **Strict Prerequisite:** The matrix MUST mathematically be a square matrix first.\n- The forced-zero rule ($b_{ij} = 0$) algebraically applies **only** to off-diagonal elements where $i \neq j$.\n- **Trap:** The actual diagonal elements themselves (where $i = j$) can be ANY valid real or complex value, including zero. The algebraic definition strictly constrains only the off-diagonal exterior.",
+"back": "## Component Anatomy\n- **$B = [b_{ij}]_{m \\times m}$:** A foundational square matrix.\n- **$b_{ij} = 0$:** The strictly forced value of the non-diagonal elements.\n\n## Boundary Conditions / Domain\n- **Strict Prerequisite:** The matrix MUST mathematically be a square matrix first.\n- The forced-zero rule ($b_{ij} = 0$) algebraically applies **only** to off-diagonal elements where $i \\neq j$.\n- **Trap:** The actual diagonal elements themselves (where $i = j$) can be ANY valid real or complex value, including zero. The algebraic definition strictly constrains only the off-diagonal exterior.",
 "formulaMeta": {
 "formula": "b_{ij} = 0, \\forall i \\neq j",
 "description": "The strict algebraic condition required for a square matrix to be formally classified as a Diagonal Matrix.",
@@ -275,7 +275,7 @@
 ],
 "order": 10,
 "heading": "Algebraic Conditions for a Scalar Matrix",
-"back": "## Component Anatomy\n- **$k$:** Any mathematically constant scalar value residing on the diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Prerequisite:** The matrix MUST mathematically be a diagonal matrix first (all off-diagonal elements where $i \neq j$ are explicitly 0).\n- Every single scalar element residing on the main diagonal ($i = j$) must be **exactly identical** in value to $k$.",
+"back": "## Component Anatomy\n- **$k$:** Any mathematically constant scalar value residing on the diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Prerequisite:** The matrix MUST mathematically be a diagonal matrix first (all off-diagonal elements where $i \\neq j$ are explicitly 0).\n- Every single scalar element residing on the main diagonal ($i = j$) must be **exactly identical** in value to $k$.",
 "mnemonic": "Scalar = Same Scale on the diagonal.",
 "formulaMeta": {
 "formula": "b_{ij} = \\begin{cases} 0, & \\text{if } i \\neq j \\\\ k, & \\text{if } i = j \\end{cases}",
@@ -305,7 +305,7 @@
 ],
 "order": 11,
 "heading": "Algebraic Conditions for an Identity Matrix",
-"back": "## Component Anatomy\n- **$I_n$:** The standard globally accepted notation for an Identity Matrix of strict order $n \times n$.\n\n## Boundary Conditions / Domain\n- Structurally, it is a highly specialized variant of a Scalar Matrix where the diagonal constant $k$ is strictly locked to $1$.\n- **Algebraic Property:** It acts purely as the multiplicative identity element in matrix algebra arithmetic (i.e., $AI = IA = A$ for any compatible matrix $A$).",
+"back": "## Component Anatomy\n- **$I_n$:** The standard globally accepted notation for an Identity Matrix of strict order $n \\times n$.\n\n## Boundary Conditions / Domain\n- Structurally, it is a highly specialized variant of a Scalar Matrix where the diagonal constant $k$ is strictly locked to $1$.\n- **Algebraic Property:** It acts purely as the multiplicative identity element in matrix algebra arithmetic (i.e., $AI = IA = A$ for any compatible matrix $A$).",
 "formulaMeta": {
 "formula": "a_{ij} = \\begin{cases} 1, & \\text{if } i = j \\\\ 0, & \\text{if } i \\neq j \\end{cases}",
 "description": "The strict algebraic piecewise conditions mathematically defining an Identity Matrix.",
@@ -334,11 +334,11 @@
 ],
 "order": 12,
 "heading": "Operation: Addition of Matrices",
-"back": "## Component Anatomy\n- **$A, B$:** Two structural matrices intended for addition.\n- **$C$:** The computed resultant sum matrix.\n- **$a_{ij}, b_{ij}, c_{ij}$:** The respective scalar elements strictly located at the intersecting $i$-th row and $j$-th column.\n\n## Boundary Conditions / Domain\n- **CRITICAL CONSTRAINT:** Matrix addition is strictly algebraically undefined if matrices $A$ and $B$ are not of the exact same structural order ($m \times n$).",
+"back": "## Component Anatomy\n- **$A, B$:** Two structural matrices intended for addition.\n- **$C$:** The computed resultant sum matrix.\n- **$a_{ij}, b_{ij}, c_{ij}$:** The respective scalar elements strictly located at the intersecting $i$-th row and $j$-th column.\n\n## Boundary Conditions / Domain\n- **CRITICAL CONSTRAINT:** Matrix addition is strictly algebraically undefined if matrices $A$ and $B$ are not of the exact same structural order ($m \\times n$).",
 "formulaMeta": {
 "formula": "C = A + B \\implies c_{ij} = a_{ij} + b_{ij}",
 "description": "The foundational algebraic formula defining element-wise matrix addition.",
-"derivation": "## Algorithmic SOP (Matrix Addition):\n1. Structurally verify the mathematical order of Matrix $A$ ($m \times n$) matches Matrix $B$ ($p \times q$). If $m \neq p$ or $n \neq q$, halt operation; addition is mathematically undefined.\n2. Iteratively extract the scalar element $a_{ij}$ and its exact positional counterpart $b_{ij}$.\n3. Perform standard algebraic addition: $a_{ij} + b_{ij}$ to construct $c_{ij}$.\n4. Repeat systematically for every single matching index coordinate $(i, j)$ across the complete geometric grid."
+"derivation": "## Algorithmic SOP (Matrix Addition):\n1. Structurally verify the mathematical order of Matrix $A$ ($m \\times n$) matches Matrix $B$ ($p \\times q$). If $m \\neq p$ or $n \\neq q$, halt operation; addition is mathematically undefined.\n2. Iteratively extract the scalar element $a_{ij}$ and its exact positional counterpart $b_{ij}$.\n3. Perform standard algebraic addition: $a_{ij} + b_{ij}$ to construct $c_{ij}$.\n4. Repeat systematically for every single matching index coordinate $(i, j)$ across the complete geometric grid."
 }
 }
 },
@@ -417,7 +417,7 @@
 ],
 "order": 15,
 "heading": "Compatibility Condition for Matrix Multiplication",
-"back": "## The Core Rule\nThe product matrix $AB$ is mathematically defined and executable **if and only if** the exact number of columns structurally existing in matrix $A$ perfectly equals the number of rows existing in matrix $B$.\n\n## Visual Check\nIf $A$ possesses order $m \times n$ and $B$ possesses order $p \times q$, they can only be algebraically multiplied if their 'inner' geometric dimensions directly match ($n = p$).\n\n## Consequence\nJust because the forward product $AB$ is structurally defined does NOT guarantee that the reverse product $BA$ is mathematically defined.",
+"back": "## The Core Rule\nThe product matrix $AB$ is mathematically defined and executable **if and only if** the exact number of columns structurally existing in matrix $A$ perfectly equals the number of rows existing in matrix $B$.\n\n## Visual Check\nIf $A$ possesses order $m \\times n$ and $B$ possesses order $p \\times q$, they can only be algebraically multiplied if their 'inner' geometric dimensions directly match ($n = p$).\n\n## Consequence\nJust because the forward product $AB$ is structurally defined does NOT guarantee that the reverse product $BA$ is mathematically defined.",
 "mnemonic": "Inner numbers must match: (m x n) * (n x p).",
 "standardMeta": {
 "question": "What is the strict structural boundary condition that must be completely satisfied for the mathematical multiplication of two matrices (AB) to be defined?"
@@ -503,7 +503,7 @@
 ],
 "order": 18,
 "heading": "Distinction: Non-Commutativity of Matrix Multiplication",
-"back": "## The General Rule\nIn standard matrix algebra, multiplication fundamentally breaks commutative laws: algebraically, $AB \neq BA$.\n\n## Mathematical Justifications\n1. **Structural Failure:** If $A$ is $2 \times 3$ and $B$ is $3 \times 4$, the forward product $AB$ mathematically exists as $2 \times 4$. However, the reverse product $BA$ is completely structurally undefined (a 4-column matrix cannot multiply a 2-row matrix).\n2. **Algebraic Divergence:** Even if $A$ and $B$ are square matrices of the exact same order (meaning both $AB$ and $BA$ exist), the geometric dot products combine entirely different spatial sets of scalar numbers, making the coincidence of $AB = BA$ a highly rare exception, never the rule.",
+"back": "## The General Rule\nIn standard matrix algebra, multiplication fundamentally breaks commutative laws: algebraically, $AB \\neq BA$.\n\n## Mathematical Justifications\n1. **Structural Failure:** If $A$ is $2 \\times 3$ and $B$ is $3 \\times 4$, the forward product $AB$ mathematically exists as $2 \\times 4$. However, the reverse product $BA$ is completely structurally undefined (a 4-column matrix cannot multiply a 2-row matrix).\n2. **Algebraic Divergence:** Even if $A$ and $B$ are square matrices of the exact same order (meaning both $AB$ and $BA$ exist), the geometric dot products combine entirely different spatial sets of scalar numbers, making the coincidence of $AB = BA$ a highly rare exception, never the rule.",
 "mnemonic": "Order matters. AB is not BA.",
 "standardMeta": {
 "question": "Is mathematical matrix multiplication generally commutative? Explain the two primary algebraic reasons why or why not."
@@ -531,7 +531,7 @@
 ],
 "order": 19,
 "heading": "Edge Case: Commutativity of Diagonal Matrices",
-"back": "## The General Rule\nMatrix multiplication is fundamentally non-commutative ($AB \neq BA$).\n\n## The Mathematical Exception\nIf structure $A$ and structure $B$ are both strictly **diagonal matrices of the exact same geometric order**, their algebraic multiplication ALWAYS obeys commutativity ($AB = BA$).\n\n## Proof Logic\nThe mathematical product of two matching diagonal matrices simply yields another diagonal matrix. Its structural elements are derived purely from direct scalar multiplication of the corresponding diagonal entries ($a_{ii} \cdot b_{ii}$). Since pure real/complex scalar multiplication is naturally commutative ($a \cdot b = b \cdot a$), the resulting matrices are perfectly identical.",
+"back": "## The General Rule\nMatrix multiplication is fundamentally non-commutative ($AB \\neq BA$).\n\n## The Mathematical Exception\nIf structure $A$ and structure $B$ are both strictly **diagonal matrices of the exact same geometric order**, their algebraic multiplication ALWAYS obeys commutativity ($AB = BA$).\n\n## Proof Logic\nThe mathematical product of two matching diagonal matrices simply yields another diagonal matrix. Its structural elements are derived purely from direct scalar multiplication of the corresponding diagonal entries ($a_{ii} \\cdot b_{ii}$). Since pure real/complex scalar multiplication is naturally commutative ($a \\cdot b = b \\cdot a$), the resulting matrices are perfectly identical.",
 "mnemonic": "Diagonals don't care about order.",
 "standardMeta": {
 "question": "Under what specific structural boundary condition is the multiplication of two square matrices logically guaranteed to behave commutatively?"
@@ -586,7 +586,7 @@
 ],
 "order": 21,
 "heading": "Matrix Binomial Expansion Trap: (A+B)\u00b2",
-"back": "## Component Anatomy\n- **$A^2, B^2$:** Standard squared matrix structures resulting from the expansion.\n- **$AB + BA$:** The expanded mathematical cross-terms.\n\n## Boundary Conditions / Domain\n- **The Algebraic Trap:** $(A+B)^2 \neq A^2 + 2AB + B^2$ within standard matrix algebra. This strictly occurs because multiplication is generally non-commutative ($AB \neq BA$).\n- **Collapse Condition:** The expanded matrix polynomial safely collapses to the traditional algebraic formula ($A^2 + 2AB + B^2$) **if and only if** the matrices $A$ and $B$ are specifically proven to commute ($AB = BA$).",
+"back": "## Component Anatomy\n- **$A^2, B^2$:** Standard squared matrix structures resulting from the expansion.\n- **$AB + BA$:** The expanded mathematical cross-terms.\n\n## Boundary Conditions / Domain\n- **The Algebraic Trap:** $(A+B)^2 \\neq A^2 + 2AB + B^2$ within standard matrix algebra. This strictly occurs because multiplication is generally non-commutative ($AB \\neq BA$).\n- **Collapse Condition:** The expanded matrix polynomial safely collapses to the traditional algebraic formula ($A^2 + 2AB + B^2$) **if and only if** the matrices $A$ and $B$ are specifically proven to commute ($AB = BA$).",
 "mnemonic": "Don't merge the middle unless they commute.",
 "formulaMeta": {
 "formula": "(A+B)^2 = A^2 + AB + BA + B^2",
@@ -643,7 +643,7 @@
 ],
 "order": 23,
 "heading": "Algebraic Definition of Matrix Transpose",
-"back": "## Component Anatomy\n- **$A'$ or $A^T$:** Standard mathematical notations representing the transpose of matrix $A$.\n- **$a_{ij}$:** The initial scalar element located in the original matrix.\n- **$a_{ji}$:** The scalar element shifted to perfectly inverted geometric coordinates within the newly transposed matrix.\n\n## Boundary Conditions / Domain\n- **Structural Constraint:** If the original matrix $A$ structurally possesses an order of $m \times n$, its geometric transpose must strictly possess an inverted order of $n \times m$.",
+"back": "## Component Anatomy\n- **$A'$ or $A^T$:** Standard mathematical notations representing the transpose of matrix $A$.\n- **$a_{ij}$:** The initial scalar element located in the original matrix.\n- **$a_{ji}$:** The scalar element shifted to perfectly inverted geometric coordinates within the newly transposed matrix.\n\n## Boundary Conditions / Domain\n- **Structural Constraint:** If the original matrix $A$ structurally possesses an order of $m \\times n$, its geometric transpose must strictly possess an inverted order of $n \\times m$.",
 "mnemonic": "Rows become Columns.",
 "formulaMeta": {
 "formula": "A = [a_{ij}]*{m \\times n} \\implies A' = [a*{ji}]_{n \\times m}",
@@ -873,7 +873,7 @@
 ],
 "order": 31,
 "heading": "Decomposition Theorem (Symmetric and Skew-Symmetric)",
-"back": "## Component Anatomy\n- **$\\\frac{1}{2}(A + A')$:** The mathematically extracted **symmetric component** of matrix $A$.\n- **$\\\frac{1}{2}(A - A')$:** The mathematically extracted **skew-symmetric component** of matrix $A$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix $A$ MUST be a square matrix. Rectangular matrices cannot be decomposed this way.",
+"back": "## Component Anatomy\n- **$\\\\frac{1}{2}(A + A')$:** The mathematically extracted **symmetric component** of matrix $A$.\n- **$\\\\frac{1}{2}(A - A')$:** The mathematically extracted **skew-symmetric component** of matrix $A$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix $A$ MUST be a square matrix. Rectangular matrices cannot be decomposed this way.",
 "formulaMeta": {
 "formula": "A = \\frac{1}{2}(A + A') + \\frac{1}{2}(A - A')",
 "description": "The standard decomposition formula utilized to algebraically express any square matrix A as the sum of a symmetric and a skew-symmetric matrix.",
@@ -902,7 +902,7 @@
 ],
 "order": 32,
 "heading": "SOP: Decomposing a Square Matrix",
-"back": "## Algorithmic SOP\n1. **Transpose:** Given the square matrix $A$, physically calculate its transpose $A'$.\n2. **Symmetric Component:** Compute the matrix $P$ using the formula $P = \frac{1}{2}(A + A')$.\n3. **Skew-Symmetric Component:** Compute the matrix $Q$ using the formula $Q = \frac{1}{2}(A - A')$.\n4. **Verification:** Add the two resulting matrices ($P + Q$). Verify that the final sum perfectly algebraically reconstructs the original matrix $A$.",
+"back": "## Algorithmic SOP\n1. **Transpose:** Given the square matrix $A$, physically calculate its transpose $A'$.\n2. **Symmetric Component:** Compute the matrix $P$ using the formula $P = \\frac{1}{2}(A + A')$.\n3. **Skew-Symmetric Component:** Compute the matrix $Q$ using the formula $Q = \\frac{1}{2}(A - A')$.\n4. **Verification:** Add the two resulting matrices ($P + Q$). Verify that the final sum perfectly algebraically reconstructs the original matrix $A$.",
 "standardMeta": {
 "question": "What is the 4-step algorithmic procedure used to systematically decompose any square matrix A into the sum of a symmetric and a skew-symmetric matrix?"
 }
@@ -1014,7 +1014,7 @@
 ],
 "order": 36,
 "heading": "Distinction: Invertibility of Rectangular Matrices",
-"back": "## The Core Rule\nA rectangular matrix can mathematically **never** possess a well-defined inverse.\n\n## Mathematical Proof Logic\n- For a theoretical inverse matrix $B$ to exist for a matrix $A$, the foundational condition $AB = BA = I$ MUST be met.\n- If $A$ structurally possesses an order of $m \times n$, then $B$ must strictly possess an order of $n \times m$ just for both multiplicative products to be geometrically defined.\n- However, under these definitions, the product $AB$ yields an $m \times m$ matrix, while the product $BA$ yields an $n \times n$ matrix.\n- Since $AB$ and $BA$ must both geometrically equal the exact same Identity matrix $I$, $m$ must strictly equal $n$. Therefore, only square matrices can logically possess inverses.",
+"back": "## The Core Rule\nA rectangular matrix can mathematically **never** possess a well-defined inverse.\n\n## Mathematical Proof Logic\n- For a theoretical inverse matrix $B$ to exist for a matrix $A$, the foundational condition $AB = BA = I$ MUST be met.\n- If $A$ structurally possesses an order of $m \\times n$, then $B$ must strictly possess an order of $n \\times m$ just for both multiplicative products to be geometrically defined.\n- However, under these definitions, the product $AB$ yields an $m \\times m$ matrix, while the product $BA$ yields an $n \\times n$ matrix.\n- Since $AB$ and $BA$ must both geometrically equal the exact same Identity matrix $I$, $m$ must strictly equal $n$. Therefore, only square matrices can logically possess inverses.",
 "mnemonic": "No square, no inverse.",
 "standardMeta": {
 "question": "Mathematically, why can a rectangular matrix never possess a well-defined inverse matrix?"
@@ -1129,7 +1129,7 @@
 ],
 "order": 40,
 "heading": "SOP: Proof of the Reversal Law for Inversion",
-"back": "## Step-by-Step Formal Proof\n1. By the fundamental algebraic definition of an inverse, establish: $(AB)(AB)^{-1} = I$.\n2. Pre-multiply both complete sides specifically by $A^{-1}$: $A^{-1}(AB)(AB)^{-1} = A^{-1}I$.\n3. Utilize matrix associativity to regroup terms: $(A^{-1}A)B(AB)^{-1} = A^{-1}$.\n4. Since $(A^{-1}A)$ simplifies to $I$, the equation collapses to: $IB(AB)^{-1} = A^{-1} \implies B(AB)^{-1} = A^{-1}$.\n5. Pre-multiply both complete sides specifically by $B^{-1}$: $B^{-1}B(AB)^{-1} = B^{-1}A^{-1}$.\n6. Since $(B^{-1}B)$ identically simplifies to $I$, we strictly arrive at the final theorem: $(AB)^{-1} = B^{-1}A^{-1}$.",
+"back": "## Step-by-Step Formal Proof\n1. By the fundamental algebraic definition of an inverse, establish: $(AB)(AB)^{-1} = I$.\n2. Pre-multiply both complete sides specifically by $A^{-1}$: $A^{-1}(AB)(AB)^{-1} = A^{-1}I$.\n3. Utilize matrix associativity to regroup terms: $(A^{-1}A)B(AB)^{-1} = A^{-1}$.\n4. Since $(A^{-1}A)$ simplifies to $I$, the equation collapses to: $IB(AB)^{-1} = A^{-1} \\implies B(AB)^{-1} = A^{-1}$.\n5. Pre-multiply both complete sides specifically by $B^{-1}$: $B^{-1}B(AB)^{-1} = B^{-1}A^{-1}$.\n6. Since $(B^{-1}B)$ identically simplifies to $I$, we strictly arrive at the final theorem: $(AB)^{-1} = B^{-1}A^{-1}$.",
 "standardMeta": {
 "question": "What is the standard 6-step algebraic proof used to formally derive the Reversal Law for Matrix Inversion, $(AB)^{-1} = B^{-1}A^{-1}$?"
 }
@@ -1187,7 +1187,7 @@
 ],
 "order": 42,
 "heading": "Operation: Elementary Row/Column Scalar Multiplication",
-"back": "## Component Anatomy\n- **$R_i$ or $C_i$:** The explicit target structural row or column scheduled to be algebraically modified.\n- **$k$:** A constant scalar multiplier.\n\n## Boundary Conditions / Domain\n- **Strict Mathematical Constraint:** $k \\\neq 0$.\n- **Why:** Algebraically multiplying an entire row or column strictly by zero completely destroys mathematical information (forcing structural linear dependence) and is absolutely prohibited in formal elementary operations.",
+"back": "## Component Anatomy\n- **$R_i$ or $C_i$:** The explicit target structural row or column scheduled to be algebraically modified.\n- **$k$:** A constant scalar multiplier.\n\n## Boundary Conditions / Domain\n- **Strict Mathematical Constraint:** $k \\\\neq 0$.\n- **Why:** Algebraically multiplying an entire row or column strictly by zero completely destroys mathematical information (forcing structural linear dependence) and is absolutely prohibited in formal elementary operations.",
 "formulaMeta": {
 "formula": "R_i \\to kR_i \\quad \\text{or} \\quad C_i \\to kC_i",
 "description": "The standard algebraic notation used for the elementary mathematical operation of multiplying the complete elements of a row or column by a non-zero scalar.",
@@ -1368,7 +1368,7 @@
 ],
 "order": 48,
 "heading": "SOP: Idempotent Polynomial Simplification",
-"back": "## Step-by-Step Simplification SOP\n1. **Expand the Binomial:** Because matrices $I$ and $A$ perfectly commute, it is mathematically legal to apply standard binomial expansion: $(I+A)^3 = I^3 + 3I^2A + 3IA^2 + A^3$.\n2. **Apply Identity Rules:** Recognize geometrically that $I^n = I$ and $I \cdot X = X$. The expression structurally simplifies to: $I + 3A + 3A^2 + A^3$.\n3. **Apply Idempotent Boundary ($A^2=A$):** Substitute $A^2$ down to $A$. Since $A^3 = A^2 \cdot A = A \cdot A = A^2 = A$, substitute $A^3$ down to $A$ as well. The expression becomes: $I + 3A + 3A + A$.\n4. **Combine Like Terms:** Group all $A$ scalars together: $I + 7A$.\n5. **Evaluate Full Polynomial:** Substitute this block back into the original problem to subtract the trailing term: $I + 7A - 7A = I$.",
+"back": "## Step-by-Step Simplification SOP\n1. **Expand the Binomial:** Because matrices $I$ and $A$ perfectly commute, it is mathematically legal to apply standard binomial expansion: $(I+A)^3 = I^3 + 3I^2A + 3IA^2 + A^3$.\n2. **Apply Identity Rules:** Recognize geometrically that $I^n = I$ and $I \\cdot X = X$. The expression structurally simplifies to: $I + 3A + 3A^2 + A^3$.\n3. **Apply Idempotent Boundary ($A^2=A$):** Substitute $A^2$ down to $A$. Since $A^3 = A^2 \\cdot A = A \\cdot A = A^2 = A$, substitute $A^3$ down to $A$ as well. The expression becomes: $I + 3A + 3A + A$.\n4. **Combine Like Terms:** Group all $A$ scalars together: $I + 7A$.\n5. **Evaluate Full Polynomial:** Substitute this block back into the original problem to subtract the trailing term: $I + 7A - 7A = I$.",
 "standardMeta": {
 "question": "What is the detailed 5-step algebraic procedure systematically used to fully reduce the structural matrix polynomial $(I+A)^3 - 7A$, operating under the condition that $A$ is an idempotent matrix ($A^2 = A$)?"
 }
@@ -1397,7 +1397,7 @@
 ],
 "order": 49,
 "heading": "Binomial Expansion for Nilpotent Matrices (Index 2)",
-"back": "## Component Anatomy\n- **$A^2 = O$:** Matrix $A$ is strictly mathematically defined as a Nilpotent matrix of index 2 (e.g., typically an upper triangular matrix bearing pure zeros across the main diagonal).\n- **$I$:** The universal identity matrix (which naturally structurally commutes with $A$).\n- **$n$:** The target integer power dictating the binomial expansion.\n\n## Boundary Conditions / Domain\n- **Legal Expansion:** Since identity matrix $I$ and matrix $A$ universally commute ($IA = AI = A$), the standard binomial algebraic theorem remains legally applicable for initial expansion.\n- **Truncation:** Because the boundary defines $A^2 = O$, it mathematically follows that all subsequent higher powers ($A^3, A^4, \dots$) immediately evaluate to the Zero Matrix $O$ as well, instantly algebraically truncating the otherwise infinite binomial series after exactly two terms.",
+"back": "## Component Anatomy\n- **$A^2 = O$:** Matrix $A$ is strictly mathematically defined as a Nilpotent matrix of index 2 (e.g., typically an upper triangular matrix bearing pure zeros across the main diagonal).\n- **$I$:** The universal identity matrix (which naturally structurally commutes with $A$).\n- **$n$:** The target integer power dictating the binomial expansion.\n\n## Boundary Conditions / Domain\n- **Legal Expansion:** Since identity matrix $I$ and matrix $A$ universally commute ($IA = AI = A$), the standard binomial algebraic theorem remains legally applicable for initial expansion.\n- **Truncation:** Because the boundary defines $A^2 = O$, it mathematically follows that all subsequent higher powers ($A^3, A^4, \\dots$) immediately evaluate to the Zero Matrix $O$ as well, instantly algebraically truncating the otherwise infinite binomial series after exactly two terms.",
 "mnemonic": "Nilpotent cuts the binomial at term two.",
 "formulaMeta": {
 "formula": "(aI + bA)^n = a^n I + n a^{n-1} b A",

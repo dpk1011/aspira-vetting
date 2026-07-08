@@ -18,7 +18,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 1,
 "heading": "Definition of the Indefinite Integral",
-"back": "Integration is mathematically defined as the inverse process of differentiation.\n\n- **Definition:** If $F'(x) = f(x)$, then $F(x)$ is defined as an anti-derivative of $f(x)$.\n- **Mathematical Notation:** $\int f(x) dx = F(x) + C$\n- The symbol $\int \cdot dx$ represents 'the family of anti-derivatives with respect to $x$'.\n\n**Boundary Conditions / Domain:**\nThe function $f(x)$ must be continuous on the interval of integration for an anti-derivative to be guaranteed by the Fundamental Theorem of Calculus.",
+"back": "Integration is mathematically defined as the inverse process of differentiation.\n\n- **Definition:** If $F'(x) = f(x)$, then $F(x)$ is defined as an anti-derivative of $f(x)$.\n- **Mathematical Notation:** $\\int f(x) dx = F(x) + C$\n- The symbol $\\int \\cdot dx$ represents 'the family of anti-derivatives with respect to $x$'.\n\n**Boundary Conditions / Domain:**\nThe function $f(x)$ must be continuous on the interval of integration for an anti-derivative to be guaranteed by the Fundamental Theorem of Calculus.",
 "standardMeta": {
 "question": "How is the indefinite integral of a function $f(x)$ mathematically defined in relation to its derivative, and what notation denotes it?"
 }
@@ -39,7 +39,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 2,
 "heading": "Necessity of the Constant of Integration",
-"back": "- **Concept:** Differentiation mathematically eliminates (kills) constants because $\frac{d}{dx}(C) = 0$.\n- **Conclusion:** Therefore, undoing differentiation via integration can only recover the original function up to a free additive constant.\n\nYou must strictly include $+ C$ in every indefinite integral answer to represent the entire family of parallel curves.",
+"back": "- **Concept:** Differentiation mathematically eliminates (kills) constants because $\\frac{d}{dx}(C) = 0$.\n- **Conclusion:** Therefore, undoing differentiation via integration can only recover the original function up to a free additive constant.\n\nYou must strictly include $+ C$ in every indefinite integral answer to represent the entire family of parallel curves.",
 "standardMeta": {
 "question": "Why must an arbitrary constant $+ C$ strictly be included when evaluating an indefinite integral?"
 }
@@ -86,7 +86,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 4,
 "heading": "Power Rule of Indefinite Integration",
-"back": "## Component Anatomy:\n- **$n$:** The real exponent to which the variable $x$ is raised.\n\n## Boundary Conditions / Domain:\n- **Strict exception:** $n \neq -1$.\nIf $n = -1$, the denominator $n+1$ becomes zero, rendering this specific formula mathematically undefined (it transitions to the logarithmic integral).",
+"back": "## Component Anatomy:\n- **$n$:** The real exponent to which the variable $x$ is raised.\n\n## Boundary Conditions / Domain:\n- **Strict exception:** $n \\neq -1$.\nIf $n = -1$, the denominator $n+1$ becomes zero, rendering this specific formula mathematically undefined (it transitions to the logarithmic integral).",
 "mnemonic": "Power up by one, divide by the new one.",
 "formulaMeta": {
 "formula": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C",
@@ -110,10 +110,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 5,
 "heading": "Standard Integral of $1/x$",
-"back": "## Component Anatomy:\n- **$|x|$:** The absolute value guarantees the argument of the logarithm remains strictly positive, extending the domain to negative $x$ values.\n\n## Boundary Conditions / Domain:\n- **$x \neq 0$**: The integrand has a vertical asymptote at zero.\n- This formula acts as the lone exception to the standard polynomial Power Rule.",
+"back": "## Component Anatomy:\n- **$|x|$:** The absolute value guarantees the argument of the logarithm remains strictly positive, extending the domain to negative $x$ values.\n\n## Boundary Conditions / Domain:\n- **$x \\neq 0$**: The integrand has a vertical asymptote at zero.\n- This formula acts as the lone exception to the standard polynomial Power Rule.",
 "formulaMeta": {
 "formula": "\\int \\frac{1}{x} dx = \\log|x| + C",
-"description": "State the standard integral for $\frac{1}{x}$ and its domain restriction.",
+"description": "State the standard integral for $\\frac{1}{x}$ and its domain restriction.",
 "derivation": ""
 }
 }
@@ -124,7 +124,7 @@
 "originalHeading": "Integration of Exponential Functions",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -133,7 +133,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 6,
 "heading": "Standard Integrals of Exponential Functions",
-"back": "## Component Anatomy:\n- **$e^x$:** The natural exponential function.\n- **$a^x$:** A general exponential function with a constant base $a$.\n\n## Boundary Conditions / Domain:\n- For the general base $a$: Strict constraint **$a > 0, a \neq 1$**.\nThis ensures the term $\log a$ in the denominator is real and non-zero.",
+"back": "## Component Anatomy:\n- **$e^x$:** The natural exponential function.\n- **$a^x$:** A general exponential function with a constant base $a$.\n\n## Boundary Conditions / Domain:\n- For the general base $a$: Strict constraint **$a > 0, a \\neq 1$**.\nThis ensures the term $\\log a$ in the denominator is real and non-zero.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int e^x dx &= e^x + C \\\\ \\int a^x dx &= \\frac{a^x}{\\log a} + C \\end{aligned}",
 "description": "State the standard integral formulas for the natural exponential $e^x$ and the general exponential $a^x$.",
@@ -147,7 +147,7 @@
 "originalHeading": "Integration of Sine and Cosine",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -156,11 +156,11 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 7,
 "heading": "Standard Integrals of Sine and Cosine",
-"back": "## Component Anatomy:\n- Integrating $\sin x$ yields a **negative** sign (unlike differentiation where $\cos x$ yields the negative).\n\n## Boundary Conditions / Domain:\n- Valid for all $x \in \mathbb{R}$.",
+"back": "## Component Anatomy:\n- Integrating $\\sin x$ yields a **negative** sign (unlike differentiation where $\\cos x$ yields the negative).\n\n## Boundary Conditions / Domain:\n- Valid for all $x \\in \\mathbb{R}$.",
 "mnemonic": "Derivatives of 'co' get minus. Integrals TO 'co' get minus.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\sin x dx &= -\\cos x + C \\\\ \\int \\cos x dx &= \\sin x + C \\end{aligned}",
-"description": "State the standard indefinite integrals for $\sin x$ and $\cos x$.",
+"description": "State the standard indefinite integrals for $\\sin x$ and $\\cos x$.",
 "derivation": ""
 }
 }
@@ -171,7 +171,7 @@
 "originalHeading": "Integration of Tangent and Cotangent",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -180,10 +180,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 8,
 "heading": "Standard Integrals of Tangent and Cotangent",
-"back": "## Component Anatomy:\n- These integrals evaluate to logarithmic structures, derived via standard substitution ($u = \cos x$ and $u = \sin x$ respectively).\n\n## Boundary Conditions / Domain:\n- For $\tan x$: $x \neq (2n+1)\frac{\pi}{2}$ (avoiding vertical asymptotes of secant).\n- For $\cot x$: $x \neq n\pi$ (avoiding vertical asymptotes of cosecant).",
+"back": "## Component Anatomy:\n- These integrals evaluate to logarithmic structures, derived via standard substitution ($u = \\cos x$ and $u = \\sin x$ respectively).\n\n## Boundary Conditions / Domain:\n- For $\\tan x$: $x \\neq (2n+1)\\frac{\\pi}{2}$ (avoiding vertical asymptotes of secant).\n- For $\\cot x$: $x \\neq n\\pi$ (avoiding vertical asymptotes of cosecant).",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\tan x dx &= \\log|\\sec x| + C \\\\ \\int \\cot x dx &= \\log|\\sin x| + C \\end{aligned}",
-"description": "State the derived standard indefinite integrals for $\tan x$ and $\cot x$.",
+"description": "State the derived standard indefinite integrals for $\\tan x$ and $\\cot x$.",
 "derivation": ""
 }
 }
@@ -194,7 +194,7 @@
 "originalHeading": "Integration of Secant and Cosecant",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -203,10 +203,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 9,
 "heading": "Standard Integrals of Secant and Cosecant",
-"back": "## Component Anatomy:\n- Both results involve logarithms of trigonometric sums/differences.\n\n## Boundary Conditions / Domain:\n- Valid strictly on continuous domains that avoid the vertical asymptotes of the integrand functions ($x \neq (2n+1)\frac{\pi}{2}$ for $\sec x$; $x \neq n\pi$ for $\csc x$).",
+"back": "## Component Anatomy:\n- Both results involve logarithms of trigonometric sums/differences.\n\n## Boundary Conditions / Domain:\n- Valid strictly on continuous domains that avoid the vertical asymptotes of the integrand functions ($x \\neq (2n+1)\\frac{\\pi}{2}$ for $\\sec x$; $x \\neq n\\pi$ for $\\csc x$).",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\sec x dx &= \\log|\\sec x + \\tan x| + C \\\\ \\int \\csc x dx &= \\log|\\csc x - \\cot x| + C \\end{aligned}",
-"description": "State the derived standard indefinite integrals for $\sec x$ and $\csc x$.",
+"description": "State the derived standard indefinite integrals for $\\sec x$ and $\\csc x$.",
 "derivation": ""
 }
 }
@@ -217,7 +217,7 @@
 "originalHeading": "Integration of Squared Trigonometric Functions",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -226,10 +226,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 10,
 "heading": "Standard Integrals of Squared Trigonometric Functions",
-"back": "## Component Anatomy:\n- These directly reverse the standard derivative rules: $\frac{d}{dx}(\tan x) = \sec^2 x$ and $\frac{d}{dx}(\cot x) = -\csc^2 x$.\n\n## Boundary Conditions / Domain:\n- **Distinction Warning:** Integration of $\sin^2 x$ and $\cos^2 x$ require entirely different procedural methods (half-angle identities). Do not confuse them with these direct reversal formulas.",
+"back": "## Component Anatomy:\n- These directly reverse the standard derivative rules: $\\frac{d}{dx}(\\tan x) = \\sec^2 x$ and $\\frac{d}{dx}(\\cot x) = -\\csc^2 x$.\n\n## Boundary Conditions / Domain:\n- **Distinction Warning:** Integration of $\\sin^2 x$ and $\\cos^2 x$ require entirely different procedural methods (half-angle identities). Do not confuse them with these direct reversal formulas.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\sec^2 x dx &= \\tan x + C \\\\ \\int \\csc^2 x dx &= -\\cot x + C \\end{aligned}",
-"description": "State the standard indefinite integrals for $\sec^2 x$ and $\csc^2 x$.",
+"description": "State the standard indefinite integrals for $\\sec^2 x$ and $\\csc^2 x$.",
 "derivation": ""
 }
 }
@@ -240,7 +240,7 @@
 "originalHeading": "Integration of Inverse-Derivative Trig Products",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -249,10 +249,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 11,
 "heading": "Standard Integrals of Secant-Tangent and Cosecant-Cotangent Products",
-"back": "## Component Anatomy:\n- These integrals are direct algebraic reversals of the chain rule outputs generated from differentiating $\sec x$ and $\csc x$.\n\n## Boundary Conditions / Domain:\n- Valid on continuous domains avoiding vertical asymptotes.",
+"back": "## Component Anatomy:\n- These integrals are direct algebraic reversals of the chain rule outputs generated from differentiating $\\sec x$ and $\\csc x$.\n\n## Boundary Conditions / Domain:\n- Valid on continuous domains avoiding vertical asymptotes.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\sec x \\tan x dx &= \\sec x + C \\\\ \\int \\csc x \\cot x dx &= -\\csc x + C \\end{aligned}",
-"description": "State the standard indefinite integrals for the products $\sec x \tan x$ and $\csc x \cot x$.",
+"description": "State the standard indefinite integrals for the products $\\sec x \\tan x$ and $\\csc x \\cot x$.",
 "derivation": ""
 }
 }
@@ -263,7 +263,7 @@
 "originalHeading": "Standard Inverse Trigonometric Integrals",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}.",
+"Applied strict double-escaped KaTeX with \\begin{aligned}.",
 "Emphasized strict domain restrictions."
 ],
 "vettingNotes": "",
@@ -273,10 +273,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 12,
 "heading": "Standard Inverse Trigonometric Integrals",
-"back": "## Component Anatomy:\n- The integral yielding $\tan^{-1} x$ uniquely lacks a square root in the denominator compared to the $\sin^{-1} x$ formula.\n\n## Boundary Conditions / Domain:\n- For $\sin^{-1} x$: Strict domain $(-1, 1)$.\n- For $\tan^{-1} x$: Domain $\mathbb{R}$.",
+"back": "## Component Anatomy:\n- The integral yielding $\\tan^{-1} x$ uniquely lacks a square root in the denominator compared to the $\\sin^{-1} x$ formula.\n\n## Boundary Conditions / Domain:\n- For $\\sin^{-1} x$: Strict domain $(-1, 1)$.\n- For $\\tan^{-1} x$: Domain $\\mathbb{R}$.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int \\frac{dx}{\\sqrt{1-x^2}} &= \\sin^{-1} x + C \\\\ \\int \\frac{dx}{1+x^2} &= \\tan^{-1} x + C \\end{aligned}",
-"description": "State the standard indefinite integrals that yield $\sin^{-1} x$ and $\tan^{-1} x$.",
+"description": "State the standard indefinite integrals that yield $\\sin^{-1} x$ and $\\tan^{-1} x$.",
 "derivation": ""
 }
 }
@@ -320,12 +320,12 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 14,
 "heading": "Log-Derivative Substitution Pattern",
-"back": "## Component Anatomy:\n- **$f'(x)$:** The exact derivative of the denominator, sitting identically in the numerator.\n- **$f(x)$:** The base denominator function.\n\n## Boundary Conditions / Domain:\n- **$f(x) \neq 0$**.\n- This pattern occurs frequently in CBSE/JEE; identifying it by sight saves massive amounts of algebraic substitution time.",
+"back": "## Component Anatomy:\n- **$f'(x)$:** The exact derivative of the denominator, sitting identically in the numerator.\n- **$f(x)$:** The base denominator function.\n\n## Boundary Conditions / Domain:\n- **$f(x) \\neq 0$**.\n- This pattern occurs frequently in CBSE/JEE; identifying it by sight saves massive amounts of algebraic substitution time.",
 "mnemonic": "Derivative over Function equals Log of Function.",
 "formulaMeta": {
 "formula": "\\int \\frac{f'(x)}{f(x)} dx = \\log|f(x)| + C",
-"description": "State the high-yield substitution template formula for an integral of the form $\frac{f'(x)}{f(x)}$.",
-"derivation": "**SOP:**\n1. Let $t = f(x)$.\n2. Differentiate: $dt = f'(x) dx$.\n3. Substitute into the integral: $\int \frac{1}{t} dt$.\n4. Integrate to $\log|t|$ and back-substitute $f(x)$."
+"description": "State the high-yield substitution template formula for an integral of the form $\\frac{f'(x)}{f(x)}$.",
+"derivation": "**SOP:**\n1. Let $t = f(x)$.\n2. Differentiate: $dt = f'(x) dx$.\n3. Substitute into the integral: $\\int \\frac{1}{t} dt$.\n4. Integrate to $\\log|t|$ and back-substitute $f(x)$."
 }
 }
 },
@@ -344,11 +344,11 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 15,
 "heading": "Power-Derivative Substitution Pattern",
-"back": "## Component Anatomy:\n- **$f(x)$:** The inner base function raised to a power.\n- **$f'(x)$:** The exact derivative of the inner function multiplying the term outside the power.\n\n## Boundary Conditions / Domain:\n- **Strict exception:** $n \neq -1$. If $n=-1$, it analytically reduces to the Log-Derivative template.",
+"back": "## Component Anatomy:\n- **$f(x)$:** The inner base function raised to a power.\n- **$f'(x)$:** The exact derivative of the inner function multiplying the term outside the power.\n\n## Boundary Conditions / Domain:\n- **Strict exception:** $n \\neq -1$. If $n=-1$, it analytically reduces to the Log-Derivative template.",
 "formulaMeta": {
 "formula": "\\int f'(x) [f(x)]^n dx = \\frac{[f(x)]^{n+1}}{n+1} + C",
 "description": "State the high-yield substitution template formula for an integral of the form $f'(x) [f(x)]^n$.",
-"derivation": "**SOP:**\n1. Let $t = f(x)$.\n2. Differentiate: $dt = f'(x) dx$.\n3. Substitute: $\int t^n dt$.\n4. Apply power rule to get $\frac{t^{n+1}}{n+1}$ and back-substitute."
+"derivation": "**SOP:**\n1. Let $t = f(x)$.\n2. Differentiate: $dt = f'(x) dx$.\n3. Substitute: $\\int t^n dt$.\n4. Apply power rule to get $\\frac{t^{n+1}}{n+1}$ and back-substitute."
 }
 }
 },
@@ -358,7 +358,7 @@
 "originalHeading": "Half-Angle Substitution for Squared Trig Integrals",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{aligned}."
+"Applied strict double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -367,12 +367,12 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 16,
 "heading": "Integration by Half-Angle Identity Reduction",
-"back": "## Component Anatomy:\n- This identity effectively converts non-integrable squared sine/cosine terms into analytically integrable linear $\cos(2x)$ terms.\n\n## Boundary Conditions / Domain:\n- Valid for all $x \in \mathbb{R}$.\n- **Distinction Trap:** Do NOT try to integrate $\sin^2 x$ directly as $\frac{\sin^3 x}{3}$. That severely violates chain-rule mechanics.",
+"back": "## Component Anatomy:\n- This identity effectively converts non-integrable squared sine/cosine terms into analytically integrable linear $\\cos(2x)$ terms.\n\n## Boundary Conditions / Domain:\n- Valid for all $x \\in \\mathbb{R}$.\n- **Distinction Trap:** Do NOT try to integrate $\\sin^2 x$ directly as $\\frac{\\sin^3 x}{3}$. That severely violates chain-rule mechanics.",
 "mnemonic": "Squares to Doubles.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\sin^2 x &= \\frac{1 - \\cos 2x}{2} \\\\ \\cos^2 x &= \\frac{1 + \\cos 2x}{2} \\end{aligned}",
-"description": "What are the mandatory half-angle trigonometric identities you must apply to integrate $\sin^2 x$ and $\cos^2 x$?",
-"derivation": "**SOP for integrating $\sin^2 x$:**\n1. Substitute identity: $\int \frac{1 - \cos 2x}{2} dx$.\n2. Split algebraically: $\frac{1}{2} \int 1 dx - \frac{1}{2} \int \cos 2x dx$.\n3. Integrate linearly: $\frac{x}{2} - \frac{\sin 2x}{4} + C$."
+"description": "What are the mandatory half-angle trigonometric identities you must apply to integrate $\\sin^2 x$ and $\\cos^2 x$?",
+"derivation": "**SOP for integrating $\\sin^2 x$:**\n1. Substitute identity: $\\int \\frac{1 - \\cos 2x}{2} dx$.\n2. Split algebraically: $\\frac{1}{2} \\int 1 dx - \\frac{1}{2} \\int \\cos 2x dx$.\n3. Integrate linearly: $\\frac{x}{2} - \\frac{\\sin 2x}{4} + C$."
 }
 }
 },
@@ -392,17 +392,17 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 17,
 "heading": "Algorithm for Trigonometric Product-to-Sum Integrals",
-"back": "- **Concept:** Integrals involving products of mismatched angles, like $\sin(ax)\cos(bx)$, cannot be solved by direct substitution or basic rules.\n\n**Standard Operating Procedure (SOP):**\n1. Multiply and divide the entire integral by $2$.\n2. Apply the relevant Product-to-Sum trigonometric identity:\n   - $2 \sin A \cos B = \sin(A+B) + \sin(A-B)$\n   - $2 \cos A \cos B = \cos(A+B) + \cos(A-B)$\n   - $2 \sin A \sin B = \cos(A-B) - \cos(A+B)$\n3. The complex product is now split into two separate additive terms, which can be integrated immediately using standard linear formulas.",
+"back": "- **Concept:** Integrals involving products of mismatched angles, like $\\sin(ax)\\cos(bx)$, cannot be solved by direct substitution or basic rules.\n\n**Standard Operating Procedure (SOP):**\n1. Multiply and divide the entire integral by $2$.\n2. Apply the relevant Product-to-Sum trigonometric identity:\n   - $2 \\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$\n   - $2 \\cos A \\cos B = \\cos(A+B) + \\cos(A-B)$\n   - $2 \\sin A \\sin B = \\cos(A-B) - \\cos(A+B)$\n3. The complex product is now split into two separate additive terms, which can be integrated immediately using standard linear formulas.",
 "mnemonic": "Multiply by 2, Break into Sums.",
 "standardMeta": {
-"question": "What is the standard algorithmic procedure (SOP) to integrate a product of differing sine and cosine terms, such as $\int \sin(3x)\cos(4x) dx$?"
+"question": "What is the standard algorithmic procedure (SOP) to integrate a product of differing sine and cosine terms, such as $\\int \\sin(3x)\\cos(4x) dx$?"
 }
 }
 },
 {
 "cardId": "4d703e09-87dd-4127-8a66-c6bde231af59",
 "originalOrder": 60,
-"originalHeading": "Heuristic for \sin^m x \cos^n x Integrals",
+"originalHeading": "Heuristic for \\sin^m x \\cos^n x Integrals",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 18.",
@@ -414,18 +414,18 @@
 "classification": "PROCEDURAL",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 18,
-"heading": "Substitution Heuristics for $\sin^m x \cos^n x$",
-"back": "Based on the powers $m$ and $n$, follow these strict algebraic substitution rules:\n\n1. **If $m$ (power of sine) is an odd positive integer:** Extract one $\sin x dx$ and substitute $t = \cos x$.\n2. **If $n$ (power of cosine) is an odd positive integer:** Extract one $\cos x dx$ and substitute $t = \sin x$.\n3. **If both $m$ and $n$ are odd:** Substitute for the term with the *higher* power to minimize complex binomial expansion algebra.\n4. **If both $m$ and $n$ are even positive integers:** Substitution fails entirely. You MUST use multiple-angle identities (like $\cos 2x$, $\sin 2x$) or De Moivre's theorem to reduce the powers to linear trigonometric terms before integrating.",
+"heading": "Substitution Heuristics for $\\sin^m x \\cos^n x$",
+"back": "Based on the powers $m$ and $n$, follow these strict algebraic substitution rules:\n\n1. **If $m$ (power of sine) is an odd positive integer:** Extract one $\\sin x dx$ and substitute $t = \\cos x$.\n2. **If $n$ (power of cosine) is an odd positive integer:** Extract one $\\cos x dx$ and substitute $t = \\sin x$.\n3. **If both $m$ and $n$ are odd:** Substitute for the term with the *higher* power to minimize complex binomial expansion algebra.\n4. **If both $m$ and $n$ are even positive integers:** Substitution fails entirely. You MUST use multiple-angle identities (like $\\cos 2x$, $\\sin 2x$) or De Moivre's theorem to reduce the powers to linear trigonometric terms before integrating.",
 "mnemonic": "If one is odd, substitute the other.",
 "standardMeta": {
-"question": "What are the strict algebraic substitution rules (SOP) for evaluating integrals of the form $\int \sin^m x \cos^n x dx$ based on whether the powers $m$ and $n$ are odd or even?"
+"question": "What are the strict algebraic substitution rules (SOP) for evaluating integrals of the form $\\int \\sin^m x \\cos^n x dx$ based on whether the powers $m$ and $n$ are odd or even?"
 }
 }
 },
 {
 "cardId": "8accb1bc-c92d-412b-8f71-1e8027b17d1a",
 "originalOrder": 42,
-"originalHeading": "Integration SOP: \tan^m x \sec^n x (Even Secant Power)",
+"originalHeading": "Integration SOP: \\tan^m x \\sec^n x (Even Secant Power)",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 19."
@@ -436,11 +436,11 @@
 "classification": "PROCEDURAL",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 19,
-"heading": "Substitution SOP: $\tan^m x \sec^n x$ (Even Secant Power)",
-"back": "- **Concept:** When $n$ (the power of secant) is strictly an **even positive integer**, the integral can be completely algebraically flattened into a polynomial.\n\n**Standard Operating Procedure (SOP):**\n1. Peel off exactly one $\sec^2 x$ term and reserve it next to the $dx$ (this strictly becomes your future $dt$).\n2. Convert all remaining even powers of secant using the identity: $\sec^{n-2} x = (1 + \tan^2 x)^{\frac{n-2}{2}}$.\n3. Substitute $t = \tan x$, ensuring $dt = \sec^2 x dx$.\n4. Multiply out the resulting pure polynomial in $t$ and integrate term-by-term using the standard Power Rule.",
+"heading": "Substitution SOP: $\\tan^m x \\sec^n x$ (Even Secant Power)",
+"back": "- **Concept:** When $n$ (the power of secant) is strictly an **even positive integer**, the integral can be completely algebraically flattened into a polynomial.\n\n**Standard Operating Procedure (SOP):**\n1. Peel off exactly one $\\sec^2 x$ term and reserve it next to the $dx$ (this strictly becomes your future $dt$).\n2. Convert all remaining even powers of secant using the identity: $\\sec^{n-2} x = (1 + \\tan^2 x)^{\\frac{n-2}{2}}$.\n3. Substitute $t = \\tan x$, ensuring $dt = \\sec^2 x dx$.\n4. Multiply out the resulting pure polynomial in $t$ and integrate term-by-term using the standard Power Rule.",
 "mnemonic": "Save a squared secant, switch the rest to tangent.",
 "standardMeta": {
-"question": "What is the standard algebraic substitution procedure (SOP) to integrate trigonometric expressions of the form $\int \tan^m x \sec^n x dx$ when $n$ is an EVEN positive integer?"
+"question": "What is the standard algebraic substitution procedure (SOP) to integrate trigonometric expressions of the form $\\int \\tan^m x \\sec^n x dx$ when $n$ is an EVEN positive integer?"
 }
 }
 },
@@ -458,12 +458,12 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 20,
-"heading": "Special Integral: $\frac{1}{x^2 + a^2}$",
-"back": "## Component Anatomy:\n- **$x^2$:** The square of the variable term.\n- **$a^2$:** The constant scalar term.\n- **$\frac{1}{a}$:** A crucial geometric scaling factor that is highly tested and often forgotten in exams.\n\n## Boundary Conditions / Domain:\n- Constraint: $a \neq 0$.",
+"heading": "Special Integral: $\\frac{1}{x^2 + a^2}$",
+"back": "## Component Anatomy:\n- **$x^2$:** The square of the variable term.\n- **$a^2$:** The constant scalar term.\n- **$\\frac{1}{a}$:** A crucial geometric scaling factor that is highly tested and often forgotten in exams.\n\n## Boundary Conditions / Domain:\n- Constraint: $a \\neq 0$.",
 "mnemonic": "Plus gets Arctan.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C",
-"description": "State the standard special integral formula for a positive sum of squares $\frac{1}{x^2 + a^2}$.",
+"description": "State the standard special integral formula for a positive sum of squares $\\frac{1}{x^2 + a^2}$.",
 "derivation": ""
 }
 }
@@ -482,12 +482,12 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 21,
-"heading": "Special Integral: $\frac{1}{x^2 - a^2}$",
-"back": "## Component Anatomy:\n- **$\frac{1}{2a}$:** The uniform scaling pre-factor for difference of squares.\n- **$\frac{x-a}{x+a}$:** Notice the negative term $(x-a)$ acts as the numerator.\n\n## Boundary Conditions / Domain:\n- Defined continuously strictly where $x \neq \pm a$.",
+"heading": "Special Integral: $\\frac{1}{x^2 - a^2}$",
+"back": "## Component Anatomy:\n- **$\\frac{1}{2a}$:** The uniform scaling pre-factor for difference of squares.\n- **$\\frac{x-a}{x+a}$:** Notice the negative term $(x-a)$ acts as the numerator.\n\n## Boundary Conditions / Domain:\n- Defined continuously strictly where $x \\neq \\pm a$.",
 "mnemonic": "x first -> x minus a on top.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a} \\log\\left|\\frac{x-a}{x+a}\\right| + C",
-"description": "State the standard special integral formula for a difference of squares $\frac{1}{x^2 - a^2}$ (variable leading).",
+"description": "State the standard special integral formula for a difference of squares $\\frac{1}{x^2 - a^2}$ (variable leading).",
 "derivation": ""
 }
 }
@@ -506,12 +506,12 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 22,
-"heading": "Special Integral: $\frac{1}{a^2 - x^2}$",
-"back": "## Component Anatomy:\n- **$\frac{1}{2a}$:** The uniform scaling pre-factor.\n- **$\frac{a+x}{a-x}$:** Notice the additive term $(a+x)$ acts as the numerator.\n\n## Boundary Conditions / Domain:\n- Defined continuously strictly where $x \neq \pm a$.",
+"heading": "Special Integral: $\\frac{1}{a^2 - x^2}$",
+"back": "## Component Anatomy:\n- **$\\frac{1}{2a}$:** The uniform scaling pre-factor.\n- **$\\frac{a+x}{a-x}$:** Notice the additive term $(a+x)$ acts as the numerator.\n\n## Boundary Conditions / Domain:\n- Defined continuously strictly where $x \\neq \\pm a$.",
 "mnemonic": "a first -> a plus x on top.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{a^2 - x^2} = \\frac{1}{2a} \\log\\left|\\frac{a+x}{a-x}\\right| + C",
-"description": "State the standard special integral formula for a difference of squares $\frac{1}{a^2 - x^2}$ (constant leading).",
+"description": "State the standard special integral formula for a difference of squares $\\frac{1}{a^2 - x^2}$ (constant leading).",
 "derivation": ""
 }
 }
@@ -530,11 +530,11 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 23,
-"heading": "Special Integral: $\frac{1}{\sqrt{x^2 + a^2}}$",
-"back": "## Component Anatomy:\n- **$\sqrt{x^2 + a^2}$:** The identical radical from the denominator reappears unchanged inside the evaluation logarithm alongside $x$.\n\n## Boundary Conditions / Domain:\n- Valid continuously for all $x \in \mathbb{R}$. The argument of the logarithm is strictly positive.",
+"heading": "Special Integral: $\\frac{1}{\\sqrt{x^2 + a^2}}$",
+"back": "## Component Anatomy:\n- **$\\sqrt{x^2 + a^2}$:** The identical radical from the denominator reappears unchanged inside the evaluation logarithm alongside $x$.\n\n## Boundary Conditions / Domain:\n- Valid continuously for all $x \\in \\mathbb{R}$. The argument of the logarithm is strictly positive.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{\\sqrt{x^2 + a^2}} = \\log|x + \\sqrt{x^2 + a^2}| + C",
-"description": "State the standard special integral formula for $\frac{1}{\sqrt{x^2 + a^2}}$.",
+"description": "State the standard special integral formula for $\\frac{1}{\\sqrt{x^2 + a^2}}$.",
 "derivation": ""
 }
 }
@@ -553,11 +553,11 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 24,
-"heading": "Special Integral: $\frac{1}{\sqrt{x^2 - a^2}}$",
-"back": "## Component Anatomy:\n- **$\sqrt{x^2 - a^2}$:** The identical radical reappears completely unchanged inside the absolute value brackets of the logarithm.\n\n## Boundary Conditions / Domain:\n- **Strict domain constraint:** $|x| > a$ to ensure purely real values inside the radical and avoid division by zero.",
+"heading": "Special Integral: $\\frac{1}{\\sqrt{x^2 - a^2}}$",
+"back": "## Component Anatomy:\n- **$\\sqrt{x^2 - a^2}$:** The identical radical reappears completely unchanged inside the absolute value brackets of the logarithm.\n\n## Boundary Conditions / Domain:\n- **Strict domain constraint:** $|x| > a$ to ensure purely real values inside the radical and avoid division by zero.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{\\sqrt{x^2 - a^2}} = \\log|x + \\sqrt{x^2 - a^2}| + C",
-"description": "State the standard special integral formula for $\frac{1}{\sqrt{x^2 - a^2}}$.",
+"description": "State the standard special integral formula for $\\frac{1}{\\sqrt{x^2 - a^2}}$.",
 "derivation": ""
 }
 }
@@ -576,12 +576,12 @@
 "classification": "MEMORY",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 25,
-"heading": "Special Integral: $\frac{1}{\sqrt{a^2 - x^2}}$",
-"back": "## Component Anatomy:\n- **$\sin^{-1}$:** This is the singular radical denominator template that geometrically yields an inverse sine rather than a logarithm.\n\n## Boundary Conditions / Domain:\n- **Strict domain constraint:** $-a < x < a$. Evaluating outside this range leads to imaginary numbers, and exactly at $\pm a$ causes a division by zero error.",
+"heading": "Special Integral: $\\frac{1}{\\sqrt{a^2 - x^2}}$",
+"back": "## Component Anatomy:\n- **$\\sin^{-1}$:** This is the singular radical denominator template that geometrically yields an inverse sine rather than a logarithm.\n\n## Boundary Conditions / Domain:\n- **Strict domain constraint:** $-a < x < a$. Evaluating outside this range leads to imaginary numbers, and exactly at $\\pm a$ causes a division by zero error.",
 "mnemonic": "Number minus variable in root = Inverse Sine.",
 "formulaMeta": {
 "formula": "\\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C",
-"description": "State the standard special integral formula for $\frac{1}{\sqrt{a^2 - x^2}}$.",
+"description": "State the standard special integral formula for $\\frac{1}{\\sqrt{a^2 - x^2}}$.",
 "derivation": ""
 }
 }
@@ -603,7 +603,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 26,
 "heading": "SOP: Completing the Square for Quadratic Denominators",
-"back": "- **Concept:** When faced with integrals like $\int \frac{dx}{ax^2+bx+c}$ or $\int \frac{dx}{\sqrt{ax^2+bx+c}}$, the goal is to transform the denominator into one of the standard special integrals.\n\n**Standard Operating Procedure (SOP):**\n1. Factor out the leading coefficient $a$ completely from the $x^2$ and $x$ terms.\n2. Look at the new coefficient of $x$, which is $\frac{b}{a}$. Add and subtract the square of half of it: $(\frac{b}{2a})^2$.\n3. Collapse the perfect square to form: $a[(x + \frac{b}{2a})^2 + (\text{constant})]$.\n4. Substitute $t = x + \frac{b}{2a}$ to perfectly match a standard integral template.\n\n**Boundary Conditions / Domain:**\n- This procedure assumes the quadratic is non-factorable into real distinct linear roots (Discriminant $D = b^2 - 4ac < 0$ or $D=0$). If $D > 0$, partial fractions are generally faster.",
+"back": "- **Concept:** When faced with integrals like $\\int \\frac{dx}{ax^2+bx+c}$ or $\\int \\frac{dx}{\\sqrt{ax^2+bx+c}}$, the goal is to transform the denominator into one of the standard special integrals.\n\n**Standard Operating Procedure (SOP):**\n1. Factor out the leading coefficient $a$ completely from the $x^2$ and $x$ terms.\n2. Look at the new coefficient of $x$, which is $\\frac{b}{a}$. Add and subtract the square of half of it: $(\\frac{b}{2a})^2$.\n3. Collapse the perfect square to form: $a[(x + \\frac{b}{2a})^2 + (\\text{constant})]$.\n4. Substitute $t = x + \\frac{b}{2a}$ to perfectly match a standard integral template.\n\n**Boundary Conditions / Domain:**\n- This procedure assumes the quadratic is non-factorable into real distinct linear roots (Discriminant $D = b^2 - 4ac < 0$ or $D=0$). If $D > 0$, partial fractions are generally faster.",
 "mnemonic": "Half the middle, square it, add and subtract.",
 "standardMeta": {
 "question": "What is the specific algebraic algorithm (SOP) used to integrate functions containing a non-factorable quadratic $ax^2+bx+c$ in the denominator?"
@@ -626,11 +626,11 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 27,
 "heading": "Numerator Splitting Algebraic Setup",
-"back": "## Component Anatomy:\n- **$px+q$:** The linear numerator.\n- **$\frac{d}{dx}(\text{quadratic})$:** The exact derivative of the quadratic denominator.\n- **$A, B$:** Unknown constants determined by expanding the RHS and equating the coefficients of $x$ and the constant terms.\n\n## Boundary Conditions / Domain:\n- The denominator must be a non-factorable quadratic expression (or a square root of a quadratic).",
+"back": "## Component Anatomy:\n- **$px+q$:** The linear numerator.\n- **$\\frac{d}{dx}(\\text{quadratic})$:** The exact derivative of the quadratic denominator.\n- **$A, B$:** Unknown constants determined by expanding the RHS and equating the coefficients of $x$ and the constant terms.\n\n## Boundary Conditions / Domain:\n- The denominator must be a non-factorable quadratic expression (or a square root of a quadratic).",
 "mnemonic": "Numerator = A(Derivative of Denom) + B.",
 "formulaMeta": {
 "formula": "px + q = A \\left[ \\frac{d}{dx}(ax^2+bx+c) \\right] + B",
-"description": "State the algebraic substitution equation used to split integrals of the form $\int \frac{px+q}{ax^2+bx+c} dx$.",
+"description": "State the algebraic substitution equation used to split integrals of the form $\\int \\frac{px+q}{ax^2+bx+c} dx$.",
 "derivation": "**SOP:**\n1. Write $px+q = A(2ax+b) + B$.\n2. Expand the RHS: $2Aax + (Ab+B)$.\n3. Equate coefficients of $x$: $p = 2Aa$.\n4. Equate constants: $q = Ab+B$.\n5. Solve the linear system for $A$ and $B$."
 }
 }
@@ -650,7 +650,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 28,
 "heading": "Evaluating the Split Linear/Quadratic Integral",
-"back": "**Standard Operating Procedure (SOP):**\n1. Substitute the expanded template back into the integral numerator: $\int \frac{A(2ax+b) + B}{ax^2+bx+c} dx$.\n2. Split the fraction into two distinct integrals:\n   - **Integral 1:** $A \int \frac{2ax+b}{ax^2+bx+c} dx$\n   - **Integral 2:** $B \int \frac{dx}{ax^2+bx+c}$\n3. The first integral is immediately solved using the **Log-Derivative substitution template** (evaluating to $A \log|ax^2+bx+c|$).\n4. The second integral is solved by **Completing the Square** to reach a standard special integral format.",
+"back": "**Standard Operating Procedure (SOP):**\n1. Substitute the expanded template back into the integral numerator: $\\int \\frac{A(2ax+b) + B}{ax^2+bx+c} dx$.\n2. Split the fraction into two distinct integrals:\n   - **Integral 1:** $A \\int \\frac{2ax+b}{ax^2+bx+c} dx$\n   - **Integral 2:** $B \\int \\frac{dx}{ax^2+bx+c}$\n3. The first integral is immediately solved using the **Log-Derivative substitution template** (evaluating to $A \\log|ax^2+bx+c|$).\n4. The second integral is solved by **Completing the Square** to reach a standard special integral format.",
 "standardMeta": {
 "question": "After determining the constants $A$ and $B$ using the numerator splitting template, what is the SOP to evaluate the two resulting integrals?"
 }
@@ -671,10 +671,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 29,
 "heading": "Gateway Check: Improper Rational Integrands",
-"back": "- **Concept:** You cannot directly apply substitution or partial fraction decomposition to an 'improper' rational function.\n\n**Standard Operating Procedure (SOP):**\n1. Check degrees: If the highest degree of numerator $P(x)$ is $\geq$ the highest degree of denominator $Q(x)$, you MUST perform **Polynomial Long Division** first.\n2. Rewrite the integrand algebraically via the division algorithm: $\frac{P(x)}{Q(x)} = \text{Quotient} + \frac{\text{Remainder}}{Q(x)}$.\n3. Integrate the polynomial $\text{Quotient}$ normally using the power rule.\n4. Apply partial fractions or completing the square exclusively to the proper $\frac{\text{Remainder}}{Q(x)}$ term.",
+"back": "- **Concept:** You cannot directly apply substitution or partial fraction decomposition to an 'improper' rational function.\n\n**Standard Operating Procedure (SOP):**\n1. Check degrees: If the highest degree of numerator $P(x)$ is $\\geq$ the highest degree of denominator $Q(x)$, you MUST perform **Polynomial Long Division** first.\n2. Rewrite the integrand algebraically via the division algorithm: $\\frac{P(x)}{Q(x)} = \\text{Quotient} + \\frac{\\text{Remainder}}{Q(x)}$.\n3. Integrate the polynomial $\\text{Quotient}$ normally using the power rule.\n4. Apply partial fractions or completing the square exclusively to the proper $\\frac{\\text{Remainder}}{Q(x)}$ term.",
 "mnemonic": "Top heavy? Divide before you ride.",
 "standardMeta": {
-"question": "What mathematical step MUST you strictly perform before integrating a rational function $\frac{P(x)}{Q(x)}$ if the degree of $P(x) \geq$ the degree of $Q(x)$?"
+"question": "What mathematical step MUST you strictly perform before integrating a rational function $\\frac{P(x)}{Q(x)}$ if the degree of $P(x) \\geq$ the degree of $Q(x)$?"
 }
 }
 },
@@ -693,7 +693,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 30,
 "heading": "Partial Fractions: Cover-Up Rule SOP",
-"back": "- **Concept:** When decomposing a proper fraction $\frac{P(x)}{(x-a_1)(x-a_2)\dots}$, finding the numerators via algebraic expansion can be slow.\n\n**Standard Operating Procedure (SOP):**\n1. Set up the partial fraction template: $\frac{A}{x-a_1} + \frac{B}{x-a_2} + \dots$\n2. To find $A$ (the coefficient over $x-a_1$), 'cover up' or hide the $(x-a_1)$ term in the original fraction's denominator.\n3. Substitute the root $x = a_1$ into all the *remaining* terms of the original fraction.\n4. The resulting evaluated number is exactly $A$. Repeat the process for $B$ (using root $x=a_2$), $C$, etc.\n\n**Boundary Conditions / Domain:**\n- Strictly applies ONLY to distinct (non-repeated) linear factors.\n- The original rational function MUST be proper.",
+"back": "- **Concept:** When decomposing a proper fraction $\\frac{P(x)}{(x-a_1)(x-a_2)\\dots}$, finding the numerators via algebraic expansion can be slow.\n\n**Standard Operating Procedure (SOP):**\n1. Set up the partial fraction template: $\\frac{A}{x-a_1} + \\frac{B}{x-a_2} + \\dots$\n2. To find $A$ (the coefficient over $x-a_1$), 'cover up' or hide the $(x-a_1)$ term in the original fraction's denominator.\n3. Substitute the root $x = a_1$ into all the *remaining* terms of the original fraction.\n4. The resulting evaluated number is exactly $A$. Repeat the process for $B$ (using root $x=a_2$), $C$, etc.\n\n**Boundary Conditions / Domain:**\n- Strictly applies ONLY to distinct (non-repeated) linear factors.\n- The original rational function MUST be proper.",
 "mnemonic": "Cover the factor, plug the root.",
 "standardMeta": {
 "question": "What is the fast 'Cover-Up Rule' algorithmic procedure for determining the unknown constants in a partial fraction decomposition with purely distinct linear factors?"
@@ -719,7 +719,7 @@
 "mnemonic": "Build up the powers one by one.",
 "formulaMeta": {
 "formula": "\\frac{px+q}{(x-a)^2(x-b)} = \\frac{A}{x-a} + \\frac{B}{(x-a)^2} + \\frac{C}{x-b}",
-"description": "State the partial fraction decomposition algebraic template for a rational function with a repeated linear factor $\frac{px+q}{(x-a)^2(x-b)}$.",
+"description": "State the partial fraction decomposition algebraic template for a rational function with a repeated linear factor $\\frac{px+q}{(x-a)^2(x-b)}$.",
 "derivation": "**SOP:** You must include a separate constant numerator for EVERY ascending power of the repeated root, from power 1 up to its maximum exponent."
 }
 }
@@ -743,7 +743,7 @@
 "mnemonic": "Quadratic bottom needs a linear top.",
 "formulaMeta": {
 "formula": "\\frac{px^2+qx+r}{(x-a)(x^2+bx+c)} = \\frac{A}{x-a} + \\frac{Bx+C}{x^2+bx+c}",
-"description": "State the partial fraction algebraic template for a function containing an irreducible quadratic factor $\frac{px^2+qx+r}{(x-a)(x^2+bx+c)}$.",
+"description": "State the partial fraction algebraic template for a function containing an irreducible quadratic factor $\\frac{px^2+qx+r}{(x-a)(x^2+bx+c)}$.",
 "derivation": ""
 }
 }
@@ -763,10 +763,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 33,
 "heading": "The Even-Power Algebraic Trap",
-"back": "- **The Trap:** Integrands like $\frac{x^2}{x^4-x^2-12}$ look like heavy degree-4 functions. Students mistakenly attempt a calculus substitution $t = x^2$ and write $dt = 2x dx$, getting stuck because there is no isolated $2x dx$ in the numerator to absorb the differential.\n- **The Fix:** Use $t = x^2$ **ONLY algebraically**. Temporarily replace $x^2$ with $t$ to break the fraction apart using standard linear partial fractions: $\frac{t}{t^2-t-12} = \frac{A}{t-4} + \frac{B}{t+3}$.\n- **Execution:** Once the constants $A$ and $B$ are found, substitute $x^2$ *back* in place of $t$ BEFORE introducing the integral sign.\nYou will be left with standard $\int \frac{dx}{x^2 \pm a^2}$ special integrals.",
+"back": "- **The Trap:** Integrands like $\\frac{x^2}{x^4-x^2-12}$ look like heavy degree-4 functions. Students mistakenly attempt a calculus substitution $t = x^2$ and write $dt = 2x dx$, getting stuck because there is no isolated $2x dx$ in the numerator to absorb the differential.\n- **The Fix:** Use $t = x^2$ **ONLY algebraically**. Temporarily replace $x^2$ with $t$ to break the fraction apart using standard linear partial fractions: $\\frac{t}{t^2-t-12} = \\frac{A}{t-4} + \\frac{B}{t+3}$.\n- **Execution:** Once the constants $A$ and $B$ are found, substitute $x^2$ *back* in place of $t$ BEFORE introducing the integral sign.\nYou will be left with standard $\\int \\frac{dx}{x^2 \\pm a^2}$ special integrals.",
 "mnemonic": "Substitute for algebra, reverse for calculus.",
 "standardMeta": {
-"question": "When confronted with an integral containing strictly even powers like $\int \frac{x^2}{x^4-x^2-12} dx$, why is a calculus substitution $t = x^2$ a fatal error, and what is the correct algebraic SOP?"
+"question": "When confronted with an integral containing strictly even powers like $\\int \\frac{x^2}{x^4-x^2-12} dx$, why is a calculus substitution $t = x^2$ a fatal error, and what is the correct algebraic SOP?"
 }
 }
 },
@@ -785,7 +785,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 34,
 "heading": "Integration by Parts Formula",
-"back": "## Component Anatomy:\n- **$u$ (First Function):** The function targeted for differentiation (diminishing complexity).\n- **$v$ (Second Function):** The function targeted for integration.\n- **$\frac{du}{dx}$:** The derivative of $u$.\n\n## Boundary Conditions / Domain:\n- Both $u$ and $v$ must be continuous and differentiable/integrable on the target domain.",
+"back": "## Component Anatomy:\n- **$u$ (First Function):** The function targeted for differentiation (diminishing complexity).\n- **$v$ (Second Function):** The function targeted for integration.\n- **$\\frac{du}{dx}$:** The derivative of $u$.\n\n## Boundary Conditions / Domain:\n- Both $u$ and $v$ must be continuous and differentiable/integrable on the target domain.",
 "mnemonic": "First times integral of second, minus integral of (derivative of first times integral of second).",
 "formulaMeta": {
 "formula": "\\int u v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx",
@@ -809,7 +809,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 35,
 "heading": "ILATE Priority Rule",
-"back": "- **Concept:** In Integration by Parts, choosing the wrong 'first function' ($u$) leads to infinitely escalating, unsolvable integrals.\n- **The Rule:** Choose $u$ strictly based on which function type appears FIRST in this hierarchy:\n  - **I:** Inverse Trigonometric (e.g., $\sin^{-1} x$)\n  - **L:** Logarithmic (e.g., $\log x$)\n  - **A:** Algebraic (e.g., $x^2, x$)\n  - **T:** Trigonometric (e.g., $\sin x, \sec^2 x$)\n  - **E:** Exponential (e.g., $e^x, 2^x$)\n- **Hack:** If only one isolated transcendental function exists (e.g., $\int \log x dx$ or $\int \sin^{-1} x dx$), force an algebraic '1' as the second function $v$: $\int (\log x) \cdot 1 dx$.",
+"back": "- **Concept:** In Integration by Parts, choosing the wrong 'first function' ($u$) leads to infinitely escalating, unsolvable integrals.\n- **The Rule:** Choose $u$ strictly based on which function type appears FIRST in this hierarchy:\n  - **I:** Inverse Trigonometric (e.g., $\\sin^{-1} x$)\n  - **L:** Logarithmic (e.g., $\\log x$)\n  - **A:** Algebraic (e.g., $x^2, x$)\n  - **T:** Trigonometric (e.g., $\\sin x, \\sec^2 x$)\n  - **E:** Exponential (e.g., $e^x, 2^x$)\n- **Hack:** If only one isolated transcendental function exists (e.g., $\\int \\log x dx$ or $\\int \\sin^{-1} x dx$), force an algebraic '1' as the second function $v$: $\\int (\\log x) \\cdot 1 dx$.",
 "mnemonic": "ILATE decides the First fate.",
 "standardMeta": {
 "question": "What does the ILATE acronym stand for, and how is it utilized strictly as a priority rule during Integration by Parts?"
@@ -835,7 +835,7 @@
 "mnemonic": "e to the x times (Function plus its Slope) equals e to the x times Function.",
 "formulaMeta": {
 "formula": "\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C",
-"description": "State the high-yield integration shortcut formula for $\int e^x [f(x) + f'(x)] dx$.",
+"description": "State the high-yield integration shortcut formula for $\\int e^x [f(x) + f'(x)] dx$.",
 "derivation": "**SOP for complex applications:** In complex rational integrals multiplied by $e^x$, you often have to manually add and subtract a constant in the numerator, or split the denominator, to artificially force the algebraic expression into the clean $[f(x) + f'(x)]$ format."
 }
 }
@@ -879,10 +879,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 38,
 "heading": "Definite Integral as Limit of a Sum (First Principle)",
-"back": "## Component Anatomy:\n- **$[a, b]$:** The interval of integration.\n- **$n$:** The number of sub-intervals approaching infinity.\n- **$h$:** The infinitesimal width of each rectangle, defined strictly as $h = \frac{b-a}{n}$.\n- **$f(a+rh)$:** The height of the $r$-th rectangle evaluated at the right endpoint of the sub-interval.\n\n## Boundary Conditions / Domain:\n- $f(x)$ must be continuous on the closed interval $[a, b]$.",
+"back": "## Component Anatomy:\n- **$[a, b]$:** The interval of integration.\n- **$n$:** The number of sub-intervals approaching infinity.\n- **$h$:** The infinitesimal width of each rectangle, defined strictly as $h = \\frac{b-a}{n}$.\n- **$f(a+rh)$:** The height of the $r$-th rectangle evaluated at the right endpoint of the sub-interval.\n\n## Boundary Conditions / Domain:\n- $f(x)$ must be continuous on the closed interval $[a, b]$.",
 "formulaMeta": {
 "formula": "\\int_a^b f(x)dx = \\lim_{n \\to \\infty} h \\sum_{r=1}^{n} f(a+rh)",
-"description": "State the fundamental definition of the definite integral $\int_a^b f(x)dx$ as the limit of a Riemann sum.",
+"description": "State the fundamental definition of the definite integral $\\int_a^b f(x)dx$ as the limit of a Riemann sum.",
 "derivation": ""
 }
 }
@@ -915,7 +915,7 @@
 "originalHeading": "Definite Integral Properties: P1 & P2 (Reversal and Dummy Variable)",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied double-escaped KaTeX with \begin{aligned}."
+"Applied double-escaped KaTeX with \\begin{aligned}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -924,7 +924,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 40,
 "heading": "Definite Integral Properties: P1 (Dummy Variable) & P2 (Reversal)",
-"back": "## Component Anatomy:\n- **$x \to t$ (P1):** A purely cosmetic variable swap has no effect on a definite integral's numerical value, because the bounds dictate the evaluation space.\n- **Swapping limits (P2):** Reversing the bounds from $[a, b]$ to $[b, a]$ artificially extracts a negative sign due to the fundamental theorem: $(F(a) - F(b)) = -(F(b) - F(a))$.\n\n## Boundary Conditions / Domain:\n- Valid for any integrable function on $[a, b]$.",
+"back": "## Component Anatomy:\n- **$x \\to t$ (P1):** A purely cosmetic variable swap has no effect on a definite integral's numerical value, because the bounds dictate the evaluation space.\n- **Swapping limits (P2):** Reversing the bounds from $[a, b]$ to $[b, a]$ artificially extracts a negative sign due to the fundamental theorem: $(F(a) - F(b)) = -(F(b) - F(a))$.\n\n## Boundary Conditions / Domain:\n- Valid for any integrable function on $[a, b]$.",
 "formulaMeta": {
 "formula": "\\begin{aligned} \\int_a^b f(x) dx &= \\int_a^b f(t) dt \\\\ \\int_a^b f(x) dx &= -\\int_b^a f(x) dx \\end{aligned}",
 "description": "State the two fundamental algebraic properties of definite integrals regarding dummy variables (P1) and limit reversal (P2).",
@@ -951,7 +951,7 @@
 "mnemonic": "Break the journey, sum the parts.",
 "formulaMeta": {
 "formula": "\\int_a^b f(x) dx = \\int_a^c f(x) dx + \\int_c^b f(x) dx",
-"description": "State Property P3 for splitting a definite integral $\int_a^b f(x) dx$ at an interior point $c$.",
+"description": "State Property P3 for splitting a definite integral $\\int_a^b f(x) dx$ at an interior point $c$.",
 "derivation": ""
 }
 }
@@ -996,7 +996,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 43,
 "heading": "Algorithm: The 'I + I' King Rule Trick",
-"back": "**Standard Operating Procedure (SOP):**\n1. Define the original integral as $I$: $I = \int_a^b f(x) dx$.\n2. Apply the King Rule Property P4 to generate a second equation: $I = \int_a^b f(a+b-x) dx$.\n3. **Add both equations together**: $2I = \int_a^b [f(x) + f(a+b-x)] dx$.\n4. Because the denominators frequently perfectly match after the reflection, the complex terms usually cancel out, leaving a trivially simple integral (often just $\int 1 dx$).\n5. Evaluate the simplified integral and **divide the final answer by 2** to find $I$.",
+"back": "**Standard Operating Procedure (SOP):**\n1. Define the original integral as $I$: $I = \\int_a^b f(x) dx$.\n2. Apply the King Rule Property P4 to generate a second equation: $I = \\int_a^b f(a+b-x) dx$.\n3. **Add both equations together**: $2I = \\int_a^b [f(x) + f(a+b-x)] dx$.\n4. Because the denominators frequently perfectly match after the reflection, the complex terms usually cancel out, leaving a trivially simple integral (often just $\\int 1 dx$).\n5. Evaluate the simplified integral and **divide the final answer by 2** to find $I$.",
 "standardMeta": {
 "question": "What is the standard algebraic procedure (the 'I + I' trick) used to evaluate definite integrals utilizing the King Rule?"
 }
@@ -1017,7 +1017,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 44,
 "heading": "Property P4 Variant: Reflection on $[0, a]$",
-"back": "## Component Anatomy:\n- **$a-x$:** The argument $x$ is replaced by the upper limit minus $x$. This is simply the King Rule where lower limit $b=0$.\n\n## Boundary Conditions / Domain:\n- Lower limit MUST be exactly $0$.\n- Highly effective for integrals involving trigonometric co-functions ($\sin x$ and $\cos x$) on $[0, \pi/2]$, as $\sin(\pi/2 - x) = \cos x$, triggering perfect denominator matching for the 'I + I' trick.",
+"back": "## Component Anatomy:\n- **$a-x$:** The argument $x$ is replaced by the upper limit minus $x$. This is simply the King Rule where lower limit $b=0$.\n\n## Boundary Conditions / Domain:\n- Lower limit MUST be exactly $0$.\n- Highly effective for integrals involving trigonometric co-functions ($\\sin x$ and $\\cos x$) on $[0, \\pi/2]$, as $\\sin(\\pi/2 - x) = \\cos x$, triggering perfect denominator matching for the 'I + I' trick.",
 "formulaMeta": {
 "formula": "\\int_0^a f(x) dx = \\int_0^a f(a-x) dx",
 "description": "State the highly tested variant of the King Rule specifically tailored for the interval $[0, a]$.",
@@ -1031,7 +1031,7 @@
 "originalHeading": "Definite Integral Property P5: Symmetric Interval [-a, a]",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{cases}."
+"Applied strict double-escaped KaTeX with \\begin{cases}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -1044,7 +1044,7 @@
 "mnemonic": "Odd kills the integral to zero. Even doubles the half.",
 "formulaMeta": {
 "formula": "\\int_{-a}^a f(x) dx = \\begin{cases} 2\\int_0^a f(x) dx & \\text{if } f(-x) = f(x) \\\\ 0 & \\text{if } f(-x) = -f(x) \\end{cases}",
-"description": "State the evaluation rules for $\int_{-a}^a f(x) dx$ depending on whether $f(x)$ is an Even or Odd function.",
+"description": "State the evaluation rules for $\\int_{-a}^a f(x) dx$ depending on whether $f(x)$ is an Even or Odd function.",
 "derivation": ""
 }
 }
@@ -1055,7 +1055,7 @@
 "originalHeading": "Definite Integral Property P6: Doubling Rule on [0, 2a]",
 "action": "MODIFIED",
 "modificationsSummary": [
-"Applied strict double-escaped KaTeX with \begin{cases}."
+"Applied strict double-escaped KaTeX with \\begin{cases}."
 ],
 "vettingNotes": "",
 "cardData": {
@@ -1064,10 +1064,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 46,
 "heading": "Property P6: Doubling Rule on $[0, 2a]$",
-"back": "## Component Anatomy:\n- This property analytically tests the symmetry of the function specifically around the midpoint $x = a$.\n\n## Boundary Conditions / Domain:\n- A classic application is integrating $\sin x$ on $[0, 2\pi]$. Since $2a = 2\pi$, the midpoint is $\pi$. Because $\sin(2\pi - x) = -\sin x$, the formula immediately triggers the odd-like condition, yielding $0$.",
+"back": "## Component Anatomy:\n- This property analytically tests the symmetry of the function specifically around the midpoint $x = a$.\n\n## Boundary Conditions / Domain:\n- A classic application is integrating $\\sin x$ on $[0, 2\\pi]$. Since $2a = 2\\pi$, the midpoint is $\\pi$. Because $\\sin(2\\pi - x) = -\\sin x$, the formula immediately triggers the odd-like condition, yielding $0$.",
 "formulaMeta": {
 "formula": "\\int_0^{2a} f(x) dx = \\begin{cases} 2\\int_0^a f(x) dx & \\text{if } f(2a-x) = f(x) \\\\ 0 & \\text{if } f(2a-x) = -f(x) \\end{cases}",
-"description": "State the specific Doubling Rule conditions for evaluating $\int_0^{2a} f(x) dx$.",
+"description": "State the specific Doubling Rule conditions for evaluating $\\int_0^{2a} f(x) dx$.",
 "derivation": ""
 }
 }
@@ -1088,7 +1088,7 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 47,
 "heading": "Property: Integration of Periodic Functions",
-"back": "## Component Anatomy:\n- **$T$:** The strict mathematical fundamental period of the function (e.g., $2\pi$ for $\sin x$, $\pi$ for $|\sin x|$).\n- **$n$:** Any positive integer ($n \in \mathbb{Z}^+$).\n\n## Boundary Conditions / Domain:\n- $f(x)$ must be perfectly periodic such that $f(x+T) = f(x)$ for all $x$ in the domain.",
+"back": "## Component Anatomy:\n- **$T$:** The strict mathematical fundamental period of the function (e.g., $2\\pi$ for $\\sin x$, $\\pi$ for $|\\sin x|$).\n- **$n$:** Any positive integer ($n \\in \\mathbb{Z}^+$).\n\n## Boundary Conditions / Domain:\n- $f(x)$ must be perfectly periodic such that $f(x+T) = f(x)$ for all $x$ in the domain.",
 "mnemonic": "Pull the multiple out of the limit.",
 "formulaMeta": {
 "formula": "\\int_0^{nT} f(x) dx = n \\int_0^T f(x) dx",
@@ -1112,11 +1112,11 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula"],
 "order": 48,
 "heading": "Standard Evaluation: Integral of Log Sine/Cosine",
-"back": "## Component Anatomy:\n- **$\log(\sin x)$ and $\log(\cos x)$:** The transcendental integrands.\n- **$-\frac{\pi}{2} \log 2$:** The invariant numerical area result.\n\n## Boundary Conditions / Domain:\n- Strictly bounded from $0$ to $\frac{\pi}{2}$. (If the bounds change, you must mathematically scale the result).",
+"back": "## Component Anatomy:\n- **$\\log(\\sin x)$ and $\\log(\\cos x)$:** The transcendental integrands.\n- **$-\\frac{\\pi}{2} \\log 2$:** The invariant numerical area result.\n\n## Boundary Conditions / Domain:\n- Strictly bounded from $0$ to $\\frac{\\pi}{2}$. (If the bounds change, you must mathematically scale the result).",
 "mnemonic": "Minus Pi by two, Log two.",
 "formulaMeta": {
 "formula": "\\int_0^{\\pi/2} \\log(\\sin x) dx = \\int_0^{\\pi/2} \\log(\\cos x) dx = -\\frac{\\pi}{2} \\log 2",
-"description": "State the standard, highly-tested classical result for evaluating $\int_0^{\pi/2} \log(\sin x) dx$ and $\int_0^{\pi/2} \log(\cos x) dx$.",
+"description": "State the standard, highly-tested classical result for evaluating $\\int_0^{\\pi/2} \\log(\\sin x) dx$ and $\\int_0^{\\pi/2} \\log(\\cos x) dx$.",
 "derivation": ""
 }
 }
@@ -1124,7 +1124,7 @@
 {
 "cardId": "08b5f72a-5207-4cd2-918d-c377dd77d0ae",
 "originalOrder": 52,
-"originalHeading": "Absolute Value Trap in \sqrt{1 \pm \sin 2x}",
+"originalHeading": "Absolute Value Trap in \\sqrt{1 \\pm \\sin 2x}",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to 49.",
@@ -1137,17 +1137,17 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 49,
 "heading": "Absolute Value Trap in Trig Radicals",
-"back": "- **The Derivation:** Using the perfect square trigonometric identity, $\sqrt{1 - \sin 2x} = \sqrt{(\sin x - \cos x)^2}$.\n- **The Trap:** A square root of a square mathematically simplifies to the **absolute value** $|\sin x - \cos x|$, not just $(\sin x - \cos x)$.\n- **Execution:** When evaluating over an interval like $[0, \pi/2]$, you MUST split the definite integral (Property P3) at the critical crossover point $x = \pi/4$.\n  - On $[0, \pi/4]$, $\cos x > \sin x$, so the integrand evaluates to $\cos x - \sin x$.\n  - On $[\pi/4, \pi/2]$, $\sin x > \cos x$, so the integrand evaluates to $\sin x - \cos x$.",
+"back": "- **The Derivation:** Using the perfect square trigonometric identity, $\\sqrt{1 - \\sin 2x} = \\sqrt{(\\sin x - \\cos x)^2}$.\n- **The Trap:** A square root of a square mathematically simplifies to the **absolute value** $|\\sin x - \\cos x|$, not just $(\\sin x - \\cos x)$.\n- **Execution:** When evaluating over an interval like $[0, \\pi/2]$, you MUST split the definite integral (Property P3) at the critical crossover point $x = \\pi/4$.\n  - On $[0, \\pi/4]$, $\\cos x > \\sin x$, so the integrand evaluates to $\\cos x - \\sin x$.\n  - On $[\\pi/4, \\pi/2]$, $\\sin x > \\cos x$, so the integrand evaluates to $\\sin x - \\cos x$.",
 "mnemonic": "Roots of squares demand absolute respect.",
 "standardMeta": {
-"question": "When evaluating a definite integral involving $\sqrt{1 - \sin 2x}$ over an interval like $[0, \pi/2]$, what critical boundary trap must you mathematically account for?"
+"question": "When evaluating a definite integral involving $\\sqrt{1 - \\sin 2x}$ over an interval like $[0, \\pi/2]$, what critical boundary trap must you mathematically account for?"
 }
 }
 },
 {
 "cardId": "225725de-de8b-439e-905c-f131eb8f62dd",
 "originalOrder": 59,
-"originalHeading": "Fixed Geometric Integral: \frac{1}{\sqrt{(x-a)(b-x)}}",
+"originalHeading": "Fixed Geometric Integral: \\frac{1}{\\sqrt{(x-a)(b-x)}}",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 50.",
@@ -1160,11 +1160,11 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula", "hots"],
 "order": 50,
 "heading": "Fixed Geometric Area: Roots of a Quadratic",
-"back": "## Component Anatomy:\n- **$a, b$:** The specific real roots forming the downward-facing quadratic in the denominator.\n- **$\pi$:** The strictly invariant numerical area, independent of the values of $a$ and $b$.\n\n## Boundary Conditions / Domain:\n- Strict domain constraint: $a < x < b$. If evaluated outside these roots, the radical evaluates to imaginary numbers.",
+"back": "## Component Anatomy:\n- **$a, b$:** The specific real roots forming the downward-facing quadratic in the denominator.\n- **$\\pi$:** The strictly invariant numerical area, independent of the values of $a$ and $b$.\n\n## Boundary Conditions / Domain:\n- Strict domain constraint: $a < x < b$. If evaluated outside these roots, the radical evaluates to imaginary numbers.",
 "formulaMeta": {
 "formula": "\\int_a^b \\frac{dx}{\\sqrt{(x-a)(b-x)}} = \\pi",
-"description": "State the invariant numerical value for the highly-tested definite integral of $\frac{1}{\sqrt{(x-a)(b-x)}}$ evaluated strictly from root $a$ to root $b$.",
-"derivation": "**SOP:** This relies heavily on algebraic completion of the square to $\sqrt{(\frac{b-a}{2})^2 - (x - \frac{a+b}{2})^2}$, which structurally integrates perfectly to an Inverse Sine function.\nEvaluating limits from $a$ to $b$ consistently yields $\sin^{-1}(1) - \sin^{-1}(-1) = \pi/2 - (-\pi/2) = \pi$."
+"description": "State the invariant numerical value for the highly-tested definite integral of $\\frac{1}{\\sqrt{(x-a)(b-x)}}$ evaluated strictly from root $a$ to root $b$.",
+"derivation": "**SOP:** This relies heavily on algebraic completion of the square to $\\sqrt{(\\frac{b-a}{2})^2 - (x - \\frac{a+b}{2})^2}$, which structurally integrates perfectly to an Inverse Sine function.\nEvaluating limits from $a$ to $b$ consistently yields $\\sin^{-1}(1) - \\sin^{-1}(-1) = \\pi/2 - (-\\pi/2) = \\pi$."
 }
 }
 },
@@ -1183,10 +1183,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 51,
 "heading": "SOP: Eliminating Conflicting Fractional Powers",
-"back": "- **Concept:** Integrands like $\frac{x^{1/2}}{1+x^{3/4}}$ contain conflicting fractional exponents that prevent simple integer $u$-substitution.\n\n**Standard Operating Procedure (The LCM Method):**\n1. Identify all fractional exponents of $x$ in the integrand (e.g., $1/2$ and $3/4$).\n2. Find the Least Common Multiple (LCM) of their specific denominators (LCM of 2 and 4 is 4).\n3. Substitute $x = z^k$, where $k$ is that LCM (e.g., $x = z^4$).\n4. Differentiate to get $dx = k z^{k-1} dz$ (e.g., $dx = 4z^3 dz$).\n5. Substitute everything back in. All fractional powers will strictly reduce to clean integer polynomials, allowing partial fractions or division.",
+"back": "- **Concept:** Integrands like $\\frac{x^{1/2}}{1+x^{3/4}}$ contain conflicting fractional exponents that prevent simple integer $u$-substitution.\n\n**Standard Operating Procedure (The LCM Method):**\n1. Identify all fractional exponents of $x$ in the integrand (e.g., $1/2$ and $3/4$).\n2. Find the Least Common Multiple (LCM) of their specific denominators (LCM of 2 and 4 is 4).\n3. Substitute $x = z^k$, where $k$ is that LCM (e.g., $x = z^4$).\n4. Differentiate to get $dx = k z^{k-1} dz$ (e.g., $dx = 4z^3 dz$).\n5. Substitute everything back in. All fractional powers will strictly reduce to clean integer polynomials, allowing partial fractions or division.",
 "mnemonic": "LCM clears the fractions.",
 "standardMeta": {
-"question": "In HOTS questions involving conflicting fractional powers like $\int \frac{x^{1/2}}{1+x^{3/4}} dx$, what specific substitution rule mathematically guarantees the elimination of all radicals?"
+"question": "In HOTS questions involving conflicting fractional powers like $\\int \\frac{x^{1/2}}{1+x^{3/4}} dx$, what specific substitution rule mathematically guarantees the elimination of all radicals?"
 }
 }
 },
@@ -1205,17 +1205,17 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main"],
 "order": 52,
 "heading": "SOP: Mixed Exponential Rational Integrands",
-"back": "- **The Trap:** Rational integrands of the form $\frac{1}{e^x + e^{-x}}$ or similar mixtures of positive and negative exponentials cannot be integrated directly.\n\n**Standard Operating Procedure (SOP):**\n1. Multiply BOTH the numerator and the entire denominator strictly by $e^x$.\n2. This algebraic move converts all reciprocal $e^{-x}$ terms into clean integer constants ($e^{-x} \cdot e^x = 1$) and changes the denominator into a quadratic structure $e^{2x} + 1$.\n3. Apply the substitution $t = e^x$, converting the problem completely into a standard $\tan^{-1}$ or partial fraction template in terms of $t$.",
+"back": "- **The Trap:** Rational integrands of the form $\\frac{1}{e^x + e^{-x}}$ or similar mixtures of positive and negative exponentials cannot be integrated directly.\n\n**Standard Operating Procedure (SOP):**\n1. Multiply BOTH the numerator and the entire denominator strictly by $e^x$.\n2. This algebraic move converts all reciprocal $e^{-x}$ terms into clean integer constants ($e^{-x} \\cdot e^x = 1$) and changes the denominator into a quadratic structure $e^{2x} + 1$.\n3. Apply the substitution $t = e^x$, converting the problem completely into a standard $\\tan^{-1}$ or partial fraction template in terms of $t$.",
 "mnemonic": "Kill the negative exponential by multiplying.",
 "standardMeta": {
-"question": "What is the mandatory first algebraic step required to solve rational integrands containing a mixture of $e^x$ and $e^{-x}$ in the denominator (e.g., $\int \frac{dx}{e^x + e^{-x}}$)?"
+"question": "What is the mandatory first algebraic step required to solve rational integrands containing a mixture of $e^x$ and $e^{-x}$ in the denominator (e.g., $\\int \\frac{dx}{e^x + e^{-x}}$)?"
 }
 }
 },
 {
 "cardId": "9067e562-cd9d-4df0-b615-ab4cce57b5a6",
 "originalOrder": 45,
-"originalHeading": "Integration SOP: Type \frac{1}{a \sin^2 x + b \cos^2 x}",
+"originalHeading": "Integration SOP: Type \\frac{1}{a \\sin^2 x + b \\cos^2 x}",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Reordered to sequence 53.",
@@ -1229,10 +1229,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 53,
 "heading": "SOP: Sum of Squared Sines/Cosines in Denominator",
-"back": "- **Concept:** Expressions with sums of purely squared sines and cosines in the denominator require forced tangent substitution.\n\n**Standard Operating Procedure (SOP):**\n1. Divide the numerator and every term in the denominator strictly by **$\cos^2 x$**.\n2. The numerator becomes exactly $\sec^2 x dx$.\n3. The denominator analytically converts into a structure containing only $\tan^2 x$ and constants.\n4. Substitute $t = \tan x$, ensuring $dt$ exactly absorbs the $\sec^2 x dx$ in the numerator.\n5. Integrate the resulting rational function $\frac{dt}{at^2 + b}$ using the standard $\tan^{-1}$ special integral formula.\n\n**Boundary Conditions / Domain:**\n- Valid on intervals where $\cos x \neq 0$. If evaluating a definite integral across an asymptote (like $\pi/2$), you must use limit properties for improper integrals.",
+"back": "- **Concept:** Expressions with sums of purely squared sines and cosines in the denominator require forced tangent substitution.\n\n**Standard Operating Procedure (SOP):**\n1. Divide the numerator and every term in the denominator strictly by **$\\cos^2 x$**.\n2. The numerator becomes exactly $\\sec^2 x dx$.\n3. The denominator analytically converts into a structure containing only $\\tan^2 x$ and constants.\n4. Substitute $t = \\tan x$, ensuring $dt$ exactly absorbs the $\\sec^2 x dx$ in the numerator.\n5. Integrate the resulting rational function $\\frac{dt}{at^2 + b}$ using the standard $\\tan^{-1}$ special integral formula.\n\n**Boundary Conditions / Domain:**\n- Valid on intervals where $\\cos x \\neq 0$. If evaluating a definite integral across an asymptote (like $\\pi/2$), you must use limit properties for improper integrals.",
 "mnemonic": "Divide by cos-squared to unlock the tangent.",
 "standardMeta": {
-"question": "What is the specific sequence of algebraic manipulations (SOP) used to evaluate integrals of the form $\int \frac{dx}{a \sin^2 x + b \cos^2 x}$?"
+"question": "What is the specific sequence of algebraic manipulations (SOP) used to evaluate integrals of the form $\\int \\frac{dx}{a \\sin^2 x + b \\cos^2 x}$?"
 }
 }
 },
@@ -1251,10 +1251,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 54,
 "heading": "SOP: Linear Trigonometric Denominators",
-"back": "- **Concept:** Integrals where the denominator is a linear mix of a constant and a trigonometric function cannot be solved by direct $u$-substitution.\n\n**Standard Operating Procedure (SOP):**\n1. Rewrite strictly the $\cos x$ and $\sin x$ terms using their half-angle tangent identities: $\cos x = \frac{1-\tan^2(x/2)}{1+\tan^2(x/2)}$ and $\sin x = \frac{2\tan(x/2)}{1+\tan^2(x/2)}$.\n2. The common denominator $1+\tan^2(x/2)$ flips to the numerator and becomes strictly $\sec^2(x/2) dx$.\n3. Substitute $t = \tan(x/2)$ with $dt = \frac{1}{2}\sec^2(x/2) dx$.\n4. The entire complex integral simplifies perfectly into the standard $\int \frac{dt}{\text{quadratic}}$ format, which is solved by completing the square.",
+"back": "- **Concept:** Integrals where the denominator is a linear mix of a constant and a trigonometric function cannot be solved by direct $u$-substitution.\n\n**Standard Operating Procedure (SOP):**\n1. Rewrite strictly the $\\cos x$ and $\\sin x$ terms using their half-angle tangent identities: $\\cos x = \\frac{1-\\tan^2(x/2)}{1+\\tan^2(x/2)}$ and $\\sin x = \\frac{2\\tan(x/2)}{1+\\tan^2(x/2)}$.\n2. The common denominator $1+\\tan^2(x/2)$ flips to the numerator and becomes strictly $\\sec^2(x/2) dx$.\n3. Substitute $t = \\tan(x/2)$ with $dt = \\frac{1}{2}\\sec^2(x/2) dx$.\n4. The entire complex integral simplifies perfectly into the standard $\\int \\frac{dt}{\\text{quadratic}}$ format, which is solved by completing the square.",
 "mnemonic": "Half-angle tan unlocks linear trig bottoms.",
 "standardMeta": {
-"question": "What is the standard algorithmic procedure (SOP) for integrating functions of the form $\int \frac{dx}{a + b\cos x}$ or $\int \frac{dx}{a + b\sin x}$?"
+"question": "What is the standard algorithmic procedure (SOP) for integrating functions of the form $\\int \\frac{dx}{a + b\\cos x}$ or $\\int \\frac{dx}{a + b\\sin x}$?"
 }
 }
 },
@@ -1273,12 +1273,12 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula", "hots"],
 "order": 55,
 "heading": "Numerator Splitting: Linear Trigonometric Fractions",
-"back": "## Component Anatomy:\n- **$\lambda, \mu$:** Unknown real constants determined algebraically.\n- **Denominator:** The structural $c\cos x + d\sin x$ term from the original integrand.\n\n## Boundary Conditions / Domain:\n- Assumes the denominator is not identically zero on the interval of integration.",
+"back": "## Component Anatomy:\n- **$\\lambda, \\mu$:** Unknown real constants determined algebraically.\n- **Denominator:** The structural $c\\cos x + d\\sin x$ term from the original integrand.\n\n## Boundary Conditions / Domain:\n- Assumes the denominator is not identically zero on the interval of integration.",
 "mnemonic": "Numerator = Lambda(Denom) + Mu(Derivative of Denom).",
 "formulaMeta": {
 "formula": "\\text{Numerator} = \\lambda(\\text{Denominator}) + \\mu\\left(\\frac{d}{dx}(\\text{Denominator})\\right)",
-"description": "State the algebraic splitting template used to integrate rational trigonometric functions of the form $\int \frac{a\cos x + b\sin x}{c\cos x + d\sin x} dx$.",
-"derivation": "**SOP:**\n1. Write out the template equation precisely.\n2. Expand the RHS and equate the coefficients of $\sin x$ and $\cos x$ on both sides to solve a system of linear equations for $\lambda$ and $\mu$.\n3. Split the integral: $\int \lambda dx + \int \mu \frac{f'(x)}{f(x)} dx$.\n4. The result strictly evaluates to $\lambda x + \mu \log|\text{Denominator}| + C$."
+"description": "State the algebraic splitting template used to integrate rational trigonometric functions of the form $\\int \\frac{a\\cos x + b\\sin x}{c\\cos x + d\\sin x} dx$.",
+"derivation": "**SOP:**\n1. Write out the template equation precisely.\n2. Expand the RHS and equate the coefficients of $\\sin x$ and $\\cos x$ on both sides to solve a system of linear equations for $\\lambda$ and $\\mu$.\n3. Split the integral: $\\int \\lambda dx + \\int \\mu \\frac{f'(x)}{f(x)} dx$.\n4. The result strictly evaluates to $\\lambda x + \\mu \\log|\\text{Denominator}| + C$."
 }
 }
 },
@@ -1297,10 +1297,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula", "hots"],
 "order": 56,
 "heading": "Trigonometric Substitution for Quartic Radicals",
-"back": "## Component Anatomy:\n- **$\sqrt{x^4-1}$:** Radicals containing an even power higher than 2 inside.\n- **$\sec \theta$:** The target non-standard substitution parameter.\n\n## Boundary Conditions / Domain:\n- This converts the radical $\sqrt{\sec^2\theta - 1}$ beautifully into $\tan \theta$.\n- Notice you are NOT directly substituting for $x$, you are making an advanced structural substitution for $x^2$.",
+"back": "## Component Anatomy:\n- **$\\sqrt{x^4-1}$:** Radicals containing an even power higher than 2 inside.\n- **$\\sec \\theta$:** The target non-standard substitution parameter.\n\n## Boundary Conditions / Domain:\n- This converts the radical $\\sqrt{\\sec^2\\theta - 1}$ beautifully into $\\tan \\theta$.\n- Notice you are NOT directly substituting for $x$, you are making an advanced structural substitution for $x^2$.",
 "formulaMeta": {
 "formula": "x^2 = \\sec \\theta \\implies 2x dx = \\sec \\theta \\tan \\theta d\\theta",
-"description": "State the non-standard substitution required to crack complex integrands containing the radical $\sqrt{x^4-1}$.",
+"description": "State the non-standard substitution required to crack complex integrands containing the radical $\\sqrt{x^4-1}$.",
 "derivation": ""
 }
 }
@@ -1320,10 +1320,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 57,
 "heading": "The Log-Exponential Simplification Trap",
-"back": "- **Concept:** Expressions like $e^{k \log x}$ or $e^{\log(f(x))}$ are purely algebraic rational functions in disguise. They are NOT transcendental exponential functions.\n- **The Trap:** Attempting to blindly use Integration by Parts (ILATE) on $\int x^2 e^{3 \log x} dx$ will force you into an infinite, unsolvable loop.\n- **Standard Operating Procedure (SOP):** Always apply logarithmic properties first to simplify. $e^{3 \log x} = e^{\log(x^3)} = x^3$.\nThe integral simply becomes $\int x^5 dx$, solved instantly via the Power Rule.\n\n**Boundary Conditions / Domain:**\n- The argument of the logarithm must remain $x > 0$.",
+"back": "- **Concept:** Expressions like $e^{k \\log x}$ or $e^{\\log(f(x))}$ are purely algebraic rational functions in disguise. They are NOT transcendental exponential functions.\n- **The Trap:** Attempting to blindly use Integration by Parts (ILATE) on $\\int x^2 e^{3 \\log x} dx$ will force you into an infinite, unsolvable loop.\n- **Standard Operating Procedure (SOP):** Always apply logarithmic properties first to simplify. $e^{3 \\log x} = e^{\\log(x^3)} = x^3$.\nThe integral simply becomes $\\int x^5 dx$, solved instantly via the Power Rule.\n\n**Boundary Conditions / Domain:**\n- The argument of the logarithm must remain $x > 0$.",
 "mnemonic": "Log and e cancel each other out.",
 "standardMeta": {
-"question": "When evaluating an integral like $\int x^2 e^{3 \log x} dx$, what is the mandatory first algebraic step before attempting to integrate?"
+"question": "When evaluating an integral like $\\int x^2 e^{3 \\log x} dx$, what is the mandatory first algebraic step before attempting to integrate?"
 }
 }
 },
@@ -1342,10 +1342,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "extension"],
 "order": 58,
 "heading": "SOP: Rationalisation Inside Radicals",
-"back": "- **Concept:** Integrands of the form $\sqrt{\frac{a+x}{a-x}}$ cannot be directly solved via standard linear substitution.\n\n**Standard Operating Procedure (Inside Conjugate):**\n1. Multiply the numerator and denominator strictly *inside* the square root by the conjugate of the denominator, or just $\sqrt{a+x}$.\n2. The numerator geometrically becomes exactly $a+x$.\n3. The denominator geometrically becomes $\sqrt{a^2-x^2}$.\n4. Split the single fraction into two standard, identifiable integrals: \n   - $a \int \frac{dx}{\sqrt{a^2-x^2}}$ (Evaluates to standard Inverse Sine)\n   - $\int \frac{x dx}{\sqrt{a^2-x^2}}$ (Solved perfectly by direct $t = a^2-x^2$ substitution)",
+"back": "- **Concept:** Integrands of the form $\\sqrt{\\frac{a+x}{a-x}}$ cannot be directly solved via standard linear substitution.\n\n**Standard Operating Procedure (Inside Conjugate):**\n1. Multiply the numerator and denominator strictly *inside* the square root by the conjugate of the denominator, or just $\\sqrt{a+x}$.\n2. The numerator geometrically becomes exactly $a+x$.\n3. The denominator geometrically becomes $\\sqrt{a^2-x^2}$.\n4. Split the single fraction into two standard, identifiable integrals: \n   - $a \\int \\frac{dx}{\\sqrt{a^2-x^2}}$ (Evaluates to standard Inverse Sine)\n   - $\\int \\frac{x dx}{\\sqrt{a^2-x^2}}$ (Solved perfectly by direct $t = a^2-x^2$ substitution)",
 "mnemonic": "Multiply by the top, split at the plus.",
 "standardMeta": {
-"question": "What is the standard algebraic procedure to integrate expressions of the form $\int \sqrt{\frac{a+x}{a-x}} dx$?"
+"question": "What is the standard algebraic procedure to integrate expressions of the form $\\int \\sqrt{\\frac{a+x}{a-x}} dx$?"
 }
 }
 },
@@ -1364,10 +1364,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 59,
 "heading": "SOP Setup: The Constant Difference Trig Trick",
-"back": "- **The Trap:** Integrals heavily tested in JEE with two sine or cosine factors in the denominator, like $\int \frac{dx}{\sin(x-a)\sin(x-b)}$, cannot be solved by simple substitution because there is no corresponding derivative in the numerator.\n\n**Standard Operating Procedure (Setup Phase):**\n1. Identify the difference between the two angles in the denominator: $(x-a) - (x-b) = b-a$. Since $a$ and $b$ are constants, the difference is a constant.\n2. Multiply and divide the entire integral by the trig function of that constant difference: $\frac{1}{\sin(b-a)} \int \frac{\sin(b-a)}{\sin(x-a)\sin(x-b)} dx$.\n3. In the numerator, creatively rewrite the angle $(b-a)$ as $((x-a) - (x-b))$ to match the exact angles in the denominator.",
+"back": "- **The Trap:** Integrals heavily tested in JEE with two sine or cosine factors in the denominator, like $\\int \\frac{dx}{\\sin(x-a)\\sin(x-b)}$, cannot be solved by simple substitution because there is no corresponding derivative in the numerator.\n\n**Standard Operating Procedure (Setup Phase):**\n1. Identify the difference between the two angles in the denominator: $(x-a) - (x-b) = b-a$. Since $a$ and $b$ are constants, the difference is a constant.\n2. Multiply and divide the entire integral by the trig function of that constant difference: $\\frac{1}{\\sin(b-a)} \\int \\frac{\\sin(b-a)}{\\sin(x-a)\\sin(x-b)} dx$.\n3. In the numerator, creatively rewrite the angle $(b-a)$ as $((x-a) - (x-b))$ to match the exact angles in the denominator.",
 "mnemonic": "Create the difference in the numerator.",
 "standardMeta": {
-"question": "What specific algebraic setup trick is initially required to solve highly-tested integrals of the form $\int \frac{dx}{\sin(x-a)\sin(x-b)}$?"
+"question": "What specific algebraic setup trick is initially required to solve highly-tested integrals of the form $\\int \\frac{dx}{\\sin(x-a)\\sin(x-b)}$?"
 }
 }
 },
@@ -1386,9 +1386,9 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 60,
 "heading": "SOP Execution: The Constant Difference Trig Trick",
-"back": "**Standard Operating Procedure (Execution Phase):**\n1. Starting with the modified numerator $\sin((x-a) - (x-b))$, expand it using the compound angle identity: $\sin(P-Q) = \sin P \cos Q - \cos P \sin Q$.\n2. The integral splits structurally into two terms over the common denominator $\sin(x-a)\sin(x-b)$.\n3. Divide each term by the original denominator. Cross-terms will perfectly cancel out.\n4. The resulting expression will leave easily integrable, linear $\cot$ or $\tan$ functions (e.g., $\cot(x-b) - \cot(x-a)$).\n5. Integrate using standard logarithmic formulas.",
+"back": "**Standard Operating Procedure (Execution Phase):**\n1. Starting with the modified numerator $\\sin((x-a) - (x-b))$, expand it using the compound angle identity: $\\sin(P-Q) = \\sin P \\cos Q - \\cos P \\sin Q$.\n2. The integral splits structurally into two terms over the common denominator $\\sin(x-a)\\sin(x-b)$.\n3. Divide each term by the original denominator. Cross-terms will perfectly cancel out.\n4. The resulting expression will leave easily integrable, linear $\\cot$ or $\\tan$ functions (e.g., $\\cot(x-b) - \\cot(x-a)$).\n5. Integrate using standard logarithmic formulas.",
 "standardMeta": {
-"question": "After setting up the numerator as $\sin((x-a) - (x-b))$, how do you execute and finish integrating $\int \frac{\sin((x-a) - (x-b))}{\sin(x-a)\sin(x-b)} dx$?"
+"question": "After setting up the numerator as $\\sin((x-a) - (x-b))$, how do you execute and finish integrating $\\int \\frac{\\sin((x-a) - (x-b))}{\\sin(x-a)\\sin(x-b)} dx$?"
 }
 }
 },
@@ -1407,10 +1407,10 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 61,
 "heading": "SOP Setup: Factor-Out Trick for High Power Rationals",
-"back": "- **Concept:** Integrals like $\int \frac{x^9}{(4x^2+1)^6} dx$ look impossible because direct $u$-substitution fails and the exponents are too massive to binomially expand.\n\n**Standard Operating Procedure (Setup Phase):**\n1. Focus strictly on the bracketed term in the denominator.\n2. **Factor out the highest power of $x$** completely from inside that bracket. For $(4x^2+1)^6$, factor out $x^2$: \n   $(x^2(4 + x^{-2}))^6$.\n3. Distribute the outer exponent to pull the $x$ term completely out of the bracket: $x^{12}(4 + x^{-2})^6$.",
+"back": "- **Concept:** Integrals like $\\int \\frac{x^9}{(4x^2+1)^6} dx$ look impossible because direct $u$-substitution fails and the exponents are too massive to binomially expand.\n\n**Standard Operating Procedure (Setup Phase):**\n1. Focus strictly on the bracketed term in the denominator.\n2. **Factor out the highest power of $x$** completely from inside that bracket. For $(4x^2+1)^6$, factor out $x^2$: \n   $(x^2(4 + x^{-2}))^6$.\n3. Distribute the outer exponent to pull the $x$ term completely out of the bracket: $x^{12}(4 + x^{-2})^6$.",
 "mnemonic": "Factor the highest power out to create the derivative.",
 "standardMeta": {
-"question": "How do you mathematically manipulate highly complex rational integrands with massive exponents, such as the denominator of $\int \frac{x^9}{(4x^2+1)^6} dx$, where direct substitution initially fails?"
+"question": "How do you mathematically manipulate highly complex rational integrands with massive exponents, such as the denominator of $\\int \\frac{x^9}{(4x^2+1)^6} dx$, where direct substitution initially fails?"
 }
 }
 },
@@ -1429,16 +1429,16 @@
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "hots"],
 "order": 62,
 "heading": "SOP Execution: Factor-Out Trick Substitution",
-"back": "**Standard Operating Procedure (Execution Phase):**\n1. Following the setup phase, cancel the newly extracted $x$ terms in the denominator with the $x$ terms in the original numerator. For $\frac{x^9}{x^{12}}$, you get $x^{-3}$.\n2. The resulting integral is $\int \frac{x^{-3}}{(4 + x^{-2})^6} dx$.\n3. Notice that the $x^{-3}$ sitting entirely outside the bracket is now perfectly proportional to the analytical derivative of the inner term $(4 + x^{-2})$.\n4. Substitute $u = 4 + x^{-2}$ ($du = -2x^{-3} dx$).\n5. Apply the standard Power Rule to the resulting pure polynomial $\int u^{-6} du$.",
+"back": "**Standard Operating Procedure (Execution Phase):**\n1. Following the setup phase, cancel the newly extracted $x$ terms in the denominator with the $x$ terms in the original numerator. For $\\frac{x^9}{x^{12}}$, you get $x^{-3}$.\n2. The resulting integral is $\\int \\frac{x^{-3}}{(4 + x^{-2})^6} dx$.\n3. Notice that the $x^{-3}$ sitting entirely outside the bracket is now perfectly proportional to the analytical derivative of the inner term $(4 + x^{-2})$.\n4. Substitute $u = 4 + x^{-2}$ ($du = -2x^{-3} dx$).\n5. Apply the standard Power Rule to the resulting pure polynomial $\\int u^{-6} du$.",
 "standardMeta": {
-"question": "After factoring out the highest power to get $\int \frac{x^9}{x^{12}(4 + x^{-2})^6} dx$, what is the strict execution path to solve the integral?"
+"question": "After factoring out the highest power to get $\\int \\frac{x^9}{x^{12}(4 + x^{-2})^6} dx$, what is the strict execution path to solve the integral?"
 }
 }
 },
 {
 "cardId": "165c6421-59c6-4385-b90c-6ee0020b3d77",
 "originalOrder": 54,
-"originalHeading": "Integrals of Type \frac{1}{L \sqrt{Q}}",
+"originalHeading": "Integrals of Type \\frac{1}{L \\sqrt{Q}}",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Applied double-escaped KaTeX."
@@ -1449,12 +1449,12 @@
 "classification": "PROCEDURAL",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula", "hots"],
 "order": 63,
-"heading": "Substitution SOP: Integrals of Type $\frac{1}{L \sqrt{Q}}$",
-"back": "## Component Anatomy:\n- **$px+q$ ($L$):** The strictly linear term outside the square root.\n- **$ax^2+bx+c$ ($Q$):** The quadratic term inside the square root.\n- **$t$:** The new substitution variable.\n\n## Boundary Conditions / Domain:\n- The linear term $px+q \neq 0$.",
+"heading": "Substitution SOP: Integrals of Type $\\frac{1}{L \\sqrt{Q}}$",
+"back": "## Component Anatomy:\n- **$px+q$ ($L$):** The strictly linear term outside the square root.\n- **$ax^2+bx+c$ ($Q$):** The quadratic term inside the square root.\n- **$t$:** The new substitution variable.\n\n## Boundary Conditions / Domain:\n- The linear term $px+q \\neq 0$.",
 "mnemonic": "Linear outside root? Inverse it.",
 "formulaMeta": {
 "formula": "px + q = \\frac{1}{t}",
-"description": "State the mandatory algebraic substitution used to solve an integral of the form $\int \frac{dx}{(px+q)\sqrt{ax^2+bx+c}}$.",
+"description": "State the mandatory algebraic substitution used to solve an integral of the form $\\int \\frac{dx}{(px+q)\\sqrt{ax^2+bx+c}}$.",
 "derivation": "**SOP:** Substituting the linear term with $1/t$ strictly converts the messy quadratic inside the radical into a standard completable square in terms of $t$, while cleanly absorbing the $dx$ into the $dt$ differential."
 }
 }
@@ -1462,7 +1462,7 @@
 {
 "cardId": "9c46f351-6f68-4989-96d9-5517ef60e120",
 "originalOrder": 55,
-"originalHeading": "Integrals of Type \frac{1}{Q_1 \sqrt{Q_2}}",
+"originalHeading": "Integrals of Type \\frac{1}{Q_1 \\sqrt{Q_2}}",
 "action": "MODIFIED",
 "modificationsSummary": [
 "Applied double-escaped KaTeX."
@@ -1473,12 +1473,12 @@
 "classification": "PROCEDURAL",
 "tags": ["mathematics", "calculus", "integration", "class-12", "jee-main", "formula", "hots"],
 "order": 64,
-"heading": "Substitution SOP: Integrals of Type $\frac{1}{Q_1 \sqrt{Q_2}}$",
-"back": "## Component Anatomy:\n- **$ax^2+b$ ($Q_1$):** A pure quadratic (lacking an $x$ term) situated outside the square root.\n- **$cx^2+d$ ($Q_2$):** A pure quadratic (lacking an $x$ term) situated inside the square root.\n\n## Boundary Conditions / Domain:\n- Substitution strictly requires $x \neq 0$.",
+"heading": "Substitution SOP: Integrals of Type $\\frac{1}{Q_1 \\sqrt{Q_2}}$",
+"back": "## Component Anatomy:\n- **$ax^2+b$ ($Q_1$):** A pure quadratic (lacking an $x$ term) situated outside the square root.\n- **$cx^2+d$ ($Q_2$):** A pure quadratic (lacking an $x$ term) situated inside the square root.\n\n## Boundary Conditions / Domain:\n- Substitution strictly requires $x \\neq 0$.",
 "mnemonic": "Pure quadratics in and out? Inverse x.",
 "formulaMeta": {
 "formula": "x = \\frac{1}{t}",
-"description": "State the mandatory algebraic substitution used to solve an integral with pure quadratics inside and outside the root: $\int \frac{dx}{(ax^2+b)\sqrt{cx^2+d}}$.",
+"description": "State the mandatory algebraic substitution used to solve an integral with pure quadratics inside and outside the root: $\\int \\frac{dx}{(ax^2+b)\\sqrt{cx^2+d}}$.",
 "derivation": "**SOP:** \n1. Substitute strictly $x = 1/t$, compute $dx = -1/t^2 dt$.\n2. Substitute into the integral structure.\n3. Pull $1/t^2$ analytically out of the radical.\n4. Simplify and cancel terms. The integral will mathematically reduce to a standard recognizable substitution form."
 }
 }

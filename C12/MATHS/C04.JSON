@@ -23,7 +23,7 @@
 ],
 "order": 1,
 "heading": "Formal Definition of a Determinant",
-"back": "## Definition\nA determinant is a unique scalar mathematical function that associates a specific real or complex number to a given square matrix.\n\n## Notation\nFor a square matrix $A$, its determinant is strictly denoted by $|A|$, $\det(A)$, or $\Delta$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Determinants are algebraically defined **only** for square matrices ($n \times n$). Rectangular matrices mathematically do not possess a determinant.",
+"back": "## Definition\nA determinant is a unique scalar mathematical function that associates a specific real or complex number to a given square matrix.\n\n## Notation\nFor a square matrix $A$, its determinant is strictly denoted by $|A|$, $\\det(A)$, or $\\Delta$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Determinants are algebraically defined **only** for square matrices ($n \\times n$). Rectangular matrices mathematically do not possess a determinant.",
 "mnemonic": "Determinants demand squares.",
 "standardMeta": {
 "question": "What is the formal mathematical definition of a determinant, and what strict structural constraint is placed on its input matrix?"
@@ -85,7 +85,7 @@
 "formulaMeta": {
 "formula": "\\begin{vmatrix} a & b \\ c & d \\end{vmatrix} = ad - bc",
 "description": "The foundational algebraic formula utilized for evaluating the scalar determinant of any 2x2 square matrix.",
-"derivation": "## Algorithmic SOP:\n1. Multiply the top-left element algebraically by the bottom-right element ($a \times d$).\n2. Multiply the bottom-left element algebraically by the top-right element ($c \times b$).\n3. Strictly subtract the second computed product from the first computed product."
+"derivation": "## Algorithmic SOP:\n1. Multiply the top-left element algebraically by the bottom-right element ($a \\times d$).\n2. Multiply the bottom-left element algebraically by the top-right element ($c \\times b$).\n3. Strictly subtract the second computed product from the first computed product."
 }
 }
 },
@@ -197,7 +197,7 @@
 ],
 "order": 7,
 "heading": "Determinant Property 2: Row/Column Interchanging",
-"back": "## The Algebraic Rule\nIf ANY two rows (or any two columns) of a determinant are explicitly interchanged, the final scalar value of the determinant strictly **flips its sign** (it is mathematically multiplied by $-1$).\n\n## Notation\nIf $R_1 \leftrightarrow R_2$, then $\Delta_{new} = -\Delta_{old}$.\n\n## Repeated Application\nIf you perform two distinct, sequential swaps, the sign algebraically flips twice ($-1 \times -1 = +1$), perfectly restoring the original sign of the determinant.",
+"back": "## The Algebraic Rule\nIf ANY two rows (or any two columns) of a determinant are explicitly interchanged, the final scalar value of the determinant strictly **flips its sign** (it is mathematically multiplied by $-1$).\n\n## Notation\nIf $R_1 \\leftrightarrow R_2$, then $\\Delta_{new} = -\\Delta_{old}$.\n\n## Repeated Application\nIf you perform two distinct, sequential swaps, the sign algebraically flips twice ($-1 \\times -1 = +1$), perfectly restoring the original sign of the determinant.",
 "mnemonic": "Every swap costs a minus sign.",
 "standardMeta": {
 "question": "What happens mathematically to the scalar value of a determinant if you explicitly interchange two of its rows or two of its columns?"
@@ -256,7 +256,7 @@
 ],
 "order": 9,
 "heading": "SOP: Proof of Zero Determinant for Identical Rows",
-"back": "## Step-by-Step Formal Proof\n1. Algebraically assume a determinant structurally denoted as $\Delta$ possesses two perfectly identical rows.\n2. Geometrically swap those two identical rows. By Determinant Property 2, the newly formed determinant must equal $-\Delta$.\n3. However, since the swapped rows were physically identical, the mathematical matrix hasn't changed at all. Therefore, $\Delta = -\Delta$.\n4. Algebraically rearranging this equation yields $2\Delta = 0$, which mathematically mandates that $\Delta = 0$.",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically assume a determinant structurally denoted as $\\Delta$ possesses two perfectly identical rows.\n2. Geometrically swap those two identical rows. By Determinant Property 2, the newly formed determinant must equal $-\\Delta$.\n3. However, since the swapped rows were physically identical, the mathematical matrix hasn't changed at all. Therefore, $\\Delta = -\\Delta$.\n4. Algebraically rearranging this equation yields $2\\Delta = 0$, which mathematically mandates that $\\Delta = 0$.",
 "standardMeta": {
 "question": "What is the formal 4-step algebraic proof demonstrating that a determinant with two perfectly identical rows must evaluate strictly to zero?"
 }
@@ -310,7 +310,7 @@
 ],
 "order": 11,
 "heading": "Determinant of a Scaled Matrix",
-"back": "## Component Anatomy\n- **$k$:** The external scalar multiplier applied to the matrix structure.\n- **$n$:** The exact geometric order (dimension) of the square matrix $A$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A$ must structurally be a square matrix of order $n \times n$.\n- This is a highly tested 1-mark objective question archetype across board exams and JEE.",
+"back": "## Component Anatomy\n- **$k$:** The external scalar multiplier applied to the matrix structure.\n- **$n$:** The exact geometric order (dimension) of the square matrix $A$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A$ must structurally be a square matrix of order $n \\times n$.\n- This is a highly tested 1-mark objective question archetype across board exams and JEE.",
 "mnemonic": "Scalar escapes with a power.",
 "formulaMeta": {
 "formula": "\\det(kA) = k^n \\det(A)",
@@ -340,9 +340,9 @@
 ],
 "order": 12,
 "heading": "SOP: Derivation of the Scaled Matrix Determinant",
-"back": "## Step-by-Step Formal Proof\n1. By definition, the matrix $kA$ signifies that *every* single element in the geometric $n \times n$ grid is algebraically multiplied by $k$.\n2. When converting this matrix structurally into a determinant, we must extract the common factor $k$ strictly one row at a time (via Determinant Property 4).\n3. Because the matrix inherently possesses exactly $n$ rows, we are mathematically forced to extract $k$ exactly $n$ distinct times.\n4. This continuous extraction algebraically results in $k \times k \times \dots \times k = k^n$ factoring completely outside the newly formed determinant.",
+"back": "## Step-by-Step Formal Proof\n1. By definition, the matrix $kA$ signifies that *every* single element in the geometric $n \\times n$ grid is algebraically multiplied by $k$.\n2. When converting this matrix structurally into a determinant, we must extract the common factor $k$ strictly one row at a time (via Determinant Property 4).\n3. Because the matrix inherently possesses exactly $n$ rows, we are mathematically forced to extract $k$ exactly $n$ distinct times.\n4. This continuous extraction algebraically results in $k \\times k \\times \\dots \\times k = k^n$ factoring completely outside the newly formed determinant.",
 "standardMeta": {
-"question": "What is the 4-step algebraic derivation proving the scalar extraction formula $\det(kA) = k^n \det(A)$?"
+"question": "What is the 4-step algebraic derivation proving the scalar extraction formula $\\det(kA) = k^n \\det(A)$?"
 }
 }
 },
@@ -368,7 +368,7 @@
 ],
 "order": 13,
 "heading": "Determinant Property 5: Row/Column Splitting",
-"back": "## Component Anatomy\n- If scalar elements of a single row or column are algebraically expressed as sums (e.g., $a_i + \lambda_i$).\n- The main determinant can mathematically split into a strict addition sum of two distinct determinants.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** Linearity algebraically holds **strictly one row at a time**.\n- When splitting based on one designated row, all the *other* rows MUST remain perfectly identical in both of the newly generated determinants.\n- Do NOT attempt to split multiple rows simultaneously in a single step.",
+"back": "## Component Anatomy\n- If scalar elements of a single row or column are algebraically expressed as sums (e.g., $a_i + \\lambda_i$).\n- The main determinant can mathematically split into a strict addition sum of two distinct determinants.\n\n## Boundary Conditions / Domain\n- **CRITICAL TRAP:** Linearity algebraically holds **strictly one row at a time**.\n- When splitting based on one designated row, all the *other* rows MUST remain perfectly identical in both of the newly generated determinants.\n- Do NOT attempt to split multiple rows simultaneously in a single step.",
 "formulaMeta": {
 "formula": "\\begin{vmatrix} a_1+\\lambda_1 & b_1 & c_1 \\ a_2+\\lambda_2 & b_2 & c_2 \\ a_3+\\lambda_3 & b_3 & c_3 \\end{vmatrix} = \\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \\end{vmatrix} + \\begin{vmatrix} \\lambda_1 & b_1 & c_1 \\ \\lambda_2 & b_2 & c_2 \\ \\lambda_3 & b_3 & c_3 \\end{vmatrix}",
 "description": "Property 5: The formula demonstrating how a determinant can be split into a sum of two determinants if a specific row is expressed as a sum of two terms.",
@@ -398,7 +398,7 @@
 ],
 "order": 14,
 "heading": "Determinant Property 6: Elementary Operation Invariance",
-"back": "## Component Anatomy\n- **$R_i$:** The structural target row being algebraically modified.\n- **$kR_j$:** The scaled reference row being added to the target.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $j \neq i$. You mathematically cannot add a scalar multiple of a row directly to itself as an elementary operation.\n- **Application:** This is the ultimate 'workhorse' algebraic property used to intentionally generate multiple zeros in a row/column before performing final determinant expansion.",
+"back": "## Component Anatomy\n- **$R_i$:** The structural target row being algebraically modified.\n- **$kR_j$:** The scaled reference row being added to the target.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $j \\neq i$. You mathematically cannot add a scalar multiple of a row directly to itself as an elementary operation.\n- **Application:** This is the ultimate 'workhorse' algebraic property used to intentionally generate multiple zeros in a row/column before performing final determinant expansion.",
 "mnemonic": "Adding a scaled row doesn't rock the boat.",
 "formulaMeta": {
 "formula": "R_i \\to R_i + kR_j \\implies \\Delta_{new} = \\Delta_{old}",
@@ -428,9 +428,9 @@
 ],
 "order": 15,
 "heading": "SOP: Proof of Elementary Operation Invariance",
-"back": "## Step-by-Step Formal Proof\n1. Algebraically apply the transformation $R_1 \to R_1 + kR_2$ to an initial determinant $\Delta$.\n2. By Property 5 (Row Splitting), mathematically split this newly generated determinant into a sum of two separate determinants: the original $\Delta$ plus a secondary determinant whose first row is strictly $kR_2$.\n3. In the secondary determinant, algebraically extract the scalar $k$ from $R_1$. The matrix now possesses $R_1$ and $R_2$ as identical rows.\n4. By Property 3 (Identical Rows), the secondary determinant strictly evaluates to 0. Thus, the total sum mathematically remains exactly $\Delta$.",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically apply the transformation $R_1 \\to R_1 + kR_2$ to an initial determinant $\\Delta$.\n2. By Property 5 (Row Splitting), mathematically split this newly generated determinant into a sum of two separate determinants: the original $\\Delta$ plus a secondary determinant whose first row is strictly $kR_2$.\n3. In the secondary determinant, algebraically extract the scalar $k$ from $R_1$. The matrix now possesses $R_1$ and $R_2$ as identical rows.\n4. By Property 3 (Identical Rows), the secondary determinant strictly evaluates to 0. Thus, the total sum mathematically remains exactly $\\Delta$.",
 "standardMeta": {
-"question": "What is the 4-step algebraic proof demonstrating that the elementary operation $R_i \to R_i + kR_j$ does not alter the value of a determinant?"
+"question": "What is the 4-step algebraic proof demonstrating that the elementary operation $R_i \\to R_i + kR_j$ does not alter the value of a determinant?"
 }
 }
 },
@@ -456,7 +456,7 @@
 ],
 "order": 16,
 "heading": "Determinant of a Triangular Matrix",
-"back": "## Component Anatomy\n- **$a_{11}, a_{22}, \dots, a_{nn}$:** The specific scalar elements residing exactly upon the main leading diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be an upper-triangular, lower-triangular, or pure diagonal matrix (meaning all elements either completely above or completely below the main diagonal must identically evaluate to zero).",
+"back": "## Component Anatomy\n- **$a_{11}, a_{22}, \\dots, a_{nn}$:** The specific scalar elements residing exactly upon the main leading diagonal.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be an upper-triangular, lower-triangular, or pure diagonal matrix (meaning all elements either completely above or completely below the main diagonal must identically evaluate to zero).",
 "mnemonic": "Triangles collapse to their diagonal.",
 "formulaMeta": {
 "formula": "\\det(A) = a_{11} \\cdot a_{22} \\cdots a_{nn}",
@@ -518,7 +518,7 @@
 ],
 "order": 18,
 "heading": "Area of a Triangle via Determinants",
-"back": "## Component Anatomy\n- **$(x_1, y_1), (x_2, y_2), (x_3, y_3)$:** The exact Cartesian coordinates mapping the three spatial vertices.\n- **$\frac{1}{2}$:** The standard geometric triangle area multiplier.\n- **$1, 1, 1$:** The mathematical dummy column strictly required to structurally form a valid 3x3 square matrix for determinant evaluation.\n\n## Boundary Conditions / Domain\n- **CRITICAL CONSTRAINT:** The raw algebraic evaluation of this determinant can easily yield a negative number. Because physical area is a strictly non-negative quantity, you **MUST mathematically take the absolute value** of the final determinant computation.",
+"back": "## Component Anatomy\n- **$(x_1, y_1), (x_2, y_2), (x_3, y_3)$:** The exact Cartesian coordinates mapping the three spatial vertices.\n- **$\\frac{1}{2}$:** The standard geometric triangle area multiplier.\n- **$1, 1, 1$:** The mathematical dummy column strictly required to structurally form a valid 3x3 square matrix for determinant evaluation.\n\n## Boundary Conditions / Domain\n- **CRITICAL CONSTRAINT:** The raw algebraic evaluation of this determinant can easily yield a negative number. Because physical area is a strictly non-negative quantity, you **MUST mathematically take the absolute value** of the final determinant computation.",
 "formulaMeta": {
 "formula": "\\text{Area} = \\frac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \\end{vmatrix} \\right|",
 "description": "The foundational determinant formula utilized to algebraically compute the physical area of a triangle given its three coordinate vertices.",
@@ -545,7 +545,7 @@
 ],
 "order": 19,
 "heading": "Reverse Engineering Coordinates from Triangle Area Trap",
-"back": "## The Trap Context\nWhen an exam problem explicitly provides the absolute Area of a triangle (e.g., 35 sq units) and tasks you to algebraically find an unknown vertex coordinate (like variable $k$).\n\n## The Mathematical Rule\nYou MUST algebraically equate the structural determinant formula to **BOTH the positive and negative** values of the provided area (e.g., $\Delta = \pm 35$).\n\n## Why?\nThe raw determinant computation could have internally algebraically generated $-35$ or $+35$ before the mandatory absolute value was applied. Testing only the positive case will mathematically cause you to drop a perfectly valid spatial root.",
+"back": "## The Trap Context\nWhen an exam problem explicitly provides the absolute Area of a triangle (e.g., 35 sq units) and tasks you to algebraically find an unknown vertex coordinate (like variable $k$).\n\n## The Mathematical Rule\nYou MUST algebraically equate the structural determinant formula to **BOTH the positive and negative** values of the provided area (e.g., $\\Delta = \\pm 35$).\n\n## Why?\nThe raw determinant computation could have internally algebraically generated $-35$ or $+35$ before the mandatory absolute value was applied. Testing only the positive case will mathematically cause you to drop a perfectly valid spatial root.",
 "mnemonic": "Given area? Plus/Minus it.",
 "standardMeta": {
 "question": "When algebraically solving for an unknown vertex coordinate given a specific physical triangle area, what critical step must be taken with the determinant equation to avoid dropping mathematical roots?"
@@ -664,7 +664,7 @@
 ],
 "order": 23,
 "heading": "Definition of a Minor ($M_{ij}$)",
-"back": "## Definition\nThe minor of an individual element $a_{ij}$ residing within a determinant is strictly defined as the newly formed smaller determinant obtained by physically **deleting its entire structural $i$-th row and its entire $j$-th column**.\n\n## Mathematical Notation\nUniversally denoted by the symbol $M_{ij}$.\n\n## Boundary Conditions (Order Drop)\nIf the original primary determinant is of geometric order $n$ (where $n \ge 2$), its extracted minor $M_{ij}$ is mathematically guaranteed to be a determinant of strictly order $(n - 1)$.",
+"back": "## Definition\nThe minor of an individual element $a_{ij}$ residing within a determinant is strictly defined as the newly formed smaller determinant obtained by physically **deleting its entire structural $i$-th row and its entire $j$-th column**.\n\n## Mathematical Notation\nUniversally denoted by the symbol $M_{ij}$.\n\n## Boundary Conditions (Order Drop)\nIf the original primary determinant is of geometric order $n$ (where $n \\ge 2$), its extracted minor $M_{ij}$ is mathematically guaranteed to be a determinant of strictly order $(n - 1)$.",
 "standardMeta": {
 "question": "What is the formal mathematical definition of the Minor ($M_{ij}$) of an element located inside a determinant?"
 }
@@ -722,11 +722,11 @@
 ],
 "order": 25,
 "heading": "Determinant Expansion via Cofactors",
-"back": "## Component Anatomy\n- **$a_{11}, a_{12}, a_{13}$:** The raw scalar elements extracted from the chosen row (e.g., Row 1).\n- **$A_{11}, A_{12}, A_{13}$:** Their exact mathematically corresponding cofactors.\n\n## Boundary Conditions / Domain\n- **Universal Truth:** This algebraic identity holds strictly true for ANY chosen row or ANY chosen column.\n- The mathematical sum of the products of the scalar elements of any geometric line multiplied directly with their *own* identically indexed cofactors perfectly yields the determinant $\Delta$.",
+"back": "## Component Anatomy\n- **$a_{11}, a_{12}, a_{13}$:** The raw scalar elements extracted from the chosen row (e.g., Row 1).\n- **$A_{11}, A_{12}, A_{13}$:** Their exact mathematically corresponding cofactors.\n\n## Boundary Conditions / Domain\n- **Universal Truth:** This algebraic identity holds strictly true for ANY chosen row or ANY chosen column.\n- The mathematical sum of the products of the scalar elements of any geometric line multiplied directly with their *own* identically indexed cofactors perfectly yields the determinant $\\Delta$.",
 "mnemonic": "Match the element with its own cofactor.",
 "formulaMeta": {
 "formula": "\\Delta = a_{11}A_{11} + a_{12}A_{12} + a_{13}A_{13}",
-"description": "The structural formula representing the mathematical expansion of a 3x3 determinant $\Delta$ strictly using the elements and cofactors of its first row.",
+"description": "The structural formula representing the mathematical expansion of a 3x3 determinant $\\Delta$ strictly using the elements and cofactors of its first row.",
 "derivation": ""
 }
 }
@@ -778,7 +778,7 @@
 ],
 "order": 27,
 "heading": "Definition: Adjoint of a Matrix",
-"back": "## Definition\nThe adjoint of a square matrix $A$ is formally defined as the **geometric transpose of the cofactor matrix** of $A$.\n\n## Notation\nUniversally denoted by $\\\text{adj}(A)$.\n\n## Execution\nTo build $\\\text{adj}(A)$, you must strictly compute the algebraic cofactor $A_{ij}$ for every single scalar element, structure them into a matrix grid, and then geometrically transpose the entire grid (swap rows and columns).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be a square matrix. Rectangular matrices do not possess adjoints.",
+"back": "## Definition\nThe adjoint of a square matrix $A$ is formally defined as the **geometric transpose of the cofactor matrix** of $A$.\n\n## Notation\nUniversally denoted by $\\\\text{adj}(A)$.\n\n## Execution\nTo build $\\\\text{adj}(A)$, you must strictly compute the algebraic cofactor $A_{ij}$ for every single scalar element, structure them into a matrix grid, and then geometrically transpose the entire grid (swap rows and columns).\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The matrix MUST mathematically be a square matrix. Rectangular matrices do not possess adjoints.",
 "mnemonic": "Adjoint = Cofactor Matrix flipped.",
 "standardMeta": {
 "question": "What is the formal mathematical definition and structural procedure required to generate the Adjoint of a square matrix?"
@@ -807,7 +807,7 @@
 ],
 "order": 28,
 "heading": "Theorem: The Adjoint Product",
-"back": "## Component Anatomy\n- **$A$:** A square matrix of order $n$.\n- **$\\\text{adj}(A)$:** Its corresponding generated adjoint matrix.\n- **$|A|$:** The computed scalar determinant of $A$.\n- **$I$:** The identity matrix of order $n$.\n\n## Boundary Conditions / Domain\n- **Intuitive Proof:** Multiplying row elements of $A$ with columns of $\\\text{adj}(A)$ matches elements with their *own* cofactors on the diagonal (yielding $|A|$), and matches them with *different* cofactors off-diagonal (yielding $0$).\n- The product intrinsically creates a scalar matrix where every leading diagonal element evaluates exactly to $|A|$.",
+"back": "## Component Anatomy\n- **$A$:** A square matrix of order $n$.\n- **$\\\\text{adj}(A)$:** Its corresponding generated adjoint matrix.\n- **$|A|$:** The computed scalar determinant of $A$.\n- **$I$:** The identity matrix of order $n$.\n\n## Boundary Conditions / Domain\n- **Intuitive Proof:** Multiplying row elements of $A$ with columns of $\\\\text{adj}(A)$ matches elements with their *own* cofactors on the diagonal (yielding $|A|$), and matches them with *different* cofactors off-diagonal (yielding $0$).\n- The product intrinsically creates a scalar matrix where every leading diagonal element evaluates exactly to $|A|$.",
 "formulaMeta": {
 "formula": "A(\\text{adj } A) = (\\text{adj } A)A = |A|I",
 "description": "The fundamental algebraic theorem directly linking the multiplicative product of a square matrix A and its Adjoint to its determinant and the identity matrix.",
@@ -837,7 +837,7 @@
 ],
 "order": 29,
 "heading": "Formula: Determinant of an Adjoint Matrix",
-"back": "## Component Anatomy\n- **$|A|$:** The computed scalar determinant of the original matrix.\n- **$n$:** The exact geometric order of the square matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ must be a square matrix of order $n \\\ge 2$.\n- **Shortcut Warning:** You should virtually NEVER manually compute the full adjoint grid just to find its determinant. Use this shortcut algebraically.\n- For a standard $3 \\\times 3$ matrix ($n=3$), the formula simplifies instantly to $|\\\text{adj } A| = |A|^2$.",
+"back": "## Component Anatomy\n- **$|A|$:** The computed scalar determinant of the original matrix.\n- **$n$:** The exact geometric order of the square matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ must be a square matrix of order $n \\\\ge 2$.\n- **Shortcut Warning:** You should virtually NEVER manually compute the full adjoint grid just to find its determinant. Use this shortcut algebraically.\n- For a standard $3 \\\\times 3$ matrix ($n=3$), the formula simplifies instantly to $|\\\\text{adj } A| = |A|^2$.",
 "formulaMeta": {
 "formula": "|\\text{adj } A| = |A|^{n-1}",
 "description": "The algebraic shortcut formula utilized to directly compute the scalar determinant of an adjoint matrix without building the adjoint itself.",
@@ -866,9 +866,9 @@
 ],
 "order": 30,
 "heading": "SOP: Deriving the Determinant of an Adjoint Matrix",
-"back": "## Step-by-Step Formal Proof\n1. Algebraically initiate with the fundamental Adjoint Product Theorem: $A(\\\text{adj } A) = |A|I$.\n2. Apply the mathematical determinant operation to both entire sides: $|A(\\\text{adj } A)| = ||A|I|$.\n3. Utilize the determinant product rule ($|AB| = |A||B|$) on the LHS: $|A| \\\cdot |\\\text{adj } A| = ||A|I|$.\n4. Extract the scalar quantity $|A|$ geometrically from the $n \\\times n$ identity matrix using the scalar expansion rule ($|kI| = k^n|I|$): $|A| \\\cdot |\\\text{adj } A| = |A|^n |I|$.\n5. Since the determinant of the identity matrix $|I| = 1$, divide both sides algebraically by $|A|$ to cleanly isolate the target: $|\\\text{adj } A| = |A|^{n-1}$.",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically initiate with the fundamental Adjoint Product Theorem: $A(\\\\text{adj } A) = |A|I$.\n2. Apply the mathematical determinant operation to both entire sides: $|A(\\\\text{adj } A)| = ||A|I|$.\n3. Utilize the determinant product rule ($|AB| = |A||B|$) on the LHS: $|A| \\\\cdot |\\\\text{adj } A| = ||A|I|$.\n4. Extract the scalar quantity $|A|$ geometrically from the $n \\\\times n$ identity matrix using the scalar expansion rule ($|kI| = k^n|I|$): $|A| \\\\cdot |\\\\text{adj } A| = |A|^n |I|$.\n5. Since the determinant of the identity matrix $|I| = 1$, divide both sides algebraically by $|A|$ to cleanly isolate the target: $|\\\\text{adj } A| = |A|^{n-1}$.",
 "standardMeta": {
-"question": "What is the 5-step formal algebraic proof demonstrating that the determinant of an adjoint matrix $|\\\text{adj } A|$ is equal to $|A|^{n-1}$?"
+"question": "What is the 5-step formal algebraic proof demonstrating that the determinant of an adjoint matrix $|\\\\text{adj } A|$ is equal to $|A|^{n-1}$?"
 }
 }
 },
@@ -893,7 +893,7 @@
 ],
 "order": 31,
 "heading": "Shortcut: Adjoint of a 2x2 Matrix",
-"back": "## Component Anatomy\n- **$a, d$:** The original main diagonal elements.\n- **$b, c$:** The original anti-diagonal elements.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This geometric shortcut is strictly mathematically valid ONLY for exactly $2 \\\times 2$ matrices. Attempting to apply a similar visual rule to $3 \\\times 3$ matrices will fail completely.",
+"back": "## Component Anatomy\n- **$a, d$:** The original main diagonal elements.\n- **$b, c$:** The original anti-diagonal elements.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This geometric shortcut is strictly mathematically valid ONLY for exactly $2 \\\\times 2$ matrices. Attempting to apply a similar visual rule to $3 \\\\times 3$ matrices will fail completely.",
 "mnemonic": "Swap the Main, Negate the Anti.",
 "formulaMeta": {
 "formula": "\\text{adj } A = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}",
@@ -923,7 +923,7 @@
 ],
 "order": 32,
 "heading": "Definition: Singular vs. Non-Singular Matrices",
-"back": "## Singular Matrix\nA square matrix $A$ is formally defined as **singular** if its evaluated determinant is identically zero ($|A| = 0$).\n\n## Non-Singular Matrix\nA square matrix $A$ is formally defined as **non-singular** if its evaluated determinant is strictly a non-zero value ($|A| \\\neq 0$).\n\n## Mathematical Significance\nA matrix is invertible (i.e., mathematically possesses an inverse) **if and only if** it is officially classified as a non-singular matrix. Singular matrices completely destroy independent vector information and cannot be inverted.",
+"back": "## Singular Matrix\nA square matrix $A$ is formally defined as **singular** if its evaluated determinant is identically zero ($|A| = 0$).\n\n## Non-Singular Matrix\nA square matrix $A$ is formally defined as **non-singular** if its evaluated determinant is strictly a non-zero value ($|A| \\\\neq 0$).\n\n## Mathematical Significance\nA matrix is invertible (i.e., mathematically possesses an inverse) **if and only if** it is officially classified as a non-singular matrix. Singular matrices completely destroy independent vector information and cannot be inverted.",
 "mnemonic": "Singular = Single point (Zero determinant).",
 "standardMeta": {
 "question": "What is the strict determinant-based mathematical condition that distinguishes a singular matrix from a non-singular matrix, and why is it critical for linear algebra?"
@@ -952,7 +952,7 @@
 ],
 "order": 33,
 "heading": "Inverse of a Matrix via Adjoint",
-"back": "## Component Anatomy\n- **$A^{-1}$:** The unique mathematical inverse of matrix $A$.\n- **$|A|$:** The scalar determinant of the original matrix $A$.\n- **$\\\text{adj}(A)$:** The adjoint matrix grid.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|A| \\\neq 0$. If the determinant evaluates to exactly zero, the algebraic scalar division fails, proving the matrix is singular and technically has no inverse.",
+"back": "## Component Anatomy\n- **$A^{-1}$:** The unique mathematical inverse of matrix $A$.\n- **$|A|$:** The scalar determinant of the original matrix $A$.\n- **$\\\\text{adj}(A)$:** The adjoint matrix grid.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $|A| \\\\neq 0$. If the determinant evaluates to exactly zero, the algebraic scalar division fails, proving the matrix is singular and technically has no inverse.",
 "mnemonic": "Inverse is Adjoint divided by Determinant.",
 "formulaMeta": {
 "formula": "A^{-1} = \\frac{1}{|A|} \\text{adj}(A)",
@@ -982,9 +982,9 @@
 ],
 "order": 34,
 "heading": "SOP: Proof of Inverse via Adjoint",
-"back": "## Step-by-Step Formal Proof\n1. Algebraically recall the foundational Adjoint Product Theorem: $A(\\\text{adj } A) = |A|I$.\n2. Divide both complete sides by the algebraic scalar $|A|$ (operating strictly under the constraint that $|A| \\\neq 0$): $A \\\left( \\\frac{1}{|A|} \\\text{adj } A \\\right) = I$.\n3. Leverage the fundamental definition of an inverse ($AB = I \\\implies B = A^{-1}$). Since matrix $A$ multiplied by the bracketed term yields the identity $I$, the bracketed term MUST algebraically equal $A^{-1}$.\n4. Therefore, it is conclusively proven that $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$.",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically recall the foundational Adjoint Product Theorem: $A(\\\\text{adj } A) = |A|I$.\n2. Divide both complete sides by the algebraic scalar $|A|$ (operating strictly under the constraint that $|A| \\\\neq 0$): $A \\\\left( \\\\frac{1}{|A|} \\\\text{adj } A \\\\right) = I$.\n3. Leverage the fundamental definition of an inverse ($AB = I \\\\implies B = A^{-1}$). Since matrix $A$ multiplied by the bracketed term yields the identity $I$, the bracketed term MUST algebraically equal $A^{-1}$.\n4. Therefore, it is conclusively proven that $A^{-1} = \\\\frac{1}{|A|} \\\\text{adj}(A)$.",
 "standardMeta": {
-"question": "What is the 4-step formal algebraic proof used to definitively derive the inverse matrix formula $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$?"
+"question": "What is the 4-step formal algebraic proof used to definitively derive the inverse matrix formula $A^{-1} = \\\\frac{1}{|A|} \\\\text{adj}(A)$?"
 }
 }
 },
@@ -1009,7 +1009,7 @@
 ],
 "order": 35,
 "heading": "Closed-Form Inverse of a 2x2 Matrix",
-"back": "## Component Anatomy\n- **$ad - bc$:** The expanded determinant value of the initial $2 \\\times 2$ matrix.\n- **$\\\begin{bmatrix} d & -b \\\\\\\\ -c & a \\\end{bmatrix}$:** The rapidly assembled shortcut adjoint matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $ad - bc \\\neq 0$. The geometric matrix must structurally be non-singular to permit the scalar division.",
+"back": "## Component Anatomy\n- **$ad - bc$:** The expanded determinant value of the initial $2 \\\\times 2$ matrix.\n- **$\\\\begin{bmatrix} d & -b \\\\\\\\ -c & a \\\\end{bmatrix}$:** The rapidly assembled shortcut adjoint matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $ad - bc \\\\neq 0$. The geometric matrix must structurally be non-singular to permit the scalar division.",
 "formulaMeta": {
 "formula": "A^{-1} = \\frac{1}{ad - bc} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}",
 "description": "The complete, closed-form algebraic formula utilized to rapidly calculate the inverse of a generic 2x2 matrix.",
@@ -1039,7 +1039,7 @@
 ],
 "order": 36,
 "heading": "Formula: Determinant of an Inverse Matrix",
-"back": "## Component Anatomy\n- **$|A^{-1}|$:** The evaluated scalar determinant of the fully inverted matrix.\n- **$|A|$:** The evaluated scalar determinant of the original non-inverted matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix ($|A| \\\neq 0$). Otherwise, the inverse mathematically does not exist, and the fraction is strictly undefined.",
+"back": "## Component Anatomy\n- **$|A^{-1}|$:** The evaluated scalar determinant of the fully inverted matrix.\n- **$|A|$:** The evaluated scalar determinant of the original non-inverted matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix ($|A| \\\\neq 0$). Otherwise, the inverse mathematically does not exist, and the fraction is strictly undefined.",
 "mnemonic": "Determinant of inverse is inverse of determinant.",
 "formulaMeta": {
 "formula": "|A^{-1}| = \\frac{1}{|A|}",
@@ -1069,7 +1069,7 @@
 ],
 "order": 37,
 "heading": "SOP: Proof of the Determinant of an Inverse Matrix",
-"back": "## Step-by-Step Formal Proof\n1. Algebraically start strictly with the foundational definition of an inverse matrix: $A A^{-1} = I$.\n2. Apply the determinant operation to both entire geometric sides: $|A A^{-1}| = |I|$.\n3. Apply the determinant product separation rule ($|AB| = |A||B|$) and recognize that the determinant of an identity matrix $|I| = 1$. The equation becomes: $|A| \\\cdot |A^{-1}| = 1$.\n4. Algebraically divide by $|A|$ to isolate the target: $|A^{-1}| = \\\frac{1}{|A|}$.",
+"back": "## Step-by-Step Formal Proof\n1. Algebraically start strictly with the foundational definition of an inverse matrix: $A A^{-1} = I$.\n2. Apply the determinant operation to both entire geometric sides: $|A A^{-1}| = |I|$.\n3. Apply the determinant product separation rule ($|AB| = |A||B|$) and recognize that the determinant of an identity matrix $|I| = 1$. The equation becomes: $|A| \\\\cdot |A^{-1}| = 1$.\n4. Algebraically divide by $|A|$ to isolate the target: $|A^{-1}| = \\\\frac{1}{|A|}$.",
 "standardMeta": {
 "question": "What is the 4-step formal mathematical proof demonstrating that the determinant of an inverse matrix evaluates to exactly $1/|A|$?"
 }
@@ -1096,7 +1096,7 @@
 ],
 "order": 38,
 "heading": "Formula: Adjoint of an Adjoint Matrix",
-"back": "## Component Anatomy\n- **$|A|^{n-2}$:** The determinant raised strictly to the geometric order minus two, mathematically acting purely as a scalar multiplier.\n- **$A$:** The original initial matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix of order $n \\\ge 2$.\n- **Derivation Logic:** It is derived algebraically from replacing $A$ with $\\\text{adj } A$ in the standard adjoint product theorem and substituting $|\\\text{adj } A| = |A|^{n-1}$.\n- This is heavily tested as an immediate shortcut in JEE objective formats.",
+"back": "## Component Anatomy\n- **$|A|^{n-2}$:** The determinant raised strictly to the geometric order minus two, mathematically acting purely as a scalar multiplier.\n- **$A$:** The original initial matrix.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** Matrix $A$ MUST be a non-singular square matrix of order $n \\\\ge 2$.\n- **Derivation Logic:** It is derived algebraically from replacing $A$ with $\\\\text{adj } A$ in the standard adjoint product theorem and substituting $|\\\\text{adj } A| = |A|^{n-1}$.\n- This is heavily tested as an immediate shortcut in JEE objective formats.",
 "mnemonic": "Double adjoint scales the original.",
 "formulaMeta": {
 "formula": "\\text{adj}(\\text{adj } A) = |A|^{n-2} A",
@@ -1188,7 +1188,7 @@
 ],
 "order": 41,
 "heading": "Matrix Method: Solving for a Unique Solution",
-"back": "## Component Anatomy\n- **$X$:** The targeted solution column matrix housing the evaluated values of the variables.\n- **$A^{-1}$:** The inverse of the structural coefficient matrix.\n- **$B$:** The column matrix containing the equation constants.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This unique exact solution mathematically ONLY exists if matrix $A$ is non-singular ($|A| \\\neq 0$).",
+"back": "## Component Anatomy\n- **$X$:** The targeted solution column matrix housing the evaluated values of the variables.\n- **$A^{-1}$:** The inverse of the structural coefficient matrix.\n- **$B$:** The column matrix containing the equation constants.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** This unique exact solution mathematically ONLY exists if matrix $A$ is non-singular ($|A| \\\\neq 0$).",
 "mnemonic": "X marks the spot, Inverse hits the B.",
 "formulaMeta": {
 "formula": "X = A^{-1}B",
@@ -1218,7 +1218,7 @@
 ],
 "order": 42,
 "heading": "SOP: Solving a System via Matrix Method",
-"back": "## Algorithmic SOP\n1. Algebraically compute the exact determinant $\\\Delta = |A|$. Strictly verify it evaluates to a non-zero number.\n2. Build the full geometric adjoint matrix $\\\text{adj}(A)$ by calculating and transposing all corresponding cofactors.\n3. Algebraically calculate the inverse matrix utilizing $A^{-1} = \\\frac{1}{|A|} \\\text{adj}(A)$.\n4. Execute formal matrix dot-product multiplication specifically between the square matrix $A^{-1}$ and the column matrix $B$.\n5. Geometrically equate the newly computed elements within the resultant column directly to the variable elements located in column matrix $X$.",
+"back": "## Algorithmic SOP\n1. Algebraically compute the exact determinant $\\\\Delta = |A|$. Strictly verify it evaluates to a non-zero number.\n2. Build the full geometric adjoint matrix $\\\\text{adj}(A)$ by calculating and transposing all corresponding cofactors.\n3. Algebraically calculate the inverse matrix utilizing $A^{-1} = \\\\frac{1}{|A|} \\\\text{adj}(A)$.\n4. Execute formal matrix dot-product multiplication specifically between the square matrix $A^{-1}$ and the column matrix $B$.\n5. Geometrically equate the newly computed elements within the resultant column directly to the variable elements located in column matrix $X$.",
 "standardMeta": {
 "question": "What is the 5-step Standard Operating Procedure (SOP) utilized to fully solve a 3x3 system of linear equations using the standard Matrix Method?"
 }
@@ -1243,7 +1243,7 @@
 ],
 "order": 43,
 "heading": "Consistency Test: Inconsistent System (No Solution)",
-"back": "## The Setup\nGiven the system $AX = B$, you algorithmically evaluate the coefficient matrix to find it is purely singular ($|A| = 0$).\n\n## The Secondary Test\nYou MUST then compute the specific matrix product **$(\\\text{adj } A)B$**.\n\n## The Failure Condition\nIf $(\\\text{adj } A)B \\\neq O$ (meaning the mathematical product does NOT yield a pure zero matrix), then the system is strictly classified as **inconsistent**.\n\n## Physical Result\nThe algebraic system possesses absolutely **no solution** (this is the geometric equivalent of physically parallel, non-intersecting planes or lines).",
+"back": "## The Setup\nGiven the system $AX = B$, you algorithmically evaluate the coefficient matrix to find it is purely singular ($|A| = 0$).\n\n## The Secondary Test\nYou MUST then compute the specific matrix product **$(\\\\text{adj } A)B$**.\n\n## The Failure Condition\nIf $(\\\\text{adj } A)B \\\\neq O$ (meaning the mathematical product does NOT yield a pure zero matrix), then the system is strictly classified as **inconsistent**.\n\n## Physical Result\nThe algebraic system possesses absolutely **no solution** (this is the geometric equivalent of physically parallel, non-intersecting planes or lines).",
 "mnemonic": "Determinant zero, Adjoint-B non-zero = Broken system.",
 "standardMeta": {
 "question": "What is the mandatory two-part mathematical test required to definitively algebraically prove that a system of linear equations is inconsistent and possesses no solution?"
@@ -1269,7 +1269,7 @@
 ],
 "order": 44,
 "heading": "Consistency Test: Infinite Solutions",
-"back": "## The Setup\nGiven the specific system $AX = B$, you mathematically evaluate the coefficient matrix and determine it is singular ($|A| = 0$).\n\n## The Secondary Test\nYou execute the computation for the product **$(\\\text{adj } A)B$**.\n\n## The Overlap Condition\nIf $(\\\text{adj } A)B = O$ (meaning it perfectly yields a pure zero matrix), then the system may be logically either **consistent (with infinitely many solutions)** or strictly inconsistent.\n\n## Physical Result\nWithin standard NCERT boundaries, this evaluation primarily models structurally overlapping lines or planes, predictably yielding mathematically infinite distinct solutions.",
+"back": "## The Setup\nGiven the specific system $AX = B$, you mathematically evaluate the coefficient matrix and determine it is singular ($|A| = 0$).\n\n## The Secondary Test\nYou execute the computation for the product **$(\\\\text{adj } A)B$**.\n\n## The Overlap Condition\nIf $(\\\\text{adj } A)B = O$ (meaning it perfectly yields a pure zero matrix), then the system may be logically either **consistent (with infinitely many solutions)** or strictly inconsistent.\n\n## Physical Result\nWithin standard NCERT boundaries, this evaluation primarily models structurally overlapping lines or planes, predictably yielding mathematically infinite distinct solutions.",
 "mnemonic": "Double Zero (Det=0, Product=0) = Infinite possibilities.",
 "standardMeta": {
 "question": "Under what precise two-part mathematical condition is a singular system of linear equations heavily considered to possess infinitely many valid solutions?"
@@ -1324,7 +1324,7 @@
 ],
 "order": 46,
 "heading": "Bounding the Determinant of a Trigonometric Matrix",
-"back": "## Component Anatomy\n- **$\\\theta$:** The pure angular variable strictly bounded by $0 \\\le \\\theta \\\le 2\\\pi$.\n- **$1 + \\\sin^2\\\theta$:** The algebraically derived determinant core structure.\n\n## Boundary Conditions / Domain\n- Because the algebraic constraint $0 \\\le \\\sin^2\\\theta \\\le 1$ universally holds true, the scaled mathematical expression $2(1 + \\\sin^2\\\theta)$ must strictly reside within the closed interval $[2, 4]$.\n- This specific matrix forms a highly tested, classic Miscellaneous Exercise objective archetype.",
+"back": "## Component Anatomy\n- **$\\\\theta$:** The pure angular variable strictly bounded by $0 \\\\le \\\\theta \\\\le 2\\\\pi$.\n- **$1 + \\\\sin^2\\\\theta$:** The algebraically derived determinant core structure.\n\n## Boundary Conditions / Domain\n- Because the algebraic constraint $0 \\\\le \\\\sin^2\\\\theta \\\\le 1$ universally holds true, the scaled mathematical expression $2(1 + \\\\sin^2\\\\theta)$ must strictly reside within the closed interval $[2, 4]$.\n- This specific matrix forms a highly tested, classic Miscellaneous Exercise objective archetype.",
 "formulaMeta": {
 "formula": "\\det(A) \\in [2, 4]",
 "description": "Given the specific matrix A consisting of 1s and ±sin(\u03b8), this dictates the strict bounded interval range of its evaluated determinant.",
@@ -1353,9 +1353,9 @@
 ],
 "order": 47,
 "heading": "SOP: Bounding a Trigonometric Determinant",
-"back": "## Derivation SOP\n1. Algebraically expand the raw determinant along $R_1$: $1(1 + \\\sin^2\\\theta) - \\\sin\\\theta(-\\\sin\\\theta + \\\sin\\\theta) + 1(\\\sin^2\\\theta + 1)$.\n2. Note that the entire middle trigonometric term perfectly cancels out to 0.\n3. Algebraically combine the remaining outer terms: $(1 + \\\sin^2\\\theta) + (1 + \\\sin^2\\\theta) = 2(1 + \\\sin^2\\\theta)$.\n4. Apply the fundamental trigonometric mathematical bound: $0 \\\le \\\sin^2\\\theta \\\le 1$.\n5. Algebraically multiply the entire bounded inequality by 2 to finalize: $2 \\\le 2(1+\\\sin^2\\\theta) \\\le 4$.",
+"back": "## Derivation SOP\n1. Algebraically expand the raw determinant along $R_1$: $1(1 + \\\\sin^2\\\\theta) - \\\\sin\\\\theta(-\\\\sin\\\\theta + \\\\sin\\\\theta) + 1(\\\\sin^2\\\\theta + 1)$.\n2. Note that the entire middle trigonometric term perfectly cancels out to 0.\n3. Algebraically combine the remaining outer terms: $(1 + \\\\sin^2\\\\theta) + (1 + \\\\sin^2\\\\theta) = 2(1 + \\\\sin^2\\\\theta)$.\n4. Apply the fundamental trigonometric mathematical bound: $0 \\\\le \\\\sin^2\\\\theta \\\\le 1$.\n5. Algebraically multiply the entire bounded inequality by 2 to finalize: $2 \\\\le 2(1+\\\\sin^2\\\\theta) \\\\le 4$.",
 "standardMeta": {
-"question": "What is the explicit 5-step algebraic procedure used to evaluate and mathematically bound the determinant interval for the matrix $A$ containing $\\\sin\\\theta$ and $1$s?"
+"question": "What is the explicit 5-step algebraic procedure used to evaluate and mathematically bound the determinant interval for the matrix $A$ containing $\\\\sin\\\\theta$ and $1$s?"
 }
 }
 },
@@ -1380,7 +1380,7 @@
 ],
 "order": 48,
 "heading": "Evaluation: Cyclic Difference Determinant",
-"back": "## The Property\nA highly tested cyclic difference determinant structure always evaluates strictly to **zero**.\n\n## The Matrix Pattern\nThe explicit structure $\\\begin{vmatrix} a-b & b-c & c-a \\\\ b-c & c-a & a-b \\\\ c-a & a-b & b-c \\\end{vmatrix}$ perfectly collapses to $0$.\n\n## Derivation Logic\nBy cleanly applying the elementary algebraic column operation $C_1 \\\to C_1 + C_2 + C_3$, every single element residing in the first geometric column becomes exactly $(a-b) + (b-c) + (c-a) = 0$. Because an entire column mathematically zeroes out, the entire determinant formally collapses to zero.",
+"back": "## The Property\nA highly tested cyclic difference determinant structure always evaluates strictly to **zero**.\n\n## The Matrix Pattern\nThe explicit structure $\\\\begin{vmatrix} a-b & b-c & c-a \\\\ b-c & c-a & a-b \\\\ c-a & a-b & b-c \\\\end{vmatrix}$ perfectly collapses to $0$.\n\n## Derivation Logic\nBy cleanly applying the elementary algebraic column operation $C_1 \\\\to C_1 + C_2 + C_3$, every single element residing in the first geometric column becomes exactly $(a-b) + (b-c) + (c-a) = 0$. Because an entire column mathematically zeroes out, the entire determinant formally collapses to zero.",
 "mnemonic": "Cyclic differences cancel to zero.",
 "standardMeta": {
 "question": "What is the standard algebraic value of the cyclic difference determinant formed entirely by the rows (a-b, b-c, c-a), (b-c, c-a, a-b), and (c-a, a-b, b-c)?"
@@ -1441,7 +1441,7 @@
 ],
 "order": 50,
 "heading": "SOP: Deriving the Cyclic Permutations Condition",
-"back": "## Step-by-Step Formal Proof\n1. Apply the algebraic column transformation $C_1 \\\to C_1 + C_2 + C_3$. The first column identically becomes $2(a+b+c)$.\n2. Extract the common scalar factor $2(a+b+c)$ fully out of the determinant.\n3. Expand the remaining modified 3x3 determinant to extract the trailing quadratic algebraic factor: $-(a^2+b^2+c^2-ab-bc-ca)$.\n4. Algebraically multiply the entire expression by an artificial $-2$ strictly to force the formation of perfect squares: $(a-b)^2 + (b-c)^2 + (c-a)^2$.\n5. The final factored product is exactly $-(a+b+c)[(a-b)^2 + (b-c)^2 + (c-a)^2] = 0$.\n6. Consequently, by the Zero Product Property, either $(a+b+c)=0$, or all the squared differences must equal 0 simultaneously (strictly implying $a=b=c$).",
+"back": "## Step-by-Step Formal Proof\n1. Apply the algebraic column transformation $C_1 \\\\to C_1 + C_2 + C_3$. The first column identically becomes $2(a+b+c)$.\n2. Extract the common scalar factor $2(a+b+c)$ fully out of the determinant.\n3. Expand the remaining modified 3x3 determinant to extract the trailing quadratic algebraic factor: $-(a^2+b^2+c^2-ab-bc-ca)$.\n4. Algebraically multiply the entire expression by an artificial $-2$ strictly to force the formation of perfect squares: $(a-b)^2 + (b-c)^2 + (c-a)^2$.\n5. The final factored product is exactly $-(a+b+c)[(a-b)^2 + (b-c)^2 + (c-a)^2] = 0$.\n6. Consequently, by the Zero Product Property, either $(a+b+c)=0$, or all the squared differences must equal 0 simultaneously (strictly implying $a=b=c$).",
 "standardMeta": {
 "question": "What is the 6-step algebraic derivation utilized to prove that if the cyclic sum determinant of a, b, c equals zero, then either a+b+c=0 or a=b=c?"
 }
@@ -1466,7 +1466,7 @@
 ],
 "order": 51,
 "heading": "Arithmetic Progression (A.P.) Determinant Trick",
-"back": "## The Setup\nA determinant where rows or columns contain linear terms whose constants are consecutive terms of an Arithmetic Progression (e.g., $x+2a, x+2b, x+2c$ where $a,b,c$ are in A.P.).\n\n## The Value\nThe determinant evaluates exactly to **0**.\n\n## Execution Logic\nApply the elementary row operation $R_1 \to R_1 + R_3 - 2R_2$. Because $a, b, c$ are strictly in A.P., the defining property $a + c - 2b = 0$ causes the A.P. terms to perfectly cancel out. The locus variables (like $x$) also cancel ($x + x - 2x = 0$), mathematically leaving an entire row of pure zeros.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The variables $a, b, c$ must form a valid real Arithmetic Progression.",
+"back": "## The Setup\nA determinant where rows or columns contain linear terms whose constants are consecutive terms of an Arithmetic Progression (e.g., $x+2a, x+2b, x+2c$ where $a,b,c$ are in A.P.).\n\n## The Value\nThe determinant evaluates exactly to **0**.\n\n## Execution Logic\nApply the elementary row operation $R_1 \\to R_1 + R_3 - 2R_2$. Because $a, b, c$ are strictly in A.P., the defining property $a + c - 2b = 0$ causes the A.P. terms to perfectly cancel out. The locus variables (like $x$) also cancel ($x + x - 2x = 0$), mathematically leaving an entire row of pure zeros.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** The variables $a, b, c$ must form a valid real Arithmetic Progression.",
 "mnemonic": "A.P. in the rows makes the determinant zero.",
 "standardMeta": {
 "question": "If a, b, and c are strictly in Arithmetic Progression, what is the value of a determinant containing rows of the form (x+2a), (x+2b), (x+2c), and how is it algebraically derived?"
@@ -1520,7 +1520,7 @@
 ],
 "order": 53,
 "heading": "Inverse of a Diagonal Matrix",
-"back": "## Component Anatomy\n- **$x, y, z$:** The non-zero scalar elements resting exclusively on the main geometric diagonal.\n- **$x^{-1}, y^{-1}, z^{-1}$:** Their respective independent mathematical reciprocals.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \neq 0, y \neq 0, z \neq 0$. If any single diagonal element evaluates to exactly zero, the overall matrix is singular ($|A| = 0$) and the inverse mathematically does not exist.",
+"back": "## Component Anatomy\n- **$x, y, z$:** The non-zero scalar elements resting exclusively on the main geometric diagonal.\n- **$x^{-1}, y^{-1}, z^{-1}$:** Their respective independent mathematical reciprocals.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $x \\neq 0, y \\neq 0, z \\neq 0$. If any single diagonal element evaluates to exactly zero, the overall matrix is singular ($|A| = 0$) and the inverse mathematically does not exist.",
 "mnemonic": "Just flip the diagonal.",
 "formulaMeta": {
 "formula": "A^{-1} = \\begin{bmatrix} x^{-1} & 0 & 0 \\\\ 0 & y^{-1} & 0 \\\\ 0 & 0 & z^{-1} \\end{bmatrix}",
@@ -1550,7 +1550,7 @@
 ],
 "order": 54,
 "heading": "SOP: Deriving the Inverse of a Diagonal Matrix",
-"back": "## Step-by-Step Formal Proof\n1. The mathematical determinant of a diagonal matrix is strictly the product of its diagonal elements: $|A| = xyz$.\n2. The computed cofactor matrix of a diagonal matrix inherently remains a diagonal matrix, specifically populated with elements $yz, xz, xy$.\n3. The adjoint is geometrically the transpose of the cofactor matrix. Since it is diagonal, transposing it leaves it structurally unchanged.\n4. Divide the adjoint algebraically by $|A|$: $\frac{yz}{xyz} = x^{-1}$, $\frac{xz}{xyz} = y^{-1}$, $\frac{xy}{xyz} = z^{-1}$.",
+"back": "## Step-by-Step Formal Proof\n1. The mathematical determinant of a diagonal matrix is strictly the product of its diagonal elements: $|A| = xyz$.\n2. The computed cofactor matrix of a diagonal matrix inherently remains a diagonal matrix, specifically populated with elements $yz, xz, xy$.\n3. The adjoint is geometrically the transpose of the cofactor matrix. Since it is diagonal, transposing it leaves it structurally unchanged.\n4. Divide the adjoint algebraically by $|A|$: $\\frac{yz}{xyz} = x^{-1}$, $\\frac{xz}{xyz} = y^{-1}$, $\\frac{xy}{xyz} = z^{-1}$.",
 "standardMeta": {
 "question": "What is the 4-step formal algebraic procedure demonstrating why the inverse of a diagonal matrix simply reciprocates its diagonal elements?"
 }
@@ -1609,7 +1609,7 @@
 ],
 "order": 56,
 "heading": "SOP: Deriving the Equilateral Triangle Area Identity",
-"back": "## Step-by-Step Formal Proof\n1. Establish the standard determinant formula for the area of a coordinate triangle: $\Delta = \frac{1}{2} \begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \end{vmatrix}$.\n2. Establish the standard pure geometric area for a structurally equilateral triangle: $\Delta = \frac{\sqrt{3}}{4} a^2$.\n3. Equate both mathematically: $\frac{1}{2} \text{Det} = \frac{\sqrt{3}}{4} a^2$.\n4. Algebraically multiply both sides by 2 to isolate the determinant: $\text{Det} = \frac{\sqrt{3}}{2} a^2$.\n5. Square both entire sides algebraically to completely eliminate the radical and finalize the identity: $\text{Det}^2 = \frac{3}{4} a^4$.",
+"back": "## Step-by-Step Formal Proof\n1. Establish the standard determinant formula for the area of a coordinate triangle: $\\Delta = \\frac{1}{2} \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}$.\n2. Establish the standard pure geometric area for a structurally equilateral triangle: $\\Delta = \\frac{\\sqrt{3}}{4} a^2$.\n3. Equate both mathematically: $\\frac{1}{2} \\text{Det} = \\frac{\\sqrt{3}}{4} a^2$.\n4. Algebraically multiply both sides by 2 to isolate the determinant: $\\text{Det} = \\frac{\\sqrt{3}}{2} a^2$.\n5. Square both entire sides algebraically to completely eliminate the radical and finalize the identity: $\\text{Det}^2 = \\frac{3}{4} a^4$.",
 "standardMeta": {
 "question": "What is the 5-step algebraic derivation linking the standard coordinate determinant formula to the purely geometric area of an equilateral triangle?"
 }
@@ -1637,7 +1637,7 @@
 ],
 "order": 57,
 "heading": "Trigonometric Determinant for Isosceles Triangle",
-"back": "## The Setup\nGiven a valid geometric triangle $ABC$ with angles $A, B, C$, and the determinant algebraic condition $\begin{vmatrix} 1 & \cos C & \cos B \\\\ \cos C & 1 & \cos A \\\\ \cos B & \cos A & 1 \end{vmatrix} = 0$.\n\n## The Conclusion\nThe triangle must structurally strictly be an **Isosceles Triangle**.\n\n## Execution Logic\nExpanding this 3x3 determinant yields the scalar expression $1 - \cos^2 A - \cos^2 B - \cos^2 C + 2\cos A \cos B \cos C = 0$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A, B, C > 0$ and $A+B+C = \pi$ (sum of angles in a triangle).\n- Under these precise trigonometric bounds, the algebraic expression uniquely factors into conditions where at least two interior angles must be perfectly equal (e.g., $\cos A = \cos B$).",
+"back": "## The Setup\nGiven a valid geometric triangle $ABC$ with angles $A, B, C$, and the determinant algebraic condition $\\begin{vmatrix} 1 & \\cos C & \\cos B \\\\ \\cos C & 1 & \\cos A \\\\ \\cos B & \\cos A & 1 \\end{vmatrix} = 0$.\n\n## The Conclusion\nThe triangle must structurally strictly be an **Isosceles Triangle**.\n\n## Execution Logic\nExpanding this 3x3 determinant yields the scalar expression $1 - \\cos^2 A - \\cos^2 B - \\cos^2 C + 2\\cos A \\cos B \\cos C = 0$.\n\n## Boundary Conditions / Domain\n- **Strict Constraint:** $A, B, C > 0$ and $A+B+C = \\pi$ (sum of angles in a triangle).\n- Under these precise trigonometric bounds, the algebraic expression uniquely factors into conditions where at least two interior angles must be perfectly equal (e.g., $\\cos A = \\cos B$).",
 "mnemonic": "Cosine matrix zero = Isosceles.",
 "standardMeta": {
 "question": "If the determinant of the 3x3 matrix composed of 1s on the main diagonal and the cosines of the angles of a triangle off-diagonal equals identically 0, what specific type of triangle is formed?"
